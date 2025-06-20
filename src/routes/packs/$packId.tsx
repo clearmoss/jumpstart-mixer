@@ -10,16 +10,16 @@ export const Route = createFileRoute("/packs/$packId")({
     const pack = packIndex.find((pack) => pack.publicId === params.packId);
     if (pack === undefined) {
       return {
-        pack: null,
-        publicId: null,
+        pack: undefined,
+        publicId: undefined,
       };
     }
 
     const fetchedPack = await fetchPack(pack);
     if (fetchedPack === null) {
       return {
-        pack: null,
-        publicId: null,
+        pack: undefined,
+        publicId: undefined,
       };
     }
 

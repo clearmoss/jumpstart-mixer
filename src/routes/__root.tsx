@@ -22,7 +22,11 @@ export const Route = createRootRoute({
           <Link to="/packs" className="[&.active]:font-bold">
             Packs
           </Link>
-          <Link to="/mixer" className="[&.active]:font-bold">
+          <Link
+            to="/mixer"
+            search={{ packId1: undefined, packId2: undefined }}
+            className="[&.active]:font-bold"
+          >
             Mixer
           </Link>
           {/*<Link*/}

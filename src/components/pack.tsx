@@ -14,10 +14,10 @@ function Pack({
   pack,
   publicId,
 }: {
-  pack: Deck | null;
-  publicId: string | null;
+  pack: Deck | undefined;
+  publicId: string | undefined;
 }) {
-  if (pack === null || publicId === null) {
+  if (pack === undefined || publicId === undefined) {
     return <div>Pack data unavailable.</div>;
   }
 
