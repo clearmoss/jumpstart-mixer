@@ -1,5 +1,4 @@
 // noinspection JSUnusedGlobalSymbols
-
 export type BoosterConfig = {
   boosters: BoosterPack[];
   boostersTotalWeight: number;
@@ -624,4 +623,12 @@ export type VintageFile = { meta: Meta; data: Record<string, CardSet> };
 export type VintageAtomicFile = {
   meta: Meta;
   data: Record<string, CardAtomic>;
+};
+export type PackFile = {
+  meta: Meta;
+  data: Deck;
+};
+export type PackIndexData = {
+  publicId: string;
+  url: string;
 };

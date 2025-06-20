@@ -5,19 +5,25 @@ import { ThemeToggle } from "@/components/theme-toggle.tsx";
 export const Route = createRootRoute({
   component: () => (
     <>
-      <div className="bg-orange-500 py-2 px-4 flex justify-between items-center">
-        <div className="flex gap-4">
-          <Link to="/" className="[&.active]:font-bold">
-            Home
-          </Link>{" "}
+      <div className="flex items-baseline justify-between bg-orange-500 px-4 py-2">
+        <div className="flex items-baseline gap-4">
+          <Link
+            to="/"
+            className="cursor-pointer bg-gradient-to-br from-yellow-100 to-orange-300 bg-clip-text text-2xl tracking-widest text-transparent opacity-[.85] brightness-125 drop-shadow-sm transition duration-500 ease-in-out select-none hover:opacity-100"
+          >
+            Jumpstart Mixer
+          </Link>
           <Link to="/about" className="[&.active]:font-bold">
             About
           </Link>
           <Link to="/test" className="[&.active]:font-bold">
             Test
-          </Link>{" "}
+          </Link>
           <Link to="/packs" className="[&.active]:font-bold">
             Packs
+          </Link>
+          <Link to="/mixer" className="[&.active]:font-bold">
+            Mixer
           </Link>
           {/*<Link*/}
           {/*  to="/posts"*/}
@@ -32,7 +38,7 @@ export const Route = createRootRoute({
         <ThemeToggle />
       </div>
       <hr />
-      <div className="bg-orange-300 p-4">
+      <div className="p-4">
         <Outlet />
       </div>
       <TanStackRouterDevtools />

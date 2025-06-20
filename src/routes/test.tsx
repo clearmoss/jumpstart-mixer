@@ -18,7 +18,7 @@ function RouteComponent() {
 
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="text-3xl">Vite + React</h1>
+      <h1 className="pb-8 text-3xl">Vite + React</h1>
       <Button
         className="max-w-fit cursor-pointer"
         variant="destructive"
@@ -27,7 +27,7 @@ function RouteComponent() {
         count is {count}
       </Button>
       <motion.div
-        className="w-16 h-16 bg-primary"
+        className="bg-primary h-16 w-16"
         initial={{ scale: 0 }}
         animate={{ rotate: 360, scale: 1 }}
         transition={{ duration: 1 }}
