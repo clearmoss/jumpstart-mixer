@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import path from "path";
 import tailwindcss from "@tailwindcss/vite";
+import { BASEPATH } from "./src/lib/utils.ts";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -15,6 +16,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: BASEPATH,
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

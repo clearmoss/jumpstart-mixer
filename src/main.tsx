@@ -6,9 +6,10 @@ import "./main.css";
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
 import { ThemeProvider } from "@/components/theme-provider.tsx";
+import { BASEPATH } from "@/lib/utils.ts";
 
 // Create a new router instance
-const router = createRouter({ routeTree });
+const router = createRouter({ routeTree, basepath: BASEPATH });
 
 // Register the router instance for type safety
 declare module "@tanstack/react-router" {

@@ -48,4 +48,5 @@ export const Route = createRootRoute({
       <TanStackRouterDevtools />
     </>
   ),
+  notFoundComponent: () => <div>404 Not Found</div>,
 });

@@ -49,12 +49,13 @@ function RouteComponent() {
     }
 
     navigate({
+      to: "/mixer",
       search: {
         packId1: packs[randomIndex1].meta.publicId,
         packId2: packs[randomIndex2].meta.publicId,
       },
       replace: true, // Replace the current history entry
-    });
+    }).then();
   }, [packs, navigate]);
 
   // run mixPacks after render if no search params
