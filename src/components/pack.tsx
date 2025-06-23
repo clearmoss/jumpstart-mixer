@@ -1,7 +1,7 @@
-import type { Deck } from "@/lib/types.ts";
+import type { ClipboardCard, Deck } from "@/lib/types.ts";
 import {
   Card,
-  // CardAction,
+  CardAction,
   CardContent,
   CardDescription,
   // CardFooter,
@@ -9,6 +9,10 @@ import {
   CardTitle,
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
+import { Button } from "@/components/ui/button.tsx";
+import { Clipboard } from "lucide-react";
+import { makeDeckListString, populateDeckList } from "@/lib/utils.ts";
+import { useEffect, useState } from "react";
 
 function Pack({
   pack,
@@ -17,25 +21,53 @@ function Pack({
   pack: Deck | undefined;
   publicId: string | undefined;
 }) {
+  const [currentDeckList, setCurrentDeckList] = useState("");
+
+  useEffect(() => {
+    if (pack) {
+      const deckList: ClipboardCard[] = [];
+      populateDeckList(pack, deckList);
+      setCurrentDeckList(makeDeckListString(deckList));
+    }
+  }, [pack]);
+
   if (pack === undefined || publicId === undefined) {
     return <div>Pack data unavailable.</div>;
   }
 
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(currentDeckList);
+    } catch (err) {
+      console.error("Failed to copy to clipboard:", err);
+    }
+  };
+
   return (
     <Card className="bg-card">
-      <Link
-        to="/packs/$packId"
-        params={{
-          packId: publicId,
-        }}
-      >
-        <CardHeader>
+      <CardHeader>
+        <Link
+          to="/packs/$packId"
+          params={{
+            packId: publicId,
+          }}
+        >
           {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
           <CardTitle>{pack.name.replace(/\((\d+)\)/g, "$1")}</CardTitle>
           <CardDescription>{pack.code}</CardDescription>
-          {/*<CardAction>Card Action</CardAction>*/}
-        </CardHeader>
-      </Link>
+        </Link>
+        <CardAction>
+          <Button
+            size="sm"
+            variant="secondary"
+            onClick={copyToClipboard}
+            className="cursor-pointer"
+          >
+            <Clipboard />
+          </Button>
+        </CardAction>
+      </CardHeader>
+
       <CardContent className="flex flex-col gap-2">
         <ul>
           {pack.mainBoard.map((card) => (
@@ -46,7 +78,7 @@ function Pack({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {card.name} x{card.count}
+                {card.count} {card.name}
               </a>
             </li>
           ))}

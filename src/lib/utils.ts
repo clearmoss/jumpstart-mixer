@@ -1,6 +1,12 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
-import type { PackFile, PackIndexData } from "./types";
+import type {
+  CardDeck,
+  ClipboardCard,
+  Deck,
+  PackFile,
+  PackIndexData,
+} from "./types";
 
 const ERROR_MESSAGES = {
   UNKNOWN_PARSE: "An unknown error occurred while parsing data.",
@@ -48,6 +54,31 @@ export async function fetchAllPacks(): Promise<PackFile[]> {
   }[];
 
   return fetchedPacks.map((item) => item.packFile);
+}
+
+export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
+  // TODO: handle different versions of cards with same name
+  for (const cardDeck of pack.mainBoard as CardDeck[]) {
+    const existingCard = deckList.find((card) => card.name === cardDeck.name);
+    if (existingCard) {
+      existingCard.count += cardDeck.count;
+    } else {
+      deckList.push({
+        count: cardDeck.count,
+        name: cardDeck.name,
+        setCode: cardDeck.setCode,
+        number: cardDeck.number,
+      });
+    }
+  }
+}
+
+export function makeDeckListString(deckList: ClipboardCard[]) {
+  let deckListString = "";
+  for (const card of deckList) {
+    deckListString += `${card.count} ${card.name} (${card.setCode}) ${card.number}\n`;
+  }
+  return deckListString;
 }
 
 export function handleError(err: unknown): string {

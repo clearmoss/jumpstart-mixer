@@ -1,9 +1,14 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { CardDeck, PackFile } from "@/lib/types.ts";
-import { fetchAllPacks, handleError } from "@/lib/utils.ts";
+import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import {
+  fetchAllPacks,
+  handleError,
+  makeDeckListString,
+  populateDeckList,
+} from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Clipboard, Shuffle } from "lucide-react";
 
 export const Route = createFileRoute("/mixer/")({
@@ -34,7 +39,6 @@ function RouteComponent() {
   const navigate = useNavigate({ from: Route.fullPath });
   const { packId1, packId2 } = Route.useSearch();
   const { packs } = Route.useLoaderData();
-  const textAreaRef = useRef<HTMLTextAreaElement>(null);
   const [currentDeckList, setCurrentDeckList] = useState("");
 
   const mixPacks = useCallback(() => {
@@ -78,51 +82,10 @@ function RouteComponent() {
     // TODO: error handling if not found in packs
     if (!pack1 || !pack2) return;
 
-    interface ClipboardCard {
-      count: number;
-      name: string;
-      setCode: string;
-      number: string;
-    }
-
     const deckList: ClipboardCard[] = [];
-
-    // TODO: handle different versions of cards with same name
-
-    for (const cardDeck of pack1.data.mainBoard as CardDeck[]) {
-      const existingCard = deckList.find((card) => card.name === cardDeck.name);
-      if (existingCard) {
-        existingCard.count += cardDeck.count;
-      } else {
-        deckList.push({
-          count: cardDeck.count,
-          name: cardDeck.name,
-          setCode: cardDeck.setCode,
-          number: cardDeck.number,
-        });
-      }
-    }
-
-    for (const cardDeck of pack2.data.mainBoard as CardDeck[]) {
-      const existingCard = deckList.find((card) => card.name === cardDeck.name);
-      if (existingCard) {
-        existingCard.count += cardDeck.count;
-      } else {
-        deckList.push({
-          count: cardDeck.count,
-          name: cardDeck.name,
-          setCode: cardDeck.setCode,
-          number: cardDeck.number,
-        });
-      }
-    }
-
-    let deckListString = "";
-    for (const card of deckList) {
-      deckListString += `${card.count} ${card.name} (${card.setCode}) ${card.number}\n`;
-    }
-
-    setCurrentDeckList(deckListString);
+    populateDeckList(pack1.data, deckList);
+    populateDeckList(pack2.data, deckList);
+    setCurrentDeckList(makeDeckListString(deckList));
   }, [packId1, packId2, packs]);
 
   const copyToClipboard = async () => {
@@ -148,11 +111,6 @@ function RouteComponent() {
     <>
       <h1 className="pb-8 text-3xl">Mixer</h1>
       <div className="mb-8 flex gap-4">
-        <textarea
-          ref={textAreaRef}
-          className="hidden"
-          defaultValue={currentDeckList}
-        ></textarea>
         <Button size="sm" onClick={mixPacks} className="cursor-pointer">
           <Shuffle />
           Randomize Packs

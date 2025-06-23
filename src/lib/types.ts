@@ -469,7 +469,7 @@ export type Legalities = {
 export type Meta = {
   date: string;
   version: string;
-  publicId: string;
+  publicId: string; // modified from MTGJSON standard
 };
 export type PurchaseUrls = {
   cardKingdom?: string;
@@ -624,6 +624,7 @@ export type VintageAtomicFile = {
   meta: Meta;
   data: Record<string, CardAtomic>;
 };
+// custom
 export type PackFile = {
   meta: Meta;
   data: Deck;
@@ -631,4 +632,10 @@ export type PackFile = {
 export type PackIndexData = {
   publicId: string;
   url: string;
+};
+export type ClipboardCard = {
+  count: number;
+  name: string;
+  setCode: string;
+  number: string;
 };
