@@ -9,7 +9,8 @@ import {
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
 import { useCallback, useEffect, useState } from "react";
-import { Clipboard, Shuffle } from "lucide-react";
+import { Shuffle } from "lucide-react";
+import CopyButton from "@/components/copy-button.tsx";
 
 export const Route = createFileRoute("/mixer/")({
   component: RouteComponent,
@@ -88,14 +89,6 @@ function RouteComponent() {
     setCurrentDeckList(makeDeckListString(deckList));
   }, [packId1, packId2, packs]);
 
-  const copyToClipboard = async () => {
-    try {
-      await navigator.clipboard.writeText(currentDeckList);
-    } catch (err) {
-      console.error("Failed to copy to clipboard:", err);
-    }
-  };
-
   if (!packId1 || !packId2) {
     return <div>Loading...</div>;
   }
@@ -115,10 +108,11 @@ function RouteComponent() {
           <Shuffle />
           Randomize Packs
         </Button>
-        <Button size="sm" onClick={copyToClipboard} className="cursor-pointer">
-          <Clipboard />
-          Copy Decklist
-        </Button>
+        <CopyButton
+          size="sm"
+          textToCopy={currentDeckList}
+          buttonText="Copy Decklist"
+        />
       </div>
       <div className="grid grid-cols-2 gap-4">
         <Pack pack={pack1?.data} publicId={packId1} />

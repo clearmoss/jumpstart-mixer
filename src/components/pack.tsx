@@ -4,15 +4,13 @@ import {
   CardAction,
   CardContent,
   CardDescription,
-  // CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
-import { Button } from "@/components/ui/button.tsx";
-import { Clipboard } from "lucide-react";
 import { makeDeckListString, populateDeckList } from "@/lib/utils.ts";
 import { useEffect, useState } from "react";
+import CopyButton from "@/components/copy-button.tsx";
 
 function Pack({
   pack,
@@ -35,14 +33,6 @@ function Pack({
     return <div>Pack data unavailable.</div>;
   }
 
-  const copyToClipboard = async () => {
-    try {
-      await navigator.clipboard.writeText(currentDeckList);
-    } catch (err) {
-      console.error("Failed to copy to clipboard:", err);
-    }
-  };
-
   return (
     <Card className="bg-card">
       <CardHeader>
@@ -57,14 +47,11 @@ function Pack({
           <CardDescription>{pack.code}</CardDescription>
         </Link>
         <CardAction>
-          <Button
+          <CopyButton
             size="sm"
             variant="secondary"
-            onClick={copyToClipboard}
-            className="cursor-pointer"
-          >
-            <Clipboard />
-          </Button>
+            textToCopy={currentDeckList}
+          />
         </CardAction>
       </CardHeader>
 
@@ -84,14 +71,7 @@ function Pack({
           ))}
         </ul>
       </CardContent>
-      {/*<CardFooter>*/}
-      {/*  <p>Card Footer</p>*/}
-      {/*</CardFooter>*/}
     </Card>
-    // <div className="flex flex-col gap-2 rounded-lg bg-orange-200 px-8 py-4">
-    //   <span>{pack.code}</span>
-    //   <span>{pack.name}</span>
-    // </div>
   );
 }
 
