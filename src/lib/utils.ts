@@ -7,7 +7,7 @@ const ERROR_MESSAGES = {
   UNKNOWN_LOAD: "An unknown error occurred while loading data.",
 };
 
-export const BASEPATH = "jumpstart-mixer";
+export const BASEPATH = "/jumpstart-mixer";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -17,7 +17,7 @@ export function cn(...inputs: ClassValue[]) {
 export async function fetchJson<T>(filePath: string): Promise<T> {
   // Ensure the path starts with a forward slash if it doesn't already
   const path = filePath.startsWith("/") ? filePath : `/${filePath}`;
-  const response = await fetch(`/${BASEPATH}${path}`);
+  const response = await fetch(`${BASEPATH}${path}`);
 
   if (!response.ok) {
     throw new Error(`Failed to fetch ${filePath}: ${response.statusText}`);
