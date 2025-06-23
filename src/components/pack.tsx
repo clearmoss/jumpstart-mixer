@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
 import { BASEPATH, makeDeckListString, populateDeckList } from "@/lib/utils.ts";
-import { useEffect, useState } from "react";
+import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 
 const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
@@ -25,26 +25,18 @@ const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
 } as const;
 
 function determinePackColors(pack: Deck): { color: string; count: number }[] {
-  const colorCounts: Record<string, number> = {};
-
-  for (const card of pack.mainBoard) {
-    if (card.colorIdentity.length > 0) {
-      for (const color of card.colorIdentity) {
-        if (colorCounts[color] === undefined) {
-          colorCounts[color] = card.count;
-        } else {
-          colorCounts[color] += card.count;
-        }
+  const colorCounts = pack.mainBoard.reduce(
+    (acc, card) => {
+      // if the card has colors, use them; otherwise use colorless ("C")
+      const colors = card.colorIdentity.length > 0 ? card.colorIdentity : ["C"];
+      for (const color of colors) {
+        // accumulate total count
+        acc[color as MtgColor] = (acc[color as MtgColor] || 0) + card.count;
       }
-    } else {
-      // the card is colorless
-      if (colorCounts["C"] === undefined) {
-        colorCounts["C"] = card.count;
-      } else {
-        colorCounts["C"] += card.count;
-      }
-    }
-  }
+      return acc;
+    },
+    {} as Record<MtgColor, number>,
+  );
 
   // return the colors sorted by frequency
   return Object.entries(colorCounts)
@@ -68,21 +60,24 @@ function Pack({
   pack: Deck | undefined;
   publicId: string | undefined;
 }) {
-  const [currentDeckList, setCurrentDeckList] = useState("");
-
-  useEffect(() => {
-    if (pack) {
-      const deckList: ClipboardCard[] = [];
-      populateDeckList(pack, deckList);
-      setCurrentDeckList(makeDeckListString(deckList));
-    }
+  const currentDeckList = useMemo(() => {
+    if (!pack) return "";
+    const deckList: ClipboardCard[] = [];
+    populateDeckList(pack, deckList);
+    return makeDeckListString(deckList);
   }, [pack]);
 
-  if (pack === undefined || publicId === undefined) {
+  const packColors = useMemo(
+    () => (pack ? determinePackColors(pack) : []),
+    [pack],
+  );
+
+  if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
   }
 
-  const packColors = determinePackColors(pack);
+  const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
+
   const colorIcons = packColors.map((color, index) => (
     <img
       src={`${BASEPATH}/icons/${color.color}.svg`}
@@ -93,13 +88,7 @@ function Pack({
   ));
 
   return (
-    <Card
-      className={`bg-card border-t-10 ${
-        packColors.length > 0
-          ? CARD_BORDER_CLASSES[packColors[0].color as MtgColor]
-          : ""
-      }`}
-    >
+    <Card className={`bg-card border-t-8 ${CARD_BORDER_CLASSES[mainColor]}`}>
       <CardHeader>
         <Link
           to="/packs/$packId"
