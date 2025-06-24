@@ -8,7 +8,7 @@ import {
   populateDeckList,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { useCallback, useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 
@@ -33,15 +33,31 @@ export const Route = createFileRoute("/mixer/")({
 
 function RouteComponent() {
   const navigate = useNavigate({ from: Route.fullPath });
-  const { packId1, packId2 } = Route.useSearch();
+  const searchParams = Route.useSearch();
   const { packs } = Route.useLoaderData();
 
-  const { pack1, pack2 } = useMemo(() => {
-    const p1 = packs.find((p) => p.meta.publicId === packId1);
-    const p2 = packs.find((p) => p.meta.publicId === packId2);
-    return { pack1: p1, pack2: p2 };
-  }, [packId1, packId2, packs]);
+  // local state to manage the displayed packs for instant randomization
+  const [localPackIds, setLocalPackIds] = useState({
+    packId1: searchParams.packId1,
+    packId2: searchParams.packId2,
+  });
 
+  // sync the local state if the URL changes
+  useEffect(() => {
+    setLocalPackIds({
+      packId1: searchParams.packId1,
+      packId2: searchParams.packId2,
+    });
+  }, [searchParams.packId1, searchParams.packId2]);
+
+  // memoize packs from the local state
+  const { pack1, pack2 } = useMemo(() => {
+    const p1 = packs.find((p) => p.meta.publicId === localPackIds.packId1);
+    const p2 = packs.find((p) => p.meta.publicId === localPackIds.packId2);
+    return { pack1: p1, pack2: p2 };
+  }, [localPackIds.packId1, localPackIds.packId2, packs]);
+
+  // memoize decklist string for the clipboard copy
   const currentDeckList = useMemo(() => {
     if (!pack1 || !pack2) return "";
 
@@ -57,65 +73,64 @@ function RouteComponent() {
     const randomIndex1 = Math.floor(Math.random() * packs.length);
     let randomIndex2 = Math.floor(Math.random() * packs.length);
 
-    // ensure the random indices are different
     while (randomIndex1 === randomIndex2) {
       randomIndex2 = Math.floor(Math.random() * packs.length);
     }
 
+    const newPackId1 = packs[randomIndex1].meta.publicId;
+    const newPackId2 = packs[randomIndex2].meta.publicId;
+
+    // update local state for instant change
+    setLocalPackIds({ packId1: newPackId1, packId2: newPackId2 });
+    // synchronize the URL
     navigate({
-      to: "/mixer",
-      search: {
-        packId1: packs[randomIndex1].meta.publicId,
-        packId2: packs[randomIndex2].meta.publicId,
-      },
+      search: { packId1: newPackId1, packId2: newPackId2 },
       replace: true,
-    }).then();
+    });
   }, [packs, navigate]);
 
-  // logic to determine which packs to display based on URL
   useEffect(() => {
-    // exit if there are not enough packs to mix
     if (packs.length < 2) return;
 
-    const hasNoPacks = !packId1 && !packId2;
-    const hasOnlyOnePack = Boolean(packId1) !== Boolean(packId2);
+    const hasNoPacks = !searchParams.packId1 && !searchParams.packId2;
+    const hasOnlyOnePack =
+      Boolean(searchParams.packId1) !== Boolean(searchParams.packId2);
 
-    // no pack IDs in URL, pick two random packs
     if (hasNoPacks) {
       mixPacks();
       return;
     }
 
-    // exactly one pack ID in URL, so use it
     if (hasOnlyOnePack) {
-      const givenId = packId1 || packId2;
+      const givenId = searchParams.packId1 || searchParams.packId2;
       const givenPackIndex = packs.findIndex(
         (p) => p.meta.publicId === givenId,
       );
 
-      // the provided packId is invalid
       if (givenPackIndex === -1) {
+        // the single pack ID from the URL is invalid, so get two new random packs
+        // mixPacks();
         return;
       }
 
-      // find a new random pack, ensuring it is different from the given one
       let randomPackIndex = Math.floor(Math.random() * packs.length);
       while (randomPackIndex === givenPackIndex) {
         randomPackIndex = Math.floor(Math.random() * packs.length);
       }
       const randomPack = packs[randomPackIndex];
 
-      // update URL with both IDs, preserving the one that was originally provided
+      const newPackId1 = searchParams.packId1 || randomPack.meta.publicId;
+      const newPackId2 = searchParams.packId2 || randomPack.meta.publicId;
+
+      // update local state for instant change
+      setLocalPackIds({ packId1: newPackId1, packId2: newPackId2 });
+      // synchronize the URL
       navigate({
-        to: "/mixer",
-        search: {
-          packId1: packId1 || randomPack.meta.publicId,
-          packId2: packId2 || randomPack.meta.publicId,
-        },
+        search: { packId1: newPackId1, packId2: newPackId2 },
         replace: true,
-      }).then();
+      });
     }
-  }, [packId1, packId2, packs, mixPacks, navigate]);
+  }, [searchParams, packs, mixPacks, navigate]);
 
   return (
     <>
@@ -131,14 +146,14 @@ function RouteComponent() {
           buttonText="Copy Decklist"
         />
       </div>
-      {pack1 !== undefined && pack2 !== undefined && (
+      {pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <Pack pack={pack1.data} publicId={pack1.meta.publicId} />
           <Pack pack={pack2.data} publicId={pack2.meta.publicId} />
         </div>
+      ) : (
+        <div>Pack data unavailable.</div>
       )}
-      {pack1 === undefined ||
-        (pack2 === undefined && <div>Pack data unavailable.</div>)}
     </>
   );
 }
