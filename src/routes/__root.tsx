@@ -42,8 +42,10 @@ export const Route = createRootRoute({
         <ThemeToggle />
       </div>
       <hr />
-      <div className="p-4">
-        <Outlet />
+      <div className="flex w-full justify-center p-8">
+        <div className="w-full lg:w-3/4 2xl:w-1/2">
+          <Outlet />
+        </div>
       </div>
       <TanStackRouterDevtools />
     </>
