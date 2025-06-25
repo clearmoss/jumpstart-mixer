@@ -14,15 +14,15 @@ import CopyButton from "@/components/copy-button.tsx";
 
 export const Route = createFileRoute("/mixer/")({
   component: RouteComponent,
-  loader: async () => {
-    const packs = await fetchAllPacks();
-    return { packs };
-  },
   validateSearch: (search: Record<string, unknown>) => {
     return {
       packId1: (search.packId1 as string) || undefined,
       packId2: (search.packId2 as string) || undefined,
     };
+  },
+  loader: async () => {
+    const packs = await fetchAllPacks();
+    return { packs };
   },
   pendingComponent: () => <div>Loading...</div>,
   errorComponent: ({ error }) => {
@@ -86,7 +86,7 @@ function RouteComponent() {
     navigate({
       search: { packId1: newPackId1, packId2: newPackId2 },
       replace: true,
-    });
+    }).then();
   }, [packs, navigate]);
 
   useEffect(() => {
@@ -128,7 +128,7 @@ function RouteComponent() {
       navigate({
         search: { packId1: newPackId1, packId2: newPackId2 },
         replace: true,
-      });
+      }).then();
     }
   }, [searchParams, packs, mixPacks, navigate]);
 

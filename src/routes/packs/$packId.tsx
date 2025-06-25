@@ -38,7 +38,7 @@ function RouteComponent() {
   const { pack, publicId } = Route.useLoaderData();
 
   return (
-    <div>
+    <>
       <h1 className="pb-8 text-3xl">Pack</h1>
       {pack === undefined ? (
         <div>Pack data unavailable.</div>
@@ -59,6 +59,6 @@ function RouteComponent() {
           <Pack pack={pack} publicId={publicId} />
         </>
       )}
-    </div>
+    </>
   );
 }
