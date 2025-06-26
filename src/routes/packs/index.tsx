@@ -15,6 +15,7 @@ function RouteComponent() {
   const packs = useQuery({
     queryKey: ["packs"],
     queryFn: fetchAllPacks,
+    staleTime: Infinity,
   });
 
   if (packs.isLoading) return <div>Loading packs...</div>;

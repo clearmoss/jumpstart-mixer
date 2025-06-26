@@ -11,6 +11,7 @@ import Pack from "@/components/pack.tsx";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
+import { useQuery } from "@tanstack/react-query";
 
 export const Route = createFileRoute("/mixer/")({
   component: RouteComponent,
@@ -20,11 +21,6 @@ export const Route = createFileRoute("/mixer/")({
       packId2: (search.packId2 as string) || undefined,
     };
   },
-  loader: async () => {
-    const packs = await fetchAllPacks();
-    return { packs };
-  },
-  pendingComponent: () => <div>Loading...</div>,
   errorComponent: ({ error }) => {
     const message = handleError(error);
     return <div>Error: {message}</div>;
@@ -34,7 +30,11 @@ export const Route = createFileRoute("/mixer/")({
 function RouteComponent() {
   const navigate = useNavigate({ from: Route.fullPath });
   const searchParams = Route.useSearch();
-  const { packs } = Route.useLoaderData();
+  const packs = useQuery({
+    queryKey: ["packs"],
+    queryFn: fetchAllPacks,
+    staleTime: Infinity,
+  });
 
   // local state to manage the displayed packs for instant randomization
   const [localPackIds, setLocalPackIds] = useState({
@@ -52,10 +52,11 @@ function RouteComponent() {
 
   // memoize packs from the local state
   const { pack1, pack2 } = useMemo(() => {
-    const p1 = packs.find((p) => p.meta.publicId === localPackIds.packId1);
-    const p2 = packs.find((p) => p.meta.publicId === localPackIds.packId2);
+    if (!packs.data) return { pack1: undefined, pack2: undefined };
+    const p1 = packs.data.find((p) => p.meta.publicId === localPackIds.packId1);
+    const p2 = packs.data.find((p) => p.meta.publicId === localPackIds.packId2);
     return { pack1: p1, pack2: p2 };
-  }, [localPackIds.packId1, localPackIds.packId2, packs]);
+  }, [localPackIds.packId1, localPackIds.packId2, packs.data]);
 
   // memoize decklist string for the clipboard copy
   const currentDeckList = useMemo(() => {
@@ -68,17 +69,18 @@ function RouteComponent() {
   }, [pack1, pack2]);
 
   const mixPacks = useCallback(() => {
-    if (packs.length < 2) return; // too few packs
+    if (!packs.data) return;
+    if (packs.data.length < 2) return; // too few packs
 
-    const randomIndex1 = Math.floor(Math.random() * packs.length);
-    let randomIndex2 = Math.floor(Math.random() * packs.length);
+    const randomIndex1 = Math.floor(Math.random() * packs.data.length);
+    let randomIndex2 = Math.floor(Math.random() * packs.data.length);
 
     while (randomIndex1 === randomIndex2) {
-      randomIndex2 = Math.floor(Math.random() * packs.length);
+      randomIndex2 = Math.floor(Math.random() * packs.data.length);
     }
 
-    const newPackId1 = packs[randomIndex1].meta.publicId;
-    const newPackId2 = packs[randomIndex2].meta.publicId;
+    const newPackId1 = packs.data[randomIndex1].meta.publicId;
+    const newPackId2 = packs.data[randomIndex2].meta.publicId;
 
     // update local state for instant change
     setLocalPackIds({ packId1: newPackId1, packId2: newPackId2 });
@@ -87,10 +89,11 @@ function RouteComponent() {
       search: { packId1: newPackId1, packId2: newPackId2 },
       replace: true,
     }).then();
-  }, [packs, navigate]);
+  }, [packs.data, navigate]);
 
   useEffect(() => {
-    if (packs.length < 2) return;
+    if (!packs.data) return;
+    if (packs.data.length < 2) return;
 
     const hasNoPacks = !searchParams.packId1 && !searchParams.packId2;
     const hasOnlyOnePack =
@@ -103,7 +106,7 @@ function RouteComponent() {
 
     if (hasOnlyOnePack) {
       const givenId = searchParams.packId1 || searchParams.packId2;
-      const givenPackIndex = packs.findIndex(
+      const givenPackIndex = packs.data.findIndex(
         (p) => p.meta.publicId === givenId,
       );
 
@@ -113,11 +116,11 @@ function RouteComponent() {
         return;
       }
 
-      let randomPackIndex = Math.floor(Math.random() * packs.length);
+      let randomPackIndex = Math.floor(Math.random() * packs.data.length);
       while (randomPackIndex === givenPackIndex) {
-        randomPackIndex = Math.floor(Math.random() * packs.length);
+        randomPackIndex = Math.floor(Math.random() * packs.data.length);
       }
-      const randomPack = packs[randomPackIndex];
+      const randomPack = packs.data[randomPackIndex];
 
       const newPackId1 = searchParams.packId1 || randomPack.meta.publicId;
       const newPackId2 = searchParams.packId2 || randomPack.meta.publicId;
@@ -130,7 +133,10 @@ function RouteComponent() {
         replace: true,
       }).then();
     }
-  }, [searchParams, packs, mixPacks, navigate]);
+  }, [searchParams, packs.data, mixPacks, navigate]);
+
+  if (packs.isLoading) return <div>Loading packs...</div>;
+  if (packs.isError || packs.data === undefined) return <div>Error</div>;
 
   return (
     <>
