@@ -83,7 +83,7 @@ function Pack({
       src={`${BASEPATH}/icons/${color.color}.svg`}
       alt={color.color}
       key={color.color}
-      className={index === 0 ? "h-7 w-7" : "h-5 w-5"}
+      className={"select-none " + (index === 0 ? "h-7 w-7" : "h-5 w-5")}
     />
   ));
 
