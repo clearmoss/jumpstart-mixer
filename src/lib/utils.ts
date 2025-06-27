@@ -66,9 +66,11 @@ export async function fetchAllPacks(): Promise<PackFile[]> {
 }
 
 export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
-  // TODO: handle different versions of cards with same name
   for (const cardDeck of pack.mainBoard as CardDeck[]) {
-    const existingCard = deckList.find((card) => card.name === cardDeck.name);
+    const existingCard = deckList.find(
+      (card) =>
+        card.name === cardDeck.name && card.setCode === cardDeck.setCode,
+    );
     if (existingCard) {
       existingCard.count += cardDeck.count;
     } else {
