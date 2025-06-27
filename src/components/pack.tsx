@@ -181,7 +181,11 @@ function Pack({
                 !showCategories && "hidden",
               )}
             >
-              {type} ({groupedCards.get(type)?.length})
+              {type} (
+              {groupedCards
+                .get(type)
+                ?.reduce((sum, card) => sum + card.count, 0) ?? 0}
+              )
             </h3>
             <ul className={cn(showCategories && "ml-2")}>
               {groupedCards.get(type)?.map((card) => (
