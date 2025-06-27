@@ -11,17 +11,27 @@ import Pack from "@/components/pack.tsx";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
-import { useQuery } from "@tanstack/react-query";
+import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
+import Loading from "@/components/loading.tsx";
+
+const packsQueryOptions = queryOptions({
+  queryKey: ["packs"],
+  queryFn: () => fetchAllPacks(),
+  staleTime: Infinity,
+});
 
 export const Route = createFileRoute("/mixer/")({
-  component: RouteComponent,
   validateSearch: (search: Record<string, unknown>) => {
     return {
       packId1: (search.packId1 as string) || undefined,
       packId2: (search.packId2 as string) || undefined,
     };
   },
+  loader: ({ context }) =>
+    context.queryClient.ensureQueryData(packsQueryOptions),
+  component: RouteComponent,
+  pendingComponent: () => <Loading />,
   errorComponent: ({ error }) => {
     const message = handleError(error);
     return <div>Error: {message}</div>;
@@ -31,11 +41,7 @@ export const Route = createFileRoute("/mixer/")({
 function RouteComponent() {
   const navigate = useNavigate({ from: Route.fullPath });
   const searchParams = Route.useSearch();
-  const packs = useQuery({
-    queryKey: ["packs"],
-    queryFn: fetchAllPacks,
-    staleTime: Infinity,
-  });
+  const packs = useSuspenseQuery(packsQueryOptions);
 
   // local state to manage the displayed packs for instant randomization
   const [localPackIds, setLocalPackIds] = useState({
@@ -136,7 +142,6 @@ function RouteComponent() {
     }
   }, [searchParams, packs.data, mixPacks, navigate]);
 
-  if (packs.isLoading) return <div>Loading packs...</div>;
   if (packs.isError || packs.data === undefined) return <div>Error</div>;
 
   return (

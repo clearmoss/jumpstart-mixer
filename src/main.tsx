@@ -10,11 +10,15 @@ import { BASEPATH } from "@/lib/utils.ts";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
-// Create a new router instance
-const router = createRouter({ routeTree, basepath: BASEPATH });
-
 // Create a query client
 const queryClient = new QueryClient();
+
+// Create a new router instance
+const router = createRouter({
+  routeTree,
+  context: { queryClient },
+  basepath: BASEPATH,
+});
 
 // Register the router instance for type safety
 declare module "@tanstack/react-router" {

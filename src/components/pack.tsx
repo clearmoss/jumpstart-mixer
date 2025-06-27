@@ -124,7 +124,7 @@ function Pack({
       <CardContent className="flex flex-col gap-2">
         <ul>
           {pack.mainBoard.map((card) => (
-            <CardListEntry card={card} />
+            <CardListEntry card={card} key={card.identifiers.scryfallId} />
           ))}
         </ul>
       </CardContent>

@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button.tsx";
 import { useAtom } from "jotai/index";
 import { motion } from "motion/react";
 import { atomWithStorage } from "jotai/utils";
+import Loading from "@/components/loading.tsx";
 
 export const Route = createFileRoute("/test")({
   component: RouteComponent,
-  pendingComponent: () => <div>Loading...</div>, // loading state
-  errorComponent: () => <div>Error!</div>, // error state
+  pendingComponent: () => <Loading />,
+  errorComponent: () => <div>Error!</div>,
 });
 
 const counter = atomWithStorage("count", 0);

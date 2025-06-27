@@ -26,9 +26,18 @@ export async function fetchJson<T>(filePath: string): Promise<T> {
   const response = await fetch(`${BASEPATH}${path}`);
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${filePath}: ${response.statusText}`);
+    throw new Error(
+      `HTTP error! status: ${response.status}, statusText: ${response.statusText}, url: ${response.url}`,
+    );
   }
-  return response.json() as Promise<T>;
+
+  try {
+    return (await response.json()) as T;
+  } catch (error) {
+    throw new Error(
+      `Failed to parse JSON from ${filePath}: ${error instanceof Error ? error.message : "Unknown error"}`,
+    );
+  }
 }
 
 export async function fetchPack(pack: PackIndexData) {

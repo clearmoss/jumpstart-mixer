@@ -20,14 +20,13 @@ function CardListEntry({ card }: { card: CardDeck }) {
       openDelay={100}
       closeDelay={100}
       onOpenChange={(open) => {
-        // When the hover card opens, set shouldLoadImage to true
         if (open) {
           setShouldLoadImage(true);
         }
       }}
     >
-      <HoverCardTrigger>
-        <li key={card.identifiers.scryfallId}>
+      <HoverCardTrigger asChild>
+        <li>
           <a
             className="cursor-pointer"
             href={`https://scryfall.com/card/${card.identifiers.scryfallId}`}

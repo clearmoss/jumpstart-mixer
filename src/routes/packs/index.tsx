@@ -1,11 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
 import { fetchAllPacks, handleError } from "@/lib/utils.ts";
-import { useQuery } from "@tanstack/react-query";
+import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
+import Loading from "@/components/loading.tsx";
+
+const packsQueryOptions = queryOptions({
+  queryKey: ["packs"],
+  queryFn: () => fetchAllPacks(),
+  staleTime: Infinity,
+});
 
 export const Route = createFileRoute("/packs/")({
+  loader: ({ context }) =>
+    context.queryClient.ensureQueryData(packsQueryOptions),
   component: RouteComponent,
+  pendingComponent: () => <Loading />,
   errorComponent: ({ error }) => {
     const message = handleError(error);
     return <div>Error: {message}</div>;
@@ -13,13 +23,8 @@ export const Route = createFileRoute("/packs/")({
 });
 
 function RouteComponent() {
-  const packs = useQuery({
-    queryKey: ["packs"],
-    queryFn: fetchAllPacks,
-    staleTime: Infinity,
-  });
+  const packs = useSuspenseQuery(packsQueryOptions);
 
-  if (packs.isLoading) return <div>Loading packs...</div>;
   if (packs.isError || packs.data === undefined) return <div>Error</div>;
 
   if (packs.data.length === 0) {
