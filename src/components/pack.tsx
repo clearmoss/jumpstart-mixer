@@ -1,15 +1,19 @@
-import type { ClipboardCard, Deck } from "@/lib/types.ts";
+import type { CardDeck, ClipboardCard, Deck } from "@/lib/types.ts";
 import {
   Card,
   CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
-import { BASEPATH, makeDeckListString, populateDeckList } from "@/lib/utils.ts";
+import {
+  BASEPATH,
+  cn,
+  makeDeckListString,
+  populateDeckList,
+} from "@/lib/utils.ts";
 import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useAtom } from "jotai/index";
@@ -48,13 +52,31 @@ function determinePackColors(pack: Deck): { color: string; count: number }[] {
     .sort((a, b) => {
       const countDiff = b.count - a.count;
       if (countDiff === 0) {
-        // If counts are equal, sort by color
+        // if counts are equal, sort by color
         return (
           COLOR_ORDER[a.color as MtgColor] - COLOR_ORDER[b.color as MtgColor]
         );
       }
       return countDiff;
     });
+}
+
+function getMainType(type: string): string {
+  // remove the subtype after —, then return only the main type without specifier
+  const mainType = type.split("—")[0].trim().split(" ").pop();
+  return mainType ? mainType : "Unknown";
+}
+
+function groupCardsByType(cards: CardDeck[]): Map<string, CardDeck[]> {
+  return cards.reduce((groups, card) => {
+    const mainType = getMainType(card.type);
+
+    if (!groups.has(mainType)) {
+      groups.set(mainType, []);
+    }
+    groups.get(mainType)!.push(card);
+    return groups;
+  }, new Map<string, CardDeck[]>());
 }
 
 function Pack({
@@ -83,7 +105,6 @@ function Pack({
   }
 
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
-
   const colorIcons = packColors.map((color, index) => (
     <img
       src={`${BASEPATH}/icons/${color.color}.svg`}
@@ -92,6 +113,35 @@ function Pack({
       className={"select-none " + (index === 0 ? "h-7 w-7" : "h-5 w-5")}
     />
   ));
+
+  const groupedCards = groupCardsByType(pack.mainBoard);
+  const typeOrder = [
+    "Legendary Planeswalker",
+    "Planeswalker",
+    "Legendary Creature",
+    "Creature",
+    "Artifact Creature",
+    "Enchantment Creature",
+    "Instant",
+    "Sorcery",
+    "Artifact",
+    "Legendary Enchantment",
+    "Enchantment",
+    "Land",
+  ];
+  const sortedTypes = Array.from(groupedCards.keys()).sort((a, b) => {
+    const aIndex = typeOrder.indexOf(a);
+    const bIndex = typeOrder.indexOf(b);
+    // if both types are in the order array, use that order
+    if (aIndex !== -1 && bIndex !== -1) {
+      return aIndex - bIndex;
+    }
+    // if only one type is in the order array, put it first
+    if (aIndex !== -1) return -1;
+    if (bIndex !== -1) return 1;
+    // if neither type is in the order array, sort alphabetically
+    return a.localeCompare(b);
+  });
 
   return (
     <Card className={`bg-card border-t-8 ${CARD_BORDER_CLASSES[mainColor]}`}>
@@ -108,7 +158,9 @@ function Pack({
               {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
               {pack.name.replace(/\((\d+)\)/g, "$1")}
             </CardTitle>
-            <CardDescription>{pack.code}</CardDescription>
+            <CardDescription className="text-muted-foreground">
+              {pack.code}
+            </CardDescription>
           </div>
           <div className="flex items-center gap-2">{colorIcons}</div>
         </Link>
@@ -120,17 +172,25 @@ function Pack({
           />
         </CardAction>
       </CardHeader>
-
-      <CardContent className="flex flex-col gap-2">
-        <ul>
-          {pack.mainBoard.map((card) => (
-            <CardListEntry card={card} key={card.identifiers.scryfallId} />
-          ))}
-        </ul>
+      <CardContent className={cn("flex flex-col", showCategories && "gap-4")}>
+        {sortedTypes.map((type) => (
+          <div key={type}>
+            <h3
+              className={cn(
+                "text-muted-foreground text-sm font-semibold",
+                !showCategories && "hidden",
+              )}
+            >
+              {type} ({groupedCards.get(type)?.length})
+            </h3>
+            <ul className={cn(showCategories && "ml-2")}>
+              {groupedCards.get(type)?.map((card) => (
+                <CardListEntry card={card} key={card.identifiers.scryfallId} />
+              ))}
+            </ul>
+          </div>
+        ))}
       </CardContent>
-      <CardFooter className="flex items-center space-x-2">
-        {showCategories ? "Show Categories" : "Hide Categories"}
-      </CardFooter>
     </Card>
   );
 }
