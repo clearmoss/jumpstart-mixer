@@ -4,6 +4,7 @@ import {
   CardAction,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
@@ -11,6 +12,9 @@ import { Link } from "@tanstack/react-router";
 import { BASEPATH, makeDeckListString, populateDeckList } from "@/lib/utils.ts";
 import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
+import { useAtom } from "jotai/index";
+import { showCategoriesAtom } from "@/lib/atoms.ts";
+import CardListEntry from "@/components/card-list-entry.tsx";
 
 const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
 type MtgColor = keyof typeof COLOR_ORDER;
@@ -60,6 +64,8 @@ function Pack({
   pack: Deck | undefined;
   publicId: string | undefined;
 }) {
+  const [showCategories] = useAtom(showCategoriesAtom);
+
   const currentDeckList = useMemo(() => {
     if (!pack) return "";
     const deckList: ClipboardCard[] = [];
@@ -118,19 +124,13 @@ function Pack({
       <CardContent className="flex flex-col gap-2">
         <ul>
           {pack.mainBoard.map((card) => (
-            <li key={card.identifiers.scryfallId}>
-              <a
-                className="cursor-pointer"
-                href={`https://scryfall.com/card/${card.identifiers.scryfallId}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {card.count} {card.name}
-              </a>
-            </li>
+            <CardListEntry card={card} />
           ))}
         </ul>
       </CardContent>
+      <CardFooter className="flex items-center space-x-2">
+        {showCategories ? "Show Categories" : "Hide Categories"}
+      </CardFooter>
     </Card>
   );
 }

@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
 import { fetchAllPacks, handleError } from "@/lib/utils.ts";
 import { useQuery } from "@tanstack/react-query";
+import CategoriesToggle from "@/components/categories-toggle.tsx";
 
 export const Route = createFileRoute("/packs/")({
   component: RouteComponent,
@@ -33,6 +34,9 @@ function RouteComponent() {
   return (
     <>
       <h1 className="pb-8 text-3xl">Packs</h1>
+      <div className="pb-8">
+        <CategoriesToggle />
+      </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {packs.data.map((pack) => (
           <div key={pack.meta.publicId}>

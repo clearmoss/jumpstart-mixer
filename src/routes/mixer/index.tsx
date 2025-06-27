@@ -12,6 +12,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useQuery } from "@tanstack/react-query";
+import CategoriesToggle from "@/components/categories-toggle.tsx";
 
 export const Route = createFileRoute("/mixer/")({
   component: RouteComponent,
@@ -141,7 +142,7 @@ function RouteComponent() {
   return (
     <>
       <h1 className="pb-8 text-3xl">Mixer</h1>
-      <div className="mb-8 flex gap-4">
+      <div className="mb-8 flex items-center gap-4">
         <Button size="sm" onClick={mixPacks} className="cursor-pointer">
           <Shuffle />
           Randomize Packs
@@ -151,6 +152,7 @@ function RouteComponent() {
           textToCopy={currentDeckList}
           buttonText="Copy Decklist"
         />
+        <CategoriesToggle />
       </div>
       {pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
