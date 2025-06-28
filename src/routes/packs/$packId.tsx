@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
 import { fetchJson } from "@/lib/utils.ts";
 import type { PackFile, PackIndexData } from "@/lib/types.ts";
@@ -26,14 +26,17 @@ export const Route = createFileRoute("/packs/$packId")({
 
     const packData = packIndex.find((p) => p.publicId === packId);
     if (!packData) {
-      throw new Error(`Pack with ID ${packId} not found`);
+      throw notFound();
     }
 
     return queryClient.ensureQueryData(packQueryOptions(packData.url));
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
-  errorComponent: () => <div>Error!</div>,
+  errorComponent: () => <div>Error.</div>,
+  notFoundComponent: () => {
+    return <p>Pack not found.</p>;
+  },
 });
 
 function RouteComponent() {
@@ -48,19 +51,11 @@ function RouteComponent() {
 
   const pack = useSuspenseQuery(packQueryOptions(packData.url));
 
-  if (pack.isError || pack.data.data === undefined) {
-    return <div>Error loading pack data</div>;
-  }
-
   return (
     <>
       <h1 className="pb-8 text-3xl">Pack</h1>
       <div className="mb-8 flex gap-4">
-        <Link
-          to="/mixer"
-          search={{ packId1: packId, packId2: null }}
-          className="[&.active]:font-bold"
-        >
+        <Link to="/mixer" search={{ packId1: packId, packId2: undefined }}>
           <Button size="sm" className="cursor-pointer">
             <Shuffle />
             Mix This Pack

@@ -7,6 +7,7 @@ function CopyButton({
   variant = "default",
   textToCopy,
   buttonText,
+  disabled = false,
 }: {
   size?: "default" | "sm" | "lg" | "icon";
   variant?:
@@ -18,6 +19,7 @@ function CopyButton({
     | "ghost";
   textToCopy: string;
   buttonText?: string;
+  disabled?: boolean;
 }) {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -39,7 +41,7 @@ function CopyButton({
       size={size}
       variant={variant}
       onClick={copyToClipboard}
-      disabled={isCopied}
+      disabled={isCopied || disabled}
       className={
         isCopied
           ? "bg-green-600 text-white disabled:!opacity-100"
