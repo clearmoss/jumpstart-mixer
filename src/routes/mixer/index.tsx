@@ -15,6 +15,9 @@ import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
 import { z } from "zod";
+import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
+import { useAtom } from "jotai/index";
+import { allowDuplicatesAtom } from "@/lib/atoms.ts";
 
 const packsQueryOptions = queryOptions({
   queryKey: ["packs"],
@@ -44,6 +47,7 @@ function RouteComponent(): JSX.Element {
   const navigate = useNavigate({ from: Route.fullPath });
   const { packId1, packId2 } = Route.useSearch();
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
+  const [allowDuplicates] = useAtom(allowDuplicatesAtom);
 
   const { pack1, pack2 } = useMemo(() => {
     const p1 = packs.find((p) => p.meta.publicId === packId1);
@@ -66,8 +70,10 @@ function RouteComponent(): JSX.Element {
     const randomIndex1 = Math.floor(Math.random() * packs.length);
     let randomIndex2 = Math.floor(Math.random() * packs.length);
 
-    while (randomIndex1 === randomIndex2) {
-      randomIndex2 = Math.floor(Math.random() * packs.length);
+    if (!allowDuplicates) {
+      while (randomIndex1 === randomIndex2) {
+        randomIndex2 = Math.floor(Math.random() * packs.length);
+      }
     }
 
     void navigate({
@@ -77,7 +83,7 @@ function RouteComponent(): JSX.Element {
       },
       replace: true,
     });
-  }, [packs, navigate]);
+  }, [packs, allowDuplicates, navigate]);
 
   useEffect(() => {
     if (!packs || packs.length < 2) return;
@@ -97,9 +103,13 @@ function RouteComponent(): JSX.Element {
       }
 
       let randomPack: PackFile;
-      do {
+      if (allowDuplicates) {
         randomPack = packs[Math.floor(Math.random() * packs.length)];
-      } while (randomPack.meta.publicId === givenId);
+      } else {
+        do {
+          randomPack = packs[Math.floor(Math.random() * packs.length)];
+        } while (randomPack.meta.publicId === givenId);
+      }
 
       void navigate({
         search: {
@@ -109,7 +119,7 @@ function RouteComponent(): JSX.Element {
         replace: true,
       });
     }
-  }, [packId1, packId2, packs, mixPacks, navigate]);
+  }, [packId1, packId2, packs, mixPacks, navigate, allowDuplicates]);
 
   return (
     <>
@@ -126,6 +136,7 @@ function RouteComponent(): JSX.Element {
           disabled={!currentDeckList}
         />
         <CategoriesToggle />
+        <DuplicatesToggle />
       </div>
       {pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
