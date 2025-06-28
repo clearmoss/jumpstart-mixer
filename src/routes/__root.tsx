@@ -30,7 +30,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             </Link>
             <Link
               to="/mixer"
-              search={{ packId1: undefined, packId2: undefined }}
+              search={{ packId1: null, packId2: null }}
               className="[&.active]:font-bold"
             >
               Mixer

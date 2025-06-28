@@ -40,12 +40,17 @@ function CardListEntry({ card }: { card: CardDeck }) {
       <HoverCardContent side={"right"} className="w-auto max-w-xl">
         <div className="h-[502px] w-[360px] overflow-hidden rounded-md">
           {shouldLoadImage && imageUrl ? (
-            <img
-              src={imageUrl}
-              alt={`${card.name} card image`}
-              className="h-full w-full rounded-xl object-contain"
-              loading="lazy"
-            />
+            <>
+              <img
+                src={imageUrl}
+                alt={`${card.name} card image`}
+                className="h-full w-full rounded-xl object-contain"
+                loading="lazy"
+              />
+              {card.rarity == "mythic" && (
+                <div className="holographic absolute top-4 left-4 z-10 h-94/100 w-92/100"></div>
+              )}
+            </>
           ) : (
             <div className="bg-muted flex h-full w-full items-center justify-center">
               Loading...

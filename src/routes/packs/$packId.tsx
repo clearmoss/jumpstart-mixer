@@ -58,7 +58,7 @@ function RouteComponent() {
       <div className="mb-8 flex gap-4">
         <Link
           to="/mixer"
-          search={{ packId1: packId, packId2: undefined }}
+          search={{ packId1: packId, packId2: null }}
           className="[&.active]:font-bold"
         >
           <Button size="sm" className="cursor-pointer">

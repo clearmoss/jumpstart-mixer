@@ -8,12 +8,13 @@ import {
   populateDeckList,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { type JSX, useCallback, useEffect, useMemo, useState } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
+import { z } from "zod";
 
 const packsQueryOptions = queryOptions({
   queryKey: ["packs"],
@@ -21,13 +22,13 @@ const packsQueryOptions = queryOptions({
   staleTime: Infinity,
 });
 
+const mixerSearchSchema = z.object({
+  packId1: z.nullable(z.string()).catch(""),
+  packId2: z.nullable(z.string()).catch(""),
+});
+
 export const Route = createFileRoute("/mixer/")({
-  validateSearch: (search: Record<string, unknown>) => {
-    return {
-      packId1: (search.packId1 as string) || undefined,
-      packId2: (search.packId2 as string) || undefined,
-    };
-  },
+  validateSearch: (search) => mixerSearchSchema.parse(search),
   loader: ({ context }) =>
     context.queryClient.ensureQueryData(packsQueryOptions),
   component: RouteComponent,
@@ -38,7 +39,7 @@ export const Route = createFileRoute("/mixer/")({
   },
 });
 
-function RouteComponent() {
+function RouteComponent(): JSX.Element {
   const navigate = useNavigate({ from: Route.fullPath });
   const searchParams = Route.useSearch();
   const packs = useSuspenseQuery(packsQueryOptions);
@@ -141,8 +142,6 @@ function RouteComponent() {
       }).then();
     }
   }, [searchParams, packs.data, mixPacks, navigate]);
-
-  if (packs.isError || packs.data === undefined) return <div>Error</div>;
 
   return (
     <>
