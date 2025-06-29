@@ -1,6 +1,6 @@
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { ClipboardCard } from "@/lib/types.ts";
+import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   determinePackColors,
   handleError,
@@ -21,8 +21,9 @@ import {
   allowDuplicatesAtom,
   colorFilterAtom,
   setFilterAtom,
+  store,
 } from "@/lib/atoms.ts";
-import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
+import { packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 
@@ -30,6 +31,51 @@ const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
   packId2: z.string().optional(),
 });
+
+function filterPacks(
+  packs: PackFile[],
+  colorFilter: string[],
+  setFilter: string[],
+) {
+  return packs.filter((p) => {
+    const packColors = determinePackColors(p.data);
+    if (packColors.length === 0) {
+      return false;
+    }
+    return (
+      colorFilter.includes(packColors[0].color) &&
+      setFilter.includes(p.data.code)
+    );
+  });
+}
+
+function getTwoRandomIndexes(
+  packs: PackFile[],
+  allowDuplicates: boolean,
+): number[] {
+  const arrLength = packs.length;
+
+  if (arrLength === 0) {
+    return [];
+  }
+
+  if (!allowDuplicates && arrLength < 2) {
+    return [];
+  }
+
+  const index1 = Math.floor(Math.random() * arrLength);
+
+  if (allowDuplicates) {
+    const index2 = Math.floor(Math.random() * arrLength);
+    return [index1, index2];
+  } else {
+    let index2 = Math.floor(Math.random() * arrLength);
+    while (index1 === index2) {
+      index2 = Math.floor(Math.random() * arrLength);
+    }
+    return [index1, index2];
+  }
+}
 
 export const Route = createFileRoute("/mixer/")({
   validateSearch: (search) => mixerSearchSchema.parse(search),
@@ -39,20 +85,57 @@ export const Route = createFileRoute("/mixer/")({
   }),
   beforeLoad: async ({ search, context }) => {
     if (!search.packId1 || !search.packId2) {
-      // pack search param is missing
-      const packIndex = await context.queryClient.ensureQueryData(
-        packIndexQueryOptions,
-      );
+      // one or both pack search params are missing
+      const packs =
+        await context.queryClient.ensureQueryData(packsQueryOptions);
       let redirectId1 = search.packId1;
       let redirectId2 = search.packId2;
 
-      if (!search.packId1) {
-        const randomIndex1 = Math.floor(Math.random() * packIndex.length);
-        redirectId1 = packIndex[randomIndex1].publicId;
+      // use store to access Jotai state outside of React's lifecycle
+      const allowDuplicates = store.get(allowDuplicatesAtom);
+      const colorFilter = store.get(colorFilterAtom);
+      const setFilter = store.get(setFilterAtom);
+
+      const filteredPacks = filterPacks(packs, colorFilter, setFilter);
+
+      if (filteredPacks.length === 0) {
+        return;
       }
-      if (!search.packId2) {
-        const randomIndex2 = Math.floor(Math.random() * packIndex.length);
-        redirectId2 = packIndex[randomIndex2].publicId;
+
+      if (!allowDuplicates && filteredPacks.length < 2) {
+        return;
+      }
+
+      if (!redirectId1 && !redirectId2) {
+        // both pack IDs are missing
+        const indexes = getTwoRandomIndexes(filteredPacks, allowDuplicates);
+        if (indexes.length < 2) return;
+        redirectId1 = filteredPacks[indexes[0]].meta.publicId;
+        redirectId2 = filteredPacks[indexes[1]].meta.publicId;
+      } else if (!redirectId1) {
+        // only packId1 is missing
+        const existingId2 = redirectId2;
+        let newIndex1;
+
+        do {
+          newIndex1 = Math.floor(Math.random() * filteredPacks.length);
+        } while (
+          !allowDuplicates &&
+          filteredPacks[newIndex1].meta.publicId === existingId2
+        );
+        redirectId1 = filteredPacks[newIndex1].meta.publicId;
+      } else if (!redirectId2) {
+        // only packId2 is missing
+        const existingId1 = redirectId1;
+        let newIndex2;
+
+        do {
+          newIndex2 = Math.floor(Math.random() * filteredPacks.length);
+        } while (
+          !allowDuplicates &&
+          filteredPacks[newIndex2].meta.publicId === existingId1
+        );
+        redirectId2 = filteredPacks[newIndex2].meta.publicId;
       }
 
       throw redirect({
@@ -98,33 +181,28 @@ function RouteComponent(): JSX.Element {
   }, [pack1, pack2]);
 
   const filteredPacks = useMemo(() => {
-    return packs.filter((p) => {
-      return (
-        colorFilter.includes(determinePackColors(p.data)[0].color) &&
-        setFilter.includes(p.data.code)
-      );
-    });
+    return filterPacks(packs, colorFilter, setFilter);
   }, [packs, colorFilter, setFilter]);
 
-  const mixPacks = useCallback(() => {
-    if (!filteredPacks || filteredPacks.length < 2) return;
-
-    const randomIndex1 = Math.floor(Math.random() * filteredPacks.length);
-    let randomIndex2 = Math.floor(Math.random() * filteredPacks.length);
-
-    if (!allowDuplicates) {
-      while (randomIndex1 === randomIndex2) {
-        randomIndex2 = Math.floor(Math.random() * filteredPacks.length);
-      }
+  const hasEnoughPacks = useMemo(() => {
+    if (allowDuplicates) {
+      return filteredPacks.length >= 1;
     }
+    return filteredPacks.length >= 2;
+  }, [allowDuplicates, filteredPacks]);
 
-    const redirectId1 = filteredPacks[randomIndex1].meta.publicId;
-    const redirectId2 = filteredPacks[randomIndex2].meta.publicId;
+  const mixPacks = useCallback(() => {
+    const [randomIndex1, randomIndex2] = getTwoRandomIndexes(
+      filteredPacks,
+      allowDuplicates,
+    );
+
+    if (randomIndex1 === undefined || randomIndex2 === undefined) return;
 
     void navigate({
       search: {
-        packId1: redirectId1,
-        packId2: redirectId2,
+        packId1: filteredPacks[randomIndex1].meta.publicId,
+        packId2: filteredPacks[randomIndex2].meta.publicId,
       },
       replace: true,
     });
@@ -134,9 +212,15 @@ function RouteComponent(): JSX.Element {
     <>
       <h1 className="pb-8 text-3xl">Mixer</h1>
       <div className="mb-8 flex items-center gap-4">
-        <Button size="sm" onClick={mixPacks} className="cursor-pointer">
+        <Button
+          size="sm"
+          onClick={mixPacks}
+          className="cursor-pointer"
+          disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
+        >
           <Shuffle />
-          Randomize Packs
+          Randomize {filteredPacks.length}{" "}
+          {filteredPacks.length == 1 ? "Pack" : "Packs"}
         </Button>
         <CopyButton
           size="sm"
@@ -149,7 +233,9 @@ function RouteComponent(): JSX.Element {
         <ColorSelector />
         <SetSelector />
       </div>
-      {pack1 && pack2 ? (
+      {!hasEnoughPacks ? (
+        <div>Not enough packs to mix.</div>
+      ) : pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <Pack pack={pack1.data} publicId={pack1.meta.publicId} />
           <Pack pack={pack2.data} publicId={pack2.meta.publicId} />
@@ -157,7 +243,7 @@ function RouteComponent(): JSX.Element {
       ) : (
         <div>
           {!packId1 && !packId2 ? (
-            <Loading />
+            <div>Not enough packs to mix.</div>
           ) : (
             "Pack(s) not found. Try the randomize button!"
           )}

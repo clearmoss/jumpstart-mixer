@@ -1,5 +1,8 @@
 import { atomWithStorage } from "jotai/utils";
 import { COLORS, SETS } from "@/lib/utils.ts";
+import { createStore } from "jotai";
+
+export const store = createStore();
 
 export const showCategoriesAtom = atomWithStorage("showCategories", true);
 export const allowDuplicatesAtom = atomWithStorage("allowDuplicates", true);
