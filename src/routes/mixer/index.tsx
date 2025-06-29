@@ -17,9 +17,14 @@ import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai/index";
-import { allowDuplicatesAtom, colorFilterAtom } from "@/lib/atoms.ts";
+import {
+  allowDuplicatesAtom,
+  colorFilterAtom,
+  setFilterAtom,
+} from "@/lib/atoms.ts";
 import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
+import SetSelector from "@/components/set-selector.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -75,6 +80,7 @@ function RouteComponent(): JSX.Element {
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
   const [allowDuplicates] = useAtom(allowDuplicatesAtom);
   const [colorFilter] = useAtom(colorFilterAtom);
+  const [setFilter] = useAtom(setFilterAtom);
 
   const { pack1, pack2 } = useMemo(() => {
     const p1 = packs.find((p) => p.meta.publicId === packId1);
@@ -93,9 +99,12 @@ function RouteComponent(): JSX.Element {
 
   const filteredPacks = useMemo(() => {
     return packs.filter((p) => {
-      return colorFilter.includes(determinePackColors(p.data)[0].color);
+      return (
+        colorFilter.includes(determinePackColors(p.data)[0].color) &&
+        setFilter.includes(p.data.code)
+      );
     });
-  }, [packs, colorFilter]);
+  }, [packs, colorFilter, setFilter]);
 
   const mixPacks = useCallback(() => {
     if (!filteredPacks || filteredPacks.length < 2) return;
@@ -138,6 +147,7 @@ function RouteComponent(): JSX.Element {
         <CategoriesToggle />
         <DuplicatesToggle />
         <ColorSelector />
+        <SetSelector />
       </div>
       {pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

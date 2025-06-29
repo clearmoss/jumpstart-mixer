@@ -26,6 +26,12 @@ export const COLORS = [
 export const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
 export type MtgColor = keyof typeof COLOR_ORDER;
 
+export const SETS = [
+  { name: "Jumpstart", code: "JMP" },
+  { name: "Jumpstart 2022", code: "J22" },
+  { name: "Foundations Jumpstart", code: "J25" },
+];
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
