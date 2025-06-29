@@ -1,29 +1,23 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { ClipboardCard } from "@/lib/types.ts";
 import {
-  fetchAllPacks,
   handleError,
   makeDeckListString,
   populateDeckList,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { type JSX, useCallback, useEffect, useMemo } from "react";
+import { type JSX, useCallback, useMemo } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
-import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai/index";
 import { allowDuplicatesAtom } from "@/lib/atoms.ts";
-
-const packsQueryOptions = queryOptions({
-  queryKey: ["packs"],
-  queryFn: () => fetchAllPacks(),
-  staleTime: Infinity,
-});
+import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -32,7 +26,37 @@ const mixerSearchSchema = z.object({
 
 export const Route = createFileRoute("/mixer/")({
   validateSearch: (search) => mixerSearchSchema.parse(search),
+  loaderDeps: ({ search: { packId1, packId2 } }) => ({
+    packId1,
+    packId2,
+  }),
+  beforeLoad: async ({ search, context }) => {
+    if (!search.packId1 || !search.packId2) {
+      // pack search param is missing
+      const packIndex = await context.queryClient.ensureQueryData(
+        packIndexQueryOptions,
+      );
+      let redirectId1 = search.packId1;
+      let redirectId2 = search.packId2;
 
+      if (!search.packId1) {
+        const randomIndex1 = Math.floor(Math.random() * packIndex.length);
+        redirectId1 = packIndex[randomIndex1].publicId;
+      }
+      if (!search.packId2) {
+        const randomIndex2 = Math.floor(Math.random() * packIndex.length);
+        redirectId2 = packIndex[randomIndex2].publicId;
+      }
+
+      throw redirect({
+        search: {
+          packId1: redirectId1,
+          packId2: redirectId2,
+        },
+        replace: true,
+      });
+    }
+  },
   loader: ({ context }) =>
     context.queryClient.ensureQueryData(packsQueryOptions),
   component: RouteComponent,
@@ -84,42 +108,6 @@ function RouteComponent(): JSX.Element {
       replace: true,
     });
   }, [packs, allowDuplicates, navigate]);
-
-  useEffect(() => {
-    if (!packs || packs.length < 2) return;
-
-    const hasNoPacks = !packId1 && !packId2;
-    const hasOnlyOnePack = Boolean(packId1) !== Boolean(packId2);
-
-    if (hasNoPacks) {
-      mixPacks();
-    } else if (hasOnlyOnePack) {
-      const givenId = packId1 || packId2;
-      const givenPack = packs.find((p) => p.meta.publicId === givenId);
-
-      if (!givenPack) {
-        // invalid pack id
-        return;
-      }
-
-      let randomPack: PackFile;
-      if (allowDuplicates) {
-        randomPack = packs[Math.floor(Math.random() * packs.length)];
-      } else {
-        do {
-          randomPack = packs[Math.floor(Math.random() * packs.length)];
-        } while (randomPack.meta.publicId === givenId);
-      }
-
-      void navigate({
-        search: {
-          packId1: packId1 || randomPack.meta.publicId,
-          packId2: packId2 || randomPack.meta.publicId,
-        },
-        replace: true,
-      });
-    }
-  }, [packId1, packId2, packs, mixPacks, navigate, allowDuplicates]);
 
   return (
     <>

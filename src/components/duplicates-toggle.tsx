@@ -9,11 +9,14 @@ function DuplicatesToggle() {
   return (
     <div className="flex items-center space-x-2">
       <Switch
-        id="global-category"
+        id="duplicates-toggle"
         checked={allowDuplicates}
         onCheckedChange={setAllowDuplicates}
+        className="cursor-pointer"
       />
-      <Label htmlFor="global-category">Allow Duplicates</Label>
+      <Label htmlFor="duplicates-toggle" className="cursor-pointer">
+        Allow Duplicates
+      </Label>
     </div>
   );
 }

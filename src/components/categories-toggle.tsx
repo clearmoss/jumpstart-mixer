@@ -9,11 +9,14 @@ function CategoriesToggle() {
   return (
     <div className="flex items-center space-x-2">
       <Switch
-        id="global-category"
+        id="categories-toggle"
         checked={showCategories}
         onCheckedChange={setShowCategories}
+        className="cursor-pointer"
       />
-      <Label htmlFor="global-category">Show Categories</Label>
+      <Label htmlFor="categories-toggle" className="cursor-pointer">
+        Show Categories
+      </Label>
     </div>
   );
 }

@@ -1,15 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
-import { fetchAllPacks, handleError } from "@/lib/utils.ts";
-import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { handleError } from "@/lib/utils.ts";
+import { useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
-
-const packsQueryOptions = queryOptions({
-  queryKey: ["packs"],
-  queryFn: () => fetchAllPacks(),
-  staleTime: Infinity,
-});
+import { packsQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) =>

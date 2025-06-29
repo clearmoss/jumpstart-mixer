@@ -6,9 +6,14 @@ import {
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import { ThemeToggle } from "@/components/theme-toggle.tsx";
 import type { QueryClient } from "@tanstack/react-query";
+import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   {
+    beforeLoad: ({ context }) => {
+      void context.queryClient.prefetchQuery(packIndexQueryOptions);
+      void context.queryClient.prefetchQuery(packsQueryOptions);
+    },
     component: () => (
       <>
         <div className="flex items-baseline justify-between bg-orange-500 px-4 py-2">

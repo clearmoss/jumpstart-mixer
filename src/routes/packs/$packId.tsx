@@ -1,24 +1,10 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
-import { fetchJson } from "@/lib/utils.ts";
-import type { PackFile, PackIndexData } from "@/lib/types.ts";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
-import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
-
-const packIndexQueryOptions = queryOptions({
-  queryKey: ["packIndex"],
-  queryFn: () => fetchJson<PackIndexData[]>("pack_index.json"),
-  staleTime: Infinity,
-});
-
-const packQueryOptions = (packUrl: string) =>
-  queryOptions({
-    queryKey: ["pack", packUrl],
-    queryFn: () => fetchJson<PackFile>(packUrl),
-    staleTime: Infinity,
-  });
+import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -29,7 +15,7 @@ export const Route = createFileRoute("/packs/$packId")({
       throw notFound();
     }
 
-    return queryClient.ensureQueryData(packQueryOptions(packData.url));
+    await queryClient.ensureQueryData(packQueryOptions(packId));
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
@@ -41,15 +27,7 @@ export const Route = createFileRoute("/packs/$packId")({
 
 function RouteComponent() {
   const { packId } = Route.useParams();
-
-  const packIndex = useSuspenseQuery(packIndexQueryOptions);
-  const packData = packIndex.data.find((p) => p.publicId === packId);
-
-  if (!packData) {
-    throw new Error(`Pack with ID ${packId} not found`);
-  }
-
-  const pack = useSuspenseQuery(packQueryOptions(packData.url));
+  const pack = useSuspenseQuery(packQueryOptions(packId));
 
   return (
     <>

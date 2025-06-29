@@ -19,10 +19,9 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-// helper function to safely fetch JSON and return it as an object
-export async function fetchJson<T>(filePath: string): Promise<T> {
-  // Ensure the path starts with a forward slash if it doesn't already
-  const path = filePath.startsWith("/") ? filePath : `/${filePath}`;
+export async function fetchJson<T>(pathOrUrl: string): Promise<T> {
+  // ensure the path starts with a forward slash if it doesn't already
+  const path = pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`;
   const response = await fetch(`${BASEPATH}${path}`);
 
   if (!response.ok) {
@@ -34,20 +33,24 @@ export async function fetchJson<T>(filePath: string): Promise<T> {
   try {
     return (await response.json()) as T;
   } catch (error) {
-    throw new Error(
-      `Failed to parse JSON from ${filePath}: ${error instanceof Error ? error.message : "Unknown error"}`,
-    );
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to parse JSON from ${path}: ${errorMessage}`);
   }
 }
 
-export async function fetchPack(pack: PackIndexData) {
+async function fetchPackFromData(
+  packInfo: PackIndexData,
+): Promise<PackFile | null> {
+  if (!packInfo.url) {
+    console.warn(`Pack info for ${packInfo.publicId} is missing a URL.`);
+    return null;
+  }
   try {
-    const packFile = await fetchJson<PackFile>(pack.url);
-    return { packFile };
+    return await fetchJson<PackFile>(packInfo.url);
   } catch (err: unknown) {
     if (err instanceof Error) {
       console.warn(
-        `Could not load or parse deck file ${pack.url}:`,
+        `Could not load or parse pack file for ${packInfo.publicId} from ${packInfo.url}:`,
         err.message,
       );
     }
@@ -55,14 +58,28 @@ export async function fetchPack(pack: PackIndexData) {
   }
 }
 
+export async function fetchPack(packId: string): Promise<PackFile> {
+  const packIndex = await fetchJson<PackIndexData[]>("pack_index.json");
+  const packIndexData = packIndex.find((pack) => pack.publicId === packId);
+
+  if (!packIndexData) {
+    throw new Error(`Pack with ID "${packId}" not found in pack_index.json.`);
+  }
+
+  const packFile = await fetchPackFromData(packIndexData);
+
+  if (!packFile) {
+    throw new Error(`Failed to load pack file for pack ID "${packId}".`);
+  }
+
+  return packFile;
+}
+
 export async function fetchAllPacks(): Promise<PackFile[]> {
   const packIndex = await fetchJson<PackIndexData[]>("pack_index.json");
-  const packPromises = packIndex.map(fetchPack);
-  const fetchedPacks = (await Promise.all(packPromises)).filter(Boolean) as {
-    packFile: PackFile;
-  }[];
-
-  return fetchedPacks.map((item) => item.packFile);
+  const packPromises = packIndex.map(fetchPackFromData);
+  const fetchedPacks = await Promise.all(packPromises);
+  return fetchedPacks.filter((pack): pack is PackFile => pack !== null);
 }
 
 export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
