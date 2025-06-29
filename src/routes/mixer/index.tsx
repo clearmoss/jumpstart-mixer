@@ -2,6 +2,7 @@ import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
 import type { ClipboardCard } from "@/lib/types.ts";
 import {
+  determinePackColors,
   handleError,
   makeDeckListString,
   populateDeckList,
@@ -16,8 +17,9 @@ import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai/index";
-import { allowDuplicatesAtom } from "@/lib/atoms.ts";
+import { allowDuplicatesAtom, colorFilterAtom } from "@/lib/atoms.ts";
 import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
+import ColorSelector from "@/components/color-selector.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -72,6 +74,7 @@ function RouteComponent(): JSX.Element {
   const { packId1, packId2 } = Route.useSearch();
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
   const [allowDuplicates] = useAtom(allowDuplicatesAtom);
+  const [colorFilter] = useAtom(colorFilterAtom);
 
   const { pack1, pack2 } = useMemo(() => {
     const p1 = packs.find((p) => p.meta.publicId === packId1);
@@ -88,26 +91,35 @@ function RouteComponent(): JSX.Element {
     return makeDeckListString(deckList);
   }, [pack1, pack2]);
 
-  const mixPacks = useCallback(() => {
-    if (!packs || packs.length < 2) return;
+  const filteredPacks = useMemo(() => {
+    return packs.filter((p) => {
+      return colorFilter.includes(determinePackColors(p.data)[0].color);
+    });
+  }, [packs, colorFilter]);
 
-    const randomIndex1 = Math.floor(Math.random() * packs.length);
-    let randomIndex2 = Math.floor(Math.random() * packs.length);
+  const mixPacks = useCallback(() => {
+    if (!filteredPacks || filteredPacks.length < 2) return;
+
+    const randomIndex1 = Math.floor(Math.random() * filteredPacks.length);
+    let randomIndex2 = Math.floor(Math.random() * filteredPacks.length);
 
     if (!allowDuplicates) {
       while (randomIndex1 === randomIndex2) {
-        randomIndex2 = Math.floor(Math.random() * packs.length);
+        randomIndex2 = Math.floor(Math.random() * filteredPacks.length);
       }
     }
 
+    const redirectId1 = filteredPacks[randomIndex1].meta.publicId;
+    const redirectId2 = filteredPacks[randomIndex2].meta.publicId;
+
     void navigate({
       search: {
-        packId1: packs[randomIndex1].meta.publicId,
-        packId2: packs[randomIndex2].meta.publicId,
+        packId1: redirectId1,
+        packId2: redirectId2,
       },
       replace: true,
     });
-  }, [packs, allowDuplicates, navigate]);
+  }, [filteredPacks, allowDuplicates, navigate]);
 
   return (
     <>
@@ -125,6 +137,7 @@ function RouteComponent(): JSX.Element {
         />
         <CategoriesToggle />
         <DuplicatesToggle />
+        <ColorSelector />
       </div>
       {pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

@@ -11,7 +11,9 @@ import { Link } from "@tanstack/react-router";
 import {
   BASEPATH,
   cn,
+  determinePackColors,
   makeDeckListString,
+  type MtgColor,
   populateDeckList,
 } from "@/lib/utils.ts";
 import { useMemo } from "react";
@@ -19,9 +21,6 @@ import CopyButton from "@/components/copy-button.tsx";
 import { useAtom } from "jotai/index";
 import { showCategoriesAtom } from "@/lib/atoms.ts";
 import CardListEntry from "@/components/card-list-entry.tsx";
-
-const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
-type MtgColor = keyof typeof COLOR_ORDER;
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -31,35 +30,6 @@ const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   G: "border-t-green-500",
   C: "border-t-gray-400",
 } as const;
-
-function determinePackColors(pack: Deck): { color: string; count: number }[] {
-  const colorCounts = pack.mainBoard.reduce(
-    (acc, card) => {
-      // if the card has colors, use them; otherwise use colorless ("C")
-      const colors = card.colorIdentity.length > 0 ? card.colorIdentity : ["C"];
-      for (const color of colors) {
-        // accumulate total count
-        acc[color as MtgColor] = (acc[color as MtgColor] || 0) + card.count;
-      }
-      return acc;
-    },
-    {} as Record<MtgColor, number>,
-  );
-
-  // return the colors sorted by frequency
-  return Object.entries(colorCounts)
-    .map(([color, count]) => ({ color, count }))
-    .sort((a, b) => {
-      const countDiff = b.count - a.count;
-      if (countDiff === 0) {
-        // if counts are equal, sort by color
-        return (
-          COLOR_ORDER[a.color as MtgColor] - COLOR_ORDER[b.color as MtgColor]
-        );
-      }
-      return countDiff;
-    });
-}
 
 function getMainType(type: string): string {
   // remove the subtype after —, then return only the main type without specifier

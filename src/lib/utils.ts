@@ -15,6 +15,17 @@ const ERROR_MESSAGES = {
 
 export const BASEPATH = "/jumpstart-mixer";
 
+export const COLORS = [
+  { name: "White", code: "W" },
+  { name: "Blue", code: "U" },
+  { name: "Black", code: "B" },
+  { name: "Red", code: "R" },
+  { name: "Green", code: "G" },
+  { name: "Colorless", code: "C" },
+];
+export const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
+export type MtgColor = keyof typeof COLOR_ORDER;
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -80,6 +91,37 @@ export async function fetchAllPacks(): Promise<PackFile[]> {
   const packPromises = packIndex.map(fetchPackFromData);
   const fetchedPacks = await Promise.all(packPromises);
   return fetchedPacks.filter((pack): pack is PackFile => pack !== null);
+}
+
+export function determinePackColors(
+  pack: Deck,
+): { color: string; count: number }[] {
+  const colorCounts = pack.mainBoard.reduce(
+    (acc, card) => {
+      // if the card has colors, use them; otherwise use colorless ("C")
+      const colors = card.colorIdentity.length > 0 ? card.colorIdentity : ["C"];
+      for (const color of colors) {
+        // accumulate total count
+        acc[color as MtgColor] = (acc[color as MtgColor] || 0) + card.count;
+      }
+      return acc;
+    },
+    {} as Record<MtgColor, number>,
+  );
+
+  // return the colors sorted by frequency
+  return Object.entries(colorCounts)
+    .map(([color, count]) => ({ color, count }))
+    .sort((a, b) => {
+      const countDiff = b.count - a.count;
+      if (countDiff === 0) {
+        // if counts are equal, sort by color
+        return (
+          COLOR_ORDER[a.color as MtgColor] - COLOR_ORDER[b.color as MtgColor]
+        );
+      }
+      return countDiff;
+    });
 }
 
 export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
