@@ -6,6 +6,13 @@ import {
 import type { CardDeck } from "@/lib/types.ts";
 import { useState } from "react";
 
+const rarityColors: Record<string, string> = {
+  common: "text-current",
+  uncommon: "text-sky-600",
+  rare: "text-yellow-600",
+  mythic: "text-orange-600",
+};
+
 function CardListEntry({ card }: { card: CardDeck }) {
   const [shouldLoadImage, setShouldLoadImage] = useState(false);
 
@@ -14,6 +21,7 @@ function CardListEntry({ card }: { card: CardDeck }) {
   const imageUrl = scryfallId
     ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(0)}/${scryfallId.charAt(1)}/${scryfallId}.jpg`
     : null;
+  const cardRarityColor = rarityColors[card.rarity] ?? "text-current";
 
   return (
     <HoverCard
@@ -33,7 +41,9 @@ function CardListEntry({ card }: { card: CardDeck }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {card.count} {card.name}
+            <span className={cardRarityColor}>
+              {card.count} {card.name}
+            </span>
           </a>
         </li>
       </HoverCardTrigger>
