@@ -1,8 +1,9 @@
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { ClipboardCard } from "@/lib/types.ts";
 import {
-  determinePackColors,
+  filterPacks,
+  getTwoRandomIndexes,
   handleError,
   makeDeckListString,
   populateDeckList,
@@ -31,51 +32,6 @@ const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
   packId2: z.string().optional(),
 });
-
-function filterPacks(
-  packs: PackFile[],
-  colorFilter: string[],
-  setFilter: string[],
-) {
-  return packs.filter((p) => {
-    const packColors = determinePackColors(p.data);
-    if (packColors.length === 0) {
-      return false;
-    }
-    return (
-      colorFilter.includes(packColors[0].color) &&
-      setFilter.includes(p.data.code)
-    );
-  });
-}
-
-function getTwoRandomIndexes(
-  packs: PackFile[],
-  allowDuplicates: boolean,
-): number[] {
-  const arrLength = packs.length;
-
-  if (arrLength === 0) {
-    return [];
-  }
-
-  if (!allowDuplicates && arrLength < 2) {
-    return [];
-  }
-
-  const index1 = Math.floor(Math.random() * arrLength);
-
-  if (allowDuplicates) {
-    const index2 = Math.floor(Math.random() * arrLength);
-    return [index1, index2];
-  } else {
-    let index2 = Math.floor(Math.random() * arrLength);
-    while (index1 === index2) {
-      index2 = Math.floor(Math.random() * arrLength);
-    }
-    return [index1, index2];
-  }
-}
 
 export const Route = createFileRoute("/mixer/")({
   validateSearch: (search) => mixerSearchSchema.parse(search),

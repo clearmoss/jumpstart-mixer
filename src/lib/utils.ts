@@ -169,3 +169,48 @@ export function handleError(err: unknown): string {
   console.error("Caught an unknown error:", err);
   return ERROR_MESSAGES.UNKNOWN_LOAD;
 }
+
+export function filterPacks(
+  packs: PackFile[],
+  colorFilter: string[],
+  setFilter: string[],
+) {
+  return packs.filter((p) => {
+    const packColors = determinePackColors(p.data);
+    if (packColors.length === 0) {
+      return false;
+    }
+    return (
+      colorFilter.includes(packColors[0].color) &&
+      setFilter.includes(p.data.code)
+    );
+  });
+}
+
+export function getTwoRandomIndexes(
+  packs: PackFile[],
+  allowDuplicates: boolean,
+): number[] {
+  const arrLength = packs.length;
+
+  if (arrLength === 0) {
+    return [];
+  }
+
+  if (!allowDuplicates && arrLength < 2) {
+    return [];
+  }
+
+  const index1 = Math.floor(Math.random() * arrLength);
+
+  if (allowDuplicates) {
+    const index2 = Math.floor(Math.random() * arrLength);
+    return [index1, index2];
+  } else {
+    let index2 = Math.floor(Math.random() * arrLength);
+    while (index1 === index2) {
+      index2 = Math.floor(Math.random() * arrLength);
+    }
+    return [index1, index2];
+  }
+}

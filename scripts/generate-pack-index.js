@@ -77,6 +77,28 @@ async function generatePackIndex() {
 
   const finalIndex = Object.values(tempIndexMap);
 
+  const releaseOrder = {
+    JMP: 1,
+    J22: 2,
+    J25: 3,
+  };
+
+  finalIndex.sort((a, b) => {
+    // extract set code
+    const setA = a.url.split("/")[1];
+    const setB = b.url.split("/")[1];
+
+    const orderA = releaseOrder[setA] || Infinity;
+    const orderB = releaseOrder[setB] || Infinity;
+
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+
+    // alphabetical fallback if unknown sets
+    return a.url.localeCompare(b.url);
+  });
+
   await fs.writeFile(
     outputIndexFile,
     JSON.stringify(finalIndex, null, 2),
