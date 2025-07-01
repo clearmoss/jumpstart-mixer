@@ -20,8 +20,8 @@ export const Route = createFileRoute("/packs/$packId")({
     let title = "Pack";
     if (loaderData) {
       title = loaderData.pack
-        ? `${loaderData.pack.data.name.replace(/\((\d+)\)/g, "$1")}`
-        : "Mixer";
+        ? `${loaderData.pack.data.name.replace(/\((\d+)\)/g, "$1")} (${loaderData.pack.data.code})`
+        : "Jumpstart Mixer";
     }
 
     return {

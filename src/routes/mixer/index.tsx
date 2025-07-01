@@ -195,7 +195,7 @@ function RouteComponent(): JSX.Element {
 
   return (
     <>
-      <div className="mb-8 flex items-center gap-4">
+      <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
         <Button
           size="sm"
           onClick={mixPacks}

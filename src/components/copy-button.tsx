@@ -42,6 +42,7 @@ function CopyButton({
       variant={variant}
       onClick={copyToClipboard}
       disabled={isCopied || disabled}
+      title="Copy decklist to clipboard"
       className={
         isCopied
           ? "bg-green-600 text-white disabled:!opacity-100"

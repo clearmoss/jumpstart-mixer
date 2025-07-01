@@ -34,7 +34,7 @@ function SetSelector() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="w-24">
+        <Button variant="outline" className="w-24 cursor-pointer">
           {setFilter.length > 0 ? setFilter : "No Sets"}
         </Button>
       </DropdownMenuTrigger>
@@ -50,6 +50,7 @@ function SetSelector() {
             checked={setFilter.includes(set.code)}
             onCheckedChange={() => handleCheckedChange(set.code)}
             onSelect={(e) => e.preventDefault()}
+            className="cursor-pointer"
           >
             {set.name}
           </DropdownMenuCheckboxItem>

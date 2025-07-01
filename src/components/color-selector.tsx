@@ -34,7 +34,7 @@ function ColorSelector() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="w-24">
+        <Button variant="outline" className="w-24 cursor-pointer">
           {colorFilter.length > 0 ? colorFilter : "No Colors"}
         </Button>
       </DropdownMenuTrigger>
@@ -50,6 +50,7 @@ function ColorSelector() {
             checked={colorFilter.includes(color.code)}
             onCheckedChange={() => handleCheckedChange(color.code)}
             onSelect={(e) => e.preventDefault()}
+            className="cursor-pointer"
           >
             {color.name}
           </DropdownMenuCheckboxItem>

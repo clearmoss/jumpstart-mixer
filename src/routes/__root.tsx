@@ -41,7 +41,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             <ThemeToggle />
           </div>
           <hr />
-          <div className="flex min-h-[100vh] w-full justify-center p-8">
+          <div className="flex min-h-[100vh] w-full justify-center p-4 sm:p-8">
             <div className="w-full lg:w-3/4 2xl:w-1/2">
               <Outlet />
             </div>

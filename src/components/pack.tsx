@@ -118,8 +118,10 @@ function Pack({
   });
 
   return (
-    <Card className={`bg-card border-t-8 ${CARD_BORDER_CLASSES[mainColor]}`}>
-      <CardHeader>
+    <Card
+      className={`bg-card max-w-128 border-t-8 ${CARD_BORDER_CLASSES[mainColor]}`}
+    >
+      <CardHeader className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
         <Link
           to="/packs/$packId"
           params={{
@@ -136,11 +138,12 @@ function Pack({
               {pack.code}
             </CardDescription>
           </div>
-          <div className="flex items-center gap-2">{colorIcons}</div>
         </Link>
+        <div className="flex items-center gap-2">{colorIcons}</div>
         <CardAction className="flex gap-2">
           <Link
             to="/mixer"
+            title="Mix with this pack"
             search={
               position === 1
                 ? { packId1: publicId, packId2: undefined }
