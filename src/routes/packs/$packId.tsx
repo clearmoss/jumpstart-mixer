@@ -1,7 +1,5 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
-import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
@@ -15,7 +13,24 @@ export const Route = createFileRoute("/packs/$packId")({
       throw notFound();
     }
 
-    await queryClient.ensureQueryData(packQueryOptions(packId));
+    const pack = await queryClient.ensureQueryData(packQueryOptions(packId));
+    return { pack: pack };
+  },
+  head: ({ loaderData }) => {
+    let title = "Pack";
+    if (loaderData) {
+      title = loaderData.pack
+        ? `${loaderData.pack.data.name.replace(/\((\d+)\)/g, "$1")}`
+        : "Mixer";
+    }
+
+    return {
+      meta: [
+        {
+          title: title,
+        },
+      ],
+    };
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
@@ -31,15 +46,6 @@ function RouteComponent() {
 
   return (
     <>
-      <h1 className="pb-8 text-3xl">Pack</h1>
-      <div className="mb-8 flex gap-4">
-        <Link to="/mixer" search={{ packId1: packId, packId2: undefined }}>
-          <Button size="sm" className="cursor-pointer">
-            <Shuffle />
-            Mix This Pack
-          </Button>
-        </Link>
-      </div>
       <Pack pack={pack.data.data} publicId={packId} />
     </>
   );

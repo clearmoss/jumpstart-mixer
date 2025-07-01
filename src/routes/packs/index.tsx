@@ -33,7 +33,6 @@ function RouteComponent() {
 
   return (
     <>
-      <h1 className="pb-8 text-3xl">Packs</h1>
       <div className="mb-8 flex items-center gap-4">
         <CategoriesToggle />
         <ColorSelector />

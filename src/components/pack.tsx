@@ -21,6 +21,8 @@ import CopyButton from "@/components/copy-button.tsx";
 import { useAtom } from "jotai/index";
 import { showCategoriesAtom } from "@/lib/atoms.ts";
 import CardListEntry from "@/components/card-list-entry.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { Shuffle } from "lucide-react";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -52,9 +54,11 @@ function groupCardsByType(cards: CardDeck[]): Map<string, CardDeck[]> {
 function Pack({
   pack,
   publicId,
+  position = 1,
 }: {
   pack: Deck | undefined;
   publicId: string | undefined;
+  position?: number;
 }) {
   const [showCategories] = useAtom(showCategoriesAtom);
 
@@ -134,7 +138,19 @@ function Pack({
           </div>
           <div className="flex items-center gap-2">{colorIcons}</div>
         </Link>
-        <CardAction>
+        <CardAction className="flex gap-2">
+          <Link
+            to="/mixer"
+            search={
+              position === 1
+                ? { packId1: publicId, packId2: undefined }
+                : { packId1: undefined, packId2: publicId }
+            }
+          >
+            <Button size="sm" variant="secondary" className="cursor-pointer">
+              <Shuffle />
+            </Button>
+          </Link>
           <CopyButton
             size="sm"
             variant="secondary"

@@ -1,6 +1,6 @@
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { ClipboardCard } from "@/lib/types.ts";
+import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   filterPacks,
   getTwoRandomIndexes,
@@ -103,8 +103,37 @@ export const Route = createFileRoute("/mixer/")({
       });
     }
   },
-  loader: ({ context }) =>
-    context.queryClient.ensureQueryData(packsQueryOptions),
+  loader: async ({ context, deps }) => {
+    const packs = await context.queryClient.ensureQueryData(packsQueryOptions);
+    return {
+      packId1: deps.packId1,
+      packId2: deps.packId2,
+      packs: packs,
+    };
+  },
+  head: ({ loaderData }) => {
+    let title = "Mixer";
+    if (loaderData) {
+      const pack1 = loaderData.packs.find(
+        (p: PackFile) => p.meta.publicId === loaderData.packId1,
+      );
+      const pack2 = loaderData.packs.find(
+        (p: PackFile) => p.meta.publicId === loaderData.packId2,
+      );
+      title =
+        pack1 && pack2
+          ? `${pack1.data.name.replace(/\((\d+)\)/g, "$1")} + ${pack2.data.name.replace(/\((\d+)\)/g, "$1")}`
+          : "Mixer";
+    }
+
+    return {
+      meta: [
+        {
+          title: title,
+        },
+      ],
+    };
+  },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
   errorComponent: ({ error }) => {
@@ -160,13 +189,12 @@ function RouteComponent(): JSX.Element {
         packId1: filteredPacks[randomIndex1].meta.publicId,
         packId2: filteredPacks[randomIndex2].meta.publicId,
       },
-      replace: true,
+      // replace: true,
     });
   }, [filteredPacks, allowDuplicates, navigate]);
 
   return (
     <>
-      <h1 className="pb-8 text-3xl">Mixer</h1>
       <div className="mb-8 flex items-center gap-4">
         <Button
           size="sm"
@@ -193,8 +221,8 @@ function RouteComponent(): JSX.Element {
         <div>Not enough packs to mix.</div>
       ) : pack1 && pack2 ? (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <Pack pack={pack1.data} publicId={pack1.meta.publicId} />
-          <Pack pack={pack2.data} publicId={pack2.meta.publicId} />
+          <Pack pack={pack1.data} publicId={pack1.meta.publicId} position={1} />
+          <Pack pack={pack2.data} publicId={pack2.meta.publicId} position={2} />
         </div>
       ) : (
         <div>

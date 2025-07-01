@@ -9,18 +9,12 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as TestRouteImport } from './routes/test'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PacksIndexRouteImport } from './routes/packs/index'
 import { Route as MixerIndexRouteImport } from './routes/mixer/index'
 import { Route as PacksPackIdRouteImport } from './routes/packs/$packId'
 
-const TestRoute = TestRouteImport.update({
-  id: '/test',
-  path: '/test',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
@@ -50,7 +44,6 @@ const PacksPackIdRoute = PacksPackIdRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/test': typeof TestRoute
   '/packs/$packId': typeof PacksPackIdRoute
   '/mixer': typeof MixerIndexRoute
   '/packs': typeof PacksIndexRoute
@@ -58,7 +51,6 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/test': typeof TestRoute
   '/packs/$packId': typeof PacksPackIdRoute
   '/mixer': typeof MixerIndexRoute
   '/packs': typeof PacksIndexRoute
@@ -67,30 +59,21 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/test': typeof TestRoute
   '/packs/$packId': typeof PacksPackIdRoute
   '/mixer/': typeof MixerIndexRoute
   '/packs/': typeof PacksIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/test' | '/packs/$packId' | '/mixer' | '/packs'
+  fullPaths: '/' | '/about' | '/packs/$packId' | '/mixer' | '/packs'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/test' | '/packs/$packId' | '/mixer' | '/packs'
-  id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/test'
-    | '/packs/$packId'
-    | '/mixer/'
-    | '/packs/'
+  to: '/' | '/about' | '/packs/$packId' | '/mixer' | '/packs'
+  id: '__root__' | '/' | '/about' | '/packs/$packId' | '/mixer/' | '/packs/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
-  TestRoute: typeof TestRoute
   PacksPackIdRoute: typeof PacksPackIdRoute
   MixerIndexRoute: typeof MixerIndexRoute
   PacksIndexRoute: typeof PacksIndexRoute
@@ -98,13 +81,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/test': {
-      id: '/test'
-      path: '/test'
-      fullPath: '/test'
-      preLoaderRoute: typeof TestRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -146,7 +122,6 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
-  TestRoute: TestRoute,
   PacksPackIdRoute: PacksPackIdRoute,
   MixerIndexRoute: MixerIndexRoute,
   PacksIndexRoute: PacksIndexRoute,
