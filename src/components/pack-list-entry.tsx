@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
 import {
-  BASEPATH,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
@@ -18,6 +17,7 @@ import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
+import ColorIcons from "@/components/color-icons.tsx";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-l-amber-300",
@@ -50,18 +50,6 @@ function PackListEntry({
   );
 
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
-  const colorIcons = useMemo(
-    () =>
-      packColors.map((color, index) => (
-        <img
-          src={`${BASEPATH}/icons/${color.color}.svg`}
-          alt={color.color}
-          key={color.color}
-          className={"select-none " + (index === 0 ? "h-7 w-7" : "h-5 w-5")}
-        />
-      )),
-    [packColors],
-  );
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
@@ -89,7 +77,7 @@ function PackListEntry({
           </div>
         </Link>
         <div className="flex grow items-center justify-end gap-2">
-          {colorIcons}
+          <ColorIcons packColors={packColors} />
         </div>
         <CardAction className="flex items-center gap-2">
           <Link
