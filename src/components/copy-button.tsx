@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Check, Clipboard } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
+import { cn } from "@/lib/utils.ts";
 
 function CopyButton({
   size = "default",
@@ -8,6 +9,7 @@ function CopyButton({
   textToCopy,
   buttonText,
   disabled = false,
+  className,
 }: {
   size?: "default" | "sm" | "lg" | "icon";
   variant?:
@@ -20,6 +22,7 @@ function CopyButton({
   textToCopy: string;
   buttonText?: string;
   disabled?: boolean;
+  className?: string;
 }) {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -43,11 +46,12 @@ function CopyButton({
       onClick={copyToClipboard}
       disabled={isCopied || disabled}
       title="Copy decklist to clipboard"
-      className={
+      className={cn(
+        className,
         isCopied
           ? "bg-green-600 text-white disabled:!opacity-100"
-          : "cursor-pointer"
-      }
+          : "cursor-pointer",
+      )}
     >
       {isCopied ? <Check /> : <Clipboard />}
       {buttonText && (isCopied ? "Copied!" : buttonText)}

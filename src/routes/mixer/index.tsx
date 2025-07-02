@@ -199,18 +199,19 @@ function RouteComponent(): JSX.Element {
         <Button
           size="sm"
           onClick={mixPacks}
-          className="cursor-pointer"
+          className="h-10 w-54 cursor-pointer"
           disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
         >
           <Shuffle />
-          Randomize {filteredPacks.length}{" "}
-          {filteredPacks.length == 1 ? "Pack" : "Packs"}
+          Randomize ({filteredPacks.length}{" "}
+          {filteredPacks.length == 1 ? "Pack" : "Packs"})
         </Button>
         <CopyButton
           size="sm"
           textToCopy={currentDeckList}
           buttonText="Copy Decklist"
           disabled={!currentDeckList}
+          className="h-10 w-36"
         />
         <CategoriesToggle />
         <DuplicatesToggle />

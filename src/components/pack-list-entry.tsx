@@ -59,24 +59,23 @@ function PackListEntry({
     <Card
       className={`bg-card max-w-224 border-l-12 px-0 py-4 sm:py-2 ${CARD_BORDER_CLASSES[mainColor]}`}
     >
-      <CardHeader className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
+      <CardHeader className="flex flex-col items-start sm:flex-row sm:items-center sm:gap-8">
         <Link
           to="/packs/$packId"
           params={{
             packId: publicId,
           }}
+          className="max-w-56 grow"
         >
-          <div className="flex flex-col items-baseline sm:flex-row sm:gap-8">
-            <CardTitle>
-              {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
-              {pack.name.replace(/\((\d+)\)/g, "$1")}
-            </CardTitle>
-            <CardDescription className="text-muted-foreground">
-              {pack.code}
-            </CardDescription>
-          </div>
+          <CardTitle>
+            {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
+            {pack.name.replace(/\((\d+)\)/g, "$1")}
+          </CardTitle>
         </Link>
-        <div className="flex grow items-center justify-end gap-2">
+        <CardDescription className="text-muted-foreground w-8">
+          {pack.code}
+        </CardDescription>
+        <div className="flex grow items-center gap-2 py-4 sm:py-0">
           <ColorIcons packColors={packColors} />
         </div>
         <CardAction className="flex items-center gap-2">
