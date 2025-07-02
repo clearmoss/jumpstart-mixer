@@ -36,7 +36,16 @@ function RouteComponent() {
   const [setFilter] = useAtom(setFilterAtom);
 
   const filteredPacks = useMemo(() => {
-    return filterPacks(packs, colorFilter, setFilter);
+    const filteredPacks = filterPacks(packs, colorFilter, setFilter);
+    return filteredPacks.length > 0 ? (
+      filteredPacks.map((pack) => (
+        <div key={pack.meta.publicId}>
+          <PackListEntry pack={pack.data} publicId={pack.meta.publicId} />
+        </div>
+      ))
+    ) : (
+      <div>No packs found.</div>
+    );
   }, [packs, colorFilter, setFilter]);
 
   return (
@@ -45,17 +54,7 @@ function RouteComponent() {
         <ColorSelector />
         <SetSelector />
       </div>
-      <div className="grid grid-cols-1 gap-2">
-        {filteredPacks.length > 0 ? (
-          filteredPacks.map((pack) => (
-            <div key={pack.meta.publicId}>
-              <PackListEntry pack={pack.data} publicId={pack.meta.publicId} />
-            </div>
-          ))
-        ) : (
-          <div>No packs found.</div>
-        )}
-      </div>
+      <div className="grid grid-cols-1 gap-2">{filteredPacks}</div>
     </>
   );
 }
