@@ -40,18 +40,16 @@ function SidebarCardPreview({
   return (
     <MediaQuery minWidth={1024}>
       {createPortal(
-        <div className="bg-popover absolute top-0 left-0 rounded-md border p-4 shadow-md">
-          <div className="h-[502px] w-[360px] overflow-hidden rounded-md">
-            <img
-              src={imageUrl}
-              alt={`${card.name} card image`}
-              className="h-full w-full rounded-xl object-contain"
-              loading="lazy"
-            />
-            {card.rarity === "mythic" && (
-              <div className="holographic absolute top-4 left-4 z-10 h-94/100 w-92/100" />
-            )}
-          </div>
+        <div className="h-[502px] w-[360px] overflow-hidden rounded-md">
+          <img
+            src={imageUrl}
+            alt={`${card.name} card image`}
+            className="h-full w-full rounded-xl object-contain"
+            loading="lazy"
+          />
+          {card.rarity === "mythic" && (
+            <div className="holographic absolute top-4 left-4 z-10 h-94/100 w-92/100" />
+          )}
         </div>,
         sidebarRef,
       )}
@@ -76,7 +74,7 @@ function CardListEntry({
   return (
     <>
       <li
-        className={cn("px-2", isCurrentlyDisplayed && "bg-gray-200")}
+        className={cn("px-2", isCurrentlyDisplayed && "lg:bg-gray-200")}
         onMouseEnter={handleMouseEnter}
       >
         <a

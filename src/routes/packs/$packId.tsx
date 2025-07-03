@@ -1,9 +1,18 @@
-import { createFileRoute, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
-import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
+import {
+  packIndexQueryOptions,
+  packQueryOptions,
+  packsQueryOptions,
+} from "@/lib/queries.ts";
 import Sidebar from "@/components/sidebar.tsx";
+import ColorSelector from "@/components/color-selector.tsx";
+import SetSelector from "@/components/set-selector.tsx";
+import CategoriesToggle from "@/components/categories-toggle.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { Shuffle } from "lucide-react";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -44,11 +53,29 @@ export const Route = createFileRoute("/packs/$packId")({
 function RouteComponent() {
   const { packId } = Route.useParams();
   const pack = useSuspenseQuery(packQueryOptions(packId));
+  const { data: packs } = useSuspenseQuery(packsQueryOptions);
 
   return (
     <div className="flex">
-      <Sidebar></Sidebar>
-      <div className="flex grow flex-col p-8">
+      <Sidebar showDeckList={false}></Sidebar>
+      <div className="flex w-full flex-col p-8">
+        <div className="flex gap-4 pb-8">
+          <ColorSelector />
+          <SetSelector />
+          <CategoriesToggle />
+        </div>
+        <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
+          <Link
+            to={"/packs/$packId"}
+            params={{ packId: packs[0].meta.publicId }}
+            disabled
+          >
+            <Button size="sm" className="h-10 w-54 cursor-pointer" disabled>
+              <Shuffle />
+              Random Pack
+            </Button>{" "}
+          </Link>
+        </div>
         <Pack pack={pack.data.data} publicId={packId} />
       </div>
     </div>

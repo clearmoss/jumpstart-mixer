@@ -196,35 +196,42 @@ function RouteComponent(): JSX.Element {
 
   return (
     <div className="flex">
-      <Sidebar></Sidebar>
-      <div className="flex flex-col p-8">
-        <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
-          <Button
-            size="sm"
-            onClick={mixPacks}
-            className="h-10 w-54 cursor-pointer"
-            disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
-          >
-            <Shuffle />
-            Randomize ({filteredPacks.length}{" "}
-            {filteredPacks.length == 1 ? "Pack" : "Packs"})
-          </Button>
-          <CopyButton
-            size="sm"
-            textToCopy={currentDeckList}
-            buttonText="Copy Decklist"
-            disabled={!currentDeckList}
-            className="h-10 w-36"
-          />
-          <CategoriesToggle />
-          <DuplicatesToggle />
-          <ColorSelector />
-          <SetSelector />
+      <Sidebar showDeckList={false}></Sidebar>
+      <div className="flex w-full flex-col p-8">
+        <div className="mb-8 flex flex-col items-start gap-4">
+          <div className="mb-4 flex flex-col items-start gap-8 lg:flex-row lg:items-center">
+            <div className="flex gap-4">
+              <ColorSelector />
+              <SetSelector />
+            </div>
+            <CategoriesToggle />
+            <DuplicatesToggle />
+          </div>
+          <div className="flex flex-col items-start gap-4 lg:flex-row lg:items-center">
+            <Button
+              size="sm"
+              onClick={mixPacks}
+              className="h-10 w-54 cursor-pointer"
+              disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
+            >
+              <Shuffle />
+              Randomize ({filteredPacks.length}{" "}
+              {filteredPacks.length == 1 ? "Pack" : "Packs"})
+            </Button>
+            <CopyButton
+              size="sm"
+              variant="secondary"
+              textToCopy={currentDeckList}
+              buttonText="Copy Combined Decklist"
+              disabled={!currentDeckList}
+              className="h-10 w-56"
+            />
+          </div>
         </div>
         {!hasEnoughPacks ? (
           <div>Not enough packs to mix.</div>
         ) : pack1 && pack2 ? (
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className="grid w-fit grid-cols-1 gap-4 2xl:grid-cols-2">
             <Pack
               pack={pack1.data}
               publicId={pack1.meta.publicId}

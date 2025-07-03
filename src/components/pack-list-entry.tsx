@@ -47,12 +47,12 @@ const PACK_ANIMATED_BACKGROUND_CLASSES: Record<MtgColor, string> = {
 };
 
 const PACK_TEXT_COLOR_CLASSES: Record<MtgColor, string> = {
-  W: "text-black",
-  U: "text-white",
-  B: "text-white",
-  R: "text-white",
-  G: "text-black",
-  C: "text-black",
+  W: "sm:text-black",
+  U: "sm:text-white",
+  B: "sm:text-white",
+  R: "sm:text-white",
+  G: "sm:text-black",
+  C: "sm:text-black",
 };
 
 const formatPackName = (name: string) => name.replace(/\((\d+)\)/g, "$1");
@@ -82,7 +82,7 @@ function SidebarDeckListPreview({
   return (
     <MediaQuery minWidth={1024}>
       {createPortal(
-        <div className="bg-popover absolute top-0 right-0 left-0 z-50 w-100 max-w-xl rounded-md border p-8 shadow-md">
+        <div className="w-100">
           <DeckList pack={pack} />
         </div>,
         sidebarRef,
@@ -133,7 +133,7 @@ function PackListEntry({
         )}
         onMouseEnter={handleMouseEnter}
       >
-        <CardHeader className="flex flex-col items-start sm:flex-row sm:items-center sm:gap-8">
+        <CardHeader className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:gap-4">
           <Link
             to="/packs/$packId"
             params={{
@@ -145,7 +145,7 @@ function PackListEntry({
               "py-4 sm:py-2", // add it back for the content
               "-ml-6", // counteract CardHeader's left padding
               "pl-6", // add it back for the content
-              "bg-gradient-to-r bg-no-repeat transition-all duration-200 ease-in-out",
+              "bg-no-repeat transition-all duration-200 ease-in-out sm:bg-gradient-to-r",
               isCurrentlyDisplayed
                 ? "bg-[length:100%_100%]"
                 : "bg-[length:0%_100%]",
@@ -164,7 +164,7 @@ function PackListEntry({
               {formatPackName(pack.name)}
             </CardTitle>
           </Link>
-          <CardDescription className="text-muted-foreground w-8">
+          <CardDescription className="text-muted-foreground w-8 pt-4 sm:pt-0">
             {pack.code}
           </CardDescription>
           <div className="flex grow items-center gap-2 py-4 sm:py-0">

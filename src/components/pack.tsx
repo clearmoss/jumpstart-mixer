@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
 import {
+  cn,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
@@ -58,7 +59,10 @@ function Pack({
 
   return (
     <Card
-      className={`bg-card max-w-128 border-t-8 ${CARD_BORDER_CLASSES[mainColor]}`}
+      className={cn(
+        "bg-card w-128 max-w-full border-t-8",
+        CARD_BORDER_CLASSES[mainColor],
+      )}
     >
       <CardHeader className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
         <Link
@@ -91,7 +95,7 @@ function Pack({
                 : { packId1: undefined, packId2: publicId }
             }
           >
-            <Button size="sm" variant="secondary" className="cursor-pointer">
+            <Button size="sm" variant="default" className="cursor-pointer">
               <Shuffle />
             </Button>
           </Link>
