@@ -7,8 +7,15 @@ import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import { useMemo } from "react";
 import { useAtom } from "jotai/index";
-import { colorFilterAtom, setFilterAtom } from "@/lib/atoms.ts";
+import {
+  colorFilterAtom,
+  currentSidebarDeckListAtom,
+  setFilterAtom,
+} from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
+import Sidebar from "@/components/sidebar.tsx";
+import { useAtomValue } from "jotai";
+import CategoriesToggle from "@/components/categories-toggle.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) =>
@@ -32,6 +39,7 @@ export const Route = createFileRoute("/packs/")({
 
 function RouteComponent() {
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
+  const currentSidebarDeckList = useAtomValue(currentSidebarDeckListAtom);
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
 
@@ -40,21 +48,31 @@ function RouteComponent() {
     return filteredPacks.length > 0 ? (
       filteredPacks.map((pack) => (
         <div key={pack.meta.publicId}>
-          <PackListEntry pack={pack.data} publicId={pack.meta.publicId} />
+          <PackListEntry
+            pack={pack.data}
+            publicId={pack.meta.publicId}
+            isCurrentlyDisplayed={
+              currentSidebarDeckList.publicId === pack.meta.publicId
+            }
+          />
         </div>
       ))
     ) : (
       <div>No packs found.</div>
     );
-  }, [packs, colorFilter, setFilter]);
+  }, [packs, colorFilter, setFilter, currentSidebarDeckList.publicId]);
 
   return (
-    <>
-      <div className="mb-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-        <ColorSelector />
-        <SetSelector />
+    <div className="flex">
+      <Sidebar></Sidebar>
+      <div className="flex grow flex-col p-8">
+        <div className="flex gap-4 pb-8">
+          <ColorSelector />
+          <SetSelector />
+          <CategoriesToggle />
+        </div>
+        <div className="grid grid-cols-1 gap-2">{filteredPacks}</div>
       </div>
-      <div className="grid grid-cols-1 gap-2">{filteredPacks}</div>
-    </>
+    </div>
   );
 }

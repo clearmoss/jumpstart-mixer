@@ -15,7 +15,7 @@ function CategoriesToggle() {
         className="cursor-pointer"
       />
       <Label htmlFor="categories-toggle" className="cursor-pointer">
-        Show Categories
+        Card Categories
       </Label>
     </div>
   );

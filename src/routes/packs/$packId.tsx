@@ -3,6 +3,7 @@ import Pack from "@/components/pack.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
+import Sidebar from "@/components/sidebar.tsx";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -45,8 +46,11 @@ function RouteComponent() {
   const pack = useSuspenseQuery(packQueryOptions(packId));
 
   return (
-    <>
-      <Pack pack={pack.data.data} publicId={packId} />
-    </>
+    <div className="flex">
+      <Sidebar></Sidebar>
+      <div className="flex grow flex-col p-8">
+        <Pack pack={pack.data.data} publicId={packId} />
+      </div>
+    </div>
   );
 }

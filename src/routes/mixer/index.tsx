@@ -27,6 +27,7 @@ import {
 import { packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
+import Sidebar from "@/components/sidebar.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -194,46 +195,57 @@ function RouteComponent(): JSX.Element {
   }, [filteredPacks, allowDuplicates, navigate]);
 
   return (
-    <>
-      <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
-        <Button
-          size="sm"
-          onClick={mixPacks}
-          className="h-10 w-54 cursor-pointer"
-          disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
-        >
-          <Shuffle />
-          Randomize ({filteredPacks.length}{" "}
-          {filteredPacks.length == 1 ? "Pack" : "Packs"})
-        </Button>
-        <CopyButton
-          size="sm"
-          textToCopy={currentDeckList}
-          buttonText="Copy Decklist"
-          disabled={!currentDeckList}
-          className="h-10 w-36"
-        />
-        <CategoriesToggle />
-        <DuplicatesToggle />
-        <ColorSelector />
-        <SetSelector />
+    <div className="flex">
+      <Sidebar></Sidebar>
+      <div className="flex flex-col p-8">
+        <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
+          <Button
+            size="sm"
+            onClick={mixPacks}
+            className="h-10 w-54 cursor-pointer"
+            disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
+          >
+            <Shuffle />
+            Randomize ({filteredPacks.length}{" "}
+            {filteredPacks.length == 1 ? "Pack" : "Packs"})
+          </Button>
+          <CopyButton
+            size="sm"
+            textToCopy={currentDeckList}
+            buttonText="Copy Decklist"
+            disabled={!currentDeckList}
+            className="h-10 w-36"
+          />
+          <CategoriesToggle />
+          <DuplicatesToggle />
+          <ColorSelector />
+          <SetSelector />
+        </div>
+        {!hasEnoughPacks ? (
+          <div>Not enough packs to mix.</div>
+        ) : pack1 && pack2 ? (
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <Pack
+              pack={pack1.data}
+              publicId={pack1.meta.publicId}
+              position={1}
+            />
+            <Pack
+              pack={pack2.data}
+              publicId={pack2.meta.publicId}
+              position={2}
+            />
+          </div>
+        ) : (
+          <div>
+            {!packId1 && !packId2 ? (
+              <div>Not enough packs to mix.</div>
+            ) : (
+              "Pack(s) not found. Try the randomize button!"
+            )}
+          </div>
+        )}
       </div>
-      {!hasEnoughPacks ? (
-        <div>Not enough packs to mix.</div>
-      ) : pack1 && pack2 ? (
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <Pack pack={pack1.data} publicId={pack1.meta.publicId} position={1} />
-          <Pack pack={pack2.data} publicId={pack2.meta.publicId} position={2} />
-        </div>
-      ) : (
-        <div>
-          {!packId1 && !packId2 ? (
-            <div>Not enough packs to mix.</div>
-          ) : (
-            "Pack(s) not found. Try the randomize button!"
-          )}
-        </div>
-      )}
-    </>
+    </div>
   );
 }
