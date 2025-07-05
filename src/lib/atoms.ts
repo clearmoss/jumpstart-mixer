@@ -24,5 +24,4 @@ export const currentSidebarDeckListAtom = atom<{
   pack: null,
   publicId: null,
 });
-export const sidebarCardSlotRefAtom = atom<HTMLDivElement | null>(null);
 export const currentSidebarCardAtom = atom<CardDeck | null>(null);

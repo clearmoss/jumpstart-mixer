@@ -4,6 +4,7 @@ import { useAtom, useAtomValue } from "jotai/index";
 import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
 import type { CardDeck, Deck } from "@/lib/types.ts";
 import { useMemo } from "react";
+import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
 
 const TYPE_ORDER = [
   "Legendary Planeswalker",
@@ -75,6 +76,24 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
   const [showCategories] = useAtom(showCategoriesAtom);
   const currentSidebarCard = useAtomValue(currentSidebarCardAtom);
   const cardGroups = useDeckCardGrouping(pack);
+
+  const imageUrls = useMemo(() => {
+    return (
+      pack?.mainBoard
+        .map((card) => {
+          const scryfallId = card.identifiers.scryfallId;
+          if (scryfallId) {
+            return `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
+              0,
+            )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`;
+          }
+          return null;
+        })
+        .filter((url): url is string => !!url) ?? []
+    );
+  }, [pack]);
+
+  useImagePreloader(imageUrls);
 
   if (!pack) {
     return <div>Pack data unavailable.</div>;
