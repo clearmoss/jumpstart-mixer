@@ -132,7 +132,8 @@
 
   .holographic {
     @apply mask-[url(/holo_mask.png)];
-    @apply mix-blend-screen animate-holographic mask-cover pointer-events-none;
+    @apply mix-blend-screen animate-holographic pointer-events-none;
+    mask-size: 100% 100%;
     @apply bg-[length:10000px_6000px];
     @apply bg-[radial-gradient(circle,oklch(0.753_0.201_318.507_/_0.0)_25%,oklch(0.661_0.209_297.79)_30%,oklch(0.903_0.156_190.713_/_0.0)_32%,oklch(0.847_0.119_216.592)_34%,oklch(0.929_0.126_98.58_/_0.0)_37%,oklch(0.708_0.22_313.804_/_0.0)_43%,oklch(0.934_0.048_69.181_/_0.0)_56%,oklch(0.909_0.189_99.865_/_0.0)_62%,oklch(0.892_0.211_145.981)_64%,oklch(0.899_0.186_97.857)_66%,oklch(0.677_0.293_339.618_/_0.0)_68%,oklch(0.698_0.149_276.735_/_0.0)_73%)];
   }

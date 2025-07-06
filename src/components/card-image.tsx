@@ -15,12 +15,8 @@ export function CardImage() {
   if (!card || !imageUrl) {
     return (
       <MediaQuery minWidth={1024}>
-        <div className="h-[502px] w-[360px] overflow-hidden rounded-md">
-          <img
-            src={"back.jpg"}
-            alt={""}
-            className="h-full w-full rounded-xl object-contain"
-          />
+        <div className="aspect-63/88 w-[360px] overflow-hidden rounded-md">
+          <img src={"back.jpg"} alt={""} className="h-full w-full rounded-xl" />
         </div>
       </MediaQuery>
     );
@@ -28,14 +24,14 @@ export function CardImage() {
 
   return (
     <MediaQuery minWidth={1024}>
-      <div className="h-[502px] w-[360px] overflow-hidden rounded-md">
+      <div className="relative aspect-63/88 w-[360px] overflow-hidden rounded-md">
         <img
           src={imageUrl}
           alt={`${card.name} card image`}
-          className="h-full w-full rounded-xl object-contain"
+          className="h-full w-full rounded-xl"
         />
         {card.rarity === "mythic" && (
-          <div className="holographic absolute top-4 left-4 z-10 h-94/100 w-92/100" />
+          <div className="holographic absolute top-0 left-0 z-10 h-full w-full" />
         )}
       </div>
     </MediaQuery>
