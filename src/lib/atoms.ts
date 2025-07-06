@@ -16,7 +16,6 @@ export const setFilterAtom = atomWithStorage(
   SETS.map((set) => set.code),
 );
 
-export const sidebarPackSlotRefAtom = atom<HTMLDivElement | null>(null);
 export const currentSidebarDeckListAtom = atom<{
   pack: Deck | null;
   publicId: string | null;

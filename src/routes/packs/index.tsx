@@ -44,7 +44,10 @@ function RouteComponent() {
   const [setFilter] = useAtom(setFilterAtom);
 
   const filteredPacks = useMemo(() => {
-    const filteredPacks = filterPacks(packs, colorFilter, setFilter);
+    return filterPacks(packs, colorFilter, setFilter);
+  }, [packs, colorFilter, setFilter]);
+
+  const packList = useMemo(() => {
     return filteredPacks.length > 0 ? (
       filteredPacks.map((pack) => (
         <div key={pack.meta.publicId}>
@@ -60,7 +63,7 @@ function RouteComponent() {
     ) : (
       <div>No packs found.</div>
     );
-  }, [packs, colorFilter, setFilter, currentSidebarDeckList.publicId]);
+  }, [filteredPacks, currentSidebarDeckList.publicId]);
 
   return (
     <div className="flex">
@@ -71,7 +74,7 @@ function RouteComponent() {
           <SetSelector />
           <CategoriesToggle />
         </div>
-        <div className="grid grid-cols-1 gap-2">{filteredPacks}</div>
+        <div className="grid grid-cols-1 gap-2">{packList}</div>
       </div>
     </div>
   );

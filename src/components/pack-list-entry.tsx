@@ -19,14 +19,8 @@ import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import ColorIcons from "@/components/color-icons.tsx";
-import MediaQuery from "react-responsive";
-import { useAtomValue, useSetAtom } from "jotai";
-import {
-  currentSidebarDeckListAtom,
-  sidebarPackSlotRefAtom,
-} from "@/lib/atoms.ts";
-import { createPortal } from "react-dom";
-import DeckList from "@/components/deck-list.tsx";
+import { useSetAtom } from "jotai";
+import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
 
 const PACK_L_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-l-amber-300",
@@ -64,40 +58,12 @@ type PackListEntryProps = {
   isCurrentlyDisplayed: boolean;
 };
 
-type SidebarDeckListPreviewProps = {
-  currentlyDisplayed: boolean;
-  sidebarRef: HTMLDivElement | null;
-  pack: Deck;
-};
-
-function SidebarDeckListPreview({
-  currentlyDisplayed,
-  sidebarRef,
-  pack,
-}: SidebarDeckListPreviewProps) {
-  if (!currentlyDisplayed || !sidebarRef) {
-    return null;
-  }
-
-  return (
-    <MediaQuery minWidth={1024}>
-      {createPortal(
-        <div className="w-100">
-          <DeckList pack={pack} />
-        </div>,
-        sidebarRef,
-      )}
-    </MediaQuery>
-  );
-}
-
 function PackListEntry({
   pack,
   publicId,
   position = 1,
   isCurrentlyDisplayed,
 }: PackListEntryProps) {
-  const sidebarRef = useAtomValue(sidebarPackSlotRefAtom);
   const setCurrentSidebarDeckList = useSetAtom(currentSidebarDeckListAtom);
 
   const packColors = useMemo(() => {
@@ -125,79 +91,72 @@ function PackListEntry({
   }
 
   return (
-    <>
-      <Card
-        className={cn(
-          "bg-card max-w-224 border-l-12 px-0 py-4 sm:py-2",
-          PACK_L_BORDER_CLASSES[mainColor],
-        )}
-        onMouseEnter={handleMouseEnter}
-      >
-        <CardHeader className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:gap-4">
-          <Link
-            to="/packs/$packId"
-            params={{
-              packId: publicId,
-            }}
+    <Card
+      className={cn(
+        "bg-card max-w-224 border-l-12 px-0 py-4 sm:py-2",
+        PACK_L_BORDER_CLASSES[mainColor],
+      )}
+      onMouseEnter={handleMouseEnter}
+    >
+      <CardHeader className="flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:gap-4">
+        <Link
+          to="/packs/$packId"
+          params={{
+            packId: publicId,
+          }}
+          className={cn(
+            "flex max-w-56 grow items-center self-stretch",
+            "-my-4 sm:-my-2", // counteract Card's vertical padding
+            "py-4 sm:py-2", // add it back for the content
+            "-ml-6", // counteract CardHeader's left padding
+            "pl-6", // add it back for the content
+            "bg-no-repeat transition-all duration-200 ease-in-out sm:bg-gradient-to-r",
+            isCurrentlyDisplayed
+              ? "bg-[length:100%_100%]"
+              : "bg-[length:0%_100%]",
+            isCurrentlyDisplayed
+              ? PACK_ANIMATED_BACKGROUND_CLASSES[mainColor]
+              : "from-transparent",
+          )}
+        >
+          <CardTitle
             className={cn(
-              "flex max-w-56 grow items-center self-stretch",
-              "-my-4 sm:-my-2", // counteract Card's vertical padding
-              "py-4 sm:py-2", // add it back for the content
-              "-ml-6", // counteract CardHeader's left padding
-              "pl-6", // add it back for the content
-              "bg-no-repeat transition-all duration-200 ease-in-out sm:bg-gradient-to-r",
-              isCurrentlyDisplayed
-                ? "bg-[length:100%_100%]"
-                : "bg-[length:0%_100%]",
-              isCurrentlyDisplayed
-                ? PACK_ANIMATED_BACKGROUND_CLASSES[mainColor]
-                : "from-transparent",
+              "transition-colors duration-300 ease-in-out",
+              isCurrentlyDisplayed && PACK_TEXT_COLOR_CLASSES[mainColor],
             )}
           >
-            <CardTitle
-              className={cn(
-                "transition-colors duration-300 ease-in-out",
-                isCurrentlyDisplayed && PACK_TEXT_COLOR_CLASSES[mainColor],
-              )}
-            >
-              {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
-              {formatPackName(pack.name)}
-            </CardTitle>
+            {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
+            {formatPackName(pack.name)}
+          </CardTitle>
+        </Link>
+        <CardDescription className="text-muted-foreground w-8 pt-4 sm:pt-0">
+          {pack.code}
+        </CardDescription>
+        <div className="flex grow items-center gap-2 py-4 sm:py-0">
+          <ColorIcons packColors={packColors} />
+        </div>
+        <CardAction className="flex items-center gap-2">
+          <Link
+            to="/mixer"
+            title="Mix with this pack"
+            search={
+              position === 1
+                ? { packId1: publicId, packId2: undefined }
+                : { packId1: undefined, packId2: publicId }
+            }
+          >
+            <Button size="sm" variant="secondary" className="cursor-pointer">
+              <Shuffle />
+            </Button>
           </Link>
-          <CardDescription className="text-muted-foreground w-8 pt-4 sm:pt-0">
-            {pack.code}
-          </CardDescription>
-          <div className="flex grow items-center gap-2 py-4 sm:py-0">
-            <ColorIcons packColors={packColors} />
-          </div>
-          <CardAction className="flex items-center gap-2">
-            <Link
-              to="/mixer"
-              title="Mix with this pack"
-              search={
-                position === 1
-                  ? { packId1: publicId, packId2: undefined }
-                  : { packId1: undefined, packId2: publicId }
-              }
-            >
-              <Button size="sm" variant="secondary" className="cursor-pointer">
-                <Shuffle />
-              </Button>
-            </Link>
-            <CopyButton
-              size="sm"
-              variant="secondary"
-              textToCopy={currentDeckList}
-            />
-          </CardAction>
-        </CardHeader>
-      </Card>
-      <SidebarDeckListPreview
-        currentlyDisplayed={isCurrentlyDisplayed}
-        sidebarRef={sidebarRef}
-        pack={pack}
-      />
-    </>
+          <CopyButton
+            size="sm"
+            variant="secondary"
+            textToCopy={currentDeckList}
+          />
+        </CardAction>
+      </CardHeader>
+    </Card>
   );
 }
 
