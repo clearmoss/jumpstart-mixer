@@ -15,6 +15,8 @@ export const setFilterAtom = atomWithStorage(
   "setFilter",
   SETS.map((set) => set.code),
 );
+export const packSearchFilterAtom = atom("");
+export const cardSearchFilterAtom = atom("");
 
 export const currentSidebarDeckListAtom = atom<{
   pack: Deck | null;

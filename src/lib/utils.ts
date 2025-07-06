@@ -174,15 +174,29 @@ export function filterPacks(
   packs: PackFile[],
   colorFilter: string[],
   setFilter: string[],
+  packSearchFilter: string,
+  cardSearchFilter: string,
 ) {
-  return packs.filter((p) => {
-    const packColors = determinePackColors(p.data);
+  return packs.filter((pack) => {
+    const packColors = determinePackColors(pack.data);
     if (packColors.length === 0) {
       return false;
     }
+
+    const packSearchMatch =
+      packSearchFilter === "" ||
+      pack.data.name.toLowerCase().includes(packSearchFilter.toLowerCase());
+    const cardSearchMatch =
+      cardSearchFilter === "" ||
+      pack.data.mainBoard.some((card) =>
+        card.name.toLowerCase().includes(cardSearchFilter.toLowerCase()),
+      );
+
     return (
       colorFilter.includes(packColors[0].color) &&
-      setFilter.includes(p.data.code)
+      setFilter.includes(pack.data.code) &&
+      packSearchMatch &&
+      cardSearchMatch
     );
   });
 }

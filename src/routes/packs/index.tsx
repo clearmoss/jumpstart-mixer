@@ -8,14 +8,17 @@ import SetSelector from "@/components/set-selector.tsx";
 import { useMemo } from "react";
 import { useAtom } from "jotai/index";
 import {
+  cardSearchFilterAtom,
   colorFilterAtom,
   currentSidebarDeckListAtom,
+  packSearchFilterAtom,
   setFilterAtom,
 } from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
 import { useAtomValue } from "jotai";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
+import { CardSearch, PackSearch } from "@/components/search.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) =>
@@ -42,10 +45,18 @@ function RouteComponent() {
   const currentSidebarDeckList = useAtomValue(currentSidebarDeckListAtom);
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
+  const [packSearchFilter] = useAtom(packSearchFilterAtom);
+  const [cardSearchFilter] = useAtom(cardSearchFilterAtom);
 
   const filteredPacks = useMemo(() => {
-    return filterPacks(packs, colorFilter, setFilter);
-  }, [packs, colorFilter, setFilter]);
+    return filterPacks(
+      packs,
+      colorFilter,
+      setFilter,
+      packSearchFilter,
+      cardSearchFilter,
+    );
+  }, [packs, colorFilter, setFilter, packSearchFilter, cardSearchFilter]);
 
   const packList = useMemo(() => {
     return filteredPacks.length > 0 ? (
@@ -69,10 +80,22 @@ function RouteComponent() {
     <div className="flex">
       <Sidebar></Sidebar>
       <div className="flex grow flex-col p-8">
-        <div className="flex gap-4 pb-8">
-          <ColorSelector />
-          <SetSelector />
-          <CategoriesToggle />
+        <div className="flex flex-col gap-8 pb-8">
+          <div className="flex gap-8">
+            <div className="flex gap-4">
+              <ColorSelector />
+              <SetSelector />
+            </div>
+            <CategoriesToggle />
+          </div>
+          <div className="flex flex-col items-baseline gap-4 md:flex-row">
+            <PackSearch />
+            <CardSearch />
+            <span className="min-w-24">
+              {filteredPacks.length}{" "}
+              {filteredPacks.length == 1 ? "Pack" : "Packs"}
+            </span>
+          </div>
         </div>
         <div className="grid grid-cols-1 gap-2">{packList}</div>
       </div>

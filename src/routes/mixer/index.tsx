@@ -53,7 +53,7 @@ export const Route = createFileRoute("/mixer/")({
       const colorFilter = store.get(colorFilterAtom);
       const setFilter = store.get(setFilterAtom);
 
-      const filteredPacks = filterPacks(packs, colorFilter, setFilter);
+      const filteredPacks = filterPacks(packs, colorFilter, setFilter, "", "");
 
       if (filteredPacks.length === 0) {
         return;
@@ -167,7 +167,7 @@ function RouteComponent(): JSX.Element {
   }, [pack1, pack2]);
 
   const filteredPacks = useMemo(() => {
-    return filterPacks(packs, colorFilter, setFilter);
+    return filterPacks(packs, colorFilter, setFilter, "", "");
   }, [packs, colorFilter, setFilter]);
 
   const hasEnoughPacks = useMemo(() => {
