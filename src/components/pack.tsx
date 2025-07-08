@@ -15,12 +15,16 @@ import {
   type MtgColor,
   populateDeckList,
 } from "@/lib/utils.ts";
-import { useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import DeckList from "@/components/deck-list.tsx";
 import ColorIcons from "@/components/color-icons.tsx";
+import { useQueryClient } from "@tanstack/react-query";
+import { useSetAtom } from "jotai";
+import { currentSidebarCardAtom } from "@/lib/atoms.ts";
+import { themeCardQueryOptions } from "@/lib/queries.ts";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -53,6 +57,23 @@ function Pack({
   );
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
 
+  const queryClient = useQueryClient();
+  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
+
+  const handleMouseEnter = useCallback(async () => {
+    if (pack && publicId) {
+      // remove trailing numbers for improved query caching
+      const themeName = pack.name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+      const themeCard = await queryClient.fetchQuery(
+        themeCardQueryOptions(themeName, pack.code),
+      );
+
+      if (themeCard) {
+        setCurrentSidebarCard(themeCard);
+      }
+    }
+  }, [pack, publicId, queryClient, setCurrentSidebarCard]);
+
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
   }
@@ -71,6 +92,7 @@ function Pack({
             packId: publicId,
           }}
           className="flex items-start gap-8"
+          onMouseEnter={handleMouseEnter}
         >
           <div>
             <CardTitle className="flex items-center gap-4">

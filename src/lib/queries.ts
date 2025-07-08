@@ -1,5 +1,10 @@
 import { queryOptions } from "@tanstack/react-query";
-import { fetchAllPacks, fetchJson, fetchPack } from "@/lib/utils.ts";
+import {
+  fetchAllPacks,
+  fetchJson,
+  fetchPack,
+  fetchThemeCard,
+} from "@/lib/utils.ts";
 import type { PackIndexData } from "@/lib/types.ts";
 
 export const packIndexQueryOptions = queryOptions({
@@ -18,5 +23,12 @@ export const packQueryOptions = (packId: string) =>
   queryOptions({
     queryKey: ["pack", packId],
     queryFn: () => fetchPack(packId),
+    staleTime: Infinity,
+  });
+
+export const themeCardQueryOptions = (themeName: string, setCode: string) =>
+  queryOptions({
+    queryKey: ["themeCard", themeName, setCode],
+    queryFn: () => fetchThemeCard(themeName, setCode),
     staleTime: Infinity,
   });
