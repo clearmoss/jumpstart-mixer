@@ -25,6 +25,7 @@ import { useQueryClient } from "@tanstack/react-query";
 import { useSetAtom } from "jotai";
 import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 import { themeCardQueryOptions } from "@/lib/queries.ts";
+import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -73,6 +74,8 @@ function Pack({
       }
     }
   }, [pack, publicId, queryClient, setCurrentSidebarCard]);
+
+  useThemeCardPreloader(pack);
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;

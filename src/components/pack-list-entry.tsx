@@ -26,6 +26,7 @@ import {
 } from "@/lib/atoms.ts";
 import { useQueryClient } from "@tanstack/react-query";
 import { themeCardQueryOptions } from "@/lib/queries.ts";
+import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
 
 const STYLE_VARIANTS: Record<
   MtgColor,
@@ -131,6 +132,8 @@ function PackListEntry({
 }: PackListEntryProps) {
   const { packColors, primaryColor, currentDeckList, handleMouseEnter } =
     usePackData(pack, publicId);
+
+  useThemeCardPreloader(pack);
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
