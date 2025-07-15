@@ -8,11 +8,13 @@ import { X } from "lucide-react";
 type DebouncedSearchInputProps = {
   searchAtom: PrimitiveAtom<string>;
   placeholder: string;
+  dataTestId?: string;
 };
 
 function DebouncedSearchInput({
   searchAtom,
   placeholder,
+  dataTestId,
 }: DebouncedSearchInputProps) {
   const [globalSearch, setGlobalSearch] = useAtom(searchAtom);
   const [localSearch, setLocalSearch] = useState(globalSearch);
@@ -34,6 +36,8 @@ function DebouncedSearchInput({
         value={localSearch}
         onChange={(e) => setLocalSearch(e.target.value)}
         className="pr-10"
+        data-testid={dataTestId}
+        name={dataTestId}
       />
       {localSearch && (
         <button
@@ -53,6 +57,7 @@ export function PackSearch() {
     <DebouncedSearchInput
       searchAtom={packSearchFilterAtom}
       placeholder="Search pack names..."
+      dataTestId="pack-search"
     />
   );
 }
@@ -62,6 +67,7 @@ export function CardSearch() {
     <DebouncedSearchInput
       searchAtom={cardSearchFilterAtom}
       placeholder="Search cards in packs..."
+      dataTestId="card-search"
     />
   );
 }

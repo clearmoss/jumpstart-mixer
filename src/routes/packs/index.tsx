@@ -61,7 +61,7 @@ function RouteComponent() {
   const packList = useMemo(() => {
     return filteredPacks.length > 0 ? (
       filteredPacks.map((pack) => (
-        <div key={pack.meta.publicId}>
+        <div key={pack.meta.publicId} data-testid="pack-entry">
           <PackListEntry
             pack={pack.data}
             publicId={pack.meta.publicId}
@@ -79,7 +79,7 @@ function RouteComponent() {
   return (
     <div className="flex">
       <Sidebar></Sidebar>
-      <div className="flex grow flex-col p-8">
+      <div className="flex grow flex-col p-8" data-testid="packs-content">
         <div className="flex flex-col gap-8 pb-8">
           <div className="flex gap-8">
             <div className="flex gap-4">
@@ -91,13 +91,15 @@ function RouteComponent() {
           <div className="flex flex-col items-baseline gap-4 md:flex-row">
             <PackSearch />
             <CardSearch />
-            <span className="min-w-24">
+            <span className="min-w-24" data-testid="pack-count">
               {filteredPacks.length}{" "}
               {filteredPacks.length == 1 ? "Pack" : "Packs"}
             </span>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-2">{packList}</div>
+        <div className="grid grid-cols-1 gap-2" data-testid="pack-list">
+          {packList}
+        </div>
       </div>
     </div>
   );

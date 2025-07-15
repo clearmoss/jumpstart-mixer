@@ -9,7 +9,10 @@ interface SidebarProps {
 
 function Sidebar({ showDeckList = true, children }: SidebarProps) {
   return (
-    <div className="sticky top-0 hidden h-screen w-116 min-w-116 flex-col gap-4 self-start overflow-y-auto bg-orange-200 p-8 lg:flex">
+    <div
+      className="sticky top-0 hidden h-screen w-116 min-w-116 flex-col gap-4 self-start overflow-y-auto bg-orange-200 p-8 lg:flex"
+      data-testid="sidebar"
+    >
       {children}
       <div className="bg-popover relative top-0 left-0 flex min-h-134 items-center justify-center rounded-md border p-4 shadow-md">
         <CardImage />

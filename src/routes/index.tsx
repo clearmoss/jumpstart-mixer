@@ -1,6 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
+  head: () => {
+    return {
+      meta: [
+        {
+          title: "Jumpstart Mixer",
+        },
+      ],
+    };
+  },
   component: Index,
 });
 

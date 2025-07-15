@@ -173,12 +173,16 @@ function PackListEntry({
               "transition-colors duration-300 ease-in-out",
               isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text,
             )}
+            data-testid="pack-name"
           >
             {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
             {pack.name.replace(/\((\d+)\)/g, "$1")}
           </CardTitle>
         </Link>
-        <CardDescription className="text-muted-foreground w-8 pt-4 sm:pt-0">
+        <CardDescription
+          className="text-muted-foreground w-8 pt-4 sm:pt-0"
+          data-testid="pack-set"
+        >
           {pack.code}
         </CardDescription>
         <div className="flex grow items-center gap-2 py-4 sm:py-0">

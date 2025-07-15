@@ -34,7 +34,11 @@ function SetSelector() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="w-24 cursor-pointer">
+        <Button
+          variant="outline"
+          className="w-24 cursor-pointer"
+          data-testid="set-selector-button"
+        >
           {setFilter.length > 0 ? setFilter : "No Sets"}
         </Button>
       </DropdownMenuTrigger>
@@ -51,6 +55,7 @@ function SetSelector() {
             onCheckedChange={() => handleCheckedChange(set.code)}
             onSelect={(e) => e.preventDefault()}
             className="cursor-pointer"
+            data-testid={`set-selector-item-${set.code}`}
           >
             {set.name}
           </DropdownMenuCheckboxItem>

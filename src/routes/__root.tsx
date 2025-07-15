@@ -16,6 +16,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       void context.queryClient.prefetchQuery(packIndexQueryOptions);
       void context.queryClient.prefetchQuery(packsQueryOptions);
     },
+    head: () => ({
+      meta: [
+        {
+          title: "Jumpstart Mixer", // default title
+        },
+      ],
+    }),
     component: () => {
       return (
         <>
