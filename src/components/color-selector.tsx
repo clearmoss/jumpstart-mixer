@@ -36,10 +36,10 @@ function ColorSelector() {
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="w-24 cursor-pointer"
+          className="w-32 cursor-pointer"
           data-testid="color-selector-button"
         >
-          {colorFilter.length > 0 ? colorFilter : "No Colors"}
+          {colorFilter.length > 0 ? colorFilter.join(" ") : "No Colors"}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent

@@ -36,10 +36,10 @@ function SetSelector() {
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"
-          className="w-24 cursor-pointer"
+          className="w-32 cursor-pointer"
           data-testid="set-selector-button"
         >
-          {setFilter.length > 0 ? setFilter : "No Sets"}
+          {setFilter.length > 0 ? setFilter.join(" ") : "No Sets"}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent
