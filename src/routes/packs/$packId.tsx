@@ -70,7 +70,12 @@ function RouteComponent() {
             params={{ packId: packs[0].meta.publicId }}
             disabled
           >
-            <Button size="sm" className="h-10 w-54 cursor-pointer" disabled>
+            <Button
+              size="sm"
+              className="h-10 w-54 cursor-pointer"
+              variant="secondary"
+              disabled
+            >
               <Shuffle />
               Random Pack
             </Button>{" "}

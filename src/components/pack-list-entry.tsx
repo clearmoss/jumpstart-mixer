@@ -204,7 +204,7 @@ function PackListEntry({
           </Link>
           <CopyButton
             size="sm"
-            variant="secondary"
+            variant="default"
             textToCopy={currentDeckList}
           />
         </CardAction>

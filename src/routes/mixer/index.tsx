@@ -212,6 +212,7 @@ function RouteComponent(): JSX.Element {
               size="sm"
               onClick={mixPacks}
               className="h-10 w-54 cursor-pointer"
+              variant="secondary"
               disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
             >
               <Shuffle />
@@ -220,7 +221,7 @@ function RouteComponent(): JSX.Element {
             </Button>
             <CopyButton
               size="sm"
-              variant="secondary"
+              variant="default"
               textToCopy={currentDeckList}
               buttonText="Copy Combined Decklist"
               disabled={!currentDeckList}

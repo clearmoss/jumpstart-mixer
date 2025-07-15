@@ -120,13 +120,13 @@ function Pack({
                 : { packId1: undefined, packId2: publicId }
             }
           >
-            <Button size="sm" variant="default" className="cursor-pointer">
+            <Button size="sm" variant="secondary" className="cursor-pointer">
               <Shuffle />
             </Button>
           </Link>
           <CopyButton
             size="sm"
-            variant="secondary"
+            variant="default"
             textToCopy={currentDeckList}
           />
         </CardAction>

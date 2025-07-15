@@ -32,7 +32,7 @@ function CardListEntry({
 
   return (
     <li
-      className={cn("px-2", isCurrentlyDisplayed && "lg:bg-gray-200")}
+      className={cn("px-2", isCurrentlyDisplayed && "lg:bg-accent")}
       onMouseEnter={handleMouseEnter}
     >
       <a

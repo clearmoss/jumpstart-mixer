@@ -28,10 +28,10 @@ export function CardImage() {
         <img
           src={imageUrl}
           alt={`${card.name} card image`}
-          className="h-full w-full rounded-xl"
+          className="h-full w-full rounded-xl dark:rounded-2xl"
         />
         {card.rarity === "mythic" && (
-          <div className="holographic absolute top-0 left-0 z-10 h-full w-full" />
+          <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-xl dark:rounded-2xl" />
         )}
       </div>
     </MediaQuery>
