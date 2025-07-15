@@ -5,6 +5,7 @@ import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
 import type { CardDeck, Deck } from "@/lib/types.ts";
 import { useMemo } from "react";
 import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
+import { Skeleton } from "@/components/ui/skeleton.tsx";
 
 const TYPE_ORDER = [
   "Legendary Planeswalker",
@@ -96,7 +97,37 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
   useImagePreloader(imageUrls);
 
   if (!pack) {
-    return <div>Pack data unavailable.</div>;
+    return (
+      <div className="flex flex-col gap-8" data-testid="deck-list-skeleton">
+        <div>
+          <Skeleton className="mb-2 h-6 w-1/2" />
+          <div className="flex flex-col gap-2 pl-4">
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+          </div>
+        </div>
+        <div>
+          <Skeleton className="mb-2 h-6 w-1/2" />
+          <div className="flex flex-col gap-2 pl-4">
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+          </div>
+        </div>
+        <div>
+          <Skeleton className="mb-2 h-6 w-1/2" />
+          <div className="flex flex-col gap-2 pl-4">
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+            <Skeleton className="h-4 w-full" />
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
