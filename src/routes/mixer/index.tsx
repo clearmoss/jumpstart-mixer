@@ -28,6 +28,7 @@ import { packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import Sidebar from "@/components/sidebar.tsx";
+import CardSpread from "@/components/card-spread.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -253,6 +254,9 @@ function RouteComponent(): JSX.Element {
             )}
           </div>
         )}
+        <div className="pt-8">
+          {pack1 && pack2 && <CardSpread packs={[pack1.data, pack2.data]} />}
+        </div>
       </div>
     </div>
   );

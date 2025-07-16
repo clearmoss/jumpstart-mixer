@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
 import { CardImage } from "@/components/card-image.tsx";
 import { SidebarDeckList } from "@/components/sidebar-deck-list.tsx";
+import { useAtomValue } from "jotai/index";
+import { currentSidebarCardAtom } from "@/lib/atoms.ts";
+import MediaQuery from "react-responsive";
 
 interface SidebarProps {
   showDeckList?: boolean;
@@ -15,7 +18,12 @@ function Sidebar({ showDeckList = true, children }: SidebarProps) {
     >
       {children}
       <div className="bg-popover relative top-0 left-0 flex min-h-134 items-center justify-center rounded-md border p-4 shadow-md">
-        <CardImage />
+        <MediaQuery minWidth={1024}>
+          <CardImage
+            card={useAtomValue(currentSidebarCardAtom)}
+            className="w-full"
+          />
+        </MediaQuery>
       </div>
       {showDeckList && (
         <div className="bg-popover relative top-0 left-0 flex min-h-120 items-start justify-center rounded-md border p-6 shadow-md">

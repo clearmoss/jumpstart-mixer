@@ -1,10 +1,13 @@
-import { useAtomValue } from "jotai";
-import { currentSidebarCardAtom } from "@/lib/atoms.ts";
-import MediaQuery from "react-responsive";
+import type { CardDeck } from "@/lib/types.ts";
+import { cn } from "@/lib/utils.ts";
+import backImage from "/back.jpg";
 
-export function CardImage() {
-  const card = useAtomValue(currentSidebarCardAtom);
+type CardImageProps = {
+  card: CardDeck | null;
+  className?: string;
+};
 
+export function CardImage({ card, className }: CardImageProps) {
   const scryfallId = card?.identifiers.scryfallId;
   const imageUrl = scryfallId
     ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
@@ -14,26 +17,31 @@ export function CardImage() {
 
   if (!card || !imageUrl) {
     return (
-      <MediaQuery minWidth={1024}>
-        <div className="aspect-63/88 w-[360px] overflow-hidden rounded-md">
-          <img src={"back.jpg"} alt={""} className="h-full w-full rounded-xl" />
-        </div>
-      </MediaQuery>
+      <div className={cn("aspect-63/88 overflow-hidden rounded-md", className)}>
+        <img
+          src={backImage}
+          alt={"Card back"}
+          className="h-full w-full rounded-xl"
+        />
+      </div>
     );
   }
 
   return (
-    <MediaQuery minWidth={1024}>
-      <div className="relative aspect-63/88 w-[360px] overflow-hidden rounded-md">
-        <img
-          src={imageUrl}
-          alt={`${card.name} card image`}
-          className="h-full w-full rounded-xl dark:rounded-2xl"
-        />
-        {card.rarity === "mythic" && (
-          <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-xl dark:rounded-2xl" />
-        )}
-      </div>
-    </MediaQuery>
+    <div
+      className={cn(
+        "relative aspect-63/88 overflow-hidden rounded-md",
+        className,
+      )}
+    >
+      <img
+        src={imageUrl}
+        alt={`${card.name} card image`}
+        className="h-full w-full rounded-xl dark:rounded-2xl"
+      />
+      {card.rarity === "mythic" && (
+        <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-xl dark:rounded-2xl" />
+      )}
+    </div>
   );
 }

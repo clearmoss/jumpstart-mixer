@@ -13,6 +13,7 @@ import SetSelector from "@/components/set-selector.tsx";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
+import CardSpread from "@/components/card-spread.tsx";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -82,6 +83,9 @@ function RouteComponent() {
           </Link>
         </div>
         <Pack pack={pack.data.data} publicId={packId} />
+        <div className="pt-8">
+          <CardSpread packs={[pack?.data.data]} />
+        </div>
       </div>
     </div>
   );
