@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useAtom } from "jotai/index";
 import { colorFilterAtom } from "@/lib/atoms.ts";
-import { COLORS } from "@/lib/utils.ts";
+import { COLORS, type MtgColor } from "@/lib/utils.ts";
 
 function ColorSelector() {
   const [colorFilter, setColorFilter] = useAtom(colorFilterAtom);
 
-  const handleCheckedChange = (colorCode: string) => {
+  const handleCheckedChange = (colorCode: MtgColor) => {
     if (colorFilter.includes(colorCode) && colorFilter.length === 1) {
       return;
     }
@@ -27,7 +27,7 @@ function ColorSelector() {
       // order will match the order of the COLORS array
       return COLORS.map((color) => color.code).filter((code) =>
         newSelected.includes(code),
-      );
+      ) as MtgColor[];
     });
   };
 

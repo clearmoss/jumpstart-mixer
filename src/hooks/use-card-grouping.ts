@@ -1,20 +1,6 @@
 import type { CardDeck, Deck } from "@/lib/types.ts";
 import { useMemo } from "react";
-
-const TYPE_ORDER = [
-  "Legendary Planeswalker",
-  "Planeswalker",
-  "Legendary Creature",
-  "Creature",
-  "Artifact Creature",
-  "Enchantment Creature",
-  "Instant",
-  "Sorcery",
-  "Artifact",
-  "Legendary Enchantment",
-  "Enchantment",
-  "Land",
-];
+import { type MtgRarity, type MtgType, RARITIES, TYPES } from "@/lib/utils.ts";
 
 function getMainType(type: string): string {
   // remove the subtype after —, then return only the main type without specifier
@@ -45,24 +31,41 @@ export function useCardGrouping(pack: Deck | undefined) {
 
   return useMemo(() => {
     const sortedTypes = Array.from(groupedCards.keys()).sort((a, b) => {
-      const aIndex = TYPE_ORDER.indexOf(a);
-      const bIndex = TYPE_ORDER.indexOf(b);
-      // if both types are in the order array, use that order
-      if (aIndex !== -1 && bIndex !== -1) {
-        return aIndex - bIndex;
+      const typeA = TYPES.find((t) => t.code === (a as MtgType));
+      const typeB = TYPES.find((t) => t.code === (b as MtgType));
+
+      // if both types are in the TYPES array, use their order
+      if (typeA && typeB) {
+        return typeA.order - typeB.order;
       }
-      // if only one type is in the order array, put it first
-      if (aIndex !== -1) return -1;
-      if (bIndex !== -1) return 1;
-      // if neither type is in the order array, sort alphabetically
+
+      // if only one type is in the TYPES array, put it first
+      if (typeA) return -1;
+      if (typeB) return 1;
+
+      // if neither type is in the TYPES array, sort alphabetically
       return a.localeCompare(b);
     });
 
     return sortedTypes.map((type) => {
       const cards = groupedCards.get(type) ?? [];
       const count = cards.reduce((sum, card) => sum + card.count, 0);
+      const sortedCards = [...cards].sort((a, b) => {
+        const rarityA = RARITIES.find(
+          (r) => r.code === (a.rarity as MtgRarity),
+        );
+        const rarityB = RARITIES.find(
+          (r) => r.code === (b.rarity as MtgRarity),
+        );
 
-      return { type, cards, count };
+        if (rarityA && rarityB && rarityA.order !== rarityB.order) {
+          return rarityA.order - rarityB.order;
+        }
+
+        return a.name.localeCompare(b.name);
+      });
+
+      return { type, cards: sortedCards, count };
     });
   }, [groupedCards]);
 }

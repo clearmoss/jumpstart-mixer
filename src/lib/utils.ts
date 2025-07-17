@@ -17,29 +17,40 @@ const ERROR_MESSAGES = {
 export const BASEPATH = "/jumpstart-mixer";
 
 export const COLORS = [
-  { name: "White", code: "W" },
-  { name: "Blue", code: "U" },
-  { name: "Black", code: "B" },
-  { name: "Red", code: "R" },
-  { name: "Green", code: "G" },
-  { name: "Colorless", code: "C" },
-];
-export const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4, C: 5 } as const;
-export type MtgColor = keyof typeof COLOR_ORDER;
+  { name: "White", code: "W", order: 0 },
+  { name: "Blue", code: "U", order: 1 },
+  { name: "Black", code: "B", order: 2 },
+  { name: "Red", code: "R", order: 3 },
+  { name: "Green", code: "G", order: 4 },
+  { name: "Colorless", code: "C", order: 5 },
+] as const;
+export type MtgColor = (typeof COLORS)[number]["code"];
 
-export const RARITY_ORDER = {
-  mythic: 0,
-  rare: 1,
-  uncommon: 2,
-  common: 3,
-} as const;
-export type Rarity = keyof typeof RARITY_ORDER;
+export const RARITIES = [
+  { name: "Mythic", code: "mythic", order: 0 },
+  { name: "Rare", code: "rare", order: 1 },
+  { name: "Uncommon", code: "uncommon", order: 2 },
+  { name: "Common", code: "common", order: 3 },
+] as const;
+export type MtgRarity = (typeof RARITIES)[number]["code"];
+
+export const TYPES = [
+  { name: "Creature", code: "Creature", order: 0 },
+  { name: "Planeswalker", code: "Planeswalker", order: 1 },
+  { name: "Instant", code: "Instant", order: 2 },
+  { name: "Sorcery", code: "Sorcery", order: 3 },
+  { name: "Enchantment", code: "Enchantment", order: 4 },
+  { name: "Artifact", code: "Artifact", order: 5 },
+  { name: "Land", code: "Land", order: 6 },
+] as const;
+export type MtgType = (typeof TYPES)[number]["code"];
 
 export const SETS = [
-  { name: "Jumpstart", code: "JMP" },
-  { name: "Jumpstart 2022", code: "J22" },
-  { name: "Foundations Jumpstart", code: "J25" },
-];
+  { name: "Jumpstart", code: "JMP", order: 0 },
+  { name: "Jumpstart 2022", code: "J22", order: 1 },
+  { name: "Foundations Jumpstart", code: "J25", order: 2 },
+] as const;
+export type MtgSet = (typeof SETS)[number]["code"];
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -131,9 +142,12 @@ export function determinePackColors(
       const countDiff = b.count - a.count;
       if (countDiff === 0) {
         // if counts are equal, sort by color
-        return (
-          COLOR_ORDER[a.color as MtgColor] - COLOR_ORDER[b.color as MtgColor]
-        );
+        const colorAObj = COLORS.find((c) => c.code === (a.color as MtgColor));
+        const colorBObj = COLORS.find((c) => c.code === (b.color as MtgColor));
+
+        if (colorAObj && colorBObj) {
+          return colorAObj.order - colorBObj.order;
+        }
       }
       return countDiff;
     });

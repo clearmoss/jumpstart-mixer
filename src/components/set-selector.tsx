@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useAtom } from "jotai/index";
 import { setFilterAtom } from "@/lib/atoms.ts";
-import { SETS } from "@/lib/utils.ts";
+import { SETS, type MtgSet } from "@/lib/utils.ts";
 
 function SetSelector() {
   const [setFilter, setSetFilter] = useAtom(setFilterAtom);
 
-  const handleCheckedChange = (setCode: string) => {
+  const handleCheckedChange = (setCode: MtgSet) => {
     if (setFilter.includes(setCode) && setFilter.length === 1) {
       return;
     }
@@ -27,7 +27,7 @@ function SetSelector() {
       // order will match the order of the SETS array
       return SETS.map((set) => set.code).filter((code) =>
         newSelected.includes(code),
-      );
+      ) as MtgSet[];
     });
   };
 
