@@ -2,81 +2,16 @@ import { cn } from "@/lib/utils.ts";
 import CardListEntry from "@/components/card-list-entry.tsx";
 import { useAtom, useAtomValue } from "jotai/index";
 import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
-import type { CardDeck, Deck } from "@/lib/types.ts";
+import type { Deck } from "@/lib/types.ts";
 import { useMemo } from "react";
 import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
-import { Skeleton } from "@/components/ui/skeleton.tsx";
-
-const TYPE_ORDER = [
-  "Legendary Planeswalker",
-  "Planeswalker",
-  "Legendary Creature",
-  "Creature",
-  "Artifact Creature",
-  "Enchantment Creature",
-  "Instant",
-  "Sorcery",
-  "Artifact",
-  "Legendary Enchantment",
-  "Enchantment",
-  "Land",
-];
-
-function getMainType(type: string): string {
-  // remove the subtype after —, then return only the main type without specifier
-  const mainType = type.split("—")[0].trim().split(" ").pop();
-
-  return mainType ?? "Unknown";
-}
-
-function groupCardsByType(cards: CardDeck[]): Map<string, CardDeck[]> {
-  return cards.reduce((groups, card) => {
-    const mainType = getMainType(card.type);
-
-    if (!groups.has(mainType)) {
-      groups.set(mainType, []);
-    }
-    groups.get(mainType)!.push(card);
-
-    return groups;
-  }, new Map<string, CardDeck[]>());
-}
-
-function useDeckCardGrouping(pack: Deck | undefined) {
-  const groupedCards = useMemo(() => {
-    if (!pack?.mainBoard) return new Map<string, CardDeck[]>();
-
-    return groupCardsByType(pack.mainBoard);
-  }, [pack]);
-
-  return useMemo(() => {
-    const sortedTypes = Array.from(groupedCards.keys()).sort((a, b) => {
-      const aIndex = TYPE_ORDER.indexOf(a);
-      const bIndex = TYPE_ORDER.indexOf(b);
-      // if both types are in the order array, use that order
-      if (aIndex !== -1 && bIndex !== -1) {
-        return aIndex - bIndex;
-      }
-      // if only one type is in the order array, put it first
-      if (aIndex !== -1) return -1;
-      if (bIndex !== -1) return 1;
-      // if neither type is in the order array, sort alphabetically
-      return a.localeCompare(b);
-    });
-
-    return sortedTypes.map((type) => {
-      const cards = groupedCards.get(type) ?? [];
-      const count = cards.reduce((sum, card) => sum + card.count, 0);
-
-      return { type, cards, count };
-    });
-  }, [groupedCards]);
-}
+import { useCardGrouping } from "@/hooks/use-card-grouping.ts";
+import DeckListSkeleton from "@/components/skeletons/deck-list-skeleton.tsx";
 
 function DeckList({ pack }: { pack: Deck | undefined }) {
   const [showCategories] = useAtom(showCategoriesAtom);
   const currentSidebarCard = useAtomValue(currentSidebarCardAtom);
-  const cardGroups = useDeckCardGrouping(pack);
+  const cardGroups = useCardGrouping(pack);
 
   const imageUrls = useMemo(() => {
     return (
@@ -97,37 +32,7 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
   useImagePreloader(imageUrls);
 
   if (!pack) {
-    return (
-      <div className="flex flex-col gap-8" data-testid="deck-list-skeleton">
-        <div>
-          <Skeleton className="mb-2 h-6 w-1/2" />
-          <div className="flex flex-col gap-2 pl-4">
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-          </div>
-        </div>
-        <div>
-          <Skeleton className="mb-2 h-6 w-1/2" />
-          <div className="flex flex-col gap-2 pl-4">
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-          </div>
-        </div>
-        <div>
-          <Skeleton className="mb-2 h-6 w-1/2" />
-          <div className="flex flex-col gap-2 pl-4">
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-full" />
-          </div>
-        </div>
-      </div>
-    );
+    return <DeckListSkeleton />;
   }
 
   return (
