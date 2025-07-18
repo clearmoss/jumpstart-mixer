@@ -27,8 +27,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       return (
         <>
           <HeadContent />
-          <div className="flex items-baseline justify-between bg-orange-500 px-4 py-2">
-            <div className="flex items-baseline gap-4">
+          <div className="flex items-baseline justify-between bg-orange-400 px-4 py-2 dark:bg-orange-600">
+            <div className="flex items-baseline gap-6">
               <Link
                 to="/"
                 className="cursor-pointer bg-gradient-to-br from-yellow-100 to-orange-300 bg-clip-text text-2xl tracking-widest text-transparent opacity-[.85] brightness-125 drop-shadow-sm transition duration-500 ease-in-out select-none hover:opacity-100"

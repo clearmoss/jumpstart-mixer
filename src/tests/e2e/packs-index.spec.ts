@@ -56,7 +56,7 @@ test.describe("Packs Page", () => {
     await searchInput.fill("Goblins");
 
     await expect(page.getByTestId("pack-count")).not.toHaveText(
-      `${initialCount} Packs`,
+      `${initialCount} packs`,
     );
 
     const newCount = await getPackCount(page);
@@ -94,6 +94,6 @@ test.describe("Packs Page", () => {
     await page.getByTestId("pack-search").fill("foobar pack");
 
     await expect(page.getByText("No packs found.")).toBeVisible();
-    await expect(page.getByTestId("pack-count")).toHaveText("0 Packs");
+    await expect(page.getByTestId("pack-count")).toHaveText("0 packs");
   });
 });

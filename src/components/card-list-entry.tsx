@@ -3,9 +3,10 @@ import React, { useCallback } from "react";
 import { useSetAtom } from "jotai";
 import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 import { cn } from "@/lib/utils.ts";
+import OutLink from "@/components/out-link.tsx";
 
 const RARITY_TEXT_COLORS: Record<string, string> = {
-  common: "text-current",
+  common: "text-primary",
   uncommon: "text-sky-600",
   rare: "text-yellow-600",
   mythic: "text-orange-600",
@@ -35,16 +36,11 @@ function CardListEntry({
       className={cn("px-2", isCurrentlyDisplayed && "lg:bg-accent")}
       onMouseEnter={handleMouseEnter}
     >
-      <a
-        className="cursor-pointer"
-        href={scryfallUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <OutLink href={scryfallUrl}>
         <span className={cardRarityColor}>
           {card.count} {card.name}
         </span>
-      </a>
+      </OutLink>
     </li>
   );
 }

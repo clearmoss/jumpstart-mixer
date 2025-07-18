@@ -46,7 +46,7 @@ function CardSpread({ packs }: CardSpreadProps) {
         collapsible
       >
         <AccordionItem value="card-spread">
-          <AccordionTrigger className="text-md font-bold">
+          <AccordionTrigger className="text-md cursor-pointer font-bold">
             Card Spread
           </AccordionTrigger>
           <AccordionContent className="grid grid-cols-2 gap-4 pt-4 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">

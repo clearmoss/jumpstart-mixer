@@ -93,7 +93,7 @@ function RouteComponent() {
             <CardSearch />
             <span className="min-w-24" data-testid="pack-count">
               {filteredPacks.length}{" "}
-              {filteredPacks.length == 1 ? "Pack" : "Packs"}
+              {filteredPacks.length == 1 ? "pack" : "packs"}
             </span>
           </div>
         </div>
