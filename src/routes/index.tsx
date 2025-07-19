@@ -19,7 +19,9 @@ function Index() {
   return (
     <div className="flex min-h-[80vh] flex-col items-center justify-center p-4 text-center md:p-8">
       <div className="mx-auto max-w-[90ch]">
-        <h1 className="mb-4 text-4xl font-bold md:text-6xl">Jumpstart Mixer</h1>
+        <h1 className="mb-4 bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text text-4xl font-bold text-transparent md:text-6xl">
+          Jumpstart Mixer
+        </h1>
 
         <p className="mx-auto mb-8 max-w-2xl text-xl md:text-2xl">
           Crack some virtual packs and play Magic: The Gathering with your
