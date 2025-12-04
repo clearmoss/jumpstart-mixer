@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "3cf49dd46fb9cd"
   },
   "data": {
@@ -29,7 +29,7 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 367,
+        "edhrecRank": 353,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
@@ -46,7 +46,8 @@
             "multiverseId": 592914,
             "name": "Tobende Baloths",
             "text": "Verursacht Trampelschaden\nLandung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du einen 4/4 grünen Bestie-Kreaturenspielstein erzeugen.",
-            "type": "Kreatur — Bestie"
+            "type": "Kreatur — Bestie",
+            "uuid": "01477a98-7701-54e3-aeca-12803c1aed46"
           },
           {
             "flavorText": "\"Cuando la tierra está furiosa, también lo están ellos\".\n—Nissa Revane",
@@ -58,7 +59,8 @@
             "multiverseId": 593035,
             "name": "Báloths impetuosos",
             "text": "Arrolla.\nAterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, puedes crear una ficha de criatura Bestia verde 4/4.",
-            "type": "Criatura — Bestia"
+            "type": "Criatura — Bestia",
+            "uuid": "675e49c7-d1ba-5298-82c4-7fc5d2dd8348"
           },
           {
             "flavorText": "« Quand la terre enrage, ils enragent aussi. »\n—Nissa Revane",
@@ -70,7 +72,8 @@
             "multiverseId": 593156,
             "name": "Baloths déchaînés",
             "text": "Piétinement\nToucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez créer un jeton de créature 4/4 verte Bête.",
-            "type": "Créature : bête"
+            "type": "Créature : bête",
+            "uuid": "762b19f1-826c-5f04-a540-f16e743751b3"
           },
           {
             "flavorText": "\"Quando la terra è infuriata, lo sono anche loro.\"\n—Nissa Revane",
@@ -82,7 +85,8 @@
             "multiverseId": 593277,
             "name": "Baloth Infuriati",
             "text": "Travolgere\nTerraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi creare una pedina creatura Bestia 4/4 verde.",
-            "type": "Creatura — Bestia"
+            "type": "Creatura — Bestia",
+            "uuid": "184e1d9a-8381-53b1-a4bd-ef7a22009cb1"
           },
           {
             "flavorText": "「大地が怒ってるなら、そいつらもそうよ。」\n――ニッサ・レヴェイン",
@@ -94,7 +98,8 @@
             "multiverseId": 593398,
             "name": "猛り狂うベイロス",
             "text": "トランプル\n上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、あなたは緑の４/４のビースト・クリーチャー・トークン１体を生成してもよい。",
-            "type": "クリーチャー — ビースト"
+            "type": "クリーチャー — ビースト",
+            "uuid": "e4c13019-e343-5c98-b2c8-84e5ae8b8366"
           },
           {
             "flavorText": "「当大地发怒，它们也闹脾气。」\n～妮莎瑞文",
@@ -106,7 +111,8 @@
             "multiverseId": 593761,
             "name": "莽闯巴洛西",
             "text": "践踏\n地落～每当一个地在你的操控下进战场时，你可以派出一个4/4绿色野兽衍生生物。",
-            "type": "生物 ～野兽"
+            "type": "生物 ～野兽",
+            "uuid": "b065821f-ce3d-5dd2-af5f-81322f54ef89"
           }
         ],
         "frameVersion": "2015",
@@ -126,6 +132,7 @@
           "scryfallOracleId": "2d3e6549-6cc6-434f-a189-ba3b55e64c34",
           "tcgplayerProductId": "455464"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -158,7 +165,6 @@
         "name": "Rampaging Baloths",
         "number": "715",
         "originalText": "Trample\nLandfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.",
-        "originalType": "Creature — Beast",
         "power": "6",
         "printings": [
           "BLC",
@@ -212,7 +218,7 @@
           "Beast"
         ],
         "supertypes": [],
-        "text": "Trample\nLandfall — Whenever a land you control enters, you may create a 4/4 green Beast creature token.",
+        "text": "Trample\nLandfall — Whenever a land you control enters, create a 4/4 green Beast creature token.",
         "toughness": "6",
         "type": "Creature — Beast",
         "types": [
@@ -240,8 +246,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 930,
-        "edhrecSaltiness": 0.28,
+        "edhrecRank": 1020,
+        "edhrecSaltiness": 0.23,
         "finishes": [
           "nonfoil"
         ],
@@ -255,7 +261,8 @@
             "multiverseId": 592840,
             "name": "Rennerin des Kruphix",
             "text": "Die oberste Karte deiner Bibliothek ist offen.\nDu kannst Länder oben von deiner Bibliothek spielen.\nImmer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhältst du 1 Lebenspunkt dazu.",
-            "type": "Verzauberungskreatur — Zentaur"
+            "type": "Verzauberungskreatur — Zentaur",
+            "uuid": "0e67afeb-dc67-5648-ad84-e547a5d1590f"
           },
           {
             "identifiers": {
@@ -266,7 +273,8 @@
             "multiverseId": 592961,
             "name": "Cazadora de Krufix",
             "text": "Juega mostrando la primera carta de tu biblioteca.\nPuedes jugar tierras desde la parte superior de tu biblioteca.\nSiempre que una tierra entre al campo de batalla bajo tu control, ganas 1 vida.",
-            "type": "Criatura encantamiento — Centauro"
+            "type": "Criatura encantamiento — Centauro",
+            "uuid": "91b72cca-61ad-5f1a-a928-c21f81902adb"
           },
           {
             "identifiers": {
@@ -277,7 +285,8 @@
             "multiverseId": 593082,
             "name": "Coursière de Kruphix",
             "text": "Jouez avec la carte du dessus de votre bibliothèque révélée.\nVous pouvez jouer les terrains depuis le dessus de votre bibliothèque.\nÀ chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous gagnez 1 point de vie.",
-            "type": "Créature-enchantement : centaure"
+            "type": "Créature-enchantement : centaure",
+            "uuid": "433a10c4-f840-576b-acb5-23a2546a78b9"
           },
           {
             "identifiers": {
@@ -288,7 +297,8 @@
             "multiverseId": 593203,
             "name": "Corsiera di Krufix",
             "text": "Gioca con la prima carta del tuo grimorio rivelata.\nPuoi giocare terre dalla cima del tuo grimorio.\nOgniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, guadagni 1 punto vita.",
-            "type": "Creatura Incantesimo — Centauro"
+            "type": "Creatura Incantesimo — Centauro",
+            "uuid": "577e2b21-49e2-535b-bcca-0698eec7e3a1"
           },
           {
             "identifiers": {
@@ -299,7 +309,8 @@
             "multiverseId": 593324,
             "name": "クルフィックスの狩猟者",
             "text": "あなたのライブラリーの一番上にあるカード１枚を公開したままプレイする。\nあなたはあなたのライブラリーの一番上から土地をプレイしてもよい。\n土地１つがあなたのコントロール下で戦場に出るたび、あなたは１点のライフを得る。",
-            "type": "クリーチャー・エンチャント — ケンタウルス"
+            "type": "クリーチャー・エンチャント — ケンタウルス",
+            "uuid": "8610aefe-c3fe-5b72-b868-3c59f63b4a80"
           },
           {
             "identifiers": {
@@ -310,7 +321,8 @@
             "multiverseId": 593687,
             "name": "克罗芬斯的骏马",
             "text": "你以展示牌库顶牌的方式进行游戏。\n你可以从你的牌库顶使用地。\n每当一个地在你的操控下进战场时，你获得1点生命。",
-            "type": "结界生物 ～半人马"
+            "type": "结界生物 ～半人马",
+            "uuid": "c4a33d6a-0632-511f-a0ef-a24bca48ea2e"
           }
         ],
         "frameEffects": [
@@ -333,6 +345,7 @@
           "scryfallOracleId": "46779609-4fa7-4fd2-b5b4-7d4d749339e6",
           "tcgplayerProductId": "455386"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -359,7 +372,6 @@
         "name": "Courser of Kruphix",
         "number": "641",
         "originalText": "Play with the top card of your library revealed.\nYou may play lands from the top of your library.\nWhenever a land enters the battlefield under your control, you gain 1 life.",
-        "originalType": "Enchantment Creature — Centaur",
         "power": "2",
         "printings": [
           "A25",
@@ -436,8 +448,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 13540,
-        "edhrecSaltiness": 0.11,
+        "edhrecRank": 14099,
+        "edhrecSaltiness": 0.65,
         "finishes": [
           "nonfoil"
         ],
@@ -451,7 +463,8 @@
             "multiverseId": 592935,
             "name": "Wendholzwaldbasilisk",
             "text": "Todesberührung\nLandung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Kreatur deiner Wahl in diesem Zug den Wendholzwaldbasilisk blocken lassen, falls möglich.",
-            "type": "Kreatur — Basilisk"
+            "type": "Kreatur — Basilisk",
+            "uuid": "b8579300-34c6-5c9c-a947-b66f7e4e5167"
           },
           {
             "identifiers": {
@@ -462,7 +475,8 @@
             "multiverseId": 593056,
             "name": "Basilisco de Madera Torcida",
             "text": "Toque mortal.\nAterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, puedes hacer que la criatura objetivo bloquee al Basilisco de Madera Torcida este turno si puede.",
-            "type": "Criatura — Basilisco"
+            "type": "Criatura — Basilisco",
+            "uuid": "ff578777-8c40-5ef9-802f-17efd267e7fd"
           },
           {
             "identifiers": {
@@ -473,7 +487,8 @@
             "multiverseId": 593177,
             "name": "Basilic de Tournebois",
             "text": "Contact mortel\nToucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez faire qu'une créature ciblée bloque le Basilic de Tournebois ce tour-ci si possible.",
-            "type": "Créature : basilic"
+            "type": "Créature : basilic",
+            "uuid": "22d30ae4-28d4-569c-a2f1-f51d15512554"
           },
           {
             "identifiers": {
@@ -484,7 +499,8 @@
             "multiverseId": 593298,
             "name": "Basilisco di Legnotorto",
             "text": "Tocco letale\nTerraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi far bloccare il Basilisco di Legnotorto da una creatura bersaglio in questo turno, se può farlo.",
-            "type": "Creatura — Basilisco"
+            "type": "Creatura — Basilisco",
+            "uuid": "3af1b770-5ea2-5107-909b-de5395aab865"
           },
           {
             "identifiers": {
@@ -495,7 +511,8 @@
             "multiverseId": 593419,
             "name": "変わり樹のバジリスク",
             "text": "接死\n上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、クリーチャー１体を対象とする。あなたは「このターン、それは可能なら変わり樹のバジリスクをブロックする。」を選んでもよい。",
-            "type": "クリーチャー — バジリスク"
+            "type": "クリーチャー — バジリスク",
+            "uuid": "5be67788-3a34-5dac-b200-83363e2711b2"
           },
           {
             "identifiers": {
@@ -506,7 +523,8 @@
             "multiverseId": 593782,
             "name": "旋林蜥怪",
             "text": "死触\n地落～每当一个地在你的操控下进战场时，你可以使目标生物本回合若能阻挡旋林蜥怪，则须阻挡之。",
-            "type": "生物 ～蜥怪"
+            "type": "生物 ～蜥怪",
+            "uuid": "d6b00f44-5ae3-59dc-a058-f650be03833a"
           }
         ],
         "frameVersion": "2015",
@@ -526,6 +544,7 @@
           "scryfallOracleId": "661a99ef-8d5b-4aac-98f6-52b17a8ecf52",
           "tcgplayerProductId": "455500"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -549,7 +568,6 @@
         "name": "Turntimber Basilisk",
         "number": "736",
         "originalText": "Deathtouch\nLandfall — Whenever a land enters the battlefield under your control, you may have target creature block Turntimber Basilisk this turn if able.",
-        "originalType": "Creature — Basilisk",
         "power": "2",
         "printings": [
           "DDP",
@@ -636,8 +654,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 4522,
-        "edhrecSaltiness": 0.14,
+        "edhrecRank": 4805,
+        "edhrecSaltiness": 0.32,
         "finishes": [
           "nonfoil"
         ],
@@ -653,7 +671,8 @@
             "multiverseId": 589647,
             "name": "Urtümlicher Herold",
             "text": "Verursacht Trampelschaden\nImmer wenn der Urtümliche Herold ins Spiel kommt oder angreift, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie getappt ins Spiel bringen und danach mischen.",
-            "type": "Kreatur — Elf, Späher"
+            "type": "Kreatur — Elf, Späher",
+            "uuid": "4fb05a2c-1971-5981-a14e-6614ef40cf8c"
           },
           {
             "flavorText": "Cuando llama, la naturaleza responde.",
@@ -665,7 +684,8 @@
             "multiverseId": 589698,
             "name": "Heraldo primordial",
             "text": "Arrolla.\nSiempre que el Heraldo primordial entre al campo de batalla o ataque, puedes buscar en tu biblioteca una carta de tierra básica, ponerla en el campo de batalla girada y luego barajar.",
-            "type": "Criatura — Explorador elfo"
+            "type": "Criatura — Explorador elfo",
+            "uuid": "5c9d0a8d-bf8a-55ee-90f5-44a71de773da"
           },
           {
             "flavorText": "Quand elle appelle, la nature répond.",
@@ -677,7 +697,8 @@
             "multiverseId": 589749,
             "name": "Héraut primitif",
             "text": "Piétinement\nÀ chaque fois que le Héraut primitif arrive sur le champ de bataille ou attaque, vous pouvez chercher dans votre bibliothèque une carte de terrain de base, la mettre sur le champ de bataille engagée, puis mélanger.",
-            "type": "Créature : elfe et éclaireur"
+            "type": "Créature : elfe et éclaireur",
+            "uuid": "62c0f337-ffe9-5a26-827c-040265fc0812"
           },
           {
             "flavorText": "Quando chiama, la natura risponde.",
@@ -689,7 +710,8 @@
             "multiverseId": 589800,
             "name": "Araldo Primordiale",
             "text": "Travolgere\nOgniqualvolta l'Araldo Primordiale entra nel campo di battaglia o attacca, puoi passare in rassegna il tuo grimorio per una carta terra base, metterla sul campo di battaglia TAPpata, poi rimescolare.",
-            "type": "Creatura — Esploratore Elfo"
+            "type": "Creatura — Esploratore Elfo",
+            "uuid": "2c111b7f-ecf8-59be-8195-c2aed1aee59a"
           },
           {
             "flavorText": "呼びかければ、自然は応える。",
@@ -701,7 +723,8 @@
             "multiverseId": 589851,
             "name": "原始の伝令",
             "text": "トランプル\n原始の伝令が戦場に出るか攻撃するたび、あなたは「あなたのライブラリーから基本土地・カード１枚を探し、タップ状態で戦場に出す。その後、ライブラリーを切り直す。」を選んでもよい。",
-            "type": "クリーチャー — エルフ・スカウト"
+            "type": "クリーチャー — エルフ・スカウト",
+            "uuid": "8561ae61-f04b-54a8-8bf5-dd8273c29d44"
           },
           {
             "flavorText": "他们一呼喊，自然便回应。",
@@ -713,7 +736,8 @@
             "multiverseId": 590004,
             "name": "太古传令使",
             "text": "践踏\n每当太古传令使进战场或攻击时，你可以从你牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。",
-            "type": "生物 ～妖精／斥候"
+            "type": "生物 ～妖精／斥候",
+            "uuid": "1acb60e1-ccb1-53b0-853a-656cae1a9ddb"
           }
         ],
         "frameVersion": "2015",
@@ -733,6 +757,7 @@
           "scryfallOracleId": "495348d7-bc11-4209-8b0f-72db2e6c6993",
           "tcgplayerProductId": "454940"
         },
+        "isEtched": false,
         "isFoil": false,
         "keywords": [
           "Trample"
@@ -755,7 +780,6 @@
         "name": "Primeval Herald",
         "number": "42",
         "originalText": "Trample\nWhenever Primeval Herald enters the battlefield or attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-        "originalType": "Creature — Elf Scout",
         "power": "3",
         "printings": [
           "J22",
@@ -806,7 +830,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 19952,
+        "edhrecRank": 20679,
         "finishes": [
           "nonfoil"
         ],
@@ -822,7 +846,8 @@
             "multiverseId": 592896,
             "name": "Oashra-Ackerbäuerin",
             "text": "{2}{G}, {T}, opfere die Oashra-Ackerbäuerin: Durchsuche deine Bibliothek nach einer Standardland-Karte, bringe sie getappt ins Spiel und mische danach.",
-            "type": "Kreatur — Mensch, Druide"
+            "type": "Kreatur — Mensch, Druide",
+            "uuid": "01a022ba-38df-5857-a363-2b9480628016"
           },
           {
             "flavorText": "\"Como los frutos del campo, a nosotros también se nos cosechará llegado el momento\".",
@@ -834,7 +859,8 @@
             "multiverseId": 593017,
             "name": "Cultivadora de Oashra",
             "text": "{2}{G}, {T}, sacrificar la Cultivadora de Oashra: Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja.",
-            "type": "Criatura — Druida humano"
+            "type": "Criatura — Druida humano",
+            "uuid": "670af88f-1f7f-59f5-a56b-c7853f135052"
           },
           {
             "flavorText": "« Nous serons récoltés quand la saison sera venue, comme les fruits d'un champ. »",
@@ -846,7 +872,8 @@
             "multiverseId": 593138,
             "name": "Cultivatrice d'Oashra",
             "text": "{2}{G}, {T}, sacrifiez la Cultivatrice d'Oashra : Cherchez dans votre bibliothèque une carte de terrain de base, mettez-la sur le champ de bataille engagée, puis mélangez.",
-            "type": "Créature : humain et druide"
+            "type": "Créature : humain et druide",
+            "uuid": "26ebbcca-6293-5589-9a1e-bfd126443cfc"
           },
           {
             "flavorText": "\"Come frutti maturi, verremo colti quando la stagione sarà propizia.\"",
@@ -858,7 +885,8 @@
             "multiverseId": 593259,
             "name": "Coltivatrice di Oashra",
             "text": "{2}{G}, {T}, Sacrifica la Coltivatrice di Oashra: Passa in rassegna il tuo grimorio per una carta terra base, mettila sul campo di battaglia TAPpata, poi rimescola.",
-            "type": "Creatura — Druido Umano"
+            "type": "Creatura — Druido Umano",
+            "uuid": "27f919a2-731b-5d60-a67e-1edf7d913c04"
           },
           {
             "flavorText": "「時期が来れば私たちも果実のように収穫されるのよ。」",
@@ -870,7 +898,8 @@
             "multiverseId": 593380,
             "name": "オアシュラの耕作者",
             "text": "{2}{G},{T},オアシュラの耕作者を生け贄に捧げる：あなたのライブラリーから基本土地・カード１枚を探し、タップ状態で戦場に出す。その後、ライブラリーを切り直す。",
-            "type": "クリーチャー — 人間・ドルイド"
+            "type": "クリーチャー — 人間・ドルイド",
+            "uuid": "581f85a0-3930-5b46-a6f3-fcb67d39376e"
           },
           {
             "flavorText": "「我们跟田地里的水果一样，到了收获季节就会被采摘。」",
@@ -882,7 +911,8 @@
             "multiverseId": 593743,
             "name": "欧夏拉耕者",
             "text": "{2}{G}，{T}，牺牲欧夏拉耕者：从你牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。",
-            "type": "生物 ～人类／德鲁伊"
+            "type": "生物 ～人类／德鲁伊",
+            "uuid": "3c0871ce-1559-5c0a-a7b7-3c15efaf0127"
           }
         ],
         "frameVersion": "2015",
@@ -902,6 +932,7 @@
           "scryfallOracleId": "c07bbe66-96ae-4fab-82b9-fc6dc4f549c3",
           "tcgplayerProductId": "455437"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -927,7 +958,6 @@
         "name": "Oashra Cultivator",
         "number": "697",
         "originalText": "{2}{G}, {T}, Sacrifice Oashra Cultivator: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-        "originalType": "Creature — Human Druid",
         "power": "0",
         "printings": [
           "AKH",
@@ -979,7 +1009,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 21421,
+        "edhrecRank": 21903,
         "finishes": [
           "nonfoil"
         ],
@@ -995,7 +1025,8 @@
             "multiverseId": 592929,
             "name": "Schnappender Knurrer",
             "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Schnappende Knurrer +1/+1 bis zum Ende des Zuges.",
-            "type": "Kreatur — Bestie"
+            "type": "Kreatur — Bestie",
+            "uuid": "2caac16d-7dad-505f-8fd2-da18075471c6"
           },
           {
             "flavorText": "Todos los seres de Zendikar perciben la agitación que acompaña a los Eldrazi.",
@@ -1007,7 +1038,8 @@
             "multiverseId": 593050,
             "name": "Gnárlido mordiente",
             "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, el Gnárlido mordiente obtiene +1/+1 hasta el final del turno.",
-            "type": "Criatura — Bestia"
+            "type": "Criatura — Bestia",
+            "uuid": "918d2925-aeec-5b03-a29f-03e2a6beefe2"
           },
           {
             "flavorText": "Tous les êtres de Zendikar sentent le bouleversement causé par les Eldrazi.",
@@ -1019,7 +1051,8 @@
             "multiverseId": 593171,
             "name": "Gnarlide happeur",
             "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Gnarlide happeur gagne +1/+1 jusqu'à la fin du tour.",
-            "type": "Créature : bête"
+            "type": "Créature : bête",
+            "uuid": "25019ca2-7bbe-5b3e-8a45-a721389831e0"
           },
           {
             "flavorText": "Tutti gli esseri di Zendikar percepiscono il cataclisma che accompagna gli Eldrazi.",
@@ -1031,7 +1064,8 @@
             "multiverseId": 593292,
             "name": "Gnarlid Azzannatore",
             "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, lo Gnarlid Azzannatore prende +1/+1 fino alla fine del turno.",
-            "type": "Creatura — Bestia"
+            "type": "Creatura — Bestia",
+            "uuid": "fe6e69c2-d77a-51d9-a0ab-2435a5c7abee"
           },
           {
             "flavorText": "ゼンディカーに生きる物はみな、エルドラージが引き起こした激変を感じている。",
@@ -1043,7 +1077,8 @@
             "multiverseId": 593413,
             "name": "噛み付きナーリッド",
             "text": "上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、ターン終了時まで、噛み付きナーリッドは＋１/＋１の修整を受ける。",
-            "type": "クリーチャー — ビースト"
+            "type": "クリーチャー — ビースト",
+            "uuid": "39707ab9-a10c-5a56-95f2-bf45237694fb"
           },
           {
             "flavorText": "赞迪卡的所有生灵都感受到了奥札奇带来的剧变。",
@@ -1055,7 +1090,8 @@
             "multiverseId": 593776,
             "name": "急攫糙节兽",
             "text": "地落～每当一个地在你的操控下进战场时，急攫糙节兽得+1/+1直到回合结束。",
-            "type": "生物 ～野兽"
+            "type": "生物 ～野兽",
+            "uuid": "1eb99cf4-9842-5ddb-9fe4-3d9c10a00957"
           }
         ],
         "frameVersion": "2015",
@@ -1075,6 +1111,7 @@
           "scryfallOracleId": "eeba70f5-336c-46e6-90db-50818f88e8a5",
           "tcgplayerProductId": "455483"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1102,7 +1139,6 @@
         "name": "Snapping Gnarlid",
         "number": "730",
         "originalText": "Landfall — Whenever a land enters the battlefield under your control, Snapping Gnarlid gets +1/+1 until end of turn.",
-        "originalType": "Creature — Beast",
         "power": "2",
         "printings": [
           "BFZ",
@@ -1168,7 +1204,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 15962,
+        "edhrecRank": 16231,
+        "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
@@ -1184,7 +1221,8 @@
             "multiverseId": 592837,
             "name": "Blätterdach-Baloth",
             "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Blätterdach-Baloth +2/+2 bis zum Ende des Zuges.",
-            "type": "Kreatur — Bestie"
+            "type": "Kreatur — Bestie",
+            "uuid": "a5c255e2-3b5b-5e92-a125-1497eceeda37"
           },
           {
             "flavorText": "\"Es obvio lo que está deliberando: ¿seremos lo suficientemente sabrosos como para arriesgarse a saltar?\".\n—Samila, Casa expedicionaria de Murasa",
@@ -1196,7 +1234,8 @@
             "multiverseId": 592958,
             "name": "Báloth de la enramada",
             "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, el Báloth de la enramada obtiene +2/+2 hasta el final del turno.",
-            "type": "Criatura — Bestia"
+            "type": "Criatura — Bestia",
+            "uuid": "fb52277f-514b-5979-9f33-6d22debfa1ab"
           },
           {
             "flavorText": "« On arrive presque à le voir réfléchir, en train de se demander si nous sommes assez bons à grignoter pour justifier ce bond risqué. »\n—Samila, corps expéditionnaire de Murasa",
@@ -1208,7 +1247,8 @@
             "multiverseId": 593079,
             "name": "Baloth de la canopée",
             "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Baloth de la canopée gagne +2/+2 jusqu'à la fin du tour.",
-            "type": "Créature : bête"
+            "type": "Créature : bête",
+            "uuid": "b29eeb57-ae40-5995-9116-a252a853b26e"
           },
           {
             "flavorText": "\"Riesco quasi a vedere che sta valutando se siamo un boccone abbastanza gustoso da rischiare il salto.\"\n—Samila, Casa di Spedizioni di Murasa",
@@ -1220,7 +1260,8 @@
             "multiverseId": 593200,
             "name": "Baloth delle Frasche",
             "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, il Baloth delle Frasche prende +2/+2 fino alla fine del turno.",
-            "type": "Creatura — Bestia"
+            "type": "Creatura — Bestia",
+            "uuid": "550fb330-7b23-53c1-ba5b-6460e8f07731"
           },
           {
             "flavorText": "「あれが迷っているのが分かるでしょう。ジャンプの危険に見合うほど私たちがおいしいかどうか考えているのよ。」\n――ムラーサ探検協会のサミーラ",
@@ -1232,7 +1273,8 @@
             "multiverseId": 593321,
             "name": "梢のベイロス",
             "text": "上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、ターン終了時まで、梢のベイロスは＋２/＋２の修整を受ける。",
-            "type": "クリーチャー — ビースト"
+            "type": "クリーチャー — ビースト",
+            "uuid": "c519db2f-edf5-526c-972c-6e4396541be5"
           },
           {
             "flavorText": "「你甚至能察觉到它在仔细盘算～我们是否美味到值得它冒险扑过来？」\n～姆拉撒探险队的莎米勒",
@@ -1244,7 +1286,8 @@
             "multiverseId": 593684,
             "name": "林冠巴洛西",
             "text": "地落～每当一个地在你的操控下进战场时，林冠巴洛西得+2/+2直到回合结束。",
-            "type": "生物 ～野兽"
+            "type": "生物 ～野兽",
+            "uuid": "f485b8d9-efbc-5acc-a715-f4efd9083c89"
           }
         ],
         "frameVersion": "2015",
@@ -1264,6 +1307,7 @@
           "scryfallOracleId": "4493828f-144f-49cf-9fd2-61de86e632ec",
           "tcgplayerProductId": "455381"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1292,7 +1336,6 @@
         "name": "Canopy Baloth",
         "number": "638",
         "originalText": "Landfall — Whenever a land enters the battlefield under your control, Canopy Baloth gets +2/+2 until end of turn.",
-        "originalType": "Creature — Beast",
         "power": "4",
         "printings": [
           "J22",
@@ -1359,8 +1402,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 15459,
-        "edhrecSaltiness": 0.22,
+        "edhrecRank": 16132,
+        "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
@@ -1376,7 +1419,8 @@
             "multiverseId": 589648,
             "name": "Rasantes Wachstum",
             "text": "Durchsuche deine Bibliothek nach einer Standardland-Karte, bringe sie ins Spiel und mische danach. Bis zum Ende des Zuges wird das Land zu einer 4/3 Insekt-Kreatur mit Reichweite und Eile. Es ist immer noch ein Land.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "d731a720-cca6-5f5b-a46f-51e8a798a7a5"
           },
           {
             "flavorText": "Cuando registraron la casa en busca de insectos, no pensaron a lo grande.",
@@ -1388,7 +1432,8 @@
             "multiverseId": 589699,
             "name": "Crecimiento devastador",
             "text": "Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla y luego baraja. Hasta el final del turno, esa tierra se convierte en una criatura Insecto 4/3 con las habilidades de alcance y prisa. Sigue siendo una tierra.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "daf23409-6f2b-5559-8d3d-169467cdf436"
           },
           {
             "flavorText": "Quand ils firent inspecter la maison pour vérifier la présence d'insectes, ils n'avaient pas vu assez grand.",
@@ -1400,7 +1445,8 @@
             "multiverseId": 589750,
             "name": "Croissance effrénée",
             "text": "Cherchez dans votre bibliothèque une carte de terrain de base, mettez-la sur le champ de bataille, puis mélangez. Jusqu'à la fin du tour, ce terrain devient une créature 4/3 Insecte avec la portée et la célérité. C'est toujours un terrain.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "6d94ebf6-e229-5f3e-9749-72b405d62f49"
           },
           {
             "flavorText": "Quando controllarono se la casa fosse infestata dagli insetti, non pensarono abbastanza in grande.",
@@ -1412,7 +1458,8 @@
             "multiverseId": 589801,
             "name": "Crescita Scatenata",
             "text": "Passa in rassegna il tuo grimorio per una carta terra base, mettila sul campo di battaglia, poi rimescola. Fino alla fine del turno, quella terra diventa una creatura Insetto 4/3 con raggiungere e rapidità. È ancora una terra.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "854a2f6c-d462-5954-a851-94447f0a181e"
           },
           {
             "flavorText": "害虫駆除で家を点検したときは、事の重大さを過小評価していた。",
@@ -1424,7 +1471,8 @@
             "multiverseId": 589852,
             "name": "猛り狂う成長",
             "text": "あなたのライブラリーから基本土地・カード１枚を探し、戦場に出す。その後、ライブラリーを切り直す。ターン終了時まで、その土地は到達と速攻を持つ４/３の昆虫・クリーチャーになる。それは土地でもある。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "71188e40-bc2f-564b-a0f5-bc06dcd944bb"
           },
           {
             "flavorText": "当他们为房屋除虫时，没想过事情会搞成这么大。",
@@ -1436,7 +1484,8 @@
             "multiverseId": 590005,
             "name": "莽闯成长",
             "text": "从你牌库中搜寻一张基本地牌，将之放进战场，然后洗牌。直到回合结束，该地成为4/3，具延势与敏捷异能的昆虫生物。它仍然是地。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "3c7fa476-17d7-5320-986a-60979ae97b04"
           }
         ],
         "frameVersion": "2015",
@@ -1456,6 +1505,7 @@
           "scryfallOracleId": "acd81d2c-e438-44db-86eb-32fc9cb3fd8f",
           "tcgplayerProductId": "455012"
         },
+        "isEtched": false,
         "isFoil": false,
         "language": "English",
         "layout": "normal",
@@ -1471,7 +1521,6 @@
         "name": "Rampaging Growth",
         "number": "43",
         "originalText": "Search your library for a basic land card, put it onto the battlefield, then shuffle. Until end of turn, that land becomes a 4/3 Insect creature with reach and haste. It's still a land.",
-        "originalType": "Instant",
         "printings": [
           "J22"
         ],
@@ -1516,7 +1565,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6175,
+        "edhrecRank": 6824,
+        "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
@@ -1532,7 +1582,8 @@
             "multiverseId": 592888,
             "name": "Maßregelung des Meisters",
             "text": "Eine Kreatur deiner Wahl, die du kontrollierst, fügt einer Kreatur oder einem Planeswalker deiner Wahl, die bzw. den du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "bc2d7bac-e3bc-5f86-91bb-5aff8bc4d0f4"
           },
           {
             "flavorText": "\"Siempre fuiste un estudiante prometedor, pero tu arrogancia supera con creces tu destreza\".",
@@ -1544,7 +1595,8 @@
             "multiverseId": 593009,
             "name": "Reprimenda del maestro",
             "text": "La criatura objetivo que controlas hace una cantidad de daño igual a su fuerza a la criatura o planeswalker objetivo que no controlas.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "b3153982-24b2-5043-b784-4ef6f758e1d5"
           },
           {
             "flavorText": "« Tu as toujours été un élève prometteur, mais ton arrogance dépasse de très loin tes prouesses. »",
@@ -1556,7 +1608,8 @@
             "multiverseId": 593130,
             "name": "Blâme du maître",
             "text": "Une créature ciblée que vous contrôlez inflige un nombre de blessures égal à sa force à une cible, créature ou planeswalker, que vous ne contrôlez pas.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "5a8afb7d-8496-56a1-843b-9ff38fde2a96"
           },
           {
             "flavorText": "\"Sei sempre stato uno studente promettente, ma la tua arroganza supera di gran lunga il tuo talento.\"",
@@ -1568,7 +1621,8 @@
             "multiverseId": 593251,
             "name": "Sdegno del Maestro",
             "text": "Una creatura bersaglio che controlli infligge danno pari alla sua forza a una creatura o a un planeswalker bersaglio che non controlli.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "e72b0ed0-1f7d-5472-b40a-0c33f723b737"
           },
           {
             "flavorText": "「有望な生徒ではあったが、その傲慢さは貴様の技量を遥かに凌駕している。」",
@@ -1580,7 +1634,8 @@
             "multiverseId": 593372,
             "name": "達人の咎め",
             "text": "あなたがコントロールしているクリーチャー１体と、あなたがコントロールしていないクリーチャーやプレインズウォーカーのうち１体を対象とする。その前者はその後者に、自身のパワーに等しい点数のダメージを与える。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "ff6008a1-6775-5843-a7c7-d1a6c870c937"
           },
           {
             "flavorText": "「为师一直深觉你前途无量，但你孤高倨傲定会自缚手脚。」",
@@ -1592,7 +1647,8 @@
             "multiverseId": 593735,
             "name": "蛇圣拒斥",
             "text": "目标由你操控的生物对目标不由你操控的生物或鹏洛客造成伤害，其数量等同于前者的力量。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "3f198eed-ed76-5739-8074-94d7100f65de"
           }
         ],
         "frameVersion": "2015",
@@ -1612,6 +1668,7 @@
           "scryfallOracleId": "e68ff836-6e51-4c3a-91e5-f0d649297245",
           "tcgplayerProductId": "455426"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1637,7 +1694,6 @@
         "name": "Master's Rebuke",
         "number": "689",
         "originalText": "Target creature you control deals damage equal to its power to target creature or planeswalker you don't control.",
-        "originalType": "Instant",
         "printings": [
           "J22",
           "NEO",
@@ -1684,8 +1740,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 1453,
-        "edhrecSaltiness": 0.27,
+        "edhrecRank": 1605,
+        "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
@@ -1701,7 +1757,8 @@
             "multiverseId": 592946,
             "name": "Zendikars Turbulenz",
             "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erzeuge einen 2/2 grünen Elementarwesen-Kreaturenspielstein.",
-            "type": "Verzauberung"
+            "type": "Verzauberung",
+            "uuid": "ee74fdcc-f1b1-578a-916a-a9503cd4a657"
           },
           {
             "flavorText": "\"Estaba equivocada. Zendikar no me persigue. No persigue a ninguno de nosotros. No es maligno ni vengativo. Es magnífico... pero sufre\".\n—Nissa Revane",
@@ -1713,7 +1770,8 @@
             "multiverseId": 593067,
             "name": "La Turbulencia de Zendikar",
             "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, crea una ficha de criatura Elemental verde 2/2.",
-            "type": "Encantamiento"
+            "type": "Encantamiento",
+            "uuid": "95a9e071-643f-55d5-8a28-93456014a32f"
           },
           {
             "flavorText": "« J'avais tort. Zendikar ne m'en veut pas... ni à personne d'ailleurs. Le plan n'est ni maléfique ni vengeur. Il est magnifique... mais il souffre. »\n—Nissa Revane",
@@ -1725,7 +1783,8 @@
             "multiverseId": 593188,
             "name": "Roulis de Zendikar",
             "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, créez un jeton de créature 2/2 verte Élémental.",
-            "type": "Enchantement"
+            "type": "Enchantement",
+            "uuid": "abfe0b74-59f9-5cb1-8548-e6ec74b544a3"
           },
           {
             "flavorText": "\"Mi sbagliavo. Zendikar non ce l'ha con me. Non ce l'ha con nessuno di noi. Non è malvagio o vendicativo. È magnifico... ma sta soffrendo.\"\n—Nissa Revane",
@@ -1737,7 +1796,8 @@
             "multiverseId": 593309,
             "name": "Torbido di Zendikar",
             "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, crea una pedina creatura Elementale 2/2 verde.",
-            "type": "Incantesimo"
+            "type": "Incantesimo",
+            "uuid": "88ddbe1f-87a0-50f6-9b24-f3286e4d9906"
           },
           {
             "flavorText": "「私が間違っていた。ゼンディカーは私を追ってなどいない。私たちの誰かを追っているのでもない。それには邪悪も復讐心もなく、ただ、壮大で……苦しんでいるんだわ。」\n――ニッサ・レヴェイン",
@@ -1749,7 +1809,8 @@
             "multiverseId": 593430,
             "name": "ゼンディカーの乱動",
             "text": "上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、緑の２/２のエレメンタル・クリーチャー・トークン１体を生成する。",
-            "type": "エンチャント"
+            "type": "エンチャント",
+            "uuid": "f4e7a687-20b6-51c6-bdc1-d7c6813e72a0"
           },
           {
             "flavorText": "「我错了。赞迪卡找上的不是我。它根本没找上任何人。它并不邪恶，也不怀怨仇。它壮丽非凡…却饱受痛苦。」\n～妮莎瑞文",
@@ -1761,7 +1822,8 @@
             "multiverseId": 593793,
             "name": "赞迪卡的狂搅",
             "text": "地落～每当一个地在你的操控下进战场时，派出一个2/2绿色元素衍生生物。",
-            "type": "结界"
+            "type": "结界",
+            "uuid": "d37c4565-000f-5680-9b01-6f278c330a07"
           }
         ],
         "frameVersion": "2015",
@@ -1781,6 +1843,7 @@
           "scryfallOracleId": "a842cc2b-52eb-4dc5-86c6-6575c2ed913d",
           "tcgplayerProductId": "455513"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1806,7 +1869,6 @@
         "name": "Zendikar's Roil",
         "number": "747",
         "originalText": "Landfall — Whenever a land enters the battlefield under your control, create a 2/2 green Elemental creature token.",
-        "originalType": "Enchantment",
         "printings": [
           "J22",
           "JMP",
@@ -1855,8 +1917,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1875,
-        "edhrecSaltiness": 0.24,
+        "edhrecRank": 2069,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -1870,7 +1932,8 @@
             "multiverseId": 597119,
             "name": "Expedition zum Khalni-Herzen",
             "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zum Khalni-Herzen legen.\nEntferne drei Quest-Marken von der Expedition zum Khalni-Herzen und opfere sie: Durchsuche deine Bibliothek nach bis zu zwei Standardland-Karten, bringe sie getappt ins Spiel und mische danach.",
-            "type": "Verzauberung"
+            "type": "Verzauberung",
+            "uuid": "5894e99e-c61e-5279-8d98-2bd94b47f11b"
           },
           {
             "identifiers": {
@@ -1881,7 +1944,8 @@
             "multiverseId": 597165,
             "name": "Expedición al Corazón de Khalni",
             "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición al Corazón de Khalni.\nRemover tres contadores de búsqueda de la Expedición al Corazón de Khalni y sacrificarla: Busca en tu biblioteca hasta dos cartas de tierra básica, ponlas en el campo de batalla giradas y luego baraja.",
-            "type": "Encantamiento"
+            "type": "Encantamiento",
+            "uuid": "fba4f876-25f5-5bb6-894a-6a5bfc9ee913"
           },
           {
             "identifiers": {
@@ -1892,7 +1956,8 @@
             "multiverseId": 597211,
             "name": "Expédition du Cœur de Khalni",
             "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l'Expédition du Cœur de Khalni.\nRetirez trois marqueurs « quête » de l'Expédition du Cœur de Khalni et sacrifiez-la : Cherchez dans votre bibliothèque jusqu'à deux cartes de terrain de base, mettez-les sur le champ de bataille engagées, puis mélangez.",
-            "type": "Enchantement"
+            "type": "Enchantement",
+            "uuid": "34b27408-3335-5c59-a34b-bdbbbd05c08f"
           },
           {
             "identifiers": {
@@ -1903,7 +1968,8 @@
             "multiverseId": 597257,
             "name": "Spedizione al Cuore Khalni",
             "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione al Cuore Khalni.\nRimuovi tre segnalini ricerca dalla Spedizione al Cuore Khalni e sacrificala: Passa in rassegna il tuo grimorio per trovare fino a due carte terra base, mettile sul campo di battaglia TAPpate, poi rimescola.",
-            "type": "Incantesimo"
+            "type": "Incantesimo",
+            "uuid": "13f01c81-e163-5f7e-9e52-c2a99e96084b"
           },
           {
             "identifiers": {
@@ -1914,7 +1980,8 @@
             "multiverseId": 597303,
             "name": "カルニの心臓の探検",
             "text": "上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、あなたはカルニの心臓の探検の上に探索カウンター１個を置いてもよい。\nカルニの心臓の探検の上から探索カウンター３個を取り除き、これを生け贄に捧げる：あなたのライブラリーから基本土地・カード最大２枚を探し、タップ状態で戦場に出す。その後、ライブラリーを切り直す。",
-            "type": "エンチャント"
+            "type": "エンチャント",
+            "uuid": "043676ab-ecbd-51a2-a203-f692ea161e7b"
           },
           {
             "identifiers": {
@@ -1925,7 +1992,8 @@
             "multiverseId": 597441,
             "name": "坎尼之心探险",
             "text": "地落～每当一个地在你的操控下进战场时，你可以在坎尼之心探险上放置一个探索指示物。\n从坎尼之心探险上移去三个探索指示物并牺牲它：从你牌库中搜寻至多两张基本地牌，将它们横置放进战场，然后洗牌。",
-            "type": "结界"
+            "type": "结界",
+            "uuid": "553157a8-1764-5692-b0ee-f2e23e93471a"
           }
         ],
         "frameVersion": "2015",
@@ -1945,6 +2013,7 @@
           "scryfallOracleId": "be6155de-c5b2-415c-ad83-142f9926462a",
           "tcgplayerProductId": "455063"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1960,7 +2029,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "predh": "Legal",
           "vintage": "Legal"
         },
@@ -1969,7 +2037,6 @@
         "name": "Khalni Heart Expedition",
         "number": "90",
         "originalText": "Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.\nRemove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
-        "originalType": "Enchantment",
         "printings": [
           "C18",
           "CMM",
@@ -2032,7 +2099,7 @@
         "colors": [],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 8648,
+        "edhrecRank": 7348,
         "finishes": [
           "nonfoil"
         ],
@@ -2048,7 +2115,8 @@
             "multiverseId": 596255,
             "name": "Abenteurer-Ausstattung",
             "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält die ausgerüstete Kreatur +2/+2 bis zum Ende des Zuges.\nAusrüsten {1} ({1}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung"
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "d5a6211b-aa78-5aa6-9a97-a5631c3a0215"
           },
           {
             "flavorText": "Lo básico para un explorador de viaje.",
@@ -2060,7 +2128,8 @@
             "multiverseId": 596342,
             "name": "Atavío de aventurero",
             "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, la criatura equipada obtiene +2/+2 hasta el final del turno.\nEquipar {1}. ({1}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo"
+            "type": "Artefacto — Equipo",
+            "uuid": "f5b35e51-ca8a-5ab9-8158-ff469332d51e"
           },
           {
             "flavorText": "Les outils de l'explorateur dans un monde sauvage.",
@@ -2072,7 +2141,8 @@
             "multiverseId": 596429,
             "name": "Attirail d'aventure",
             "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, la créature équipée gagne +2/+2 jusqu'à la fin du tour.\nÉquipement {1} ({1} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
-            "type": "Artefact : équipement"
+            "type": "Artefact : équipement",
+            "uuid": "d1ec716f-c1dd-5db4-a030-b0898076f863"
           },
           {
             "flavorText": "Lo stretto indispensabile a un esploratore nelle zone selvagge.",
@@ -2084,7 +2154,8 @@
             "multiverseId": 596516,
             "name": "Dotazione dell'Avventuriero",
             "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, la creatura equipaggiata prende +2/+2 fino alla fine del turno.\nEquipaggiare {1} ({1}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
-            "type": "Artefatto — Equipaggiamento"
+            "type": "Artefatto — Equipaggiamento",
+            "uuid": "816533de-ac33-51ae-a02c-067cbd91adde"
           },
           {
             "flavorText": "野蛮な世界での探検家の必需品。",
@@ -2096,7 +2167,8 @@
             "multiverseId": 596603,
             "name": "冒険者の装具",
             "text": "上陸 ― 土地１つがあなたのコントロール下で戦場に出るたび、ターン終了時まで、装備しているクリーチャーは＋２/＋２の修整を受ける。\n装備{1}（{1}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
-            "type": "アーティファクト — 装備品"
+            "type": "アーティファクト — 装備品",
+            "uuid": "b4dc1cc4-dc33-5819-af09-5eb756529d0f"
           },
           {
             "flavorText": "探险家在蛮荒世界的基本用具。",
@@ -2108,7 +2180,8 @@
             "multiverseId": 596864,
             "name": "历险配备",
             "text": "地落～每当一个地在你的操控下进战场时，佩带此武具的生物得+2/+2直到回合结束。\n佩带{1}（{1}：贴附在目标由你操控的生物上。只能于法术时机佩带。）",
-            "type": "神器 ～武具"
+            "type": "神器 ～武具",
+            "uuid": "99d2323e-5114-5049-b8a8-c1b337b51bd3"
           }
         ],
         "frameVersion": "2015",
@@ -2128,6 +2201,7 @@
           "scryfallOracleId": "17042684-7af4-43a6-88c7-885032cfb27c",
           "tcgplayerProductId": "455539"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -2149,6 +2223,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "predh": "Legal",
           "standard": "Legal",
@@ -2161,7 +2236,6 @@
         "name": "Adventuring Gear",
         "number": "751",
         "originalText": "Landfall — Whenever a land enters the battlefield under your control, equipped creature gets +2/+2 until end of turn.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
-        "originalType": "Artifact — Equipment",
         "printings": [
           "FDN",
           "J22",
@@ -2229,6 +2303,7 @@
         "convertedManaCost": 0.0,
         "count": 1,
         "edhrecRank": 16,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -2244,7 +2319,8 @@
             "multiverseId": 596317,
             "name": "Sich entfaltende Wildnis",
             "text": "{T}, opfere die Sich entfaltende Wildnis: Durchsuche deine Bibliothek nach einer Standardland-Karte, bringe sie getappt ins Spiel und mische danach.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "d65c1366-a338-50a5-a740-f34bd472e565"
           },
           {
             "flavorText": "\"Si pasas demasiado tiempo buscando sombras del mal, nunca te percatarás de la belleza de nuestro mundo\".\n—Katilda, Gran Cierva del Alba",
@@ -2256,7 +2332,8 @@
             "multiverseId": 596404,
             "name": "Terrenos expansivos",
             "text": "{T}, sacrificar los Terrenos expansivos: Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "0f2da604-83da-575c-a5bc-ed75d55a4328"
           },
           {
             "flavorText": "« Si vous passez votre temps à chercher le mal tapi dans l'ombre, vous ne verrez jamais la beauté que notre monde peut offrir. »\n—Katilda, Première de Cerf-orient",
@@ -2268,7 +2345,8 @@
             "multiverseId": 596491,
             "name": "Étendues sauvages en évolution",
             "text": "{T}, sacrifiez les Étendues sauvages en évolution : Cherchez dans votre bibliothèque une carte de terrain de base, mettez-la sur le champ de bataille engagée, puis mélangez.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "54b222f6-c543-505f-96d2-8342a1a104b8"
           },
           {
             "flavorText": "\"Se passi troppo tempo a cercare il male nell'oscurità, non vedrai mai la bellezza che il nostro mondo può offrire.\"\n—Katilda, Prima Albacorno",
@@ -2280,7 +2358,8 @@
             "multiverseId": 596578,
             "name": "Terre Selvagge in Evoluzione",
             "text": "{T}, Sacrifica le Terre Selvagge in Evoluzione: Passa in rassegna il tuo grimorio per una carta terra base, mettila sul campo di battaglia TAPpata, poi rimescola.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "63437d6e-f62d-5bf4-8522-85500aa81a21"
           },
           {
             "flavorText": "「邪悪な者を恐れて影を見張り続けてはこの世界の美しさを見逃すことになるわよ。」\n――ドーンハルトの主導者、カティルダ",
@@ -2292,7 +2371,8 @@
             "multiverseId": 596665,
             "name": "進化する未開地",
             "text": "{T},進化する未開地を生け贄に捧げる：あなたのライブラリーから基本土地・カード１枚を探し、タップ状態で戦場に出す。その後、ライブラリーを切り直す。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "94e5e334-2a06-5502-b27c-bf1e9d07f0db"
           },
           {
             "flavorText": "「若你过度聚焦阴影找寻邪恶，便会错过这世界上光明之处的众多美景。」\n～曙鹿集巫首凯蒂妲",
@@ -2304,7 +2384,8 @@
             "multiverseId": 596926,
             "name": "成形野地",
             "text": "{T}，牺牲成形野地：从你牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。",
-            "type": "地"
+            "type": "地",
+            "uuid": "03f6210b-e8c3-5a04-8171-6d3bd536f6dd"
           }
         ],
         "frameVersion": "2015",
@@ -2324,6 +2405,7 @@
           "scryfallOracleId": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
           "tcgplayerProductId": "455639"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2341,7 +2423,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "predh": "Legal",
           "standard": "Legal",
@@ -2353,7 +2434,6 @@
         "name": "Evolving Wilds",
         "number": "813",
         "originalText": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-        "originalType": "Land",
         "printings": [
           "40K",
           "AFR",
@@ -2464,8 +2544,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1379,
-        "edhrecSaltiness": 0.02,
+        "edhrecRank": 1433,
+        "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
@@ -2481,7 +2561,8 @@
             "multiverseId": 596327,
             "name": "Gedeihender Hain",
             "text": "Der Gedeihende Hain kommt getappt ins Spiel.\nSowie der Gedeihende Hain ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "3749a5f8-bd24-5e30-b31b-6bb31d09f0a4"
           },
           {
             "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
@@ -2493,7 +2574,8 @@
             "multiverseId": 596414,
             "name": "Arboleda floreciente",
             "text": "La Arboleda floreciente entra al campo de batalla girada.\nEn cuanto la Arboleda floreciente entre al campo de batalla, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "603c9c57-90a1-5c8c-8d6a-90a1abced84a"
           },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
@@ -2505,7 +2587,8 @@
             "multiverseId": 596501,
             "name": "Bosquet prospère",
             "text": "Le Bosquet prospère arrive sur le champ de bataille engagé.\nAu moment où le Bosquet prospère arrive sur le champ de bataille, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "02532dc5-2caa-5d3e-a0ef-9f35e8b3fb55"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2517,7 +2600,8 @@
             "multiverseId": 596588,
             "name": "Boschetto Florido",
             "text": "Il Boschetto Florido entra nel campo di battaglia TAPpato.\nMentre il Boschetto Florido entra nel campo di battaglia, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "a8ef1bbd-0b04-5937-a33e-33eb87445345"
           },
           {
             "flavorText": "人の目に触れないこの知られざる楽園で、鳥たちは鮮やかな花々の間を飛び交っている。",
@@ -2529,7 +2613,8 @@
             "multiverseId": 596675,
             "name": "興隆する木立",
             "text": "興隆する木立はタップ状態で戦場に出る。\n興隆する木立が戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色１色のマナ１点を加える。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "65b0d953-837a-5043-a121-fdef09e2a06c"
           },
           {
             "flavorText": "人类视界之外还有一片隐蔽乐土，此处鸟语花香，绿意盎然。",
@@ -2541,7 +2626,8 @@
             "multiverseId": 596936,
             "name": "兴旺树丛",
             "text": "兴旺树丛须横置进战场。\n于兴旺树丛进战场时，选择一种绿色以外的颜色。\n{T}：加{G}或一点所选颜色的法术力。",
-            "type": "地"
+            "type": "地",
+            "uuid": "7cf73216-36d4-54f8-b61e-c25fa2097bd3"
           }
         ],
         "frameVersion": "2015",
@@ -2561,6 +2647,7 @@
           "scryfallOracleId": "a8052556-8962-4130-86a8-6fb7b6a324f7",
           "tcgplayerProductId": "454931"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2582,7 +2669,6 @@
         "name": "Thriving Grove",
         "number": "823",
         "originalText": "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
-        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
@@ -2593,6 +2679,7 @@
           "JMP",
           "LCC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2633,8 +2720,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 6,
-        "edhrecSaltiness": 0.38,
+        "count": 2,
+        "edhrecSaltiness": 0.7,
         "finishes": [
           "nonfoil"
         ],
@@ -2647,7 +2734,8 @@
             "language": "German",
             "multiverseId": 597772,
             "name": "Wald",
-            "type": "Standardland — Wald"
+            "type": "Standardland — Wald",
+            "uuid": "0811beeb-3acf-56ba-ab7f-58e1722c3a1f"
           },
           {
             "identifiers": {
@@ -2657,7 +2745,8 @@
             "language": "Spanish",
             "multiverseId": 597787,
             "name": "Bosque",
-            "type": "Tierra básica — Bosque"
+            "type": "Tierra básica — Bosque",
+            "uuid": "8a386922-508e-510d-8a52-75ce0499a267"
           },
           {
             "identifiers": {
@@ -2667,7 +2756,8 @@
             "language": "French",
             "multiverseId": 597802,
             "name": "Forêt",
-            "type": "Terrain de base : forêt"
+            "type": "Terrain de base : forêt",
+            "uuid": "728eee76-65a5-51be-a118-743f92463346"
           },
           {
             "identifiers": {
@@ -2677,7 +2767,8 @@
             "language": "Italian",
             "multiverseId": 597817,
             "name": "Foresta",
-            "type": "Terra Base — Foresta"
+            "type": "Terra Base — Foresta",
+            "uuid": "d7c4715d-5b99-5ecb-a7a2-9c6d2c2a2336"
           },
           {
             "identifiers": {
@@ -2687,7 +2778,8 @@
             "language": "Japanese",
             "multiverseId": 597832,
             "name": "森",
-            "type": "基本土地 — 森"
+            "type": "基本土地 — 森",
+            "uuid": "7718f533-c5e1-560b-bafa-536db2772cd7"
           },
           {
             "identifiers": {
@@ -2697,7 +2789,8 @@
             "language": "Chinese Simplified",
             "multiverseId": 597877,
             "name": "树林",
-            "type": "基本地 ～树林"
+            "type": "基本地 ～树林",
+            "uuid": "ffce8080-9b3f-5492-8660-8de607a64e4a"
           }
         ],
         "frameVersion": "2015",
@@ -2716,6 +2809,7 @@
           "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
           "tcgplayerProductId": "455154"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2745,7 +2839,6 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "110",
-        "originalType": "Basic Land — Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2821,6 +2914,7 @@
           "EVG",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2937,9 +3031,11 @@
           "SHM",
           "SIR",
           "SLD",
+          "SLP",
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2947,7 +3043,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -3000,6 +3098,798 @@
           "bda821c9-421f-5543-b713-e1d664914488",
           "4a472a30-00d1-56f4-b8d2-cc23f616fcf6"
         ]
+      },
+      {
+        "artist": "Steven Belledin",
+        "artistIds": [
+          "f07d73b9-52a0-4fe5-858b-61f7b42174a5"
+        ],
+        "availability": [
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "G"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.7,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "597773",
+              "scryfallId": "61d84684-1afe-4e6d-9a1b-12fd9ea81d3d"
+            },
+            "language": "German",
+            "multiverseId": 597773,
+            "name": "Wald",
+            "type": "Standardland — Wald",
+            "uuid": "ae6d338b-9ed9-5e29-a918-1fbf8e5ff0a9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597788",
+              "scryfallId": "f2040328-f727-4bdf-b604-4e4f70d91556"
+            },
+            "language": "Spanish",
+            "multiverseId": 597788,
+            "name": "Bosque",
+            "type": "Tierra básica — Bosque",
+            "uuid": "7424292a-340b-51f2-80b8-6db5d5ead5f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597803",
+              "scryfallId": "03fe31a1-24d0-4db2-b8b2-6836bf285594"
+            },
+            "language": "French",
+            "multiverseId": 597803,
+            "name": "Forêt",
+            "type": "Terrain de base : forêt",
+            "uuid": "c33c5e18-9634-571a-b1db-fe40e5b74bcf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597818",
+              "scryfallId": "ef19183a-8c12-4f3e-bd30-4895b1ff992a"
+            },
+            "language": "Italian",
+            "multiverseId": 597818,
+            "name": "Foresta",
+            "type": "Terra Base — Foresta",
+            "uuid": "99fa873f-05d3-5662-8861-17f575b022ff"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597833",
+              "scryfallId": "9e31f84f-2bd6-428e-bdfc-e7ec1db153d7"
+            },
+            "language": "Japanese",
+            "multiverseId": 597833,
+            "name": "森",
+            "type": "基本土地 — 森",
+            "uuid": "b199c37f-c21e-53c8-b332-d6552ef63d9c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597878",
+              "scryfallId": "3380a5e5-3dce-42eb-86aa-889e27b01b33"
+            },
+            "language": "Chinese Simplified",
+            "multiverseId": 597878,
+            "name": "树林",
+            "type": "基本地 ～树林",
+            "uuid": "8dd9449d-4aff-5e29-bb04-7e7682eca09b"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "270292",
+          "cardsphereId": "97095",
+          "deckboxId": "71304",
+          "mcmId": "687369",
+          "mtgjsonV4Id": "d21f5585-c4bd-55d4-be1e-b55f7e1ab17d",
+          "multiverseId": "597758",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "ee56689a-da7b-4cd7-8767-e3f514b6db9e",
+          "scryfallIllustrationId": "f417fb07-b6cb-43c6-86af-d35c7d9ba910",
+          "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "tcgplayerProductId": "455143"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Forest",
+        "number": "111",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD1",
+          "DDD",
+          "DDE",
+          "DDG",
+          "DDH",
+          "DDJ",
+          "DDL",
+          "DDM",
+          "DDO",
+          "DDP",
+          "DDR",
+          "DDS",
+          "DDU",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "EVG",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PL25",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/dfe6a3c9d30c0759",
+          "tcgplayer": "https://mtgjson.com/links/ffab32d2c9ebbdcf"
+        },
+        "rarity": "common",
+        "setCode": "J22",
+        "sourceProducts": {
+          "nonfoil": [
+            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+          ]
+        },
+        "subtypes": [
+          "Forest"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "type": "Basic Land — Forest",
+        "types": [
+          "Land"
+        ],
+        "uuid": "bda821c9-421f-5543-b713-e1d664914488",
+        "variations": [
+          "08bb8f11-5a93-5121-9f05-f55d07e2dc6c",
+          "4a472a30-00d1-56f4-b8d2-cc23f616fcf6"
+        ]
+      },
+      {
+        "artist": "Jim Nelson",
+        "artistIds": [
+          "aa9f64d1-29e1-4c82-877e-44c18183f40b"
+        ],
+        "availability": [
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "G"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.7,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "597774",
+              "scryfallId": "afc9cb54-56a8-4be9-9613-9d51d5badd89"
+            },
+            "language": "German",
+            "multiverseId": 597774,
+            "name": "Wald",
+            "type": "Standardland — Wald",
+            "uuid": "12867d03-1e6e-5936-9c61-b730fe979756"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597789",
+              "scryfallId": "ee4d783b-50df-4810-a494-9b15e8b0e3e0"
+            },
+            "language": "Spanish",
+            "multiverseId": 597789,
+            "name": "Bosque",
+            "type": "Tierra básica — Bosque",
+            "uuid": "37e295b1-05de-550d-a8e0-249860beb1d9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597804",
+              "scryfallId": "f87273ec-bb08-41e5-9998-e03ade53570b"
+            },
+            "language": "French",
+            "multiverseId": 597804,
+            "name": "Forêt",
+            "type": "Terrain de base : forêt",
+            "uuid": "8a2f62db-995f-5478-8e40-9ed39d355a16"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597819",
+              "scryfallId": "6bb63728-6991-45da-bb00-a161f65b7209"
+            },
+            "language": "Italian",
+            "multiverseId": 597819,
+            "name": "Foresta",
+            "type": "Terra Base — Foresta",
+            "uuid": "f2952c04-81fc-575f-9709-ce0cf2eb71c1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597834",
+              "scryfallId": "c857d30e-f012-4033-a6fd-19f26e06e375"
+            },
+            "language": "Japanese",
+            "multiverseId": 597834,
+            "name": "森",
+            "type": "基本土地 — 森",
+            "uuid": "7bd02e54-fa1c-529a-8df9-49334ee9e2fc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597879",
+              "scryfallId": "a2b724bf-8c16-4749-af1c-6f79aae75fe1"
+            },
+            "language": "Chinese Simplified",
+            "multiverseId": 597879,
+            "name": "树林",
+            "type": "基本地 ～树林",
+            "uuid": "9474a82b-75c5-55dc-9b14-a170f4c5c49a"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "270293",
+          "cardsphereId": "97084",
+          "deckboxId": "71305",
+          "mcmId": "687370",
+          "mtgjsonV4Id": "3514b3e7-5e6f-5fbd-967d-5fa81efe4580",
+          "multiverseId": "597759",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "900eedf8-71b0-4b82-9709-019018bc29fe",
+          "scryfallIllustrationId": "00ca450f-62d1-4514-8a17-82eccd386ccc",
+          "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "tcgplayerProductId": "455163"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Forest",
+        "number": "112",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD1",
+          "DDD",
+          "DDE",
+          "DDG",
+          "DDH",
+          "DDJ",
+          "DDL",
+          "DDM",
+          "DDO",
+          "DDP",
+          "DDR",
+          "DDS",
+          "DDU",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "EVG",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PL25",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/ef86be847734c3a0",
+          "tcgplayer": "https://mtgjson.com/links/0d3ff6530101651e"
+        },
+        "rarity": "common",
+        "setCode": "J22",
+        "sourceProducts": {
+          "nonfoil": [
+            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+          ]
+        },
+        "subtypes": [
+          "Forest"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "type": "Basic Land — Forest",
+        "types": [
+          "Land"
+        ],
+        "uuid": "4a472a30-00d1-56f4-b8d2-cc23f616fcf6",
+        "variations": [
+          "08bb8f11-5a93-5121-9f05-f55d07e2dc6c",
+          "bda821c9-421f-5543-b713-e1d664914488"
+        ]
       }
     ],
     "name": "Landfall 1",
@@ -3008,6 +3898,10 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "J22"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }

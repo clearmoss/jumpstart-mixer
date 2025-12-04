@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "1756e58bb7c23e"
   },
   "data": {
@@ -29,7 +29,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 10783,
+        "edhrecRank": 9859,
+        "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
@@ -45,7 +46,8 @@
             "multiverseId": 680964,
             "name": "Plagon, Fürst des Gestades",
             "text": "Wenn Plagon, Fürst des Gestades, ins Spiel kommt, ziehe für jede Kreatur, die du kontrollierst und deren Widerstandskraft größer ist als ihre Stärke, eine Karte.\n{W/U}: Eine Kreatur deiner Wahl weist in diesem Zug Kampfschaden in Höhe ihrer Widerstandskraft statt ihrer Stärke zu.",
-            "type": "Legendäre Kreatur — Seestern, Zauberer"
+            "type": "Legendäre Kreatur — Seestern, Zauberer",
+            "uuid": "f62cab7a-7096-5b39-81b2-1a6730286957"
           },
           {
             "flavorText": "\"Se acabó acechar en las orillas. ¡Adelante!\".",
@@ -57,7 +59,8 @@
             "multiverseId": 680991,
             "name": "Plagon, señor de la playa",
             "text": "Cuando Plagon, señor de la playa entre, roba una carta por cada criatura que controlas con una resistencia mayor que su fuerza.\n{W/U}: La criatura objetivo que controlas asigna una cantidad de daño de combate igual a su resistencia en vez de su fuerza este turno.",
-            "type": "Criatura legendaria — Hechicero estrella-de-mar"
+            "type": "Criatura legendaria — Hechicero estrella-de-mar",
+            "uuid": "da1c46fe-fc44-5005-aa2f-aff5a8b6ae38"
           },
           {
             "flavorText": "« Fini de rôder dans les bas-fonds. À l'attaque ! »",
@@ -69,7 +72,8 @@
             "multiverseId": 681018,
             "name": "Plagon, seigneur de la plage",
             "text": "Quand Plagon, seigneur de la plage arrive, piochez une carte pour chaque créature que vous contrôlez avec une endurance supérieure à sa force.\n{W/U} : Une créature ciblée que vous contrôlez attribue un nombre de blessures de combat égal à son endurance à la place de sa force ce tour-ci.",
-            "type": "Créature légendaire — étoile de mer et sorcier"
+            "type": "Créature légendaire — étoile de mer et sorcier",
+            "uuid": "978dd8af-228f-59cb-ba4b-42f09c228226"
           },
           {
             "flavorText": "\"Basta nascondersi nelle profondità. In sella!\"",
@@ -81,7 +85,8 @@
             "multiverseId": 681045,
             "name": "Plagon, Signore della Spiaggia",
             "text": "Quando Plagon, Signore della Spiaggia entra, pesca una carta per ogni creatura che controlli con costituzione superiore alla sua forza.\n{W/U}: Una creatura bersaglio che controlli assegna danno da combattimento pari alla sua costituzione invece che alla sua forza in questo turno.",
-            "type": "Creatura Leggendaria — Mago Stella Marina"
+            "type": "Creatura Leggendaria — Mago Stella Marina",
+            "uuid": "ae6a75ef-3da9-5a59-a8da-367fa2c54f98"
           },
           {
             "flavorText": "「もう浅瀬に潜むのは終わりだ！さあ、行こうか！」",
@@ -93,7 +98,8 @@
             "multiverseId": 681072,
             "name": "浜辺の王、プラゴン",
             "text": "浜辺の王、プラゴンが戦場に出たとき、あなたがコントロールしていてそのタフネスがそのパワーよりも大きいクリーチャー１体につき１枚のカードを引く。\n{W/U}：あなたがコントロールしているクリーチャー１体を対象とする。このターン、それはパワーではなくタフネスに等しい点数の戦闘ダメージを割り振る。",
-            "type": "伝説のクリーチャー — ヒトデ・ウィザード"
+            "type": "伝説のクリーチャー — ヒトデ・ウィザード",
+            "uuid": "7be82ec9-37b4-5958-b4a7-2a6ad01a2331"
           }
         ],
         "frameEffects": [
@@ -118,6 +124,7 @@
           "scryfallOracleId": "1c95b7cf-be4d-4961-9073-3e39487492c8",
           "tcgplayerProductId": "593167"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "language": "English",
@@ -142,8 +149,7 @@
         "manaValue": 3.0,
         "name": "Plagon, Lord of the Beach",
         "number": "37",
-        "originalText": "When Plagon, Lord of the Beach enters, draw a card for each creature you control with toughness greater than its power.\n{WU}: Target creature you control assigns combat damage equal to its toughness rather than its power this turn.",
-        "originalType": "Legendary Creature — Starfish Wizard",
+        "originalText": "When Plagon, Lord of the Beach enters, draw a card for each creature you control with toughness greater than its power.\n{(}w/u)}: Target creature you control assigns combat damage equal to its toughness rather than its power this turn.",
         "power": "0",
         "printings": [
           "J25"
@@ -201,7 +207,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 16897,
+        "edhrecRank": 16551,
+        "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
@@ -217,7 +224,8 @@
             "multiverseId": 681360,
             "name": "Entzückende Entdeckung",
             "text": "Dieser Zauberspruch kostet beim Wirken für jeden Zauberspruch, den deine Gegner in diesem Zug gewirkt haben, {1} weniger.\nHellsicht 2, ziehe dann zwei Karten. (Schaue dir für Hellsicht 2 die obersten zwei Karten deiner Bibliothek an und lege dann eine beliebige Anzahl davon unter deine Bibliothek und den Rest in beliebiger Reihenfolge oben darauf.)",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "d07a3605-23d8-54ef-ba98-6bb95713a73c"
           },
           {
             "flavorText": "\"¿Qué les parece? ¿Una nueva mascota para la clase?\".",
@@ -229,7 +237,8 @@
             "multiverseId": 681389,
             "name": "Descubrimiento maravilloso",
             "text": "Te cuesta {1} menos lanzar este hechizo por cada hechizo que tus oponentes hayan lanzado este turno.\nAdivina 2, luego roba dos cartas. (Para adivinar 2, mira las dos primeras cartas de tu biblioteca y luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "2f6f0813-2c87-56df-9dfb-2cd3fb758b84"
           },
           {
             "flavorText": "« Qu'en pensez-vous ? Nouvelle mascotte de la classe ? »",
@@ -241,7 +250,8 @@
             "multiverseId": 681418,
             "name": "Découverte délectable",
             "text": "Ce sort coûte {1} de moins à lancer pour chaque sort que vos adversaires ont lancé ce tour-ci.\nRegard 2, puis piochez deux cartes. (Pour appliquer regard 2, regardez les deux cartes du dessus de votre bibliothèque. Mettez ensuite n'importe quel nombre d'entre elles au-dessous de votre bibliothèque et le reste au-dessus, dans l'ordre de votre choix.)",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "d8a56b53-d02b-53d7-a0ef-9f90365f952d"
           },
           {
             "flavorText": "\"Che ve ne pare? Una nuova mascotte?\"",
@@ -253,7 +263,8 @@
             "multiverseId": 681447,
             "name": "Scoperta Incantevole",
             "text": "Questa magia costa {1} in meno per essere lanciata per ogni magia lanciata dai tuoi avversari in questo turno.\nProfetizza 2, poi pesca due carte. (Per profetizzare 2, guarda le prime due carte del tuo grimorio, poi mettine un qualsiasi numero in fondo e le altre in cima in qualsiasi ordine.)",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "3f03dae5-3ad5-5f25-a836-67b70eb86524"
           },
           {
             "flavorText": "「どう？教室で飼うのにちょうどいいと思わない？」",
@@ -265,7 +276,8 @@
             "multiverseId": 681476,
             "name": "嬉しい発見",
             "text": "この呪文を唱えるためのコストは、このターンに対戦相手が唱えた呪文１つにつき{1}少なくなる。\n占術２を行う。その後、カード２枚を引く。（占術２とは、あなたのライブラリーの一番上にあるカード２枚を見、そのうちの望む枚数をあなたのライブラリーの一番下に、残りを一番上に、それぞれ望む順番で置くことである。）",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "75d63ea2-d640-54df-9898-7553a7cd2d68"
           }
         ],
         "frameVersion": "2015",
@@ -287,6 +299,7 @@
           "scryfallOracleId": "705cc928-d6d4-4294-979b-a385d1b07dc6",
           "tcgplayerProductId": "590441"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "keywords": [
@@ -310,7 +323,6 @@
         "name": "Delightful Discovery",
         "number": "6",
         "originalText": "This spell costs {1} less to cast for each spell your opponents have cast this turn.\nScry 2, then draw two cards. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
-        "originalType": "Instant",
         "printings": [
           "J25"
         ],
@@ -364,7 +376,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 16144,
+        "edhrecRank": 15496,
+        "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
         ],
@@ -380,7 +393,8 @@
             "multiverseId": 681361,
             "name": "Güldene Krabbe",
             "text": "Die Güldene Krabbe kann nicht geblockt werden.\nWenn die Güldene Krabbe ins Spiel kommt, tappe eine Kreatur deiner Wahl, die ein Gegner kontrolliert, und lege eine Betäubungsmarke auf sie. (Falls ein Permanent mit Betäubungsmarke enttappt würde, entferne stattdessen eine davon.)",
-            "type": "Artefaktkreatur — Krabbe"
+            "type": "Artefaktkreatur — Krabbe",
+            "uuid": "c9496bda-78c7-5a9b-b744-e1b227edfb6a"
           },
           {
             "flavorText": "\"ATENCIÓN, PLAYEROS: Esta es una zona libre de basura. Someteremos a un ataque de pellizcos a todos los infractores\".",
@@ -392,7 +406,8 @@
             "multiverseId": 681390,
             "name": "Crustáceo dorado",
             "text": "El Crustáceo dorado no puede ser bloqueado.\nCuando el Crustáceo dorado entre, gira la criatura objetivo que controla un oponente y pon un contador de aturdimiento sobre ella. (Si un permanente con un contador de aturdimiento fuera a enderezarse, en vez de eso, remueve uno de esos contadores de él.)",
-            "type": "Criatura artefacto — Cangrejo"
+            "type": "Criatura artefacto — Cangrejo",
+            "uuid": "dd476871-0e1c-56af-b5f0-8c2c27055b76"
           },
           {
             "flavorText": "« À L'ATTENTION DES BAIGNEURS : ceci est une zone sans déchets. Les contrevenants se feront pincer. »",
@@ -404,7 +419,8 @@
             "multiverseId": 681419,
             "name": "Crabe doré",
             "text": "Le Crabe doré ne peut pas être bloqué.\nQuand le Crabe doré arrive, engagez une créature ciblée qu'un adversaire contrôle et mettez un marqueur « étourdissement » sur elle. (Si un permanent avec un marqueur « étourdissement » devait devenir dégagé, retirez-lui-en un à la place.)",
-            "type": "Créature-artefact — crabe"
+            "type": "Créature-artefact — crabe",
+            "uuid": "3ed92783-2923-5f74-b219-1c7d4b7250b2"
           },
           {
             "flavorText": "\"ATTENZIONE: in questa spiaggia non sono ammessi rifiuti. I trasgressori che verranno pizzicati subiranno le conseguenze.\"",
@@ -416,7 +432,8 @@
             "multiverseId": 681448,
             "name": "Affondatore Dorato",
             "text": "L'Affondatore Dorato non può essere bloccato.\nQuando l'Affondatore Dorato entra, TAPpa una creatura bersaglio controllata da un avversario e metti un segnalino stordimento su di essa. (Se un permanente con un segnalino stordimento sta per essere STAPpato, rimuovi invece un segnalino stordimento da esso.)",
-            "type": "Creatura Artefatto — Granchio"
+            "type": "Creatura Artefatto — Granchio",
+            "uuid": "5138dede-61d9-5aa6-9bdf-76d48ec3cdbb"
           },
           {
             "flavorText": "「海水浴客の皆様へ。ゴミのポイ捨ては禁止です。違反者は挟まれます。」",
@@ -428,7 +445,8 @@
             "multiverseId": 681477,
             "name": "金色の小走り",
             "text": "金色の小走りはブロックされない。\n金色の小走りが戦場に出たとき、対戦相手がコントロールしているクリーチャー１体を対象とする。それをタップし、それの上に麻痺カウンター１個を置く。（麻痺カウンターが置かれているパーマネントがアンタップ状態になるなら、代わりにそれの上から麻痺カウンター１個を取り除く。）",
-            "type": "アーティファクト・クリーチャー — カニ"
+            "type": "アーティファクト・クリーチャー — カニ",
+            "uuid": "771a5f00-6c06-538e-952f-3d3d01a7da39"
           }
         ],
         "frameVersion": "2015",
@@ -450,6 +468,7 @@
           "scryfallOracleId": "093f6123-6b1d-456f-a526-8740bc969b4e",
           "tcgplayerProductId": "590557"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "language": "English",
@@ -472,7 +491,6 @@
         "name": "Gilded Scuttler",
         "number": "7",
         "originalText": "Gilded Scuttler can't be blocked.\nWhen Gilded Scuttler enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
-        "originalType": "Artifact Creature — Crab",
         "power": "1",
         "printings": [
           "J25"
@@ -527,7 +545,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20149,
+        "edhrecRank": 19922,
+        "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
@@ -541,7 +560,8 @@
             "multiverseId": 681363,
             "name": "Fesseln aus Sternenlicht",
             "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura"
+            "type": "Verzauberung — Aura",
+            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
           },
           {
             "identifiers": {
@@ -552,7 +572,8 @@
             "multiverseId": 681392,
             "name": "Trampa estrellada",
             "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura"
+            "type": "Encantamiento — Aura",
+            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
           },
           {
             "identifiers": {
@@ -563,7 +584,8 @@
             "multiverseId": 681421,
             "name": "Collet de lumière stellaire",
             "text": "Enchanter : créature\nQuand le Collet de lumière stellaire arrive, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
-            "type": "Enchantement — aura"
+            "type": "Enchantement — aura",
+            "uuid": "b14b9d45-a785-58d7-af7d-fb5f18787f03"
           },
           {
             "identifiers": {
@@ -574,7 +596,8 @@
             "multiverseId": 681450,
             "name": "Trappola di Luce Stellare",
             "text": "Incanta creatura\nQuando la Trappola di Luce Stellare entra, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
-            "type": "Incantesimo — Aura"
+            "type": "Incantesimo — Aura",
+            "uuid": "f99ed183-d444-5d98-baa3-e547748226a4"
           },
           {
             "identifiers": {
@@ -585,7 +608,8 @@
             "multiverseId": 681479,
             "name": "星明かりの罠",
             "text": "エンチャント（クリーチャー）\n星明かりの罠が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
-            "type": "エンチャント — オーラ"
+            "type": "エンチャント — オーラ",
+            "uuid": "d1a74b35-8031-5fd1-91e3-7b29a89f3e18"
           }
         ],
         "frameVersion": "2015",
@@ -607,6 +631,7 @@
           "scryfallOracleId": "f0691d46-5bf4-4617-8a0a-19d17afb7219",
           "tcgplayerProductId": "590308"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "keywords": [
@@ -638,7 +663,6 @@
         "name": "Starlight Snare",
         "number": "9",
         "originalText": "Enchant creature\nWhen Starlight Snare enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
-        "originalType": "Enchantment — Aura",
         "printings": [
           "FDN",
           "J25"
@@ -684,8 +708,8 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 22939,
-        "edhrecSaltiness": 0.11,
+        "edhrecRank": 23893,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -701,7 +725,8 @@
             "multiverseId": 681574,
             "name": "Stranden",
             "text": "Bestimme eines oder beides —\n• Der Besitzer eines Nichtland-Permanents deiner Wahl legt es auf oder unter seine Bibliothek.\n• Bringe ein Nichtland-Permanent deiner Wahl auf die Hand seines Besitzers zurück.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "c5959ea5-7a68-53ff-ab8f-9de9da3453cf"
           },
           {
             "flavorText": "Lanzar arena a los ojos iba contra las normas. Por desgracia, no había ningún árbitro.",
@@ -713,7 +738,8 @@
             "multiverseId": 681635,
             "name": "Varar",
             "text": "Elige uno o ambos:\n• El propietario del permanente objetivo que no sea tierra lo pone en la parte superior o en el fondo de su biblioteca.\n• Regresa el permanente objetivo que no sea tierra a la mano de su propietario.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "ec6c7d14-3c3a-5cf2-abcc-1de6043995c1"
           },
           {
             "flavorText": "Jeter du sable dans les yeux était contraire aux règles. Hélas, il n'y avait aucun arbitre.",
@@ -725,7 +751,8 @@
             "multiverseId": 681696,
             "name": "Échouage forcé",
             "text": "Choisissez l'un ou les deux —\n• Le propriétaire d'un permanent non-terrain ciblé le met au-dessus ou au-dessous de sa bibliothèque.\n• Renvoyez un permanent non-terrain ciblé dans la main de son propriétaire.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "2bad6100-066b-57cc-9ac7-737a0fb60a16"
           },
           {
             "flavorText": "La sabbia negli occhi era contro le regole. Purtroppo, non c'era un arbitro.",
@@ -737,7 +764,8 @@
             "multiverseId": 681757,
             "name": "Scaraventare a Riva",
             "text": "Scegli uno o entrambi —\n• Il proprietario di un permanente non terra bersaglio mette quel permanente in cima o in fondo al suo grimorio.\n• Fai tornare un permanente non terra bersaglio in mano al suo proprietario.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "b3cef713-804b-5d6a-bd7a-424cf3351431"
           },
           {
             "flavorText": "砂を目にかけるのはルール違反だった。不運なことに、審判はそこにいなかった。",
@@ -749,7 +777,8 @@
             "multiverseId": 681818,
             "name": "乗り上げ",
             "text": "以下から１つまたは両方を選ぶ。\n• 土地でないパーマネント１つを対象とする。それのオーナーはそれを自分のライブラリーの一番上か一番下に置く。\n• 土地でないパーマネント１つを対象とする。それをオーナーの手札に戻す。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "95a730ea-729f-54aa-95c9-8a3ad9c0afc9"
           }
         ],
         "frameVersion": "2015",
@@ -770,6 +799,7 @@
           "scryfallOracleId": "9b3bcd57-bf3f-4d72-810a-fdb5c8ea1551",
           "tcgplayerProductId": "590383"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -795,7 +825,6 @@
         "name": "Run Ashore",
         "number": "109",
         "originalText": "Choose one or both —\n• The owner of target nonland permanent puts it on the top or bottom of their library.\n• Return target nonland permanent to its owner's hand.",
-        "originalType": "Instant",
         "printings": [
           "J25",
           "KHM"
@@ -849,7 +878,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 26784,
+        "edhrecRank": 27502,
+        "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
@@ -865,7 +895,8 @@
             "multiverseId": 682689,
             "name": "Azurblauer Sceada",
             "text": "Fliegend",
-            "type": "Kreatur — Sceada"
+            "type": "Kreatur — Sceada",
+            "uuid": "2a6c5f55-d784-54cc-b1d6-6ef615dbc608"
           },
           {
             "flavorText": "Más que \"tormenta\" y \"piratas\", \"draco\" es la palabra que ningún marinero quiere oír.",
@@ -877,7 +908,8 @@
             "multiverseId": 682803,
             "name": "Draco azur",
             "text": "Vuela.",
-            "type": "Criatura — Draco"
+            "type": "Criatura — Draco",
+            "uuid": "0a822833-c3f9-5d48-b83b-2c26c3658cf7"
           },
           {
             "flavorText": "« Tempête » et « pirate » passent encore, mais aucun marin ne veut entendre le mot « drakôn ».",
@@ -889,7 +921,8 @@
             "multiverseId": 682917,
             "name": "Drakôn d'azur",
             "text": "Vol",
-            "type": "Créature — drakôn"
+            "type": "Créature — drakôn",
+            "uuid": "d12bb8ff-88c1-5f75-9e3d-ebe3fe43a044"
           },
           {
             "flavorText": "Più ancora di \"tempesta\" o \"pirata\", è la parola \"draghetto\" che un marinaio men che meno vuole sentire.",
@@ -901,7 +934,8 @@
             "multiverseId": 683031,
             "name": "Drago Azzurro",
             "text": "Volare",
-            "type": "Creatura — Draghetto"
+            "type": "Creatura — Draghetto",
+            "uuid": "5a6b7f74-9465-565f-8553-47e03afc2d52"
           },
           {
             "flavorText": "船乗りが耳にしたくない単語として、「嵐」や「海賊」よりも「ドレイク」の方が抜きん出ている。",
@@ -913,7 +947,8 @@
             "multiverseId": 683145,
             "name": "蒼穹のドレイク",
             "text": "飛行",
-            "type": "クリーチャー — ドレイク"
+            "type": "クリーチャー — ドレイク",
+            "uuid": "d090936e-0772-5380-a851-2ff15e68f23a"
           }
         ],
         "frameVersion": "2015",
@@ -934,6 +969,7 @@
           "scryfallOracleId": "15cc068c-f424-433e-b165-8457c62a4b35",
           "tcgplayerProductId": "590388"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -963,7 +999,6 @@
         "name": "Azure Drake",
         "number": "288",
         "originalText": "Flying",
-        "originalType": "Creature — Drake",
         "power": "2",
         "printings": [
           "5ED",
@@ -1017,7 +1052,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20516,
+        "edhrecRank": 20906,
         "finishes": [
           "nonfoil"
         ],
@@ -1033,7 +1068,8 @@
             "multiverseId": 682716,
             "name": "Glimmerqualle",
             "text": "Fliegend\n{1}{U}: Enttappe die Glimmerqualle.",
-            "type": "Kreatur — Elementarwesen, Qualle"
+            "type": "Kreatur — Elementarwesen, Qualle",
+            "uuid": "aa436c39-1e87-5faf-8f44-ed295b495456"
           },
           {
             "flavorText": "\"Sus caminos no son aleatorios, pero no flotan con el viento. ¿Podrían estar siguiendo las corrientes de la energía cristalina?\".\n—Naireh, elementalista de Ketria",
@@ -1045,7 +1081,8 @@
             "multiverseId": 682830,
             "name": "Campabrilla",
             "text": "Vuela.\n{1}{U}: Endereza la Campabrilla.",
-            "type": "Criatura — Medusa elemental"
+            "type": "Criatura — Medusa elemental",
+            "uuid": "55262d5d-43e9-53a3-83fc-acaa39dac4cb"
           },
           {
             "flavorText": "« Elles ne volent pas au hasard, mais elles ne suivent pas le vent. Peut-être sont-elles attirées par les pics d'énergie cristalline ? »\n—Naireh, élémentaliste de Ketria",
@@ -1057,7 +1094,8 @@
             "multiverseId": 682944,
             "name": "Ombrelle luisante",
             "text": "Vol\n{1}{U} : Dégagez l'Ombrelle luisante.",
-            "type": "Créature — élémental et méduse"
+            "type": "Créature — élémental et méduse",
+            "uuid": "7598c75e-9922-5209-8b4a-4ca3a47f0692"
           },
           {
             "flavorText": "\"I loro spostamenti non sono casuali, ma non fluttuano in base al vento. Forse seguono gli impulsi dell'energia cristallina?\"\n—Naireh, elementalista di Ketria",
@@ -1069,7 +1107,8 @@
             "multiverseId": 683058,
             "name": "Campana Scintillante",
             "text": "Volare\n{1}{U}: STAPpa la Campana Scintillante.",
-            "type": "Creatura — Medusa Elementale"
+            "type": "Creatura — Medusa Elementale",
+            "uuid": "2ca452b3-be5f-524f-a40b-186176263e20"
           },
           {
             "flavorText": "「彼らの進む方向はでたらめじゃないわ。でも、風に乗っているわけでもない。水晶エネルギーの波動に従っているのかしら？」\n――ケトリアの精霊術士、ネイレ",
@@ -1081,7 +1120,8 @@
             "multiverseId": 683172,
             "name": "微光クラゲ",
             "text": "飛行\n{1}{U}：微光クラゲをアンタップする。",
-            "type": "クリーチャー — エレメンタル・クラゲ"
+            "type": "クリーチャー — エレメンタル・クラゲ",
+            "uuid": "4b0a0dd1-b338-5dd3-80e2-d94ec335e924"
           }
         ],
         "frameVersion": "2015",
@@ -1102,6 +1142,7 @@
           "scryfallOracleId": "1a8b7792-e105-40c8-b1b4-ab1a8f3731d8",
           "tcgplayerProductId": "590559"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1129,7 +1170,6 @@
         "name": "Glimmerbell",
         "number": "315",
         "originalText": "Flying\n{1}{U}: Untap Glimmerbell.",
-        "originalType": "Creature — Elemental Jellyfish",
         "power": "1",
         "printings": [
           "IKO",
@@ -1178,8 +1218,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 208,
-        "edhrecSaltiness": 0.07,
+        "edhrecRank": 211,
+        "edhrecSaltiness": 0.09,
         "finishes": [
           "nonfoil"
         ],
@@ -1195,7 +1235,8 @@
             "multiverseId": 682740,
             "name": "Optionen",
             "text": "Hellsicht 1. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)\nZiehe eine Karte.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "538f23e3-762d-5d88-99e9-88238f821755"
           },
           {
             "flavorText": "\"Es fácil anticipar las órdenes de la capitana Tempestad: ¡solo tienes que tomar la ruta más peligrosa!\".",
@@ -1207,7 +1248,8 @@
             "multiverseId": 682854,
             "name": "Optar",
             "text": "Adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)\nRoba una carta.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "c8fadab2-cfbe-5f79-80a2-170a4bea996f"
           },
           {
             "flavorText": "« Il n'y rien de plus simple que d'anticiper les ordres de la capitaine Tempeste : suivre le cap le plus dangereux. »",
@@ -1219,7 +1261,8 @@
             "multiverseId": 682968,
             "name": "Option",
             "text": "Regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez mettre cette carte au-dessous.)\nPiochez une carte.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "0aa35284-9852-534b-a2a8-864a124bf036"
           },
           {
             "flavorText": "\"È facile prevedere gli ordini della Capitana Fendiburrasca: basta tracciare la rotta più pericolosa.\"",
@@ -1231,7 +1274,8 @@
             "multiverseId": 683082,
             "name": "Opzione",
             "text": "Profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi metterla in fondo.)\nPesca una carta.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "3dded82b-d44e-572d-b587-c91bef3b8f13"
           },
           {
             "flavorText": "「風雲船長の命令は予想がつくな。『危険な方の航路を取れ』だよ。」",
@@ -1243,7 +1287,8 @@
             "multiverseId": 683196,
             "name": "選択",
             "text": "占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。そのカードを一番下に置いてもよい。）\nカード１枚を引く。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "62c806ac-c6f0-5198-847d-474568ac68b1"
           }
         ],
         "frameVersion": "2015",
@@ -1264,6 +1309,7 @@
           "scryfallOracleId": "713332c1-5bd8-400f-bfff-c1ca0697a043",
           "tcgplayerProductId": "590507"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1297,7 +1343,6 @@
         "name": "Opt",
         "number": "339",
         "originalText": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
-        "originalType": "Instant",
         "printings": [
           "DOM",
           "ELD",
@@ -1357,8 +1402,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 8168,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 8404,
+        "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
@@ -1374,7 +1419,8 @@
             "multiverseId": 682754,
             "name": "Schiffswrackdurchsucher",
             "text": "Bravour (Immer wenn du einen Nichtkreatur-Zauberspruch wirkst, erhält diese Kreatur +1/+1 bis zum Ende des Zuges.)\nWenn der Schiffswrackdurchsucher ins Spiel kommt, bringe eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
-            "type": "Kreatur — Meervolk, Zauberer"
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "39b4eb00-23c0-5dfe-a738-fc8f8376568a"
           },
           {
             "flavorText": "Perdido en el mar no quiere decir perdido para siempre.",
@@ -1386,7 +1432,8 @@
             "multiverseId": 682868,
             "name": "Zahorí de naufragios",
             "text": "Destreza. (Siempre que lances un hechizo que no sea criatura, esta criatura obtiene +1/+1 hasta el final del turno.)\nCuando el Zahorí de naufragios entre, regresa la carta de instantáneo o de conjuro objetivo de tu cementerio a tu mano.",
-            "type": "Criatura — Hechicero tritón"
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "ea3a8297-1bdc-5303-92f9-06d88726b84d"
           },
           {
             "flavorText": "Perdu en mer ne signifie pas perdu à jamais.",
@@ -1398,7 +1445,8 @@
             "multiverseId": 682982,
             "name": "Sourcier des épaves",
             "text": "Prouesse (À chaque fois que vous lancez un sort non-créature, cette créature gagne +1/+1 jusqu'à la fin du tour.)\nQuand le Sourcier des épaves arrive, renvoyez une carte d'éphémère ou de rituel ciblée depuis votre cimetière dans votre main.",
-            "type": "Créature — ondin et sorcier"
+            "type": "Créature — ondin et sorcier",
+            "uuid": "6ece81d0-0465-50b4-8dac-b828a3e1efaa"
           },
           {
             "flavorText": "Scomparire in mare non significa scomparire per sempre.",
@@ -1410,7 +1458,8 @@
             "multiverseId": 683096,
             "name": "Rabdomante dei Relitti",
             "text": "Prodezza (Ogniqualvolta lanci una magia non creatura, questa creatura prende +1/+1 fino alla fine del turno.)\nQuando il Rabdomante dei Relitti entra, riprendi in mano dal tuo cimitero una carta istantaneo o stregoneria bersaglio.",
-            "type": "Creatura — Mago Tritone"
+            "type": "Creatura — Mago Tritone",
+            "uuid": "637d969b-f558-5243-8560-66d50cdb2940"
           },
           {
             "flavorText": "海で失った物が、永遠に失われるとは限らない。",
@@ -1422,7 +1471,8 @@
             "multiverseId": 683210,
             "name": "難破船の探知者",
             "text": "果敢（あなたがクリーチャーでない呪文１つを唱えるたび、ターン終了時まで、このクリーチャーは＋１/＋１の修整を受ける。）\n難破船の探知者が戦場に出たとき、あなたの墓地にありインスタントやソーサリーであるカード１枚を対象とする。それをあなたの手札に戻す。",
-            "type": "クリーチャー — マーフォーク・ウィザード"
+            "type": "クリーチャー — マーフォーク・ウィザード",
+            "uuid": "66095e3c-221f-5b06-8744-a92f38f2abd8"
           }
         ],
         "frameVersion": "2015",
@@ -1443,6 +1493,7 @@
           "scryfallOracleId": "dc3073fc-dc23-426e-b867-fee5dd99fe25",
           "tcgplayerProductId": "590406"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1475,7 +1526,6 @@
         "name": "Shipwreck Dowser",
         "number": "354",
         "originalText": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen Shipwreck Dowser enters, return target instant or sorcery card from your graveyard to your hand.",
-        "originalType": "Creature — Merfolk Wizard",
         "power": "3",
         "printings": [
           "CMM",
@@ -1527,7 +1577,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 17441,
+        "edhrecRank": 17126,
+        "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
@@ -1542,7 +1593,8 @@
             "language": "German",
             "multiverseId": 682756,
             "name": "Uferkämmer-Krabbe",
-            "type": "Kreatur — Krabbe"
+            "type": "Kreatur — Krabbe",
+            "uuid": "e3014ee6-42a4-50b7-b0f5-8b7665f1a37a"
           },
           {
             "flavorText": "Aunque recuperaron el cadáver del capitán Contracorriente casi entero tras el naufragio, nadie encontró su sombrero favorito.",
@@ -1553,7 +1605,8 @@
             "language": "Spanish",
             "multiverseId": 682870,
             "name": "Cangrejo recorreorillas",
-            "type": "Criatura — Cangrejo"
+            "type": "Criatura — Cangrejo",
+            "uuid": "a88ad701-a7a8-5c5c-a9e5-8b8c05daf799"
           },
           {
             "flavorText": "Le cadavre du capitaine Contrecourant fut en grande partie récupéré dans l'épave, mais nul ne trouva son chapeau préféré.",
@@ -1564,7 +1617,8 @@
             "language": "French",
             "multiverseId": 682984,
             "name": "Crabe ratisseur des côtes",
-            "type": "Créature — crabe"
+            "type": "Créature — crabe",
+            "uuid": "403361a8-32dd-570e-9905-317ae83013a4"
           },
           {
             "flavorText": "Sebbene il corpo del Capitano Riptide fosse stato recuperato in gran parte dal relitto, nessuno riuscì a trovare il suo cappello preferito.",
@@ -1575,7 +1629,8 @@
             "language": "Italian",
             "multiverseId": 683098,
             "name": "Granchio Setacciacoste",
-            "type": "Creatura — Granchio"
+            "type": "Creatura — Granchio",
+            "uuid": "65eb7f4b-cc42-5fec-a462-18507e0dbc4b"
           },
           {
             "flavorText": "激浪の船長の亡骸は難破船から大方回収できたのだが、船長お気に入りの帽子を見かけた者はいなかった。",
@@ -1586,7 +1641,8 @@
             "language": "Japanese",
             "multiverseId": 683212,
             "name": "岸漁りガニ",
-            "type": "クリーチャー — カニ"
+            "type": "クリーチャー — カニ",
+            "uuid": "8861b274-0e73-5cd7-b058-33b35f976767"
           }
         ],
         "frameVersion": "2015",
@@ -1607,6 +1663,7 @@
           "scryfallOracleId": "6c8f4d50-c8a6-4ee7-bef2-d91fb595c384",
           "tcgplayerProductId": "590338"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1628,7 +1685,6 @@
         "manaValue": 1.0,
         "name": "Shorecomber Crab",
         "number": "356",
-        "originalType": "Creature — Crab",
         "power": "0",
         "printings": [
           "ANB",
@@ -1675,7 +1731,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 8789,
+        "edhrecRank": 9095,
         "finishes": [
           "nonfoil"
         ],
@@ -1691,7 +1747,8 @@
             "multiverseId": 682757,
             "name": "Sigill-Seestern",
             "text": "{T}: Hellsicht 1. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
-            "type": "Kreatur — Seestern"
+            "type": "Kreatur — Seestern",
+            "uuid": "ffae1217-aad5-5d4a-b1fb-b046e77a13cd"
           },
           {
             "flavorText": "Krufix ocultó las profecías más nefastas acerca de la humanidad donde los humanos jamás pudieran hallarlas y los tritónidos no se tomaran la molestia de leerlas.",
@@ -1703,7 +1760,8 @@
             "multiverseId": 682871,
             "name": "Estrella de mar con runas",
             "text": "{T}: Adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)",
-            "type": "Criatura — Estrella-de-mar"
+            "type": "Criatura — Estrella-de-mar",
+            "uuid": "844514eb-c3ae-58c3-983c-e448089d8161"
           },
           {
             "flavorText": "Kruphix dissimula les prophéties les plus horribles sur l'humanité là où les humains ne pourraient jamais les retrouver. Les tritons, eux, ne s'y intéresseraient pas.",
@@ -1715,7 +1773,8 @@
             "multiverseId": 682985,
             "name": "Étoile de mer sigillaire",
             "text": "{T} : Regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez mettre cette carte au-dessous.)",
-            "type": "Créature — étoile de mer"
+            "type": "Créature — étoile de mer",
+            "uuid": "f33f30a9-5f70-5c50-bfc1-706f2fe832f2"
           },
           {
             "flavorText": "Krufix nascose le profezie più catastrofiche sull'umanità in un luogo dove gli umani non avessero mai possibilità di trovarle, né i marinidi interesse a leggerle.",
@@ -1727,7 +1786,8 @@
             "multiverseId": 683099,
             "name": "Stella Marina dei Sigilli",
             "text": "{T}: Profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi metterla in fondo.)",
-            "type": "Creatura — Stella Marina"
+            "type": "Creatura — Stella Marina",
+            "uuid": "1a0bc67d-3496-56e5-aaf5-369d3a391a86"
           },
           {
             "flavorText": "クルフィックスは人間たちに関する最も恐ろしい予言を、人間たちに見つかることもなく、またトリトンがそれを読むほどの興味を持つことのない場所に隠した。",
@@ -1739,7 +1799,8 @@
             "multiverseId": 683213,
             "name": "印章持ちのヒトデ",
             "text": "{T}：占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。そのカードを一番下に置いてもよい。）",
-            "type": "クリーチャー — ヒトデ"
+            "type": "クリーチャー — ヒトデ",
+            "uuid": "68e80674-bdf8-5df3-8f1f-0b36a25f6a7d"
           }
         ],
         "frameVersion": "2015",
@@ -1760,6 +1821,7 @@
           "scryfallOracleId": "94a4f70a-8aac-412a-99f0-933e3ff87fe0",
           "tcgplayerProductId": "590343"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1788,7 +1850,6 @@
         "name": "Sigiled Starfish",
         "number": "357",
         "originalText": "{T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
-        "originalType": "Creature — Starfish",
         "power": "0",
         "printings": [
           "C18",
@@ -1841,7 +1902,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 18873,
+        "edhrecRank": 19686,
+        "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
@@ -1857,7 +1919,8 @@
             "multiverseId": 682776,
             "name": "Gezeitenbecken-Schildkröte",
             "text": "{2}{U}: Hellsicht 1. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
-            "type": "Kreatur — Schildkröte"
+            "type": "Kreatur — Schildkröte",
+            "uuid": "390ad305-e7b2-5b54-ac27-a5cf76ec31d1"
           },
           {
             "flavorText": "Los hechiceros la consideran una fuente de adivinaciones en movimiento, ya que muestra visiones provenientes de las profundidades marinas.",
@@ -1869,7 +1932,8 @@
             "multiverseId": 682890,
             "name": "Tortuga poza de marea",
             "text": "{2}{U}: Adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)",
-            "type": "Criatura — Tortuga"
+            "type": "Criatura — Tortuga",
+            "uuid": "0ea3b0e8-a72c-5176-8bbc-7783d18d678b"
           },
           {
             "flavorText": "Prisée par les sorciers comme bassin de scrutation mobile, elle apporte des visions des profondeurs de l'océan.",
@@ -1881,7 +1945,8 @@
             "multiverseId": 683004,
             "name": "Tortue intercotidale",
             "text": "{2}{U} : Regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez mettre cette carte au-dessous.)",
-            "type": "Créature — tortue terrestre"
+            "type": "Créature — tortue terrestre",
+            "uuid": "fa37d137-c0f7-5204-b473-bafbd703a0e8"
           },
           {
             "flavorText": "Apprezzata dai maghi come specchio divinatorio vivente, mostra visioni pescate dagli abissi del mare.",
@@ -1893,7 +1958,8 @@
             "multiverseId": 683118,
             "name": "Testuggine Pozza di Marea",
             "text": "{2}{U}: Profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi metterla in fondo.)",
-            "type": "Creatura — Tartaruga"
+            "type": "Creatura — Tartaruga",
+            "uuid": "46045c67-37ae-5556-ac44-c39dffc58e4c"
           },
           {
             "flavorText": "移動型の占術プールとして魔術師に重宝されているこの亀は、深海から引き出される幻影を秘めている。",
@@ -1905,7 +1971,8 @@
             "multiverseId": 683232,
             "name": "潮溜まりの亀",
             "text": "{2}{U}：占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。そのカードを一番下に置いてもよい。）",
-            "type": "クリーチャー — 海亀"
+            "type": "クリーチャー — 海亀",
+            "uuid": "e3519ca7-bf28-58fc-8bb3-cc6d74a869c3"
           }
         ],
         "frameVersion": "2015",
@@ -1926,6 +1993,7 @@
           "scryfallOracleId": "ac2668a3-7a26-47b1-9ad4-56e23643de80",
           "tcgplayerProductId": "590232"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1946,8 +2014,6 @@
           "paupercommander": "Legal",
           "penny": "Legal",
           "pioneer": "Legal",
-          "standard": "Legal",
-          "standardbrawl": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
         },
@@ -1956,7 +2022,6 @@
         "name": "Tidepool Turtle",
         "number": "376",
         "originalText": "{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
-        "originalType": "Creature — Turtle",
         "power": "2",
         "printings": [
           "DMU",
@@ -2002,8 +2067,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 968,
-        "edhrecSaltiness": 0.09,
+        "edhrecRank": 1028,
+        "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
         ],
@@ -2017,7 +2082,8 @@
             "multiverseId": 684050,
             "name": "Einsame Sandbank",
             "text": "Die Einsame Sandbank kommt getappt ins Spiel.\n{T}: Erzeuge {U}.\nUmwandlung {U} ({U}, wirf diese Karte ab: Ziehe eine Karte.)",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "42415e23-0f25-5d41-aa73-6fa21e745ca2"
           },
           {
             "identifiers": {
@@ -2028,7 +2094,8 @@
             "multiverseId": 684089,
             "name": "Banco de arena solitario",
             "text": "El Banco de arena solitario entra girado.\n{T}: Agrega {U}.\nCiclo {U}. ({U}, descartar esta carta: Roba una carta.)",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "0abe222e-4baf-5e37-ae0e-dad267044bee"
           },
           {
             "identifiers": {
@@ -2039,7 +2106,8 @@
             "multiverseId": 684128,
             "name": "Banc de sable isolé",
             "text": "Le Banc de sable isolé arrive engagé.\n{T} : Ajoutez {U}.\nRecyclage {U} ({U}, défaussez-vous de cette carte : Piochez une carte.)",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "d4c7fb64-8dfa-523c-973c-33fbe0d29b5e"
           },
           {
             "identifiers": {
@@ -2050,7 +2118,8 @@
             "multiverseId": 684167,
             "name": "Secca Solitaria",
             "text": "La Secca Solitaria entra TAPpata.\n{T}: Aggiungi {U}.\nCiclo {U} ({U}, Scarta questa carta: Pesca una carta.)",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "4210b17d-5027-5a04-a5a3-0274243055c1"
           },
           {
             "identifiers": {
@@ -2061,7 +2130,8 @@
             "multiverseId": 684206,
             "name": "孤立した砂州",
             "text": "孤立した砂州はタップ状態で戦場に出る。\n{T}：{U}を加える。\nサイクリング {U}（{U}, このカードを捨てる：カード１枚を引く。）",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "21cab682-709f-57a9-9bc9-9c37c4f745f2"
           }
         ],
         "frameVersion": "2015",
@@ -2082,6 +2152,7 @@
           "scryfallOracleId": "765863c8-1be0-4bb1-9e9c-db7701cffde3",
           "tcgplayerProductId": "590252"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -2110,7 +2181,6 @@
         "name": "Lonely Sandbar",
         "number": "769",
         "originalText": "Lonely Sandbar enters tapped.\n{T}: Add {U}.\nCycling {U} ({U}, Discard this card: Draw a card.)",
-        "originalType": "Land",
         "printings": [
           "C13",
           "C14",
@@ -2129,6 +2199,7 @@
           "MKC",
           "ONS",
           "PZ2",
+          "SLD",
           "VMA"
         ],
         "purchaseUrls": {
@@ -2168,8 +2239,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1143,
-        "edhrecSaltiness": 0.02,
+        "edhrecRank": 1184,
+        "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
@@ -2185,7 +2256,8 @@
             "multiverseId": 684059,
             "name": "Gedeihende Insel",
             "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
@@ -2197,7 +2269,8 @@
             "multiverseId": 684098,
             "name": "Islote floreciente",
             "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
@@ -2209,7 +2282,8 @@
             "multiverseId": 684137,
             "name": "Île prospère",
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2221,7 +2295,8 @@
             "multiverseId": 684176,
             "name": "Isola Florida",
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
           },
           {
             "flavorText": "自然界のあらゆる驚異がこの美しく小さな世界に詰まっている。",
@@ -2233,7 +2308,8 @@
             "multiverseId": 684215,
             "name": "興隆する島嶼",
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
           }
         ],
         "frameVersion": "2015",
@@ -2254,6 +2330,7 @@
           "scryfallOracleId": "69fc70b8-b143-4662-ac95-e2743037239d",
           "tcgplayerProductId": "590389"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2275,7 +2352,6 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
-        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
@@ -2288,6 +2364,7 @@
           "LCC",
           "MOC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2326,8 +2403,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 6,
-        "edhrecSaltiness": 0.64,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
         "finishes": [
           "nonfoil"
         ],
@@ -2340,7 +2417,8 @@
             "language": "German",
             "multiverseId": 681254,
             "name": "Insel",
-            "type": "Standardland — Insel"
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2350,7 +2428,8 @@
             "language": "Spanish",
             "multiverseId": 681269,
             "name": "Isla",
-            "type": "Tierra básica — Isla"
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           },
           {
             "identifiers": {
@@ -2360,7 +2439,8 @@
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
-            "type": "Terrain de base — île"
+            "type": "Terrain de base — île",
+            "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
           },
           {
             "identifiers": {
@@ -2370,7 +2450,8 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
-            "type": "Terra Base — Isola"
+            "type": "Terra Base — Isola",
+            "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
           {
             "identifiers": {
@@ -2380,7 +2461,8 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
-            "type": "基本土地 — 島"
+            "type": "基本土地 — 島",
+            "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
           }
         ],
         "frameVersion": "2015",
@@ -2400,6 +2482,7 @@
           "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
           "tcgplayerProductId": "590231"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -2430,7 +2513,6 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
-        "originalType": "Basic Land — Island",
         "printings": [
           "10E",
           "2ED",
@@ -2504,6 +2586,7 @@
           "EOE",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2624,6 +2707,7 @@
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2631,7 +2715,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -2683,6 +2769,770 @@
           "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
           "e99fe491-7fe4-5d75-9d8f-644915c0b4ec"
         ]
+      },
+      {
+        "artist": "Yeong-Hao Han",
+        "artistIds": [
+          "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681285",
+              "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
+            },
+            "language": "French",
+            "multiverseId": 681285,
+            "name": "Île",
+            "type": "Terrain de base — île",
+            "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681300",
+              "scryfallId": "bcb983c9-2935-4f4e-b52c-fb7c2200e929"
+            },
+            "language": "Italian",
+            "multiverseId": 681300,
+            "name": "Isola",
+            "type": "Terra Base — Isola",
+            "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681315",
+              "scryfallId": "ed4f2a25-2d8b-4bef-9f78-24be10c92e42"
+            },
+            "language": "Japanese",
+            "multiverseId": 681315,
+            "name": "島",
+            "type": "基本土地 — 島",
+            "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305219",
+          "cardsphereId": "131375",
+          "deckboxId": "98079",
+          "mcmId": "795506",
+          "mtgArenaId": "95170",
+          "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
+          "multiverseId": "681240",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "9b0bfe70-e584-42f2-9a32-984c17ba6d1a",
+          "scryfallIllustrationId": "d8e987c2-82cb-4522-b288-a22b35581ce1",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "590233"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "85",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+        "variations": [
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
+          "e99fe491-7fe4-5d75-9d8f-644915c0b4ec"
+        ]
+      },
+      {
+        "artist": "Yeong-Hao Han",
+        "artistIds": [
+          "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681286",
+              "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
+            },
+            "language": "French",
+            "multiverseId": 681286,
+            "name": "Île",
+            "type": "Terrain de base — île",
+            "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681301",
+              "scryfallId": "5ee6ea05-6028-4843-94fc-0b33fb41c55f"
+            },
+            "language": "Italian",
+            "multiverseId": 681301,
+            "name": "Isola",
+            "type": "Terra Base — Isola",
+            "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681316",
+              "scryfallId": "7a6f57df-bdfe-4ffc-80b5-2b59aa798e0a"
+            },
+            "language": "Japanese",
+            "multiverseId": 681316,
+            "name": "島",
+            "type": "基本土地 — 島",
+            "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305220",
+          "cardsphereId": "131376",
+          "deckboxId": "98080",
+          "mcmId": "795507",
+          "mtgArenaId": "95171",
+          "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
+          "multiverseId": "681241",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "0e443748-edf1-4499-9507-3649dd57ee95",
+          "scryfallIllustrationId": "efa66c57-75ae-4ca2-a306-268523663386",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "590243"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "86",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
+        "variations": [
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+        ]
       }
     ],
     "name": "Of the Coast (2)",
@@ -2691,6 +3541,10 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "J25"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }

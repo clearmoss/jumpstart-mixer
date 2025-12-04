@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "6752c2084d841e"
   },
   "data": {
@@ -30,7 +30,8 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 6061,
+        "edhrecRank": 6651,
+        "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
@@ -54,6 +55,7 @@
           "scryfallOracleId": "5e038a3a-fbab-46c2-8773-1327d953da16",
           "tcgplayerProductId": "216386"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -62,7 +64,6 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -80,6 +81,7 @@
         "manaValue": 7.0,
         "name": "Windreader Sphinx",
         "number": "194",
+        "originalText": "Flying\nWhenever a creature with flying attacks, you may draw a card.",
         "power": "3",
         "printings": [
           "ANB",
@@ -150,8 +152,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3646,
-        "edhrecSaltiness": 0.15,
+        "edhrecRank": 3689,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -175,6 +177,7 @@
           "scryfallOracleId": "f424b5e9-8f02-4491-a7d8-c7e088611c6a",
           "tcgplayerProductId": "216383"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -183,7 +186,6 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -203,6 +205,7 @@
         "manaValue": 3.0,
         "name": "Warden of Evos Isle",
         "number": "191",
+        "originalText": "Flying\nCreature spells with flying you cast cost {1} less to cast.",
         "power": "2",
         "printings": [
           "ANB",
@@ -276,8 +279,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 10071,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 10742,
+        "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil",
           "foil"
@@ -294,7 +297,8 @@
             "multiverseId": 485661,
             "name": "Flutgleiter",
             "text": "Fliegend\nImmer wenn du mit zwei oder mehr fliegenden Kreaturen angreifst, ziehe eine Karte.",
-            "type": "Kreatur — Sceada"
+            "type": "Kreatur — Sceada",
+            "uuid": "99ce050f-50a0-54a9-adf2-a4db59f22a5e"
           },
           {
             "flavorText": "Los barcos pesqueros suelen seguir a los dracos que cazan para encontrar los bancos de peces más grandes.",
@@ -306,7 +310,8 @@
             "multiverseId": 485920,
             "name": "Rayaolas",
             "text": "Vuela.\nSiempre que ataques con dos o más criaturas con la habilidad de volar, roba una carta.",
-            "type": "Criatura — Draco"
+            "type": "Criatura — Draco",
+            "uuid": "e16ebe42-3b96-5355-a451-e917d8c5af8e"
           },
           {
             "flavorText": "Les bateaux de pêche suivent souvent les drakôns en chasse pour trouver les plus gros bancs de poissons.",
@@ -318,7 +323,8 @@
             "multiverseId": 486179,
             "name": "Écumeur du ressac",
             "text": "Vol\nÀ chaque fois que vous attaquez avec au moins deux créatures avec le vol, piochez une carte.",
-            "type": "Créature : drakôn"
+            "type": "Créature : drakôn",
+            "uuid": "a3967aeb-a536-5e07-989e-d9faf0ba9e6b"
           },
           {
             "flavorText": "Spesso le barche dei pescatori seguono i draghetti a caccia per trovare i banchi di pesci più grandi.",
@@ -330,7 +336,8 @@
             "multiverseId": 486438,
             "name": "Sorvolatore delle Maree",
             "text": "Volare\nOgniqualvolta attacchi con due o più creature con volare, pesca una carta.",
-            "type": "Creatura — Draghetto"
+            "type": "Creatura — Draghetto",
+            "uuid": "b32703b5-39a4-582d-b1e6-52ca0115327d"
           },
           {
             "flavorText": "釣り船はよくドレイクの捕食の後を追う。最大の魚群が見つかるからだ。",
@@ -342,7 +349,8 @@
             "multiverseId": 486697,
             "name": "潮掬い",
             "text": "飛行\nあなたが飛行を持つクリーチャー２体以上で攻撃するたび、カードを１枚引く。",
-            "type": "クリーチャー — ドレイク"
+            "type": "クリーチャー — ドレイク",
+            "uuid": "10a8cc31-56b1-55de-8794-22ebfa5b1687"
           },
           {
             "flavorText": "낚싯배들은 종종 사냥 중인 드레이크들을 따라가 더 많은 물고기들을 찾아낸다.",
@@ -354,7 +362,8 @@
             "multiverseId": 486956,
             "name": "파도를 스치는 드레이크",
             "text": "비행\n당신이 비행을 가진 생물 두 개 이상으로 공격할 때마다, 카드 한 장을 뽑는다.",
-            "type": "생물 — 드레이크"
+            "type": "생물 — 드레이크",
+            "uuid": "3739900b-e19a-5ef2-88ca-d9eb624161d3"
           },
           {
             "flavorText": "Os barcos pesqueiros muitas vezes seguem os dragonetes à caça para encontrar os maiores cardumes.",
@@ -366,7 +375,8 @@
             "multiverseId": 487215,
             "name": "Corta-água da Maré",
             "text": "Voar\nToda vez que você atacar com duas ou mais criaturas com voar, compre um card.",
-            "type": "Criatura — Dragonete"
+            "type": "Criatura — Dragonete",
+            "uuid": "8031585d-eded-53e3-8fa2-f538f8653d7f"
           },
           {
             "flavorText": "Рыбацкие лодки зачастую следуют за охотящимися дрейками, чтобы найти самые большие рыбные косяки.",
@@ -378,7 +388,8 @@
             "multiverseId": 487474,
             "name": "Летун Приливов",
             "text": "Полет\nКаждый раз, когда вы атакуете двумя или более существами с Полетом, возьмите карту.",
-            "type": "Существо — Дрейк"
+            "type": "Существо — Дрейк",
+            "uuid": "cbbf1ea0-426b-5504-b4e1-ab1cf23c8073"
           },
           {
             "flavorText": "渔船常常跟在行猎龙兽后面，这样便能找到渔获量最大的鱼群。",
@@ -390,7 +401,8 @@
             "multiverseId": 487733,
             "name": "掠浪飞兽",
             "text": "飞行\n每当你以两个或更多具飞行异能的生物攻击时，抓一张牌。",
-            "type": "生物 ～龙兽"
+            "type": "生物 ～龙兽",
+            "uuid": "64ec0078-46d3-5a08-8711-75cd0a8ea054"
           },
           {
             "flavorText": "漁船常常跟在行獵龍獸後面，這樣便能找到漁獲量最大的魚群。",
@@ -402,7 +414,8 @@
             "multiverseId": 487992,
             "name": "掠浪飛獸",
             "text": "飛行\n每當你以兩個或更多具飛行異能的生物攻擊時，抽一張牌。",
-            "type": "生物 ～龍獸"
+            "type": "生物 ～龍獸",
+            "uuid": "c8f4feec-df40-5f94-9eef-75b022b1b154"
           }
         ],
         "frameVersion": "2015",
@@ -426,6 +439,7 @@
           "scryfallOracleId": "8d83dfb3-5662-4109-b465-bf5f257e58a5",
           "tcgplayerProductId": "215475"
         },
+        "isEtched": false,
         "isFoil": false,
         "keywords": [
           "Flying"
@@ -451,7 +465,6 @@
         "name": "Tide Skimmer",
         "number": "79",
         "originalText": "Flying\nWhenever you attack with two or more creatures with flying, draw a card.",
-        "originalType": "Creature — Drake",
         "power": "2",
         "printings": [
           "J25",
@@ -523,7 +536,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 26140,
+        "edhrecRank": 27397,
+        "edhrecSaltiness": 0.58,
         "finishes": [
           "nonfoil",
           "foil"
@@ -540,7 +554,8 @@
             "multiverseId": 485636,
             "name": "Kühner Gleitspringer",
             "text": "{2}{U}: Eine Kreatur deiner Wahl erhält Flugfähigkeit bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Soldat"
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "66cc5b0c-481b-5940-8a3f-90d452886bed"
           },
           {
             "flavorText": "\"El miedo es una respuesta racional, pero la espera no te lo hará más sencillo. ¡Salta y ya está!\".",
@@ -552,7 +567,8 @@
             "multiverseId": 485895,
             "name": "Planeador entusiasta",
             "text": "{2}{U}: La criatura objetivo gana la habilidad de volar hasta el final del turno.",
-            "type": "Criatura — Soldado humano"
+            "type": "Criatura — Soldado humano",
+            "uuid": "a7c7e51a-ae33-5a4f-877d-9b886672c932"
           },
           {
             "flavorText": "« La peur est une réaction naturelle, mais attendre ne facilitera pas les choses. Sautez ! »",
@@ -564,7 +580,8 @@
             "multiverseId": 486154,
             "name": "Planachutiste passionné",
             "text": "{2}{U} : La créature ciblée acquiert le vol jusqu'à la fin du tour.",
-            "type": "Créature : humain et soldat"
+            "type": "Créature : humain et soldat",
+            "uuid": "66feea6d-8eee-5837-9360-a358d1f6b604"
           },
           {
             "flavorText": "\"La paura è una reazione logica, ma rimandare oltre non migliorerà le cose. Salta e basta!\"",
@@ -576,7 +593,8 @@
             "multiverseId": 486413,
             "name": "Maestro di Planata Entusiasta",
             "text": "{2}{U}: Una creatura bersaglio ha volare fino alla fine del turno.",
-            "type": "Creatura — Soldato Umano"
+            "type": "Creatura — Soldato Umano",
+            "uuid": "49130219-defb-529d-943b-f138796181fc"
           },
           {
             "flavorText": "「怖いのは正常な反応だが、待っていても楽にはならんぞ。とにかく飛ぶんだ！」",
@@ -588,7 +606,8 @@
             "multiverseId": 486672,
             "name": "厳しい滑空指導員",
             "text": "{2}{U}：クリーチャー１体を対象とする。ターン終了時まで、それは飛行を得る。",
-            "type": "クリーチャー — 人間・兵士"
+            "type": "クリーチャー — 人間・兵士",
+            "uuid": "52437913-3a6d-5bf2-a6f9-89edcb7e4257"
           },
           {
             "flavorText": "\"공포는 이성적인 반응이지만, 기다린다고 더 나아지는 것도 아니야. 그냥 뛰어!\"",
@@ -600,7 +619,8 @@
             "multiverseId": 486931,
             "name": "명민한 활강지휘관",
             "text": "{2}{U}: 생물을 목표로 정한다. 그 생물은 턴종료까지 비행을 얻는다.",
-            "type": "생물 — 인간 병사"
+            "type": "생물 — 인간 병사",
+            "uuid": "f0dee988-8c4d-5b8a-815b-e7cdbe704912"
           },
           {
             "flavorText": "\"O medo é uma reação racional, mas ficar esperando não vai deixar nada mais fácil. Só pule!\"",
@@ -612,7 +632,8 @@
             "multiverseId": 487190,
             "name": "Mestre de Planador Arguto",
             "text": "{2}{U}: A criatura alvo ganha voar até o final do turno.",
-            "type": "Criatura — Humano Soldado"
+            "type": "Criatura — Humano Soldado",
+            "uuid": "c46b9c33-9697-5a9a-8be4-06a80e0a65be"
           },
           {
             "flavorText": "«Страх — это понятная реакция, но оттого, что ты ждешь, легче не станет. Прыгай — и дело с концом!»",
@@ -624,7 +645,8 @@
             "multiverseId": 487449,
             "name": "Увлеченный Планерист",
             "text": "{2}{U}: целевое существо получает Полет до конца хода.",
-            "type": "Существо — Человек Солдат"
+            "type": "Существо — Человек Солдат",
+            "uuid": "62b2fa9c-70ef-5494-9353-bd7a0f3bd209"
           },
           {
             "flavorText": "「会害怕是正常反应，但干等着也没办法缓解。跳就对了！」",
@@ -636,7 +658,8 @@
             "multiverseId": 487708,
             "name": "敏锐滑翔长",
             "text": "{2}{U}：目标生物获得飞行异能直到回合结束。",
-            "type": "生物 ～人类／士兵"
+            "type": "生物 ～人类／士兵",
+            "uuid": "35da33cd-2c6c-5c79-90f4-8bcf995bea00"
           },
           {
             "flavorText": "「會害怕是正常反應，但乾等著也沒辦法緩解。跳就對了！」",
@@ -648,7 +671,8 @@
             "multiverseId": 487967,
             "name": "敏銳滑翔長",
             "text": "{2}{U}：目標生物獲得飛行異能直到回合結束。",
-            "type": "生物 ～人類／士兵"
+            "type": "生物 ～人類／士兵",
+            "uuid": "1c093ee8-a457-5b00-a93c-67ebd4d32cee"
           }
         ],
         "frameVersion": "2015",
@@ -672,6 +696,7 @@
           "scryfallOracleId": "98deac9e-28ea-4d11-8d75-833bf6d66e6e",
           "tcgplayerProductId": "215856"
         },
+        "isEtched": false,
         "isFoil": false,
         "language": "English",
         "layout": "normal",
@@ -696,7 +721,6 @@
         "name": "Keen Glidemaster",
         "number": "54",
         "originalText": "{2}{U}: Target creature gains flying until end of turn.",
-        "originalType": "Creature — Human Soldier",
         "power": "2",
         "printings": [
           "M21"
@@ -756,8 +780,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 24337,
-        "edhrecSaltiness": 1.18,
+        "edhrecRank": 25558,
+        "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil",
           "foil"
@@ -774,7 +798,8 @@
             "multiverseId": 485647,
             "name": "Umherstreifendes Geisterlicht",
             "text": "Fliegend\nWenn das Umherstreifende Geisterlicht ins Spiel kommt, bringe bis zu eine Nicht-Geist-Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.",
-            "type": "Kreatur — Geist"
+            "type": "Kreatur — Geist",
+            "uuid": "10505b32-5786-5e62-a47b-12266d7d68b7"
           },
           {
             "flavorText": "Algunos de los que mueren de forma insensata regresan como espíritus sin forma y buscan respuestas donde no las hay.",
@@ -786,7 +811,8 @@
             "multiverseId": 485906,
             "name": "Luz fantasmal deambuladora",
             "text": "Vuela.\nCuando la Luz fantasmal deambuladora entre al campo de batalla, regresa hasta una criatura objetivo que no sea Espíritu a la mano de su propietario.",
-            "type": "Criatura — Espíritu"
+            "type": "Criatura — Espíritu",
+            "uuid": "d9a30af9-f8fa-52be-9d7f-3178f749bb4e"
           },
           {
             "flavorText": "Ceux qui meurent pour rien reviennent parfois en tant qu'esprits informes cherchant des réponses là où il n'y en a pas.",
@@ -798,7 +824,8 @@
             "multiverseId": 486165,
             "name": "Luminesprit errant",
             "text": "Vol\nQuand le Luminesprit errant arrive sur le champ de bataille, renvoyez jusqu'à une créature non-Esprit ciblée dans la main de son propriétaire.",
-            "type": "Créature : esprit"
+            "type": "Créature : esprit",
+            "uuid": "a619f469-9884-55cd-913f-56aa90a03626"
           },
           {
             "flavorText": "Alcuni muoiono di una morte insensata e ritornano come spiriti senza forma, alla ricerca di risposte laddove non ce ne sono.",
@@ -810,7 +837,8 @@
             "multiverseId": 486424,
             "name": "Lume Fatuo Vagante",
             "text": "Volare\nQuando il Lume Fatuo Vagante entra nel campo di battaglia, fai tornare fino a una creatura non Spirito bersaglio in mano al suo proprietario.",
-            "type": "Creatura — Spirito"
+            "type": "Creatura — Spirito",
+            "uuid": "b4f494f1-82f1-525e-a605-aeddf009fa4c"
           },
           {
             "flavorText": "無為に死んだ者は形のない霊として戻り、存在しない答えを探し続ける。",
@@ -822,7 +850,8 @@
             "multiverseId": 486683,
             "name": "うろつく光霊",
             "text": "飛行\nうろつく光霊が戦場に出たとき、スピリットでないクリーチャー最大１体を対象とし、それをオーナーの手札に戻す。",
-            "type": "クリーチャー — スピリット"
+            "type": "クリーチャー — スピリット",
+            "uuid": "10dd5103-6d2e-585b-a110-e61a9f875167"
           },
           {
             "flavorText": "아무 것도 느끼지 못하고 죽은 자들 중 일부는 형체가 없는 신령이 되어 돌아와 찾을 수 없는 답을 찾아다닌다.",
@@ -834,7 +863,8 @@
             "multiverseId": 486942,
             "name": "떠도는 유령불빛",
             "text": "비행\n떠도는 유령불빛이 전장에 들어올 때, 신령이 아닌 생물을 최대 한 개까지 목표로 정한다. 그 생물을 소유자의 손으로 되돌린다.",
-            "type": "생물 — 신령"
+            "type": "생물 — 신령",
+            "uuid": "e2faa378-3f7f-5b67-8e34-b2badd7f7d61"
           },
           {
             "flavorText": "Alguns, cujas mortes foram desprovidas de sentido, retornam como espíritos disformes em busca de respostas onde elas não existem.",
@@ -846,7 +876,8 @@
             "multiverseId": 487201,
             "name": "Espectrolume Errante",
             "text": "Voar\nQuando Espectrolume Errante entrar no campo de batalha, devolva até uma criatura alvo que não seja um espírito para a mão de seu dono.",
-            "type": "Criatura — Espírito"
+            "type": "Criatura — Espírito",
+            "uuid": "3cddd9b7-453e-52e5-b77c-8ae4082b2f06"
           },
           {
             "flavorText": "Некоторые из умерших бессмысленной смертью возвращаются бесформенными духами. Они ищут ответы, которых нет.",
@@ -858,7 +889,8 @@
             "multiverseId": 487460,
             "name": "Блуждающий Призрачный Огонек",
             "text": "Полет\nКогда Блуждающий Призрачный Огонек выходит на поле битвы, верните не более одного целевого не являющегося Духом существа в руку его владельца.",
-            "type": "Существо — Дух"
+            "type": "Существо — Дух",
+            "uuid": "9c2f9e1a-8766-5773-a15f-72b21083e394"
           },
           {
             "flavorText": "毫无意义逝去的生命会以没有形态的灵魂重返世间，茫然追寻并不存在的答案。",
@@ -870,7 +902,8 @@
             "multiverseId": 487719,
             "name": "游荡光灵",
             "text": "飞行\n当游荡光灵进战场时，将至多一个目标非精怪生物移回其拥有者手上。",
-            "type": "生物 ～精怪"
+            "type": "生物 ～精怪",
+            "uuid": "825d6410-a585-541c-bc27-c3dc5d08fcc6"
           },
           {
             "flavorText": "毫無意義逝去的生命會以沒有形態的靈魂重返世間，茫然追尋並不存在的答案。",
@@ -882,7 +915,8 @@
             "multiverseId": 487978,
             "name": "遊蕩光靈",
             "text": "飛行\n當遊蕩光靈進戰場時，將至多一個目標非精靈生物移回其擁有者手上。",
-            "type": "生物 ～精靈"
+            "type": "生物 ～精靈",
+            "uuid": "9a650b67-ec7d-54bd-9d43-894d187f101c"
           }
         ],
         "frameVersion": "2015",
@@ -906,6 +940,7 @@
           "scryfallOracleId": "0d5eb0b9-9b08-4d26-b141-a9d612a680a6",
           "tcgplayerProductId": "215865"
         },
+        "isEtched": false,
         "isFoil": false,
         "keywords": [
           "Flying"
@@ -932,7 +967,6 @@
         "name": "Roaming Ghostlight",
         "number": "65",
         "originalText": "Flying\nWhen Roaming Ghostlight enters the battlefield, return up to one target non-Spirit creature to its owner's hand.",
-        "originalType": "Creature — Spirit",
         "power": "3",
         "printings": [
           "CLU",
@@ -992,7 +1026,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 6141,
+        "edhrecRank": 6533,
+        "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil",
           "foil"
@@ -1007,7 +1042,8 @@
             "multiverseId": 485667,
             "name": "Runenwand",
             "text": "Verteidiger (Diese Kreatur kann nicht angreifen.)\nWenn die Runenwand ins Spiel kommt, wende Hellsicht 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
-            "type": "Kreatur — Mauer"
+            "type": "Kreatur — Mauer",
+            "uuid": "1f1fe257-ffd3-574a-99ea-0868383f7dbc"
           },
           {
             "identifiers": {
@@ -1018,7 +1054,8 @@
             "multiverseId": 485926,
             "name": "Muro de runas",
             "text": "Defensor. (Esta criatura no puede atacar.)\nCuando el Muro de runas entre al campo de batalla, adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo de tu biblioteca.)",
-            "type": "Criatura — Muro"
+            "type": "Criatura — Muro",
+            "uuid": "82bc872c-31c4-57d9-9cc2-d9e7b5b8a778"
           },
           {
             "identifiers": {
@@ -1029,7 +1066,8 @@
             "multiverseId": 486185,
             "name": "Mur de runes",
             "text": "Défenseur (Cette créature ne peut pas attaquer.)\nQuand le Mur de runes arrive sur le champ de bataille, regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez la mettre au-dessous de votre bibliothèque.)",
-            "type": "Créature : mur"
+            "type": "Créature : mur",
+            "uuid": "247cb89d-5516-5e55-9178-d0ca3247f60d"
           },
           {
             "identifiers": {
@@ -1040,7 +1078,8 @@
             "multiverseId": 486444,
             "name": "Muro di Rune",
             "text": "Difensore (Questa creatura non può attaccare.)\nQuando il Muro di Rune entra nel campo di battaglia, profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi mettere quella carta in fondo al tuo grimorio.)",
-            "type": "Creatura — Muro"
+            "type": "Creatura — Muro",
+            "uuid": "0acc3dd9-c66a-556f-b8c3-014b2d3d6e36"
           },
           {
             "identifiers": {
@@ -1051,7 +1090,8 @@
             "multiverseId": 486703,
             "name": "ルーンの壁",
             "text": "防衛（このクリーチャーでは攻撃できない。）\nルーンの壁が戦場に出たとき、占術１を行う。（あなたのライブラリーの一番上のカードを見る。あなたはそのカードをあなたのライブラリーの一番下に置いてもよい。）",
-            "type": "クリーチャー — 壁"
+            "type": "クリーチャー — 壁",
+            "uuid": "6d3d980f-9493-52fa-961a-cf12121bbb52"
           },
           {
             "identifiers": {
@@ -1062,7 +1102,8 @@
             "multiverseId": 486962,
             "name": "룬의 벽",
             "text": "수비태세 (이 생물은 공격할 수 없다.)\n룬의 벽이 전장에 들어올 때, 점술 1을 한다. (당신의 서고 맨 위 카드 한 장을 본다. 당신은 그 카드를 당신의 서고 맨 밑에 놓을 수 있다.)",
-            "type": "생물 — 벽"
+            "type": "생물 — 벽",
+            "uuid": "8d12d3f8-55c2-5316-bd3e-34d361f28ab2"
           },
           {
             "identifiers": {
@@ -1073,7 +1114,8 @@
             "multiverseId": 487221,
             "name": "Barreira de Runas",
             "text": "Defensor (Esta criatura não pode atacar.)\nQuando Barreira de Runas entrar no campo de batalha, use vidência 1. (Olhe o card do topo de seu grimório. Você pode colocar aquele card no fundo de seu grimório.)",
-            "type": "Criatura — Barreira"
+            "type": "Criatura — Barreira",
+            "uuid": "c98d337d-9cb7-5cf0-894a-74676946867a"
           },
           {
             "identifiers": {
@@ -1084,7 +1126,8 @@
             "multiverseId": 487480,
             "name": "Стена Рун",
             "text": "Защитник (Это существо не может атаковать.)\nКогда Стена Рун выходит на поле битвы, предскажите 1. (Посмотрите верхнюю карту вашей библиотеки. Вы можете положить ту карту в низ вашей библиотеки.)",
-            "type": "Существо — Стена"
+            "type": "Существо — Стена",
+            "uuid": "90c0d137-6da7-5c11-9948-2d06b343b52e"
           },
           {
             "identifiers": {
@@ -1095,7 +1138,8 @@
             "multiverseId": 487739,
             "name": "符文墙",
             "text": "守军（此生物不能攻击。）\n当符文墙进战场时，占卜1。（检视你牌库顶的牌。你可以将该牌置于你的牌库底。）",
-            "type": "生物 ～墙"
+            "type": "生物 ～墙",
+            "uuid": "99c353f9-9cf3-5a1a-bbcf-ca1d92e64ffd"
           },
           {
             "identifiers": {
@@ -1106,7 +1150,8 @@
             "multiverseId": 487998,
             "name": "符文牆",
             "text": "守軍（此生物不能攻擊。）\n當符文牆進戰場時，占卜1。（檢視你牌庫頂的牌。你可以將該牌置於你的牌庫底。）",
-            "type": "生物 ～牆"
+            "type": "生物 ～牆",
+            "uuid": "5c2a1503-638a-5eb9-be30-72e66760d7f2"
           }
         ],
         "frameVersion": "2015",
@@ -1130,6 +1175,7 @@
           "scryfallOracleId": "35dfe1c7-48ab-436f-9a6e-44835ea01cf9",
           "tcgplayerProductId": "215860"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1139,7 +1185,6 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1160,7 +1205,6 @@
         "name": "Wall of Runes",
         "number": "85",
         "originalText": "Defender (This creature can't attack.)\nWhen Wall of Runes enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
-        "originalType": "Creature — Wall",
         "power": "0",
         "printings": [
           "ANB",
@@ -1221,8 +1265,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 12178,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 12785,
+        "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil",
           "foil"
@@ -1239,7 +1283,8 @@
             "multiverseId": 485643,
             "name": "Regen der Offenbarung",
             "text": "Ziehe drei Karten und wirf dann eine Karte ab.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "c83ea7c4-f2e0-5aae-9bc3-a53a78bd881a"
           },
           {
             "flavorText": "\"En cuanto el cielo se abrió, corrimos a buscar refugio. A medio camino me di cuenta de que, como ya estaba empapada, tenía más que ganar si dejaba que la lluvia cayera sobre mí que si huía de ella\".",
@@ -1251,7 +1296,8 @@
             "multiverseId": 485902,
             "name": "Lluvia de la revelación",
             "text": "Roba tres cartas, luego descarta una carta.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "21193392-fdce-5648-9a5d-ff0176df42ac"
           },
           {
             "flavorText": "« Lorsque la pluie a commencé à tomber, nous avons couru nous mettre à l'abri. À mi-chemin, j'ai soudain pris conscience qu'étant déjà trempée, j'avais peut-être plus à gagner à connaître la pluie qu'à la fuir. »",
@@ -1263,7 +1309,8 @@
             "multiverseId": 486161,
             "name": "Pluie de révélation",
             "text": "Piochez trois cartes, puis défaussez-vous d'une carte.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "376dcebc-331b-5010-8cf2-071b3f920e82"
           },
           {
             "flavorText": "\"Quando il cielo si aprì, corremmo a cercare riparo. A metà strada, d'improvviso mi resi conto che, essendo già inzuppata d'acqua, potevo forse trarre maggior frutto accogliendo la pioggia invece di rifuggirla.\"",
@@ -1275,7 +1322,8 @@
             "multiverseId": 486420,
             "name": "Pioggia di Rivelazione",
             "text": "Pesca tre carte, poi scarta una carta.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "d7afb59c-b990-5d68-a361-59e9a20d5881"
           },
           {
             "flavorText": "「急な土砂降りに、屋根の下へと走りました。その途中、もうずぶ濡れでしたが、突然気付いたのです。雨から逃れるよりも、雨を体験した方が、多くを得られるのではないかと。」",
@@ -1287,7 +1335,8 @@
             "multiverseId": 486679,
             "name": "啓示の雨",
             "text": "カードを３枚引き、その後カード１枚を捨てる。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "2f92dcdf-2808-5ca9-ab3c-abdd97fed7ea"
           },
           {
             "flavorText": "\"하늘에서 비가 쏟아지자, 우리는 비를 피할 곳으로 달려갔다. 반쯤 도착했을 때쯤, 나는 이미 푹 젖은 채로 갑자기, 비에서 도망치는 것보다 비를 경험해 보는 것에서 얻는 것이 더 많을지도 모른다는 것을 깨달았다.\"",
@@ -1299,7 +1348,8 @@
             "multiverseId": 486938,
             "name": "계시의 비",
             "text": "카드 세 장을 뽑은 후, 카드 한 장을 버린다.",
-            "type": "순간마법"
+            "type": "순간마법",
+            "uuid": "2deece19-b9b7-53d4-9c22-4643a9245ca9"
           },
           {
             "flavorText": "\"Quando o céu se derramou, corremos em busca de abrigo. Na metade do caminho percebi que, já encharcado, poderia valer mais a pena aproveitar a chuva do que correr dela.\"",
@@ -1311,7 +1361,8 @@
             "multiverseId": 487197,
             "name": "Chuva de Revelação",
             "text": "Compre três cards e depois descarte um card.",
-            "type": "Mágica Instantânea"
+            "type": "Mágica Instantânea",
+            "uuid": "8ed42ff2-9ab2-5f44-a375-007eb4be5e5d"
           },
           {
             "flavorText": "«Когда разверзлось небо, мы побежали в укрытие. Но на полпути я внезапно поняла, что мы уже промокли — так что для нас будет полезнее остаться под дождем, а не убегать от него».",
@@ -1323,7 +1374,8 @@
             "multiverseId": 487456,
             "name": "Дождь Откровения",
             "text": "Возьмите три карты, затем сбросьте карту.",
-            "type": "Мгновенное заклинание"
+            "type": "Мгновенное заклинание",
+            "uuid": "a568eece-131f-567c-96e2-f1240925713a"
           },
           {
             "flavorText": "「天空突然暴雨倾盆，我们匆忙寻地躲避。但在找到半路时，我一时兴起：既然已全身湿透，为何不索性漫步雨中？这样或许能有更多收获。」",
@@ -1335,7 +1387,8 @@
             "multiverseId": 487715,
             "name": "揭示之雨",
             "text": "抓三张牌，然后弃一张牌。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "55ec533a-fa5d-5d56-8d9a-f55975d958fa"
           },
           {
             "flavorText": "「天空突然暴雨傾盆，我們匆忙尋地躲避。但在找到半路時，我一時興起：既然已全身濕透，為何不索性漫步雨中？這樣或許能有更多收穫。」",
@@ -1347,7 +1400,8 @@
             "multiverseId": 487974,
             "name": "揭示之雨",
             "text": "抽三張牌，然後棄一張牌。",
-            "type": "瞬間"
+            "type": "瞬間",
+            "uuid": "4af0ea73-f152-5bb7-ab11-caa1437ab9c4"
           }
         ],
         "frameVersion": "2015",
@@ -1371,6 +1425,7 @@
           "scryfallOracleId": "7d5dfa6b-f685-4925-b93a-ae5815a3c0a7",
           "tcgplayerProductId": "215514"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1396,7 +1451,6 @@
         "name": "Rain of Revelation",
         "number": "61",
         "originalText": "Draw three cards, then discard a card.",
-        "originalType": "Instant",
         "printings": [
           "M21",
           "MH1"
@@ -1452,8 +1506,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 4227,
-        "edhrecSaltiness": 0.21,
+        "edhrecRank": 4545,
+        "edhrecSaltiness": 0.39,
         "finishes": [
           "nonfoil",
           "foil"
@@ -1470,7 +1524,8 @@
             "multiverseId": 485664,
             "name": "Gegenstandslos machen",
             "text": "Bringe einen Zauberspruch oder eine Kreatur deiner Wahl auf die Hand seines bzw. ihres Besitzers zurück.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "27ed82c8-8515-5f5c-a1eb-76c6ab4f04c7"
           },
           {
             "flavorText": "\"Bien hecho, Jace. Siempre se te dieron bien los actos de desaparición\".\n—Liliana Vess",
@@ -1482,7 +1537,8 @@
             "multiverseId": 485923,
             "name": "Privar de sustancia",
             "text": "Regresa el hechizo o la criatura objetivo a la mano de su propietario.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "8777beea-9de0-55f6-852f-fb3076e31d5b"
           },
           {
             "flavorText": "« Bravo, Jace. Tu as toujours été doué pour les tours de passe-passe. »\n—Liliana Vess",
@@ -1494,7 +1550,8 @@
             "multiverseId": 486182,
             "name": "Abolir",
             "text": "Renvoyez le sort ciblé ou la créature ciblée dans la main de son propriétaire.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "a953558f-9a71-55cd-bfad-db8e33be16c2"
           },
           {
             "flavorText": "\"Ben fatto, Jace. Hai sempre avuto un talento per le sparizioni.\"\n—Liliana Vess",
@@ -1506,7 +1563,8 @@
             "multiverseId": 486441,
             "name": "Disgregare",
             "text": "Fai tornare una magia o una creatura bersaglio in mano al suo proprietario.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "662434e1-745c-5fe3-84a1-0e5df2fd5e02"
           },
           {
             "flavorText": "「上手ね、ジェイス。昔から、消すとか消えるとかが得意だものね。」\n――リリアナ・ヴェス",
@@ -1518,7 +1576,8 @@
             "multiverseId": 486700,
             "name": "非実体化",
             "text": "呪文１つかクリーチャー１体を対象とし、それをオーナーの手札に戻す。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "d0cecec6-c4bb-5cae-b70a-2ef755729c1b"
           },
           {
             "flavorText": "\"잘했어, 제이스. 모습을 감추는 건 언제나 네 특기였지.\"\n—릴리아나 베스",
@@ -1530,7 +1589,8 @@
             "multiverseId": 486959,
             "name": "비실체화",
             "text": "주문 또는 생물을 목표로 정한다. 그 목표를 소유자의 손으로 되돌린다.",
-            "type": "순간마법"
+            "type": "순간마법",
+            "uuid": "299c4a8a-b3f0-5a8b-bdd1-d4066c72a306"
           },
           {
             "flavorText": "\"Muito bom, Jace. Você sempre foi ótimo em fazer coisas desaparecerem.\"\n— Liliana Vess",
@@ -1542,7 +1602,8 @@
             "multiverseId": 487218,
             "name": "Insubstanciar",
             "text": "Devolva a mágica ou criatura alvo para a mão de seu dono.",
-            "type": "Mágica Instantânea"
+            "type": "Mágica Instantânea",
+            "uuid": "cf9296d9-e622-5085-b31f-e347ad1e8501"
           },
           {
             "flavorText": "«Очень хорошо, Джейс. Исчезновения тебе всегда отлично удавались».\n— Лилиана Весс",
@@ -1554,7 +1615,8 @@
             "multiverseId": 487477,
             "name": "Лишить Основания",
             "text": "Верните целевое заклинание или существо в руку его владельца.",
-            "type": "Мгновенное заклинание"
+            "type": "Мгновенное заклинание",
+            "uuid": "a922a70a-c752-57ae-9f08-7a0ac4f24172"
           },
           {
             "flavorText": "「干得漂亮，杰斯。你一直很擅长玩失踪这类把戏。」\n～莉莲娜维斯",
@@ -1566,7 +1628,8 @@
             "multiverseId": 487736,
             "name": "消解",
             "text": "将目标咒语或生物移回其拥有者手上。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "2aaae600-926d-5035-88a4-64f7c6916398"
           },
           {
             "flavorText": "「幹得漂亮，傑斯。你一直很擅長玩失蹤這類把戲。」\n～莉蓮娜維斯",
@@ -1578,7 +1641,8 @@
             "multiverseId": 487995,
             "name": "消解",
             "text": "將目標咒語或生物移回其擁有者手上。",
-            "type": "瞬間"
+            "type": "瞬間",
+            "uuid": "3e7a3b23-8df0-55a3-a8f6-37c18710d05a"
           }
         ],
         "frameVersion": "2015",
@@ -1602,6 +1666,7 @@
           "scryfallOracleId": "c387f46f-ad91-4964-8dc6-acefe537fe3c",
           "tcgplayerProductId": "215676"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1624,13 +1689,13 @@
         "name": "Unsubstantiate",
         "number": "82",
         "originalText": "Return target spell or creature to its owner's hand.",
-        "originalType": "Instant",
         "printings": [
           "EMN",
           "M21",
           "PEMN",
           "PLST",
-          "PRM"
+          "PRM",
+          "SLD"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/66a92d17ccbfe1bc",
@@ -1689,8 +1754,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15126,
-        "edhrecSaltiness": 0.22,
+        "edhrecRank": 16041,
+        "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil",
           "foil"
@@ -1707,7 +1772,8 @@
             "multiverseId": 485633,
             "name": "Frosthauch",
             "text": "Tappe bis zu zwei Kreaturen deiner Wahl. Sie enttappen nicht während des nächsten Enttappsegments ihrer Beherrscher.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "77bc732a-a34e-5d17-b248-d47c221554d6"
           },
           {
             "flavorText": "\"Haré campanillas de hielo con tus huesos\".",
@@ -1719,7 +1785,8 @@
             "multiverseId": 485892,
             "name": "Aliento escarchado",
             "text": "Gira hasta dos criaturas objetivo. Esas criaturas no se enderezan durante el próximo paso de enderezar de su controlador.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "cdfe4e45-0bfc-5046-90b5-8a1c2ee1cfeb"
           },
           {
             "flavorText": "« Tes os gelés carillonneront dans le vent. »",
@@ -1731,7 +1798,8 @@
             "multiverseId": 486151,
             "name": "Souffle de givre",
             "text": "Engagez jusqu'à deux créatures ciblées. Ces créatures ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "c656b5c2-a7b1-5262-bdf0-abe586815177"
           },
           {
             "flavorText": "\"Con le tue ossa farò campanelli di ghiaccio.\"",
@@ -1743,7 +1811,8 @@
             "multiverseId": 486410,
             "name": "Soffio Gelato",
             "text": "TAPpa fino a due creature bersaglio. Quelle creature non STAPpano durante il prossimo STAP del loro controllore.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "5e415a67-8cd5-58a4-a483-8d710a0c6a69"
           },
           {
             "flavorText": "「お前の骨で氷のチャイムを作ってやるよ。」",
@@ -1755,7 +1824,8 @@
             "multiverseId": 486669,
             "name": "霜のブレス",
             "text": "クリーチャー最大２体を対象とし、それらをタップする。それらのクリーチャーは、それらのコントローラーの次のアンタップ・ステップにアンタップしない。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "3c6fdc89-2d51-538c-b5b5-11610b7784c9"
           },
           {
             "flavorText": "\"네 뼈가 얼어붙는 소리를 들려주마.\"",
@@ -1767,7 +1837,8 @@
             "multiverseId": 486928,
             "name": "서리입김",
             "text": "생물을 최대 두 개까지 목표로 정한다. 그 생물들을 탭한다. 그 생물들은 조종자의 다음 언탭단에 언탭되지 않는다.",
-            "type": "순간마법"
+            "type": "순간마법",
+            "uuid": "f59fc1b2-e194-5438-9845-c52f935ffccc"
           },
           {
             "flavorText": "\"Vou fazer um carrilhão de gelo com seus ossos.\"",
@@ -1779,7 +1850,8 @@
             "multiverseId": 487187,
             "name": "Hálito Congelador",
             "text": "Vire até duas criaturas alvo. Aquelas criaturas não são desviradas durante a próxima etapa de desvirar de seus controladores.",
-            "type": "Mágica Instantânea"
+            "type": "Mágica Instantânea",
+            "uuid": "33a7ff91-8d8f-5e00-967d-25f617cdea16"
           },
           {
             "flavorText": "«Твои обледенелые кости будут издавать мелодичный перезвон на ветру».",
@@ -1791,7 +1863,8 @@
             "multiverseId": 487446,
             "name": "Морозное Дыхание",
             "text": "Поверните не более двух целевых существ. Те существа не разворачиваются во время следующего шага разворота контролирующего их игрока.",
-            "type": "Мгновенное заклинание"
+            "type": "Мгновенное заклинание",
+            "uuid": "dd00ca43-4654-5f7c-92f2-25522ab97f07"
           },
           {
             "flavorText": "「我要把你的骨头冻成冰当钟敲。」",
@@ -1803,7 +1876,8 @@
             "multiverseId": 487705,
             "name": "霜息",
             "text": "横置至多两个目标生物。这些生物于其操控者的下一个重置步骤中不能重置。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "65ca7ddb-e1ca-5a51-8696-75bde1209aec"
           },
           {
             "flavorText": "「我要把你的骨頭凍成冰當鐘敲。」",
@@ -1815,7 +1889,8 @@
             "multiverseId": 487964,
             "name": "霜息",
             "text": "橫置至多兩個目標生物。這些生物於其操控者的下一個重置步驟中不能重置。",
-            "type": "瞬間"
+            "type": "瞬間",
+            "uuid": "55900c2f-8afc-57b2-bf06-fad5c56f0079"
           }
         ],
         "frameVersion": "2015",
@@ -1839,6 +1914,7 @@
           "scryfallOracleId": "382097b3-f753-493c-bde4-101c0538feb4",
           "tcgplayerProductId": "215842"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1864,7 +1940,6 @@
         "name": "Frost Breath",
         "number": "51",
         "originalText": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
-        "originalType": "Instant",
         "printings": [
           "M12",
           "M14",
@@ -1927,8 +2002,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 5044,
-        "edhrecSaltiness": 0.29,
+        "edhrecRank": 5142,
+        "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil",
           "foil"
@@ -1945,7 +2020,8 @@
             "multiverseId": 485638,
             "name": "Luftige Verweigerung",
             "text": "Neutralisiere einen Zauberspruch deiner Wahl, es sei denn, sein Beherrscher bezahlt {1}. Falls du eine fliegende Kreatur kontrollierst, neutralisiere stattdessen den Zauberspruch, es sei denn, sein Beherrscher bezahlt {4}.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "208e0b2d-c0aa-5515-accd-0ad6560c434c"
           },
           {
             "flavorText": "El mago frunció el ceño cuando otro rayo salpicó sin hacer daño a lo que no parecía nada más que aire.",
@@ -1957,7 +2033,8 @@
             "multiverseId": 485897,
             "name": "Negación elevada",
             "text": "Contrarresta el hechizo objetivo a menos que su controlador pague {1}. Si controlas una criatura con la habilidad de volar, en vez de eso, contrarresta ese hechizo a menos que su controlador pague {4}.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "77a873d4-af42-50d2-84c7-3521243f415d"
           },
           {
             "flavorText": "Le mage se renfrogna lorsqu'un autre éclair se dissipa sans effet sur ce qui semblait n'être que le vide.",
@@ -1969,7 +2046,8 @@
             "multiverseId": 486156,
             "name": "Déni noble",
             "text": "Contrecarrez le sort ciblé à moins que son contrôleur ne paie {1}. Si vous contrôlez une créature avec le vol, contrecarrez ce sort à moins que son contrôleur ne paie {4} à la place.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "a506f4cd-b630-5093-bb82-3f5184330fd4"
           },
           {
             "flavorText": "Il mago aggrottò le ciglia mentre l'ennesima saetta si infrangeva innocua contro quella che non sembrava altro che aria.",
@@ -1981,7 +2059,8 @@
             "multiverseId": 486415,
             "name": "Negazione Eccelsa",
             "text": "Neutralizza una magia bersaglio a meno che il suo controllore non paghi {1}. Se controlli una creatura con volare, neutralizza quella magia a meno che il suo controllore non paghi invece {4}.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "45b1f6d1-97e7-551a-85f5-85074329a332"
           },
           {
             "flavorText": "その魔道士は顔をしかめた。またしても雷光が、一見して何もない空中で無意味に弾けてしまったからだ。",
@@ -1993,7 +2072,8 @@
             "multiverseId": 486674,
             "name": "高尚な否定",
             "text": "呪文１つを対象とする。それのコントローラーが{1}を支払わないかぎり、それを打ち消す。あなたが飛行を持つクリーチャーをコントロールしているなら、代わりに、それのコントローラーが{4}を支払わないかぎり、それを打ち消す。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "d9dce698-a4c4-5bf3-b2e4-beab4f0bbc96"
           },
           {
             "flavorText": "마도사는 또 다른 번개 한 줄기가 허공에서 무해하게 흩어지는 것을 보며 얼굴을 찌푸렸다.",
@@ -2005,7 +2085,8 @@
             "multiverseId": 486933,
             "name": "도도한 부정",
             "text": "주문을 목표로 정한다. 그 주문의 조종자가 {1}을 지불하지 않으면 그 주문을 무효화한다. 당신이 비행을 가진 생물을 조종한다면, 대신 그 주문의 조종자가 {4}를 지불하지 않으면 그 주문을 무효화한다.",
-            "type": "순간마법"
+            "type": "순간마법",
+            "uuid": "86b419fa-4f8c-511e-96d2-cfe348e9091c"
           },
           {
             "flavorText": "O mago franziu a testa quando outra rajada rebentou inofensiva, aparentemente contra o vazio.",
@@ -2017,7 +2098,8 @@
             "multiverseId": 487192,
             "name": "Negação Altiva",
             "text": "Anule a mágica alvo, a menos que seu controlador pague {1}. Se você controla uma criatura com voar, em vez disso, anule aquela mágica, a menos que o controlador dela pague {4}.",
-            "type": "Mágica Instantânea"
+            "type": "Mágica Instantânea",
+            "uuid": "2658d25d-61a7-5fd5-a97f-8e3a2fb18f6b"
           },
           {
             "flavorText": "Маг скривился, когда очередной разряд рассыпался искрами, ударив в казалось бы пустое небо.",
@@ -2029,7 +2111,8 @@
             "multiverseId": 487451,
             "name": "Высотный Отказ",
             "text": "Отмените целевое заклинание, если только контролирующий его игрок не заплатит {1}. Если вы контролируете существо с Полетом, то вместо этого отмените то заклинание, если только контролирующий его игрок не заплатит {4}.",
-            "type": "Мгновенное заклинание"
+            "type": "Мгновенное заклинание",
+            "uuid": "698e13f4-2f9a-51c9-88c5-d4056424f408"
           },
           {
             "flavorText": "看着又一道电光在似乎浑然无物的空中悄然四散，法师不禁皱起了眉头。",
@@ -2041,7 +2124,8 @@
             "multiverseId": 487710,
             "name": "清高拒斥",
             "text": "除非目标咒语的操控者支付{1}，否则反击之。如果你操控具飞行异能的生物，则改为除非该咒语的操控者支付{4}，否则反击之。",
-            "type": "瞬间"
+            "type": "瞬间",
+            "uuid": "64c69b28-aa48-5979-875e-a179104d49d2"
           },
           {
             "flavorText": "看著又一道電光在似乎渾然無物的空中悄然四散，法師不禁皺起了眉頭。",
@@ -2053,7 +2137,8 @@
             "multiverseId": 487969,
             "name": "清高拒斥",
             "text": "除非目標咒語的操控者支付{1}，否則反擊之。如果你操控具飛行異能的生物，則改為除非該咒語的操控者支付{4}，否則反擊之。",
-            "type": "瞬間"
+            "type": "瞬間",
+            "uuid": "395dab61-ad9e-5439-9453-7947179ff8e5"
           }
         ],
         "frameVersion": "2015",
@@ -2077,6 +2162,7 @@
           "scryfallOracleId": "d799a2c4-628a-45da-b9ca-0337c46e3e14",
           "tcgplayerProductId": "215611"
         },
+        "isEtched": false,
         "isFoil": false,
         "language": "English",
         "layout": "normal",
@@ -2091,7 +2177,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -2101,7 +2186,6 @@
         "name": "Lofty Denial",
         "number": "56",
         "originalText": "Counter target spell unless its controller pays {1}. If you control a creature with flying, counter that spell unless its controller pays {4} instead.",
-        "originalType": "Instant",
         "printings": [
           "M21"
         ],
@@ -2163,8 +2247,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 16824,
-        "edhrecSaltiness": 0.09,
+        "edhrecRank": 17414,
+        "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil",
           "foil"
@@ -2179,7 +2263,8 @@
             "multiverseId": 485629,
             "name": "Gefängnissphäre",
             "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur\nWenn die Gefängnissphäre ins Spiel kommt, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura"
+            "type": "Verzauberung — Aura",
+            "uuid": "c53dd5b0-a6bd-5e82-b85c-a303417aea66"
           },
           {
             "identifiers": {
@@ -2190,7 +2275,8 @@
             "multiverseId": 485888,
             "name": "Esfera de captura",
             "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura.\nCuando la Esfera de captura entre al campo de batalla, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura"
+            "type": "Encantamiento — Aura",
+            "uuid": "e8872429-cbf8-5369-8a1e-9e72c4001c58"
           },
           {
             "identifiers": {
@@ -2201,7 +2287,8 @@
             "multiverseId": 486147,
             "name": "Sphère de capture",
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nEnchanter : créature\nQuand la Sphère de capture arrive sur le champ de bataille, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
-            "type": "Enchantement : aura"
+            "type": "Enchantement : aura",
+            "uuid": "d91c5891-9709-5745-bb0e-e523ff4c0568"
           },
           {
             "identifiers": {
@@ -2212,7 +2299,8 @@
             "multiverseId": 486406,
             "name": "Sfera di Cattura",
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nIncanta creatura\nQuando la Sfera di Cattura entra nel campo di battaglia, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
-            "type": "Incantesimo — Aura"
+            "type": "Incantesimo — Aura",
+            "uuid": "008bdbaf-c093-590f-a111-27707b58408e"
           },
           {
             "identifiers": {
@@ -2223,7 +2311,8 @@
             "multiverseId": 486665,
             "name": "捕獲球",
             "text": "瞬速（あなたはこの呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nエンチャント（クリーチャー）\n捕獲球が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
-            "type": "エンチャント — オーラ"
+            "type": "エンチャント — オーラ",
+            "uuid": "c8f08088-9f3c-51ea-84ef-6a6b03a1b7cc"
           },
           {
             "identifiers": {
@@ -2234,7 +2323,8 @@
             "multiverseId": 486924,
             "name": "포획 구체",
             "text": "섬광 (순간마법을 발동할 수 있는 시기라면 당신은 이 주문을 언제든지 발동할 수 있다.)\n생물에게 부여\n포획 구체가 전장에 들어올 때, 부여된 생물을 탭한다.\n부여된 생물은 조종자의 언탭단에 언탭되지 않는다.",
-            "type": "부여마법 — 마법진"
+            "type": "부여마법 — 마법진",
+            "uuid": "3dec7bd1-6aec-5e93-bf46-60b451f45d95"
           },
           {
             "identifiers": {
@@ -2245,7 +2335,8 @@
             "multiverseId": 487183,
             "name": "Esfera de Captura",
             "text": "Lampejo (Você poderá conjurar esta mágica a qualquer momento em que puder conjurar uma mágica instantânea.)\nEncantar criatura\nQuando Esfera de Captura entrar no campo de batalha, vire a criatura encantada.\nA criatura encantada não é desvirada durante a etapa de desvirar de seu controlador.",
-            "type": "Encantamento — Aura"
+            "type": "Encantamento — Aura",
+            "uuid": "fbc64160-7bd9-5a76-a3f7-2b0988fce425"
           },
           {
             "identifiers": {
@@ -2256,7 +2347,8 @@
             "multiverseId": 487442,
             "name": "Ловчая Сфера",
             "text": "Миг (Вы можете разыграть это заклинание при любой возможности разыгрывать мгновенные заклинания.)\nЗачаровать существо\nКогда Ловчая Сфера выходит на поле битвы, поверните зачарованное существо.\nЗачарованное существо не разворачивается во время шага разворота контролирующего его игрока.",
-            "type": "Чары — Аура"
+            "type": "Чары — Аура",
+            "uuid": "6070aef9-567c-549c-9204-43a7cdf8fe22"
           },
           {
             "identifiers": {
@@ -2267,7 +2359,8 @@
             "multiverseId": 487701,
             "name": "拘捕法球",
             "text": "闪现（你可以于你能够施放瞬间的时机下施放此咒语。）\n结附于生物\n当拘捕法球进战场时，横置所结附的生物。\n所结附的生物于其操控者的重置步骤中不能重置。",
-            "type": "结界 ～灵气"
+            "type": "结界 ～灵气",
+            "uuid": "77b87713-c813-5b50-90fa-d090e738b462"
           },
           {
             "identifiers": {
@@ -2278,7 +2371,8 @@
             "multiverseId": 487960,
             "name": "拘捕法球",
             "text": "閃現（你可以於你能夠施放瞬間的時機下施放此咒語。）\n結附於生物\n當拘捕法球進戰場時，橫置所結附的生物。\n所結附的生物於其操控者的重置步驟中不能重置。",
-            "type": "結界 ～靈氣"
+            "type": "結界 ～靈氣",
+            "uuid": "2fd3d764-75ca-5f51-89d5-c13c3b2a88b0"
           }
         ],
         "frameVersion": "2015",
@@ -2302,6 +2396,7 @@
           "scryfallOracleId": "2dc59566-10cb-468a-b6a2-17d6c0186e6d",
           "tcgplayerProductId": "215861"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -2331,7 +2426,6 @@
         "name": "Capture Sphere",
         "number": "47",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
-        "originalType": "Enchantment — Aura",
         "printings": [
           "2X2",
           "GRN",
@@ -2391,8 +2485,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1143,
-        "edhrecSaltiness": 0.02,
+        "edhrecRank": 1184,
+        "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
@@ -2417,6 +2511,7 @@
           "scryfallOracleId": "69fc70b8-b143-4662-ac95-e2743037239d",
           "tcgplayerProductId": "215958"
         },
+        "isEtched": false,
         "isFoil": false,
         "language": "English",
         "layout": "normal",
@@ -2436,6 +2531,7 @@
         "manaValue": 0.0,
         "name": "Thriving Isle",
         "number": "36",
+        "originalText": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
         "printings": [
           "AFC",
           "BLC",
@@ -2448,6 +2544,7 @@
           "LCC",
           "MOC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2490,8 +2587,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 7,
-        "edhrecSaltiness": 0.64,
+        "count": 3,
+        "edhrecSaltiness": 0.92,
         "finishes": [
           "nonfoil",
           "foil"
@@ -2505,7 +2602,8 @@
             "language": "German",
             "multiverseId": 488479,
             "name": "Insel",
-            "type": "Standardland — Insel"
+            "type": "Standardland — Insel",
+            "uuid": "f20312c0-25fe-59a5-9d1a-65a30ee23612"
           },
           {
             "identifiers": {
@@ -2515,7 +2613,8 @@
             "language": "Spanish",
             "multiverseId": 488494,
             "name": "Isla",
-            "type": "Tierra básica — Isla"
+            "type": "Tierra básica — Isla",
+            "uuid": "f4cfd706-189b-5fa6-8dff-0f57895b452e"
           },
           {
             "identifiers": {
@@ -2525,7 +2624,8 @@
             "language": "French",
             "multiverseId": 488509,
             "name": "Île",
-            "type": "Terrain de base : île"
+            "type": "Terrain de base : île",
+            "uuid": "3500344b-5bcc-5de3-b3bd-4f51e7447879"
           },
           {
             "identifiers": {
@@ -2535,7 +2635,8 @@
             "language": "Japanese",
             "multiverseId": 488539,
             "name": "島",
-            "type": "基本土地 — 島"
+            "type": "基本土地 — 島",
+            "uuid": "ad34c00c-341d-5448-9ef8-5d2f1fb36f3c"
           },
           {
             "identifiers": {
@@ -2545,7 +2646,8 @@
             "language": "Russian",
             "multiverseId": 488584,
             "name": "Остров",
-            "type": "Базовая Земля — Остров"
+            "type": "Базовая Земля — Остров",
+            "uuid": "ed94f278-3408-57fc-b9f2-b46c34bccb73"
           },
           {
             "identifiers": {
@@ -2555,7 +2657,8 @@
             "language": "Chinese Simplified",
             "multiverseId": 488599,
             "name": "海岛",
-            "type": "基本地 ～海岛"
+            "type": "基本地 ～海岛",
+            "uuid": "a6b9fce8-d060-5725-9acc-bceaf167e26b"
           },
           {
             "identifiers": {
@@ -2565,7 +2668,8 @@
             "language": "Chinese Traditional",
             "multiverseId": 488614,
             "name": "海島",
-            "type": "基本地 ～海島"
+            "type": "基本地 ～海島",
+            "uuid": "05cad1bb-989d-56cd-ae5e-80188332b233"
           }
         ],
         "frameVersion": "2015",
@@ -2588,6 +2692,7 @@
           "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
           "tcgplayerProductId": "215716"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2618,7 +2723,6 @@
         "name": "Island",
         "number": "263",
         "originalText": "U",
-        "originalType": "Basic Land — Island",
         "printings": [
           "10E",
           "2ED",
@@ -2692,6 +2796,7 @@
           "EOE",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2812,6 +2917,7 @@
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2819,7 +2925,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -2883,12 +2991,13 @@
         ]
       },
       {
-        "artist": "Piotr Dura",
+        "artist": "Jonas De Ro",
         "artistIds": [
-          "aff176e8-1d15-432e-ad1d-207a474decba"
+          "561ebf9e-8d93-4b57-8156-8826d0c19601"
         ],
         "availability": [
           "arena",
+          "mtgo",
           "paper"
         ],
         "boosterTypes": [
@@ -2900,29 +3009,112 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 1,
-        "edhrecSaltiness": 0.64,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
         "finishes": [
-          "nonfoil"
+          "nonfoil",
+          "foil"
         ],
-        "foreignData": [],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "488480",
+              "scryfallId": "2ea286be-4f32-4108-899b-32f198fce06f"
+            },
+            "language": "German",
+            "multiverseId": 488480,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "23b80e38-4345-5804-bc27-dd5bb9b66705"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488510",
+              "scryfallId": "ce8c3f40-6a80-4342-8fb9-98fa97a2fd16"
+            },
+            "language": "French",
+            "multiverseId": 488510,
+            "name": "Île",
+            "type": "Terrain de base : île",
+            "uuid": "0b20ebce-e5cc-52b1-96ee-d25a5a78c17c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488525",
+              "scryfallId": "786c9b65-b135-44b2-81e2-c4d5c15bd161"
+            },
+            "language": "Italian",
+            "multiverseId": 488525,
+            "name": "Isola",
+            "type": "Terra Base — Isola",
+            "uuid": "866527f9-97b8-5209-9fd7-8f291b3cff4e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488540",
+              "scryfallId": "0181a6a1-0eba-4c6a-a9f3-f726c758713d"
+            },
+            "language": "Japanese",
+            "multiverseId": 488540,
+            "name": "島",
+            "type": "基本土地 — 島",
+            "uuid": "1046cc56-dd16-500e-bd6a-8a797d115b72"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488555",
+              "scryfallId": "04cf9a85-610b-497f-bf58-55e4836d4523"
+            },
+            "language": "Korean",
+            "multiverseId": 488555,
+            "name": "섬",
+            "type": "기본 대지 — 섬",
+            "uuid": "f65e87ea-4e43-5280-b2b5-c04658cb08a6"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488570",
+              "scryfallId": "2f2d711a-4992-48ea-abe0-2c4ce0ffa9f8"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488570,
+            "name": "Ilha",
+            "type": "Terreno Básico — Ilha",
+            "uuid": "c5b7cea9-3d25-57c1-8d89-f1231cad20d8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488615",
+              "scryfallId": "768fc185-6731-4471-b04c-2f358fe43de8"
+            },
+            "language": "Chinese Traditional",
+            "multiverseId": 488615,
+            "name": "海島",
+            "type": "基本地 ～海島",
+            "uuid": "9ac37949-58a7-5c49-829a-52b01ac4acab"
+          }
+        ],
         "frameVersion": "2015",
-        "hasFoil": false,
+        "hasFoil": true,
         "hasNonFoil": true,
         "identifiers": {
-          "cardKingdomId": "235037",
-          "cardsphereId": "68633",
-          "deckboxId": "51056",
-          "mcmId": "474124",
-          "mtgArenaId": "72568",
-          "mtgjsonV4Id": "46afc32e-306c-5a2e-888f-e723661ddb06",
-          "multiverseId": "489632",
+          "cardKingdomFoilId": "234504",
+          "cardKingdomId": "234197",
+          "cardsphereFoilId": "68181",
+          "cardsphereId": "67955",
+          "deckboxId": "50775",
+          "mcmId": "471179",
+          "mtgArenaId": "72084",
+          "mtgjsonV4Id": "a406d63e-2973-581c-8b4b-ee734bccce50",
+          "mtgoId": "81207",
+          "multiverseId": "488465",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
-          "scryfallId": "6a3c7c06-76e4-487d-a63f-4aed3bbb4638",
-          "scryfallIllustrationId": "36bdceac-81c7-4112-9723-ebd91ee663b6",
+          "scryfallId": "017fb3fc-433e-4853-bbac-99fa04b40233",
+          "scryfallIllustrationId": "a7452510-406a-46c3-a9dc-5c18624ad50f",
           "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
-          "tcgplayerProductId": "216377"
+          "tcgplayerProductId": "215717"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2951,7 +3143,8 @@
         },
         "manaValue": 0.0,
         "name": "Island",
-        "number": "48",
+        "number": "264",
+        "originalText": "U",
         "printings": [
           "10E",
           "2ED",
@@ -3025,6 +3218,7 @@
           "EOE",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -3145,6 +3339,7 @@
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -3152,7 +3347,770 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/e64f526092ee7e6c",
+          "cardKingdomFoil": "https://mtgjson.com/links/059ae7c44d71de97",
+          "tcgplayer": "https://mtgjson.com/links/2e27967a6e5603b6"
+        },
+        "rarity": "common",
+        "setCode": "M21",
+        "sourceProducts": {
+          "foil": [
+            "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+          ],
+          "nonfoil": [
+            "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "bfc6c856-244d-5cca-9c5b-639e94cf3f4d",
+        "variations": [
+          "a2cfefab-7490-512e-9cef-0bd3bbc22fef",
+          "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57",
+          "5d68fdec-6205-571f-804a-7dc74f7811fd"
+        ]
+      },
+      {
+        "artist": "Andreas Rocha",
+        "artistIds": [
+          "d084e74b-f63a-4107-b72c-ed6250ecc93b"
+        ],
+        "availability": [
+          "arena",
+          "mtgo",
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "488481",
+              "scryfallId": "e568f229-856e-4ad6-9d5d-093a44427822"
+            },
+            "language": "German",
+            "multiverseId": 488481,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "a3f497e6-bdc8-581a-9d83-14cb8b7cbf4f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488496",
+              "scryfallId": "5326b4a0-7de8-472c-9c21-fc347eff1857"
+            },
+            "language": "Spanish",
+            "multiverseId": 488496,
+            "name": "Isla",
+            "type": "Tierra básica — Isla",
+            "uuid": "f4afc287-2712-51a5-9647-7eef8801bbc3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488511",
+              "scryfallId": "b4650d52-ec22-4de4-a464-0578bea5767f"
+            },
+            "language": "French",
+            "multiverseId": 488511,
+            "name": "Île",
+            "type": "Terrain de base : île",
+            "uuid": "f998c10b-1b57-559a-8bf8-5cf4627fe2e4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488571",
+              "scryfallId": "779fcef5-b380-4d8e-b0d4-63fc11d09498"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488571,
+            "name": "Ilha",
+            "type": "Terreno Básico — Ilha",
+            "uuid": "65168c06-6f96-59c7-8781-8b9726c0308e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488586",
+              "scryfallId": "20563e75-40d5-4b2b-b081-09c7b7935021"
+            },
+            "language": "Russian",
+            "multiverseId": 488586,
+            "name": "Остров",
+            "type": "Базовая Земля — Остров",
+            "uuid": "7834e6ab-0781-52b3-b1b9-e426ffb4b001"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488601",
+              "scryfallId": "c6c08676-c421-4cfe-bdfb-7a86e59d8196"
+            },
+            "language": "Chinese Simplified",
+            "multiverseId": 488601,
+            "name": "海岛",
+            "type": "基本地 ～海岛",
+            "uuid": "cc9c70e9-d74b-5a87-a617-19be4287a09d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488616",
+              "scryfallId": "a3f95478-8e18-4981-9ac0-6a785bdd5bd7"
+            },
+            "language": "Chinese Traditional",
+            "multiverseId": 488616,
+            "name": "海島",
+            "type": "基本地 ～海島",
+            "uuid": "8ad78a36-9528-5fcd-b2cd-186b8ec9e1b4"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": true,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomFoilId": "234505",
+          "cardKingdomId": "234198",
+          "cardsphereFoilId": "68004",
+          "cardsphereId": "67956",
+          "deckboxId": "50776",
+          "mcmId": "471174",
+          "mtgArenaId": "72085",
+          "mtgjsonV4Id": "02b44836-a5f9-56b0-9c2c-e2138e63332b",
+          "mtgoId": "81209",
+          "multiverseId": "488466",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "0600d6d5-f6a1-47c3-a898-733fab10bbf5",
+          "scryfallIllustrationId": "71cf05a2-12fa-4bb1-9b89-e416aecc4e51",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "215718"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "265",
+        "originalText": "U",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/81fb8d47ba8f0d60",
+          "cardKingdomFoil": "https://mtgjson.com/links/3d866b10d42c5615",
+          "tcgplayer": "https://mtgjson.com/links/4ad8d2e5d6e7acbe"
+        },
+        "rarity": "common",
+        "setCode": "M21",
+        "sourceProducts": {
+          "foil": [
+            "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+          ],
+          "nonfoil": [
+            "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57",
+        "variations": [
+          "a2cfefab-7490-512e-9cef-0bd3bbc22fef",
+          "bfc6c856-244d-5cca-9c5b-639e94cf3f4d",
+          "5d68fdec-6205-571f-804a-7dc74f7811fd"
+        ]
+      },
+      {
+        "artist": "Piotr Dura",
+        "artistIds": [
+          "aff176e8-1d15-432e-ad1d-207a474decba"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 1,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "235037",
+          "cardsphereId": "68633",
+          "deckboxId": "51056",
+          "mcmId": "474124",
+          "mtgArenaId": "72568",
+          "mtgjsonV4Id": "46afc32e-306c-5a2e-888f-e723661ddb06",
+          "multiverseId": "489632",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "6a3c7c06-76e4-487d-a63f-4aed3bbb4638",
+          "scryfallIllustrationId": "36bdceac-81c7-4112-9723-ebd91ee663b6",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "216377"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "48",
+        "originalText": "U",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -3217,6 +4175,11 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "JMP",
+      "M21"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }

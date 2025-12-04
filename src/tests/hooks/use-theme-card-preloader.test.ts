@@ -8,9 +8,9 @@ const { mockQueueAdd } = vi.hoisted(() => {
 });
 
 vi.mock("p-queue", () => ({
-  default: vi.fn().mockImplementation(() => ({
-    add: mockQueueAdd,
-  })),
+  default: class {
+    add = mockQueueAdd;
+  },
 }));
 
 const { mockPrefetchQuery } = vi.hoisted(() => {
@@ -43,9 +43,8 @@ describe("useThemeCardPreloader hook", () => {
     vi.resetModules();
 
     // import a fresh version of the hook for each test
-    const { useThemeCardPreloader: freshHook } = await import(
-      "@/hooks/use-theme-card-preloader"
-    );
+    const { useThemeCardPreloader: freshHook } =
+      await import("@/hooks/use-theme-card-preloader");
     useThemeCardPreloader = freshHook;
   });
 

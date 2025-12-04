@@ -1,16 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Check, Clipboard } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
 import { cn } from "@/lib/utils.ts";
 
-function CopyButton({
-  size = "default",
-  variant = "default",
-  textToCopy,
-  buttonText,
-  disabled = false,
-  className,
-}: {
+type CopyButtonProps = {
   size?: "default" | "sm" | "lg" | "icon";
   variant?:
     | "default"
@@ -23,27 +16,51 @@ function CopyButton({
   buttonText?: string;
   disabled?: boolean;
   className?: string;
-}) {
+};
+
+const COPY_SUCCESS_DURATION_MS = 3000;
+
+function CopyButton({
+  size = "default",
+  variant = "default",
+  textToCopy,
+  buttonText,
+  disabled = false,
+  className,
+}: CopyButtonProps) {
   const [isCopied, setIsCopied] = useState(false);
 
-  const copyToClipboard = async () => {
-    if (isCopied) {
+  useEffect(() => {
+    if (!isCopied) {
       return;
     }
+
+    const timerId = setTimeout(() => {
+      setIsCopied(false);
+    }, COPY_SUCCESS_DURATION_MS);
+
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, [isCopied]);
+
+  const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(textToCopy);
       setIsCopied(true);
-      setTimeout(() => setIsCopied(false), 3000); // reset icon
     } catch (err) {
       console.error("Failed to copy to clipboard:", err);
     }
   };
 
+  const Icon = isCopied ? Check : Clipboard;
+  const displayText = buttonText ? (isCopied ? "Copied!" : buttonText) : null;
+
   return (
     <Button
       size={size}
       variant={variant}
-      onClick={copyToClipboard}
+      onClick={handleCopy}
       disabled={isCopied || disabled}
       title="Copy decklist to clipboard"
       className={cn(
@@ -53,8 +70,8 @@ function CopyButton({
           : "cursor-pointer",
       )}
     >
-      {isCopied ? <Check /> : <Clipboard />}
-      {buttonText && (isCopied ? "Copied!" : buttonText)}
+      <Icon />
+      {displayText}
     </Button>
   );
 }

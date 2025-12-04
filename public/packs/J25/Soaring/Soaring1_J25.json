@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "7ffc6cd750443e"
   },
   "data": {
@@ -27,7 +27,8 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 6061,
+        "edhrecRank": 6651,
+        "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
@@ -43,7 +44,8 @@
             "multiverseId": 682791,
             "name": "Windvertraute Sphinx",
             "text": "Fliegend\nImmer wenn eine fliegende Kreatur angreift, kannst du eine Karte ziehen.",
-            "type": "Kreatur — Sphinx"
+            "type": "Kreatur — Sphinx",
+            "uuid": "c240f4ae-cd37-557a-ad9e-5a86bcf40f93"
           },
           {
             "flavorText": "\"Tu mente está demasiado llena de preocupaciones banales para oír los sutiles susurros que porta la brisa\".",
@@ -55,7 +57,8 @@
             "multiverseId": 682905,
             "name": "Esfinge leevientos",
             "text": "Vuela.\nSiempre que una criatura con la habilidad de volar ataque, puedes robar una carta.",
-            "type": "Criatura — Esfinge"
+            "type": "Criatura — Esfinge",
+            "uuid": "85e93664-5756-5341-a1cc-d20a9b295760"
           },
           {
             "flavorText": "« L'inquiétude irraisonnée parasite ton cerveau au point de te rendre sourd aux murmures portés par la brise. »",
@@ -67,7 +70,8 @@
             "multiverseId": 683019,
             "name": "Sphinx déchiffre-vent",
             "text": "Vol\nÀ chaque fois qu'une créature avec le vol attaque, vous pouvez piocher une carte.",
-            "type": "Créature — sphinx"
+            "type": "Créature — sphinx",
+            "uuid": "f450991c-3046-58d2-bd68-7c9576100e02"
           },
           {
             "flavorText": "\"La tua mente è troppo piena di preoccupazioni inutili per riuscire a percepire il sottile sussurro portato dalla brezza.\"",
@@ -79,7 +83,8 @@
             "multiverseId": 683133,
             "name": "Sfinge Scrutavento",
             "text": "Volare\nOgniqualvolta una creatura con volare attacca, puoi pescare una carta.",
-            "type": "Creatura — Sfinge"
+            "type": "Creatura — Sfinge",
+            "uuid": "eb9b2cbe-5c2e-53ce-8ed1-4714940fcc68"
           },
           {
             "flavorText": "「お前の心は愚かな心配事で一杯になっている。それでは風が運んでくるかすかな囁きは聴こえまい。」",
@@ -91,7 +96,8 @@
             "multiverseId": 683247,
             "name": "風読みのスフィンクス",
             "text": "飛行\n飛行を持つクリーチャー１体が攻撃するたび、あなたはカード１枚を引いてもよい。",
-            "type": "クリーチャー — スフィンクス"
+            "type": "クリーチャー — スフィンクス",
+            "uuid": "a22bfc2b-9900-5b75-bf7b-9edfd08a3e0f"
           }
         ],
         "frameVersion": "2015",
@@ -112,6 +118,7 @@
           "scryfallOracleId": "5e038a3a-fbab-46c2-8773-1327d953da16",
           "tcgplayerProductId": "590165"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -120,7 +127,6 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -139,7 +145,6 @@
         "name": "Windreader Sphinx",
         "number": "391",
         "originalText": "Flying\nWhenever a creature with flying attacks, you may draw a card.",
-        "originalType": "Creature — Sphinx",
         "power": "3",
         "printings": [
           "ANB",
@@ -208,7 +213,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20149,
+        "edhrecRank": 19922,
+        "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
@@ -222,7 +228,8 @@
             "multiverseId": 681363,
             "name": "Fesseln aus Sternenlicht",
             "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura"
+            "type": "Verzauberung — Aura",
+            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
           },
           {
             "identifiers": {
@@ -233,7 +240,8 @@
             "multiverseId": 681392,
             "name": "Trampa estrellada",
             "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura"
+            "type": "Encantamiento — Aura",
+            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
           },
           {
             "identifiers": {
@@ -244,7 +252,8 @@
             "multiverseId": 681421,
             "name": "Collet de lumière stellaire",
             "text": "Enchanter : créature\nQuand le Collet de lumière stellaire arrive, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
-            "type": "Enchantement — aura"
+            "type": "Enchantement — aura",
+            "uuid": "b14b9d45-a785-58d7-af7d-fb5f18787f03"
           },
           {
             "identifiers": {
@@ -255,7 +264,8 @@
             "multiverseId": 681450,
             "name": "Trappola di Luce Stellare",
             "text": "Incanta creatura\nQuando la Trappola di Luce Stellare entra, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
-            "type": "Incantesimo — Aura"
+            "type": "Incantesimo — Aura",
+            "uuid": "f99ed183-d444-5d98-baa3-e547748226a4"
           },
           {
             "identifiers": {
@@ -266,7 +276,8 @@
             "multiverseId": 681479,
             "name": "星明かりの罠",
             "text": "エンチャント（クリーチャー）\n星明かりの罠が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
-            "type": "エンチャント — オーラ"
+            "type": "エンチャント — オーラ",
+            "uuid": "d1a74b35-8031-5fd1-91e3-7b29a89f3e18"
           }
         ],
         "frameVersion": "2015",
@@ -288,6 +299,7 @@
           "scryfallOracleId": "f0691d46-5bf4-4617-8a0a-19d17afb7219",
           "tcgplayerProductId": "590308"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "keywords": [
@@ -319,7 +331,6 @@
         "name": "Starlight Snare",
         "number": "9",
         "originalText": "Enchant creature\nWhen Starlight Snare enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
-        "originalType": "Enchantment — Aura",
         "printings": [
           "FDN",
           "J25"
@@ -366,7 +377,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 13993,
+        "edhrecRank": 13383,
+        "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
@@ -382,7 +394,8 @@
             "multiverseId": 680962,
             "name": "Cynette die Quallentreiberin",
             "text": "Wenn Cynette die Quallentreiberin ins Spiel kommt oder stirbt, erzeuge einen 1/1 blauen Qualle-Kreaturenspielstein mit Flugfähigkeit.\nFliegende Kreaturen, die du kontrollierst, erhalten +1/+1.",
-            "type": "Legendäre Kreatur — Mensch, Zauberer"
+            "type": "Legendäre Kreatur — Mensch, Zauberer",
+            "uuid": "b00b4b87-7029-588c-953e-662b1ef22501"
           },
           {
             "flavorText": "\"Una vez que desarrollas inmunidad a su veneno mortal, descubres que son muy adorables\".",
@@ -394,7 +407,8 @@
             "multiverseId": 680989,
             "name": "Cynette, cuidadora de medusas",
             "text": "Cuando Cynette, cuidadora de medusas entre o muera, crea una ficha de criatura Medusa azul 1/1 con la habilidad de volar.\nLas criaturas que controlas con la habilidad de volar obtienen +1/+1.",
-            "type": "Criatura legendaria — Hechicero humano"
+            "type": "Criatura legendaria — Hechicero humano",
+            "uuid": "021a3ce2-69dd-5849-af30-a3d77db422f3"
           },
           {
             "flavorText": "« Une fois que vous avez développé une immunité à leur venin mortel, elles sont très affectueuses ! »",
@@ -406,7 +420,8 @@
             "multiverseId": 681016,
             "name": "Cynette, bouvière de méduses",
             "text": "Quand Cynette, bouvière de méduses arrive ou meurt, créez un jeton de créature 1/1 bleue Méduse avec le vol.\nLes créatures avec le vol que vous contrôlez gagnent +1/+1.",
-            "type": "Créature légendaire — humain et sorcier"
+            "type": "Créature légendaire — humain et sorcier",
+            "uuid": "372084a9-6f1a-5f1c-b012-bc0aba02b385"
           },
           {
             "flavorText": "\"Una volta sviluppata l'immunità al loro veleno letale, sono davvero adorabili!\"",
@@ -418,7 +433,8 @@
             "multiverseId": 681043,
             "name": "Cynette, Pastora di Meduse",
             "text": "Quando Cynette, Pastora di Meduse entra o muore, crea una pedina creatura Medusa 1/1 blu con volare.\nLe creature con volare che controlli prendono +1/+1.",
-            "type": "Creatura Leggendaria — Mago Umano"
+            "type": "Creatura Leggendaria — Mago Umano",
+            "uuid": "4a0a7d64-6e7c-5b42-ad9f-dcc722dccfdf"
           },
           {
             "flavorText": "「いったん猛毒への耐性が付いちゃえば、とても人懐っこい生き物なのよ！」",
@@ -430,7 +446,8 @@
             "multiverseId": 681070,
             "name": "クラゲ追い、サイネッテ",
             "text": "クラゲ追い、サイネッテが戦場に出たか死亡したとき、飛行を持つ青の１/１のクラゲ・クリーチャー・トークン１体を生成する。\nあなたがコントロールしていて飛行を持つすべてのクリーチャーは＋１/＋１の修整を受ける。",
-            "type": "伝説のクリーチャー — 人間・ウィザード"
+            "type": "伝説のクリーチャー — 人間・ウィザード",
+            "uuid": "e4536383-0c1c-5d55-b2f4-02ab3ae79542"
           }
         ],
         "frameEffects": [
@@ -455,6 +472,7 @@
           "scryfallOracleId": "8170ddd6-c054-4851-bdc2-4d319b60ba41",
           "tcgplayerProductId": "590434"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "language": "English",
@@ -480,7 +498,6 @@
         "name": "Cynette, Jelly Drover",
         "number": "35",
         "originalText": "When Cynette, Jelly Drover enters or dies, create a 1/1 blue Jellyfish creature token with flying.\nCreatures you control with flying get +1/+1.",
-        "originalType": "Legendary Creature — Human Wizard",
         "power": "2",
         "printings": [
           "J25"
@@ -536,8 +553,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 23559,
-        "edhrecSaltiness": 0.44,
+        "edhrecRank": 23889,
         "finishes": [
           "nonfoil"
         ],
@@ -553,7 +569,8 @@
             "multiverseId": 681576,
             "name": "Bittere Kälte",
             "text": "Kreaturen, die deine Gegner kontrollieren, erhalten -2/-0 bis zum Ende des Zuges.\nZiehe eine Karte.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "8cf9521e-8c3d-547c-a3ea-aa7d23cf1d67"
           },
           {
             "flavorText": "\"Los chillidos atormentados son como los copos de nieve: no hay dos iguales\".\n—Tedor, bruja de hielo",
@@ -565,7 +582,8 @@
             "multiverseId": 681637,
             "name": "Congelación molesta",
             "text": "Las criaturas que controlan tus oponentes obtienen -2/-0 hasta el final del turno.\nRoba una carta.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "71298728-d14a-56aa-972a-74cdfc279f70"
           },
           {
             "flavorText": "« Les cris tourmentés sont comme des flocons de neige : aucun ne ressemble à un autre. »\n—Pedor, sorcière de glace",
@@ -577,7 +595,8 @@
             "multiverseId": 681698,
             "name": "Refroidissement inconfortable",
             "text": "Les créatures que vos adversaires contrôlent gagnent -2/-0 jusqu'à la fin du tour.\nPiochez une carte.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "463a1ce0-ee0b-55c1-8e03-a619e427061c"
           },
           {
             "flavorText": "\"Le urla di tormento sono come i fiocchi di neve: non ne esistono due uguali.\"\n— Pedor, strega del ghiaccio",
@@ -589,7 +608,8 @@
             "multiverseId": 681759,
             "name": "Gelo Disagevole",
             "text": "Le creature controllate dai tuoi avversari prendono -2/-0 fino alla fine del turno.\nPesca una carta.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "f0f49dc8-001b-5223-846e-bfdc87288fce"
           },
           {
             "flavorText": "「苦痛の悲鳴はひとひらの雪のよう。ひとつとして同じものがない。」\n――氷の魔女、ペドール",
@@ -601,7 +621,8 @@
             "multiverseId": 681820,
             "name": "不快な冷気",
             "text": "ターン終了時まで、対戦相手がコントロールしているすべてのクリーチャーは－２/－０の修整を受ける。\nカードを１枚引く。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "5ce56927-86f1-5f10-a11c-087d49fc9eee"
           }
         ],
         "frameVersion": "2015",
@@ -622,6 +643,7 @@
           "scryfallOracleId": "d6596336-8177-4475-95b9-a21858563276",
           "tcgplayerProductId": "590178"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -648,7 +670,6 @@
         "name": "Uncomfortable Chill",
         "number": "111",
         "originalText": "Creatures your opponents control get -2/-0 until end of turn.\nDraw a card.",
-        "originalType": "Instant",
         "printings": [
           "J25",
           "M19",
@@ -693,8 +714,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 22078,
-        "edhrecSaltiness": 0.08,
+        "edhrecRank": 22514,
+        "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
@@ -710,7 +731,8 @@
             "multiverseId": 682683,
             "name": "Fliegender Wegefinder",
             "text": "Fliegend\nImmer wenn der Fliegende Wegefinder angreift, erhält eine andere angreifende Kreatur deiner Wahl Flugfähigkeit bis zum Ende des Zuges.",
-            "type": "Kreatur — Sceada"
+            "type": "Kreatur — Sceada",
+            "uuid": "d696a288-254c-545d-8828-b9bf6783bf85"
           },
           {
             "flavorText": "\"Kefnet nos enseñó a convertir los obstáculos en ventajas\".\n—Neponem, visir de Kefnet",
@@ -722,7 +744,8 @@
             "multiverseId": 682797,
             "name": "Guía aéreo",
             "text": "Vuela.\nSiempre que el Guía aéreo ataque, otra criatura atacante objetivo gana la habilidad de volar hasta el final del turno.",
-            "type": "Criatura — Draco"
+            "type": "Criatura — Draco",
+            "uuid": "5faa8f68-29fd-58af-adc5-a997ec7a3229"
           },
           {
             "flavorText": "« Kefnet nous a appris à transformer les obstacles en avantages. »\n—Neponem, vizir de Kefnet",
@@ -734,7 +757,8 @@
             "multiverseId": 682911,
             "name": "Guide aérien",
             "text": "Vol\nÀ chaque fois que le Guide aérien attaque, une autre créature attaquante ciblée acquiert le vol jusqu'à la fin du tour.",
-            "type": "Créature — drakôn"
+            "type": "Créature — drakôn",
+            "uuid": "8fc0afbf-f164-5456-b6a0-debaf5ef5319"
           },
           {
             "flavorText": "\"Kefnet ci ha insegnato a trasformare gli ostacoli in vantaggi.\"\n—Neponem, visir di Kefnet",
@@ -746,7 +770,8 @@
             "multiverseId": 683025,
             "name": "Guida Aerea",
             "text": "Volare\nOgniqualvolta la Guida Aerea attacca, un'altra creatura attaccante bersaglio ha volare fino alla fine del turno.",
-            "type": "Creatura — Draghetto"
+            "type": "Creatura — Draghetto",
+            "uuid": "9b11cf76-49c2-5bb6-8e78-477a9685a088"
           },
           {
             "flavorText": "「ケフネト様は、障害を強みに変えよと教えてくださった。」\n――ケフネトの侍臣、ネポネム",
@@ -758,7 +783,8 @@
             "multiverseId": 683139,
             "name": "空からの導き手",
             "text": "飛行\n空からの導き手が攻撃するたび、これでない攻撃クリーチャー１体を対象とする。ターン終了時まで、それは飛行を得る。",
-            "type": "クリーチャー — ドレイク"
+            "type": "クリーチャー — ドレイク",
+            "uuid": "b59adfc6-57e4-5ab7-832a-8fde2335c685"
           }
         ],
         "frameVersion": "2015",
@@ -779,6 +805,7 @@
           "scryfallOracleId": "b56c0846-e465-4251-93ea-2e3e7be8dffc",
           "tcgplayerProductId": "590344"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -807,7 +834,6 @@
         "name": "Aerial Guide",
         "number": "282",
         "originalText": "Flying\nWhenever Aerial Guide attacks, another target attacking creature gains flying until end of turn.",
-        "originalType": "Creature — Drake",
         "power": "2",
         "printings": [
           "AKR",
@@ -856,8 +882,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 12965,
-        "edhrecSaltiness": 0.08,
+        "edhrecRank": 13435,
+        "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
@@ -873,7 +899,8 @@
             "multiverseId": 682717,
             "name": "Windstoß",
             "text": "Dieser Zauberspruch kostet beim Wirken {2} weniger, falls du eine fliegende Kreatur kontrollierst.\nBringe ein Nichtland-Permanent deiner Wahl, das du nicht kontrollierst, auf die Hand seines Besitzers zurück.\nZiehe eine Karte.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "594537a0-27c2-5393-95da-a82de76af12b"
           },
           {
             "flavorText": "La fuerza de Puertoaéreo también es su vulnerabilidad.",
@@ -885,7 +912,8 @@
             "multiverseId": 682831,
             "name": "Ráfaga de viento",
             "text": "Te cuesta {2} menos lanzar este hechizo si controlas una criatura con la habilidad de volar.\nRegresa el permanente objetivo que no sea tierra que no controlas a la mano de su propietario.\nRoba una carta.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "69dffb5b-5e85-5b33-a439-37c041aa4cfe"
           },
           {
             "flavorText": "La force de Vogueciel était aussi sa faiblesse.",
@@ -897,7 +925,8 @@
             "multiverseId": 682945,
             "name": "Rafale de vent",
             "text": "Ce sort coûte {2} de moins à lancer si vous contrôlez une créature avec le vol.\nRenvoyez un permanent non-terrain ciblé que vous ne contrôlez pas dans la main de son propriétaire.\nPiochez une carte.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "4c10a3f2-df8f-5af0-b09b-87c82320b292"
           },
           {
             "flavorText": "Il punto di forza della Solcanembi era anche la sua debolezza.",
@@ -909,7 +938,8 @@
             "multiverseId": 683059,
             "name": "Raffica di Vento",
             "text": "Questa magia costa {2} in meno per essere lanciata se controlli una creatura con volare.\nFai tornare un permanente non terra bersaglio che non controlli in mano al suo proprietario.\nPesca una carta.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "1813f64b-e6e7-53e6-b2de-5bb8d71a61ef"
           },
           {
             "flavorText": "スカイセイルの強みは弱みでもある。",
@@ -921,7 +951,8 @@
             "multiverseId": 683173,
             "name": "疾風",
             "text": "あなたが飛行を持つクリーチャーをコントロールしているなら、この呪文を唱えるためのコストは{2}少なくなる。\nあなたがコントロールしておらず土地でもないパーマネント１つを対象とする。それをオーナーの手札に戻す。\nカード１枚を引く。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "243dfade-febc-593d-8059-0fc8ca7ae438"
           }
         ],
         "frameVersion": "2015",
@@ -942,6 +973,7 @@
           "scryfallOracleId": "7cfc14ce-9940-4c61-9daa-2c6dbf1a80ad",
           "tcgplayerProductId": "590561"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -967,7 +999,6 @@
         "name": "Gust of Wind",
         "number": "316",
         "originalText": "This spell costs {2} less to cast if you control a creature with flying.\nReturn target nonland permanent you don't control to its owner's hand.\nDraw a card.",
-        "originalType": "Sorcery",
         "printings": [
           "IKO",
           "J25",
@@ -1030,7 +1061,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 5565,
+        "edhrecRank": 6086,
+        "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
@@ -1046,7 +1078,8 @@
             "multiverseId": 682736,
             "name": "Nachtschleiersylphide",
             "text": "Fliegend\nImmer wenn die Nachtschleiersylphide angreift, wende Überwachen 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie auf deinen Friedhof legen.)",
-            "type": "Kreatur — Feenwesen, Räuber"
+            "type": "Kreatur — Feenwesen, Räuber",
+            "uuid": "55f79dfc-afa5-50cc-8c66-57c810cfa75e"
           },
           {
             "flavorText": "\"Estamos en la planta 40, con una sola ventana y sin balcón. Es imposible que entre nadie\".\n—Minosz, jefe de seguridad orzhov",
@@ -1058,7 +1091,8 @@
             "multiverseId": 682850,
             "name": "Hada de Velo Nocturno",
             "text": "Vuela.\nSiempre que el Hada de Velo Nocturno ataque, escruta 1. (Mira la primera carta de tu biblioteca. Puedes ponerla en tu cementerio.)",
-            "type": "Criatura — Bribón hada"
+            "type": "Criatura — Bribón hada",
+            "uuid": "2b3bb9d5-972e-5143-88b7-5d066b19eb24"
           },
           {
             "flavorText": "« Nous sommes au quarantième étage, il n'y a qu'une seule fenêtre et pas de balcon. Personne ne peut entrer ici. »\n—Minosz, chef de la sécurité d'Orzhov",
@@ -1070,7 +1104,8 @@
             "multiverseId": 682964,
             "name": "Farfadette voilenuit",
             "text": "Vol\nÀ chaque fois que la Farfadette voilenuit attaque, surveillez 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez la mettre dans votre cimetière.)",
-            "type": "Créature — peuple fée et gredin"
+            "type": "Créature — peuple fée et gredin",
+            "uuid": "221a42bb-f3a3-56ab-baca-4741bd6c0092"
           },
           {
             "flavorText": "\"Siamo al quarantesimo piano, con una sola finestra senza balcone. È impossibile che qualcuno riesca a entrare.\"\n—Minosz, responsabile della sicurezza Orzhov",
@@ -1082,7 +1117,8 @@
             "multiverseId": 683078,
             "name": "Spiritella di Velo Notturno",
             "text": "Volare\nOgniqualvolta la Spiritella di Velo Notturno attacca, sorveglia 1. (Guarda la prima carta del tuo grimorio. Puoi metterla nel tuo cimitero.)",
-            "type": "Creatura — Farabutto Spiritello"
+            "type": "Creatura — Farabutto Spiritello",
+            "uuid": "48a6c8b8-426b-5e9a-8d3c-01c57be63c28"
           },
           {
             "flavorText": "「ここは四十階で、窓は一つ、ベランダはない。誰かが侵入するなど、有り得ない。」\n――オルゾフの警備責任者、ミーノシュ",
@@ -1094,7 +1130,8 @@
             "multiverseId": 683192,
             "name": "夜帷のスプライト",
             "text": "飛行\n夜帷のスプライトが攻撃するたび、諜報１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。それをあなたの墓地に置いてもよい。）",
-            "type": "クリーチャー — フェアリー・ならず者"
+            "type": "クリーチャー — フェアリー・ならず者",
+            "uuid": "7acafc87-04d9-5ea2-834f-89c3a2895001"
           }
         ],
         "frameVersion": "2015",
@@ -1115,6 +1152,7 @@
           "scryfallOracleId": "8ac23863-0aa7-41bc-b9b7-c5f0566172cf",
           "tcgplayerProductId": "590556"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1141,7 +1179,6 @@
         "name": "Nightveil Sprite",
         "number": "335",
         "originalText": "Flying\nWhenever Nightveil Sprite attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
-        "originalType": "Creature — Faerie Rogue",
         "power": "1",
         "printings": [
           "GRN",
@@ -1200,8 +1237,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 16481,
-        "edhrecSaltiness": 0.31,
+        "edhrecRank": 16993,
+        "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
@@ -1217,7 +1254,8 @@
             "multiverseId": 682752,
             "name": "Schlangenüberfall",
             "text": "Bis zum Ende des Zuges wird eine Kreatur deiner Wahl zu einer blauen Schlange mit Basis-Stärke und -Widerstandskraft 5/5.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "45fe3813-9d50-5f9a-8df5-fe2b686cf434"
           },
           {
             "flavorText": "El mercader le garantizó que el cebo nuevo atraería algo enorme, ciertamente...",
@@ -1229,7 +1267,8 @@
             "multiverseId": 682866,
             "name": "Emboscada serpentina",
             "text": "Hasta el final del turno, la criatura objetivo se convierte en una Serpiente azul con fuerza y resistencia base de 5/5.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "40193f6d-9ba4-50af-9caa-cf52b0f56217"
           },
           {
             "flavorText": "Le marchand avait promis que le nouvel appât attirerait quelque chose de gros.",
@@ -1241,7 +1280,8 @@
             "multiverseId": 682980,
             "name": "Embuscade serpentine",
             "text": "Jusqu'à la fin du tour, une créature ciblée devient un grand serpent bleu avec une force et une endurance de base de 5/5.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "24469d13-ef02-5c47-aec4-7f9a8342dd0e"
           },
           {
             "flavorText": "Il negoziante aveva assicurato che la nuova esca avrebbe attirato qualcosa di grosso.",
@@ -1253,7 +1293,8 @@
             "multiverseId": 683094,
             "name": "Imboscata Serpentina",
             "text": "Fino alla fine del turno, una creatura bersaglio diventa una Serpe blu con forza e costituzione base 5/5.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "0292f999-421c-5176-8d37-87ab5491d86c"
           },
           {
             "flavorText": "その餌によって大物が釣れるという点に関しては、たしかに商人は間違っていなかった。",
@@ -1265,7 +1306,8 @@
             "multiverseId": 683208,
             "name": "うねる待ち伏せ",
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは基本のパワーとタフネスが５/５の青の海蛇になる。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "b470c7ef-ae30-52c5-991a-ec991fd5b792"
           }
         ],
         "frameVersion": "2015",
@@ -1286,6 +1328,7 @@
           "scryfallOracleId": "822b6d56-939a-42b9-b50c-9a8ba50ec3ad",
           "tcgplayerProductId": "590399"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1310,7 +1353,6 @@
         "name": "Serpentine Ambush",
         "number": "352",
         "originalText": "Until end of turn, target creature becomes a blue Serpent with base power and toughness 5/5.",
-        "originalType": "Instant",
         "printings": [
           "DBL",
           "J25",
@@ -1356,8 +1398,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 10062,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 10739,
+        "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
@@ -1373,7 +1415,8 @@
             "multiverseId": 682775,
             "name": "Flutgleiter",
             "text": "Fliegend\nImmer wenn du mit zwei oder mehr fliegenden Kreaturen angreifst, ziehe eine Karte.",
-            "type": "Kreatur — Sceada"
+            "type": "Kreatur — Sceada",
+            "uuid": "a20f5023-9ee7-59a5-b8db-84192373f366"
           },
           {
             "flavorText": "Los barcos pesqueros suelen seguir a los dracos que cazan para encontrar los bancos de peces más grandes.",
@@ -1385,7 +1428,8 @@
             "multiverseId": 682889,
             "name": "Rayaolas",
             "text": "Vuela.\nSiempre que ataques con dos o más criaturas con la habilidad de volar, roba una carta.",
-            "type": "Criatura — Draco"
+            "type": "Criatura — Draco",
+            "uuid": "e9bc5d6c-504a-5297-b34a-bcd045d1ad8a"
           },
           {
             "flavorText": "Les bateaux de pêche suivent souvent les drakôns en chasse pour trouver les plus gros bancs de poissons.",
@@ -1397,7 +1441,8 @@
             "multiverseId": 683003,
             "name": "Écumeur du ressac",
             "text": "Vol\nÀ chaque fois que vous attaquez avec au moins deux créatures avec le vol, piochez une carte.",
-            "type": "Créature — drakôn"
+            "type": "Créature — drakôn",
+            "uuid": "a8a856be-ee14-5185-8f82-64e164f6f7e1"
           },
           {
             "flavorText": "Spesso le barche dei pescatori seguono i draghetti a caccia per trovare i banchi di pesci più grandi.",
@@ -1409,7 +1454,8 @@
             "multiverseId": 683117,
             "name": "Sorvolatore delle Maree",
             "text": "Volare\nOgniqualvolta attacchi con due o più creature con volare, pesca una carta.",
-            "type": "Creatura — Draghetto"
+            "type": "Creatura — Draghetto",
+            "uuid": "70c9b375-3590-5236-8e96-c482767d63e3"
           },
           {
             "flavorText": "釣り船はよくドレイクの捕食の後を追う。最大の魚群が見つかるからだ。",
@@ -1421,7 +1467,8 @@
             "multiverseId": 683231,
             "name": "潮掬い",
             "text": "飛行\nあなたが飛行を持つ２体以上のクリーチャーで攻撃するたび、カード１枚を引く。",
-            "type": "クリーチャー — ドレイク"
+            "type": "クリーチャー — ドレイク",
+            "uuid": "d019ba3f-0809-5930-843a-87be2d3b9edc"
           }
         ],
         "frameVersion": "2015",
@@ -1442,6 +1489,7 @@
           "scryfallOracleId": "8d83dfb3-5662-4109-b465-bf5f257e58a5",
           "tcgplayerProductId": "590229"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1468,7 +1516,6 @@
         "name": "Tide Skimmer",
         "number": "375",
         "originalText": "Flying\nWhenever you attack with two or more creatures with flying, draw a card.",
-        "originalType": "Creature — Drake",
         "power": "2",
         "printings": [
           "J25",
@@ -1528,8 +1575,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3646,
-        "edhrecSaltiness": 0.15,
+        "edhrecRank": 3689,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -1545,7 +1592,8 @@
             "multiverseId": 682785,
             "name": "Hüter der Insel Evos",
             "text": "Fliegend\nKreaturenzauber mit Flugfähigkeit, die du wirkst, kosten beim Wirken {1} weniger.",
-            "type": "Kreatur — Vogel, Zauberer"
+            "type": "Kreatur — Vogel, Zauberer",
+            "uuid": "8107fb50-3f6f-57a3-b50e-2ad3ee687a13"
           },
           {
             "flavorText": "En la Isla Evos, los rápidos y formidables aven cumplen la voluntad de las esfinges reinantes.",
@@ -1557,7 +1605,8 @@
             "multiverseId": 682899,
             "name": "Protector de la Isla Evos",
             "text": "Vuela.\nTe cuesta {1} menos lanzar los hechizos de criatura con la habilidad de volar.",
-            "type": "Criatura — Hechicero ave"
+            "type": "Criatura — Hechicero ave",
+            "uuid": "cce5861f-625f-5ccc-be29-457e3cf0cd8c"
           },
           {
             "flavorText": "Sur l'île d'Evos, les prestes et redoutables avemains font régner l'ordre des sphinx dirigeants.",
@@ -1569,7 +1618,8 @@
             "multiverseId": 683013,
             "name": "Garde de l'île d'Evos",
             "text": "Vol\nLes sorts de créature avec le vol que vous lancez coûtent {1} de moins à lancer.",
-            "type": "Créature — oiseau et sorcier"
+            "type": "Créature — oiseau et sorcier",
+            "uuid": "ab5a03f6-5739-5b2b-87f1-ed989db70740"
           },
           {
             "flavorText": "Sull'Isola Evos, i fulminei e formidabili aviani fanno rispettare la volontà delle sfingi che governano.",
@@ -1581,7 +1631,8 @@
             "multiverseId": 683127,
             "name": "Custode dell'Isola Evos",
             "text": "Volare\nLe magie creatura con volare che lanci costano {1} in meno per essere lanciate.",
-            "type": "Creatura — Mago Uccello"
+            "type": "Creatura — Mago Uccello",
+            "uuid": "8836ba39-408c-567d-8717-053a1c6a016a"
           },
           {
             "flavorText": "イーヴォ島では、身軽な手練のエイヴンが支配階級のスフィンクスの意向を強制している。",
@@ -1593,7 +1644,8 @@
             "multiverseId": 683241,
             "name": "イーヴォ島の管理人",
             "text": "飛行\nあなたが飛行を持つクリーチャー・呪文を唱えるためのコストは{1}少なくなる。",
-            "type": "クリーチャー — 鳥・ウィザード"
+            "type": "クリーチャー — 鳥・ウィザード",
+            "uuid": "3996c57a-9131-5d14-b6fa-c472a00fcd48"
           }
         ],
         "frameVersion": "2015",
@@ -1614,6 +1666,7 @@
           "scryfallOracleId": "f424b5e9-8f02-4491-a7d8-c7e088611c6a",
           "tcgplayerProductId": "590152"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1622,7 +1675,6 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1643,7 +1695,6 @@
         "name": "Warden of Evos Isle",
         "number": "385",
         "originalText": "Flying\nCreature spells with flying you cast cost {1} less to cast.",
-        "originalType": "Creature — Bird Wizard",
         "power": "2",
         "printings": [
           "ANB",
@@ -1713,8 +1764,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 28006,
-        "edhrecSaltiness": 0.36,
+        "edhrecRank": 28958,
+        "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
@@ -1730,7 +1781,8 @@
             "multiverseId": 682786,
             "name": "Wassersippen-Schamane",
             "text": "Immer wenn eine fliegende Kreatur unter deiner Kontrolle ins Spiel kommt, erhält der Wassersippen-Schamane +1/+1 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elementarwesen, Schamane"
+            "type": "Kreatur — Elementarwesen, Schamane",
+            "uuid": "8f3420e6-4f88-5d25-8e2d-b187b1820527"
           },
           {
             "flavorText": "\"Han venido a beber, a bañarse y diría que a jugar\".",
@@ -1742,7 +1794,8 @@
             "multiverseId": 682900,
             "name": "Chamán oceanoide",
             "text": "Siempre que una criatura que controlas con la habilidad de volar entre, el Chamán oceanoide obtiene +1/+1 hasta el final del turno.",
-            "type": "Criatura — Chamán elemental"
+            "type": "Criatura — Chamán elemental",
+            "uuid": "97b5f398-7a5e-5ad3-9c2e-fcb8a7637c60"
           },
           {
             "flavorText": "« Ils viennent boire, se baigner et jouer, je crois. »",
@@ -1754,7 +1807,8 @@
             "multiverseId": 683014,
             "name": "Shamane sangreau",
             "text": "À chaque fois qu'une créature avec le vol que vous contrôlez arrive, le Shamane sangreau gagne +1/+1 jusqu'à la fin du tour.",
-            "type": "Créature — élémental et shamane"
+            "type": "Créature — élémental et shamane",
+            "uuid": "d01040be-6dba-5f8f-ad67-b1702cf84ca1"
           },
           {
             "flavorText": "\"Vengono a bere, a fare il bagno e, credo, a giocare.\"",
@@ -1766,7 +1820,8 @@
             "multiverseId": 683128,
             "name": "Sciamano Idroforme",
             "text": "Ogniqualvolta una creatura con volare che controlli entra, lo Sciamano Idroforme prende +1/+1 fino alla fine del turno.",
-            "type": "Creatura — Sciamano Elementale"
+            "type": "Creatura — Sciamano Elementale",
+            "uuid": "e0db8eb0-e42f-5d09-9795-37182496aa72"
           },
           {
             "flavorText": "「水を飲みに来ることも水浴びに来ることも、たぶん遊びに来ることもある。」",
@@ -1778,7 +1833,8 @@
             "multiverseId": 683242,
             "name": "水族のシャーマン",
             "text": "あなたがコントロールしていて飛行を持つクリーチャー１体が戦場に出るたび、ターン終了時まで、水族のシャーマンは＋１/＋１の修整を受ける。",
-            "type": "クリーチャー — エレメンタル・シャーマン"
+            "type": "クリーチャー — エレメンタル・シャーマン",
+            "uuid": "95c60eb3-755c-52d6-b873-5295bea4b8a3"
           }
         ],
         "frameVersion": "2015",
@@ -1799,12 +1855,12 @@
           "scryfallOracleId": "64e0c580-0e55-4f42-8594-11ccb584d633",
           "tcgplayerProductId": "590155"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1824,7 +1880,6 @@
         "name": "Waterkin Shaman",
         "number": "386",
         "originalText": "Whenever a creature you control with flying enters, Waterkin Shaman gets +1/+1 until end of turn.",
-        "originalType": "Creature — Elemental Shaman",
         "power": "2",
         "printings": [
           "ANB",
@@ -1874,8 +1929,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 2998,
-        "edhrecSaltiness": 0.08,
+        "edhrecRank": 3184,
+        "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
@@ -1891,7 +1946,8 @@
             "multiverseId": 682793,
             "name": "Geflügelte Worte",
             "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du eine fliegende Kreatur kontrollierst.\nZiehe zwei Karten.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "564ea238-127e-5e9e-b801-c2da2b6cb9df"
           },
           {
             "flavorText": "La magia escrita en el cielo cae como la lluvia sobre el suelo sediento, regándolo con sabiduría.",
@@ -1903,7 +1959,8 @@
             "multiverseId": 682907,
             "name": "Palabras aladas",
             "text": "Te cuesta {1} menos lanzar este hechizo si controlas una criatura con la habilidad de volar.\nRoba dos cartas.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "3e5e6241-7836-5d01-9e3d-38ab5b335b04"
           },
           {
             "flavorText": "La magie écrite dans les cieux tombe comme la pluie sur les sols assoiffés, engendrant la sagesse de la saison.",
@@ -1915,7 +1972,8 @@
             "multiverseId": 683021,
             "name": "Écrits ailés",
             "text": "Ce sort coûte {1} de moins à lancer si vous contrôlez une créature avec le vol.\nPiochez deux cartes.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "06ca5c21-220e-52bf-90ac-990cf09651b8"
           },
           {
             "flavorText": "La magia scritta nel cielo cade come pioggia sul terreno arido e porterà saggezza a tempo debito.",
@@ -1927,7 +1985,8 @@
             "multiverseId": 683135,
             "name": "Parole Alate",
             "text": "Questa magia costa {1} in meno per essere lanciata se controlli una creatura con volare.\nPesca due carte.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "0d1767e1-2016-541e-9c06-c03af6df9aec"
           },
           {
             "flavorText": "空一面に書き記された魔法が乾いた大地に降り注ぐと、季節に応じた知恵が生まれる。",
@@ -1939,7 +1998,8 @@
             "multiverseId": 683249,
             "name": "翼ある言葉",
             "text": "あなたが飛行を持つクリーチャーをコントロールしているなら、この呪文を唱えるためのコストは{1}少なくなる。\nカード２枚を引く。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "9c531830-6683-5856-b6e8-05a2565ba37f"
           }
         ],
         "frameVersion": "2015",
@@ -1960,12 +2020,12 @@
           "scryfallOracleId": "c623aeb1-e6d4-48fe-bd2a-a7a6729aa4df",
           "tcgplayerProductId": "590143"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1976,6 +2036,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -1985,7 +2046,6 @@
         "name": "Winged Words",
         "number": "393",
         "originalText": "This spell costs {1} less to cast if you control a creature with flying.\nDraw two cards.",
-        "originalType": "Sorcery",
         "printings": [
           "ANB",
           "J25",
@@ -2040,8 +2100,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1143,
-        "edhrecSaltiness": 0.02,
+        "edhrecRank": 1184,
+        "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
@@ -2057,7 +2117,8 @@
             "multiverseId": 684059,
             "name": "Gedeihende Insel",
             "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
@@ -2069,7 +2130,8 @@
             "multiverseId": 684098,
             "name": "Islote floreciente",
             "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
@@ -2081,7 +2143,8 @@
             "multiverseId": 684137,
             "name": "Île prospère",
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2093,7 +2156,8 @@
             "multiverseId": 684176,
             "name": "Isola Florida",
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
           },
           {
             "flavorText": "自然界のあらゆる驚異がこの美しく小さな世界に詰まっている。",
@@ -2105,7 +2169,8 @@
             "multiverseId": 684215,
             "name": "興隆する島嶼",
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
           }
         ],
         "frameVersion": "2015",
@@ -2126,6 +2191,7 @@
           "scryfallOracleId": "69fc70b8-b143-4662-ac95-e2743037239d",
           "tcgplayerProductId": "590389"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2147,7 +2213,6 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
-        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
@@ -2160,6 +2225,7 @@
           "LCC",
           "MOC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2198,8 +2264,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 7,
-        "edhrecSaltiness": 0.64,
+        "count": 3,
+        "edhrecSaltiness": 0.92,
         "finishes": [
           "nonfoil"
         ],
@@ -2212,7 +2278,8 @@
             "language": "German",
             "multiverseId": 681254,
             "name": "Insel",
-            "type": "Standardland — Insel"
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2222,7 +2289,8 @@
             "language": "Spanish",
             "multiverseId": 681269,
             "name": "Isla",
-            "type": "Tierra básica — Isla"
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           },
           {
             "identifiers": {
@@ -2232,7 +2300,8 @@
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
-            "type": "Terrain de base — île"
+            "type": "Terrain de base — île",
+            "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
           },
           {
             "identifiers": {
@@ -2242,7 +2311,8 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
-            "type": "Terra Base — Isola"
+            "type": "Terra Base — Isola",
+            "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
           {
             "identifiers": {
@@ -2252,7 +2322,8 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
-            "type": "基本土地 — 島"
+            "type": "基本土地 — 島",
+            "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
           }
         ],
         "frameVersion": "2015",
@@ -2272,6 +2343,7 @@
           "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
           "tcgplayerProductId": "590231"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -2302,7 +2374,6 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
-        "originalType": "Basic Land — Island",
         "printings": [
           "10E",
           "2ED",
@@ -2376,6 +2447,7 @@
           "EOE",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2496,6 +2568,7 @@
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2503,7 +2576,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -2555,6 +2630,770 @@
           "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
           "e99fe491-7fe4-5d75-9d8f-644915c0b4ec"
         ]
+      },
+      {
+        "artist": "Yeong-Hao Han",
+        "artistIds": [
+          "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681285",
+              "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
+            },
+            "language": "French",
+            "multiverseId": 681285,
+            "name": "Île",
+            "type": "Terrain de base — île",
+            "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681300",
+              "scryfallId": "bcb983c9-2935-4f4e-b52c-fb7c2200e929"
+            },
+            "language": "Italian",
+            "multiverseId": 681300,
+            "name": "Isola",
+            "type": "Terra Base — Isola",
+            "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681315",
+              "scryfallId": "ed4f2a25-2d8b-4bef-9f78-24be10c92e42"
+            },
+            "language": "Japanese",
+            "multiverseId": 681315,
+            "name": "島",
+            "type": "基本土地 — 島",
+            "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305219",
+          "cardsphereId": "131375",
+          "deckboxId": "98079",
+          "mcmId": "795506",
+          "mtgArenaId": "95170",
+          "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
+          "multiverseId": "681240",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "9b0bfe70-e584-42f2-9a32-984c17ba6d1a",
+          "scryfallIllustrationId": "d8e987c2-82cb-4522-b288-a22b35581ce1",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "590233"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "85",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+        "variations": [
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
+          "e99fe491-7fe4-5d75-9d8f-644915c0b4ec"
+        ]
+      },
+      {
+        "artist": "Yeong-Hao Han",
+        "artistIds": [
+          "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "U"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.92,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681286",
+              "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
+            },
+            "language": "French",
+            "multiverseId": 681286,
+            "name": "Île",
+            "type": "Terrain de base — île",
+            "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681301",
+              "scryfallId": "5ee6ea05-6028-4843-94fc-0b33fb41c55f"
+            },
+            "language": "Italian",
+            "multiverseId": 681301,
+            "name": "Isola",
+            "type": "Terra Base — Isola",
+            "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681316",
+              "scryfallId": "7a6f57df-bdfe-4ffc-80b5-2b59aa798e0a"
+            },
+            "language": "Japanese",
+            "multiverseId": 681316,
+            "name": "島",
+            "type": "基本土地 — 島",
+            "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305220",
+          "cardsphereId": "131376",
+          "deckboxId": "98080",
+          "mcmId": "795507",
+          "mtgArenaId": "95171",
+          "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
+          "multiverseId": "681241",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "0e443748-edf1-4499-9507-3649dd57ee95",
+          "scryfallIllustrationId": "efa66c57-75ae-4ca2-a306-268523663386",
+          "scryfallOracleId": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+          "tcgplayerProductId": "590243"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Island",
+        "number": "86",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD2",
+          "DDE",
+          "DDF",
+          "DDH",
+          "DDI",
+          "DDJ",
+          "DDM",
+          "DDN",
+          "DDO",
+          "DDQ",
+          "DDS",
+          "DDT",
+          "DDU",
+          "DFT",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "JVC",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL02",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Island"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {U}.)",
+        "type": "Basic Land — Island",
+        "types": [
+          "Land"
+        ],
+        "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
+        "variations": [
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+        ]
       }
     ],
     "name": "Soaring (1)",
@@ -2563,6 +3402,10 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "J25"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }

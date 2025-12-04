@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "8db1395498106c"
   },
   "data": {
@@ -29,8 +29,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 3319,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 3443,
+        "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
@@ -44,7 +44,8 @@
             "multiverseId": 589643,
             "name": "Gütige Hydra",
             "text": "Die Gütige Hydra kommt mit X +1/+1-Marken ins Spiel.\nFalls eine oder mehrere +1/+1-Marken auf eine andere Kreatur, die du kontrollierst, gelegt würden, werden stattdessen so viele plus eine +1/+1-Marken auf sie gelegt.\n{T}, entferne eine +1/+1-Marke von der Gütigen Hydra: Lege eine +1/+1-Marke auf eine andere Kreatur deiner Wahl, die du kontrollierst.",
-            "type": "Kreatur — Hydra"
+            "type": "Kreatur — Hydra",
+            "uuid": "ebe6a214-7398-5c1a-b980-b9232a96924f"
           },
           {
             "identifiers": {
@@ -55,7 +56,8 @@
             "multiverseId": 589694,
             "name": "Hidra benévola",
             "text": "La Hidra benévola entra al campo de batalla con X contadores +1/+1 sobre ella.\nSi fueran a ponerse uno o más contadores +1/+1 sobre otra criatura que controlas, en vez de eso, se pone esa misma cantidad de contadores +1/+1 más uno sobre ella.\n{T}, remover un contador +1/+1 de la Hidra benévola: Pon un contador +1/+1 sobre otra criatura objetivo que controlas.",
-            "type": "Criatura — Hidra"
+            "type": "Criatura — Hidra",
+            "uuid": "c6ade8a6-6646-5a25-8bf6-24c47dd4a0e8"
           },
           {
             "identifiers": {
@@ -66,7 +68,8 @@
             "multiverseId": 589745,
             "name": "Hydre bienveillante",
             "text": "L'Hydre bienveillante arrive sur le champ de bataille avec X marqueurs +1/+1 sur elle.\nSi au moins un marqueur +1/+1 devait être mis sur une autre créature que vous contrôlez, autant de marqueurs +1/+1 plus un sont mis sur elle à la place.\n{T}, retirez un marqueur +1/+1 de l'Hydre bienveillante : Mettez un marqueur +1/+1 sur une autre créature ciblée que vous contrôlez.",
-            "type": "Créature : hydre"
+            "type": "Créature : hydre",
+            "uuid": "a915fb61-25ee-5f7c-905f-8bfc14621aab"
           },
           {
             "identifiers": {
@@ -77,7 +80,8 @@
             "multiverseId": 589796,
             "name": "Idra Benevola",
             "text": "L'Idra Benevola entra nel campo di battaglia con X segnalini +1/+1.\nSe uno o più segnalini +1/+1 stanno per essere messi su un'altra creatura che controlli, mettine invece uno in più.\n{T}, Rimuovi un segnalino +1/+1 dall'Idra Benevola: Metti un segnalino +1/+1 su un'altra creatura bersaglio che controlli.",
-            "type": "Creatura — Idra"
+            "type": "Creatura — Idra",
+            "uuid": "73e569d0-1c66-559b-93cd-45dcb6619c47"
           },
           {
             "identifiers": {
@@ -88,7 +92,8 @@
             "multiverseId": 589847,
             "name": "心優しきハイドラ",
             "text": "心優しきハイドラは＋１/＋１カウンターＸ個が置かれた状態で戦場に出る。\nあなたがコントロールしていてこれでないクリーチャー１体の上に１個以上の＋１/＋１カウンターが置かれるなら、代わりにそれの上にその個数に１を足した個数の＋１/＋１カウンターを置く。\n{T},心優しきハイドラの上から＋１/＋１カウンター１個を取り除く：あなたがコントロールしていてこれでないクリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。",
-            "type": "クリーチャー — ハイドラ"
+            "type": "クリーチャー — ハイドラ",
+            "uuid": "1d8c195e-60b6-54d3-8108-c94b27ad1c9c"
           },
           {
             "identifiers": {
@@ -99,7 +104,8 @@
             "multiverseId": 590000,
             "name": "善心多头龙",
             "text": "善心多头龙进战场时上面有X个+1/+1指示物。\n如果将在另一个由你操控的生物上放置一个或数个+1/+1指示物，则改为在其上放置该数量加一的+1/+1指示物。\n{T}，从善心多头龙上移去一个+1/+1指示物：在另一个目标由你操控的生物上放置一个+1/+1指示物。",
-            "type": "生物 ～多头龙"
+            "type": "生物 ～多头龙",
+            "uuid": "b95c481a-7043-51c6-97b8-d809906b007d"
           }
         ],
         "frameVersion": "2015",
@@ -119,6 +125,7 @@
           "scryfallOracleId": "01dbf1bc-ca62-4fb6-959c-ef7c0dc03bb0",
           "tcgplayerProductId": "455349"
         },
+        "isEtched": false,
         "isFoil": false,
         "language": "English",
         "layout": "normal",
@@ -134,7 +141,6 @@
         "name": "Benevolent Hydra",
         "number": "38",
         "originalText": "Benevolent Hydra enters the battlefield with X +1/+1 counters on it.\nIf one or more +1/+1 counters would be put on another creature you control, that many plus one +1/+1 counters are put on it instead.\n{T}, Remove a +1/+1 counter from Benevolent Hydra: Put a +1/+1 counter on another target creature you control.",
-        "originalType": "Creature — Hydra",
         "power": "1",
         "printings": [
           "J22",
@@ -195,7 +201,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 16036,
+        "edhrecRank": 16828,
+        "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
@@ -211,7 +218,8 @@
             "multiverseId": 592846,
             "name": "Domestizierte Hydra",
             "text": "{X}{G}{G}{G}: Monstrum X. (Falls diese Kreatur nicht monströs ist, lege X +1/+1-Marken auf sie und sie wird monströs.)\nSolange die Domestizierte Hydra monströs ist, verursacht sie Trampelschaden.",
-            "type": "Kreatur — Hydra"
+            "type": "Kreatur — Hydra",
+            "uuid": "6e9c1fe1-92ee-57f0-89c8-a7ade3cbe934"
           },
           {
             "flavorText": "\"Siéntate. La patita. Arrasa\".",
@@ -223,7 +231,8 @@
             "multiverseId": 592967,
             "name": "Hidra amaestrada",
             "text": "{X}{G}{G}{G}: Monstruosidad X. (Si esta criatura no es monstruosa, pon X contadores +1/+1 sobre ella y se convierte en monstruosa.)\nMientras la Hidra amaestrada sea monstruosa, tiene la habilidad de arrollar.",
-            "type": "Criatura — Hidra"
+            "type": "Criatura — Hidra",
+            "uuid": "1d9209cd-2c6d-5e01-882e-7c56711a5496"
           },
           {
             "flavorText": "« Assis. Va chercher. Démolis. »",
@@ -235,7 +244,8 @@
             "multiverseId": 593088,
             "name": "Hydre apprivoisée",
             "text": "{X}{G}{G}{G} : Monstruosité X. (Si cette créature n'est pas monstrueuse, mettez X marqueurs +1/+1 sur elle et elle devient monstrueuse.)\nTant que l'Hydre apprivoisée est monstrueuse, elle a le piétinement.",
-            "type": "Créature : hydre"
+            "type": "Créature : hydre",
+            "uuid": "8fbe2d89-8e56-55a1-9449-80fc0a0d8bb5"
           },
           {
             "flavorText": "\"Seduta. Riporta. Devasta.\"",
@@ -247,7 +257,8 @@
             "multiverseId": 593209,
             "name": "Idra Addomesticata",
             "text": "{X}{G}{G}{G}: Mostruosità X. (Se questa creatura non è mostruosa, metti X segnalini +1/+1 su di essa e diventa mostruosa.)\nFintanto che l'Idra Addomesticata è mostruosa, ha travolgere.",
-            "type": "Creatura — Idra"
+            "type": "Creatura — Idra",
+            "uuid": "a04430be-2495-59c0-9f8e-9b9e617ceba5"
           },
           {
             "flavorText": "「オスワリ。トッテコイ。センメツ。」",
@@ -259,7 +270,8 @@
             "multiverseId": 593330,
             "name": "飼い馴らされたハイドラ",
             "text": "{X}{G}{G}{G}：怪物化Ｘを行う。（このクリーチャーが怪物的でないなら、これの上に＋１/＋１カウンターＸ個を置く。これは怪物的になる。）\n飼い馴らされたハイドラが怪物的であるかぎり、これはトランプルを持つ。",
-            "type": "クリーチャー — ハイドラ"
+            "type": "クリーチャー — ハイドラ",
+            "uuid": "e66d574a-4ab4-58a1-a5c3-971a404d6a0a"
           },
           {
             "flavorText": "「坐下。叼来。毁掉。」",
@@ -271,7 +283,8 @@
             "multiverseId": 593693,
             "name": "驯化多头龙",
             "text": "{X}{G}{G}{G}：蛮化X。（如果此生物未蛮化，则在其上放置X个+1/+1指示物且它已蛮化。）\n只要驯化多头龙已蛮化，它便具有践踏异能。",
-            "type": "生物 ～多头龙"
+            "type": "生物 ～多头龙",
+            "uuid": "8f6f3247-c3c5-5d0a-8f3d-b280ff3d35b7"
           }
         ],
         "frameVersion": "2015",
@@ -291,6 +304,7 @@
           "scryfallOracleId": "b6d65fa3-26a9-44b2-a93d-a295bd080729",
           "tcgplayerProductId": "455393"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -310,7 +324,6 @@
         "name": "Domesticated Hydra",
         "number": "647",
         "originalText": "{X}{G}{G}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)\nAs long as Domesticated Hydra is monstrous, it has trample.",
-        "originalType": "Creature — Hydra",
         "power": "3",
         "printings": [
           "CN2",
@@ -358,8 +371,8 @@
         "colors": [],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 15214,
-        "edhrecSaltiness": 0.2,
+        "edhrecRank": 15942,
+        "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
@@ -373,7 +386,8 @@
             "multiverseId": 597542,
             "name": "Mechanische Hydra",
             "text": "Die Mechanische Hydra kommt mit vier +1/+1-Marken ins Spiel.\nImmer wenn die Mechanische Hydra angreift oder blockt, entferne eine +1/+1-Marke von ihr. Falls du dies tust, fügt die Mechanische Hydra einem Ziel deiner Wahl 1 Schadenspunkt zu.\n{T}: Lege eine +1/+1-Marke auf die Mechanische Hydra.",
-            "type": "Artefaktkreatur — Hydra"
+            "type": "Artefaktkreatur — Hydra",
+            "uuid": "af43e5a6-e80c-5bc0-8730-fc5c920969d8"
           },
           {
             "identifiers": {
@@ -384,7 +398,8 @@
             "multiverseId": 597567,
             "name": "Hidra mecánica",
             "text": "La Hidra mecánica entra al campo de batalla con cuatro contadores +1/+1 sobre ella.\nSiempre que la Hidra mecánica ataque o bloquee, remueve un contador +1/+1 de ella. Si lo haces, la Hidra mecánica hace 1 punto de daño a cualquier objetivo.\n{T}: Pon un contador +1/+1 sobre la Hidra mecánica.",
-            "type": "Criatura artefacto — Hidra"
+            "type": "Criatura artefacto — Hidra",
+            "uuid": "ada39a0f-8d88-576c-b7de-c61739039cc1"
           },
           {
             "identifiers": {
@@ -395,7 +410,8 @@
             "multiverseId": 597592,
             "name": "Hydre mécanique",
             "text": "L'Hydre mécanique arrive sur le champ de bataille avec quatre marqueurs +1/+1 sur elle.\nÀ chaque fois que l'Hydre mécanique attaque ou bloque, retirez-lui un marqueur +1/+1. Si vous faites ainsi, l'Hydre mécanique inflige 1 blessure à n'importe quelle cible.\n{T} : Mettez un marqueur +1/+1 sur l'Hydre mécanique.",
-            "type": "Créature-artefact : hydre"
+            "type": "Créature-artefact : hydre",
+            "uuid": "8e84cc5c-ff16-5944-93f9-8ed531682290"
           },
           {
             "identifiers": {
@@ -406,7 +422,8 @@
             "multiverseId": 597617,
             "name": "Idra Meccanica",
             "text": "L'Idra Meccanica entra nel campo di battaglia con quattro segnalini +1/+1.\nOgniqualvolta l'Idra Meccanica attacca o blocca, rimuovi un segnalino +1/+1 da essa. Se lo fai, l'Idra Meccanica infligge 1 danno a un qualsiasi bersaglio.\n{T}: Metti un segnalino +1/+1 sull'Idra Meccanica.",
-            "type": "Creatura Artefatto — Idra"
+            "type": "Creatura Artefatto — Idra",
+            "uuid": "d1f123cd-9a0a-5714-88f6-e37927ab97fc"
           },
           {
             "identifiers": {
@@ -417,7 +434,8 @@
             "multiverseId": 597642,
             "name": "機械仕掛けのハイドラ",
             "text": "機械仕掛けのハイドラは、＋１/＋１カウンター４個が置かれた状態で戦場に出る。\n機械仕掛けのハイドラが攻撃かブロックするたび、クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。これの上から＋１/＋１カウンター１個を取り除く。そうしたなら、機械仕掛けのハイドラはそれに１点のダメージを与える。\n{T}：機械仕掛けのハイドラの上に＋１/＋１カウンター１個を置く。",
-            "type": "アーティファクト・クリーチャー — ハイドラ"
+            "type": "アーティファクト・クリーチャー — ハイドラ",
+            "uuid": "ff749d79-4d83-5117-89ac-91fdedca05bc"
           },
           {
             "identifiers": {
@@ -428,7 +446,8 @@
             "multiverseId": 597717,
             "name": "发条多头龙",
             "text": "发条多头龙进战场时上面有四个+1/+1指示物。\n每当发条多头龙攻击或阻挡时，从其上移去一个+1/+1指示物。若你如此作，则发条多头龙对任意一个目标造成1点伤害。\n{T}：在发条多头龙上放置一个+1/+1指示物。",
-            "type": "神器生物 ～多头龙"
+            "type": "神器生物 ～多头龙",
+            "uuid": "2b9a7e6f-f4f9-5c51-a0f0-6a19c5b560ba"
           }
         ],
         "frameVersion": "2015",
@@ -448,6 +467,7 @@
           "scryfallOracleId": "6fd37ff3-e75d-459a-8717-8f6a9865fb32",
           "tcgplayerProductId": "455147"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -467,7 +487,6 @@
         "name": "Clockwork Hydra",
         "number": "135",
         "originalText": "Clockwork Hydra enters the battlefield with four +1/+1 counters on it.\nWhenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to any target.\n{T}: Put a +1/+1 counter on Clockwork Hydra.",
-        "originalType": "Artifact Creature — Hydra",
         "power": "0",
         "printings": [
           "DDF",
@@ -530,8 +549,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 8107,
-        "edhrecSaltiness": 0.07,
+        "edhrecRank": 8570,
+        "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
         ],
@@ -547,7 +566,8 @@
             "multiverseId": 592857,
             "name": "Wilde Hydra",
             "text": "Die Wilde Hydra kommt mit X +1/+1-Marken ins Spiel.\n{3}: Lege eine +1/+1-Marke auf die Wilde Hydra. Jeder Spieler kann diese Fähigkeit aktivieren.",
-            "type": "Kreatur — Hydra, Bestie"
+            "type": "Kreatur — Hydra, Bestie",
+            "uuid": "eab2fb30-d9fd-547d-b011-5d1ec4b5185a"
           },
           {
             "flavorText": "Destroza a su presa mientras cada cabeza elige el mejor pedazo.",
@@ -559,7 +579,8 @@
             "multiverseId": 592978,
             "name": "Hidra feral",
             "text": "La Hidra feral entra al campo de batalla con X contadores +1/+1 sobre ella.\n{3}: Pon un contador +1/+1 sobre la Hidra feral. Cualquier jugador puede activar esta habilidad.",
-            "type": "Criatura — Bestia hidra"
+            "type": "Criatura — Bestia hidra",
+            "uuid": "88904a3b-2bf2-52e9-93e8-d7aead8099ce"
           },
           {
             "flavorText": "Elle déchiquette sa proie car chaque tête désire les morceaux de choix.",
@@ -571,7 +592,8 @@
             "multiverseId": 593099,
             "name": "Hydre sauvage",
             "text": "L'Hydre sauvage arrive sur le champ de bataille avec X marqueurs +1/+1 sur elle.\n{3} : Mettez un marqueur +1/+1 sur l'Hydre sauvage. N'importe quel joueur peut activer cette capacité.",
-            "type": "Créature : hydre et bête"
+            "type": "Créature : hydre et bête",
+            "uuid": "1454651b-5174-568a-84ef-481a8b5bfdb9"
           },
           {
             "flavorText": "Fa a pezzi la sua preda mentre ogni testa lotta per i bocconi più saporiti.",
@@ -583,7 +605,8 @@
             "multiverseId": 593220,
             "name": "Idra Selvaggia",
             "text": "L'Idra Selvaggia entra nel campo di battaglia con X segnalini +1/+1.\n{3}: Metti un segnalino +1/+1 sull'Idra Selvaggia. Qualsiasi giocatore può attivare questa abilità.",
-            "type": "Creatura — Bestia Idra"
+            "type": "Creatura — Bestia Idra",
+            "uuid": "d5c74948-53dd-54b2-bd45-7603086f6df4"
           },
           {
             "flavorText": "互いの頭は、獲物の一番美味しいところを引き裂き取り合う。",
@@ -595,7 +618,8 @@
             "multiverseId": 593341,
             "name": "残忍なハイドラ",
             "text": "残忍なハイドラは、＋１/＋１カウンターＸ個が置かれた状態で戦場に出る。\n{3}：残忍なハイドラの上に＋１/＋１カウンター１個を置く。この能力はどのプレイヤーも起動できる。",
-            "type": "クリーチャー — ハイドラ・ビースト"
+            "type": "クリーチャー — ハイドラ・ビースト",
+            "uuid": "05242219-a416-5536-ba62-16cb9c8c120e"
           },
           {
             "flavorText": "每个头都争抢猎物最美味的部分，瞬时将之撕裂。",
@@ -607,7 +631,8 @@
             "multiverseId": 593704,
             "name": "野性多头龙",
             "text": "野性多头龙进战场时上面有X个+1/+1指示物。\n{3}：在野性多头龙上放置一个+1/+1指示物。任何牌手均可以起动此异能。",
-            "type": "生物 ～多头龙／野兽"
+            "type": "生物 ～多头龙／野兽",
+            "uuid": "5ad8435e-a054-5727-909f-c50fe56317d7"
           }
         ],
         "frameVersion": "2015",
@@ -627,6 +652,7 @@
           "scryfallOracleId": "b5d5dd1f-2d31-4849-8cb9-08354dd48d31",
           "tcgplayerProductId": "455399"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -650,7 +676,6 @@
         "name": "Feral Hydra",
         "number": "658",
         "originalText": "Feral Hydra enters the battlefield with X +1/+1 counters on it.\n{3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.",
-        "originalType": "Creature — Hydra Beast",
         "power": "0",
         "printings": [
           "ALA",
@@ -706,8 +731,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 15237,
-        "edhrecSaltiness": 0.15,
+        "edhrecRank": 15675,
+        "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
@@ -721,7 +746,8 @@
             "multiverseId": 592926,
             "name": "Diener der Schuppe",
             "text": "Der Diener der Schuppe kommt mit einer +1/+1-Marke ins Spiel.\nWenn der Diener der Schuppe stirbt, lege X +1/+1-Marken auf eine Kreatur deiner Wahl, die du kontrollierst, wobei X gleich der Anzahl an +1/+1-Marken auf dem Diener der Schuppe ist.",
-            "type": "Kreatur — Mensch, Soldat"
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "d8b924a4-3417-5d8a-b9ba-60387775e6e0"
           },
           {
             "identifiers": {
@@ -732,7 +758,8 @@
             "multiverseId": 593047,
             "name": "Sirviente de la escama",
             "text": "El Sirviente de la escama entra al campo de batalla con un contador +1/+1 sobre él.\nCuando el Sirviente de la escama muera, pon X contadores +1/+1 sobre la criatura objetivo que controlas, donde X es la cantidad de contadores +1/+1 sobre el Sirviente de la escama.",
-            "type": "Criatura — Soldado humano"
+            "type": "Criatura — Soldado humano",
+            "uuid": "71cecac7-71e7-54de-922a-bf9db053beee"
           },
           {
             "identifiers": {
@@ -743,7 +770,8 @@
             "multiverseId": 593168,
             "name": "Servant de l'Écaille",
             "text": "Le Servant de l'Écaille arrive sur le champ de bataille avec un marqueur +1/+1 sur lui.\nQuand le Servant de l'Écaille meurt, mettez X marqueurs +1/+1 sur une créature ciblée que vous contrôlez, X étant le nombre de marqueurs +1/+1 sur le Servant de l'Écaille.",
-            "type": "Créature : humain et soldat"
+            "type": "Créature : humain et soldat",
+            "uuid": "acd02939-075f-549f-96dc-b59d0ecf52ba"
           },
           {
             "identifiers": {
@@ -754,7 +782,8 @@
             "multiverseId": 593289,
             "name": "Servitore della Scaglia",
             "text": "Il Servitore della Scaglia entra nel campo di battaglia con un segnalino +1/+1.\nQuando il Servitore della Scaglia muore, metti X segnalini +1/+1 su una creatura bersaglio che controlli, dove X è il numero di segnalini +1/+1 sul Servitore della Scaglia.",
-            "type": "Creatura — Soldato Umano"
+            "type": "Creatura — Soldato Umano",
+            "uuid": "c353c802-2ce6-5d2d-9fba-bac5b1d66db1"
           },
           {
             "identifiers": {
@@ -765,7 +794,8 @@
             "multiverseId": 593410,
             "name": "鱗の召使い",
             "text": "鱗の召使いは＋１/＋１カウンター１個が置かれた状態で戦場に出る。\n鱗の召使いが死亡したとき、あなたがコントロールしているクリーチャー１体を対象とする。それの上に＋１/＋１カウンターＸ個を置く。Ｘは鱗の召使いの上にある＋１/＋１カウンターの個数に等しい。",
-            "type": "クリーチャー — 人間・兵士"
+            "type": "クリーチャー — 人間・兵士",
+            "uuid": "94d6bb84-18fb-570c-92a7-eb4782fb2265"
           },
           {
             "identifiers": {
@@ -776,7 +806,8 @@
             "multiverseId": 593773,
             "name": "龙鳞仆从",
             "text": "龙鳞仆从进战场时上面有一个+1/+1指示物。\n当龙鳞仆从死去时，在目标由你操控的生物上放置X个+1/+1指示物，X为龙鳞仆从上的+1/+1指示物数量。",
-            "type": "生物 ～人类／士兵"
+            "type": "生物 ～人类／士兵",
+            "uuid": "5dc43ecb-dba9-5a0c-9bd4-e1c30b50a0e2"
           }
         ],
         "frameVersion": "2015",
@@ -796,6 +827,7 @@
           "scryfallOracleId": "7d404420-e3de-47a8-a159-2f634a73f2c9",
           "tcgplayerProductId": "455479"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -811,6 +843,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -820,7 +853,6 @@
         "name": "Servant of the Scale",
         "number": "727",
         "originalText": "Servant of the Scale enters the battlefield with a +1/+1 counter on it.\nWhen Servant of the Scale dies, put X +1/+1 counters on target creature you control, where X is the number of +1/+1 counters on Servant of the Scale.",
-        "originalType": "Creature — Human Soldier",
         "power": "0",
         "printings": [
           "DTK",
@@ -873,8 +905,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1561,
-        "edhrecSaltiness": 0.16,
+        "edhrecRank": 1625,
+        "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
@@ -890,7 +922,8 @@
             "multiverseId": 592875,
             "name": "Ilysischer Karyatide",
             "text": "{T}: Erzeuge ein Mana einer beliebigen Farbe. Falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst, erzeuge stattdessen zwei Mana genau einer beliebigen Farbe.",
-            "type": "Kreatur — Pflanze"
+            "type": "Kreatur — Pflanze",
+            "uuid": "420783ac-d584-583d-b382-ede22e7840e7"
           },
           {
             "flavorText": "A aquellos que mueren como héroes se les permite residir en Ilysea, una región protegida del Inframundo, tan tranquila y alegre como lúgubres son el resto de sitios.",
@@ -902,7 +935,8 @@
             "multiverseId": 592996,
             "name": "Cariátide ilysea",
             "text": "{T}: Agrega un maná de cualquier color. Si controlas una criatura con fuerza de 4 o más, en vez de eso, agrega dos manás de un color cualquiera.",
-            "type": "Criatura — Planta"
+            "type": "Criatura — Planta",
+            "uuid": "be50e1c9-8aef-5f95-abf9-cf28e525ffeb"
           },
           {
             "flavorText": "Ceux qui meurent en héros ont le droit de demeurer dans l'Ilysée, un royaume protégé du Monde souterrain aussi tranquille et vivant que le reste est désolé.",
@@ -914,7 +948,8 @@
             "multiverseId": 593117,
             "name": "Cariatide ilyséenne",
             "text": "{T} : Ajoutez un mana de la couleur de votre choix. Si vous contrôlez une créature de force supérieure ou égale à 4, ajoutez deux manas d'une même couleur de votre choix à la place.",
-            "type": "Créature : plante"
+            "type": "Créature : plante",
+            "uuid": "2c4d399f-8e90-5a8b-beb9-68f7dfbf9158"
           },
           {
             "flavorText": "A coloro che muoiono da eroi è consentito risiedere a Ilysia, un reame protetto dell'Ade, sereno e fiorente quanto il resto è tetro e angosciante.",
@@ -926,7 +961,8 @@
             "multiverseId": 593238,
             "name": "Cariatide di Ilysia",
             "text": "{T}: Aggiungi un mana di un qualsiasi colore. Se controlli una creatura con forza pari o superiore a 4, aggiungi invece due mana di un qualsiasi colore.",
-            "type": "Creatura — Pianta"
+            "type": "Creatura — Pianta",
+            "uuid": "9f913f7a-b70b-5cf0-a2c3-7d5ab93e389a"
           },
           {
             "flavorText": "英雄として死んだ者はイリーシアで暮らすことが許される。ここは死の国の中にある保護された地域で、荒涼とした他の場所に比べると静穏で明るい。",
@@ -938,7 +974,8 @@
             "multiverseId": 593359,
             "name": "イリーシアの女像樹",
             "text": "{T}：好きな色１色のマナ１点を加える。あなたがパワーが４以上であるクリーチャーをコントロールしているなら、代わりに好きな色１色のマナ２点を加える。",
-            "type": "クリーチャー — 植物"
+            "type": "クリーチャー — 植物",
+            "uuid": "87ee9fb7-9e27-569a-979a-4f958f7de42c"
           },
           {
             "flavorText": "被尊为英雄者死后可进入安宁兴盛的依吕夏境内。此处为少有的安全境域，与冥界他处的黑暗阴沉形成鲜明对比。",
@@ -950,7 +987,8 @@
             "multiverseId": 593722,
             "name": "依吕夏女像柱",
             "text": "{T}：加一点任意颜色的法术力。如果你操控力量等于或大于4的生物，则改为加两点任意颜色的单色法术力。",
-            "type": "生物 ～植物"
+            "type": "生物 ～植物",
+            "uuid": "d2e80eee-cf48-55f0-9859-c490252a0305"
           }
         ],
         "frameVersion": "2015",
@@ -970,12 +1008,12 @@
           "scryfallOracleId": "5f2be3c2-060a-43e1-b63b-9cd3c78ffcb0",
           "tcgplayerProductId": "455411"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
-          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -986,7 +1024,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -996,7 +1033,6 @@
         "name": "Ilysian Caryatid",
         "number": "676",
         "originalText": "{T}: Add one mana of any color. If you control a creature with power 4 or greater, add two mana of any one color instead.",
-        "originalType": "Creature — Plant",
         "power": "1",
         "printings": [
           "ANB",
@@ -1054,8 +1090,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1951,
-        "edhrecSaltiness": 0.17,
+        "edhrecRank": 2257,
+        "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
@@ -1069,7 +1105,8 @@
             "multiverseId": 592859,
             "name": "Ergiebigmacher",
             "text": "Der Ergiebigmacher kommt mit zwei +1/+1-Marken ins Spiel.\n{1}{G}, entferne eine +1/+1-Marke vom Ergiebigmacher: Ein Spieler deiner Wahl durchsucht seine Bibliothek nach einer Standardland-Karte, bringt sie getappt ins Spiel und mischt danach.",
-            "type": "Kreatur — Elementarwesen"
+            "type": "Kreatur — Elementarwesen",
+            "uuid": "267faafe-9002-5049-9d7e-95ebb13b89c0"
           },
           {
             "identifiers": {
@@ -1080,7 +1117,8 @@
             "multiverseId": 592980,
             "name": "Fertílido",
             "text": "El Fertílido entra al campo de batalla con dos contadores +1/+1 sobre él.\n{1}{G}, remover un contador +1/+1 del Fertílido: El jugador objetivo busca en su biblioteca una carta de tierra básica, la pone en el campo de batalla girada y luego baraja.",
-            "type": "Criatura — Elemental"
+            "type": "Criatura — Elemental",
+            "uuid": "353627d5-afae-5732-b343-8c5f49f935d2"
           },
           {
             "identifiers": {
@@ -1091,7 +1129,8 @@
             "multiverseId": 593101,
             "name": "Fertilide",
             "text": "Le Fertilide arrive sur le champ de bataille avec deux marqueurs +1/+1 sur lui.\n{1}{G}, retirez un marqueur +1/+1 du Fertilide : Un joueur ciblé cherche dans sa bibliothèque une carte de terrain de base, la met sur le champ de bataille engagée, puis mélange.",
-            "type": "Créature : élémental"
+            "type": "Créature : élémental",
+            "uuid": "6900d40a-83fa-5755-98f5-70f83e73dfae"
           },
           {
             "identifiers": {
@@ -1102,7 +1141,8 @@
             "multiverseId": 593222,
             "name": "Fertilid",
             "text": "Il Fertilid entra nel campo di battaglia con due segnalini +1/+1.\n{1}{G}, Rimuovi un segnalino +1/+1 dal Fertilid: Un giocatore bersaglio passa in rassegna il suo grimorio per una carta terra base, la mette sul campo di battaglia TAPpata, poi rimescola.",
-            "type": "Creatura — Elementale"
+            "type": "Creatura — Elementale",
+            "uuid": "e75be390-d139-59f0-9518-70da0cab695a"
           },
           {
             "identifiers": {
@@ -1113,7 +1153,8 @@
             "multiverseId": 593343,
             "name": "ファーティリド",
             "text": "ファーティリドは、＋１/＋１カウンター２個が置かれた状態で戦場に出る。\n{1}{G},ファーティリドの上から＋１/＋１カウンター１個を取り除く：プレイヤー１人を対象とする。そのプレイヤーは自分のライブラリーから基本土地・カード１枚を探し、タップ状態で戦場に出し、その後、ライブラリーを切り直す。",
-            "type": "クリーチャー — エレメンタル"
+            "type": "クリーチャー — エレメンタル",
+            "uuid": "e15d0841-01dc-5b95-8996-922439484b43"
           },
           {
             "identifiers": {
@@ -1124,7 +1165,8 @@
             "multiverseId": 593706,
             "name": "沃壤灵",
             "text": "沃壤灵进战场时上面有两个+1/+1指示物。\n{1}{G}，从沃壤灵上移去一个+1/+1指示物：目标牌手从其牌库中搜寻一张基本地牌，将之横置放进战场，然后洗牌。",
-            "type": "生物 ～元素"
+            "type": "生物 ～元素",
+            "uuid": "e6e4cc5d-ccdf-51b3-95af-62dc76c71035"
           }
         ],
         "frameVersion": "2015",
@@ -1144,6 +1186,7 @@
           "scryfallOracleId": "21f1c6d7-8289-44b2-b88f-c09e202be200",
           "tcgplayerProductId": "455144"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1159,7 +1202,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "predh": "Legal",
           "timeless": "Legal",
@@ -1170,7 +1212,6 @@
         "name": "Fertilid",
         "number": "660",
         "originalText": "Fertilid enters the battlefield with two +1/+1 counters on it.\n{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.",
-        "originalType": "Creature — Elemental",
         "power": "0",
         "printings": [
           "ARC",
@@ -1238,7 +1279,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 7980,
+        "edhrecRank": 8122,
+        "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
@@ -1254,7 +1296,8 @@
             "multiverseId": 592826,
             "name": "Abenteuerlust",
             "text": "Schaue dir die obersten drei Karten deiner Bibliothek an. Du kannst davon eine Kreaturen- oder Länderkarte offen vorzeigen und auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "c0fa5d50-2aa6-5af2-9974-cbd4c8cc21a3"
           },
           {
             "flavorText": "Una aventura sin un compañero no se puede considerar una aventura.",
@@ -1266,7 +1309,8 @@
             "multiverseId": 592947,
             "name": "Impulso aventurero",
             "text": "Mira las tres primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura o de tierra de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "27b4e189-76ee-54c3-bf45-c2c38800a0ce"
           },
           {
             "flavorText": "Une aventure sans compagnon n'est pas vraiment une aventure.",
@@ -1278,7 +1322,8 @@
             "multiverseId": 593068,
             "name": "Impulsion audacieuse",
             "text": "Regardez les trois cartes du dessus de votre bibliothèque. Vous pouvez révéler une carte de créature ou de terrain parmi elles et la mettre dans votre main. Mettez le reste au-dessous de votre bibliothèque, dans l'ordre de votre choix.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "14591ca4-e8ae-5470-a812-5bcbebed11d1"
           },
           {
             "flavorText": "Un'avventura senza un compagno non è degna di questo nome.",
@@ -1290,7 +1335,8 @@
             "multiverseId": 593189,
             "name": "Impulso Avventuroso",
             "text": "Guarda le prime tre carte del tuo grimorio. Puoi rivelare una carta creatura o terra scelta tra esse e aggiungerla alla tua mano. Metti le altre in fondo al tuo grimorio in qualsiasi ordine.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "dd56ae70-13c3-563a-9292-592bcd5d032f"
           },
           {
             "flavorText": "相棒のいない冒険は、冒険とは言い難い。",
@@ -1302,7 +1348,8 @@
             "multiverseId": 593310,
             "name": "冒険の衝動",
             "text": "あなたのライブラリーの一番上にあるカード３枚を見る。あなたは「その中からクリーチャーや土地であるカード１枚を公開し、あなたの手札に加える。」を選んでもよい。残りをあなたのライブラリーの一番下に望む順番で置く。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "5acbeae5-d4f7-5beb-aad7-2baacf44981f"
           },
           {
             "flavorText": "没有行侣的冒险，就根本不能称为冒险。",
@@ -1314,7 +1361,8 @@
             "multiverseId": 593673,
             "name": "冒险冲动",
             "text": "检视你牌库顶的三张牌。你可以展示其中一张生物或地牌并置于你手上。将其余的牌以任意顺序置于你牌库底。",
-            "type": "法术"
+            "type": "法术",
+            "uuid": "33fbbf2c-ba96-5685-bcec-27ee7000258f"
           }
         ],
         "frameVersion": "2015",
@@ -1334,6 +1382,7 @@
           "scryfallOracleId": "5bf49f39-b3d5-4148-8dc2-b5b5011769d2",
           "tcgplayerProductId": "455363"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1359,7 +1408,6 @@
         "name": "Adventurous Impulse",
         "number": "627",
         "originalText": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
-        "originalType": "Sorcery",
         "printings": [
           "DOM",
           "IKO",
@@ -1409,7 +1457,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5486,
+        "edhrecRank": 5664,
+        "edhrecSaltiness": 0.28,
         "finishes": [
           "nonfoil"
         ],
@@ -1425,7 +1474,8 @@
             "multiverseId": 592923,
             "name": "Die Höhen erklimmen",
             "text": "Lege eine +1/+1-Marke auf bis zu eine Kreatur deiner Wahl. Du erhältst 2 Lebenspunkte dazu. Du darfst in diesem Zug ein zusätzliches Land spielen.\nZiehe eine Karte.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "8d08bab4-3377-5c5e-99ac-8622140fe7b3"
           },
           {
             "flavorText": "\"Siempre hacia adelante; siempre hacia el cielo\".",
@@ -1437,7 +1487,8 @@
             "multiverseId": 593044,
             "name": "Escalar las alturas",
             "text": "Pon un contador +1/+1 sobre hasta una criatura objetivo. Ganas 2 vidas. Puedes jugar una tierra adicional este turno.\nRoba una carta.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "e69425b3-d1e6-5cc0-ad4d-1162e2a6a4e9"
           },
           {
             "flavorText": "« Toujours plus loin, toujours plus haut. »",
@@ -1449,7 +1500,8 @@
             "multiverseId": 593165,
             "name": "Gravir le sommet",
             "text": "Ciblez jusqu'à une créature. Mettez un marqueur +1/+1 sur elle. Vous gagnez 2 points de vie. Vous pouvez jouer un terrain supplémentaire ce tour-ci.\nPiochez une carte.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "7208ff62-a3ec-54fd-ae24-3a73821dc729"
           },
           {
             "flavorText": "\"Sempre avanti, sempre in alto.\"",
@@ -1461,7 +1513,8 @@
             "multiverseId": 593286,
             "name": "Scalare le Vette",
             "text": "Scegli fino a una creatura bersaglio. Metti un segnalino +1/+1 su di essa. Guadagni 2 punti vita. Puoi giocare una terra addizionale in questo turno.\nPesca una carta.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "d701f902-0c7e-51a1-9605-933362905f15"
           },
           {
             "flavorText": "「常に前へ。常に空へ。」",
@@ -1473,7 +1526,8 @@
             "multiverseId": 593407,
             "name": "高所の追求",
             "text": "クリーチャー最大１体を対象とする。それの上に＋１/＋１カウンター１個を置く。あなたは２点のライフを得る。このターン、あなたは追加で土地１つをプレイしてもよい。\nカード１枚を引く。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "2718a376-612e-5777-8150-7942a303628c"
           },
           {
             "flavorText": "「攀高峰，登天际。」",
@@ -1485,7 +1539,8 @@
             "multiverseId": 593770,
             "name": "勇攀高峰",
             "text": "在至多一个目标生物上放置一个+1/+1指示物。你获得2点生命。本回合中，你可以额外使用一个地。\n抓一张牌。",
-            "type": "法术"
+            "type": "法术",
+            "uuid": "cfdfca92-185f-507c-a487-65aeea89245c"
           }
         ],
         "frameVersion": "2015",
@@ -1505,6 +1560,7 @@
           "scryfallOracleId": "13d5b664-db13-406e-9956-3d9fe4177d33",
           "tcgplayerProductId": "455475"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1529,7 +1585,6 @@
         "name": "Scale the Heights",
         "number": "724",
         "originalText": "Put a +1/+1 counter on up to one target creature. You gain 2 life. You may play an additional land this turn.\nDraw a card.",
-        "originalType": "Sorcery",
         "printings": [
           "J22",
           "ZNR"
@@ -1589,8 +1644,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 17311,
-        "edhrecSaltiness": 0.08,
+        "edhrecRank": 18202,
+        "edhrecSaltiness": 0.62,
         "finishes": [
           "nonfoil"
         ],
@@ -1606,7 +1661,8 @@
             "multiverseId": 592874,
             "name": "Vorteil des Jägers",
             "text": "Lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst. Dann fügt sie einer Kreatur deiner Wahl, die du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "c3dfd8c5-2615-5b72-a451-1bcd21891b89"
           },
           {
             "flavorText": "La caza acaba. Comienza la comida.",
@@ -1618,7 +1674,8 @@
             "multiverseId": 592995,
             "name": "Ventaja de la cazadora",
             "text": "Pon un contador +1/+1 sobre la criatura objetivo que controlas. Luego, esa criatura hace una cantidad de daño igual a su fuerza a la criatura objetivo que no controlas.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "70b110ee-9453-52bb-bae3-88e7a8cda04d"
           },
           {
             "flavorText": "La chasse est terminée. Le repas est prêt.",
@@ -1630,7 +1687,8 @@
             "multiverseId": 593116,
             "name": "Avantage de la chasseresse",
             "text": "Mettez un marqueur +1/+1 sur une créature ciblée que vous contrôlez. Ensuite, cette créature inflige un nombre de blessures égal à sa force à une créature ciblée que vous ne contrôlez pas.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "859f0445-118f-5ae6-ba1c-ad9146eb67d2"
           },
           {
             "flavorText": "La caccia è finita. Inizia il pranzo.",
@@ -1642,7 +1700,8 @@
             "multiverseId": 593237,
             "name": "Vantaggio del Cacciatore",
             "text": "Metti un segnalino +1/+1 su una creatura bersaglio che controlli. Poi quella creatura infligge danno pari alla sua forza a una creatura bersaglio che non controlli.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "90fbf070-b577-5754-9faf-e2e2cc355b17"
           },
           {
             "flavorText": "狩りが終わり、食事の時間になった。",
@@ -1654,7 +1713,8 @@
             "multiverseId": 593358,
             "name": "狩人の刃",
             "text": "あなたがコントロールしているクリーチャー１体と、あなたがコントロールしていないクリーチャー１体を対象とする。その前者の上に＋１/＋１カウンター１個を置く。その後、その前者はその後者に、自身のパワーに等しい点数のダメージを与える。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "6983cdbf-4dce-5597-b0a7-4978d5b9c616"
           },
           {
             "flavorText": "狩猎结束，午餐开始。",
@@ -1666,7 +1726,8 @@
             "multiverseId": 593721,
             "name": "猎者显威",
             "text": "在目标由你操控的生物上放置一个+1/+1指示物。然后该生物对目标不由你操控的生物造成伤害，其数量等同于前者的力量。",
-            "type": "法术"
+            "type": "法术",
+            "uuid": "48db30c2-37bb-585d-948b-cc72f6117c24"
           }
         ],
         "frameVersion": "2015",
@@ -1686,6 +1747,7 @@
           "scryfallOracleId": "7b428e94-8428-455f-b555-f648fcdd2127",
           "tcgplayerProductId": "455410"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1711,7 +1773,6 @@
         "name": "Hunter's Edge",
         "number": "675",
         "originalText": "Put a +1/+1 counter on target creature you control. Then that creature deals damage equal to its power to target creature you don't control.",
-        "originalType": "Sorcery",
         "printings": [
           "J22",
           "J25",
@@ -1773,8 +1834,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 11915,
-        "edhrecSaltiness": 0.09,
+        "edhrecRank": 12648,
+        "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
@@ -1790,7 +1851,8 @@
             "multiverseId": 592930,
             "name": "Macht der Seele",
             "text": "Lege X +1/+1-Marken auf eine Kreatur deiner Wahl, wobei X gleich der Stärke der Kreatur ist.",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "7081eb1f-b52a-5316-9d67-6c3ac092ee92"
           },
           {
             "flavorText": "Esculpe un avatar de instinto y fuerza.",
@@ -1802,7 +1864,8 @@
             "multiverseId": 593051,
             "name": "Poder del alma",
             "text": "Pon X contadores +1/+1 sobre la criatura objetivo, donde X es la fuerza de esa criatura.",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "6f44f479-5e41-5c44-9c9b-ca7897aa8efb"
           },
           {
             "flavorText": "Un avatar qu'il sculpte avec l'instinct et la force.",
@@ -1814,7 +1877,8 @@
             "multiverseId": 593172,
             "name": "Puissance de l'âme",
             "text": "Mettez X marqueurs +1/+1 sur une créature ciblée, X étant la force de cette créature.",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "ff8887fd-f16f-570e-9607-c9481c7cca68"
           },
           {
             "flavorText": "Scolpisce un avatar di forza e istinto.",
@@ -1826,7 +1890,8 @@
             "multiverseId": 593293,
             "name": "Potenza dell'Anima",
             "text": "Metti X segnalini +1/+1 su una creatura bersaglio, dove X è la forza di quella creatura.",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "14b0f432-37db-5dcd-926c-00232a9447df"
           },
           {
             "flavorText": "本能と力を象った化身。",
@@ -1838,7 +1903,8 @@
             "multiverseId": 593414,
             "name": "魂の力",
             "text": "クリーチャー１体を対象とする。それの上に＋１/＋１カウンターＸ個を置く。Ｘはそのクリーチャーのパワーに等しい。",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "b0ed7ed6-fe90-5945-8771-200d7ad7faf2"
           },
           {
             "flavorText": "以直觉与力量塑造的化身。",
@@ -1850,7 +1916,8 @@
             "multiverseId": 593777,
             "name": "灵魂瀚力",
             "text": "在目标生物上放置X个+1/+1指示物，X为该生物的力量。",
-            "type": "法术"
+            "type": "法术",
+            "uuid": "f24cc680-d0fd-51b9-9859-d3c1bbfff449"
           }
         ],
         "frameVersion": "2015",
@@ -1870,6 +1937,7 @@
           "scryfallOracleId": "a3538a5e-3d08-4c61-bcb4-ef1f5e5b659d",
           "tcgplayerProductId": "455486"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1882,6 +1950,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "predh": "Legal",
           "vintage": "Legal"
         },
@@ -1890,7 +1959,6 @@
         "name": "Soul's Might",
         "number": "731",
         "originalText": "Put X +1/+1 counters on target creature, where X is that creature's power.",
-        "originalType": "Sorcery",
         "printings": [
           "ALA",
           "CMR",
@@ -1937,8 +2005,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1690,
-        "edhrecSaltiness": 0.25,
+        "edhrecRank": 1828,
+        "edhrecSaltiness": 0.34,
         "finishes": [
           "nonfoil"
         ],
@@ -1952,7 +2020,8 @@
             "multiverseId": 597118,
             "name": "Hydra-Wachstum",
             "text": "Verzaubert eine Kreatur\nWenn das Hydra-Wachstum ins Spiel kommt, lege eine +1/+1-Marke auf die verzauberte Kreatur.\nZu Beginn deines Versorgungssegments verdoppelst du die Anzahl an +1/+1-Marken auf der verzauberten Kreatur.",
-            "type": "Verzauberung — Aura"
+            "type": "Verzauberung — Aura",
+            "uuid": "d00a4d66-8b3d-50d2-96d8-1882de90ccee"
           },
           {
             "identifiers": {
@@ -1963,7 +2032,8 @@
             "multiverseId": 597164,
             "name": "Crecimiento de hidra",
             "text": "Encantar criatura.\nCuando el Crecimiento de hidra entre al campo de batalla, pon un contador +1/+1 sobre la criatura encantada.\nAl comienzo de tu mantenimiento, duplica la cantidad de contadores +1/+1 sobre la criatura encantada.",
-            "type": "Encantamiento — Aura"
+            "type": "Encantamiento — Aura",
+            "uuid": "8d13c562-66ca-5274-a244-19c7c1fa7014"
           },
           {
             "identifiers": {
@@ -1974,7 +2044,8 @@
             "multiverseId": 597210,
             "name": "Croissance de l'hydre",
             "text": "Enchanter : créature\nQuand la Croissance de l'hydre arrive sur le champ de bataille, mettez un marqueur +1/+1 sur la créature enchantée.\nAu début de votre entretien, doublez le nombre de marqueurs +1/+1 sur la créature enchantée.",
-            "type": "Enchantement : aura"
+            "type": "Enchantement : aura",
+            "uuid": "70c5dde9-8055-5bea-94a9-63619d896543"
           },
           {
             "identifiers": {
@@ -1985,7 +2056,8 @@
             "multiverseId": 597256,
             "name": "Crescita dell'Idra",
             "text": "Incanta creatura\nQuando la Crescita dell'Idra entra nel campo di battaglia, metti un segnalino +1/+1 sulla creatura incantata.\nAll'inizio del tuo mantenimento, raddoppia il numero di segnalini +1/+1 sulla creatura incantata.",
-            "type": "Incantesimo — Aura"
+            "type": "Incantesimo — Aura",
+            "uuid": "fe68ae0c-9a54-5606-9e26-ba2706c637b9"
           },
           {
             "identifiers": {
@@ -1996,7 +2068,8 @@
             "multiverseId": 597302,
             "name": "ハイドラの成長",
             "text": "エンチャント（クリーチャー）\nハイドラの成長が戦場に出たとき、エンチャントしているクリーチャーの上に＋１/＋１カウンター１個を置く。\nあなたのアップキープの開始時に、エンチャントしているクリーチャーの上にある＋１/＋１カウンターの個数を２倍にする。",
-            "type": "エンチャント — オーラ"
+            "type": "エンチャント — オーラ",
+            "uuid": "291554bb-6e36-5339-aeef-0f7d2f21cf6a"
           },
           {
             "identifiers": {
@@ -2007,7 +2080,8 @@
             "multiverseId": 597440,
             "name": "多头龙式生长",
             "text": "结附于生物\n当多头龙式生长进战场时，在所结附的生物上放置一个+1/+1指示物。\n在你的维持开始时，将所结附的生物上之+1/+1指示物数量加倍。",
-            "type": "结界 ～灵气"
+            "type": "结界 ～灵气",
+            "uuid": "3ff17e23-ce27-58a1-9c5b-ed05e0d4a4f5"
           }
         ],
         "frameVersion": "2015",
@@ -2027,6 +2101,7 @@
           "scryfallOracleId": "559903cd-5cba-47a5-8b5b-7067e393e76a",
           "tcgplayerProductId": "455357"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -2052,7 +2127,6 @@
         "name": "Hydra's Growth",
         "number": "89",
         "originalText": "Enchant creature\nWhen Hydra's Growth enters the battlefield, put a +1/+1 counter on enchanted creature.\nAt the beginning of your upkeep, double the number of +1/+1 counters on enchanted creature.",
-        "originalType": "Enchantment — Aura",
         "printings": [
           "J22",
           "PLST",
@@ -2109,8 +2183,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1379,
-        "edhrecSaltiness": 0.02,
+        "edhrecRank": 1433,
+        "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
@@ -2126,7 +2200,8 @@
             "multiverseId": 596327,
             "name": "Gedeihender Hain",
             "text": "Der Gedeihende Hain kommt getappt ins Spiel.\nSowie der Gedeihende Hain ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "3749a5f8-bd24-5e30-b31b-6bb31d09f0a4"
           },
           {
             "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
@@ -2138,7 +2213,8 @@
             "multiverseId": 596414,
             "name": "Arboleda floreciente",
             "text": "La Arboleda floreciente entra al campo de batalla girada.\nEn cuanto la Arboleda floreciente entre al campo de batalla, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "603c9c57-90a1-5c8c-8d6a-90a1abced84a"
           },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
@@ -2150,7 +2226,8 @@
             "multiverseId": 596501,
             "name": "Bosquet prospère",
             "text": "Le Bosquet prospère arrive sur le champ de bataille engagé.\nAu moment où le Bosquet prospère arrive sur le champ de bataille, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "02532dc5-2caa-5d3e-a0ef-9f35e8b3fb55"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2162,7 +2239,8 @@
             "multiverseId": 596588,
             "name": "Boschetto Florido",
             "text": "Il Boschetto Florido entra nel campo di battaglia TAPpato.\nMentre il Boschetto Florido entra nel campo di battaglia, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "a8ef1bbd-0b04-5937-a33e-33eb87445345"
           },
           {
             "flavorText": "人の目に触れないこの知られざる楽園で、鳥たちは鮮やかな花々の間を飛び交っている。",
@@ -2174,7 +2252,8 @@
             "multiverseId": 596675,
             "name": "興隆する木立",
             "text": "興隆する木立はタップ状態で戦場に出る。\n興隆する木立が戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色１色のマナ１点を加える。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "65b0d953-837a-5043-a121-fdef09e2a06c"
           },
           {
             "flavorText": "人类视界之外还有一片隐蔽乐土，此处鸟语花香，绿意盎然。",
@@ -2186,7 +2265,8 @@
             "multiverseId": 596936,
             "name": "兴旺树丛",
             "text": "兴旺树丛须横置进战场。\n于兴旺树丛进战场时，选择一种绿色以外的颜色。\n{T}：加{G}或一点所选颜色的法术力。",
-            "type": "地"
+            "type": "地",
+            "uuid": "7cf73216-36d4-54f8-b61e-c25fa2097bd3"
           }
         ],
         "frameVersion": "2015",
@@ -2206,6 +2286,7 @@
           "scryfallOracleId": "a8052556-8962-4130-86a8-6fb7b6a324f7",
           "tcgplayerProductId": "454931"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2227,7 +2308,6 @@
         "name": "Thriving Grove",
         "number": "823",
         "originalText": "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
-        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
@@ -2238,6 +2318,7 @@
           "JMP",
           "LCC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2278,8 +2359,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 7,
-        "edhrecSaltiness": 0.38,
+        "count": 3,
+        "edhrecSaltiness": 0.7,
         "finishes": [
           "nonfoil"
         ],
@@ -2292,7 +2373,8 @@
             "language": "German",
             "multiverseId": 597772,
             "name": "Wald",
-            "type": "Standardland — Wald"
+            "type": "Standardland — Wald",
+            "uuid": "0811beeb-3acf-56ba-ab7f-58e1722c3a1f"
           },
           {
             "identifiers": {
@@ -2302,7 +2384,8 @@
             "language": "Spanish",
             "multiverseId": 597787,
             "name": "Bosque",
-            "type": "Tierra básica — Bosque"
+            "type": "Tierra básica — Bosque",
+            "uuid": "8a386922-508e-510d-8a52-75ce0499a267"
           },
           {
             "identifiers": {
@@ -2312,7 +2395,8 @@
             "language": "French",
             "multiverseId": 597802,
             "name": "Forêt",
-            "type": "Terrain de base : forêt"
+            "type": "Terrain de base : forêt",
+            "uuid": "728eee76-65a5-51be-a118-743f92463346"
           },
           {
             "identifiers": {
@@ -2322,7 +2406,8 @@
             "language": "Italian",
             "multiverseId": 597817,
             "name": "Foresta",
-            "type": "Terra Base — Foresta"
+            "type": "Terra Base — Foresta",
+            "uuid": "d7c4715d-5b99-5ecb-a7a2-9c6d2c2a2336"
           },
           {
             "identifiers": {
@@ -2332,7 +2417,8 @@
             "language": "Japanese",
             "multiverseId": 597832,
             "name": "森",
-            "type": "基本土地 — 森"
+            "type": "基本土地 — 森",
+            "uuid": "7718f533-c5e1-560b-bafa-536db2772cd7"
           },
           {
             "identifiers": {
@@ -2342,7 +2428,8 @@
             "language": "Chinese Simplified",
             "multiverseId": 597877,
             "name": "树林",
-            "type": "基本地 ～树林"
+            "type": "基本地 ～树林",
+            "uuid": "ffce8080-9b3f-5492-8660-8de607a64e4a"
           }
         ],
         "frameVersion": "2015",
@@ -2361,6 +2448,7 @@
           "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
           "tcgplayerProductId": "455154"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2390,7 +2478,6 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "110",
-        "originalType": "Basic Land — Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2466,6 +2553,7 @@
           "EVG",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2582,9 +2670,11 @@
           "SHM",
           "SIR",
           "SLD",
+          "SLP",
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2592,7 +2682,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -2645,6 +2737,798 @@
           "bda821c9-421f-5543-b713-e1d664914488",
           "4a472a30-00d1-56f4-b8d2-cc23f616fcf6"
         ]
+      },
+      {
+        "artist": "Steven Belledin",
+        "artistIds": [
+          "f07d73b9-52a0-4fe5-858b-61f7b42174a5"
+        ],
+        "availability": [
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "G"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.7,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "597773",
+              "scryfallId": "61d84684-1afe-4e6d-9a1b-12fd9ea81d3d"
+            },
+            "language": "German",
+            "multiverseId": 597773,
+            "name": "Wald",
+            "type": "Standardland — Wald",
+            "uuid": "ae6d338b-9ed9-5e29-a918-1fbf8e5ff0a9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597788",
+              "scryfallId": "f2040328-f727-4bdf-b604-4e4f70d91556"
+            },
+            "language": "Spanish",
+            "multiverseId": 597788,
+            "name": "Bosque",
+            "type": "Tierra básica — Bosque",
+            "uuid": "7424292a-340b-51f2-80b8-6db5d5ead5f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597803",
+              "scryfallId": "03fe31a1-24d0-4db2-b8b2-6836bf285594"
+            },
+            "language": "French",
+            "multiverseId": 597803,
+            "name": "Forêt",
+            "type": "Terrain de base : forêt",
+            "uuid": "c33c5e18-9634-571a-b1db-fe40e5b74bcf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597818",
+              "scryfallId": "ef19183a-8c12-4f3e-bd30-4895b1ff992a"
+            },
+            "language": "Italian",
+            "multiverseId": 597818,
+            "name": "Foresta",
+            "type": "Terra Base — Foresta",
+            "uuid": "99fa873f-05d3-5662-8861-17f575b022ff"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597833",
+              "scryfallId": "9e31f84f-2bd6-428e-bdfc-e7ec1db153d7"
+            },
+            "language": "Japanese",
+            "multiverseId": 597833,
+            "name": "森",
+            "type": "基本土地 — 森",
+            "uuid": "b199c37f-c21e-53c8-b332-d6552ef63d9c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597878",
+              "scryfallId": "3380a5e5-3dce-42eb-86aa-889e27b01b33"
+            },
+            "language": "Chinese Simplified",
+            "multiverseId": 597878,
+            "name": "树林",
+            "type": "基本地 ～树林",
+            "uuid": "8dd9449d-4aff-5e29-bb04-7e7682eca09b"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "270292",
+          "cardsphereId": "97095",
+          "deckboxId": "71304",
+          "mcmId": "687369",
+          "mtgjsonV4Id": "d21f5585-c4bd-55d4-be1e-b55f7e1ab17d",
+          "multiverseId": "597758",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "ee56689a-da7b-4cd7-8767-e3f514b6db9e",
+          "scryfallIllustrationId": "f417fb07-b6cb-43c6-86af-d35c7d9ba910",
+          "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "tcgplayerProductId": "455143"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Forest",
+        "number": "111",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD1",
+          "DDD",
+          "DDE",
+          "DDG",
+          "DDH",
+          "DDJ",
+          "DDL",
+          "DDM",
+          "DDO",
+          "DDP",
+          "DDR",
+          "DDS",
+          "DDU",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "EVG",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PL25",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/dfe6a3c9d30c0759",
+          "tcgplayer": "https://mtgjson.com/links/ffab32d2c9ebbdcf"
+        },
+        "rarity": "common",
+        "setCode": "J22",
+        "sourceProducts": {
+          "nonfoil": [
+            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+          ]
+        },
+        "subtypes": [
+          "Forest"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "type": "Basic Land — Forest",
+        "types": [
+          "Land"
+        ],
+        "uuid": "bda821c9-421f-5543-b713-e1d664914488",
+        "variations": [
+          "08bb8f11-5a93-5121-9f05-f55d07e2dc6c",
+          "4a472a30-00d1-56f4-b8d2-cc23f616fcf6"
+        ]
+      },
+      {
+        "artist": "Jim Nelson",
+        "artistIds": [
+          "aa9f64d1-29e1-4c82-877e-44c18183f40b"
+        ],
+        "availability": [
+          "paper"
+        ],
+        "boosterTypes": [
+          "default"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "G"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.7,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "597774",
+              "scryfallId": "afc9cb54-56a8-4be9-9613-9d51d5badd89"
+            },
+            "language": "German",
+            "multiverseId": 597774,
+            "name": "Wald",
+            "type": "Standardland — Wald",
+            "uuid": "12867d03-1e6e-5936-9c61-b730fe979756"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597789",
+              "scryfallId": "ee4d783b-50df-4810-a494-9b15e8b0e3e0"
+            },
+            "language": "Spanish",
+            "multiverseId": 597789,
+            "name": "Bosque",
+            "type": "Tierra básica — Bosque",
+            "uuid": "37e295b1-05de-550d-a8e0-249860beb1d9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597804",
+              "scryfallId": "f87273ec-bb08-41e5-9998-e03ade53570b"
+            },
+            "language": "French",
+            "multiverseId": 597804,
+            "name": "Forêt",
+            "type": "Terrain de base : forêt",
+            "uuid": "8a2f62db-995f-5478-8e40-9ed39d355a16"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597819",
+              "scryfallId": "6bb63728-6991-45da-bb00-a161f65b7209"
+            },
+            "language": "Italian",
+            "multiverseId": 597819,
+            "name": "Foresta",
+            "type": "Terra Base — Foresta",
+            "uuid": "f2952c04-81fc-575f-9709-ce0cf2eb71c1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597834",
+              "scryfallId": "c857d30e-f012-4033-a6fd-19f26e06e375"
+            },
+            "language": "Japanese",
+            "multiverseId": 597834,
+            "name": "森",
+            "type": "基本土地 — 森",
+            "uuid": "7bd02e54-fa1c-529a-8df9-49334ee9e2fc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597879",
+              "scryfallId": "a2b724bf-8c16-4749-af1c-6f79aae75fe1"
+            },
+            "language": "Chinese Simplified",
+            "multiverseId": 597879,
+            "name": "树林",
+            "type": "基本地 ～树林",
+            "uuid": "9474a82b-75c5-55dc-9b14-a170f4c5c49a"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "270293",
+          "cardsphereId": "97084",
+          "deckboxId": "71305",
+          "mcmId": "687370",
+          "mtgjsonV4Id": "3514b3e7-5e6f-5fbd-967d-5fa81efe4580",
+          "multiverseId": "597759",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "900eedf8-71b0-4b82-9709-019018bc29fe",
+          "scryfallIllustrationId": "00ca450f-62d1-4514-8a17-82eccd386ccc",
+          "scryfallOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "tcgplayerProductId": "455163"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Forest",
+        "number": "112",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CMR",
+          "CST",
+          "DD1",
+          "DDD",
+          "DDE",
+          "DDG",
+          "DDH",
+          "DDJ",
+          "DDL",
+          "DDM",
+          "DDO",
+          "DDP",
+          "DDR",
+          "DDS",
+          "DDU",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "E01",
+          "ELD",
+          "EOE",
+          "EVG",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GS1",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PIP",
+          "PL25",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "PZ2",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC00",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC04",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/ef86be847734c3a0",
+          "tcgplayer": "https://mtgjson.com/links/0d3ff6530101651e"
+        },
+        "rarity": "common",
+        "setCode": "J22",
+        "sourceProducts": {
+          "nonfoil": [
+            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+          ]
+        },
+        "subtypes": [
+          "Forest"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {G}.)",
+        "type": "Basic Land — Forest",
+        "types": [
+          "Land"
+        ],
+        "uuid": "4a472a30-00d1-56f4-b8d2-cc23f616fcf6",
+        "variations": [
+          "08bb8f11-5a93-5121-9f05-f55d07e2dc6c",
+          "bda821c9-421f-5543-b713-e1d664914488"
+        ]
       }
     ],
     "name": "Multi-Headed 1",
@@ -2653,6 +3537,10 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "J22"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }

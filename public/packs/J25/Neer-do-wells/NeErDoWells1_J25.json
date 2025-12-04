@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2025-07-13",
-    "version": "5.2.2+20250713",
+    "date": "2025-12-02",
+    "version": "5.2.2+20251202",
     "publicId": "c0d57d00f74281"
   },
   "data": {
@@ -28,7 +28,8 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 4113,
+        "edhrecRank": 3074,
+        "edhrecSaltiness": 0.67,
         "finishes": [
           "nonfoil"
         ],
@@ -42,7 +43,8 @@
             "multiverseId": 680972,
             "name": "Rev die Zehnteintreiberin",
             "text": "Immer wenn du angreifst, erhält eine Kreatur deiner Wahl Todesberührung bis zum Ende des Zuges.\nImmer wenn eine oder mehrere Kreaturen, die du kontrollierst, einem Spieler Kampfschaden zufügen, erzeuge einen Schatz-Spielstein, dann schaue dir die oberste Karte der Bibliothek jenes Spielers an und schicke sie verdeckt ins Exil. Du kannst die Karte wirken, solange sie im Exil bleibt. (Ein Schatz-Spielstein ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Legendäre Kreatur — Mensch, Räuber"
+            "type": "Legendäre Kreatur — Mensch, Räuber",
+            "uuid": "326231be-1fc7-5405-8616-83babcc1759d"
           },
           {
             "identifiers": {
@@ -53,7 +55,8 @@
             "multiverseId": 680999,
             "name": "Rev, sacadiezmos",
             "text": "Siempre que ataques, la criatura objetivo gana la habilidad de toque mortal hasta el final del turno.\nSiempre que una o más criaturas que controlas hagan daño de combate a un jugador, crea una ficha de Tesoro y luego mira la primera carta de la biblioteca de ese jugador y exíliala boca abajo. Puedes lanzar esa carta mientras permanezca exiliada. (Una ficha de Tesoro es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura legendaria — Bribón humano"
+            "type": "Criatura legendaria — Bribón humano",
+            "uuid": "60afdd48-3966-5d8f-a300-69e33d142416"
           },
           {
             "identifiers": {
@@ -64,7 +67,8 @@
             "multiverseId": 681026,
             "name": "Rev, extractrice de dîme",
             "text": "À chaque fois que vous attaquez, une créature ciblée acquiert le contact mortel jusqu'à la fin du tour.\nÀ chaque fois qu'au moins une créature que vous contrôlez inflige des blessures de combat à un joueur, créez un jeton Trésor, puis regardez la carte du dessus de la bibliothèque de ce joueur et exilez-la face cachée. Vous pouvez lancer cette carte tant qu'elle reste exilée. (Un jeton Trésor est un artefact avec « {T}, Sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
-            "type": "Créature légendaire — humain et gredin"
+            "type": "Créature légendaire — humain et gredin",
+            "uuid": "b23ae44d-de53-5792-872b-763289392c17"
           },
           {
             "identifiers": {
@@ -75,7 +79,8 @@
             "multiverseId": 681053,
             "name": "Rev, Esattrice di Tributi",
             "text": "Ogniqualvolta attacchi, una creatura bersaglio ha tocco letale fino alla fine del turno.\nOgniqualvolta una o più creature che controlli infliggono danno da combattimento a un giocatore, crea una pedina Tesoro, poi guarda la prima carta del grimorio di quel giocatore ed esiliala a faccia in giù. Puoi lanciare quella carta fintanto che rimane esiliata. (Una pedina Tesoro è un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
-            "type": "Creatura Leggendaria — Farabutto Umano"
+            "type": "Creatura Leggendaria — Farabutto Umano",
+            "uuid": "60d712de-1fb8-5388-a9e9-6ea06227ecbf"
           },
           {
             "identifiers": {
@@ -86,7 +91,8 @@
             "multiverseId": 681080,
             "name": "絞り取る徴税人、レヴ",
             "text": "あなたが攻撃するたび、クリーチャー１体を対象とする。ターン終了時まで、それは接死を得る。\nあなたがコントロールしている１体以上のクリーチャーがプレイヤー１人に戦闘ダメージを与えるたび、宝物・トークン１つを生成し、その後、そのプレイヤーのライブラリーの一番上にあるカード１枚を見、裏向きで追放する。そのカードが追放され続けているかぎり、あなたはそれを唱えてもよい。（宝物・トークンは「「{T},このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
-            "type": "伝説のクリーチャー — 人間・ならず者"
+            "type": "伝説のクリーチャー — 人間・ならず者",
+            "uuid": "4e785ddb-812b-5d22-b6a2-6ad34691114e"
           }
         ],
         "frameEffects": [
@@ -111,6 +117,7 @@
           "scryfallOracleId": "8345eb05-c04e-4c1d-9776-5ab7d91a7842",
           "tcgplayerProductId": "590679"
         },
+        "isEtched": false,
         "isFoil": false,
         "isStarter": true,
         "keywords": [
@@ -139,7 +146,6 @@
         "name": "Rev, Tithe Extractor",
         "number": "45",
         "originalText": "Whenever you attack, target creature gains deathtouch until end of turn.\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token, then look at the top card of that player's library and exile it face down. You may cast that card for as long as it remains exiled. (A Treasure token is an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
-        "originalType": "Legendary Creature — Human Rogue",
         "power": "3",
         "printings": [
           "J25"
@@ -208,8 +214,8 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 20867,
-        "edhrecSaltiness": 0.09,
+        "edhrecRank": 21283,
+        "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
@@ -225,7 +231,8 @@
             "multiverseId": 681588,
             "name": "Schlangenmeuchler",
             "text": "Wenn der Schlangenmeuchler ins Spiel kommt, kannst du eine nichtschwarze Kreatur deiner Wahl zerstören.",
-            "type": "Kreatur — Ophis, Assassine"
+            "type": "Kreatur — Ophis, Assassine",
+            "uuid": "7ace8a53-aa1a-51de-bead-97148caa8374"
           },
           {
             "flavorText": "\"La patrulla no encontró ninguna huella, capitán. Es un lugar seguro para descansar\".\n—Lowell, vigía del ejército",
@@ -237,7 +244,8 @@
             "multiverseId": 681649,
             "name": "Asesino serpiente",
             "text": "Cuando el Asesino serpiente entre, puedes destruir la criatura objetivo que no sea negra.",
-            "type": "Criatura — Asesino víbora"
+            "type": "Criatura — Asesino víbora",
+            "uuid": "7cdbc53d-8db8-5530-9b33-cbafe9389935"
           },
           {
             "flavorText": "« La patrouille n'a pas trouvé la moindre empreinte, capitaine. Nous devrions pouvoir nous reposer ici en toute sécurité. »\n—Lowell, éclaireur de l'armée",
@@ -249,7 +257,8 @@
             "multiverseId": 681710,
             "name": "Assassin serpentiforme",
             "text": "Quand l'Assassin serpentiforme arrive, vous pouvez détruire une créature non-noire ciblée.",
-            "type": "Créature — serpent et assassin"
+            "type": "Créature — serpent et assassin",
+            "uuid": "cc3b316b-28d4-5141-bc53-aebc7995102c"
           },
           {
             "flavorText": "\"La pattuglia non ha trovato neanche un'impronta, capitano. Dovremmo poter riposare al sicuro qui.\"\n— Lowell, esploratore dell'esercito",
@@ -261,7 +270,8 @@
             "multiverseId": 681771,
             "name": "Assassino Serpe",
             "text": "Quando l'Assassino Serpe entra, puoi distruggere una creatura non nera bersaglio.",
-            "type": "Creatura — Assassino Serpente"
+            "type": "Creatura — Assassino Serpente",
+            "uuid": "da30ce24-51d4-5ef2-aa1b-d964ede73688"
           },
           {
             "flavorText": "「隊長、巡回の結果足跡ひとつ見つかりませんでした。ここなら安心して休めます。」\n――軍の斥候、ローウェル",
@@ -273,7 +283,8 @@
             "multiverseId": 681832,
             "name": "蛇人間の暗殺者",
             "text": "蛇人間の暗殺者が戦場に出たとき、黒でないクリーチャー１体を対象とする。それを破壊してもよい。",
-            "type": "クリーチャー — 蛇・暗殺者"
+            "type": "クリーチャー — 蛇・暗殺者",
+            "uuid": "c5194c5d-2b68-5d42-9738-f504273fa995"
           }
         ],
         "frameVersion": "2015",
@@ -294,6 +305,7 @@
           "scryfallOracleId": "3bc7d3a7-ddb4-4eaa-882e-404d8f2926fb",
           "tcgplayerProductId": "590762"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -316,7 +328,6 @@
         "name": "Serpent Assassin",
         "number": "123",
         "originalText": "When Serpent Assassin enters, you may destroy target nonblack creature.",
-        "originalType": "Creature — Snake Assassin",
         "power": "2",
         "printings": [
           "J25",
@@ -365,7 +376,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 5501,
+        "edhrecRank": 5615,
         "finishes": [
           "nonfoil"
         ],
@@ -379,7 +390,8 @@
             "multiverseId": 681591,
             "name": "Diebeswerkzeug",
             "text": "Wenn das Diebeswerkzeug ins Spiel kommt, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")\nDie ausgerüstete Kreatur kann nicht geblockt werden, solange ihre Stärke 3 oder weniger beträgt.\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung"
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "cf475892-5c09-537f-a4ef-28c58d45a43a"
           },
           {
             "identifiers": {
@@ -390,7 +402,8 @@
             "multiverseId": 681652,
             "name": "Herramientas de ladrón",
             "text": "Cuando las Herramientas de ladrón entren, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)\nLa criatura equipada no puede ser bloqueada mientras su fuerza sea de 3 o menos.\nEquipar {2}. ({2}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo"
+            "type": "Artefacto — Equipo",
+            "uuid": "46b5fcc2-ea41-51ee-99c1-f009f50aa669"
           },
           {
             "identifiers": {
@@ -401,7 +414,8 @@
             "multiverseId": 681713,
             "name": "Outils de voleur",
             "text": "Quand les Outils de voleur arrivent, créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)\nLa créature équipée ne peut pas être bloquée tant que sa force est inférieure ou égale à 3.\nÉquipement {2} ({2} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
-            "type": "Artefact — équipement"
+            "type": "Artefact — équipement",
+            "uuid": "b617babd-b4bd-5860-8982-a0ece504e872"
           },
           {
             "identifiers": {
@@ -412,7 +426,8 @@
             "multiverseId": 681774,
             "name": "Arnesi da Scasso",
             "text": "Quando gli Arnesi da Scasso entrano, crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)\nLa creatura equipaggiata non può essere bloccata fintanto che la sua forza è pari o inferiore a 3.\nEquipaggiare {2} ({2}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
-            "type": "Artefatto — Equipaggiamento"
+            "type": "Artefatto — Equipaggiamento",
+            "uuid": "d8c9b557-d6f4-5c1e-b105-ea365deae5bf"
           },
           {
             "identifiers": {
@@ -423,7 +438,8 @@
             "multiverseId": 681835,
             "name": "盗人の道具",
             "text": "盗人の道具が戦場に出たとき、宝物・トークン１つを生成する。（それは、「{T},このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）\n装備しているクリーチャーのパワーが３以下であるかぎり、それはブロックされない。\n装備{2}（{2}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
-            "type": "アーティファクト — 装備品"
+            "type": "アーティファクト — 装備品",
+            "uuid": "d301b672-64b5-5ce7-8652-f9456a497f6c"
           }
         ],
         "frameVersion": "2015",
@@ -444,6 +460,7 @@
           "scryfallOracleId": "7fe361ef-a168-4847-92a2-21c1661aac06",
           "tcgplayerProductId": "590788"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -473,7 +490,6 @@
         "name": "Thieves' Tools",
         "number": "126",
         "originalText": "When Thieves' Tools enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nEquipped creature can't be blocked as long as its power is 3 or less.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
-        "originalType": "Artifact — Equipment",
         "printings": [
           "AFR",
           "CLB",
@@ -527,8 +543,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 7511,
-        "edhrecSaltiness": 0.09,
+        "edhrecRank": 8141,
+        "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
@@ -544,7 +560,8 @@
             "multiverseId": 681988,
             "name": "Dreister Dieb",
             "text": "Immer wenn der Dreiste Dieb angreift, ziehst du eine Karte und verlierst 1 Lebenspunkt.",
-            "type": "Kreatur — Mensch, Räuber"
+            "type": "Kreatur — Mensch, Räuber",
+            "uuid": "626a3b63-26bb-515a-b9c9-92aef591ec78"
           },
           {
             "flavorText": "\"Habilidad, imaginación, astucia... Nada de ello importa a menos que tengas las agallas de utilizarlo\".",
@@ -556,7 +573,8 @@
             "multiverseId": 682105,
             "name": "Delincuente audaz",
             "text": "Siempre que el Delincuente audaz ataque, robas una carta y pierdes 1 vida.",
-            "type": "Criatura — Bribón humano"
+            "type": "Criatura — Bribón humano",
+            "uuid": "e5d54c8a-ba62-541c-9000-e2318b97e8e7"
           },
           {
             "flavorText": "« Talent, imagination, intelligence : rien de tout cela n'est utile si vous n'avez pas le cran de vous en servir. »",
@@ -568,7 +586,8 @@
             "multiverseId": 682222,
             "name": "Voleur audacieux",
             "text": "À chaque fois que le Voleur audacieux attaque, vous piochez une carte et vous perdez 1 point de vie.",
-            "type": "Créature — humain et gredin"
+            "type": "Créature — humain et gredin",
+            "uuid": "0d3340d0-b953-5af9-bf39-8d45501b19d0"
           },
           {
             "flavorText": "\"Abilità, immaginazione, astuzia: niente di tutto ciò ha importanza se non hai il fegato per usarle.\"",
@@ -580,7 +599,8 @@
             "multiverseId": 682339,
             "name": "Ladro Ardito",
             "text": "Ogniqualvolta il Ladro Ardito attacca, peschi una carta e perdi 1 punto vita.",
-            "type": "Creatura — Farabutto Umano"
+            "type": "Creatura — Farabutto Umano",
+            "uuid": "77648815-954f-5e49-b2f2-464997b4b340"
           },
           {
             "flavorText": "「技量、創意、知恵。そんなものには何の意味もないぜ。お前さんにそいつを使う度胸がないならな。」",
@@ -592,7 +612,8 @@
             "multiverseId": 682456,
             "name": "大胆な盗人",
             "text": "大胆な盗人が攻撃するたび、カード１枚を引き、１点のライフを失う。",
-            "type": "クリーチャー — 人間・ならず者"
+            "type": "クリーチャー — 人間・ならず者",
+            "uuid": "cf9d4c02-a31f-590c-b8bb-83fc519c52cf"
           }
         ],
         "frameVersion": "2015",
@@ -613,6 +634,7 @@
           "scryfallOracleId": "5905c55a-f1d1-4021-a9af-f85b02ae21f3",
           "tcgplayerProductId": "589819"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -638,7 +660,6 @@
         "name": "Audacious Thief",
         "number": "401",
         "originalText": "Whenever Audacious Thief attacks, you draw a card and you lose 1 life.",
-        "originalType": "Creature — Human Rogue",
         "power": "2",
         "printings": [
           "AJMP",
@@ -689,7 +710,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 25730,
+        "edhrecRank": 26562,
+        "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
@@ -705,7 +727,8 @@
             "multiverseId": 682003,
             "name": "Buckeliger Wächter",
             "text": "Der Buckelige Wächter kommt getappt ins Spiel.",
-            "type": "Kreatur — Oger, Räuber"
+            "type": "Kreatur — Oger, Räuber",
+            "uuid": "94f3b793-4182-5a93-8d56-601d623e71a7"
           },
           {
             "flavorText": "\"Aquí no hay nada que ver, solo es una alfombra. Sí, la alfombra lleva botas. Deja de hacer preguntas\".",
@@ -717,7 +740,8 @@
             "multiverseId": 682120,
             "name": "Custodio deshonesto",
             "text": "El Custodio deshonesto entra girado.",
-            "type": "Criatura — Bribón ogro"
+            "type": "Criatura — Bribón ogro",
+            "uuid": "33b96f33-f240-5945-8e1d-c11a5dea6fa4"
           },
           {
             "flavorText": "« Il n'y a rien à voir. Je porte juste un tapis. Oui, le tapis porte des bottes. Arrêtez de poser des questions. »",
@@ -729,7 +753,8 @@
             "multiverseId": 682237,
             "name": "Gardien véreux",
             "text": "Le Gardien véreux arrive engagé.",
-            "type": "Créature — ogre et gredin"
+            "type": "Créature — ogre et gredin",
+            "uuid": "d425a683-5ea5-5573-b99b-0364cfb4d179"
           },
           {
             "flavorText": "\"Non c'è niente da vedere qui. È solo un tappeto. Sì, il tappeto indossa stivali, e allora? Smettila con le domande.\"",
@@ -741,7 +766,8 @@
             "multiverseId": 682354,
             "name": "Custode Disonesto",
             "text": "Il Custode Disonesto entra TAPpato.",
-            "type": "Creatura — Farabutto Ogre"
+            "type": "Creatura — Farabutto Ogre",
+            "uuid": "fcfa591e-8cb6-582b-bf27-5f78ba89ad2c"
           },
           {
             "flavorText": "「見世物じゃないぞ。絨毯を運んでいるだけだ。そう、絨毯は長靴を履いているんだ。それ以上聞くな。」",
@@ -753,7 +779,8 @@
             "multiverseId": 682471,
             "name": "歪んだ守衛",
             "text": "歪んだ守衛はタップ状態で戦場に出る。",
-            "type": "クリーチャー — オーガ・ならず者"
+            "type": "クリーチャー — オーガ・ならず者",
+            "uuid": "fab3d953-ae06-5a98-aaa5-6896a3eaf36e"
           }
         ],
         "frameVersion": "2015",
@@ -774,6 +801,7 @@
           "scryfallOracleId": "9c39bc53-52d3-4610-920e-5607a625b01f",
           "tcgplayerProductId": "590104"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -799,7 +827,6 @@
         "name": "Crooked Custodian",
         "number": "416",
         "originalText": "Crooked Custodian enters tapped.",
-        "originalType": "Creature — Ogre Rogue",
         "power": "3",
         "printings": [
           "J25",
@@ -849,8 +876,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1939,
-        "edhrecSaltiness": 0.13,
+        "edhrecRank": 1675,
+        "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
@@ -864,7 +891,8 @@
             "multiverseId": 682027,
             "name": "Tod vortäuschen",
             "text": "Bis zum Ende des Zuges erhält eine Kreatur deiner Wahl +2/+0 und „Wenn diese Kreatur stirbt, bringe sie unter der Kontrolle ihres Besitzers getappt ins Spiel zurück und du erzeugst einen Schatz-Spielstein.\" (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "71e90d93-389a-563a-9a20-9be962728bd3"
           },
           {
             "identifiers": {
@@ -875,7 +903,8 @@
             "multiverseId": 682144,
             "name": "Fingir tu propia muerte",
             "text": "Hasta el final del turno, la criatura objetivo obtiene +2/+0 y gana \"Cuando esta criatura muera, regrésala al campo de batalla girada bajo el control de su propietario y tú creas una ficha de Tesoro\". (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "3c64bcba-ef01-55d7-8fc7-e49cc5b14aa7"
           },
           {
             "identifiers": {
@@ -886,7 +915,8 @@
             "multiverseId": 682261,
             "name": "Simulez votre propre mort",
             "text": "Jusqu'à la fin du tour, une créature ciblée gagne +2/+0 et acquiert « Quand cette créature meurt, renvoyez-la sur le champ de bataille engagée sous le contrôle de son propriétaire et vous créez un jeton Trésor. » (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "aa4a39e4-367b-57e8-9ed8-c98d01a6ab2b"
           },
           {
             "identifiers": {
@@ -897,7 +927,8 @@
             "multiverseId": 682378,
             "name": "Inscenare la Morte",
             "text": "Fino alla fine del turno, una creatura bersaglio prende +2/+0 e ha \"Quando questa creatura muore, rimettila sul campo di battaglia TAPpata sotto il controllo del suo proprietario e crea una pedina Tesoro\". (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "8cc787c3-d4d5-5d86-acc3-9a6efd5bd4e8"
           },
           {
             "identifiers": {
@@ -908,7 +939,8 @@
             "multiverseId": 682495,
             "name": "死の偽装",
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋０の修整を受け、「このクリーチャーが死亡したとき、これをオーナーのコントロール下でタップ状態で戦場に戻し、あなたは宝物・トークン１つを生成する。」を得る。（それは「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "9fd9df9a-a081-589c-bf4a-b387a4ce1b51"
           }
         ],
         "frameVersion": "2015",
@@ -929,6 +961,7 @@
           "scryfallOracleId": "ad01df89-29fe-44c7-a133-91425f8ff09c",
           "tcgplayerProductId": "590319"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -949,7 +982,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "standard": "Legal",
           "standardbrawl": "Legal",
@@ -961,7 +993,6 @@
         "name": "Fake Your Own Death",
         "number": "440",
         "originalText": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
-        "originalType": "Instant",
         "printings": [
           "FDN",
           "J25",
@@ -1017,8 +1048,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18210,
-        "edhrecSaltiness": 0.36,
+        "edhrecRank": 19031,
+        "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
@@ -1034,7 +1065,8 @@
             "multiverseId": 682029,
             "name": "Faules Spiel",
             "text": "Zerstöre eine Kreatur deiner Wahl mit Stärke 2 oder weniger. Stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Hexerei"
+            "type": "Hexerei",
+            "uuid": "1939a43b-04f6-5566-b99c-0322a604a8e0"
           },
           {
             "flavorText": "Las pruebas eran abrumadoras: la jauría aullante de Tovolar era cada vez más audaz, inteligente y fuerte.",
@@ -1046,7 +1078,8 @@
             "multiverseId": 682146,
             "name": "Juego sucio",
             "text": "Destruye la criatura objetivo con fuerza de 2 o menos. Investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Conjuro"
+            "type": "Conjuro",
+            "uuid": "e1efece6-b7ab-568f-b69a-297de63b51b4"
           },
           {
             "flavorText": "Les preuves étaient accablantes. La meute de Tovolar devenait plus audacieuse, plus rusée et plus forte.",
@@ -1058,7 +1091,8 @@
             "multiverseId": 682263,
             "name": "Acte crapuleux",
             "text": "Détruisez une créature ciblée de force inférieure ou égale à 2. Enquêtez. (Créez un jeton Indice. C'est un artefact avec « {2}, sacrifiez cet artefact : Piochez une carte. »)",
-            "type": "Rituel"
+            "type": "Rituel",
+            "uuid": "06542ea0-ce6e-5585-b3c0-175e256fa773"
           },
           {
             "flavorText": "Le prove erano schiaccianti. L'ulubranco di Tovolar stava diventando più sfacciato, più intelligente e più forte.",
@@ -1070,7 +1104,8 @@
             "multiverseId": 682380,
             "name": "Indizi di Delitto",
             "text": "Distruggi una creatura bersaglio con forza pari o inferiore a 2. Indaga. (Crea una pedina Indizio. È un artefatto con \"{2}, Sacrifica questo artefatto: Pesca una carta\".)",
-            "type": "Stregoneria"
+            "type": "Stregoneria",
+            "uuid": "c38f9b02-f577-5d72-95e9-c961bd4f6106"
           },
           {
             "flavorText": "圧倒的な証拠があった。トヴォラーの吠え群れはより大胆に、より賢く、より強くなっていたのだ。",
@@ -1082,7 +1117,8 @@
             "multiverseId": 682497,
             "name": "不正行為",
             "text": "パワーが２以下であるクリーチャー１体を対象とする。それを破壊する。調査を行う。（手掛かり・トークン１つを生成する。それは、「{2}, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
-            "type": "ソーサリー"
+            "type": "ソーサリー",
+            "uuid": "a6f39843-a571-5906-93a7-3241080cc0ca"
           }
         ],
         "frameVersion": "2015",
@@ -1103,6 +1139,7 @@
           "scryfallOracleId": "773c7a1e-0f59-4606-a2fc-c47bda760ecd",
           "tcgplayerProductId": "590326"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1128,7 +1165,6 @@
         "name": "Foul Play",
         "number": "442",
         "originalText": "Destroy target creature with power 2 or less. Investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")",
-        "originalType": "Sorcery",
         "printings": [
           "DBL",
           "J25",
@@ -1173,8 +1209,8 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 25379,
-        "edhrecSaltiness": 0.08,
+        "edhrecRank": 25917,
+        "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
@@ -1190,7 +1226,8 @@
             "multiverseId": 682046,
             "name": "Maskierte Schwarzgardistin",
             "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\n{2}{B}: Die Maskierte Schwarzgardistin erhält +1/+1 bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Räuber"
+            "type": "Kreatur — Mensch, Räuber",
+            "uuid": "a6ff561a-a5ce-573c-9e11-c57edbd99443"
           },
           {
             "flavorText": "Sus pasos son susurros; su avance, un último aliento.",
@@ -1202,7 +1239,8 @@
             "multiverseId": 682163,
             "name": "Canalla enmascarada",
             "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\n{2}{B}: La Canalla enmascarada obtiene +1/+1 hasta el final del turno.",
-            "type": "Criatura — Bribón humano"
+            "type": "Criatura — Bribón humano",
+            "uuid": "51a18844-06a7-57ed-9ad3-bb1afaa18366"
           },
           {
             "flavorText": "Ses pas sont des murmures, son passage un dernier souffle.",
@@ -1214,7 +1252,8 @@
             "multiverseId": 682280,
             "name": "Garde noire masquée",
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\n{2}{B} : La Garde noire masquée gagne +1/+1 jusqu'à la fin du tour.",
-            "type": "Créature — humain et gredin"
+            "type": "Créature — humain et gredin",
+            "uuid": "354f8790-950b-5333-84c2-f71b675e4072"
           },
           {
             "flavorText": "I suoi passi sono sussurri, i suoi movimenti un ultimo respiro.",
@@ -1226,7 +1265,8 @@
             "multiverseId": 682397,
             "name": "Canaglia Mascherata",
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\n{2}{B}: La Canaglia Mascherata prende +1/+1 fino alla fine del turno.",
-            "type": "Creatura — Farabutto Umano"
+            "type": "Creatura — Farabutto Umano",
+            "uuid": "a0f04fb1-c303-5915-a119-8456754a2369"
           },
           {
             "flavorText": "歩みは囁き、通過は絶息。",
@@ -1238,7 +1278,8 @@
             "multiverseId": 682514,
             "name": "仮面の悪党",
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n{2}{B}：ターン終了時まで、仮面の悪党は＋１/＋１の修整を受ける。",
-            "type": "クリーチャー — 人間・ならず者"
+            "type": "クリーチャー — 人間・ならず者",
+            "uuid": "edefba73-1c4b-5c31-a785-3918863a33a0"
           }
         ],
         "frameVersion": "2015",
@@ -1259,6 +1300,7 @@
           "scryfallOracleId": "8ccd20c7-b7fc-4ab1-a98b-3bbcc2079339",
           "tcgplayerProductId": "590446"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1287,7 +1329,6 @@
         "name": "Masked Blackguard",
         "number": "459",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\n{2}{B}: Masked Blackguard gets +1/+1 until end of turn.",
-        "originalType": "Creature — Human Rogue",
         "power": "2",
         "printings": [
           "CLU",
@@ -1337,8 +1378,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 10716,
-        "edhrecSaltiness": 0.07,
+        "edhrecRank": 11036,
+        "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
@@ -1354,7 +1395,8 @@
             "multiverseId": 682047,
             "name": "Mitternachts-Assassine",
             "text": "Fliegend\nTodesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)",
-            "type": "Kreatur — Vampir, Assassine"
+            "type": "Kreatur — Vampir, Assassine",
+            "uuid": "68216a05-98cb-5208-8d95-be486f931068"
           },
           {
             "flavorText": "Las grandes avenidas y las torres elegantes del Parque Alto son el patio de recreo de los pudientes. Sin embargo, al caer la noche son un coto de caza estupendo.",
@@ -1366,7 +1408,8 @@
             "multiverseId": 682164,
             "name": "Asesina de medianoche",
             "text": "Vuela.\nToque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)",
-            "type": "Criatura — Asesino vampiro"
+            "type": "Criatura — Asesino vampiro",
+            "uuid": "b867a2a4-ee29-5bf7-94de-3e6f4475d09e"
           },
           {
             "flavorText": "Les larges avenues et les flèches gracieuses des Hauts-Parcs sont le terrain de jeu des riches. La nuit tombée, elles deviennent aussi un lieu propice à la chasse.",
@@ -1378,7 +1421,8 @@
             "multiverseId": 682281,
             "name": "Assassin de minuit",
             "text": "Vol\nContact mortel (Le nombre de blessures que cette créature inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)",
-            "type": "Créature — vampire et assassin"
+            "type": "Créature — vampire et assassin",
+            "uuid": "576d1bf8-74dc-5e3f-b6f9-8a96970f43a9"
           },
           {
             "flavorText": "Gli ampi viali e le graziose guglie di Vetta del Parco sono il parco giochi dei ricchi. Al calar della notte, diventano anche un eccellente terreno di caccia.",
@@ -1390,7 +1434,8 @@
             "multiverseId": 682398,
             "name": "Assassina di Mezzanotte",
             "text": "Volare\nTocco letale (Qualsiasi danno che questa creatura infligge a una creatura è sufficiente a distruggerla.)",
-            "type": "Creatura — Assassino Vampiro"
+            "type": "Creatura — Assassino Vampiro",
+            "uuid": "e548edae-a184-54f8-940b-21ee57fc7a96"
           },
           {
             "flavorText": "高街の幅の広い大通りや優雅な尖塔は富裕層の遊び場だ。夜の帳が下りれば、それらは上質な狩場にもなる。",
@@ -1402,7 +1447,8 @@
             "multiverseId": 682515,
             "name": "真夜中の暗殺者",
             "text": "飛行\n接死（これが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）",
-            "type": "クリーチャー — 吸血鬼・暗殺者"
+            "type": "クリーチャー — 吸血鬼・暗殺者",
+            "uuid": "2788b377-ab89-547f-b864-0cc60b1aa1b9"
           }
         ],
         "frameVersion": "2015",
@@ -1423,6 +1469,7 @@
           "scryfallOracleId": "f394d2bf-89aa-44c1-b473-8c7a8874a9a3",
           "tcgplayerProductId": "590450"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1450,7 +1497,6 @@
         "name": "Midnight Assassin",
         "number": "460",
         "originalText": "Flying\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
-        "originalType": "Creature — Vampire Assassin",
         "power": "1",
         "printings": [
           "J25",
@@ -1499,8 +1545,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 338,
-        "edhrecSaltiness": 0.15,
+        "edhrecRank": 304,
+        "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
@@ -1516,7 +1562,8 @@
             "multiverseId": 682051,
             "name": "Morbide Opportunistin",
             "text": "Immer wenn eine oder mehrere andere Kreaturen sterben, ziehe eine Karte. Diese Fähigkeit wird nur einmal pro Zug ausgelöst.",
-            "type": "Kreatur — Mensch, Räuber"
+            "type": "Kreatur — Mensch, Räuber",
+            "uuid": "86779173-dc97-5015-affb-6b128d1f2e1b"
           },
           {
             "flavorText": "En Innistrad, las riquezas se suelen obtener de personas tendidas en el barro.",
@@ -1528,7 +1575,8 @@
             "multiverseId": 682168,
             "name": "Oportunista morbosa",
             "text": "Siempre que una o más otras criaturas mueran, roba una carta. Esta habilidad solo se dispara una vez por turno.",
-            "type": "Criatura — Bribón humano"
+            "type": "Criatura — Bribón humano",
+            "uuid": "48d6fb9b-683f-5184-878d-07ee7f364ff9"
           },
           {
             "flavorText": "Sur Innistrad, l'aubaine d'une personne commence généralement lorsqu'une autre gît dans la boue.",
@@ -1540,7 +1588,8 @@
             "multiverseId": 682285,
             "name": "Opportuniste morbide",
             "text": "À chaque fois qu'au moins une autre créature meurt, piochez une carte. Cette capacité ne se déclenche qu'une seule fois par tour.",
-            "type": "Créature — humain et gredin"
+            "type": "Créature — humain et gredin",
+            "uuid": "d3380c05-a31c-53b8-b37e-ea2fae6f83f8"
           },
           {
             "flavorText": "Su Innistrad, i colpi di fortuna iniziano spesso con qualcun altro a faccia in giù nel fango.",
@@ -1552,7 +1601,8 @@
             "multiverseId": 682402,
             "name": "Opportunista Macabra",
             "text": "Ogniqualvolta una o più altre creature muoiono, pesca una carta. Questa abilità si innesca solo una volta per turno.",
-            "type": "Creatura — Farabutto Umano"
+            "type": "Creatura — Farabutto Umano",
+            "uuid": "1bb6471a-b7bd-5b2d-99d2-d1596318ce80"
           },
           {
             "flavorText": "イニストラードでは、ひとりの意外な授かり物はまず他の人が泥の中でうつ伏せになることから始まる。",
@@ -1564,7 +1614,8 @@
             "multiverseId": 682519,
             "name": "病的な日和見主義者",
             "text": "これでない１体以上のクリーチャーが死亡するたび、カード１枚を引く。この能力は、毎ターン１回しか誘発しない。",
-            "type": "クリーチャー — 人間・ならず者"
+            "type": "クリーチャー — 人間・ならず者",
+            "uuid": "3360ed48-3738-54f1-a72a-5cb2b51ba696"
           }
         ],
         "frameVersion": "2015",
@@ -1585,6 +1636,7 @@
           "scryfallOracleId": "322f44f0-e6da-4ee0-b474-e7d5e9a461c5",
           "tcgplayerProductId": "590568"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1607,7 +1659,6 @@
         "name": "Morbid Opportunist",
         "number": "464",
         "originalText": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
-        "originalType": "Creature — Human Rogue",
         "power": "1",
         "printings": [
           "BLC",
@@ -1672,8 +1723,8 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 776,
-        "edhrecSaltiness": 0.12,
+        "edhrecRank": 762,
+        "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
@@ -1689,7 +1740,8 @@
             "multiverseId": 682054,
             "name": "Mord",
             "text": "Zerstöre eine Kreatur deiner Wahl.",
-            "type": "Spontanzauber"
+            "type": "Spontanzauber",
+            "uuid": "12a5803e-cdd2-5d73-b12b-a99c791bc155"
           },
           {
             "flavorText": "\"Ya sea por el destino o por la voluntad, todo reinado debe llegar a su fin\".\n—Kethis, la Mano Oculta",
@@ -1701,7 +1753,8 @@
             "multiverseId": 682171,
             "name": "Asesinato",
             "text": "Destruye la criatura objetivo.",
-            "type": "Instantáneo"
+            "type": "Instantáneo",
+            "uuid": "2a8f6a60-5e1e-545d-91a0-81da13b6ec60"
           },
           {
             "flavorText": "« Volontairement ou par intervention du destin, un règne touche toujours à sa fin. »\n—Kethis, la main cachée",
@@ -1713,7 +1766,8 @@
             "multiverseId": 682288,
             "name": "Homicide",
             "text": "Détruisez une créature ciblée.",
-            "type": "Éphémère"
+            "type": "Éphémère",
+            "uuid": "072088fe-dc34-53e3-b513-77d764b03512"
           },
           {
             "flavorText": "\"Per destino o per volontà, tutti i regni devono giungere al termine.\"\n—Kethis, la Mano Nascosta",
@@ -1725,7 +1779,8 @@
             "multiverseId": 682405,
             "name": "Omicidio",
             "text": "Distruggi una creatura bersaglio.",
-            "type": "Istantaneo"
+            "type": "Istantaneo",
+            "uuid": "7381a51e-6606-50fb-a432-f07eaa69cdfe"
           },
           {
             "flavorText": "「運命であれ意思であれ、治世には終わりが来る。」\n――隠された手、ケシス",
@@ -1737,7 +1792,8 @@
             "multiverseId": 682522,
             "name": "殺害",
             "text": "クリーチャー１体を対象とする。それを破壊する。",
-            "type": "インスタント"
+            "type": "インスタント",
+            "uuid": "f143a983-215c-5551-b841-85b826fa7401"
           }
         ],
         "frameVersion": "2015",
@@ -1758,6 +1814,7 @@
           "scryfallOracleId": "938b4e2c-88d9-4637-bc00-e228920c9a78",
           "tcgplayerProductId": "590582"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -1787,7 +1844,6 @@
         "name": "Murder",
         "number": "467",
         "originalText": "Destroy target creature.",
-        "originalType": "Instant",
         "printings": [
           "A25",
           "ACR",
@@ -1849,7 +1905,8 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 14934,
+        "edhrecRank": 15398,
+        "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
@@ -1863,7 +1920,8 @@
             "multiverseId": 682062,
             "name": "Stibitzbold",
             "text": "Fliegend\n{1}{B}, {T}, opfere den Stibitzbold: Ein Gegner deiner Wahl zeigt seine Hand offen vor. Du bestimmst davon eine Nichtland-Karte. Der Spieler wirft die bestimmte Karte ab. Aktiviere diese Fähigkeit wie eine Hexerei.",
-            "type": "Kreatur — Bold"
+            "type": "Kreatur — Bold",
+            "uuid": "ec66278c-5d88-5121-a925-1c19717151dc"
           },
           {
             "identifiers": {
@@ -1874,7 +1932,8 @@
             "multiverseId": 682179,
             "name": "Diablillo ladronzuelo",
             "text": "Vuela.\n{1}{B}, {T}, sacrificar el Diablillo ladronzuelo: El oponente objetivo muestra su mano. Tú eliges de ahí una carta que no sea tierra. Ese jugador descarta esa carta. Activa esto solo como un conjuro.",
-            "type": "Criatura — Diablillo"
+            "type": "Criatura — Diablillo",
+            "uuid": "a9c4805c-95c5-58b5-898a-b8fc26f9668e"
           },
           {
             "identifiers": {
@@ -1885,7 +1944,8 @@
             "multiverseId": 682296,
             "name": "Diablotin chapardeur",
             "text": "Vol\n{1}{B}, {T}, sacrifiez le Diablotin chapardeur : Un adversaire ciblé révèle sa main. Vous y choisissez une carte non-terrain. Ce joueur se défausse de cette carte. N'activez que lorsque vous pourriez lancer un rituel.",
-            "type": "Créature — diablotin"
+            "type": "Créature — diablotin",
+            "uuid": "da8fdd60-23e9-53d1-8e77-103eec52e715"
           },
           {
             "identifiers": {
@@ -1896,7 +1956,8 @@
             "multiverseId": 682413,
             "name": "Imp Ladruncolo",
             "text": "Volare\n{1}{B}, {T}, Sacrifica l'Imp Ladruncolo: Un avversario bersaglio rivela la sua mano. Scegli una carta non terra da quella mano. Quel giocatore scarta quella carta. Attiva solo come una stregoneria.",
-            "type": "Creatura — Imp"
+            "type": "Creatura — Imp",
+            "uuid": "36ff1382-8304-5697-8bec-50a210a6509c"
           },
           {
             "identifiers": {
@@ -1907,7 +1968,8 @@
             "multiverseId": 682530,
             "name": "物盗りインプ",
             "text": "飛行\n{1}{B}, {T}, 物盗りインプを生け贄に捧げる：対戦相手１人を対象とする。そのプレイヤーは自分の手札を公開する。あなたはその中から土地でないカード１枚を選ぶ。そのプレイヤーはそのカードを捨てる。起動はソーサリーとしてのみ行う。",
-            "type": "クリーチャー — インプ"
+            "type": "クリーチャー — インプ",
+            "uuid": "59a77aaa-f16b-58bb-9dde-9e4a1d2c36f6"
           }
         ],
         "frameVersion": "2015",
@@ -1928,6 +1990,7 @@
           "scryfallOracleId": "61017a67-653c-4f75-9ec3-22d2149340a8",
           "tcgplayerProductId": "590620"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "keywords": [
@@ -1954,7 +2017,6 @@
         "name": "Pilfering Imp",
         "number": "475",
         "originalText": "Flying\n{1}{B}, {T}, Sacrifice Pilfering Imp: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Activate only as a sorcery.",
-        "originalType": "Creature — Imp",
         "power": "1",
         "printings": [
           "GRN",
@@ -2000,7 +2062,8 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1293,
+        "edhrecRank": 1382,
+        "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
@@ -2016,7 +2079,8 @@
             "multiverseId": 684060,
             "name": "Gedeihendes Moor",
             "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land"
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
@@ -2028,7 +2092,8 @@
             "multiverseId": 684099,
             "name": "Páramo floreciente",
             "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra"
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
@@ -2040,7 +2105,8 @@
             "multiverseId": 684138,
             "name": "Lande prospère",
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
-            "type": "Terrain"
+            "type": "Terrain",
+            "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2052,7 +2118,8 @@
             "multiverseId": 684177,
             "name": "Landa Florida",
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
-            "type": "Terra"
+            "type": "Terra",
+            "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
           },
           {
             "flavorText": "奇妙な場所にも美は存在し、見る目を持つものを楽しませる。",
@@ -2064,7 +2131,8 @@
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
-            "type": "土地"
+            "type": "土地",
+            "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
           }
         ],
         "frameVersion": "2015",
@@ -2085,6 +2153,7 @@
           "scryfallOracleId": "bff416bb-d193-4c45-b2c1-7c297dbfad08",
           "tcgplayerProductId": "590393"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "language": "English",
@@ -2106,7 +2175,6 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
-        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
@@ -2118,6 +2186,7 @@
           "LCC",
           "MOC",
           "NCC",
+          "TLE",
           "WHO"
         ],
         "purchaseUrls": {
@@ -2156,8 +2225,8 @@
         ],
         "colors": [],
         "convertedManaCost": 0.0,
-        "count": 7,
-        "edhrecSaltiness": 0.48,
+        "count": 3,
+        "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
         ],
@@ -2170,7 +2239,8 @@
             "language": "German",
             "multiverseId": 681257,
             "name": "Sumpf",
-            "type": "Standardland — Sumpf"
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2180,7 +2250,8 @@
             "language": "Spanish",
             "multiverseId": 681272,
             "name": "Pantano",
-            "type": "Tierra básica — Pantano"
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           },
           {
             "identifiers": {
@@ -2190,7 +2261,8 @@
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
-            "type": "Terrain de base — marais"
+            "type": "Terrain de base — marais",
+            "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
           },
           {
             "identifiers": {
@@ -2200,7 +2272,8 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
-            "type": "Terra Base — Palude"
+            "type": "Terra Base — Palude",
+            "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
           {
             "identifiers": {
@@ -2210,7 +2283,8 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
-            "type": "基本土地 — 沼"
+            "type": "基本土地 — 沼",
+            "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
           }
         ],
         "frameVersion": "2015",
@@ -2230,6 +2304,7 @@
           "scryfallOracleId": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
           "tcgplayerProductId": "590325"
         },
+        "isEtched": false,
         "isFoil": false,
         "isReprint": true,
         "isStarter": true,
@@ -2260,7 +2335,6 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
-        "originalType": "Basic Land — Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2334,6 +2408,7 @@
           "EOE",
           "FBB",
           "FDN",
+          "FIC",
           "FIN",
           "FRF",
           "G17",
@@ -2454,6 +2529,7 @@
           "SNC",
           "SOI",
           "SOM",
+          "SPM",
           "STX",
           "SUM",
           "TD0",
@@ -2461,7 +2537,9 @@
           "TDM",
           "THB",
           "THS",
+          "TLA",
           "TMP",
+          "TMT",
           "TPR",
           "TSP",
           "UGL",
@@ -2512,6 +2590,768 @@
           "f5473513-deec-5064-9953-ccd86f913a65",
           "9a705e08-8737-5fb3-90ce-8126202afa73"
         ]
+      },
+      {
+        "artist": "Jung Park",
+        "artistIds": [
+          "269392ac-4c06-4650-98e2-d49a5a7f2371"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.33,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681288",
+              "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
+            },
+            "language": "French",
+            "multiverseId": 681288,
+            "name": "Marais",
+            "type": "Terrain de base — marais",
+            "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681303",
+              "scryfallId": "e0bca4b1-e5e8-432f-bace-c5e01031506e"
+            },
+            "language": "Italian",
+            "multiverseId": 681303,
+            "name": "Palude",
+            "type": "Terra Base — Palude",
+            "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681318",
+              "scryfallId": "7ec6f61f-3f1c-474d-99b3-c1b4cd1e76ca"
+            },
+            "language": "Japanese",
+            "multiverseId": 681318,
+            "name": "沼",
+            "type": "基本土地 — 沼",
+            "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305222",
+          "cardsphereId": "131378",
+          "deckboxId": "98082",
+          "mcmId": "795509",
+          "mtgArenaId": "95173",
+          "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
+          "multiverseId": "681243",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "babd424c-38cf-45e8-9684-de7bfc1ed86a",
+          "scryfallIllustrationId": "405bde2d-9e67-4768-9c51-cad69b84a84d",
+          "scryfallOracleId": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+          "tcgplayerProductId": "590337"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Swamp",
+        "number": "88",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CST",
+          "DDC",
+          "DDD",
+          "DDE",
+          "DDH",
+          "DDJ",
+          "DDK",
+          "DDM",
+          "DDN",
+          "DDP",
+          "DDQ",
+          "DDR",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "DVD",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "MD1",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PD3",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PHUK",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Swamp"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "type": "Basic Land — Swamp",
+        "types": [
+          "Land"
+        ],
+        "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
+        "variations": [
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
+          "9a705e08-8737-5fb3-90ce-8126202afa73"
+        ]
+      },
+      {
+        "artist": "Kasia 'Kafis' Zielińska",
+        "artistIds": [
+          "a662cb71-4770-4b49-8b03-2cf8497049a7"
+        ],
+        "availability": [
+          "arena",
+          "paper"
+        ],
+        "borderColor": "black",
+        "colorIdentity": [
+          "B"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "count": 2,
+        "edhrecSaltiness": 0.33,
+        "finishes": [
+          "nonfoil"
+        ],
+        "foreignData": [
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681289",
+              "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
+            },
+            "language": "French",
+            "multiverseId": 681289,
+            "name": "Marais",
+            "type": "Terrain de base — marais",
+            "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681304",
+              "scryfallId": "4ff095ed-2c50-4340-a49e-13d967c0f84a"
+            },
+            "language": "Italian",
+            "multiverseId": 681304,
+            "name": "Palude",
+            "type": "Terra Base — Palude",
+            "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681319",
+              "scryfallId": "5e724b8f-f05c-4720-aedf-aeb47d8acdf7"
+            },
+            "language": "Japanese",
+            "multiverseId": 681319,
+            "name": "沼",
+            "type": "基本土地 — 沼",
+            "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          }
+        ],
+        "frameVersion": "2015",
+        "hasFoil": false,
+        "hasNonFoil": true,
+        "identifiers": {
+          "cardKingdomId": "305223",
+          "cardsphereId": "131379",
+          "deckboxId": "98083",
+          "mcmId": "795510",
+          "mtgArenaId": "95174",
+          "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
+          "multiverseId": "681244",
+          "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+          "scryfallId": "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23",
+          "scryfallIllustrationId": "0f4812cf-f947-49a2-a14b-26812338f925",
+          "scryfallOracleId": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+          "tcgplayerProductId": "590348"
+        },
+        "isEtched": false,
+        "isFoil": false,
+        "isReprint": true,
+        "isStarter": true,
+        "language": "English",
+        "layout": "normal",
+        "legalities": {
+          "alchemy": "Legal",
+          "brawl": "Legal",
+          "commander": "Legal",
+          "duel": "Legal",
+          "future": "Legal",
+          "gladiator": "Legal",
+          "historic": "Legal",
+          "legacy": "Legal",
+          "modern": "Legal",
+          "oathbreaker": "Legal",
+          "pauper": "Legal",
+          "paupercommander": "Legal",
+          "penny": "Legal",
+          "pioneer": "Legal",
+          "predh": "Legal",
+          "premodern": "Legal",
+          "standard": "Legal",
+          "standardbrawl": "Legal",
+          "timeless": "Legal",
+          "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Swamp",
+        "number": "89",
+        "printings": [
+          "10E",
+          "2ED",
+          "2XM",
+          "30A",
+          "3ED",
+          "40K",
+          "4BB",
+          "4ED",
+          "5ED",
+          "6ED",
+          "7ED",
+          "8ED",
+          "9ED",
+          "ACR",
+          "AFR",
+          "AKH",
+          "AKR",
+          "ALA",
+          "ANA",
+          "ANB",
+          "ARC",
+          "ATH",
+          "AVR",
+          "BBD",
+          "BFZ",
+          "BLB",
+          "BRB",
+          "BRC",
+          "BRO",
+          "BTD",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "CED",
+          "CEI",
+          "CHK",
+          "CLB",
+          "CLU",
+          "CM2",
+          "CMA",
+          "CMD",
+          "CMM",
+          "CST",
+          "DDC",
+          "DDD",
+          "DDE",
+          "DDH",
+          "DDJ",
+          "DDK",
+          "DDM",
+          "DDN",
+          "DDP",
+          "DDQ",
+          "DDR",
+          "DFT",
+          "DKM",
+          "DMR",
+          "DMU",
+          "DOM",
+          "DPA",
+          "DSK",
+          "DTK",
+          "DVD",
+          "E01",
+          "ELD",
+          "EOE",
+          "FBB",
+          "FDN",
+          "FIC",
+          "FIN",
+          "FRF",
+          "G17",
+          "GK1",
+          "GK2",
+          "GN2",
+          "GN3",
+          "GNT",
+          "GRN",
+          "GVL",
+          "H09",
+          "HBG",
+          "HOP",
+          "HOU",
+          "ICE",
+          "IKO",
+          "INR",
+          "INV",
+          "ISD",
+          "ITP",
+          "J14",
+          "J22",
+          "J25",
+          "JMP",
+          "KHM",
+          "KLD",
+          "KLR",
+          "KTK",
+          "LCI",
+          "LEA",
+          "LEB",
+          "LRW",
+          "LTR",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M19",
+          "M20",
+          "M21",
+          "MBS",
+          "MD1",
+          "ME1",
+          "ME3",
+          "MH2",
+          "MH3",
+          "MID",
+          "MIR",
+          "MKM",
+          "MMQ",
+          "MOM",
+          "MRD",
+          "NEO",
+          "NPH",
+          "ODY",
+          "OLEP",
+          "ONE",
+          "ONS",
+          "ORI",
+          "OTJ",
+          "P02",
+          "P23",
+          "PAL00",
+          "PAL01",
+          "PAL03",
+          "PAL04",
+          "PAL05",
+          "PAL06",
+          "PAL99",
+          "PALP",
+          "PANA",
+          "PARL",
+          "PC2",
+          "PCA",
+          "PD3",
+          "PELP",
+          "PF19",
+          "PF20",
+          "PGPX",
+          "PGRU",
+          "PHUK",
+          "PIP",
+          "PLST",
+          "PMPS",
+          "PMPS06",
+          "PMPS07",
+          "PMPS08",
+          "PMPS09",
+          "PMPS10",
+          "PMPS11",
+          "POR",
+          "PPP1",
+          "PRM",
+          "PRW2",
+          "PRWK",
+          "PS11",
+          "PSAL",
+          "PSS2",
+          "PSS3",
+          "PSS4",
+          "PTC",
+          "PTK",
+          "RAV",
+          "REX",
+          "RIX",
+          "RNA",
+          "ROE",
+          "RQS",
+          "RTR",
+          "S99",
+          "SCD",
+          "SHM",
+          "SIR",
+          "SLD",
+          "SLP",
+          "SNC",
+          "SOI",
+          "SOM",
+          "SPM",
+          "STX",
+          "SUM",
+          "TD0",
+          "TD2",
+          "TDM",
+          "THB",
+          "THS",
+          "TLA",
+          "TMP",
+          "TMT",
+          "TPR",
+          "TSP",
+          "UGL",
+          "UND",
+          "UNF",
+          "UNH",
+          "USG",
+          "UST",
+          "VOW",
+          "WAR",
+          "WC01",
+          "WC02",
+          "WC03",
+          "WC97",
+          "WC98",
+          "WC99",
+          "WHO",
+          "WOE",
+          "XANA",
+          "XLN",
+          "ZEN",
+          "ZNR"
+        ],
+        "purchaseUrls": {
+          "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
+        },
+        "rarity": "common",
+        "setCode": "J25",
+        "sourceProducts": {
+          "nonfoil": [
+            "4498a9bc-294c-5036-91e5-031880296db8"
+          ]
+        },
+        "subtypes": [
+          "Swamp"
+        ],
+        "supertypes": [
+          "Basic"
+        ],
+        "text": "({T}: Add {B}.)",
+        "type": "Basic Land — Swamp",
+        "types": [
+          "Land"
+        ],
+        "uuid": "9a705e08-8737-5fb3-90ce-8126202afa73",
+        "variations": [
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
+          "f5473513-deec-5064-9953-ccd86f913a65"
+        ]
       }
     ],
     "name": "Ne'er-do-wells (1)",
@@ -2520,6 +3360,10 @@
     "schemes": [],
     "sealedProductUuids": null,
     "sideBoard": [],
+    "sourceSetCodes": [
+      "J25"
+    ],
+    "tokens": [],
     "type": "Jumpstart"
   }
 }
