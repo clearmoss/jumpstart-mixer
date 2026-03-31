@@ -14,7 +14,7 @@ const ERROR_MESSAGES = {
   UNKNOWN_LOAD: "An unknown error occurred while loading data.",
 };
 
-export const BASEPATH = "/jumpstart-mixer";
+export const BASEPATH = "";
 
 export const COLORS = [
   { name: "White", code: "W", order: 0 },

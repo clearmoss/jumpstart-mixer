@@ -2,7 +2,6 @@ import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
 import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
-  determinePackColors,
   filterPacks,
   getTwoRandomIndexes,
   handleError,
@@ -64,16 +63,6 @@ export const Route = createFileRoute("/mixer/")({
       if (!allowDuplicates && filteredPacks.length < 2) {
         return;
       }
-
-      console.log("Color filter:", colorFilter);
-      console.log(
-        "Filtered packs:",
-        filteredPacks.map((p) => ({
-          id: p.meta.publicId,
-          name: p.data.name,
-          colors: determinePackColors(p.data).map((c) => c.color),
-        })),
-      );
 
       if (!redirectId1 && !redirectId2) {
         // both pack IDs are missing
