@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "f12dcbd72c3423"
-  },
   "data": {
     "code": "JMP",
     "commander": [],
@@ -31,7 +26,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 2160,
+        "edhrecRank": 2113,
         "edhrecSaltiness": 1.39,
         "finishes": [
           "nonfoil"
@@ -42,8 +37,6 @@
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235056",
           "cardsphereId": "68655",
@@ -88,6 +81,7 @@
         "name": "Bruvac the Grandiloquent",
         "number": "10",
         "originalText": "If an opponent would mill one or more cards, they mill twice that many cards instead. (To mill a card, a player puts the top card of their library into their graveyard.)",
+        "originalType": "Legendary Creature – Human Advisor",
         "power": "1",
         "printings": [
           "JMP",
@@ -117,8 +111,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "d14bd984-fc4e-5c22-84d0-12e18d955cb5"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -158,15 +158,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 19234,
+        "edhrecRank": 19790,
         "edhrecSaltiness": 0.4,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235093",
           "cardsphereId": "68704",
@@ -210,6 +208,7 @@
         "name": "Belltower Sphinx",
         "number": "141",
         "originalText": "Flying\nWhenever a source deals damage to Belltower Sphinx, that source's controller mills that many cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+        "originalType": "Creature – Sphinx",
         "power": "2",
         "printings": [
           "JMP",
@@ -224,8 +223,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "8bb7d05e-4e9f-52db-8e19-1850fc9bc669"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -262,7 +267,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 14987,
+        "edhrecRank": 15087,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -270,8 +275,6 @@
         "flavorText": "Progress comes at a price.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235098",
           "cardsphereId": "68867",
@@ -313,6 +316,7 @@
         "name": "Reckless Scholar",
         "number": "168",
         "originalText": "{T}: Target player draws a card, then discards a card.",
+        "originalType": "Creature – Human Wizard",
         "power": "2",
         "printings": [
           "BBD",
@@ -333,8 +337,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "560059b9-4cdd-5332-8725-357de590c62d"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -372,7 +382,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 12574,
+        "edhrecRank": 13231,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -380,8 +390,6 @@
         "flavorText": "Those who intrude upon the Dimir seldom remember that they have done so.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235104",
           "cardsphereId": "68883",
@@ -415,7 +423,6 @@
           "legacy": "Legal",
           "modern": "Legal",
           "oathbreaker": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -425,6 +432,7 @@
         "name": "Wall of Lost Thoughts",
         "number": "190",
         "originalText": "Defender\nWhen Wall of Lost Thoughts enters the battlefield, target player mills four cards. (They put the top four cards of their library into their graveyard.)",
+        "originalType": "Creature – Wall",
         "power": "0",
         "printings": [
           "J25",
@@ -438,8 +446,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "034d8531-5226-5a19-8d56-7e659e0569ad"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -476,7 +490,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 19448,
+        "edhrecRank": 20301,
         "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
@@ -484,8 +498,6 @@
         "flavorText": "\"The mist whispers to those who know it to be more than a mundane fog.\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235099",
           "cardsphereId": "68873",
@@ -529,6 +541,7 @@
         "name": "Selhoff Occultist",
         "number": "174",
         "originalText": "Whenever Selhoff Occultist or another creature dies, target player mills a card. (They put the top card of their library into their graveyard.)",
+        "originalType": "Creature – Human Rogue",
         "power": "2",
         "printings": [
           "ISD",
@@ -542,8 +555,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "7dd9f5fc-992b-5fdf-ad69-f940988d5462"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -581,7 +600,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 24311,
+        "edhrecRank": 24970,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -589,8 +608,6 @@
         "flavorText": "Their denial reaches far into your future.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235103",
           "cardsphereId": "68880",
@@ -635,6 +652,7 @@
         "name": "Vedalken Entrancer",
         "number": "188",
         "originalText": "{U}, {T}: Target player mills two cards. (They put the top two cards of their library into their graveyard.)",
+        "originalType": "Creature – Vedalken Wizard",
         "power": "1",
         "printings": [
           "JMP",
@@ -649,8 +667,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "f2ffa97a-ae6c-50ac-a5c3-88281bf86414"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -688,7 +712,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20684,
+        "edhrecRank": 21185,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
@@ -696,8 +720,6 @@
         "flavorText": "Thassa's favor followed him to the Underworld. Even the waves of Nerono obeyed his will.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235102",
           "cardsphereId": "68879",
@@ -741,6 +763,7 @@
         "name": "Towering-Wave Mystic",
         "number": "186",
         "originalText": "Whenever Towering-Wave Mystic deals damage, target player mills that many cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "2",
         "printings": [
           "J25",
@@ -754,8 +777,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "561dedad-907b-538d-b49b-3e9ed393d101"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -793,7 +822,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 21625,
+        "edhrecRank": 21779,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
@@ -801,8 +830,6 @@
         "flavorText": "The Roil takes many forms. It also takes many victims.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234990",
           "cardsphereId": "68610",
@@ -843,6 +870,7 @@
         "name": "Sweep Away",
         "number": "180",
         "originalText": "Return target creature to its owner's hand. If that creature is attacking, you may put it on top of its owner's library instead.",
+        "originalType": "Instant",
         "printings": [
           "JMP",
           "OGW"
@@ -854,8 +882,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "bff50c5f-439f-59d1-8c4a-25fd5caffb0b"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -889,7 +923,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5209,
+        "edhrecRank": 5424,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
@@ -897,8 +931,6 @@
         "flavorText": "\"I can think of no greater punishment than answering your question in full.\"\n—Lazav",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235100",
           "cardsphereId": "68875",
@@ -942,6 +974,7 @@
         "name": "Thought Collapse",
         "number": "184",
         "originalText": "Counter target spell. Its controller mills three cards. (They put the top three cards of their library into their graveyard.)",
+        "originalType": "Instant",
         "printings": [
           "JMP",
           "PLST",
@@ -960,8 +993,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "143ce5e1-04fc-5bbd-b2ff-1ff1fa26202a"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -994,7 +1033,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 1588,
+        "edhrecRank": 1702,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
@@ -1002,8 +1041,6 @@
         "flavorText": "\"As you inject the *viscus vitae* into the brain stem, don't let the spastic moaning bother you. It will soon become music to your ears.\"\n—Stitcher Geralf",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235101",
           "cardsphereId": "68876",
@@ -1045,6 +1082,7 @@
         "name": "Thought Scour",
         "number": "185",
         "originalText": "Target player mills two cards. (They put the top two cards of their library into their graveyard.)\nDraw a card.",
+        "originalType": "Instant",
         "printings": [
           "2X2",
           "AA2",
@@ -1072,8 +1110,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "b2329c7b-3ef8-557d-9591-680537df6c3b"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1108,118 +1152,14 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 4872,
+        "edhrecRank": 5062,
         "edhrecSaltiness": 0.96,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "\"Tarassel's sixth law of temporal recursion is easy to understand as long as you know the first seven.\"",
         "foreignData": [
-          {
-            "flavorText": "„Tarassels sechstes Gesetz über den temporalen Kreislauf ist leicht zu verstehen, wenn man die ersten sieben kennt.\"",
-            "identifiers": {
-              "multiverseId": "485660",
-              "scryfallId": "bfe7e95d-56db-424c-a5d7-06ba1e73730f"
-            },
-            "language": "German",
-            "multiverseId": 485660,
-            "name": "Teferis Belehrung",
-            "text": "Wenn Teferis Belehrung ins Spiel kommt, ziehe eine Karte und wirf dann eine Karte ab.\nImmer wenn du eine Karte ziehst, millt ein Gegner deiner Wahl zwei Karten. (Er legt die obersten zwei Karten seiner Bibliothek auf seinen Friedhof.)",
-            "type": "Verzauberung",
-            "uuid": "343f7734-1e2f-5f84-9db5-9f7fd68098a2"
-          },
-          {
-            "flavorText": "\"La sexta ley de la recurrencia temporal de Tárassel es fácil de entender si comprendes las primeras siete\".",
-            "identifiers": {
-              "multiverseId": "485919",
-              "scryfallId": "2e77fc76-ddc4-41ed-9a33-aa8085e9738e"
-            },
-            "language": "Spanish",
-            "multiverseId": 485919,
-            "name": "Tutelaje de Teferi",
-            "text": "Cuando el Tutelaje de Teferi entre al campo de batalla, roba una carta, luego descarta una carta.\nSiempre que robes una carta, el oponente objetivo muele dos cartas. (Pone las dos primeras cartas de su biblioteca en su cementerio.)",
-            "type": "Encantamiento",
-            "uuid": "efbe54a3-3eae-549e-be8d-9ba24c368be5"
-          },
-          {
-            "flavorText": "« La sixième loi de la récursion temporelle de Tarassel est simple à comprendre quand on connait les sept premières. »",
-            "identifiers": {
-              "multiverseId": "486178",
-              "scryfallId": "446e3218-8095-4559-9594-12ec624ab158"
-            },
-            "language": "French",
-            "multiverseId": 486178,
-            "name": "Tutelle de Téfeiri",
-            "text": "Quand la Tutelle de Téfeiri arrive sur le champ de bataille, piochez une carte, puis défaussez-vous d'une carte.\nÀ chaque fois que vous piochez une carte, l'adversaire ciblé meule deux cartes. (Il met les deux cartes du dessus de sa bibliothèque dans son cimetière.)",
-            "type": "Enchantement",
-            "uuid": "5294b78a-0a2a-5076-87f7-e78eb6876434"
-          },
-          {
-            "flavorText": "\"La sesta legge della ricorsività temporale di Tarassel è di facile comprensione, purché si conoscano le prime sette.\"",
-            "identifiers": {
-              "multiverseId": "486437",
-              "scryfallId": "aecd0194-3da7-438e-9b3d-b7b00a96d035"
-            },
-            "language": "Italian",
-            "multiverseId": 486437,
-            "name": "Tutela di Teferi",
-            "text": "Quando la Tutela di Teferi entra nel campo di battaglia, pesca una carta, poi scarta una carta.\nOgniqualvolta peschi una carta, un avversario bersaglio macina due carte. (Mette nel suo cimitero le prime due carte del suo grimorio.)",
-            "type": "Incantesimo",
-            "uuid": "2cfdec93-416c-505c-b4ae-507caa05fe59"
-          },
-          {
-            "flavorText": "「時間再帰に関するタラッセルの第六法則を理解するのは、最初の七つの法則が分かっていれば簡単さ。」",
-            "identifiers": {
-              "multiverseId": "486696",
-              "scryfallId": "ed7df78b-1df0-4dd3-8728-05ce26f01e31"
-            },
-            "language": "Japanese",
-            "multiverseId": 486696,
-            "name": "テフェリーの後見",
-            "text": "テフェリーの後見が戦場に出たとき、カードを１枚引き、その後カード１枚を捨てる。\nあなたがカードを１枚引くたび、対戦相手１人を対象とする。そのプレイヤーはカードを２枚切削する。（そのプレイヤーは、自分のライブラリーの一番上からカードを２枚自分の墓地に置く。）",
-            "type": "エンチャント",
-            "uuid": "0e927afa-7f79-5652-8b6c-fed0bfb114e4"
-          },
-          {
-            "flavorText": "\"시간적 재귀에 대한 타라셀의 여섯 번째 법칙은 자네가 첫 일곱 개 법칙을 알고 있으면 이해하기 쉽다네.\"",
-            "identifiers": {
-              "multiverseId": "486955",
-              "scryfallId": "4a23bf99-69c4-471c-8dcb-3e91d2193cd5"
-            },
-            "language": "Korean",
-            "multiverseId": 486955,
-            "name": "테페리의 지도",
-            "text": "테페리의 지도가 전장에 들어올 때, 카드 한 장을 뽑은 후, 카드 한 장을 버린다.\n당신이 카드를 뽑을 때마다, 상대를 목표로 정한다. 그 상대는 카드 두 장을 민다. (그 플레이어는 자신의 서고 맨 위 카드 두 장을 자신의 무덤에 넣는다.)",
-            "type": "부여마법",
-            "uuid": "28bd5e30-0a40-5c5b-acd2-25c0d77ebcf4"
-          },
-          {
-            "flavorText": "\"A sexta lei da recursividade temporal de Tarassel é de fácil compreensão, contanto que você conheça as primeiras sete.\"",
-            "identifiers": {
-              "multiverseId": "487214",
-              "scryfallId": "7fbf8f5c-c56a-4563-bd79-4fc38b45406e"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487214,
-            "name": "Tutela de Teferi",
-            "text": "Quando Tutela de Teferi entrar no campo de batalha, compre um card e depois descarte um card.\nToda vez que você compra um card, o oponente alvo tritura dois cards. (Ele coloca os dois cards do topo do próprio grimório no próprio cemitério.)",
-            "type": "Encantamento",
-            "uuid": "e108354f-e2a9-53a2-b4c1-4ea39fcf80ff"
-          },
-          {
-            "flavorText": "«Шестой закон темпоральной рекурсии Тарассель легко понять, если знаешь первые семь».",
-            "identifiers": {
-              "multiverseId": "487473",
-              "scryfallId": "f960fd9a-76ce-405c-89b2-63edd30316cc"
-            },
-            "language": "Russian",
-            "multiverseId": 487473,
-            "name": "Наставничество Тефери",
-            "text": "Когда Наставничество Тефери выходит на поле битвы, возьмите карту, затем сбросьте карту.\nКаждый раз, когда вы берете карту, целевой оппонент скручивает две карты. (Он кладет две верхние карты своей библиотеки на свое кладбище.)",
-            "type": "Чары",
-            "uuid": "46f453c1-0d30-5704-aa59-5e5eea5e7da8"
-          },
           {
             "flavorText": "「只要你晓得了塔拉希尔时间递归律的前七条，第六条就很容易理解。」",
             "identifiers": {
@@ -1229,6 +1169,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487732,
             "name": "泰菲力的指导",
+            "skuIds": {
+              "foil": "a3927a21-4491-585b-a20f-e6465fd76c7e",
+              "nonfoil": "f0b3d062-0021-5d0b-bef3-22ee9354bc1a"
+            },
             "text": "当泰菲力的指导进战场时，抓一张牌，然后弃一张牌。\n每当你抓一张牌时，目标对手磨两张牌。（他将其牌库顶的两张牌置入其坟墓场。）",
             "type": "结界",
             "uuid": "7ebf12cd-5825-5101-87f2-b45ebcc6700c"
@@ -1242,14 +1186,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 487991,
             "name": "泰菲力的指導",
+            "skuIds": {
+              "foil": "2f2d4259-3afd-5411-81a3-35cb88ed9914",
+              "nonfoil": "757e09b0-140a-599d-a662-543dac434fa4"
+            },
             "text": "當泰菲力的指導進戰場時，抽一張牌，然後棄一張牌。\n每當你抽一張牌時，目標對手磨兩張牌。（他將其牌庫頂的兩張牌置入其墳墓場。）",
             "type": "結界",
             "uuid": "2124e1a8-5be0-5ea3-987e-d8850564e6b3"
+          },
+          {
+            "flavorText": "« La sixième loi de la récursion temporelle de Tarassel est simple à comprendre quand on connait les sept premières. »",
+            "identifiers": {
+              "multiverseId": "486178",
+              "scryfallId": "446e3218-8095-4559-9594-12ec624ab158"
+            },
+            "language": "French",
+            "multiverseId": 486178,
+            "name": "Tutelle de Téfeiri",
+            "skuIds": {
+              "foil": "cfee8e9d-b10b-59f7-b9fa-b67d1f5de240",
+              "nonfoil": "87dccda6-848c-5ade-9bf5-3b3cde943c41"
+            },
+            "text": "Quand la Tutelle de Téfeiri arrive sur le champ de bataille, piochez une carte, puis défaussez-vous d'une carte.\nÀ chaque fois que vous piochez une carte, l'adversaire ciblé meule deux cartes. (Il met les deux cartes du dessus de sa bibliothèque dans son cimetière.)",
+            "type": "Enchantement",
+            "uuid": "5294b78a-0a2a-5076-87f7-e78eb6876434"
+          },
+          {
+            "flavorText": "„Tarassels sechstes Gesetz über den temporalen Kreislauf ist leicht zu verstehen, wenn man die ersten sieben kennt.\"",
+            "identifiers": {
+              "multiverseId": "485660",
+              "scryfallId": "bfe7e95d-56db-424c-a5d7-06ba1e73730f"
+            },
+            "language": "German",
+            "multiverseId": 485660,
+            "name": "Teferis Belehrung",
+            "skuIds": {
+              "foil": "d3f68e48-a7e1-50e5-ab4f-fb2309e7e5c4",
+              "nonfoil": "3f150767-eb01-54bd-9a02-0d2f29f975d7"
+            },
+            "text": "Wenn Teferis Belehrung ins Spiel kommt, ziehe eine Karte und wirf dann eine Karte ab.\nImmer wenn du eine Karte ziehst, millt ein Gegner deiner Wahl zwei Karten. (Er legt die obersten zwei Karten seiner Bibliothek auf seinen Friedhof.)",
+            "type": "Verzauberung",
+            "uuid": "343f7734-1e2f-5f84-9db5-9f7fd68098a2"
+          },
+          {
+            "flavorText": "\"La sesta legge della ricorsività temporale di Tarassel è di facile comprensione, purché si conoscano le prime sette.\"",
+            "identifiers": {
+              "multiverseId": "486437",
+              "scryfallId": "aecd0194-3da7-438e-9b3d-b7b00a96d035"
+            },
+            "language": "Italian",
+            "multiverseId": 486437,
+            "name": "Tutela di Teferi",
+            "skuIds": {
+              "foil": "e75774e4-f174-5814-b957-ceecbd5b66d5",
+              "nonfoil": "03c13ddf-c9ef-5385-9192-69e878b5d454"
+            },
+            "text": "Quando la Tutela di Teferi entra nel campo di battaglia, pesca una carta, poi scarta una carta.\nOgniqualvolta peschi una carta, un avversario bersaglio macina due carte. (Mette nel suo cimitero le prime due carte del suo grimorio.)",
+            "type": "Incantesimo",
+            "uuid": "2cfdec93-416c-505c-b4ae-507caa05fe59"
+          },
+          {
+            "flavorText": "「時間再帰に関するタラッセルの第六法則を理解するのは、最初の七つの法則が分かっていれば簡単さ。」",
+            "identifiers": {
+              "multiverseId": "486696",
+              "scryfallId": "ed7df78b-1df0-4dd3-8728-05ce26f01e31"
+            },
+            "language": "Japanese",
+            "multiverseId": 486696,
+            "name": "テフェリーの後見",
+            "skuIds": {
+              "foil": "fe05baa6-28e6-5b13-bd7b-32dc8a09db14",
+              "nonfoil": "21d13399-9591-5337-88aa-b003c099b8b0"
+            },
+            "text": "テフェリーの後見が戦場に出たとき、カードを１枚引き、その後カード１枚を捨てる。\nあなたがカードを１枚引くたび、対戦相手１人を対象とする。そのプレイヤーはカードを２枚切削する。（そのプレイヤーは、自分のライブラリーの一番上からカードを２枚自分の墓地に置く。）",
+            "type": "エンチャント",
+            "uuid": "0e927afa-7f79-5652-8b6c-fed0bfb114e4"
+          },
+          {
+            "flavorText": "\"시간적 재귀에 대한 타라셀의 여섯 번째 법칙은 자네가 첫 일곱 개 법칙을 알고 있으면 이해하기 쉽다네.\"",
+            "identifiers": {
+              "multiverseId": "486955",
+              "scryfallId": "4a23bf99-69c4-471c-8dcb-3e91d2193cd5"
+            },
+            "language": "Korean",
+            "multiverseId": 486955,
+            "name": "테페리의 지도",
+            "skuIds": {
+              "foil": "33f1ec06-d2ca-55b8-9abe-7dbcc47543d8",
+              "nonfoil": "f3f86235-9ec4-5ebe-a1d9-4e06730e0c8a"
+            },
+            "text": "테페리의 지도가 전장에 들어올 때, 카드 한 장을 뽑은 후, 카드 한 장을 버린다.\n당신이 카드를 뽑을 때마다, 상대를 목표로 정한다. 그 상대는 카드 두 장을 민다. (그 플레이어는 자신의 서고 맨 위 카드 두 장을 자신의 무덤에 넣는다.)",
+            "type": "부여마법",
+            "uuid": "28bd5e30-0a40-5c5b-acd2-25c0d77ebcf4"
+          },
+          {
+            "flavorText": "\"A sexta lei da recursividade temporal de Tarassel é de fácil compreensão, contanto que você conheça as primeiras sete.\"",
+            "identifiers": {
+              "multiverseId": "487214",
+              "scryfallId": "7fbf8f5c-c56a-4563-bd79-4fc38b45406e"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487214,
+            "name": "Tutela de Teferi",
+            "skuIds": {
+              "foil": "dc1992c9-d2a5-556b-9a07-83665784ce5f",
+              "nonfoil": "223c02ec-c0c9-5ba3-90d6-6521aaae2fd0"
+            },
+            "text": "Quando Tutela de Teferi entrar no campo de batalha, compre um card e depois descarte um card.\nToda vez que você compra um card, o oponente alvo tritura dois cards. (Ele coloca os dois cards do topo do próprio grimório no próprio cemitério.)",
+            "type": "Encantamento",
+            "uuid": "e108354f-e2a9-53a2-b4c1-4ea39fcf80ff"
+          },
+          {
+            "flavorText": "«Шестой закон темпоральной рекурсии Тарассель легко понять, если знаешь первые семь».",
+            "identifiers": {
+              "multiverseId": "487473",
+              "scryfallId": "f960fd9a-76ce-405c-89b2-63edd30316cc"
+            },
+            "language": "Russian",
+            "multiverseId": 487473,
+            "name": "Наставничество Тефери",
+            "skuIds": {
+              "foil": "43f98fbe-a5da-5489-8ed2-2c69e177a987",
+              "nonfoil": "5cf7ac5a-833d-5310-9caa-f42763e12f27"
+            },
+            "text": "Когда Наставничество Тефери выходит на поле битвы, возьмите карту, затем сбросьте карту.\nКаждый раз, когда вы берете карту, целевой оппонент скручивает две карты. (Он кладет две верхние карты своей библиотеки на свое кладбище.)",
+            "type": "Чары",
+            "uuid": "46f453c1-0d30-5704-aa59-5e5eea5e7da8"
+          },
+          {
+            "flavorText": "\"La sexta ley de la recurrencia temporal de Tárassel es fácil de entender si comprendes las primeras siete\".",
+            "identifiers": {
+              "multiverseId": "485919",
+              "scryfallId": "2e77fc76-ddc4-41ed-9a33-aa8085e9738e"
+            },
+            "language": "Spanish",
+            "multiverseId": 485919,
+            "name": "Tutelaje de Teferi",
+            "skuIds": {
+              "foil": "383b7cea-7bd9-57d3-8b43-5310c8abdec1",
+              "nonfoil": "a8fea7cb-974d-5b9a-ae2e-18c36a8bcd0d"
+            },
+            "text": "Cuando el Tutelaje de Teferi entre al campo de batalla, roba una carta, luego descarta una carta.\nSiempre que robes una carta, el oponente objetivo muele dos cartas. (Pone las dos primeras cartas de su biblioteca en su cementerio.)",
+            "type": "Encantamiento",
+            "uuid": "efbe54a3-3eae-549e-be8d-9ba24c368be5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234331",
           "cardKingdomId": "233912",
@@ -1293,6 +1375,7 @@
         "name": "Teferi's Tutelage",
         "number": "78",
         "originalText": "When Teferi's Tutelage enters the battlefield, draw a card, then discard a card.\nWhenever you draw a card, target opponent mills two cards. (They put the top two cards of their library into their graveyard.)",
+        "originalType": "Enchantment",
         "printings": [
           "M21"
         ],
@@ -1300,6 +1383,7 @@
           "cardKingdom": "https://mtgjson.com/links/6a79eff9f07d6557",
           "cardKingdomFoil": "https://mtgjson.com/links/5bbd0e9217238273",
           "cardmarket": "https://mtgjson.com/links/c5f0690db1ea9837",
+          "cardmarketFoil": "https://mtgjson.com/links/f0680bfa77c2ccf2",
           "tcgplayer": "https://mtgjson.com/links/f459c73f5b15837b"
         },
         "rarity": "uncommon",
@@ -1310,16 +1394,45 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "064cb3cc-885f-563c-8313-dcda1c22d312",
+          "nonfoil": "adbaa653-a57f-5b5a-86b4-d0c2e0cbc8b0"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [],
@@ -1356,109 +1469,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 17414,
+        "edhrecRank": 17863,
         "edhrecSaltiness": 0.25,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "485629",
-              "scryfallId": "4b4e73c7-6855-469f-9e4a-90334eb48989"
-            },
-            "language": "German",
-            "multiverseId": 485629,
-            "name": "Gefängnissphäre",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur\nWenn die Gefängnissphäre ins Spiel kommt, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura",
-            "uuid": "c53dd5b0-a6bd-5e82-b85c-a303417aea66"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "485888",
-              "scryfallId": "be9c635f-039b-4e19-8bf0-9c9f75bda23a"
-            },
-            "language": "Spanish",
-            "multiverseId": 485888,
-            "name": "Esfera de captura",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura.\nCuando la Esfera de captura entre al campo de batalla, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura",
-            "uuid": "e8872429-cbf8-5369-8a1e-9e72c4001c58"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486147",
-              "scryfallId": "fa8c1c6f-9dea-4b4c-9984-6c9487afe0b7"
-            },
-            "language": "French",
-            "multiverseId": 486147,
-            "name": "Sphère de capture",
-            "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nEnchanter : créature\nQuand la Sphère de capture arrive sur le champ de bataille, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
-            "type": "Enchantement : aura",
-            "uuid": "d91c5891-9709-5745-bb0e-e523ff4c0568"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486406",
-              "scryfallId": "9840bda1-0f85-41d1-88be-9d8ebb7b7c86"
-            },
-            "language": "Italian",
-            "multiverseId": 486406,
-            "name": "Sfera di Cattura",
-            "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nIncanta creatura\nQuando la Sfera di Cattura entra nel campo di battaglia, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
-            "type": "Incantesimo — Aura",
-            "uuid": "008bdbaf-c093-590f-a111-27707b58408e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486665",
-              "scryfallId": "9cc3b236-9a64-485c-bcff-24614a19a8cb"
-            },
-            "language": "Japanese",
-            "multiverseId": 486665,
-            "name": "捕獲球",
-            "text": "瞬速（あなたはこの呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nエンチャント（クリーチャー）\n捕獲球が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
-            "type": "エンチャント — オーラ",
-            "uuid": "c8f08088-9f3c-51ea-84ef-6a6b03a1b7cc"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486924",
-              "scryfallId": "8f03a2d8-b251-4436-8c7c-04b2c292f151"
-            },
-            "language": "Korean",
-            "multiverseId": 486924,
-            "name": "포획 구체",
-            "text": "섬광 (순간마법을 발동할 수 있는 시기라면 당신은 이 주문을 언제든지 발동할 수 있다.)\n생물에게 부여\n포획 구체가 전장에 들어올 때, 부여된 생물을 탭한다.\n부여된 생물은 조종자의 언탭단에 언탭되지 않는다.",
-            "type": "부여마법 — 마법진",
-            "uuid": "3dec7bd1-6aec-5e93-bf46-60b451f45d95"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "487183",
-              "scryfallId": "3287015f-e28f-4dee-8f0d-ee100d51ba9e"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487183,
-            "name": "Esfera de Captura",
-            "text": "Lampejo (Você poderá conjurar esta mágica a qualquer momento em que puder conjurar uma mágica instantânea.)\nEncantar criatura\nQuando Esfera de Captura entrar no campo de batalha, vire a criatura encantada.\nA criatura encantada não é desvirada durante a etapa de desvirar de seu controlador.",
-            "type": "Encantamento — Aura",
-            "uuid": "fbc64160-7bd9-5a76-a3f7-2b0988fce425"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "487442",
-              "scryfallId": "3cdb54af-740f-46b2-8c96-a69ccce6b8f6"
-            },
-            "language": "Russian",
-            "multiverseId": 487442,
-            "name": "Ловчая Сфера",
-            "text": "Миг (Вы можете разыграть это заклинание при любой возможности разыгрывать мгновенные заклинания.)\nЗачаровать существо\nКогда Ловчая Сфера выходит на поле битвы, поверните зачарованное существо.\nЗачарованное существо не разворачивается во время шага разворота контролирующего его игрока.",
-            "type": "Чары — Аура",
-            "uuid": "6070aef9-567c-549c-9204-43a7cdf8fe22"
-          },
           {
             "identifiers": {
               "multiverseId": "487701",
@@ -1467,6 +1484,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487701,
             "name": "拘捕法球",
+            "skuIds": {
+              "foil": "558f663a-b29d-529b-8d54-d6ff26b15cee",
+              "nonfoil": "e2404385-2439-5d38-ac90-e3df6e661eb5"
+            },
             "text": "闪现（你可以于你能够施放瞬间的时机下施放此咒语。）\n结附于生物\n当拘捕法球进战场时，横置所结附的生物。\n所结附的生物于其操控者的重置步骤中不能重置。",
             "type": "结界 ～灵气",
             "uuid": "77b87713-c813-5b50-90fa-d090e738b462"
@@ -1479,14 +1500,144 @@
             "language": "Chinese Traditional",
             "multiverseId": 487960,
             "name": "拘捕法球",
+            "skuIds": {
+              "foil": "0b134e5c-4189-557a-9ef9-120ec9b3145b",
+              "nonfoil": "3f917ac1-c4fe-5861-8678-a42d871a63b9"
+            },
             "text": "閃現（你可以於你能夠施放瞬間的時機下施放此咒語。）\n結附於生物\n當拘捕法球進戰場時，橫置所結附的生物。\n所結附的生物於其操控者的重置步驟中不能重置。",
             "type": "結界 ～靈氣",
             "uuid": "2fd3d764-75ca-5f51-89d5-c13c3b2a88b0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486147",
+              "scryfallId": "fa8c1c6f-9dea-4b4c-9984-6c9487afe0b7"
+            },
+            "language": "French",
+            "multiverseId": 486147,
+            "name": "Sphère de capture",
+            "skuIds": {
+              "foil": "7610e45f-75b6-557c-b42a-3e0aa193339d",
+              "nonfoil": "2cefdc3d-8726-5048-b2c3-8f75cc7b49f9"
+            },
+            "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nEnchanter : créature\nQuand la Sphère de capture arrive sur le champ de bataille, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
+            "type": "Enchantement : aura",
+            "uuid": "d91c5891-9709-5745-bb0e-e523ff4c0568"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "485629",
+              "scryfallId": "4b4e73c7-6855-469f-9e4a-90334eb48989"
+            },
+            "language": "German",
+            "multiverseId": 485629,
+            "name": "Gefängnissphäre",
+            "skuIds": {
+              "foil": "4f5efbe3-4588-5919-a6c0-f1f44e6dfdf6",
+              "nonfoil": "a959de35-01a5-59a0-aeee-d7a43dd02522"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur\nWenn die Gefängnissphäre ins Spiel kommt, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
+            "type": "Verzauberung — Aura",
+            "uuid": "c53dd5b0-a6bd-5e82-b85c-a303417aea66"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486406",
+              "scryfallId": "9840bda1-0f85-41d1-88be-9d8ebb7b7c86"
+            },
+            "language": "Italian",
+            "multiverseId": 486406,
+            "name": "Sfera di Cattura",
+            "skuIds": {
+              "foil": "7e67483b-f16e-5ed7-b289-db5a1ada1814",
+              "nonfoil": "139b94de-3904-5a28-a01a-ff631ab7bf31"
+            },
+            "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nIncanta creatura\nQuando la Sfera di Cattura entra nel campo di battaglia, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
+            "type": "Incantesimo — Aura",
+            "uuid": "008bdbaf-c093-590f-a111-27707b58408e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486665",
+              "scryfallId": "9cc3b236-9a64-485c-bcff-24614a19a8cb"
+            },
+            "language": "Japanese",
+            "multiverseId": 486665,
+            "name": "捕獲球",
+            "skuIds": {
+              "foil": "e84c7f78-074d-535b-8400-05838ac114f7",
+              "nonfoil": "927e580c-8c4e-57db-ae19-015bf43495f1"
+            },
+            "text": "瞬速（あなたはこの呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nエンチャント（クリーチャー）\n捕獲球が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
+            "type": "エンチャント — オーラ",
+            "uuid": "c8f08088-9f3c-51ea-84ef-6a6b03a1b7cc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486924",
+              "scryfallId": "8f03a2d8-b251-4436-8c7c-04b2c292f151"
+            },
+            "language": "Korean",
+            "multiverseId": 486924,
+            "name": "포획 구체",
+            "skuIds": {
+              "foil": "3a9f0ea6-df8b-5613-8e5c-e9fb04013b3e",
+              "nonfoil": "ac6f1f15-236d-5a7d-9c7f-cd0fb07c70f8"
+            },
+            "text": "섬광 (순간마법을 발동할 수 있는 시기라면 당신은 이 주문을 언제든지 발동할 수 있다.)\n생물에게 부여\n포획 구체가 전장에 들어올 때, 부여된 생물을 탭한다.\n부여된 생물은 조종자의 언탭단에 언탭되지 않는다.",
+            "type": "부여마법 — 마법진",
+            "uuid": "3dec7bd1-6aec-5e93-bf46-60b451f45d95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "487183",
+              "scryfallId": "3287015f-e28f-4dee-8f0d-ee100d51ba9e"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487183,
+            "name": "Esfera de Captura",
+            "skuIds": {
+              "foil": "8c87ea9c-04bf-52f1-94a2-11b4c6e91796",
+              "nonfoil": "e7609bcc-8988-5e61-96ba-91b1ad7ce69e"
+            },
+            "text": "Lampejo (Você poderá conjurar esta mágica a qualquer momento em que puder conjurar uma mágica instantânea.)\nEncantar criatura\nQuando Esfera de Captura entrar no campo de batalha, vire a criatura encantada.\nA criatura encantada não é desvirada durante a etapa de desvirar de seu controlador.",
+            "type": "Encantamento — Aura",
+            "uuid": "fbc64160-7bd9-5a76-a3f7-2b0988fce425"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "487442",
+              "scryfallId": "3cdb54af-740f-46b2-8c96-a69ccce6b8f6"
+            },
+            "language": "Russian",
+            "multiverseId": 487442,
+            "name": "Ловчая Сфера",
+            "skuIds": {
+              "foil": "e9b80798-4d9b-542e-863e-6649ba25d4e1",
+              "nonfoil": "ff6437c7-0f15-5055-9880-b064d56831b4"
+            },
+            "text": "Миг (Вы можете разыграть это заклинание при любой возможности разыгрывать мгновенные заклинания.)\nЗачаровать существо\nКогда Ловчая Сфера выходит на поле битвы, поверните зачарованное существо.\nЗачарованное существо не разворачивается во время шага разворота контролирующего его игрока.",
+            "type": "Чары — Аура",
+            "uuid": "6070aef9-567c-549c-9204-43a7cdf8fe22"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "485888",
+              "scryfallId": "be9c635f-039b-4e19-8bf0-9c9f75bda23a"
+            },
+            "language": "Spanish",
+            "multiverseId": 485888,
+            "name": "Esfera de captura",
+            "skuIds": {
+              "foil": "052e6e9d-38e7-5ac3-92ab-687dfcbd4637",
+              "nonfoil": "bfc36be0-9439-5199-8b47-1d87cfea117a"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura.\nCuando la Esfera de captura entre al campo de batalla, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
+            "type": "Encantamiento — Aura",
+            "uuid": "e8872429-cbf8-5369-8a1e-9e72c4001c58"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234530",
           "cardKingdomId": "234224",
@@ -1535,6 +1686,7 @@
         "name": "Capture Sphere",
         "number": "47",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nWhen Capture Sphere enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "2X2",
           "GRN",
@@ -1547,20 +1699,50 @@
           "cardKingdom": "https://mtgjson.com/links/6cc62563e2babbcd",
           "cardKingdomFoil": "https://mtgjson.com/links/e8e003808ac689b0",
           "cardmarket": "https://mtgjson.com/links/38a14e448fa04a10",
+          "cardmarketFoil": "https://mtgjson.com/links/0d011a69469f05c6",
           "tcgplayer": "https://mtgjson.com/links/079a553ed943c20e"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "071c3e64-d921-5283-a7b6-c01e2da2bfa6",
+          "nonfoil": "177eff45-56a1-5033-92c4-0af860f23877"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1594,7 +1776,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -1602,8 +1784,6 @@
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234722",
           "cardsphereId": "68323",
@@ -1641,12 +1821,14 @@
         "name": "Thriving Isle",
         "number": "36",
         "originalText": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -1654,7 +1836,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c7ed5a376917820c",
@@ -1663,8 +1853,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "91f3da82-d1ce-58cd-a064-e118f7141a81"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1699,65 +1895,10 @@
         "count": 2,
         "edhrecSaltiness": 0.92,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488479",
-              "scryfallId": "00ce1c13-a2dd-4a63-9873-dc84bfe026e1"
-            },
-            "language": "German",
-            "multiverseId": 488479,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "f20312c0-25fe-59a5-9d1a-65a30ee23612"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488494",
-              "scryfallId": "4a73747e-cc3a-4817-9aa7-ffbdbb566d83"
-            },
-            "language": "Spanish",
-            "multiverseId": 488494,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "f4cfd706-189b-5fa6-8dff-0f57895b452e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488509",
-              "scryfallId": "675c263f-0f60-4a0c-9e39-e5484bd623c1"
-            },
-            "language": "French",
-            "multiverseId": 488509,
-            "name": "Île",
-            "type": "Terrain de base : île",
-            "uuid": "3500344b-5bcc-5de3-b3bd-4f51e7447879"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488539",
-              "scryfallId": "c29f3997-84dc-4205-b07b-172c69c67606"
-            },
-            "language": "Japanese",
-            "multiverseId": 488539,
-            "name": "島",
-            "type": "基本土地 — 島",
-            "uuid": "ad34c00c-341d-5448-9ef8-5d2f1fb36f3c"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488584",
-              "scryfallId": "b134c6ec-91bd-489a-910d-3f605f322f36"
-            },
-            "language": "Russian",
-            "multiverseId": 488584,
-            "name": "Остров",
-            "type": "Базовая Земля — Остров",
-            "uuid": "ed94f278-3408-57fc-b9f2-b46c34bccb73"
-          },
           {
             "identifiers": {
               "multiverseId": "488599",
@@ -1766,6 +1907,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488599,
             "name": "海岛",
+            "skuIds": {
+              "foil": "c27cd1f2-cd9b-5767-ab82-e76523d3cb4a",
+              "nonfoil": "600fdb09-a5fc-54e6-8f6a-bfabbfe76d1a"
+            },
             "type": "基本地 ～海岛",
             "uuid": "a6b9fce8-d060-5725-9acc-bceaf167e26b"
           },
@@ -1777,13 +1922,90 @@
             "language": "Chinese Traditional",
             "multiverseId": 488614,
             "name": "海島",
+            "skuIds": {
+              "foil": "9244c35a-7e67-563f-9ade-4be6b228322f",
+              "nonfoil": "8aaef9ae-d3dd-5f80-84e6-35244a894330"
+            },
             "type": "基本地 ～海島",
             "uuid": "05cad1bb-989d-56cd-ae5e-80188332b233"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488509",
+              "scryfallId": "675c263f-0f60-4a0c-9e39-e5484bd623c1"
+            },
+            "language": "French",
+            "multiverseId": 488509,
+            "name": "Île",
+            "skuIds": {
+              "foil": "4e459df2-1821-58d7-8eac-f0148284f2f0",
+              "nonfoil": "73e97947-5acc-5ea4-926c-4f63291d2ac5"
+            },
+            "type": "Terrain de base : île",
+            "uuid": "3500344b-5bcc-5de3-b3bd-4f51e7447879"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488479",
+              "scryfallId": "00ce1c13-a2dd-4a63-9873-dc84bfe026e1"
+            },
+            "language": "German",
+            "multiverseId": 488479,
+            "name": "Insel",
+            "skuIds": {
+              "foil": "1d6a3295-f349-57d6-93dd-50561d904f00",
+              "nonfoil": "4391080b-7c98-54a2-bc76-5629ab56bc40"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "f20312c0-25fe-59a5-9d1a-65a30ee23612"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488539",
+              "scryfallId": "c29f3997-84dc-4205-b07b-172c69c67606"
+            },
+            "language": "Japanese",
+            "multiverseId": 488539,
+            "name": "島",
+            "skuIds": {
+              "foil": "4678379c-348c-54dd-b803-8bdc584c7591",
+              "nonfoil": "7d2eb92d-8de3-55ba-a60a-1862730fa3fe"
+            },
+            "type": "基本土地 — 島",
+            "uuid": "ad34c00c-341d-5448-9ef8-5d2f1fb36f3c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488584",
+              "scryfallId": "b134c6ec-91bd-489a-910d-3f605f322f36"
+            },
+            "language": "Russian",
+            "multiverseId": 488584,
+            "name": "Остров",
+            "skuIds": {
+              "foil": "3ce05730-3deb-59ae-9e8a-31965bb50b48",
+              "nonfoil": "92865076-0bf1-5da1-9190-2fcc2a38f612"
+            },
+            "type": "Базовая Земля — Остров",
+            "uuid": "ed94f278-3408-57fc-b9f2-b46c34bccb73"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488494",
+              "scryfallId": "4a73747e-cc3a-4817-9aa7-ffbdbb566d83"
+            },
+            "language": "Spanish",
+            "multiverseId": 488494,
+            "name": "Isla",
+            "skuIds": {
+              "foil": "01fdfa94-abbd-5e5d-9ffe-bc873178a405",
+              "nonfoil": "420a3408-ed6d-5619-82e9-062f37e9e9b4"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "f4cfd706-189b-5fa6-8dff-0f57895b452e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234503",
           "cardKingdomId": "234196",
@@ -1791,6 +2013,7 @@
           "cardsphereId": "67954",
           "deckboxId": "50774",
           "mcmId": "471184",
+          "mcmMetaId": "2923",
           "mtgArenaId": "72083",
           "mtgjsonV4Id": "19ecd2b4-6d7c-5a45-8787-4f9b778cfbd7",
           "mtgoId": "81205",
@@ -1832,6 +2055,7 @@
         "name": "Island",
         "number": "263",
         "originalText": "U",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -1901,6 +2125,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2061,23 +2286,56 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b8fbdb8b22dead01",
           "cardKingdomFoil": "https://mtgjson.com/links/9889fe703df3df02",
+          "cardmarket": "https://mtgjson.com/links/f5f1487874cb1dbf",
+          "cardmarketFoil": "https://mtgjson.com/links/0b8b966e9fcb2501",
           "tcgplayer": "https://mtgjson.com/links/1e3882e9b37c0637"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "577b04fe-2ee5-51cc-b06c-60b5d67291e2",
+          "nonfoil": "d1c2e1a3-7563-5fcd-9274-be8c3f6a0ef5"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
             "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
@@ -2094,9 +2352,9 @@
         ],
         "uuid": "a2cfefab-7490-512e-9cef-0bd3bbc22fef",
         "variations": [
+          "5d68fdec-6205-571f-804a-7dc74f7811fd",
           "bfc6c856-244d-5cca-9c5b-639e94cf3f4d",
-          "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57",
-          "5d68fdec-6205-571f-804a-7dc74f7811fd"
+          "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57"
         ]
       },
       {
@@ -2121,20 +2379,24 @@
         "count": 2,
         "edhrecSaltiness": 0.92,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "488480",
-              "scryfallId": "2ea286be-4f32-4108-899b-32f198fce06f"
+              "multiverseId": "488615",
+              "scryfallId": "768fc185-6731-4471-b04c-2f358fe43de8"
             },
-            "language": "German",
-            "multiverseId": 488480,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "23b80e38-4345-5804-bc27-dd5bb9b66705"
+            "language": "Chinese Traditional",
+            "multiverseId": 488615,
+            "name": "海島",
+            "skuIds": {
+              "foil": "369dc400-d649-5316-af37-8831ed8f8acc",
+              "nonfoil": "4258e561-86d7-5030-9ec6-22eb3bc8f97d"
+            },
+            "type": "基本地 ～海島",
+            "uuid": "9ac37949-58a7-5c49-829a-52b01ac4acab"
           },
           {
             "identifiers": {
@@ -2144,8 +2406,27 @@
             "language": "French",
             "multiverseId": 488510,
             "name": "Île",
+            "skuIds": {
+              "foil": "fc34186a-85c3-5a78-91b8-06abdd0f6c22",
+              "nonfoil": "4a44bcd4-458a-5d68-a59a-e344acac6b4c"
+            },
             "type": "Terrain de base : île",
             "uuid": "0b20ebce-e5cc-52b1-96ee-d25a5a78c17c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488480",
+              "scryfallId": "2ea286be-4f32-4108-899b-32f198fce06f"
+            },
+            "language": "German",
+            "multiverseId": 488480,
+            "name": "Insel",
+            "skuIds": {
+              "foil": "729585f4-5541-539e-84e5-6ef2a0eea4f8",
+              "nonfoil": "bb39aca6-8cf3-562c-a180-429931b369a8"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "23b80e38-4345-5804-bc27-dd5bb9b66705"
           },
           {
             "identifiers": {
@@ -2155,6 +2436,10 @@
             "language": "Italian",
             "multiverseId": 488525,
             "name": "Isola",
+            "skuIds": {
+              "foil": "be1c4f19-918f-53df-9e03-1e4b0167f168",
+              "nonfoil": "ebac2efd-c197-5c36-896d-ca03f1e7caa2"
+            },
             "type": "Terra Base — Isola",
             "uuid": "866527f9-97b8-5209-9fd7-8f291b3cff4e"
           },
@@ -2166,6 +2451,10 @@
             "language": "Japanese",
             "multiverseId": 488540,
             "name": "島",
+            "skuIds": {
+              "foil": "56369271-1644-5d20-a823-abc4c1065df8",
+              "nonfoil": "513e3799-349a-5214-b581-edeb25ae6bbc"
+            },
             "type": "基本土地 — 島",
             "uuid": "1046cc56-dd16-500e-bd6a-8a797d115b72"
           },
@@ -2177,6 +2466,10 @@
             "language": "Korean",
             "multiverseId": 488555,
             "name": "섬",
+            "skuIds": {
+              "foil": "cabcec09-ca1d-51a3-b3e7-8785fcc0a946",
+              "nonfoil": "5c272fd7-9749-5c54-b6fc-e474db8a8052"
+            },
             "type": "기본 대지 — 섬",
             "uuid": "f65e87ea-4e43-5280-b2b5-c04658cb08a6"
           },
@@ -2188,24 +2481,15 @@
             "language": "Portuguese (Brazil)",
             "multiverseId": 488570,
             "name": "Ilha",
+            "skuIds": {
+              "foil": "ddb3c3d3-6ec4-55b5-9bb6-f5aaa67e3b58",
+              "nonfoil": "bf43f84b-8a3f-5227-ace7-b7aeeb2734d2"
+            },
             "type": "Terreno Básico — Ilha",
             "uuid": "c5b7cea9-3d25-57c1-8d89-f1231cad20d8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488615",
-              "scryfallId": "768fc185-6731-4471-b04c-2f358fe43de8"
-            },
-            "language": "Chinese Traditional",
-            "multiverseId": 488615,
-            "name": "海島",
-            "type": "基本地 ～海島",
-            "uuid": "9ac37949-58a7-5c49-829a-52b01ac4acab"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234504",
           "cardKingdomId": "234197",
@@ -2213,6 +2497,7 @@
           "cardsphereId": "67955",
           "deckboxId": "50775",
           "mcmId": "471179",
+          "mcmMetaId": "2923",
           "mtgArenaId": "72084",
           "mtgjsonV4Id": "a406d63e-2973-581c-8b4b-ee734bccce50",
           "mtgoId": "81207",
@@ -2254,6 +2539,7 @@
         "name": "Island",
         "number": "264",
         "originalText": "U",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2323,6 +2609,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2483,23 +2770,56 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/e64f526092ee7e6c",
           "cardKingdomFoil": "https://mtgjson.com/links/059ae7c44d71de97",
+          "cardmarket": "https://mtgjson.com/links/cd1638f5ccda74d7",
+          "cardmarketFoil": "https://mtgjson.com/links/869c1bc3dee58259",
           "tcgplayer": "https://mtgjson.com/links/2e27967a6e5603b6"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "48963876-977b-558c-a3fb-6cffe75e7422",
+          "nonfoil": "29a356a0-79cd-5ae6-8817-e3dd46053355"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
             "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
@@ -2516,9 +2836,9 @@
         ],
         "uuid": "bfc6c856-244d-5cca-9c5b-639e94cf3f4d",
         "variations": [
+          "5d68fdec-6205-571f-804a-7dc74f7811fd",
           "a2cfefab-7490-512e-9cef-0bd3bbc22fef",
-          "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57",
-          "5d68fdec-6205-571f-804a-7dc74f7811fd"
+          "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57"
         ]
       },
       {
@@ -2543,65 +2863,10 @@
         "count": 2,
         "edhrecSaltiness": 0.92,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488481",
-              "scryfallId": "e568f229-856e-4ad6-9d5d-093a44427822"
-            },
-            "language": "German",
-            "multiverseId": 488481,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "a3f497e6-bdc8-581a-9d83-14cb8b7cbf4f"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488496",
-              "scryfallId": "5326b4a0-7de8-472c-9c21-fc347eff1857"
-            },
-            "language": "Spanish",
-            "multiverseId": 488496,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "f4afc287-2712-51a5-9647-7eef8801bbc3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488511",
-              "scryfallId": "b4650d52-ec22-4de4-a464-0578bea5767f"
-            },
-            "language": "French",
-            "multiverseId": 488511,
-            "name": "Île",
-            "type": "Terrain de base : île",
-            "uuid": "f998c10b-1b57-559a-8bf8-5cf4627fe2e4"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488571",
-              "scryfallId": "779fcef5-b380-4d8e-b0d4-63fc11d09498"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488571,
-            "name": "Ilha",
-            "type": "Terreno Básico — Ilha",
-            "uuid": "65168c06-6f96-59c7-8781-8b9726c0308e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488586",
-              "scryfallId": "20563e75-40d5-4b2b-b081-09c7b7935021"
-            },
-            "language": "Russian",
-            "multiverseId": 488586,
-            "name": "Остров",
-            "type": "Базовая Земля — Остров",
-            "uuid": "7834e6ab-0781-52b3-b1b9-e426ffb4b001"
-          },
           {
             "identifiers": {
               "multiverseId": "488601",
@@ -2610,6 +2875,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488601,
             "name": "海岛",
+            "skuIds": {
+              "foil": "acfc79b7-e31c-5cfc-9bb4-1a9a2b8262f1",
+              "nonfoil": "b859eb27-e3b4-5196-b375-50f49ba1d21e"
+            },
             "type": "基本地 ～海岛",
             "uuid": "cc9c70e9-d74b-5a87-a617-19be4287a09d"
           },
@@ -2621,13 +2890,90 @@
             "language": "Chinese Traditional",
             "multiverseId": 488616,
             "name": "海島",
+            "skuIds": {
+              "foil": "a778e4c8-694d-537d-91c0-71f93837f560",
+              "nonfoil": "2f2cdeba-ce64-5a73-880b-546038c05b9d"
+            },
             "type": "基本地 ～海島",
             "uuid": "8ad78a36-9528-5fcd-b2cd-186b8ec9e1b4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488511",
+              "scryfallId": "b4650d52-ec22-4de4-a464-0578bea5767f"
+            },
+            "language": "French",
+            "multiverseId": 488511,
+            "name": "Île",
+            "skuIds": {
+              "foil": "c199c93d-1fdf-5e10-adcb-78206cd5da93",
+              "nonfoil": "d578c9dc-2dc9-5bbc-86f7-f37ef5b7382d"
+            },
+            "type": "Terrain de base : île",
+            "uuid": "f998c10b-1b57-559a-8bf8-5cf4627fe2e4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488481",
+              "scryfallId": "e568f229-856e-4ad6-9d5d-093a44427822"
+            },
+            "language": "German",
+            "multiverseId": 488481,
+            "name": "Insel",
+            "skuIds": {
+              "foil": "735f2aa2-ea06-54fa-aa0e-031c2dbbc07b",
+              "nonfoil": "442fe6b5-18a8-50b7-bda5-a9f89ebee542"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "a3f497e6-bdc8-581a-9d83-14cb8b7cbf4f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488571",
+              "scryfallId": "779fcef5-b380-4d8e-b0d4-63fc11d09498"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488571,
+            "name": "Ilha",
+            "skuIds": {
+              "foil": "c35846e1-8e5e-5ece-84f3-38260b764ff3",
+              "nonfoil": "e5fad082-7305-5779-b626-16d0008b78cc"
+            },
+            "type": "Terreno Básico — Ilha",
+            "uuid": "65168c06-6f96-59c7-8781-8b9726c0308e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488586",
+              "scryfallId": "20563e75-40d5-4b2b-b081-09c7b7935021"
+            },
+            "language": "Russian",
+            "multiverseId": 488586,
+            "name": "Остров",
+            "skuIds": {
+              "foil": "74cc9ebd-682f-53c1-b7af-599a687d7fb1",
+              "nonfoil": "b137606e-10c5-534b-9c8f-9ec6dffa6a8c"
+            },
+            "type": "Базовая Земля — Остров",
+            "uuid": "7834e6ab-0781-52b3-b1b9-e426ffb4b001"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488496",
+              "scryfallId": "5326b4a0-7de8-472c-9c21-fc347eff1857"
+            },
+            "language": "Spanish",
+            "multiverseId": 488496,
+            "name": "Isla",
+            "skuIds": {
+              "foil": "be8b4130-7c17-58ca-934a-216d3e62f511",
+              "nonfoil": "de8bfce6-e663-5616-88dc-b34b354e82dd"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "f4afc287-2712-51a5-9647-7eef8801bbc3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234505",
           "cardKingdomId": "234198",
@@ -2635,6 +2981,7 @@
           "cardsphereId": "67956",
           "deckboxId": "50776",
           "mcmId": "471174",
+          "mcmMetaId": "2923",
           "mtgArenaId": "72085",
           "mtgjsonV4Id": "02b44836-a5f9-56b0-9c2c-e2138e63332b",
           "mtgoId": "81209",
@@ -2676,6 +3023,7 @@
         "name": "Island",
         "number": "265",
         "originalText": "U",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2745,6 +3093,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2905,23 +3254,56 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/81fb8d47ba8f0d60",
           "cardKingdomFoil": "https://mtgjson.com/links/3d866b10d42c5615",
+          "cardmarket": "https://mtgjson.com/links/fa8de16c19673c08",
+          "cardmarketFoil": "https://mtgjson.com/links/d5f63913d94714ec",
           "tcgplayer": "https://mtgjson.com/links/4ad8d2e5d6e7acbe"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "095d3ef3-e2e3-5b14-8d94-43886c6271f5",
+          "nonfoil": "dda97075-ffe9-5631-82ec-d3829fa05379"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
             "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
@@ -2938,9 +3320,9 @@
         ],
         "uuid": "f4dbcfc7-89d7-5b94-ac9f-b64bb35b2b57",
         "variations": [
+          "5d68fdec-6205-571f-804a-7dc74f7811fd",
           "a2cfefab-7490-512e-9cef-0bd3bbc22fef",
-          "bfc6c856-244d-5cca-9c5b-639e94cf3f4d",
-          "5d68fdec-6205-571f-804a-7dc74f7811fd"
+          "bfc6c856-244d-5cca-9c5b-639e94cf3f4d"
         ]
       },
       {
@@ -2968,13 +3350,12 @@
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235064",
           "cardsphereId": "68644",
           "deckboxId": "51058",
           "mcmId": "474129",
+          "mcmMetaId": "2923",
           "mtgArenaId": "72570",
           "mtgjsonV4Id": "c29768ad-5789-5b87-b699-8fdeedaf54a6",
           "multiverseId": "489634",
@@ -3015,6 +3396,7 @@
         "name": "Island",
         "number": "50",
         "originalText": "U",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3084,6 +3466,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3244,14 +3627,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ce46b09402c45824",
+          "cardmarket": "https://mtgjson.com/links/4bac31dc813ec0d0",
           "tcgplayer": "https://mtgjson.com/links/cf3be1151c4e7802"
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "74b9bd9e-4cfe-57e2-a886-a85837ee93cc"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -3268,13 +3661,13 @@
         ],
         "uuid": "fcca533d-a708-5ed1-8e59-20075ed79470",
         "variations": [
-          "347a70ad-739b-5be0-ba7a-7f61c87f463a",
           "13e7b016-30c3-542a-9efe-08e4e32fe9f6",
-          "a60243d7-54c6-533a-a09f-6473afcba061",
-          "1995b285-2adb-51e9-b9e5-8da0b33a9dab",
           "17ab34ed-0c8d-5ce2-a658-bd463cea96df",
-          "c4ab5c0a-bfec-5a22-82ca-829e16bbf326",
-          "97ee4c33-4bc6-5cda-ba06-4ea21be43c0b"
+          "1995b285-2adb-51e9-b9e5-8da0b33a9dab",
+          "347a70ad-739b-5be0-ba7a-7f61c87f463a",
+          "97ee4c33-4bc6-5cda-ba06-4ea21be43c0b",
+          "a60243d7-54c6-533a-a09f-6473afcba061",
+          "c4ab5c0a-bfec-5a22-82ca-829e16bbf326"
         ]
       }
     ],
@@ -3290,5 +3683,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "f12dcbd72c3423"
   }
 }

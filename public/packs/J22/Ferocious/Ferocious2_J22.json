@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "707f75d88279f4"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,37 +24,28 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 16908,
+        "edhrecRank": 17969,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "It's bad luck to step on one, but worse luck to have one step on you.",
         "foreignData": [
           {
-            "flavorText": "Es bringt Unglück, auf einen zu treten, aber es bringt noch mehr Unglück, wenn er auf dich tritt.",
+            "flavorText": "虽然踩到它算倒霉，但它踩到你就更倒霉。",
             "identifiers": {
-              "multiverseId": "589644",
-              "scryfallId": "96731615-6152-4244-bb36-65c52f795a66"
+              "multiverseId": "590001",
+              "scryfallId": "d985f265-bd16-44c5-9327-bc214d5d70bd"
             },
-            "language": "German",
-            "multiverseId": 589644,
-            "name": "Riesenmarienkäfer",
-            "text": "Reichweite\nWenn der Riesenmarienkäfer ins Spiel kommt, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie offen vorzeigen, danach mischen und sie oben darauflegen.",
-            "type": "Kreatur — Insekt",
-            "uuid": "a4ca40ba-7ecd-577e-a273-0c390e626430"
-          },
-          {
-            "flavorText": "Pisar una da mala suerte, pero peor suerte da que te pise una a ti.",
-            "identifiers": {
-              "multiverseId": "589695",
-              "scryfallId": "6215726d-27c5-40d0-a9f6-96682fd91a96"
+            "language": "Chinese Simplified",
+            "multiverseId": 590001,
+            "name": "巨型瓢虫",
+            "skuIds": {
+              "nonfoil": "3e94b4b7-4070-58a8-b725-f381a94cdb4a"
             },
-            "language": "Spanish",
-            "multiverseId": 589695,
-            "name": "Mariquita gigante",
-            "text": "Alcance.\nCuando la Mariquita gigante entre al campo de batalla, puedes buscar en tu biblioteca una carta de tierra básica, mostrarla, barajar y poner esa carta en la parte superior.",
-            "type": "Criatura — Insecto",
-            "uuid": "4f3d82fd-f9c4-51a8-a599-4018e7236d5b"
+            "text": "延势\n当巨型瓢虫进战场时，你可以从你牌库中搜寻一张基本地牌，展示该牌，然后洗牌，并将该牌置于牌库顶。",
+            "type": "生物 ～昆虫",
+            "uuid": "eb9fe6e4-4db2-563a-9fc5-c4a0a9c83bff"
           },
           {
             "flavorText": "En écraser une porte malheur, mais c'est encore pire si c'est elle qui vous écrase.",
@@ -70,9 +56,28 @@
             "language": "French",
             "multiverseId": 589746,
             "name": "Coccinelle géante",
+            "skuIds": {
+              "nonfoil": "fcb1516a-7b49-5156-b7fe-07617a528275"
+            },
             "text": "Portée\nQuand la Coccinelle géante arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte de terrain de base, la révéler, puis mélanger et mettre cette carte au-dessus de votre bibliothèque.",
             "type": "Créature : insecte",
             "uuid": "5a1d17e6-9bf7-5223-afd6-ed58cf2fe379"
+          },
+          {
+            "flavorText": "Es bringt Unglück, auf einen zu treten, aber es bringt noch mehr Unglück, wenn er auf dich tritt.",
+            "identifiers": {
+              "multiverseId": "589644",
+              "scryfallId": "96731615-6152-4244-bb36-65c52f795a66"
+            },
+            "language": "German",
+            "multiverseId": 589644,
+            "name": "Riesenmarienkäfer",
+            "skuIds": {
+              "nonfoil": "dfe5cd83-64e1-5b41-a1be-f81da92b5583"
+            },
+            "text": "Reichweite\nWenn der Riesenmarienkäfer ins Spiel kommt, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie offen vorzeigen, danach mischen und sie oben darauflegen.",
+            "type": "Kreatur — Insekt",
+            "uuid": "a4ca40ba-7ecd-577e-a273-0c390e626430"
           },
           {
             "flavorText": "Schiacciarne una porta sfortuna, ma è peggio se è lei a schiacciare te.",
@@ -83,6 +88,9 @@
             "language": "Italian",
             "multiverseId": 589797,
             "name": "Coccinella Gigante",
+            "skuIds": {
+              "nonfoil": "0e79e94b-282b-5671-81c5-54a9ecb5ae49"
+            },
             "text": "Raggiungere\nQuando la Coccinella Gigante entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta terra base, rivelarla, poi rimescolare e mettere quella carta in cima.",
             "type": "Creatura — Insetto",
             "uuid": "f4af76c4-b945-555b-a094-58478d4ad7ed"
@@ -96,27 +104,31 @@
             "language": "Japanese",
             "multiverseId": 589848,
             "name": "巨大テントウムシ",
+            "skuIds": {
+              "nonfoil": "63a80293-51d8-5caf-8cc1-6961852658cf"
+            },
             "text": "到達\n巨大テントウムシが戦場に出たとき、あなたは「あなたのライブラリーから基本土地・カード１枚を探し、公開する。その後、ライブラリーを切り直し、そのカードをその一番上に置く。」を選んでもよい。",
             "type": "クリーチャー — 昆虫",
             "uuid": "ec75d873-0c2f-58ca-b012-70b5098e3487"
           },
           {
-            "flavorText": "虽然踩到它算倒霉，但它踩到你就更倒霉。",
+            "flavorText": "Pisar una da mala suerte, pero peor suerte da que te pise una a ti.",
             "identifiers": {
-              "multiverseId": "590001",
-              "scryfallId": "d985f265-bd16-44c5-9327-bc214d5d70bd"
+              "multiverseId": "589695",
+              "scryfallId": "6215726d-27c5-40d0-a9f6-96682fd91a96"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 590001,
-            "name": "巨型瓢虫",
-            "text": "延势\n当巨型瓢虫进战场时，你可以从你牌库中搜寻一张基本地牌，展示该牌，然后洗牌，并将该牌置于牌库顶。",
-            "type": "生物 ～昆虫",
-            "uuid": "eb9fe6e4-4db2-563a-9fc5-c4a0a9c83bff"
+            "language": "Spanish",
+            "multiverseId": 589695,
+            "name": "Mariquita gigante",
+            "skuIds": {
+              "nonfoil": "f2c70ee8-e750-5118-a8b4-900ad61d1760"
+            },
+            "text": "Alcance.\nCuando la Mariquita gigante entre al campo de batalla, puedes buscar en tu biblioteca una carta de tierra básica, mostrarla, barajar y poner esa carta en la parte superior.",
+            "type": "Criatura — Insecto",
+            "uuid": "4f3d82fd-f9c4-51a8-a599-4018e7236d5b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271448",
           "cardsphereId": "97412",
@@ -152,6 +164,7 @@
         "name": "Giant Ladybug",
         "number": "39",
         "originalText": "Reach\nWhen Giant Ladybug enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
+        "originalType": "Creature – Insect",
         "power": "4",
         "printings": [
           "J22"
@@ -163,9 +176,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ff818df8-7e99-5378-b4bd-cd97941d9eef"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -200,37 +218,28 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 21805,
+        "edhrecRank": 22883,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The nightsong begins with a lone howl, but soon swells to a deafening chorus.",
         "foreignData": [
           {
-            "flavorText": "Der Nachtgesang beginnt mit einem einsamen Heulen, schwillt aber bald zu einem ohrenbetäubenden Chor an.",
+            "flavorText": "夜曲起初仅是独鸣狼嚎，但很快就变成震耳和声。",
             "identifiers": {
-              "multiverseId": "589650",
-              "scryfallId": "96e6cea7-8d6a-406a-99c3-0aa1b2fd245e"
+              "multiverseId": "590007",
+              "scryfallId": "2528c4e2-08c7-4ae9-8c86-7ef52ccf7c14"
             },
-            "language": "German",
-            "multiverseId": 589650,
-            "name": "Spektraler Jagdrufer",
-            "text": "{5}{G}: Kreaturen, die du kontrollierst, erhalten +1/+1 und verursachen Trampelschaden bis zum Ende des Zuges.",
-            "type": "Kreatur — Wolf, Geist",
-            "uuid": "0da025ba-609e-5d0d-a00c-1808b3587bfe"
-          },
-          {
-            "flavorText": "El canto nocturno empieza con un aullido solitario, pero rápidamente se acrecienta para convertirse en un coro ensordecedor.",
-            "identifiers": {
-              "multiverseId": "589701",
-              "scryfallId": "1e7a802a-f95e-439d-bd9e-8777f67b6385"
+            "language": "Chinese Simplified",
+            "multiverseId": 590007,
+            "name": "魂魅召猎灵",
+            "skuIds": {
+              "nonfoil": "428070a8-6aa5-5487-adef-763ec4ef4a12"
             },
-            "language": "Spanish",
-            "multiverseId": 589701,
-            "name": "Voz de la caza espectral",
-            "text": "{5}{G}: Las criaturas que controlas obtienen +1/+1 y ganan la habilidad de arrollar hasta el final del turno.",
-            "type": "Criatura — Espíritu lobo",
-            "uuid": "c42feaee-4921-5375-8fe9-843f4afb4d2d"
+            "text": "{5}{G}：直到回合结束，由你操控的生物得+1/+1且获得践踏异能。",
+            "type": "生物 ～狼／精怪",
+            "uuid": "48702d9e-799e-55a6-943c-2c219383607b"
           },
           {
             "flavorText": "Le chant nocturne commence par un hurlement solitaire, mais s'amplifie bientôt en un chœur assourdissant.",
@@ -241,9 +250,28 @@
             "language": "French",
             "multiverseId": 589752,
             "name": "Grand veneur spectral",
+            "skuIds": {
+              "nonfoil": "6f806564-15ac-50b3-96a9-13e0ab55f568"
+            },
             "text": "{5}{G} : Les créatures que vous contrôlez gagnent +1/+1 et acquièrent le piétinement jusqu'à la fin du tour.",
             "type": "Créature : loup et esprit",
             "uuid": "15704ece-219d-5066-a343-0716c3fdecab"
+          },
+          {
+            "flavorText": "Der Nachtgesang beginnt mit einem einsamen Heulen, schwillt aber bald zu einem ohrenbetäubenden Chor an.",
+            "identifiers": {
+              "multiverseId": "589650",
+              "scryfallId": "96e6cea7-8d6a-406a-99c3-0aa1b2fd245e"
+            },
+            "language": "German",
+            "multiverseId": 589650,
+            "name": "Spektraler Jagdrufer",
+            "skuIds": {
+              "nonfoil": "a81e16b4-da44-5311-ab82-bef9ac403aab"
+            },
+            "text": "{5}{G}: Kreaturen, die du kontrollierst, erhalten +1/+1 und verursachen Trampelschaden bis zum Ende des Zuges.",
+            "type": "Kreatur — Wolf, Geist",
+            "uuid": "0da025ba-609e-5d0d-a00c-1808b3587bfe"
           },
           {
             "flavorText": "Il canto notturno inizia con un ululato solitario, ma presto cresce fino a diventare un coro assordante.",
@@ -254,6 +282,9 @@
             "language": "Italian",
             "multiverseId": 589803,
             "name": "Convocatore di Caccia Spettrale",
+            "skuIds": {
+              "nonfoil": "85d779ed-9054-5fd2-9ef8-a214340da98c"
+            },
             "text": "{5}{G}: Le creature che controlli prendono +1/+1 e hanno travolgere fino alla fine del turno.",
             "type": "Creatura — Spirito Lupo",
             "uuid": "0b10a8a5-c7c1-5c37-8366-fa5b8d4e8f7e"
@@ -267,27 +298,31 @@
             "language": "Japanese",
             "multiverseId": 589854,
             "name": "幽体の狩り喚び",
+            "skuIds": {
+              "nonfoil": "1287fd2a-ee19-53e2-8c7c-c4941f2f25bf"
+            },
             "text": "{5}{G}：ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋１の修整を受けトランプルを得る。",
             "type": "クリーチャー — 狼・スピリット",
             "uuid": "a33ba3a4-8b65-53cd-9d3e-f463ef1281fc"
           },
           {
-            "flavorText": "夜曲起初仅是独鸣狼嚎，但很快就变成震耳和声。",
+            "flavorText": "El canto nocturno empieza con un aullido solitario, pero rápidamente se acrecienta para convertirse en un coro ensordecedor.",
             "identifiers": {
-              "multiverseId": "590007",
-              "scryfallId": "2528c4e2-08c7-4ae9-8c86-7ef52ccf7c14"
+              "multiverseId": "589701",
+              "scryfallId": "1e7a802a-f95e-439d-bd9e-8777f67b6385"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 590007,
-            "name": "魂魅召猎灵",
-            "text": "{5}{G}：直到回合结束，由你操控的生物得+1/+1且获得践踏异能。",
-            "type": "生物 ～狼／精怪",
-            "uuid": "48702d9e-799e-55a6-943c-2c219383607b"
+            "language": "Spanish",
+            "multiverseId": 589701,
+            "name": "Voz de la caza espectral",
+            "skuIds": {
+              "nonfoil": "ee4fab22-062e-566c-9b4c-705daee1a590"
+            },
+            "text": "{5}{G}: Las criaturas que controlas obtienen +1/+1 y ganan la habilidad de arrollar hasta el final del turno.",
+            "type": "Criatura — Espíritu lobo",
+            "uuid": "c42feaee-4921-5375-8fe9-843f4afb4d2d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270257",
           "cardsphereId": "96854",
@@ -320,6 +355,7 @@
         "name": "Spectral Hunt-Caller",
         "number": "45",
         "originalText": "{5}{G}: Creatures you control get +1/+1 and gain trample until end of turn.",
+        "originalType": "Creature – Wolf Spirit",
         "power": "4",
         "printings": [
           "J22"
@@ -331,9 +367,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "bf008801-95e1-5927-95b2-796c64b98afb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -369,7 +410,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 667,
+        "edhrecRank": 675,
         "edhrecSaltiness": 0.28,
         "finishes": [
           "nonfoil"
@@ -377,30 +418,20 @@
         "flavorText": "You don't want to know how she got that name.",
         "foreignData": [
           {
-            "flavorText": "Du willst nicht wissen, wie sie zu ihrem Namen gekommen ist.",
+            "flavorText": "你不会想知道她因何得名。",
             "identifiers": {
-              "multiverseId": "592867",
-              "scryfallId": "b3139603-c0a0-4f15-a08e-1ce1bb567cc7"
+              "multiverseId": "593714",
+              "scryfallId": "36cf18f8-70e3-4939-8dfc-3f842d00c96b"
             },
-            "language": "German",
-            "multiverseId": 592867,
-            "name": "Blutpranke, Schrecken von Qal Sisma",
-            "text": "Kreaturenzauber mit Stärke 4 oder mehr, die du wirkst, kosten beim Wirken {2} weniger.\nImmer wenn Blutpranke, Schrecken von Qal Sisma, angreift, erhält jede Kreatur mit Stärke 4 oder mehr, die du kontrollierst, +1/+1 und verursacht Trampelschaden bis zum Ende des Zuges.",
-            "type": "Legendäre Kreatur — Bär",
-            "uuid": "3a98ed2c-b584-5170-94e8-d4e3377bd8f3"
-          },
-          {
-            "flavorText": "No quieres saber por qué le pusieron ese nombre.",
-            "identifiers": {
-              "multiverseId": "592988",
-              "scryfallId": "4b34d9f5-53f2-47e9-ad8b-c164b222e296"
+            "language": "Chinese Simplified",
+            "multiverseId": 593714,
+            "name": "黑山之威血爪",
+            "skuIds": {
+              "nonfoil": "2ef920a9-a980-5a7a-9da5-ffbe89835ff6"
             },
-            "language": "Spanish",
-            "multiverseId": 592988,
-            "name": "Zarpasangrienta, Terror de Qal Sisma",
-            "text": "Te cuesta {2} menos lanzar los hechizos de criatura con fuerza de 4 o más.\nSiempre que Zarpasangrienta, Terror de Qal Sisma ataque, cada criatura que controlas con fuerza de 4 o más obtiene +1/+1 y gana la habilidad de arrollar hasta el final del turno.",
-            "type": "Criatura legendaria — Oso",
-            "uuid": "84877bc8-00b4-5f4b-83ed-6e28d6d6742a"
+            "text": "你施放之力量等于或大于4的生物咒语减少{2}来施放。\n每当黑山之威血爪攻击时，直到回合结束，每个由你操控且力量等于或大于4的生物均得+1/+1且获得践踏异能。",
+            "type": "传奇生物 ～熊",
+            "uuid": "1ef2c236-c14c-5bcf-b36c-62348837d3bf"
           },
           {
             "flavorText": "Mieux vaut ne pas savoir d'où lui vient ce surnom.",
@@ -411,9 +442,28 @@
             "language": "French",
             "multiverseId": 593109,
             "name": "Griffeboyaux, terreur de Qal Sisma",
+            "skuIds": {
+              "nonfoil": "e4ecec3d-3233-5cc0-8e56-37d287dd9d22"
+            },
             "text": "Les sorts de créature de force supérieure ou égale à 4 que vous lancez coûtent {2} de moins à lancer.\nÀ chaque fois que Griffeboyaux, terreur de Qal Sisma attaque, chaque créature de force supérieure ou égale à 4 que vous contrôlez gagne +1/+1 et acquiert le piétinement jusqu'à la fin du tour.",
             "type": "Créature légendaire : ours",
             "uuid": "d189f988-f184-519f-8c83-e9b1f6ae6611"
+          },
+          {
+            "flavorText": "Du willst nicht wissen, wie sie zu ihrem Namen gekommen ist.",
+            "identifiers": {
+              "multiverseId": "592867",
+              "scryfallId": "b3139603-c0a0-4f15-a08e-1ce1bb567cc7"
+            },
+            "language": "German",
+            "multiverseId": 592867,
+            "name": "Blutpranke, Schrecken von Qal Sisma",
+            "skuIds": {
+              "nonfoil": "a7a813f6-1b63-575f-a22b-4c560624b7bb"
+            },
+            "text": "Kreaturenzauber mit Stärke 4 oder mehr, die du wirkst, kosten beim Wirken {2} weniger.\nImmer wenn Blutpranke, Schrecken von Qal Sisma, angreift, erhält jede Kreatur mit Stärke 4 oder mehr, die du kontrollierst, +1/+1 und verursacht Trampelschaden bis zum Ende des Zuges.",
+            "type": "Legendäre Kreatur — Bär",
+            "uuid": "3a98ed2c-b584-5170-94e8-d4e3377bd8f3"
           },
           {
             "flavorText": "Meglio non chiedere come abbia meritato un nome del genere.",
@@ -424,6 +474,9 @@
             "language": "Italian",
             "multiverseId": 593230,
             "name": "Squarciagrinfia, Terrore di Qal Sisma",
+            "skuIds": {
+              "nonfoil": "07f4ac15-afe2-5097-bb6c-1a48264014d1"
+            },
             "text": "Le magie creatura che lanci con forza pari o superiore a 4 costano {2} in meno per essere lanciate.\nOgniqualvolta Squarciagrinfia, Terrore di Qal Sisma attacca, ogni creatura che controlli con forza pari o superiore a 4 prende +1/+1 e ha travolgere fino alla fine del turno.",
             "type": "Creatura Leggendaria — Orso",
             "uuid": "cafe9824-7a07-5c7a-977e-3010f96e02a1"
@@ -437,30 +490,34 @@
             "language": "Japanese",
             "multiverseId": 593351,
             "name": "カル・シスマの恐怖、殺し爪",
+            "skuIds": {
+              "nonfoil": "2e0a8202-1c06-5e85-ad26-0773c52e02b4"
+            },
             "text": "あなたがパワーが４以上であるクリーチャー・呪文を唱えるためのコストは{2}少なくなる。\nカル・シスマの恐怖、殺し爪が攻撃するたび、ターン終了時まで、あなたがコントロールしていてパワーが４以上であるすべてのクリーチャーは＋１/＋１の修整を受けトランプルを得る。",
             "type": "伝説のクリーチャー — 熊",
             "uuid": "2acfe90f-3ec7-503d-be95-3bb214e76748"
           },
           {
-            "flavorText": "你不会想知道她因何得名。",
+            "flavorText": "No quieres saber por qué le pusieron ese nombre.",
             "identifiers": {
-              "multiverseId": "593714",
-              "scryfallId": "36cf18f8-70e3-4939-8dfc-3f842d00c96b"
+              "multiverseId": "592988",
+              "scryfallId": "4b34d9f5-53f2-47e9-ad8b-c164b222e296"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593714,
-            "name": "黑山之威血爪",
-            "text": "你施放之力量等于或大于4的生物咒语减少{2}来施放。\n每当黑山之威血爪攻击时，直到回合结束，每个由你操控且力量等于或大于4的生物均得+1/+1且获得践踏异能。",
-            "type": "传奇生物 ～熊",
-            "uuid": "1ef2c236-c14c-5bcf-b36c-62348837d3bf"
+            "language": "Spanish",
+            "multiverseId": 592988,
+            "name": "Zarpasangrienta, Terror de Qal Sisma",
+            "skuIds": {
+              "nonfoil": "df6ea6db-262f-5bb1-a527-6b13c01e4214"
+            },
+            "text": "Te cuesta {2} menos lanzar los hechizos de criatura con fuerza de 4 o más.\nSiempre que Zarpasangrienta, Terror de Qal Sisma ataque, cada criatura que controlas con fuerza de 4 o más obtiene +1/+1 y gana la habilidad de arrollar hasta el final del turno.",
+            "type": "Criatura legendaria — Oso",
+            "uuid": "84877bc8-00b4-5f4b-83ed-6e28d6d6742a"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271616",
           "cardsphereId": "97333",
@@ -504,6 +561,7 @@
         "name": "Goreclaw, Terror of Qal Sisma",
         "number": "668",
         "originalText": "Creature spells you cast with power 4 or greater cost {2} less to cast.\nWhenever Goreclaw, Terror of Qal Sisma attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn.",
+        "originalType": "Legendary Creature – Bear",
         "power": "4",
         "printings": [
           "BLC",
@@ -538,9 +596,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "cc354697-ec44-58de-84e9-025f19c05713"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -577,7 +640,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 12742,
+        "edhrecRank": 13040,
         "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
@@ -585,30 +648,20 @@
         "flavorText": "\"The first rule of politics can be learned from a lowly hornbeetle: it is wise to cultivate powerful friends.\"\n—Pythamon, sage of Meletis",
         "foreignData": [
           {
-            "flavorText": "„Die erste Regel der Politik kann man von einem kleinen Atlaskäfer lernen: Es ist klug, mächtige Freunde zu haben.\"\n—Pythamon, Weiser von Meletis",
+            "flavorText": "「我们可以从弱小的角虫处领悟到政治学的首要准则：培养一位强力的同伴。」\n～迈勒提斯智者皮塔摩恩",
             "identifiers": {
-              "multiverseId": "592894",
-              "scryfallId": "ddecd127-1918-4d43-8de1-715224702c9f"
+              "multiverseId": "593741",
+              "scryfallId": "57dd56dd-1a13-450e-a42e-8407b958f59e"
             },
-            "language": "German",
-            "multiverseId": 592894,
-            "name": "Nessischer Atlaskäfer",
-            "text": "Zu Beginn des Kampfes in deinem Zug und falls du eine andere Kreatur mit Stärke 4 oder mehr kontrollierst, lege eine +1/+1-Marke auf den Nessischen Atlaskäfer.",
-            "type": "Kreatur — Insekt",
-            "uuid": "4a23605d-bf7b-5a0b-9bfd-33a6dcd11990"
-          },
-          {
-            "flavorText": "\"La primera regla de la política se puede aprender de un humilde escarabajo: es inteligente contar con amigos poderosos\".\n—Pythamón, sabio de Meletis",
-            "identifiers": {
-              "multiverseId": "593015",
-              "scryfallId": "6e1cc40a-90eb-4e35-a9e8-c7efe68c7625"
+            "language": "Chinese Simplified",
+            "multiverseId": 593741,
+            "name": "奈西安角虫",
+            "skuIds": {
+              "nonfoil": "217f3577-5406-55d6-bd34-fd6f67ae1754"
             },
-            "language": "Spanish",
-            "multiverseId": 593015,
-            "name": "Corniescarabajo nessiano",
-            "text": "Al comienzo del combate en tu turno, si controlas otra criatura con fuerza de 4 o más, pon un contador +1/+1 sobre el Corniescarabajo nessiano.",
-            "type": "Criatura — Insecto",
-            "uuid": "0a238f73-ce2c-5a8c-9ab4-7a1d87c32d5f"
+            "text": "在你回合的战斗开始时，若你操控另一个力量等于或大于4的生物，则在奈西安角虫上放置一个+1/+1指示物。",
+            "type": "生物 ～昆虫",
+            "uuid": "79f8f5b6-27c2-5281-896a-cd3e55bae04a"
           },
           {
             "flavorText": "« On peut apprendre la première règle en politique en observant un modeste scaracorne : il est avisé de se faire de puissants amis. »\n—Pythamon, sage de Mélétis",
@@ -619,9 +672,28 @@
             "language": "French",
             "multiverseId": 593136,
             "name": "Scaracorne nessian",
+            "skuIds": {
+              "nonfoil": "6f4491d3-d235-532a-ab9d-9982c2708b99"
+            },
             "text": "Au début du combat pendant votre tour, si vous contrôlez une autre créature de force supérieure ou égale à 4, mettez un marqueur +1/+1 sur le Scaracorne nessian.",
             "type": "Créature : insecte",
             "uuid": "ef63cca0-0319-538d-9e66-cd20315e1b56"
+          },
+          {
+            "flavorText": "„Die erste Regel der Politik kann man von einem kleinen Atlaskäfer lernen: Es ist klug, mächtige Freunde zu haben.\"\n—Pythamon, Weiser von Meletis",
+            "identifiers": {
+              "multiverseId": "592894",
+              "scryfallId": "ddecd127-1918-4d43-8de1-715224702c9f"
+            },
+            "language": "German",
+            "multiverseId": 592894,
+            "name": "Nessischer Atlaskäfer",
+            "skuIds": {
+              "nonfoil": "5d390044-9b9a-5900-8e35-d1dd77b0942f"
+            },
+            "text": "Zu Beginn des Kampfes in deinem Zug und falls du eine andere Kreatur mit Stärke 4 oder mehr kontrollierst, lege eine +1/+1-Marke auf den Nessischen Atlaskäfer.",
+            "type": "Kreatur — Insekt",
+            "uuid": "4a23605d-bf7b-5a0b-9bfd-33a6dcd11990"
           },
           {
             "flavorText": "\"La prima regola della politica si può apprendere anche da un semplice cornoleottero: è saggio coltivare amicizie potenti.\"\n—Pytamon, saggio di Meletis",
@@ -632,6 +704,9 @@
             "language": "Italian",
             "multiverseId": 593257,
             "name": "Cornoleottero Nessian",
+            "skuIds": {
+              "nonfoil": "e30ccb55-8756-5071-ae53-e98a5fcde02f"
+            },
             "text": "All'inizio del combattimento nel tuo turno, se controlli un'altra creatura con forza pari o superiore a 4, metti un segnalino +1/+1 sul Cornoleottero Nessian.",
             "type": "Creatura — Insetto",
             "uuid": "9dab3d8d-bdf7-5b4d-a478-f86f6e670847"
@@ -645,27 +720,31 @@
             "language": "Japanese",
             "multiverseId": 593378,
             "name": "ネシアンの角甲虫",
+            "skuIds": {
+              "nonfoil": "d37e165a-d8a9-5fee-95d7-7df614e07ce0"
+            },
             "text": "あなたのターンの戦闘の開始時に、あなたがパワーが４以上でありこれでないクリーチャーをコントロールしている場合、ネシアンの角甲虫の上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 昆虫",
             "uuid": "d3f48754-4f3a-531d-a51b-8c0a1476fa0a"
           },
           {
-            "flavorText": "「我们可以从弱小的角虫处领悟到政治学的首要准则：培养一位强力的同伴。」\n～迈勒提斯智者皮塔摩恩",
+            "flavorText": "\"La primera regla de la política se puede aprender de un humilde escarabajo: es inteligente contar con amigos poderosos\".\n—Pythamón, sabio de Meletis",
             "identifiers": {
-              "multiverseId": "593741",
-              "scryfallId": "57dd56dd-1a13-450e-a42e-8407b958f59e"
+              "multiverseId": "593015",
+              "scryfallId": "6e1cc40a-90eb-4e35-a9e8-c7efe68c7625"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593741,
-            "name": "奈西安角虫",
-            "text": "在你回合的战斗开始时，若你操控另一个力量等于或大于4的生物，则在奈西安角虫上放置一个+1/+1指示物。",
-            "type": "生物 ～昆虫",
-            "uuid": "79f8f5b6-27c2-5281-896a-cd3e55bae04a"
+            "language": "Spanish",
+            "multiverseId": 593015,
+            "name": "Corniescarabajo nessiano",
+            "skuIds": {
+              "nonfoil": "bb48d141-95ab-52c7-b6d4-4d8f1bedb9a0"
+            },
+            "text": "Al comienzo del combate en tu turno, si controlas otra criatura con fuerza de 4 o más, pon un contador +1/+1 sobre el Corniescarabajo nessiano.",
+            "type": "Criatura — Insecto",
+            "uuid": "0a238f73-ce2c-5a8c-9ab4-7a1d87c32d5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271627",
           "cardsphereId": "97409",
@@ -708,6 +787,7 @@
         "name": "Nessian Hornbeetle",
         "number": "695",
         "originalText": "At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle.",
+        "originalType": "Creature – Insect",
         "power": "2",
         "printings": [
           "FDN",
@@ -732,9 +812,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "659ac501-a9d6-59ed-b9e4-eeb7ce7145fe"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -769,7 +854,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 11461,
+        "edhrecRank": 11672,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
@@ -777,30 +862,20 @@
         "flavorText": "For most, war is a calamity. For some, an opportunity. And for the very few, a pleasure.",
         "foreignData": [
           {
-            "flavorText": "Für die meisten ist Krieg eine Katastrophe. Für manche ist er eine Gelegenheit. Und für einige wenige ist er ein Genuss.",
+            "flavorText": "战争对多数人而言是灾难。对少数人而言是机遇。对极少数人而言则是乐趣。",
             "identifiers": {
-              "multiverseId": "592838",
-              "scryfallId": "ca1c3ef4-53f6-4a51-9dcf-1ce338b39038"
+              "multiverseId": "593685",
+              "scryfallId": "8ef64baa-2c95-4d68-b731-045e69bb97a1"
             },
-            "language": "German",
-            "multiverseId": 592838,
-            "name": "Troll-Herausforderer",
-            "text": "Jede Kreatur mit Stärke 4 oder mehr, die du kontrollierst, kann nicht von mehr als einer Kreatur geblockt werden.",
-            "type": "Kreatur — Troll",
-            "uuid": "5815b457-c737-5c23-b350-a0d4a8c7747d"
-          },
-          {
-            "flavorText": "Para la mayoría, la guerra es una calamidad; para algunos, una oportunidad, y para los menos, un placer.",
-            "identifiers": {
-              "multiverseId": "592959",
-              "scryfallId": "b363c674-1ea3-4c31-b7f8-0d95370c1ab8"
+            "language": "Chinese Simplified",
+            "multiverseId": 593685,
+            "name": "好斗巨魔",
+            "skuIds": {
+              "nonfoil": "a0472d32-5500-562b-904d-e2ab068d5aed"
             },
-            "language": "Spanish",
-            "multiverseId": 592959,
-            "name": "Trol desafiante",
-            "text": "Cada criatura que controlas con fuerza de 4 o más no puede ser bloqueada por más de una criatura.",
-            "type": "Criatura — Trol",
-            "uuid": "1f36689e-c079-53a1-b0f2-8010e91c5fe1"
+            "text": "每个由你操控且力量等于或大于4的生物均不能被多于一个生物阻挡。",
+            "type": "生物 ～巨魔",
+            "uuid": "42734ab3-61e2-5135-a9c4-a1c08ecf9163"
           },
           {
             "flavorText": "Pour beaucoup, la guerre est une calamité. Pour certains, c'est une opportunité. Pour une infime minorité, c'est un plaisir.",
@@ -811,9 +886,28 @@
             "language": "French",
             "multiverseId": 593080,
             "name": "Troll défieur",
+            "skuIds": {
+              "nonfoil": "3007e0d6-296d-5389-b582-2914c679b461"
+            },
             "text": "Chaque créature de force supérieure ou égale à 4 que vous contrôlez ne peut pas être bloquée par plus d'une créature.",
             "type": "Créature : troll",
             "uuid": "bd585361-1814-5444-9fb3-5e499652f0ee"
+          },
+          {
+            "flavorText": "Für die meisten ist Krieg eine Katastrophe. Für manche ist er eine Gelegenheit. Und für einige wenige ist er ein Genuss.",
+            "identifiers": {
+              "multiverseId": "592838",
+              "scryfallId": "ca1c3ef4-53f6-4a51-9dcf-1ce338b39038"
+            },
+            "language": "German",
+            "multiverseId": 592838,
+            "name": "Troll-Herausforderer",
+            "skuIds": {
+              "nonfoil": "1a10b8e8-4b40-55f1-8a74-656bf33672dc"
+            },
+            "text": "Jede Kreatur mit Stärke 4 oder mehr, die du kontrollierst, kann nicht von mehr als einer Kreatur geblockt werden.",
+            "type": "Kreatur — Troll",
+            "uuid": "5815b457-c737-5c23-b350-a0d4a8c7747d"
           },
           {
             "flavorText": "Per la maggioranza, la guerra è una calamità. Per alcuni, un'opportunità. Per pochissimi, un piacere.",
@@ -824,6 +918,9 @@
             "language": "Italian",
             "multiverseId": 593201,
             "name": "Troll Sfidante",
+            "skuIds": {
+              "nonfoil": "70452ff6-2f02-5552-a3dc-05c1d902372d"
+            },
             "text": "Ogni creatura che controlli con forza pari o superiore a 4 non può essere bloccata da più di una creatura.",
             "type": "Creatura — Troll",
             "uuid": "59d7282d-931e-5a67-89d8-29656203067f"
@@ -837,27 +934,31 @@
             "language": "Japanese",
             "multiverseId": 593322,
             "name": "挑戦するトロール",
+            "skuIds": {
+              "nonfoil": "58194c84-3f1d-57a5-945b-3a976c9b8288"
+            },
             "text": "あなたがコントロールしていてパワーが４以上である各クリーチャーはそれぞれ、２体以上のクリーチャーにはブロックされない。",
             "type": "クリーチャー — トロール",
             "uuid": "0e1ea496-81fd-5dab-ad56-174884eb9d88"
           },
           {
-            "flavorText": "战争对多数人而言是灾难。对少数人而言是机遇。对极少数人而言则是乐趣。",
+            "flavorText": "Para la mayoría, la guerra es una calamidad; para algunos, una oportunidad, y para los menos, un placer.",
             "identifiers": {
-              "multiverseId": "593685",
-              "scryfallId": "8ef64baa-2c95-4d68-b731-045e69bb97a1"
+              "multiverseId": "592959",
+              "scryfallId": "b363c674-1ea3-4c31-b7f8-0d95370c1ab8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593685,
-            "name": "好斗巨魔",
-            "text": "每个由你操控且力量等于或大于4的生物均不能被多于一个生物阻挡。",
-            "type": "生物 ～巨魔",
-            "uuid": "42734ab3-61e2-5135-a9c4-a1c08ecf9163"
+            "language": "Spanish",
+            "multiverseId": 592959,
+            "name": "Trol desafiante",
+            "skuIds": {
+              "nonfoil": "7329a06d-fb5f-5b08-9bec-021ecb3b7d0b"
+            },
+            "text": "Cada criatura que controlas con fuerza de 4 o más no puede ser bloqueada por más de una criatura.",
+            "type": "Criatura — Trol",
+            "uuid": "1f36689e-c079-53a1-b0f2-8010e91c5fe1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271607",
           "cardsphereId": "97341",
@@ -896,6 +997,7 @@
         "name": "Challenger Troll",
         "number": "639",
         "originalText": "Each creature you control with power 4 or greater can't be blocked by more than one creature.",
+        "originalType": "Creature – Troll",
         "power": "6",
         "printings": [
           "CLU",
@@ -924,9 +1026,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "6c448464-35b9-56fa-a7ae-21d5c26a9c5c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -961,7 +1068,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1625,
+        "edhrecRank": 1714,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -969,30 +1076,20 @@
         "flavorText": "Those who die as heroes are permitted to dwell in Ilysia, a protected realm of the Underworld as tranquil and vibrant as the rest is bleak.",
         "foreignData": [
           {
-            "flavorText": "Diejenigen, die als Helden sterben, dürfen in Ilysia wohnen, einem geschützten Reich der Unterwelt, das so ruhig und lebendig ist wie der Rest trostlos.",
+            "flavorText": "被尊为英雄者死后可进入安宁兴盛的依吕夏境内。此处为少有的安全境域，与冥界他处的黑暗阴沉形成鲜明对比。",
             "identifiers": {
-              "multiverseId": "592875",
-              "scryfallId": "7ae73b00-988d-4a18-9230-8848480c992f"
+              "multiverseId": "593722",
+              "scryfallId": "40e48241-a04f-4c05-9c99-65e94f7fd940"
             },
-            "language": "German",
-            "multiverseId": 592875,
-            "name": "Ilysischer Karyatide",
-            "text": "{T}: Erzeuge ein Mana einer beliebigen Farbe. Falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst, erzeuge stattdessen zwei Mana genau einer beliebigen Farbe.",
-            "type": "Kreatur — Pflanze",
-            "uuid": "420783ac-d584-583d-b382-ede22e7840e7"
-          },
-          {
-            "flavorText": "A aquellos que mueren como héroes se les permite residir en Ilysea, una región protegida del Inframundo, tan tranquila y alegre como lúgubres son el resto de sitios.",
-            "identifiers": {
-              "multiverseId": "592996",
-              "scryfallId": "41f2f493-5182-477d-822b-2b17e1e11d64"
+            "language": "Chinese Simplified",
+            "multiverseId": 593722,
+            "name": "依吕夏女像柱",
+            "skuIds": {
+              "nonfoil": "94adac02-11c6-5977-bb70-6dd3ee093b45"
             },
-            "language": "Spanish",
-            "multiverseId": 592996,
-            "name": "Cariátide ilysea",
-            "text": "{T}: Agrega un maná de cualquier color. Si controlas una criatura con fuerza de 4 o más, en vez de eso, agrega dos manás de un color cualquiera.",
-            "type": "Criatura — Planta",
-            "uuid": "be50e1c9-8aef-5f95-abf9-cf28e525ffeb"
+            "text": "{T}：加一点任意颜色的法术力。如果你操控力量等于或大于4的生物，则改为加两点任意颜色的单色法术力。",
+            "type": "生物 ～植物",
+            "uuid": "d2e80eee-cf48-55f0-9859-c490252a0305"
           },
           {
             "flavorText": "Ceux qui meurent en héros ont le droit de demeurer dans l'Ilysée, un royaume protégé du Monde souterrain aussi tranquille et vivant que le reste est désolé.",
@@ -1003,9 +1100,28 @@
             "language": "French",
             "multiverseId": 593117,
             "name": "Cariatide ilyséenne",
+            "skuIds": {
+              "nonfoil": "ef32151d-7f4c-509e-8c8d-26b3dff0d085"
+            },
             "text": "{T} : Ajoutez un mana de la couleur de votre choix. Si vous contrôlez une créature de force supérieure ou égale à 4, ajoutez deux manas d'une même couleur de votre choix à la place.",
             "type": "Créature : plante",
             "uuid": "2c4d399f-8e90-5a8b-beb9-68f7dfbf9158"
+          },
+          {
+            "flavorText": "Diejenigen, die als Helden sterben, dürfen in Ilysia wohnen, einem geschützten Reich der Unterwelt, das so ruhig und lebendig ist wie der Rest trostlos.",
+            "identifiers": {
+              "multiverseId": "592875",
+              "scryfallId": "7ae73b00-988d-4a18-9230-8848480c992f"
+            },
+            "language": "German",
+            "multiverseId": 592875,
+            "name": "Ilysischer Karyatide",
+            "skuIds": {
+              "nonfoil": "1bf09a8e-4910-51a6-bb8b-56f926526f42"
+            },
+            "text": "{T}: Erzeuge ein Mana einer beliebigen Farbe. Falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst, erzeuge stattdessen zwei Mana genau einer beliebigen Farbe.",
+            "type": "Kreatur — Pflanze",
+            "uuid": "420783ac-d584-583d-b382-ede22e7840e7"
           },
           {
             "flavorText": "A coloro che muoiono da eroi è consentito risiedere a Ilysia, un reame protetto dell'Ade, sereno e fiorente quanto il resto è tetro e angosciante.",
@@ -1016,6 +1132,9 @@
             "language": "Italian",
             "multiverseId": 593238,
             "name": "Cariatide di Ilysia",
+            "skuIds": {
+              "nonfoil": "e080fb5c-4bc2-5434-bbc7-8add1237ff8a"
+            },
             "text": "{T}: Aggiungi un mana di un qualsiasi colore. Se controlli una creatura con forza pari o superiore a 4, aggiungi invece due mana di un qualsiasi colore.",
             "type": "Creatura — Pianta",
             "uuid": "9f913f7a-b70b-5cf0-a2c3-7d5ab93e389a"
@@ -1029,27 +1148,31 @@
             "language": "Japanese",
             "multiverseId": 593359,
             "name": "イリーシアの女像樹",
+            "skuIds": {
+              "nonfoil": "3da42519-1d34-551e-92e1-ee4ee02a8096"
+            },
             "text": "{T}：好きな色１色のマナ１点を加える。あなたがパワーが４以上であるクリーチャーをコントロールしているなら、代わりに好きな色１色のマナ２点を加える。",
             "type": "クリーチャー — 植物",
             "uuid": "87ee9fb7-9e27-569a-979a-4f958f7de42c"
           },
           {
-            "flavorText": "被尊为英雄者死后可进入安宁兴盛的依吕夏境内。此处为少有的安全境域，与冥界他处的黑暗阴沉形成鲜明对比。",
+            "flavorText": "A aquellos que mueren como héroes se les permite residir en Ilysea, una región protegida del Inframundo, tan tranquila y alegre como lúgubres son el resto de sitios.",
             "identifiers": {
-              "multiverseId": "593722",
-              "scryfallId": "40e48241-a04f-4c05-9c99-65e94f7fd940"
+              "multiverseId": "592996",
+              "scryfallId": "41f2f493-5182-477d-822b-2b17e1e11d64"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593722,
-            "name": "依吕夏女像柱",
-            "text": "{T}：加一点任意颜色的法术力。如果你操控力量等于或大于4的生物，则改为加两点任意颜色的单色法术力。",
-            "type": "生物 ～植物",
-            "uuid": "d2e80eee-cf48-55f0-9859-c490252a0305"
+            "language": "Spanish",
+            "multiverseId": 592996,
+            "name": "Cariátide ilysea",
+            "skuIds": {
+              "nonfoil": "01b48573-a00f-54b4-88b6-7f29bfe359e6"
+            },
+            "text": "{T}: Agrega un maná de cualquier color. Si controlas una criatura con fuerza de 4 o más, en vez de eso, agrega dos manás de un color cualquiera.",
+            "type": "Criatura — Planta",
+            "uuid": "be50e1c9-8aef-5f95-abf9-cf28e525ffeb"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271405",
           "cardsphereId": "97421",
@@ -1070,6 +1193,7 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
+          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1080,6 +1204,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -1089,12 +1214,20 @@
         "name": "Ilysian Caryatid",
         "number": "676",
         "originalText": "{T}: Add one mana of any color. If you control a creature with power 4 or greater, add two mana of any one color instead.",
+        "originalType": "Creature – Plant",
         "power": "1",
         "printings": [
           "ANB",
           "CMM",
           "J22",
           "THB"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/84d41c6a1fc33a3e",
@@ -1109,9 +1242,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ab388212-221f-5814-bef5-1c0e4db854b9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1146,7 +1284,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 19675,
+        "edhrecRank": 20435,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
@@ -1154,30 +1292,20 @@
         "flavorText": "What the rangers thought were warning growls turned out to be nothing but monstrous snoring.",
         "foreignData": [
           {
-            "flavorText": "Was die Jäger für ein warnendes Knurren hielten, entpuppte sich als nichts weiter als ein monströses Schnarchen.",
+            "flavorText": "原本护林人当作是警告的低沉吼声，后来发现不过是怪兽的熟睡鼾音。",
             "identifiers": {
-              "multiverseId": "592847",
-              "scryfallId": "396e68e9-3589-4f96-836e-c1a03c36ea39"
+              "multiverseId": "593694",
+              "scryfallId": "834f90bc-272b-415b-81f9-50ff5c3ab07d"
             },
-            "language": "German",
-            "multiverseId": 592847,
-            "name": "Schlummerndes Tyrannodon",
-            "text": "Verteidiger\nSolange du eine Kreatur mit Stärke 4 oder mehr kontrollierst, kann das Schlummernde Tyrannodon angreifen, als ob es nicht Verteidiger hätte.",
-            "type": "Kreatur — Dinosaurier",
-            "uuid": "e6c19631-9026-5b80-a88d-797d1c30c5e4"
-          },
-          {
-            "flavorText": "Los guardabosques creían que eran gruñidos de advertencia, pero al final resultaron ser solo unos ronquidos monstruosos.",
-            "identifiers": {
-              "multiverseId": "592968",
-              "scryfallId": "88644969-71fc-465b-ad5e-42a06200e496"
+            "language": "Chinese Simplified",
+            "multiverseId": 593694,
+            "name": "昏睡暴伟龙",
+            "skuIds": {
+              "nonfoil": "d3ef05e8-016e-54f1-8456-6661b829547f"
             },
-            "language": "Spanish",
-            "multiverseId": 592968,
-            "name": "Tiranodón soñoliento",
-            "text": "Defensor.\nMientras controles una criatura con fuerza de 4 o más, el Tiranodón soñoliento puede atacar como si no tuviera la habilidad de defensor.",
-            "type": "Criatura — Dinosaurio",
-            "uuid": "abd9813a-a48a-51a3-be42-9a386f6f5f5a"
+            "text": "守军\n只要你操控力量等于或大于4的生物，昏睡暴伟龙便能视同不具守军异能地进行攻击。",
+            "type": "生物 ～恐龙",
+            "uuid": "26d9b7d2-9ec4-5ec8-a798-6db988b7aa73"
           },
           {
             "flavorText": "Les rangers croyaient qu'il s'agissait de grognements d'avertissement, mais ce n'était en fait que des ronflements monstrueux.",
@@ -1188,9 +1316,28 @@
             "language": "French",
             "multiverseId": 593089,
             "name": "Tyrannodon somnolant",
+            "skuIds": {
+              "nonfoil": "bc56315a-aa1b-5bba-b3c7-563e961541b6"
+            },
             "text": "Défenseur\nTant que vous contrôlez une créature de force supérieure ou égale à 4, le Tyrannodon somnolant peut attaquer comme s'il n'avait pas le défenseur.",
             "type": "Créature : dinosaure",
             "uuid": "74dc3a83-04de-52bd-869d-4faabf4e1d87"
+          },
+          {
+            "flavorText": "Was die Jäger für ein warnendes Knurren hielten, entpuppte sich als nichts weiter als ein monströses Schnarchen.",
+            "identifiers": {
+              "multiverseId": "592847",
+              "scryfallId": "396e68e9-3589-4f96-836e-c1a03c36ea39"
+            },
+            "language": "German",
+            "multiverseId": 592847,
+            "name": "Schlummerndes Tyrannodon",
+            "skuIds": {
+              "nonfoil": "38234598-0229-557a-8a3b-55d0f762e746"
+            },
+            "text": "Verteidiger\nSolange du eine Kreatur mit Stärke 4 oder mehr kontrollierst, kann das Schlummernde Tyrannodon angreifen, als ob es nicht Verteidiger hätte.",
+            "type": "Kreatur — Dinosaurier",
+            "uuid": "e6c19631-9026-5b80-a88d-797d1c30c5e4"
           },
           {
             "flavorText": "Quelli che i ranger scambiarono per ruggiti di avvertimento si rivelarono essere un mostruoso russare.",
@@ -1201,6 +1348,9 @@
             "language": "Italian",
             "multiverseId": 593210,
             "name": "Tirannodonte Addormentato",
+            "skuIds": {
+              "nonfoil": "39964fa9-deb1-5854-839b-01a4c00e8d48"
+            },
             "text": "Difensore\nFintanto che controlli una creatura con forza pari o superiore a 4, il Tirannodonte Addormentato può attaccare come se non avesse difensore.",
             "type": "Creatura — Dinosauro",
             "uuid": "5206d884-0ac4-5dea-bbfc-bddc11ea5e6c"
@@ -1214,27 +1364,31 @@
             "language": "Japanese",
             "multiverseId": 593331,
             "name": "うたた寝するティラノドン",
+            "skuIds": {
+              "nonfoil": "f5947d79-b0cd-5457-b393-1d2e7513574f"
+            },
             "text": "防衛\nあなたがパワーが４以上であるクリーチャーをコントロールしているかぎり、うたた寝するティラノドンは、これが防衛を持たないかのように攻撃できる。",
             "type": "クリーチャー — 恐竜",
             "uuid": "c9ec4e09-d830-5b2b-b8e6-12987b9d692b"
           },
           {
-            "flavorText": "原本护林人当作是警告的低沉吼声，后来发现不过是怪兽的熟睡鼾音。",
+            "flavorText": "Los guardabosques creían que eran gruñidos de advertencia, pero al final resultaron ser solo unos ronquidos monstruosos.",
             "identifiers": {
-              "multiverseId": "593694",
-              "scryfallId": "834f90bc-272b-415b-81f9-50ff5c3ab07d"
+              "multiverseId": "592968",
+              "scryfallId": "88644969-71fc-465b-ad5e-42a06200e496"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593694,
-            "name": "昏睡暴伟龙",
-            "text": "守军\n只要你操控力量等于或大于4的生物，昏睡暴伟龙便能视同不具守军异能地进行攻击。",
-            "type": "生物 ～恐龙",
-            "uuid": "26d9b7d2-9ec4-5ec8-a798-6db988b7aa73"
+            "language": "Spanish",
+            "multiverseId": 592968,
+            "name": "Tiranodón soñoliento",
+            "skuIds": {
+              "nonfoil": "d8c60724-27be-5fd2-b338-914b94e8f887"
+            },
+            "text": "Defensor.\nMientras controles una criatura con fuerza de 4 o más, el Tiranodón soñoliento puede atacar como si no tuviera la habilidad de defensor.",
+            "type": "Criatura — Dinosaurio",
+            "uuid": "abd9813a-a48a-51a3-be42-9a386f6f5f5a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271400",
           "cardsphereId": "97342",
@@ -1278,6 +1432,7 @@
         "name": "Drowsing Tyrannodon",
         "number": "648",
         "originalText": "Defender\nAs long as you control a creature with power 4 or greater, Drowsing Tyrannodon can attack as though it didn't have defender.",
+        "originalType": "Creature – Dinosaur",
         "power": "3",
         "printings": [
           "J22",
@@ -1301,9 +1456,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3235b9ac-630f-501d-aa8e-0af95abbdf9b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1338,7 +1498,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 25722,
+        "edhrecRank": 26230,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
@@ -1346,30 +1506,20 @@
         "flavorText": "Fallen Phyrexians were transmuted into elementals by Gaea long ago, but Yavimaya's other inhabitants still regard them with unease.",
         "foreignData": [
           {
-            "flavorText": "Gaea transmutierte bereits vor langer Zeit die gefallenen Phyrexianer zu Elementarwesen, doch Yavimayas andere Bewohner beäugen sie immer noch mit Argwohn.",
+            "flavorText": "盖亚很早就已将非瑞克西亚死躯转化为可利用的元素，但亚维马雅的其他居民仍无法安心接纳。",
             "identifiers": {
-              "multiverseId": "592863",
-              "scryfallId": "1c5ed15d-d841-4558-8f17-8163c29b3a1d"
+              "multiverseId": "593710",
+              "scryfallId": "6487ff12-4618-4da4-bf88-59a9320e3554"
             },
-            "language": "German",
-            "multiverseId": 592863,
-            "name": "Gaeas Beschützer",
-            "text": "Gaeas Beschützer muss geblockt werden, falls möglich.",
-            "type": "Kreatur — Elementarwesen, Krieger",
-            "uuid": "27c237d8-a1f7-54b9-b94d-723de9d1b816"
-          },
-          {
-            "flavorText": "Hace mucho, Gaia transformó a los pirexianos caídos en elementales, pero el resto de habitantes de Yavimaya aún desconfía de ellos.",
-            "identifiers": {
-              "multiverseId": "592984",
-              "scryfallId": "97772f92-76d7-4fca-8369-1736f2bc09cb"
+            "language": "Chinese Simplified",
+            "multiverseId": 593710,
+            "name": "盖亚守护者",
+            "skuIds": {
+              "nonfoil": "ef5c9927-cd78-5c69-bbc4-ed8ad18e4d81"
             },
-            "language": "Spanish",
-            "multiverseId": 592984,
-            "name": "Protector de Gaia",
-            "text": "El Protector de Gaia debe ser bloqueado si se puede.",
-            "type": "Criatura — Guerrero elemental",
-            "uuid": "0501f85e-9324-5ad4-9cc5-5cb5ac71510f"
+            "text": "若能阻挡盖亚守护者，则必须阻挡之。",
+            "type": "生物 ～元素／战士",
+            "uuid": "b1789f43-1430-5b90-90c1-8a2824609e4d"
           },
           {
             "flavorText": "Les Phyrexians morts furent transformés en élémentaux par Gaia il y a bien longtemps, mais les autres habitants de la Yavimaya les regardent toujours avec inquiétude.",
@@ -1380,9 +1530,28 @@
             "language": "French",
             "multiverseId": 593105,
             "name": "Protecteur de Gaia",
+            "skuIds": {
+              "nonfoil": "612bc376-75e6-5dfd-8b29-8af8fdb620c3"
+            },
             "text": "Le Protecteur de Gaia doit être bloqué si possible.",
             "type": "Créature : élémental et guerrier",
             "uuid": "42c86ac5-9866-5218-bcac-3589f4f899bd"
+          },
+          {
+            "flavorText": "Gaea transmutierte bereits vor langer Zeit die gefallenen Phyrexianer zu Elementarwesen, doch Yavimayas andere Bewohner beäugen sie immer noch mit Argwohn.",
+            "identifiers": {
+              "multiverseId": "592863",
+              "scryfallId": "1c5ed15d-d841-4558-8f17-8163c29b3a1d"
+            },
+            "language": "German",
+            "multiverseId": 592863,
+            "name": "Gaeas Beschützer",
+            "skuIds": {
+              "nonfoil": "980b616f-9cf8-5f39-84a1-81b5289bb1ec"
+            },
+            "text": "Gaeas Beschützer muss geblockt werden, falls möglich.",
+            "type": "Kreatur — Elementarwesen, Krieger",
+            "uuid": "27c237d8-a1f7-54b9-b94d-723de9d1b816"
           },
           {
             "flavorText": "Gea tramutò i Phyrexiani caduti in elementali molto tempo fa, ma gli altri abitanti di Yavimaya li guardano ancora con inquietudine.",
@@ -1393,6 +1562,9 @@
             "language": "Italian",
             "multiverseId": 593226,
             "name": "Protettore di Gea",
+            "skuIds": {
+              "nonfoil": "c71f3c95-bc1b-52d5-9d63-331c2e1f271e"
+            },
             "text": "Il Protettore di Gea deve essere bloccato, se possibile.",
             "type": "Creatura — Guerriero Elementale",
             "uuid": "5cd6f0d5-7337-500a-9359-7e152154a31d"
@@ -1406,27 +1578,31 @@
             "language": "Japanese",
             "multiverseId": 593347,
             "name": "ガイアの守護者",
+            "skuIds": {
+              "nonfoil": "8a0a1a36-6af3-5ff5-8a24-11b4f627cc8f"
+            },
             "text": "ガイアの守護者は、可能ならブロックされなければならない。",
             "type": "クリーチャー — エレメンタル・戦士",
             "uuid": "29e3e8a5-7e06-5684-9275-4478419d9ba3"
           },
           {
-            "flavorText": "盖亚很早就已将非瑞克西亚死躯转化为可利用的元素，但亚维马雅的其他居民仍无法安心接纳。",
+            "flavorText": "Hace mucho, Gaia transformó a los pirexianos caídos en elementales, pero el resto de habitantes de Yavimaya aún desconfía de ellos.",
             "identifiers": {
-              "multiverseId": "593710",
-              "scryfallId": "6487ff12-4618-4da4-bf88-59a9320e3554"
+              "multiverseId": "592984",
+              "scryfallId": "97772f92-76d7-4fca-8369-1736f2bc09cb"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593710,
-            "name": "盖亚守护者",
-            "text": "若能阻挡盖亚守护者，则必须阻挡之。",
-            "type": "生物 ～元素／战士",
-            "uuid": "b1789f43-1430-5b90-90c1-8a2824609e4d"
+            "language": "Spanish",
+            "multiverseId": 592984,
+            "name": "Protector de Gaia",
+            "skuIds": {
+              "nonfoil": "f9cf9108-aa19-5988-9492-654be7e51d59"
+            },
+            "text": "El Protector de Gaia debe ser bloqueado si se puede.",
+            "type": "Criatura — Guerrero elemental",
+            "uuid": "0501f85e-9324-5ad4-9cc5-5cb5ac71510f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271613",
           "cardsphereId": "97344",
@@ -1467,6 +1643,7 @@
         "name": "Gaea's Protector",
         "number": "664",
         "originalText": "Gaea's Protector must be blocked if able.",
+        "originalType": "Creature – Elemental Warrior",
         "power": "4",
         "printings": [
           "DOM",
@@ -1494,9 +1671,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "41d124ec-f1ef-5607-884e-df063d81b386"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1532,7 +1714,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5967,
+        "edhrecRank": 6499,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
@@ -1540,27 +1722,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "592919",
-              "scryfallId": "1b843102-1cff-40d9-9b32-eef2bc3ca331"
+              "multiverseId": "593766",
+              "scryfallId": "289e87f2-4425-4113-b288-f5227bcfac52"
             },
-            "language": "German",
-            "multiverseId": 592919,
-            "name": "Herausforderndes Gebrüll",
-            "text": "Alle Kreaturen, die eine Kreatur deiner Wahl in diesem Zug blocken können, tun dies.\nWildheit — Die Kreatur erhält Unzerstörbarkeit bis zum Ende des Zuges, falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst. (Schaden und Effekte, die „zerstören\", zerstören sie nicht.)",
-            "type": "Hexerei",
-            "uuid": "bf606353-f475-57f9-97d2-eedcc61cb8bd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "593040",
-              "scryfallId": "3e999959-49eb-4655-a93c-7dd504c84e01"
+            "language": "Chinese Simplified",
+            "multiverseId": 593766,
+            "name": "挑战之吼",
+            "skuIds": {
+              "nonfoil": "0e270df7-e995-57d4-a1e1-b44c6e1ae4eb"
             },
-            "language": "Spanish",
-            "multiverseId": 593040,
-            "name": "Rugido de desafío",
-            "text": "Todas las criaturas que puedan bloquear a la criatura objetivo este turno lo hacen.\nFerocidad — Esa criatura gana la habilidad de indestructible hasta el final del turno si controlas una criatura con fuerza de 4 o más. (El daño y los efectos que dicen \"destruir\" no la destruyen.)",
-            "type": "Conjuro",
-            "uuid": "f4d186b3-db6e-53de-b3d4-fb1efdd4794f"
+            "text": "本回合中，所有能阻挡目标生物的生物皆须阻挡之。\n威猛～如果你操控力量等于或大于4的生物，则该目标生物获得不灭异能直到回合结束。（伤害与注明「消灭」的效应不会将它消灭。）",
+            "type": "法术",
+            "uuid": "8458942d-7dcd-5dc0-9686-e2592ee9e1d7"
           },
           {
             "identifiers": {
@@ -1570,9 +1743,27 @@
             "language": "French",
             "multiverseId": 593161,
             "name": "Rugissement de défi",
+            "skuIds": {
+              "nonfoil": "e0668158-3f0f-5c13-9342-78b0ff8f851b"
+            },
             "text": "Toutes les créatures capables de bloquer une créature ciblée ce tour-ci le font.\nFérocité — Cette créature acquiert l'indestructible jusqu'à la fin du tour si vous contrôlez une créature de force supérieure ou égale à 4. (Les blessures et les effets qui disent « détruisez » ne la détruisent pas.)",
             "type": "Rituel",
             "uuid": "622cc5b8-9268-5917-a05c-0827ef6867a1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "592919",
+              "scryfallId": "1b843102-1cff-40d9-9b32-eef2bc3ca331"
+            },
+            "language": "German",
+            "multiverseId": 592919,
+            "name": "Herausforderndes Gebrüll",
+            "skuIds": {
+              "nonfoil": "31ea7b7c-8688-5388-844b-66fe192bbf17"
+            },
+            "text": "Alle Kreaturen, die eine Kreatur deiner Wahl in diesem Zug blocken können, tun dies.\nWildheit — Die Kreatur erhält Unzerstörbarkeit bis zum Ende des Zuges, falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst. (Schaden und Effekte, die „zerstören\", zerstören sie nicht.)",
+            "type": "Hexerei",
+            "uuid": "bf606353-f475-57f9-97d2-eedcc61cb8bd"
           },
           {
             "identifiers": {
@@ -1582,6 +1773,9 @@
             "language": "Italian",
             "multiverseId": 593282,
             "name": "Ruggito di Sfida",
+            "skuIds": {
+              "nonfoil": "8f5e7c90-bfd8-5a5a-b4d9-1419e966aa56"
+            },
             "text": "Tutte le creature in grado di bloccare una creatura bersaglio in questo turno lo fanno.\nFerocia — Quella creatura ha indistruttibile fino alla fine del turno se controlli una creatura con forza pari o superiore a 4. (Il danno e gli effetti che dicono \"distruggi\" non la distruggono.)",
             "type": "Stregoneria",
             "uuid": "ccf4969f-d851-518e-accc-a79e875e205c"
@@ -1594,26 +1788,30 @@
             "language": "Japanese",
             "multiverseId": 593403,
             "name": "挑発の咆哮",
+            "skuIds": {
+              "nonfoil": "82098e7b-9cfa-5002-85cb-2068f26c1aab"
+            },
             "text": "クリーチャー１体を対象とする。このターン、それをブロックできるすべてのクリーチャーは、それをブロックする。\n獰猛 ― あなたがパワーが４以上であるクリーチャーをコントロールしているなら、ターン終了時まで、その対象としたクリーチャーは破壊不能を得る。（ダメージや「破壊」と書かれた効果では、それは破壊されない。）",
             "type": "ソーサリー",
             "uuid": "f0b76867-6b28-5a6b-bc7a-d3b5d5298560"
           },
           {
             "identifiers": {
-              "multiverseId": "593766",
-              "scryfallId": "289e87f2-4425-4113-b288-f5227bcfac52"
+              "multiverseId": "593040",
+              "scryfallId": "3e999959-49eb-4655-a93c-7dd504c84e01"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593766,
-            "name": "挑战之吼",
-            "text": "本回合中，所有能阻挡目标生物的生物皆须阻挡之。\n威猛～如果你操控力量等于或大于4的生物，则该目标生物获得不灭异能直到回合结束。（伤害与注明「消灭」的效应不会将它消灭。）",
-            "type": "法术",
-            "uuid": "8458942d-7dcd-5dc0-9686-e2592ee9e1d7"
+            "language": "Spanish",
+            "multiverseId": 593040,
+            "name": "Rugido de desafío",
+            "skuIds": {
+              "nonfoil": "ff66ed14-30c7-576a-a1a0-471624d0a853"
+            },
+            "text": "Todas las criaturas que puedan bloquear a la criatura objetivo este turno lo hacen.\nFerocidad — Esa criatura gana la habilidad de indestructible hasta el final del turno si controlas una criatura con fuerza de 4 o más. (El daño y los efectos que dicen \"destruir\" no la destruyen.)",
+            "type": "Conjuro",
+            "uuid": "f4d186b3-db6e-53de-b3d4-fb1efdd4794f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271413",
           "cardsphereId": "97336",
@@ -1655,6 +1853,7 @@
         "name": "Roar of Challenge",
         "number": "720",
         "originalText": "All creatures able to block target creature this turn do so.\nFerocious — That creature gains indestructible until end of turn if you control a creature with power 4 or greater. (Damage and effects that say \"destroy\" don't destroy it.)",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "KTK"
@@ -1684,9 +1883,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "d3bdb1e5-5868-550c-b71a-c6393223b081"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1718,7 +1922,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11869,
+        "edhrecRank": 12609,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
@@ -1726,27 +1930,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "592922",
-              "scryfallId": "7246345d-73bf-489a-8d45-398b34aa5736"
+              "multiverseId": "593769",
+              "scryfallId": "fba16a9f-5821-4a0e-b2b2-6b3a37a5f6d4"
             },
-            "language": "German",
-            "multiverseId": 592922,
-            "name": "Brutaler Fausthieb",
-            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, kämpft gegen eine Kreatur deiner Wahl, die du nicht kontrollierst.\nWildheit — Bevor sie kämpft, erhält die Kreatur, die du kontrollierst, +2/+2 bis zum Ende des Zuges, falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
-            "type": "Hexerei",
-            "uuid": "0d69011d-1540-5476-9b17-4734c0188218"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "593043",
-              "scryfallId": "655b8004-2cd2-4aa0-bb08-bc7b49aeac2e"
+            "language": "Chinese Simplified",
+            "multiverseId": 593769,
+            "name": "蛮野殴击",
+            "skuIds": {
+              "nonfoil": "fce6771f-56da-53ac-a591-35fcfac8958b"
             },
-            "language": "Spanish",
-            "multiverseId": 593043,
-            "name": "Puñetazo salvaje",
-            "text": "La criatura objetivo que controlas lucha contra la criatura objetivo que no controlas.\nFerocidad — La criatura que controlas obtiene +2/+2 hasta el final del turno antes de luchar si controlas una criatura con fuerza de 4 o más. (Cada una hace un daño igual a su fuerza a la otra.)",
-            "type": "Conjuro",
-            "uuid": "456a5e35-1133-5679-b489-5228d663b8b6"
+            "text": "目标由你操控的生物与目标不由你操控的生物互斗。\n威猛～如果你操控力量等于或大于4的生物，则该目标由你操控的生物在互斗前得+2/+2直到回合结束。（它们各向对方造成等同于本身力量的伤害。）",
+            "type": "法术",
+            "uuid": "01357611-a6a0-5e2f-b73b-04b5ef30bf34"
           },
           {
             "identifiers": {
@@ -1756,9 +1951,27 @@
             "language": "French",
             "multiverseId": 593164,
             "name": "Coup de poing sauvage",
+            "skuIds": {
+              "nonfoil": "f5d29034-47bd-5361-9a84-192a4746f8c8"
+            },
             "text": "Une créature ciblée que vous contrôlez se bat contre une créature ciblée que vous ne contrôlez pas.\nFérocité — La créature que vous contrôlez gagne +2/+2 jusqu'à la fin du tour avant qu'elle ne se batte si vous contrôlez une créature avec une force supérieure ou égale à 4. (Chacune inflige un nombre de blessures égal à sa force à l'autre.)",
             "type": "Rituel",
             "uuid": "4cee9c92-a830-5c69-884d-a79fa6b6afe6"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "592922",
+              "scryfallId": "7246345d-73bf-489a-8d45-398b34aa5736"
+            },
+            "language": "German",
+            "multiverseId": 592922,
+            "name": "Brutaler Fausthieb",
+            "skuIds": {
+              "nonfoil": "34578bae-216d-505b-9e4a-dd363506aab2"
+            },
+            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, kämpft gegen eine Kreatur deiner Wahl, die du nicht kontrollierst.\nWildheit — Bevor sie kämpft, erhält die Kreatur, die du kontrollierst, +2/+2 bis zum Ende des Zuges, falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
+            "type": "Hexerei",
+            "uuid": "0d69011d-1540-5476-9b17-4734c0188218"
           },
           {
             "identifiers": {
@@ -1768,6 +1981,9 @@
             "language": "Italian",
             "multiverseId": 593285,
             "name": "Pugno Selvaggio",
+            "skuIds": {
+              "nonfoil": "f21d543f-25b3-5272-8aa8-786740e49fd3"
+            },
             "text": "Una creatura bersaglio che controlli lotta con una creatura bersaglio che non controlli.\nFerocia — La creatura che controlli prende +2/+2 fino alla fine del turno prima di lottare se controlli una creatura con forza pari o superiore a 4. (Ogni creatura infligge all'altra danno pari alla propria forza.)",
             "type": "Stregoneria",
             "uuid": "d6d3f6f2-54f8-5975-a4ed-7737f2ad62fa"
@@ -1780,26 +1996,30 @@
             "language": "Japanese",
             "multiverseId": 593406,
             "name": "凶暴な殴打",
+            "skuIds": {
+              "nonfoil": "3ca24888-35f0-5947-842f-2daf4706f74e"
+            },
             "text": "あなたがコントロールしているクリーチャー１体と、あなたがコントロールしていないクリーチャー１体を対象とする。その前者はその後者と格闘を行う。\n獰猛 ― あなたがパワーが４以上であるクリーチャーをコントロールしているなら、格闘を行う前に、ターン終了時まで、その前者は＋２/＋２の修整を受ける。（それぞれはもう一方に自身のパワーに等しい点数のダメージを与える。）",
             "type": "ソーサリー",
             "uuid": "93cd8758-b321-52d3-8e7d-0720558b6c48"
           },
           {
             "identifiers": {
-              "multiverseId": "593769",
-              "scryfallId": "fba16a9f-5821-4a0e-b2b2-6b3a37a5f6d4"
+              "multiverseId": "593043",
+              "scryfallId": "655b8004-2cd2-4aa0-bb08-bc7b49aeac2e"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593769,
-            "name": "蛮野殴击",
-            "text": "目标由你操控的生物与目标不由你操控的生物互斗。\n威猛～如果你操控力量等于或大于4的生物，则该目标由你操控的生物在互斗前得+2/+2直到回合结束。（它们各向对方造成等同于本身力量的伤害。）",
-            "type": "法术",
-            "uuid": "01357611-a6a0-5e2f-b73b-04b5ef30bf34"
+            "language": "Spanish",
+            "multiverseId": 593043,
+            "name": "Puñetazo salvaje",
+            "skuIds": {
+              "nonfoil": "f7e6a196-60b7-5dc3-b37f-688113b837c2"
+            },
+            "text": "La criatura objetivo que controlas lucha contra la criatura objetivo que no controlas.\nFerocidad — La criatura que controlas obtiene +2/+2 hasta el final del turno antes de luchar si controlas una criatura con fuerza de 4 o más. (Cada una hace un daño igual a su fuerza a la otra.)",
+            "type": "Conjuro",
+            "uuid": "456a5e35-1133-5679-b489-5228d663b8b6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271639",
           "cardsphereId": "97401",
@@ -1843,6 +2063,7 @@
         "name": "Savage Punch",
         "number": "723",
         "originalText": "Target creature you control fights target creature you don't control.\nFerocious — The creature you control gets +2/+2 until end of turn before it fights if you control a creature with power 4 or greater. (Each deals damage equal to its power to the other.)",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "KTK",
@@ -1878,9 +2099,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "99869cba-f4d4-5ba9-a356-3cddf40e5356"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1912,7 +2138,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1137,
+        "edhrecRank": 1224,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
@@ -1920,30 +2146,20 @@
         "flavorText": "\"Wow, it's even *bigger* than I thought! Awesome!\"",
         "foreignData": [
           {
-            "flavorText": "„Wow, es ist sogar *noch größer*, als ich dachte! Beeindruckend!\"",
+            "flavorText": "「哇，它比我想的*大多了*！真棒！」",
             "identifiers": {
-              "multiverseId": "597116",
-              "scryfallId": "85dc23f4-d660-4928-9a89-90fff0ebea89"
+              "multiverseId": "597438",
+              "scryfallId": "d6353aeb-b313-4f81-8e27-1c73a87c7fa6"
             },
-            "language": "German",
-            "multiverseId": 597116,
-            "name": "Kolossale Erhabenheit",
-            "text": "Zu Beginn deines Versorgungssegments und falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst, ziehe eine Karte.",
-            "type": "Verzauberung",
-            "uuid": "48fe63f8-cda0-53ab-be74-a1467676354e"
-          },
-          {
-            "flavorText": "\"¡Es incluso más grande de lo que pensaba!** ¡Genial!\".",
-            "identifiers": {
-              "multiverseId": "597162",
-              "scryfallId": "817ffc05-0a5d-4a64-9e5b-4a24d70113cd"
+            "language": "Chinese Simplified",
+            "multiverseId": 597438,
+            "name": "巨兽扬威",
+            "skuIds": {
+              "nonfoil": "b7125b99-da7a-5c50-ad87-a13dce300f9b"
             },
-            "language": "Spanish",
-            "multiverseId": 597162,
-            "name": "Majestad colosal",
-            "text": "Al comienzo de tu mantenimiento, si controlas una criatura con fuerza de 4 o más, roba una carta.",
-            "type": "Encantamiento",
-            "uuid": "eee0f9e1-1b78-5b8f-b888-8f1be9e15836"
+            "text": "在你的维持开始时，若你操控力量等于或大于4的生物，则抓一张牌。",
+            "type": "结界",
+            "uuid": "a7029b97-7757-5129-a1d3-0fb7d4db1928"
           },
           {
             "flavorText": "« Il est encore *plus grand* que ce que je pensais ! Génial ! »",
@@ -1954,9 +2170,28 @@
             "language": "French",
             "multiverseId": 597208,
             "name": "Majesté colossale",
+            "skuIds": {
+              "nonfoil": "b27672c9-a9b8-5432-af9b-9dd59ede4505"
+            },
             "text": "Au début de votre entretien, si vous contrôlez une créature de force supérieure ou égale à 4, piochez une carte.",
             "type": "Enchantement",
             "uuid": "f4524f7f-7bda-55c6-8058-a4ca4974945b"
+          },
+          {
+            "flavorText": "„Wow, es ist sogar *noch größer*, als ich dachte! Beeindruckend!\"",
+            "identifiers": {
+              "multiverseId": "597116",
+              "scryfallId": "85dc23f4-d660-4928-9a89-90fff0ebea89"
+            },
+            "language": "German",
+            "multiverseId": 597116,
+            "name": "Kolossale Erhabenheit",
+            "skuIds": {
+              "nonfoil": "6d9c0a62-7434-59f0-b92d-79f2c72abb67"
+            },
+            "text": "Zu Beginn deines Versorgungssegments und falls du eine Kreatur mit Stärke 4 oder mehr kontrollierst, ziehe eine Karte.",
+            "type": "Verzauberung",
+            "uuid": "48fe63f8-cda0-53ab-be74-a1467676354e"
           },
           {
             "flavorText": "\"Wow, è persino *più gigantesco* di quanto pensassi! Fantastico!\"",
@@ -1967,6 +2202,9 @@
             "language": "Italian",
             "multiverseId": 597254,
             "name": "Maestà Colossale",
+            "skuIds": {
+              "nonfoil": "6c1899c9-59d6-500a-b037-48e05ac59459"
+            },
             "text": "All'inizio del tuo mantenimento, se controlli una creatura con forza pari o superiore a 4, pesca una carta.",
             "type": "Incantesimo",
             "uuid": "798fb571-f6ae-5400-b079-cfef26f5f26a"
@@ -1980,27 +2218,31 @@
             "language": "Japanese",
             "multiverseId": 597300,
             "name": "巨大な威厳",
+            "skuIds": {
+              "nonfoil": "58a3465b-87d1-5fc0-a6ce-faa6af332522"
+            },
             "text": "あなたのアップキープの開始時に、あなたがパワーが４以上であるクリーチャーをコントロールしている場合、カード１枚を引く。",
             "type": "エンチャント",
             "uuid": "d768e3f6-bebc-5d71-b400-5f25bcb6b690"
           },
           {
-            "flavorText": "「哇，它比我想的*大多了*！真棒！」",
+            "flavorText": "\"¡Es incluso más grande de lo que pensaba!** ¡Genial!\".",
             "identifiers": {
-              "multiverseId": "597438",
-              "scryfallId": "d6353aeb-b313-4f81-8e27-1c73a87c7fa6"
+              "multiverseId": "597162",
+              "scryfallId": "817ffc05-0a5d-4a64-9e5b-4a24d70113cd"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597438,
-            "name": "巨兽扬威",
-            "text": "在你的维持开始时，若你操控力量等于或大于4的生物，则抓一张牌。",
-            "type": "结界",
-            "uuid": "a7029b97-7757-5129-a1d3-0fb7d4db1928"
+            "language": "Spanish",
+            "multiverseId": 597162,
+            "name": "Majestad colosal",
+            "skuIds": {
+              "nonfoil": "4545531f-f75d-5a4b-9e9d-32fc38466d6b"
+            },
+            "text": "Al comienzo de tu mantenimiento, si controlas una criatura con fuerza de 4 o más, roba una carta.",
+            "type": "Encantamiento",
+            "uuid": "eee0f9e1-1b78-5b8f-b888-8f1be9e15836"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271463",
           "cardsphereId": "97316",
@@ -2021,6 +2263,7 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
+          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -2038,6 +2281,7 @@
         "name": "Colossal Majesty",
         "number": "87",
         "originalText": "At the beginning of your upkeep, if you control a creature with power 4 or greater, draw a card.",
+        "originalType": "Enchantment",
         "printings": [
           "AFC",
           "ANB",
@@ -2071,9 +2315,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "973fb3da-b532-541c-a7f6-721b3194a007"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2105,7 +2354,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 21677,
+        "edhrecRank": 22360,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
@@ -2113,27 +2362,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "592921",
-              "scryfallId": "7f0dc295-d8c7-4db2-aaf6-92ac79aff0cf"
+              "multiverseId": "593768",
+              "scryfallId": "a96ec975-c850-4ab0-ac6b-892d535b85ae"
             },
-            "language": "German",
-            "multiverseId": 592921,
-            "name": "Rosendorn-Hellebarde",
-            "text": "Wenn die Rosendorn-Hellebarde ins Spiel kommt, lege sie an eine Nicht-Mensch-Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +2/+1.\nAusrüsten {5} ({5}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung",
-            "uuid": "15456027-1ad7-5e82-a322-34a2ae0a7442"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "593042",
-              "scryfallId": "c95c3e92-538e-48c7-8017-e24c4bd790d5"
+            "language": "Chinese Simplified",
+            "multiverseId": 593768,
+            "name": "玫茨长戟",
+            "skuIds": {
+              "nonfoil": "03abd02b-d7d0-5733-83fb-838e1d0b4f0c"
             },
-            "language": "Spanish",
-            "multiverseId": 593042,
-            "name": "Alabarda de espinas de rosa",
-            "text": "Cuando la Alabarda de espinas de rosa entre al campo de batalla, anéxala a la criatura objetivo que no sea Humano que controlas.\nLa criatura equipada obtiene +2/+1.\nEquipar {5}. ({5}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo",
-            "uuid": "53ec8b79-6551-5188-8e0a-98ad9085debe"
+            "text": "当玫茨长戟进战场时，将它贴附在目标由你操控的非人类生物上。\n佩带此武具的生物得+2/+1。\n佩带{5}（{5}：贴附在目标由你操控的生物上。只能于法术时机佩带。）",
+            "type": "神器 ～武具",
+            "uuid": "f6142597-73dc-5930-b7dd-10132aedf6ed"
           },
           {
             "identifiers": {
@@ -2143,9 +2383,27 @@
             "language": "French",
             "multiverseId": 593163,
             "name": "Hallebarde de Rosépine",
+            "skuIds": {
+              "nonfoil": "80724964-dff0-5511-9d39-4073509b3471"
+            },
             "text": "Quand la Hallebarde de Rosépine arrive sur le champ de bataille, attachez-la à une créature non-Humain ciblée que vous contrôlez.\nLa créature équipée gagne +2/+1.\nÉquipement {5} ({5} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
             "type": "Artefact : équipement",
             "uuid": "737321c4-ad91-5f9d-90ca-43e92de94654"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "592921",
+              "scryfallId": "7f0dc295-d8c7-4db2-aaf6-92ac79aff0cf"
+            },
+            "language": "German",
+            "multiverseId": 592921,
+            "name": "Rosendorn-Hellebarde",
+            "skuIds": {
+              "nonfoil": "94631633-004f-5d1d-b023-d671682c10d9"
+            },
+            "text": "Wenn die Rosendorn-Hellebarde ins Spiel kommt, lege sie an eine Nicht-Mensch-Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +2/+1.\nAusrüsten {5} ({5}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "15456027-1ad7-5e82-a322-34a2ae0a7442"
           },
           {
             "identifiers": {
@@ -2155,6 +2413,9 @@
             "language": "Italian",
             "multiverseId": 593284,
             "name": "Alabarda di Rosaspino",
+            "skuIds": {
+              "nonfoil": "7f0df22a-20d6-53a9-bafa-5dceb3b14476"
+            },
             "text": "Quando l'Alabarda di Rosaspino entra nel campo di battaglia, assegnala a una creatura non Umano bersaglio che controlli.\nLa creatura equipaggiata prende +2/+1.\nEquipaggiare {5} ({5}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
             "type": "Artefatto — Equipaggiamento",
             "uuid": "0ad46215-19df-5f5e-905c-1963fbf1d1f9"
@@ -2167,26 +2428,30 @@
             "language": "Japanese",
             "multiverseId": 593405,
             "name": "薔薇棘の矛槍",
+            "skuIds": {
+              "nonfoil": "c990073f-c157-595d-8d80-51d1a3e57ffa"
+            },
             "text": "薔薇棘の矛槍が戦場に出たとき、あなたがコントロールしていて人間でないクリーチャー１体を対象とする。これをそれにつける。\n装備しているクリーチャーは＋２/＋１の修整を受ける。\n装備{5}（{5}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
             "type": "アーティファクト — 装備品",
             "uuid": "e7c031bc-994a-5bbb-9d6c-7d2aeb3f6218"
           },
           {
             "identifiers": {
-              "multiverseId": "593768",
-              "scryfallId": "a96ec975-c850-4ab0-ac6b-892d535b85ae"
+              "multiverseId": "593042",
+              "scryfallId": "c95c3e92-538e-48c7-8017-e24c4bd790d5"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 593768,
-            "name": "玫茨长戟",
-            "text": "当玫茨长戟进战场时，将它贴附在目标由你操控的非人类生物上。\n佩带此武具的生物得+2/+1。\n佩带{5}（{5}：贴附在目标由你操控的生物上。只能于法术时机佩带。）",
-            "type": "神器 ～武具",
-            "uuid": "f6142597-73dc-5930-b7dd-10132aedf6ed"
+            "language": "Spanish",
+            "multiverseId": 593042,
+            "name": "Alabarda de espinas de rosa",
+            "skuIds": {
+              "nonfoil": "1b431be1-e3a4-582a-9b45-5dc29e3b25af"
+            },
+            "text": "Cuando la Alabarda de espinas de rosa entre al campo de batalla, anéxala a la criatura objetivo que no sea Humano que controlas.\nLa criatura equipada obtiene +2/+1.\nEquipar {5}. ({5}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
+            "type": "Artefacto — Equipo",
+            "uuid": "53ec8b79-6551-5188-8e0a-98ad9085debe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271414",
           "cardsphereId": "97346",
@@ -2230,6 +2495,7 @@
         "name": "Rosethorn Halberd",
         "number": "722",
         "originalText": "When Rosethorn Halberd enters the battlefield, attach it to target non-Human creature you control.\nEquipped creature gets +2/+1.\nEquip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "ELD",
           "J22",
@@ -2248,9 +2514,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "d943cd05-50b0-5436-b582-47df1e8308d9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2282,7 +2553,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -2290,30 +2561,20 @@
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [
           {
-            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
+            "flavorText": "人类视界之外还有一片隐蔽乐土，此处鸟语花香，绿意盎然。",
             "identifiers": {
-              "multiverseId": "596327",
-              "scryfallId": "b705b5d7-da18-49c2-af9d-62bcbbdf203c"
+              "multiverseId": "596936",
+              "scryfallId": "882deb48-9baf-4827-b5c6-64303fb03e31"
             },
-            "language": "German",
-            "multiverseId": 596327,
-            "name": "Gedeihender Hain",
-            "text": "Der Gedeihende Hain kommt getappt ins Spiel.\nSowie der Gedeihende Hain ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "3749a5f8-bd24-5e30-b31b-6bb31d09f0a4"
-          },
-          {
-            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
-            "identifiers": {
-              "multiverseId": "596414",
-              "scryfallId": "ee0a8e22-9dab-419e-8944-e6a3fb38d11f"
+            "language": "Chinese Simplified",
+            "multiverseId": 596936,
+            "name": "兴旺树丛",
+            "skuIds": {
+              "nonfoil": "59b03b66-c810-5c9e-9cff-24963ad29446"
             },
-            "language": "Spanish",
-            "multiverseId": 596414,
-            "name": "Arboleda floreciente",
-            "text": "La Arboleda floreciente entra al campo de batalla girada.\nEn cuanto la Arboleda floreciente entre al campo de batalla, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "603c9c57-90a1-5c8c-8d6a-90a1abced84a"
+            "text": "兴旺树丛须横置进战场。\n于兴旺树丛进战场时，选择一种绿色以外的颜色。\n{T}：加{G}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "7cf73216-36d4-54f8-b61e-c25fa2097bd3"
           },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
@@ -2324,9 +2585,28 @@
             "language": "French",
             "multiverseId": 596501,
             "name": "Bosquet prospère",
+            "skuIds": {
+              "nonfoil": "596cf30e-7584-51df-b7b6-053fa92512d4"
+            },
             "text": "Le Bosquet prospère arrive sur le champ de bataille engagé.\nAu moment où le Bosquet prospère arrive sur le champ de bataille, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "02532dc5-2caa-5d3e-a0ef-9f35e8b3fb55"
+          },
+          {
+            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
+            "identifiers": {
+              "multiverseId": "596327",
+              "scryfallId": "b705b5d7-da18-49c2-af9d-62bcbbdf203c"
+            },
+            "language": "German",
+            "multiverseId": 596327,
+            "name": "Gedeihender Hain",
+            "skuIds": {
+              "nonfoil": "7615a71a-01c0-5d01-8265-2076a28a7f63"
+            },
+            "text": "Der Gedeihende Hain kommt getappt ins Spiel.\nSowie der Gedeihende Hain ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "3749a5f8-bd24-5e30-b31b-6bb31d09f0a4"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2337,6 +2617,9 @@
             "language": "Italian",
             "multiverseId": 596588,
             "name": "Boschetto Florido",
+            "skuIds": {
+              "nonfoil": "237dffd2-c90d-5a54-b2e9-c01b46a63034"
+            },
             "text": "Il Boschetto Florido entra nel campo di battaglia TAPpato.\nMentre il Boschetto Florido entra nel campo di battaglia, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "a8ef1bbd-0b04-5937-a33e-33eb87445345"
@@ -2350,27 +2633,31 @@
             "language": "Japanese",
             "multiverseId": 596675,
             "name": "興隆する木立",
+            "skuIds": {
+              "nonfoil": "78503538-15ec-51bd-a929-8937f83da514"
+            },
             "text": "興隆する木立はタップ状態で戦場に出る。\n興隆する木立が戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色１色のマナ１点を加える。",
             "type": "土地",
             "uuid": "65b0d953-837a-5043-a121-fdef09e2a06c"
           },
           {
-            "flavorText": "人类视界之外还有一片隐蔽乐土，此处鸟语花香，绿意盎然。",
+            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
             "identifiers": {
-              "multiverseId": "596936",
-              "scryfallId": "882deb48-9baf-4827-b5c6-64303fb03e31"
+              "multiverseId": "596414",
+              "scryfallId": "ee0a8e22-9dab-419e-8944-e6a3fb38d11f"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596936,
-            "name": "兴旺树丛",
-            "text": "兴旺树丛须横置进战场。\n于兴旺树丛进战场时，选择一种绿色以外的颜色。\n{T}：加{G}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "7cf73216-36d4-54f8-b61e-c25fa2097bd3"
+            "language": "Spanish",
+            "multiverseId": 596414,
+            "name": "Arboleda floreciente",
+            "skuIds": {
+              "nonfoil": "0713a5bc-368b-59d1-a8bb-198d896a8534"
+            },
+            "text": "La Arboleda floreciente entra al campo de batalla girada.\nEn cuanto la Arboleda floreciente entre al campo de batalla, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "603c9c57-90a1-5c8c-8d6a-90a1abced84a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270583",
           "cardsphereId": "96851",
@@ -2407,18 +2694,28 @@
         "name": "Thriving Grove",
         "number": "823",
         "originalText": "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f4ac998ce28b85d6",
@@ -2427,9 +2724,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "af551b9a-6449-5354-82c9-7ff91c9e7aec"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2466,25 +2768,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597772",
-              "scryfallId": "1581c64c-386e-4285-af5d-b88978f188a1"
+              "multiverseId": "597877",
+              "scryfallId": "00b26627-a76c-44ce-90fe-e8030c4dbb41"
             },
-            "language": "German",
-            "multiverseId": 597772,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "0811beeb-3acf-56ba-ab7f-58e1722c3a1f"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597787",
-              "scryfallId": "949dec17-2c57-44af-9dcf-9682354df195"
+            "language": "Chinese Simplified",
+            "multiverseId": 597877,
+            "name": "树林",
+            "skuIds": {
+              "nonfoil": "a69244d7-9c0e-54ca-9008-d27a8107d236"
             },
-            "language": "Spanish",
-            "multiverseId": 597787,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "8a386922-508e-510d-8a52-75ce0499a267"
+            "type": "基本地 ～树林",
+            "uuid": "ffce8080-9b3f-5492-8660-8de607a64e4a"
           },
           {
             "identifiers": {
@@ -2494,8 +2788,25 @@
             "language": "French",
             "multiverseId": 597802,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "bddfc4c7-719c-5e95-91ed-e6e44d6ac76c"
+            },
             "type": "Terrain de base : forêt",
             "uuid": "728eee76-65a5-51be-a118-743f92463346"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597772",
+              "scryfallId": "1581c64c-386e-4285-af5d-b88978f188a1"
+            },
+            "language": "German",
+            "multiverseId": 597772,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "c8ff484e-c076-5b7c-b357-c20edbdfeaca"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "0811beeb-3acf-56ba-ab7f-58e1722c3a1f"
           },
           {
             "identifiers": {
@@ -2505,6 +2816,9 @@
             "language": "Italian",
             "multiverseId": 597817,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "05ff320a-7434-5535-83e6-63af166ece3a"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "d7c4715d-5b99-5ecb-a7a2-9c6d2c2a2336"
           },
@@ -2516,29 +2830,34 @@
             "language": "Japanese",
             "multiverseId": 597832,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "bea0e5a3-380e-5d79-b302-42a4471064c4"
+            },
             "type": "基本土地 — 森",
             "uuid": "7718f533-c5e1-560b-bafa-536db2772cd7"
           },
           {
             "identifiers": {
-              "multiverseId": "597877",
-              "scryfallId": "00b26627-a76c-44ce-90fe-e8030c4dbb41"
+              "multiverseId": "597787",
+              "scryfallId": "949dec17-2c57-44af-9dcf-9682354df195"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597877,
-            "name": "树林",
-            "type": "基本地 ～树林",
-            "uuid": "ffce8080-9b3f-5492-8660-8de607a64e4a"
+            "language": "Spanish",
+            "multiverseId": 597787,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "5948ad76-9c4b-5f04-a60d-437788817e3d"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "8a386922-508e-510d-8a52-75ce0499a267"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270291",
           "cardsphereId": "97102",
           "deckboxId": "71303",
           "mcmId": "687368",
+          "mcmMetaId": "2177",
           "mtgjsonV4Id": "e473f4f0-1e77-55bd-a820-7f9c034a944a",
           "multiverseId": "597757",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2577,6 +2896,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "110",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2647,6 +2967,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2809,15 +3130,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/5bb34ba3fae468a0",
+          "cardmarket": "https://mtgjson.com/links/ca424ff35e2c70e3",
           "tcgplayer": "https://mtgjson.com/links/a273fde1af7320f0"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "497d138d-33a0-59de-8273-762aa4da7544"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2833,8 +3163,8 @@
         ],
         "uuid": "08bb8f11-5a93-5121-9f05-f55d07e2dc6c",
         "variations": [
-          "bda821c9-421f-5543-b713-e1d664914488",
-          "4a472a30-00d1-56f4-b8d2-cc23f616fcf6"
+          "4a472a30-00d1-56f4-b8d2-cc23f616fcf6",
+          "bda821c9-421f-5543-b713-e1d664914488"
         ]
       },
       {
@@ -2862,25 +3192,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597773",
-              "scryfallId": "61d84684-1afe-4e6d-9a1b-12fd9ea81d3d"
+              "multiverseId": "597878",
+              "scryfallId": "3380a5e5-3dce-42eb-86aa-889e27b01b33"
             },
-            "language": "German",
-            "multiverseId": 597773,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "ae6d338b-9ed9-5e29-a918-1fbf8e5ff0a9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597788",
-              "scryfallId": "f2040328-f727-4bdf-b604-4e4f70d91556"
+            "language": "Chinese Simplified",
+            "multiverseId": 597878,
+            "name": "树林",
+            "skuIds": {
+              "nonfoil": "55a7f035-8a42-5c38-9891-256468c93917"
             },
-            "language": "Spanish",
-            "multiverseId": 597788,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "7424292a-340b-51f2-80b8-6db5d5ead5f9"
+            "type": "基本地 ～树林",
+            "uuid": "8dd9449d-4aff-5e29-bb04-7e7682eca09b"
           },
           {
             "identifiers": {
@@ -2890,8 +3212,25 @@
             "language": "French",
             "multiverseId": 597803,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "65bd0247-f782-532f-a932-1a3289bf4a25"
+            },
             "type": "Terrain de base : forêt",
             "uuid": "c33c5e18-9634-571a-b1db-fe40e5b74bcf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597773",
+              "scryfallId": "61d84684-1afe-4e6d-9a1b-12fd9ea81d3d"
+            },
+            "language": "German",
+            "multiverseId": 597773,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "911fc673-595a-5da0-a335-b49ef0c52440"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "ae6d338b-9ed9-5e29-a918-1fbf8e5ff0a9"
           },
           {
             "identifiers": {
@@ -2901,6 +3240,9 @@
             "language": "Italian",
             "multiverseId": 597818,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "939c0406-40d0-51cb-aa41-75280059eecb"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "99fa873f-05d3-5662-8861-17f575b022ff"
           },
@@ -2912,29 +3254,34 @@
             "language": "Japanese",
             "multiverseId": 597833,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "11e323c0-f94d-5975-9e7e-55919c8edeab"
+            },
             "type": "基本土地 — 森",
             "uuid": "b199c37f-c21e-53c8-b332-d6552ef63d9c"
           },
           {
             "identifiers": {
-              "multiverseId": "597878",
-              "scryfallId": "3380a5e5-3dce-42eb-86aa-889e27b01b33"
+              "multiverseId": "597788",
+              "scryfallId": "f2040328-f727-4bdf-b604-4e4f70d91556"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597878,
-            "name": "树林",
-            "type": "基本地 ～树林",
-            "uuid": "8dd9449d-4aff-5e29-bb04-7e7682eca09b"
+            "language": "Spanish",
+            "multiverseId": 597788,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "346e1fac-e16c-5bbc-91e2-70025651b3e8"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "7424292a-340b-51f2-80b8-6db5d5ead5f9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270292",
           "cardsphereId": "97095",
           "deckboxId": "71304",
           "mcmId": "687369",
+          "mcmMetaId": "2177",
           "mtgjsonV4Id": "d21f5585-c4bd-55d4-be1e-b55f7e1ab17d",
           "multiverseId": "597758",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2973,6 +3320,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "111",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3043,6 +3391,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3205,15 +3554,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/dfe6a3c9d30c0759",
+          "cardmarket": "https://mtgjson.com/links/d9ef3330e84e2996",
           "tcgplayer": "https://mtgjson.com/links/ffab32d2c9ebbdcf"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3c262285-17b7-5479-9eb4-e6124323c0bc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3258,25 +3616,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597774",
-              "scryfallId": "afc9cb54-56a8-4be9-9613-9d51d5badd89"
+              "multiverseId": "597879",
+              "scryfallId": "a2b724bf-8c16-4749-af1c-6f79aae75fe1"
             },
-            "language": "German",
-            "multiverseId": 597774,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "12867d03-1e6e-5936-9c61-b730fe979756"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597789",
-              "scryfallId": "ee4d783b-50df-4810-a494-9b15e8b0e3e0"
+            "language": "Chinese Simplified",
+            "multiverseId": 597879,
+            "name": "树林",
+            "skuIds": {
+              "nonfoil": "eac5ec86-e1da-5e0e-88d3-89db99131e0f"
             },
-            "language": "Spanish",
-            "multiverseId": 597789,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "37e295b1-05de-550d-a8e0-249860beb1d9"
+            "type": "基本地 ～树林",
+            "uuid": "9474a82b-75c5-55dc-9b14-a170f4c5c49a"
           },
           {
             "identifiers": {
@@ -3286,8 +3636,25 @@
             "language": "French",
             "multiverseId": 597804,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "b24afb8b-5af1-582a-a048-d3a2b89f2ff5"
+            },
             "type": "Terrain de base : forêt",
             "uuid": "8a2f62db-995f-5478-8e40-9ed39d355a16"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597774",
+              "scryfallId": "afc9cb54-56a8-4be9-9613-9d51d5badd89"
+            },
+            "language": "German",
+            "multiverseId": 597774,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "544cae6b-64dc-591c-8b73-ff9ca23452b1"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "12867d03-1e6e-5936-9c61-b730fe979756"
           },
           {
             "identifiers": {
@@ -3297,6 +3664,9 @@
             "language": "Italian",
             "multiverseId": 597819,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "de53a761-8514-5335-afc1-819d76a9e11b"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "f2952c04-81fc-575f-9709-ce0cf2eb71c1"
           },
@@ -3308,29 +3678,34 @@
             "language": "Japanese",
             "multiverseId": 597834,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "cfd877e5-6482-5053-b2ba-c463388dd74d"
+            },
             "type": "基本土地 — 森",
             "uuid": "7bd02e54-fa1c-529a-8df9-49334ee9e2fc"
           },
           {
             "identifiers": {
-              "multiverseId": "597879",
-              "scryfallId": "a2b724bf-8c16-4749-af1c-6f79aae75fe1"
+              "multiverseId": "597789",
+              "scryfallId": "ee4d783b-50df-4810-a494-9b15e8b0e3e0"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597879,
-            "name": "树林",
-            "type": "基本地 ～树林",
-            "uuid": "9474a82b-75c5-55dc-9b14-a170f4c5c49a"
+            "language": "Spanish",
+            "multiverseId": 597789,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "66e5c8e2-4e71-5da0-940c-36e2bdbd8597"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "37e295b1-05de-550d-a8e0-249860beb1d9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270293",
           "cardsphereId": "97084",
           "deckboxId": "71305",
           "mcmId": "687370",
+          "mcmMetaId": "2177",
           "mtgjsonV4Id": "3514b3e7-5e6f-5fbd-967d-5fa81efe4580",
           "multiverseId": "597759",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3369,6 +3744,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "112",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3439,6 +3815,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3601,15 +3978,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ef86be847734c3a0",
+          "cardmarket": "https://mtgjson.com/links/b064c9dbe2d2aa65",
           "tcgplayer": "https://mtgjson.com/links/0d3ff6530101651e"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "e74ee238-3280-57b8-ab79-097a78966f9f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3641,5 +4027,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "707f75d88279f4"
   }
 }

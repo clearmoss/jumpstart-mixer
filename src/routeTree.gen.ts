@@ -45,8 +45,8 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/packs/$packId': typeof PacksPackIdRoute
-  '/mixer': typeof MixerIndexRoute
-  '/packs': typeof PacksIndexRoute
+  '/mixer/': typeof MixerIndexRoute
+  '/packs/': typeof PacksIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -65,7 +65,7 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/packs/$packId' | '/mixer' | '/packs'
+  fullPaths: '/' | '/about' | '/packs/$packId' | '/mixer/' | '/packs/'
   fileRoutesByTo: FileRoutesByTo
   to: '/' | '/about' | '/packs/$packId' | '/mixer' | '/packs'
   id: '__root__' | '/' | '/about' | '/packs/$packId' | '/mixer/' | '/packs/'
@@ -98,14 +98,14 @@ declare module '@tanstack/react-router' {
     '/packs/': {
       id: '/packs/'
       path: '/packs'
-      fullPath: '/packs'
+      fullPath: '/packs/'
       preLoaderRoute: typeof PacksIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/mixer/': {
       id: '/mixer/'
       path: '/mixer'
-      fullPath: '/mixer'
+      fullPath: '/mixer/'
       preLoaderRoute: typeof MixerIndexRouteImport
       parentRoute: typeof rootRouteImport
     }

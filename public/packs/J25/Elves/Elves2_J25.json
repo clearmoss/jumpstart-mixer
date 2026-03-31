@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "218efe8de0d1b6"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,26 +22,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1015,
+        "edhrecRank": 914,
         "edhrecSaltiness": 0.49,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "He knows the name of every elf born in the last four centuries. More importantly, they all know his.",
         "foreignData": [
-          {
-            "flavorText": "Sabe el nombre de todos los elfos nacidos en los últimos cuatro siglos. Más importante aún, todos conocen el suyo.",
-            "identifiers": {
-              "multiverseId": "683531",
-              "scryfallId": "5c659b57-dc1b-45fc-9925-9c8acb49e1d1"
-            },
-            "language": "Spanish",
-            "multiverseId": 683531,
-            "name": "Archidruida élfico",
-            "text": "Las otras criaturas Elfo que controlas obtienen +1/+1.\n{T}: Agrega {G} por cada Elfo que controlas.",
-            "type": "Criatura — Druida elfo",
-            "uuid": "7fcd97a7-9cb1-504b-b062-58e0bc5658aa"
-          },
           {
             "flavorText": "Il connaît le nom de chaque elfe né durant les quatre derniers siècles. Mais plus important, tous connaissent le sien.",
             "identifiers": {
@@ -56,6 +38,9 @@
             "language": "French",
             "multiverseId": 683653,
             "name": "Archidruide elfe",
+            "skuIds": {
+              "nonfoil": "8d69e63b-608f-5f9a-8480-8ab89c87d7b2"
+            },
             "text": "Les autres créatures Elfe que vous contrôlez gagnent +1/+1.\n{T} : Ajoutez {G} pour chaque elfe que vous contrôlez.",
             "type": "Créature — elfe et druide",
             "uuid": "8ade21ab-4be8-5a04-8329-23bff52078e9"
@@ -69,6 +54,9 @@
             "language": "Italian",
             "multiverseId": 683775,
             "name": "Arcidruido Elfico",
+            "skuIds": {
+              "nonfoil": "9d33fa62-1035-54a7-976a-d7e2910d631f"
+            },
             "text": "Le altre creature Elfo che controlli prendono +1/+1.\n{T}: Aggiungi {G} per ogni Elfo che controlli.",
             "type": "Creatura — Druido Elfo",
             "uuid": "9b71bd54-a669-5e0a-aa37-29148663b4b6"
@@ -82,14 +70,31 @@
             "language": "Japanese",
             "multiverseId": 683897,
             "name": "エルフの大ドルイド",
+            "skuIds": {
+              "nonfoil": "f3c2855e-abf8-5807-b357-a0595ea8d3be"
+            },
             "text": "あなたがコントロールしていてこれでないすべてのエルフ・クリーチャーは＋１/＋１の修整を受ける。\n{T}：あなたがコントロールしているエルフ１体につき{G}を加える。",
             "type": "クリーチャー — エルフ・ドルイド",
             "uuid": "b36fdc57-6e35-5826-a8d7-3a88910fc8cc"
+          },
+          {
+            "flavorText": "Sabe el nombre de todos los elfos nacidos en los últimos cuatro siglos. Más importante aún, todos conocen el suyo.",
+            "identifiers": {
+              "multiverseId": "683531",
+              "scryfallId": "5c659b57-dc1b-45fc-9925-9c8acb49e1d1"
+            },
+            "language": "Spanish",
+            "multiverseId": 683531,
+            "name": "Archidruida élfico",
+            "skuIds": {
+              "nonfoil": "c0a80a0e-b6e8-581a-bbee-823a0cc3a8cb"
+            },
+            "text": "Las otras criaturas Elfo que controlas obtienen +1/+1.\n{T}: Agrega {G} por cada Elfo que controlas.",
+            "type": "Criatura — Druida elfo",
+            "uuid": "7fcd97a7-9cb1-504b-b062-58e0bc5658aa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305994",
           "cardsphereId": "130862",
@@ -134,6 +139,7 @@
         "name": "Elvish Archdruid",
         "number": "655",
         "originalText": "Other Elf creatures you control get +1/+1.\n{T}: Add {G} for each Elf you control.",
+        "originalType": "Creature – Elf Druid",
         "power": "2",
         "printings": [
           "C14",
@@ -151,6 +157,9 @@
           "M13",
           "PFDN",
           "PLST"
+        ],
+        "producedMana": [
+          "G"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/595fc3cbb2e6da34",
@@ -170,9 +179,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "363ecb20-787b-53c0-b889-b34bcaf67524"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -207,39 +221,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 24954,
+        "edhrecRank": 25084,
         "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Let the beauty of our land lull them so that they may stumble upon its hidden thorns.\"",
         "foreignData": [
-          {
-            "flavorText": "„Die Schönheit unseres Landes soll sie verführen, damit sie in die verborgenen Dornen stolpern.\"",
-            "identifiers": {
-              "multiverseId": "681376",
-              "scryfallId": "6c06b24e-0185-4e22-a32d-71585995698d"
-            },
-            "language": "German",
-            "multiverseId": 681376,
-            "name": "Klingengras-Anrufer",
-            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\n{8}: Der Klingengras-Anrufer und bis zu eine andere Kreatur deiner Wahl erhalten +3/+3 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elf, Späher",
-            "uuid": "d9595aab-859d-5ef5-85a7-db3a71eaa248"
-          },
-          {
-            "flavorText": "\"Deja que la belleza de nuestra tierra los atraiga para que tropiecen en sus espinas ocultas\".",
-            "identifiers": {
-              "multiverseId": "681405",
-              "scryfallId": "3c5289d2-4437-478a-badb-6b5294520abc"
-            },
-            "language": "Spanish",
-            "multiverseId": 681405,
-            "name": "Invocador de pasto navaja",
-            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\n{8}: El Invocador de pasto navaja y hasta una otra criatura objetivo obtienen +3/+3 hasta el final del turno.",
-            "type": "Criatura — Explorador elfo",
-            "uuid": "de563a09-e57d-5c06-aa58-7e38cd0a9eda"
-          },
           {
             "flavorText": "« Laissez la beauté de notre terre les duper pour qu'ils tombent sur ses ronces cachées. »",
             "identifiers": {
@@ -249,9 +237,28 @@
             "language": "French",
             "multiverseId": 681434,
             "name": "Invocateur des rasherbes",
+            "skuIds": {
+              "nonfoil": "40170717-60de-5a3c-a166-f3fe6f2d1f2a"
+            },
             "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)\n{8} : L'Invocateur des rasherbes et jusqu'à une autre créature ciblée gagnent chacun +3/+3 jusqu'à la fin du tour.",
             "type": "Créature — elfe et éclaireur",
             "uuid": "e6eb0cb1-54ff-5c4f-bec8-272a74d805d6"
+          },
+          {
+            "flavorText": "„Die Schönheit unseres Landes soll sie verführen, damit sie in die verborgenen Dornen stolpern.\"",
+            "identifiers": {
+              "multiverseId": "681376",
+              "scryfallId": "6c06b24e-0185-4e22-a32d-71585995698d"
+            },
+            "language": "German",
+            "multiverseId": 681376,
+            "name": "Klingengras-Anrufer",
+            "skuIds": {
+              "nonfoil": "3d9f72e0-1546-5fc4-8d74-a3309170cb96"
+            },
+            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\n{8}: Der Klingengras-Anrufer und bis zu eine andere Kreatur deiner Wahl erhalten +3/+3 bis zum Ende des Zuges.",
+            "type": "Kreatur — Elf, Späher",
+            "uuid": "d9595aab-859d-5ef5-85a7-db3a71eaa248"
           },
           {
             "flavorText": "\"Lascia che la bellezza della nostra terra li faccia sentire al sicuro così da farli incespicare nelle sue spine nascoste.\"",
@@ -262,6 +269,9 @@
             "language": "Italian",
             "multiverseId": 681463,
             "name": "Evocatore dell'Erba-Lama",
+            "skuIds": {
+              "nonfoil": "0dfa010f-d02a-5a3d-be6f-c03eaff0be1f"
+            },
             "text": "Cautela (Questa creatura attacca senza TAPpare.)\n{8}: L'Evocatore dell'Erba-Lama e fino a un'altra creatura bersaglio prendono +3/+3 fino alla fine del turno.",
             "type": "Creatura — Esploratore Elfo",
             "uuid": "c0ce0bb4-679a-54a8-b814-c6a2904fc8d3"
@@ -275,14 +285,31 @@
             "language": "Japanese",
             "multiverseId": 681492,
             "name": "剃刀草の発動者",
+            "skuIds": {
+              "nonfoil": "bd0d983d-763d-5d46-ae6d-4d79653bf662"
+            },
             "text": "警戒（このクリーチャーは攻撃してもタップしない。）\n{8}: 剃刀草の発動者とこれでないクリーチャー最大１体を対象とする。ターン終了時まで、それらはそれぞれ＋３/＋３の修整を受ける。",
             "type": "クリーチャー — エルフ・スカウト",
             "uuid": "2b6d2b00-bab9-5acb-a6ec-355a64a412cd"
+          },
+          {
+            "flavorText": "\"Deja que la belleza de nuestra tierra los atraiga para que tropiecen en sus espinas ocultas\".",
+            "identifiers": {
+              "multiverseId": "681405",
+              "scryfallId": "3c5289d2-4437-478a-badb-6b5294520abc"
+            },
+            "language": "Spanish",
+            "multiverseId": 681405,
+            "name": "Invocador de pasto navaja",
+            "skuIds": {
+              "nonfoil": "db5832bb-f044-5850-9ec7-4779fdcfab73"
+            },
+            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\n{8}: El Invocador de pasto navaja y hasta una otra criatura objetivo obtienen +3/+3 hasta el final del turno.",
+            "type": "Criatura — Explorador elfo",
+            "uuid": "de563a09-e57d-5c06-aa58-7e38cd0a9eda"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305156",
           "cardsphereId": "130743",
@@ -301,7 +328,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Vigilance"
         ],
@@ -325,6 +351,7 @@
         "name": "Razorgrass Invoker",
         "number": "22",
         "originalText": "Vigilance (Attacking doesn't cause this creature to tap.)\n{8}: Razorgrass Invoker and up to one other target creature each get +3/+3 until end of turn.",
+        "originalType": "Creature – Elf Scout",
         "power": "4",
         "printings": [
           "J25"
@@ -342,9 +369,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "68bd48de-986a-53d7-9bf3-6563413416ad"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -379,39 +411,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 4342,
+        "edhrecRank": 3101,
         "edhrecSaltiness": 0.39,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"My people are like the great magnigoth trees. We've seen ice, flood, invasions, and wars, yet our roots remain strong.\"",
         "foreignData": [
-          {
-            "flavorText": "„Mein Volk ist wie die großen Magnigothbäume. Wir haben Eiszeit, Fluten, Invasionen und Kriege erlebt, doch unsere Wurzeln bleiben stark.\"",
-            "identifiers": {
-              "multiverseId": "680979",
-              "scryfallId": "ce9d9a51-9a82-4fdc-95fe-d4b7ed8bb954"
-            },
-            "language": "German",
-            "multiverseId": 680979,
-            "name": "Dionus, elfischer Erzdruide",
-            "text": "Elfen, die du kontrollierst, haben „Immer wenn diese Kreatur während deines Zuges getappt wird, enttappe sie und lege eine +1/+1-Marke auf sie. Diese Fähigkeit wird nur einmal pro Zug ausgelöst.\"",
-            "type": "Legendäre Kreatur — Elf, Druide",
-            "uuid": "d3892baf-974a-5f16-95b2-cb6947d12e6a"
-          },
-          {
-            "flavorText": "\"Mi pueblo es como los grandes árboles mágnigoth. Sufrimos heladas, inundaciones, invasiones y guerras, pero nuestras raíces se siguen manteniendo fuertes\".",
-            "identifiers": {
-              "multiverseId": "681006",
-              "scryfallId": "7c355ed6-32ed-4eb5-951f-d5e67568c334"
-            },
-            "language": "Spanish",
-            "multiverseId": 681006,
-            "name": "Dionus, archidruida élfico",
-            "text": "Los Elfos que controlas tienen \"Siempre que esta criatura se gire durante tu turno, enderézala y pon un contador +1/+1 sobre ella. Esta habilidad solo se dispara una vez por turno\".",
-            "type": "Criatura legendaria — Druida elfo",
-            "uuid": "6b6dbcd4-9823-52cb-8cbc-a84df84bf2b5"
-          },
           {
             "flavorText": "« Mon peuple est comme les grands magnigoths. Nous avons connu le gel, les inondations, les invasions et la guerre, et pourtant nos racines sont toujours aussi solides. »",
             "identifiers": {
@@ -421,9 +427,28 @@
             "language": "French",
             "multiverseId": 681033,
             "name": "Dionus, archidruide elfe",
+            "skuIds": {
+              "nonfoil": "6192c94e-d53d-5b75-a717-0efb9a028dfd"
+            },
             "text": "Les elfes que vous contrôlez ont « À chaque fois que cette créature devient engagée pendant votre tour, dégagez-la et mettez un marqueur +1/+1 sur elle. Cette capacité ne se déclenche qu'une seule fois par tour. »",
             "type": "Créature légendaire — elfe et druide",
             "uuid": "e3630cca-a077-5cbb-849d-d9d3f2646bde"
+          },
+          {
+            "flavorText": "„Mein Volk ist wie die großen Magnigothbäume. Wir haben Eiszeit, Fluten, Invasionen und Kriege erlebt, doch unsere Wurzeln bleiben stark.\"",
+            "identifiers": {
+              "multiverseId": "680979",
+              "scryfallId": "ce9d9a51-9a82-4fdc-95fe-d4b7ed8bb954"
+            },
+            "language": "German",
+            "multiverseId": 680979,
+            "name": "Dionus, elfischer Erzdruide",
+            "skuIds": {
+              "nonfoil": "f1d87408-b317-5666-9839-749095606694"
+            },
+            "text": "Elfen, die du kontrollierst, haben „Immer wenn diese Kreatur während deines Zuges getappt wird, enttappe sie und lege eine +1/+1-Marke auf sie. Diese Fähigkeit wird nur einmal pro Zug ausgelöst.\"",
+            "type": "Legendäre Kreatur — Elf, Druide",
+            "uuid": "d3892baf-974a-5f16-95b2-cb6947d12e6a"
           },
           {
             "flavorText": "\"Il mio popolo è come i grandi alberi magnigoth. Abbiamo affrontato ghiaccio, inondazioni, invasioni e guerre, ma le nostre radici sono salde.\"",
@@ -434,6 +459,9 @@
             "language": "Italian",
             "multiverseId": 681060,
             "name": "Dionus, Arcidruido Elfico",
+            "skuIds": {
+              "nonfoil": "969fc707-049d-58d4-b654-182e5ca0f962"
+            },
             "text": "Gli Elfi che controlli hanno \"Ogniqualvolta questa creatura viene TAPpata durante il tuo turno, STAPpala e metti un segnalino +1/+1 su di essa. Questa abilità si innesca solo una volta per turno\".",
             "type": "Creatura Leggendaria — Druido Elfo",
             "uuid": "f09f4cd3-76b2-54c9-9bcc-1819273910c2"
@@ -447,17 +475,34 @@
             "language": "Japanese",
             "multiverseId": 681087,
             "name": "エルフの大ドルイド、ダイオヌス",
+            "skuIds": {
+              "nonfoil": "3ac78b6c-8153-51c5-8bfc-5ee07e53faa6"
+            },
             "text": "あなたがコントロールしているすべてのエルフは「あなたのターン中にこのクリーチャーがタップ状態になるたび、これをアンタップし、これの上に＋１/＋１カウンター１個を置く。この能力は、毎ターン１回しか誘発しない。」を持つ。",
             "type": "伝説のクリーチャー — エルフ・ドルイド",
             "uuid": "d4bedc9f-4e02-513f-ba48-18f4c56c3bbc"
+          },
+          {
+            "flavorText": "\"Mi pueblo es como los grandes árboles mágnigoth. Sufrimos heladas, inundaciones, invasiones y guerras, pero nuestras raíces se siguen manteniendo fuertes\".",
+            "identifiers": {
+              "multiverseId": "681006",
+              "scryfallId": "7c355ed6-32ed-4eb5-951f-d5e67568c334"
+            },
+            "language": "Spanish",
+            "multiverseId": 681006,
+            "name": "Dionus, archidruida élfico",
+            "skuIds": {
+              "nonfoil": "525a5090-316a-525d-8013-b199c96a3384"
+            },
+            "text": "Los Elfos que controlas tienen \"Siempre que esta criatura se gire durante tu turno, enderézala y pon un contador +1/+1 sobre ella. Esta habilidad solo se dispara una vez por turno\".",
+            "type": "Criatura legendaria — Druida elfo",
+            "uuid": "6b6dbcd4-9823-52cb-8cbc-a84df84bf2b5"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305186",
           "cardsphereId": "130826",
@@ -476,7 +521,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -500,6 +544,7 @@
         "name": "Dionus, Elvish Archdruid",
         "number": "52",
         "originalText": "Elves you control have \"Whenever this creature becomes tapped during your turn, untap it and put a +1/+1 counter on it. This ability triggers only once each turn.\"",
+        "originalType": "Legendary Creature – Elf Druid",
         "power": "3",
         "printings": [
           "J25"
@@ -533,9 +578,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ec78a853-8f1c-5479-abd9-62b0d96085eb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -571,39 +621,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 2114,
+        "edhrecRank": 2181,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"If you cling to the safety of the roots, you'll never climb high enough to see through the canopy.\"",
         "foreignData": [
-          {
-            "flavorText": "„Wer sich an die Sicherheit der Wurzeln klammert, wird nie hoch genug klettern, um durch das Blätterdach zu blicken.\"",
-            "identifiers": {
-              "multiverseId": "681610",
-              "scryfallId": "db2c2cff-63b5-427c-b93d-89c2ac62f200"
-            },
-            "language": "German",
-            "multiverseId": 681610,
-            "name": "Elfischer Visionär",
-            "text": "Wenn der Elfische Visionär ins Spiel kommt, ziehe eine Karte.",
-            "type": "Kreatur — Elf, Schamane",
-            "uuid": "1992064b-b111-5f21-8136-6bb6893130e2"
-          },
-          {
-            "flavorText": "\"Si te aferras a la seguridad de las raíces, nunca llegarás lo suficientemente alto como para contemplar las copas de los árboles\".",
-            "identifiers": {
-              "multiverseId": "681671",
-              "scryfallId": "1f866546-5e45-4a02-a73b-3ef5cd723509"
-            },
-            "language": "Spanish",
-            "multiverseId": 681671,
-            "name": "Visionaria élfica",
-            "text": "Cuando la Visionaria élfica entre, roba una carta.",
-            "type": "Criatura — Chamán elfo",
-            "uuid": "02984ac7-190a-5cb9-8c79-469e19f5829a"
-          },
           {
             "flavorText": "« Si vous restez accroché aux racines, vous ne grimperez jamais assez haut pour voir à travers la canopée. »",
             "identifiers": {
@@ -613,9 +637,28 @@
             "language": "French",
             "multiverseId": 681732,
             "name": "Visionnaire elfe",
+            "skuIds": {
+              "nonfoil": "f0ceb01e-08d2-5b04-983a-df2d5d34f030"
+            },
             "text": "Quand la Visionnaire elfe arrive, piochez une carte.",
             "type": "Créature — elfe et shamane",
             "uuid": "f4b9b9cb-9e6d-5c7c-b257-e88599c46838"
+          },
+          {
+            "flavorText": "„Wer sich an die Sicherheit der Wurzeln klammert, wird nie hoch genug klettern, um durch das Blätterdach zu blicken.\"",
+            "identifiers": {
+              "multiverseId": "681610",
+              "scryfallId": "db2c2cff-63b5-427c-b93d-89c2ac62f200"
+            },
+            "language": "German",
+            "multiverseId": 681610,
+            "name": "Elfischer Visionär",
+            "skuIds": {
+              "nonfoil": "e5677369-8a6d-59f9-9ae8-4cfe6366e214"
+            },
+            "text": "Wenn der Elfische Visionär ins Spiel kommt, ziehe eine Karte.",
+            "type": "Kreatur — Elf, Schamane",
+            "uuid": "1992064b-b111-5f21-8136-6bb6893130e2"
           },
           {
             "flavorText": "\"Se ti aggrappi alla sicurezza delle radici, non salirai mai abbastanza per vedere oltre la chioma.\"",
@@ -626,6 +669,9 @@
             "language": "Italian",
             "multiverseId": 681793,
             "name": "Elfa Visionaria",
+            "skuIds": {
+              "nonfoil": "292b6c24-8886-5f54-a06e-cfbc445c5a42"
+            },
             "text": "Quando l'Elfa Visionaria entra, pesca una carta.",
             "type": "Creatura — Sciamano Elfo",
             "uuid": "39c0689a-b295-5fd4-8eff-23f5dde1a2b5"
@@ -639,14 +685,31 @@
             "language": "Japanese",
             "multiverseId": 681854,
             "name": "エルフの幻想家",
+            "skuIds": {
+              "nonfoil": "3ee29b2d-b5ae-54e2-8748-11d0a79e9708"
+            },
             "text": "エルフの幻想家が戦場に出たとき、カード１枚を引く。",
             "type": "クリーチャー — エルフ・シャーマン",
             "uuid": "39699d37-fba7-5412-ba9d-edee06cfdd27"
+          },
+          {
+            "flavorText": "\"Si te aferras a la seguridad de las raíces, nunca llegarás lo suficientemente alto como para contemplar las copas de los árboles\".",
+            "identifiers": {
+              "multiverseId": "681671",
+              "scryfallId": "1f866546-5e45-4a02-a73b-3ef5cd723509"
+            },
+            "language": "Spanish",
+            "multiverseId": 681671,
+            "name": "Visionaria élfica",
+            "skuIds": {
+              "nonfoil": "53fca110-a7fa-5592-ba2f-025bf03bdf22"
+            },
+            "text": "Cuando la Visionaria élfica entre, roba una carta.",
+            "type": "Criatura — Chamán elfo",
+            "uuid": "02984ac7-190a-5cb9-8c79-469e19f5829a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305279",
           "cardsphereId": "131045",
@@ -665,7 +728,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -690,6 +752,7 @@
         "name": "Elvish Visionary",
         "number": "145",
         "originalText": "When Elvish Visionary enters, draw a card.",
+        "originalType": "Creature – Elf Shaman",
         "power": "1",
         "printings": [
           "ALA",
@@ -721,9 +784,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5379ec07-6908-5a13-91fe-3efcf419e015"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -757,39 +825,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 62,
+        "edhrecRank": 63,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"This forest is your birthright. From now until your final breath, you and Llanowar are bound. Keep each other safe.\"",
         "foreignData": [
-          {
-            "flavorText": "„Dieser Wald ist dein Geburtsrecht. Von nun an bis zu deinem letzten Atemzug seid du und Llanowar aneinander gebunden. Beschützt einander gut.\"",
-            "identifiers": {
-              "multiverseId": "681614",
-              "scryfallId": "f13d5f00-f126-4bdd-9afe-9384850cbb69"
-            },
-            "language": "German",
-            "multiverseId": 681614,
-            "name": "Llanowarelfen",
-            "text": "{T}: Erzeuge {G}.",
-            "type": "Kreatur — Elf, Druide",
-            "uuid": "633b7217-47d6-5371-805f-938fe120c2b0"
-          },
-          {
-            "flavorText": "\"Este bosque te pertenece por derecho. A partir de hoy y hasta que exhales tu último aliento, estás vinculado a Llanowar. Debes mantenerlo a salvo, como él hará contigo\".",
-            "identifiers": {
-              "multiverseId": "681675",
-              "scryfallId": "07365081-e7d3-480c-9976-1198781137ca"
-            },
-            "language": "Spanish",
-            "multiverseId": 681675,
-            "name": "Elfos de Llanowar",
-            "text": "{T}: Agrega {G}.",
-            "type": "Criatura — Druida elfo",
-            "uuid": "307c61e7-7731-5174-a666-3ebcfce1740c"
-          },
           {
             "flavorText": "« Cette forêt est ton droit de naissance. Llanowar et toi êtes liés de ta première inspiration jusqu'à ton dernier souffle. Protégez-vous l'un l'autre. »",
             "identifiers": {
@@ -799,9 +841,28 @@
             "language": "French",
             "multiverseId": 681736,
             "name": "Elfes de Llanowar",
+            "skuIds": {
+              "nonfoil": "cdcbea69-48f6-5657-a93b-b6fcdabb8b50"
+            },
             "text": "{T} : Ajoutez {G}.",
             "type": "Créature — elfe et druide",
             "uuid": "b5275267-0bf4-5dbe-8360-25d1a1eb53aa"
+          },
+          {
+            "flavorText": "„Dieser Wald ist dein Geburtsrecht. Von nun an bis zu deinem letzten Atemzug seid du und Llanowar aneinander gebunden. Beschützt einander gut.\"",
+            "identifiers": {
+              "multiverseId": "681614",
+              "scryfallId": "f13d5f00-f126-4bdd-9afe-9384850cbb69"
+            },
+            "language": "German",
+            "multiverseId": 681614,
+            "name": "Llanowarelfen",
+            "skuIds": {
+              "nonfoil": "6bbfe51a-1b47-59b7-b582-96537790d3d6"
+            },
+            "text": "{T}: Erzeuge {G}.",
+            "type": "Kreatur — Elf, Druide",
+            "uuid": "633b7217-47d6-5371-805f-938fe120c2b0"
           },
           {
             "flavorText": "\"Questa foresta è tua di diritto. Da ora fino al tuo ultimo respiro, tu e Llanowar siete legati. Tenetevi al sicuro a vicenda.\"",
@@ -812,6 +873,9 @@
             "language": "Italian",
             "multiverseId": 681797,
             "name": "Elfi di Llanowar",
+            "skuIds": {
+              "nonfoil": "8d4d00c9-8c57-5c77-857a-fbe81c156fd7"
+            },
             "text": "{T}: Aggiungi {G}.",
             "type": "Creatura — Druido Elfo",
             "uuid": "e8342b92-5ef9-54e4-8193-0ab3593ce4d5"
@@ -825,14 +889,31 @@
             "language": "Japanese",
             "multiverseId": 681858,
             "name": "ラノワールのエルフ",
+            "skuIds": {
+              "nonfoil": "adbade6d-adf7-5020-aaca-3e0b34d810ca"
+            },
             "text": "{T}：{G}を加える。",
             "type": "クリーチャー — エルフ・ドルイド",
             "uuid": "f0f5d9e6-0ec3-5973-b6b7-0523c83beeef"
+          },
+          {
+            "flavorText": "\"Este bosque te pertenece por derecho. A partir de hoy y hasta que exhales tu último aliento, estás vinculado a Llanowar. Debes mantenerlo a salvo, como él hará contigo\".",
+            "identifiers": {
+              "multiverseId": "681675",
+              "scryfallId": "07365081-e7d3-480c-9976-1198781137ca"
+            },
+            "language": "Spanish",
+            "multiverseId": 681675,
+            "name": "Elfos de Llanowar",
+            "skuIds": {
+              "nonfoil": "9be8c1e0-a70d-50a4-b13b-62afbc46d2a8"
+            },
+            "text": "{T}: Agrega {G}.",
+            "type": "Criatura — Druida elfo",
+            "uuid": "307c61e7-7731-5174-a666-3ebcfce1740c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305283",
           "cardsphereId": "131050",
@@ -851,7 +932,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -880,6 +960,7 @@
         "name": "Llanowar Elves",
         "number": "149",
         "originalText": "{T}: Add {G}.",
+        "originalType": "Creature – Elf Druid",
         "power": "1",
         "printings": [
           "10E",
@@ -931,6 +1012,9 @@
           "WC02",
           "WC99"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/d6b74b8f26780653",
           "cardmarket": "https://mtgjson.com/links/0cf04caad7a293ab",
@@ -938,9 +1022,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "06ee4ede-278e-5fb9-b56a-6a475ab5886e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -974,39 +1063,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 8927,
+        "edhrecRank": 9021,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Even war cannot dull Skemfar's beauty.",
         "foreignData": [
-          {
-            "flavorText": "Selbst Krieg tut der Schönheit von Skemfar keinen Abbruch.",
-            "identifiers": {
-              "multiverseId": "683392",
-              "scryfallId": "a99a6c53-f930-4bdd-81c0-ba512676ebda"
-            },
-            "language": "German",
-            "multiverseId": 683392,
-            "name": "Segen von Skemfar",
-            "text": "Decke die obersten sechs Karten deiner Bibliothek auf. Du kannst davon bis zu eine Länderkarte getappt ins Spiel bringen und bis zu eine Elf-Karte davon auf deine Hand nehmen. Lege den Rest in zufälliger Reihenfolge unter deine Bibliothek.",
-            "type": "Hexerei",
-            "uuid": "540559e8-62d0-5f95-b3f7-8722f02f2bfd"
-          },
-          {
-            "flavorText": "Ni la guerra es capaz de mermar la belleza de Skemfar.",
-            "identifiers": {
-              "multiverseId": "683514",
-              "scryfallId": "e9435e80-45e6-423f-93de-715604390855"
-            },
-            "language": "Spanish",
-            "multiverseId": 683514,
-            "name": "Abundancia de Skemfar",
-            "text": "Muestra las seis primeras cartas de tu biblioteca. Puedes poner en el campo de batalla girada hasta una carta de tierra de entre ellas y en tu mano hasta una carta de Elfo de entre ellas. Pon el resto en el fondo de tu biblioteca en un orden aleatorio.",
-            "type": "Conjuro",
-            "uuid": "98319357-fee0-56b6-a039-3ff796d31deb"
-          },
           {
             "flavorText": "Même la guerre ne peut estomper la beauté de Skemfar.",
             "identifiers": {
@@ -1016,9 +1079,28 @@
             "language": "French",
             "multiverseId": 683636,
             "name": "Don de Skemfar",
+            "skuIds": {
+              "nonfoil": "d828c62b-b516-5e20-b68e-a10619342e5c"
+            },
             "text": "Révélez les six cartes du dessus de votre bibliothèque. Vous pouvez mettre, engagée, jusqu'à une carte de terrain parmi elles sur le champ de bataille, et jusqu'à une carte d'elfe parmi elles dans votre main. Mettez le reste au-dessous de votre bibliothèque dans un ordre aléatoire.",
             "type": "Rituel",
             "uuid": "81975e32-0b90-5bb3-8dc6-75ebb6472021"
+          },
+          {
+            "flavorText": "Selbst Krieg tut der Schönheit von Skemfar keinen Abbruch.",
+            "identifiers": {
+              "multiverseId": "683392",
+              "scryfallId": "a99a6c53-f930-4bdd-81c0-ba512676ebda"
+            },
+            "language": "German",
+            "multiverseId": 683392,
+            "name": "Segen von Skemfar",
+            "skuIds": {
+              "nonfoil": "a21fbb90-2cb0-5743-8841-89aec482d909"
+            },
+            "text": "Decke die obersten sechs Karten deiner Bibliothek auf. Du kannst davon bis zu eine Länderkarte getappt ins Spiel bringen und bis zu eine Elf-Karte davon auf deine Hand nehmen. Lege den Rest in zufälliger Reihenfolge unter deine Bibliothek.",
+            "type": "Hexerei",
+            "uuid": "540559e8-62d0-5f95-b3f7-8722f02f2bfd"
           },
           {
             "flavorText": "Nemmeno la guerra può offuscare la bellezza di Skemfar.",
@@ -1029,6 +1111,9 @@
             "language": "Italian",
             "multiverseId": 683758,
             "name": "Abbondanza di Skemfar",
+            "skuIds": {
+              "nonfoil": "6ce341b1-3079-51ff-a088-9c3413441255"
+            },
             "text": "Rivela le prime sei carte del tuo grimorio. Puoi mettere fino a una carta terra scelta tra esse sul campo di battaglia TAPpata e aggiungere fino a una carta Elfo scelta tra esse alla tua mano. Metti le altre in fondo al tuo grimorio in ordine casuale.",
             "type": "Stregoneria",
             "uuid": "ee6067a9-4fe4-5a83-b0cc-c1de986ea398"
@@ -1042,14 +1127,31 @@
             "language": "Japanese",
             "multiverseId": 683880,
             "name": "スケムファーの報奨",
+            "skuIds": {
+              "nonfoil": "fb85077e-0a17-5c9c-a3e5-f70aba4cd0be"
+            },
             "text": "あなたのライブラリーの一番上にあるカード６枚を公開する。その中から、土地・カード最大１枚をタップ状態で戦場に、エルフ・カード最大１枚をあなたの手札に加える。残りをあなたのライブラリーの一番下に無作為の順番で置く。",
             "type": "ソーサリー",
             "uuid": "5eb7fe5d-9f3c-54ed-9275-d65c6058a589"
+          },
+          {
+            "flavorText": "Ni la guerra es capaz de mermar la belleza de Skemfar.",
+            "identifiers": {
+              "multiverseId": "683514",
+              "scryfallId": "e9435e80-45e6-423f-93de-715604390855"
+            },
+            "language": "Spanish",
+            "multiverseId": 683514,
+            "name": "Abundancia de Skemfar",
+            "skuIds": {
+              "nonfoil": "75898ce5-4176-5b38-b231-9a2ed3d4d3b1"
+            },
+            "text": "Muestra las seis primeras cartas de tu biblioteca. Puedes poner en el campo de batalla girada hasta una carta de tierra de entre ellas y en tu mano hasta una carta de Elfo de entre ellas. Pon el resto en el fondo de tu biblioteca en un orden aleatorio.",
+            "type": "Conjuro",
+            "uuid": "98319357-fee0-56b6-a039-3ff796d31deb"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305977",
           "cardsphereId": "130943",
@@ -1086,6 +1188,7 @@
         "name": "Bounty of Skemfar",
         "number": "638",
         "originalText": "Reveal the top six cards of your library. You may put up to one land card from among them onto the battlefield tapped and up to one Elf card from among them into your hand. Put the rest on the bottom of your library in a random order.",
+        "originalType": "Sorcery",
         "printings": [
           "J25",
           "KHC"
@@ -1097,9 +1200,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9ed91fe9-89cf-5e49-bc44-c1831162c7de"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1129,39 +1237,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 7301,
+        "edhrecRank": 6194,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Come, my beautiful brothers and sisters. Let us hunt.\"\n—Dwynen, Gilt-Leaf daen",
         "foreignData": [
-          {
-            "flavorText": "„Kommt, meine entzückenden Brüder und Schwestern. Lasst uns jagen.\"\n—Dwynen, Güldenlaub-Daen",
-            "identifiers": {
-              "multiverseId": "683408",
-              "scryfallId": "9b47f8c3-3e16-4b3f-99a2-3751c32f02ad"
-            },
-            "language": "German",
-            "multiverseId": 683408,
-            "name": "Dwynens Elitekrieger",
-            "text": "Wenn Dwynens Elitekrieger ins Spiel kommen und falls du einen anderen Elfen kontrollierst, erzeuge einen 1/1 grünen Elf-Krieger-Kreaturenspielstein.",
-            "type": "Kreatur — Elf, Krieger",
-            "uuid": "7ca0a899-52b1-50d5-8a08-029e6e157c50"
-          },
-          {
-            "flavorText": "\"Vengan, mis bellos hermanos y hermanas. Cacemos\".\n—Dwynen, daena de Hojas Doradas",
-            "identifiers": {
-              "multiverseId": "683530",
-              "scryfallId": "7df5bb2e-14ef-4dcc-ac86-31d4ad085e0a"
-            },
-            "language": "Spanish",
-            "multiverseId": 683530,
-            "name": "Élite de Dwynen",
-            "text": "Cuando la Élite de Dwynen entre, si controlas otro Elfo, crea una ficha de criatura Guerrero Elfo verde 1/1.",
-            "type": "Criatura — Guerrero elfo",
-            "uuid": "b23de6ea-fdf9-50b1-bd4e-27d3e8d9c436"
-          },
           {
             "flavorText": "« Venez, frères et sœurs de beauté. Partons chasser. »\n—Dwynen, daen de Feuilledor",
             "identifiers": {
@@ -1171,9 +1253,28 @@
             "language": "French",
             "multiverseId": 683652,
             "name": "Élite de Dwynen",
+            "skuIds": {
+              "nonfoil": "98183692-df24-5570-bf94-7a95e9920de2"
+            },
             "text": "Quand l'Élite de Dwynen arrive, si vous contrôlez un autre elfe, créez un jeton de créature 1/1 verte Elfe et Guerrier.",
             "type": "Créature — elfe et guerrier",
             "uuid": "73344310-7f23-5da0-9839-aa84aefb2f42"
+          },
+          {
+            "flavorText": "„Kommt, meine entzückenden Brüder und Schwestern. Lasst uns jagen.\"\n—Dwynen, Güldenlaub-Daen",
+            "identifiers": {
+              "multiverseId": "683408",
+              "scryfallId": "9b47f8c3-3e16-4b3f-99a2-3751c32f02ad"
+            },
+            "language": "German",
+            "multiverseId": 683408,
+            "name": "Dwynens Elitekrieger",
+            "skuIds": {
+              "nonfoil": "0c8cf593-14bc-5a11-8678-ff4b4fefbb6e"
+            },
+            "text": "Wenn Dwynens Elitekrieger ins Spiel kommen und falls du einen anderen Elfen kontrollierst, erzeuge einen 1/1 grünen Elf-Krieger-Kreaturenspielstein.",
+            "type": "Kreatur — Elf, Krieger",
+            "uuid": "7ca0a899-52b1-50d5-8a08-029e6e157c50"
           },
           {
             "flavorText": "\"Venite, miei splendidi fratelli e sorelle. Andiamo a caccia.\"\n—Dwynen, Daen di Foglia Dorata",
@@ -1184,6 +1285,9 @@
             "language": "Italian",
             "multiverseId": 683774,
             "name": "Elite di Dwynen",
+            "skuIds": {
+              "nonfoil": "60a31554-72b1-59d6-b7c8-7a74ba9afa75"
+            },
             "text": "Quando l'Elite di Dwynen entra, se controlli un altro Elfo, crea una pedina creatura Guerriero Elfo 1/1 verde.",
             "type": "Creatura — Guerriero Elfo",
             "uuid": "7dac2e65-baf6-5508-8739-828e73b5d292"
@@ -1197,14 +1301,31 @@
             "language": "Japanese",
             "multiverseId": 683896,
             "name": "ドゥイネンの精鋭",
+            "skuIds": {
+              "nonfoil": "e1e204e2-c060-5550-94c4-ce9a77e46f2f"
+            },
             "text": "ドゥイネンの精鋭が戦場に出たとき、あなたがこれでないエルフをコントロールしている場合、緑の１/１のエルフ・戦士・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — エルフ・戦士",
             "uuid": "57dfca21-0cda-59dc-afd1-ff6b0013520c"
+          },
+          {
+            "flavorText": "\"Vengan, mis bellos hermanos y hermanas. Cacemos\".\n—Dwynen, daena de Hojas Doradas",
+            "identifiers": {
+              "multiverseId": "683530",
+              "scryfallId": "7df5bb2e-14ef-4dcc-ac86-31d4ad085e0a"
+            },
+            "language": "Spanish",
+            "multiverseId": 683530,
+            "name": "Élite de Dwynen",
+            "skuIds": {
+              "nonfoil": "8f20dc43-e755-563c-9991-1271e7b88787"
+            },
+            "text": "Cuando la Élite de Dwynen entre, si controlas otro Elfo, crea una ficha de criatura Guerrero Elfo verde 1/1.",
+            "type": "Criatura — Guerrero elfo",
+            "uuid": "b23de6ea-fdf9-50b1-bd4e-27d3e8d9c436"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305993",
           "cardsphereId": "130863",
@@ -1249,6 +1370,7 @@
         "name": "Dwynen's Elite",
         "number": "654",
         "originalText": "When Dwynen's Elite enters, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
+        "originalType": "Creature – Elf Warrior",
         "power": "2",
         "printings": [
           "DDU",
@@ -1265,6 +1387,11 @@
           "tcgplayer": "https://mtgjson.com/links/6df086c0045c6b0e"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "73b705e5-0868-50dc-aff2-73f0d36de975"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -1272,9 +1399,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "faa70192-d046-556d-ac18-787244c12642"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1308,38 +1440,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 21161,
+        "edhrecRank": 21792,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
-        "flavorText": "Slicing girders, rescuing trapped workers, killing\ngigantic rust flies—one tool does it all!",
+        "flavorText": "Slicing girders, rescuing trapped workers, killing gigantic rust flies—one tool does it all!",
         "foreignData": [
-          {
-            "flavorText": "Träger zerschneiden, eingeklemmte Arbeiter retten, gigantische Rostfliegen töten — ein Werkzeug, das alles kann!",
-            "identifiers": {
-              "multiverseId": "683424",
-              "scryfallId": "a3007f5e-8492-4fa0-8413-f95446f57ab9"
-            },
-            "language": "German",
-            "multiverseId": 683424,
-            "name": "Wolkenkratzer-Sägespezialist",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn der Wolkenkratzer-Sägespezialist eine fliegende Kreatur blockt, erhält er +2/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elf, Bürger",
-            "uuid": "73286d81-b8ad-5962-aedc-0c9380ee9cf5"
-          },
-          {
-            "flavorText": "Cortar vigas, rescatar a trabajadores atrapados, matar moscas gigantes... ¡Una herramienta para todo!",
-            "identifiers": {
-              "multiverseId": "683546",
-              "scryfallId": "ce87c595-b8a9-490f-8015-e79b42137b4f"
-            },
-            "language": "Spanish",
-            "multiverseId": 683546,
-            "name": "Experta en sierras de altura",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que la Experta en sierras de altura bloquee una criatura con la habilidad de volar, la Experta en sierras de altura obtiene +2/+0 hasta el final del turno.",
-            "type": "Criatura — Ciudadano elfo",
-            "uuid": "f324fbc5-ed33-54a8-aad8-737f862d909e"
-          },
           {
             "flavorText": "Découper des poutres, sauver des ouvriers piégés, tuer des mouches de rouille géantes : cet outil peut tout faire !",
             "identifiers": {
@@ -1349,9 +1456,28 @@
             "language": "French",
             "multiverseId": 683668,
             "name": "Scieur à tout faire de gratte-ciel",
+            "skuIds": {
+              "nonfoil": "dd2c4b43-7448-5860-b9e6-16ae7919929d"
+            },
             "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nÀ chaque fois que le Scieur à tout faire de gratte-ciel bloque une créature avec le vol, le Scieur à tout faire de gratte-ciel gagne +2/+0 jusqu'à la fin du tour.",
             "type": "Créature — elfe et citoyen",
             "uuid": "5f2066a9-b26c-5c27-b346-aaf292489ba7"
+          },
+          {
+            "flavorText": "Träger zerschneiden, eingeklemmte Arbeiter retten, gigantische Rostfliegen töten — ein Werkzeug, das alles kann!",
+            "identifiers": {
+              "multiverseId": "683424",
+              "scryfallId": "a3007f5e-8492-4fa0-8413-f95446f57ab9"
+            },
+            "language": "German",
+            "multiverseId": 683424,
+            "name": "Wolkenkratzer-Sägespezialist",
+            "skuIds": {
+              "nonfoil": "ab9692bb-f693-5d6a-beb4-e047e18e8285"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn der Wolkenkratzer-Sägespezialist eine fliegende Kreatur blockt, erhält er +2/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Elf, Bürger",
+            "uuid": "73286d81-b8ad-5962-aedc-0c9380ee9cf5"
           },
           {
             "flavorText": "Affettare travi, salvare lavoratori intrappolati, uccidere gigantesche mosche della ruggine... un solo strumento serve a tutto!",
@@ -1362,6 +1488,9 @@
             "language": "Italian",
             "multiverseId": 683790,
             "name": "Seghettatrice ad Alta Quota",
+            "skuIds": {
+              "nonfoil": "f8305b03-c734-5260-b061-0486029ac86d"
+            },
             "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nOgniqualvolta la Seghettatrice ad Alta Quota blocca una creatura con volare, la Seghettatrice ad Alta Quota prende +2/+0 fino alla fine del turno.",
             "type": "Creatura — Cittadino Elfo",
             "uuid": "723385d9-1b05-5aaf-a71d-fc99e9530e8c"
@@ -1375,14 +1504,31 @@
             "language": "Japanese",
             "multiverseId": 683912,
             "name": "高層の鋸術屋",
+            "skuIds": {
+              "nonfoil": "e5e2db39-3698-5c7e-a70d-950d65689f3d"
+            },
             "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\n高層の鋸術屋が飛行を持つクリーチャー１体をブロックするたび、ターン終了時まで、高層の鋸術屋は＋２/＋０の修整を受ける。",
             "type": "クリーチャー — エルフ・市民",
             "uuid": "572fb56e-8d73-5cc9-a3d2-84cc53d29049"
+          },
+          {
+            "flavorText": "Cortar vigas, rescatar a trabajadores atrapados, matar moscas gigantes... ¡Una herramienta para todo!",
+            "identifiers": {
+              "multiverseId": "683546",
+              "scryfallId": "ce87c595-b8a9-490f-8015-e79b42137b4f"
+            },
+            "language": "Spanish",
+            "multiverseId": 683546,
+            "name": "Experta en sierras de altura",
+            "skuIds": {
+              "nonfoil": "dbab831b-c855-58a1-bf64-4be3d6aa9f10"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que la Experta en sierras de altura bloquee una criatura con la habilidad de volar, la Experta en sierras de altura obtiene +2/+0 hasta el final del turno.",
+            "type": "Criatura — Ciudadano elfo",
+            "uuid": "f324fbc5-ed33-54a8-aad8-737f862d909e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306009",
           "cardsphereId": "130841",
@@ -1425,6 +1571,7 @@
         "name": "High-Rise Sawjack",
         "number": "670",
         "originalText": "Reach (This creature can block creatures with flying.)\nWhenever High-Rise Sawjack blocks a creature with flying, High-Rise Sawjack gets +2/+0 until end of turn.",
+        "originalType": "Creature – Elf Citizen",
         "power": "2",
         "printings": [
           "J25",
@@ -1437,9 +1584,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6c500176-7ea2-5554-bbc4-289128e95ace"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1473,39 +1625,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 18202,
+        "edhrecRank": 18879,
         "edhrecSaltiness": 0.62,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The hunt ends. Lunch begins.",
         "foreignData": [
-          {
-            "flavorText": "Die Jagd ist zu Ende. Das Mittagessen beginnt.",
-            "identifiers": {
-              "multiverseId": "683425",
-              "scryfallId": "99353c55-1723-4884-adf5-8c45a0008d6c"
-            },
-            "language": "German",
-            "multiverseId": 683425,
-            "name": "Vorteil des Jägers",
-            "text": "Lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst. Dann fügt sie einer Kreatur deiner Wahl, die du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
-            "type": "Hexerei",
-            "uuid": "d28648a5-ef7e-57a7-95d7-b13230515229"
-          },
-          {
-            "flavorText": "La caza acaba. Comienza la comida.",
-            "identifiers": {
-              "multiverseId": "683547",
-              "scryfallId": "7a5ae923-38d7-4740-b7a3-41ca77314475"
-            },
-            "language": "Spanish",
-            "multiverseId": 683547,
-            "name": "Ventaja de la cazadora",
-            "text": "Pon un contador +1/+1 sobre la criatura objetivo que controlas. Luego, esa criatura hace una cantidad de daño igual a su fuerza a la criatura objetivo que no controlas.",
-            "type": "Conjuro",
-            "uuid": "872b8211-5e51-5f16-bc2c-04c4b3e17f98"
-          },
           {
             "flavorText": "La chasse est terminée. Le repas est prêt.",
             "identifiers": {
@@ -1515,9 +1641,28 @@
             "language": "French",
             "multiverseId": 683669,
             "name": "Avantage de la chasseresse",
+            "skuIds": {
+              "nonfoil": "3c8953de-a8b0-5d51-8cca-91c7f646d645"
+            },
             "text": "Mettez un marqueur +1/+1 sur une créature ciblée que vous contrôlez. Ensuite, cette créature inflige un nombre de blessures égal à sa force à une créature ciblée que vous ne contrôlez pas.",
             "type": "Rituel",
             "uuid": "98eee549-7c54-518f-8b65-9421916ad7cc"
+          },
+          {
+            "flavorText": "Die Jagd ist zu Ende. Das Mittagessen beginnt.",
+            "identifiers": {
+              "multiverseId": "683425",
+              "scryfallId": "99353c55-1723-4884-adf5-8c45a0008d6c"
+            },
+            "language": "German",
+            "multiverseId": 683425,
+            "name": "Vorteil des Jägers",
+            "skuIds": {
+              "nonfoil": "0c109334-8c43-58a2-819b-54359592bf89"
+            },
+            "text": "Lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst. Dann fügt sie einer Kreatur deiner Wahl, die du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
+            "type": "Hexerei",
+            "uuid": "d28648a5-ef7e-57a7-95d7-b13230515229"
           },
           {
             "flavorText": "La caccia è finita. Inizia il pranzo.",
@@ -1528,6 +1673,9 @@
             "language": "Italian",
             "multiverseId": 683791,
             "name": "Vantaggio del Cacciatore",
+            "skuIds": {
+              "nonfoil": "bab5d9b1-4c3a-5ef3-bbfb-1398e3c3667e"
+            },
             "text": "Metti un segnalino +1/+1 su una creatura bersaglio che controlli. Poi quella creatura infligge danno pari alla sua forza a una creatura bersaglio che non controlli.",
             "type": "Stregoneria",
             "uuid": "7b72dfdd-1e71-5b44-96ba-cb6e318896df"
@@ -1541,14 +1689,31 @@
             "language": "Japanese",
             "multiverseId": 683913,
             "name": "狩人の刃",
+            "skuIds": {
+              "nonfoil": "c1716a44-e01d-526b-9fc9-309d7bfa6fca"
+            },
             "text": "あなたがコントロールしているクリーチャー１体を対象とし、あなたがコントロールしていないクリーチャー１体を対象とする。その前者の上に＋１/＋１カウンター１個を置く。その後、その前者はその後者に、自身のパワーに等しい点数のダメージを与える。",
             "type": "ソーサリー",
             "uuid": "386dd464-78f6-5c18-a204-f97e9bb20ec5"
+          },
+          {
+            "flavorText": "La caza acaba. Comienza la comida.",
+            "identifiers": {
+              "multiverseId": "683547",
+              "scryfallId": "7a5ae923-38d7-4740-b7a3-41ca77314475"
+            },
+            "language": "Spanish",
+            "multiverseId": 683547,
+            "name": "Ventaja de la cazadora",
+            "skuIds": {
+              "nonfoil": "2b18acf6-0b1a-54f7-9e09-34866d9e46dd"
+            },
+            "text": "Pon un contador +1/+1 sobre la criatura objetivo que controlas. Luego, esa criatura hace una cantidad de daño igual a su fuerza a la criatura objetivo que no controlas.",
+            "type": "Conjuro",
+            "uuid": "872b8211-5e51-5f16-bc2c-04c4b3e17f98"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306010",
           "cardsphereId": "130839",
@@ -1590,6 +1755,7 @@
         "name": "Hunter's Edge",
         "number": "671",
         "originalText": "Put a +1/+1 counter on target creature you control. Then that creature deals damage equal to its power to target creature you don't control.",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "J25",
@@ -1617,9 +1783,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bdd3eb0a-0dc2-513e-9c7c-510246af1b68"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1649,39 +1820,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20545,
+        "edhrecRank": 20785,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Every leaf, tree, and building in Kujar has been placed to achieve maximum harmony, in accordance with the elvish philosophy known as the Great Conduit.",
         "foreignData": [
-          {
-            "flavorText": "Jedes Gebäude, jeder Baum und jedes Blatt in Kujar ist so ausgerichtet, dass entsprechend der elfischen Philosophie der Großen Verbindung die größtmögliche Harmonie erzielt wird.",
-            "identifiers": {
-              "multiverseId": "683436",
-              "scryfallId": "3dfbfe91-f292-4e78-a8ae-966ef628266e"
-            },
-            "language": "German",
-            "multiverseId": 683436,
-            "name": "Kujar-Saatformerin",
-            "text": "Wenn die Kujar-Saatformerin ins Spiel kommt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst.",
-            "type": "Kreatur — Elf, Druide",
-            "uuid": "f1b41f6a-3c3f-577d-8295-c2f1a6bf1dc2"
-          },
-          {
-            "flavorText": "Cada hoja, árbol y edificio de Kujar están colocados para infundir la máxima armonía, de acuerdo con la filosofía élfica conocida como la Panconexión.",
-            "identifiers": {
-              "multiverseId": "683558",
-              "scryfallId": "ed9296ed-6c48-48f0-bdef-5d86569f493c"
-            },
-            "language": "Spanish",
-            "multiverseId": 683558,
-            "name": "Esculpesemillas de Kujar",
-            "text": "Cuando la Esculpesemillas de Kujar entre, pon un contador +1/+1 sobre la criatura objetivo que controlas.",
-            "type": "Criatura — Druida elfo",
-            "uuid": "db0e2af4-f798-55da-90e0-0c0765ed98b5"
-          },
           {
             "flavorText": "L'emplacement de chaque feuille, chaque arbre et chaque édifice de Kujar a été choisi pour atteindre l'harmonie parfaite décrite dans la philosophie elfe du Grand conduit.",
             "identifiers": {
@@ -1691,9 +1836,28 @@
             "language": "French",
             "multiverseId": 683680,
             "name": "Entailleuse de graine de Kujar",
+            "skuIds": {
+              "nonfoil": "f28d0f69-c260-5c69-a1ac-7aa4940fe779"
+            },
             "text": "Quand l'Entailleuse de graine de Kujar arrive, mettez un marqueur +1/+1 sur une créature ciblée que vous contrôlez.",
             "type": "Créature — elfe et druide",
             "uuid": "57e08558-33ee-525d-a4e9-d08492c383b2"
+          },
+          {
+            "flavorText": "Jedes Gebäude, jeder Baum und jedes Blatt in Kujar ist so ausgerichtet, dass entsprechend der elfischen Philosophie der Großen Verbindung die größtmögliche Harmonie erzielt wird.",
+            "identifiers": {
+              "multiverseId": "683436",
+              "scryfallId": "3dfbfe91-f292-4e78-a8ae-966ef628266e"
+            },
+            "language": "German",
+            "multiverseId": 683436,
+            "name": "Kujar-Saatformerin",
+            "skuIds": {
+              "nonfoil": "7593194e-fa7f-57ff-bc87-b604cf251d97"
+            },
+            "text": "Wenn die Kujar-Saatformerin ins Spiel kommt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst.",
+            "type": "Kreatur — Elf, Druide",
+            "uuid": "f1b41f6a-3c3f-577d-8295-c2f1a6bf1dc2"
           },
           {
             "flavorText": "Le foglie, gli alberi e gli edifici di Kujar sono tutti stati collocati per favorire l'armonia, in base ai dettami della filosofia elfica del Grande Flusso.",
@@ -1704,6 +1868,9 @@
             "language": "Italian",
             "multiverseId": 683802,
             "name": "Plasmasemi di Kujar",
+            "skuIds": {
+              "nonfoil": "e412c39d-dd0a-535b-be55-11e1de6fd716"
+            },
             "text": "Quando la Plasmasemi di Kujar entra, metti un segnalino +1/+1 su una creatura bersaglio che controlli.",
             "type": "Creatura — Druido Elfo",
             "uuid": "7987f995-4c7f-50b8-bc47-6f8d4d6f625b"
@@ -1717,14 +1884,31 @@
             "language": "Japanese",
             "multiverseId": 683924,
             "name": "クジャールの種子彫刻家",
+            "skuIds": {
+              "nonfoil": "347bd6ad-73fe-5f15-9571-2505e87c2078"
+            },
             "text": "クジャールの種子彫刻家が戦場に出たとき、あなたがコントロールしているクリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — エルフ・ドルイド",
             "uuid": "8d2502a0-17d3-58b0-aff0-416331af35a2"
+          },
+          {
+            "flavorText": "Cada hoja, árbol y edificio de Kujar están colocados para infundir la máxima armonía, de acuerdo con la filosofía élfica conocida como la Panconexión.",
+            "identifiers": {
+              "multiverseId": "683558",
+              "scryfallId": "ed9296ed-6c48-48f0-bdef-5d86569f493c"
+            },
+            "language": "Spanish",
+            "multiverseId": 683558,
+            "name": "Esculpesemillas de Kujar",
+            "skuIds": {
+              "nonfoil": "f0409166-6819-54f2-aa20-c4fec6b8738e"
+            },
+            "text": "Cuando la Esculpesemillas de Kujar entre, pon un contador +1/+1 sobre la criatura objetivo que controlas.",
+            "type": "Criatura — Druida elfo",
+            "uuid": "db0e2af4-f798-55da-90e0-0c0765ed98b5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306021",
           "cardsphereId": "130816",
@@ -1766,6 +1950,7 @@
         "name": "Kujar Seedsculptor",
         "number": "682",
         "originalText": "When Kujar Seedsculptor enters, put a +1/+1 counter on target creature you control.",
+        "originalType": "Creature – Elf Druid",
         "power": "1",
         "printings": [
           "DDU",
@@ -1787,9 +1972,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a80c1e86-a72a-58e2-921f-4647f3da93d4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1823,39 +2013,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 8073,
+        "edhrecRank": 7855,
         "edhrecSaltiness": 0.31,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"There is nothing stronger than many hearts united for a single cause.\"\n—Emmara",
         "foreignData": [
-          {
-            "flavorText": "„Es gibt nichts Mächtigeres als Herzen, die vereint für eine Sache kämpfen.\"\n—Emmara",
-            "identifiers": {
-              "multiverseId": "683443",
-              "scryfallId": "a5a30e00-72aa-4ad8-9a74-0086dff0d72b"
-            },
-            "language": "German",
-            "multiverseId": 683443,
-            "name": "Die Macht der Massen",
-            "text": "Eine Kreatur deiner Wahl erhält für jede Kreatur, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "4c50eab0-8b70-52cf-b03a-7af3495717e7"
-          },
-          {
-            "flavorText": "\"No hay nada más poderoso que muchos corazones unidos por una misma causa\".\n—Emmara",
-            "identifiers": {
-              "multiverseId": "683565",
-              "scryfallId": "b624b719-1299-4530-814c-d34b982bc4cc"
-            },
-            "language": "Spanish",
-            "multiverseId": 683565,
-            "name": "Poder de las masas",
-            "text": "La criatura objetivo obtiene +1/+1 hasta el final del turno por cada criatura que controlas.",
-            "type": "Instantáneo",
-            "uuid": "6fe53151-bb27-5ea0-a047-5656a00642cb"
-          },
           {
             "flavorText": "« Il n'existe rien de plus fort qu'une multitude de cœurs unis pour une même cause. »\n—Emmara",
             "identifiers": {
@@ -1865,9 +2029,28 @@
             "language": "French",
             "multiverseId": 683687,
             "name": "Puissance des masses",
+            "skuIds": {
+              "nonfoil": "12ac9889-07ac-5817-a223-48cf5755ce26"
+            },
             "text": "Une créature ciblée gagne +1/+1 jusqu'à la fin du tour pour chaque créature que vous contrôlez.",
             "type": "Éphémère",
             "uuid": "166e3539-16f4-523d-87e5-22a5ac8721c6"
+          },
+          {
+            "flavorText": "„Es gibt nichts Mächtigeres als Herzen, die vereint für eine Sache kämpfen.\"\n—Emmara",
+            "identifiers": {
+              "multiverseId": "683443",
+              "scryfallId": "a5a30e00-72aa-4ad8-9a74-0086dff0d72b"
+            },
+            "language": "German",
+            "multiverseId": 683443,
+            "name": "Die Macht der Massen",
+            "skuIds": {
+              "nonfoil": "92446c39-d34f-5b9d-8f30-93274d35113e"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält für jede Kreatur, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "4c50eab0-8b70-52cf-b03a-7af3495717e7"
           },
           {
             "flavorText": "\"Niente è più potente di molti cuori uniti per la stessa causa.\"\n—Emmara",
@@ -1878,6 +2061,9 @@
             "language": "Italian",
             "multiverseId": 683809,
             "name": "Potere delle Masse",
+            "skuIds": {
+              "nonfoil": "193a8b3f-d992-57bb-98d3-2e15f27ad457"
+            },
             "text": "Una creatura bersaglio prende +1/+1 fino alla fine del turno per ogni creatura che controlli.",
             "type": "Istantaneo",
             "uuid": "2d93d477-76ca-5ae5-afc7-b70d3df6b419"
@@ -1891,14 +2077,31 @@
             "language": "Japanese",
             "multiverseId": 683931,
             "name": "大群の力",
+            "skuIds": {
+              "nonfoil": "b929e9b0-29fa-5e1c-b9e0-94cc8ccdb3ef"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それはあなたがコントロールしているクリーチャー１体につき＋１/＋１の修整を受ける。",
             "type": "インスタント",
             "uuid": "0610dd86-9bfe-5bc2-89c8-e622f9b97a8b"
+          },
+          {
+            "flavorText": "\"No hay nada más poderoso que muchos corazones unidos por una misma causa\".\n—Emmara",
+            "identifiers": {
+              "multiverseId": "683565",
+              "scryfallId": "b624b719-1299-4530-814c-d34b982bc4cc"
+            },
+            "language": "Spanish",
+            "multiverseId": 683565,
+            "name": "Poder de las masas",
+            "skuIds": {
+              "nonfoil": "55daa4bd-5c8e-5a7d-9447-caa6df1794e2"
+            },
+            "text": "La criatura objetivo obtiene +1/+1 hasta el final del turno por cada criatura que controlas.",
+            "type": "Instantáneo",
+            "uuid": "6fe53151-bb27-5ea0-a047-5656a00642cb"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306028",
           "cardsphereId": "130802",
@@ -1941,6 +2144,7 @@
         "name": "Might of the Masses",
         "number": "689",
         "originalText": "Target creature gets +1/+1 until end of turn for each creature you control.",
+        "originalType": "Instant",
         "printings": [
           "2XM",
           "GRN",
@@ -1968,9 +2172,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f75b1f2c-ca32-5d4e-9ee4-fae95ab20216"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2000,39 +2209,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 12371,
+        "edhrecRank": 12458,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Forward! Until the horizon is ours!\"\n—Khemses, charioteer",
         "foreignData": [
-          {
-            "flavorText": "„Vorwärts! Und noch viel weiter!\"\n—Khemses, Streitwagenlenkerin",
-            "identifiers": {
-              "multiverseId": "683450",
-              "scryfallId": "0d2d3709-6a9d-4bae-8de2-02906822495a"
-            },
-            "language": "German",
-            "multiverseId": 683450,
-            "name": "Niederreiten",
-            "text": "Kreaturen, die du kontrollierst, erhalten +2/+2 und verursachen Trampelschaden bis zum Ende des Zuges. (Jede der Kreaturen kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
-            "type": "Hexerei",
-            "uuid": "139d34be-afeb-59c9-9247-fffc2a83c8de"
-          },
-          {
-            "flavorText": "\"¡Adelante! ¡Hasta que el horizonte sea nuestro!\".\n—Khemses, auriga",
-            "identifiers": {
-              "multiverseId": "683572",
-              "scryfallId": "7627e7e7-10f6-456e-bfa0-ad86706cfc46"
-            },
-            "language": "Spanish",
-            "multiverseId": 683572,
-            "name": "En pos de la victoria",
-            "text": "Las criaturas que controlas obtienen +2/+2 y ganan la habilidad de arrollar hasta el final del turno. (Cada una de esas criaturas puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
-            "type": "Conjuro",
-            "uuid": "165e4a61-8610-52ab-b19d-dc4325e20d9d"
-          },
           {
             "flavorText": "« En avant ! Jusqu'à ce que l'horizon nous appartienne ! »\n—Khemses, aurige",
             "identifiers": {
@@ -2042,9 +2225,28 @@
             "language": "French",
             "multiverseId": 683694,
             "name": "Triompher",
+            "skuIds": {
+              "nonfoil": "a657a6a6-9d56-5e1b-b3a7-d095ac8eefca"
+            },
             "text": "Les créatures que vous contrôlez gagnent +2/+2 et acquièrent le piétinement jusqu'à la fin du tour. (Chacune de ces créatures peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)",
             "type": "Rituel",
             "uuid": "20c135c1-66ed-51aa-84e9-e12ccff2831a"
+          },
+          {
+            "flavorText": "„Vorwärts! Und noch viel weiter!\"\n—Khemses, Streitwagenlenkerin",
+            "identifiers": {
+              "multiverseId": "683450",
+              "scryfallId": "0d2d3709-6a9d-4bae-8de2-02906822495a"
+            },
+            "language": "German",
+            "multiverseId": 683450,
+            "name": "Niederreiten",
+            "skuIds": {
+              "nonfoil": "b1a4660a-8d98-5045-bc8a-4be08ba66348"
+            },
+            "text": "Kreaturen, die du kontrollierst, erhalten +2/+2 und verursachen Trampelschaden bis zum Ende des Zuges. (Jede der Kreaturen kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
+            "type": "Hexerei",
+            "uuid": "139d34be-afeb-59c9-9247-fffc2a83c8de"
           },
           {
             "flavorText": "\"Avanti! Finché l'orizzonte non sarà nostro!\"\n—Khemses, auriga",
@@ -2055,6 +2257,9 @@
             "language": "Italian",
             "multiverseId": 683816,
             "name": "Trionfare",
+            "skuIds": {
+              "nonfoil": "4d8a589c-4961-5e2c-95b4-515c15bb92fb"
+            },
             "text": "Le creature che controlli prendono +2/+2 e hanno travolgere fino alla fine del turno. (Ognuna di quelle creature può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)",
             "type": "Stregoneria",
             "uuid": "de430bb8-b52c-52f7-8b1b-c78c3383aa89"
@@ -2068,14 +2273,31 @@
             "language": "Japanese",
             "multiverseId": 683938,
             "name": "超克",
+            "skuIds": {
+              "nonfoil": "080bce2d-f471-5677-87fe-0a818f1f7c03"
+            },
             "text": "ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋２/＋２の修整を受けトランプルを得る。（それらの各クリーチャーはそれぞれ余剰の戦闘ダメージを、それが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）",
             "type": "ソーサリー",
             "uuid": "5e0ce100-8cc1-5a95-967e-a4bbd51513dd"
+          },
+          {
+            "flavorText": "\"¡Adelante! ¡Hasta que el horizonte sea nuestro!\".\n—Khemses, auriga",
+            "identifiers": {
+              "multiverseId": "683572",
+              "scryfallId": "7627e7e7-10f6-456e-bfa0-ad86706cfc46"
+            },
+            "language": "Spanish",
+            "multiverseId": 683572,
+            "name": "En pos de la victoria",
+            "skuIds": {
+              "nonfoil": "d0c65cc8-e554-53df-9095-fd0a0c282c52"
+            },
+            "text": "Las criaturas que controlas obtienen +2/+2 y ganan la habilidad de arrollar hasta el final del turno. (Cada una de esas criaturas puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
+            "type": "Conjuro",
+            "uuid": "165e4a61-8610-52ab-b19d-dc4325e20d9d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306035",
           "cardsphereId": "130792",
@@ -2114,6 +2336,7 @@
         "name": "Overcome",
         "number": "696",
         "originalText": "Creatures you control get +2/+2 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "originalType": "Sorcery",
         "printings": [
           "CLU",
           "GNT",
@@ -2136,9 +2359,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0e54f6fb-4183-5670-90fd-aba7d66ff420"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2166,39 +2394,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [
-          {
-            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
-            "identifiers": {
-              "multiverseId": "684057",
-              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
-            },
-            "language": "German",
-            "multiverseId": 684057,
-            "name": "Gedeihender Hain",
-            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
-          },
-          {
-            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
-            "identifiers": {
-              "multiverseId": "684096",
-              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
-            },
-            "language": "Spanish",
-            "multiverseId": 684096,
-            "name": "Arboleda floreciente",
-            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
-          },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
             "identifiers": {
@@ -2208,9 +2410,28 @@
             "language": "French",
             "multiverseId": 684135,
             "name": "Bosquet prospère",
+            "skuIds": {
+              "nonfoil": "51437dd3-acf7-561d-be34-2bd7b585902d"
+            },
             "text": "Le Bosquet prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "dd8a7da7-437c-510e-b6b7-9ec69e67361d"
+          },
+          {
+            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
+            "identifiers": {
+              "multiverseId": "684057",
+              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
+            },
+            "language": "German",
+            "multiverseId": 684057,
+            "name": "Gedeihender Hain",
+            "skuIds": {
+              "nonfoil": "5af71e60-aa94-54bb-8d0d-8e714c39a35d"
+            },
+            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2221,6 +2442,9 @@
             "language": "Italian",
             "multiverseId": 684174,
             "name": "Boschetto Florido",
+            "skuIds": {
+              "nonfoil": "544714bc-313e-5ca7-889b-450cfd079452"
+            },
             "text": "Il Boschetto Florido entra TAPpato. Mentre entra, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "6693c01e-35dc-5c63-98bd-89ac731d6a2d"
@@ -2234,14 +2458,31 @@
             "language": "Japanese",
             "multiverseId": 684213,
             "name": "興隆する木立",
+            "skuIds": {
+              "nonfoil": "52b35007-104f-5d42-84f2-c1e1e5fe06f4"
+            },
             "text": "興隆する木立はタップ状態で戦場に出る。これが戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "2d4a252c-eb6e-5f19-b978-330e45a4ab4a"
+          },
+          {
+            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
+            "identifiers": {
+              "multiverseId": "684096",
+              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
+            },
+            "language": "Spanish",
+            "multiverseId": 684096,
+            "name": "Arboleda floreciente",
+            "skuIds": {
+              "nonfoil": "18a4b132-b84a-56f0-9287-48ae6ab87ca9"
+            },
+            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306115",
           "cardsphereId": "130629",
@@ -2279,18 +2520,28 @@
         "name": "Thriving Grove",
         "number": "776",
         "originalText": "Thriving Grove enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f4238a645e85036c",
@@ -2299,9 +2550,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a0902c07-54be-5e85-93bf-1c5106c1eb35"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2336,36 +2592,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681263",
-              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
-            },
-            "language": "German",
-            "multiverseId": 681263,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681278",
-              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
-            },
-            "language": "Spanish",
-            "multiverseId": 681278,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681293",
               "scryfallId": "3eb6a0b9-0629-4e6c-a31d-610aa70f6037"
             },
             "language": "French",
             "multiverseId": 681293,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "cf315f2d-d6fa-5f8a-b327-3b05cb1b1425"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "b10ace0b-9e6a-5815-b238-b578636bc2c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681263",
+              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
+            },
+            "language": "German",
+            "multiverseId": 681263,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "43f12410-e8b0-5cac-8539-bb262bfe2889"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
           },
           {
             "identifiers": {
@@ -2375,6 +2626,9 @@
             "language": "Italian",
             "multiverseId": 681308,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6c9f1064-862d-5686-9d1d-182ea54c741f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "f889c416-e0ce-556c-b55e-f2a30c98062f"
           },
@@ -2386,18 +2640,34 @@
             "language": "Japanese",
             "multiverseId": 681323,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "eed625d1-92fd-5c21-b3be-b31d31337bc3"
+            },
             "type": "基本土地 — 森",
             "uuid": "a6843a19-8ad2-540e-8eff-8f4da4433681"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681278",
+              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
+            },
+            "language": "Spanish",
+            "multiverseId": 681278,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2c8a7443-87b7-5d2f-aa06-661ab320103c"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305227",
           "cardsphereId": "131383",
           "deckboxId": "98087",
           "mcmId": "795514",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95178",
           "mtgjsonV4Id": "952bfe5f-ab3f-567c-be51-b1e1177bcd27",
           "multiverseId": "681248",
@@ -2410,7 +2680,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2438,6 +2707,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "93",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2508,6 +2778,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2670,15 +2941,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/43adef7c33aa4590",
+          "cardmarket": "https://mtgjson.com/links/778a4fdc956baf3c",
           "tcgplayer": "https://mtgjson.com/links/694d7368b6e0ea08"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "652993ee-52fa-54d6-ae86-2613ad80c3eb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2694,8 +2974,8 @@
         ],
         "uuid": "cb1f99de-6c0c-5616-9091-be7af9f67e51",
         "variations": [
-          "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "d79afedf-c505-574e-91c0-95eb7f7cfe7c"
         ]
       },
       {
@@ -2721,36 +3001,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681264",
-              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
-            },
-            "language": "German",
-            "multiverseId": 681264,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681279",
-              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 681279,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681294",
               "scryfallId": "631d105e-81dd-4d38-902e-9833568b9c62"
             },
             "language": "French",
             "multiverseId": 681294,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "925f7141-4f6e-5447-8690-f9f1d514f8fe"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "52d84231-47dd-553b-b791-b0dd8e0c26c2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681264",
+              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
+            },
+            "language": "German",
+            "multiverseId": 681264,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "6b5869a4-6157-5253-bd5d-3e394c5c2172"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
           },
           {
             "identifiers": {
@@ -2760,6 +3035,9 @@
             "language": "Italian",
             "multiverseId": 681309,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "7ce2027c-2595-5aef-b260-e5df6e4bc79f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "27e89f38-2f5a-5a80-9501-940856b5fc0b"
           },
@@ -2771,18 +3049,34 @@
             "language": "Japanese",
             "multiverseId": 681324,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2ed704fe-38a1-5fd8-b8f4-03e5633be7b9"
+            },
             "type": "基本土地 — 森",
             "uuid": "159454ea-3215-5905-80f5-0375cc3e3785"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681279",
+              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 681279,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2dbc8b56-f8e1-5cb4-8833-93165854fc84"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305228",
           "cardsphereId": "131384",
           "deckboxId": "98088",
           "mcmId": "795515",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95179",
           "mtgjsonV4Id": "c5ff8984-9b17-5479-b453-28e905eec248",
           "multiverseId": "681249",
@@ -2795,7 +3089,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2823,6 +3116,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "94",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2893,6 +3187,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3055,15 +3350,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a7859c6792802052",
+          "cardmarket": "https://mtgjson.com/links/4cf2b896b0d1f397",
           "tcgplayer": "https://mtgjson.com/links/06ef70de48280700"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cd3e2a76-6b0a-5f5c-a4db-6f0045a38f77"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3079,8 +3383,8 @@
         ],
         "uuid": "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
         "variations": [
-          "cb1f99de-6c0c-5616-9091-be7af9f67e51",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "cb1f99de-6c0c-5616-9091-be7af9f67e51"
         ]
       },
       {
@@ -3106,36 +3410,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681265",
-              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
-            },
-            "language": "German",
-            "multiverseId": 681265,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681280",
-              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
-            },
-            "language": "Spanish",
-            "multiverseId": 681280,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681295",
               "scryfallId": "300c0dae-dcb3-429c-96c9-0a718b92c3ed"
             },
             "language": "French",
             "multiverseId": 681295,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "e17e6dff-7bf3-54b4-8ae8-570ae9bc4f99"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "229ce3ad-7120-5b6f-ab60-4f98fa8cf855"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681265",
+              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
+            },
+            "language": "German",
+            "multiverseId": 681265,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "301e2e8c-305e-5e4b-ae86-44c0365ae2f0"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
           },
           {
             "identifiers": {
@@ -3145,6 +3444,9 @@
             "language": "Italian",
             "multiverseId": 681310,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6360a4f6-874c-53c9-ac14-8579e1d91c8e"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "c763b563-99b8-5c05-8c8a-5a65d56c9237"
           },
@@ -3156,18 +3458,34 @@
             "language": "Japanese",
             "multiverseId": 681325,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2f7a4c88-d340-57a0-b491-4465ba20adc1"
+            },
             "type": "基本土地 — 森",
             "uuid": "464ed43f-8f2c-5351-82d4-e130a949ae08"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681280",
+              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
+            },
+            "language": "Spanish",
+            "multiverseId": 681280,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "62e7272b-aecd-561b-a528-4e028f863b67"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305229",
           "cardsphereId": "131385",
           "deckboxId": "98089",
           "mcmId": "795516",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95180",
           "mtgjsonV4Id": "7243b80f-e2c7-53a7-9833-124662686acb",
           "multiverseId": "681250",
@@ -3180,7 +3498,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3208,6 +3525,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "95",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3278,6 +3596,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3440,15 +3759,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/7e9f7a8efa5d44f2",
+          "cardmarket": "https://mtgjson.com/links/5ce0459040c05931",
           "tcgplayer": "https://mtgjson.com/links/5c047147e17edc45"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a618b1f9-1d0b-5b4d-bb33-d6662525f0a1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3480,5 +3808,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "218efe8de0d1b6"
   }
 }

@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "c07d6378bad9db"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,7 +24,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 7428,
+        "edhrecRank": 7907,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
@@ -37,27 +32,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "589621",
-              "scryfallId": "10580521-b89e-42ff-a889-f9dc50300e02"
+              "multiverseId": "589978",
+              "scryfallId": "cfe1b3b0-e258-413f-9ab0-270c2ca55106"
             },
-            "language": "German",
-            "multiverseId": 589621,
-            "name": "Raubkopie",
-            "text": "Du kannst die Raubkopie als eine Kopie einer beliebigen Kreatur im Spiel ins Spiel kommen lassen, außer dass sie zusätzlich zu ihren anderen Typen ein Pirat ist und „Immer wenn diese Kreatur oder eine andere Kreatur mit demselben Namen einem Spieler Kampfschaden zufügt, ziehst du eine Karte\" hat.",
-            "type": "Kreatur — Gestaltwandler, Pirat",
-            "uuid": "d9531eca-9e25-51f7-b31a-91b8d5e0143a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "589672",
-              "scryfallId": "f877f9b5-8a67-41e4-acfc-05131897ac81"
+            "language": "Chinese Simplified",
+            "multiverseId": 589978,
+            "name": "剽窃复体",
+            "skuIds": {
+              "nonfoil": "cf2c0025-5ec5-506b-be31-0dae2f9bef82"
             },
-            "language": "Spanish",
-            "multiverseId": 589672,
-            "name": "Copia pirata",
-            "text": "Puedes hacer que la Copia pirata entre al campo de batalla como una copia de cualquier criatura en el campo de batalla, excepto que es un Pirata además de sus otros tipos y tiene \"Siempre que esta criatura u otra criatura con el mismo nombre haga daño de combate a un jugador, robas una carta\".",
-            "type": "Criatura — Pirata metamorfo",
-            "uuid": "3c0f7607-e6e9-5396-9b96-47d99f57eed3"
+            "text": "你可以使剽窃复体当成战场上任一生物的复制品来进入战场，但它额外具有海盗此类别，且具有「每当此生物或另一个与之同名的生物对任一牌手造成战斗伤害时，你抓一张牌。」",
+            "type": "生物 ～变形兽／海盗",
+            "uuid": "a882d24e-3867-5089-902f-37f40b2504af"
           },
           {
             "identifiers": {
@@ -67,9 +53,27 @@
             "language": "French",
             "multiverseId": 589723,
             "name": "Copie pirate",
+            "skuIds": {
+              "nonfoil": "acfc920f-b88c-50d6-9fa7-a191498ba4e9"
+            },
             "text": "Vous pouvez faire que la Copie pirate arrive sur le champ de bataille comme une copie de n'importe quelle créature sur le champ de bataille, excepté que c'est un pirate en plus de ses autres types et qu'elle a « À chaque fois que cette créature ou une autre créature du même nom inflige des blessures de combat à un joueur, vous piochez une carte. »",
             "type": "Créature : changeforme et pirate",
             "uuid": "bd61d49c-9322-524f-9477-dac6a84370e9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "589621",
+              "scryfallId": "10580521-b89e-42ff-a889-f9dc50300e02"
+            },
+            "language": "German",
+            "multiverseId": 589621,
+            "name": "Raubkopie",
+            "skuIds": {
+              "nonfoil": "bf701b41-4d55-5ccb-9c72-369aaeff7edb"
+            },
+            "text": "Du kannst die Raubkopie als eine Kopie einer beliebigen Kreatur im Spiel ins Spiel kommen lassen, außer dass sie zusätzlich zu ihren anderen Typen ein Pirat ist und „Immer wenn diese Kreatur oder eine andere Kreatur mit demselben Namen einem Spieler Kampfschaden zufügt, ziehst du eine Karte\" hat.",
+            "type": "Kreatur — Gestaltwandler, Pirat",
+            "uuid": "d9531eca-9e25-51f7-b31a-91b8d5e0143a"
           },
           {
             "identifiers": {
@@ -79,6 +83,9 @@
             "language": "Italian",
             "multiverseId": 589774,
             "name": "Copia Pirata",
+            "skuIds": {
+              "nonfoil": "4b213fa4-248a-5f69-9d46-e6cc27dfe9d5"
+            },
             "text": "Puoi far entrare la Copia Pirata nel campo di battaglia come una copia di qualsiasi creatura sul campo di battaglia, tranne che è un Pirata in aggiunta ai suoi altri tipi e ha \"Ogniqualvolta questa creatura o un'altra creatura con lo stesso nome infligge danno da combattimento a un giocatore, peschi una carta\".",
             "type": "Creatura — Pirata Polimorfo",
             "uuid": "1a132581-6b87-5bb1-ac45-9dbb412d59c8"
@@ -91,26 +98,30 @@
             "language": "Japanese",
             "multiverseId": 589825,
             "name": "海賊の写し",
+            "skuIds": {
+              "nonfoil": "60ff1e83-d1ec-5268-a6b4-881f647c082f"
+            },
             "text": "あなたは、海賊の写しを、それの他のタイプに加えて海賊であり「このクリーチャーやこれと同じ名前を持ちこれでないクリーチャー１体がプレイヤー１人に戦闘ダメージを与えるたび、あなたはカード１枚を引く。」を持つことを除き、戦場にあるクリーチャー１体のコピーとして戦場に出してもよい。",
             "type": "クリーチャー — 多相の戦士・海賊",
             "uuid": "6c76b80e-71fa-5817-aa31-dd1f634f09ff"
           },
           {
             "identifiers": {
-              "multiverseId": "589978",
-              "scryfallId": "cfe1b3b0-e258-413f-9ab0-270c2ca55106"
+              "multiverseId": "589672",
+              "scryfallId": "f877f9b5-8a67-41e4-acfc-05131897ac81"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589978,
-            "name": "剽窃复体",
-            "text": "你可以使剽窃复体当成战场上任一生物的复制品来进入战场，但它额外具有海盗此类别，且具有「每当此生物或另一个与之同名的生物对任一牌手造成战斗伤害时，你抓一张牌。」",
-            "type": "生物 ～变形兽／海盗",
-            "uuid": "a882d24e-3867-5089-902f-37f40b2504af"
+            "language": "Spanish",
+            "multiverseId": 589672,
+            "name": "Copia pirata",
+            "skuIds": {
+              "nonfoil": "7c3a9742-bd32-5e38-acd9-2110a093472c"
+            },
+            "text": "Puedes hacer que la Copia pirata entre al campo de batalla como una copia de cualquier criatura en el campo de batalla, excepto que es un Pirata además de sus otros tipos y tiene \"Siempre que esta criatura u otra criatura con el mismo nombre haga daño de combate a un jugador, robas una carta\".",
+            "type": "Criatura — Pirata metamorfo",
+            "uuid": "3c0f7607-e6e9-5396-9b96-47d99f57eed3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270241",
           "cardsphereId": "96749",
@@ -141,9 +152,11 @@
         "name": "Pirated Copy",
         "number": "16",
         "originalText": "You may have Pirated Copy enter the battlefield as a copy of any creature on the battlefield, except it's a Pirate in addition to its other types and it has \"Whenever this creature or another creature with the same name deals combat damage to a player, you draw a card.\"",
+        "originalType": "Creature – Shapeshifter Pirate",
         "power": "0",
         "printings": [
-          "J22"
+          "J22",
+          "SLD"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b91653bcaed3a085",
@@ -195,9 +208,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "8fcec27e-7e5d-5cfb-8eb2-0e97b245f001"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -233,7 +251,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 9510,
+        "edhrecRank": 9548,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
@@ -241,30 +259,20 @@
         "flavorText": "\"I appreciate things that exceed expectations.\"\n—Mizzix",
         "foreignData": [
           {
-            "flavorText": "„Mir gefallen Dinge, die alle Erwartungen übertreffen.\"\n—Mizzix",
+            "flavorText": "「我喜欢远超期望的东西。」\n～米捷兹",
             "identifiers": {
-              "multiverseId": "595230",
-              "scryfallId": "4533d79d-6d15-4e25-8939-dcf55552aef9"
+              "multiverseId": "595986",
+              "scryfallId": "b39eaea1-3276-4e2d-9e47-3bcbf7924b0c"
             },
-            "language": "German",
-            "multiverseId": 595230,
-            "name": "Gigantoplasma",
-            "text": "Du kannst das Gigantoplasma als Kopie einer beliebigen Kreatur im Spiel ins Spiel kommen lassen, außer dass es „{X}: Diese Kreatur hat Basis-Stärke und -Widerstandskraft X/X\" hat.",
-            "type": "Kreatur — Gestaltwandler",
-            "uuid": "eb0fbbd6-8c5d-5518-932b-da2aee718cc6"
-          },
-          {
-            "flavorText": "\"Me gustan las cosas que superan las expectativas\".\n—Mízzix",
-            "identifiers": {
-              "multiverseId": "595338",
-              "scryfallId": "25f25ee0-4de6-43f2-9ff4-e1d6b5c7040e"
+            "language": "Chinese Simplified",
+            "multiverseId": 595986,
+            "name": "庞巨原生质",
+            "skuIds": {
+              "nonfoil": "4fd781c1-3b02-5f31-a3c4-e729618a9cc7"
             },
-            "language": "Spanish",
-            "multiverseId": 595338,
-            "name": "Gigantoplasma",
-            "text": "Puedes hacer que el Gigantoplasma entre al campo de batalla como una copia de cualquier criatura en el campo de batalla, excepto que tiene \"{X}: Esta criatura tiene una fuerza y resistencia base de X/X\".",
-            "type": "Criatura — Metamorfo",
-            "uuid": "36cc74d7-399a-5463-967e-4ccae6ed3672"
+            "text": "你可以使庞巨原生质当成战场上任一生物的复制品来进入战场，但它具有「{X}：此生物的基础力量与防御力为X/X。」",
+            "type": "生物 ～变形兽",
+            "uuid": "45eca95f-c4f5-5ffe-8ca4-c76d6a10a6de"
           },
           {
             "flavorText": "« J'aime ce qui va au-delà des attentes. »\n—Mizzix",
@@ -275,9 +283,28 @@
             "language": "French",
             "multiverseId": 595446,
             "name": "Gigantoplasme",
+            "skuIds": {
+              "nonfoil": "be3722e8-adef-5f01-94f8-43fff744bdc3"
+            },
             "text": "Vous pouvez faire que le Gigantoplasme arrive sur le champ de bataille comme une copie de n'importe quelle créature sur le champ de bataille, excepté qu'il a « {X} : Cette créature a une force et une endurance de base de X/X. »",
             "type": "Créature : changeforme",
             "uuid": "f49ffac9-6d47-5f82-aef5-24d744f6b5de"
+          },
+          {
+            "flavorText": "„Mir gefallen Dinge, die alle Erwartungen übertreffen.\"\n—Mizzix",
+            "identifiers": {
+              "multiverseId": "595230",
+              "scryfallId": "4533d79d-6d15-4e25-8939-dcf55552aef9"
+            },
+            "language": "German",
+            "multiverseId": 595230,
+            "name": "Gigantoplasma",
+            "skuIds": {
+              "nonfoil": "150f39fa-90e5-54cc-84d2-0993dc70e1ce"
+            },
+            "text": "Du kannst das Gigantoplasma als Kopie einer beliebigen Kreatur im Spiel ins Spiel kommen lassen, außer dass es „{X}: Diese Kreatur hat Basis-Stärke und -Widerstandskraft X/X\" hat.",
+            "type": "Kreatur — Gestaltwandler",
+            "uuid": "eb0fbbd6-8c5d-5518-932b-da2aee718cc6"
           },
           {
             "flavorText": "\"Apprezzo ciò che supera le aspettative.\"\n—Mizzix",
@@ -288,6 +315,9 @@
             "language": "Italian",
             "multiverseId": 595554,
             "name": "Gigantoplasma",
+            "skuIds": {
+              "nonfoil": "bba2bcb2-7a25-59e9-b46c-b01c8b337bac"
+            },
             "text": "Puoi far entrare il Gigantoplasma nel campo di battaglia come una copia di qualsiasi creatura sul campo di battaglia, tranne che ha \"{X}: Questa creatura ha forza e costituzione base X/X\".",
             "type": "Creatura — Polimorfo",
             "uuid": "a433744f-c33b-58d5-8e93-717488f00b1a"
@@ -301,27 +331,31 @@
             "language": "Japanese",
             "multiverseId": 595662,
             "name": "巨体原形質",
+            "skuIds": {
+              "nonfoil": "fc9b3028-029f-58bf-b77e-e04bfa503dac"
+            },
             "text": "あなたは巨体原形質を、これが「{X}：このクリーチャーは基本のパワーとタフネスがＸ/Ｘになる。」を持つことを除き、戦場に出ているクリーチャー１体のコピーとして戦場に出してもよい。",
             "type": "クリーチャー — 多相の戦士",
             "uuid": "01512bc8-0571-577e-b9ee-9b5d5e1a75a6"
           },
           {
-            "flavorText": "「我喜欢远超期望的东西。」\n～米捷兹",
+            "flavorText": "\"Me gustan las cosas que superan las expectativas\".\n—Mízzix",
             "identifiers": {
-              "multiverseId": "595986",
-              "scryfallId": "b39eaea1-3276-4e2d-9e47-3bcbf7924b0c"
+              "multiverseId": "595338",
+              "scryfallId": "25f25ee0-4de6-43f2-9ff4-e1d6b5c7040e"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595986,
-            "name": "庞巨原生质",
-            "text": "你可以使庞巨原生质当成战场上任一生物的复制品来进入战场，但它具有「{X}：此生物的基础力量与防御力为X/X。」",
-            "type": "生物 ～变形兽",
-            "uuid": "45eca95f-c4f5-5ffe-8ca4-c76d6a10a6de"
+            "language": "Spanish",
+            "multiverseId": 595338,
+            "name": "Gigantoplasma",
+            "skuIds": {
+              "nonfoil": "fe7c3b1b-d88c-5552-ac31-1bf1c41fa743"
+            },
+            "text": "Puedes hacer que el Gigantoplasma entre al campo de batalla como una copia de cualquier criatura en el campo de batalla, excepto que tiene \"{X}: Esta criatura tiene una fuerza y resistencia base de X/X\".",
+            "type": "Criatura — Metamorfo",
+            "uuid": "36cc74d7-399a-5463-967e-4ccae6ed3672"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270390",
           "cardsphereId": "96739",
@@ -353,6 +387,7 @@
         "name": "Gigantoplasm",
         "number": "304",
         "originalText": "You may have Gigantoplasm enter the battlefield as a copy of any creature on the battlefield, except it has \"{X}: This creature has base power and toughness X/X.\"",
+        "originalType": "Creature – Shapeshifter",
         "power": "0",
         "printings": [
           "C15",
@@ -422,9 +457,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3d33382c-6588-560d-b41f-08a282cc7597"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -459,7 +499,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5562,
+        "edhrecRank": 5565,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
@@ -467,30 +507,20 @@
         "flavorText": "\"Do I really look like that? I'm . . . beautiful!\"",
         "foreignData": [
           {
-            "flavorText": "„Sehe ich wirklich so aus? Ich bin … wunderschön!\"",
+            "flavorText": "「我真的长这样吗？我…真美！」",
             "identifiers": {
-              "multiverseId": "597091",
-              "scryfallId": "61143295-f90a-435d-a6e4-670b40cd290d"
+              "multiverseId": "597413",
+              "scryfallId": "322c3954-3d74-4559-b82f-7c5bc243b72a"
             },
-            "language": "German",
-            "multiverseId": 597091,
-            "name": "Spiegelbild",
-            "text": "Du kannst das Spiegelbild als Kopie einer Kreatur, die du kontrollierst, ins Spiel kommen lassen.",
-            "type": "Kreatur — Gestaltwandler",
-            "uuid": "39ad7dfb-526f-5220-b4dc-c02e76121f3a"
-          },
-          {
-            "flavorText": "\"¿De veras soy así? Qué... ¡Qué preciosidad!\".",
-            "identifiers": {
-              "multiverseId": "597137",
-              "scryfallId": "6b5d42c0-1e18-40ae-946d-dd39ab3afbdc"
+            "language": "Chinese Simplified",
+            "multiverseId": 597413,
+            "name": "镜身影",
+            "skuIds": {
+              "nonfoil": "9446c818-0111-5875-87f5-98318c2cd6b6"
             },
-            "language": "Spanish",
-            "multiverseId": 597137,
-            "name": "Imagen reflejada",
-            "text": "Puedes hacer que la Imagen reflejada entre al campo de batalla como una copia de una criatura que controlas.",
-            "type": "Criatura — Metamorfo",
-            "uuid": "4da31f5a-27b9-51a5-bc07-b6f7971534d1"
+            "text": "你可以使镜身影当成任一由你操控之生物的复制品来进入战场。",
+            "type": "生物 ～变形兽",
+            "uuid": "a54ace7c-6502-5b9b-8774-1cbf13dd1c5e"
           },
           {
             "flavorText": "« Je ressemble vraiment à ça ? Je suis... belle ! »",
@@ -501,9 +531,28 @@
             "language": "French",
             "multiverseId": 597183,
             "name": "Image miroir",
+            "skuIds": {
+              "nonfoil": "ffefbc87-a7e9-5c7d-9fa5-bd8727b9ad68"
+            },
             "text": "Vous pouvez faire que l'Image miroir arrive sur le champ de bataille comme une copie d'une créature que vous contrôlez.",
             "type": "Créature : changeforme",
             "uuid": "48e722ad-784a-5d99-8637-d85b87baa16b"
+          },
+          {
+            "flavorText": "„Sehe ich wirklich so aus? Ich bin … wunderschön!\"",
+            "identifiers": {
+              "multiverseId": "597091",
+              "scryfallId": "61143295-f90a-435d-a6e4-670b40cd290d"
+            },
+            "language": "German",
+            "multiverseId": 597091,
+            "name": "Spiegelbild",
+            "skuIds": {
+              "nonfoil": "38bd3600-76a9-5343-88b5-5b5e66628d88"
+            },
+            "text": "Du kannst das Spiegelbild als Kopie einer Kreatur, die du kontrollierst, ins Spiel kommen lassen.",
+            "type": "Kreatur — Gestaltwandler",
+            "uuid": "39ad7dfb-526f-5220-b4dc-c02e76121f3a"
           },
           {
             "flavorText": "\"È davvero quello il mio aspetto? Sono... incantevole!\"",
@@ -514,6 +563,9 @@
             "language": "Italian",
             "multiverseId": 597229,
             "name": "Immagine Riflessa",
+            "skuIds": {
+              "nonfoil": "311a6470-0c96-52bc-a244-78f8cdb5e493"
+            },
             "text": "Puoi far entrare l'Immagine Riflessa nel campo di battaglia come una copia di una creatura che controlli.",
             "type": "Creatura — Polimorfo",
             "uuid": "9c28e8b7-1bc7-54a5-9486-669fc0ca4a36"
@@ -527,27 +579,31 @@
             "language": "Japanese",
             "multiverseId": 597275,
             "name": "鏡像",
+            "skuIds": {
+              "nonfoil": "4b00f49a-012e-5122-85a4-59f81adfb523"
+            },
             "text": "あなたは鏡像を、あなたがコントロールしているクリーチャー１体のコピーとして戦場に出してもよい。",
             "type": "クリーチャー — 多相の戦士",
             "uuid": "aff91bd6-9f08-5340-b0ae-d795fed5cfb3"
           },
           {
-            "flavorText": "「我真的长这样吗？我…真美！」",
+            "flavorText": "\"¿De veras soy así? Qué... ¡Qué preciosidad!\".",
             "identifiers": {
-              "multiverseId": "597413",
-              "scryfallId": "322c3954-3d74-4559-b82f-7c5bc243b72a"
+              "multiverseId": "597137",
+              "scryfallId": "6b5d42c0-1e18-40ae-946d-dd39ab3afbdc"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597413,
-            "name": "镜身影",
-            "text": "你可以使镜身影当成任一由你操控之生物的复制品来进入战场。",
-            "type": "生物 ～变形兽",
-            "uuid": "a54ace7c-6502-5b9b-8774-1cbf13dd1c5e"
+            "language": "Spanish",
+            "multiverseId": 597137,
+            "name": "Imagen reflejada",
+            "skuIds": {
+              "nonfoil": "ecd5d2ef-49d5-5599-b78d-85ebb3821905"
+            },
+            "text": "Puedes hacer que la Imagen reflejada entre al campo de batalla como una copia de una criatura que controlas.",
+            "type": "Criatura — Metamorfo",
+            "uuid": "4da31f5a-27b9-51a5-bc07-b6f7971534d1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270266",
           "cardsphereId": "96753",
@@ -585,6 +641,7 @@
         "name": "Mirror Image",
         "number": "62",
         "originalText": "You may have Mirror Image enter the battlefield as a copy of a creature you control.",
+        "originalType": "Creature – Shapeshifter",
         "power": "0",
         "printings": [
           "J22",
@@ -624,9 +681,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "dff0b8c5-34e5-5a41-b783-55152cb5fc56"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -657,7 +719,7 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1618,
+        "edhrecRank": 1717,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
@@ -665,27 +727,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "596261",
-              "scryfallId": "c68ca1d2-5f9a-4db0-af27-3f1f135f6689"
+              "multiverseId": "596870",
+              "scryfallId": "13903638-7081-42e0-8923-3fe7bb0cffb3"
             },
-            "language": "German",
-            "multiverseId": 596261,
-            "name": "Blutlinien-Vortäuscher",
-            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nSowie der Blutlinien-Vortäuscher ins Spiel kommt, bestimme einen Kreaturentyp.\nImmer wenn eine andere Kreatur des bestimmten Typs unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf den Blutlinien-Vortäuscher.",
-            "type": "Artefaktkreatur — Gestaltwandler",
-            "uuid": "ca54fa5d-d60e-54ac-a539-79dddfd8114b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "596348",
-              "scryfallId": "fd4c64a4-3e20-490e-a760-6565f0de1d44"
+            "language": "Chinese Simplified",
+            "multiverseId": 596870,
+            "name": "血脉顶替客",
+            "skuIds": {
+              "nonfoil": "91904bd1-b88c-574c-94ac-9de27b160d3f"
             },
-            "language": "Spanish",
-            "multiverseId": 596348,
-            "name": "Farsante de linaje",
-            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nEn cuanto el Farsante de linaje entre al campo de batalla, elige un tipo de criatura.\nSiempre que otra criatura del tipo elegido entre al campo de batalla bajo tu control, pon un contador +1/+1 sobre el Farsante de linaje.",
-            "type": "Criatura artefacto — Metamorfo",
-            "uuid": "6c68a860-9a53-5cdf-bd92-e12901d2cb6d"
+            "text": "化形（此牌是所有生物类别。）\n于血脉顶替客进战场时，选择一种生物类别。\n每当另一个该类别之生物在你的操控下进战场时，在血脉顶替客上放置一个+1/+1指示物。",
+            "type": "神器生物 ～变形兽",
+            "uuid": "c659af81-bb05-5e75-891f-4c04ba926bf4"
           },
           {
             "identifiers": {
@@ -695,9 +748,27 @@
             "language": "French",
             "multiverseId": 596435,
             "name": "Prétendant à la lignée",
+            "skuIds": {
+              "nonfoil": "6e8e1b6e-0330-594d-ba1c-6837473736b8"
+            },
             "text": "Changelin (Cette carte a tous les types de créature.)\nAu moment où le Prétendant à la lignée arrive sur le champ de bataille, choisissez un type de créature.\nÀ chaque fois qu'une autre créature du type choisi arrive sur le champ de bataille sous votre contrôle, mettez un marqueur +1/+1 sur le Prétendant à la lignée.",
             "type": "Créature-artefact : changeforme",
             "uuid": "31177f66-d2dd-58ae-b188-df0e0511d604"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "596261",
+              "scryfallId": "c68ca1d2-5f9a-4db0-af27-3f1f135f6689"
+            },
+            "language": "German",
+            "multiverseId": 596261,
+            "name": "Blutlinien-Vortäuscher",
+            "skuIds": {
+              "nonfoil": "0b3d90f8-b38c-50f8-9c89-2d55417e48ba"
+            },
+            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nSowie der Blutlinien-Vortäuscher ins Spiel kommt, bestimme einen Kreaturentyp.\nImmer wenn eine andere Kreatur des bestimmten Typs unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf den Blutlinien-Vortäuscher.",
+            "type": "Artefaktkreatur — Gestaltwandler",
+            "uuid": "ca54fa5d-d60e-54ac-a539-79dddfd8114b"
           },
           {
             "identifiers": {
@@ -707,6 +778,9 @@
             "language": "Italian",
             "multiverseId": 596522,
             "name": "Usurpatore della Stirpe",
+            "skuIds": {
+              "nonfoil": "cb49f093-3399-57cf-a7ad-c68d0401a74e"
+            },
             "text": "Cangiante (Questa carta ha tutti i tipi di creatura.)\nMentre l'Usurpatore della Stirpe entra nel campo di battaglia, scegli un tipo di creatura.\nOgniqualvolta un'altra creatura del tipo scelto entra nel campo di battaglia sotto il tuo controllo, metti un segnalino +1/+1 sull'Usurpatore della Stirpe.",
             "type": "Creatura Artefatto — Polimorfo",
             "uuid": "e8d1975e-022d-5bb0-9b57-916bc9226094"
@@ -719,26 +793,30 @@
             "language": "Japanese",
             "multiverseId": 596609,
             "name": "血統詐称者",
+            "skuIds": {
+              "nonfoil": "a219ce0c-1f8b-5f21-b73e-c93dc7bffc84"
+            },
             "text": "多相（このカードはすべてのクリーチャー・タイプである。）\n血統詐称者が戦場に出るに際し、クリーチャー・タイプ１つを選ぶ。\nその選ばれたタイプでありこれでないクリーチャー１体があなたのコントロール下で戦場に出るたび、血統詐称者の上に＋１/＋１カウンター１個を置く。",
             "type": "アーティファクト・クリーチャー — 多相の戦士",
             "uuid": "00658552-feb4-5a5a-a757-9d1255d59346"
           },
           {
             "identifiers": {
-              "multiverseId": "596870",
-              "scryfallId": "13903638-7081-42e0-8923-3fe7bb0cffb3"
+              "multiverseId": "596348",
+              "scryfallId": "fd4c64a4-3e20-490e-a760-6565f0de1d44"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596870,
-            "name": "血脉顶替客",
-            "text": "化形（此牌是所有生物类别。）\n于血脉顶替客进战场时，选择一种生物类别。\n每当另一个该类别之生物在你的操控下进战场时，在血脉顶替客上放置一个+1/+1指示物。",
-            "type": "神器生物 ～变形兽",
-            "uuid": "c659af81-bb05-5e75-891f-4c04ba926bf4"
+            "language": "Spanish",
+            "multiverseId": 596348,
+            "name": "Farsante de linaje",
+            "skuIds": {
+              "nonfoil": "aead81d1-e6cd-5238-8887-0eba5145be3f"
+            },
+            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nEn cuanto el Farsante de linaje entre al campo de batalla, elige un tipo de criatura.\nSiempre que otra criatura del tipo elegido entre al campo de batalla bajo tu control, pon un contador +1/+1 sobre el Farsante de linaje.",
+            "type": "Criatura artefacto — Metamorfo",
+            "uuid": "6c68a860-9a53-5cdf-bd92-e12901d2cb6d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270553",
           "cardsphereId": "96772",
@@ -779,6 +857,7 @@
         "name": "Bloodline Pretender",
         "number": "757",
         "originalText": "Changeling (This card is every creature type.)\nAs Bloodline Pretender enters the battlefield, choose a creature type.\nWhenever another creature of the chosen type enters the battlefield under your control, put a +1/+1 counter on Bloodline Pretender.",
+        "originalType": "Artifact Creature – Shapeshifter",
         "power": "2",
         "printings": [
           "J22",
@@ -823,9 +902,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "e21774b2-099f-57d7-94c7-41e5ef8ac4d0"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -857,7 +941,7 @@
         "colors": [],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 1913,
+        "edhrecRank": 1988,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
@@ -865,30 +949,20 @@
         "flavorText": "\"Within minutes, the strange device was indistinguishable from the other upon my workbench.\"\n—Tocasia, journal entry",
         "foreignData": [
           {
-            "flavorText": "„Binnen weniger Minuten war der seltsame Apparat nicht mehr von den anderen auf meiner Werkbank zu unterscheiden.\"\n—Aus dem Tagebuch von Tocasia",
+            "flavorText": "「不出几分钟，那奇特装置便和我工作台上其他的那些几无二致。」\n～托卡西雅的日志片段",
             "identifiers": {
-              "multiverseId": "596307",
-              "scryfallId": "2cbfee55-a0c1-4526-970f-40d37eb89903"
+              "multiverseId": "596916",
+              "scryfallId": "a0b9d650-b370-4680-bcce-2aa01f85801d"
             },
-            "language": "German",
-            "multiverseId": 596307,
-            "name": "Universeller Automat",
-            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)",
-            "type": "Artefaktkreatur — Gestaltwandler",
-            "uuid": "f3644c61-b94b-5058-9b12-b89544ea7bdc"
-          },
-          {
-            "flavorText": "\"En pocos minutos, el extraño dispositivo no se distinguía del resto de objetos sobre mi escritorio\".\n—Del diario de Tocasia",
-            "identifiers": {
-              "multiverseId": "596394",
-              "scryfallId": "6ccc0432-a875-4f31-aef0-46e6bbba1f17"
+            "language": "Chinese Simplified",
+            "multiverseId": 596916,
+            "name": "全形机械兽",
+            "skuIds": {
+              "nonfoil": "8db5cd8c-8ebc-54ea-9b81-6186d36ac4c5"
             },
-            "language": "Spanish",
-            "multiverseId": 596394,
-            "name": "Autómata universal",
-            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)",
-            "type": "Criatura artefacto — Metamorfo",
-            "uuid": "c039314b-a9b4-52b5-a72b-1b20fa37b64d"
+            "text": "化形（此牌是所有生物类别。）",
+            "type": "神器生物 ～变形兽",
+            "uuid": "91b1acab-f98a-5b74-9113-68cd604268a7"
           },
           {
             "flavorText": "« En quelques minutes, l'étrange appareil était impossible à distinguer de celui qui était sur mon établi. »\n—Tocasia, extrait de journal",
@@ -899,9 +973,28 @@
             "language": "French",
             "multiverseId": 596481,
             "name": "Automate universel",
+            "skuIds": {
+              "nonfoil": "1cc93e60-fae5-5343-8328-26e31f1d0b36"
+            },
             "text": "Changelin (Cette carte a tous les types de créature.)",
             "type": "Créature-artefact : changeforme",
             "uuid": "2b74a0ea-4487-5ffd-91ab-44a8f67fbe00"
+          },
+          {
+            "flavorText": "„Binnen weniger Minuten war der seltsame Apparat nicht mehr von den anderen auf meiner Werkbank zu unterscheiden.\"\n—Aus dem Tagebuch von Tocasia",
+            "identifiers": {
+              "multiverseId": "596307",
+              "scryfallId": "2cbfee55-a0c1-4526-970f-40d37eb89903"
+            },
+            "language": "German",
+            "multiverseId": 596307,
+            "name": "Universeller Automat",
+            "skuIds": {
+              "nonfoil": "e48ca5f1-8733-5f74-85c9-6cf5d52b66b0"
+            },
+            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)",
+            "type": "Artefaktkreatur — Gestaltwandler",
+            "uuid": "f3644c61-b94b-5058-9b12-b89544ea7bdc"
           },
           {
             "flavorText": "\"Nel giro di pochi minuti, è diventato impossibile distinguere lo strano congegno dall'altro sul mio piano di lavoro.\"\n—Tocasia, annotazione del diario",
@@ -912,6 +1005,9 @@
             "language": "Italian",
             "multiverseId": 596568,
             "name": "Automa Universale",
+            "skuIds": {
+              "nonfoil": "4a4df20a-ecff-58e1-89f0-ac8ebf0262b0"
+            },
             "text": "Cangiante (Questa carta ha tutti i tipi di creatura.)",
             "type": "Creatura Artefatto — Polimorfo",
             "uuid": "d4400137-4c5e-58a9-a759-4fbe2f41bddd"
@@ -925,27 +1021,31 @@
             "language": "Japanese",
             "multiverseId": 596655,
             "name": "自在自動機械",
+            "skuIds": {
+              "nonfoil": "c64b466b-1f00-57e8-8a04-399a3a697383"
+            },
             "text": "多相（このカードは常にすべてのクリーチャー・タイプである。）",
             "type": "アーティファクト・クリーチャー — 多相の戦士",
             "uuid": "35a62713-bb3c-501d-9d55-c6955db86f46"
           },
           {
-            "flavorText": "「不出几分钟，那奇特装置便和我工作台上其他的那些几无二致。」\n～托卡西雅的日志片段",
+            "flavorText": "\"En pocos minutos, el extraño dispositivo no se distinguía del resto de objetos sobre mi escritorio\".\n—Del diario de Tocasia",
             "identifiers": {
-              "multiverseId": "596916",
-              "scryfallId": "a0b9d650-b370-4680-bcce-2aa01f85801d"
+              "multiverseId": "596394",
+              "scryfallId": "6ccc0432-a875-4f31-aef0-46e6bbba1f17"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596916,
-            "name": "全形机械兽",
-            "text": "化形（此牌是所有生物类别。）",
-            "type": "神器生物 ～变形兽",
-            "uuid": "91b1acab-f98a-5b74-9113-68cd604268a7"
+            "language": "Spanish",
+            "multiverseId": 596394,
+            "name": "Autómata universal",
+            "skuIds": {
+              "nonfoil": "5fcbff95-1529-5cd1-b2b4-ed6072b9f939"
+            },
+            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)",
+            "type": "Criatura artefacto — Metamorfo",
+            "uuid": "c039314b-a9b4-52b5-a72b-1b20fa37b64d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270575",
           "cardsphereId": "96768",
@@ -987,6 +1087,7 @@
         "name": "Universal Automaton",
         "number": "803",
         "originalText": "Changeling (This card is every creature type.)",
+        "originalType": "Artifact Creature – Shapeshifter",
         "power": "1",
         "printings": [
           "H1R",
@@ -1003,9 +1104,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a5201bf4-a1a9-58d7-9cd5-4491768f6904"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1041,7 +1147,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 4899,
+        "edhrecRank": 4878,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
@@ -1049,27 +1155,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595195",
-              "scryfallId": "34801292-c581-4f9d-b311-387f663011c9"
+              "multiverseId": "595951",
+              "scryfallId": "cd396cfa-d786-4b09-ad55-8d5d3d015542"
             },
-            "language": "German",
-            "multiverseId": 595195,
-            "name": "Amöboider Wandelwicht",
-            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\n{T}: Eine Kreatur deiner Wahl erhält alle Kreaturentypen bis zum Ende des Zuges.\n{T}: Eine Kreatur deiner Wahl verliert alle Kreaturentypen bis zum Ende des Zuges.",
-            "type": "Kreatur — Gestaltwandler",
-            "uuid": "41ec5533-4e40-51d0-81d0-ae1dabc8fbaf"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595303",
-              "scryfallId": "b7b2d022-942a-4783-91f9-826429fe4633"
+            "language": "Chinese Simplified",
+            "multiverseId": 595951,
+            "name": "阿米巴化形",
+            "skuIds": {
+              "nonfoil": "9a55e066-6dcf-5437-ad6c-4292a85474b0"
             },
-            "language": "Spanish",
-            "multiverseId": 595303,
-            "name": "Cambiaformas ameboide",
-            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\n{T}: La criatura objetivo gana todos los tipos de criatura hasta el final del turno.\n{T}: La criatura objetivo pierde todos los tipos de criatura hasta el final del turno.",
-            "type": "Criatura — Metamorfo",
-            "uuid": "33d01749-371f-50d8-8600-cd3d7a569485"
+            "text": "化形（此牌是所有生物类别。）\n{T}：目标生物获得所有生物类别直到回合结束。\n{T}：目标生物失去所有生物类别直到回合结束。",
+            "type": "生物 ～变形兽",
+            "uuid": "128d4559-0d7a-5c36-9939-bbcd4b803d92"
           },
           {
             "identifiers": {
@@ -1079,9 +1176,27 @@
             "language": "French",
             "multiverseId": 595411,
             "name": "Changelin amiboïde",
+            "skuIds": {
+              "nonfoil": "328908b8-2039-581c-86d5-71a53cf1828f"
+            },
             "text": "Changelin (Cette carte a tous les types de créature.)\n{T} : Une créature ciblée acquiert tous les types de créature jusqu'à la fin du tour.\n{T} : Une créature ciblée perd tous les types de créature jusqu'à la fin du tour.",
             "type": "Créature : changeforme",
             "uuid": "6b45451d-f930-5c6d-af2a-c093f3fe254d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595195",
+              "scryfallId": "34801292-c581-4f9d-b311-387f663011c9"
+            },
+            "language": "German",
+            "multiverseId": 595195,
+            "name": "Amöboider Wandelwicht",
+            "skuIds": {
+              "nonfoil": "b2e78f11-e1b8-54c4-9d0d-6ac2f8291e39"
+            },
+            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\n{T}: Eine Kreatur deiner Wahl erhält alle Kreaturentypen bis zum Ende des Zuges.\n{T}: Eine Kreatur deiner Wahl verliert alle Kreaturentypen bis zum Ende des Zuges.",
+            "type": "Kreatur — Gestaltwandler",
+            "uuid": "41ec5533-4e40-51d0-81d0-ae1dabc8fbaf"
           },
           {
             "identifiers": {
@@ -1091,6 +1206,9 @@
             "language": "Italian",
             "multiverseId": 595519,
             "name": "Cangiante Ameboide",
+            "skuIds": {
+              "nonfoil": "f5c390b9-7b3e-5394-b78e-e364b402fe42"
+            },
             "text": "Cangiante (Questa carta ha tutti i tipi di creatura.)\n{T}: Una creatura bersaglio ha tutti i tipi di creatura fino alla fine del turno.\n{T}: Una creatura bersaglio perde tutti i tipi di creatura fino alla fine del turno.",
             "type": "Creatura — Polimorfo",
             "uuid": "68412f7c-7fb5-5f42-ae5c-d6471f95ad30"
@@ -1103,26 +1221,30 @@
             "language": "Japanese",
             "multiverseId": 595627,
             "name": "アメーバの変わり身",
+            "skuIds": {
+              "nonfoil": "7fb7b634-ed05-5618-9243-f120e7eea0c1"
+            },
             "text": "多相（このカードはすべてのクリーチャー・タイプである。）\n{T}：クリーチャー１体を対象とする。ターン終了時まで、それはすべてのクリーチャー・タイプを得る。\n{T}：クリーチャー１体を対象とする。ターン終了時まで、それはすべてのクリーチャー・タイプを失う。",
             "type": "クリーチャー — 多相の戦士",
             "uuid": "2d639c48-83ca-52f9-a94b-35bb554411eb"
           },
           {
             "identifiers": {
-              "multiverseId": "595951",
-              "scryfallId": "cd396cfa-d786-4b09-ad55-8d5d3d015542"
+              "multiverseId": "595303",
+              "scryfallId": "b7b2d022-942a-4783-91f9-826429fe4633"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595951,
-            "name": "阿米巴化形",
-            "text": "化形（此牌是所有生物类别。）\n{T}：目标生物获得所有生物类别直到回合结束。\n{T}：目标生物失去所有生物类别直到回合结束。",
-            "type": "生物 ～变形兽",
-            "uuid": "128d4559-0d7a-5c36-9939-bbcd4b803d92"
+            "language": "Spanish",
+            "multiverseId": 595303,
+            "name": "Cambiaformas ameboide",
+            "skuIds": {
+              "nonfoil": "49f5804f-b376-5162-bf57-9682aa2021f3"
+            },
+            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\n{T}: La criatura objetivo gana todos los tipos de criatura hasta el final del turno.\n{T}: La criatura objetivo pierde todos los tipos de criatura hasta el final del turno.",
+            "type": "Criatura — Metamorfo",
+            "uuid": "33d01749-371f-50d8-8600-cd3d7a569485"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270371",
           "cardsphereId": "96724",
@@ -1161,6 +1283,7 @@
         "name": "Amoeboid Changeling",
         "number": "269",
         "originalText": "Changeling (This card is every creature type.)\n{T}: Target creature gains all creature types until end of turn.\n{T}: Target creature loses all creature types until end of turn.",
+        "originalType": "Creature – Shapeshifter",
         "power": "1",
         "printings": [
           "H09",
@@ -1181,9 +1304,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "fe3f04a1-b8b7-5986-a7e1-e6328cbcdb78"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1218,7 +1346,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12273,
+        "edhrecRank": 12825,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
@@ -1226,30 +1354,20 @@
         "flavorText": "\"To escape Littjara, follow a bird.\"\n—Tuskeri folklore",
         "foreignData": [
           {
-            "flavorText": "„Wenn du aus Littjara entkommen willst, folge einem Vogel.\"\n—Tuskeri-Volksweisheit",
+            "flavorText": "「要离利雅拉，务必跟鸟走。」\n～塔科力民间传说",
             "identifiers": {
-              "multiverseId": "595249",
-              "scryfallId": "d314b4e4-de40-4dba-8c45-836a88b602f5"
+              "multiverseId": "596005",
+              "scryfallId": "b0bfa842-22ed-4112-9c7c-b11ee8885cce"
             },
-            "language": "German",
-            "multiverseId": 595249,
-            "name": "Dunstschreiter",
-            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nFliegend\n{1}{U}: Der Dunstschreiter erhält +1/-1 bis zum Ende des Zuges.",
-            "type": "Kreatur — Gestaltwandler",
-            "uuid": "6c9d0d5b-96b5-547d-a4ae-264e453b24f5"
-          },
-          {
-            "flavorText": "\"Para escapar de Littjara, a un pájaro debes seguir\".\n—Folclore tuskeri",
-            "identifiers": {
-              "multiverseId": "595357",
-              "scryfallId": "9774b275-1afc-4f20-8b5c-e552ba809a71"
+            "language": "Chinese Simplified",
+            "multiverseId": 596005,
+            "name": "迷雾行者",
+            "skuIds": {
+              "nonfoil": "d0d39784-21f8-590f-b8d7-4591e34e5fc4"
             },
-            "language": "Spanish",
-            "multiverseId": 595357,
-            "name": "Caminante de neblinas",
-            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nVuela.\n{1}{U}: El Caminante de neblinas obtiene +1/-1 hasta el final del turno.",
-            "type": "Criatura — Metamorfo",
-            "uuid": "5428071b-176a-5d21-b511-e537bf87f83b"
+            "text": "化形（此牌是所有生物类别。）\n飞行\n{1}{U}：迷雾行者得+1/-1直到回合结束。",
+            "type": "生物 ～变形兽",
+            "uuid": "66e9fae4-264f-5c2d-a0fc-f717fb7505d5"
           },
           {
             "flavorText": "« Pour s'échapper de Littjara, il faut suivre un oiseau. »\n—Folklore Tuskeri",
@@ -1260,9 +1378,28 @@
             "language": "French",
             "multiverseId": 595465,
             "name": "Marchebrume",
+            "skuIds": {
+              "nonfoil": "2d77696c-f197-5ae1-887c-f8f76087a1ab"
+            },
             "text": "Changelin (Cette carte a tous les types de créature.)\nVol\n{1}{U} : Le Marchebrume gagne +1/-1 jusqu'à la fin du tour.",
             "type": "Créature : changeforme",
             "uuid": "75cf98b2-c454-599b-b70f-c06108ae3785"
+          },
+          {
+            "flavorText": "„Wenn du aus Littjara entkommen willst, folge einem Vogel.\"\n—Tuskeri-Volksweisheit",
+            "identifiers": {
+              "multiverseId": "595249",
+              "scryfallId": "d314b4e4-de40-4dba-8c45-836a88b602f5"
+            },
+            "language": "German",
+            "multiverseId": 595249,
+            "name": "Dunstschreiter",
+            "skuIds": {
+              "nonfoil": "e66f8596-e0d9-5e9b-bee9-a73979692a2a"
+            },
+            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nFliegend\n{1}{U}: Der Dunstschreiter erhält +1/-1 bis zum Ende des Zuges.",
+            "type": "Kreatur — Gestaltwandler",
+            "uuid": "6c9d0d5b-96b5-547d-a4ae-264e453b24f5"
           },
           {
             "flavorText": "\"Per fuggire da Littjara, segui un uccello.\"\n—Folklore dei Tuskeri",
@@ -1273,6 +1410,9 @@
             "language": "Italian",
             "multiverseId": 595573,
             "name": "Calcanebbia",
+            "skuIds": {
+              "nonfoil": "9ea00bca-eb2d-5a53-a6fd-198a55a0e073"
+            },
             "text": "Cangiante (Questa carta ha tutti i tipi di creatura.)\nVolare\n{1}{U}: Il Calcanebbia prende +1/-1 fino alla fine del turno.",
             "type": "Creatura — Polimorfo",
             "uuid": "336a2d76-c4f0-5b80-9090-b5118d28c9a5"
@@ -1286,27 +1426,31 @@
             "language": "Japanese",
             "multiverseId": 595681,
             "name": "煙霧歩き",
+            "skuIds": {
+              "nonfoil": "c189b8c2-c104-5209-91f3-7accea06a519"
+            },
             "text": "多相（このカードはすべてのクリーチャー・タイプである。）\n飛行\n{1}{U}：ターン終了時まで、煙霧歩きは＋１/－１の修整を受ける。",
             "type": "クリーチャー — 多相の戦士",
             "uuid": "4db00a3f-763e-5a0d-a826-6c2777ff2d41"
           },
           {
-            "flavorText": "「要离利雅拉，务必跟鸟走。」\n～塔科力民间传说",
+            "flavorText": "\"Para escapar de Littjara, a un pájaro debes seguir\".\n—Folclore tuskeri",
             "identifiers": {
-              "multiverseId": "596005",
-              "scryfallId": "b0bfa842-22ed-4112-9c7c-b11ee8885cce"
+              "multiverseId": "595357",
+              "scryfallId": "9774b275-1afc-4f20-8b5c-e552ba809a71"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596005,
-            "name": "迷雾行者",
-            "text": "化形（此牌是所有生物类别。）\n飞行\n{1}{U}：迷雾行者得+1/-1直到回合结束。",
-            "type": "生物 ～变形兽",
-            "uuid": "66e9fae4-264f-5c2d-a0fc-f717fb7505d5"
+            "language": "Spanish",
+            "multiverseId": 595357,
+            "name": "Caminante de neblinas",
+            "skuIds": {
+              "nonfoil": "e64f5262-de92-56ef-b206-f7700f11000b"
+            },
+            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nVuela.\n{1}{U}: El Caminante de neblinas obtiene +1/-1 hasta el final del turno.",
+            "type": "Criatura — Metamorfo",
+            "uuid": "5428071b-176a-5d21-b511-e537bf87f83b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270399",
           "cardsphereId": "96745",
@@ -1350,6 +1494,7 @@
         "name": "Mistwalker",
         "number": "323",
         "originalText": "Changeling (This card is every creature type.)\nFlying\n{1}{U}: Mistwalker gets +1/-1 until end of turn.",
+        "originalType": "Creature – Shapeshifter",
         "power": "1",
         "printings": [
           "J22",
@@ -1381,9 +1526,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "88443e8d-bf01-5af6-9c1b-83d0c504b6c5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1418,7 +1568,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 15250,
+        "edhrecRank": 15725,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -1426,27 +1576,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595241",
-              "scryfallId": "52dd54ad-7873-4bf4-b288-ed6ccaf979ed"
+              "multiverseId": "595997",
+              "scryfallId": "200b81c9-0a23-46fc-9e9f-3cfeae7a6450"
             },
-            "language": "German",
-            "multiverseId": 595241,
-            "name": "Littjara-Sippensucher",
-            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nWenn die Littjara-Sippensucher ins Spiel kommen und falls du drei oder mehr Kreaturen kontrollierst, die einen Kreaturentyp gemeinsam haben, lege eine +1/+1-Marke auf die Littjara-Sippensucher und wende dann Hellsicht 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
-            "type": "Kreatur — Gestaltwandler",
-            "uuid": "0569bf61-d5a5-5697-a844-1d2338457408"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595349",
-              "scryfallId": "b9fe5bd1-edfc-4a2d-b661-dc54ea41abb9"
+            "language": "Chinese Simplified",
+            "multiverseId": 595997,
+            "name": "利雅拉寻亲人",
+            "skuIds": {
+              "nonfoil": "a8733468-955e-5f8e-bc3f-0536a8f5e62d"
             },
-            "language": "Spanish",
-            "multiverseId": 595349,
-            "name": "Buscasemejantes de Littjara",
-            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nCuando los Buscasemejantes de Littjara entren al campo de batalla, si controlas tres o más criaturas que comparten un tipo de criatura, pon un contador +1/+1 sobre los Buscasemejantes de Littjara y luego adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo de tu biblioteca.)",
-            "type": "Criatura — Metamorfo",
-            "uuid": "fbc36837-9ef5-501b-ae58-cceb2a69c8c6"
+            "text": "化形（此牌是所有生物类别。）\n当利雅拉寻亲人进战场时，若你操控三个或更多具共通生物类别的生物，则在利雅拉寻亲人上放置一个+1/+1指示物，然后占卜1。（检视你牌库顶的牌。你可以将该牌置于你的牌库底。）",
+            "type": "生物 ～变形兽",
+            "uuid": "4b2b4418-a692-58c4-a5ae-0afaeaaa308e"
           },
           {
             "identifiers": {
@@ -1456,9 +1597,27 @@
             "language": "French",
             "multiverseId": 595457,
             "name": "Chercheurs de sang de Littjara",
+            "skuIds": {
+              "nonfoil": "3a8aad12-7cd8-5bda-9726-1013502f829f"
+            },
             "text": "Changelin (Cette carte a tous les types de créature.)\nQuand les Chercheurs de sang de Littjara arrivent sur le champ de bataille, si vous contrôlez au moins trois créatures qui partagent un type de créature, mettez un marqueur +1/+1 sur les Chercheurs de sang de Littjara, puis regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez la mettre au-dessous de votre bibliothèque.)",
             "type": "Créature : changeforme",
             "uuid": "5e3acca7-ecd9-5ad0-b493-f8f12656b3f5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595241",
+              "scryfallId": "52dd54ad-7873-4bf4-b288-ed6ccaf979ed"
+            },
+            "language": "German",
+            "multiverseId": 595241,
+            "name": "Littjara-Sippensucher",
+            "skuIds": {
+              "nonfoil": "21e6eac9-fc0f-5f53-9f30-f6d5a3fd7c4e"
+            },
+            "text": "Wandelwicht (Diese Karte hat alle Kreaturentypen.)\nWenn die Littjara-Sippensucher ins Spiel kommen und falls du drei oder mehr Kreaturen kontrollierst, die einen Kreaturentyp gemeinsam haben, lege eine +1/+1-Marke auf die Littjara-Sippensucher und wende dann Hellsicht 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
+            "type": "Kreatur — Gestaltwandler",
+            "uuid": "0569bf61-d5a5-5697-a844-1d2338457408"
           },
           {
             "identifiers": {
@@ -1468,6 +1627,9 @@
             "language": "Italian",
             "multiverseId": 595565,
             "name": "Cercasimili di Littjara",
+            "skuIds": {
+              "nonfoil": "c0af6dd2-ac72-5188-ae2c-ec4e3cb8039e"
+            },
             "text": "Cangiante (Questa carta ha tutti i tipi di creatura.)\nQuando i Cercasimili di Littjara entrano nel campo di battaglia, se controlli tre o più creature che condividono un tipo di creatura, metti un segnalino +1/+1 sui Cercasimili di Littjara, poi profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi mettere quella carta in fondo al tuo grimorio.)",
             "type": "Creatura — Polimorfo",
             "uuid": "94d50d90-5954-5c84-99df-b9a6116be8f3"
@@ -1480,26 +1642,30 @@
             "language": "Japanese",
             "multiverseId": 595673,
             "name": "リトヤラの同族探し",
+            "skuIds": {
+              "nonfoil": "5771760b-03c1-52dc-a4db-f9d841c28b0d"
+            },
             "text": "多相（このカードはすべてのクリーチャー・タイプである。）\nリトヤラの同族探しが戦場に出たとき、あなたが共通のクリーチャー・タイプ１つを持つ３体以上のクリーチャーをコントロールしている場合、リトヤラの同族探しの上に＋１/＋１カウンター１個を置き、その後、占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。あなたはそのカードをあなたのライブラリーの一番下に置いてもよい。）",
             "type": "クリーチャー — 多相の戦士",
             "uuid": "34a77f1e-bf13-55c9-bcae-d8915a46c0b1"
           },
           {
             "identifiers": {
-              "multiverseId": "595997",
-              "scryfallId": "200b81c9-0a23-46fc-9e9f-3cfeae7a6450"
+              "multiverseId": "595349",
+              "scryfallId": "b9fe5bd1-edfc-4a2d-b661-dc54ea41abb9"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595997,
-            "name": "利雅拉寻亲人",
-            "text": "化形（此牌是所有生物类别。）\n当利雅拉寻亲人进战场时，若你操控三个或更多具共通生物类别的生物，则在利雅拉寻亲人上放置一个+1/+1指示物，然后占卜1。（检视你牌库顶的牌。你可以将该牌置于你的牌库底。）",
-            "type": "生物 ～变形兽",
-            "uuid": "4b2b4418-a692-58c4-a5ae-0afaeaaa308e"
+            "language": "Spanish",
+            "multiverseId": 595349,
+            "name": "Buscasemejantes de Littjara",
+            "skuIds": {
+              "nonfoil": "7cae15b0-d7b6-514a-84ee-8e2e30da0681"
+            },
+            "text": "Cambiaformas. (Esta carta es de todos los tipos de criatura.)\nCuando los Buscasemejantes de Littjara entren al campo de batalla, si controlas tres o más criaturas que comparten un tipo de criatura, pon un contador +1/+1 sobre los Buscasemejantes de Littjara y luego adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo de tu biblioteca.)",
+            "type": "Criatura — Metamorfo",
+            "uuid": "fbc36837-9ef5-501b-ae58-cceb2a69c8c6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270394",
           "cardsphereId": "96742",
@@ -1543,6 +1709,7 @@
         "name": "Littjara Kinseekers",
         "number": "315",
         "originalText": "Changeling (This card is every creature type.)\nWhen Littjara Kinseekers enters the battlefield, if you control three or more creatures that share a creature type, put a +1/+1 counter on Littjara Kinseekers, then scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+        "originalType": "Creature – Shapeshifter",
         "power": "2",
         "printings": [
           "J22",
@@ -1585,9 +1752,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "20c3b228-d8b2-57a5-b579-2ffe3303c55d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1622,7 +1794,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 9546,
+        "edhrecRank": 9971,
         "edhrecSaltiness": 0.4,
         "finishes": [
           "nonfoil"
@@ -1630,30 +1802,20 @@
         "flavorText": "Her song plucks the strings of the storm, shifting wind and storm into a harmony that will carry her ship to safety.",
         "foreignData": [
           {
-            "flavorText": "Der Sturm gibt ihrem Lied die Melodie vor, und die daraus entstehende Harmonie leitet ihr Schiff in sichere Gewässer.",
+            "flavorText": "她的歌声能撩动风暴的琴弦，将狂风暴雨化作引领船只安全靠岸的和谐乐章。",
             "identifiers": {
-              "multiverseId": "595242",
-              "scryfallId": "4f226178-a3af-4162-91a7-65fb9fb2ba2e"
+              "multiverseId": "595998",
+              "scryfallId": "9e8d2cff-ab53-4a54-9a30-6db26c66dab7"
             },
-            "language": "German",
-            "multiverseId": 595242,
-            "name": "Zerstreuung des Ausgucks",
-            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Piraten kontrollierst.\nNeutralisiere einen Zauberspruch deiner Wahl, es sei denn, sein Beherrscher bezahlt {4}.",
-            "type": "Spontanzauber",
-            "uuid": "10d1631a-914f-51a1-931d-b423ca5bec36"
-          },
-          {
-            "flavorText": "Su canción conmueve a la tormenta y convierte el viento enfurecido en un murmullo armónico que guiará al barco hasta un lugar seguro.",
-            "identifiers": {
-              "multiverseId": "595350",
-              "scryfallId": "ca155076-7ce0-48cd-9bc2-33236f509fc7"
+            "language": "Chinese Simplified",
+            "multiverseId": 595998,
+            "name": "警戒员驱障",
+            "skuIds": {
+              "nonfoil": "35d8efa4-2950-5399-a96b-447bdb2c881e"
             },
-            "language": "Spanish",
-            "multiverseId": 595350,
-            "name": "Dispersión de vigía",
-            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Pirata.\nContrarresta el hechizo objetivo a menos que su controlador pague {4}.",
-            "type": "Instantáneo",
-            "uuid": "b1f900eb-500e-5c60-905e-f0ac308d3dff"
+            "text": "如果你操控海盗，则此咒语减少{1}来施放。\n除非目标咒语的操控者支付{4}，否则反击之。",
+            "type": "瞬间",
+            "uuid": "3dc30a7d-cef4-5658-8229-50e3943da8f9"
           },
           {
             "flavorText": "Son chant joue avec l'harmonie des orages pour que le vent et et la tempête mènent son navire en sécurité.",
@@ -1664,9 +1826,28 @@
             "language": "French",
             "multiverseId": 595458,
             "name": "Dispersion de la vigie",
+            "skuIds": {
+              "nonfoil": "4adcc76b-f81c-5e7f-b253-bc74507fcf70"
+            },
             "text": "Ce sort coûte {1} de moins à lancer si vous contrôlez un pirate.\nContrecarrez un sort ciblé à moins que son contrôleur ne paie {4}.",
             "type": "Éphémère",
             "uuid": "0032934a-61f6-5245-9d9e-bfa00dc5ca84"
+          },
+          {
+            "flavorText": "Der Sturm gibt ihrem Lied die Melodie vor, und die daraus entstehende Harmonie leitet ihr Schiff in sichere Gewässer.",
+            "identifiers": {
+              "multiverseId": "595242",
+              "scryfallId": "4f226178-a3af-4162-91a7-65fb9fb2ba2e"
+            },
+            "language": "German",
+            "multiverseId": 595242,
+            "name": "Zerstreuung des Ausgucks",
+            "skuIds": {
+              "nonfoil": "29b7cf90-5a12-53fe-bb1d-f5070d324f5a"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Piraten kontrollierst.\nNeutralisiere einen Zauberspruch deiner Wahl, es sei denn, sein Beherrscher bezahlt {4}.",
+            "type": "Spontanzauber",
+            "uuid": "10d1631a-914f-51a1-931d-b423ca5bec36"
           },
           {
             "flavorText": "Le sue canzoni toccano le corde della tempesta, accordando vento e burrasca in un'armonia che condurrà in salvo la sua nave.",
@@ -1677,6 +1858,9 @@
             "language": "Italian",
             "multiverseId": 595566,
             "name": "Dispersione della Vedetta",
+            "skuIds": {
+              "nonfoil": "f3e722e4-f216-5375-831c-fd3a1299f87c"
+            },
             "text": "Questa magia costa {1} in meno per essere lanciata se controlli un Pirata.\nNeutralizza una magia bersaglio a meno che il suo controllore non paghi {4}.",
             "type": "Istantaneo",
             "uuid": "8a7caedc-846c-5e7b-b8fa-c1d9748be280"
@@ -1690,27 +1874,31 @@
             "language": "Japanese",
             "multiverseId": 595674,
             "name": "見張りによる消散",
+            "skuIds": {
+              "nonfoil": "865f3061-7873-5015-9606-b5e2b1c0aedc"
+            },
             "text": "あなたが海賊をコントロールしているなら、この呪文を唱えるためのコストは{1}少なくなる。\n呪文１つを対象とする。それのコントローラーが{4}を支払わないかぎり、それを打ち消す。",
             "type": "インスタント",
             "uuid": "093562e4-1d58-5290-b416-514d974a341d"
           },
           {
-            "flavorText": "她的歌声能撩动风暴的琴弦，将狂风暴雨化作引领船只安全靠岸的和谐乐章。",
+            "flavorText": "Su canción conmueve a la tormenta y convierte el viento enfurecido en un murmullo armónico que guiará al barco hasta un lugar seguro.",
             "identifiers": {
-              "multiverseId": "595998",
-              "scryfallId": "9e8d2cff-ab53-4a54-9a30-6db26c66dab7"
+              "multiverseId": "595350",
+              "scryfallId": "ca155076-7ce0-48cd-9bc2-33236f509fc7"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595998,
-            "name": "警戒员驱障",
-            "text": "如果你操控海盗，则此咒语减少{1}来施放。\n除非目标咒语的操控者支付{4}，否则反击之。",
-            "type": "瞬间",
-            "uuid": "3dc30a7d-cef4-5658-8229-50e3943da8f9"
+            "language": "Spanish",
+            "multiverseId": 595350,
+            "name": "Dispersión de vigía",
+            "skuIds": {
+              "nonfoil": "817c0ff7-da34-5daf-9e15-5e6b4206fab1"
+            },
+            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Pirata.\nContrarresta el hechizo objetivo a menos que su controlador pague {4}.",
+            "type": "Instantáneo",
+            "uuid": "b1f900eb-500e-5c60-905e-f0ac308d3dff"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270395",
           "cardsphereId": "96743",
@@ -1748,6 +1936,7 @@
         "name": "Lookout's Dispersal",
         "number": "316",
         "originalText": "This spell costs {1} less to cast if you control a Pirate.\nCounter target spell unless its controller pays {4}.",
+        "originalType": "Instant",
         "printings": [
           "J22",
           "XLN"
@@ -1765,9 +1954,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "883ea08d-e2f5-5c11-af5c-ee02e4cb4f20"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1799,7 +1993,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 14384,
+        "edhrecRank": 14790,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
@@ -1807,30 +2001,20 @@
         "flavorText": "\"Serves you right for rushing ahead.\"\n—Kaliea, Sea Gate trapfinder",
         "foreignData": [
           {
-            "flavorText": "„Geschieht dir recht, wenn du so schnell vorpreschst.\"\n—Kaliea, Seetor-Fallensucherin",
+            "flavorText": "「叫你往前冲，活该。」\n～海户探陷人卡理耶",
             "identifiers": {
-              "multiverseId": "595207",
-              "scryfallId": "d962be97-639a-4895-838d-77728645e5c1"
+              "multiverseId": "595963",
+              "scryfallId": "018f4a72-3596-4e81-a401-d4611b994a41"
             },
-            "language": "German",
-            "multiverseId": 595207,
-            "name": "Eiskalte Falle",
-            "text": "Eine Kreatur deiner Wahl erhält -4/-0 bis zum Ende des Zuges. Falls du einen Zauberer kontrollierst, ziehe eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "8c4b8095-641b-5daa-9034-0ee0e45e1ec5"
-          },
-          {
-            "flavorText": "\"Te lo mereces, por adelantarte\".\n—Kaliea, buscatrampas de Portal Marino",
-            "identifiers": {
-              "multiverseId": "595315",
-              "scryfallId": "9935a925-8862-459e-b0a9-8bad5a5ac9c2"
+            "language": "Chinese Simplified",
+            "multiverseId": 595963,
+            "name": "冰寒陷阱",
+            "skuIds": {
+              "nonfoil": "9404ea25-431c-573c-a0c5-f6bb24855d4c"
             },
-            "language": "Spanish",
-            "multiverseId": 595315,
-            "name": "Trampa espeluznante",
-            "text": "La criatura objetivo obtiene -4/-0 hasta el final del turno. Si controlas un Hechicero, roba una carta.",
-            "type": "Instantáneo",
-            "uuid": "080b3728-8e66-535a-8f1c-1d820740e7ef"
+            "text": "目标生物得-4/-0直到回合结束。如果你操控法术师，则抓一张牌。",
+            "type": "瞬间",
+            "uuid": "690e1d96-fcd8-5579-9505-e72c778fb0b9"
           },
           {
             "flavorText": "« Ça vous apprendra à foncer tête baissée. »\n—Kaliéa, pistrappeuse de Porte des Mers",
@@ -1841,9 +2025,28 @@
             "language": "French",
             "multiverseId": 595423,
             "name": "Piège glaçant",
+            "skuIds": {
+              "nonfoil": "86753ae1-1ce6-5955-accd-41e81fc63784"
+            },
             "text": "Une créature ciblée gagne -4/-0 jusqu'à la fin du tour. Si vous contrôlez un sorcier, piochez une carte.",
             "type": "Éphémère",
             "uuid": "518e29e1-74bf-5724-963a-e53badb511e2"
+          },
+          {
+            "flavorText": "„Geschieht dir recht, wenn du so schnell vorpreschst.\"\n—Kaliea, Seetor-Fallensucherin",
+            "identifiers": {
+              "multiverseId": "595207",
+              "scryfallId": "d962be97-639a-4895-838d-77728645e5c1"
+            },
+            "language": "German",
+            "multiverseId": 595207,
+            "name": "Eiskalte Falle",
+            "skuIds": {
+              "nonfoil": "ec68ddad-b752-52f3-84d3-2ab75081e736"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -4/-0 bis zum Ende des Zuges. Falls du einen Zauberer kontrollierst, ziehe eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "8c4b8095-641b-5daa-9034-0ee0e45e1ec5"
           },
           {
             "flavorText": "\"Ti sta bene per esserti precipitato avanti.\"\n—Kaliea, scopritrappole di Portale Marino",
@@ -1854,6 +2057,9 @@
             "language": "Italian",
             "multiverseId": 595531,
             "name": "Trappola Agghiacciante",
+            "skuIds": {
+              "nonfoil": "f149c283-0d36-569c-98e4-76835e307d44"
+            },
             "text": "Una creatura bersaglio prende -4/-0 fino alla fine del turno. Se controlli un Mago, pesca una carta.",
             "type": "Istantaneo",
             "uuid": "de75732b-47fd-5917-9fcd-60961d594b57"
@@ -1867,27 +2073,31 @@
             "language": "Japanese",
             "multiverseId": 595639,
             "name": "凍える罠",
+            "skuIds": {
+              "nonfoil": "8b355533-55c7-5ac8-9882-203040cd6ef8"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－４/－０の修整を受ける。あなたがウィザードをコントロールしているなら、カード１枚を引く。",
             "type": "インスタント",
             "uuid": "5cbfd5fe-6430-5eaf-a1cb-4643d3bf3fc3"
           },
           {
-            "flavorText": "「叫你往前冲，活该。」\n～海户探陷人卡理耶",
+            "flavorText": "\"Te lo mereces, por adelantarte\".\n—Kaliea, buscatrampas de Portal Marino",
             "identifiers": {
-              "multiverseId": "595963",
-              "scryfallId": "018f4a72-3596-4e81-a401-d4611b994a41"
+              "multiverseId": "595315",
+              "scryfallId": "9935a925-8862-459e-b0a9-8bad5a5ac9c2"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595963,
-            "name": "冰寒陷阱",
-            "text": "目标生物得-4/-0直到回合结束。如果你操控法术师，则抓一张牌。",
-            "type": "瞬间",
-            "uuid": "690e1d96-fcd8-5579-9505-e72c778fb0b9"
+            "language": "Spanish",
+            "multiverseId": 595315,
+            "name": "Trampa espeluznante",
+            "skuIds": {
+              "nonfoil": "4cb3563c-12f6-51f6-9d61-dac197102a71"
+            },
+            "text": "La criatura objetivo obtiene -4/-0 hasta el final del turno. Si controlas un Hechicero, roba una carta.",
+            "type": "Instantáneo",
+            "uuid": "080b3728-8e66-535a-8f1c-1d820740e7ef"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270378",
           "cardsphereId": "96729",
@@ -1918,7 +2128,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -1928,6 +2137,7 @@
         "name": "Chilling Trap",
         "number": "281",
         "originalText": "Target creature gets -4/-0 until end of turn. If you control a Wizard, draw a card.",
+        "originalType": "Instant",
         "printings": [
           "J22",
           "J25",
@@ -1947,9 +2157,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a2dfb1f8-111a-5e66-be6b-af2cdbd3a7a9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1981,7 +2196,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18860,
+        "edhrecRank": 19285,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
@@ -1989,27 +2204,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595209",
-              "scryfallId": "c53b1453-9531-4cdd-bb91-a494220531c0"
+              "multiverseId": "595965",
+              "scryfallId": "a5b0f64b-40f4-4202-8648-e0ac0b98ba56"
             },
-            "language": "German",
-            "multiverseId": 595209,
-            "name": "Brandende Flutwelle",
-            "text": "Dieser Zauberspruch hat Aufblitzen, solange du ein Meervolk kontrollierst.\nBringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\nZiehe eine Karte.",
-            "type": "Hexerei",
-            "uuid": "9dc121c9-6991-5f39-9e35-e80ea41d4a76"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595317",
-              "scryfallId": "1aba7523-b363-49c0-9d56-560b68342703"
+            "language": "Chinese Simplified",
+            "multiverseId": 595965,
+            "name": "覆顶潮浪",
+            "skuIds": {
+              "nonfoil": "645fde02-ebb8-5ccb-afef-6e144bb190d2"
             },
-            "language": "Spanish",
-            "multiverseId": 595317,
-            "name": "Marea rompiente",
-            "text": "Este hechizo tiene la habilidad de destello mientras controles un Tritón.\nRegresa la criatura objetivo a la mano de su propietario.\nRoba una carta.",
-            "type": "Conjuro",
-            "uuid": "718c880a-b0c4-5319-8adb-86a4c0a4bd89"
+            "text": "只要你操控人鱼，此咒语便具有闪现异能。\n将目标生物移回其拥有者手上。\n抓一张牌。",
+            "type": "法术",
+            "uuid": "5cf3daf1-8347-5645-be02-e12848e1441b"
           },
           {
             "identifiers": {
@@ -2019,9 +2225,27 @@
             "language": "French",
             "multiverseId": 595425,
             "name": "Marée déferlante",
+            "skuIds": {
+              "nonfoil": "3b3f83b4-d506-50fd-85ba-7f05ba6f58e2"
+            },
             "text": "Ce sort a le flash tant que vous contrôlez un ondin.\nRenvoyez une créature ciblée dans la main de son propriétaire.\nPiochez une carte.",
             "type": "Rituel",
             "uuid": "6932fefc-28af-5ecf-9019-4398bba0d058"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595209",
+              "scryfallId": "c53b1453-9531-4cdd-bb91-a494220531c0"
+            },
+            "language": "German",
+            "multiverseId": 595209,
+            "name": "Brandende Flutwelle",
+            "skuIds": {
+              "nonfoil": "2ca292c7-f234-58dd-b208-19fe9a943c06"
+            },
+            "text": "Dieser Zauberspruch hat Aufblitzen, solange du ein Meervolk kontrollierst.\nBringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\nZiehe eine Karte.",
+            "type": "Hexerei",
+            "uuid": "9dc121c9-6991-5f39-9e35-e80ea41d4a76"
           },
           {
             "identifiers": {
@@ -2031,6 +2255,9 @@
             "language": "Italian",
             "multiverseId": 595533,
             "name": "Marea Schiacciante",
+            "skuIds": {
+              "nonfoil": "bb36bf27-1990-53ba-a06f-e3b4cdd91686"
+            },
             "text": "Questa magia ha lampo fintanto che controlli un Tritone.\nFai tornare una creatura bersaglio in mano al suo proprietario.\nPesca una carta.",
             "type": "Stregoneria",
             "uuid": "a77140e2-375b-5443-a73b-a70a6315c4f6"
@@ -2043,26 +2270,30 @@
             "language": "Japanese",
             "multiverseId": 595641,
             "name": "粉砕する潮流",
+            "skuIds": {
+              "nonfoil": "73b23eab-40a0-53d4-8c8e-a5050c0246ee"
+            },
             "text": "あなたがマーフォークをコントロールしているかぎり、この呪文は瞬速を持つ。\nクリーチャー１体を対象とする。それをオーナーの手札に戻す。\nカード１枚を引く。",
             "type": "ソーサリー",
             "uuid": "7f8b5f74-e59f-55e0-90b6-7c5056b0c710"
           },
           {
             "identifiers": {
-              "multiverseId": "595965",
-              "scryfallId": "a5b0f64b-40f4-4202-8648-e0ac0b98ba56"
+              "multiverseId": "595317",
+              "scryfallId": "1aba7523-b363-49c0-9d56-560b68342703"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595965,
-            "name": "覆顶潮浪",
-            "text": "只要你操控人鱼，此咒语便具有闪现异能。\n将目标生物移回其拥有者手上。\n抓一张牌。",
-            "type": "法术",
-            "uuid": "5cf3daf1-8347-5645-be02-e12848e1441b"
+            "language": "Spanish",
+            "multiverseId": 595317,
+            "name": "Marea rompiente",
+            "skuIds": {
+              "nonfoil": "f4d12cb0-3560-5060-b1ad-78b845a427b6"
+            },
+            "text": "Este hechizo tiene la habilidad de destello mientras controles un Tritón.\nRegresa la criatura objetivo a la mano de su propietario.\nRoba una carta.",
+            "type": "Conjuro",
+            "uuid": "718c880a-b0c4-5319-8adb-86a4c0a4bd89"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270379",
           "cardsphereId": "96730",
@@ -2102,6 +2333,7 @@
         "name": "Crashing Tide",
         "number": "283",
         "originalText": "This spell has flash as long as you control a Merfolk.\nReturn target creature to its owner's hand.\nDraw a card.",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "PLST",
@@ -2124,9 +2356,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ff13940e-3588-53cf-9bfc-cc2429567ac1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2154,7 +2391,7 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3385,
+        "edhrecRank": 3626,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
@@ -2162,27 +2399,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "596279",
-              "scryfallId": "e3f04efa-e85f-4af1-b4bf-ac9dae61dc0b"
+              "multiverseId": "596888",
+              "scryfallId": "a9b9cc29-0f8b-4578-9088-a59797555e14"
             },
-            "language": "German",
-            "multiverseId": 596279,
-            "name": "Zweischneidiges Erbstück",
-            "text": "Die ausgerüstete Kreatur erhält +3/+1.\nImmer wenn die ausgerüstete Kreatur stirbt, kannst du Karten oben von deiner Bibliothek aufdecken, bis du eine Kreaturenkarte aufdeckst, die mit ihr einen Kreaturentyp gemeinsam hat. Nimm jene Karte auf deine Hand und lege den Rest in zufälliger Reihenfolge unter deine Bibliothek.\nAusrüsten {1} ({1}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung",
-            "uuid": "f8a028a9-a749-567c-bccb-b2187e0b7e1b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "596366",
-              "scryfallId": "eeff061b-cacd-4ba5-bc5b-da5ada738fa8"
+            "language": "Chinese Simplified",
+            "multiverseId": 596888,
+            "name": "家传宝剑",
+            "skuIds": {
+              "nonfoil": "d91653e1-c963-5a44-8481-ffae593ed2d9"
             },
-            "language": "Spanish",
-            "multiverseId": 596366,
-            "name": "Espada familiar",
-            "text": "La criatura equipada obtiene +3/+1.\nSiempre que la criatura equipada muera, puedes mostrar cartas de la parte superior de tu biblioteca hasta que muestres una carta de criatura que comparta un tipo de criatura con ella. Pon esa carta en tu mano y el resto en el fondo de tu biblioteca en un orden aleatorio.\nEquipar {1}. ({1}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo",
-            "uuid": "71279439-1f4b-5f44-8051-be04ffdd1768"
+            "text": "佩带此武具的生物得+3/+1。\n每当佩带此武具的生物死去时，你可以从你牌库顶开始展示牌，直到展示出一张与之具共通生物类别的生物牌为止。将该牌置于你手上，其余则以随机顺序置于你的牌库底。\n佩带{1}（{1}：贴附在目标由你操控的生物上。只能于法术时机佩带。）",
+            "type": "神器 ～武具",
+            "uuid": "cbec4170-bfb3-5284-a314-090f5420f2f0"
           },
           {
             "identifiers": {
@@ -2192,9 +2420,27 @@
             "language": "French",
             "multiverseId": 596453,
             "name": "Lame d'héritage",
+            "skuIds": {
+              "nonfoil": "929892d0-6b8d-59ea-b183-5d4dad2edcf4"
+            },
             "text": "La créature équipée gagne +3/+1.\nÀ chaque fois que la créature équipée meurt, vous pouvez révéler les cartes du dessus de votre bibliothèque jusqu'à ce que vous révéliez une carte de créature qui partage un type de créature avec elle. Mettez cette carte dans votre main et le reste au-dessous de votre bibliothèque dans un ordre aléatoire.\nÉquipement {1} ({1} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
             "type": "Artefact : équipement",
             "uuid": "764b1934-e514-52e6-b354-539b26c5c1be"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "596279",
+              "scryfallId": "e3f04efa-e85f-4af1-b4bf-ac9dae61dc0b"
+            },
+            "language": "German",
+            "multiverseId": 596279,
+            "name": "Zweischneidiges Erbstück",
+            "skuIds": {
+              "nonfoil": "85787eee-75a7-5c83-b8b7-f1886b1e72de"
+            },
+            "text": "Die ausgerüstete Kreatur erhält +3/+1.\nImmer wenn die ausgerüstete Kreatur stirbt, kannst du Karten oben von deiner Bibliothek aufdecken, bis du eine Kreaturenkarte aufdeckst, die mit ihr einen Kreaturentyp gemeinsam hat. Nimm jene Karte auf deine Hand und lege den Rest in zufälliger Reihenfolge unter deine Bibliothek.\nAusrüsten {1} ({1}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "f8a028a9-a749-567c-bccb-b2187e0b7e1b"
           },
           {
             "identifiers": {
@@ -2204,6 +2450,9 @@
             "language": "Italian",
             "multiverseId": 596540,
             "name": "Cimelio Affilato",
+            "skuIds": {
+              "nonfoil": "4a6f0140-a7fd-541a-b8dd-9cdf6515a724"
+            },
             "text": "La creatura equipaggiata prende +3/+1.\nOgniqualvolta la creatura equipaggiata muore, puoi rivelare carte dalla cima del tuo grimorio finché non riveli una carta creatura che condivide un tipo di creatura con essa. Aggiungi quella carta alla tua mano e metti le altre in fondo al tuo grimorio in ordine casuale.\nEquipaggiare {1} ({1}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
             "type": "Artefatto — Equipaggiamento",
             "uuid": "6953b611-b44b-5920-8b9b-bc364e7ffcc5"
@@ -2216,26 +2465,30 @@
             "language": "Japanese",
             "multiverseId": 596627,
             "name": "先祖伝来の宝刀",
+            "skuIds": {
+              "nonfoil": "7625c6d5-5a83-540f-bf28-61376d8edafd"
+            },
             "text": "装備しているクリーチャーは＋３/＋１の修整を受ける。\n装備しているクリーチャーが死亡するたび、あなたは「それと共通のクリーチャー・タイプ１つを持つクリーチャー・カード１枚が公開されるまで、あなたのライブラリーの一番上から１枚ずつ公開していく。そのカードをあなたの手札に、残りをあなたのライブラリーの一番下に無作為の順番で置く。」を選んでもよい。\n装備{1}（{1}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
             "type": "アーティファクト — 装備品",
             "uuid": "70a7ce48-d5e1-51f1-b871-56f986ae481e"
           },
           {
             "identifiers": {
-              "multiverseId": "596888",
-              "scryfallId": "a9b9cc29-0f8b-4578-9088-a59797555e14"
+              "multiverseId": "596366",
+              "scryfallId": "eeff061b-cacd-4ba5-bc5b-da5ada738fa8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596888,
-            "name": "家传宝剑",
-            "text": "佩带此武具的生物得+3/+1。\n每当佩带此武具的生物死去时，你可以从你牌库顶开始展示牌，直到展示出一张与之具共通生物类别的生物牌为止。将该牌置于你手上，其余则以随机顺序置于你的牌库底。\n佩带{1}（{1}：贴附在目标由你操控的生物上。只能于法术时机佩带。）",
-            "type": "神器 ～武具",
-            "uuid": "cbec4170-bfb3-5284-a314-090f5420f2f0"
+            "language": "Spanish",
+            "multiverseId": 596366,
+            "name": "Espada familiar",
+            "skuIds": {
+              "nonfoil": "ae3aee96-f32f-5c53-af2e-8c7a349140e7"
+            },
+            "text": "La criatura equipada obtiene +3/+1.\nSiempre que la criatura equipada muera, puedes mostrar cartas de la parte superior de tu biblioteca hasta que muestres una carta de criatura que comparta un tipo de criatura con ella. Pon esa carta en tu mano y el resto en el fondo de tu biblioteca en un orden aleatorio.\nEquipar {1}. ({1}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
+            "type": "Artefacto — Equipo",
+            "uuid": "71279439-1f4b-5f44-8051-be04ffdd1768"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270559",
           "cardsphereId": "96775",
@@ -2270,6 +2523,7 @@
         "name": "Heirloom Blade",
         "number": "775",
         "originalText": "Equipped creature gets +3/+1.\nWhenever equipped creature dies, you may reveal cards from the top of your library until you reveal a creature card that shares a creature type with it. Put that card into your hand and the rest on the bottom of your library in a random order.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "AFC",
           "C17",
@@ -2316,9 +2570,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a67f41eb-b0c9-5c98-b97c-f47deb47616a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2350,7 +2609,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -2358,30 +2617,20 @@
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
           {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
             "identifiers": {
-              "multiverseId": "596329",
-              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+              "multiverseId": "596938",
+              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
             },
-            "language": "German",
-            "multiverseId": 596329,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "596416",
-              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
+            "language": "Chinese Simplified",
+            "multiverseId": 596938,
+            "name": "兴旺岛屿",
+            "skuIds": {
+              "nonfoil": "5450c1b8-d944-5662-8c7a-b37fcfda800f"
             },
-            "language": "Spanish",
-            "multiverseId": 596416,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
+            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
           },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
@@ -2392,9 +2641,28 @@
             "language": "French",
             "multiverseId": 596503,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "93e8bfea-3a48-5e55-8f4b-90dbeb5bbadf"
+            },
             "text": "L'Île prospère arrive sur le champ de bataille engagée.\nAu moment où l'Île prospère arrive sur le champ de bataille, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "b358cc4d-40ea-5bb9-a336-d13a3b994f85"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "596329",
+              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+            },
+            "language": "German",
+            "multiverseId": 596329,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "6b38935c-176b-56c6-b81a-3b0dcb9da69e"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2405,6 +2673,9 @@
             "language": "Italian",
             "multiverseId": 596590,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "cf678639-2090-5e35-acc5-51feb83415ee"
+            },
             "text": "L'Isola Florida entra nel campo di battaglia TAPpata.\nMentre l'Isola Florida entra nel campo di battaglia, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "c54e2963-6d75-5069-ac7f-4996bb9067af"
@@ -2418,27 +2689,31 @@
             "language": "Japanese",
             "multiverseId": 596677,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "55d97164-e6eb-589d-aa56-41b3ca44055e"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。\n興隆する島嶼が戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "afce460c-7748-5426-b20d-fb2835b3c36b"
           },
           {
-            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
             "identifiers": {
-              "multiverseId": "596938",
-              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
+              "multiverseId": "596416",
+              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596938,
-            "name": "兴旺岛屿",
-            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
+            "language": "Spanish",
+            "multiverseId": 596416,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "5a71ffda-a0be-5e3d-b150-cecffa9f8b09"
+            },
+            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270585",
           "cardsphereId": "96779",
@@ -2475,12 +2750,14 @@
         "name": "Thriving Isle",
         "number": "825",
         "originalText": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2488,7 +2765,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ef6dd617500d54d9",
@@ -2497,9 +2782,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "452bd8bb-fd64-544d-a1dc-68dca32d8adf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2536,25 +2826,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597763",
-              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+              "multiverseId": "597868",
+              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
             },
-            "language": "German",
-            "multiverseId": 597763,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597778",
-              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
+            "language": "Chinese Simplified",
+            "multiverseId": 597868,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "bc048538-7fb0-545a-9f2d-2c0793feda37"
             },
-            "language": "Spanish",
-            "multiverseId": 597778,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
+            "type": "基本地 ～海岛",
+            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
           },
           {
             "identifiers": {
@@ -2564,8 +2846,25 @@
             "language": "French",
             "multiverseId": 597793,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "718ded01-dd87-5245-b7e6-7a5ef5877a97"
+            },
             "type": "Terrain de base : île",
             "uuid": "2470a3d0-26b7-5661-9d52-d5e48d6049aa"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597763",
+              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+            },
+            "language": "German",
+            "multiverseId": 597763,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "270a78ae-ed59-55cd-a765-f361ffc0e393"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
           },
           {
             "identifiers": {
@@ -2575,6 +2874,9 @@
             "language": "Italian",
             "multiverseId": 597808,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "c6d59d8d-de84-580c-8527-51844669ce21"
+            },
             "type": "Terra Base — Isola",
             "uuid": "72f351cc-f4f0-5149-9de4-6c062dece287"
           },
@@ -2586,29 +2888,34 @@
             "language": "Japanese",
             "multiverseId": 597823,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "33cc94a0-e6ac-508a-809d-5c539a231edd"
+            },
             "type": "基本土地 — 島",
             "uuid": "89ff2a7d-44ad-530a-bdf5-9850a915eb7c"
           },
           {
             "identifiers": {
-              "multiverseId": "597868",
-              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
+              "multiverseId": "597778",
+              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597868,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
+            "language": "Spanish",
+            "multiverseId": 597778,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "865123bc-01fd-5f88-ac22-160883945026"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270282",
           "cardsphereId": "96732",
           "deckboxId": "71294",
           "mcmId": "687359",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "202ef466-a412-5e98-888e-d007dc4b45c2",
           "multiverseId": "597748",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2647,6 +2954,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "101",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2716,6 +3024,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2876,15 +3185,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/88cffb7a2c906851",
+          "cardmarket": "https://mtgjson.com/links/6589c393dfe7df52",
           "tcgplayer": "https://mtgjson.com/links/4fe28b434034ba2e"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a793dc90-17a8-58c7-b490-547ebc26f6de"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2929,25 +3247,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597764",
-              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+              "multiverseId": "597869",
+              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
             },
-            "language": "German",
-            "multiverseId": 597764,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597779",
-              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
+            "language": "Chinese Simplified",
+            "multiverseId": 597869,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "3864757a-748b-5da6-8959-4e744276baff"
             },
-            "language": "Spanish",
-            "multiverseId": 597779,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
+            "type": "基本地 ～海岛",
+            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
           },
           {
             "identifiers": {
@@ -2957,8 +3267,25 @@
             "language": "French",
             "multiverseId": 597794,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "61133527-b11a-5be5-baa4-bcfac3d8ff67"
+            },
             "type": "Terrain de base : île",
             "uuid": "9d779f8b-8e17-59c0-a616-6932acd625d8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597764",
+              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+            },
+            "language": "German",
+            "multiverseId": 597764,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "71066775-0f1d-5710-b673-ebd0b760af6f"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
           },
           {
             "identifiers": {
@@ -2968,6 +3295,9 @@
             "language": "Italian",
             "multiverseId": 597809,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "56a0d74a-07a0-52e0-b7c1-b8bf589c3fc3"
+            },
             "type": "Terra Base — Isola",
             "uuid": "7469ec41-b333-58e1-85c1-111559a6f227"
           },
@@ -2979,29 +3309,34 @@
             "language": "Japanese",
             "multiverseId": 597824,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9f850ed6-ff17-535c-ad43-48424be5d125"
+            },
             "type": "基本土地 — 島",
             "uuid": "967e4846-dc2f-5593-a0c6-ff7166140a21"
           },
           {
             "identifiers": {
-              "multiverseId": "597869",
-              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
+              "multiverseId": "597779",
+              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597869,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
+            "language": "Spanish",
+            "multiverseId": 597779,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "e87eb06c-bd14-5933-a9f1-7f3343a0d3c9"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270283",
           "cardsphereId": "96733",
           "deckboxId": "71295",
           "mcmId": "687360",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "089ffe1e-204e-5497-a06e-9f002a05f2a2",
           "multiverseId": "597749",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3040,6 +3375,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "102",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3109,6 +3445,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3269,15 +3606,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3654238d6e97ce9c",
+          "cardmarket": "https://mtgjson.com/links/a67e187b3068798c",
           "tcgplayer": "https://mtgjson.com/links/72e364f528a609f6"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3bca12dc-bf4b-51b2-9da7-6edd2ec08903"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3293,8 +3639,8 @@
         ],
         "uuid": "078dbb69-e17b-5d0a-967e-887d605796da",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "6b885758-9973-5e10-8113-89e02702cfa7"
+          "6b885758-9973-5e10-8113-89e02702cfa7",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       },
       {
@@ -3322,25 +3668,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597765",
-              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+              "multiverseId": "597870",
+              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
             },
-            "language": "German",
-            "multiverseId": 597765,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597780",
-              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
+            "language": "Chinese Simplified",
+            "multiverseId": 597870,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "f28d17bf-01eb-5bea-b140-e032e95c177f"
             },
-            "language": "Spanish",
-            "multiverseId": 597780,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
+            "type": "基本地 ～海岛",
+            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
           },
           {
             "identifiers": {
@@ -3350,8 +3688,25 @@
             "language": "French",
             "multiverseId": 597795,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "e0452c37-3145-54f4-877c-5c59ad7c07c5"
+            },
             "type": "Terrain de base : île",
             "uuid": "f2648836-4166-55fd-b147-45d61afe6fbf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597765",
+              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+            },
+            "language": "German",
+            "multiverseId": 597765,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "e3620e6b-dd56-5d11-8e6d-7a6956ac6d81"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
           },
           {
             "identifiers": {
@@ -3361,6 +3716,9 @@
             "language": "Italian",
             "multiverseId": 597810,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "49ffe84e-2d57-5c55-a1ab-4b7c738530f5"
+            },
             "type": "Terra Base — Isola",
             "uuid": "c68a531f-9f50-58d5-879c-6891c7ec0003"
           },
@@ -3372,29 +3730,34 @@
             "language": "Japanese",
             "multiverseId": 597825,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "427d9251-e578-5607-801d-07cf00e3a486"
+            },
             "type": "基本土地 — 島",
             "uuid": "eeb0211c-e9bf-5163-830c-c283f9d05ee9"
           },
           {
             "identifiers": {
-              "multiverseId": "597870",
-              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
+              "multiverseId": "597780",
+              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597870,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
+            "language": "Spanish",
+            "multiverseId": 597780,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "6a8fb956-980a-52b5-a794-5cb4acadc051"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270284",
           "cardsphereId": "96734",
           "deckboxId": "71296",
           "mcmId": "687361",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "77bc71cd-b741-58e5-b874-edcb1fb840bf",
           "multiverseId": "597750",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3433,6 +3796,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "103",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3502,6 +3866,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3662,15 +4027,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3e2b031dfb3f0153",
+          "cardmarket": "https://mtgjson.com/links/f3560bb87ffa2803",
           "tcgplayer": "https://mtgjson.com/links/2ce532101f10254a"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5ddc768c-35de-5bba-ba23-e7da71d2573c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3686,8 +4060,8 @@
         ],
         "uuid": "6b885758-9973-5e10-8113-89e02702cfa7",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "078dbb69-e17b-5d0a-967e-887d605796da"
+          "078dbb69-e17b-5d0a-967e-887d605796da",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       }
     ],
@@ -3702,5 +4076,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "c07d6378bad9db"
   }
 }

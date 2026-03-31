@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "3c6b0c9b52e634"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,7 +24,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 7835,
+        "edhrecRank": 8722,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -37,30 +32,20 @@
         "flavorText": "\"Ah, we have a critic.\"\n—Orthion, Lavabrink captain",
         "foreignData": [
           {
-            "flavorText": "„Ah, ein Kritiker.\"\n—Orthion, Lavagrund-Hauptmann",
+            "flavorText": "「啊，有个敢说话的。」\n～熔缘城队长欧席因",
             "identifiers": {
-              "multiverseId": "590208",
-              "scryfallId": "2ed3d4c0-d628-4248-8de2-5c11d4d8b795"
+              "multiverseId": "591153",
+              "scryfallId": "3a60325b-9716-46d1-90da-167711d3b1b6"
             },
-            "language": "German",
-            "multiverseId": 590208,
-            "name": "Beizspucker-Gremlin",
-            "text": "{1}, {T}: Der Beizspucker-Gremlin fügt jedem Gegner 1 Schadenspunkt zu.\nImmer wenn du einen Nichtkreatur-Zauberspruch wirkst, enttappe den Beizspucker-Gremlin.",
-            "type": "Kreatur — Gremlin",
-            "uuid": "fd269148-fe27-5904-bcb3-bf3f0cddddfe"
-          },
-          {
-            "flavorText": "\"Mira, si tenemos aquí un crítico\".\n—Orthion, capitán de Bordelava",
-            "identifiers": {
-              "multiverseId": "590343",
-              "scryfallId": "1624e427-516b-47e6-8e0c-f7716b83867d"
+            "language": "Chinese Simplified",
+            "multiverseId": 591153,
+            "name": "蜇息怪灵",
+            "skuIds": {
+              "nonfoil": "89ccf462-9235-58af-a137-bc80f3b5d0c5"
             },
-            "language": "Spanish",
-            "multiverseId": 590343,
-            "name": "Gremlin escupellamas",
-            "text": "{1}, {T}: El Gremlin escupellamas hace 1 punto de daño a cada oponente.\nSiempre que lances un hechizo que no sea de criatura, endereza el Gremlin escupellamas.",
-            "type": "Criatura — Gremlin",
-            "uuid": "19f29ca2-dd45-57a0-a024-fa67c50a0e7d"
+            "text": "{1}，{T}：蜇息怪灵向每位对手各造成1点伤害。\n每当你施放非生物咒语时，重置蜇息怪灵。",
+            "type": "生物 ～怪灵",
+            "uuid": "218cf79c-24bb-563b-a977-5d11f3301c42"
           },
           {
             "flavorText": "« Ah, en voilà un qui n'est pas satisfait. »\n—Orthion, capitaine de Bourg-sur-Lave",
@@ -71,9 +56,28 @@
             "language": "French",
             "multiverseId": 590478,
             "name": "Gremlin phlyctocracheur",
+            "skuIds": {
+              "nonfoil": "859aacb5-03fd-53f0-9b36-377db6681bb7"
+            },
             "text": "{1}, {T} : Le Gremlin phlyctocracheur inflige 1 blessure à chaque adversaire.\nÀ chaque fois que vous lancez un sort non-créature, dégagez le Gremlin phlyctocracheur.",
             "type": "Créature : gremlin",
             "uuid": "6a54da5b-787c-50ba-9924-1829439306d7"
+          },
+          {
+            "flavorText": "„Ah, ein Kritiker.\"\n—Orthion, Lavagrund-Hauptmann",
+            "identifiers": {
+              "multiverseId": "590208",
+              "scryfallId": "2ed3d4c0-d628-4248-8de2-5c11d4d8b795"
+            },
+            "language": "German",
+            "multiverseId": 590208,
+            "name": "Beizspucker-Gremlin",
+            "skuIds": {
+              "nonfoil": "8124bc2f-7bf2-58c5-a194-05a096424f34"
+            },
+            "text": "{1}, {T}: Der Beizspucker-Gremlin fügt jedem Gegner 1 Schadenspunkt zu.\nImmer wenn du einen Nichtkreatur-Zauberspruch wirkst, enttappe den Beizspucker-Gremlin.",
+            "type": "Kreatur — Gremlin",
+            "uuid": "fd269148-fe27-5904-bcb3-bf3f0cddddfe"
           },
           {
             "flavorText": "\"Ah, abbiamo un critico.\"\n—Orthion, capitano di Lavariva",
@@ -84,6 +88,9 @@
             "language": "Italian",
             "multiverseId": 590613,
             "name": "Gremlin Sputabrace",
+            "skuIds": {
+              "nonfoil": "d3136554-43eb-5ba8-a19e-de78bae0a3b4"
+            },
             "text": "{1}, {T}: Il Gremlin Sputabrace infligge 1 danno a ogni avversario.\nOgniqualvolta lanci una magia non creatura, STAPpa il Gremlin Sputabrace.",
             "type": "Creatura — Gremlin",
             "uuid": "af426592-3815-5377-93e3-2cb5d179727a"
@@ -97,27 +104,31 @@
             "language": "Japanese",
             "multiverseId": 590748,
             "name": "火傷吐きグレムリン",
+            "skuIds": {
+              "nonfoil": "1b9fb492-ecd5-5c2e-8155-8dde8b97377b"
+            },
             "text": "{1}, {T}：火傷吐きグレムリンは各対戦相手にそれぞれ１点のダメージを与える。\nあなたがクリーチャーでない呪文を唱えるたび、火傷吐きグレムリンをアンタップする。",
             "type": "クリーチャー — グレムリン",
             "uuid": "7b6dcd64-dbfe-5eb3-8374-5c10fa0175c3"
           },
           {
-            "flavorText": "「啊，有个敢说话的。」\n～熔缘城队长欧席因",
+            "flavorText": "\"Mira, si tenemos aquí un crítico\".\n—Orthion, capitán de Bordelava",
             "identifiers": {
-              "multiverseId": "591153",
-              "scryfallId": "3a60325b-9716-46d1-90da-167711d3b1b6"
+              "multiverseId": "590343",
+              "scryfallId": "1624e427-516b-47e6-8e0c-f7716b83867d"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591153,
-            "name": "蜇息怪灵",
-            "text": "{1}，{T}：蜇息怪灵向每位对手各造成1点伤害。\n每当你施放非生物咒语时，重置蜇息怪灵。",
-            "type": "生物 ～怪灵",
-            "uuid": "218cf79c-24bb-563b-a977-5d11f3301c42"
+            "language": "Spanish",
+            "multiverseId": 590343,
+            "name": "Gremlin escupellamas",
+            "skuIds": {
+              "nonfoil": "7c56cddf-2160-5973-aa51-3b7b9d710377"
+            },
+            "text": "{1}, {T}: El Gremlin escupellamas hace 1 punto de daño a cada oponente.\nSiempre que lances un hechizo que no sea de criatura, endereza el Gremlin escupellamas.",
+            "type": "Criatura — Gremlin",
+            "uuid": "19f29ca2-dd45-57a0-a024-fa67c50a0e7d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270461",
           "cardsphereId": "97194",
@@ -158,6 +169,7 @@
         "name": "Blisterspit Gremlin",
         "number": "500",
         "originalText": "{1}, {T}: Blisterspit Gremlin deals 1 damage to each opponent.\nWhenever you cast a noncreature spell, untap Blisterspit Gremlin.",
+        "originalType": "Creature – Gremlin",
         "power": "1",
         "printings": [
           "IKO",
@@ -184,9 +196,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "0b33e044-a7af-57b2-921a-0ddaa4803556"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -221,37 +238,28 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11846,
+        "edhrecRank": 11937,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I think Chandra just wanted something to blame random scorch marks on.\"\n—Jace Beleren",
         "foreignData": [
           {
-            "flavorText": "„Ich denke, Chandra wollte einfach nur etwas, das sie für all die Brandflecken verantwortlich machen konnte.\"\n—Jace Beleren",
+            "flavorText": "「我觉得茜卓只是要找个东西来把胡乱烧痕怪罪上去。」\n～杰斯贝连",
             "identifiers": {
-              "multiverseId": "590221",
-              "scryfallId": "894358f3-fecd-43a8-b937-8bfea513b79e"
+              "multiverseId": "591166",
+              "scryfallId": "df46bf90-1d34-4ccb-9fd6-9678ea91fe10"
             },
-            "language": "German",
-            "multiverseId": 590221,
-            "name": "Chandras Feuerbrandling",
-            "text": "Immer wenn eine Quelle, die du kontrollierst, einem Gegner Nicht-Kampfschaden zufügt, erhält Chandras Feuerbrandling +1/+0 und Doppelschlag bis zum Ende des Zuges.",
-            "type": "Kreatur — Elementarwesen, Eidechse",
-            "uuid": "439e0d89-d11d-5bd7-b6f9-5d4aeb228665"
-          },
-          {
-            "flavorText": "\"Creo que Chandra solo quería algo a lo que echarle la culpa por las marcas de algunas quemaduras\".\n—Jace Beleren",
-            "identifiers": {
-              "multiverseId": "590356",
-              "scryfallId": "5607ca00-320b-4ec0-b13a-b54761ce81dc"
+            "language": "Chinese Simplified",
+            "multiverseId": 591166,
+            "name": "茜卓的幼火灵",
+            "skuIds": {
+              "nonfoil": "1bf5b5a2-6596-5797-8866-dc6ab54058db"
             },
-            "language": "Spanish",
-            "multiverseId": 590356,
-            "name": "Piroideo de Chandra",
-            "text": "Siempre que una fuente que controlas haga daño que no sea de combate a un oponente, el Piroideo de Chandra obtiene +1/+0 y gana la habilidad de dañar dos veces hasta el final del turno.",
-            "type": "Criatura — Lagarto elemental",
-            "uuid": "b1639cad-4466-5235-bb9d-b23823c42fe0"
+            "text": "每当一个由你操控的来源向任一对手造成非战斗伤害时，直到回合结束，茜卓的幼火灵得+1/+0 且获得连击异能。",
+            "type": "生物 ～元素／蜥蜴",
+            "uuid": "ebb60c4b-c614-569d-a4c4-e8d5810de9d0"
           },
           {
             "flavorText": "« Je crois que Chandra cherchait juste un bouc-émissaire pour justifier les traces de brûlure. »\n—Jace Beleren",
@@ -262,9 +270,28 @@
             "language": "French",
             "multiverseId": 590491,
             "name": "Pyrolin de Chandra",
+            "skuIds": {
+              "nonfoil": "c36e8a0b-0bb4-5d2e-84cd-50db6051001e"
+            },
             "text": "À chaque fois qu'une source que vous contrôlez inflige des blessures non-combat à un adversaire, le Pyrolin de Chandra gagne +1/+0 et acquiert la double initiative jusqu'à la fin du tour.",
             "type": "Créature : élémental et lézard",
             "uuid": "e21fd604-08fe-58ee-a6d6-a319e894b6b5"
+          },
+          {
+            "flavorText": "„Ich denke, Chandra wollte einfach nur etwas, das sie für all die Brandflecken verantwortlich machen konnte.\"\n—Jace Beleren",
+            "identifiers": {
+              "multiverseId": "590221",
+              "scryfallId": "894358f3-fecd-43a8-b937-8bfea513b79e"
+            },
+            "language": "German",
+            "multiverseId": 590221,
+            "name": "Chandras Feuerbrandling",
+            "skuIds": {
+              "nonfoil": "0d661912-8475-5f7c-a0c6-258405ed8b4d"
+            },
+            "text": "Immer wenn eine Quelle, die du kontrollierst, einem Gegner Nicht-Kampfschaden zufügt, erhält Chandras Feuerbrandling +1/+0 und Doppelschlag bis zum Ende des Zuges.",
+            "type": "Kreatur — Elementarwesen, Eidechse",
+            "uuid": "439e0d89-d11d-5bd7-b6f9-5d4aeb228665"
           },
           {
             "flavorText": "\"Ho l'impressione che Chandra volesse soltanto qualcosa su cui scaricare la colpa per le bruciature occasionali.\"\n—Jace Beleren",
@@ -275,6 +302,9 @@
             "language": "Italian",
             "multiverseId": 590626,
             "name": "Igniforme di Chandra",
+            "skuIds": {
+              "nonfoil": "8823023b-fee9-5bf0-b1c0-7dfdd35027b5"
+            },
             "text": "Ogniqualvolta una fonte che controlli infligge danno non da combattimento a un avversario, l'Igniforme di Chandra prende +1/+0 e ha doppio attacco fino alla fine del turno.",
             "type": "Creatura — Lucertola Elementale",
             "uuid": "cab1ab4b-2a3f-5bde-a1f7-e461e09fe762"
@@ -288,27 +318,31 @@
             "language": "Japanese",
             "multiverseId": 590761,
             "name": "チャンドラの紅蓮獣",
+            "skuIds": {
+              "nonfoil": "bd68a1bf-d440-504e-9c19-72c0f43813e8"
+            },
             "text": "あなたがコントロールしている発生源が対戦相手１人に戦闘ダメージでないダメージを与えるたび、ターン終了時まで、チャンドラの紅蓮獣は＋１/＋０の修整を受け二段攻撃を得る。",
             "type": "クリーチャー — エレメンタル・トカゲ",
             "uuid": "6a100fee-cee9-5983-9b36-af5a9b8d60ec"
           },
           {
-            "flavorText": "「我觉得茜卓只是要找个东西来把胡乱烧痕怪罪上去。」\n～杰斯贝连",
+            "flavorText": "\"Creo que Chandra solo quería algo a lo que echarle la culpa por las marcas de algunas quemaduras\".\n—Jace Beleren",
             "identifiers": {
-              "multiverseId": "591166",
-              "scryfallId": "df46bf90-1d34-4ccb-9fd6-9678ea91fe10"
+              "multiverseId": "590356",
+              "scryfallId": "5607ca00-320b-4ec0-b13a-b54761ce81dc"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591166,
-            "name": "茜卓的幼火灵",
-            "text": "每当一个由你操控的来源向任一对手造成非战斗伤害时，直到回合结束，茜卓的幼火灵得+1/+0 且获得连击异能。",
-            "type": "生物 ～元素／蜥蜴",
-            "uuid": "ebb60c4b-c614-569d-a4c4-e8d5810de9d0"
+            "language": "Spanish",
+            "multiverseId": 590356,
+            "name": "Piroideo de Chandra",
+            "skuIds": {
+              "nonfoil": "f5f718ea-7dc7-5928-840b-c1904265be80"
+            },
+            "text": "Siempre que una fuente que controlas haga daño que no sea de combate a un oponente, el Piroideo de Chandra obtiene +1/+0 y gana la habilidad de dañar dos veces hasta el final del turno.",
+            "type": "Criatura — Lagarto elemental",
+            "uuid": "b1639cad-4466-5235-bb9d-b23823c42fe0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270465",
           "cardsphereId": "97168",
@@ -347,6 +381,7 @@
         "name": "Chandra's Pyreling",
         "number": "513",
         "originalText": "Whenever a source you control deals noncombat damage to an opponent, Chandra's Pyreling gets +1/+0 and gains double strike until end of turn.",
+        "originalType": "Creature – Elemental Lizard",
         "power": "1",
         "printings": [
           "J22",
@@ -369,9 +404,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "49399150-7178-5d11-a391-9b07c7557b03"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -407,7 +447,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12805,
+        "edhrecRank": 13323,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
@@ -415,30 +455,20 @@
         "flavorText": "\"I've lit most everything on fire—trees, rocks, even the water. Now it's time to burn the clouds.\"",
         "foreignData": [
           {
-            "flavorText": "„Ich habe schon fast alles in Brand gesetzt: Bäume, Felsen, sogar Wasser. Jetzt sind die Wolken an der Reihe.\"",
+            "flavorText": "「什么东西我几乎都放火烧过了～树，石头，甚至是水。现在该来烧烧云。」",
             "identifiers": {
-              "multiverseId": "590223",
-              "scryfallId": "7eaedc8e-5dd6-4832-af86-6397012c1035"
+              "multiverseId": "591168",
+              "scryfallId": "d6b2021b-d3f5-4897-b112-7264cb66e2d4"
             },
-            "language": "German",
-            "multiverseId": 590223,
-            "name": "Chandras Feuerspucker",
-            "text": "Fliegend\nImmer wenn einem Gegner Nicht-Kampfschaden zugefügt wird, erhält Chandras Feuerspucker +3/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elementarwesen",
-            "uuid": "532fb296-6a3f-5ac9-a397-dc4d35ec67dd"
-          },
-          {
-            "flavorText": "\"He prendido fuego a cualquier cosa: árboles, rocas, incluso agua. Ahora es tiempo de encender las nubes\".",
-            "identifiers": {
-              "multiverseId": "590358",
-              "scryfallId": "4fbafa60-294f-4b32-9328-6c5b1102a7b6"
+            "language": "Chinese Simplified",
+            "multiverseId": 591168,
+            "name": "茜卓的喷火灵",
+            "skuIds": {
+              "nonfoil": "887962a0-0304-59ea-adb6-3cfee44ea8f5"
             },
-            "language": "Spanish",
-            "multiverseId": 590358,
-            "name": "Escupefuego de Chandra",
-            "text": "Vuela.\nSiempre que un oponente reciba daño que no sea de combate, el Escupefuego de Chandra obtiene +3/+0 hasta el final del turno.",
-            "type": "Criatura — Elemental",
-            "uuid": "d5c31584-dacd-53e7-bd41-3877b1c77ed3"
+            "text": "飞行\n每当一位对手受到非战斗伤害时，茜卓的喷火灵得+3/+0直到回合结束。",
+            "type": "生物 ～元素",
+            "uuid": "78142375-4fd1-5363-bfce-17a6cbf0a939"
           },
           {
             "flavorText": "« J'ai mis le feu à quasiment tout — aux arbres, aux rochers, même à l'eau. Maintenant, c'est au tour des nuages de brûler. »",
@@ -449,9 +479,28 @@
             "language": "French",
             "multiverseId": 590493,
             "name": "Crachefeu de Chandra",
+            "skuIds": {
+              "nonfoil": "a7df1f96-744c-5618-a1de-784179c8da04"
+            },
             "text": "Vol\nÀ chaque fois qu'un adversaire subit des blessures non-combat, le Crachefeu de Chandra gagne +3/+0 jusqu'à la fin du tour.",
             "type": "Créature : élémental",
             "uuid": "cae4b4c0-0c1b-5b3c-b686-82044e38558b"
+          },
+          {
+            "flavorText": "„Ich habe schon fast alles in Brand gesetzt: Bäume, Felsen, sogar Wasser. Jetzt sind die Wolken an der Reihe.\"",
+            "identifiers": {
+              "multiverseId": "590223",
+              "scryfallId": "7eaedc8e-5dd6-4832-af86-6397012c1035"
+            },
+            "language": "German",
+            "multiverseId": 590223,
+            "name": "Chandras Feuerspucker",
+            "skuIds": {
+              "nonfoil": "1337d5a7-7c43-5bb1-95ca-f9fcf8ea26dd"
+            },
+            "text": "Fliegend\nImmer wenn einem Gegner Nicht-Kampfschaden zugefügt wird, erhält Chandras Feuerspucker +3/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Elementarwesen",
+            "uuid": "532fb296-6a3f-5ac9-a397-dc4d35ec67dd"
           },
           {
             "flavorText": "\"Ho incendiato praticamente di tutto... alberi, rocce, perfino l'acqua. È arrivato il momento di bruciare le nuvole.\"",
@@ -462,6 +511,9 @@
             "language": "Italian",
             "multiverseId": 590628,
             "name": "Focoso di Chandra",
+            "skuIds": {
+              "nonfoil": "628f5806-534f-528d-bb0e-1996f05df203"
+            },
             "text": "Volare\nOgniqualvolta a un avversario viene inflitto danno non da combattimento, il Focoso di Chandra prende +3/+0 fino alla fine del turno.",
             "type": "Creatura — Elementale",
             "uuid": "c17b4428-08da-5811-9e5e-86d19ce55983"
@@ -475,27 +527,31 @@
             "language": "Japanese",
             "multiverseId": 590763,
             "name": "チャンドラの吐火",
+            "skuIds": {
+              "nonfoil": "8dcb2f56-4e21-5368-8ec9-9bbffbc8f244"
+            },
             "text": "飛行\n対戦相手１人が戦闘ダメージでないダメージを受けるたび、ターン終了時まで、チャンドラの吐火は＋３/＋０の修整を受ける。",
             "type": "クリーチャー — エレメンタル",
             "uuid": "d32dbd5a-7d5a-5c89-aabb-57ed350c9192"
           },
           {
-            "flavorText": "「什么东西我几乎都放火烧过了～树，石头，甚至是水。现在该来烧烧云。」",
+            "flavorText": "\"He prendido fuego a cualquier cosa: árboles, rocas, incluso agua. Ahora es tiempo de encender las nubes\".",
             "identifiers": {
-              "multiverseId": "591168",
-              "scryfallId": "d6b2021b-d3f5-4897-b112-7264cb66e2d4"
+              "multiverseId": "590358",
+              "scryfallId": "4fbafa60-294f-4b32-9328-6c5b1102a7b6"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591168,
-            "name": "茜卓的喷火灵",
-            "text": "飞行\n每当一位对手受到非战斗伤害时，茜卓的喷火灵得+3/+0直到回合结束。",
-            "type": "生物 ～元素",
-            "uuid": "78142375-4fd1-5363-bfce-17a6cbf0a939"
+            "language": "Spanish",
+            "multiverseId": 590358,
+            "name": "Escupefuego de Chandra",
+            "skuIds": {
+              "nonfoil": "25f77f92-10e5-5b9a-9215-48a326067e5a"
+            },
+            "text": "Vuela.\nSiempre que un oponente reciba daño que no sea de combate, el Escupefuego de Chandra obtiene +3/+0 hasta el final del turno.",
+            "type": "Criatura — Elemental",
+            "uuid": "d5c31584-dacd-53e7-bd41-3877b1c77ed3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270467",
           "cardsphereId": "97164",
@@ -538,6 +594,7 @@
         "name": "Chandra's Spitfire",
         "number": "515",
         "originalText": "Flying\nWhenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn.",
+        "originalType": "Creature – Elemental",
         "power": "1",
         "printings": [
           "J22",
@@ -567,9 +624,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "6c2667ad-9f8a-5603-aea6-e20b88053bf3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -604,7 +666,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 27628,
+        "edhrecRank": 28273,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
@@ -612,30 +674,20 @@
         "flavorText": "The blacksmith forgot to feed the forge, so the forge fed itself.",
         "foreignData": [
           {
-            "flavorText": "Der Schmied vergaß, die Esse zu füttern, also fütterte die Esse sich selbst.",
+            "flavorText": "铁匠忘了给锻炉加火，锻炉便自己生火。",
             "identifiers": {
-              "multiverseId": "589637",
-              "scryfallId": "9659b8f2-c4dd-4c2e-aa6c-eb43cf95b457"
+              "multiverseId": "589994",
+              "scryfallId": "41f8ac6d-6cb5-4dc9-a9f4-e2d692e7a6a8"
             },
-            "language": "German",
-            "multiverseId": 589637,
-            "name": "Kohlegeborenes Wesen",
-            "text": "{2}{R}: Das Kohlegeborene Wesen fügt einem Kreaturenspielstein, Spieler oder Planeswalker deiner Wahl 1 Schadenspunkt zu.",
-            "type": "Kreatur — Elementarwesen",
-            "uuid": "e0b7486f-cf98-5f6b-b404-003461da9c9c"
-          },
-          {
-            "flavorText": "El herrero se olvidó de avivar la forja, así que la forja se avivó a sí misma.",
-            "identifiers": {
-              "multiverseId": "589688",
-              "scryfallId": "93effaaa-6091-4bfc-a541-41da7f4ef2e0"
+            "language": "Chinese Simplified",
+            "multiverseId": 589994,
+            "name": "煤火灵",
+            "skuIds": {
+              "nonfoil": "0e6be371-2990-559d-b1ab-76a68433d292"
             },
-            "language": "Spanish",
-            "multiverseId": 589688,
-            "name": "Ente nacido de las ascuas",
-            "text": "{2}{R}: El Ente nacido de las ascuas hace 1 punto de daño a la ficha de criatura, jugador o planeswalker objetivo.",
-            "type": "Criatura — Elemental",
-            "uuid": "5dcc3e88-9ed0-5200-8893-e06ebabc5277"
+            "text": "{2}{R}：煤火灵对目标衍生生物，牌手或鹏洛客造成1点伤害。",
+            "type": "生物 ～元素",
+            "uuid": "87ff9f67-dd5d-5ef4-be94-5a1f9c3950d2"
           },
           {
             "flavorText": "Le forgeron oublia d'alimenter la forge, alors la forge s'alimenta seule.",
@@ -646,9 +698,28 @@
             "language": "French",
             "multiverseId": 589739,
             "name": "Entité née du charbon",
+            "skuIds": {
+              "nonfoil": "8ecd3b67-b446-5f8d-b0df-6f1ca829adad"
+            },
             "text": "{2}{R} : L'Entité née du charbon inflige 1 blessure à une cible, jeton de créature, joueur ou planeswalker.",
             "type": "Créature : élémental",
             "uuid": "a804ad40-193c-505e-b244-02b5fc239be1"
+          },
+          {
+            "flavorText": "Der Schmied vergaß, die Esse zu füttern, also fütterte die Esse sich selbst.",
+            "identifiers": {
+              "multiverseId": "589637",
+              "scryfallId": "9659b8f2-c4dd-4c2e-aa6c-eb43cf95b457"
+            },
+            "language": "German",
+            "multiverseId": 589637,
+            "name": "Kohlegeborenes Wesen",
+            "skuIds": {
+              "nonfoil": "17a0ed8e-0a66-5965-acbc-1e6e5d5daf7c"
+            },
+            "text": "{2}{R}: Das Kohlegeborene Wesen fügt einem Kreaturenspielstein, Spieler oder Planeswalker deiner Wahl 1 Schadenspunkt zu.",
+            "type": "Kreatur — Elementarwesen",
+            "uuid": "e0b7486f-cf98-5f6b-b404-003461da9c9c"
           },
           {
             "flavorText": "Il fabbro dimenticò di alimentare la fucina, così si alimentò da sola.",
@@ -659,6 +730,9 @@
             "language": "Italian",
             "multiverseId": 589790,
             "name": "Entità Bracigena",
+            "skuIds": {
+              "nonfoil": "20f3fd07-86fa-5bb2-95dd-8af4f6487749"
+            },
             "text": "{2}{R}: L'Entità Bracigena infligge 1 danno a una pedina creatura, a un giocatore o a un planeswalker bersaglio.",
             "type": "Creatura — Elementale",
             "uuid": "0632445f-493f-54a1-8f31-fb206cd7c904"
@@ -672,27 +746,31 @@
             "language": "Japanese",
             "multiverseId": 589841,
             "name": "石炭生まれの精体",
+            "skuIds": {
+              "nonfoil": "befc94ab-aebe-5dd8-a923-52ff1c480249"
+            },
             "text": "{2}{R}：クリーチャー・トークンやプレイヤーやプレインズウォーカーのうち１つを対象とする。石炭生まれの精体はそれに１点のダメージを与える。",
             "type": "クリーチャー — エレメンタル",
             "uuid": "03e83d75-a0df-54c8-acd2-5fb9a7c3102e"
           },
           {
-            "flavorText": "铁匠忘了给锻炉加火，锻炉便自己生火。",
+            "flavorText": "El herrero se olvidó de avivar la forja, así que la forja se avivó a sí misma.",
             "identifiers": {
-              "multiverseId": "589994",
-              "scryfallId": "41f8ac6d-6cb5-4dc9-a9f4-e2d692e7a6a8"
+              "multiverseId": "589688",
+              "scryfallId": "93effaaa-6091-4bfc-a541-41da7f4ef2e0"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589994,
-            "name": "煤火灵",
-            "text": "{2}{R}：煤火灵对目标衍生生物，牌手或鹏洛客造成1点伤害。",
-            "type": "生物 ～元素",
-            "uuid": "87ff9f67-dd5d-5ef4-be94-5a1f9c3950d2"
+            "language": "Spanish",
+            "multiverseId": 589688,
+            "name": "Ente nacido de las ascuas",
+            "skuIds": {
+              "nonfoil": "b6392848-15c2-52fe-9ad6-821132256184"
+            },
+            "text": "{2}{R}: El Ente nacido de las ascuas hace 1 punto de daño a la ficha de criatura, jugador o planeswalker objetivo.",
+            "type": "Criatura — Elemental",
+            "uuid": "5dcc3e88-9ed0-5200-8893-e06ebabc5277"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270250",
           "cardsphereId": "96985",
@@ -723,6 +801,7 @@
         "name": "Coalborn Entity",
         "number": "32",
         "originalText": "{2}{R}: Coalborn Entity deals 1 damage to target creature token, player, or planeswalker.",
+        "originalType": "Creature – Elemental",
         "power": "4",
         "printings": [
           "J22"
@@ -734,9 +813,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "fc429a6d-62de-5994-9d61-86c656b9478d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -771,37 +855,28 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 23656,
+        "edhrecRank": 24282,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Slonk was struck by lightning twenty-seven times before he got the idea. Another forty-three hits and he'd perfected it.",
         "foreignData": [
           {
-            "flavorText": "Slonk wurde siebenundzwanzig Mal vom Blitz getroffen, bevor er auf die Idee kam. Weitere dreiundvierzig Treffer und er hatte es perfektioniert.",
+            "flavorText": "司隆克在被闪电劈中二十七次后，终于有个想法。再被劈中四十三次后，他才把这想法完善成形。",
             "identifiers": {
-              "multiverseId": "589639",
-              "scryfallId": "23acefd0-2f49-4a9f-a4a9-a73d98802b84"
+              "multiverseId": "589996",
+              "scryfallId": "2969718c-aee2-491a-8dcf-5c6e37f1afe3"
             },
-            "language": "German",
-            "multiverseId": 589639,
-            "name": "Goblinforscher",
-            "text": "Wenn der Goblinforscher ins Spiel kommt, schicke die oberste Karte deiner Bibliothek ins Exil. Während eines beliebigen Zuges, in dem du mit dem Goblinforscher angegriffen hast, kannst du die Karte spielen.",
-            "type": "Kreatur — Goblin, Zauberer",
-            "uuid": "0958fcd6-07dc-5e4c-a805-54c9314507d1"
-          },
-          {
-            "flavorText": "A Slonk le cayeron veintisiete rayos encima antes de que se le ocurriese una idea. Cuarenta y tres rayos más tarde, la perfeccionó.",
-            "identifiers": {
-              "multiverseId": "589690",
-              "scryfallId": "a18ffab6-a2b7-4ccf-a09d-7e37b36daae1"
+            "language": "Chinese Simplified",
+            "multiverseId": 589996,
+            "name": "鬼怪学究",
+            "skuIds": {
+              "nonfoil": "ded9ada9-8bf8-5539-8d8e-370e92531fba"
             },
-            "language": "Spanish",
-            "multiverseId": 589690,
-            "name": "Investigador trasgo",
-            "text": "Cuando el Investigador trasgo entre al campo de batalla, exilia la primera carta de tu biblioteca. Durante cualquier turno en el que atacaste con el Investigador trasgo, puedes jugar esa carta.",
-            "type": "Criatura — Hechicero trasgo",
-            "uuid": "6ced8ee7-b745-5961-ad12-629989875b68"
+            "text": "当鬼怪学究进战场时，放逐你的牌库顶牌。于你以鬼怪学究攻击过的回合中，你可以使用该牌。",
+            "type": "生物 ～鬼怪／法术师",
+            "uuid": "bdcab803-134e-5c70-a509-eaa1b4a29f38"
           },
           {
             "flavorText": "Slonk avait été frappé par la foudre vingt-sept fois avant d'avoir l'idée. Encore quarante-trois fois, et il l'avait perfectionnée.",
@@ -812,9 +887,28 @@
             "language": "French",
             "multiverseId": 589741,
             "name": "Chercheur gobelin",
+            "skuIds": {
+              "nonfoil": "82577b02-4072-52b5-b348-ce343d1f49a6"
+            },
             "text": "Quand le Chercheur gobelin arrive sur le champ de bataille, exilez la carte du dessus de votre bibliothèque. Pendant chaque tour où vous avez attaqué avec le Chercheur gobelin, vous pouvez jouer cette carte.",
             "type": "Créature : gobelin et sorcier",
             "uuid": "0b7018d7-aac8-57c0-b5e6-8398bddd0abd"
+          },
+          {
+            "flavorText": "Slonk wurde siebenundzwanzig Mal vom Blitz getroffen, bevor er auf die Idee kam. Weitere dreiundvierzig Treffer und er hatte es perfektioniert.",
+            "identifiers": {
+              "multiverseId": "589639",
+              "scryfallId": "23acefd0-2f49-4a9f-a4a9-a73d98802b84"
+            },
+            "language": "German",
+            "multiverseId": 589639,
+            "name": "Goblinforscher",
+            "skuIds": {
+              "nonfoil": "08db536c-1abf-57e0-94dd-7793f2d2face"
+            },
+            "text": "Wenn der Goblinforscher ins Spiel kommt, schicke die oberste Karte deiner Bibliothek ins Exil. Während eines beliebigen Zuges, in dem du mit dem Goblinforscher angegriffen hast, kannst du die Karte spielen.",
+            "type": "Kreatur — Goblin, Zauberer",
+            "uuid": "0958fcd6-07dc-5e4c-a805-54c9314507d1"
           },
           {
             "flavorText": "Slonk fu colpito ventisette volte da un fulmine prima che gli venisse l'idea. Dopo altre quarantatré saette, l'aveva perfezionata.",
@@ -825,6 +919,9 @@
             "language": "Italian",
             "multiverseId": 589792,
             "name": "Goblin Ricercatore",
+            "skuIds": {
+              "nonfoil": "c72f5966-e98d-5c9a-b135-3aa0287820d2"
+            },
             "text": "Quando il Goblin Ricercatore entra nel campo di battaglia, esilia la prima carta del tuo grimorio. Durante qualsiasi turno in cui hai attaccato con il Goblin Ricercatore, puoi giocare quella carta.",
             "type": "Creatura — Mago Goblin",
             "uuid": "27927e0b-54a7-52ff-aae4-0e304c65f572"
@@ -838,27 +935,31 @@
             "language": "Japanese",
             "multiverseId": 589843,
             "name": "ゴブリンの研究者",
+            "skuIds": {
+              "nonfoil": "bc23abf9-40cf-595b-a3ad-c38f22f083e3"
+            },
             "text": "ゴブリンの研究者が戦場に出たとき、あなたのライブラリーの一番上にあるカード１枚を追放する。あなたがゴブリンの研究者で攻撃したターンの間、あなたはそのカードをプレイしてもよい。",
             "type": "クリーチャー — ゴブリン・ウィザード",
             "uuid": "f2af083f-74ed-534d-b4b5-ac0ae52048e1"
           },
           {
-            "flavorText": "司隆克在被闪电劈中二十七次后，终于有个想法。再被劈中四十三次后，他才把这想法完善成形。",
+            "flavorText": "A Slonk le cayeron veintisiete rayos encima antes de que se le ocurriese una idea. Cuarenta y tres rayos más tarde, la perfeccionó.",
             "identifiers": {
-              "multiverseId": "589996",
-              "scryfallId": "2969718c-aee2-491a-8dcf-5c6e37f1afe3"
+              "multiverseId": "589690",
+              "scryfallId": "a18ffab6-a2b7-4ccf-a09d-7e37b36daae1"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589996,
-            "name": "鬼怪学究",
-            "text": "当鬼怪学究进战场时，放逐你的牌库顶牌。于你以鬼怪学究攻击过的回合中，你可以使用该牌。",
-            "type": "生物 ～鬼怪／法术师",
-            "uuid": "bdcab803-134e-5c70-a509-eaa1b4a29f38"
+            "language": "Spanish",
+            "multiverseId": 589690,
+            "name": "Investigador trasgo",
+            "skuIds": {
+              "nonfoil": "a0675249-a0f2-5080-86d8-1c950df7481b"
+            },
+            "text": "Cuando el Investigador trasgo entre al campo de batalla, exilia la primera carta de tu biblioteca. Durante cualquier turno en el que atacaste con el Investigador trasgo, puedes jugar esa carta.",
+            "type": "Criatura — Hechicero trasgo",
+            "uuid": "6ced8ee7-b745-5961-ad12-629989875b68"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270251",
           "cardsphereId": "96992",
@@ -895,6 +996,7 @@
         "name": "Goblin Researcher",
         "number": "34",
         "originalText": "When Goblin Researcher enters the battlefield, exile the top card of your library. During any turn you attacked with Goblin Researcher, you may play that card.",
+        "originalType": "Creature – Goblin Wizard",
         "power": "3",
         "printings": [
           "J22",
@@ -933,9 +1035,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a899615c-7008-5671-a4ea-a1abbb709148"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -971,7 +1078,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 12589,
+        "edhrecRank": 13393,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
@@ -979,27 +1086,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "590279",
-              "scryfallId": "234bd747-7444-4bf3-9090-741c1adae50d"
+              "multiverseId": "591224",
+              "scryfallId": "10f18260-f25f-4599-9fe2-10c2092ce395"
             },
-            "language": "German",
-            "multiverseId": 590279,
-            "name": "Magmalenkerin",
-            "text": "Solange sich vier oder mehr Spontanzauber- und/oder Hexereikarten in deinem Friedhof befinden, erhält die Magmalenkerin +3/+1.\n{T}, wirf eine Karte ab: Schicke die obersten zwei Karten deiner Bibliothek ins Exil und bestimme dann eine davon. Du kannst sie in diesem Zug spielen.",
-            "type": "Kreatur — Mensch, Zauberer",
-            "uuid": "50c161b8-1989-578c-beef-ed2774d504c8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "590414",
-              "scryfallId": "fa7cdff0-a30c-4516-9828-e29668fe6400"
+            "language": "Chinese Simplified",
+            "multiverseId": 591224,
+            "name": "岩浆联能师",
+            "skuIds": {
+              "nonfoil": "e0f369bf-da9e-54a1-86c9-5fe73596464e"
             },
-            "language": "Spanish",
-            "multiverseId": 590414,
-            "name": "Canalizadora magmática",
-            "text": "Mientras haya cuatro o más cartas de instantáneo y/o de conjuro en tu cementerio, la Canalizadora magmática obtiene +3/+1.\n{T}, descartar una carta: Exilia las dos primeras cartas de tu biblioteca, luego elige una de ellas. Puedes jugar esa carta este turno.",
-            "type": "Criatura — Hechicero humano",
-            "uuid": "c91a9269-4e14-51ed-946d-8dd8f65ff1a4"
+            "text": "只要你坟墓场中有四张或更多瞬间和／或法术牌，岩浆联能师便得+3/+1。\n{T}，弃一张牌：放逐你牌库顶的两张牌，然后选择其中一张。本回合中，你可以使用该牌。",
+            "type": "生物 ～人类／法术师",
+            "uuid": "cd9e4a02-e972-53d4-9042-76e626967317"
           },
           {
             "identifiers": {
@@ -1009,9 +1107,27 @@
             "language": "French",
             "multiverseId": 590549,
             "name": "Canaliseuse magmatique",
+            "skuIds": {
+              "nonfoil": "b243871b-4bd6-5f06-9bb6-7c85807e55b4"
+            },
             "text": "Tant qu'il y a au moins quatre cartes d'éphémère et/ou de rituel dans votre cimetière, la Canaliseuse magmatique gagne +3/+1.\n{T}, défaussez-vous d'une carte : Exilez les deux cartes du dessus de votre bibliothèque, puis choisissez l'une d'entre elles. Vous pouvez jouer cette carte ce tour-ci.",
             "type": "Créature : humain et sorcier",
             "uuid": "fcf47c3f-5b33-562f-8cd5-a4bb449db59d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "590279",
+              "scryfallId": "234bd747-7444-4bf3-9090-741c1adae50d"
+            },
+            "language": "German",
+            "multiverseId": 590279,
+            "name": "Magmalenkerin",
+            "skuIds": {
+              "nonfoil": "effe4516-53ed-57e3-a3c5-c3aacb9a435c"
+            },
+            "text": "Solange sich vier oder mehr Spontanzauber- und/oder Hexereikarten in deinem Friedhof befinden, erhält die Magmalenkerin +3/+1.\n{T}, wirf eine Karte ab: Schicke die obersten zwei Karten deiner Bibliothek ins Exil und bestimme dann eine davon. Du kannst sie in diesem Zug spielen.",
+            "type": "Kreatur — Mensch, Zauberer",
+            "uuid": "50c161b8-1989-578c-beef-ed2774d504c8"
           },
           {
             "identifiers": {
@@ -1021,6 +1137,9 @@
             "language": "Italian",
             "multiverseId": 590684,
             "name": "Incanalatrice Magmatica",
+            "skuIds": {
+              "nonfoil": "2088175c-7c7a-5a9b-8fd2-9eaeb17e871d"
+            },
             "text": "Fintanto che nel tuo cimitero ci sono quattro o più carte istantaneo e/o stregoneria, l'Incanalatrice Magmatica prende +3/+1.\n{T}, Scarta una carta: Esilia le prime due carte del tuo grimorio, poi scegli una di esse. Puoi giocare quella carta in questo turno.",
             "type": "Creatura — Mago Umano",
             "uuid": "de9962c3-c4e0-566a-ac8e-c6c65436b36f"
@@ -1033,26 +1152,30 @@
             "language": "Japanese",
             "multiverseId": 590819,
             "name": "マグマの媒介者",
+            "skuIds": {
+              "nonfoil": "cbf9b463-d326-5001-92e8-9aed8b5b92e7"
+            },
             "text": "あなたの墓地にありインスタントやソーサリーであるカードが４枚以上であるかぎり、マグマの媒介者は＋３/＋１の修整を受ける。\n{T}, カード１枚を捨てる：あなたのライブラリーの一番上にあるカード２枚を追放し、その後、そのうち１枚を選ぶ。このターン、あなたはそのカードをプレイしてもよい。",
             "type": "クリーチャー — 人間・ウィザード",
             "uuid": "803fa05a-9d9a-56ad-8dc9-9e3cbe57dc0f"
           },
           {
             "identifiers": {
-              "multiverseId": "591224",
-              "scryfallId": "10f18260-f25f-4599-9fe2-10c2092ce395"
+              "multiverseId": "590414",
+              "scryfallId": "fa7cdff0-a30c-4516-9828-e29668fe6400"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591224,
-            "name": "岩浆联能师",
-            "text": "只要你坟墓场中有四张或更多瞬间和／或法术牌，岩浆联能师便得+3/+1。\n{T}，弃一张牌：放逐你牌库顶的两张牌，然后选择其中一张。本回合中，你可以使用该牌。",
-            "type": "生物 ～人类／法术师",
-            "uuid": "cd9e4a02-e972-53d4-9042-76e626967317"
+            "language": "Spanish",
+            "multiverseId": 590414,
+            "name": "Canalizadora magmática",
+            "skuIds": {
+              "nonfoil": "56fc3a0e-0d7b-5f0d-adae-1837643d4b33"
+            },
+            "text": "Mientras haya cuatro o más cartas de instantáneo y/o de conjuro en tu cementerio, la Canalizadora magmática obtiene +3/+1.\n{T}, descartar una carta: Exilia las dos primeras cartas de tu biblioteca, luego elige una de ellas. Puedes jugar esa carta este turno.",
+            "type": "Criatura — Hechicero humano",
+            "uuid": "c91a9269-4e14-51ed-946d-8dd8f65ff1a4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270480",
           "cardsphereId": "97067",
@@ -1091,6 +1214,7 @@
         "name": "Magmatic Channeler",
         "number": "571",
         "originalText": "As long as there are four or more instant and/or sorcery cards in your graveyard, Magmatic Channeler gets +3/+1.\n{T}, Discard a card: Exile the top two cards of your library, then choose one of them. You may play that card this turn.",
+        "originalType": "Creature – Human Wizard",
         "power": "1",
         "printings": [
           "J22",
@@ -1124,9 +1248,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "d4210f1a-4de9-5ffe-a1be-ad289fd2da23"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1162,7 +1291,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 22051,
+        "edhrecRank": 22706,
         "edhrecSaltiness": 0.52,
         "finishes": [
           "nonfoil"
@@ -1170,30 +1299,20 @@
         "flavorText": "\"Fire is always dancing, leaping and whirling, seeking more fuel. It never rests, so why should I?\"\n—Chandra Nalaar",
         "foreignData": [
           {
-            "flavorText": "„Das Feuer ist immer in Bewegung. Es tanzt und springt und sucht nach neuem Brennmaterial. Es steht nie still; warum sollte ich es anders halten?\"\n—Chandra Nalaar",
+            "flavorText": "「火焰始终舞动、跳跃、旋转，不断燃点事物充盈自身。烈火永不停歇，那我为何要停？」\n～茜卓纳拉",
             "identifiers": {
-              "multiverseId": "590332",
-              "scryfallId": "0b422f31-cfda-4c4e-98f4-2b91eb73f3b6"
+              "multiverseId": "591277",
+              "scryfallId": "7339e0e6-0dc1-4489-bcdb-7d2fd6532528"
             },
-            "language": "German",
-            "multiverseId": 590332,
-            "name": "Wildfeuer-Elementar",
-            "text": "Immer wenn einem Gegner Nicht-Kampfschaden zugefügt wird, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elementarwesen",
-            "uuid": "fba52b2d-afd5-5045-bd43-591de3ecdb14"
-          },
-          {
-            "flavorText": "\"El fuego baila, brinca y se agita en busca de más combustible; nunca descansa. ¿Por qué debería hacerlo yo?\".\n—Chandra Nalaar",
-            "identifiers": {
-              "multiverseId": "590467",
-              "scryfallId": "e4cb7ab2-bbee-4141-9029-8c7e85276a91"
+            "language": "Chinese Simplified",
+            "multiverseId": 591277,
+            "name": "野火元素",
+            "skuIds": {
+              "nonfoil": "45d7085d-ac51-5a07-93e1-59d97e2a65a2"
             },
-            "language": "Spanish",
-            "multiverseId": 590467,
-            "name": "Elemental incendiario",
-            "text": "Siempre que un oponente reciba daño que no sea de combate, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Criatura — Elemental",
-            "uuid": "b1889acc-8548-52cc-b729-dc55ee4dc0d3"
+            "text": "每当任一对手受到非战斗伤害时，由你操控的生物得+1/+0直到回合结束。",
+            "type": "生物 ～元素",
+            "uuid": "0d27f58d-382e-5123-8f54-b8a2cad9d0ae"
           },
           {
             "flavorText": "« Le feu danse, saute et virevolte, toujours en quête de combustible. S'il ne se repose jamais, pourquoi le devrais-je ? »\n—Chandra Nalaàr",
@@ -1204,9 +1323,28 @@
             "language": "French",
             "multiverseId": 590602,
             "name": "Élémental grégefeu",
+            "skuIds": {
+              "nonfoil": "5385d47a-99c4-5f11-93c1-b7c46e3bf71d"
+            },
             "text": "À chaque fois qu'un adversaire subit des blessures non-combat, les créatures que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Créature : élémental",
             "uuid": "52e370a1-35ff-5f51-b6b2-f9aad97b960c"
+          },
+          {
+            "flavorText": "„Das Feuer ist immer in Bewegung. Es tanzt und springt und sucht nach neuem Brennmaterial. Es steht nie still; warum sollte ich es anders halten?\"\n—Chandra Nalaar",
+            "identifiers": {
+              "multiverseId": "590332",
+              "scryfallId": "0b422f31-cfda-4c4e-98f4-2b91eb73f3b6"
+            },
+            "language": "German",
+            "multiverseId": 590332,
+            "name": "Wildfeuer-Elementar",
+            "skuIds": {
+              "nonfoil": "1decfc17-efaa-536e-b8f9-1b17b261c5ce"
+            },
+            "text": "Immer wenn einem Gegner Nicht-Kampfschaden zugefügt wird, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Elementarwesen",
+            "uuid": "fba52b2d-afd5-5045-bd43-591de3ecdb14"
           },
           {
             "flavorText": "\"Il fuoco danza, guizza e vortica, in cerca di altro combustibile, senza mai fermarsi. Perché dovrei farlo io?\"\n—Chandra Nalaar",
@@ -1217,6 +1355,9 @@
             "language": "Italian",
             "multiverseId": 590737,
             "name": "Elementale dell'Incendio Indomabile",
+            "skuIds": {
+              "nonfoil": "1f64f9a0-aa7b-5cdc-bc0d-9ce76be1a927"
+            },
             "text": "Ogniqualvolta a un avversario viene inflitto danno non da combattimento, le creature che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Creatura — Elementale",
             "uuid": "eb884051-9791-5116-8e2c-3e74cab9e854"
@@ -1230,27 +1371,31 @@
             "language": "Japanese",
             "multiverseId": 590872,
             "name": "野火の精霊",
+            "skuIds": {
+              "nonfoil": "1494e263-2f2a-5c18-b14a-5e974a8dbe31"
+            },
             "text": "対戦相手１人が戦闘ダメージでないダメージを受けるたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋０の修整を受ける。",
             "type": "クリーチャー — エレメンタル",
             "uuid": "c64c9a37-5b84-57f7-a38a-007e5fb0542f"
           },
           {
-            "flavorText": "「火焰始终舞动、跳跃、旋转，不断燃点事物充盈自身。烈火永不停歇，那我为何要停？」\n～茜卓纳拉",
+            "flavorText": "\"El fuego baila, brinca y se agita en busca de más combustible; nunca descansa. ¿Por qué debería hacerlo yo?\".\n—Chandra Nalaar",
             "identifiers": {
-              "multiverseId": "591277",
-              "scryfallId": "7339e0e6-0dc1-4489-bcdb-7d2fd6532528"
+              "multiverseId": "590467",
+              "scryfallId": "e4cb7ab2-bbee-4141-9029-8c7e85276a91"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591277,
-            "name": "野火元素",
-            "text": "每当任一对手受到非战斗伤害时，由你操控的生物得+1/+0直到回合结束。",
-            "type": "生物 ～元素",
-            "uuid": "0d27f58d-382e-5123-8f54-b8a2cad9d0ae"
+            "language": "Spanish",
+            "multiverseId": 590467,
+            "name": "Elemental incendiario",
+            "skuIds": {
+              "nonfoil": "611dfa56-1123-5688-a7ff-81849a95978c"
+            },
+            "text": "Siempre que un oponente reciba daño que no sea de combate, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Criatura — Elemental",
+            "uuid": "b1889acc-8548-52cc-b729-dc55ee4dc0d3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270493",
           "cardsphereId": "97023",
@@ -1290,6 +1435,7 @@
         "name": "Wildfire Elemental",
         "number": "624",
         "originalText": "Whenever an opponent is dealt noncombat damage, creatures you control get +1/+0 until end of turn.",
+        "originalType": "Creature – Elemental",
         "power": "3",
         "printings": [
           "J22",
@@ -1321,9 +1467,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "66b21e6b-ea6f-56ea-b795-fafc6d57f1df"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1358,7 +1509,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 3688,
+        "edhrecRank": 3863,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -1366,30 +1517,20 @@
         "flavorText": "For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.",
         "foreignData": [
           {
-            "flavorText": "Für Sarkhan Vol ist ein Drache der reinste Ausdruck der Herrlichkeit des wilden Lebens.",
+            "flavorText": "对萨坎沃来说，巨龙是蛮勇生命的极致具现。",
             "identifiers": {
-              "multiverseId": "590203",
-              "scryfallId": "56c966c1-ad5c-40d3-9ab8-89805c5ef3c0"
+              "multiverseId": "591148",
+              "scryfallId": "3903da84-77f4-4f57-ab81-ee9db51852de"
             },
-            "language": "German",
-            "multiverseId": 590203,
-            "name": "Bannfeuer",
-            "text": "Das Bannfeuer fügt einem Ziel deiner Wahl X Schadenspunkte zu.\nFalls X gleich 5 ist, kann dieser Zauberspruch nicht neutralisiert werden und der Schaden kann nicht verhindert werden.",
-            "type": "Hexerei",
-            "uuid": "15f50ead-0a53-52f0-a2af-78a4582ff85d"
-          },
-          {
-            "flavorText": "Para Sarkhan Vol, el dragón es la expresión más pura del esplendor de la vida salvaje.",
-            "identifiers": {
-              "multiverseId": "590338",
-              "scryfallId": "e17e4fca-5004-4ddb-af98-034e3a59cbde"
+            "language": "Chinese Simplified",
+            "multiverseId": 591148,
+            "name": "禁咒焰",
+            "skuIds": {
+              "nonfoil": "adba7e04-de68-5983-bd70-3ed114e825ce"
             },
-            "language": "Spanish",
-            "multiverseId": 590338,
-            "name": "Fuego devastador",
-            "text": "El Fuego devastador hace X puntos de daño a cualquier objetivo.\nSi X es 5 o más, este hechizo no puede ser contrarrestado y el daño no puede ser prevenido.",
-            "type": "Conjuro",
-            "uuid": "c9b99e53-43b4-58bd-b242-09328a7a4db3"
+            "text": "禁咒焰对任意一个目标造成X点伤害。\n如果X等于或大于5，则此咒语不能被反击，且其伤害不能被防止。",
+            "type": "法术",
+            "uuid": "3ff6dc2c-f090-5477-b8c4-38426b344111"
           },
           {
             "flavorText": "Pour Sarkhan Vol, le dragon est l'expression la plus pure de la splendeur sauvage de la vie.",
@@ -1400,9 +1541,28 @@
             "language": "French",
             "multiverseId": 590473,
             "name": "Pestefeu",
+            "skuIds": {
+              "nonfoil": "f963673e-ce09-5d2a-ac7d-d8f8ddbc5757"
+            },
             "text": "Le Pestefeu inflige X blessures à n'importe quelle cible.\nSi X est supérieur ou égal à 5, ce sort ne peut pas être contrecarré et les blessures ne peuvent pas être prévenues.",
             "type": "Rituel",
             "uuid": "571f49a7-e734-5301-84dd-1c5829e14bfa"
+          },
+          {
+            "flavorText": "Für Sarkhan Vol ist ein Drache der reinste Ausdruck der Herrlichkeit des wilden Lebens.",
+            "identifiers": {
+              "multiverseId": "590203",
+              "scryfallId": "56c966c1-ad5c-40d3-9ab8-89805c5ef3c0"
+            },
+            "language": "German",
+            "multiverseId": 590203,
+            "name": "Bannfeuer",
+            "skuIds": {
+              "nonfoil": "24caadb6-b38b-509f-bc99-81dc1466e068"
+            },
+            "text": "Das Bannfeuer fügt einem Ziel deiner Wahl X Schadenspunkte zu.\nFalls X gleich 5 ist, kann dieser Zauberspruch nicht neutralisiert werden und der Schaden kann nicht verhindert werden.",
+            "type": "Hexerei",
+            "uuid": "15f50ead-0a53-52f0-a2af-78a4582ff85d"
           },
           {
             "flavorText": "Per Sarkhan Vol, il drago è la manifestazione più pura dello splendore selvaggio insito in ogni essenza vitale.",
@@ -1413,6 +1573,9 @@
             "language": "Italian",
             "multiverseId": 590608,
             "name": "Fuoco di Sventura",
+            "skuIds": {
+              "nonfoil": "dab316f3-41a7-5ae3-ba93-8102b6b3dbe2"
+            },
             "text": "Il Fuoco di Sventura infligge X danni a un qualsiasi bersaglio.\nSe X è pari o superiore a 5, questa magia non può essere neutralizzata e il danno non può essere prevenuto.",
             "type": "Stregoneria",
             "uuid": "f641d58a-593c-5a41-8f0f-acd66c925355"
@@ -1426,27 +1589,31 @@
             "language": "Japanese",
             "multiverseId": 590743,
             "name": "苦悩火",
+            "skuIds": {
+              "nonfoil": "10a55668-3cfe-523c-b149-1fb90e8762c3"
+            },
             "text": "クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。苦悩火はそれにＸ点のダメージを与える。\nＸが５以上であるなら、この呪文は打ち消されず、これのダメージは軽減できない。",
             "type": "ソーサリー",
             "uuid": "18ba1bd5-9e9e-57bc-9db6-875b09eb580f"
           },
           {
-            "flavorText": "对萨坎沃来说，巨龙是蛮勇生命的极致具现。",
+            "flavorText": "Para Sarkhan Vol, el dragón es la expresión más pura del esplendor de la vida salvaje.",
             "identifiers": {
-              "multiverseId": "591148",
-              "scryfallId": "3903da84-77f4-4f57-ab81-ee9db51852de"
+              "multiverseId": "590338",
+              "scryfallId": "e17e4fca-5004-4ddb-af98-034e3a59cbde"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591148,
-            "name": "禁咒焰",
-            "text": "禁咒焰对任意一个目标造成X点伤害。\n如果X等于或大于5，则此咒语不能被反击，且其伤害不能被防止。",
-            "type": "法术",
-            "uuid": "3ff6dc2c-f090-5477-b8c4-38426b344111"
+            "language": "Spanish",
+            "multiverseId": 590338,
+            "name": "Fuego devastador",
+            "skuIds": {
+              "nonfoil": "5289bea1-034d-52f0-8743-3ecde3177110"
+            },
+            "text": "El Fuego devastador hace X puntos de daño a cualquier objetivo.\nSi X es 5 o más, este hechizo no puede ser contrarrestado y el daño no puede ser prevenido.",
+            "type": "Conjuro",
+            "uuid": "c9b99e53-43b4-58bd-b242-09328a7a4db3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270460",
           "cardsphereId": "97200",
@@ -1486,6 +1653,7 @@
         "name": "Banefire",
         "number": "495",
         "originalText": "Banefire deals X damage to any target.\nIf X is 5 or more, this spell can't be countered and the damage can't be prevented.",
+        "originalType": "Sorcery",
         "printings": [
           "CON",
           "DDN",
@@ -1518,9 +1686,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "0246a347-4b60-52a5-baa8-068f4e164904"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1552,7 +1725,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 17857,
+        "edhrecRank": 18602,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
@@ -1560,30 +1733,20 @@
         "flavorText": "\"You're in luck. I brought enough to share.\"\n—Chandra Nalaar",
         "foreignData": [
           {
-            "flavorText": "„Du hast Glück. Ich kann ein paar abgeben.\"\n—Chandra Nalaar",
+            "flavorText": "「你走好运啦。我带来的够大家享用。」\n～茜卓纳拉",
             "identifiers": {
-              "multiverseId": "590243",
-              "scryfallId": "29f76f73-8af3-40ea-a0ec-fa07eced9f61"
+              "multiverseId": "591188",
+              "scryfallId": "cfa323eb-6556-4b39-906d-73ef1c344de5"
             },
-            "language": "German",
-            "multiverseId": 590243,
-            "name": "Flammen des Hitzkopfs",
-            "text": "Die Flammen des Hitzkopfs fügen 3 Schadenspunkte zu, deren Aufteilung auf ein, zwei oder drei Ziele deiner Wahl du bestimmst.",
-            "type": "Hexerei",
-            "uuid": "3756a864-def5-502d-9d7d-13b155458a89"
-          },
-          {
-            "flavorText": "\"Tienes suerte. Traigo suficiente como para compartir\".\n—Chandra Nalaar",
-            "identifiers": {
-              "multiverseId": "590378",
-              "scryfallId": "9683c09a-b0c8-4e33-b208-60ce9637ffe8"
+            "language": "Chinese Simplified",
+            "multiverseId": 591188,
+            "name": "惹事人烈焰",
+            "skuIds": {
+              "nonfoil": "241e6ce6-52e3-5d92-b925-a788e0dcdad8"
             },
-            "language": "Spanish",
-            "multiverseId": 590378,
-            "name": "Llamas de la instigadora",
-            "text": "Las Llamas de la instigadora hacen 3 puntos de daño divididos como elijas entre uno, dos o tres objetivos.",
-            "type": "Conjuro",
-            "uuid": "53f12b4c-2e84-5797-b09b-99d066718c98"
+            "text": "惹事人烈焰对任意一个，两个或三个目标造成共3点伤害，你可以任意分配。",
+            "type": "法术",
+            "uuid": "ea837b8e-7a8b-58e4-91ba-1b57aa35450e"
           },
           {
             "flavorText": "« Vous avez de la chance. Je suis partageuse. »\n—Chandra Nalaàr",
@@ -1594,9 +1757,28 @@
             "language": "French",
             "multiverseId": 590513,
             "name": "Flammes du brandon",
+            "skuIds": {
+              "nonfoil": "ec9ee6d4-6b64-5a29-9817-d535e32adfa6"
+            },
             "text": "Les Flammes du brandon infligent 3 blessures réparties comme vous le désirez entre une, deux ou trois cibles.",
             "type": "Rituel",
             "uuid": "ecc0ca69-8f5c-5172-821a-9e931969cd13"
+          },
+          {
+            "flavorText": "„Du hast Glück. Ich kann ein paar abgeben.\"\n—Chandra Nalaar",
+            "identifiers": {
+              "multiverseId": "590243",
+              "scryfallId": "29f76f73-8af3-40ea-a0ec-fa07eced9f61"
+            },
+            "language": "German",
+            "multiverseId": 590243,
+            "name": "Flammen des Hitzkopfs",
+            "skuIds": {
+              "nonfoil": "62e1f6bd-2f85-5ddf-84b6-9597a9166ae6"
+            },
+            "text": "Die Flammen des Hitzkopfs fügen 3 Schadenspunkte zu, deren Aufteilung auf ein, zwei oder drei Ziele deiner Wahl du bestimmst.",
+            "type": "Hexerei",
+            "uuid": "3756a864-def5-502d-9d7d-13b155458a89"
           },
           {
             "flavorText": "\"Sei fortunato. Ne ho portato abbastanza da condividere.\"\n—Chandra Nalaar",
@@ -1607,6 +1789,9 @@
             "language": "Italian",
             "multiverseId": 590648,
             "name": "Fiamme del Tizzone Ardente",
+            "skuIds": {
+              "nonfoil": "62403add-5e9d-5d2a-8151-96574bef4d7e"
+            },
             "text": "Le Fiamme del Tizzone Ardente infliggono 3 danni divisi a tua scelta tra uno, due o tre bersagli.",
             "type": "Stregoneria",
             "uuid": "b38fca94-34f6-50eb-b768-5ff95ff06d73"
@@ -1620,27 +1805,31 @@
             "language": "Japanese",
             "multiverseId": 590783,
             "name": "炬火の炎",
+            "skuIds": {
+              "nonfoil": "53f4d6b2-c67e-5d48-90ca-61cba20c333b"
+            },
             "text": "クリーチャーやプレインズウォーカーやプレイヤーのうち１つか２つか３つを対象とし、３点分をあなたの望むように割り振る。炬火の炎はそれらにその割り振った点数のダメージを与える。",
             "type": "ソーサリー",
             "uuid": "878d4068-e5e3-52f6-b984-89be7784d348"
           },
           {
-            "flavorText": "「你走好运啦。我带来的够大家享用。」\n～茜卓纳拉",
+            "flavorText": "\"Tienes suerte. Traigo suficiente como para compartir\".\n—Chandra Nalaar",
             "identifiers": {
-              "multiverseId": "591188",
-              "scryfallId": "cfa323eb-6556-4b39-906d-73ef1c344de5"
+              "multiverseId": "590378",
+              "scryfallId": "9683c09a-b0c8-4e33-b208-60ce9637ffe8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591188,
-            "name": "惹事人烈焰",
-            "text": "惹事人烈焰对任意一个，两个或三个目标造成共3点伤害，你可以任意分配。",
-            "type": "法术",
-            "uuid": "ea837b8e-7a8b-58e4-91ba-1b57aa35450e"
+            "language": "Spanish",
+            "multiverseId": 590378,
+            "name": "Llamas de la instigadora",
+            "skuIds": {
+              "nonfoil": "38a8de75-ab37-5904-94d0-845687ab2c38"
+            },
+            "text": "Las Llamas de la instigadora hacen 3 puntos de daño divididos como elijas entre uno, dos o tres objetivos.",
+            "type": "Conjuro",
+            "uuid": "53f12b4c-2e84-5797-b09b-99d066718c98"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270473",
           "cardsphereId": "97137",
@@ -1678,6 +1867,7 @@
         "name": "Flames of the Firebrand",
         "number": "535",
         "originalText": "Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three targets.",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "J25",
@@ -1698,9 +1888,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "7f002004-0683-5a6a-aaa4-445dd43f88c4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1732,7 +1927,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 18273,
+        "edhrecRank": 19086,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
@@ -1740,30 +1935,20 @@
         "flavorText": "May the worthy spend an eternity in Blessed Sleep. May the wicked find the peace of oblivion.",
         "foreignData": [
           {
-            "flavorText": "„Mögen die Würdigen eine Ewigkeit im Heiligen Schlaf verbringen. Mögen die Bösen Frieden in der Vernichtung finden.\"",
+            "flavorText": "「愿善人在受福安眠中得享永恒。愿恶人在湮没遗忘中获得安息。」",
             "identifiers": {
-              "multiverseId": "590287",
-              "scryfallId": "38c658c2-5350-43e0-9c52-1833a63b8572"
+              "multiverseId": "591232",
+              "scryfallId": "75fc0610-4795-487f-81f6-28c4dd8629ff"
             },
-            "language": "German",
-            "multiverseId": 590287,
-            "name": "Flammensäule",
-            "text": "Die Flammensäule fügt einem Ziel deiner Wahl 2 Schadenspunkte zu. Falls eine Kreatur, der auf diese Weise Schaden zugefügt wurde, in diesem Zug sterben würde, schicke sie stattdessen ins Exil.",
-            "type": "Hexerei",
-            "uuid": "3617e9f4-88a3-5f54-850f-829bbf436288"
-          },
-          {
-            "flavorText": "\"Que los dignos pasen la eternidad en el Sueño Bendito. Que los malvados encuentren la paz del olvido\".",
-            "identifiers": {
-              "multiverseId": "590422",
-              "scryfallId": "93859644-d538-4d03-b41e-7af650cc87c6"
+            "language": "Chinese Simplified",
+            "multiverseId": 591232,
+            "name": "火焰柱",
+            "skuIds": {
+              "nonfoil": "3ff71b7b-5028-578c-9ee9-2e0f16a75231"
             },
-            "language": "Spanish",
-            "multiverseId": 590422,
-            "name": "Pilar de llamas",
-            "text": "El Pilar de llamas hace 2 puntos de daño a cualquier objetivo. Si una criatura que recibió daño de esta manera fuera a morir este turno, en vez de eso, exíliala.",
-            "type": "Conjuro",
-            "uuid": "b85ed2e3-85be-5b36-bfb4-2254af8007e9"
+            "text": "火焰柱对任意一个目标造成2点伤害。如果本回合中曾以此法受到伤害的生物将死去，则改为将它放逐。",
+            "type": "法术",
+            "uuid": "135e0e1a-db77-5e87-903f-1f79aa9c742a"
           },
           {
             "flavorText": "« Puissent les justes passer l'éternité dans le Sommeil béni. Puissent les âmes corrompues trouver la paix dans l'anéantissement. »",
@@ -1774,9 +1959,28 @@
             "language": "French",
             "multiverseId": 590557,
             "name": "Pilier de flammes",
+            "skuIds": {
+              "nonfoil": "e5b75ad5-d929-588a-ba57-ae634da940f2"
+            },
             "text": "Le Pilier de flammes inflige 2 blessures à n'importe quelle cible. Si une créature ayant subi des blessures de cette manière devait mourir ce tour-ci, exilez-la à la place.",
             "type": "Rituel",
             "uuid": "807041f6-8960-5cd2-b35c-cfd122aff88d"
+          },
+          {
+            "flavorText": "„Mögen die Würdigen eine Ewigkeit im Heiligen Schlaf verbringen. Mögen die Bösen Frieden in der Vernichtung finden.\"",
+            "identifiers": {
+              "multiverseId": "590287",
+              "scryfallId": "38c658c2-5350-43e0-9c52-1833a63b8572"
+            },
+            "language": "German",
+            "multiverseId": 590287,
+            "name": "Flammensäule",
+            "skuIds": {
+              "nonfoil": "a6af51f7-80a3-5d71-a65f-9fac4f1fcd20"
+            },
+            "text": "Die Flammensäule fügt einem Ziel deiner Wahl 2 Schadenspunkte zu. Falls eine Kreatur, der auf diese Weise Schaden zugefügt wurde, in diesem Zug sterben würde, schicke sie stattdessen ins Exil.",
+            "type": "Hexerei",
+            "uuid": "3617e9f4-88a3-5f54-850f-829bbf436288"
           },
           {
             "flavorText": "\"Possano i valorosi riposare in eterno nel Sonno Benedetto. Possano i malvagi conoscere la pace dell'oblio.\"",
@@ -1787,6 +1991,9 @@
             "language": "Italian",
             "multiverseId": 590692,
             "name": "Pilastro di Fiamme",
+            "skuIds": {
+              "nonfoil": "10feab53-138d-5c49-aaef-4401e7181555"
+            },
             "text": "Il Pilastro di Fiamme infligge 2 danni a un qualsiasi bersaglio. Se una creatura a cui è stato inflitto danno in questo modo sta per morire in questo turno, invece esiliala.",
             "type": "Stregoneria",
             "uuid": "dcd3c924-1f14-5313-87df-0a65a8e841e3"
@@ -1800,27 +2007,31 @@
             "language": "Japanese",
             "multiverseId": 590827,
             "name": "火柱",
+            "skuIds": {
+              "nonfoil": "254be26e-f7dd-5a8c-8994-b5c52a72bf93"
+            },
             "text": "クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。火柱はそれに２点のダメージを与える。このターン、これによりダメージを受けたクリーチャーが死亡するなら、代わりにそれを追放する。",
             "type": "ソーサリー",
             "uuid": "2652b846-ab04-53f1-b674-4cbb3d6e1227"
           },
           {
-            "flavorText": "「愿善人在受福安眠中得享永恒。愿恶人在湮没遗忘中获得安息。」",
+            "flavorText": "\"Que los dignos pasen la eternidad en el Sueño Bendito. Que los malvados encuentren la paz del olvido\".",
             "identifiers": {
-              "multiverseId": "591232",
-              "scryfallId": "75fc0610-4795-487f-81f6-28c4dd8629ff"
+              "multiverseId": "590422",
+              "scryfallId": "93859644-d538-4d03-b41e-7af650cc87c6"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591232,
-            "name": "火焰柱",
-            "text": "火焰柱对任意一个目标造成2点伤害。如果本回合中曾以此法受到伤害的生物将死去，则改为将它放逐。",
-            "type": "法术",
-            "uuid": "135e0e1a-db77-5e87-903f-1f79aa9c742a"
+            "language": "Spanish",
+            "multiverseId": 590422,
+            "name": "Pilar de llamas",
+            "skuIds": {
+              "nonfoil": "5f1ed022-97a2-5a17-bf61-19a62f775d30"
+            },
+            "text": "El Pilar de llamas hace 2 puntos de daño a cualquier objetivo. Si una criatura que recibió daño de esta manera fuera a morir este turno, en vez de eso, exíliala.",
+            "type": "Conjuro",
+            "uuid": "b85ed2e3-85be-5b36-bfb4-2254af8007e9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270481",
           "cardsphereId": "97064",
@@ -1860,6 +2071,7 @@
         "name": "Pillar of Flame",
         "number": "579",
         "originalText": "Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.",
+        "originalType": "Sorcery",
         "printings": [
           "AVR",
           "F12",
@@ -1885,9 +2097,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3323f69d-61e5-5ab4-bc48-d6278256bccb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1919,7 +2136,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 23619,
+        "edhrecRank": 24182,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
@@ -1927,30 +2144,20 @@
         "flavorText": "Burning something is easy. Choosing a target can be more difficult.",
         "foreignData": [
           {
-            "flavorText": "Etwas zu verbrennen, ist ganz einfach. Das richtige Ziel zu treffen, ist da schon schwerer.",
+            "flavorText": "烧东西不难；烧得准才难。",
             "identifiers": {
-              "multiverseId": "590239",
-              "scryfallId": "7e48c072-4266-4784-9bc9-c65acb62fd67"
+              "multiverseId": "591184",
+              "scryfallId": "eb72e123-5335-4d1c-9815-095d66017720"
             },
-            "language": "German",
-            "multiverseId": 590239,
-            "name": "Feurige Intervention",
-            "text": "Bestimme eines —\n• Die Feurige Intervention fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.\n• Zerstöre ein Artefakt deiner Wahl.",
-            "type": "Hexerei",
-            "uuid": "eb6f8b68-0a13-5288-813e-3bb02ad856ed"
-          },
-          {
-            "flavorText": "Quemar algo es fácil, lo difícil es elegir el objetivo.",
-            "identifiers": {
-              "multiverseId": "590374",
-              "scryfallId": "e5fac043-a073-4cec-aafc-99e599eb36c6"
+            "language": "Chinese Simplified",
+            "multiverseId": 591184,
+            "name": "火热干预",
+            "skuIds": {
+              "nonfoil": "97acc0f5-fcf7-551e-b98f-7f3fc5f725bb"
             },
-            "language": "Spanish",
-            "multiverseId": 590374,
-            "name": "Intervención ardorosa",
-            "text": "Elige uno:\n• La Intervención ardorosa hace 5 puntos de daño a la criatura objetivo.\n• Destruye el artefacto objetivo.",
-            "type": "Conjuro",
-            "uuid": "85cb7f41-d758-5586-9319-70c36b0e933e"
+            "text": "选择一项～\n•火热干预对目标生物造成5点伤害。\n•消灭目标神器。",
+            "type": "法术",
+            "uuid": "0485fae3-e349-5d43-875e-a35a184ec68e"
           },
           {
             "flavorText": "Brûler quelque chose n'est pas difficile. Choisir une cible l'est beaucoup plus.",
@@ -1961,9 +2168,28 @@
             "language": "French",
             "multiverseId": 590509,
             "name": "Intervention ardente",
+            "skuIds": {
+              "nonfoil": "51b64f18-81e4-5230-80eb-613f94f2e4f1"
+            },
             "text": "Choisissez l'un —\n• L'Intervention ardente inflige 5 blessures à une créature ciblée.\n• Détruisez un artefact ciblé.",
             "type": "Rituel",
             "uuid": "0b8228c7-9159-5c3e-93d4-920cd47cb19e"
+          },
+          {
+            "flavorText": "Etwas zu verbrennen, ist ganz einfach. Das richtige Ziel zu treffen, ist da schon schwerer.",
+            "identifiers": {
+              "multiverseId": "590239",
+              "scryfallId": "7e48c072-4266-4784-9bc9-c65acb62fd67"
+            },
+            "language": "German",
+            "multiverseId": 590239,
+            "name": "Feurige Intervention",
+            "skuIds": {
+              "nonfoil": "84504ffb-d718-5fa1-b924-063a1b9dfd10"
+            },
+            "text": "Bestimme eines —\n• Die Feurige Intervention fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.\n• Zerstöre ein Artefakt deiner Wahl.",
+            "type": "Hexerei",
+            "uuid": "eb6f8b68-0a13-5288-813e-3bb02ad856ed"
           },
           {
             "flavorText": "Bruciare qualcosa è facile. Scegliere un bersaglio può essere molto più difficile.",
@@ -1974,6 +2200,9 @@
             "language": "Italian",
             "multiverseId": 590644,
             "name": "Intervento Fiammante",
+            "skuIds": {
+              "nonfoil": "66628643-8c6f-5b40-893a-be30bba92b65"
+            },
             "text": "Scegli uno —\n• L'Intervento Fiammante infligge 5 danni a una creatura bersaglio.\n• Distruggi un artefatto bersaglio.",
             "type": "Stregoneria",
             "uuid": "4cbea9d8-2a97-5fff-bf3a-37dc510a4285"
@@ -1987,27 +2216,31 @@
             "language": "Japanese",
             "multiverseId": 590779,
             "name": "焦熱の介入",
+            "skuIds": {
+              "nonfoil": "dadb1f37-3641-5170-aa1b-a1743f183d1d"
+            },
             "text": "以下から１つを選ぶ。\n・クリーチャー１体を対象とする。焦熱の介入はそれに５点のダメージを与える。\n・アーティファクト１つを対象とする。それを破壊する。",
             "type": "ソーサリー",
             "uuid": "f2d88ee1-eeed-5299-b9db-a815a0821e63"
           },
           {
-            "flavorText": "烧东西不难；烧得准才难。",
+            "flavorText": "Quemar algo es fácil, lo difícil es elegir el objetivo.",
             "identifiers": {
-              "multiverseId": "591184",
-              "scryfallId": "eb72e123-5335-4d1c-9815-095d66017720"
+              "multiverseId": "590374",
+              "scryfallId": "e5fac043-a073-4cec-aafc-99e599eb36c6"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591184,
-            "name": "火热干预",
-            "text": "选择一项～\n•火热干预对目标生物造成5点伤害。\n•消灭目标神器。",
-            "type": "法术",
-            "uuid": "0485fae3-e349-5d43-875e-a35a184ec68e"
+            "language": "Spanish",
+            "multiverseId": 590374,
+            "name": "Intervención ardorosa",
+            "skuIds": {
+              "nonfoil": "1d293407-06a8-5504-86ba-a2bd45467e8b"
+            },
+            "text": "Elige uno:\n• La Intervención ardorosa hace 5 puntos de daño a la criatura objetivo.\n• Destruye el artefacto objetivo.",
+            "type": "Conjuro",
+            "uuid": "85cb7f41-d758-5586-9319-70c36b0e933e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270471",
           "cardsphereId": "97141",
@@ -2048,6 +2281,7 @@
         "name": "Fiery Intervention",
         "number": "531",
         "originalText": "Choose one —\n• Fiery Intervention deals 5 damage to target creature.\n• Destroy target artifact.",
+        "originalType": "Sorcery",
         "printings": [
           "DOM",
           "J22"
@@ -2059,9 +2293,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a407d5d0-761c-5319-ab04-10ffa2143020"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2093,7 +2332,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 200,
+        "edhrecRank": 202,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
@@ -2101,30 +2340,20 @@
         "flavorText": "\"Reality is always much duller and grayer than what your imagination can conjure.\"",
         "foreignData": [
           {
-            "flavorText": "„Die Realität ist immer viel trüber und grauer als das, was man sich vorstellen kann.\"",
+            "flavorText": "「现实永远比你想象的要阴晦黑暗得多。」",
             "identifiers": {
-              "multiverseId": "597113",
-              "scryfallId": "44a6e590-e5f6-4c02-b4c2-2fb0086a240e"
+              "multiverseId": "597435",
+              "scryfallId": "982c5048-68f0-4ea0-95e3-c5bfa3cf6891"
             },
-            "language": "German",
-            "multiverseId": 597113,
-            "name": "Verlockung der Möglichkeiten",
-            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab.\nZiehe zwei Karten.",
-            "type": "Spontanzauber",
-            "uuid": "0fd26683-eb10-58e3-9961-f38dfb276115"
-          },
-          {
-            "flavorText": "\"La realidad siempre es mucho más aburrida y gris que lo que puede suceder en tu imaginación\".",
-            "identifiers": {
-              "multiverseId": "597159",
-              "scryfallId": "25099411-d474-4be7-9fe8-9235bcc79873"
+            "language": "Chinese Simplified",
+            "multiverseId": 597435,
+            "name": "快意拼搏",
+            "skuIds": {
+              "nonfoil": "a9f2c088-7a3f-5b6c-b1ea-13f05f74a345"
             },
-            "language": "Spanish",
-            "multiverseId": 597159,
-            "name": "Entusiasmo ante la posibilidad",
-            "text": "Como coste adicional para lanzar este hechizo, descarta una carta.\nRoba dos cartas.",
-            "type": "Instantáneo",
-            "uuid": "23a208f0-f2fc-57e9-b49d-01828f80514a"
+            "text": "弃一张牌，以作为施放此咒语的额外费用。\n抓两张牌。",
+            "type": "瞬间",
+            "uuid": "c835b4f4-fb62-5a21-9ab4-a41c6676ed88"
           },
           {
             "flavorText": "« La réalité est toujours bien plus terne et bien plus maussade que ce que l'imagination peut conjurer. »",
@@ -2135,9 +2364,28 @@
             "language": "French",
             "multiverseId": 597205,
             "name": "Frisson de probabilité",
+            "skuIds": {
+              "nonfoil": "9ae93d84-5553-5677-824d-dee13d195eb4"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, défaussez-vous d'une carte.\nPiochez deux cartes.",
             "type": "Éphémère",
             "uuid": "5fceafba-db8c-51ce-a38b-1333cf9dfe6c"
+          },
+          {
+            "flavorText": "„Die Realität ist immer viel trüber und grauer als das, was man sich vorstellen kann.\"",
+            "identifiers": {
+              "multiverseId": "597113",
+              "scryfallId": "44a6e590-e5f6-4c02-b4c2-2fb0086a240e"
+            },
+            "language": "German",
+            "multiverseId": 597113,
+            "name": "Verlockung der Möglichkeiten",
+            "skuIds": {
+              "nonfoil": "72b9155e-118c-5202-bd7d-a958de3c853c"
+            },
+            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab.\nZiehe zwei Karten.",
+            "type": "Spontanzauber",
+            "uuid": "0fd26683-eb10-58e3-9961-f38dfb276115"
           },
           {
             "flavorText": "\"La realtà è sempre molto più grigia e noiosa di quel che può creare l'immaginazione.\"",
@@ -2148,6 +2396,9 @@
             "language": "Italian",
             "multiverseId": 597251,
             "name": "Brivido della Possibilità",
+            "skuIds": {
+              "nonfoil": "abab5948-7314-5159-9499-c490701d8bcf"
+            },
             "text": "Come costo addizionale per lanciare questa magia, scarta una carta.\nPesca due carte.",
             "type": "Istantaneo",
             "uuid": "ef575950-0811-57a9-8933-95d3faa86fd0"
@@ -2161,27 +2412,31 @@
             "language": "Japanese",
             "multiverseId": 597297,
             "name": "胸躍る可能性",
+            "skuIds": {
+              "nonfoil": "20b0a817-b4c8-5881-87dc-02336a098dc8"
+            },
             "text": "この呪文を唱えるための追加コストとして、カード１枚を捨てる。\nカード２枚を引く。",
             "type": "インスタント",
             "uuid": "1891ee54-9427-5b36-bc10-e1dc199894e5"
           },
           {
-            "flavorText": "「现实永远比你想象的要阴晦黑暗得多。」",
+            "flavorText": "\"La realidad siempre es mucho más aburrida y gris que lo que puede suceder en tu imaginación\".",
             "identifiers": {
-              "multiverseId": "597435",
-              "scryfallId": "982c5048-68f0-4ea0-95e3-c5bfa3cf6891"
+              "multiverseId": "597159",
+              "scryfallId": "25099411-d474-4be7-9fe8-9235bcc79873"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597435,
-            "name": "快意拼搏",
-            "text": "弃一张牌，以作为施放此咒语的额外费用。\n抓两张牌。",
-            "type": "瞬间",
-            "uuid": "c835b4f4-fb62-5a21-9ab4-a41c6676ed88"
+            "language": "Spanish",
+            "multiverseId": 597159,
+            "name": "Entusiasmo ante la posibilidad",
+            "skuIds": {
+              "nonfoil": "c2d751e8-c2cb-5141-a12a-557a4766c057"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, descarta una carta.\nRoba dos cartas.",
+            "type": "Instantáneo",
+            "uuid": "23a208f0-f2fc-57e9-b49d-01828f80514a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270273",
           "cardsphereId": "97044",
@@ -2226,6 +2481,7 @@
         "name": "Thrill of Possibility",
         "number": "84",
         "originalText": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+        "originalType": "Instant",
         "printings": [
           "DMC",
           "DMU",
@@ -2255,9 +2511,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "215bfa9f-de1e-5bb0-ae8b-c60c5fdcc05f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2287,7 +2548,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -2295,30 +2556,20 @@
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
           {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "flavorText": "无数世代过去，石头磨损，显露出高山核心处的丰富颜色。",
             "identifiers": {
-              "multiverseId": "596326",
-              "scryfallId": "cf0c39fa-6d7a-45a5-86be-a755bed1f4d3"
+              "multiverseId": "596935",
+              "scryfallId": "23c75049-d488-4008-8e12-abac30d07e8a"
             },
-            "language": "German",
-            "multiverseId": 596326,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel.\nSowie die Gedeihende Felsklippe ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "1066c530-90eb-5eb8-b91e-3d0d9b3c25ef"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "596413",
-              "scryfallId": "77c3f268-51b7-4dee-a82e-a0928ea8ea9e"
+            "language": "Chinese Simplified",
+            "multiverseId": 596935,
+            "name": "兴旺绝壁",
+            "skuIds": {
+              "nonfoil": "ad2361eb-e231-5ecd-b0e0-c068e5d9303b"
             },
-            "language": "Spanish",
-            "multiverseId": 596413,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra al campo de batalla girado.\nEn cuanto el Risco floreciente entre al campo de batalla, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "a09cc708-8142-5bc5-92b8-eaad18677540"
+            "text": "兴旺绝壁须横置进战场。\n于兴旺绝壁进战场时，选择一种红色以外的颜色。\n{T}：加{R}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "a120ac7a-b19f-574e-9c2a-a20d7ce94276"
           },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
@@ -2329,9 +2580,28 @@
             "language": "French",
             "multiverseId": 596500,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "f567748a-3fcb-5997-b346-8acc275384f3"
+            },
             "text": "Le Promontoire prospère arrive sur le champ de bataille engagé.\nAu moment où le Promontoire prospère arrive sur le champ de bataille, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "3d3e35bd-c85d-51b8-9384-bc811b696118"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "596326",
+              "scryfallId": "cf0c39fa-6d7a-45a5-86be-a755bed1f4d3"
+            },
+            "language": "German",
+            "multiverseId": 596326,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "b3937ba7-eb96-5760-8627-a3970696a24e"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel.\nSowie die Gedeihende Felsklippe ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "1066c530-90eb-5eb8-b91e-3d0d9b3c25ef"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2342,6 +2612,9 @@
             "language": "Italian",
             "multiverseId": 596587,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "7f9d0e51-192b-5820-b9f2-c1beb85c9ad7"
+            },
             "text": "La Falesia Florida entra nel campo di battaglia TAPpata.\nMentre la Falesia Florida entra nel campo di battaglia, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "8e9f9fe4-ffe7-5b6a-b2b1-1c6c59aea06b"
@@ -2355,27 +2628,31 @@
             "language": "Japanese",
             "multiverseId": 596674,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "c97cd767-d63f-587b-a025-6c84e008a257"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。\n興隆する絶壁が戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R} か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "d881ef9b-e567-5e20-b2d8-e267fe98c9a0"
           },
           {
-            "flavorText": "无数世代过去，石头磨损，显露出高山核心处的丰富颜色。",
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
             "identifiers": {
-              "multiverseId": "596935",
-              "scryfallId": "23c75049-d488-4008-8e12-abac30d07e8a"
+              "multiverseId": "596413",
+              "scryfallId": "77c3f268-51b7-4dee-a82e-a0928ea8ea9e"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596935,
-            "name": "兴旺绝壁",
-            "text": "兴旺绝壁须横置进战场。\n于兴旺绝壁进战场时，选择一种红色以外的颜色。\n{T}：加{R}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "a120ac7a-b19f-574e-9c2a-a20d7ce94276"
+            "language": "Spanish",
+            "multiverseId": 596413,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "1ee6018b-03b2-5401-a25f-bfd7ed7ff106"
+            },
+            "text": "El Risco floreciente entra al campo de batalla girado.\nEn cuanto el Risco floreciente entre al campo de batalla, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "a09cc708-8142-5bc5-92b8-eaad18677540"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270223",
           "cardsphereId": "96781",
@@ -2412,10 +2689,12 @@
         "name": "Thriving Bluff",
         "number": "822",
         "originalText": "Thriving Bluff enters the battlefield tapped.\nAs Thriving Bluff enters the battlefield, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2424,6 +2703,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/d5259f00a8605556",
           "cardmarket": "https://mtgjson.com/links/1cdbdd4b80e93a6b",
@@ -2431,9 +2717,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3d016588-459b-530e-b723-1a44a362a27f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2470,25 +2761,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597769",
-              "scryfallId": "de0f6c46-699e-4314-b470-510119095f0a"
+              "multiverseId": "597874",
+              "scryfallId": "d5e8da23-7292-48e9-bea9-2a73ff094251"
             },
-            "language": "German",
-            "multiverseId": 597769,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "658ec973-2102-5c1d-a983-4aa5b87e867b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597784",
-              "scryfallId": "fde7e166-cbf2-4e4f-b779-72fdfa0b9f45"
+            "language": "Chinese Simplified",
+            "multiverseId": 597874,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "e0f50d73-3ed3-522e-b771-2508e890dea2"
             },
-            "language": "Spanish",
-            "multiverseId": 597784,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "105c88e8-08b0-58d0-af32-f44fe3efbbfa"
+            "type": "基本地 ～山脉",
+            "uuid": "d8af3019-ca5f-5331-9e97-b69116ec9bec"
           },
           {
             "identifiers": {
@@ -2498,8 +2781,25 @@
             "language": "French",
             "multiverseId": 597799,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "c44b64ff-5bc0-5ceb-8960-f227e78d482f"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "1434f8a0-c7ad-51fc-823e-c5049065a7d0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597769",
+              "scryfallId": "de0f6c46-699e-4314-b470-510119095f0a"
+            },
+            "language": "German",
+            "multiverseId": 597769,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "73e8d6de-c909-55d1-8c32-34aa01c120ba"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "658ec973-2102-5c1d-a983-4aa5b87e867b"
           },
           {
             "identifiers": {
@@ -2509,6 +2809,9 @@
             "language": "Italian",
             "multiverseId": 597814,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "ed83fefc-ddbb-500a-ba5a-8ac680dbaeae"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "e46cd992-fb1d-57d5-9805-417773a6d892"
           },
@@ -2520,29 +2823,34 @@
             "language": "Japanese",
             "multiverseId": 597829,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "0cb21bd3-d9c3-5cf9-9a7a-49fce2a1408b"
+            },
             "type": "基本土地 — 山",
             "uuid": "14f5638c-e576-51d6-ada0-dc62e61d611c"
           },
           {
             "identifiers": {
-              "multiverseId": "597874",
-              "scryfallId": "d5e8da23-7292-48e9-bea9-2a73ff094251"
+              "multiverseId": "597784",
+              "scryfallId": "fde7e166-cbf2-4e4f-b779-72fdfa0b9f45"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597874,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "d8af3019-ca5f-5331-9e97-b69116ec9bec"
+            "language": "Spanish",
+            "multiverseId": 597784,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "f8cdcf95-743f-5e49-9ea4-8a48fd7368f5"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "105c88e8-08b0-58d0-af32-f44fe3efbbfa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270288",
           "cardsphereId": "97098",
           "deckboxId": "71300",
           "mcmId": "687365",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "cf66cbfd-279c-5fc1-9894-086a721eaa39",
           "multiverseId": "597754",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2581,6 +2889,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "107",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2654,6 +2963,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2816,15 +3126,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/9add798721073d6b",
+          "cardmarket": "https://mtgjson.com/links/4a10503c5ee03d84",
           "tcgplayer": "https://mtgjson.com/links/5119e0f1bd985c86"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "90014b95-fb5e-5d8c-980f-9447cdb7d1f5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2869,25 +3188,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597770",
-              "scryfallId": "7d0d000b-0c19-4d82-970c-da01398269a3"
+              "multiverseId": "597875",
+              "scryfallId": "4146f735-fc48-4181-936a-2a23470c972e"
             },
-            "language": "German",
-            "multiverseId": 597770,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "e0350634-02d4-54b4-babe-635f6ee3a1fa"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597785",
-              "scryfallId": "17a0dfc0-d032-4d14-9c8c-d488b0d2fc06"
+            "language": "Chinese Simplified",
+            "multiverseId": 597875,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "62158262-aff8-5ebf-948d-4ff160b6d1e3"
             },
-            "language": "Spanish",
-            "multiverseId": 597785,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "9324bec2-8e41-5445-afe5-b0ab4c8b0f13"
+            "type": "基本地 ～山脉",
+            "uuid": "8dd02bac-c671-5591-a0e1-8c0a21383275"
           },
           {
             "identifiers": {
@@ -2897,8 +3208,25 @@
             "language": "French",
             "multiverseId": 597800,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "bc4268fd-7570-5558-aa89-f2fc74571d57"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "eb065802-9baf-5c0c-9199-e01a08d15ef5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597770",
+              "scryfallId": "7d0d000b-0c19-4d82-970c-da01398269a3"
+            },
+            "language": "German",
+            "multiverseId": 597770,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "258ae6bc-348b-5dd6-962c-04310156b838"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "e0350634-02d4-54b4-babe-635f6ee3a1fa"
           },
           {
             "identifiers": {
@@ -2908,6 +3236,9 @@
             "language": "Italian",
             "multiverseId": 597815,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "9ca05e94-74e3-5337-b7d8-dd44c679f79d"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "55354a1d-ef7c-5324-8d5a-ca93ca692cf4"
           },
@@ -2919,29 +3250,34 @@
             "language": "Japanese",
             "multiverseId": 597830,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "e6330377-40a4-56a2-9165-d592cc1ca2ec"
+            },
             "type": "基本土地 — 山",
             "uuid": "48587675-1500-5c40-aa73-b7b71c4a65cb"
           },
           {
             "identifiers": {
-              "multiverseId": "597875",
-              "scryfallId": "4146f735-fc48-4181-936a-2a23470c972e"
+              "multiverseId": "597785",
+              "scryfallId": "17a0dfc0-d032-4d14-9c8c-d488b0d2fc06"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597875,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "8dd02bac-c671-5591-a0e1-8c0a21383275"
+            "language": "Spanish",
+            "multiverseId": 597785,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "8750ff7c-2ed3-5301-9876-a1764c0bd7f7"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "9324bec2-8e41-5445-afe5-b0ab4c8b0f13"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270289",
           "cardsphereId": "97103",
           "deckboxId": "71301",
           "mcmId": "687366",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "662e3058-a9de-5c79-8b46-0681d85f7295",
           "multiverseId": "597755",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2980,6 +3316,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "108",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3053,6 +3390,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3215,15 +3553,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/67a8ae5730e9b0ee",
+          "cardmarket": "https://mtgjson.com/links/37f37d8766542e0a",
           "tcgplayer": "https://mtgjson.com/links/3542b9f18ab245e8"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a69901ab-ac92-56fd-9d9d-49a35ba786f1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3239,8 +3586,8 @@
         ],
         "uuid": "096fa466-11da-51cd-86a2-c246cafe95c2",
         "variations": [
-          "dd775312-0618-5a75-bf7e-6a8c8dab755a",
-          "4c4b9005-a05a-5c95-ab52-d7db96b20954"
+          "4c4b9005-a05a-5c95-ab52-d7db96b20954",
+          "dd775312-0618-5a75-bf7e-6a8c8dab755a"
         ]
       },
       {
@@ -3268,25 +3615,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597771",
-              "scryfallId": "5841ace6-b679-4187-bd80-34a0ff171dde"
+              "multiverseId": "597876",
+              "scryfallId": "806b63b2-1dea-4660-b9b1-604df9f61fc1"
             },
-            "language": "German",
-            "multiverseId": 597771,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "99aa42ce-b935-5359-bb82-b035dd024c02"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597786",
-              "scryfallId": "794b104a-fea6-4791-befc-1e5236c13880"
+            "language": "Chinese Simplified",
+            "multiverseId": 597876,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "c11eb43d-b9c1-5fa9-93c1-5e41d21a1419"
             },
-            "language": "Spanish",
-            "multiverseId": 597786,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "7efc0de0-4053-53dc-a4c8-65dc0a78175b"
+            "type": "基本地 ～山脉",
+            "uuid": "4d4024ce-9413-5932-a97c-ea76cf545cdb"
           },
           {
             "identifiers": {
@@ -3296,8 +3635,25 @@
             "language": "French",
             "multiverseId": 597801,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "8a71428b-d1fc-55bb-92cb-980d5f189a6a"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "2c0b482e-ae62-505d-8a71-959b4f159217"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597771",
+              "scryfallId": "5841ace6-b679-4187-bd80-34a0ff171dde"
+            },
+            "language": "German",
+            "multiverseId": 597771,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "29fda0ff-e6f7-586b-b427-92f54462e7d8"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "99aa42ce-b935-5359-bb82-b035dd024c02"
           },
           {
             "identifiers": {
@@ -3307,6 +3663,9 @@
             "language": "Italian",
             "multiverseId": 597816,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "a17d3987-d7c2-5a1d-a68b-71cadc778315"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "e62f7c7b-f0d0-5f9a-8729-bb6e98566eac"
           },
@@ -3318,29 +3677,34 @@
             "language": "Japanese",
             "multiverseId": 597831,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "275a4f24-8255-54c5-938a-cf3c8afb297f"
+            },
             "type": "基本土地 — 山",
             "uuid": "36503dbb-a8fa-5c38-93e0-9fc9737afc06"
           },
           {
             "identifiers": {
-              "multiverseId": "597876",
-              "scryfallId": "806b63b2-1dea-4660-b9b1-604df9f61fc1"
+              "multiverseId": "597786",
+              "scryfallId": "794b104a-fea6-4791-befc-1e5236c13880"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597876,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "4d4024ce-9413-5932-a97c-ea76cf545cdb"
+            "language": "Spanish",
+            "multiverseId": 597786,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "e0ea8124-6681-5734-8d9a-b09c451bfcc6"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "7efc0de0-4053-53dc-a4c8-65dc0a78175b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270290",
           "cardsphereId": "97104",
           "deckboxId": "71302",
           "mcmId": "687367",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "dc1f0ed1-bf56-5889-94b2-f135245e00c2",
           "multiverseId": "597756",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3379,6 +3743,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "109",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3452,6 +3817,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3614,15 +3980,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/82e37318c9e137dd",
+          "cardmarket": "https://mtgjson.com/links/0cf017618bf3706b",
           "tcgplayer": "https://mtgjson.com/links/52633021ef97b76b"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "59891ba9-93ef-5a86-9c7d-286b213911c1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3638,8 +4013,8 @@
         ],
         "uuid": "4c4b9005-a05a-5c95-ab52-d7db96b20954",
         "variations": [
-          "dd775312-0618-5a75-bf7e-6a8c8dab755a",
-          "096fa466-11da-51cd-86a2-c246cafe95c2"
+          "096fa466-11da-51cd-86a2-c246cafe95c2",
+          "dd775312-0618-5a75-bf7e-6a8c8dab755a"
         ]
       }
     ],
@@ -3654,5 +4029,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "3c6b0c9b52e634"
   }
 }

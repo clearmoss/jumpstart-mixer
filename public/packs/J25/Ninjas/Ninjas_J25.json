@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "c81ffe03e9c596"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -29,36 +24,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 13879,
+        "edhrecRank": 12438,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680966",
-              "scryfallId": "1c5da7a2-ad7c-434b-b164-3c40f1861091"
-            },
-            "language": "German",
-            "multiverseId": 680966,
-            "name": "Taeko, geduldige Lawine",
-            "text": "Taeko, geduldige Lawine, kommt getappt ins Spiel.\nImmer wenn eine andere Kreatur, die du kontrollierst, das Spiel verlässt und falls sie nicht gestorben ist, wende Hellsicht 1 an und lege eine +1/+1-Marke auf Taeko.\nImmer wenn Taeko angreift, kannst du {U/B} bezahlen. Wenn du dies tust, kann eine angreifende Kreatur deiner Wahl in diesem Zug nicht geblockt werden.",
-            "type": "Legendäre Kreatur — Schildkröte, Ninja",
-            "uuid": "9553dc82-e067-5f86-ab67-8af53a000e7a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680993",
-              "scryfallId": "21eb9957-cfdd-4375-a76f-02005abb89c0"
-            },
-            "language": "Spanish",
-            "multiverseId": 680993,
-            "name": "Taeko, la Avalancha Paciente",
-            "text": "Taeko, la Avalancha Paciente entra girado.\nSiempre que otra criatura que controlas deje el campo de batalla, si no murió, adivina 1 y pon un contador +1/+1 sobre Taeko.\nSiempre que Taeko ataque, puedes pagar {U/B}. Cuando lo hagas, la criatura atacante objetivo no puede ser bloqueada este turno.",
-            "type": "Criatura legendaria — Ninja tortuga",
-            "uuid": "7db9b039-e727-599e-b7d0-d0db65f81651"
-          },
           {
             "identifiers": {
               "multiverseId": "681020",
@@ -67,9 +38,27 @@
             "language": "French",
             "multiverseId": 681020,
             "name": "Taeko, l'avalanche patiente",
+            "skuIds": {
+              "nonfoil": "f1b286be-6b4c-5d3b-8c0a-c3a2e3159f23"
+            },
             "text": "Taeko, l'avalanche patiente arrive engagé.\nÀ chaque fois qu'une autre créature que vous contrôlez quitte le champ de bataille, si elle n'est pas morte, appliquez regard 1 et mettez un marqueur +1/+1 sur Taeko.\nÀ chaque fois que Taeko attaque, vous pouvez payer {U/B}. Quand vous faites ainsi, une créature attaquante ciblée ne peut pas être bloquée ce tour-ci.",
             "type": "Créature légendaire — tortue et ninja",
             "uuid": "51fdd85b-feee-57c6-8c73-ea96288bb135"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680966",
+              "scryfallId": "1c5da7a2-ad7c-434b-b164-3c40f1861091"
+            },
+            "language": "German",
+            "multiverseId": 680966,
+            "name": "Taeko, geduldige Lawine",
+            "skuIds": {
+              "nonfoil": "26cc2878-62a7-5bc0-b564-220cf7369548"
+            },
+            "text": "Taeko, geduldige Lawine, kommt getappt ins Spiel.\nImmer wenn eine andere Kreatur, die du kontrollierst, das Spiel verlässt und falls sie nicht gestorben ist, wende Hellsicht 1 an und lege eine +1/+1-Marke auf Taeko.\nImmer wenn Taeko angreift, kannst du {U/B} bezahlen. Wenn du dies tust, kann eine angreifende Kreatur deiner Wahl in diesem Zug nicht geblockt werden.",
+            "type": "Legendäre Kreatur — Schildkröte, Ninja",
+            "uuid": "9553dc82-e067-5f86-ab67-8af53a000e7a"
           },
           {
             "identifiers": {
@@ -79,6 +68,9 @@
             "language": "Italian",
             "multiverseId": 681047,
             "name": "Taeko, la Valanga Paziente",
+            "skuIds": {
+              "nonfoil": "126f91c5-4b3f-50d8-8cf1-e25f6fe86d21"
+            },
             "text": "Taeko, la Valanga Paziente entra TAPpato.\nOgniqualvolta un'altra creatura che controlli lascia il campo di battaglia, se non è morta, profetizza 1 e metti un segnalino +1/+1 su Taeko.\nOgniqualvolta Taeko attacca, puoi pagare {U/B}. Quando lo fai, una creatura attaccante bersaglio non può essere bloccata in questo turno.",
             "type": "Creatura Leggendaria — Ninja Tartaruga",
             "uuid": "fe06670b-3091-5415-8ab0-0c95090cfea1"
@@ -91,17 +83,33 @@
             "language": "Japanese",
             "multiverseId": 681074,
             "name": "堪忍雪崩、タエコウ",
+            "skuIds": {
+              "nonfoil": "3b7a53af-ae89-5796-ab4d-46b2a72607ea"
+            },
             "text": "堪忍雪崩、タエコウはタップ状態で戦場に出る。\nあなたがコントロールしていてこれでないクリーチャー１体が戦場を離れるたび、それが死亡していなかった場合、占術１を行いこれの上に＋１/＋１カウンター１個を置く。\nこれが攻撃するたび、{U/B}を支払ってもよい。そうしたとき、攻撃クリーチャー１体を対象とする。このターン、それはブロックされない。",
             "type": "伝説のクリーチャー — 海亀・忍者",
             "uuid": "5099e5fd-d97b-57ba-94e9-5ae49fddb718"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680993",
+              "scryfallId": "21eb9957-cfdd-4375-a76f-02005abb89c0"
+            },
+            "language": "Spanish",
+            "multiverseId": 680993,
+            "name": "Taeko, la Avalancha Paciente",
+            "skuIds": {
+              "nonfoil": "94e57872-8f6c-5a33-8d49-53931a927228"
+            },
+            "text": "Taeko, la Avalancha Paciente entra girado.\nSiempre que otra criatura que controlas deje el campo de batalla, si no murió, adivina 1 y pon un contador +1/+1 sobre Taeko.\nSiempre que Taeko ataque, puedes pagar {U/B}. Cuando lo hagas, la criatura atacante objetivo no puede ser bloqueada este turno.",
+            "type": "Criatura legendaria — Ninja tortuga",
+            "uuid": "7db9b039-e727-599e-b7d0-d0db65f81651"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305173",
           "cardsphereId": "130788",
@@ -120,7 +128,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Scry"
         ],
@@ -147,6 +154,7 @@
         "name": "Taeko, the Patient Avalanche",
         "number": "39",
         "originalText": "Taeko, the Patient Avalanche enters tapped.\nWhenever another creature you control leaves the battlefield, if it didn't die, scry 1 and put a +1/+1 counter on Taeko.\nWhenever Taeko attacks, you may pay {(}u/b)}. When you do, target attacking creature can't be blocked this turn.",
+        "originalType": "Legendary Creature – Turtle Ninja",
         "power": "4",
         "printings": [
           "J25"
@@ -169,9 +177,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f16804ef-f9b0-539d-867f-7d622b114756"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -208,36 +221,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 19922,
+        "edhrecRank": 19878,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681363",
-              "scryfallId": "4dc8c601-a27b-404f-b1eb-822233609808"
-            },
-            "language": "German",
-            "multiverseId": 681363,
-            "name": "Fesseln aus Sternenlicht",
-            "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura",
-            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681392",
-              "scryfallId": "77381d57-f4dc-41a0-b9e0-901ef25932c4"
-            },
-            "language": "Spanish",
-            "multiverseId": 681392,
-            "name": "Trampa estrellada",
-            "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura",
-            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
-          },
           {
             "identifiers": {
               "multiverseId": "681421",
@@ -246,9 +235,27 @@
             "language": "French",
             "multiverseId": 681421,
             "name": "Collet de lumière stellaire",
+            "skuIds": {
+              "nonfoil": "c203d4f0-35db-5b2e-998a-00afd7d366ae"
+            },
             "text": "Enchanter : créature\nQuand le Collet de lumière stellaire arrive, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
             "type": "Enchantement — aura",
             "uuid": "b14b9d45-a785-58d7-af7d-fb5f18787f03"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681363",
+              "scryfallId": "4dc8c601-a27b-404f-b1eb-822233609808"
+            },
+            "language": "German",
+            "multiverseId": 681363,
+            "name": "Fesseln aus Sternenlicht",
+            "skuIds": {
+              "nonfoil": "4848a1fa-2401-57be-9e6a-40edbb47ac92"
+            },
+            "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
+            "type": "Verzauberung — Aura",
+            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
           },
           {
             "identifiers": {
@@ -258,6 +265,9 @@
             "language": "Italian",
             "multiverseId": 681450,
             "name": "Trappola di Luce Stellare",
+            "skuIds": {
+              "nonfoil": "b4f65b2d-61a0-59bc-8c95-db5781af9d4b"
+            },
             "text": "Incanta creatura\nQuando la Trappola di Luce Stellare entra, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
             "type": "Incantesimo — Aura",
             "uuid": "f99ed183-d444-5d98-baa3-e547748226a4"
@@ -270,14 +280,30 @@
             "language": "Japanese",
             "multiverseId": 681479,
             "name": "星明かりの罠",
+            "skuIds": {
+              "nonfoil": "314d4a70-d383-5343-8dc5-2b048aaa9f42"
+            },
             "text": "エンチャント（クリーチャー）\n星明かりの罠が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
             "type": "エンチャント — オーラ",
             "uuid": "d1a74b35-8031-5fd1-91e3-7b29a89f3e18"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681392",
+              "scryfallId": "77381d57-f4dc-41a0-b9e0-901ef25932c4"
+            },
+            "language": "Spanish",
+            "multiverseId": 681392,
+            "name": "Trampa estrellada",
+            "skuIds": {
+              "nonfoil": "d07f5257-61fe-5d2b-ad82-35bb444b6711"
+            },
+            "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
+            "type": "Encantamiento — Aura",
+            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305143",
           "cardsphereId": "130709",
@@ -296,7 +322,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Enchant"
         ],
@@ -326,6 +351,7 @@
         "name": "Starlight Snare",
         "number": "9",
         "originalText": "Enchant creature\nWhen Starlight Snare enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "FDN",
           "J25"
@@ -337,9 +363,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2bb015b6-c3d2-5165-b73e-432df060a4b5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -371,36 +402,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 3325,
+        "edhrecRank": 3326,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681573",
-              "scryfallId": "88c8a918-5be0-4019-8f46-cfdcb9fa693b"
-            },
-            "language": "German",
-            "multiverseId": 681573,
-            "name": "Ninja der späten Stunden",
-            "text": "Ninjutsu {1}{U} ({1}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn der Ninja der späten Stunden einem Spieler Kampfschaden zufügt, kannst du eine Karte ziehen.",
-            "type": "Kreatur — Mensch, Ninja",
-            "uuid": "d4da36a3-f6ef-54b7-b505-b2cab82616fe"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681634",
-              "scryfallId": "d8003b9f-c721-47d2-aca5-9f32185f41f6"
-            },
-            "language": "Spanish",
-            "multiverseId": 681634,
-            "name": "Ninja de las horas tardías",
-            "text": "Ninjutsu {1}{U}. ({1}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que el Ninja de las horas tardías haga daño de combate a un jugador, puedes robar una carta.",
-            "type": "Criatura — Ninja humano",
-            "uuid": "3fb21725-1a32-5028-81b3-66dcddcd45fc"
-          },
           {
             "identifiers": {
               "multiverseId": "681695",
@@ -409,9 +416,27 @@
             "language": "French",
             "multiverseId": 681695,
             "name": "Ninja des heures noires",
+            "skuIds": {
+              "nonfoil": "1a9f7809-384f-58b8-af42-8b5d6157165c"
+            },
             "text": "Ninjutsu {1}{U} ({1}{U}, renvoyez en main un attaquant non-bloqué que vous contrôlez : Mettez sur le champ de bataille cette carte, engagée et attaquante, depuis votre main.)\nÀ chaque fois que le Ninja des heures noires inflige des blessures de combat à un joueur, vous pouvez piocher une carte.",
             "type": "Créature — humain et ninja",
             "uuid": "f032c696-c2e4-5c36-a5af-e93f2f068549"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681573",
+              "scryfallId": "88c8a918-5be0-4019-8f46-cfdcb9fa693b"
+            },
+            "language": "German",
+            "multiverseId": 681573,
+            "name": "Ninja der späten Stunden",
+            "skuIds": {
+              "nonfoil": "3bc3d56a-faf2-5f69-b282-39c7d826d89b"
+            },
+            "text": "Ninjutsu {1}{U} ({1}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn der Ninja der späten Stunden einem Spieler Kampfschaden zufügt, kannst du eine Karte ziehen.",
+            "type": "Kreatur — Mensch, Ninja",
+            "uuid": "d4da36a3-f6ef-54b7-b505-b2cab82616fe"
           },
           {
             "identifiers": {
@@ -421,6 +446,9 @@
             "language": "Italian",
             "multiverseId": 681756,
             "name": "Ninja della Notte Fonda",
+            "skuIds": {
+              "nonfoil": "b25ae07a-af4c-5fff-9fb4-f7dece29d95e"
+            },
             "text": "Ninjutsu {1}{U} ({1}{U}, Fai tornare in mano al suo proprietario una creatura attaccante non bloccata che controlli: Metti questa carta sul campo di battaglia dalla tua mano TAPpata e attaccante.)\nOgniqualvolta il Ninja della Notte Fonda infligge danno da combattimento a un giocatore, puoi pescare una carta.",
             "type": "Creatura — Ninja Umano",
             "uuid": "aa06ab38-b582-5cba-b5bd-ce462ffe2af7"
@@ -433,14 +461,30 @@
             "language": "Japanese",
             "multiverseId": 681817,
             "name": "深き刻の忍者",
+            "skuIds": {
+              "nonfoil": "970b2baf-6321-563d-8021-060696da9364"
+            },
             "text": "忍術{1}{U}（{1}{U}, あなたがコントロールしていてブロックされなかった攻撃クリーチャー１体を手札に戻す：このカードをあなたの手札からタップ状態かつ攻撃している状態で戦場に出す。）\n深き刻の忍者がプレイヤー１人に戦闘ダメージを与えるたび、カード１枚を引いてもよい。",
             "type": "クリーチャー — 人間・忍者",
             "uuid": "8c06c146-5849-57c0-b19c-230c94a7b3a5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681634",
+              "scryfallId": "d8003b9f-c721-47d2-aca5-9f32185f41f6"
+            },
+            "language": "Spanish",
+            "multiverseId": 681634,
+            "name": "Ninja de las horas tardías",
+            "skuIds": {
+              "nonfoil": "7042cb7b-596d-5158-b86d-d4b6dcc7f879"
+            },
+            "text": "Ninjutsu {1}{U}. ({1}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que el Ninja de las horas tardías haga daño de combate a un jugador, puedes robar una carta.",
+            "type": "Criatura — Ninja humano",
+            "uuid": "3fb21725-1a32-5028-81b3-66dcddcd45fc"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305242",
           "cardsphereId": "130922",
@@ -459,7 +503,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Ninjutsu"
         ],
@@ -485,6 +528,7 @@
         "name": "Ninja of the Deep Hours",
         "number": "108",
         "originalText": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Ninja of the Deep Hours deals combat damage to a player, you may draw a card.",
+        "originalType": "Creature – Human Ninja",
         "power": "2",
         "printings": [
           "BOK",
@@ -532,9 +576,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "8967a97f-b9a9-57c6-842b-6adca134dc28"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -568,39 +617,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 6755,
+        "edhrecRank": 7129,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"At least I won't become one of . . . those things.\"",
         "foreignData": [
-          {
-            "flavorText": "„Zumindest werde ich nicht zu einem … dieser Dinger.\"",
-            "identifiers": {
-              "multiverseId": "682711",
-              "scryfallId": "b1f0ce39-3678-4f40-a711-07610ae07620"
-            },
-            "language": "German",
-            "multiverseId": 682711,
-            "name": "Schwindende Hoffnung",
-            "text": "Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück. Falls ihr Manabetrag 3 oder weniger war, wende Hellsicht 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
-            "type": "Spontanzauber",
-            "uuid": "54bf3fd8-96f2-514e-b6e3-d9502b2225aa"
-          },
-          {
-            "flavorText": "\"Al menos no me convertiré en… en una de esas cosas\".",
-            "identifiers": {
-              "multiverseId": "682825",
-              "scryfallId": "a84054e3-3222-4472-aa77-fb65f96f8d4e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682825,
-            "name": "Esperanza en extinción",
-            "text": "Regresa la criatura objetivo a la mano de su propietario. Si su valor de maná era de 3 o menos, adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)",
-            "type": "Instantáneo",
-            "uuid": "1e5109e1-5368-533c-b1c7-970ee862894b"
-          },
           {
             "flavorText": "« Au moins je ne deviendrai pas l'une de... ces choses. »",
             "identifiers": {
@@ -610,9 +633,28 @@
             "language": "French",
             "multiverseId": 682939,
             "name": "Espoir volatilisé",
+            "skuIds": {
+              "nonfoil": "1073bb63-7302-5c12-aee1-64b07a7a3140"
+            },
             "text": "Renvoyez une créature ciblée dans la main de son propriétaire. Si sa valeur de mana était inférieure ou égale à 3, regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez mettre cette carte au-dessous.)",
             "type": "Éphémère",
             "uuid": "2afd4a7d-8cfc-54d1-88c8-eecf241c92be"
+          },
+          {
+            "flavorText": "„Zumindest werde ich nicht zu einem … dieser Dinger.\"",
+            "identifiers": {
+              "multiverseId": "682711",
+              "scryfallId": "b1f0ce39-3678-4f40-a711-07610ae07620"
+            },
+            "language": "German",
+            "multiverseId": 682711,
+            "name": "Schwindende Hoffnung",
+            "skuIds": {
+              "nonfoil": "944188ad-067a-5505-b0d7-c89f07fb1a01"
+            },
+            "text": "Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück. Falls ihr Manabetrag 3 oder weniger war, wende Hellsicht 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)",
+            "type": "Spontanzauber",
+            "uuid": "54bf3fd8-96f2-514e-b6e3-d9502b2225aa"
           },
           {
             "flavorText": "\"Almeno non diventerò una di... quelle cose.\"",
@@ -623,6 +665,9 @@
             "language": "Italian",
             "multiverseId": 683053,
             "name": "Speranza Svanita",
+            "skuIds": {
+              "nonfoil": "e48d5009-1f9f-554d-97b3-9d81bc2575c1"
+            },
             "text": "Fai tornare una creatura bersaglio in mano al suo proprietario. Se il suo valore di mana era pari o inferiore a 3, profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi metterla in fondo.)",
             "type": "Istantaneo",
             "uuid": "0e4e75e2-7366-52c6-9c09-e54ca245dc62"
@@ -636,14 +681,31 @@
             "language": "Japanese",
             "multiverseId": 683167,
             "name": "消えゆく希望",
+            "skuIds": {
+              "nonfoil": "7fc8c174-a9fa-50a9-ab3e-c49fa955642f"
+            },
             "text": "クリーチャー１体を対象とする。それをオーナーの手札に戻す。それのマナ総量が３以下なら、占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。そのカードを一番下に置いてもよい。）",
             "type": "インスタント",
             "uuid": "06f5c8eb-2445-5721-924d-eb58757f3a18"
+          },
+          {
+            "flavorText": "\"Al menos no me convertiré en… en una de esas cosas\".",
+            "identifiers": {
+              "multiverseId": "682825",
+              "scryfallId": "a84054e3-3222-4472-aa77-fb65f96f8d4e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682825,
+            "name": "Esperanza en extinción",
+            "skuIds": {
+              "nonfoil": "a7f695dd-0db3-5389-9802-ca504b7e2dd0"
+            },
+            "text": "Regresa la criatura objetivo a la mano de su propietario. Si su valor de maná era de 3 o menos, adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)",
+            "type": "Instantáneo",
+            "uuid": "1e5109e1-5368-533c-b1c7-970ee862894b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305459",
           "cardsphereId": "131310",
@@ -685,6 +747,7 @@
         "name": "Fading Hope",
         "number": "310",
         "originalText": "Return target creature to its owner's hand. If its mana value was 3 or less, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "J25",
@@ -697,9 +760,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "eadf3b96-4c39-5635-936e-ce1ce136f608"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -729,36 +797,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 3331,
+        "edhrecRank": 3366,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682728",
-              "scryfallId": "269fcd57-89e6-4de2-b7c9-895fc98782b0"
-            },
-            "language": "German",
-            "multiverseId": 682728,
-            "name": "Mondschaltkreis-Hackerin",
-            "text": "Ninjutsu {U} ({U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn die Mondschaltkreis-Hackerin einem Spieler Kampfschaden zufügt, kannst du eine Karte ziehen. Falls du dies tust, wirf eine Karte ab, es sei denn, die Mondschaltkreis-Hackerin ist in diesem Zug ins Spiel gekommen.",
-            "type": "Verzauberungskreatur — Mensch, Ninja",
-            "uuid": "e2bcf09b-25da-559b-8f66-9b74d2fcdb0d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682842",
-              "scryfallId": "00cb89ef-ffe1-4e65-b1ce-eddbe1f67eab"
-            },
-            "language": "Spanish",
-            "multiverseId": 682842,
-            "name": "Hacker del circuito lunar",
-            "text": "Ninjutsu {U}. ({U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que la Hacker del circuito lunar haga daño de combate a un jugador, puedes robar una carta. Si lo haces, descarta una carta a menos que la Hacker del circuito lunar haya entrado al campo de batalla este turno.",
-            "type": "Criatura encantamiento — Ninja humano",
-            "uuid": "986290e9-29aa-5df3-bebc-65ec82b87313"
-          },
           {
             "identifiers": {
               "multiverseId": "682956",
@@ -767,9 +811,27 @@
             "language": "French",
             "multiverseId": 682956,
             "name": "Hackeuse du circuit lunaire",
+            "skuIds": {
+              "nonfoil": "d089d911-4274-5816-aafb-517b1c54f975"
+            },
             "text": "Ninjutsu {U} ({U}, renvoyez en main un attaquant non-bloqué que vous contrôlez : Mettez sur le champ de bataille cette carte, engagée et attaquante, depuis votre main.)\nÀ chaque fois que la Hackeuse du circuit lunaire inflige des blessures de combat à un joueur, vous pouvez piocher une carte. Si vous faites ainsi, défaussez-vous d'une carte à moins que la Hackeuse du circuit lunaire ne soit arrivée sur le champ de bataille ce tour-ci.",
             "type": "Créature-enchantement — humain et ninja",
             "uuid": "d8703188-0d52-5f6a-91ce-c3b66e390b62"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682728",
+              "scryfallId": "269fcd57-89e6-4de2-b7c9-895fc98782b0"
+            },
+            "language": "German",
+            "multiverseId": 682728,
+            "name": "Mondschaltkreis-Hackerin",
+            "skuIds": {
+              "nonfoil": "488a58b3-6964-50c4-be89-28697548a1cb"
+            },
+            "text": "Ninjutsu {U} ({U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn die Mondschaltkreis-Hackerin einem Spieler Kampfschaden zufügt, kannst du eine Karte ziehen. Falls du dies tust, wirf eine Karte ab, es sei denn, die Mondschaltkreis-Hackerin ist in diesem Zug ins Spiel gekommen.",
+            "type": "Verzauberungskreatur — Mensch, Ninja",
+            "uuid": "e2bcf09b-25da-559b-8f66-9b74d2fcdb0d"
           },
           {
             "identifiers": {
@@ -779,6 +841,9 @@
             "language": "Italian",
             "multiverseId": 683070,
             "name": "Hacker del Circuito Lunare",
+            "skuIds": {
+              "nonfoil": "b462705e-27e0-56d4-9323-dfde095c7aec"
+            },
             "text": "Ninjutsu {U} ({U}, Fai tornare in mano al suo proprietario una creatura attaccante non bloccata che controlli: Metti questa carta sul campo di battaglia dalla tua mano TAPpata e attaccante.)\nOgniqualvolta l'Hacker del Circuito Lunare infligge danno da combattimento a un giocatore, puoi pescare una carta. Se lo fai, scarta una carta a meno che l'Hacker del Circuito Lunare non sia entrata nel campo di battaglia in questo turno.",
             "type": "Creatura Incantesimo — Ninja Umano",
             "uuid": "a18c8284-560e-5b2f-b194-61cd36c0155d"
@@ -791,17 +856,33 @@
             "language": "Japanese",
             "multiverseId": 683184,
             "name": "月回路のハッカー",
+            "skuIds": {
+              "nonfoil": "0a405312-025c-513d-add9-5f49a28789da"
+            },
             "text": "忍術{U}（{U}, あなたがコントロールしていてブロックされなかった攻撃クリーチャー１体を手札に戻す：あなたの手札にあるこのカードをタップ状態かつ攻撃している状態で戦場に出す。）\n月回路のハッカーがプレイヤー１人に戦闘ダメージを与えるたび、カード１枚を引いてもよい。そうしたなら、このターンに月回路のハッカーが戦場に出たのでないかぎり、カード１枚を捨てる。",
             "type": "クリーチャー・エンチャント — 人間・忍者",
             "uuid": "d0ede107-a883-5db9-85d0-4dedbfb835e3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682842",
+              "scryfallId": "00cb89ef-ffe1-4e65-b1ce-eddbe1f67eab"
+            },
+            "language": "Spanish",
+            "multiverseId": 682842,
+            "name": "Hacker del circuito lunar",
+            "skuIds": {
+              "nonfoil": "b9f0aaf3-b26b-5a5b-8943-9f4839aa920f"
+            },
+            "text": "Ninjutsu {U}. ({U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que la Hacker del circuito lunar haga daño de combate a un jugador, puedes robar una carta. Si lo haces, descarta una carta a menos que la Hacker del circuito lunar haya entrado al campo de batalla este turno.",
+            "type": "Criatura encantamiento — Ninja humano",
+            "uuid": "986290e9-29aa-5df3-bebc-65ec82b87313"
           }
         ],
         "frameEffects": [
           "enchantment"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305476",
           "cardsphereId": "131293",
@@ -843,6 +924,7 @@
         "name": "Moon-Circuit Hacker",
         "number": "327",
         "originalText": "Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Moon-Circuit Hacker deals combat damage to a player, you may draw a card. If you do, discard a card unless Moon-Circuit Hacker entered the battlefield this turn.",
+        "originalType": "Enchantment Creature – Human Ninja",
         "power": "2",
         "printings": [
           "J25",
@@ -886,9 +968,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cb045625-f85b-5ea9-a552-544c3da5a83f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -923,36 +1010,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 6756,
+        "edhrecRank": 6827,
         "edhrecSaltiness": 0.46,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682729",
-              "scryfallId": "a8551768-f890-4c48-9e65-f28d9c4db064"
-            },
-            "language": "German",
-            "multiverseId": 682729,
-            "name": "Mondschlingen-Spezialistin",
-            "text": "Ninjutsu {2}{U} ({2}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nWenn die Mondschlingen-Spezialistin ins Spiel kommt, bringe bis zu eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.",
-            "type": "Kreatur — Mensch, Ninja",
-            "uuid": "7bcb65c4-78a1-5c05-855f-6481b52d3668"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682843",
-              "scryfallId": "e0dd50ab-b29a-4c0f-9d10-77c2e734c069"
-            },
-            "language": "Spanish",
-            "multiverseId": 682843,
-            "name": "Experta en trampaslunares",
-            "text": "Ninjutsu {2}{U}. ({2}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nCuando la Experta en trampaslunares entre, regresa hasta una criatura objetivo a la mano de su propietario.",
-            "type": "Criatura — Ninja humano",
-            "uuid": "14514901-f577-57a1-b69a-ce45bf6bd38a"
-          },
           {
             "identifiers": {
               "multiverseId": "682957",
@@ -961,9 +1024,27 @@
             "language": "French",
             "multiverseId": 682957,
             "name": "Spécialiste en collets lunaires",
+            "skuIds": {
+              "nonfoil": "721472ad-f1ac-5024-a610-8bfbd68ce491"
+            },
             "text": "Ninjutsu {2}{U} ({2}{U}, renvoyez en main un attaquant non-bloqué que vous contrôlez : Mettez sur le champ de bataille cette carte, engagée et attaquante, depuis votre main.)\nQuand la Spécialiste en collets lunaires arrive, renvoyez jusqu'à une créature ciblée dans la main de son propriétaire.",
             "type": "Créature — humain et ninja",
             "uuid": "da4547eb-1e42-5cb8-b18d-ab6aa3b7b844"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682729",
+              "scryfallId": "a8551768-f890-4c48-9e65-f28d9c4db064"
+            },
+            "language": "German",
+            "multiverseId": 682729,
+            "name": "Mondschlingen-Spezialistin",
+            "skuIds": {
+              "nonfoil": "ba2b64b1-bbdf-50a4-b16b-2996fcb566c8"
+            },
+            "text": "Ninjutsu {2}{U} ({2}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nWenn die Mondschlingen-Spezialistin ins Spiel kommt, bringe bis zu eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.",
+            "type": "Kreatur — Mensch, Ninja",
+            "uuid": "7bcb65c4-78a1-5c05-855f-6481b52d3668"
           },
           {
             "identifiers": {
@@ -973,6 +1054,9 @@
             "language": "Italian",
             "multiverseId": 683071,
             "name": "Specialista della Trappola Lunare",
+            "skuIds": {
+              "nonfoil": "6d8b11be-22e7-578e-8db0-8ffe753ae643"
+            },
             "text": "Ninjutsu {2}{U} ({2}{U}, Fai tornare in mano al suo proprietario una creatura attaccante non bloccata che controlli: Metti questa carta sul campo di battaglia dalla tua mano TAPpata e attaccante.)\nQuando la Specialista della Trappola Lunare entra, fai tornare fino a una creatura bersaglio in mano al suo proprietario.",
             "type": "Creatura — Ninja Umano",
             "uuid": "9bb00387-3d8e-517a-99b0-dc705d6e509b"
@@ -985,14 +1069,30 @@
             "language": "Japanese",
             "multiverseId": 683185,
             "name": "月罠の専門家",
+            "skuIds": {
+              "nonfoil": "7afa46b3-3132-5b15-aa55-462bc472424c"
+            },
             "text": "忍術{2}{U}（{2}{U}, あなたがコントロールしていてブロックされなかった攻撃クリーチャー１体を手札に戻す：あなたの手札にあるこのカードをタップ状態かつ攻撃している状態で戦場に出す。）\n月罠の専門家が戦場に出たとき、クリーチャー最大１体を対象とする。それをオーナーの手札に戻す。",
             "type": "クリーチャー — 人間・忍者",
             "uuid": "e2e57540-381a-5d38-a98d-6311c908c20f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682843",
+              "scryfallId": "e0dd50ab-b29a-4c0f-9d10-77c2e734c069"
+            },
+            "language": "Spanish",
+            "multiverseId": 682843,
+            "name": "Experta en trampaslunares",
+            "skuIds": {
+              "nonfoil": "bd0e1ed0-c95b-5d1c-81c0-1fd7b1d424ca"
+            },
+            "text": "Ninjutsu {2}{U}. ({2}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nCuando la Experta en trampaslunares entre, regresa hasta una criatura objetivo a la mano de su propietario.",
+            "type": "Criatura — Ninja humano",
+            "uuid": "14514901-f577-57a1-b69a-ce45bf6bd38a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305477",
           "cardsphereId": "131292",
@@ -1036,6 +1136,7 @@
         "name": "Moonsnare Specialist",
         "number": "328",
         "originalText": "Ninjutsu {2}{U} ({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen Moonsnare Specialist enters, return up to one target creature to its owner's hand.",
+        "originalType": "Creature – Human Ninja",
         "power": "2",
         "printings": [
           "J25",
@@ -1078,9 +1179,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cc0cfd5c-f663-5847-a3fd-25d12fb12bfa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1114,39 +1220,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 10467,
+        "edhrecRank": 10816,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Just as I suspected. They thought they'd hidden the terminal, so they got lazy with the encryption.\"",
         "foreignData": [
-          {
-            "flavorText": "„Genau wie ich vermutet habe. Sie dachten, sie hätten das Terminal versteckt, also wurden sie bei der Verschlüsselung nachlässig.\"",
-            "identifiers": {
-              "multiverseId": "682735",
-              "scryfallId": "d88803c8-238f-4624-88cd-90e19ed87ee5"
-            },
-            "language": "German",
-            "multiverseId": 682735,
-            "name": "Netzwerkstörer",
-            "text": "Fliegend\nWenn der Netzwerkstörer ins Spiel kommt, tappe ein Permanent deiner Wahl.",
-            "type": "Artefaktkreatur — Mondvolk, Räuber",
-            "uuid": "7fb11567-c447-5348-b8ce-88081ffc75b2"
-          },
-          {
-            "flavorText": "\"Tal y como sospechaba. Creían haber escondido la terminal, así que ni se molestaron con el cifrado\".",
-            "identifiers": {
-              "multiverseId": "682849",
-              "scryfallId": "d8dd6667-8b7e-4343-b69b-a6881463aaed"
-            },
-            "language": "Spanish",
-            "multiverseId": 682849,
-            "name": "Alterador de la red",
-            "text": "Vuela.\nCuando el Alterador de la red entre, gira el permanente objetivo.",
-            "type": "Criatura artefacto — Bribón pueblo-lunar",
-            "uuid": "9ed84538-2cab-5604-b403-55cdb68ad25e"
-          },
           {
             "flavorText": "« Je m'en doutais. Ils ont cru que le terminal était bien caché, alors ils n'ont pas fait d'efforts sur le cryptage. »",
             "identifiers": {
@@ -1156,9 +1236,28 @@
             "language": "French",
             "multiverseId": 682963,
             "name": "Perturbateur de réseau",
+            "skuIds": {
+              "nonfoil": "be2edc33-b914-5827-a4a4-a4a95ee02bb8"
+            },
             "text": "Vol\nQuand le Perturbateur de réseau arrive, engagez un permanent ciblé.",
             "type": "Créature-artefact — lunaréen et gredin",
             "uuid": "64136b8f-7ad1-5dde-a69c-36a8c932671d"
+          },
+          {
+            "flavorText": "„Genau wie ich vermutet habe. Sie dachten, sie hätten das Terminal versteckt, also wurden sie bei der Verschlüsselung nachlässig.\"",
+            "identifiers": {
+              "multiverseId": "682735",
+              "scryfallId": "d88803c8-238f-4624-88cd-90e19ed87ee5"
+            },
+            "language": "German",
+            "multiverseId": 682735,
+            "name": "Netzwerkstörer",
+            "skuIds": {
+              "nonfoil": "5169c38e-a330-5b29-901c-c426263325eb"
+            },
+            "text": "Fliegend\nWenn der Netzwerkstörer ins Spiel kommt, tappe ein Permanent deiner Wahl.",
+            "type": "Artefaktkreatur — Mondvolk, Räuber",
+            "uuid": "7fb11567-c447-5348-b8ce-88081ffc75b2"
           },
           {
             "flavorText": "\"Proprio come sospettavo. Pensavano di aver nascosto il terminale, così hanno trascurato la crittografia.\"",
@@ -1169,6 +1268,9 @@
             "language": "Italian",
             "multiverseId": 683077,
             "name": "Sabotatore della Rete",
+            "skuIds": {
+              "nonfoil": "f2c53740-3dec-5dd2-9b56-fad6a633f66a"
+            },
             "text": "Volare\nQuando il Sabotatore della Rete entra, TAPpa un permanente bersaglio.",
             "type": "Creatura Artefatto — Farabutto Lunantropo",
             "uuid": "d02943e5-569a-5ba0-9553-680c0191b5e8"
@@ -1182,14 +1284,31 @@
             "language": "Japanese",
             "multiverseId": 683191,
             "name": "ネットワークの攪乱者",
+            "skuIds": {
+              "nonfoil": "cea275c5-4d20-52d4-a1fd-a54314f43f22"
+            },
             "text": "飛行\nネットワークの攪乱者が戦場に出たとき、パーマネント１つを対象とする。それをタップする。",
             "type": "アーティファクト・クリーチャー — ムーンフォーク・ならず者",
             "uuid": "8643fd60-29a7-528c-8382-7428a2c77926"
+          },
+          {
+            "flavorText": "\"Tal y como sospechaba. Creían haber escondido la terminal, así que ni se molestaron con el cifrado\".",
+            "identifiers": {
+              "multiverseId": "682849",
+              "scryfallId": "d8dd6667-8b7e-4343-b69b-a6881463aaed"
+            },
+            "language": "Spanish",
+            "multiverseId": 682849,
+            "name": "Alterador de la red",
+            "skuIds": {
+              "nonfoil": "534cbff9-eb3c-552f-9904-2fefc2f1bb32"
+            },
+            "text": "Vuela.\nCuando el Alterador de la red entre, gira el permanente objetivo.",
+            "type": "Criatura artefacto — Bribón pueblo-lunar",
+            "uuid": "9ed84538-2cab-5604-b403-55cdb68ad25e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305483",
           "cardsphereId": "131286",
@@ -1233,6 +1352,7 @@
         "name": "Network Disruptor",
         "number": "334",
         "originalText": "Flying\nWhen Network Disruptor enters, tap target permanent.",
+        "originalType": "Artifact Creature – Moonfolk Rogue",
         "power": "1",
         "printings": [
           "J25",
@@ -1245,9 +1365,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b0a58f7e-010b-57f7-8821-db2d1b9d5b9c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1282,39 +1407,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6086,
+        "edhrecRank": 6731,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"We're on the fortieth floor, with one window, no balcony. No one could possibly get in.\"\n—Minosz, Orzhov chief of security",
         "foreignData": [
-          {
-            "flavorText": "„Wir sind hier im vierzigsten Stock mit einem Fenster und ohne Balkon. Niemand kann hier reinkommen.\"\n—Minosz, Orzhov-Sicherheitshauptmann",
-            "identifiers": {
-              "multiverseId": "682736",
-              "scryfallId": "0dacbccc-3755-4250-a94b-4de4aaaba194"
-            },
-            "language": "German",
-            "multiverseId": 682736,
-            "name": "Nachtschleiersylphide",
-            "text": "Fliegend\nImmer wenn die Nachtschleiersylphide angreift, wende Überwachen 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie auf deinen Friedhof legen.)",
-            "type": "Kreatur — Feenwesen, Räuber",
-            "uuid": "55f79dfc-afa5-50cc-8c66-57c810cfa75e"
-          },
-          {
-            "flavorText": "\"Estamos en la planta 40, con una sola ventana y sin balcón. Es imposible que entre nadie\".\n—Minosz, jefe de seguridad orzhov",
-            "identifiers": {
-              "multiverseId": "682850",
-              "scryfallId": "b8ff04be-0cea-43e6-86db-8448a62aad7c"
-            },
-            "language": "Spanish",
-            "multiverseId": 682850,
-            "name": "Hada de Velo Nocturno",
-            "text": "Vuela.\nSiempre que el Hada de Velo Nocturno ataque, escruta 1. (Mira la primera carta de tu biblioteca. Puedes ponerla en tu cementerio.)",
-            "type": "Criatura — Bribón hada",
-            "uuid": "2b3bb9d5-972e-5143-88b7-5d066b19eb24"
-          },
           {
             "flavorText": "« Nous sommes au quarantième étage, il n'y a qu'une seule fenêtre et pas de balcon. Personne ne peut entrer ici. »\n—Minosz, chef de la sécurité d'Orzhov",
             "identifiers": {
@@ -1324,9 +1423,28 @@
             "language": "French",
             "multiverseId": 682964,
             "name": "Farfadette voilenuit",
+            "skuIds": {
+              "nonfoil": "537d6d65-1714-53dd-8c0d-4e36cf3120aa"
+            },
             "text": "Vol\nÀ chaque fois que la Farfadette voilenuit attaque, surveillez 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez la mettre dans votre cimetière.)",
             "type": "Créature — peuple fée et gredin",
             "uuid": "221a42bb-f3a3-56ab-baca-4741bd6c0092"
+          },
+          {
+            "flavorText": "„Wir sind hier im vierzigsten Stock mit einem Fenster und ohne Balkon. Niemand kann hier reinkommen.\"\n—Minosz, Orzhov-Sicherheitshauptmann",
+            "identifiers": {
+              "multiverseId": "682736",
+              "scryfallId": "0dacbccc-3755-4250-a94b-4de4aaaba194"
+            },
+            "language": "German",
+            "multiverseId": 682736,
+            "name": "Nachtschleiersylphide",
+            "skuIds": {
+              "nonfoil": "00247c1e-e0c8-516c-b168-333bfa68cf9b"
+            },
+            "text": "Fliegend\nImmer wenn die Nachtschleiersylphide angreift, wende Überwachen 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie auf deinen Friedhof legen.)",
+            "type": "Kreatur — Feenwesen, Räuber",
+            "uuid": "55f79dfc-afa5-50cc-8c66-57c810cfa75e"
           },
           {
             "flavorText": "\"Siamo al quarantesimo piano, con una sola finestra senza balcone. È impossibile che qualcuno riesca a entrare.\"\n—Minosz, responsabile della sicurezza Orzhov",
@@ -1337,6 +1455,9 @@
             "language": "Italian",
             "multiverseId": 683078,
             "name": "Spiritella di Velo Notturno",
+            "skuIds": {
+              "nonfoil": "d7c702b9-fb67-5ec8-b4a3-a0d288085c92"
+            },
             "text": "Volare\nOgniqualvolta la Spiritella di Velo Notturno attacca, sorveglia 1. (Guarda la prima carta del tuo grimorio. Puoi metterla nel tuo cimitero.)",
             "type": "Creatura — Farabutto Spiritello",
             "uuid": "48a6c8b8-426b-5e9a-8d3c-01c57be63c28"
@@ -1350,14 +1471,31 @@
             "language": "Japanese",
             "multiverseId": 683192,
             "name": "夜帷のスプライト",
+            "skuIds": {
+              "nonfoil": "b9b96bcf-f9f5-5ac0-9acd-a3c1c24710fb"
+            },
             "text": "飛行\n夜帷のスプライトが攻撃するたび、諜報１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。それをあなたの墓地に置いてもよい。）",
             "type": "クリーチャー — フェアリー・ならず者",
             "uuid": "7acafc87-04d9-5ea2-834f-89c3a2895001"
+          },
+          {
+            "flavorText": "\"Estamos en la planta 40, con una sola ventana y sin balcón. Es imposible que entre nadie\".\n—Minosz, jefe de seguridad orzhov",
+            "identifiers": {
+              "multiverseId": "682850",
+              "scryfallId": "b8ff04be-0cea-43e6-86db-8448a62aad7c"
+            },
+            "language": "Spanish",
+            "multiverseId": 682850,
+            "name": "Hada de Velo Nocturno",
+            "skuIds": {
+              "nonfoil": "50e9f45c-5f74-500b-9b97-f7c379186975"
+            },
+            "text": "Vuela.\nSiempre que el Hada de Velo Nocturno ataque, escruta 1. (Mira la primera carta de tu biblioteca. Puedes ponerla en tu cementerio.)",
+            "type": "Criatura — Bribón hada",
+            "uuid": "2b3bb9d5-972e-5143-88b7-5d066b19eb24"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305484",
           "cardsphereId": "131285",
@@ -1400,6 +1538,7 @@
         "name": "Nightveil Sprite",
         "number": "335",
         "originalText": "Flying\nWhenever Nightveil Sprite attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+        "originalType": "Creature – Faerie Rogue",
         "power": "1",
         "printings": [
           "GRN",
@@ -1422,9 +1561,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2d34cce8-2dab-51e4-9120-ba4119f818b8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1458,38 +1602,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 9872,
+        "edhrecRank": 10152,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Ninjas can run across water, pull ladders from pockets, kill with a kiss, and slip between bricks. Pack of lies, I say.\"\n—Benden, teahouse gossip",
         "foreignData": [
-          {
-            "flavorText": "„Ninjas können über Wasser laufen, Leitern aus ihren Taschen ziehen und mit einem Kuss töten. Dass manche sogar durch Mauern laufen können, halte ich für gelogen.\"\n—Benden, Klatschmaul im Teehaus",
-            "identifiers": {
-              "multiverseId": "682746",
-              "scryfallId": "66d12b1c-94fc-4bb7-ab35-0271df8ea4a1"
-            },
-            "language": "German",
-            "multiverseId": 682746,
-            "name": "Phantom-Ninja",
-            "text": "Der Phantom-Ninja kann nicht geblockt werden.",
-            "type": "Kreatur — Illusion, Ninja",
-            "uuid": "dd94aa56-06c8-51e0-b7ab-03931f6cc569"
-          },
-          {
-            "flavorText": "\"Dicen que los ninjas pueden correr sobre el agua, sacarse escaleras del bolsillo, matar con un beso y deslizarse entre ladrillos. Todo patrañas\".\n—Benden, charlatán de la tetería",
-            "identifiers": {
-              "multiverseId": "682860",
-              "scryfallId": "002361f6-87af-4250-b3e5-3ab46dd4f59b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682860,
-            "name": "Ninja fantasma",
-            "text": "El Ninja fantasma no puede ser bloqueado.",
-            "type": "Criatura — Ninja ilusión",
-            "uuid": "08d6d151-c917-561c-a0c2-b192404e0dee"
-          },
           {
             "flavorText": "« Les ninjas peuvent courir sur l'eau, sortir des échelles de leur poche, tuer d'un baiser et se faufiler entre des briques. À mon avis, ce n'est qu'un tissu de mensonges. »\n—Berdenn, commère du salon de thé",
             "identifiers": {
@@ -1499,9 +1618,28 @@
             "language": "French",
             "multiverseId": 682974,
             "name": "Ninja fantomatique",
+            "skuIds": {
+              "nonfoil": "b4cf21a6-7810-5f88-9aaf-1c95751d4974"
+            },
             "text": "Le Ninja fantomatique ne peut pas être bloqué.",
             "type": "Créature — illusion et ninja",
             "uuid": "1802c14e-f099-5672-8da3-ec37153a77f9"
+          },
+          {
+            "flavorText": "„Ninjas können über Wasser laufen, Leitern aus ihren Taschen ziehen und mit einem Kuss töten. Dass manche sogar durch Mauern laufen können, halte ich für gelogen.\"\n—Benden, Klatschmaul im Teehaus",
+            "identifiers": {
+              "multiverseId": "682746",
+              "scryfallId": "66d12b1c-94fc-4bb7-ab35-0271df8ea4a1"
+            },
+            "language": "German",
+            "multiverseId": 682746,
+            "name": "Phantom-Ninja",
+            "skuIds": {
+              "nonfoil": "00b0c309-3528-51dd-acc9-6f9cf88c5af1"
+            },
+            "text": "Der Phantom-Ninja kann nicht geblockt werden.",
+            "type": "Kreatur — Illusion, Ninja",
+            "uuid": "dd94aa56-06c8-51e0-b7ab-03931f6cc569"
           },
           {
             "flavorText": "\"I ninja possono correre sull'acqua, estrarre scale dalle tasche, uccidere con un bacio e scivolare tra i mattoni. Per me sono una montagna di bugie.\"\n—Benden, pettegolo della sala da tè",
@@ -1512,6 +1650,9 @@
             "language": "Italian",
             "multiverseId": 683088,
             "name": "Ninja Fantasma",
+            "skuIds": {
+              "nonfoil": "12ebebe4-e2e0-5105-a26d-f16482d4811b"
+            },
             "text": "Il Ninja Fantasma non può essere bloccato.",
             "type": "Creatura — Ninja Illusione",
             "uuid": "9207111a-bbcc-5f2e-868b-8b851bcf0050"
@@ -1525,14 +1666,31 @@
             "language": "Japanese",
             "multiverseId": 683202,
             "name": "幻影の忍者",
+            "skuIds": {
+              "nonfoil": "6787603e-5aa0-5e14-96d0-d177a9643354"
+            },
             "text": "幻影の忍者はブロックされない。",
             "type": "クリーチャー — イリュージョン・忍者",
             "uuid": "2dd411f9-39a9-538e-8687-e479aaf5d10f"
+          },
+          {
+            "flavorText": "\"Dicen que los ninjas pueden correr sobre el agua, sacarse escaleras del bolsillo, matar con un beso y deslizarse entre ladrillos. Todo patrañas\".\n—Benden, charlatán de la tetería",
+            "identifiers": {
+              "multiverseId": "682860",
+              "scryfallId": "002361f6-87af-4250-b3e5-3ab46dd4f59b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682860,
+            "name": "Ninja fantasma",
+            "skuIds": {
+              "nonfoil": "cc46e1c9-ce91-5058-b002-1f290fc3c85f"
+            },
+            "text": "El Ninja fantasma no puede ser bloqueado.",
+            "type": "Criatura — Ninja ilusión",
+            "uuid": "08d6d151-c917-561c-a0c2-b192404e0dee"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305494",
           "cardsphereId": "131275",
@@ -1573,6 +1731,7 @@
         "name": "Phantom Ninja",
         "number": "345",
         "originalText": "Phantom Ninja can't be blocked.",
+        "originalType": "Creature – Illusion Ninja",
         "power": "2",
         "printings": [
           "J21",
@@ -1586,9 +1745,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "fbe31623-de9d-5c78-80f9-ac26cc7c775a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1622,36 +1786,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 2396,
+        "edhrecRank": 2382,
         "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682747",
-              "scryfallId": "d951ff5d-998e-480e-aba3-17b865cdb695"
-            },
-            "language": "German",
-            "multiverseId": 682747,
-            "name": "Erfolgreiche Diebin",
-            "text": "Ninjutsu {1}{U} ({1}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn eine oder mehrere Ninja- oder Räuber-Kreaturen, die du kontrollierst, einem Spieler Kampfschaden zufügen, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Mensch, Ninja",
-            "uuid": "233517be-4d77-52b1-948f-54661f85f2a1"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682861",
-              "scryfallId": "38a51f1b-2195-4529-bcdb-bb7b2b3ef03a"
-            },
-            "language": "Spanish",
-            "multiverseId": 682861,
-            "name": "Ladrona triunfadora",
-            "text": "Ninjutsu {1}{U}. ({1}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que una o más criaturas Ninja o Bribón que controlas hagan daño de combate a un jugador, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Ninja humano",
-            "uuid": "3eda2416-5baf-55a9-ab58-854592b8a574"
-          },
           {
             "identifiers": {
               "multiverseId": "682975",
@@ -1660,9 +1800,27 @@
             "language": "French",
             "multiverseId": 682975,
             "name": "Voleuse prospère",
+            "skuIds": {
+              "nonfoil": "003d4b8f-af4c-5f98-9ce5-e2c7865798a7"
+            },
             "text": "Ninjutsu {1}{U} ({1}{U}, renvoyez en main un attaquant non-bloqué que vous contrôlez : Mettez sur le champ de bataille cette carte, engagée et attaquante, depuis votre main.)\nÀ chaque fois qu'au moins une créature Ninja ou Gredin que vous contrôlez inflige des blessures de combat à un joueur, créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — humain et ninja",
             "uuid": "9392afbe-dea0-5508-9858-4d048b56d730"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682747",
+              "scryfallId": "d951ff5d-998e-480e-aba3-17b865cdb695"
+            },
+            "language": "German",
+            "multiverseId": 682747,
+            "name": "Erfolgreiche Diebin",
+            "skuIds": {
+              "nonfoil": "cfd10bd0-781e-577d-886d-0ff2760c5d03"
+            },
+            "text": "Ninjutsu {1}{U} ({1}{U}, bringe einen ungeblockten Angreifer, den du kontrollierst, auf die Hand zurück: Bringe diese Karte aus deiner Hand getappt und angreifend ins Spiel.)\nImmer wenn eine oder mehrere Ninja- oder Räuber-Kreaturen, die du kontrollierst, einem Spieler Kampfschaden zufügen, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Mensch, Ninja",
+            "uuid": "233517be-4d77-52b1-948f-54661f85f2a1"
           },
           {
             "identifiers": {
@@ -1672,6 +1830,9 @@
             "language": "Italian",
             "multiverseId": 683089,
             "name": "Ladra di Successo",
+            "skuIds": {
+              "nonfoil": "dba6f189-0ee2-51de-abb8-6077c9c480c0"
+            },
             "text": "Ninjutsu {1}{U} ({1}{U}, Fai tornare in mano al suo proprietario una creatura attaccante non bloccata che controlli: Metti questa carta sul campo di battaglia dalla tua mano TAPpata e attaccante.)\nOgniqualvolta una o più creature Ninja o Farabutto che controlli infliggono danno da combattimento a un giocatore, crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Ninja Umano",
             "uuid": "8dcc6f04-4492-5d11-8158-ae13a3e58624"
@@ -1684,14 +1845,30 @@
             "language": "Japanese",
             "multiverseId": 683203,
             "name": "裕福な盗人",
+            "skuIds": {
+              "nonfoil": "cf21c1ad-7948-546c-bcb6-be007a7b6eba"
+            },
             "text": "忍術{1}{U}（{1}{U}, あなたがコントロールしていてブロックされなかった攻撃クリーチャー１体を手札に戻す：あなたの手札にあるこのカードをタップ状態かつ攻撃している状態で戦場に出す。）\nあなたがコントロールしていて忍者やならず者である１体以上のクリーチャーがプレイヤー１人に戦闘ダメージを与えるたび、宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — 人間・忍者",
             "uuid": "c6e8496c-181a-5f04-9c75-c10975747b0e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682861",
+              "scryfallId": "38a51f1b-2195-4529-bcdb-bb7b2b3ef03a"
+            },
+            "language": "Spanish",
+            "multiverseId": 682861,
+            "name": "Ladrona triunfadora",
+            "skuIds": {
+              "nonfoil": "307005ee-8fab-50c1-ab86-6e30549dd94a"
+            },
+            "text": "Ninjutsu {1}{U}. ({1}{U}, regresar un atacante no bloqueado que controlas a la mano de su propietario: Pon esta carta en el campo de batalla de tu mano girada y atacando.)\nSiempre que una o más criaturas Ninja o Bribón que controlas hagan daño de combate a un jugador, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Ninja humano",
+            "uuid": "3eda2416-5baf-55a9-ab58-854592b8a574"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305495",
           "cardsphereId": "131274",
@@ -1732,10 +1909,18 @@
         "name": "Prosperous Thief",
         "number": "346",
         "originalText": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever one or more Ninja or Rogue creatures you control deal combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Human Ninja",
         "power": "3",
         "printings": [
           "J25",
           "NEO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/36f81b3dd0940015",
@@ -1743,6 +1928,11 @@
           "tcgplayer": "https://mtgjson.com/links/4dfe657cd117f15c"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2022-02-18",
@@ -1774,9 +1964,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c92032e7-5f04-5825-aa9e-ea0a124b085a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1810,36 +2005,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6595,
+        "edhrecRank": 6675,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682761",
-              "scryfallId": "8e0637b5-86b2-47ff-9d72-d44eb3ba7aaf"
-            },
-            "language": "German",
-            "multiverseId": 682761,
-            "name": "Rauchschleier",
-            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +1/+1 und hat Flugfähigkeit.\nWenn ein Ninja unter deiner Kontrolle ins Spiel kommt, kannst du den Rauchschleier aus deinem Friedhof an ihn angelegt ins Spiel zurückbringen.",
-            "type": "Verzauberung — Aura",
-            "uuid": "3856fbc7-38a0-5c54-ae3d-1b8e31963f04"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682875",
-              "scryfallId": "ddf3041a-f5f8-4a18-8f9f-23d3e49451af"
-            },
-            "language": "Spanish",
-            "multiverseId": 682875,
-            "name": "Velo de humo",
-            "text": "Encantar criatura.\nLa criatura encantada obtiene +1/+1 y tiene la habilidad de volar.\nCuando un Ninja que controlas entre, puedes regresar el Velo de humo de tu cementerio al campo de batalla anexado a esa criatura.",
-            "type": "Encantamiento — Aura",
-            "uuid": "4e823618-73ee-5153-a61f-1b2c88fe29b2"
-          },
           {
             "identifiers": {
               "multiverseId": "682989",
@@ -1848,9 +2019,27 @@
             "language": "French",
             "multiverseId": 682989,
             "name": "Linceul de fumée",
+            "skuIds": {
+              "nonfoil": "ceedbbca-34f3-52e3-968f-0059a167156d"
+            },
             "text": "Enchanter : créature\nLa créature enchantée gagne +1/+1 et a le vol.\nQuand un ninja que vous contrôlez arrive, vous pouvez renvoyer le Linceul de fumée sur le champ de bataille depuis votre cimetière, attaché à cette créature.",
             "type": "Enchantement — aura",
             "uuid": "b2e14709-23d5-5433-a1b0-fb33eb314b45"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682761",
+              "scryfallId": "8e0637b5-86b2-47ff-9d72-d44eb3ba7aaf"
+            },
+            "language": "German",
+            "multiverseId": 682761,
+            "name": "Rauchschleier",
+            "skuIds": {
+              "nonfoil": "b8cf82c5-9659-5f22-80f5-5e73c4fefa23"
+            },
+            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +1/+1 und hat Flugfähigkeit.\nWenn ein Ninja unter deiner Kontrolle ins Spiel kommt, kannst du den Rauchschleier aus deinem Friedhof an ihn angelegt ins Spiel zurückbringen.",
+            "type": "Verzauberung — Aura",
+            "uuid": "3856fbc7-38a0-5c54-ae3d-1b8e31963f04"
           },
           {
             "identifiers": {
@@ -1860,6 +2049,9 @@
             "language": "Italian",
             "multiverseId": 683103,
             "name": "Manto di Fumo",
+            "skuIds": {
+              "nonfoil": "7795dd5e-9958-5bb9-b2b7-a9ba32df1c89"
+            },
             "text": "Incanta creatura\nLa creatura incantata prende +1/+1 e ha volare.\nQuando un Ninja che controlli entra, puoi rimettere sul campo di battaglia il Manto di Fumo dal tuo cimitero assegnato a quella creatura.",
             "type": "Incantesimo — Aura",
             "uuid": "00cbe93e-41f2-5110-95a8-b2facfbaa9ee"
@@ -1872,14 +2064,30 @@
             "language": "Japanese",
             "multiverseId": 683217,
             "name": "煙の覆い",
+            "skuIds": {
+              "nonfoil": "d9b2f144-97e2-5d5f-9fa8-eeb28868fc87"
+            },
             "text": "エンチャント（クリーチャー）\nエンチャントしているクリーチャーは、＋１/＋１の修整を受け飛行を持つ。\nあなたがコントロールしている忍者１体が戦場に出たとき、あなたの墓地にある煙の覆いを、そのクリーチャーについた状態で戦場に戻してもよい。",
             "type": "エンチャント — オーラ",
             "uuid": "954566a3-c07a-52ba-a4dc-08ce0f782201"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682875",
+              "scryfallId": "ddf3041a-f5f8-4a18-8f9f-23d3e49451af"
+            },
+            "language": "Spanish",
+            "multiverseId": 682875,
+            "name": "Velo de humo",
+            "skuIds": {
+              "nonfoil": "50cde82d-eedb-5917-93cc-2e4cc401d3c6"
+            },
+            "text": "Encantar criatura.\nLa criatura encantada obtiene +1/+1 y tiene la habilidad de volar.\nCuando un Ninja que controlas entre, puedes regresar el Velo de humo de tu cementerio al campo de batalla anexado a esa criatura.",
+            "type": "Encantamiento — Aura",
+            "uuid": "4e823618-73ee-5153-a61f-1b2c88fe29b2"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305509",
           "cardsphereId": "131134",
@@ -1914,6 +2122,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
         },
@@ -1922,6 +2131,7 @@
         "name": "Smoke Shroud",
         "number": "361",
         "originalText": "Enchant creature\nEnchanted creature gets +1/+1 and has flying.\nWhen a Ninja you control enters, you may return Smoke Shroud from your graveyard to the battlefield attached to that creature.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "J25",
           "MH1"
@@ -1933,9 +2143,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "623356aa-fbfe-5710-9f18-964a559bb047"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1967,39 +2182,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5913,
+        "edhrecRank": 6153,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"No, no, and . . . no.\"",
         "foreignData": [
-          {
-            "flavorText": "„Nein, nein und nochmals nein.\"",
-            "identifiers": {
-              "multiverseId": "682788",
-              "scryfallId": "4ce3c557-796b-42eb-b7cc-0bc1b606976a"
-            },
-            "language": "German",
-            "multiverseId": 682788,
-            "name": "Wirbelnde Verweigerung",
-            "text": "Neutralisiere jeden Zauberspruch und jede Fähigkeit unter gegnerischer Kontrolle, es sei denn, sein bzw. ihr Beherrscher bezahlt {4}.",
-            "type": "Spontanzauber",
-            "uuid": "e5f63437-952b-5008-a60c-12538feec198"
-          },
-          {
-            "flavorText": "\"No, no y... no\".",
-            "identifiers": {
-              "multiverseId": "682902",
-              "scryfallId": "6f6f8c62-ceaa-4913-bd9f-6920664977f3"
-            },
-            "language": "Spanish",
-            "multiverseId": 682902,
-            "name": "Rechazo en torbellino",
-            "text": "Contrarresta cada hechizo y habilidad que controlan tus oponentes a menos que su controlador pague {4} por cada uno de ellos.",
-            "type": "Instantáneo",
-            "uuid": "a02fde83-e770-5fc7-8ed5-8407b8810a5f"
-          },
           {
             "flavorText": "« Non, non, et... non. »",
             "identifiers": {
@@ -2009,9 +2198,28 @@
             "language": "French",
             "multiverseId": 683016,
             "name": "Déni tourbillonnant",
+            "skuIds": {
+              "nonfoil": "58de1ee7-9986-5b40-977a-d1d33f851885"
+            },
             "text": "Pour chaque sort et chaque capacité que vos adversaires contrôlent, contrecarrez-les à moins que leur contrôleur ne paie {4}.",
             "type": "Éphémère",
             "uuid": "2a5b5e68-3c1f-597a-9d39-0a9065b7776e"
+          },
+          {
+            "flavorText": "„Nein, nein und nochmals nein.\"",
+            "identifiers": {
+              "multiverseId": "682788",
+              "scryfallId": "4ce3c557-796b-42eb-b7cc-0bc1b606976a"
+            },
+            "language": "German",
+            "multiverseId": 682788,
+            "name": "Wirbelnde Verweigerung",
+            "skuIds": {
+              "nonfoil": "32968c16-77da-5743-9ce2-c68ac3677df1"
+            },
+            "text": "Neutralisiere jeden Zauberspruch und jede Fähigkeit unter gegnerischer Kontrolle, es sei denn, sein bzw. ihr Beherrscher bezahlt {4}.",
+            "type": "Spontanzauber",
+            "uuid": "e5f63437-952b-5008-a60c-12538feec198"
           },
           {
             "flavorText": "\"No, no e... no.\"",
@@ -2022,6 +2230,9 @@
             "language": "Italian",
             "multiverseId": 683130,
             "name": "Vortice di Negazione",
+            "skuIds": {
+              "nonfoil": "85618b96-c61e-5187-89ea-ae7219914586"
+            },
             "text": "Per ogni magia e abilità controllata dai tuoi avversari, neutralizzala a meno che il suo controllore non paghi {4}.",
             "type": "Istantaneo",
             "uuid": "3cf1f5f3-709f-52fc-850e-48eeb36a329d"
@@ -2035,14 +2246,31 @@
             "language": "Japanese",
             "multiverseId": 683244,
             "name": "旋風のごとき否定",
+            "skuIds": {
+              "nonfoil": "dc228826-b95c-5aea-93d7-e8f71db041b7"
+            },
             "text": "対戦相手がコントロールしていて呪文や能力である１つにつきそれぞれ、それのコントローラーが{4}を支払わないかぎり、打ち消す。",
             "type": "インスタント",
             "uuid": "13e8fa27-c510-5300-8d56-43e8657f1151"
+          },
+          {
+            "flavorText": "\"No, no y... no\".",
+            "identifiers": {
+              "multiverseId": "682902",
+              "scryfallId": "6f6f8c62-ceaa-4913-bd9f-6920664977f3"
+            },
+            "language": "Spanish",
+            "multiverseId": 682902,
+            "name": "Rechazo en torbellino",
+            "skuIds": {
+              "nonfoil": "2e51ce2d-fcde-572b-9610-1c814d839f4d"
+            },
+            "text": "Contrarresta cada hechizo y habilidad que controlan tus oponentes a menos que su controlador pague {4} por cada uno de ellos.",
+            "type": "Instantáneo",
+            "uuid": "a02fde83-e770-5fc7-8ed5-8407b8810a5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305536",
           "cardsphereId": "131083",
@@ -2081,6 +2309,7 @@
         "name": "Whirlwind Denial",
         "number": "388",
         "originalText": "For each spell and ability your opponents control, counter it unless its controller pays {4}.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "STA",
@@ -2103,9 +2332,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0344456d-fa9b-5cc9-b36a-7308299f069d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2133,39 +2367,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
-          {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
-            "identifiers": {
-              "multiverseId": "684059",
-              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
-            },
-            "language": "German",
-            "multiverseId": 684059,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "684098",
-              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
-            },
-            "language": "Spanish",
-            "multiverseId": 684098,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
-          },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
             "identifiers": {
@@ -2175,9 +2383,28 @@
             "language": "French",
             "multiverseId": 684137,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "fdc167be-8ef8-57ed-a369-d7f00d07733b"
+            },
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "684059",
+              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
+            },
+            "language": "German",
+            "multiverseId": 684059,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "03938098-9af1-539d-a5cc-04e6aab95a54"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2188,6 +2415,9 @@
             "language": "Italian",
             "multiverseId": 684176,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "c9d96256-d217-5ef1-94f0-693550cc6ba5"
+            },
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
@@ -2201,14 +2431,31 @@
             "language": "Japanese",
             "multiverseId": 684215,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "9a973770-024c-5e07-a3c6-3af88a966157"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
+          },
+          {
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
+            "identifiers": {
+              "multiverseId": "684098",
+              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
+            },
+            "language": "Spanish",
+            "multiverseId": 684098,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "520ae535-6387-5433-9539-ea7dfce43789"
+            },
+            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306117",
           "cardsphereId": "130626",
@@ -2246,12 +2493,14 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2259,7 +2508,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/66576e95f29fe898",
@@ -2268,9 +2525,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67685a63-8e31-57e4-acb3-d94a375bae4f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2305,36 +2567,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681254",
-              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
-            },
-            "language": "German",
-            "multiverseId": 681254,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681269",
-              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681269,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681284",
               "scryfallId": "8751d0e8-aa20-4d8e-a39f-e542d6ab2424"
             },
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "cb0ef6d5-f7d2-5691-bfdf-53e3a7d110b9"
+            },
             "type": "Terrain de base — île",
             "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681254",
+              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
+            },
+            "language": "German",
+            "multiverseId": 681254,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "04ea0771-3452-51f4-bdf6-6fe1ca1af63a"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2344,6 +2601,9 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "f13bcd50-af8f-5431-a106-a9d255f15459"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
@@ -2355,18 +2615,34 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "c117e37a-2d0d-5996-bf9e-7d64e38a799d"
+            },
             "type": "基本土地 — 島",
             "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681269",
+              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681269,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "93455c64-eb7d-5e65-9540-2db34e522179"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305218",
           "cardsphereId": "131374",
           "deckboxId": "98078",
           "mcmId": "795505",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95169",
           "mtgjsonV4Id": "08023772-e668-5bc2-b371-b0f5ce320b77",
           "multiverseId": "681239",
@@ -2379,7 +2655,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2407,6 +2682,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2476,6 +2752,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2636,15 +2913,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f22125830525c472",
+          "cardmarket": "https://mtgjson.com/links/76af4fc19321352c",
           "tcgplayer": "https://mtgjson.com/links/72c5fde6e8a3d9d8"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "21402412-1e93-5f68-911b-a3ab19229cbc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2687,36 +2973,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681255",
-              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
-            },
-            "language": "German",
-            "multiverseId": 681255,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681270",
-              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
-            },
-            "language": "Spanish",
-            "multiverseId": 681270,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681285",
               "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
             },
             "language": "French",
             "multiverseId": 681285,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "87b6c0f1-4e30-5ed3-88f9-b1440d4397e3"
+            },
             "type": "Terrain de base — île",
             "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "7af6d605-2c12-5380-9b05-56684ac83548"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
           },
           {
             "identifiers": {
@@ -2726,6 +3007,9 @@
             "language": "Italian",
             "multiverseId": 681300,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "aa2acc70-8c55-59c3-b1b3-335ecd8cdcf7"
+            },
             "type": "Terra Base — Isola",
             "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
           },
@@ -2737,18 +3021,34 @@
             "language": "Japanese",
             "multiverseId": 681315,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9d13c5e5-565f-5bcb-ac12-4623bfe4c5ad"
+            },
             "type": "基本土地 — 島",
             "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "0aa11aa1-a1be-5474-aa73-e762139aa94b"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305219",
           "cardsphereId": "131375",
           "deckboxId": "98079",
           "mcmId": "795506",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95170",
           "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
           "multiverseId": "681240",
@@ -2761,7 +3061,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2789,6 +3088,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "85",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2858,6 +3158,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3018,15 +3319,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "cardmarket": "https://mtgjson.com/links/c83b9d49e721a8d6",
           "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b80979e0-eed6-52a5-8f39-b7f4aac6d594"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3069,36 +3379,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681256",
-              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
-            },
-            "language": "German",
-            "multiverseId": 681256,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681271",
-              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
-            },
-            "language": "Spanish",
-            "multiverseId": 681271,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681286",
               "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
             },
             "language": "French",
             "multiverseId": 681286,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "0c917650-1318-57f6-8da7-86999824bcf2"
+            },
             "type": "Terrain de base — île",
             "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "fce83af5-56a7-5297-aeff-1c20caf0b035"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
           },
           {
             "identifiers": {
@@ -3108,6 +3413,9 @@
             "language": "Italian",
             "multiverseId": 681301,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "4dfc8e1d-1d20-5b8d-9391-23f5e94b63c0"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
           },
@@ -3119,18 +3427,34 @@
             "language": "Japanese",
             "multiverseId": 681316,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "bb009efe-4d5f-594d-a597-179d0d26f514"
+            },
             "type": "基本土地 — 島",
             "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "91bb7f4a-9b9d-50ac-b116-b68a1d9ab1ff"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305220",
           "cardsphereId": "131376",
           "deckboxId": "98080",
           "mcmId": "795507",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95171",
           "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
           "multiverseId": "681241",
@@ -3143,7 +3467,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3171,6 +3494,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "86",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3240,6 +3564,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3400,15 +3725,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "cardmarket": "https://mtgjson.com/links/9bb956231e7930e4",
           "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7461ac97-c757-5f2d-8711-f19dab487de3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3424,8 +3758,8 @@
         ],
         "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
         "variations": [
-          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
-          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc"
         ]
       }
     ],
@@ -3440,5 +3774,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "c81ffe03e9c596"
   }
 }

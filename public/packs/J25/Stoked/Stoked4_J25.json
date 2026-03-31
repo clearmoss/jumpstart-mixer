@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "20c6eb2721ca5f"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,35 +22,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 9184,
+        "edhrecRank": 9562,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684368",
-              "scryfallId": "52ce0b32-af42-4084-bf48-8176e39e58e2"
-            },
-            "language": "German",
-            "multiverseId": 684368,
-            "name": "Goblins der Dunkelheit",
-            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nWenn die Goblins der Dunkelheit ins Spiel kommen, kannst du eine Spontanzauber- oder Hexereikarte deiner Wahl mit Manabetrag 3 oder weniger aus deinem Friedhof wirken, ohne ihre Manakosten zu bezahlen. Falls der Zauberspruch auf deinen Friedhof gelegt würde, schicke ihn stattdessen ins Exil.",
-            "type": "Kreatur — Goblin",
-            "uuid": "185678f9-7885-51c9-bfbf-72b1adec5f01"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684475",
-              "scryfallId": "f2079df5-5996-4add-b01d-ea42a31dfd86"
-            },
-            "language": "Spanish",
-            "multiverseId": 684475,
-            "name": "Trasgos habitasombras",
-            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nCuando los Trasgos habitasombras entren, puedes lanzar desde tu cementerio la carta de instantáneo o de conjuro objetivo con valor de maná de 3 o menos sin pagar su coste de maná. Si ese hechizo fuera a ir a tu cementerio, en vez de eso, exílialo.",
-            "type": "Criatura — Trasgo",
-            "uuid": "6f10f3da-1c30-5c75-8bb8-f78773149701"
-          },
           {
             "identifiers": {
               "multiverseId": "684582",
@@ -64,9 +36,27 @@
             "language": "French",
             "multiverseId": 684582,
             "name": "Gobelins sciaphiles",
+            "skuIds": {
+              "nonfoil": "1afc5363-3e9f-5c03-87a6-70d518369531"
+            },
             "text": "Menace (Cette créature ne peut pas être bloquée excepté par deux créatures ou plus.)\nQuand les Gobelins sciaphiles arrivent, vous pouvez lancer une carte d'éphémère ou de rituel ciblée avec une valeur de mana inférieure ou égale à 3 depuis votre cimetière sans payer son coût de mana. Si ce sort devait être mis dans votre cimetière, exilez-le à la place.",
             "type": "Créature — gobelin",
             "uuid": "800435bc-3af1-52b6-9d08-f100ed9cf26d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684368",
+              "scryfallId": "52ce0b32-af42-4084-bf48-8176e39e58e2"
+            },
+            "language": "German",
+            "multiverseId": 684368,
+            "name": "Goblins der Dunkelheit",
+            "skuIds": {
+              "nonfoil": "31cc97b2-c0c4-5670-9fb3-9878dcd946c0"
+            },
+            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nWenn die Goblins der Dunkelheit ins Spiel kommen, kannst du eine Spontanzauber- oder Hexereikarte deiner Wahl mit Manabetrag 3 oder weniger aus deinem Friedhof wirken, ohne ihre Manakosten zu bezahlen. Falls der Zauberspruch auf deinen Friedhof gelegt würde, schicke ihn stattdessen ins Exil.",
+            "type": "Kreatur — Goblin",
+            "uuid": "185678f9-7885-51c9-bfbf-72b1adec5f01"
           },
           {
             "identifiers": {
@@ -76,6 +66,9 @@
             "language": "Italian",
             "multiverseId": 684689,
             "name": "Goblin Abitanti dell'Oscurità",
+            "skuIds": {
+              "nonfoil": "a46d4944-26b3-583e-893c-e9aa91cc65c9"
+            },
             "text": "Minacciare (Questa creatura non può essere bloccata tranne che da due o più creature.)\nQuando i Goblin Abitanti dell'Oscurità entrano, puoi lanciare una carta istantaneo o stregoneria bersaglio con valore di mana pari o inferiore a 3 dal tuo cimitero senza pagare il suo costo di mana. Se quella magia sta per essere messa nel tuo cimitero, invece esiliala.",
             "type": "Creatura — Goblin",
             "uuid": "63696027-bc60-5702-a1a6-3570fa6efcdb"
@@ -88,14 +81,30 @@
             "language": "Japanese",
             "multiverseId": 684796,
             "name": "ゴブリンの闇住まい",
+            "skuIds": {
+              "nonfoil": "e4b3103e-9b31-5af3-8a2c-2e7c2b5472da"
+            },
             "text": "威迫（このクリーチャーは２体以上のクリーチャーにしかブロックされない。）\nゴブリンの闇住まいが戦場に出たとき、あなたの墓地にありマナ総量が３以下でありインスタントやソーサリーであるカード１枚を対象とする。それをマナ・コストを支払うことなく唱えてもよい。その呪文があなたの墓地に置かれるなら、代わりにそれを追放する。",
             "type": "クリーチャー — ゴブリン",
             "uuid": "0b0c9835-4ddb-51cc-aa53-ebfb2a1623b3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684475",
+              "scryfallId": "f2079df5-5996-4add-b01d-ea42a31dfd86"
+            },
+            "language": "Spanish",
+            "multiverseId": 684475,
+            "name": "Trasgos habitasombras",
+            "skuIds": {
+              "nonfoil": "2cab35ba-db2f-5f92-9be5-52199e17d900"
+            },
+            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nCuando los Trasgos habitasombras entren, puedes lanzar desde tu cementerio la carta de instantáneo o de conjuro objetivo con valor de maná de 3 o menos sin pagar su coste de maná. Si ese hechizo fuera a ir a tu cementerio, en vez de eso, exílialo.",
+            "type": "Criatura — Trasgo",
+            "uuid": "6f10f3da-1c30-5c75-8bb8-f78773149701"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305895",
           "cardsphereId": "131061",
@@ -138,6 +147,7 @@
         "name": "Goblin Dark-Dwellers",
         "number": "556",
         "originalText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Goblin Dark-Dwellers enters, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+        "originalType": "Creature – Goblin",
         "power": "4",
         "printings": [
           "C20",
@@ -182,9 +192,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5f31a4ec-c52e-5e73-b771-fc0d687a51fa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -218,39 +233,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 23362,
+        "edhrecRank": 22811,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"With you by my side, I am unstoppable.\"\n—Halana, to Alena",
         "foreignData": [
-          {
-            "flavorText": "„Mit dir an meiner Seite bin ich unaufhaltsam.\"\n—Halana, zu Alena",
-            "identifiers": {
-              "multiverseId": "681371",
-              "scryfallId": "0118534f-51c4-4b30-834f-fa02306f2ab8"
-            },
-            "language": "German",
-            "multiverseId": 681371,
-            "name": "Feurige Herzen",
-            "text": "Eine oder zwei Kreaturen deiner Wahl erhalten +2/+1 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "69be691b-abc6-5ecb-9f4f-9f1c843ebe0b"
-          },
-          {
-            "flavorText": "\"Contigo a mi lado, soy imparable\".\n—Halana, a Alena",
-            "identifiers": {
-              "multiverseId": "681400",
-              "scryfallId": "e59de055-9ee7-451a-be29-e8540d9e16d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681400,
-            "name": "Corazones ardientes",
-            "text": "Una o dos criaturas objetivo obtienen +2/+1 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "23aa5e68-679a-52dc-a62d-1b2a1cd5f7a0"
-          },
           {
             "flavorText": "« Tant que tu es à mes côtés, je suis imbattable. »\n—Halana, à Alena",
             "identifiers": {
@@ -260,9 +249,28 @@
             "language": "French",
             "multiverseId": 681429,
             "name": "Cœurs en feu",
+            "skuIds": {
+              "nonfoil": "e572e436-ece0-518e-958f-494b2998c8f6"
+            },
             "text": "Une ou deux créatures ciblées gagnent chacune +2/+1 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "42c53f4f-b897-51da-8682-e5d30b64bf59"
+          },
+          {
+            "flavorText": "„Mit dir an meiner Seite bin ich unaufhaltsam.\"\n—Halana, zu Alena",
+            "identifiers": {
+              "multiverseId": "681371",
+              "scryfallId": "0118534f-51c4-4b30-834f-fa02306f2ab8"
+            },
+            "language": "German",
+            "multiverseId": 681371,
+            "name": "Feurige Herzen",
+            "skuIds": {
+              "nonfoil": "e6f4bef9-2d25-54ab-a29a-4bc499f47847"
+            },
+            "text": "Eine oder zwei Kreaturen deiner Wahl erhalten +2/+1 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "69be691b-abc6-5ecb-9f4f-9f1c843ebe0b"
           },
           {
             "flavorText": "\"Se sei al mio fianco, sono inarrestabile.\"\n—Halana ad Alena",
@@ -273,6 +281,9 @@
             "language": "Italian",
             "multiverseId": 681458,
             "name": "Cuori in Fiamme",
+            "skuIds": {
+              "nonfoil": "8b7ba7b3-8b84-5878-b2c5-2e3759a012bd"
+            },
             "text": "Una o due creature bersaglio prendono +2/+1 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "c03aca0f-e72d-5999-9438-1549244a119c"
@@ -286,14 +297,31 @@
             "language": "Japanese",
             "multiverseId": 681487,
             "name": "燃え盛る心",
+            "skuIds": {
+              "nonfoil": "5637598d-5fd4-51fb-9673-c675dccbb7f4"
+            },
             "text": "クリーチャー１体か２体を対象とする。ターン終了時まで、それらはそれぞれ＋２/＋１の修整を受ける。",
             "type": "インスタント",
             "uuid": "d2a5d3fc-9a1a-5f3c-af5d-816d3b4811b5"
+          },
+          {
+            "flavorText": "\"Contigo a mi lado, soy imparable\".\n—Halana, a Alena",
+            "identifiers": {
+              "multiverseId": "681400",
+              "scryfallId": "e59de055-9ee7-451a-be29-e8540d9e16d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681400,
+            "name": "Corazones ardientes",
+            "skuIds": {
+              "nonfoil": "1e07c100-a7a6-5ea8-82e4-ffae244bb78c"
+            },
+            "text": "Una o dos criaturas objetivo obtienen +2/+1 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "23aa5e68-679a-52dc-a62d-1b2a1cd5f7a0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305151",
           "cardsphereId": "130736",
@@ -312,7 +340,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -333,6 +360,7 @@
         "name": "Hearts on Fire",
         "number": "17",
         "originalText": "One or two target creatures each get +2/+1 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25"
         ],
@@ -343,9 +371,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9b565f59-5590-5d47-9347-f2f5ae03fbc9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -376,39 +409,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18624,
+        "edhrecRank": 18308,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Let us dance 'round the funeral pyres of our foes!\"",
         "foreignData": [
-          {
-            "flavorText": "„Lasst uns um die Scheiterhaufen unserer Feinde tanzen!\"",
-            "identifiers": {
-              "multiverseId": "680974",
-              "scryfallId": "0374cb7e-ee58-418c-850d-dbda1fb8b0bb"
-            },
-            "language": "German",
-            "multiverseId": 680974,
-            "name": "Cleon, vergnügter Champion",
-            "text": "Doppelschlag\nHeroisch — Immer wenn du einen Zauberspruch wirkst, der Cleon als Ziel hat, schicke die oberste Karte deiner Bibliothek ins Exil. Du kannst sie bis zum Ende deines nächsten Zuges spielen.",
-            "type": "Legendäre Kreatur — Mensch, Soldat",
-            "uuid": "41bad2a3-72d3-5e7b-a635-2d3c18adf392"
-          },
-          {
-            "flavorText": "\"¡Bailemos en torno a las piras funerarias de nuestros enemigos!\".",
-            "identifiers": {
-              "multiverseId": "681001",
-              "scryfallId": "1797c49f-1e3d-4fcf-af44-c510f54cf238"
-            },
-            "language": "Spanish",
-            "multiverseId": 681001,
-            "name": "Cleon, campeón alegre",
-            "text": "Daña dos veces.\nHeroísmo — Siempre que lances un hechizo que haga objetivo a Cleon, exilia la primera carta de tu biblioteca. Puedes jugar esa carta hasta el final de tu próximo turno.",
-            "type": "Criatura legendaria — Soldado humano",
-            "uuid": "44e69140-8509-57f0-8563-084a83106a03"
-          },
           {
             "flavorText": "« Dansons autour des bûchers funéraires de nos ennemis ! »",
             "identifiers": {
@@ -418,9 +425,28 @@
             "language": "French",
             "multiverseId": 681028,
             "name": "Cléon, champion joyeux",
+            "skuIds": {
+              "nonfoil": "f334cf6e-f754-530e-84f4-a696b47753ed"
+            },
             "text": "Double initiative\nHéroïque — À chaque fois que vous lancez un sort qui cible Cléon, exilez la carte du dessus de votre bibliothèque. Vous pouvez jouer cette carte jusqu'à la fin de votre prochain tour.",
             "type": "Créature légendaire — humain et soldat",
             "uuid": "4e67bf27-bbce-5811-b8f4-d742175fa3a8"
+          },
+          {
+            "flavorText": "„Lasst uns um die Scheiterhaufen unserer Feinde tanzen!\"",
+            "identifiers": {
+              "multiverseId": "680974",
+              "scryfallId": "0374cb7e-ee58-418c-850d-dbda1fb8b0bb"
+            },
+            "language": "German",
+            "multiverseId": 680974,
+            "name": "Cleon, vergnügter Champion",
+            "skuIds": {
+              "nonfoil": "2e83d563-9308-51f4-8df2-11f533600004"
+            },
+            "text": "Doppelschlag\nHeroisch — Immer wenn du einen Zauberspruch wirkst, der Cleon als Ziel hat, schicke die oberste Karte deiner Bibliothek ins Exil. Du kannst sie bis zum Ende deines nächsten Zuges spielen.",
+            "type": "Legendäre Kreatur — Mensch, Soldat",
+            "uuid": "41bad2a3-72d3-5e7b-a635-2d3c18adf392"
           },
           {
             "flavorText": "\"Balleremo attorno alle pire dei nostri nemici!\"",
@@ -431,6 +457,9 @@
             "language": "Italian",
             "multiverseId": 681055,
             "name": "Cleon, Campione Gioioso",
+            "skuIds": {
+              "nonfoil": "e6a7510b-08ad-57aa-b056-b93ec256c858"
+            },
             "text": "Doppio attacco\nEroismo — Ogniqualvolta lanci una magia che bersaglia Cleon, esilia la prima carta del tuo grimorio. Puoi giocare quella carta fino alla fine del tuo prossimo turno.",
             "type": "Creatura Leggendaria — Soldato Umano",
             "uuid": "41497fac-32bf-57ba-badf-38caaef25e72"
@@ -444,17 +473,34 @@
             "language": "Japanese",
             "multiverseId": 681082,
             "name": "陽気な勇者、クレオン",
+            "skuIds": {
+              "nonfoil": "184e0dc3-c5fb-5ba2-812b-0901ed52fa13"
+            },
             "text": "二段攻撃\n英雄的 ― あなたがこれを対象とする呪文１つを唱えるたび、あなたのライブラリーの一番上にあるカード１枚を追放する。次のあなたのターンの終了時まで、そのカードをプレイしてもよい。",
             "type": "伝説のクリーチャー — 人間・兵士",
             "uuid": "eb3916c7-cd91-5482-a88a-ed5ff1188a2d"
+          },
+          {
+            "flavorText": "\"¡Bailemos en torno a las piras funerarias de nuestros enemigos!\".",
+            "identifiers": {
+              "multiverseId": "681001",
+              "scryfallId": "1797c49f-1e3d-4fcf-af44-c510f54cf238"
+            },
+            "language": "Spanish",
+            "multiverseId": 681001,
+            "name": "Cleon, campeón alegre",
+            "skuIds": {
+              "nonfoil": "469dd66b-5046-542d-be13-dd05d553c0a7"
+            },
+            "text": "Daña dos veces.\nHeroísmo — Siempre que lances un hechizo que haga objetivo a Cleon, exilia la primera carta de tu biblioteca. Puedes jugar esa carta hasta el final de tu próximo turno.",
+            "type": "Criatura legendaria — Soldado humano",
+            "uuid": "44e69140-8509-57f0-8563-084a83106a03"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305181",
           "cardsphereId": "130817",
@@ -473,7 +519,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Double strike",
           "Heroic"
@@ -501,6 +546,7 @@
         "name": "Cleon, Merry Champion",
         "number": "47",
         "originalText": "Double strike\nHeroic — Whenever you cast a spell that targets Cleon, exile the top card of your library. You may play that card until the end of your next turn.",
+        "originalType": "Legendary Creature – Human Soldier",
         "power": "2",
         "printings": [
           "J25"
@@ -522,9 +568,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "406f209c-0371-554e-9b95-fd3ef407f16e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -560,39 +611,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 10041,
+        "edhrecRank": 10321,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "An Akroan soldier's worth is measured by the number of swords raised by his battle cry.",
         "foreignData": [
-          {
-            "flavorText": "Ein akroischer Soldat wird an der Zahl der Schwerter gemessen, die seinem Schlachtruf folgen.",
-            "identifiers": {
-              "multiverseId": "684327",
-              "scryfallId": "a3b5f4fb-d2e0-4b90-929d-b1fa4f758a98"
-            },
-            "language": "German",
-            "multiverseId": 684327,
-            "name": "Akroischer Schwertkämpfer",
-            "text": "Heroisch — Immer wenn du einen Zauberspruch wirkst, der den Akroischen Schwertkämpfer als Ziel hat, erzeuge einen 1/1 roten Soldat-Kreaturenspielstein mit Eile. (Er kann angreifen und {T}, sobald er unter deine Kontrolle kommt.)",
-            "type": "Kreatur — Mensch, Soldat",
-            "uuid": "3de689e6-1cda-5706-bc5b-e959ef29ff72"
-          },
-          {
-            "flavorText": "La valía de un soldado akroniense se mide por la cantidad de espadas que se alzan con su grito de batalla.",
-            "identifiers": {
-              "multiverseId": "684434",
-              "scryfallId": "42c3b376-9c57-45d0-9c90-d58ce4dceef8"
-            },
-            "language": "Spanish",
-            "multiverseId": 684434,
-            "name": "Cruzado akroniense",
-            "text": "Heroísmo — Siempre que lances un hechizo que haga objetivo al Cruzado akroniense, crea una ficha de criatura Soldado roja 1/1 con la habilidad de prisa. (Puede atacar y {T} tan pronto como entre bajo tu control.)",
-            "type": "Criatura — Soldado humano",
-            "uuid": "3d84a859-af1f-53f4-a026-3d3f6fe8f3ae"
-          },
           {
             "flavorText": "La valeur d'un soldat akroen se mesure au nombre d'épées que fait lever son cri de guerre.",
             "identifiers": {
@@ -602,9 +627,28 @@
             "language": "French",
             "multiverseId": 684541,
             "name": "Croisé akroen",
+            "skuIds": {
+              "nonfoil": "24cf4d2f-b60d-5c1f-9cf8-f3223b1b4ca3"
+            },
             "text": "Héroïque — À chaque fois que vous lancez un sort qui cible le Croisé akroen, créez un jeton de créature 1/1 rouge Soldat avec la célérité. (Il peut attaquer et {T} dès le tour où il arrive sous votre contrôle.)",
             "type": "Créature — humain et soldat",
             "uuid": "6870a827-6653-5c18-8d40-ec9abb493172"
+          },
+          {
+            "flavorText": "Ein akroischer Soldat wird an der Zahl der Schwerter gemessen, die seinem Schlachtruf folgen.",
+            "identifiers": {
+              "multiverseId": "684327",
+              "scryfallId": "a3b5f4fb-d2e0-4b90-929d-b1fa4f758a98"
+            },
+            "language": "German",
+            "multiverseId": 684327,
+            "name": "Akroischer Schwertkämpfer",
+            "skuIds": {
+              "nonfoil": "a17e0142-4e02-586b-bd6a-928a30a7df76"
+            },
+            "text": "Heroisch — Immer wenn du einen Zauberspruch wirkst, der den Akroischen Schwertkämpfer als Ziel hat, erzeuge einen 1/1 roten Soldat-Kreaturenspielstein mit Eile. (Er kann angreifen und {T}, sobald er unter deine Kontrolle kommt.)",
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "3de689e6-1cda-5706-bc5b-e959ef29ff72"
           },
           {
             "flavorText": "Il valore di un soldato di Akros si misura dal numero di spade che si alzano in risposta al suo grido di guerra.",
@@ -615,6 +659,9 @@
             "language": "Italian",
             "multiverseId": 684648,
             "name": "Crociato di Akros",
+            "skuIds": {
+              "nonfoil": "15741789-00c3-5a4c-ba62-57e7ecb5bbda"
+            },
             "text": "Eroismo — Ogniqualvolta lanci una magia che bersaglia il Crociato di Akros, crea una pedina creatura Soldato 1/1 rossa con rapidità. (Può attaccare e {T} non appena entra sotto il tuo controllo.)",
             "type": "Creatura — Soldato Umano",
             "uuid": "9849fc2a-40e0-5bbd-8efc-61cd0b199a78"
@@ -628,14 +675,31 @@
             "language": "Japanese",
             "multiverseId": 684755,
             "name": "アクロスの十字軍",
+            "skuIds": {
+              "nonfoil": "bb092dd3-1cd1-5609-8d11-3bfb3553edc2"
+            },
             "text": "英雄的 ― あなたがアクロスの十字軍を対象とする呪文１つを唱えるたび、速攻を持つ赤の１/１の兵士・クリーチャー・トークン１体を生成する。（それは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）",
             "type": "クリーチャー — 人間・兵士",
             "uuid": "0a3fd33a-dfb4-5d70-8d93-8726b2fc60cc"
+          },
+          {
+            "flavorText": "La valía de un soldado akroniense se mide por la cantidad de espadas que se alzan con su grito de batalla.",
+            "identifiers": {
+              "multiverseId": "684434",
+              "scryfallId": "42c3b376-9c57-45d0-9c90-d58ce4dceef8"
+            },
+            "language": "Spanish",
+            "multiverseId": 684434,
+            "name": "Cruzado akroniense",
+            "skuIds": {
+              "nonfoil": "c0a3c297-a277-5e34-8fc1-1d4632862d06"
+            },
+            "text": "Heroísmo — Siempre que lances un hechizo que haga objetivo al Cruzado akroniense, crea una ficha de criatura Soldado roja 1/1 con la habilidad de prisa. (Puede atacar y {T} tan pronto como entre bajo tu control.)",
+            "type": "Criatura — Soldado humano",
+            "uuid": "3d84a859-af1f-53f4-a026-3d3f6fe8f3ae"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305854",
           "cardsphereId": "131148",
@@ -680,6 +744,7 @@
         "name": "Akroan Crusader",
         "number": "515",
         "originalText": "Heroic — Whenever you cast a spell that targets Akroan Crusader, create a 1/1 red Soldier creature token with haste. (It can attack and {T} as soon as it comes under your control.)",
+        "originalType": "Creature – Human Soldier",
         "power": "1",
         "printings": [
           "J25",
@@ -693,6 +758,11 @@
           "tcgplayer": "https://mtgjson.com/links/e8b52acbf84b15b1"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "de4fe0ae-18d6-56f5-9ac4-c2a79ae54657"
+          ]
+        },
         "rulings": [
           {
             "date": "2013-09-15",
@@ -708,9 +778,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bb342e03-432b-52ff-add1-5951e47fb61b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -744,39 +819,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 23255,
+        "edhrecRank": 23528,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Iroan Games award no medals. Athletes vie for a visit from Iroas, god of victory.",
         "foreignData": [
-          {
-            "flavorText": "Bei den Iroanischen Spielen werden keine Medaillen verliehen. Die Athleten wetteifern um einen Besuch von Iroas, dem Gott des Sieges.",
-            "identifiers": {
-              "multiverseId": "684330",
-              "scryfallId": "0e496d69-b18d-4be9-91fb-fd1bd443b8db"
-            },
-            "language": "German",
-            "multiverseId": 684330,
-            "name": "Athlet der Arena",
-            "text": "Heroisch — Immer wenn du einen Zauberspruch wirkst, der den Athleten der Arena als Ziel hat, kann eine Kreatur deiner Wahl, die ein Gegner kontrolliert, in diesem Zug nicht blocken.",
-            "type": "Kreatur — Mensch",
-            "uuid": "333ccdf8-6bfa-59f4-a0b4-ee1e9457607b"
-          },
-          {
-            "flavorText": "Los juegos iroanianos no otorgan medallas. Los atletas se disputan la visita de Iroas, dios de la victoria.",
-            "identifiers": {
-              "multiverseId": "684437",
-              "scryfallId": "7db225d9-db58-4b1e-99a9-3397b404a637"
-            },
-            "language": "Spanish",
-            "multiverseId": 684437,
-            "name": "Atleta de la arena",
-            "text": "Heroísmo — Siempre que lances un hechizo que haga objetivo al Atleta de la arena, la criatura objetivo que controla un oponente no puede bloquear este turno.",
-            "type": "Criatura — Humano",
-            "uuid": "9c344661-fac2-59a1-8d22-1ccaf82af12e"
-          },
           {
             "flavorText": "Il n'y a pas de médaille à gagner aux Jeux iroassiques. Les athlètes s'affrontent pour une visite d'Iroas, dieu de la Victoire.",
             "identifiers": {
@@ -786,9 +835,28 @@
             "language": "French",
             "multiverseId": 684544,
             "name": "Athlète de l'arène",
+            "skuIds": {
+              "nonfoil": "7e7481f9-dc12-5932-ab70-d2c8c2bae84a"
+            },
             "text": "Héroïque — À chaque fois que vous lancez un sort qui cible l'Athlète de l'arène, une créature ciblée qu'un adversaire contrôle ne peut pas bloquer ce tour-ci.",
             "type": "Créature — humain",
             "uuid": "67eba8bd-3358-5e4d-846e-d5461587d484"
+          },
+          {
+            "flavorText": "Bei den Iroanischen Spielen werden keine Medaillen verliehen. Die Athleten wetteifern um einen Besuch von Iroas, dem Gott des Sieges.",
+            "identifiers": {
+              "multiverseId": "684330",
+              "scryfallId": "0e496d69-b18d-4be9-91fb-fd1bd443b8db"
+            },
+            "language": "German",
+            "multiverseId": 684330,
+            "name": "Athlet der Arena",
+            "skuIds": {
+              "nonfoil": "17eda3fa-926b-5c8c-abca-935a398e3428"
+            },
+            "text": "Heroisch — Immer wenn du einen Zauberspruch wirkst, der den Athleten der Arena als Ziel hat, kann eine Kreatur deiner Wahl, die ein Gegner kontrolliert, in diesem Zug nicht blocken.",
+            "type": "Kreatur — Mensch",
+            "uuid": "333ccdf8-6bfa-59f4-a0b4-ee1e9457607b"
           },
           {
             "flavorText": "Ai Giochi di Iroas non si vincono medaglie. Gli atleti competono per l'onore di una visita dal dio della vittoria.",
@@ -799,6 +867,9 @@
             "language": "Italian",
             "multiverseId": 684651,
             "name": "Atleta dell'Arena",
+            "skuIds": {
+              "nonfoil": "0f8c2bf4-d750-5d3d-b883-e97707d12cc6"
+            },
             "text": "Eroismo — Ogniqualvolta lanci una magia che bersaglia l'Atleta dell'Arena, una creatura bersaglio controllata da un avversario non può bloccare in questo turno.",
             "type": "Creatura — Umano",
             "uuid": "6380bf55-4e0e-5794-b51e-d9a6fc676d9d"
@@ -812,14 +883,31 @@
             "language": "Japanese",
             "multiverseId": 684758,
             "name": "闘技場の競技者",
+            "skuIds": {
+              "nonfoil": "e40395db-f1d3-5d4e-a368-65f328d40de6"
+            },
             "text": "英雄的 ― あなたが闘技場の競技者を対象とする呪文1つを唱えるたび、対戦相手がコントロールしているクリーチャー１体を対象とする。このターン、それではブロックできない。",
             "type": "クリーチャー — 人間",
             "uuid": "6ed41033-2ab8-5c4d-b31c-be4b54887935"
+          },
+          {
+            "flavorText": "Los juegos iroanianos no otorgan medallas. Los atletas se disputan la visita de Iroas, dios de la victoria.",
+            "identifiers": {
+              "multiverseId": "684437",
+              "scryfallId": "7db225d9-db58-4b1e-99a9-3397b404a637"
+            },
+            "language": "Spanish",
+            "multiverseId": 684437,
+            "name": "Atleta de la arena",
+            "skuIds": {
+              "nonfoil": "74ee9c8f-fb5e-5ba9-866a-96bc0da676a0"
+            },
+            "text": "Heroísmo — Siempre que lances un hechizo que haga objetivo al Atleta de la arena, la criatura objetivo que controla un oponente no puede bloquear este turno.",
+            "type": "Criatura — Humano",
+            "uuid": "9c344661-fac2-59a1-8d22-1ccaf82af12e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305857",
           "cardsphereId": "131145",
@@ -864,6 +952,7 @@
         "name": "Arena Athlete",
         "number": "518",
         "originalText": "Heroic — Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can't block this turn.",
+        "originalType": "Creature – Human",
         "power": "2",
         "printings": [
           "J25",
@@ -895,9 +984,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f315270b-51c4-5ec0-a18b-edbe6f5d5183"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -930,39 +1024,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 2582,
+        "edhrecRank": 2607,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The whispers are incomprehensible, yet cinders always hear a message of urgency.",
         "foreignData": [
-          {
-            "flavorText": "Die geflüsterten Töne klingen schleierhaft, doch Rußwesen können immer die dringende Botschaft aus ihnen heraushören.",
-            "identifiers": {
-              "multiverseId": "684345",
-              "scryfallId": "281cedcc-6d07-472f-adbf-fe5d080a5659"
-            },
-            "language": "German",
-            "multiverseId": 684345,
-            "name": "Tiefroter Hauch",
-            "text": "Eine Kreatur deiner Wahl wird bis zum Ende des Zuges rot und hat Eile. (Sie kann in diesem Zug angreifen und {T}.)\nZiehe eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "5f98313e-b1ff-5a54-bbda-a07a49dab584"
-          },
-          {
-            "flavorText": "Los susurros son incomprensibles, pero los cenicientos siempre escuchan un mensaje urgente.",
-            "identifiers": {
-              "multiverseId": "684452",
-              "scryfallId": "a9879fbe-39ec-427c-bb24-0c122042e5e1"
-            },
-            "language": "Spanish",
-            "multiverseId": 684452,
-            "name": "Centellas carmesí",
-            "text": "La criatura objetivo se convierte en roja y gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)\nRoba una carta.",
-            "type": "Instantáneo",
-            "uuid": "bc2c7dba-8186-5336-8510-9e5db997cea5"
-          },
           {
             "flavorText": "Les murmures sont incompréhensibles, et pourtant les scoriacés y perçoivent toujours un message urgent.",
             "identifiers": {
@@ -972,9 +1040,28 @@
             "language": "French",
             "multiverseId": 684559,
             "name": "Feux pourpres",
+            "skuIds": {
+              "nonfoil": "8eb2f789-2f21-5e8e-bc2a-8dd0d0821ace"
+            },
             "text": "Une créature ciblée devient rouge et acquiert la célérité jusqu'à la fin du tour. (Elle peut attaquer et {T} ce tour-ci.)\nPiochez une carte.",
             "type": "Éphémère",
             "uuid": "fab463d7-302e-574f-bf71-3cde788ab3b3"
+          },
+          {
+            "flavorText": "Die geflüsterten Töne klingen schleierhaft, doch Rußwesen können immer die dringende Botschaft aus ihnen heraushören.",
+            "identifiers": {
+              "multiverseId": "684345",
+              "scryfallId": "281cedcc-6d07-472f-adbf-fe5d080a5659"
+            },
+            "language": "German",
+            "multiverseId": 684345,
+            "name": "Tiefroter Hauch",
+            "skuIds": {
+              "nonfoil": "9e6013bb-a907-5387-9b6d-f472c655ff48"
+            },
+            "text": "Eine Kreatur deiner Wahl wird bis zum Ende des Zuges rot und hat Eile. (Sie kann in diesem Zug angreifen und {T}.)\nZiehe eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "5f98313e-b1ff-5a54-bbda-a07a49dab584"
           },
           {
             "flavorText": "Quei sussurri sono incomprensibili, eppure i cinerei vi odono sempre un messaggio di allerta.",
@@ -985,6 +1072,9 @@
             "language": "Italian",
             "multiverseId": 684666,
             "name": "Fuochi Fatui Cremisi",
+            "skuIds": {
+              "nonfoil": "63fe5841-2968-58bd-bddb-5c4f53d2c066"
+            },
             "text": "Una creatura bersaglio diventa rossa e ha rapidità fino alla fine del turno. (Può attaccare e {T} in questo turno.)\nPesca una carta.",
             "type": "Istantaneo",
             "uuid": "ab5723c6-4ced-5315-b224-d5d1ef535038"
@@ -998,14 +1088,31 @@
             "language": "Japanese",
             "multiverseId": 684773,
             "name": "たなびく真紅",
+            "skuIds": {
+              "nonfoil": "3036ac2a-f1c1-565b-982a-c262a5a5374b"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは赤になり速攻を得る。（このターン、それは攻撃したり{T}したりできる。）\nカード１枚を引く。",
             "type": "インスタント",
             "uuid": "062127e0-cbc2-55c7-a4f0-16f6de222b78"
+          },
+          {
+            "flavorText": "Los susurros son incomprensibles, pero los cenicientos siempre escuchan un mensaje urgente.",
+            "identifiers": {
+              "multiverseId": "684452",
+              "scryfallId": "a9879fbe-39ec-427c-bb24-0c122042e5e1"
+            },
+            "language": "Spanish",
+            "multiverseId": 684452,
+            "name": "Centellas carmesí",
+            "skuIds": {
+              "nonfoil": "7410f78d-6e09-53b3-bdc7-607bf16e36a1"
+            },
+            "text": "La criatura objetivo se convierte en roja y gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)\nRoba una carta.",
+            "type": "Instantáneo",
+            "uuid": "bc2c7dba-8186-5336-8510-9e5db997cea5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305872",
           "cardsphereId": "131117",
@@ -1046,6 +1153,7 @@
         "name": "Crimson Wisps",
         "number": "533",
         "originalText": "Target creature becomes red and gains haste until end of turn. (It can attack and {T} this turn.)\nDraw a card.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "PLST",
@@ -1072,9 +1180,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2f3b2e52-fa6d-5f00-b3d2-e8589020feb2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1104,38 +1217,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 24576,
+        "edhrecRank": 25062,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Winners of the Iroan Games are forever remembered as heroes of their people.",
         "foreignData": [
-          {
-            "flavorText": "Gewinner der Iroanischen Spiele bleiben als Helden ihres Volkes unvergessen.",
-            "identifiers": {
-              "multiverseId": "684375",
-              "scryfallId": "bb8f5c21-571a-461d-9c8f-919a002b82f7"
-            },
-            "language": "German",
-            "multiverseId": 684375,
-            "name": "Held der Spiele",
-            "text": "Immer wenn du einen Zauberspruch wirkst, der den Helden der Spiele als Ziel hat, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Soldat",
-            "uuid": "f81b49bb-60e7-5708-a913-c5d380eba9ca"
-          },
-          {
-            "flavorText": "La gente recuerda como héroes a los ganadores de los Juegos Iroanianos para siempre.",
-            "identifiers": {
-              "multiverseId": "684482",
-              "scryfallId": "1ab5180f-7c99-4802-b707-0a75aedc593e"
-            },
-            "language": "Spanish",
-            "multiverseId": 684482,
-            "name": "Héroe de los Juegos",
-            "text": "Siempre que lances un hechizo que haga objetivo al Héroe de los Juegos, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Criatura — Soldado humano",
-            "uuid": "ef8fb053-f5f4-59f2-82ca-8697ae5a39d3"
-          },
           {
             "flavorText": "Les vainqueurs des Jeux iroassiques restent à jamais des héros dans les mémoires de leur peuple.",
             "identifiers": {
@@ -1145,9 +1233,28 @@
             "language": "French",
             "multiverseId": 684589,
             "name": "Héros des jeux",
+            "skuIds": {
+              "nonfoil": "9cbfb85c-a812-5003-94a8-a55cb505f7b1"
+            },
             "text": "À chaque fois que vous lancez un sort qui cible le Héros des jeux, les créatures que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Créature — humain et soldat",
             "uuid": "1b0aabd2-53d1-5a72-a923-cfffaeb1ffe6"
+          },
+          {
+            "flavorText": "Gewinner der Iroanischen Spiele bleiben als Helden ihres Volkes unvergessen.",
+            "identifiers": {
+              "multiverseId": "684375",
+              "scryfallId": "bb8f5c21-571a-461d-9c8f-919a002b82f7"
+            },
+            "language": "German",
+            "multiverseId": 684375,
+            "name": "Held der Spiele",
+            "skuIds": {
+              "nonfoil": "b7ab4b18-1542-5389-8a3c-57856afe0212"
+            },
+            "text": "Immer wenn du einen Zauberspruch wirkst, der den Helden der Spiele als Ziel hat, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "f81b49bb-60e7-5708-a913-c5d380eba9ca"
           },
           {
             "flavorText": "I vincitori dei Giochi di Iroas vengono ricordati in eterno come eroi del loro popolo.",
@@ -1158,6 +1265,9 @@
             "language": "Italian",
             "multiverseId": 684696,
             "name": "Eroe dei Giochi",
+            "skuIds": {
+              "nonfoil": "b49be1da-a21a-5f5b-b202-b92f3648fbbc"
+            },
             "text": "Ogniqualvolta lanci una magia che bersaglia l'Eroe dei Giochi, le creature che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Creatura — Soldato Umano",
             "uuid": "279fd323-85d2-5c5a-b9a7-f97fb69b1dd3"
@@ -1171,14 +1281,31 @@
             "language": "Japanese",
             "multiverseId": 684803,
             "name": "競技会の英雄",
+            "skuIds": {
+              "nonfoil": "0fef3ff8-db83-5532-afb6-28dc0683cc9a"
+            },
             "text": "あなたが競技会の英雄を対象として呪文１つを唱えるたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋０の修整を受ける。",
             "type": "クリーチャー — 人間・兵士",
             "uuid": "76aa7832-0c17-506a-9cdf-8a5e955d920c"
+          },
+          {
+            "flavorText": "La gente recuerda como héroes a los ganadores de los Juegos Iroanianos para siempre.",
+            "identifiers": {
+              "multiverseId": "684482",
+              "scryfallId": "1ab5180f-7c99-4802-b707-0a75aedc593e"
+            },
+            "language": "Spanish",
+            "multiverseId": 684482,
+            "name": "Héroe de los Juegos",
+            "skuIds": {
+              "nonfoil": "c15046ae-e554-50e8-95b6-f3a3e21c1684"
+            },
+            "text": "Siempre que lances un hechizo que haga objetivo al Héroe de los Juegos, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Criatura — Soldado humano",
+            "uuid": "ef8fb053-f5f4-59f2-82ca-8697ae5a39d3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305902",
           "cardsphereId": "131049",
@@ -1220,6 +1347,7 @@
         "name": "Hero of the Games",
         "number": "563",
         "originalText": "Whenever you cast a spell that targets Hero of the Games, creatures you control get +1/+0 until end of turn.",
+        "originalType": "Creature – Human Soldier",
         "power": "3",
         "printings": [
           "2X2",
@@ -1251,9 +1379,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9d4e3571-51c1-5a60-b3d8-1898274cfe6e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1287,39 +1420,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 5554,
+        "edhrecRank": 5556,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"No shirt, no shoes, no service.\"\n—Marketplace sign",
         "foreignData": [
-          {
-            "flavorText": "„Kein Hemd und keine Schuhe: Keine Bedienung.\"\n—Schild am Marktplatz",
-            "identifiers": {
-              "multiverseId": "684377",
-              "scryfallId": "24818384-650a-4c8d-b2ba-9eb937a6b12d"
-            },
-            "language": "German",
-            "multiverseId": 684377,
-            "name": "Erbosen",
-            "text": "Eine Kreatur deiner Wahl erhält +3/+2 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "35b63321-b93a-5158-b276-336e9a798f2f"
-          },
-          {
-            "flavorText": "\"Sin camisa o sin zapatos, no le atendemos\".\n—Cartel del mercado",
-            "identifiers": {
-              "multiverseId": "684484",
-              "scryfallId": "aa8398d9-a8ab-437f-a0be-61e5d447b227"
-            },
-            "language": "Spanish",
-            "multiverseId": 684484,
-            "name": "Enfurecer",
-            "text": "La criatura objetivo obtiene +3/+2 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "397ad33b-3f61-5e63-abe2-48180cf34b33"
-          },
           {
             "flavorText": "« Pas de chemise, pas de chaussures, pas de vente. »\n—Pancarte de la place du marché",
             "identifiers": {
@@ -1329,9 +1436,28 @@
             "language": "French",
             "multiverseId": 684591,
             "name": "Exacerbation",
+            "skuIds": {
+              "nonfoil": "c32c0d42-a1f5-5c83-a426-598d1673923f"
+            },
             "text": "Une créature ciblée gagne +3/+2 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "f4be77c4-d541-5e5c-9fb7-98f35f3f891c"
+          },
+          {
+            "flavorText": "„Kein Hemd und keine Schuhe: Keine Bedienung.\"\n—Schild am Marktplatz",
+            "identifiers": {
+              "multiverseId": "684377",
+              "scryfallId": "24818384-650a-4c8d-b2ba-9eb937a6b12d"
+            },
+            "language": "German",
+            "multiverseId": 684377,
+            "name": "Erbosen",
+            "skuIds": {
+              "nonfoil": "b2970d50-6d90-5f44-b35f-96d08f97d0d4"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +3/+2 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "35b63321-b93a-5158-b276-336e9a798f2f"
           },
           {
             "flavorText": "\"Non si servono clienti a petto nudo o scalzi.\"\n—Cartello del mercato",
@@ -1342,6 +1468,9 @@
             "language": "Italian",
             "multiverseId": 684698,
             "name": "Adirare",
+            "skuIds": {
+              "nonfoil": "17919848-6c5a-50ce-b681-36290cc81e5f"
+            },
             "text": "Una creatura bersaglio prende +3/+2 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "8a796988-9d29-520d-967f-102be99c1cca"
@@ -1355,14 +1484,31 @@
             "language": "Japanese",
             "multiverseId": 684805,
             "name": "立腹",
+            "skuIds": {
+              "nonfoil": "51e3e64a-50ec-5e4f-8ded-5dca5cc936c6"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋３/＋２の修整を受ける。",
             "type": "インスタント",
             "uuid": "91643685-1a3b-5016-a312-c3efba89b0fc"
+          },
+          {
+            "flavorText": "\"Sin camisa o sin zapatos, no le atendemos\".\n—Cartel del mercado",
+            "identifiers": {
+              "multiverseId": "684484",
+              "scryfallId": "aa8398d9-a8ab-437f-a0be-61e5d447b227"
+            },
+            "language": "Spanish",
+            "multiverseId": 684484,
+            "name": "Enfurecer",
+            "skuIds": {
+              "nonfoil": "d48f3630-36e6-5eed-8843-4a4e941c02bd"
+            },
+            "text": "La criatura objetivo obtiene +3/+2 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "397ad33b-3f61-5e63-abe2-48180cf34b33"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305904",
           "cardsphereId": "131042",
@@ -1404,6 +1550,7 @@
         "name": "Infuriate",
         "number": "565",
         "originalText": "Target creature gets +3/+2 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "M20",
@@ -1417,9 +1564,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ddd249d8-efe8-5558-9e5d-57d0a2fbad22"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1449,39 +1601,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 19192,
+        "edhrecRank": 19815,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Our feeble villages and tiny encampments stand only at the whim of the Roil.\"\n—*The Invokers' Tales*",
         "foreignData": [
-          {
-            "flavorText": "„Unsere schwachen Dörfer und kleinen Lager sind den Launen der Turbulenz ausgeliefert.\"\n—Die Geschichten der Beschwörer",
-            "identifiers": {
-              "multiverseId": "684404",
-              "scryfallId": "7bfa4c5e-be2e-4bd4-a041-0782d4a73863"
-            },
-            "language": "German",
-            "multiverseId": 684404,
-            "name": "Ausbruch der Turbulenz",
-            "text": "Bonus {5} (Du kannst zusätzlich {5} bezahlen, sowie du diesen Zauberspruch wirkst.)\nDer Ausbruch der Turbulenz fügt einem Ziel deiner Wahl 3 Schadenspunkte zu. Falls die Bonuskosten dieses Zauberspruchs bezahlt wurden, fügt er stattdessen 5 Schadenspunkte zu.",
-            "type": "Hexerei",
-            "uuid": "cc25ccd7-501a-5b02-87a1-2a339e9b720a"
-          },
-          {
-            "flavorText": "\"Nuestras aldeas indefensas y campamentos diminutos no son más que víctimas de los caprichos de la Turbulencia\".\n—Cuentos de los invocadores",
-            "identifiers": {
-              "multiverseId": "684511",
-              "scryfallId": "68e2c8a0-853a-46e5-8604-1be24862f98d"
-            },
-            "language": "Spanish",
-            "multiverseId": 684511,
-            "name": "Erupción de la Turbulencia",
-            "text": "Estímulo {5}. (Puedes pagar {5} adicionales al lanzar este hechizo.)\nLa Erupción de la Turbulencia hace 3 puntos de daño a cualquier objetivo. Si este hechizo fue estimulado, en vez de eso, hace 5 puntos de daño.",
-            "type": "Conjuro",
-            "uuid": "489a3a37-d557-5b44-9313-f104a4387421"
-          },
           {
             "flavorText": "« Nos villages vétustes et nos minuscules campements ne tiennent que par la volonté du Roulis. »\n—Les Contes des Invocateurs",
             "identifiers": {
@@ -1491,9 +1617,28 @@
             "language": "French",
             "multiverseId": 684618,
             "name": "Éruption de Roulis",
+            "skuIds": {
+              "nonfoil": "aef6d0de-2bdb-5bce-8101-c5d2155d3d3e"
+            },
             "text": "Kick {5} (Vous pouvez payer {5} supplémentaires au moment où vous lancez ce sort.)\nL'Éruption de Roulis inflige 3 blessures à n'importe quelle cible. Si ce sort a été kické, il inflige 5 blessures à la place.",
             "type": "Rituel",
             "uuid": "3ae7d0c2-51ae-5193-8fcd-7b16f546094a"
+          },
+          {
+            "flavorText": "„Unsere schwachen Dörfer und kleinen Lager sind den Launen der Turbulenz ausgeliefert.\"\n—Die Geschichten der Beschwörer",
+            "identifiers": {
+              "multiverseId": "684404",
+              "scryfallId": "7bfa4c5e-be2e-4bd4-a041-0782d4a73863"
+            },
+            "language": "German",
+            "multiverseId": 684404,
+            "name": "Ausbruch der Turbulenz",
+            "skuIds": {
+              "nonfoil": "4a82ed35-de3d-57b5-a7dc-09f4dcc0c15a"
+            },
+            "text": "Bonus {5} (Du kannst zusätzlich {5} bezahlen, sowie du diesen Zauberspruch wirkst.)\nDer Ausbruch der Turbulenz fügt einem Ziel deiner Wahl 3 Schadenspunkte zu. Falls die Bonuskosten dieses Zauberspruchs bezahlt wurden, fügt er stattdessen 5 Schadenspunkte zu.",
+            "type": "Hexerei",
+            "uuid": "cc25ccd7-501a-5b02-87a1-2a339e9b720a"
           },
           {
             "flavorText": "\"I nostri deboli villaggi e minuscoli accampamenti sono alla mercé del Torbido.\"\n—Racconti degli Evocatori",
@@ -1504,6 +1649,9 @@
             "language": "Italian",
             "multiverseId": 684725,
             "name": "Eruzione del Torbido",
+            "skuIds": {
+              "nonfoil": "ceb46ea3-fadd-5185-b243-481a4679e9c5"
+            },
             "text": "Potenziamento {5} (Puoi pagare {5} addizionale mentre lanci questa magia.)\nL'Eruzione del Torbido infligge 3 danni a un qualsiasi bersaglio. Se questa magia è stata potenziata, infligge invece 5 danni.",
             "type": "Stregoneria",
             "uuid": "19d74df1-366f-5382-8a80-1d5cce501c83"
@@ -1517,14 +1665,31 @@
             "language": "Japanese",
             "multiverseId": 684832,
             "name": "乱動の噴火",
+            "skuIds": {
+              "nonfoil": "a4c5bd4e-3ba9-52c1-9f98-647cfd2f349f"
+            },
             "text": "キッカー{5}（あなたはこの呪文を唱えるに際し、追加で{5}を支払ってもよい。）\n１つを対象とする。乱動の噴火はそれに３点のダメージを与える。この呪文がキッカーされていたなら、これは代わりに５点のダメージを与える。",
             "type": "ソーサリー",
             "uuid": "3e07bbbf-df05-5ad8-a6e7-6fe1813230b0"
+          },
+          {
+            "flavorText": "\"Nuestras aldeas indefensas y campamentos diminutos no son más que víctimas de los caprichos de la Turbulencia\".\n—Cuentos de los invocadores",
+            "identifiers": {
+              "multiverseId": "684511",
+              "scryfallId": "68e2c8a0-853a-46e5-8604-1be24862f98d"
+            },
+            "language": "Spanish",
+            "multiverseId": 684511,
+            "name": "Erupción de la Turbulencia",
+            "skuIds": {
+              "nonfoil": "cf789f97-9f12-5644-ab64-0a2cc652bc19"
+            },
+            "text": "Estímulo {5}. (Puedes pagar {5} adicionales al lanzar este hechizo.)\nLa Erupción de la Turbulencia hace 3 puntos de daño a cualquier objetivo. Si este hechizo fue estimulado, en vez de eso, hace 5 puntos de daño.",
+            "type": "Conjuro",
+            "uuid": "489a3a37-d557-5b44-9313-f104a4387421"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305931",
           "cardsphereId": "131000",
@@ -1568,6 +1733,7 @@
         "name": "Roil Eruption",
         "number": "592",
         "originalText": "Kicker {5} (You may pay an additional {5} as you cast this spell.)\nRoil Eruption deals 3 damage to any target. If this spell was kicked, it deals 5 damage instead.",
+        "originalType": "Sorcery",
         "printings": [
           "J25",
           "ZNR"
@@ -1605,9 +1771,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b7a00cef-49c1-5e0e-9bc2-774eddbbdc79"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1637,26 +1808,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 11577,
+        "edhrecRank": 11504,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The cage is a crucible for the rage that builds inside, refining it into something pure and terrible.",
         "foreignData": [
-          {
-            "flavorText": "Der Käfig ist ein Schmelztiegel für die Wut, die sich darin anstaut, bis daraus etwas Reines und Furchtbares entsteht.",
-            "identifiers": {
-              "multiverseId": "684419",
-              "scryfallId": "db0bc475-33fe-4539-b426-c0379e85011e"
-            },
-            "language": "German",
-            "multiverseId": 684419,
-            "name": "Entfesselte Wut",
-            "text": "Eine Kreatur deiner Wahl erhält +1/+1 und Doppelschlag bis zum Ende des Zuges. (Sie fügt sowohl Erstschlags- als auch normalen Kampfschaden zu.)",
-            "type": "Spontanzauber",
-            "uuid": "f2c26a79-d19a-5092-966c-6bf56f40b593"
-          },
           {
             "flavorText": "La cage est un creuset pour la rage qui bouillonne à l'intérieur, qui est raffinée en quelque chose de pur et terrible à la fois.",
             "identifiers": {
@@ -1666,9 +1824,28 @@
             "language": "French",
             "multiverseId": 684633,
             "name": "Fureur déchaînée",
+            "skuIds": {
+              "nonfoil": "4d3af421-2bdd-54ed-bdd1-e243dd78b2a8"
+            },
             "text": "Une créature ciblée gagne +1/+1 et acquiert la double initiative jusqu'à la fin du tour. (Elle inflige des blessures de combat d'initiative et des blessures de combat normales.)",
             "type": "Éphémère",
             "uuid": "9971a19e-7d3c-518f-96f4-e804c9fc6029"
+          },
+          {
+            "flavorText": "Der Käfig ist ein Schmelztiegel für die Wut, die sich darin anstaut, bis daraus etwas Reines und Furchtbares entsteht.",
+            "identifiers": {
+              "multiverseId": "684419",
+              "scryfallId": "db0bc475-33fe-4539-b426-c0379e85011e"
+            },
+            "language": "German",
+            "multiverseId": 684419,
+            "name": "Entfesselte Wut",
+            "skuIds": {
+              "nonfoil": "3489b928-7319-5f5e-9a88-547ff90a5dbb"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +1/+1 und Doppelschlag bis zum Ende des Zuges. (Sie fügt sowohl Erstschlags- als auch normalen Kampfschaden zu.)",
+            "type": "Spontanzauber",
+            "uuid": "f2c26a79-d19a-5092-966c-6bf56f40b593"
           },
           {
             "flavorText": "Come un crogiolo, la gabbia raffina la furia ribollente in qualcosa di puro e terribile.",
@@ -1679,6 +1856,9 @@
             "language": "Italian",
             "multiverseId": 684740,
             "name": "Furia Liberata",
+            "skuIds": {
+              "nonfoil": "3d3322b3-4445-580c-bc62-3c967a7d4d68"
+            },
             "text": "Una creatura bersaglio prende +1/+1 e ha doppio attacco fino alla fine del turno. (Infligge sia danno da combattimento da attacco improvviso che danno da combattimento regolare.)",
             "type": "Istantaneo",
             "uuid": "ab284380-f6b5-50a9-9a4c-fb9445359f7f"
@@ -1692,14 +1872,15 @@
             "language": "Japanese",
             "multiverseId": 684847,
             "name": "放たれた怒り",
+            "skuIds": {
+              "nonfoil": "fa55ab7d-80ae-5995-8674-d8358e3dbbb5"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋１/＋１の修整を受け二段攻撃を得る。（それは先制攻撃と通常の戦闘ダメージの両方を与える。）",
             "type": "インスタント",
             "uuid": "ecf5fb13-5925-5ced-9a55-7919ede50144"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305946",
           "cardsphereId": "130981",
@@ -1741,6 +1922,7 @@
         "name": "Uncaged Fury",
         "number": "607",
         "originalText": "Target creature gets +1/+1 and gains double strike until end of turn. (It deals both first-strike and regular combat damage.)",
+        "originalType": "Instant",
         "printings": [
           "A25",
           "INR",
@@ -1757,9 +1939,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "13920c15-0ee2-5aa3-982b-085778d40f86"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1789,39 +1976,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18918,
+        "edhrecRank": 19463,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Lightning in a bottle? That's not where I need it.\"",
         "foreignData": [
-          {
-            "flavorText": "„Vergiss das mit den Eichen und Buchen. Das bringt nichts.\"",
-            "identifiers": {
-              "multiverseId": "684427",
-              "scryfallId": "c7ca7d25-f94b-46f8-9120-7ae941bd2923"
-            },
-            "language": "German",
-            "multiverseId": 684427,
-            "name": "Blitzflechter",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn du einen Spontanzauber oder eine Hexerei wirkst, fügt der Blitzflechter einer Kreatur deiner Wahl, die ein Gegner kontrolliert, 1 Schadenspunkt zu.",
-            "type": "Kreatur — Mensch, Schamane",
-            "uuid": "28fb08e5-f02f-522f-a194-57a4afdd62d2"
-          },
-          {
-            "flavorText": "\"¿Relámpagos embotellados? No es precisamente lo que necesito\".",
-            "identifiers": {
-              "multiverseId": "684534",
-              "scryfallId": "92e35b59-c40d-4598-9262-3781b93d4c75"
-            },
-            "language": "Spanish",
-            "multiverseId": 684534,
-            "name": "Tejedor de relámpagos",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que lances un hechizo de instantáneo o de conjuro, el Tejedor de relámpagos hace 1 punto de daño a la criatura objetivo que controla un oponente.",
-            "type": "Criatura — Chamán humano",
-            "uuid": "1997e267-d023-5907-b92a-25847cc3e4cf"
-          },
           {
             "flavorText": "« Des éclairs dans une bouteille ? Ce n'est pas là que j'en ai besoin. »",
             "identifiers": {
@@ -1831,9 +1992,28 @@
             "language": "French",
             "multiverseId": 684641,
             "name": "Tisseur de foudre",
+            "skuIds": {
+              "nonfoil": "c9414f24-9e6c-544e-b283-61d45e49bb6d"
+            },
             "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nÀ chaque fois que vous lancez un sort d'éphémère ou de rituel, le Tisseur de foudre inflige 1 blessure à une créature ciblée qu'un adversaire contrôle.",
             "type": "Créature — humain et shamane",
             "uuid": "f3a785b0-171d-561d-9f68-de4eb99f4cc3"
+          },
+          {
+            "flavorText": "„Vergiss das mit den Eichen und Buchen. Das bringt nichts.\"",
+            "identifiers": {
+              "multiverseId": "684427",
+              "scryfallId": "c7ca7d25-f94b-46f8-9120-7ae941bd2923"
+            },
+            "language": "German",
+            "multiverseId": 684427,
+            "name": "Blitzflechter",
+            "skuIds": {
+              "nonfoil": "44947598-7e76-5013-bef2-65522ee128f9"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn du einen Spontanzauber oder eine Hexerei wirkst, fügt der Blitzflechter einer Kreatur deiner Wahl, die ein Gegner kontrolliert, 1 Schadenspunkt zu.",
+            "type": "Kreatur — Mensch, Schamane",
+            "uuid": "28fb08e5-f02f-522f-a194-57a4afdd62d2"
           },
           {
             "flavorText": "\"Fulmine in bottiglia? Non è lì che mi serve.\"",
@@ -1844,6 +2024,9 @@
             "language": "Italian",
             "multiverseId": 684748,
             "name": "Tessitore di Fulmini",
+            "skuIds": {
+              "nonfoil": "66e8a350-e559-54a6-b978-d2774e151f36"
+            },
             "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nOgniqualvolta lanci una magia istantaneo o stregoneria, il Tessitore di Fulmini infligge 1 danno a una creatura bersaglio controllata da un avversario.",
             "type": "Creatura — Sciamano Umano",
             "uuid": "850b4986-a151-5298-85f9-6fe1220829ce"
@@ -1857,14 +2040,31 @@
             "language": "Japanese",
             "multiverseId": 684855,
             "name": "稲妻織り",
+            "skuIds": {
+              "nonfoil": "5b20ee79-659b-556d-8221-2627f358077b"
+            },
             "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\nあなたがインスタントやソーサリーである呪文１つを唱えるたび、対戦相手がコントロールしているクリーチャー１体を対象とする。稲妻織りはそれに１点のダメージを与える。",
             "type": "クリーチャー — 人間・シャーマン",
             "uuid": "d2eb0ee6-c88f-5204-a145-79a69d6ee68b"
+          },
+          {
+            "flavorText": "\"¿Relámpagos embotellados? No es precisamente lo que necesito\".",
+            "identifiers": {
+              "multiverseId": "684534",
+              "scryfallId": "92e35b59-c40d-4598-9262-3781b93d4c75"
+            },
+            "language": "Spanish",
+            "multiverseId": 684534,
+            "name": "Tejedor de relámpagos",
+            "skuIds": {
+              "nonfoil": "36174abc-ea81-5642-9b6c-f8369d931bb7"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que lances un hechizo de instantáneo o de conjuro, el Tejedor de relámpagos hace 1 punto de daño a la criatura objetivo que controla un oponente.",
+            "type": "Criatura — Chamán humano",
+            "uuid": "1997e267-d023-5907-b92a-25847cc3e4cf"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305954",
           "cardsphereId": "130970",
@@ -1906,6 +2106,7 @@
         "name": "Weaver of Lightning",
         "number": "615",
         "originalText": "Reach (This creature can block creatures with flying.)\nWhenever you cast an instant or sorcery spell, Weaver of Lightning deals 1 damage to target creature an opponent controls.",
+        "originalType": "Creature – Human Shaman",
         "power": "1",
         "printings": [
           "EMN",
@@ -1925,9 +2126,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "44355048-29cd-5d36-b080-3d4af582447a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1961,39 +2167,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 716,
+        "edhrecRank": 759,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Immolation is the sincerest form of flattery.",
         "foreignData": [
-          {
-            "flavorText": "Verbrennungen sind die aufrichtigste Form der Schmeichelei.",
-            "identifiers": {
-              "multiverseId": "684430",
-              "scryfallId": "1ab6b69e-aa30-437d-9010-b0bff5d60392"
-            },
-            "language": "German",
-            "multiverseId": 684430,
-            "name": "Junger Pyromagier",
-            "text": "Immer wenn du einen Spontanzauber oder eine Hexerei wirkst, erzeuge einen 1/1 roten Elementarwesen-Kreaturenspielstein.",
-            "type": "Kreatur — Mensch, Schamane",
-            "uuid": "285af50d-0354-5557-aa95-7f08cd4dc6dc"
-          },
-          {
-            "flavorText": "La inmolación es la forma más sincera de adulación.",
-            "identifiers": {
-              "multiverseId": "684537",
-              "scryfallId": "2b5cd98a-c5da-4c07-a3bd-eabb1ec3dd14"
-            },
-            "language": "Spanish",
-            "multiverseId": 684537,
-            "name": "Piromante joven",
-            "text": "Siempre que lances un hechizo de instantáneo o de conjuro, crea una ficha de criatura Elemental roja 1/1.",
-            "type": "Criatura — Chamán humano",
-            "uuid": "b155730e-1e58-56f2-97bc-84c269b2a6dd"
-          },
           {
             "flavorText": "L'immolation est la forme de flatterie la plus sincère.",
             "identifiers": {
@@ -2003,9 +2183,28 @@
             "language": "French",
             "multiverseId": 684644,
             "name": "Jeune pyromancien",
+            "skuIds": {
+              "nonfoil": "5b47aa37-c5a2-5af9-9574-a904cd91fec1"
+            },
             "text": "À chaque fois que vous lancez un sort d'éphémère ou de rituel, créez un jeton de créature 1/1 rouge Élémental.",
             "type": "Créature — humain et shamane",
             "uuid": "117e5621-701d-5e3e-a769-09cee6c3ae6e"
+          },
+          {
+            "flavorText": "Verbrennungen sind die aufrichtigste Form der Schmeichelei.",
+            "identifiers": {
+              "multiverseId": "684430",
+              "scryfallId": "1ab6b69e-aa30-437d-9010-b0bff5d60392"
+            },
+            "language": "German",
+            "multiverseId": 684430,
+            "name": "Junger Pyromagier",
+            "skuIds": {
+              "nonfoil": "9673beac-08c8-5833-b813-7254a902f90d"
+            },
+            "text": "Immer wenn du einen Spontanzauber oder eine Hexerei wirkst, erzeuge einen 1/1 roten Elementarwesen-Kreaturenspielstein.",
+            "type": "Kreatur — Mensch, Schamane",
+            "uuid": "285af50d-0354-5557-aa95-7f08cd4dc6dc"
           },
           {
             "flavorText": "L'immolazione è la forma di adulazione più sincera.",
@@ -2016,6 +2215,9 @@
             "language": "Italian",
             "multiverseId": 684751,
             "name": "Giovane Piromante",
+            "skuIds": {
+              "nonfoil": "4a21e60d-4070-5299-8711-bbab3e532fec"
+            },
             "text": "Ogniqualvolta lanci una magia istantaneo o stregoneria, crea una pedina creatura Elementale 1/1 rossa.",
             "type": "Creatura — Sciamano Umano",
             "uuid": "0a1bdc7e-557c-52de-9cf9-69e14141d848"
@@ -2029,14 +2231,31 @@
             "language": "Japanese",
             "multiverseId": 684858,
             "name": "若き紅蓮術士",
+            "skuIds": {
+              "nonfoil": "67381744-b2ad-55c7-8dc7-2214ae268c46"
+            },
             "text": "あなたがインスタントやソーサリーである呪文１つを唱えるたび、赤の１/１のエレメンタル・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — 人間・シャーマン",
             "uuid": "2ddb5204-2da8-5294-a909-72d62b5168d2"
+          },
+          {
+            "flavorText": "La inmolación es la forma más sincera de adulación.",
+            "identifiers": {
+              "multiverseId": "684537",
+              "scryfallId": "2b5cd98a-c5da-4c07-a3bd-eabb1ec3dd14"
+            },
+            "language": "Spanish",
+            "multiverseId": 684537,
+            "name": "Piromante joven",
+            "skuIds": {
+              "nonfoil": "0103eea5-c8a8-5b7d-8069-211dea666d1a"
+            },
+            "text": "Siempre que lances un hechizo de instantáneo o de conjuro, crea una ficha de criatura Elemental roja 1/1.",
+            "type": "Criatura — Chamán humano",
+            "uuid": "b155730e-1e58-56f2-97bc-84c269b2a6dd"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305957",
           "cardsphereId": "130967",
@@ -2075,6 +2294,7 @@
         "name": "Young Pyromancer",
         "number": "618",
         "originalText": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.",
+        "originalType": "Creature – Human Shaman",
         "power": "2",
         "printings": [
           "2X2",
@@ -2098,6 +2318,11 @@
           "tcgplayer": "https://mtgjson.com/links/fd64ee3a89324578"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "3937d118-134c-59bb-b38f-5cd60d31c753"
+          ]
+        },
         "rulings": [
           {
             "date": "2021-03-19",
@@ -2105,9 +2330,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7cc97d64-2796-5684-8457-197e77b313d7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2139,39 +2369,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2181,9 +2385,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2194,6 +2417,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2207,14 +2433,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2252,10 +2495,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2264,6 +2509,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2271,9 +2523,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2308,36 +2565,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2347,6 +2599,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2358,18 +2613,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2382,7 +2653,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2410,6 +2680,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2483,6 +2754,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2645,15 +2917,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2696,36 +2977,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2735,6 +3011,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2746,18 +3025,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2770,7 +3065,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2798,6 +3092,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2871,6 +3166,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3033,15 +3329,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3084,36 +3389,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3123,6 +3423,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3134,18 +3437,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3158,7 +3477,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3186,6 +3504,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3259,6 +3578,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3421,15 +3741,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3445,8 +3774,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3461,5 +3790,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "20c6eb2721ca5f"
   }
 }

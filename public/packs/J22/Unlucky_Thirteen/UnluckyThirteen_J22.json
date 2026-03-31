@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "c79b55ff7a5fd9"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,7 +24,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 2929,
+        "edhrecRank": 2121,
         "edhrecSaltiness": 0.92,
         "finishes": [
           "nonfoil"
@@ -37,30 +32,20 @@
         "flavorText": "\"Trees are to be venerated and protected . . . except that one.\"\n—Marel, Dawnhart witch",
         "foreignData": [
           {
-            "flavorText": "„Bäume sind zu verehren und zu schützen … außer diesem einen.\"\n—Marel, Morgenlicht-Hexe",
+            "flavorText": "「树木应受敬仰和保护…那一棵除外。」\n～曙鹿集女巫玛芮尔",
             "identifiers": {
-              "multiverseId": "597104",
-              "scryfallId": "55e9f8d6-d5bf-46d4-bb51-06dd9d484ebd"
+              "multiverseId": "597426",
+              "scryfallId": "16d82a01-5f22-4727-9764-f194a640685e"
             },
-            "language": "German",
-            "multiverseId": 597104,
-            "name": "Baum der Verdammnis",
-            "text": "Verteidiger\n{T}: Tausche den Lebenspunktestand eines Gegners deiner Wahl mit der Widerstandskraft des Baums der Verdammnis.",
-            "type": "Kreatur — Pflanze",
-            "uuid": "c0224648-87a7-57c2-a646-26b6039065ac"
-          },
-          {
-            "flavorText": "\"Los árboles se veneran y se protegen... Todos menos ese\".\n—Marel, bruja de Ciervas del Alba",
-            "identifiers": {
-              "multiverseId": "597150",
-              "scryfallId": "8a44d699-c8c1-42af-ac73-324764c4f978"
+            "language": "Chinese Simplified",
+            "multiverseId": 597426,
+            "name": "浩劫之树",
+            "skuIds": {
+              "nonfoil": "99d62553-3be0-538f-b9cd-b4ea5e380224"
             },
-            "language": "Spanish",
-            "multiverseId": 597150,
-            "name": "Árbol de la perdición",
-            "text": "Defensor.\n{T}: Intercambia el total de vidas del oponente objetivo con la resistencia del Árbol de la perdición.",
-            "type": "Criatura — Planta",
-            "uuid": "d5214f41-79a8-5154-baac-30e42c606654"
+            "text": "守军\n{T}：将目标对手的总生命与浩劫之树的防御力交换。",
+            "type": "生物 ～植物",
+            "uuid": "25d08880-dfee-57df-ae97-a095ab7ccdfb"
           },
           {
             "flavorText": "« Les arbres doivent être vénérés et protégés... sauf celui-là. »\n—Marel, envoûteuse de Cerf-orient",
@@ -71,9 +56,28 @@
             "language": "French",
             "multiverseId": 597196,
             "name": "Arbre de la perdition",
+            "skuIds": {
+              "nonfoil": "c3141adf-d036-5870-90e0-9212772d71df"
+            },
             "text": "Défenseur\n{T} : Échangez le total de points de vie d'un adversaire ciblé contre l'endurance de l'Arbre de la perdition.",
             "type": "Créature : plante",
             "uuid": "b18d8ba1-dd08-57ed-ac3a-2d4b8275ac69"
+          },
+          {
+            "flavorText": "„Bäume sind zu verehren und zu schützen … außer diesem einen.\"\n—Marel, Morgenlicht-Hexe",
+            "identifiers": {
+              "multiverseId": "597104",
+              "scryfallId": "55e9f8d6-d5bf-46d4-bb51-06dd9d484ebd"
+            },
+            "language": "German",
+            "multiverseId": 597104,
+            "name": "Baum der Verdammnis",
+            "skuIds": {
+              "nonfoil": "5b44b8cf-c865-5be5-922b-bfd811767f67"
+            },
+            "text": "Verteidiger\n{T}: Tausche den Lebenspunktestand eines Gegners deiner Wahl mit der Widerstandskraft des Baums der Verdammnis.",
+            "type": "Kreatur — Pflanze",
+            "uuid": "c0224648-87a7-57c2-a646-26b6039065ac"
           },
           {
             "flavorText": "\"Gli alberi vanno venerati e protetti... tranne quello lì.\"\n—Marel, strega Albacorno",
@@ -84,6 +88,9 @@
             "language": "Italian",
             "multiverseId": 597242,
             "name": "Albero della Perdizione",
+            "skuIds": {
+              "nonfoil": "005dfb42-cf6c-569f-aa3a-e2821a332ff8"
+            },
             "text": "Difensore\n{T}: Scambia i punti vita di un avversario bersaglio con la costituzione dell'Albero della Perdizione.",
             "type": "Creatura — Pianta",
             "uuid": "70fd5231-5bfd-5ab2-a4dd-78c4d34787ec"
@@ -97,27 +104,31 @@
             "language": "Japanese",
             "multiverseId": 597288,
             "name": "地獄の樹",
+            "skuIds": {
+              "nonfoil": "e12838f9-2bad-5e5c-88d2-8061dcd8234b"
+            },
             "text": "防衛\n{T}：対戦相手１人を対象とする。そのプレイヤーのライフ総量と地獄の樹のタフネスを交換する。",
             "type": "クリーチャー — 植物",
             "uuid": "88a83fc7-0419-5396-b06c-8dc2fb8df998"
           },
           {
-            "flavorText": "「树木应受敬仰和保护…那一棵除外。」\n～曙鹿集女巫玛芮尔",
+            "flavorText": "\"Los árboles se veneran y se protegen... Todos menos ese\".\n—Marel, bruja de Ciervas del Alba",
             "identifiers": {
-              "multiverseId": "597426",
-              "scryfallId": "16d82a01-5f22-4727-9764-f194a640685e"
+              "multiverseId": "597150",
+              "scryfallId": "8a44d699-c8c1-42af-ac73-324764c4f978"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597426,
-            "name": "浩劫之树",
-            "text": "守军\n{T}：将目标对手的总生命与浩劫之树的防御力交换。",
-            "type": "生物 ～植物",
-            "uuid": "25d08880-dfee-57df-ae97-a095ab7ccdfb"
+            "language": "Spanish",
+            "multiverseId": 597150,
+            "name": "Árbol de la perdición",
+            "skuIds": {
+              "nonfoil": "87bb1032-8861-5d8a-acad-691505833c33"
+            },
+            "text": "Defensor.\n{T}: Intercambia el total de vidas del oponente objetivo con la resistencia del Árbol de la perdición.",
+            "type": "Criatura — Planta",
+            "uuid": "d5214f41-79a8-5154-baac-30e42c606654"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271459",
           "cardsphereId": "97080",
@@ -158,8 +169,10 @@
         "name": "Tree of Perdition",
         "number": "75",
         "originalText": "Defender\n{T}: Exchange target opponent's life total with Tree of Perdition's toughness.",
+        "originalType": "Creature – Plant",
         "power": "0",
         "printings": [
+          "ECC",
           "EMN",
           "INR",
           "J22",
@@ -175,22 +188,27 @@
         "rulings": [
           {
             "date": "2016-07-13",
-            "text": "Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to the player’s former life total. For example, say Tree of Perdition is equipped with Cultist’s Staff (which makes it 2/15) and the player’s life total is 7. After the exchange, Tree of Perdition would be a 2/9 creature (its toughness became 7, which was then modified by Cultist’s Staff) and the player’s life total would be 15."
+            "text": "Any toughness-modifying effects, counters, Auras, or Equipment will apply after its toughness is set to the player's former life total. For example, say Tree of Perdition is equipped with Cultist's Staff (which makes it 2/15) and the player's life total is 7. After the exchange, Tree of Perdition would be a 2/9 creature (its toughness became 7, which was then modified by Cultist's Staff) and the player's life total would be 15."
           },
           {
             "date": "2016-07-13",
-            "text": "If Tree of Perdition isn’t on the battlefield when the ability resolves, the exchange can’t happen and the ability will have no effect. Notably, activating the ability and giving Tree of Perdition -13/-13 in response won’t cause your opponent to lose the game."
+            "text": "If Tree of Perdition isn't on the battlefield when the ability resolves, the exchange can't happen and the ability will have no effect. Notably, activating the ability and giving Tree of Perdition -13/-13 in response won't cause your opponent to lose the game."
           },
           {
             "date": "2016-07-13",
-            "text": "When the ability resolves, Tree of Perdition’s toughness becomes the targeted opponent’s former life total and that player gains or loses an amount of life necessary so that their life total equals Tree of Perdition’s former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly."
+            "text": "When the ability resolves, Tree of Perdition's toughness becomes the targeted opponent's former life total and that player gains or loses an amount of life necessary so that their life total equals Tree of Perdition's former toughness. Other effects that interact with life gain or life loss will interact with this effect accordingly."
           }
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "fb027097-83ff-5cad-93cc-3b75b2a12425"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -225,7 +243,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 13877,
+        "edhrecRank": 14555,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
@@ -233,30 +251,20 @@
         "flavorText": "\"Could you please spare some of your blood for my precious little tree?\"",
         "foreignData": [
           {
-            "flavorText": "„Könntest du etwas von deinem Blut für meinen süßen kleinen Baum erübrigen?\"",
+            "flavorText": "「您能不能为我的宝贝小树捐点血？」",
             "identifiers": {
-              "multiverseId": "589628",
-              "scryfallId": "7f29936e-bbb1-47f2-9ba0-97a3245495ea"
+              "multiverseId": "589985",
+              "scryfallId": "467275b7-fd2f-4dec-a5a9-e87af83e26c9"
             },
-            "language": "German",
-            "multiverseId": 589628,
-            "name": "Schülerin der Verdammnis",
-            "text": "Wenn die Schülerin der Verdammnis stirbt, bestimme eines. Falls du genau 13 Lebenspunkte hast, kannst du beides bestimmen.\n• Du ziehst eine Karte und verlierst 1 Lebenspunkt.\n• Schicke den Friedhof eines Gegners deiner Wahl ins Exil. Jener Spieler verliert 1 Lebenspunkt.",
-            "type": "Kreatur — Mensch, Hexenmeister",
-            "uuid": "282356f0-e64d-56f0-8370-38ae773db2ff"
-          },
-          {
-            "flavorText": "\"¿Podrías darme un poco de tu sangre para mi querido arbolito?\".",
-            "identifiers": {
-              "multiverseId": "589679",
-              "scryfallId": "3d3a3e82-a252-4dc9-8438-4aea235e75b5"
+            "language": "Chinese Simplified",
+            "multiverseId": 589985,
+            "name": "坏灭信徒",
+            "skuIds": {
+              "nonfoil": "6899af39-45cb-5617-b48a-a83ed1822944"
             },
-            "language": "Spanish",
-            "multiverseId": 589679,
-            "name": "Discípula de la perdición",
-            "text": "Cuando la Discípula de la perdición muera, elige uno. Si tienes exactamente 13 vidas, puedes elegir ambos.\n• Robas una carta y pierdes 1 vida.\n• Exilia el cementerio del oponente objetivo. Ese jugador pierde 1 vida.",
-            "type": "Criatura — Brujo humano",
-            "uuid": "c9542c99-3b69-54de-81bf-0488304b2050"
+            "text": "当坏灭信徒死去时，选择一项。如果你的总生命正好为13，则你可以两项都选。\n•你抓一张牌且失去1点生命。\n•放逐目标对手的坟墓场。该牌手失去1点生命。",
+            "type": "生物 ～人类／邪术师",
+            "uuid": "fe1edd2c-0a69-5bf6-a60c-9428779a4ddc"
           },
           {
             "flavorText": "« Vous pourriez me donner un peu de votre sang pour mon précieux petit arbre ? »",
@@ -267,9 +275,28 @@
             "language": "French",
             "multiverseId": 589730,
             "name": "Disciple de la perdition",
+            "skuIds": {
+              "nonfoil": "00b8b520-a660-5222-806b-2eb0e5da55a1"
+            },
             "text": "Quand la Disciple de la perdition meurt, choisissez l'un. Si vous avez exactement 13 points de vie, vous pouvez choisir les deux.\n• Vous piochez une carte et vous perdez 1 point de vie.\n• Exilez le cimetière d'un adversaire ciblé. Ce joueur perd 1 point de vie.",
             "type": "Créature : humain et psychagogue",
             "uuid": "ffaad110-beb4-5f14-bfe0-9b48ba978b6d"
+          },
+          {
+            "flavorText": "„Könntest du etwas von deinem Blut für meinen süßen kleinen Baum erübrigen?\"",
+            "identifiers": {
+              "multiverseId": "589628",
+              "scryfallId": "7f29936e-bbb1-47f2-9ba0-97a3245495ea"
+            },
+            "language": "German",
+            "multiverseId": 589628,
+            "name": "Schülerin der Verdammnis",
+            "skuIds": {
+              "nonfoil": "4e62003e-42ac-56eb-a6d9-95f0957e75f4"
+            },
+            "text": "Wenn die Schülerin der Verdammnis stirbt, bestimme eines. Falls du genau 13 Lebenspunkte hast, kannst du beides bestimmen.\n• Du ziehst eine Karte und verlierst 1 Lebenspunkt.\n• Schicke den Friedhof eines Gegners deiner Wahl ins Exil. Jener Spieler verliert 1 Lebenspunkt.",
+            "type": "Kreatur — Mensch, Hexenmeister",
+            "uuid": "282356f0-e64d-56f0-8370-38ae773db2ff"
           },
           {
             "flavorText": "\"Non ti avanzerebbe un po' del tuo sangue per il mio prezioso alberello?\"",
@@ -280,6 +307,9 @@
             "language": "Italian",
             "multiverseId": 589781,
             "name": "Discepola della Perdizione",
+            "skuIds": {
+              "nonfoil": "28d0972d-d8db-5dc4-9097-d23214fdbc2a"
+            },
             "text": "Quando la Discepola della Perdizione muore, scegli uno. Se hai esattamente 13 punti vita, puoi scegliere entrambi.\n• Pesca una carta e perdi 1 punto vita.\n• Esilia il cimitero di un avversario bersaglio. Quel giocatore perde 1 punto vita.",
             "type": "Creatura — Warlock Umano",
             "uuid": "92fb49a7-487f-555d-90bc-60e5dc928cdd"
@@ -293,27 +323,31 @@
             "language": "Japanese",
             "multiverseId": 589832,
             "name": "地獄の信奉者",
+            "skuIds": {
+              "nonfoil": "558b0269-0d8b-5f0c-8054-a4a3a9fb7959"
+            },
             "text": "地獄の信奉者が死亡したとき、以下から１つを選ぶ。あなたのライフ総量がちょうど13点なら、あなたは両方を選んでもよい。\n・あなたはカード１枚を引き、１点のライフを失う。\n・対戦相手１人を対象とする。そのプレイヤーの墓地を追放する。そのプレイヤーは１点のライフを失う。",
             "type": "クリーチャー — 人間・邪術師",
             "uuid": "e1192ba0-914d-5f74-8282-4ff56f7e6132"
           },
           {
-            "flavorText": "「您能不能为我的宝贝小树捐点血？」",
+            "flavorText": "\"¿Podrías darme un poco de tu sangre para mi querido arbolito?\".",
             "identifiers": {
-              "multiverseId": "589985",
-              "scryfallId": "467275b7-fd2f-4dec-a5a9-e87af83e26c9"
+              "multiverseId": "589679",
+              "scryfallId": "3d3a3e82-a252-4dc9-8438-4aea235e75b5"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589985,
-            "name": "坏灭信徒",
-            "text": "当坏灭信徒死去时，选择一项。如果你的总生命正好为13，则你可以两项都选。\n•你抓一张牌且失去1点生命。\n•放逐目标对手的坟墓场。该牌手失去1点生命。",
-            "type": "生物 ～人类／邪术师",
-            "uuid": "fe1edd2c-0a69-5bf6-a60c-9428779a4ddc"
+            "language": "Spanish",
+            "multiverseId": 589679,
+            "name": "Discípula de la perdición",
+            "skuIds": {
+              "nonfoil": "d178c321-7f65-5590-9b42-17c80b2cab43"
+            },
+            "text": "Cuando la Discípula de la perdición muera, elige uno. Si tienes exactamente 13 vidas, puedes elegir ambos.\n• Robas una carta y pierdes 1 vida.\n• Exilia el cementerio del oponente objetivo. Ese jugador pierde 1 vida.",
+            "type": "Criatura — Brujo humano",
+            "uuid": "c9542c99-3b69-54de-81bf-0488304b2050"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270247",
           "cardsphereId": "96816",
@@ -344,6 +378,7 @@
         "name": "Disciple of Perdition",
         "number": "23",
         "originalText": "When Disciple of Perdition dies, choose one. If you have exactly 13 life, you may choose both.\n• You draw a card and you lose 1 life.\n• Exile target opponent's graveyard. That player loses 1 life.",
+        "originalType": "Creature – Human Warlock",
         "power": "1",
         "printings": [
           "J22"
@@ -355,9 +390,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3d2771df-139e-57ab-ab47-004de7e0afa2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -393,7 +433,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 6939,
+        "edhrecRank": 6540,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
@@ -401,30 +441,20 @@
         "flavorText": "Freshly promoted to \"first rock,\" Zaz was eager to make an impact.",
         "foreignData": [
           {
-            "flavorText": "Gerade zum „Weichgeschoss\" befördert, brannte Zaz darauf, richtig Eindruck zu hinterlassen.",
+            "flavorText": "刚晋升为「尖石」的查仔等不及要有冲击性的表现。",
             "identifiers": {
-              "multiverseId": "594126",
-              "scryfallId": "c514cfbe-a94a-49f3-8a50-b97347b88a03"
+              "multiverseId": "594945",
+              "scryfallId": "94620425-b4a2-4204-aec3-c990f1ac289f"
             },
-            "language": "German",
-            "multiverseId": 594126,
-            "name": "Schleudertrupp-Leutnant",
-            "text": "Wenn der Schleudertrupp-Leutnant ins Spiel kommt, erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.\nOpfere einen Goblin: Ein Spieler deiner Wahl verliert 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
-            "type": "Kreatur — Goblin",
-            "uuid": "a096e99c-8509-5a82-bc46-8ea9376f46d3"
-          },
-          {
-            "flavorText": "Con su reciente ascenso a \"primera roca\", Zaz estaba deseando causar impacto.",
-            "identifiers": {
-              "multiverseId": "594243",
-              "scryfallId": "b437b340-3397-4514-b018-a675679dfcd8"
+            "language": "Chinese Simplified",
+            "multiverseId": 594945,
+            "name": "掷弹指战官",
+            "skuIds": {
+              "nonfoil": "5411a6d2-d8eb-53fc-ac70-d9186a724c4d"
             },
-            "language": "Spanish",
-            "multiverseId": 594243,
-            "name": "Teniente del lanzatrasgos",
-            "text": "Cuando el Teniente del lanzatrasgos entre al campo de batalla, crea dos fichas de criatura Trasgo rojas 1/1.\nSacrificar un Trasgo: El jugador objetivo pierde 1 vida y tú ganas 1 vida.",
-            "type": "Criatura — Trasgo",
-            "uuid": "af201208-8ce2-54db-b3e6-10ab59630d20"
+            "text": "当掷弹指战官进战场时，派出两个1/1红色鬼怪衍生生物。\n牺牲一个鬼怪：目标牌手失去1点生命且你获得1点生命。",
+            "type": "生物 ～鬼怪",
+            "uuid": "9f3bb805-de0a-529d-9913-304e26883c29"
           },
           {
             "flavorText": "Récemment promu « première pierre », Zaz était impatient d'avoir un impact sur les combats.",
@@ -435,9 +465,28 @@
             "language": "French",
             "multiverseId": 594360,
             "name": "Lieutenant des catapultants",
+            "skuIds": {
+              "nonfoil": "642f6a77-8371-56d3-a0eb-c564be8f1838"
+            },
             "text": "Quand le Lieutenant des catapultants arrive sur le champ de bataille, créez deux jetons de créature 1/1 rouge Gobelin.\nSacrifiez un gobelin : Un joueur ciblé perd 1 point de vie et vous gagnez 1 point de vie.",
             "type": "Créature : gobelin",
             "uuid": "8e1e24b7-6c4d-5bc0-8401-041ff3d30d14"
+          },
+          {
+            "flavorText": "Gerade zum „Weichgeschoss\" befördert, brannte Zaz darauf, richtig Eindruck zu hinterlassen.",
+            "identifiers": {
+              "multiverseId": "594126",
+              "scryfallId": "c514cfbe-a94a-49f3-8a50-b97347b88a03"
+            },
+            "language": "German",
+            "multiverseId": 594126,
+            "name": "Schleudertrupp-Leutnant",
+            "skuIds": {
+              "nonfoil": "b884c43c-d696-5a38-b141-ffd0e29291bc"
+            },
+            "text": "Wenn der Schleudertrupp-Leutnant ins Spiel kommt, erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.\nOpfere einen Goblin: Ein Spieler deiner Wahl verliert 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
+            "type": "Kreatur — Goblin",
+            "uuid": "a096e99c-8509-5a82-bc46-8ea9376f46d3"
           },
           {
             "flavorText": "Appena promosso a \"prima pietra\", Zaz era ansioso di fare colpo.",
@@ -448,6 +497,9 @@
             "language": "Italian",
             "multiverseId": 594477,
             "name": "Tenente della Squadra della Fionda",
+            "skuIds": {
+              "nonfoil": "05a081e8-6a2f-56fd-98c5-43b89c541897"
+            },
             "text": "Quando il Tenente della Squadra della Fionda entra nel campo di battaglia, crea due pedine creatura Goblin 1/1 rosse.\nSacrifica un Goblin: Un giocatore bersaglio perde 1 punto vita e tu guadagni 1 punto vita.",
             "type": "Creatura — Goblin",
             "uuid": "a0698b8e-ec97-5436-9949-8ee04324e986"
@@ -461,27 +513,31 @@
             "language": "Japanese",
             "multiverseId": 594594,
             "name": "投石攻撃の副官",
+            "skuIds": {
+              "nonfoil": "ace0bb76-9359-568f-a2e8-ff15621a0291"
+            },
             "text": "投石攻撃の副官が戦場に出たとき、赤の１/１のゴブリン・クリーチャー・トークン２体を生成する。\nゴブリン１体を生け贄に捧げる：プレイヤー１人を対象とする。そのプレイヤーは１点のライフを失い、あなたは１点のライフを得る。",
             "type": "クリーチャー — ゴブリン",
             "uuid": "7895368c-4636-5199-a108-8fac32c3c7af"
           },
           {
-            "flavorText": "刚晋升为「尖石」的查仔等不及要有冲击性的表现。",
+            "flavorText": "Con su reciente ascenso a \"primera roca\", Zaz estaba deseando causar impacto.",
             "identifiers": {
-              "multiverseId": "594945",
-              "scryfallId": "94620425-b4a2-4204-aec3-c990f1ac289f"
+              "multiverseId": "594243",
+              "scryfallId": "b437b340-3397-4514-b018-a675679dfcd8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594945,
-            "name": "掷弹指战官",
-            "text": "当掷弹指战官进战场时，派出两个1/1红色鬼怪衍生生物。\n牺牲一个鬼怪：目标牌手失去1点生命且你获得1点生命。",
-            "type": "生物 ～鬼怪",
-            "uuid": "9f3bb805-de0a-529d-9913-304e26883c29"
+            "language": "Spanish",
+            "multiverseId": 594243,
+            "name": "Teniente del lanzatrasgos",
+            "skuIds": {
+              "nonfoil": "7bd9af54-5cc6-5330-a994-1937af025684"
+            },
+            "text": "Cuando el Teniente del lanzatrasgos entre al campo de batalla, crea dos fichas de criatura Trasgo rojas 1/1.\nSacrificar un Trasgo: El jugador objetivo pierde 1 vida y tú ganas 1 vida.",
+            "type": "Criatura — Trasgo",
+            "uuid": "af201208-8ce2-54db-b3e6-10ab59630d20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271336",
           "cardsphereId": "97476",
@@ -518,6 +574,7 @@
         "name": "Sling-Gang Lieutenant",
         "number": "469",
         "originalText": "When Sling-Gang Lieutenant enters the battlefield, create two 1/1 red Goblin creature tokens.\nSacrifice a Goblin: Target player loses 1 life and you gain 1 life.",
+        "originalType": "Creature – Goblin",
         "power": "1",
         "printings": [
           "H2R",
@@ -532,6 +589,11 @@
           "tcgplayer": "https://mtgjson.com/links/0b9de67a8cdfffc8"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "624155e0-9fb2-5dc4-ab66-fb7cd6196d53"
+          ]
+        },
         "rulings": [
           {
             "date": "2019-06-14",
@@ -539,9 +601,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "b8fd70f4-2915-5908-adf5-0222bb982b66"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -576,7 +643,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 15549,
+        "edhrecRank": 15933,
         "edhrecSaltiness": 0.56,
         "finishes": [
           "nonfoil"
@@ -584,30 +651,20 @@
         "flavorText": "It withers fruit and flesh alike.",
         "foreignData": [
           {
-            "flavorText": "Ob Früchte oder Fleisch, bei seinen Mahlzeiten ist er nicht wählerisch.",
+            "flavorText": "它能让花果凋零，也能让肉身凋落。",
             "identifiers": {
-              "multiverseId": "594035",
-              "scryfallId": "388bf5d4-c816-4a34-84ad-f693c3931496"
+              "multiverseId": "594854",
+              "scryfallId": "934bcf6c-6369-4032-a0b5-021f6b42d257"
             },
-            "language": "German",
-            "multiverseId": 594035,
-            "name": "Hüter der Fäulnis",
-            "text": "Fliegend\n{7}{B}, {T}, opfere den Hüter der Fäulnis: Ein Gegner deiner Wahl verliert 4 Lebenspunkte und du erhältst 4 Lebenspunkte dazu.",
-            "type": "Kreatur — Fledermaus, Bold",
-            "uuid": "a379df2a-1d14-5a03-91cb-c9576968f423"
-          },
-          {
-            "flavorText": "Pudre la fruta y la carne por igual.",
-            "identifiers": {
-              "multiverseId": "594152",
-              "scryfallId": "0784548f-d4b7-47d6-8828-6defe76a2bd5"
+            "language": "Chinese Simplified",
+            "multiverseId": 594854,
+            "name": "萎荒守卫",
+            "skuIds": {
+              "nonfoil": "c2894207-8a63-537a-a901-a7c76e7617fb"
             },
-            "language": "Spanish",
-            "multiverseId": 594152,
-            "name": "Guardián de la miseria",
-            "text": "Vuela.\n{7}{B}, {T}, sacrificar al Guardián de la miseria: El oponente objetivo pierde 4 vidas y tú ganas 4 vidas.",
-            "type": "Criatura — Diablillo murciélago",
-            "uuid": "6549db0a-b77c-5973-ae85-a94a68a889ff"
+            "text": "飞行\n{7}{B}，{T}，牺牲萎荒守卫：目标对手失去4点生命且你获得4点生命。",
+            "type": "生物 ～蝙蝠／小恶魔",
+            "uuid": "80d942c8-d142-5a2d-9fc3-b843bd940eb8"
           },
           {
             "flavorText": "Il flétrit aussi bien le fruit que la chair.",
@@ -618,9 +675,28 @@
             "language": "French",
             "multiverseId": 594269,
             "name": "Gardien du fléau",
+            "skuIds": {
+              "nonfoil": "b25a1f2c-9773-5d9d-bb3a-5afa98323e9a"
+            },
             "text": "Vol\n{7}{B}, {T}, sacrifiez le Gardien du fléau : Un adversaire ciblé perd 4 points de vie et vous gagnez 4 points de vie.",
             "type": "Créature : chauve-souris et diablotin",
             "uuid": "b9add77b-8ae6-5294-be02-60d69d48c53e"
+          },
+          {
+            "flavorText": "Ob Früchte oder Fleisch, bei seinen Mahlzeiten ist er nicht wählerisch.",
+            "identifiers": {
+              "multiverseId": "594035",
+              "scryfallId": "388bf5d4-c816-4a34-84ad-f693c3931496"
+            },
+            "language": "German",
+            "multiverseId": 594035,
+            "name": "Hüter der Fäulnis",
+            "skuIds": {
+              "nonfoil": "790b1625-df63-5105-8587-d61299ed6b2e"
+            },
+            "text": "Fliegend\n{7}{B}, {T}, opfere den Hüter der Fäulnis: Ein Gegner deiner Wahl verliert 4 Lebenspunkte und du erhältst 4 Lebenspunkte dazu.",
+            "type": "Kreatur — Fledermaus, Bold",
+            "uuid": "a379df2a-1d14-5a03-91cb-c9576968f423"
           },
           {
             "flavorText": "La sua consunzione colpisce la carne al pari della frutta.",
@@ -631,6 +707,9 @@
             "language": "Italian",
             "multiverseId": 594386,
             "name": "Guardiano dell'Avvizzimento",
+            "skuIds": {
+              "nonfoil": "385e9ad6-ea18-5f18-924e-ac3f843c8a26"
+            },
             "text": "Volare\n{7}{B}, {T}, Sacrifica il Guardiano dell'Avvizzimento: Un avversario bersaglio perde 4 punti vita e tu guadagni 4 punti vita.",
             "type": "Creatura — Imp Pipistrello",
             "uuid": "7fea55dd-27b0-54ce-a893-c67a8d9c557f"
@@ -644,27 +723,31 @@
             "language": "Japanese",
             "multiverseId": 594503,
             "name": "立ち枯れの守り手",
+            "skuIds": {
+              "nonfoil": "9e637d0a-5e31-5da7-a677-5c0663fbc827"
+            },
             "text": "飛行\n{7}{B},{T},立ち枯れの守り手を生け贄に捧げる：対戦相手１人を対象とする。そのプレイヤーは４点のライフを失い、あなたは４点のライフを得る。",
             "type": "クリーチャー — コウモリ・インプ",
             "uuid": "0e0b2415-b70f-5078-91d5-02288a48ac3e"
           },
           {
-            "flavorText": "它能让花果凋零，也能让肉身凋落。",
+            "flavorText": "Pudre la fruta y la carne por igual.",
             "identifiers": {
-              "multiverseId": "594854",
-              "scryfallId": "934bcf6c-6369-4032-a0b5-021f6b42d257"
+              "multiverseId": "594152",
+              "scryfallId": "0784548f-d4b7-47d6-8828-6defe76a2bd5"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594854,
-            "name": "萎荒守卫",
-            "text": "飞行\n{7}{B}，{T}，牺牲萎荒守卫：目标对手失去4点生命且你获得4点生命。",
-            "type": "生物 ～蝙蝠／小恶魔",
-            "uuid": "80d942c8-d142-5a2d-9fc3-b843bd940eb8"
+            "language": "Spanish",
+            "multiverseId": 594152,
+            "name": "Guardián de la miseria",
+            "skuIds": {
+              "nonfoil": "1b86580c-672a-51c0-8146-8efc0bf02133"
+            },
+            "text": "Vuela.\n{7}{B}, {T}, sacrificar al Guardián de la miseria: El oponente objetivo pierde 4 vidas y tú ganas 4 vidas.",
+            "type": "Criatura — Diablillo murciélago",
+            "uuid": "6549db0a-b77c-5973-ae85-a94a68a889ff"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270423",
           "cardsphereId": "97138",
@@ -707,6 +790,7 @@
         "name": "Blight Keeper",
         "number": "378",
         "originalText": "Flying\n{7}{B}, {T}, Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.",
+        "originalType": "Creature – Bat Imp",
         "power": "1",
         "printings": [
           "J22",
@@ -719,9 +803,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5d62967a-5414-5ccf-a883-16b4f08f4e78"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -757,7 +846,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18762,
+        "edhrecRank": 19237,
         "edhrecSaltiness": 0.68,
         "finishes": [
           "nonfoil"
@@ -765,30 +854,20 @@
         "flavorText": "On still nights you can hear its rotted teeth grinding tirelessly on scavenged bones.",
         "foreignData": [
           {
-            "flavorText": "In stillen Nächten kann man hören, wie seine verfaulten Zähne unermüdlich erbeutete Knochen zermalmen.",
+            "flavorText": "在寂静的夜晚，你能听到它腐烂的牙齿不知疲倦地磨着捡来的骨头。",
             "identifiers": {
-              "multiverseId": "594076",
-              "scryfallId": "89d0c27a-e554-44a9-abc1-e8169725633b"
+              "multiverseId": "594895",
+              "scryfallId": "6ed2ec8c-04a0-4c7d-b487-e06456b8000a"
             },
-            "language": "German",
-            "multiverseId": 594076,
-            "name": "Abnagender Zombie",
-            "text": "{1}{B}, opfere eine Kreatur: Ein Spieler deiner Wahl verliert 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
-            "type": "Kreatur — Zombie",
-            "uuid": "32c6577a-8622-524f-885c-90f19415b0ee"
-          },
-          {
-            "flavorText": "En noches silenciosas, se puede oír cómo sus pútridos dientes roen sin cesar los huesos carroñados.",
-            "identifiers": {
-              "multiverseId": "594193",
-              "scryfallId": "658d911c-b96d-4658-b0e7-ea71309facf9"
+            "language": "Chinese Simplified",
+            "multiverseId": 594895,
+            "name": "啃食灵俑",
+            "skuIds": {
+              "nonfoil": "9bfd9b4f-5a59-508b-ad22-a176cfca43ec"
             },
-            "language": "Spanish",
-            "multiverseId": 594193,
-            "name": "Zombie mordiente",
-            "text": "{1}{B}, sacrificar una criatura: El jugador objetivo pierde 1 vida y tú ganas 1 vida.",
-            "type": "Criatura — Zombie",
-            "uuid": "232b9c94-a69e-5c0b-a61d-be20874c242b"
+            "text": "{1}{B}，牺牲一个生物：目标牌手失去1点生命且你获得1点生命。",
+            "type": "生物 ～灵俑",
+            "uuid": "28004a20-5237-5b20-ba59-7c6e75c614ce"
           },
           {
             "flavorText": "Quand la nuit est calme, on entend ses chicots grincer pendant des heures sur les os qu'il a déterrés.",
@@ -799,9 +878,28 @@
             "language": "French",
             "multiverseId": 594310,
             "name": "Zombie rongeur",
+            "skuIds": {
+              "nonfoil": "1aa01e6c-650d-5c3b-993c-3871d8e0f3c0"
+            },
             "text": "{1}{B}, sacrifiez une créature : Un joueur ciblé perd 1 point de vie et vous gagnez 1 point de vie.",
             "type": "Créature : zombie",
             "uuid": "ec582fda-0c4d-55a3-a0f5-5ec9153f5ca0"
+          },
+          {
+            "flavorText": "In stillen Nächten kann man hören, wie seine verfaulten Zähne unermüdlich erbeutete Knochen zermalmen.",
+            "identifiers": {
+              "multiverseId": "594076",
+              "scryfallId": "89d0c27a-e554-44a9-abc1-e8169725633b"
+            },
+            "language": "German",
+            "multiverseId": 594076,
+            "name": "Abnagender Zombie",
+            "skuIds": {
+              "nonfoil": "ac23d1dc-1ac7-5fbf-8996-2dc2635f75d4"
+            },
+            "text": "{1}{B}, opfere eine Kreatur: Ein Spieler deiner Wahl verliert 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
+            "type": "Kreatur — Zombie",
+            "uuid": "32c6577a-8622-524f-885c-90f19415b0ee"
           },
           {
             "flavorText": "Nelle notti serene puoi sentire i suoi denti marci che macinano senza sosta sulle ossa che ha raccattato.",
@@ -812,6 +910,9 @@
             "language": "Italian",
             "multiverseId": 594427,
             "name": "Zombie Rosicante",
+            "skuIds": {
+              "nonfoil": "641e922d-ef67-5e16-ae7a-5f6c05d53559"
+            },
             "text": "{1}{B}, Sacrifica una creatura: Un giocatore bersaglio perde 1 punto vita e tu guadagni 1 punto vita.",
             "type": "Creatura — Zombie",
             "uuid": "96201bd0-86fa-56dd-88ef-2e98e8a7fc5f"
@@ -825,27 +926,31 @@
             "language": "Japanese",
             "multiverseId": 594544,
             "name": "かじりつくゾンビ",
+            "skuIds": {
+              "nonfoil": "a7cba408-cd3a-567a-b30f-64b9e8a609a8"
+            },
             "text": "{1}{B},クリーチャー１体を生け贄に捧げる：プレイヤー１人を対象とする。そのプレイヤーは１点のライフを失い、あなたは１点のライフを得る。",
             "type": "クリーチャー — ゾンビ",
             "uuid": "6a32ac35-31bc-54dd-bd2b-aed7d7d53f7a"
           },
           {
-            "flavorText": "在寂静的夜晚，你能听到它腐烂的牙齿不知疲倦地磨着捡来的骨头。",
+            "flavorText": "En noches silenciosas, se puede oír cómo sus pútridos dientes roen sin cesar los huesos carroñados.",
             "identifiers": {
-              "multiverseId": "594895",
-              "scryfallId": "6ed2ec8c-04a0-4c7d-b487-e06456b8000a"
+              "multiverseId": "594193",
+              "scryfallId": "658d911c-b96d-4658-b0e7-ea71309facf9"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594895,
-            "name": "啃食灵俑",
-            "text": "{1}{B}，牺牲一个生物：目标牌手失去1点生命且你获得1点生命。",
-            "type": "生物 ～灵俑",
-            "uuid": "28004a20-5237-5b20-ba59-7c6e75c614ce"
+            "language": "Spanish",
+            "multiverseId": 594193,
+            "name": "Zombie mordiente",
+            "skuIds": {
+              "nonfoil": "05dd52b6-2ae6-5b0f-9cb1-d71d12017b2f"
+            },
+            "text": "{1}{B}, sacrificar una criatura: El jugador objetivo pierde 1 vida y tú ganas 1 vida.",
+            "type": "Criatura — Zombie",
+            "uuid": "232b9c94-a69e-5c0b-a61d-be20874c242b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270442",
           "cardsphereId": "97176",
@@ -886,6 +991,7 @@
         "name": "Gnawing Zombie",
         "number": "419",
         "originalText": "{1}{B}, Sacrifice a creature: Target player loses 1 life and you gain 1 life.",
+        "originalType": "Creature – Zombie",
         "power": "1",
         "printings": [
           "J22",
@@ -900,9 +1006,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "cb794302-b0a4-5482-8370-250d5a663cbd"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -937,7 +1048,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 24957,
+        "edhrecRank": 25522,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -945,30 +1056,20 @@
         "flavorText": "\"I can no longer stand by as these Skirsdag infiltrators rot the church from within. Even the Lunarch Council is compromised. What a fool I've been.\"\n—Odric",
         "foreignData": [
           {
-            "flavorText": "„Ich kann nicht länger zusehen, wie diese Skirsdag-Infiltratoren die Kirche von innen verderben. Selbst der Rat der Lunarchen ist kompromittiert. Was war ich bloß für ein Narr.\"\n—Odric",
+            "flavorText": "「我不能再袖手旁观，任由这些史革达潜入者从内部败坏教会。连月主会也已堕落。我居然如此无知。」\n～欧吉克",
             "identifiers": {
-              "multiverseId": "594125",
-              "scryfallId": "641f31a4-7517-4bbf-bb16-fde876a45008"
+              "multiverseId": "594944",
+              "scryfallId": "809d9c6d-65b0-4536-882a-0622062371dd"
             },
-            "language": "German",
-            "multiverseId": 594125,
-            "name": "Skirsdag-Supplikantin",
-            "text": "{B}, {T}, wirf eine Karte ab: Jeder Spieler verliert 2 Lebenspunkte.",
-            "type": "Kreatur — Mensch, Kleriker",
-            "uuid": "2c5172cf-39df-5b7f-8117-17b49dd5c7f1"
-          },
-          {
-            "flavorText": "\"No puedo seguir sentado mientras estos infiltradores Skirsdag corrompen la iglesia desde dentro. Incluso el Concilio lunarca está amenazado. He sido un idiota\".\n—Odric",
-            "identifiers": {
-              "multiverseId": "594242",
-              "scryfallId": "c0b2f69d-30f6-41d0-9c3e-4f2a52f5d020"
+            "language": "Chinese Simplified",
+            "multiverseId": 594944,
+            "name": "史革达祈愿僧",
+            "skuIds": {
+              "nonfoil": "f0827cd6-4c5a-5139-a8e7-4664a6801cb1"
             },
-            "language": "Spanish",
-            "multiverseId": 594242,
-            "name": "Suplicante Skirsdag",
-            "text": "{B}, {T}, descartar una carta: Cada jugador pierde 2 vidas.",
-            "type": "Criatura — Clérigo humano",
-            "uuid": "b1e8691e-69be-5229-bde8-8c5d773e7b4e"
+            "text": "{B}，{T}，弃一张牌：每位牌手各失去2点生命。",
+            "type": "生物 ～人类／僧侣",
+            "uuid": "219648e7-af6a-5943-ad8d-63baf58729cc"
           },
           {
             "flavorText": "« Je ne peux plus rester passif alors que ces adeptes de Skirsdag infiltrent l'église pour la pourrir de l'intérieur. Même le Conseil lunarque a été compromis. Je me suis conduit comme un imbécile. »\n—Odric",
@@ -979,9 +1080,28 @@
             "language": "French",
             "multiverseId": 594359,
             "name": "Supplicatrice de Skirsdag",
+            "skuIds": {
+              "nonfoil": "5c0e11c2-acd5-5a86-acd6-c21aaf51391a"
+            },
             "text": "{B}, {T}, défaussez-vous d'une carte : Chaque joueur perd 2 points de vie.",
             "type": "Créature : humain et clerc",
             "uuid": "c3b2bf1b-2443-54ac-b0b1-a7f769a23349"
+          },
+          {
+            "flavorText": "„Ich kann nicht länger zusehen, wie diese Skirsdag-Infiltratoren die Kirche von innen verderben. Selbst der Rat der Lunarchen ist kompromittiert. Was war ich bloß für ein Narr.\"\n—Odric",
+            "identifiers": {
+              "multiverseId": "594125",
+              "scryfallId": "641f31a4-7517-4bbf-bb16-fde876a45008"
+            },
+            "language": "German",
+            "multiverseId": 594125,
+            "name": "Skirsdag-Supplikantin",
+            "skuIds": {
+              "nonfoil": "4532c443-9059-5c60-bdb2-e9e463e0a085"
+            },
+            "text": "{B}, {T}, wirf eine Karte ab: Jeder Spieler verliert 2 Lebenspunkte.",
+            "type": "Kreatur — Mensch, Kleriker",
+            "uuid": "2c5172cf-39df-5b7f-8117-17b49dd5c7f1"
           },
           {
             "flavorText": "\"Non posso più stare a guardare mentre questi infiltrati Skirsdag corrompono la chiesa dall'interno. Anche il Concilio Lunarca è compromesso. Che sciocco sono stato.\"\n—Odric",
@@ -992,6 +1112,9 @@
             "language": "Italian",
             "multiverseId": 594476,
             "name": "Supplicante Skirsdag",
+            "skuIds": {
+              "nonfoil": "d8364cb0-1aa0-57ec-9625-fd983032e04f"
+            },
             "text": "{B}, {T}, Scarta una carta: Ogni giocatore perde 2 punti vita.",
             "type": "Creatura — Chierico Umano",
             "uuid": "54815ba7-bbb8-55a9-9022-8b05acf7ee36"
@@ -1005,27 +1128,31 @@
             "language": "Japanese",
             "multiverseId": 594593,
             "name": "スカースダグの嘆願者",
+            "skuIds": {
+              "nonfoil": "04d4505b-c2b4-5577-ae96-9ead67894592"
+            },
             "text": "{B},{T},カード１枚を捨てる：各プレイヤーはそれぞれ２点のライフを失う。",
             "type": "クリーチャー — 人間・クレリック",
             "uuid": "1b5fb892-cd0f-5697-b3e2-4bc4c2e551c5"
           },
           {
-            "flavorText": "「我不能再袖手旁观，任由这些史革达潜入者从内部败坏教会。连月主会也已堕落。我居然如此无知。」\n～欧吉克",
+            "flavorText": "\"No puedo seguir sentado mientras estos infiltradores Skirsdag corrompen la iglesia desde dentro. Incluso el Concilio lunarca está amenazado. He sido un idiota\".\n—Odric",
             "identifiers": {
-              "multiverseId": "594944",
-              "scryfallId": "809d9c6d-65b0-4536-882a-0622062371dd"
+              "multiverseId": "594242",
+              "scryfallId": "c0b2f69d-30f6-41d0-9c3e-4f2a52f5d020"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594944,
-            "name": "史革达祈愿僧",
-            "text": "{B}，{T}，弃一张牌：每位牌手各失去2点生命。",
-            "type": "生物 ～人类／僧侣",
-            "uuid": "219648e7-af6a-5943-ad8d-63baf58729cc"
+            "language": "Spanish",
+            "multiverseId": 594242,
+            "name": "Suplicante Skirsdag",
+            "skuIds": {
+              "nonfoil": "ed878674-1193-5ea1-8a2b-838f9cb461e7"
+            },
+            "text": "{B}, {T}, descartar una carta: Cada jugador pierde 2 vidas.",
+            "type": "Criatura — Clérigo humano",
+            "uuid": "b1e8691e-69be-5229-bde8-8c5d773e7b4e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271335",
           "cardsphereId": "97466",
@@ -1062,6 +1189,7 @@
         "name": "Skirsdag Supplicant",
         "number": "468",
         "originalText": "{B}, {T}, Discard a card: Each player loses 2 life.",
+        "originalType": "Creature – Human Cleric",
         "power": "2",
         "printings": [
           "EMN",
@@ -1084,9 +1212,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "d4c0ba85-c445-5b1c-ab91-c2db21002253"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1122,7 +1255,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20240,
+        "edhrecRank": 20585,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
@@ -1130,30 +1263,20 @@
         "flavorText": "Vowing to free the souls of her children, Kastinne followed the tormentors into the ghastly network of caves below Stensia.",
         "foreignData": [
           {
-            "flavorText": "Kerstin schwor, die Seelen ihrer Kinder zu befreien, und verfolgte die Peiniger in das grausige Höhlennetzwerk unter Stenzen.",
+            "flavorText": "凯思汀发誓要让孩子的灵魂获得自由，跟踪拷问者进入史顿襄地底阴森的洞穴网。",
             "identifiers": {
-              "multiverseId": "594127",
-              "scryfallId": "c993e2c3-a8fe-4e06-9fff-0c3efc1ab7ce"
+              "multiverseId": "594946",
+              "scryfallId": "8131430e-bb66-4e52-984f-d15baf1199cd"
             },
-            "language": "German",
-            "multiverseId": 594127,
-            "name": "Seelenkerker-Unhold",
-            "text": "Wenn der Seelenkerker-Unhold stirbt, verliert jeder Spieler 3 Lebenspunkte.",
-            "type": "Kreatur — Dämon",
-            "uuid": "6b6d898e-1c6c-5823-a1f8-6139f265c849"
-          },
-          {
-            "flavorText": "Habiendo jurado que liberaría las almas de sus hijos, Kastinne siguió a los atormentadores al interior de la horrible red de cuevas bajo Stensia.",
-            "identifiers": {
-              "multiverseId": "594244",
-              "scryfallId": "741e92d0-25ff-4a94-a49e-70f8b491c79b"
+            "language": "Chinese Simplified",
+            "multiverseId": 594946,
+            "name": "魂槛邪鬼",
+            "skuIds": {
+              "nonfoil": "8deae4f1-662e-537a-b97a-da510e604747"
             },
-            "language": "Spanish",
-            "multiverseId": 594244,
-            "name": "Demonio jaula del alma",
-            "text": "Cuando el Demonio jaula del alma muera, cada jugador pierde 3 vidas.",
-            "type": "Criatura — Demonio",
-            "uuid": "884de1c1-fb21-54c9-8f5d-7beaeebd8554"
+            "text": "当魂槛邪鬼死去时，每位牌手各失去3点生命。",
+            "type": "生物 ～恶魔",
+            "uuid": "9f02f834-2896-5929-aa61-b2838ed76d26"
           },
           {
             "flavorText": "Ayant fait vœu de libérer les âmes de ses enfants, Kastinne suivit les persécuteurs dans les méandres effroyables des cavernes situées dans les profondeurs de la Stensie.",
@@ -1164,9 +1287,28 @@
             "language": "French",
             "multiverseId": 594361,
             "name": "Fielleux de la cage aux âmes",
+            "skuIds": {
+              "nonfoil": "d42a2df5-6539-5e31-9cbb-7c0f2226cfe6"
+            },
             "text": "Quand le Fielleux de la cage aux âmes meurt, chaque joueur perd 3 points de vie.",
             "type": "Créature : démon",
             "uuid": "f4f59c11-5f8d-5a1b-a24c-b01892c308bb"
+          },
+          {
+            "flavorText": "Kerstin schwor, die Seelen ihrer Kinder zu befreien, und verfolgte die Peiniger in das grausige Höhlennetzwerk unter Stenzen.",
+            "identifiers": {
+              "multiverseId": "594127",
+              "scryfallId": "c993e2c3-a8fe-4e06-9fff-0c3efc1ab7ce"
+            },
+            "language": "German",
+            "multiverseId": 594127,
+            "name": "Seelenkerker-Unhold",
+            "skuIds": {
+              "nonfoil": "c12cc0fa-3dce-53b8-9c67-9d302f718746"
+            },
+            "text": "Wenn der Seelenkerker-Unhold stirbt, verliert jeder Spieler 3 Lebenspunkte.",
+            "type": "Kreatur — Dämon",
+            "uuid": "6b6d898e-1c6c-5823-a1f8-6139f265c849"
           },
           {
             "flavorText": "Giurando di liberare le anime dei suoi figli, Kastinne seguì i carnefici nelle spaventose caverne sotto a Stensia.",
@@ -1177,6 +1319,9 @@
             "language": "Italian",
             "multiverseId": 594478,
             "name": "Immondo Ingabbia-Anime",
+            "skuIds": {
+              "nonfoil": "cf1aa8d8-f202-50b6-9dd0-306023d60493"
+            },
             "text": "Quando l'Immondo Ingabbia-Anime muore, ogni giocatore perde 3 punti vita.",
             "type": "Creatura — Demone",
             "uuid": "1a3ce0ef-77d0-5918-8070-cf499e92a363"
@@ -1190,27 +1335,31 @@
             "language": "Japanese",
             "multiverseId": 594595,
             "name": "魂獄の悪鬼",
+            "skuIds": {
+              "nonfoil": "fd391612-a184-58ba-9f4c-2193e706da9e"
+            },
             "text": "魂獄の悪鬼が死亡したとき、各プレイヤーはそれぞれ３点のライフを失う。",
             "type": "クリーチャー — デーモン",
             "uuid": "3460810f-dab3-5f96-9e74-6d57a8927047"
           },
           {
-            "flavorText": "凯思汀发誓要让孩子的灵魂获得自由，跟踪拷问者进入史顿襄地底阴森的洞穴网。",
+            "flavorText": "Habiendo jurado que liberaría las almas de sus hijos, Kastinne siguió a los atormentadores al interior de la horrible red de cuevas bajo Stensia.",
             "identifiers": {
-              "multiverseId": "594946",
-              "scryfallId": "8131430e-bb66-4e52-984f-d15baf1199cd"
+              "multiverseId": "594244",
+              "scryfallId": "741e92d0-25ff-4a94-a49e-70f8b491c79b"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594946,
-            "name": "魂槛邪鬼",
-            "text": "当魂槛邪鬼死去时，每位牌手各失去3点生命。",
-            "type": "生物 ～恶魔",
-            "uuid": "9f02f834-2896-5929-aa61-b2838ed76d26"
+            "language": "Spanish",
+            "multiverseId": 594244,
+            "name": "Demonio jaula del alma",
+            "skuIds": {
+              "nonfoil": "b21c620c-bef8-5155-81eb-998e55a21f27"
+            },
+            "text": "Cuando el Demonio jaula del alma muera, cada jugador pierde 3 vidas.",
+            "type": "Criatura — Demonio",
+            "uuid": "884de1c1-fb21-54c9-8f5d-7beaeebd8554"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270452",
           "cardsphereId": "97239",
@@ -1246,6 +1395,7 @@
         "name": "Soulcage Fiend",
         "number": "470",
         "originalText": "When Soulcage Fiend dies, each player loses 3 life.",
+        "originalType": "Creature – Demon",
         "power": "3",
         "printings": [
           "AVR",
@@ -1258,9 +1408,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "c03bc7d2-3a7b-54d4-afe2-c75cfff53966"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1295,37 +1450,28 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 25264,
+        "edhrecRank": 25759,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"What kind of monstrous grave robber leaves the treasures, but takes the bodies?\"\n—Fjall, Beskir elder",
         "foreignData": [
           {
-            "flavorText": "„Was ist das für ein monströser Grabräuber, der die Schätze zurücklässt, aber die Leichen stiehlt?\"\n—Fjall, Beskir-Ältester",
+            "flavorText": "「哪门子的盗墓贼会把珍宝留下，而把尸体带走？」\n～贝斯奇长老弗亚尔",
             "identifiers": {
-              "multiverseId": "594061",
-              "scryfallId": "2b02ddee-c570-46e4-8218-a0c35c8c9445"
+              "multiverseId": "594880",
+              "scryfallId": "e0d90e36-fb63-471d-a8e8-e53bba107117"
             },
-            "language": "German",
-            "multiverseId": 594061,
-            "name": "Schreckensreiter",
-            "text": "{1}{B}, {T}, schicke eine Kreaturenkarte aus deinem Friedhof ins Exil: Ein Gegner deiner Wahl verliert 3 Lebenspunkte.",
-            "type": "Kreatur — Geist, Ritter",
-            "uuid": "4f01541d-d86d-5722-90fa-d52e419e0eba"
-          },
-          {
-            "flavorText": "\"¿Qué ladrón de tumbas monstruoso deja los tesoros y se lleva los cuerpos?\".\n—Fjall, anciano beskir",
-            "identifiers": {
-              "multiverseId": "594178",
-              "scryfallId": "78d8596d-1555-4550-b7a4-be342388a051"
+            "language": "Chinese Simplified",
+            "multiverseId": 594880,
+            "name": "恐惧魂骑",
+            "skuIds": {
+              "nonfoil": "0773cb9f-2ed1-5fb2-90cd-162cecb2579c"
             },
-            "language": "Spanish",
-            "multiverseId": 594178,
-            "name": "Jinete pavoroso",
-            "text": "{1}{B}, {T}, exiliar una carta de criatura de tu cementerio: El oponente objetivo pierde 3 vidas.",
-            "type": "Criatura — Caballero espíritu",
-            "uuid": "5e385345-707d-523a-852a-37f9a32084e3"
+            "text": "{1}{B}，{T}，从你的坟墓场放逐一张生物牌：目标对手失去3点生命。",
+            "type": "生物 ～精怪／骑士",
+            "uuid": "0c44dde1-31d1-5f1e-b5e4-15e4fa609ff9"
           },
           {
             "flavorText": "« Quel genre d'infâme pilleur de tombe laisse les trésors et prend les cadavres ? »\n—Fjall, ancêtre Beskir",
@@ -1336,9 +1482,28 @@
             "language": "French",
             "multiverseId": 594295,
             "name": "Cavalier de l'effroi",
+            "skuIds": {
+              "nonfoil": "8bd56430-f967-53fa-b56d-30e9ada84e70"
+            },
             "text": "{1}{B}, {T}, exilez une carte de créature depuis votre cimetière : Un adversaire ciblé perd 3 points de vie.",
             "type": "Créature : esprit et chevalier",
             "uuid": "70016937-93cc-54cd-a648-25cdeefafc59"
+          },
+          {
+            "flavorText": "„Was ist das für ein monströser Grabräuber, der die Schätze zurücklässt, aber die Leichen stiehlt?\"\n—Fjall, Beskir-Ältester",
+            "identifiers": {
+              "multiverseId": "594061",
+              "scryfallId": "2b02ddee-c570-46e4-8218-a0c35c8c9445"
+            },
+            "language": "German",
+            "multiverseId": 594061,
+            "name": "Schreckensreiter",
+            "skuIds": {
+              "nonfoil": "e679c7dc-b04d-51a2-b639-3f1952d3ab96"
+            },
+            "text": "{1}{B}, {T}, schicke eine Kreaturenkarte aus deinem Friedhof ins Exil: Ein Gegner deiner Wahl verliert 3 Lebenspunkte.",
+            "type": "Kreatur — Geist, Ritter",
+            "uuid": "4f01541d-d86d-5722-90fa-d52e419e0eba"
           },
           {
             "flavorText": "\"Che razza di mostruoso ladro di tombe lascia lì i tesori, ma si prende i cadaveri?\"\n—Fjall, anziano Beskir",
@@ -1349,6 +1514,9 @@
             "language": "Italian",
             "multiverseId": 594412,
             "name": "Cavalcante Terrificante",
+            "skuIds": {
+              "nonfoil": "750b468c-f1a1-517b-b821-80bf9cbd66d8"
+            },
             "text": "{1}{B}, {T}, Esilia una carta creatura dal tuo cimitero: Un avversario bersaglio perde 3 punti vita.",
             "type": "Creatura — Cavaliere Spirito",
             "uuid": "eb86f028-b769-5407-8fcc-c5295302a246"
@@ -1362,27 +1530,31 @@
             "language": "Japanese",
             "multiverseId": 594529,
             "name": "戦慄の乗り手",
+            "skuIds": {
+              "nonfoil": "159ca986-a1bb-580d-b5fe-2f30d0d17021"
+            },
             "text": "{1}{B},{T},あなたの墓地にあるクリーチャー・カード１枚を追放する：対戦相手１人を対象とする。そのプレイヤーは３点のライフを失う。",
             "type": "クリーチャー — スピリット・騎士",
             "uuid": "f345c4d9-83c4-5770-b6aa-91ca9aeba0ce"
           },
           {
-            "flavorText": "「哪门子的盗墓贼会把珍宝留下，而把尸体带走？」\n～贝斯奇长老弗亚尔",
+            "flavorText": "\"¿Qué ladrón de tumbas monstruoso deja los tesoros y se lleva los cuerpos?\".\n—Fjall, anciano beskir",
             "identifiers": {
-              "multiverseId": "594880",
-              "scryfallId": "e0d90e36-fb63-471d-a8e8-e53bba107117"
+              "multiverseId": "594178",
+              "scryfallId": "78d8596d-1555-4550-b7a4-be342388a051"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594880,
-            "name": "恐惧魂骑",
-            "text": "{1}{B}，{T}，从你的坟墓场放逐一张生物牌：目标对手失去3点生命。",
-            "type": "生物 ～精怪／骑士",
-            "uuid": "0c44dde1-31d1-5f1e-b5e4-15e4fa609ff9"
+            "language": "Spanish",
+            "multiverseId": 594178,
+            "name": "Jinete pavoroso",
+            "skuIds": {
+              "nonfoil": "875b8074-0274-5ab9-93f5-07c386c9ee67"
+            },
+            "text": "{1}{B}, {T}, exiliar una carta de criatura de tu cementerio: El oponente objetivo pierde 3 vidas.",
+            "type": "Criatura — Caballero espíritu",
+            "uuid": "5e385345-707d-523a-852a-37f9a32084e3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271534",
           "cardsphereId": "97461",
@@ -1422,6 +1594,7 @@
         "name": "Dread Rider",
         "number": "404",
         "originalText": "{1}{B}, {T}, Exile a creature card from your graveyard: Target opponent loses 3 life.",
+        "originalType": "Creature – Spirit Knight",
         "power": "3",
         "printings": [
           "J22",
@@ -1440,9 +1613,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "8e44adad-e91b-5fe1-ba58-eced6e41e6e1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1478,7 +1656,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 789,
+        "edhrecRank": 799,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
@@ -1486,30 +1664,20 @@
         "flavorText": "Linger on death's door and risk being invited in.",
         "foreignData": [
           {
-            "flavorText": "Wer an die Tür des Todes klopft, wird oft auch hereingebeten.",
+            "flavorText": "若徘徊于死亡门口，小心会给请进去。",
             "identifiers": {
-              "multiverseId": "594135",
-              "scryfallId": "e72ac735-95cd-4fe2-b457-1f77d9d9378a"
+              "multiverseId": "594954",
+              "scryfallId": "cfa6f90a-a30a-449c-8284-1a5d881332ad"
             },
-            "language": "German",
-            "multiverseId": 594135,
-            "name": "Tragischer Ausrutscher",
-            "text": "Eine Kreatur deiner Wahl erhält -1/-1 bis zum Ende des Zuges.\nMorbide — Diese Kreatur erhält stattdessen -13/-13 bis zum Ende des Zuges, falls in diesem Zug eine Kreatur gestorben ist.",
-            "type": "Spontanzauber",
-            "uuid": "dd5e0b96-fc61-5fa6-b618-b182c246521c"
-          },
-          {
-            "flavorText": "Asómate a la puerta de la muerte y correrás el riesgo de que te invite a pasar.",
-            "identifiers": {
-              "multiverseId": "594252",
-              "scryfallId": "a4efa4f8-72a3-4934-b823-995693414715"
+            "language": "Chinese Simplified",
+            "multiverseId": 594954,
+            "name": "悲剧失足",
+            "skuIds": {
+              "nonfoil": "2be87d30-8d6c-538d-80a4-c62bfccea06a"
             },
-            "language": "Spanish",
-            "multiverseId": 594252,
-            "name": "Desliz trágico",
-            "text": "La criatura objetivo obtiene -1/-1 hasta el final del turno.\nNecrario — En vez de eso, esa criatura obtiene -13/-13 hasta el final del turno si una criatura murió este turno.",
-            "type": "Instantáneo",
-            "uuid": "ef315388-d459-5f10-9aea-a427f810caf7"
+            "text": "目标生物得-1/-1直到回合结束。\n丧心～如果本回合中有生物死去，则改为该生物得-13/-13直到回合结束。",
+            "type": "瞬间",
+            "uuid": "ec684f4a-103f-56b0-8f46-59df59999c82"
           },
           {
             "flavorText": "Attardez-vous au seuil de la mort et vous pourriez être invité à le franchir.",
@@ -1520,9 +1688,28 @@
             "language": "French",
             "multiverseId": 594369,
             "name": "Fatale glissade",
+            "skuIds": {
+              "nonfoil": "a1bf8c2b-a599-5639-8858-03c6c512df5d"
+            },
             "text": "Une créature ciblée gagne -1/-1 jusqu'à la fin du tour.\nMorbidité — Cette créature gagne -13/-13 jusqu'à la fin du tour à la place si une créature est morte ce tour-ci.",
             "type": "Éphémère",
             "uuid": "69715f8b-ba54-59a6-825a-264f128d6590"
+          },
+          {
+            "flavorText": "Wer an die Tür des Todes klopft, wird oft auch hereingebeten.",
+            "identifiers": {
+              "multiverseId": "594135",
+              "scryfallId": "e72ac735-95cd-4fe2-b457-1f77d9d9378a"
+            },
+            "language": "German",
+            "multiverseId": 594135,
+            "name": "Tragischer Ausrutscher",
+            "skuIds": {
+              "nonfoil": "7691ac2f-e032-5607-a86d-5ff9b447ad54"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -1/-1 bis zum Ende des Zuges.\nMorbide — Diese Kreatur erhält stattdessen -13/-13 bis zum Ende des Zuges, falls in diesem Zug eine Kreatur gestorben ist.",
+            "type": "Spontanzauber",
+            "uuid": "dd5e0b96-fc61-5fa6-b618-b182c246521c"
           },
           {
             "flavorText": "Trattieniti alla porta della morte e rischierai di essere invitato a entrare.",
@@ -1533,6 +1720,9 @@
             "language": "Italian",
             "multiverseId": 594486,
             "name": "Tragico Scivolone",
+            "skuIds": {
+              "nonfoil": "678dc5cd-4e6c-5ad2-b435-38def411ab78"
+            },
             "text": "Una creatura bersaglio prende -1/-1 fino alla fine del turno.\nMorboso — Quella creatura prende invece -13/-13 fino alla fine del turno se è morta una creatura in questo turno.",
             "type": "Istantaneo",
             "uuid": "941dd056-2870-5fef-b75a-a1029bd4cbdf"
@@ -1546,32 +1736,37 @@
             "language": "Japanese",
             "multiverseId": 594603,
             "name": "悲劇的な過ち",
+            "skuIds": {
+              "nonfoil": "b1cb475f-077e-538a-bc22-b3a489b41583"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－１/－１の修整を受ける。\n陰鬱 ― このターンにクリーチャーが死亡していたなら、代わりに、ターン終了時まで、それは－13/－13の修整を受ける。",
             "type": "インスタント",
             "uuid": "14fd449d-35df-5a3e-b54a-de40c43d495a"
           },
           {
-            "flavorText": "若徘徊于死亡门口，小心会给请进去。",
+            "flavorText": "Asómate a la puerta de la muerte y correrás el riesgo de que te invite a pasar.",
             "identifiers": {
-              "multiverseId": "594954",
-              "scryfallId": "cfa6f90a-a30a-449c-8284-1a5d881332ad"
+              "multiverseId": "594252",
+              "scryfallId": "a4efa4f8-72a3-4934-b823-995693414715"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594954,
-            "name": "悲剧失足",
-            "text": "目标生物得-1/-1直到回合结束。\n丧心～如果本回合中有生物死去，则改为该生物得-13/-13直到回合结束。",
-            "type": "瞬间",
-            "uuid": "ec684f4a-103f-56b0-8f46-59df59999c82"
+            "language": "Spanish",
+            "multiverseId": 594252,
+            "name": "Desliz trágico",
+            "skuIds": {
+              "nonfoil": "da071cda-4aa0-5639-bf85-c9fb5dcd79cb"
+            },
+            "text": "La criatura objetivo obtiene -1/-1 hasta el final del turno.\nNecrario — En vez de eso, esa criatura obtiene -13/-13 hasta el final del turno si una criatura murió este turno.",
+            "type": "Instantáneo",
+            "uuid": "ef315388-d459-5f10-9aea-a427f810caf7"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271557",
           "cardsphereId": "97477",
           "deckboxId": "71671",
           "mcmId": "687031",
+          "mcmMetaId": "204850",
           "mtgjsonV4Id": "76d4c179-1fad-5f75-9b80-ca8efe73c94b",
           "multiverseId": "594018",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -1608,6 +1803,7 @@
         "name": "Tragic Slip",
         "number": "478",
         "originalText": "Target creature gets -1/-1 until end of turn.\nMorbid — That creature gets -13/-13 until end of turn instead if a creature died this turn.",
+        "originalType": "Instant",
         "printings": [
           "C14",
           "CMM",
@@ -1626,13 +1822,19 @@
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/d6ff807b0210c87d",
+          "cardmarket": "https://mtgjson.com/links/14cc251c4763a39a",
           "tcgplayer": "https://mtgjson.com/links/babfd63091c00abb"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "018f3f20-e3bd-5b15-8f24-c6a4f99944ac"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1667,37 +1869,28 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 23333,
+        "edhrecRank": 24075,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Do try to pull your weight, Geralf. I feel like I'm doing everything.\"\n—Ghoulcaller Gisa",
         "foreignData": [
           {
-            "flavorText": "„Pack mal richtig mit an, Geralf. Es fühlt sich an, als würde ich alles alleine machen.\"\n—Gisa die Ghulruferin",
+            "flavorText": "「别想偷懒，基拉夫。怎么全都是我在动手。」\n～尸鬼牧者基沙",
             "identifiers": {
-              "multiverseId": "594119",
-              "scryfallId": "a1c91ced-09ee-46ba-b201-dcd19c5af431"
+              "multiverseId": "594938",
+              "scryfallId": "5af9d881-a55b-4e24-b712-9ff0d2a2105d"
             },
-            "language": "German",
-            "multiverseId": 594119,
-            "name": "Skrupellose Beseitigung",
-            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab und opfere eine Kreatur.\nZwei Kreaturen deiner Wahl erhalten jeweils -13/-13 bis zum Ende des Zuges.",
-            "type": "Hexerei",
-            "uuid": "4cada0e3-a49e-52fe-9af8-662644662d1c"
-          },
-          {
-            "flavorText": "\"Esfuérzate más, Geralf. Parece que tengo que hacerlo yo todo\".\n—Gisa, la llamamuertos",
-            "identifiers": {
-              "multiverseId": "594236",
-              "scryfallId": "03c903b7-b888-4655-86dd-946801e1a1c8"
+            "language": "Chinese Simplified",
+            "multiverseId": 594938,
+            "name": "无情抛弃",
+            "skuIds": {
+              "nonfoil": "2c6f10e6-e2cf-5f3c-8cdf-9ec5611b3e3e"
             },
-            "language": "Spanish",
-            "multiverseId": 594236,
-            "name": "Liquidación despiadada",
-            "text": "Como coste adicional para lanzar este hechizo, descarta una carta y sacrifica una criatura.\nDos criaturas objetivo obtienen -13/-13 cada una hasta el final del turno.",
-            "type": "Conjuro",
-            "uuid": "151f5b00-3951-56ee-b382-4bd17a5aa504"
+            "text": "弃一张牌并牺牲一个生物，以作为施放此咒语的额外费用。\n两个目标生物各得-13/-13直到回合结束。",
+            "type": "法术",
+            "uuid": "18afd5e0-7fec-527e-831a-7857046df85e"
           },
           {
             "flavorText": "« Essaie d'y mettre un peu du tien, Geralf. J'ai l'impression qu'il n'y a que moi qui travaille. »\n—Gisa, meneuse de goule",
@@ -1708,9 +1901,28 @@
             "language": "French",
             "multiverseId": 594353,
             "name": "Disposition impitoyable",
+            "skuIds": {
+              "nonfoil": "7f5e4bba-bdc0-5abf-a903-cbc89c0af7ba"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, défaussez-vous d'une carte et sacrifiez une créature.\nDeux créatures ciblées gagnent chacune -13/-13 jusqu'à la fin du tour.",
             "type": "Rituel",
             "uuid": "21c03ed7-ee0d-5cd8-9869-17d24e3fe80a"
+          },
+          {
+            "flavorText": "„Pack mal richtig mit an, Geralf. Es fühlt sich an, als würde ich alles alleine machen.\"\n—Gisa die Ghulruferin",
+            "identifiers": {
+              "multiverseId": "594119",
+              "scryfallId": "a1c91ced-09ee-46ba-b201-dcd19c5af431"
+            },
+            "language": "German",
+            "multiverseId": 594119,
+            "name": "Skrupellose Beseitigung",
+            "skuIds": {
+              "nonfoil": "4245f567-f20a-579d-86bd-05d40dd7e7cb"
+            },
+            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab und opfere eine Kreatur.\nZwei Kreaturen deiner Wahl erhalten jeweils -13/-13 bis zum Ende des Zuges.",
+            "type": "Hexerei",
+            "uuid": "4cada0e3-a49e-52fe-9af8-662644662d1c"
           },
           {
             "flavorText": "\"Cerca di collaborare, Geralf. Mi sembra di fare tutto da sola.\"\n—Gisa l'evocaghoul",
@@ -1721,6 +1933,9 @@
             "language": "Italian",
             "multiverseId": 594470,
             "name": "Eliminazione Spietata",
+            "skuIds": {
+              "nonfoil": "d508520e-c892-50a4-9e47-76dd9ae5b591"
+            },
             "text": "Come costo addizionale per lanciare questa magia, scarta una carta e sacrifica una creatura.\nDue creature bersaglio prendono -13/-13 fino alla fine del turno.",
             "type": "Stregoneria",
             "uuid": "cd74ac94-1d44-5689-a21a-5384b5b87a45"
@@ -1734,27 +1949,31 @@
             "language": "Japanese",
             "multiverseId": 594587,
             "name": "無情な処分",
+            "skuIds": {
+              "nonfoil": "321dfef8-e97b-5b6b-b7a2-d2dd0c365dad"
+            },
             "text": "この呪文を唱えるための追加コストとして、カード１枚を捨て、クリーチャー１体を生け贄に捧げる。\nクリーチャー２体を対象とする。ターン終了時まで、それらはそれぞれ－13/－13の修整を受ける。",
             "type": "ソーサリー",
             "uuid": "4c4d66e3-1043-5c16-8b34-ea5f9b8613e6"
           },
           {
-            "flavorText": "「别想偷懒，基拉夫。怎么全都是我在动手。」\n～尸鬼牧者基沙",
+            "flavorText": "\"Esfuérzate más, Geralf. Parece que tengo que hacerlo yo todo\".\n—Gisa, la llamamuertos",
             "identifiers": {
-              "multiverseId": "594938",
-              "scryfallId": "5af9d881-a55b-4e24-b712-9ff0d2a2105d"
+              "multiverseId": "594236",
+              "scryfallId": "03c903b7-b888-4655-86dd-946801e1a1c8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594938,
-            "name": "无情抛弃",
-            "text": "弃一张牌并牺牲一个生物，以作为施放此咒语的额外费用。\n两个目标生物各得-13/-13直到回合结束。",
-            "type": "法术",
-            "uuid": "18afd5e0-7fec-527e-831a-7857046df85e"
+            "language": "Spanish",
+            "multiverseId": 594236,
+            "name": "Liquidación despiadada",
+            "skuIds": {
+              "nonfoil": "8d520985-0a58-598b-b655-a4d7196e5301"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, descarta una carta y sacrifica una criatura.\nDos criaturas objetivo obtienen -13/-13 cada una hasta el final del turno.",
+            "type": "Conjuro",
+            "uuid": "151f5b00-3951-56ee-b382-4bd17a5aa504"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271333",
           "cardsphereId": "97473",
@@ -1792,6 +2011,7 @@
         "name": "Ruthless Disposal",
         "number": "462",
         "originalText": "As an additional cost to cast this spell, discard a card and sacrifice a creature.\nTwo target creatures each get -13/-13 until end of turn.",
+        "originalType": "Sorcery",
         "printings": [
           "EMN",
           "J22",
@@ -1830,9 +2050,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "9dc97083-0ea3-575d-89e4-7f1eac338ae3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1864,7 +2089,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 340,
+        "edhrecRank": 318,
         "edhrecSaltiness": 0.76,
         "finishes": [
           "nonfoil"
@@ -1872,30 +2097,20 @@
         "flavorText": "Vampires don't consider patience a virtue nor gluttony a sin.",
         "foreignData": [
           {
-            "flavorText": "Vampire halten Geduld nicht für eine Tugend und Völlerei nicht für eine Sünde.",
+            "flavorText": "对吸血鬼来说，耐心不是美德，贪食亦非罪恶。",
             "identifiers": {
-              "multiverseId": "594070",
-              "scryfallId": "75367759-9f0e-492b-86e6-b497e2bae2c4"
+              "multiverseId": "594889",
+              "scryfallId": "5e2748cd-b8c8-4aa8-bf1f-36690f923abf"
             },
-            "language": "German",
-            "multiverseId": 594070,
-            "name": "Blutaussaugen",
-            "text": "Jeder Gegner verliert X Lebenspunkte. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Lebenspunkte verloren wurden.",
-            "type": "Hexerei",
-            "uuid": "54cc4f1a-6412-5319-a0b4-d6ccb3dbab9b"
-          },
-          {
-            "flavorText": "Los vampiros no consideran que la paciencia sea una virtud, o la gula, un pecado.",
-            "identifiers": {
-              "multiverseId": "594187",
-              "scryfallId": "bccbd3fb-067b-4ae0-bf10-77d898d8f9b9"
+            "language": "Chinese Simplified",
+            "multiverseId": 594889,
+            "name": "放干鲜血",
+            "skuIds": {
+              "nonfoil": "d3258bf0-113b-5d55-bdf6-622e986fb54a"
             },
-            "language": "Spanish",
-            "multiverseId": 594187,
-            "name": "Desangrar",
-            "text": "Cada oponente pierde X vidas. Ganas una cantidad de vidas igual a la cantidad de vidas perdidas de esta manera.",
-            "type": "Conjuro",
-            "uuid": "74f875d7-d5ba-55b6-8754-55f18e56d0d9"
+            "text": "每位对手各失去X点生命。你获得若干生命，其数量等同于以此法失去的生命数量。",
+            "type": "法术",
+            "uuid": "8a9d5195-df58-509c-9599-7a23da872ae9"
           },
           {
             "flavorText": "Les vampires ne considèrent ni la patience une vertu, ni la gourmandise un péché.",
@@ -1906,9 +2121,28 @@
             "language": "French",
             "multiverseId": 594304,
             "name": "Exsanguination",
+            "skuIds": {
+              "nonfoil": "d94d7750-2b90-5231-8767-70b098485703"
+            },
             "text": "Chaque adversaire perd X points de vie. Vous gagnez autant de points de vie que ceux perdus de cette manière.",
             "type": "Rituel",
             "uuid": "f47698b2-766f-5449-9197-8b8dffe826a9"
+          },
+          {
+            "flavorText": "Vampire halten Geduld nicht für eine Tugend und Völlerei nicht für eine Sünde.",
+            "identifiers": {
+              "multiverseId": "594070",
+              "scryfallId": "75367759-9f0e-492b-86e6-b497e2bae2c4"
+            },
+            "language": "German",
+            "multiverseId": 594070,
+            "name": "Blutaussaugen",
+            "skuIds": {
+              "nonfoil": "c522ec59-f0f6-538f-b9c0-b42ebc498594"
+            },
+            "text": "Jeder Gegner verliert X Lebenspunkte. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Lebenspunkte verloren wurden.",
+            "type": "Hexerei",
+            "uuid": "54cc4f1a-6412-5319-a0b4-d6ccb3dbab9b"
           },
           {
             "flavorText": "I vampiri non considerano la pazienza una virtù né la golosità un peccato.",
@@ -1919,6 +2153,9 @@
             "language": "Italian",
             "multiverseId": 594421,
             "name": "Dissanguare",
+            "skuIds": {
+              "nonfoil": "75c72cdd-09ce-50e0-8357-1fde62fb541b"
+            },
             "text": "Ogni avversario perde X punti vita. Guadagni tanti punti vita quanti sono i punti vita persi in questo modo.",
             "type": "Stregoneria",
             "uuid": "fbafb6af-3561-5f4f-830b-3e18dcc44589"
@@ -1932,27 +2169,31 @@
             "language": "Japanese",
             "multiverseId": 594538,
             "name": "瀉血",
+            "skuIds": {
+              "nonfoil": "7a967e2b-28b9-5e87-9f69-0d1dff51a668"
+            },
             "text": "各対戦相手はそれぞれＸ点のライフを失う。あなたはこれにより失われたライフの合計に等しい点数のライフを得る。",
             "type": "ソーサリー",
             "uuid": "b1e9cace-302d-59a8-8201-970d784211d9"
           },
           {
-            "flavorText": "对吸血鬼来说，耐心不是美德，贪食亦非罪恶。",
+            "flavorText": "Los vampiros no consideran que la paciencia sea una virtud, o la gula, un pecado.",
             "identifiers": {
-              "multiverseId": "594889",
-              "scryfallId": "5e2748cd-b8c8-4aa8-bf1f-36690f923abf"
+              "multiverseId": "594187",
+              "scryfallId": "bccbd3fb-067b-4ae0-bf10-77d898d8f9b9"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594889,
-            "name": "放干鲜血",
-            "text": "每位对手各失去X点生命。你获得若干生命，其数量等同于以此法失去的生命数量。",
-            "type": "法术",
-            "uuid": "8a9d5195-df58-509c-9599-7a23da872ae9"
+            "language": "Spanish",
+            "multiverseId": 594187,
+            "name": "Desangrar",
+            "skuIds": {
+              "nonfoil": "14db5817-be56-5510-8750-5d87791fef22"
+            },
+            "text": "Cada oponente pierde X vidas. Ganas una cantidad de vidas igual a la cantidad de vidas perdidas de esta manera.",
+            "type": "Conjuro",
+            "uuid": "74f875d7-d5ba-55b6-8754-55f18e56d0d9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271536",
           "cardsphereId": "97467",
@@ -1995,6 +2236,7 @@
         "name": "Exsanguinate",
         "number": "413",
         "originalText": "Each opponent loses X life. You gain life equal to the life lost this way.",
+        "originalType": "Sorcery",
         "printings": [
           "CMM",
           "FDN",
@@ -2017,9 +2259,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "f1879c0d-ef6c-5fa9-a5db-f814175fc617"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2051,7 +2298,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 10174,
+        "edhrecRank": 10374,
         "edhrecSaltiness": 0.47,
         "finishes": [
           "nonfoil"
@@ -2059,27 +2306,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "594136",
-              "scryfallId": "2abd9089-4ac4-4769-ada6-249e0fed9b27"
+              "multiverseId": "594955",
+              "scryfallId": "56097e7d-9ebc-42ba-9d84-8bbf9bff1d41"
             },
-            "language": "German",
-            "multiverseId": 594136,
-            "name": "Triskaidekaphobie",
-            "text": "Zu Beginn deines Versorgungssegments bestimmst du eines —\n• Jeder Spieler mit genau 13 Lebenspunkten verliert die Partie, dann erhält jeder Spieler 1 Lebenspunkt dazu.\n• Jeder Spieler mit genau 13 Lebenspunkten verliert die Partie, dann verliert jeder Spieler 1 Lebenspunkt.",
-            "type": "Verzauberung",
-            "uuid": "77415e5e-4a99-5d8b-aeee-abe41366dbfd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "594253",
-              "scryfallId": "7e467402-4f23-46a0-9e60-9bdcf783bcbe"
+            "language": "Chinese Simplified",
+            "multiverseId": 594955,
+            "name": "十三恐惧症",
+            "skuIds": {
+              "nonfoil": "b9ff94c5-a606-5d7d-9d63-9a84b1b442b9"
             },
-            "language": "Spanish",
-            "multiverseId": 594253,
-            "name": "Triscaidecafobia",
-            "text": "Al comienzo de tu mantenimiento, elige uno:\n• Cada jugador con exactamente 13 vidas pierde el juego y luego cada jugador gana 1 vida.\n• Cada jugador con exactamente 13 vidas pierde el juego y luego cada jugador pierde 1 vida.",
-            "type": "Encantamiento",
-            "uuid": "c4083f78-7f01-51bc-a4f4-12c090f8305e"
+            "text": "在你的维持开始时，选择一项～\n•每位总生命正好为13的牌手各输掉这盘游戏，然后每位牌手各获得1点生命。\n•每位总生命正好为13的牌手各输掉这盘游戏，然后每位牌手各失去1点生命。",
+            "type": "结界",
+            "uuid": "728d33c8-23ef-5cb4-a921-7f8be30c412c"
           },
           {
             "identifiers": {
@@ -2089,9 +2327,27 @@
             "language": "French",
             "multiverseId": 594370,
             "name": "Triskaïdékaphobie",
+            "skuIds": {
+              "nonfoil": "a3597a6e-7306-5f0e-8f6b-7755934b5f8e"
+            },
             "text": "Au début de votre entretien, choisissez l'un —\n• Chaque joueur avec exactement 13 points de vie perd la partie, puis chaque joueur gagne 1 point de vie.\n• Chaque joueur avec exactement 13 points de vie perd la partie, puis chaque joueur perd 1 point de vie.",
             "type": "Enchantement",
             "uuid": "9513f82a-aa7a-54bc-9d3c-3354f9ff87cc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "594136",
+              "scryfallId": "2abd9089-4ac4-4769-ada6-249e0fed9b27"
+            },
+            "language": "German",
+            "multiverseId": 594136,
+            "name": "Triskaidekaphobie",
+            "skuIds": {
+              "nonfoil": "5e136f9b-5a52-584a-a384-7b2f74fabf03"
+            },
+            "text": "Zu Beginn deines Versorgungssegments bestimmst du eines —\n• Jeder Spieler mit genau 13 Lebenspunkten verliert die Partie, dann erhält jeder Spieler 1 Lebenspunkt dazu.\n• Jeder Spieler mit genau 13 Lebenspunkten verliert die Partie, dann verliert jeder Spieler 1 Lebenspunkt.",
+            "type": "Verzauberung",
+            "uuid": "77415e5e-4a99-5d8b-aeee-abe41366dbfd"
           },
           {
             "identifiers": {
@@ -2101,6 +2357,9 @@
             "language": "Italian",
             "multiverseId": 594487,
             "name": "Triscaidecafobia",
+            "skuIds": {
+              "nonfoil": "41ecd3a9-9dec-5609-a21c-eb9be20f61f9"
+            },
             "text": "All'inizio del tuo mantenimento, scegli uno —\n• Ogni giocatore con esattamente 13 punti vita perde la partita, poi ogni giocatore guadagna 1 punto vita.\n• Ogni giocatore con esattamente 13 punti vita perde la partita, poi ogni giocatore perde 1 punto vita.",
             "type": "Incantesimo",
             "uuid": "81f1c9e4-0f1d-52b3-bef0-53eb6bd06034"
@@ -2113,26 +2372,30 @@
             "language": "Japanese",
             "multiverseId": 594604,
             "name": "十三恐怖症",
+            "skuIds": {
+              "nonfoil": "751ae880-2305-5d3e-9952-557ea3af6c29"
+            },
             "text": "あなたのアップキープの開始時に、以下から１つを選ぶ。\n・ちょうど13点のライフを持つ各プレイヤーはそれぞれゲームに敗北する。その後、各プレイヤーはそれぞれ１点のライフを得る。\n・ちょうど13点のライフを持つ各プレイヤーはそれぞれゲームに敗北する。その後、各プレイヤーはそれぞれ１点のライフを失う。",
             "type": "エンチャント",
             "uuid": "47d4a5a1-1b26-58b2-b09c-c96fe981435b"
           },
           {
             "identifiers": {
-              "multiverseId": "594955",
-              "scryfallId": "56097e7d-9ebc-42ba-9d84-8bbf9bff1d41"
+              "multiverseId": "594253",
+              "scryfallId": "7e467402-4f23-46a0-9e60-9bdcf783bcbe"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 594955,
-            "name": "十三恐惧症",
-            "text": "在你的维持开始时，选择一项～\n•每位总生命正好为13的牌手各输掉这盘游戏，然后每位牌手各获得1点生命。\n•每位总生命正好为13的牌手各输掉这盘游戏，然后每位牌手各失去1点生命。",
-            "type": "结界",
-            "uuid": "728d33c8-23ef-5cb4-a921-7f8be30c412c"
+            "language": "Spanish",
+            "multiverseId": 594253,
+            "name": "Triscaidecafobia",
+            "skuIds": {
+              "nonfoil": "ccd71f67-dd78-5319-a6cc-47a4bbc58185"
+            },
+            "text": "Al comienzo de tu mantenimiento, elige uno:\n• Cada jugador con exactamente 13 vidas pierde el juego y luego cada jugador gana 1 vida.\n• Cada jugador con exactamente 13 vidas pierde el juego y luego cada jugador pierde 1 vida.",
+            "type": "Encantamiento",
+            "uuid": "c4083f78-7f01-51bc-a4f4-12c090f8305e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271558",
           "cardsphereId": "97475",
@@ -2171,6 +2434,7 @@
         "name": "Triskaidekaphobia",
         "number": "479",
         "originalText": "At the beginning of your upkeep, choose one —\n• Each player with exactly 13 life loses the game, then each player gains 1 life.\n• Each player with exactly 13 life loses the game, then each player loses 1 life.",
+        "originalType": "Enchantment",
         "printings": [
           "A25",
           "INR",
@@ -2205,9 +2469,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "9c9d220d-0994-5d00-82a4-c719da4aca06"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2237,7 +2506,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 10816,
+        "edhrecRank": 11290,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
@@ -2245,27 +2514,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "596322",
-              "scryfallId": "7390f62c-e135-43ea-accf-84b92e96a457"
+              "multiverseId": "596931",
+              "scryfallId": "ee99dd4f-9df0-41cc-9db5-047e4c17fada"
             },
-            "language": "German",
-            "multiverseId": 596322,
-            "name": "Piranhamoor",
-            "text": "Das Piranhamoor kommt getappt ins Spiel.\nWenn das Piranhamoor ins Spiel kommt, verliert ein Spieler deiner Wahl 1 Lebenspunkt.\n{T}: Erzeuge {B}.",
-            "type": "Land",
-            "uuid": "14b530b8-a23c-58fc-8aac-89a802d3b86f"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "596409",
-              "scryfallId": "b5fca489-ee60-418a-b330-5ba1451a91c6"
+            "language": "Chinese Simplified",
+            "multiverseId": 596931,
+            "name": "水虎鱼沼地",
+            "skuIds": {
+              "nonfoil": "f75e8ecb-9b9e-56ae-ade8-34a151fbf98d"
             },
-            "language": "Spanish",
-            "multiverseId": 596409,
-            "name": "Cenagal de pirañas",
-            "text": "El Cenagal de pirañas entra al campo de batalla girado.\nCuando el Cenagal de pirañas entre al campo de batalla, el jugador objetivo pierde 1 vida.\n{T}: Agrega {B}.",
-            "type": "Tierra",
-            "uuid": "f477c746-3316-5d2e-9b29-50f9a17095aa"
+            "text": "水虎鱼沼地须横置进战场。\n当水虎鱼沼地进战场时，目标牌手失去1点生命。\n{T}：加{B}。",
+            "type": "地",
+            "uuid": "fe551a19-605b-507b-baad-b1a7a6f3f5d6"
           },
           {
             "identifiers": {
@@ -2275,9 +2535,27 @@
             "language": "French",
             "multiverseId": 596496,
             "name": "Marécage aux piranhas",
+            "skuIds": {
+              "nonfoil": "bac50f05-e30f-51d9-8d3a-f01c90f670a1"
+            },
             "text": "Le Marécage aux piranhas arrive sur le champ de bataille engagé.\nQuand le Marécage aux piranhas arrive sur le champ de bataille, un joueur ciblé perd 1 point de vie.\n{T} : Ajoutez {B}.",
             "type": "Terrain",
             "uuid": "49fb7492-9723-5ed8-80dd-1d8b155f130c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "596322",
+              "scryfallId": "7390f62c-e135-43ea-accf-84b92e96a457"
+            },
+            "language": "German",
+            "multiverseId": 596322,
+            "name": "Piranhamoor",
+            "skuIds": {
+              "nonfoil": "8c3c5be3-337f-5553-a280-d877bb875fd4"
+            },
+            "text": "Das Piranhamoor kommt getappt ins Spiel.\nWenn das Piranhamoor ins Spiel kommt, verliert ein Spieler deiner Wahl 1 Lebenspunkt.\n{T}: Erzeuge {B}.",
+            "type": "Land",
+            "uuid": "14b530b8-a23c-58fc-8aac-89a802d3b86f"
           },
           {
             "identifiers": {
@@ -2287,6 +2565,9 @@
             "language": "Italian",
             "multiverseId": 596583,
             "name": "Palude dei Piranha",
+            "skuIds": {
+              "nonfoil": "2c17c92e-7a42-553c-b656-634b89a05da4"
+            },
             "text": "La Palude dei Piranha entra nel campo di battaglia TAPpata.\nQuando la Palude dei Piranha entra nel campo di battaglia, un giocatore bersaglio perde 1 punto vita.\n{T}: Aggiungi {B}.",
             "type": "Terra",
             "uuid": "0b3b0289-019d-5a3b-8c84-8f71420fecd7"
@@ -2299,26 +2580,30 @@
             "language": "Japanese",
             "multiverseId": 596670,
             "name": "ピラニアの湿地",
+            "skuIds": {
+              "nonfoil": "4b33ce1b-0600-5489-8871-756a8d91c72a"
+            },
             "text": "ピラニアの湿地はタップ状態で戦場に出る。\nピラニアの湿地が戦場に出たとき、プレイヤー１人を対象とする。そのプレイヤーは１点のライフを失う。\n{T}：{B}を加える。",
             "type": "土地",
             "uuid": "62ca91e5-acd5-5f48-b4b1-4402bf1be400"
           },
           {
             "identifiers": {
-              "multiverseId": "596931",
-              "scryfallId": "ee99dd4f-9df0-41cc-9db5-047e4c17fada"
+              "multiverseId": "596409",
+              "scryfallId": "b5fca489-ee60-418a-b330-5ba1451a91c6"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596931,
-            "name": "水虎鱼沼地",
-            "text": "水虎鱼沼地须横置进战场。\n当水虎鱼沼地进战场时，目标牌手失去1点生命。\n{T}：加{B}。",
-            "type": "地",
-            "uuid": "fe551a19-605b-507b-baad-b1a7a6f3f5d6"
+            "language": "Spanish",
+            "multiverseId": 596409,
+            "name": "Cenagal de pirañas",
+            "skuIds": {
+              "nonfoil": "e3799269-b39b-5482-b755-1b280eec75c8"
+            },
+            "text": "El Cenagal de pirañas entra al campo de batalla girado.\nCuando el Cenagal de pirañas entre al campo de batalla, el jugador objetivo pierde 1 vida.\n{T}: Agrega {B}.",
+            "type": "Tierra",
+            "uuid": "f477c746-3316-5d2e-9b29-50f9a17095aa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271440",
           "cardsphereId": "97367",
@@ -2354,9 +2639,13 @@
         "name": "Piranha Marsh",
         "number": "818",
         "originalText": "Piranha Marsh enters the battlefield tapped.\nWhen Piranha Marsh enters the battlefield, target player loses 1 life.\n{T}: Add {B}.",
+        "originalType": "Land",
         "printings": [
           "J22",
           "ZEN"
+        ],
+        "producedMana": [
+          "B"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/41af609260769273",
@@ -2365,9 +2654,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "0e03049f-16ad-544a-8dcd-c72d585bae7a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2397,7 +2691,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
@@ -2405,30 +2699,20 @@
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
           {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "flavorText": "此地美景尽藏奇异之处，唯眼光独到者方能得见。",
             "identifiers": {
-              "multiverseId": "596330",
-              "scryfallId": "488d4a50-2cdb-45d6-86dc-18c063a782f8"
+              "multiverseId": "596939",
+              "scryfallId": "1b8302dd-6a7e-418c-9e0c-6569acf96a23"
             },
-            "language": "German",
-            "multiverseId": 596330,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel.\nSowie das Gedeihende Moor ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "a1136123-5ee6-5fb1-8fa8-2dc67b2905fe"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "596417",
-              "scryfallId": "67945bd5-5809-4de5-af58-00b2b27de04b"
+            "language": "Chinese Simplified",
+            "multiverseId": 596939,
+            "name": "兴旺湿地",
+            "skuIds": {
+              "nonfoil": "404a265a-b5b4-5e9c-840e-17f505e79200"
             },
-            "language": "Spanish",
-            "multiverseId": 596417,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra al campo de batalla girado.\nEn cuanto el Páramo floreciente entre al campo de batalla, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "753b51cd-bf27-5859-b44c-34e5fe01647e"
+            "text": "兴旺湿地须横置进战场。\n于兴旺湿地进战场时，选择一种黑色以外的颜色。\n{T}：加{B}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "db5e3beb-3a7a-5ad4-b5e5-9b92cafede42"
           },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
@@ -2439,9 +2723,28 @@
             "language": "French",
             "multiverseId": 596504,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "76b66040-4f38-5566-9a3f-6cf65bc8d69b"
+            },
             "text": "La Lande prospère arrive sur le champ de bataille engagée.\nAu moment où la Lande prospère arrive sur le champ de bataille, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "2c44a40e-dc29-5c73-ba14-0db87c124810"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "596330",
+              "scryfallId": "488d4a50-2cdb-45d6-86dc-18c063a782f8"
+            },
+            "language": "German",
+            "multiverseId": 596330,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "a445ce97-ca01-5541-a2db-646468816d56"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel.\nSowie das Gedeihende Moor ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "a1136123-5ee6-5fb1-8fa8-2dc67b2905fe"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2452,6 +2755,9 @@
             "language": "Italian",
             "multiverseId": 596591,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "97864281-4614-5639-9301-5ade1dc4dcc4"
+            },
             "text": "La Landa Florida entra nel campo di battaglia TAPpata.\nMentre la Landa Florida entra nel campo di battaglia, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "be20710c-9f13-535a-8438-fe7eb30bf688"
@@ -2465,27 +2771,31 @@
             "language": "Japanese",
             "multiverseId": 596678,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "a6abfcea-c03c-57ba-aa46-e78db89118a7"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。\n興隆する湿地帯が戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "5d274595-3c83-5950-9f86-53ced86a7262"
           },
           {
-            "flavorText": "此地美景尽藏奇异之处，唯眼光独到者方能得见。",
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
             "identifiers": {
-              "multiverseId": "596939",
-              "scryfallId": "1b8302dd-6a7e-418c-9e0c-6569acf96a23"
+              "multiverseId": "596417",
+              "scryfallId": "67945bd5-5809-4de5-af58-00b2b27de04b"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596939,
-            "name": "兴旺湿地",
-            "text": "兴旺湿地须横置进战场。\n于兴旺湿地进战场时，选择一种黑色以外的颜色。\n{T}：加{B}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "db5e3beb-3a7a-5ad4-b5e5-9b92cafede42"
+            "language": "Spanish",
+            "multiverseId": 596417,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "4c8aac6b-9465-5b4d-9a31-e623bcc2c6c6"
+            },
+            "text": "El Páramo floreciente entra al campo de batalla girado.\nEn cuanto el Páramo floreciente entre al campo de batalla, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "753b51cd-bf27-5859-b44c-34e5fe01647e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270586",
           "cardsphereId": "96953",
@@ -2522,11 +2832,13 @@
         "name": "Thriving Moor",
         "number": "826",
         "originalText": "Thriving Moor enters the battlefield tapped.\nAs Thriving Moor enters the battlefield, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2534,7 +2846,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/5fb87605d2ad9bbf",
@@ -2543,9 +2863,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "258d3fc2-68c3-5260-bc13-58e5af15a2e0"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2582,25 +2907,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597766",
-              "scryfallId": "8e9e1f52-4e30-4977-ad28-65e4918b7017"
+              "multiverseId": "597871",
+              "scryfallId": "e73d1fa2-2456-4eac-9351-7166c2a8824d"
             },
-            "language": "German",
-            "multiverseId": 597766,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "bf66ff5f-9c25-587a-bfab-1f0d54a8d79b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597781",
-              "scryfallId": "c5885592-2b9e-4e0d-a539-6e1c051680e0"
+            "language": "Chinese Simplified",
+            "multiverseId": 597871,
+            "name": "沼泽",
+            "skuIds": {
+              "nonfoil": "bbec2de3-ec9f-58fa-b650-4322921db016"
             },
-            "language": "Spanish",
-            "multiverseId": 597781,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "46ec3a00-a453-54cf-b9b5-caba8f9cd164"
+            "type": "基本地 ～沼泽",
+            "uuid": "872c43ae-2c9d-532e-b719-e1dccb8615de"
           },
           {
             "identifiers": {
@@ -2610,8 +2927,25 @@
             "language": "French",
             "multiverseId": 597796,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "7efc998c-c86d-52da-b3ab-050842a236b4"
+            },
             "type": "Terrain de base : marais",
             "uuid": "bfab4b9f-47f9-5c75-9e46-402f5892d6fe"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597766",
+              "scryfallId": "8e9e1f52-4e30-4977-ad28-65e4918b7017"
+            },
+            "language": "German",
+            "multiverseId": 597766,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "b08813cc-5ba6-55b8-b747-535493ad02d0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "bf66ff5f-9c25-587a-bfab-1f0d54a8d79b"
           },
           {
             "identifiers": {
@@ -2621,6 +2955,9 @@
             "language": "Italian",
             "multiverseId": 597811,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "6356ef64-3d00-5972-8666-91c5237f8b36"
+            },
             "type": "Terra Base — Palude",
             "uuid": "173bfb21-2f0d-5b15-accf-135597013846"
           },
@@ -2632,29 +2969,34 @@
             "language": "Japanese",
             "multiverseId": 597826,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "1133f1c0-d7bf-5dad-b8dd-cf4e93fd371c"
+            },
             "type": "基本土地 — 沼",
             "uuid": "f0cfa8b3-39a3-57e3-93ba-03f0cedc21b2"
           },
           {
             "identifiers": {
-              "multiverseId": "597871",
-              "scryfallId": "e73d1fa2-2456-4eac-9351-7166c2a8824d"
+              "multiverseId": "597781",
+              "scryfallId": "c5885592-2b9e-4e0d-a539-6e1c051680e0"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597871,
-            "name": "沼泽",
-            "type": "基本地 ～沼泽",
-            "uuid": "872c43ae-2c9d-532e-b719-e1dccb8615de"
+            "language": "Spanish",
+            "multiverseId": 597781,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "ff58f27c-3568-535f-b55c-7bcd55005651"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "46ec3a00-a453-54cf-b9b5-caba8f9cd164"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270285",
           "cardsphereId": "97094",
           "deckboxId": "71297",
           "mcmId": "687362",
+          "mcmMetaId": "5739",
           "mtgjsonV4Id": "9d750502-f5d6-5170-8e1e-af549b26f409",
           "multiverseId": "597751",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2693,6 +3035,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "104",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2762,6 +3105,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2921,15 +3265,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1befeb32816c39c0",
+          "cardmarket": "https://mtgjson.com/links/65d9b8a82a2ef152",
           "tcgplayer": "https://mtgjson.com/links/e48594afa002517c"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5ab8c802-6cb3-5ed6-930a-904f603ba93e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2945,8 +3298,8 @@
         ],
         "uuid": "093129a3-934b-56cd-a114-4f90aeb254af",
         "variations": [
-          "15996ac2-4d38-58bf-9d76-b1267c4bb75c",
-          "0d43138e-22ce-505d-af04-d6e80c162104"
+          "0d43138e-22ce-505d-af04-d6e80c162104",
+          "15996ac2-4d38-58bf-9d76-b1267c4bb75c"
         ]
       },
       {
@@ -2974,25 +3327,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597767",
-              "scryfallId": "1cc56da7-136f-4375-9db7-a78e41eeaf1c"
+              "multiverseId": "597872",
+              "scryfallId": "be4aa91e-11a0-43a2-977f-c1286254b5e2"
             },
-            "language": "German",
-            "multiverseId": 597767,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "e73586f6-4a8f-5f79-9224-93c02c782953"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597782",
-              "scryfallId": "8a27411e-868c-4625-ae56-efe50210122a"
+            "language": "Chinese Simplified",
+            "multiverseId": 597872,
+            "name": "沼泽",
+            "skuIds": {
+              "nonfoil": "2a6bff20-5c2f-5a14-99bf-e8532ac682fc"
             },
-            "language": "Spanish",
-            "multiverseId": 597782,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "fa75d046-10f9-53e6-bf50-646559e89341"
+            "type": "基本地 ～沼泽",
+            "uuid": "2d759dd5-4821-5285-8e97-f4a4abb94a2e"
           },
           {
             "identifiers": {
@@ -3002,8 +3347,25 @@
             "language": "French",
             "multiverseId": 597797,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "16844927-fb8f-5e29-ab88-553431f1efe7"
+            },
             "type": "Terrain de base : marais",
             "uuid": "61ea6b2b-c793-5043-87c2-3d504e92c340"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597767",
+              "scryfallId": "1cc56da7-136f-4375-9db7-a78e41eeaf1c"
+            },
+            "language": "German",
+            "multiverseId": 597767,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "772886b7-5552-5da1-852a-17f4ac883ae0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "e73586f6-4a8f-5f79-9224-93c02c782953"
           },
           {
             "identifiers": {
@@ -3013,6 +3375,9 @@
             "language": "Italian",
             "multiverseId": 597812,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "6c2b0a2f-37fe-53b5-bab1-5a891143b9e0"
+            },
             "type": "Terra Base — Palude",
             "uuid": "30b17fe7-8a96-546b-9a15-a84c3cea42d8"
           },
@@ -3024,29 +3389,34 @@
             "language": "Japanese",
             "multiverseId": 597827,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "9629a36e-bf24-5775-8838-27b644b1a1ec"
+            },
             "type": "基本土地 — 沼",
             "uuid": "194f0e68-dd34-561c-bd4c-362fd2495227"
           },
           {
             "identifiers": {
-              "multiverseId": "597872",
-              "scryfallId": "be4aa91e-11a0-43a2-977f-c1286254b5e2"
+              "multiverseId": "597782",
+              "scryfallId": "8a27411e-868c-4625-ae56-efe50210122a"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597872,
-            "name": "沼泽",
-            "type": "基本地 ～沼泽",
-            "uuid": "2d759dd5-4821-5285-8e97-f4a4abb94a2e"
+            "language": "Spanish",
+            "multiverseId": 597782,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "defc1027-dbc4-5ddb-9489-54821daa9465"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "fa75d046-10f9-53e6-bf50-646559e89341"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270286",
           "cardsphereId": "97096",
           "deckboxId": "71298",
           "mcmId": "687363",
+          "mcmMetaId": "5739",
           "mtgjsonV4Id": "a8e3c565-6e10-5510-a495-6ecda9155db4",
           "multiverseId": "597752",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3085,6 +3455,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "105",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3154,6 +3525,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3313,15 +3685,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b1ab1a271accb291",
+          "cardmarket": "https://mtgjson.com/links/57a54c801885e188",
           "tcgplayer": "https://mtgjson.com/links/4f60dc128d3549c9"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "67551b50-750d-5f6b-a255-ba61687793b5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3366,25 +3747,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597768",
-              "scryfallId": "7f7708a1-09a9-49b2-85ec-ae5200608240"
+              "multiverseId": "597873",
+              "scryfallId": "5e530d84-e856-40f7-87f1-18ac61d79a5c"
             },
-            "language": "German",
-            "multiverseId": 597768,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "1daa54ac-e42d-5712-a542-88ef8f7cdc89"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597783",
-              "scryfallId": "a58ddb23-dc40-4eb3-b480-a71d2186e10b"
+            "language": "Chinese Simplified",
+            "multiverseId": 597873,
+            "name": "沼泽",
+            "skuIds": {
+              "nonfoil": "d5e04ff7-d657-507e-a66d-4115317bdcb9"
             },
-            "language": "Spanish",
-            "multiverseId": 597783,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "40433b83-3017-5c3e-94bf-15c9dcf023d3"
+            "type": "基本地 ～沼泽",
+            "uuid": "38084209-b27c-57ec-be9f-f39054c5c764"
           },
           {
             "identifiers": {
@@ -3394,8 +3767,25 @@
             "language": "French",
             "multiverseId": 597798,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "b6ccd7be-4a2d-5f83-8678-f244c9171915"
+            },
             "type": "Terrain de base : marais",
             "uuid": "44ca56ae-14d4-5f00-946b-7a4dc21b3d36"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597768",
+              "scryfallId": "7f7708a1-09a9-49b2-85ec-ae5200608240"
+            },
+            "language": "German",
+            "multiverseId": 597768,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "ad22741e-f4ae-509e-b765-6a3af9730af4"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "1daa54ac-e42d-5712-a542-88ef8f7cdc89"
           },
           {
             "identifiers": {
@@ -3405,6 +3795,9 @@
             "language": "Italian",
             "multiverseId": 597813,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "6f17c938-37bc-5ff9-a91d-2a6b217b25f1"
+            },
             "type": "Terra Base — Palude",
             "uuid": "3615df7f-69bc-585d-a817-b46c2c6debe9"
           },
@@ -3416,29 +3809,34 @@
             "language": "Japanese",
             "multiverseId": 597828,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "acc890c7-ff42-5e7e-974b-3aefca08cbcb"
+            },
             "type": "基本土地 — 沼",
             "uuid": "d7d1a4e5-c397-58a8-be9c-a6fb7f9ad9c5"
           },
           {
             "identifiers": {
-              "multiverseId": "597873",
-              "scryfallId": "5e530d84-e856-40f7-87f1-18ac61d79a5c"
+              "multiverseId": "597783",
+              "scryfallId": "a58ddb23-dc40-4eb3-b480-a71d2186e10b"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597873,
-            "name": "沼泽",
-            "type": "基本地 ～沼泽",
-            "uuid": "38084209-b27c-57ec-be9f-f39054c5c764"
+            "language": "Spanish",
+            "multiverseId": 597783,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "36bd2d39-70f7-5617-b424-6063279b9e29"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "40433b83-3017-5c3e-94bf-15c9dcf023d3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270287",
           "cardsphereId": "97097",
           "deckboxId": "71299",
           "mcmId": "687364",
+          "mcmMetaId": "5739",
           "mtgjsonV4Id": "7896997d-607e-5f44-b6bc-10f7b86ca571",
           "multiverseId": "597753",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3477,6 +3875,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "106",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3546,6 +3945,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3705,15 +4105,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/cc4047c93dac2040",
+          "cardmarket": "https://mtgjson.com/links/0b0fe435cd341b0a",
           "tcgplayer": "https://mtgjson.com/links/e0dc2341d8a7978a"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "b33f14ee-6d7d-5f3a-87f5-a1922f2b8c53"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3745,5 +4154,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "c79b55ff7a5fd9"
   }
 }

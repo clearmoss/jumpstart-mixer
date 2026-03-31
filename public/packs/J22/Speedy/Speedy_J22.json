@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "6d7e73fb08b9b0"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,7 +24,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 1055,
+        "edhrecRank": 1137,
         "edhrecSaltiness": 1.25,
         "finishes": [
           "nonfoil"
@@ -37,30 +32,20 @@
         "flavorText": "\"Wanna see a neat trick?\"",
         "foreignData": [
           {
-            "flavorText": "„Willst du einen tollen Trick sehen?\"",
+            "flavorText": "「想不想看个妙招？」",
             "identifiers": {
-              "multiverseId": "597108",
-              "scryfallId": "483cd23c-e6ae-4088-b051-28e4d1be517f"
+              "multiverseId": "597430",
+              "scryfallId": "5febd3f2-02c4-4ed8-b6a2-45178e646143"
             },
-            "language": "German",
-            "multiverseId": 597108,
-            "name": "Kiki-Jiki, Spiegelzerbrecher",
-            "text": "Eile\n{T}: Erzeuge einen Spielstein, der eine Kopie einer nichtlegendären Kreatur deiner Wahl ist, die du kontrollierst, außer dass er Eile hat. Opfere ihn zu Beginn des nächsten Endsegments.",
-            "type": "Legendäre Kreatur — Goblin, Schamane",
-            "uuid": "be44e128-3c3b-59a8-a542-41c68782f37b"
-          },
-          {
-            "flavorText": "\"¿Quieres ver un truco de los buenos?\".",
-            "identifiers": {
-              "multiverseId": "597154",
-              "scryfallId": "7f406022-4425-4569-a15a-b1a2dda0f779"
+            "language": "Chinese Simplified",
+            "multiverseId": 597430,
+            "name": "裂镜奇奇几奇",
+            "skuIds": {
+              "nonfoil": "a3f0b57e-5173-5f22-a857-bf0b03678d39"
             },
-            "language": "Spanish",
-            "multiverseId": 597154,
-            "name": "Kiki-Jiki, el rompe espejos",
-            "text": "Prisa.\n{T}: Crea una ficha que es una copia de la criatura objetivo que no sea legendaria que controlas, excepto que tiene la habilidad de prisa. Sacrifícala al comienzo del próximo paso final.",
-            "type": "Criatura legendaria — Chamán trasgo",
-            "uuid": "4579bfed-a9d9-5c59-8ad6-5dfb2d5eb1a1"
+            "text": "敏捷\n{T}：派出一个衍生物，此衍生物为目标由你操控且非传奇的生物之复制品，但它具有敏捷异能。在下一个结束步骤开始时，将它牺牲。",
+            "type": "传奇生物 ～鬼怪／祭师",
+            "uuid": "3ec6742f-0750-5673-89ba-8b394daa7fea"
           },
           {
             "flavorText": "« Vous voulez voir un tour de passe-passe ? »",
@@ -71,9 +56,28 @@
             "language": "French",
             "multiverseId": 597200,
             "name": "Kiki-Jiki, brise-miroir",
+            "skuIds": {
+              "nonfoil": "76859a85-414c-51c5-9086-7523d6bab107"
+            },
             "text": "Célérité\n{T} : Créez un jeton qui est une copie d'une créature non-légendaire ciblée que vous contrôlez, excepté qu'il a la célérité. Sacrifiez-le au début de la prochaine étape de fin.",
             "type": "Créature légendaire : gobelin et shamane",
             "uuid": "826efb5f-8b32-5a25-86f8-aad18bb6472b"
+          },
+          {
+            "flavorText": "„Willst du einen tollen Trick sehen?\"",
+            "identifiers": {
+              "multiverseId": "597108",
+              "scryfallId": "483cd23c-e6ae-4088-b051-28e4d1be517f"
+            },
+            "language": "German",
+            "multiverseId": 597108,
+            "name": "Kiki-Jiki, Spiegelzerbrecher",
+            "skuIds": {
+              "nonfoil": "f9feb72f-ae9c-5adf-9bf5-1d12361768a1"
+            },
+            "text": "Eile\n{T}: Erzeuge einen Spielstein, der eine Kopie einer nichtlegendären Kreatur deiner Wahl ist, die du kontrollierst, außer dass er Eile hat. Opfere ihn zu Beginn des nächsten Endsegments.",
+            "type": "Legendäre Kreatur — Goblin, Schamane",
+            "uuid": "be44e128-3c3b-59a8-a542-41c68782f37b"
           },
           {
             "flavorText": "\"Vuoi vedere un trucchetto ingegnoso?\"",
@@ -84,6 +88,9 @@
             "language": "Italian",
             "multiverseId": 597246,
             "name": "Kiki-Jiki, Spaccaspecchi",
+            "skuIds": {
+              "nonfoil": "3cc9ddaf-cde6-5bdb-9b27-7b2ffb380417"
+            },
             "text": "Rapidità\n{T}: Crea una pedina che è una copia di una creatura non leggendaria bersaglio che controlli, tranne che ha rapidità. Sacrificala all'inizio della prossima sottofase finale.",
             "type": "Creatura Leggendaria — Sciamano Goblin",
             "uuid": "b4473553-5121-55e6-bbee-c9db19b9be24"
@@ -97,30 +104,34 @@
             "language": "Japanese",
             "multiverseId": 597292,
             "name": "鏡割りのキキジキ",
+            "skuIds": {
+              "nonfoil": "cac455cc-5488-585a-8ef0-95d2b23e77b9"
+            },
             "text": "速攻\n{T}：あなたがコントロールしていて伝説でないクリーチャー１体を対象とする。それが速攻を持つことを除きそれのコピーであるトークン１つを生成する。次の終了ステップの開始時に、そのトークンを生け贄に捧げる。",
             "type": "伝説のクリーチャー — ゴブリン・シャーマン",
             "uuid": "269ee5a8-fc43-5712-b8e0-0c259af27fa5"
           },
           {
-            "flavorText": "「想不想看个妙招？」",
+            "flavorText": "\"¿Quieres ver un truco de los buenos?\".",
             "identifiers": {
-              "multiverseId": "597430",
-              "scryfallId": "5febd3f2-02c4-4ed8-b6a2-45178e646143"
+              "multiverseId": "597154",
+              "scryfallId": "7f406022-4425-4569-a15a-b1a2dda0f779"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597430,
-            "name": "裂镜奇奇几奇",
-            "text": "敏捷\n{T}：派出一个衍生物，此衍生物为目标由你操控且非传奇的生物之复制品，但它具有敏捷异能。在下一个结束步骤开始时，将它牺牲。",
-            "type": "传奇生物 ～鬼怪／祭师",
-            "uuid": "3ec6742f-0750-5673-89ba-8b394daa7fea"
+            "language": "Spanish",
+            "multiverseId": 597154,
+            "name": "Kiki-Jiki, el rompe espejos",
+            "skuIds": {
+              "nonfoil": "f59fc863-1202-5f8c-adc8-fbcdc30fd46f"
+            },
+            "text": "Prisa.\n{T}: Crea una ficha que es una copia de la criatura objetivo que no sea legendaria que controlas, excepto que tiene la habilidad de prisa. Sacrifícala al comienzo del próximo paso final.",
+            "type": "Criatura legendaria — Chamán trasgo",
+            "uuid": "4579bfed-a9d9-5c59-8ad6-5dfb2d5eb1a1"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270182",
           "cardsphereId": "96719",
@@ -154,7 +165,6 @@
           "legacy": "Legal",
           "modern": "Legal",
           "oathbreaker": "Legal",
-          "penny": "Legal",
           "predh": "Legal",
           "vintage": "Legal"
         },
@@ -163,6 +173,7 @@
         "name": "Kiki-Jiki, Mirror Breaker",
         "number": "79",
         "originalText": "Haste\n{T}: Create a token that's a copy of target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
+        "originalType": "Legendary Creature – Goblin Shaman",
         "power": "2",
         "printings": [
           "CHK",
@@ -181,6 +192,11 @@
           "tcgplayer": "https://mtgjson.com/links/4ef3788c433730f2"
         },
         "rarity": "mythic",
+        "relatedCards": {
+          "tokens": [
+            "2a43d4ad-81b6-5f95-b42f-db833ded0112"
+          ]
+        },
         "rulings": [
           {
             "date": "2021-03-19",
@@ -213,9 +229,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "8102e106-e0a6-5ca1-a41a-479bbd5faf04"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -253,7 +274,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 8839,
+        "edhrecRank": 9405,
         "edhrecSaltiness": 0.31,
         "finishes": [
           "nonfoil"
@@ -261,27 +282,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "589634",
-              "scryfallId": "fb65d9e5-a287-41ea-ab9a-a2a0eee04125"
+              "multiverseId": "589991",
+              "scryfallId": "0d2018ae-3c07-43d8-9aed-61291bd363e9"
             },
-            "language": "German",
-            "multiverseId": 589634,
-            "name": "Ardoz die Kriegsschmiedin",
-            "text": "Eile\nImmer wenn Ardoz die Kriegsschmiedin oder eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhält die Kreatur +2/+0 bis zum Ende des Zuges.\n{3}{R}: Erzeuge einen 1/1 roten Goblin-Kreaturenspielstein mit Eile. Aktiviere diese Fähigkeit wie eine Hexerei.",
-            "type": "Legendäre Kreatur — Goblin, Schamane",
-            "uuid": "f31f0465-f709-5ca7-8a2d-d4d2673a848e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "589685",
-              "scryfallId": "4d275843-7694-405d-9978-0d7bf4d7f3f4"
+            "language": "Chinese Simplified",
+            "multiverseId": 589991,
+            "name": "兴战补匠阿朵兹",
+            "skuIds": {
+              "nonfoil": "939c00e0-2cd0-58b0-a24c-2efdf4461634"
             },
-            "language": "Spanish",
-            "multiverseId": 589685,
-            "name": "Ardoz, zapatera bélica",
-            "text": "Prisa.\nSiempre que Ardoz, zapatera bélica u otra criatura entre al campo de batalla bajo tu control, esa criatura obtiene +2/+0 hasta el final del turno.\n{3}{R}: Crea una ficha de criatura Trasgo roja 1/1 con la habilidad de prisa. Activa esto solo como un conjuro.",
-            "type": "Criatura legendaria — Chamán trasgo",
-            "uuid": "dac33ff2-8e54-5178-8648-62ba6983ba03"
+            "text": "敏捷\n每当兴战补匠阿朵兹或另一个生物在你操控下进战场时，该生物得+2/+0直到回合结束。\n{3}{R}：派出一个1/1红色，具敏捷异能的鬼怪衍生生物。只能于法术时机起动。",
+            "type": "传奇生物 ～鬼怪／祭师",
+            "uuid": "a680f282-b77a-5df1-b4be-d77e0adff872"
           },
           {
             "identifiers": {
@@ -291,9 +303,27 @@
             "language": "French",
             "multiverseId": 589736,
             "name": "Ardoz, cordonnière de guerre",
+            "skuIds": {
+              "nonfoil": "36c799ea-797a-54fa-b73d-d07700e17db9"
+            },
             "text": "Célérité\nÀ chaque fois qu'Ardoz, cordonnière de guerre ou une autre créature arrive sur le champ de bataille sous votre contrôle, cette créature gagne +2/+0 jusqu'à la fin du tour.\n{3}{R} : Créez un jeton de créature 1/1 rouge Gobelin avec la célérité. N'activez que lorsque vous pourriez lancer un rituel.",
             "type": "Créature légendaire : gobelin et shamane",
             "uuid": "2e1987a3-b7df-577d-87e6-817abc984766"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "589634",
+              "scryfallId": "fb65d9e5-a287-41ea-ab9a-a2a0eee04125"
+            },
+            "language": "German",
+            "multiverseId": 589634,
+            "name": "Ardoz die Kriegsschmiedin",
+            "skuIds": {
+              "nonfoil": "cb9df674-bb7b-5b87-b696-812487c71e4e"
+            },
+            "text": "Eile\nImmer wenn Ardoz die Kriegsschmiedin oder eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhält die Kreatur +2/+0 bis zum Ende des Zuges.\n{3}{R}: Erzeuge einen 1/1 roten Goblin-Kreaturenspielstein mit Eile. Aktiviere diese Fähigkeit wie eine Hexerei.",
+            "type": "Legendäre Kreatur — Goblin, Schamane",
+            "uuid": "f31f0465-f709-5ca7-8a2d-d4d2673a848e"
           },
           {
             "identifiers": {
@@ -303,6 +333,9 @@
             "language": "Italian",
             "multiverseId": 589787,
             "name": "Ardoz, Calzolaia da Guerra",
+            "skuIds": {
+              "nonfoil": "8e8fe590-ae6f-5b81-9c3e-819a871e9bc2"
+            },
             "text": "Rapidità\nOgniqualvolta Ardoz, Calzolaia da Guerra o un'altra creatura entra nel campo di battaglia sotto il tuo controllo, quella creatura prende +2/+0 fino alla fine del turno.\n{3}{R}: Crea una pedina creatura Goblin 1/1 rossa con rapidità. Attiva solo come una stregoneria.",
             "type": "Creatura Leggendaria — Sciamano Goblin",
             "uuid": "b322a4b9-162e-55ee-85f9-6c4ab42b59a0"
@@ -315,29 +348,33 @@
             "language": "Japanese",
             "multiverseId": 589838,
             "name": "戦争の靴職人、アルドース",
+            "skuIds": {
+              "nonfoil": "8a46f46d-9dc2-5a94-a9f4-03d3f6e2e937"
+            },
             "text": "速攻\n戦争の靴職人、アルドースやこれでないクリーチャー１体があなたのコントロール下で戦場に出るたび、ターン終了時まで、そのクリーチャーは＋２/＋０の修整を受ける。\n{3}{R}：速攻を持つ赤の１/１のゴブリン・クリーチャー・トークン１体を生成する。起動はソーサリーとしてのみ行う。",
             "type": "伝説のクリーチャー — ゴブリン・シャーマン",
             "uuid": "93b6ac29-a162-594d-b289-25857e198b79"
           },
           {
             "identifiers": {
-              "multiverseId": "589991",
-              "scryfallId": "0d2018ae-3c07-43d8-9aed-61291bd363e9"
+              "multiverseId": "589685",
+              "scryfallId": "4d275843-7694-405d-9978-0d7bf4d7f3f4"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589991,
-            "name": "兴战补匠阿朵兹",
-            "text": "敏捷\n每当兴战补匠阿朵兹或另一个生物在你操控下进战场时，该生物得+2/+0直到回合结束。\n{3}{R}：派出一个1/1红色，具敏捷异能的鬼怪衍生生物。只能于法术时机起动。",
-            "type": "传奇生物 ～鬼怪／祭师",
-            "uuid": "a680f282-b77a-5df1-b4be-d77e0adff872"
+            "language": "Spanish",
+            "multiverseId": 589685,
+            "name": "Ardoz, zapatera bélica",
+            "skuIds": {
+              "nonfoil": "62337e9d-18bc-5247-99e6-2136137850af"
+            },
+            "text": "Prisa.\nSiempre que Ardoz, zapatera bélica u otra criatura entre al campo de batalla bajo tu control, esa criatura obtiene +2/+0 hasta el final del turno.\n{3}{R}: Crea una ficha de criatura Trasgo roja 1/1 con la habilidad de prisa. Activa esto solo como un conjuro.",
+            "type": "Criatura legendaria — Chamán trasgo",
+            "uuid": "dac33ff2-8e54-5178-8648-62ba6983ba03"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270180",
           "cardsphereId": "96717",
@@ -376,6 +413,7 @@
         "name": "Ardoz, Cobbler of War",
         "number": "29",
         "originalText": "Haste\nWhenever Ardoz, Cobbler of War or another creature enters the battlefield under your control, that creature gets +2/+0 until end of turn.\n{3}{R}: Create a 1/1 red Goblin creature token with haste. Activate only as a sorcery.",
+        "originalType": "Legendary Creature – Goblin Shaman",
         "power": "1",
         "printings": [
           "J22"
@@ -386,11 +424,21 @@
           "tcgplayer": "https://mtgjson.com/links/8f266f27c8083507"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "624155e0-9fb2-5dc4-ab66-fb7cd6196d53"
+          ]
+        },
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "f7598336-4dea-593d-aa9c-073f2669d476"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -428,37 +476,28 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12002,
+        "edhrecRank": 12685,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Its spark is worse than its bite.",
         "foreignData": [
           {
-            "flavorText": "Sein Funke ist schlimmer als sein Biss.",
+            "flavorText": "电光比利齿更为凶狠。",
             "identifiers": {
-              "multiverseId": "590212",
-              "scryfallId": "b8b6dc5b-7b7a-41bf-816a-21799f2aee5a"
+              "multiverseId": "591157",
+              "scryfallId": "3c2b17c8-0aef-4d2e-841c-9aef039e86db"
             },
-            "language": "German",
-            "multiverseId": 590212,
-            "name": "Blitzhund",
-            "text": "Eile\nImmer wenn der Blitzhund angreift, erhalten andere Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Elementarwesen, Hund",
-            "uuid": "25ab97a2-b407-59cf-97d7-3fd9838df766"
-          },
-          {
-            "flavorText": "Su chispazo es peor que su mordisco.",
-            "identifiers": {
-              "multiverseId": "590347",
-              "scryfallId": "cc0b1663-7218-458a-81df-3475c88789e7"
+            "language": "Chinese Simplified",
+            "multiverseId": 591157,
+            "name": "电闪猎犬",
+            "skuIds": {
+              "nonfoil": "2e6fcf1c-5ecb-572a-bf85-170a58c0e11c"
             },
-            "language": "Spanish",
-            "multiverseId": 590347,
-            "name": "Perro relámpago",
-            "text": "Prisa.\nSiempre que el Perro relámpago ataque, las otras criaturas que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Criatura — Perro elemental",
-            "uuid": "502ab5d2-73d8-5a6c-bcdd-ffd71e755bfd"
+            "text": "敏捷\n每当电闪猎犬攻击时，由你操控的其他生物得+1/+0直到回合结束。",
+            "type": "生物 ～元素／狗",
+            "uuid": "4c1afe41-93fe-563f-920f-0341dc295c9d"
           },
           {
             "flavorText": "Il crépite plus qu'il ne mord.",
@@ -469,9 +508,28 @@
             "language": "French",
             "multiverseId": 590482,
             "name": "Chien d'éclair",
+            "skuIds": {
+              "nonfoil": "e3f76421-c7dc-5a97-8594-8cdc45ee5c48"
+            },
             "text": "Célérité\nÀ chaque fois que le Chien d'éclair attaque, les autres créatures que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Créature : élémental et chien",
             "uuid": "70bb3d48-23fc-5c15-b2a9-e585238f549c"
+          },
+          {
+            "flavorText": "Sein Funke ist schlimmer als sein Biss.",
+            "identifiers": {
+              "multiverseId": "590212",
+              "scryfallId": "b8b6dc5b-7b7a-41bf-816a-21799f2aee5a"
+            },
+            "language": "German",
+            "multiverseId": 590212,
+            "name": "Blitzhund",
+            "skuIds": {
+              "nonfoil": "165121f9-0e36-5873-83b3-57c5f9893d61"
+            },
+            "text": "Eile\nImmer wenn der Blitzhund angreift, erhalten andere Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Elementarwesen, Hund",
+            "uuid": "25ab97a2-b407-59cf-97d7-3fd9838df766"
           },
           {
             "flavorText": "La sua fiamma è ben peggiore del suo morso.",
@@ -482,6 +540,9 @@
             "language": "Italian",
             "multiverseId": 590617,
             "name": "Segugio Saetta",
+            "skuIds": {
+              "nonfoil": "16d74f98-fe8f-5ea5-8535-9a8641434c15"
+            },
             "text": "Rapidità\nOgniqualvolta il Segugio Saetta attacca, le altre creature che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Creatura — Canide Elementale",
             "uuid": "e1c1aabd-f1f3-5c44-8b1a-2e137471b490"
@@ -495,27 +556,31 @@
             "language": "Japanese",
             "multiverseId": 590752,
             "name": "雷光の猟犬",
+            "skuIds": {
+              "nonfoil": "a2053ee4-c9a9-56bf-8987-246857d00c15"
+            },
             "text": "速攻\n雷光の猟犬が攻撃するたび、ターン終了時まで、あなたがコントロールしていてこれでないすべてのクリーチャーは＋１/＋０の修整を受ける。",
             "type": "クリーチャー — エレメンタル・犬",
             "uuid": "b6ad9184-5234-5ed1-ae6f-6f2a9a550158"
           },
           {
-            "flavorText": "电光比利齿更为凶狠。",
+            "flavorText": "Su chispazo es peor que su mordisco.",
             "identifiers": {
-              "multiverseId": "591157",
-              "scryfallId": "3c2b17c8-0aef-4d2e-841c-9aef039e86db"
+              "multiverseId": "590347",
+              "scryfallId": "cc0b1663-7218-458a-81df-3475c88789e7"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591157,
-            "name": "电闪猎犬",
-            "text": "敏捷\n每当电闪猎犬攻击时，由你操控的其他生物得+1/+0直到回合结束。",
-            "type": "生物 ～元素／狗",
-            "uuid": "4c1afe41-93fe-563f-920f-0341dc295c9d"
+            "language": "Spanish",
+            "multiverseId": 590347,
+            "name": "Perro relámpago",
+            "skuIds": {
+              "nonfoil": "35f2dbb2-b642-5795-8700-7ea7a97cd244"
+            },
+            "text": "Prisa.\nSiempre que el Perro relámpago ataque, las otras criaturas que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Criatura — Perro elemental",
+            "uuid": "502ab5d2-73d8-5a6c-bcdd-ffd71e755bfd"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270203",
           "cardsphereId": "96750",
@@ -556,6 +621,7 @@
         "name": "Bolt Hound",
         "number": "504",
         "originalText": "Haste\nWhenever Bolt Hound attacks, other creatures you control get +1/+0 until end of turn.",
+        "originalType": "Creature – Elemental Dog",
         "power": "2",
         "printings": [
           "J22",
@@ -568,9 +634,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "78fb8647-84f3-5cff-8aad-3ba6c954f12a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -606,7 +677,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 8012,
+        "edhrecRank": 7815,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
@@ -614,30 +685,20 @@
         "flavorText": "\"The Brazen Coalition is a firecannon pointed at our enemies. Goblins like him are the spark to its powder.\"\n—Admiral Beckett Brass",
         "foreignData": [
           {
-            "flavorText": "„Die Tollkühne Koalition ist die Feuerkanone, die wir auf unsere Gegner richten. Und Goblins wie er sind der Funke, der die Lunte entfacht.\"\n—Admiralin Beckett Tollkun",
+            "flavorText": "「莽霸联盟是一门瞄准敌人的火炎炮。像他这样的鬼怪就是点燃火药的火花。」\n～贝克蒂霸司总帅",
             "identifiers": {
-              "multiverseId": "590236",
-              "scryfallId": "b1e2af4d-99b6-4279-be87-b451f8e0407e"
+              "multiverseId": "591181",
+              "scryfallId": "ce5b89fc-1f46-4ec8-9b45-46f06e7c717a"
             },
-            "language": "German",
-            "multiverseId": 590236,
-            "name": "Fanatischer Hitzkopf",
-            "text": "Eile\n{T}, opfere den Fanatischen Hitzkopf: Er fügt einem Ziel deiner Wahl 1 Schadenspunkt zu.",
-            "type": "Kreatur — Goblin, Pirat",
-            "uuid": "a0ccb9a9-f2e9-57cc-b3d7-16f9a6252c22"
-          },
-          {
-            "flavorText": "\"La Coalición Azófar es un cañón ígneo que apunta a nuestros enemigos. Los trasgos como él son la chispa de la pólvora\".\n—Almirante Beckett Azófar",
-            "identifiers": {
-              "multiverseId": "590371",
-              "scryfallId": "68c3a24f-d03d-4890-9772-2b704ee9370c"
+            "language": "Chinese Simplified",
+            "multiverseId": 591181,
+            "name": "狂热惹事鬼",
+            "skuIds": {
+              "nonfoil": "cbc46568-26e2-50bd-9de5-0231db95f5fc"
             },
-            "language": "Spanish",
-            "multiverseId": 590371,
-            "name": "Fanático flamígero",
-            "text": "Prisa.\n{T}, sacrificar el Fanático flamígero: Hace 1 punto de daño a cualquier objetivo.",
-            "type": "Criatura — Pirata trasgo",
-            "uuid": "b05f2109-84ec-5474-8002-d0a434dc2d49"
+            "text": "敏捷\n{T}，牺牲狂热惹事鬼：它对任意一个目标造成1点伤害。",
+            "type": "生物 ～鬼怪／海盗",
+            "uuid": "93d23ee1-1c65-590a-8ab2-e180c007942e"
           },
           {
             "flavorText": "« La Coalition des hardis est un pyrocanon pointé sur nos ennemis. Les gobelins de son espèce mettent le feu aux poudres. »\n—Amirale Beckett Hardiesce",
@@ -648,9 +709,28 @@
             "language": "French",
             "multiverseId": 590506,
             "name": "Brandon fanatique",
+            "skuIds": {
+              "nonfoil": "83a371ce-bfb6-588f-baa6-625e91006136"
+            },
             "text": "Célérité\n{T}, sacrifiez le Brandon fanatique : Il inflige 1 blessure à n'importe quelle cible.",
             "type": "Créature : gobelin et pirate",
             "uuid": "b045eab6-b983-5129-9244-790a0136b4c2"
+          },
+          {
+            "flavorText": "„Die Tollkühne Koalition ist die Feuerkanone, die wir auf unsere Gegner richten. Und Goblins wie er sind der Funke, der die Lunte entfacht.\"\n—Admiralin Beckett Tollkun",
+            "identifiers": {
+              "multiverseId": "590236",
+              "scryfallId": "b1e2af4d-99b6-4279-be87-b451f8e0407e"
+            },
+            "language": "German",
+            "multiverseId": 590236,
+            "name": "Fanatischer Hitzkopf",
+            "skuIds": {
+              "nonfoil": "d19d1793-e5de-5cf4-a4c6-7f5b1181a21f"
+            },
+            "text": "Eile\n{T}, opfere den Fanatischen Hitzkopf: Er fügt einem Ziel deiner Wahl 1 Schadenspunkt zu.",
+            "type": "Kreatur — Goblin, Pirat",
+            "uuid": "a0ccb9a9-f2e9-57cc-b3d7-16f9a6252c22"
           },
           {
             "flavorText": "\"L'Alleanza di Bronzo è una bocca di fuoco puntata sui nostri nemici. I goblin come lui sono la scintilla che ne innesca la miccia.\"\n—Ammiraglio Beckett Cuor di Bronzo",
@@ -661,6 +741,9 @@
             "language": "Italian",
             "multiverseId": 590641,
             "name": "Aizzatore Fanatico",
+            "skuIds": {
+              "nonfoil": "a7e613d8-2317-5810-9ac0-a3d802791e8e"
+            },
             "text": "Rapidità\n{T}, Sacrifica l'Aizzatore Fanatico: Infligge 1 danno a un qualsiasi bersaglio.",
             "type": "Creatura — Pirata Goblin",
             "uuid": "831cc0ab-30f6-50ac-8cf2-faf80a482a44"
@@ -674,27 +757,31 @@
             "language": "Japanese",
             "multiverseId": 590776,
             "name": "狂信的扇動者",
+            "skuIds": {
+              "nonfoil": "77dafd8b-0ee9-5cb4-bc0e-8aa54ba1bd43"
+            },
             "text": "速攻\n{T}, 狂信的扇動者を生け贄に捧げる：クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。これはそれに１点のダメージを与える。",
             "type": "クリーチャー — ゴブリン・海賊",
             "uuid": "4944afcd-e88a-58c1-a9a7-8abcc321d27a"
           },
           {
-            "flavorText": "「莽霸联盟是一门瞄准敌人的火炎炮。像他这样的鬼怪就是点燃火药的火花。」\n～贝克蒂霸司总帅",
+            "flavorText": "\"La Coalición Azófar es un cañón ígneo que apunta a nuestros enemigos. Los trasgos como él son la chispa de la pólvora\".\n—Almirante Beckett Azófar",
             "identifiers": {
-              "multiverseId": "591181",
-              "scryfallId": "ce5b89fc-1f46-4ec8-9b45-46f06e7c717a"
+              "multiverseId": "590371",
+              "scryfallId": "68c3a24f-d03d-4890-9772-2b704ee9370c"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591181,
-            "name": "狂热惹事鬼",
-            "text": "敏捷\n{T}，牺牲狂热惹事鬼：它对任意一个目标造成1点伤害。",
-            "type": "生物 ～鬼怪／海盗",
-            "uuid": "93d23ee1-1c65-590a-8ab2-e180c007942e"
+            "language": "Spanish",
+            "multiverseId": 590371,
+            "name": "Fanático flamígero",
+            "skuIds": {
+              "nonfoil": "63f5a700-c331-5810-a88a-217e894ff93a"
+            },
+            "text": "Prisa.\n{T}, sacrificar el Fanático flamígero: Hace 1 punto de daño a cualquier objetivo.",
+            "type": "Criatura — Pirata trasgo",
+            "uuid": "b05f2109-84ec-5474-8002-d0a434dc2d49"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270204",
           "cardsphereId": "96761",
@@ -730,6 +817,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "standard": "Legal",
           "standardbrawl": "Legal",
@@ -741,6 +829,7 @@
         "name": "Fanatical Firebrand",
         "number": "528",
         "originalText": "Haste\n{T}, Sacrifice Fanatical Firebrand: It deals 1 damage to any target.",
+        "originalType": "Creature – Goblin Pirate",
         "power": "1",
         "printings": [
           "FDN",
@@ -756,9 +845,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "fee75b68-ab7c-5071-a223-63ad58958fd9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -794,7 +888,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18817,
+        "edhrecRank": 19454,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -802,30 +896,20 @@
         "flavorText": "To some satyrs, only blasphemy is sacred.",
         "foreignData": [
           {
-            "flavorText": "Einigen Satyrn ist nur die Blasphemie heilig.",
+            "flavorText": "对部分羊蹄人而言，只有亵渎神明才是致敬。",
             "identifiers": {
-              "multiverseId": "590268",
-              "scryfallId": "3a22cd2c-17e5-40b0-9536-75dbefed9bb4"
+              "multiverseId": "591213",
+              "scryfallId": "c3f44f24-8492-4b51-aba6-0ea4d15a38fe"
             },
-            "language": "German",
-            "multiverseId": 590268,
-            "name": "Ehrfurchtslose Zecher",
-            "text": "Wenn die Ehrfurchtslosen Zecher ins Spiel kommen, bestimme eines —\n• Zerstöre ein Artefakt deiner Wahl.\n• Die Ehrfurchtslosen Zecher erhalten Eile bis zum Ende des Zuges.",
-            "type": "Kreatur — Satyr",
-            "uuid": "43c90a8e-2100-5c43-8274-7d6374e3636e"
-          },
-          {
-            "flavorText": "Para algunos sátiros, lo único sagrado es la blasfemia.",
-            "identifiers": {
-              "multiverseId": "590403",
-              "scryfallId": "cdbf063a-c1a5-4bf6-8b36-ca3778213f0b"
+            "language": "Chinese Simplified",
+            "multiverseId": 591213,
+            "name": "无拘狂欢人",
+            "skuIds": {
+              "nonfoil": "0f2a694d-0c46-59ce-97b5-b211fd026df6"
             },
-            "language": "Spanish",
-            "multiverseId": 590403,
-            "name": "Juerguistas irreverentes",
-            "text": "Cuando los Juerguistas irreverentes entren al campo de batalla, elige uno:\n• Destruye el artefacto objetivo.\n• Los Juerguistas irreverentes ganan la habilidad de prisa hasta el final del turno.",
-            "type": "Criatura — Sátiro",
-            "uuid": "03578c7d-080d-53b6-9947-6aef3b3f5123"
+            "text": "当无拘狂欢人进战场时，选择一项～\n•消灭目标神器。\n•无拘狂欢人获得敏捷异能直到回合结束。",
+            "type": "生物 ～羊蹄人",
+            "uuid": "fb56913c-27c3-5877-84af-8e4548ac3b0a"
           },
           {
             "flavorText": "Pour certains satyres, seul le blasphème est sacré.",
@@ -836,9 +920,28 @@
             "language": "French",
             "multiverseId": 590538,
             "name": "Fêtards irrévérencieux",
+            "skuIds": {
+              "nonfoil": "b45f2a0e-7e68-5af1-baca-c0770f21b56b"
+            },
             "text": "Quand les Fêtards irrévérencieux arrivent sur le champ de bataille, choisissez l'un —\n• Détruisez un artefact ciblé.\n• Les Fêtards irrévérencieux acquièrent la célérité jusqu'à la fin du tour.",
             "type": "Créature : satyre",
             "uuid": "4870b2db-a612-540a-94b2-99f1c3e36b47"
+          },
+          {
+            "flavorText": "Einigen Satyrn ist nur die Blasphemie heilig.",
+            "identifiers": {
+              "multiverseId": "590268",
+              "scryfallId": "3a22cd2c-17e5-40b0-9536-75dbefed9bb4"
+            },
+            "language": "German",
+            "multiverseId": 590268,
+            "name": "Ehrfurchtslose Zecher",
+            "skuIds": {
+              "nonfoil": "77f2a254-9a06-572c-a4b8-20928c2e830f"
+            },
+            "text": "Wenn die Ehrfurchtslosen Zecher ins Spiel kommen, bestimme eines —\n• Zerstöre ein Artefakt deiner Wahl.\n• Die Ehrfurchtslosen Zecher erhalten Eile bis zum Ende des Zuges.",
+            "type": "Kreatur — Satyr",
+            "uuid": "43c90a8e-2100-5c43-8274-7d6374e3636e"
           },
           {
             "flavorText": "Per alcuni satiri, solo la blasfemia è sacra.",
@@ -849,6 +952,9 @@
             "language": "Italian",
             "multiverseId": 590673,
             "name": "Dissoluti Irriverenti",
+            "skuIds": {
+              "nonfoil": "aeed4551-21b5-5674-a249-fe8ba7c7807c"
+            },
             "text": "Quando i Dissoluti Irriverenti entrano nel campo di battaglia, scegli uno —\n• Distruggi un artefatto bersaglio.\n• I Dissoluti Irriverenti hanno rapidità fino alla fine del turno.",
             "type": "Creatura — Satiro",
             "uuid": "9ee9535b-4966-52b7-a83b-62ef643f27e4"
@@ -862,27 +968,31 @@
             "language": "Japanese",
             "multiverseId": 590808,
             "name": "不遜な歓楽者",
+            "skuIds": {
+              "nonfoil": "ec569bad-f0b1-5f9d-a0a0-f29ad32196b9"
+            },
             "text": "不遜な歓楽者が戦場に出たとき、以下から１つを選ぶ。\n• アーティファクト１つを対象とする。それを破壊する。\n• ターン終了時まで、不遜な歓楽者は速攻を得る。",
             "type": "クリーチャー — サテュロス",
             "uuid": "d0195ebe-5885-5b5f-8d1e-914882339421"
           },
           {
-            "flavorText": "对部分羊蹄人而言，只有亵渎神明才是致敬。",
+            "flavorText": "Para algunos sátiros, lo único sagrado es la blasfemia.",
             "identifiers": {
-              "multiverseId": "591213",
-              "scryfallId": "c3f44f24-8492-4b51-aba6-0ea4d15a38fe"
+              "multiverseId": "590403",
+              "scryfallId": "cdbf063a-c1a5-4bf6-8b36-ca3778213f0b"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591213,
-            "name": "无拘狂欢人",
-            "text": "当无拘狂欢人进战场时，选择一项～\n•消灭目标神器。\n•无拘狂欢人获得敏捷异能直到回合结束。",
-            "type": "生物 ～羊蹄人",
-            "uuid": "fb56913c-27c3-5877-84af-8e4548ac3b0a"
+            "language": "Spanish",
+            "multiverseId": 590403,
+            "name": "Juerguistas irreverentes",
+            "skuIds": {
+              "nonfoil": "42985ce2-a3e8-5eaf-b673-87fcf1686e64"
+            },
+            "text": "Cuando los Juerguistas irreverentes entren al campo de batalla, elige uno:\n• Destruye el artefacto objetivo.\n• Los Juerguistas irreverentes ganan la habilidad de prisa hasta el final del turno.",
+            "type": "Criatura — Sátiro",
+            "uuid": "03578c7d-080d-53b6-9947-6aef3b3f5123"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270206",
           "cardsphereId": "96764",
@@ -922,6 +1032,7 @@
         "name": "Irreverent Revelers",
         "number": "560",
         "originalText": "When Irreverent Revelers enters the battlefield, choose one —\n• Destroy target artifact.\n• Irreverent Revelers gains haste until end of turn.",
+        "originalType": "Creature – Satyr",
         "power": "2",
         "printings": [
           "J22",
@@ -934,9 +1045,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "476583b2-3dc0-58f8-9865-af11d665b4cb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -971,7 +1087,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20051,
+        "edhrecRank": 20088,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
@@ -979,30 +1095,20 @@
         "flavorText": "The oil sloshes against his skull as he nears his destination: the Frogtosser Games and the lighting of the Flaming Boggart.",
         "foreignData": [
           {
-            "flavorText": "Das Öl schwappt auf seinen Schädel, während er sich seinem Ziel nähert: dem Froschwerfer-Wettbewerb und dem Entzünden des flammenden Boggarts.",
+            "flavorText": "油一滴滴溅在头颅上，他也逐渐接近最终点：掷蛙比赛与烧波尬火炬。",
             "identifiers": {
-              "multiverseId": "590282",
-              "scryfallId": "af7d1ee1-40ef-4c37-a0c9-543968e2c90b"
+              "multiverseId": "591227",
+              "scryfallId": "6f00e849-0a82-45be-8605-cfeaa6814bbb"
             },
-            "language": "German",
-            "multiverseId": 590282,
-            "name": "Schlammknopf-Fackelläufer",
-            "text": "Wenn der Schlammknopf-Fackelläufer stirbt, fügt er einem Ziel deiner Wahl 3 Schadenspunkte zu.",
-            "type": "Kreatur — Goblin, Krieger",
-            "uuid": "9f85dca0-6b5f-52a8-a04f-1b12fc90a4ae"
-          },
-          {
-            "flavorText": "El aceite golpea contra su cabeza mientras se acerca a su destino: los juegos de lanzamiento de rana y el encendido del Boggart llameante.",
-            "identifiers": {
-              "multiverseId": "590417",
-              "scryfallId": "f41b5f24-8d2a-4005-bf55-83e5fd2a96ad"
+            "language": "Chinese Simplified",
+            "multiverseId": 591227,
+            "name": "泥钮炬跑者",
+            "skuIds": {
+              "nonfoil": "a751e13c-c12f-5c69-89ab-954543388330"
             },
-            "language": "Spanish",
-            "multiverseId": 590417,
-            "name": "Antorchero de Botón Fangoso",
-            "text": "Cuando el Antorchero de Botón Fangoso muera, hace 3 puntos de daño a cualquier objetivo.",
-            "type": "Criatura — Guerrero trasgo",
-            "uuid": "bd1ac426-41a6-5f0d-87b0-0d68374c20e5"
+            "text": "当泥钮炬跑者死去时，它对任意一个目标造成3点伤害。",
+            "type": "生物 ～鬼怪／战士",
+            "uuid": "67b0775b-c50c-582c-b258-c843b26a7ca9"
           },
           {
             "flavorText": "L'huile coule sur son crâne tandis qu'il approche de sa destination : l'ouverture des Jeux de lancer de grenouilles et l'allumage du Boggart de Feu.",
@@ -1013,9 +1119,28 @@
             "language": "French",
             "multiverseId": 590552,
             "name": "Porteur de torche de Baugebouton",
+            "skuIds": {
+              "nonfoil": "724e095c-474d-55bd-8f86-bf6fcc961eca"
+            },
             "text": "Quand le Porteur de torche de Baugebouton meurt, il inflige 3 blessures à n'importe quelle cible.",
             "type": "Créature : gobelin et guerrier",
             "uuid": "15f0b432-b906-5c95-b7d5-ffc608431c79"
+          },
+          {
+            "flavorText": "Das Öl schwappt auf seinen Schädel, während er sich seinem Ziel nähert: dem Froschwerfer-Wettbewerb und dem Entzünden des flammenden Boggarts.",
+            "identifiers": {
+              "multiverseId": "590282",
+              "scryfallId": "af7d1ee1-40ef-4c37-a0c9-543968e2c90b"
+            },
+            "language": "German",
+            "multiverseId": 590282,
+            "name": "Schlammknopf-Fackelläufer",
+            "skuIds": {
+              "nonfoil": "75490590-7fee-5f0a-85a1-011fb5137e8b"
+            },
+            "text": "Wenn der Schlammknopf-Fackelläufer stirbt, fügt er einem Ziel deiner Wahl 3 Schadenspunkte zu.",
+            "type": "Kreatur — Goblin, Krieger",
+            "uuid": "9f85dca0-6b5f-52a8-a04f-1b12fc90a4ae"
           },
           {
             "flavorText": "L'olio gli sciaborda sul cranio mentre si avvicina alla meta: i Giochi del Lancio della Rana e l'accensione del Boggart Infuocato.",
@@ -1026,6 +1151,9 @@
             "language": "Italian",
             "multiverseId": 590687,
             "name": "Tedoforo di Bottone Fangoso",
+            "skuIds": {
+              "nonfoil": "e6e37123-909e-5bd3-bea0-1989efe63393"
+            },
             "text": "Quando il Tedoforo di Bottone Fangoso muore, infligge 3 danni a un qualsiasi bersaglio.",
             "type": "Creatura — Guerriero Goblin",
             "uuid": "f7ad62da-1720-5e36-96b0-d0b13dcce2f5"
@@ -1039,27 +1167,31 @@
             "language": "Japanese",
             "multiverseId": 590822,
             "name": "泥デコの松明走り",
+            "skuIds": {
+              "nonfoil": "7272aab9-3ca3-5994-ab09-34e2665a2240"
+            },
             "text": "泥デコの松明走りが死亡したとき、クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。これはそれに３点のダメージを与える。",
             "type": "クリーチャー — ゴブリン・戦士",
             "uuid": "72157ae5-8d53-5417-a87c-4bd29fefc087"
           },
           {
-            "flavorText": "油一滴滴溅在头颅上，他也逐渐接近最终点：掷蛙比赛与烧波尬火炬。",
+            "flavorText": "El aceite golpea contra su cabeza mientras se acerca a su destino: los juegos de lanzamiento de rana y el encendido del Boggart llameante.",
             "identifiers": {
-              "multiverseId": "591227",
-              "scryfallId": "6f00e849-0a82-45be-8605-cfeaa6814bbb"
+              "multiverseId": "590417",
+              "scryfallId": "f41b5f24-8d2a-4005-bf55-83e5fd2a96ad"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591227,
-            "name": "泥钮炬跑者",
-            "text": "当泥钮炬跑者死去时，它对任意一个目标造成3点伤害。",
-            "type": "生物 ～鬼怪／战士",
-            "uuid": "67b0775b-c50c-582c-b258-c843b26a7ca9"
+            "language": "Spanish",
+            "multiverseId": 590417,
+            "name": "Antorchero de Botón Fangoso",
+            "skuIds": {
+              "nonfoil": "678711bc-a26b-50ff-bdaf-2d7d3fc226c6"
+            },
+            "text": "Cuando el Antorchero de Botón Fangoso muera, hace 3 puntos de daño a cualquier objetivo.",
+            "type": "Criatura — Guerrero trasgo",
+            "uuid": "bd1ac426-41a6-5f0d-87b0-0d68374c20e5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270208",
           "cardsphereId": "96760",
@@ -1096,6 +1228,7 @@
         "name": "Mudbutton Torchrunner",
         "number": "574",
         "originalText": "When Mudbutton Torchrunner dies, it deals 3 damage to any target.",
+        "originalType": "Creature – Goblin Warrior",
         "power": "1",
         "printings": [
           "DD1",
@@ -1115,9 +1248,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "16a1a787-4bd0-5841-b61c-bb32cc78e526"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1153,7 +1291,7 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 24830,
+        "edhrecRank": 25171,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -1161,30 +1299,20 @@
         "flavorText": "\"What use is a stake or holy symbol in the hands of a coward?\"",
         "foreignData": [
           {
-            "flavorText": "„In den Händen eines Feiglings sind auch ein Pflock und ein heiliges Symbol nutzlos.\"",
+            "flavorText": "「木桩或圣符握在懦夫手上又有何用？」",
             "identifiers": {
-              "multiverseId": "590281",
-              "scryfallId": "77d224aa-e5c3-4d1b-b2cb-3c9a7462e819"
+              "multiverseId": "591226",
+              "scryfallId": "7403bf7a-b173-4167-ad5c-cc0eb1e2cf5b"
             },
-            "language": "German",
-            "multiverseId": 590281,
-            "name": "Markov-Kriegsfürst",
-            "text": "Eile\nWenn der Markov-Kriegsfürst ins Spiel kommt, können bis zu zwei Kreaturen deiner Wahl in diesem Zug nicht blocken.",
-            "type": "Kreatur — Vampir, Krieger",
-            "uuid": "8875cbcb-3bda-5155-9154-21469bb15a76"
-          },
-          {
-            "flavorText": "\"¿De qué sirven una estaca o un símbolo sagrado en las manos de un cobarde?\".",
-            "identifiers": {
-              "multiverseId": "590416",
-              "scryfallId": "c1973781-afb1-4f28-9ea3-c061cec8f60a"
+            "language": "Chinese Simplified",
+            "multiverseId": 591226,
+            "name": "马可夫军头",
+            "skuIds": {
+              "nonfoil": "b6fa224d-ece8-51ae-a070-7ecb83d1e06f"
             },
-            "language": "Spanish",
-            "multiverseId": 590416,
-            "name": "Señor de la guerra Markov",
-            "text": "Prisa.\nCuando el Señor de la guerra Markov entre al campo de batalla, hasta dos criaturas objetivo no pueden bloquear este turno.",
-            "type": "Criatura — Guerrero vampiro",
-            "uuid": "cd66fc13-b850-5535-9fe6-62cb92f3fb5b"
+            "text": "敏捷\n当马可夫军头进战场时，至多两个目标生物本回合不能进行阻挡。",
+            "type": "生物 ～吸血鬼／战士",
+            "uuid": "4ac61a91-13c4-5bb0-bc8b-d1c07c2d4b0b"
           },
           {
             "flavorText": "« Quelle peut être l'utilité d'un pieu ou d'un symbole sacré dans les mains d'un lâche ? »",
@@ -1195,9 +1323,28 @@
             "language": "French",
             "multiverseId": 590551,
             "name": "Seigneur de guerre Markov",
+            "skuIds": {
+              "nonfoil": "2f49c823-df96-51f4-9800-78e3feed12a5"
+            },
             "text": "Célérité\nQuand le Seigneur de guerre Markov arrive sur le champ de bataille, jusqu'à deux créatures ciblées ne peuvent pas bloquer ce tour-ci.",
             "type": "Créature : vampire et guerrier",
             "uuid": "ca1aa2e5-552b-517c-8c8c-bd17828bffd8"
+          },
+          {
+            "flavorText": "„In den Händen eines Feiglings sind auch ein Pflock und ein heiliges Symbol nutzlos.\"",
+            "identifiers": {
+              "multiverseId": "590281",
+              "scryfallId": "77d224aa-e5c3-4d1b-b2cb-3c9a7462e819"
+            },
+            "language": "German",
+            "multiverseId": 590281,
+            "name": "Markov-Kriegsfürst",
+            "skuIds": {
+              "nonfoil": "4021df0e-190c-5172-b09b-95d99472b368"
+            },
+            "text": "Eile\nWenn der Markov-Kriegsfürst ins Spiel kommt, können bis zu zwei Kreaturen deiner Wahl in diesem Zug nicht blocken.",
+            "type": "Kreatur — Vampir, Krieger",
+            "uuid": "8875cbcb-3bda-5155-9154-21469bb15a76"
           },
           {
             "flavorText": "\"A cosa serve un bastone o un simbolo sacro in mano a un codardo?\"",
@@ -1208,6 +1355,9 @@
             "language": "Italian",
             "multiverseId": 590686,
             "name": "Condottiero Markov",
+            "skuIds": {
+              "nonfoil": "6a962b2b-4f73-5440-8cf4-52e4783d7895"
+            },
             "text": "Rapidità\nQuando il Condottiero Markov entra nel campo di battaglia, fino a due creature bersaglio non possono bloccare in questo turno.",
             "type": "Creatura — Guerriero Vampiro",
             "uuid": "a2b709d3-8304-5fc3-b32d-9ef2d017994f"
@@ -1221,27 +1371,31 @@
             "language": "Japanese",
             "multiverseId": 590821,
             "name": "マルコフの大将軍",
+            "skuIds": {
+              "nonfoil": "7ac09186-ed06-5e91-a4b2-8777d5d219c6"
+            },
             "text": "速攻\nマルコフの大将軍が戦場に出たとき、クリーチャー最大２体を対象とする。このターン、それらではブロックできない。",
             "type": "クリーチャー — 吸血鬼・戦士",
             "uuid": "999b4c8c-07d0-575d-b50e-7da84be61a89"
           },
           {
-            "flavorText": "「木桩或圣符握在懦夫手上又有何用？」",
+            "flavorText": "\"¿De qué sirven una estaca o un símbolo sagrado en las manos de un cobarde?\".",
             "identifiers": {
-              "multiverseId": "591226",
-              "scryfallId": "7403bf7a-b173-4167-ad5c-cc0eb1e2cf5b"
+              "multiverseId": "590416",
+              "scryfallId": "c1973781-afb1-4f28-9ea3-c061cec8f60a"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591226,
-            "name": "马可夫军头",
-            "text": "敏捷\n当马可夫军头进战场时，至多两个目标生物本回合不能进行阻挡。",
-            "type": "生物 ～吸血鬼／战士",
-            "uuid": "4ac61a91-13c4-5bb0-bc8b-d1c07c2d4b0b"
+            "language": "Spanish",
+            "multiverseId": 590416,
+            "name": "Señor de la guerra Markov",
+            "skuIds": {
+              "nonfoil": "e4097fdf-7458-5c2f-8392-4dce23b92612"
+            },
+            "text": "Prisa.\nCuando el Señor de la guerra Markov entre al campo de batalla, hasta dos criaturas objetivo no pueden bloquear este turno.",
+            "type": "Criatura — Guerrero vampiro",
+            "uuid": "cd66fc13-b850-5535-9fe6-62cb92f3fb5b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270207",
           "cardsphereId": "96762",
@@ -1282,6 +1436,7 @@
         "name": "Markov Warlord",
         "number": "573",
         "originalText": "Haste\nWhen Markov Warlord enters the battlefield, up to two target creatures can't block this turn.",
+        "originalType": "Creature – Vampire Warrior",
         "power": "4",
         "printings": [
           "DKA",
@@ -1305,9 +1460,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "2d51161c-f5e2-50de-b642-8e4698a458c8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1343,37 +1503,28 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20494,
+        "edhrecRank": 21228,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"These sailors on our shores are like the dinosaurs that plunder eggs from nests. They live on the labors of others.\"\n—Itzama the Crested",
         "foreignData": [
           {
-            "flavorText": "„Diese Eindringlinge an unseren Küsten sind wie Dinosaurier, die Eier aus Nestern rauben. Sie leben vom Tagewerk anderer.\"\n—Itzama Knochenhaupt",
+            "flavorText": "「岸上这些水手跟从巢穴中偷蛋的恐龙没有什么分别。都是靠他人的劳动成果为生。」\n～冠盔伊札玛",
             "identifiers": {
-              "multiverseId": "590284",
-              "scryfallId": "dd06d88e-6544-419b-871c-3d62440e5806"
+              "multiverseId": "591229",
+              "scryfallId": "92352aba-e5fb-43f0-9f0c-73fe9458577d"
             },
-            "language": "German",
-            "multiverseId": 590284,
-            "name": "Nesträuber",
-            "text": "Eile",
-            "type": "Kreatur — Dinosaurier",
-            "uuid": "52ab7887-080a-57f4-932a-4296337ab254"
-          },
-          {
-            "flavorText": "\"Estos marineros en nuestras costas son como los dinosaurios que roban huevos de otros nidos. Viven gracias a los frutos de otros\".\n—Itzama, la Crestada",
-            "identifiers": {
-              "multiverseId": "590419",
-              "scryfallId": "cfb6bbf9-f08b-4e26-a529-81ffa9d1f24a"
+            "language": "Chinese Simplified",
+            "multiverseId": 591229,
+            "name": "劫巢恐龙",
+            "skuIds": {
+              "nonfoil": "47dc1be1-bf30-52cd-98db-481175321ccb"
             },
-            "language": "Spanish",
-            "multiverseId": 590419,
-            "name": "Ladrón de nidos",
-            "text": "Prisa.",
-            "type": "Criatura — Dinosaurio",
-            "uuid": "1ecb77bf-5d07-5907-a49d-bd83797c2f12"
+            "text": "敏捷",
+            "type": "生物 ～恐龙",
+            "uuid": "3e12ef72-be03-5974-a6cb-ecec117fa206"
           },
           {
             "flavorText": "« Ces marins agissent sur nos rivages comme les dinosaures qui volent des œufs dans des nids. Ils vivent au détriment des autres. »\n—Itzama la crêtée",
@@ -1384,9 +1535,28 @@
             "language": "French",
             "multiverseId": 590554,
             "name": "Voleur de nid",
+            "skuIds": {
+              "nonfoil": "7833dd2c-8193-5d3e-ab6d-d2d22de6d029"
+            },
             "text": "Célérité",
             "type": "Créature : dinosaure",
             "uuid": "54d221cc-bae5-53ab-bfad-a28541fc41d1"
+          },
+          {
+            "flavorText": "„Diese Eindringlinge an unseren Küsten sind wie Dinosaurier, die Eier aus Nestern rauben. Sie leben vom Tagewerk anderer.\"\n—Itzama Knochenhaupt",
+            "identifiers": {
+              "multiverseId": "590284",
+              "scryfallId": "dd06d88e-6544-419b-871c-3d62440e5806"
+            },
+            "language": "German",
+            "multiverseId": 590284,
+            "name": "Nesträuber",
+            "skuIds": {
+              "nonfoil": "de37dac4-2d17-509d-9fd1-7e7361110414"
+            },
+            "text": "Eile",
+            "type": "Kreatur — Dinosaurier",
+            "uuid": "52ab7887-080a-57f4-932a-4296337ab254"
           },
           {
             "flavorText": "\"Questi naviganti sulle nostre coste sono come i dinosauri che rubano le uova dai nidi: vivono delle fatiche altrui.\"\n—Itzama dalla Cresta",
@@ -1397,6 +1567,9 @@
             "language": "Italian",
             "multiverseId": 590689,
             "name": "Ladro dei Nidi",
+            "skuIds": {
+              "nonfoil": "db6d31f5-5c33-520c-a338-5634d9d17df1"
+            },
             "text": "Rapidità",
             "type": "Creatura — Dinosauro",
             "uuid": "a46cac36-2535-56f4-9e53-bbfb9b47659a"
@@ -1410,27 +1583,31 @@
             "language": "Japanese",
             "multiverseId": 590824,
             "name": "巣荒らし",
+            "skuIds": {
+              "nonfoil": "726b1f13-13da-5308-b182-bf9e3f46770b"
+            },
             "text": "速攻",
             "type": "クリーチャー — 恐竜",
             "uuid": "24490a35-1386-5c60-81fa-4e6fbc5b2df5"
           },
           {
-            "flavorText": "「岸上这些水手跟从巢穴中偷蛋的恐龙没有什么分别。都是靠他人的劳动成果为生。」\n～冠盔伊札玛",
+            "flavorText": "\"Estos marineros en nuestras costas son como los dinosaurios que roban huevos de otros nidos. Viven gracias a los frutos de otros\".\n—Itzama, la Crestada",
             "identifiers": {
-              "multiverseId": "591229",
-              "scryfallId": "92352aba-e5fb-43f0-9f0c-73fe9458577d"
+              "multiverseId": "590419",
+              "scryfallId": "cfb6bbf9-f08b-4e26-a529-81ffa9d1f24a"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591229,
-            "name": "劫巢恐龙",
-            "text": "敏捷",
-            "type": "生物 ～恐龙",
-            "uuid": "3e12ef72-be03-5974-a6cb-ecec117fa206"
+            "language": "Spanish",
+            "multiverseId": 590419,
+            "name": "Ladrón de nidos",
+            "skuIds": {
+              "nonfoil": "07d11bd4-e806-589a-b83a-4101c8427adc"
+            },
+            "text": "Prisa.",
+            "type": "Criatura — Dinosaurio",
+            "uuid": "1ecb77bf-5d07-5907-a49d-bd83797c2f12"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270209",
           "cardsphereId": "96759",
@@ -1454,6 +1631,7 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
+          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1464,6 +1642,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -1473,6 +1652,7 @@
         "name": "Nest Robber",
         "number": "576",
         "originalText": "Haste",
+        "originalType": "Creature – Dinosaur",
         "power": "2",
         "printings": [
           "ANB",
@@ -1486,9 +1666,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "1097889d-35b3-5f3c-bd0c-c1823ecf408b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1523,7 +1708,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 15795,
+        "edhrecRank": 16407,
         "edhrecSaltiness": 0.3,
         "finishes": [
           "nonfoil"
@@ -1531,30 +1716,20 @@
         "flavorText": "War begins with one red ember.",
         "foreignData": [
           {
-            "flavorText": "Ein einziger Funke kann einen Krieg entzünden.",
+            "flavorText": "一处红色烬火点燃了战争。",
             "identifiers": {
-              "multiverseId": "590329",
-              "scryfallId": "53f91fd4-4f5e-4c9b-a665-cb1be1734877"
+              "multiverseId": "591274",
+              "scryfallId": "2c303ea6-9331-484f-8e85-25a880f57d4e"
             },
-            "language": "German",
-            "multiverseId": 590329,
-            "name": "Kriegsschrei-Phoenix",
-            "text": "Fliegend, Eile\nImmer wenn du mit drei oder mehr Kreaturen angreifst, kannst du {2}{R} bezahlen. Falls du dies tust, bringe den Kriegsschrei-Phoenix aus deinem Friedhof getappt und angreifend ins Spiel zurück.",
-            "type": "Kreatur — Phoenix",
-            "uuid": "b036d23b-ee2e-5bf1-acae-d733c3230741"
-          },
-          {
-            "flavorText": "La guerra comienza con una sola ascua roja.",
-            "identifiers": {
-              "multiverseId": "590464",
-              "scryfallId": "952c8623-b619-4ebf-ba6d-a359f049c09d"
+            "language": "Chinese Simplified",
+            "multiverseId": 591274,
+            "name": "战嚎凤凰",
+            "skuIds": {
+              "nonfoil": "8d0bcd6e-6a40-5fd3-87ca-6ac4609e3a39"
             },
-            "language": "Spanish",
-            "multiverseId": 590464,
-            "name": "Fénix grito de guerra",
-            "text": "Vuela, prisa.\nSiempre que ataques con tres o más criaturas, puedes pagar {2}{R}. Si lo haces, regresa el Fénix grito de guerra de tu cementerio al campo de batalla girado y atacando.",
-            "type": "Criatura — Fénix",
-            "uuid": "e5ac5a13-11e2-5d80-afe4-2b1810375e16"
+            "text": "飞行，敏捷\n每当你以三个或更多生物攻击时，你可以支付{2}{R}。若你如此作，则将战嚎凤凰从你的坟墓场横置移回战场且正进行攻击。",
+            "type": "生物 ～凤凰",
+            "uuid": "3d4b16ce-342a-56b0-a3e4-9ba748df2359"
           },
           {
             "flavorText": "La guerre commence avec un charbon ardent.",
@@ -1565,9 +1740,28 @@
             "language": "French",
             "multiverseId": 590599,
             "name": "Phénix au cri de guerre",
+            "skuIds": {
+              "nonfoil": "2be0e9fa-1c8e-5c21-abe8-77353e42fa6d"
+            },
             "text": "Vol, célérité\nÀ chaque fois que vous attaquez avec au moins trois créatures, vous pouvez payer {2}{R}. Si vous faites ainsi, renvoyez le Phénix au cri de guerre sur le champ de bataille, engagé et attaquant, depuis votre cimetière.",
             "type": "Créature : phénix",
             "uuid": "8ca45de6-911e-5d33-a292-577c3a28470f"
+          },
+          {
+            "flavorText": "Ein einziger Funke kann einen Krieg entzünden.",
+            "identifiers": {
+              "multiverseId": "590329",
+              "scryfallId": "53f91fd4-4f5e-4c9b-a665-cb1be1734877"
+            },
+            "language": "German",
+            "multiverseId": 590329,
+            "name": "Kriegsschrei-Phoenix",
+            "skuIds": {
+              "nonfoil": "c70ef18a-9d20-5cae-9fae-024779ce821f"
+            },
+            "text": "Fliegend, Eile\nImmer wenn du mit drei oder mehr Kreaturen angreifst, kannst du {2}{R} bezahlen. Falls du dies tust, bringe den Kriegsschrei-Phoenix aus deinem Friedhof getappt und angreifend ins Spiel zurück.",
+            "type": "Kreatur — Phoenix",
+            "uuid": "b036d23b-ee2e-5bf1-acae-d733c3230741"
           },
           {
             "flavorText": "La guerra divampa con un tizzone ardente.",
@@ -1578,6 +1772,9 @@
             "language": "Italian",
             "multiverseId": 590734,
             "name": "Fenice del Grido di Guerra",
+            "skuIds": {
+              "nonfoil": "aee9e7bc-e1e2-5a31-a408-3cedae6f53db"
+            },
             "text": "Volare, rapidità\nOgniqualvolta attacchi con tre o più creature, puoi pagare {2}{R}. Se lo fai, rimetti sul campo di battaglia la Fenice del Grido di Guerra TAPpata e attaccante dal tuo cimitero.",
             "type": "Creatura — Fenice",
             "uuid": "1433a620-a217-5039-ab59-53f0e2150fad"
@@ -1591,27 +1788,31 @@
             "language": "Japanese",
             "multiverseId": 590869,
             "name": "喊声のフェニックス",
+            "skuIds": {
+              "nonfoil": "4310895b-79db-51bb-8f1a-3402f61d59df"
+            },
             "text": "飛行、速攻\nあなたが３体以上のクリーチャーで攻撃するたび、あなたは{2}{R}を支払ってもよい。そうしたなら、あなたの墓地にある喊声のフェニックスをタップ状態かつ攻撃している状態で戦場に戻す。",
             "type": "クリーチャー — フェニックス",
             "uuid": "27f21d51-3305-5fb8-9565-5ec7fb738215"
           },
           {
-            "flavorText": "一处红色烬火点燃了战争。",
+            "flavorText": "La guerra comienza con una sola ascua roja.",
             "identifiers": {
-              "multiverseId": "591274",
-              "scryfallId": "2c303ea6-9331-484f-8e85-25a880f57d4e"
+              "multiverseId": "590464",
+              "scryfallId": "952c8623-b619-4ebf-ba6d-a359f049c09d"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591274,
-            "name": "战嚎凤凰",
-            "text": "飞行，敏捷\n每当你以三个或更多生物攻击时，你可以支付{2}{R}。若你如此作，则将战嚎凤凰从你的坟墓场横置移回战场且正进行攻击。",
-            "type": "生物 ～凤凰",
-            "uuid": "3d4b16ce-342a-56b0-a3e4-9ba748df2359"
+            "language": "Spanish",
+            "multiverseId": 590464,
+            "name": "Fénix grito de guerra",
+            "skuIds": {
+              "nonfoil": "2be6cda9-6c42-5a7c-997a-221d6decbcbf"
+            },
+            "text": "Vuela, prisa.\nSiempre que ataques con tres o más criaturas, puedes pagar {2}{R}. Si lo haces, regresa el Fénix grito de guerra de tu cementerio al campo de batalla girado y atacando.",
+            "type": "Criatura — Fénix",
+            "uuid": "e5ac5a13-11e2-5d80-afe4-2b1810375e16"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270212",
           "cardsphereId": "96756",
@@ -1654,6 +1855,7 @@
         "name": "Warcry Phoenix",
         "number": "621",
         "originalText": "Flying, haste\nWhenever you attack with three or more creatures, you may pay {2}{R}. If you do, return Warcry Phoenix from your graveyard to the battlefield tapped and attacking.",
+        "originalType": "Creature – Phoenix",
         "power": "2",
         "printings": [
           "DOM",
@@ -1676,9 +1878,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "f5d4c193-ede8-5097-8383-85b52abbce95"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1713,34 +1920,26 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 21325,
+        "edhrecRank": 21770,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "590238",
-              "scryfallId": "dc036835-f9da-456f-9953-04d4a0718a42"
+              "multiverseId": "591183",
+              "scryfallId": "55590998-73ae-4a6e-bcff-8f4321480d22"
             },
-            "language": "German",
-            "multiverseId": 590238,
-            "name": "Feuriges Ende",
-            "text": "Opfere eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nFeuriges Ende fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.",
-            "type": "Spontanzauber",
-            "uuid": "794a9456-3f7d-59da-8b75-e909ee1a8dc9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "590373",
-              "scryfallId": "12d6e595-729e-424b-be0c-0cff647ad21a"
+            "language": "Chinese Simplified",
+            "multiverseId": 591183,
+            "name": "暴烈终局",
+            "skuIds": {
+              "nonfoil": "4aca277a-4044-5bf4-b04e-e986857d55a5"
             },
-            "language": "Spanish",
-            "multiverseId": 590373,
-            "name": "Conclusión ardiente",
-            "text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\nLa Conclusión ardiente hace 5 puntos de daño a la criatura objetivo.",
-            "type": "Instantáneo",
-            "uuid": "b9e8f60d-dd87-5899-921e-664e00fcc718"
+            "text": "牺牲一个生物，以作为施放此咒语的额外费用。\n暴烈终局对目标生物造成5点伤害。",
+            "type": "瞬间",
+            "uuid": "3826247e-9621-530a-9c5a-bc8bbcd8783a"
           },
           {
             "identifiers": {
@@ -1750,9 +1949,27 @@
             "language": "French",
             "multiverseId": 590508,
             "name": "Conclusion ardente",
+            "skuIds": {
+              "nonfoil": "cc434dc2-3e9e-56a2-8e96-a91dfd9f6d5a"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez une créature.\nLa Conclusion ardente inflige 5 blessures à une créature ciblée.",
             "type": "Éphémère",
             "uuid": "6a728131-d38b-50b9-9dc7-581689c52295"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "590238",
+              "scryfallId": "dc036835-f9da-456f-9953-04d4a0718a42"
+            },
+            "language": "German",
+            "multiverseId": 590238,
+            "name": "Feuriges Ende",
+            "skuIds": {
+              "nonfoil": "e8211c92-555f-5d4b-8f1e-d8fcdeb8da20"
+            },
+            "text": "Opfere eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nFeuriges Ende fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.",
+            "type": "Spontanzauber",
+            "uuid": "794a9456-3f7d-59da-8b75-e909ee1a8dc9"
           },
           {
             "identifiers": {
@@ -1762,6 +1979,9 @@
             "language": "Italian",
             "multiverseId": 590643,
             "name": "Esito Ardente",
+            "skuIds": {
+              "nonfoil": "f60764af-a9c4-563f-b97a-8c32118b0ecb"
+            },
             "text": "Come costo addizionale per lanciare questa magia, sacrifica una creatura.\nL'Esito Ardente infligge 5 danni a una creatura bersaglio.",
             "type": "Istantaneo",
             "uuid": "58e83ade-36ea-5bf8-ae7e-b6742793ed66"
@@ -1774,26 +1994,30 @@
             "language": "Japanese",
             "multiverseId": 590778,
             "name": "焦熱の結末",
+            "skuIds": {
+              "nonfoil": "fa850f46-4e4c-570f-9b38-f6c3614b5fb6"
+            },
             "text": "この呪文を唱えるための追加コストとして、クリーチャー１体を生け贄に捧げる。\nクリーチャー１体を対象とする。焦熱の結末はそれに５点のダメージを与える。",
             "type": "インスタント",
             "uuid": "d3647418-5aac-5f74-8354-3dc6d32777d1"
           },
           {
             "identifiers": {
-              "multiverseId": "591183",
-              "scryfallId": "55590998-73ae-4a6e-bcff-8f4321480d22"
+              "multiverseId": "590373",
+              "scryfallId": "12d6e595-729e-424b-be0c-0cff647ad21a"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591183,
-            "name": "暴烈终局",
-            "text": "牺牲一个生物，以作为施放此咒语的额外费用。\n暴烈终局对目标生物造成5点伤害。",
-            "type": "瞬间",
-            "uuid": "3826247e-9621-530a-9c5a-bc8bbcd8783a"
+            "language": "Spanish",
+            "multiverseId": 590373,
+            "name": "Conclusión ardiente",
+            "skuIds": {
+              "nonfoil": "4e9ff3a4-20ed-5ef0-9f56-0462d11f7b11"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\nLa Conclusión ardiente hace 5 puntos de daño a la criatura objetivo.",
+            "type": "Instantáneo",
+            "uuid": "b9e8f60d-dd87-5899-921e-664e00fcc718"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270205",
           "cardsphereId": "96763",
@@ -1831,6 +2055,7 @@
         "name": "Fiery Conclusion",
         "number": "530",
         "originalText": "As an additional cost to cast this spell, sacrifice a creature.\nFiery Conclusion deals 5 damage to target creature.",
+        "originalType": "Instant",
         "printings": [
           "J22",
           "ORI",
@@ -1855,9 +2080,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ba0c8e0b-91b5-5b32-bc7f-af2663ce418b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1889,7 +2119,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 12464,
+        "edhrecRank": 12745,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
@@ -1897,30 +2127,20 @@
         "flavorText": "Scarecrows only go so far in sending the message to stay away.",
         "foreignData": [
           {
-            "flavorText": "Manchmal bedarf es mehr als einer Vogelscheuche, um jemandem klarzumachen,\ndass er sich fernhalten soll.",
+            "flavorText": "稻草人最多只能警示\n「请速离」。",
             "identifiers": {
-              "multiverseId": "590300",
-              "scryfallId": "8d9f9144-b717-4ef5-9323-7fca9b554e05"
+              "multiverseId": "591245",
+              "scryfallId": "9130de19-b6a2-4334-ad6b-4cd668a6ec53"
             },
-            "language": "German",
-            "multiverseId": 590300,
-            "name": "Adrenalinschub",
-            "text": "Eine Kreatur deiner Wahl erhält +2/+1 und verursacht Trampelschaden bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "15c1de56-eef6-5e78-97b9-ed970ce3133f"
-          },
-          {
-            "flavorText": "Los espantapájaros solo transmiten hasta cierto punto\nel mensaje de no acercarse.",
-            "identifiers": {
-              "multiverseId": "590435",
-              "scryfallId": "5fde81d1-54dc-4605-9af7-2930684d47d3"
+            "language": "Chinese Simplified",
+            "multiverseId": 591245,
+            "name": "应激冲动",
+            "skuIds": {
+              "nonfoil": "8e55e83c-5823-58e4-a4be-c4c4fd5534ae"
             },
-            "language": "Spanish",
-            "multiverseId": 590435,
-            "name": "Torrente de adrenalina",
-            "text": "La criatura objetivo obtiene +2/+1 y gana la habilidad de arrollar hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "74262806-9bf0-5a7a-8b1a-05e412d707bf"
+            "text": "直到回合结束，目标生物得+2/+1且获得践踏异能。",
+            "type": "瞬间",
+            "uuid": "9a86f37d-2202-59b7-8812-e0ec449c3517"
           },
           {
             "flavorText": "Les épouvantails ne peuvent pas empêcher tout le\nmonde de passer.",
@@ -1931,9 +2151,28 @@
             "language": "French",
             "multiverseId": 590570,
             "name": "Afflux d'adrénaline",
+            "skuIds": {
+              "nonfoil": "5f65a586-4111-54f1-88a7-778911826c99"
+            },
             "text": "Une créature ciblée gagne +2/+1 et acquiert le piétinement jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "96e1205e-ba06-5500-8726-fac311a19718"
+          },
+          {
+            "flavorText": "Manchmal bedarf es mehr als einer Vogelscheuche, um jemandem klarzumachen,\ndass er sich fernhalten soll.",
+            "identifiers": {
+              "multiverseId": "590300",
+              "scryfallId": "8d9f9144-b717-4ef5-9323-7fca9b554e05"
+            },
+            "language": "German",
+            "multiverseId": 590300,
+            "name": "Adrenalinschub",
+            "skuIds": {
+              "nonfoil": "86866fcb-df27-5208-95cb-a65d3f8af5a3"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +2/+1 und verursacht Trampelschaden bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "15c1de56-eef6-5e78-97b9-ed970ce3133f"
           },
           {
             "flavorText": "Non sempre gli spaventapasseri riescono\na tenere alla larga gli intrusi.",
@@ -1944,6 +2183,9 @@
             "language": "Italian",
             "multiverseId": 590705,
             "name": "Ondata di Adrenalina",
+            "skuIds": {
+              "nonfoil": "9ed9b0ee-2bb6-5e0c-b885-c28ea48c002e"
+            },
             "text": "Una creatura bersaglio prende +2/+1 e ha travolgere fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "3e0739d2-4421-588c-9b45-c6d9dc03b478"
@@ -1957,27 +2199,31 @@
             "language": "Japanese",
             "multiverseId": 590840,
             "name": "アドレナリン作用",
+            "skuIds": {
+              "nonfoil": "f95d6904-39e5-58a3-8a45-1b0f3b8d28ab"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋１の修整を受けトランプルを得る。",
             "type": "インスタント",
             "uuid": "4c276b27-c93f-5099-8518-c1aaeeb2acb4"
           },
           {
-            "flavorText": "稻草人最多只能警示\n「请速离」。",
+            "flavorText": "Los espantapájaros solo transmiten hasta cierto punto\nel mensaje de no acercarse.",
             "identifiers": {
-              "multiverseId": "591245",
-              "scryfallId": "9130de19-b6a2-4334-ad6b-4cd668a6ec53"
+              "multiverseId": "590435",
+              "scryfallId": "5fde81d1-54dc-4605-9af7-2930684d47d3"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591245,
-            "name": "应激冲动",
-            "text": "直到回合结束，目标生物得+2/+1且获得践踏异能。",
-            "type": "瞬间",
-            "uuid": "9a86f37d-2202-59b7-8812-e0ec449c3517"
+            "language": "Spanish",
+            "multiverseId": 590435,
+            "name": "Torrente de adrenalina",
+            "skuIds": {
+              "nonfoil": "96cc67a7-9c9b-518f-adb1-d6bfb890af62"
+            },
+            "text": "La criatura objetivo obtiene +2/+1 y gana la habilidad de arrollar hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "74262806-9bf0-5a7a-8b1a-05e412d707bf"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270210",
           "cardsphereId": "96758",
@@ -2018,6 +2264,7 @@
         "name": "Rush of Adrenaline",
         "number": "592",
         "originalText": "Target creature gets +2/+1 and gains trample until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "E02",
           "J22",
@@ -2032,9 +2279,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "8af284e0-91b5-5739-ad67-f32ffbbf74c7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2066,37 +2318,28 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 24051,
+        "edhrecRank": 24700,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Shintan sensed the malice in his opponent, but he did not strike until the orc's muscles tensed in preparation to throw the first punch.",
         "foreignData": [
           {
-            "flavorText": "Shintan spürte die Bosheit in seinem Gegner, doch er schlug nicht zu, bis er sah, wie der Ork seine Muskeln für den Angriff anspannte.",
+            "flavorText": "辛坦感觉到了对手的恶意，但直到这个半兽人肌肉紧绷准备挥出第一拳时，他才发动了攻击。",
             "identifiers": {
-              "multiverseId": "590320",
-              "scryfallId": "4a9fad47-8b47-4cb8-be92-b86fae3d731b"
+              "multiverseId": "591265",
+              "scryfallId": "4a237e26-2416-4762-8955-dc3c7a07f6f5"
             },
-            "language": "German",
-            "multiverseId": 590320,
-            "name": "Flinker Tritt",
-            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, erhält +1/+0 bis zum Ende des Zuges. Sie kämpft gegen eine Kreatur deiner Wahl, die du nicht kontrollierst. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
-            "type": "Spontanzauber",
-            "uuid": "e2cc18c0-d53d-53ca-8fe3-c7397361cd1f"
-          },
-          {
-            "flavorText": "Shintan presintió la malicia en su oponente, pero no atacó hasta que los músculos del orco se tensaron para prepararse a lanzar el primer puñetazo.",
-            "identifiers": {
-              "multiverseId": "590455",
-              "scryfallId": "592b2c33-f1b0-4867-a5d9-3965d5cce24a"
+            "language": "Chinese Simplified",
+            "multiverseId": 591265,
+            "name": "旋风腿",
+            "skuIds": {
+              "nonfoil": "1ab59df6-bad9-59a3-ac04-bbcc6688e7b6"
             },
-            "language": "Spanish",
-            "multiverseId": 590455,
-            "name": "Patada repentina",
-            "text": "La criatura objetivo que controlas obtiene +1/+0 hasta el final del turno. Esa criatura lucha contra la criatura objetivo que no controlas. (Cada una hace un daño igual a su fuerza a la otra.)",
-            "type": "Instantáneo",
-            "uuid": "532ceccc-32da-5d3b-a274-cf9ef39a7122"
+            "text": "目标由你操控的生物得+1/+0直到回合结束。它与目标不由你操控的生物互斗。（它们各向对方造成等同于本身力量的伤害。）",
+            "type": "瞬间",
+            "uuid": "5f2fb02c-6e93-5ae6-a8d0-c3ce09b8a78a"
           },
           {
             "flavorText": "Shintan perçut la malveillance émanant de son adversaire, mais ne le frappa qu'à l'instant où il vit les muscles de l'orque se contracter pour porter le premier coup.",
@@ -2107,9 +2350,28 @@
             "language": "French",
             "multiverseId": 590590,
             "name": "Coup de pied imparable",
+            "skuIds": {
+              "nonfoil": "57852edc-70ea-5c25-ae06-2ec913241f41"
+            },
             "text": "Une créature ciblée que vous contrôlez gagne +1/+0 jusqu'à la fin du tour. Elle se bat contre une créature ciblée que vous ne contrôlez pas. (Chacune inflige un nombre de blessures égal à sa force à l'autre.)",
             "type": "Éphémère",
             "uuid": "794912b2-3548-5243-829d-e1b79d0953b9"
+          },
+          {
+            "flavorText": "Shintan spürte die Bosheit in seinem Gegner, doch er schlug nicht zu, bis er sah, wie der Ork seine Muskeln für den Angriff anspannte.",
+            "identifiers": {
+              "multiverseId": "590320",
+              "scryfallId": "4a9fad47-8b47-4cb8-be92-b86fae3d731b"
+            },
+            "language": "German",
+            "multiverseId": 590320,
+            "name": "Flinker Tritt",
+            "skuIds": {
+              "nonfoil": "da55ef12-453a-5bae-a802-917dc13f0b2a"
+            },
+            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, erhält +1/+0 bis zum Ende des Zuges. Sie kämpft gegen eine Kreatur deiner Wahl, die du nicht kontrollierst. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
+            "type": "Spontanzauber",
+            "uuid": "e2cc18c0-d53d-53ca-8fe3-c7397361cd1f"
           },
           {
             "flavorText": "Shintan percepì l'odio nel suo avversario, ma non colpì finché i muscoli dell'orco non si tesero per preparare il primo pugno.",
@@ -2120,6 +2382,9 @@
             "language": "Italian",
             "multiverseId": 590725,
             "name": "Calcio Repentino",
+            "skuIds": {
+              "nonfoil": "5cef30a3-85d5-5214-946d-c317eb3150c2"
+            },
             "text": "Una creatura bersaglio che controlli prende +1/+0 fino alla fine del turno. Lotta con una creatura bersaglio che non controlli. (Ogni creatura infligge all'altra danno pari alla propria forza.)",
             "type": "Istantaneo",
             "uuid": "a9bdf0c6-96ff-5821-8b0b-ddad02e35bab"
@@ -2133,27 +2398,31 @@
             "language": "Japanese",
             "multiverseId": 590860,
             "name": "素早い蹴り",
+            "skuIds": {
+              "nonfoil": "eeafda8f-ea35-5b3c-a4bf-a3aeacd84406"
+            },
             "text": "あなたがコントロールしているクリーチャー１体と、あなたがコントロールしていないクリーチャー１体を対象とする。ターン終了時まで、その前者は＋１/＋０の修整を受ける。その前者はその後者と格闘を行う。（それぞれはもう一方に自身のパワーに等しい点数のダメージを与える。）",
             "type": "インスタント",
             "uuid": "27ec89d5-2206-5bec-beef-a845e3cf3ebf"
           },
           {
-            "flavorText": "辛坦感觉到了对手的恶意，但直到这个半兽人肌肉紧绷准备挥出第一拳时，他才发动了攻击。",
+            "flavorText": "Shintan presintió la malicia en su oponente, pero no atacó hasta que los músculos del orco se tensaron para prepararse a lanzar el primer puñetazo.",
             "identifiers": {
-              "multiverseId": "591265",
-              "scryfallId": "4a237e26-2416-4762-8955-dc3c7a07f6f5"
+              "multiverseId": "590455",
+              "scryfallId": "592b2c33-f1b0-4867-a5d9-3965d5cce24a"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 591265,
-            "name": "旋风腿",
-            "text": "目标由你操控的生物得+1/+0直到回合结束。它与目标不由你操控的生物互斗。（它们各向对方造成等同于本身力量的伤害。）",
-            "type": "瞬间",
-            "uuid": "5f2fb02c-6e93-5ae6-a8d0-c3ce09b8a78a"
+            "language": "Spanish",
+            "multiverseId": 590455,
+            "name": "Patada repentina",
+            "skuIds": {
+              "nonfoil": "442e5e70-83e4-56eb-a7a2-d4efb7f0b0f0"
+            },
+            "text": "La criatura objetivo que controlas obtiene +1/+0 hasta el final del turno. Esa criatura lucha contra la criatura objetivo que no controlas. (Cada una hace un daño igual a su fuerza a la otra.)",
+            "type": "Instantáneo",
+            "uuid": "532ceccc-32da-5d3b-a274-cf9ef39a7122"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270211",
           "cardsphereId": "96757",
@@ -2197,6 +2466,7 @@
         "name": "Swift Kick",
         "number": "612",
         "originalText": "Target creature you control gets +1/+0 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)",
+        "originalType": "Instant",
         "printings": [
           "J22",
           "KTK",
@@ -2223,9 +2493,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ef252d3b-4083-5518-be50-d0fb0bf8a494"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2255,7 +2530,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -2263,30 +2538,20 @@
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
           {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "flavorText": "无数世代过去，石头磨损，显露出高山核心处的丰富颜色。",
             "identifiers": {
-              "multiverseId": "596326",
-              "scryfallId": "cf0c39fa-6d7a-45a5-86be-a755bed1f4d3"
+              "multiverseId": "596935",
+              "scryfallId": "23c75049-d488-4008-8e12-abac30d07e8a"
             },
-            "language": "German",
-            "multiverseId": 596326,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel.\nSowie die Gedeihende Felsklippe ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "1066c530-90eb-5eb8-b91e-3d0d9b3c25ef"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "596413",
-              "scryfallId": "77c3f268-51b7-4dee-a82e-a0928ea8ea9e"
+            "language": "Chinese Simplified",
+            "multiverseId": 596935,
+            "name": "兴旺绝壁",
+            "skuIds": {
+              "nonfoil": "ad2361eb-e231-5ecd-b0e0-c068e5d9303b"
             },
-            "language": "Spanish",
-            "multiverseId": 596413,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra al campo de batalla girado.\nEn cuanto el Risco floreciente entre al campo de batalla, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "a09cc708-8142-5bc5-92b8-eaad18677540"
+            "text": "兴旺绝壁须横置进战场。\n于兴旺绝壁进战场时，选择一种红色以外的颜色。\n{T}：加{R}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "a120ac7a-b19f-574e-9c2a-a20d7ce94276"
           },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
@@ -2297,9 +2562,28 @@
             "language": "French",
             "multiverseId": 596500,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "f567748a-3fcb-5997-b346-8acc275384f3"
+            },
             "text": "Le Promontoire prospère arrive sur le champ de bataille engagé.\nAu moment où le Promontoire prospère arrive sur le champ de bataille, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "3d3e35bd-c85d-51b8-9384-bc811b696118"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "596326",
+              "scryfallId": "cf0c39fa-6d7a-45a5-86be-a755bed1f4d3"
+            },
+            "language": "German",
+            "multiverseId": 596326,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "b3937ba7-eb96-5760-8627-a3970696a24e"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel.\nSowie die Gedeihende Felsklippe ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "1066c530-90eb-5eb8-b91e-3d0d9b3c25ef"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2310,6 +2594,9 @@
             "language": "Italian",
             "multiverseId": 596587,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "7f9d0e51-192b-5820-b9f2-c1beb85c9ad7"
+            },
             "text": "La Falesia Florida entra nel campo di battaglia TAPpata.\nMentre la Falesia Florida entra nel campo di battaglia, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "8e9f9fe4-ffe7-5b6a-b2b1-1c6c59aea06b"
@@ -2323,27 +2610,31 @@
             "language": "Japanese",
             "multiverseId": 596674,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "c97cd767-d63f-587b-a025-6c84e008a257"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。\n興隆する絶壁が戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R} か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "d881ef9b-e567-5e20-b2d8-e267fe98c9a0"
           },
           {
-            "flavorText": "无数世代过去，石头磨损，显露出高山核心处的丰富颜色。",
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
             "identifiers": {
-              "multiverseId": "596935",
-              "scryfallId": "23c75049-d488-4008-8e12-abac30d07e8a"
+              "multiverseId": "596413",
+              "scryfallId": "77c3f268-51b7-4dee-a82e-a0928ea8ea9e"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596935,
-            "name": "兴旺绝壁",
-            "text": "兴旺绝壁须横置进战场。\n于兴旺绝壁进战场时，选择一种红色以外的颜色。\n{T}：加{R}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "a120ac7a-b19f-574e-9c2a-a20d7ce94276"
+            "language": "Spanish",
+            "multiverseId": 596413,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "1ee6018b-03b2-5401-a25f-bfd7ed7ff106"
+            },
+            "text": "El Risco floreciente entra al campo de batalla girado.\nEn cuanto el Risco floreciente entre al campo de batalla, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "a09cc708-8142-5bc5-92b8-eaad18677540"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270223",
           "cardsphereId": "96781",
@@ -2380,10 +2671,12 @@
         "name": "Thriving Bluff",
         "number": "822",
         "originalText": "Thriving Bluff enters the battlefield tapped.\nAs Thriving Bluff enters the battlefield, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2392,6 +2685,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/d5259f00a8605556",
           "cardmarket": "https://mtgjson.com/links/1cdbdd4b80e93a6b",
@@ -2399,9 +2699,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3d016588-459b-530e-b723-1a44a362a27f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2438,25 +2743,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597769",
-              "scryfallId": "de0f6c46-699e-4314-b470-510119095f0a"
+              "multiverseId": "597874",
+              "scryfallId": "d5e8da23-7292-48e9-bea9-2a73ff094251"
             },
-            "language": "German",
-            "multiverseId": 597769,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "658ec973-2102-5c1d-a983-4aa5b87e867b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597784",
-              "scryfallId": "fde7e166-cbf2-4e4f-b779-72fdfa0b9f45"
+            "language": "Chinese Simplified",
+            "multiverseId": 597874,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "e0f50d73-3ed3-522e-b771-2508e890dea2"
             },
-            "language": "Spanish",
-            "multiverseId": 597784,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "105c88e8-08b0-58d0-af32-f44fe3efbbfa"
+            "type": "基本地 ～山脉",
+            "uuid": "d8af3019-ca5f-5331-9e97-b69116ec9bec"
           },
           {
             "identifiers": {
@@ -2466,8 +2763,25 @@
             "language": "French",
             "multiverseId": 597799,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "c44b64ff-5bc0-5ceb-8960-f227e78d482f"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "1434f8a0-c7ad-51fc-823e-c5049065a7d0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597769",
+              "scryfallId": "de0f6c46-699e-4314-b470-510119095f0a"
+            },
+            "language": "German",
+            "multiverseId": 597769,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "73e8d6de-c909-55d1-8c32-34aa01c120ba"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "658ec973-2102-5c1d-a983-4aa5b87e867b"
           },
           {
             "identifiers": {
@@ -2477,6 +2791,9 @@
             "language": "Italian",
             "multiverseId": 597814,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "ed83fefc-ddbb-500a-ba5a-8ac680dbaeae"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "e46cd992-fb1d-57d5-9805-417773a6d892"
           },
@@ -2488,29 +2805,34 @@
             "language": "Japanese",
             "multiverseId": 597829,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "0cb21bd3-d9c3-5cf9-9a7a-49fce2a1408b"
+            },
             "type": "基本土地 — 山",
             "uuid": "14f5638c-e576-51d6-ada0-dc62e61d611c"
           },
           {
             "identifiers": {
-              "multiverseId": "597874",
-              "scryfallId": "d5e8da23-7292-48e9-bea9-2a73ff094251"
+              "multiverseId": "597784",
+              "scryfallId": "fde7e166-cbf2-4e4f-b779-72fdfa0b9f45"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597874,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "d8af3019-ca5f-5331-9e97-b69116ec9bec"
+            "language": "Spanish",
+            "multiverseId": 597784,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "f8cdcf95-743f-5e49-9ea4-8a48fd7368f5"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "105c88e8-08b0-58d0-af32-f44fe3efbbfa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270288",
           "cardsphereId": "97098",
           "deckboxId": "71300",
           "mcmId": "687365",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "cf66cbfd-279c-5fc1-9894-086a721eaa39",
           "multiverseId": "597754",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2549,6 +2871,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "107",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2622,6 +2945,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2784,15 +3108,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/9add798721073d6b",
+          "cardmarket": "https://mtgjson.com/links/4a10503c5ee03d84",
           "tcgplayer": "https://mtgjson.com/links/5119e0f1bd985c86"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "90014b95-fb5e-5d8c-980f-9447cdb7d1f5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2837,25 +3170,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597770",
-              "scryfallId": "7d0d000b-0c19-4d82-970c-da01398269a3"
+              "multiverseId": "597875",
+              "scryfallId": "4146f735-fc48-4181-936a-2a23470c972e"
             },
-            "language": "German",
-            "multiverseId": 597770,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "e0350634-02d4-54b4-babe-635f6ee3a1fa"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597785",
-              "scryfallId": "17a0dfc0-d032-4d14-9c8c-d488b0d2fc06"
+            "language": "Chinese Simplified",
+            "multiverseId": 597875,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "62158262-aff8-5ebf-948d-4ff160b6d1e3"
             },
-            "language": "Spanish",
-            "multiverseId": 597785,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "9324bec2-8e41-5445-afe5-b0ab4c8b0f13"
+            "type": "基本地 ～山脉",
+            "uuid": "8dd02bac-c671-5591-a0e1-8c0a21383275"
           },
           {
             "identifiers": {
@@ -2865,8 +3190,25 @@
             "language": "French",
             "multiverseId": 597800,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "bc4268fd-7570-5558-aa89-f2fc74571d57"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "eb065802-9baf-5c0c-9199-e01a08d15ef5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597770",
+              "scryfallId": "7d0d000b-0c19-4d82-970c-da01398269a3"
+            },
+            "language": "German",
+            "multiverseId": 597770,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "258ae6bc-348b-5dd6-962c-04310156b838"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "e0350634-02d4-54b4-babe-635f6ee3a1fa"
           },
           {
             "identifiers": {
@@ -2876,6 +3218,9 @@
             "language": "Italian",
             "multiverseId": 597815,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "9ca05e94-74e3-5337-b7d8-dd44c679f79d"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "55354a1d-ef7c-5324-8d5a-ca93ca692cf4"
           },
@@ -2887,29 +3232,34 @@
             "language": "Japanese",
             "multiverseId": 597830,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "e6330377-40a4-56a2-9165-d592cc1ca2ec"
+            },
             "type": "基本土地 — 山",
             "uuid": "48587675-1500-5c40-aa73-b7b71c4a65cb"
           },
           {
             "identifiers": {
-              "multiverseId": "597875",
-              "scryfallId": "4146f735-fc48-4181-936a-2a23470c972e"
+              "multiverseId": "597785",
+              "scryfallId": "17a0dfc0-d032-4d14-9c8c-d488b0d2fc06"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597875,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "8dd02bac-c671-5591-a0e1-8c0a21383275"
+            "language": "Spanish",
+            "multiverseId": 597785,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "8750ff7c-2ed3-5301-9876-a1764c0bd7f7"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "9324bec2-8e41-5445-afe5-b0ab4c8b0f13"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270289",
           "cardsphereId": "97103",
           "deckboxId": "71301",
           "mcmId": "687366",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "662e3058-a9de-5c79-8b46-0681d85f7295",
           "multiverseId": "597755",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2948,6 +3298,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "108",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3021,6 +3372,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3183,15 +3535,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/67a8ae5730e9b0ee",
+          "cardmarket": "https://mtgjson.com/links/37f37d8766542e0a",
           "tcgplayer": "https://mtgjson.com/links/3542b9f18ab245e8"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a69901ab-ac92-56fd-9d9d-49a35ba786f1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3207,8 +3568,8 @@
         ],
         "uuid": "096fa466-11da-51cd-86a2-c246cafe95c2",
         "variations": [
-          "dd775312-0618-5a75-bf7e-6a8c8dab755a",
-          "4c4b9005-a05a-5c95-ab52-d7db96b20954"
+          "4c4b9005-a05a-5c95-ab52-d7db96b20954",
+          "dd775312-0618-5a75-bf7e-6a8c8dab755a"
         ]
       },
       {
@@ -3236,25 +3597,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597771",
-              "scryfallId": "5841ace6-b679-4187-bd80-34a0ff171dde"
+              "multiverseId": "597876",
+              "scryfallId": "806b63b2-1dea-4660-b9b1-604df9f61fc1"
             },
-            "language": "German",
-            "multiverseId": 597771,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "99aa42ce-b935-5359-bb82-b035dd024c02"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597786",
-              "scryfallId": "794b104a-fea6-4791-befc-1e5236c13880"
+            "language": "Chinese Simplified",
+            "multiverseId": 597876,
+            "name": "山脉",
+            "skuIds": {
+              "nonfoil": "c11eb43d-b9c1-5fa9-93c1-5e41d21a1419"
             },
-            "language": "Spanish",
-            "multiverseId": 597786,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "7efc0de0-4053-53dc-a4c8-65dc0a78175b"
+            "type": "基本地 ～山脉",
+            "uuid": "4d4024ce-9413-5932-a97c-ea76cf545cdb"
           },
           {
             "identifiers": {
@@ -3264,8 +3617,25 @@
             "language": "French",
             "multiverseId": 597801,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "8a71428b-d1fc-55bb-92cb-980d5f189a6a"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "2c0b482e-ae62-505d-8a71-959b4f159217"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597771",
+              "scryfallId": "5841ace6-b679-4187-bd80-34a0ff171dde"
+            },
+            "language": "German",
+            "multiverseId": 597771,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "29fda0ff-e6f7-586b-b427-92f54462e7d8"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "99aa42ce-b935-5359-bb82-b035dd024c02"
           },
           {
             "identifiers": {
@@ -3275,6 +3645,9 @@
             "language": "Italian",
             "multiverseId": 597816,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "a17d3987-d7c2-5a1d-a68b-71cadc778315"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "e62f7c7b-f0d0-5f9a-8729-bb6e98566eac"
           },
@@ -3286,29 +3659,34 @@
             "language": "Japanese",
             "multiverseId": 597831,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "275a4f24-8255-54c5-938a-cf3c8afb297f"
+            },
             "type": "基本土地 — 山",
             "uuid": "36503dbb-a8fa-5c38-93e0-9fc9737afc06"
           },
           {
             "identifiers": {
-              "multiverseId": "597876",
-              "scryfallId": "806b63b2-1dea-4660-b9b1-604df9f61fc1"
+              "multiverseId": "597786",
+              "scryfallId": "794b104a-fea6-4791-befc-1e5236c13880"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597876,
-            "name": "山脉",
-            "type": "基本地 ～山脉",
-            "uuid": "4d4024ce-9413-5932-a97c-ea76cf545cdb"
+            "language": "Spanish",
+            "multiverseId": 597786,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "e0ea8124-6681-5734-8d9a-b09c451bfcc6"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "7efc0de0-4053-53dc-a4c8-65dc0a78175b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270290",
           "cardsphereId": "97104",
           "deckboxId": "71302",
           "mcmId": "687367",
+          "mcmMetaId": "3743",
           "mtgjsonV4Id": "dc1f0ed1-bf56-5889-94b2-f135245e00c2",
           "multiverseId": "597756",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3347,6 +3725,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "109",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3420,6 +3799,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3582,15 +3962,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/82e37318c9e137dd",
+          "cardmarket": "https://mtgjson.com/links/0cf017618bf3706b",
           "tcgplayer": "https://mtgjson.com/links/52633021ef97b76b"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "59891ba9-93ef-5a86-9c7d-286b213911c1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3606,8 +3995,8 @@
         ],
         "uuid": "4c4b9005-a05a-5c95-ab52-d7db96b20954",
         "variations": [
-          "dd775312-0618-5a75-bf7e-6a8c8dab755a",
-          "096fa466-11da-51cd-86a2-c246cafe95c2"
+          "096fa466-11da-51cd-86a2-c246cafe95c2",
+          "dd775312-0618-5a75-bf7e-6a8c8dab755a"
         ]
       }
     ],
@@ -3622,5 +4011,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "6d7e73fb08b9b0"
   }
 }

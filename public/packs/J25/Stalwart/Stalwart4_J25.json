@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "3317239767914a"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,36 +22,12 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 15743,
+        "edhrecRank": 16135,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "685045",
-              "scryfallId": "3e7bbd0e-7386-40ab-8fde-7b9c79ed2cd5"
-            },
-            "language": "German",
-            "multiverseId": 685045,
-            "name": "Licht der Legion",
-            "text": "Fliegend\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)\nWenn das Licht der Legion stirbt, lege auf jede weiße Kreatur, die du kontrollierst, eine +1/+1-Marke.",
-            "type": "Kreatur — Engel",
-            "uuid": "01c2aa29-c882-5ca4-883e-56e92fc250ff"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "685169",
-              "scryfallId": "d1d85d8a-ba4e-4263-98c6-e5323fd51578"
-            },
-            "language": "Spanish",
-            "multiverseId": 685169,
-            "name": "Luz de la Legión",
-            "text": "Vuela.\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)\nCuando la Luz de la Legión muera, pon un contador +1/+1 sobre cada criatura blanca que controlas.",
-            "type": "Criatura — Ángel",
-            "uuid": "cb923b9d-f407-5652-ae1f-47da42adb025"
-          },
           {
             "identifiers": {
               "multiverseId": "685293",
@@ -65,9 +36,27 @@
             "language": "French",
             "multiverseId": 685293,
             "name": "Lumière de la Légion",
+            "skuIds": {
+              "nonfoil": "fbce71c6-8f27-5d95-8b13-931761ec19ef"
+            },
             "text": "Vol\nMentor (À chaque fois que cette créature attaque, mettez un marqueur +1/+1 sur une créature attaquante ciblée de force inférieure.)\nQuand la Lumière de la Légion meurt, mettez un marqueur +1/+1 sur chaque créature blanche que vous contrôlez.",
             "type": "Créature — ange",
             "uuid": "cf7d91d9-fe48-5c7d-8359-5cdae4e456d1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685045",
+              "scryfallId": "3e7bbd0e-7386-40ab-8fde-7b9c79ed2cd5"
+            },
+            "language": "German",
+            "multiverseId": 685045,
+            "name": "Licht der Legion",
+            "skuIds": {
+              "nonfoil": "ebaf0e7f-c1a3-5763-b110-7eae7374c164"
+            },
+            "text": "Fliegend\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)\nWenn das Licht der Legion stirbt, lege auf jede weiße Kreatur, die du kontrollierst, eine +1/+1-Marke.",
+            "type": "Kreatur — Engel",
+            "uuid": "01c2aa29-c882-5ca4-883e-56e92fc250ff"
           },
           {
             "identifiers": {
@@ -77,6 +66,9 @@
             "language": "Italian",
             "multiverseId": 685417,
             "name": "Luce della Legione",
+            "skuIds": {
+              "nonfoil": "bde54c20-0710-5e7a-a05f-71e469dde582"
+            },
             "text": "Volare\nMentore (Ogniqualvolta questa creatura attacca, metti un segnalino +1/+1 su una creatura attaccante bersaglio con forza inferiore.)\nQuando la Luce della Legione muore, metti un segnalino +1/+1 su ogni creatura bianca che controlli.",
             "type": "Creatura — Angelo",
             "uuid": "abc06670-5c7c-5c6e-b096-56aba524ed2a"
@@ -89,14 +81,30 @@
             "language": "Japanese",
             "multiverseId": 685541,
             "name": "軍勢の光",
+            "skuIds": {
+              "nonfoil": "90374f06-a5c0-5692-8f19-e4ed67d44681"
+            },
             "text": "飛行\n教導（このクリーチャーが攻撃するたび、パワーがこれよりも小さい攻撃クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。）\n軍勢の光が死亡したとき、あなたがコントロールしている白の各クリーチャーの上にそれぞれ＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 天使",
             "uuid": "8acd47c2-38a8-5ed8-aebe-d5f74df98645"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685169",
+              "scryfallId": "d1d85d8a-ba4e-4263-98c6-e5323fd51578"
+            },
+            "language": "Spanish",
+            "multiverseId": 685169,
+            "name": "Luz de la Legión",
+            "skuIds": {
+              "nonfoil": "b3b9e530-96c7-5e2d-8954-c5ac41ac8128"
+            },
+            "text": "Vuela.\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)\nCuando la Luz de la Legión muera, pon un contador +1/+1 sobre cada criatura blanca que controlas.",
+            "type": "Criatura — Ángel",
+            "uuid": "cb923b9d-f407-5652-ae1f-47da42adb025"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305367",
           "cardsphereId": "130808",
@@ -140,6 +148,7 @@
         "name": "Light of the Legion",
         "number": "218",
         "originalText": "Flying\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nWhen Light of the Legion dies, put a +1/+1 counter on each white creature you control.",
+        "originalType": "Creature – Angel",
         "power": "5",
         "printings": [
           "GRN",
@@ -172,9 +181,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d522b540-347c-5428-a319-3b4a5defd360"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -207,36 +221,12 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 1717,
+        "edhrecRank": 1828,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "685052",
-              "scryfallId": "7476accf-2a45-44b6-9e30-d01327b853b2"
-            },
-            "language": "German",
-            "multiverseId": 685052,
-            "name": "Lunarch Mikaeus",
-            "text": "Lunarch Mikaeus kommt mit X +1/+1-Marken ins Spiel.\n{T}: Lege eine +1/+1-Marke auf Mikaeus.\n{T}, entferne eine +1/+1-Marke von Mikaeus: Lege auf jede andere Kreatur, die du kontrollierst, eine +1/+1-Marke.",
-            "type": "Legendäre Kreatur — Mensch, Kleriker",
-            "uuid": "4d95e42a-fff3-5579-aad9-9205d31c9d79"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "685176",
-              "scryfallId": "64f2bda5-80de-4e52-b7cb-52ffb547bfbc"
-            },
-            "language": "Spanish",
-            "multiverseId": 685176,
-            "name": "Mikaeus, el Lunarca",
-            "text": "Mikaeus, el Lunarca entra con X contadores +1/+1 sobre él.\n{T}: Pon un contador +1/+1 sobre Mikaeus.\n{T}, remover un contador +1/+1 de Mikaeus: Pon un contador +1/+1 sobre cada otra criatura que controlas.",
-            "type": "Criatura legendaria — Clérigo humano",
-            "uuid": "1b57fad3-01d7-5a9d-aa69-492ff91a79fe"
-          },
           {
             "identifiers": {
               "multiverseId": "685300",
@@ -245,9 +235,27 @@
             "language": "French",
             "multiverseId": 685300,
             "name": "Mikaeus, le lunarque",
+            "skuIds": {
+              "nonfoil": "ddf88541-c41d-574d-a2f6-7a37abd07c91"
+            },
             "text": "Mikaeus, le lunarque arrive avec X marqueurs +1/+1 sur lui.\n{T} : Mettez un marqueur +1/+1 sur Mikaeus.\n{T}, retirez un marqueur +1/+1 de Mikaeus : Mettez un marqueur +1/+1 sur chaque autre créature que vous contrôlez.",
             "type": "Créature légendaire — humain et clerc",
             "uuid": "733521d8-6b98-523a-909d-94a3c8542fa7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685052",
+              "scryfallId": "7476accf-2a45-44b6-9e30-d01327b853b2"
+            },
+            "language": "German",
+            "multiverseId": 685052,
+            "name": "Lunarch Mikaeus",
+            "skuIds": {
+              "nonfoil": "49b26f70-0aa2-5fa8-a623-38781fa53bff"
+            },
+            "text": "Lunarch Mikaeus kommt mit X +1/+1-Marken ins Spiel.\n{T}: Lege eine +1/+1-Marke auf Mikaeus.\n{T}, entferne eine +1/+1-Marke von Mikaeus: Lege auf jede andere Kreatur, die du kontrollierst, eine +1/+1-Marke.",
+            "type": "Legendäre Kreatur — Mensch, Kleriker",
+            "uuid": "4d95e42a-fff3-5579-aad9-9205d31c9d79"
           },
           {
             "identifiers": {
@@ -257,6 +265,9 @@
             "language": "Italian",
             "multiverseId": 685424,
             "name": "Mikaeus, il Lunarca",
+            "skuIds": {
+              "nonfoil": "b1f08377-1b8e-5c1d-99b9-94482f52d0bb"
+            },
             "text": "Mikaeus, il Lunarca entra con X segnalini +1/+1.\n{T}: Metti un segnalino +1/+1 su Mikaeus.\n{T}, Rimuovi un segnalino +1/+1 da Mikaeus: Metti un segnalino +1/+1 su ogni altra creatura che controlli.",
             "type": "Creatura Leggendaria — Chierico Umano",
             "uuid": "34160a13-e462-5ab9-b7e4-d8825cdaef31"
@@ -269,17 +280,33 @@
             "language": "Japanese",
             "multiverseId": 685548,
             "name": "月皇ミケウス",
+            "skuIds": {
+              "nonfoil": "c8145342-836f-5777-b903-20760b229bfc"
+            },
             "text": "月皇ミケウスは、＋１/＋１カウンターＸ個が置かれた状態で戦場に出る。\n{T}：月皇ミケウスの上に＋１/＋１カウンター１個を置く。\n{T}, 月皇ミケウスの上から＋１/＋１カウンター１個を取り除く：あなたがコントロールしていてこれでない各クリーチャーの上にそれぞれ＋１/＋１カウンター１個を置く。",
             "type": "伝説のクリーチャー — 人間・クレリック",
             "uuid": "36557a37-d8cd-5840-afb2-51d0324d92c2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685176",
+              "scryfallId": "64f2bda5-80de-4e52-b7cb-52ffb547bfbc"
+            },
+            "language": "Spanish",
+            "multiverseId": 685176,
+            "name": "Mikaeus, el Lunarca",
+            "skuIds": {
+              "nonfoil": "9e4bbf0e-56c8-530c-bd11-8e9ad667f3f6"
+            },
+            "text": "Mikaeus, el Lunarca entra con X contadores +1/+1 sobre él.\n{T}: Pon un contador +1/+1 sobre Mikaeus.\n{T}, remover un contador +1/+1 de Mikaeus: Pon un contador +1/+1 sobre cada otra criatura que controlas.",
+            "type": "Criatura legendaria — Clérigo humano",
+            "uuid": "1b57fad3-01d7-5a9d-aa69-492ff91a79fe"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305374",
           "cardsphereId": "130847",
@@ -323,6 +350,7 @@
         "name": "Mikaeus, the Lunarch",
         "number": "225",
         "originalText": "Mikaeus, the Lunarch enters with X +1/+1 counters on it.\n{T}: Put a +1/+1 counter on Mikaeus.\n{T}, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.",
+        "originalType": "Legendary Creature – Human Cleric",
         "power": "0",
         "printings": [
           "2X2",
@@ -342,9 +370,14 @@
         "rarity": "mythic",
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77174af4-7803-5e0b-885d-7a08143250a7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -381,36 +414,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 9456,
+        "edhrecRank": 8487,
         "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680961",
-              "scryfallId": "450ed79d-8dc2-474a-992f-5a2822c6296e"
-            },
-            "language": "German",
-            "multiverseId": 680961,
-            "name": "Urdnan, Dromoka-Krieger",
-            "text": "Wenn Urdnan, Dromoka-Krieger, ins Spiel kommt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl.\nImmer wenn du angreifst, erhält eine angreifende Kreatur deiner Wahl, auf der eine +1/+1-Marke liegt, Erstschlag bis zum Ende des Zuges. Falls auf jener Kreatur zwei oder mehr +1/+1-Marken liegen, erhält sie stattdessen Doppelschlag bis zum Ende des Zuges.",
-            "type": "Legendäre Kreatur — Mensch, Krieger",
-            "uuid": "c67c1640-a5ea-50a4-8512-39359c6f38ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680988",
-              "scryfallId": "1296827e-25f1-4aaf-838c-dc9a66bdb07f"
-            },
-            "language": "Spanish",
-            "multiverseId": 680988,
-            "name": "Urdnan, guerrero de Drómoka",
-            "text": "Cuando Urdnan, guerrero de Drómoka entre, pon un contador +1/+1 sobre la criatura objetivo.\nSiempre que ataques, la criatura atacante objetivo con un contador +1/+1 sobre ella gana la habilidad de dañar primero hasta el final del turno. Si esa criatura tiene dos o más contadores +1/+1 sobre ella, en vez de eso, gana la habilidad de dañar dos veces hasta el final del turno.",
-            "type": "Criatura legendaria — Guerrero humano",
-            "uuid": "e12973c3-107e-530b-af09-f32d93755403"
-          },
           {
             "identifiers": {
               "multiverseId": "681015",
@@ -419,9 +428,27 @@
             "language": "French",
             "multiverseId": 681015,
             "name": "Urdnan, guerrier de Dromoka",
+            "skuIds": {
+              "nonfoil": "f162d527-e40a-54c5-a3e4-de532958e48e"
+            },
             "text": "Quand Urdnan, guerrier de Dromola arrive, mettez un marqueur +1/+1 sur une créature ciblée.\nÀ chaque fois que vous attaquez, une créature attaquante ciblée avec un marqueur +1/+1 sur elle acquiert l'initiative jusqu'à la fin du tour. Si cette créature a au moins deux marqueurs +1/+1 sur elle, elle acquiert la double initiative jusqu'à la fin du tour à la place.",
             "type": "Créature légendaire — humain et guerrier",
             "uuid": "2a4e2aa7-956f-50b7-b08c-627282fcb338"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680961",
+              "scryfallId": "450ed79d-8dc2-474a-992f-5a2822c6296e"
+            },
+            "language": "German",
+            "multiverseId": 680961,
+            "name": "Urdnan, Dromoka-Krieger",
+            "skuIds": {
+              "nonfoil": "2bc3d505-c786-50b7-be67-cbdac934868c"
+            },
+            "text": "Wenn Urdnan, Dromoka-Krieger, ins Spiel kommt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl.\nImmer wenn du angreifst, erhält eine angreifende Kreatur deiner Wahl, auf der eine +1/+1-Marke liegt, Erstschlag bis zum Ende des Zuges. Falls auf jener Kreatur zwei oder mehr +1/+1-Marken liegen, erhält sie stattdessen Doppelschlag bis zum Ende des Zuges.",
+            "type": "Legendäre Kreatur — Mensch, Krieger",
+            "uuid": "c67c1640-a5ea-50a4-8512-39359c6f38ea"
           },
           {
             "identifiers": {
@@ -431,6 +458,9 @@
             "language": "Italian",
             "multiverseId": 681042,
             "name": "Urdnan, Guerriero Dromoka",
+            "skuIds": {
+              "nonfoil": "d81d0696-43a3-5b4d-ab35-aa92250ddfab"
+            },
             "text": "Quando Urdnan, Guerriero Dromoka entra, metti un segnalino +1/+1 su una creatura bersaglio.\nOgniqualvolta attacchi, una creatura attaccante bersaglio con un segnalino +1/+1 ha attacco improvviso fino alla fine del turno. Se quella creatura ha due o più segnalini +1/+1, ha invece doppio attacco fino alla fine del turno.",
             "type": "Creatura Leggendaria — Guerriero Umano",
             "uuid": "922a6009-11ed-5efd-8dc0-a635a4514506"
@@ -443,17 +473,33 @@
             "language": "Japanese",
             "multiverseId": 681069,
             "name": "ドロモカの戦士、ウルドナン",
+            "skuIds": {
+              "nonfoil": "6d2444f0-217d-5778-b413-14083a8ab71c"
+            },
             "text": "ドロモカの戦士、ウルドナンが戦場に出たとき、クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。\nあなたが攻撃するたび、＋１/＋１カウンターが置かれている攻撃クリーチャー１体を対象とする。ターン終了時まで、それは先制攻撃を得る。そのクリーチャーの上に２個以上の＋１/＋１カウンターがあるなら、代わりに、ターン終了時まで、それは二段攻撃を得る。",
             "type": "伝説のクリーチャー — 人間・戦士",
             "uuid": "ddf87e95-b5d0-5b0d-8c5a-937dac4291e8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680988",
+              "scryfallId": "1296827e-25f1-4aaf-838c-dc9a66bdb07f"
+            },
+            "language": "Spanish",
+            "multiverseId": 680988,
+            "name": "Urdnan, guerrero de Drómoka",
+            "skuIds": {
+              "nonfoil": "374cc356-8123-5f94-b5e6-278c3050c9c6"
+            },
+            "text": "Cuando Urdnan, guerrero de Drómoka entre, pon un contador +1/+1 sobre la criatura objetivo.\nSiempre que ataques, la criatura atacante objetivo con un contador +1/+1 sobre ella gana la habilidad de dañar primero hasta el final del turno. Si esa criatura tiene dos o más contadores +1/+1 sobre ella, en vez de eso, gana la habilidad de dañar dos veces hasta el final del turno.",
+            "type": "Criatura legendaria — Guerrero humano",
+            "uuid": "e12973c3-107e-530b-af09-f32d93755403"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305168",
           "cardsphereId": "130761",
@@ -472,7 +518,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -496,6 +541,7 @@
         "name": "Urdnan, Dromoka Warrior",
         "number": "34",
         "originalText": "When Urdnan, Dromoka Warrior enters, put a +1/+1 counter on target creature.\nWhenever you attack, target attacking creature with a +1/+1 counter on it gains first strike until end of turn. If that creature has two or more +1/+1 counters on it, it gains double strike until end of turn instead.",
+        "originalType": "Legendary Creature – Human Warrior",
         "power": "1",
         "printings": [
           "J25"
@@ -507,9 +553,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "64c0d4a8-f4b1-51d2-a779-0482d7b5c659"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -545,39 +596,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 2304,
+        "edhrecRank": 2339,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The kami have declared that courtyard a no-fly zone.\"\n—Light-Paws",
         "foreignData": [
-          {
-            "flavorText": "„Der Hof wurde von den Kami zur Flugverbotszone erklärt.\"\n—Samtpfote",
-            "identifiers": {
-              "multiverseId": "681561",
-              "scryfallId": "245e4a22-4357-4bed-8807-d48d5a8a8cd2"
-            },
-            "language": "German",
-            "multiverseId": 681561,
-            "name": "Bannendes Licht",
-            "text": "Wenn das Bannende Licht ins Spiel kommt, schicke ein Nichtland-Permanent deiner Wahl, das ein Gegner kontrolliert, ins Exil, bis das Bannende Licht das Spiel verlässt.",
-            "type": "Verzauberung",
-            "uuid": "45128a89-c814-5b24-b7d2-6c04d3fa5b19"
-          },
-          {
-            "flavorText": "\"Los kami declararon que está prohibido volar en ese patio\".\n—Zarpas Ligeras",
-            "identifiers": {
-              "multiverseId": "681622",
-              "scryfallId": "3c3ff621-671d-43ec-b38d-db77c47e6964"
-            },
-            "language": "Spanish",
-            "multiverseId": 681622,
-            "name": "Luz de destierro",
-            "text": "Cuando la Luz de destierro entre, exilia el permanente objetivo que no sea tierra que controla un oponente hasta que la Luz de destierro deje el campo de batalla.",
-            "type": "Encantamiento",
-            "uuid": "1a2d123f-b7d1-5c45-8c1e-acd702ed716e"
-          },
           {
             "flavorText": "« Les kami ont décrété qu'il serait interdit de survoler cette cour. »\n—Svelte-patte",
             "identifiers": {
@@ -587,9 +612,28 @@
             "language": "French",
             "multiverseId": 681683,
             "name": "Lumière de bannissement",
+            "skuIds": {
+              "nonfoil": "555e3794-4218-5268-b611-3a7eeb00fdeb"
+            },
             "text": "Quand la Lumière de bannissement arrive, exilez un permanent non-terrain ciblé qu'un adversaire contrôle jusqu'à ce que la Lumière de bannissement quitte le champ de bataille.",
             "type": "Enchantement",
             "uuid": "cc0718e5-0958-51a0-90cb-9eae64f88f12"
+          },
+          {
+            "flavorText": "„Der Hof wurde von den Kami zur Flugverbotszone erklärt.\"\n—Samtpfote",
+            "identifiers": {
+              "multiverseId": "681561",
+              "scryfallId": "245e4a22-4357-4bed-8807-d48d5a8a8cd2"
+            },
+            "language": "German",
+            "multiverseId": 681561,
+            "name": "Bannendes Licht",
+            "skuIds": {
+              "nonfoil": "fcc2ccd0-db35-58d1-9a99-7f53cf329d0e"
+            },
+            "text": "Wenn das Bannende Licht ins Spiel kommt, schicke ein Nichtland-Permanent deiner Wahl, das ein Gegner kontrolliert, ins Exil, bis das Bannende Licht das Spiel verlässt.",
+            "type": "Verzauberung",
+            "uuid": "45128a89-c814-5b24-b7d2-6c04d3fa5b19"
           },
           {
             "flavorText": "\"I kami hanno dichiarato quel giardino zona d'interdizione al volo.\"\n— Passo Felpato",
@@ -600,6 +644,9 @@
             "language": "Italian",
             "multiverseId": 681744,
             "name": "Luce Esiliatrice",
+            "skuIds": {
+              "nonfoil": "8866fc9b-56c2-5ebc-a5c3-48d27eb14462"
+            },
             "text": "Quando la Luce Esiliatrice entra, esilia un permanente non terra bersaglio controllato da un avversario finché la Luce Esiliatrice non lascia il campo di battaglia.",
             "type": "Incantesimo",
             "uuid": "d80caaf4-30f8-5922-bfad-5162876382ae"
@@ -613,14 +660,31 @@
             "language": "Japanese",
             "multiverseId": 681805,
             "name": "払拭の光",
+            "skuIds": {
+              "nonfoil": "8a8a6a6a-2c41-5aee-82d0-1fa20f338ca7"
+            },
             "text": "払拭の光が戦場に出たとき、対戦相手がコントロールしていて土地でないパーマネント１つを対象とする。払拭の光が戦場を離れるまで、それを追放する。",
             "type": "エンチャント",
             "uuid": "62e050ef-5ad9-5946-9a18-dddb1adddc84"
+          },
+          {
+            "flavorText": "\"Los kami declararon que está prohibido volar en ese patio\".\n—Zarpas Ligeras",
+            "identifiers": {
+              "multiverseId": "681622",
+              "scryfallId": "3c3ff621-671d-43ec-b38d-db77c47e6964"
+            },
+            "language": "Spanish",
+            "multiverseId": 681622,
+            "name": "Luz de destierro",
+            "skuIds": {
+              "nonfoil": "37b0a3e9-bea7-52e6-90a7-403f2895b636"
+            },
+            "text": "Cuando la Luz de destierro entre, exilia el permanente objetivo que no sea tierra que controla un oponente hasta que la Luz de destierro deje el campo de batalla.",
+            "type": "Encantamiento",
+            "uuid": "1a2d123f-b7d1-5c45-8c1e-acd702ed716e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305230",
           "cardsphereId": "130901",
@@ -639,7 +703,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -655,7 +718,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "standard": "Legal",
           "standardbrawl": "Legal",
@@ -667,6 +729,7 @@
         "name": "Banishing Light",
         "number": "96",
         "originalText": "When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield.",
+        "originalType": "Enchantment",
         "printings": [
           "AJMP",
           "BLB",
@@ -727,9 +790,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0608118-fd77-5f44-9047-955beca795d6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -759,39 +827,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 16819,
+        "edhrecRank": 17315,
         "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Welcome to the Legion. You saved a district—now let's go save the world.\"",
         "foreignData": [
-          {
-            "flavorText": "„Willkommen in der Legion. Du hast einen Distrikt gerettet — jetzt lass uns die Welt retten.\"",
-            "identifiers": {
-              "multiverseId": "685000",
-              "scryfallId": "cb31eab0-b10f-4069-bf01-b096c040f754"
-            },
-            "language": "German",
-            "multiverseId": 685000,
-            "name": "Beförderung im Kampf",
-            "text": "Lege eine +1/+1-Marke auf eine Kreatur deiner Wahl. Die Kreatur erhält Erstschlag bis zum Ende des Zuges. Du erhältst 2 Lebenspunkte dazu. (Kreaturen mit Erstschlag fügen ihren Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
-            "type": "Spontanzauber",
-            "uuid": "4a57bb04-3026-5f19-8add-d51c82d5c970"
-          },
-          {
-            "flavorText": "\"Bienvenida a la Legión. Ya salvaste un distrito; ahora, salvemos el mundo\".",
-            "identifiers": {
-              "multiverseId": "685124",
-              "scryfallId": "35ec370c-39b7-4ed4-8f8c-f938505836cc"
-            },
-            "language": "Spanish",
-            "multiverseId": 685124,
-            "name": "Ascenso en batalla",
-            "text": "Pon un contador +1/+1 sobre la criatura objetivo. Esa criatura gana la habilidad de dañar primero hasta el final del turno. Ganas 2 vidas. (Una criatura con la habilidad de dañar primero hace su daño de combate antes que las criaturas que no la tienen.)",
-            "type": "Instantáneo",
-            "uuid": "7b51ff69-20af-588e-8686-151a910477e3"
-          },
           {
             "flavorText": "« Bienvenue dans la Légion ! Vous avez sauvé une circonscription... Maintenant, allez sauver le monde. »",
             "identifiers": {
@@ -801,9 +843,28 @@
             "language": "French",
             "multiverseId": 685248,
             "name": "Promotion de campagne",
+            "skuIds": {
+              "nonfoil": "80fee39f-fc77-5401-a37b-e8e6dfc90d60"
+            },
             "text": "Mettez un marqueur +1/+1 sur une créature ciblée. Cette créature acquiert l'initiative jusqu'à la fin du tour. Vous gagnez 2 points de vie. (Une créature avec l'initiative inflige ses blessures de combat avant les créatures sans l'initiative.)",
             "type": "Éphémère",
             "uuid": "05c3d190-3e22-55dd-b01d-3c841f10ed30"
+          },
+          {
+            "flavorText": "„Willkommen in der Legion. Du hast einen Distrikt gerettet — jetzt lass uns die Welt retten.\"",
+            "identifiers": {
+              "multiverseId": "685000",
+              "scryfallId": "cb31eab0-b10f-4069-bf01-b096c040f754"
+            },
+            "language": "German",
+            "multiverseId": 685000,
+            "name": "Beförderung im Kampf",
+            "skuIds": {
+              "nonfoil": "5d92bf84-75e3-54ad-851f-c2b9723c1e76"
+            },
+            "text": "Lege eine +1/+1-Marke auf eine Kreatur deiner Wahl. Die Kreatur erhält Erstschlag bis zum Ende des Zuges. Du erhältst 2 Lebenspunkte dazu. (Kreaturen mit Erstschlag fügen ihren Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+            "type": "Spontanzauber",
+            "uuid": "4a57bb04-3026-5f19-8add-d51c82d5c970"
           },
           {
             "flavorText": "\"Benvenuta nella Legione. Hai salvato un distretto... ora andiamo a salvare il mondo.\"",
@@ -814,6 +875,9 @@
             "language": "Italian",
             "multiverseId": 685372,
             "name": "Promozione sul Campo",
+            "skuIds": {
+              "nonfoil": "09efd7f4-4d9c-5ec0-8248-62f5e90f50a2"
+            },
             "text": "Metti un segnalino +1/+1 su una creatura bersaglio. Quella creatura ha attacco improvviso fino alla fine del turno. Guadagni 2 punti vita. (Una creatura con attacco improvviso infligge danno da combattimento prima delle creature senza attacco improvviso.)",
             "type": "Istantaneo",
             "uuid": "4f7db23e-d6fb-5a80-9105-370f0d232aaa"
@@ -827,14 +891,31 @@
             "language": "Japanese",
             "multiverseId": 685496,
             "name": "戦地昇進",
+            "skuIds": {
+              "nonfoil": "0f5d8b11-da29-58ba-a466-12f4d048c565"
+            },
             "text": "クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。ターン終了時まで、そのクリーチャーは先制攻撃を得る。２点のライフを得る。（先制攻撃を持つクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
             "type": "インスタント",
             "uuid": "907c1631-dd33-56b9-89ba-8929ec649353"
+          },
+          {
+            "flavorText": "\"Bienvenida a la Legión. Ya salvaste un distrito; ahora, salvemos el mundo\".",
+            "identifiers": {
+              "multiverseId": "685124",
+              "scryfallId": "35ec370c-39b7-4ed4-8f8c-f938505836cc"
+            },
+            "language": "Spanish",
+            "multiverseId": 685124,
+            "name": "Ascenso en batalla",
+            "skuIds": {
+              "nonfoil": "930f00b3-c9d7-5712-a26a-9a9176384320"
+            },
+            "text": "Pon un contador +1/+1 sobre la criatura objetivo. Esa criatura gana la habilidad de dañar primero hasta el final del turno. Ganas 2 vidas. (Una criatura con la habilidad de dañar primero hace su daño de combate antes que las criaturas que no la tienen.)",
+            "type": "Instantáneo",
+            "uuid": "7b51ff69-20af-588e-8686-151a910477e3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305322",
           "cardsphereId": "130635",
@@ -853,7 +934,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -877,6 +957,7 @@
         "name": "Battlefield Promotion",
         "number": "173",
         "originalText": "Put a +1/+1 counter on target creature. That creature gains first strike until end of turn. You gain 2 life. (A creature with first strike deals combat damage before creatures without first strike.)",
+        "originalType": "Instant",
         "printings": [
           "2X2",
           "J25",
@@ -896,9 +977,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "91e46caa-3c79-5058-ab06-150bbecf34f5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -928,38 +1014,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 20971,
+        "edhrecRank": 21621,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "More than heat and the strength of his arm, it was his faith that gave the blade its unyielding edge.",
         "foreignData": [
-          {
-            "flavorText": "Nicht seine Schmiedekunst sondern sein Glaube verlieh der Klinge ihre unnachgiebige Schneide.",
-            "identifiers": {
-              "multiverseId": "685028",
-              "scryfallId": "60cb0914-4312-462a-b3af-1006144a63e2"
-            },
-            "language": "German",
-            "multiverseId": 685028,
-            "name": "Silberschmied aus Gaven",
-            "text": "Wenn der Silberschmied aus Gaven ins Spiel kommt, lege je eine +1/+1-Marke auf bis zu zwei Kreaturen deiner Wahl.",
-            "type": "Kreatur — Mensch, Soldat",
-            "uuid": "406d2b26-5fb4-5324-9764-158791cd8847"
-          },
-          {
-            "flavorText": "Lo que dio al arma ese filo implacable no fue tanto el calor ni la fuerza de su brazo, sino su fe.",
-            "identifiers": {
-              "multiverseId": "685152",
-              "scryfallId": "04d7119d-144f-487d-ac1a-ef7420d52b3b"
-            },
-            "language": "Spanish",
-            "multiverseId": 685152,
-            "name": "Platero de Gavony",
-            "text": "Cuando el Platero de Gavony entre, pon un contador +1/+1 sobre cada una de hasta dos criaturas objetivo.",
-            "type": "Criatura — Soldado humano",
-            "uuid": "59ebedae-5424-5d2e-a018-6cf6e9bee5ac"
-          },
           {
             "flavorText": "C'était sa foi, davantage que la chaleur et la force de son bras, qui donnait à la lame son tranchant magistral.",
             "identifiers": {
@@ -969,9 +1030,28 @@
             "language": "French",
             "multiverseId": 685276,
             "name": "Orfèvre de Gavonie",
+            "skuIds": {
+              "nonfoil": "d58e3066-0f68-52d0-9f66-1806419a726d"
+            },
             "text": "Quand l'Orfèvre de Gavonie arrive, ciblez jusqu'à deux créatures. Mettez un marqueur +1/+1 sur chacune d'elles.",
             "type": "Créature — humain et soldat",
             "uuid": "ab466350-99e3-5297-862a-f3f405253a35"
+          },
+          {
+            "flavorText": "Nicht seine Schmiedekunst sondern sein Glaube verlieh der Klinge ihre unnachgiebige Schneide.",
+            "identifiers": {
+              "multiverseId": "685028",
+              "scryfallId": "60cb0914-4312-462a-b3af-1006144a63e2"
+            },
+            "language": "German",
+            "multiverseId": 685028,
+            "name": "Silberschmied aus Gaven",
+            "skuIds": {
+              "nonfoil": "b7ce9d3c-f17c-5f74-aafc-4eaab90b0c9e"
+            },
+            "text": "Wenn der Silberschmied aus Gaven ins Spiel kommt, lege je eine +1/+1-Marke auf bis zu zwei Kreaturen deiner Wahl.",
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "406d2b26-5fb4-5324-9764-158791cd8847"
           },
           {
             "flavorText": "Ancor più del calore e della forza del suo braccio, era la sua fede a donare alle lame un filo impeccabile.",
@@ -982,6 +1062,9 @@
             "language": "Italian",
             "multiverseId": 685400,
             "name": "Forgiargento di Gavony",
+            "skuIds": {
+              "nonfoil": "843fa473-3fe5-5307-8940-a2b922f619a0"
+            },
             "text": "Quando il Forgiargento di Gavony entra, scegli fino a due creature bersaglio e metti un segnalino +1/+1 su ciascuna.",
             "type": "Creatura — Soldato Umano",
             "uuid": "c16e8811-1de5-589c-845b-c7de4fef1bb2"
@@ -995,14 +1078,31 @@
             "language": "Japanese",
             "multiverseId": 685524,
             "name": "ガヴォニーの銀鍛冶師",
+            "skuIds": {
+              "nonfoil": "7152e32c-94bd-5c97-99e8-9fdc6d06f249"
+            },
             "text": "ガヴォニーの銀鍛冶師が戦場に出たとき、クリーチャー最大２体を対象とする。それらの上にそれぞれ＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 人間・兵士",
             "uuid": "ce78c057-8fd4-5580-84d9-9185f7bad78f"
+          },
+          {
+            "flavorText": "Lo que dio al arma ese filo implacable no fue tanto el calor ni la fuerza de su brazo, sino su fe.",
+            "identifiers": {
+              "multiverseId": "685152",
+              "scryfallId": "04d7119d-144f-487d-ac1a-ef7420d52b3b"
+            },
+            "language": "Spanish",
+            "multiverseId": 685152,
+            "name": "Platero de Gavony",
+            "skuIds": {
+              "nonfoil": "e3d398ee-7c68-596a-8113-515ba399247f"
+            },
+            "text": "Cuando el Platero de Gavony entre, pon un contador +1/+1 sobre cada una de hasta dos criaturas objetivo.",
+            "type": "Criatura — Soldado humano",
+            "uuid": "59ebedae-5424-5d2e-a018-6cf6e9bee5ac"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305350",
           "cardsphereId": "130729",
@@ -1044,6 +1144,7 @@
         "name": "Gavony Silversmith",
         "number": "201",
         "originalText": "When Gavony Silversmith enters, put a +1/+1 counter on each of up to two target creatures.",
+        "originalType": "Creature – Human Soldier",
         "power": "2",
         "printings": [
           "CMM",
@@ -1058,9 +1159,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1b601670-6ba3-5eee-bc32-c1341b7167a4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1094,39 +1200,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 17721,
+        "edhrecRank": 18070,
         "edhrecSaltiness": 0.47,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"You won't need the sword drills, your shields, or my blessing. You'll fight for Sunhome with the truth in your heart.\"\n—Aurelia",
         "foreignData": [
-          {
-            "flavorText": "„Du wirst weder dein Training, deinen Schild noch meinen Segen brauchen, Denn du kämpfst mit der Wahrheit in deinem Herzen für Sonnenheim.\"\n—Aurelia",
-            "identifiers": {
-              "multiverseId": "685029",
-              "scryfallId": "f79545d2-fa6e-4767-85f0-ddefbede4d0e"
-            },
-            "language": "German",
-            "multiverseId": 685029,
-            "name": "Für den Kampf rüsten",
-            "text": "Lege je eine +1/+1-Marke auf bis zu zwei Kreaturen deiner Wahl.",
-            "type": "Hexerei",
-            "uuid": "6a1f70c3-ea5b-58ab-8137-e54ebaab1d0a"
-          },
-          {
-            "flavorText": "\"No necesitarán las espadas, los escudos ni mi bendición. Lucharán por Casa Solar con la verdad que late en sus corazones\".\n—Aurelia",
-            "identifiers": {
-              "multiverseId": "685153",
-              "scryfallId": "775178a1-9399-4701-99de-c3adeb1ad470"
-            },
-            "language": "Spanish",
-            "multiverseId": 685153,
-            "name": "Armarse para la lucha",
-            "text": "Pon un contador +1/+1 sobre cada una de hasta dos criaturas objetivo.",
-            "type": "Conjuro",
-            "uuid": "0b709fb5-58a1-5bf1-86b8-ebf2c0da379a"
-          },
           {
             "flavorText": "« Vous n'aurez nul besoin d'entraînement à l'épée, de vos boucliers ou de ma bénédiction. Vous combattrez pour Solcastel avec la vérité qui est dans votre cœur. »\n—Aurélia",
             "identifiers": {
@@ -1136,9 +1216,28 @@
             "language": "French",
             "multiverseId": 685277,
             "name": "Se préparer pour le combat",
+            "skuIds": {
+              "nonfoil": "583fbd95-08b7-5bae-a78e-625b70d660de"
+            },
             "text": "Ciblez jusqu'à deux créatures. Mettez un marqueur +1/+1 sur chacune d'elles.",
             "type": "Rituel",
             "uuid": "3a98e0f2-a034-5394-8338-a2b0bf647ae4"
+          },
+          {
+            "flavorText": "„Du wirst weder dein Training, deinen Schild noch meinen Segen brauchen, Denn du kämpfst mit der Wahrheit in deinem Herzen für Sonnenheim.\"\n—Aurelia",
+            "identifiers": {
+              "multiverseId": "685029",
+              "scryfallId": "f79545d2-fa6e-4767-85f0-ddefbede4d0e"
+            },
+            "language": "German",
+            "multiverseId": 685029,
+            "name": "Für den Kampf rüsten",
+            "skuIds": {
+              "nonfoil": "9907350a-3a4c-53ef-a072-b94ef89934c7"
+            },
+            "text": "Lege je eine +1/+1-Marke auf bis zu zwei Kreaturen deiner Wahl.",
+            "type": "Hexerei",
+            "uuid": "6a1f70c3-ea5b-58ab-8137-e54ebaab1d0a"
           },
           {
             "flavorText": "\"Non vi serviranno le esercitazioni di scherma, gli scudi o la mia benedizione. Combatterete per Sol-Dimora con la verità nei vostri cuori.\"\n—Aurelia",
@@ -1149,6 +1248,9 @@
             "language": "Italian",
             "multiverseId": 685401,
             "name": "Prepararsi alla Battaglia",
+            "skuIds": {
+              "nonfoil": "5cc32f7d-235b-5fa9-9793-c4c41a0ee41c"
+            },
             "text": "Scegli fino a due creature bersaglio. Metti un segnalino +1/+1 su ciascuna di esse.",
             "type": "Stregoneria",
             "uuid": "6ba3a469-e07f-5712-af79-a1493361aaf5"
@@ -1162,14 +1264,31 @@
             "language": "Japanese",
             "multiverseId": 685525,
             "name": "戦いの覚悟",
+            "skuIds": {
+              "nonfoil": "d2a43e9a-c1b1-54cf-8c0f-c406c90c884c"
+            },
             "text": "クリーチャー最大２体を対象とする。それらの上にそれぞれ＋１/＋１カウンター１個を置く。",
             "type": "ソーサリー",
             "uuid": "42e345bb-e100-51b5-bd4a-6ff44622f82d"
+          },
+          {
+            "flavorText": "\"No necesitarán las espadas, los escudos ni mi bendición. Lucharán por Casa Solar con la verdad que late en sus corazones\".\n—Aurelia",
+            "identifiers": {
+              "multiverseId": "685153",
+              "scryfallId": "775178a1-9399-4701-99de-c3adeb1ad470"
+            },
+            "language": "Spanish",
+            "multiverseId": 685153,
+            "name": "Armarse para la lucha",
+            "skuIds": {
+              "nonfoil": "fb8934e1-f03f-575e-9061-ee9c795f660a"
+            },
+            "text": "Pon un contador +1/+1 sobre cada una de hasta dos criaturas objetivo.",
+            "type": "Conjuro",
+            "uuid": "0b709fb5-58a1-5bf1-86b8-ebf2c0da379a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305351",
           "cardsphereId": "130731",
@@ -1209,6 +1328,7 @@
         "name": "Gird for Battle",
         "number": "202",
         "originalText": "Put a +1/+1 counter on each of up to two target creatures.",
+        "originalType": "Sorcery",
         "printings": [
           "GRN",
           "J25",
@@ -1227,9 +1347,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "be1327fc-0fc1-5ff7-a3c8-16334d273294"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1259,38 +1384,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 22035,
+        "edhrecRank": 22655,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Too many have disappeared in these dark days. I am the light that will lead them home.\"",
         "foreignData": [
-          {
-            "flavorText": "„Zu viele haben sich in diesen dunklen Tagen bereits verirrt. Ich bin das Licht, das sie nach Hause führt.\"",
-            "identifiers": {
-              "multiverseId": "685063",
-              "scryfallId": "c51ddfc2-52ab-4fd5-a984-cc09fc0b3e62"
-            },
-            "language": "German",
-            "multiverseId": 685063,
-            "name": "Parhelion-Patrouille",
-            "text": "Fliegend\nWachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)",
-            "type": "Kreatur — Mensch, Ritter",
-            "uuid": "0b92eca1-2166-5311-864f-47555d0842ce"
-          },
-          {
-            "flavorText": "\"Demasiados desaparecieron en estos días oscuros. Yo soy la luz que los conducirá a casa\".",
-            "identifiers": {
-              "multiverseId": "685187",
-              "scryfallId": "564aa6ba-b713-4d9f-afa2-9c311ec3e8a3"
-            },
-            "language": "Spanish",
-            "multiverseId": 685187,
-            "name": "Patrulla del Parhelio",
-            "text": "Vuela.\nVigilancia. (Esta criatura no se gira al atacar.)\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)",
-            "type": "Criatura — Caballero humano",
-            "uuid": "b6e9fffa-a098-53c2-afff-15b72208fa9b"
-          },
           {
             "flavorText": "« Ils sont trop nombreux à avoir disparu en ces temps sombres. Je suis la lumière qui les ramènera chez eux. »",
             "identifiers": {
@@ -1300,9 +1400,28 @@
             "language": "French",
             "multiverseId": 685311,
             "name": "Patrouille du Parhélion",
+            "skuIds": {
+              "nonfoil": "ee1fa8ce-6c09-5388-99cf-09b3c9793891"
+            },
             "text": "Vol\nVigilance (Attaquer avec cette créature ne la fait pas s'engager.)\nMentor (À chaque fois que cette créature attaque, mettez un marqueur +1/+1 sur une créature attaquante ciblée de force inférieure.)",
             "type": "Créature — humain et chevalier",
             "uuid": "5b62def8-d48d-53e5-bdf0-7b72316ea94f"
+          },
+          {
+            "flavorText": "„Zu viele haben sich in diesen dunklen Tagen bereits verirrt. Ich bin das Licht, das sie nach Hause führt.\"",
+            "identifiers": {
+              "multiverseId": "685063",
+              "scryfallId": "c51ddfc2-52ab-4fd5-a984-cc09fc0b3e62"
+            },
+            "language": "German",
+            "multiverseId": 685063,
+            "name": "Parhelion-Patrouille",
+            "skuIds": {
+              "nonfoil": "be768c76-d0fd-5b6c-a7fd-014632b42d7a"
+            },
+            "text": "Fliegend\nWachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)",
+            "type": "Kreatur — Mensch, Ritter",
+            "uuid": "0b92eca1-2166-5311-864f-47555d0842ce"
           },
           {
             "flavorText": "\"In troppi sono scomparsi in questi giorni oscuri. Io sono la luce che li condurrà a casa.\"",
@@ -1313,6 +1432,9 @@
             "language": "Italian",
             "multiverseId": 685435,
             "name": "Pattuglia della Parhelion",
+            "skuIds": {
+              "nonfoil": "8e19d3bb-440e-50e0-9b81-c19281e47123"
+            },
             "text": "Volare\nCautela (Questa creatura attacca senza TAPpare.)\nMentore (Ogniqualvolta questa creatura attacca, metti un segnalino +1/+1 su una creatura attaccante bersaglio con forza inferiore.)",
             "type": "Creatura — Cavaliere Umano",
             "uuid": "c49beea1-7793-5a78-bb47-a77789b86f49"
@@ -1326,14 +1448,31 @@
             "language": "Japanese",
             "multiverseId": 685559,
             "name": "パルヘリオンの巡視兵",
+            "skuIds": {
+              "nonfoil": "ab131262-e883-5b79-b2c1-00e73591a1ef"
+            },
             "text": "飛行\n警戒（このクリーチャーは攻撃してもタップしない。）\n教導（このクリーチャーが攻撃するたび、パワーがこれよりも小さい攻撃クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。）",
             "type": "クリーチャー — 人間・騎士",
             "uuid": "0e5a0fd3-22bd-50e9-bd30-bc735df51f78"
+          },
+          {
+            "flavorText": "\"Demasiados desaparecieron en estos días oscuros. Yo soy la luz que los conducirá a casa\".",
+            "identifiers": {
+              "multiverseId": "685187",
+              "scryfallId": "564aa6ba-b713-4d9f-afa2-9c311ec3e8a3"
+            },
+            "language": "Spanish",
+            "multiverseId": 685187,
+            "name": "Patrulla del Parhelio",
+            "skuIds": {
+              "nonfoil": "3116e0b9-7e68-50e0-88fa-d11724742ff2"
+            },
+            "text": "Vuela.\nVigilancia. (Esta criatura no se gira al atacar.)\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)",
+            "type": "Criatura — Caballero humano",
+            "uuid": "b6e9fffa-a098-53c2-afff-15b72208fa9b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305385",
           "cardsphereId": "130895",
@@ -1380,6 +1519,7 @@
         "name": "Parhelion Patrol",
         "number": "236",
         "originalText": "Flying\nVigilance (Attacking doesn't cause this creature to tap.)\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+        "originalType": "Creature – Human Knight",
         "power": "2",
         "printings": [
           "CLU",
@@ -1407,9 +1547,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9a2221f3-e298-56d0-8ffa-a658fc1fed4a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1443,36 +1588,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 22932,
+        "edhrecRank": 23497,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "685075",
-              "scryfallId": "7fa90905-5570-46fe-8c45-6349b09c65ff"
-            },
-            "language": "German",
-            "multiverseId": 685075,
-            "name": "Ausgestoßener der Sandsteppe",
-            "text": "Wenn der Ausgestoßene der Sandsteppe ins Spiel kommt, bestimme eines —\n• Lege eine +1/+1-Marke auf den Ausgestoßenen der Sandsteppe.\n• Erzeuge einen 1/1 weißen Geist-Kreaturenspielstein mit Flugfähigkeit.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "07974c35-6827-5d6d-a863-2a8704d4b3a0"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "685199",
-              "scryfallId": "64161f93-81e7-4314-acc4-056e20130eed"
-            },
-            "language": "Spanish",
-            "multiverseId": 685199,
-            "name": "Exiliado de esteparenosa",
-            "text": "Cuando el Exiliado de esteparenosa entre, elige uno:\n• Pon un contador +1/+1 sobre el Exiliado de esteparenosa.\n• Crea una ficha de criatura Espíritu blanca 1/1 con la habilidad de volar.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "633b31d2-5b55-555c-a7ee-74ee77b69b67"
-          },
           {
             "identifiers": {
               "multiverseId": "685323",
@@ -1481,9 +1602,27 @@
             "language": "French",
             "multiverseId": 685323,
             "name": "Proscrit de la steppe de sable",
+            "skuIds": {
+              "nonfoil": "9dd1c575-73ab-51e2-8dfa-cde3c4e8b97d"
+            },
             "text": "Quand le Proscrit de la steppe de sable arrive, choisissez l'un —\n• Mettez un marqueur +1/+1 sur le Proscrit de la steppe de sable.\n• Créez un jeton de créature 1/1 blanche Esprit avec le vol.",
             "type": "Créature — humain et guerrier",
             "uuid": "de65cc01-bb07-5dd9-932e-3b14a38d661b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685075",
+              "scryfallId": "7fa90905-5570-46fe-8c45-6349b09c65ff"
+            },
+            "language": "German",
+            "multiverseId": 685075,
+            "name": "Ausgestoßener der Sandsteppe",
+            "skuIds": {
+              "nonfoil": "0ac60678-fa92-5331-b729-85242ee9090d"
+            },
+            "text": "Wenn der Ausgestoßene der Sandsteppe ins Spiel kommt, bestimme eines —\n• Lege eine +1/+1-Marke auf den Ausgestoßenen der Sandsteppe.\n• Erzeuge einen 1/1 weißen Geist-Kreaturenspielstein mit Flugfähigkeit.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "07974c35-6827-5d6d-a863-2a8704d4b3a0"
           },
           {
             "identifiers": {
@@ -1493,6 +1632,9 @@
             "language": "Italian",
             "multiverseId": 685447,
             "name": "Reietto delle Steppe Sabbiose",
+            "skuIds": {
+              "nonfoil": "ab613c55-bde9-54d0-928c-a7b99c9ecc60"
+            },
             "text": "Quando il Reietto delle Steppe Sabbiose entra, scegli uno —\n• Metti un segnalino +1/+1 sul Reietto delle Steppe Sabbiose.\n• Crea una pedina creatura Spirito 1/1 bianca con volare.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "9d913eda-774a-5c3a-9889-5a86c1e8226a"
@@ -1505,14 +1647,30 @@
             "language": "Japanese",
             "multiverseId": 685571,
             "name": "砂草原ののけ者",
+            "skuIds": {
+              "nonfoil": "60d44648-e117-5e03-8b85-dc4f4998b7b0"
+            },
             "text": "砂草原ののけ者が戦場に出たとき、以下から１つを選ぶ。\n・砂草原ののけ者の上に＋１/＋１カウンター１個を置く。\n・飛行を持つ白の１/１のスピリット・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "898d2f94-ce99-5f3c-8750-048ec927f28a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685199",
+              "scryfallId": "64161f93-81e7-4314-acc4-056e20130eed"
+            },
+            "language": "Spanish",
+            "multiverseId": 685199,
+            "name": "Exiliado de esteparenosa",
+            "skuIds": {
+              "nonfoil": "2eeb4361-7b86-5f9d-a342-ad93eb2b6f5d"
+            },
+            "text": "Cuando el Exiliado de esteparenosa entre, elige uno:\n• Pon un contador +1/+1 sobre el Exiliado de esteparenosa.\n• Crea una ficha de criatura Espíritu blanca 1/1 con la habilidad de volar.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "633b31d2-5b55-555c-a7ee-74ee77b69b67"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305397",
           "cardsphereId": "130942",
@@ -1554,6 +1712,7 @@
         "name": "Sandsteppe Outcast",
         "number": "248",
         "originalText": "When Sandsteppe Outcast enters, choose one —\n• Put a +1/+1 counter on Sandsteppe Outcast.\n• Create a 1/1 white Spirit creature token with flying.",
+        "originalType": "Creature – Human Warrior",
         "power": "2",
         "printings": [
           "FRF",
@@ -1566,6 +1725,11 @@
           "tcgplayer": "https://mtgjson.com/links/e16bbe61c14ee9a4"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "1e59b4ed-5f6e-57f1-9e1c-06282af80df1"
+          ]
+        },
         "rulings": [
           {
             "date": "2014-11-24",
@@ -1577,9 +1741,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "44f39e4d-53c8-5f9c-a6d7-4e73a6f00b5b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1613,39 +1782,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 26172,
+        "edhrecRank": 26499,
         "edhrecSaltiness": 0.48,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Get up, slugabeds! We've got company, and they're not dressed for a party!\"",
         "foreignData": [
-          {
-            "flavorText": "„Aufgestanden, ihr Schlafmützen! Wir haben Gesellschaft und die Gäste sind nicht für eine Feier gekleidet!\"",
-            "identifiers": {
-              "multiverseId": "685089",
-              "scryfallId": "ad08766e-3350-43da-8357-bfad9f56045e"
-            },
-            "language": "German",
-            "multiverseId": 685089,
-            "name": "Standhafter Wächter",
-            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nWenn der Standhafte Wächter stirbt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst.",
-            "type": "Kreatur — Mensch, Soldat",
-            "uuid": "3ca12147-5fb1-51da-8159-f3aacf920641"
-          },
-          {
-            "flavorText": "\"¡Arriba, dormilones! ¡Tenemos compañía y no vienen vestidos de fiesta!\".",
-            "identifiers": {
-              "multiverseId": "685213",
-              "scryfallId": "6fa1dd2c-d2b9-452d-bce5-ec8b62368cde"
-            },
-            "language": "Spanish",
-            "multiverseId": 685213,
-            "name": "Centinela infatigable",
-            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nCuando el Centinela infatigable muera, pon un contador +1/+1 sobre la criatura objetivo que controlas.",
-            "type": "Criatura — Soldado humano",
-            "uuid": "14583cae-9cc7-5387-a1ef-94833e775c3b"
-          },
           {
             "flavorText": "« Debout, tas de fainéants ! On a de la compagnie, et ils ne sont pas venus pour rigoler ! »",
             "identifiers": {
@@ -1655,9 +1798,28 @@
             "language": "French",
             "multiverseId": 685337,
             "name": "Sentinelle tenace",
+            "skuIds": {
+              "nonfoil": "4a1d47ee-49eb-507c-9de1-2f85b122a37e"
+            },
             "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)\nQuand la Sentinelle tenace meurt, mettez un marqueur +1/+1 sur une créature ciblée que vous contrôlez.",
             "type": "Créature — humain et soldat",
             "uuid": "15e0a8ea-d91d-5fc1-afe9-eda49ac38da7"
+          },
+          {
+            "flavorText": "„Aufgestanden, ihr Schlafmützen! Wir haben Gesellschaft und die Gäste sind nicht für eine Feier gekleidet!\"",
+            "identifiers": {
+              "multiverseId": "685089",
+              "scryfallId": "ad08766e-3350-43da-8357-bfad9f56045e"
+            },
+            "language": "German",
+            "multiverseId": 685089,
+            "name": "Standhafter Wächter",
+            "skuIds": {
+              "nonfoil": "e8f06418-0e1f-50b1-a371-549aac533ae1"
+            },
+            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nWenn der Standhafte Wächter stirbt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst.",
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "3ca12147-5fb1-51da-8159-f3aacf920641"
           },
           {
             "flavorText": "\"Alzatevi, scansafatiche! Abbiamo visite, e non sono in abito da festa!\"",
@@ -1668,6 +1830,9 @@
             "language": "Italian",
             "multiverseId": 685461,
             "name": "Sentinella Risoluta",
+            "skuIds": {
+              "nonfoil": "25dbd2cb-e8ad-5433-ade6-7a57b1781d65"
+            },
             "text": "Cautela (Questa creatura attacca senza TAPpare.)\nQuando la Sentinella Risoluta muore, metti un segnalino +1/+1 su una creatura bersaglio che controlli.",
             "type": "Creatura — Soldato Umano",
             "uuid": "1f108e5f-b858-5792-a7df-a41798415bf2"
@@ -1681,14 +1846,31 @@
             "language": "Japanese",
             "multiverseId": 685585,
             "name": "不動の哨兵",
+            "skuIds": {
+              "nonfoil": "6a32b29b-68b8-5c44-9202-06e8a0c74d3b"
+            },
             "text": "警戒（このクリーチャーは攻撃してもタップしない。）\n不動の哨兵が死亡したとき、あなたがコントロールしているクリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 人間・兵士",
             "uuid": "c2cdb171-034f-5d41-9102-1420666a51e6"
+          },
+          {
+            "flavorText": "\"¡Arriba, dormilones! ¡Tenemos compañía y no vienen vestidos de fiesta!\".",
+            "identifiers": {
+              "multiverseId": "685213",
+              "scryfallId": "6fa1dd2c-d2b9-452d-bce5-ec8b62368cde"
+            },
+            "language": "Spanish",
+            "multiverseId": 685213,
+            "name": "Centinela infatigable",
+            "skuIds": {
+              "nonfoil": "1ff8a591-6dd0-5d94-ad99-00acfd789406"
+            },
+            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nCuando el Centinela infatigable muera, pon un contador +1/+1 sobre la criatura objetivo que controlas.",
+            "type": "Criatura — Soldado humano",
+            "uuid": "14583cae-9cc7-5387-a1ef-94833e775c3b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305411",
           "cardsphereId": "131367",
@@ -1733,6 +1915,7 @@
         "name": "Steadfast Sentry",
         "number": "262",
         "originalText": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen Steadfast Sentry dies, put a +1/+1 counter on target creature you control.",
+        "originalType": "Creature – Human Soldier",
         "power": "3",
         "printings": [
           "J25",
@@ -1751,9 +1934,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "de10c5d4-7aa8-58ad-83d2-a6a9ff0cb797"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1787,39 +1975,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 19499,
+        "edhrecRank": 20302,
         "edhrecSaltiness": 0.57,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Before I let you wield one of these, let's see you dodge one!\"",
         "foreignData": [
-          {
-            "flavorText": "„Bevor du so eins schwingen darfst, musst du ihm erstmal ausweichen können!\"",
-            "identifiers": {
-              "multiverseId": "685093",
-              "scryfallId": "3bdfb90c-3eec-4e17-ae94-0bd5c1d5d228"
-            },
-            "language": "German",
-            "multiverseId": 685093,
-            "name": "Sonnenheim-Getreuer",
-            "text": "Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)",
-            "type": "Kreatur — Mensch, Soldat",
-            "uuid": "f4a96383-3aa7-50be-877d-cbe6c3a3c169"
-          },
-          {
-            "flavorText": "\"Antes de que yo te permita blandir una de estas, ¡veamos si puedes esquivarla!\".",
-            "identifiers": {
-              "multiverseId": "685217",
-              "scryfallId": "6d390fbe-2693-4c29-aa33-820893df2481"
-            },
-            "language": "Spanish",
-            "multiverseId": 685217,
-            "name": "Valiente de Casa Solar",
-            "text": "Daña primero. (Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)",
-            "type": "Criatura — Soldado humano",
-            "uuid": "4a246d42-84e0-56c7-bd13-c695c04aa625"
-          },
           {
             "flavorText": "« Avant de vous laisser manier un de ces cure-dents, voyons voir comment vous en esquivez un ! »",
             "identifiers": {
@@ -1829,9 +1991,28 @@
             "language": "French",
             "multiverseId": 685341,
             "name": "Vaillant de Solcastel",
+            "skuIds": {
+              "nonfoil": "9d29e9a7-f3e1-56aa-bcfb-f67ababef8c1"
+            },
             "text": "Initiative (Cette créature inflige des blessures de combat avant les créatures sans l'initiative.)\nMentor (À chaque fois que cette créature attaque, mettez un marqueur +1/+1 sur une créature attaquante ciblée de force inférieure.)",
             "type": "Créature — humain et soldat",
             "uuid": "66c86d9a-0be6-5fbe-8ddc-fb140b685f1a"
+          },
+          {
+            "flavorText": "„Bevor du so eins schwingen darfst, musst du ihm erstmal ausweichen können!\"",
+            "identifiers": {
+              "multiverseId": "685093",
+              "scryfallId": "3bdfb90c-3eec-4e17-ae94-0bd5c1d5d228"
+            },
+            "language": "German",
+            "multiverseId": 685093,
+            "name": "Sonnenheim-Getreuer",
+            "skuIds": {
+              "nonfoil": "0af4fe5e-c79a-5c70-a875-c813dd1b1170"
+            },
+            "text": "Erstschlag (Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\nMentor (Immer wenn diese Kreatur angreift, lege eine +1/+1-Marke auf eine angreifende Kreatur deiner Wahl, deren Stärke niedriger ist.)",
+            "type": "Kreatur — Mensch, Soldat",
+            "uuid": "f4a96383-3aa7-50be-877d-cbe6c3a3c169"
           },
           {
             "flavorText": "\"Prima che ti lasci brandire una di queste, vediamo come te la cavi a schivarla!\"",
@@ -1842,6 +2023,9 @@
             "language": "Italian",
             "multiverseId": 685465,
             "name": "Temerario di Sol-Dimora",
+            "skuIds": {
+              "nonfoil": "bfbfed8b-d174-54a9-a605-8cedeebfdc9b"
+            },
             "text": "Attacco improvviso (Questa creatura infligge danno da combattimento prima delle creature senza attacco improvviso.)\nMentore (Ogniqualvolta questa creatura attacca, metti un segnalino +1/+1 su una creatura attaccante bersaglio con forza inferiore.)",
             "type": "Creatura — Soldato Umano",
             "uuid": "ef148e9f-bfcf-50a9-bde1-9eb0d9d4fa31"
@@ -1855,14 +2039,31 @@
             "language": "Japanese",
             "multiverseId": 685589,
             "name": "サンホームの重鎮",
+            "skuIds": {
+              "nonfoil": "859ec4c6-a538-5661-b6f2-9d0a846e5c8e"
+            },
             "text": "先制攻撃（このクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）\n教導（このクリーチャーが攻撃するたび、パワーがこれよりも小さい攻撃クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。）",
             "type": "クリーチャー — 人間・兵士",
             "uuid": "577691f5-f29c-53a7-b443-5c2951d10d2b"
+          },
+          {
+            "flavorText": "\"Antes de que yo te permita blandir una de estas, ¡veamos si puedes esquivarla!\".",
+            "identifiers": {
+              "multiverseId": "685217",
+              "scryfallId": "6d390fbe-2693-4c29-aa33-820893df2481"
+            },
+            "language": "Spanish",
+            "multiverseId": 685217,
+            "name": "Valiente de Casa Solar",
+            "skuIds": {
+              "nonfoil": "f93a54f6-6333-5feb-af80-d402965e60dd"
+            },
+            "text": "Daña primero. (Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\nMentor. (Siempre que esta criatura ataque, pon un contador +1/+1 sobre la criatura atacante objetivo con menor fuerza.)",
+            "type": "Criatura — Soldado humano",
+            "uuid": "4a246d42-84e0-56c7-bd13-c695c04aa625"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305415",
           "cardsphereId": "131362",
@@ -1905,6 +2106,7 @@
         "name": "Sunhome Stalwart",
         "number": "266",
         "originalText": "First strike (This creature deals combat damage before creatures without first strike.)\nMentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+        "originalType": "Creature – Human Soldier",
         "power": "2",
         "printings": [
           "CLU",
@@ -1933,9 +2135,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f688aecb-81f5-5f92-a3a7-9415bd76e1c1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1969,39 +2176,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 14337,
+        "edhrecRank": 14777,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"There's nothing quite as satisfying as delivering a good kick to the face.\"\n—Adrasteia, Akroan captain",
         "foreignData": [
-          {
-            "flavorText": "„Es gibt nichts Befriedigenderes, als einen guten Tritt ins Gesicht zu landen.\"\n—Adrasteia, akroischer Hauptmann",
-            "identifiers": {
-              "multiverseId": "685096",
-              "scryfallId": "0edc95e2-f1d4-4109-91b8-333c721c3697"
-            },
-            "language": "German",
-            "multiverseId": 685096,
-            "name": "Prompte Antwort",
-            "text": "Zerstöre eine getappte Kreatur deiner Wahl.",
-            "type": "Spontanzauber",
-            "uuid": "644336e7-3d94-5816-9987-34926e5f23d4"
-          },
-          {
-            "flavorText": "\"No hay nada que satisfaga más que una buena patada en la cara\".\n—Adrasteia, capitana akroniense",
-            "identifiers": {
-              "multiverseId": "685220",
-              "scryfallId": "905c685e-763a-44f4-801f-d727eb4de6b5"
-            },
-            "language": "Spanish",
-            "multiverseId": 685220,
-            "name": "Respuesta rauda",
-            "text": "Destruye la criatura girada objetivo.",
-            "type": "Instantáneo",
-            "uuid": "3d438f0f-2859-5de6-b235-3129e4d11fc0"
-          },
           {
             "flavorText": "« Rien ne me satisfait autant que de mettre un bon coup de pied dans la tête de quelqu'un. »\n—Adrastéïa, capitaine akroen",
             "identifiers": {
@@ -2011,9 +2192,28 @@
             "language": "French",
             "multiverseId": 685344,
             "name": "Réponse expéditive",
+            "skuIds": {
+              "nonfoil": "4c3d18fc-ef94-542e-8d48-6d8b8ea6d999"
+            },
             "text": "Détruisez une créature engagée ciblée.",
             "type": "Éphémère",
             "uuid": "2b1af438-5965-50cc-a0fb-a4fd699ccd62"
+          },
+          {
+            "flavorText": "„Es gibt nichts Befriedigenderes, als einen guten Tritt ins Gesicht zu landen.\"\n—Adrasteia, akroischer Hauptmann",
+            "identifiers": {
+              "multiverseId": "685096",
+              "scryfallId": "0edc95e2-f1d4-4109-91b8-333c721c3697"
+            },
+            "language": "German",
+            "multiverseId": 685096,
+            "name": "Prompte Antwort",
+            "skuIds": {
+              "nonfoil": "27fbc652-6f66-5708-977f-c38fd83ee67c"
+            },
+            "text": "Zerstöre eine getappte Kreatur deiner Wahl.",
+            "type": "Spontanzauber",
+            "uuid": "644336e7-3d94-5816-9987-34926e5f23d4"
           },
           {
             "flavorText": "\"Non c'è niente di più appagante che stampare un bel calcio in faccia a qualcuno.\"\n—Adrasteia, capitana di Akros",
@@ -2024,6 +2224,9 @@
             "language": "Italian",
             "multiverseId": 685468,
             "name": "Reazione Repentina",
+            "skuIds": {
+              "nonfoil": "df2381cb-750c-52f6-92de-608be4ac5410"
+            },
             "text": "Distruggi una creatura TAPpata bersaglio.",
             "type": "Istantaneo",
             "uuid": "51caa84f-a504-56e0-ac33-24385c7d2dae"
@@ -2037,14 +2240,31 @@
             "language": "Japanese",
             "multiverseId": 685592,
             "name": "素早い反応",
+            "skuIds": {
+              "nonfoil": "2af89cb0-c2a6-5ef2-a28a-20a608d990e9"
+            },
             "text": "タップ状態のクリーチャー１体を対象とする。それを破壊する。",
             "type": "インスタント",
             "uuid": "08074c49-082f-5f4b-9dc6-159f227dcefd"
+          },
+          {
+            "flavorText": "\"No hay nada que satisfaga más que una buena patada en la cara\".\n—Adrasteia, capitana akroniense",
+            "identifiers": {
+              "multiverseId": "685220",
+              "scryfallId": "905c685e-763a-44f4-801f-d727eb4de6b5"
+            },
+            "language": "Spanish",
+            "multiverseId": 685220,
+            "name": "Respuesta rauda",
+            "skuIds": {
+              "nonfoil": "e5c3cf6a-4691-5f10-9553-bbd4d33f7961"
+            },
+            "text": "Destruye la criatura girada objetivo.",
+            "type": "Instantáneo",
+            "uuid": "3d438f0f-2859-5de6-b235-3129e4d11fc0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305418",
           "cardsphereId": "131358",
@@ -2076,6 +2296,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -2085,6 +2306,7 @@
         "name": "Swift Response",
         "number": "269",
         "originalText": "Destroy target tapped creature.",
+        "originalType": "Instant",
         "printings": [
           "CMM",
           "J25",
@@ -2097,9 +2319,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c56deb4a-7b83-57ff-8d70-6d02b467fa6a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2127,39 +2354,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1164,
+        "edhrecRank": 1092,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Wildflowers here bloom not with the season but with the ebb and flow of magic.",
         "foreignData": [
-          {
-            "flavorText": "Die Blüte der Wildblumen richtet sich hier nicht nach den Jahreszeiten, sondern nach den Gezeiten der Magie.",
-            "identifiers": {
-              "multiverseId": "684058",
-              "scryfallId": "76eefcea-75cd-4a7d-80f7-d22c721b7ef6"
-            },
-            "language": "German",
-            "multiverseId": 684058,
-            "name": "Gedeihende Heide",
-            "text": "Die Gedeihende Heide kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Weiß.\n{T}: Erzeuge {W} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "4877a2f5-4ccc-57d0-951d-eae067ee2b28"
-          },
-          {
-            "flavorText": "Las flores salvajes de aquí no florecen según las estaciones, sino según los altibajos y el flujo de la magia.",
-            "identifiers": {
-              "multiverseId": "684097",
-              "scryfallId": "86671d6e-1736-425e-8737-98ccc08955fa"
-            },
-            "language": "Spanish",
-            "multiverseId": 684097,
-            "name": "Brezal floreciente",
-            "text": "El Brezal floreciente entra girado. En cuanto entre, elige un color que no sea blanco.\n{T}: Agrega {W} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "87d0a20f-903b-552b-abd4-0a2c5cbe7818"
-          },
           {
             "flavorText": "Ici, les fleurs sauvages s'épanouissent non pas au gré des saisons mais au gré des flux de magie.",
             "identifiers": {
@@ -2169,9 +2370,28 @@
             "language": "French",
             "multiverseId": 684136,
             "name": "Prairie prospère",
+            "skuIds": {
+              "nonfoil": "f58f17d4-623e-507d-8939-850b8d06ff7b"
+            },
             "text": "La Prairie prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le blanc.\n{T} : Ajoutez {W} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "9c771c5d-1978-5014-9a64-15ad2532641a"
+          },
+          {
+            "flavorText": "Die Blüte der Wildblumen richtet sich hier nicht nach den Jahreszeiten, sondern nach den Gezeiten der Magie.",
+            "identifiers": {
+              "multiverseId": "684058",
+              "scryfallId": "76eefcea-75cd-4a7d-80f7-d22c721b7ef6"
+            },
+            "language": "German",
+            "multiverseId": 684058,
+            "name": "Gedeihende Heide",
+            "skuIds": {
+              "nonfoil": "85fe1b89-5f94-5a47-8bb2-240d8688aceb"
+            },
+            "text": "Die Gedeihende Heide kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Weiß.\n{T}: Erzeuge {W} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "4877a2f5-4ccc-57d0-951d-eae067ee2b28"
           },
           {
             "flavorText": "I fiori selvatici qui non sbocciano in base alle stagioni, ma seguendo il fluire della magia.",
@@ -2182,6 +2402,9 @@
             "language": "Italian",
             "multiverseId": 684175,
             "name": "Brughiera Florida",
+            "skuIds": {
+              "nonfoil": "b321d669-4918-5832-8d82-61d927bdee5e"
+            },
             "text": "La Brughiera Florida entra TAPpata. Mentre entra, scegli un colore diverso dal bianco.\n{T}: Aggiungi {W} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "94cdfa26-1f41-51df-bc91-b87871af2890"
@@ -2195,14 +2418,31 @@
             "language": "Japanese",
             "multiverseId": 684214,
             "name": "興隆する荒野",
+            "skuIds": {
+              "nonfoil": "11ec8437-e5d2-5250-bb7d-36717c5321fa"
+            },
             "text": "興隆する荒野はタップ状態で戦場に出る。これが戦場に出るに際し、白でない色１色を選ぶ。\n{T}：{W}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "b1ff6a84-aa05-5678-87f7-f251cc74db3e"
+          },
+          {
+            "flavorText": "Las flores salvajes de aquí no florecen según las estaciones, sino según los altibajos y el flujo de la magia.",
+            "identifiers": {
+              "multiverseId": "684097",
+              "scryfallId": "86671d6e-1736-425e-8737-98ccc08955fa"
+            },
+            "language": "Spanish",
+            "multiverseId": 684097,
+            "name": "Brezal floreciente",
+            "skuIds": {
+              "nonfoil": "ee08a62d-7902-5275-b15a-44f0d599cfc2"
+            },
+            "text": "El Brezal floreciente entra girado. En cuanto entre, elige un color que no sea blanco.\n{T}: Agrega {W} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "87d0a20f-903b-552b-abd4-0a2c5cbe7818"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306116",
           "cardsphereId": "130628",
@@ -2240,12 +2480,14 @@
         "name": "Thriving Heath",
         "number": "777",
         "originalText": "Thriving Heath enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2255,6 +2497,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b4711fb2de3fc55c",
           "cardmarket": "https://mtgjson.com/links/46672c2f8a92ebbd",
@@ -2262,9 +2511,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ec36093e-91bf-5847-a6f9-09b7d5094636"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2299,36 +2553,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681251",
-              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
-            },
-            "language": "German",
-            "multiverseId": 681251,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681266",
-              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
-            },
-            "language": "Spanish",
-            "multiverseId": 681266,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681281",
               "scryfallId": "c8902983-76fe-4317-93cb-78579bb4af32"
             },
             "language": "French",
             "multiverseId": 681281,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "1f5f2a2f-8bce-50b4-a9b1-0ba1cd6a6206"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "9e496ba0-d6e9-57c3-b0b3-7331c6cf6150"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681251",
+              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
+            },
+            "language": "German",
+            "multiverseId": 681251,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "5ca1f722-3338-5594-9182-be880a4f68b7"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
           },
           {
             "identifiers": {
@@ -2338,6 +2587,9 @@
             "language": "Italian",
             "multiverseId": 681296,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "2322dfe9-c07e-5a3d-9489-1adda783e79a"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "0e2fcf8f-c501-5f0d-820e-d29f729ab24a"
           },
@@ -2349,18 +2601,34 @@
             "language": "Japanese",
             "multiverseId": 681311,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "8a017051-9191-5b68-b216-a67886175218"
+            },
             "type": "基本土地 — 平地",
             "uuid": "41b50bca-41f0-59a5-91c4-58db101ed5b7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681266",
+              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
+            },
+            "language": "Spanish",
+            "multiverseId": 681266,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "db5a270e-cbf9-5d5d-af7f-c91fd19aea5e"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305215",
           "cardsphereId": "131371",
           "deckboxId": "98075",
           "mcmId": "795502",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95166",
           "mtgjsonV4Id": "764e86d5-2162-595b-95de-e2463c0a19a7",
           "multiverseId": "681236",
@@ -2373,7 +2641,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2401,6 +2668,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "81",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -2469,6 +2737,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2557,6 +2826,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -2629,15 +2899,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/558b1ae7ab7b8dc8",
+          "cardmarket": "https://mtgjson.com/links/f4e5bee6e13f2a5e",
           "tcgplayer": "https://mtgjson.com/links/0ce8ff1a7f67b11f"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bc1560d9-0d7f-51db-8e3b-7290090a185d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2653,8 +2932,8 @@
         ],
         "uuid": "ca9d5ba3-483e-5365-83c1-e49431ab2674",
         "variations": [
-          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854",
-          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa"
+          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa",
+          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854"
         ]
       },
       {
@@ -2680,36 +2959,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681252",
-              "scryfallId": "ed9080ea-1b42-4b1a-9b8a-671d1ea6b613"
-            },
-            "language": "German",
-            "multiverseId": 681252,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "9679fbc5-6474-5732-921b-77cf15c2392f"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681267",
-              "scryfallId": "e5ad40e9-7ea4-48b9-9419-27f3b0a26e7d"
-            },
-            "language": "Spanish",
-            "multiverseId": 681267,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "c2594087-80f9-5aa3-a51e-af8f08355cee"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681282",
               "scryfallId": "bb7b39f7-4942-42e8-8731-4320ab678aab"
             },
             "language": "French",
             "multiverseId": 681282,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "4ec3e238-a483-57e9-83d0-5c7f9bc8fbb3"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "8c657279-7cc3-5a38-9336-844e6b61bb26"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681252",
+              "scryfallId": "ed9080ea-1b42-4b1a-9b8a-671d1ea6b613"
+            },
+            "language": "German",
+            "multiverseId": 681252,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "a364f14d-efe9-524c-8eeb-3e38fb630803"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "9679fbc5-6474-5732-921b-77cf15c2392f"
           },
           {
             "identifiers": {
@@ -2719,6 +2993,9 @@
             "language": "Italian",
             "multiverseId": 681297,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "da36f5d2-8641-5474-975d-36201a535607"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "d3c38c32-019c-502f-bf71-4728e8de3f7e"
           },
@@ -2730,18 +3007,34 @@
             "language": "Japanese",
             "multiverseId": 681312,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "a33e9aae-c63d-5c85-ac19-990aa8bf5cd5"
+            },
             "type": "基本土地 — 平地",
             "uuid": "b3ce13ad-f83f-5954-9b42-e121f2b61ae3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681267",
+              "scryfallId": "e5ad40e9-7ea4-48b9-9419-27f3b0a26e7d"
+            },
+            "language": "Spanish",
+            "multiverseId": 681267,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "605c47f6-cb9e-5b12-ba0f-2c0ceb565988"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "c2594087-80f9-5aa3-a51e-af8f08355cee"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305216",
           "cardsphereId": "131372",
           "deckboxId": "98076",
           "mcmId": "795503",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95167",
           "mtgjsonV4Id": "a37b239a-d72e-5449-8712-f1b851a927b3",
           "multiverseId": "681237",
@@ -2754,7 +3047,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2782,6 +3074,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "82",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -2850,6 +3143,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2938,6 +3232,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -3010,15 +3305,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b6b74ddfa6d0586b",
+          "cardmarket": "https://mtgjson.com/links/b365b90c9e736ac9",
           "tcgplayer": "https://mtgjson.com/links/225a7f7b6285b8f0"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1db1c4bc-b10a-5372-84aa-4c6dd18ce629"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3034,8 +3338,8 @@
         ],
         "uuid": "e1476e4a-4ec6-54d1-a0b2-76e0936fc854",
         "variations": [
-          "ca9d5ba3-483e-5365-83c1-e49431ab2674",
-          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa"
+          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa",
+          "ca9d5ba3-483e-5365-83c1-e49431ab2674"
         ]
       },
       {
@@ -3061,36 +3365,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681253",
-              "scryfallId": "f0cb8e25-f437-4de9-b903-4f007eae3157"
-            },
-            "language": "German",
-            "multiverseId": 681253,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "218329d2-67b7-59b1-b5d6-292f514d2916"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681268",
-              "scryfallId": "dec08335-6b08-46c5-83f5-9ae1247b6cd9"
-            },
-            "language": "Spanish",
-            "multiverseId": 681268,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "f9a3fdb4-22ad-5c9e-beff-9c580ee48552"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681283",
               "scryfallId": "738a3321-81f4-4de1-9b9a-bb8281b341ab"
             },
             "language": "French",
             "multiverseId": 681283,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "c9085a9a-e3e2-5e72-9038-70fc4321cd72"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "4b643cbc-6d89-57d5-8933-2902789d00cc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681253",
+              "scryfallId": "f0cb8e25-f437-4de9-b903-4f007eae3157"
+            },
+            "language": "German",
+            "multiverseId": 681253,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "17989a19-b8af-5bbd-8f19-33df6d6465bc"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "218329d2-67b7-59b1-b5d6-292f514d2916"
           },
           {
             "identifiers": {
@@ -3100,6 +3399,9 @@
             "language": "Italian",
             "multiverseId": 681298,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "ae5907d4-deac-5853-bde2-592a76d2c23d"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "e48f506d-f331-5498-a532-b2974c97d570"
           },
@@ -3111,18 +3413,34 @@
             "language": "Japanese",
             "multiverseId": 681313,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "01639160-0883-593e-8e77-cd09b5ff060e"
+            },
             "type": "基本土地 — 平地",
             "uuid": "7ae8ceba-b735-5bff-93fb-00570217b93a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681268",
+              "scryfallId": "dec08335-6b08-46c5-83f5-9ae1247b6cd9"
+            },
+            "language": "Spanish",
+            "multiverseId": 681268,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "9013722e-a85a-5280-8cfd-12b2e56e9701"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "f9a3fdb4-22ad-5c9e-beff-9c580ee48552"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305217",
           "cardsphereId": "131373",
           "deckboxId": "98077",
           "mcmId": "795504",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95168",
           "mtgjsonV4Id": "b5b69680-31af-56de-847a-2f3eaf8f78d9",
           "multiverseId": "681238",
@@ -3135,7 +3453,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3163,6 +3480,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "83",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -3231,6 +3549,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3319,6 +3638,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -3391,15 +3711,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6401ee86c7c6c80d",
+          "cardmarket": "https://mtgjson.com/links/934778c3295b3d7d",
           "tcgplayer": "https://mtgjson.com/links/af2785d2abe185bd"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "be914aed-834a-543d-a085-1ba611c93305"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3431,5 +3760,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "3317239767914a"
   }
 }

@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "15674a5346dfd9"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,36 +23,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 7306,
+        "edhrecRank": 6390,
         "edhrecSaltiness": 0.35,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680976",
-              "scryfallId": "c4a7c29c-b379-4038-b26d-a9322628dc21"
-            },
-            "language": "German",
-            "multiverseId": 680976,
-            "name": "Gornog, der rote Schnitter",
-            "text": "Eile\nFeiglinge können keine Krieger blocken.\nImmer wenn ein oder mehrere Krieger, die du kontrollierst, einen Spieler angreifen, wird eine Kreatur deiner Wahl, die der Spieler kontrolliert, zu einem Feigling.\nAngreifende Krieger, die du kontrollierst, erhalten +X/+0, wobei X gleich der Anzahl an Feiglingen ist, die deine Gegner kontrollieren.",
-            "type": "Legendäre Kreatur — Minotaurus, Krieger",
-            "uuid": "89dbbefc-d41f-5018-8fd7-019112f12f2b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681003",
-              "scryfallId": "1140a302-b7cd-4455-85eb-54bce2253a8e"
-            },
-            "language": "Spanish",
-            "multiverseId": 681003,
-            "name": "Gornog, el Segador Rojo",
-            "text": "Prisa.\nLos Cobardes no pueden bloquear Guerreros.\nSiempre que uno o más Guerreros que controlas ataquen a un jugador, la criatura objetivo que controla ese jugador se convierte en un Cobarde.\nLos Guerreros atacantes que controlas obtienen +X/+0, donde X es la cantidad de Cobardes que controlan tus oponentes.",
-            "type": "Criatura legendaria — Guerrero minotauro",
-            "uuid": "187968cf-3110-56a2-8e10-ad201a6a2de0"
-          },
           {
             "identifiers": {
               "multiverseId": "681030",
@@ -66,9 +37,27 @@
             "language": "French",
             "multiverseId": 681030,
             "name": "Gornog, le faucheur écarlate",
+            "skuIds": {
+              "nonfoil": "21252a34-b2a2-5b0e-93df-8d8a29e935b7"
+            },
             "text": "Célérité\nLes couards ne peuvent pas bloquer les guerriers.\nÀ chaque fois qu'au moins un guerrier que vous contrôlez attaque un joueur, une créature ciblée que ce joueur contrôle devient un couard.\nLes guerriers attaquants que vous contrôlez gagnent +X/+0, X étant le nombre de couards que vos adversaires contrôlent.",
             "type": "Créature légendaire — minotaure et guerrier",
             "uuid": "ea1fa1ee-2f0b-5d84-9c25-63f0aeeec2dc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680976",
+              "scryfallId": "c4a7c29c-b379-4038-b26d-a9322628dc21"
+            },
+            "language": "German",
+            "multiverseId": 680976,
+            "name": "Gornog, der rote Schnitter",
+            "skuIds": {
+              "nonfoil": "485a7511-0cc8-512f-ab97-78b9799ff1aa"
+            },
+            "text": "Eile\nFeiglinge können keine Krieger blocken.\nImmer wenn ein oder mehrere Krieger, die du kontrollierst, einen Spieler angreifen, wird eine Kreatur deiner Wahl, die der Spieler kontrolliert, zu einem Feigling.\nAngreifende Krieger, die du kontrollierst, erhalten +X/+0, wobei X gleich der Anzahl an Feiglingen ist, die deine Gegner kontrollieren.",
+            "type": "Legendäre Kreatur — Minotaurus, Krieger",
+            "uuid": "89dbbefc-d41f-5018-8fd7-019112f12f2b"
           },
           {
             "identifiers": {
@@ -78,6 +67,9 @@
             "language": "Italian",
             "multiverseId": 681057,
             "name": "Gornog, il Mietitore Rosso",
+            "skuIds": {
+              "nonfoil": "b2c40349-1081-54b2-aa3e-996e754d902e"
+            },
             "text": "Rapidità\nI Vigliacchi non possono bloccare i Guerrieri.\nOgniqualvolta uno o più Guerrieri che controlli attaccano un giocatore, una creatura bersaglio controllata da quel giocatore diventa un Vigliacco.\nI Guerrieri attaccanti che controlli prendono +X/ +0, dove X è il numero di Vigliacchi controllati dai tuoi avversari.",
             "type": "Creatura Leggendaria — Guerriero Minotauro",
             "uuid": "0fdecef5-6b7a-5369-9b91-1b87e39f0c82"
@@ -90,17 +82,33 @@
             "language": "Japanese",
             "multiverseId": 681084,
             "name": "赤き死神、ゴルノグ",
+            "skuIds": {
+              "nonfoil": "d0086c43-7a4b-5126-a81f-af31e0134d32"
+            },
             "text": "速攻\n臆病者では戦士をブロックできない。\nあなたがコントロールしている１体以上の戦士がプレイヤー１人を攻撃するたび、そのプレイヤーがコントロールしているクリーチャー１体を対象とする。それは臆病者になる。\nあなたがコントロールしていて攻撃しているすべての戦士は＋Ｘ/＋０の修整を受ける。Ｘは、対戦相手がコントロールしている臆病者の数に等しい。",
             "type": "伝説のクリーチャー — ミノタウルス・戦士",
             "uuid": "aadcbb01-bcbb-5f5b-ab79-e2cc9991f71d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681003",
+              "scryfallId": "1140a302-b7cd-4455-85eb-54bce2253a8e"
+            },
+            "language": "Spanish",
+            "multiverseId": 681003,
+            "name": "Gornog, el Segador Rojo",
+            "skuIds": {
+              "nonfoil": "370a6d0a-b95f-5337-997e-5f905a6655c6"
+            },
+            "text": "Prisa.\nLos Cobardes no pueden bloquear Guerreros.\nSiempre que uno o más Guerreros que controlas ataquen a un jugador, la criatura objetivo que controla ese jugador se convierte en un Cobarde.\nLos Guerreros atacantes que controlas obtienen +X/+0, donde X es la cantidad de Cobardes que controlan tus oponentes.",
+            "type": "Criatura legendaria — Guerrero minotauro",
+            "uuid": "187968cf-3110-56a2-8e10-ad201a6a2de0"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305183",
           "cardsphereId": "130822",
@@ -119,7 +127,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Haste"
         ],
@@ -146,6 +153,7 @@
         "name": "Gornog, the Red Reaper",
         "number": "49",
         "originalText": "Haste\nCowards can't block Warriors.\nWhenever one or more Warriors you control attack a player, target creature that player controls becomes a Coward.\nAttacking Warriors you control get +X/+0, where X is the number of Cowards your opponents control.",
+        "originalType": "Legendary Creature – Minotaur Warrior",
         "power": "2",
         "printings": [
           "J25"
@@ -176,9 +184,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ca5f7d86-52a9-595f-abdb-f5660de8820f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -214,36 +227,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11437,
+        "edhrecRank": 11224,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684381",
-              "scryfallId": "ffb94165-124d-4820-855b-cbea6e25248c"
-            },
-            "language": "German",
-            "multiverseId": 684381,
-            "name": "Kargan-Einschüchterer",
-            "text": "Feiglinge können keine Krieger blocken.\n{1}: Bestimme eines, das in diesem Zug noch nicht bestimmt wurde —\n• Der Kargan-Einschüchterer erhält +1/+1 bis zum Ende des Zuges.\n• Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Feigling.\n• Ein Krieger deiner Wahl verursacht Trampelschaden bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "19b653e1-57f1-5679-ae0f-78773a022029"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684488",
-              "scryfallId": "451b5a9e-cbb5-4d3e-8d2a-d10abb870a47"
-            },
-            "language": "Spanish",
-            "multiverseId": 684488,
-            "name": "Amedrentador kargano",
-            "text": "Los Cobardes no pueden bloquear Guerreros.\n{1}: Elige uno que no haya sido elegido este turno:\n• El Amedrentador kargano obtiene +1/+1 hasta el final del turno.\n• La criatura objetivo se convierte en un Cobarde hasta el final del turno.\n• El Guerrero objetivo gana la habilidad de arrollar hasta el final del turno.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "faa258fc-68af-58b7-b359-a163749debe4"
-          },
           {
             "identifiers": {
               "multiverseId": "684595",
@@ -252,9 +241,27 @@
             "language": "French",
             "multiverseId": 684595,
             "name": "Intimidateur kargan",
+            "skuIds": {
+              "nonfoil": "64c45c54-04f4-5baa-ad5c-7106df095940"
+            },
             "text": "Les couards ne peuvent pas bloquer les guerriers.\n{1} : Choisissez l'un qui n'a pas été choisi ce tour-ci —\n• L'Intimidateur kargan gagne +1/+1 jusqu'à la fin du tour.\n• Une créature ciblée devient un couard jusqu'à la fin du tour.\n• Un guerrier ciblé acquiert le piétinement jusqu'à la fin du tour.",
             "type": "Créature — humain et guerrier",
             "uuid": "d539bea6-14d9-5bdb-9a59-a7d83ad3ba5a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684381",
+              "scryfallId": "ffb94165-124d-4820-855b-cbea6e25248c"
+            },
+            "language": "German",
+            "multiverseId": 684381,
+            "name": "Kargan-Einschüchterer",
+            "skuIds": {
+              "nonfoil": "019c77f2-cb46-57ea-8762-84b5ecfb00b9"
+            },
+            "text": "Feiglinge können keine Krieger blocken.\n{1}: Bestimme eines, das in diesem Zug noch nicht bestimmt wurde —\n• Der Kargan-Einschüchterer erhält +1/+1 bis zum Ende des Zuges.\n• Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Feigling.\n• Ein Krieger deiner Wahl verursacht Trampelschaden bis zum Ende des Zuges.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "19b653e1-57f1-5679-ae0f-78773a022029"
           },
           {
             "identifiers": {
@@ -264,6 +271,9 @@
             "language": "Italian",
             "multiverseId": 684702,
             "name": "Intimidatore di Karga",
+            "skuIds": {
+              "nonfoil": "a3d6e769-7f2f-5e3e-bca4-6b5662da7e49"
+            },
             "text": "I Vigliacchi non possono bloccare i Guerrieri.\n{1}: Scegli uno che non è stato scelto in questo turno —\n• L'Intimidatore di Karga prende +1/+1 fino alla fine del turno.\n• Una creatura bersaglio diventa un Vigliacco fino alla fine del turno.\n• Un Guerriero bersaglio ha travolgere fino alla fine del turno.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "843bf0fb-83d4-51eb-b243-f239892cffcf"
@@ -276,14 +286,30 @@
             "language": "Japanese",
             "multiverseId": 684809,
             "name": "カルガの威嚇者",
+            "skuIds": {
+              "nonfoil": "d272d56f-2c7c-586f-ae8d-50361d24855c"
+            },
             "text": "臆病者では戦士をブロックできない。\n{1}：以下からこのターンにまだ選ばれていないもの１つを選ぶ。\n・ターン終了時まで、カルガの威嚇者は＋１/＋１の修整を受ける。\n・クリーチャー１体を対象とする。ターン終了時まで、それは臆病者になる。\n・戦士１体を対象とする。ターン終了時まで、それはトランプルを得る。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "5e8920c6-377a-5790-a45c-7dd1bd25b5d0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684488",
+              "scryfallId": "451b5a9e-cbb5-4d3e-8d2a-d10abb870a47"
+            },
+            "language": "Spanish",
+            "multiverseId": 684488,
+            "name": "Amedrentador kargano",
+            "skuIds": {
+              "nonfoil": "09206abd-0d1f-5259-a0f3-d6a58ef7b925"
+            },
+            "text": "Los Cobardes no pueden bloquear Guerreros.\n{1}: Elige uno que no haya sido elegido este turno:\n• El Amedrentador kargano obtiene +1/+1 hasta el final del turno.\n• La criatura objetivo se convierte en un Cobarde hasta el final del turno.\n• El Guerrero objetivo gana la habilidad de arrollar hasta el final del turno.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "faa258fc-68af-58b7-b359-a163749debe4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305908",
           "cardsphereId": "131036",
@@ -321,6 +347,7 @@
         "name": "Kargan Intimidator",
         "number": "569",
         "originalText": "Cowards can't block Warriors.\n{1}: Choose one that hasn't been chosen this turn —\n• Kargan Intimidator gets +1/+1 until end of turn.\n• Target creature becomes a Coward until end of turn.\n• Target Warrior gains trample until end of turn.",
+        "originalType": "Creature – Human Warrior",
         "power": "3",
         "printings": [
           "J25",
@@ -346,9 +373,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6dba5621-d780-5eb4-8f3f-7675f6c92de8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -380,36 +412,12 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 11176,
+        "edhrecRank": 11456,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681620",
-              "scryfallId": "f071016b-e26e-4f92-be9c-63ce03f5d59c"
-            },
-            "language": "German",
-            "multiverseId": 681620,
-            "name": "Ghitulager",
-            "text": "Das Ghitulager kommt getappt ins Spiel.\n{T}: Erzeuge {R}.\n{1}{R}: Das Ghitulager wird bis zum Ende des Zuges zu einer 2/1 roten Krieger-Kreatur mit Erstschlag. Es ist immer noch ein Land. (Es fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
-            "type": "Land",
-            "uuid": "5ab3596a-4093-5057-91de-99fc96c2dee4"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681681",
-              "scryfallId": "6cb0eb7b-3406-40ba-a534-51343f5602cc"
-            },
-            "language": "Spanish",
-            "multiverseId": 681681,
-            "name": "Campamento ghitu",
-            "text": "El Campamento ghitu entra girado.\n{T}: Agrega {R}.\n{1}{R}: El Campamento ghitu se convierte en una criatura Guerrero roja 2/1 con la habilidad de dañar primero hasta el final del turno. Sigue siendo una tierra. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
-            "type": "Tierra",
-            "uuid": "a35f34a0-1e40-5f28-927b-c5dbb486508e"
-          },
           {
             "identifiers": {
               "multiverseId": "681742",
@@ -418,9 +426,27 @@
             "language": "French",
             "multiverseId": 681742,
             "name": "Campement guitûk",
+            "skuIds": {
+              "nonfoil": "ffbea03e-f713-5912-88f8-f3e018bc84f7"
+            },
             "text": "Le Campement guitûk arrive engagé.\n{T} : Ajoutez {R}.\n{1}{R} : Le Campement guitûk devient une créature 2/1 rouge Guerrier avec l'initiative jusqu'à la fin du tour. C'est toujours un terrain. (Il inflige des blessures de combat avant les créatures sans l'initiative.)",
             "type": "Terrain",
             "uuid": "71a63373-871d-51b3-b37d-cb85dde977cf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681620",
+              "scryfallId": "f071016b-e26e-4f92-be9c-63ce03f5d59c"
+            },
+            "language": "German",
+            "multiverseId": 681620,
+            "name": "Ghitulager",
+            "skuIds": {
+              "nonfoil": "fef3cf03-8449-5de7-b10b-5a69396c33ad"
+            },
+            "text": "Das Ghitulager kommt getappt ins Spiel.\n{T}: Erzeuge {R}.\n{1}{R}: Das Ghitulager wird bis zum Ende des Zuges zu einer 2/1 roten Krieger-Kreatur mit Erstschlag. Es ist immer noch ein Land. (Es fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+            "type": "Land",
+            "uuid": "5ab3596a-4093-5057-91de-99fc96c2dee4"
           },
           {
             "identifiers": {
@@ -430,6 +456,9 @@
             "language": "Italian",
             "multiverseId": 681803,
             "name": "Accampamento Ghitu",
+            "skuIds": {
+              "nonfoil": "38bd8810-86e6-5714-9565-80444cf0bdae"
+            },
             "text": "L'Accampamento Ghitu entra TAPpato.\n{T}: Aggiungi {R}.\n{1}{R}: L'Accampamento Ghitu diventa una creatura Guerriero 2/1 rossa con attacco improvviso fino alla fine del turno. È ancora una terra. (Infligge danno da combattimento prima delle creature senza attacco improvviso.)",
             "type": "Terra",
             "uuid": "59dcfbc8-aaca-5ff8-a154-e0ce3967c79e"
@@ -442,14 +471,30 @@
             "language": "Japanese",
             "multiverseId": 681864,
             "name": "ギトゥの宿営地",
+            "skuIds": {
+              "nonfoil": "2343956b-956b-5c05-b3d5-ab2ca8b30d84"
+            },
             "text": "ギトゥの宿営地はタップ状態で戦場に出る。\n{T}：{R}を加える。\n{1}{R}：ターン終了時まで、ギトゥの宿営地は先制攻撃を持つ赤の２/１の戦士・クリーチャーになる。これは土地でもある。（これは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
             "type": "土地",
             "uuid": "ee0a9873-7774-50fc-b077-7a681b6caa45"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681681",
+              "scryfallId": "6cb0eb7b-3406-40ba-a534-51343f5602cc"
+            },
+            "language": "Spanish",
+            "multiverseId": 681681,
+            "name": "Campamento ghitu",
+            "skuIds": {
+              "nonfoil": "b565e4e2-8086-5818-b434-0e98e5bee3d7"
+            },
+            "text": "El Campamento ghitu entra girado.\n{T}: Agrega {R}.\n{1}{R}: El Campamento ghitu se convierte en una criatura Guerrero roja 2/1 con la habilidad de dañar primero hasta el final del turno. Sigue siendo una tierra. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
+            "type": "Tierra",
+            "uuid": "a35f34a0-1e40-5f28-927b-c5dbb486508e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305289",
           "cardsphereId": "131063",
@@ -468,7 +513,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -490,6 +534,7 @@
         "name": "Ghitu Encampment",
         "number": "155",
         "originalText": "Ghitu Encampment enters tapped.\n{T}: Add {R}.\n{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
+        "originalType": "Land",
         "printings": [
           "10E",
           "DDN",
@@ -497,6 +542,9 @@
           "PD2",
           "ULG",
           "WC99"
+        ],
+        "producedMana": [
+          "R"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/e11675371a92d3b3",
@@ -515,9 +563,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6c2bd41b-c981-571a-b668-6a6d0cb1feb3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -547,39 +600,13 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 13756,
+        "edhrecRank": 13673,
         "edhrecSaltiness": 0.31,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Now everyone knows what you are.\"",
         "foreignData": [
-          {
-            "flavorText": "„Jetzt weiß jeder, was du bist.\"",
-            "identifiers": {
-              "multiverseId": "684339",
-              "scryfallId": "efb75a21-41c9-4361-8f11-6f7e9b3a2f78"
-            },
-            "language": "German",
-            "multiverseId": 684339,
-            "name": "Boldwyr-Einschüchterer",
-            "text": "Feiglinge können keine Krieger blocken.\n{R}: Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Feigling.\n{2}{R}: Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Krieger.",
-            "type": "Kreatur — Riese, Krieger",
-            "uuid": "69035a48-27d1-52db-83b6-27dbfc25b1e2"
-          },
-          {
-            "flavorText": "\"Ahora todos saben qué eres en realidad\".",
-            "identifiers": {
-              "multiverseId": "684446",
-              "scryfallId": "e152abbb-67ec-4945-8020-7d4171dcded9"
-            },
-            "language": "Spanish",
-            "multiverseId": 684446,
-            "name": "Amedrentador de Boldwyr",
-            "text": "Los Cobardes no pueden bloquear Guerreros.\n{R}: La criatura objetivo se convierte en un Cobarde hasta el final del turno.\n{2}{R}: La criatura objetivo se convierte en un Guerrero hasta el final del turno.",
-            "type": "Criatura — Guerrero gigante",
-            "uuid": "c57758b9-3f05-51db-9734-141202f28356"
-          },
           {
             "flavorText": "« Maintenant, tout le monde sait ce que tu es. »",
             "identifiers": {
@@ -589,9 +616,28 @@
             "language": "French",
             "multiverseId": 684553,
             "name": "Intimidateur boldwyrien",
+            "skuIds": {
+              "nonfoil": "00263177-c1f4-5713-b51f-dfe2ec73b6d2"
+            },
             "text": "Les couards ne peuvent pas bloquer les guerriers.\n{R} : Une créature ciblée devient un couard jusqu'à la fin du tour.\n{2}{R} : Une créature ciblée devient un guerrier jusqu'à la fin du tour.",
             "type": "Créature — géant et guerrier",
             "uuid": "6c887e28-0a12-596a-97fc-af10d514bbe4"
+          },
+          {
+            "flavorText": "„Jetzt weiß jeder, was du bist.\"",
+            "identifiers": {
+              "multiverseId": "684339",
+              "scryfallId": "efb75a21-41c9-4361-8f11-6f7e9b3a2f78"
+            },
+            "language": "German",
+            "multiverseId": 684339,
+            "name": "Boldwyr-Einschüchterer",
+            "skuIds": {
+              "nonfoil": "3333d5d0-062f-5e34-a7b5-9025585ca7ad"
+            },
+            "text": "Feiglinge können keine Krieger blocken.\n{R}: Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Feigling.\n{2}{R}: Eine Kreatur deiner Wahl wird bis zum Ende des Zuges zu einem Krieger.",
+            "type": "Kreatur — Riese, Krieger",
+            "uuid": "69035a48-27d1-52db-83b6-27dbfc25b1e2"
           },
           {
             "flavorText": "\"Adesso tutti hanno capito cosa sei.\"",
@@ -602,6 +648,9 @@
             "language": "Italian",
             "multiverseId": 684660,
             "name": "Intimidatore di Boldwyr",
+            "skuIds": {
+              "nonfoil": "4f46ca17-3c74-5bae-812b-aa55c5b2ab4c"
+            },
             "text": "I Vigliacchi non possono bloccare i Guerrieri.\n{R}: Una creatura bersaglio diventa un Vigliacco fino alla fine del turno.\n{2}{R}: Una creatura bersaglio diventa un Guerriero fino alla fine del turno.",
             "type": "Creatura — Guerriero Gigante",
             "uuid": "61dab9b7-5d0d-5e29-8f63-c5d10a1b9709"
@@ -615,14 +664,31 @@
             "language": "Japanese",
             "multiverseId": 684767,
             "name": "ボールドウィアの威嚇者",
+            "skuIds": {
+              "nonfoil": "66532097-e370-56ae-84d9-828049dcf1c5"
+            },
             "text": "臆病者では戦士をブロックできない。\n{R}：クリーチャー１体を対象とする。ターン終了時まで、それは臆病者になる。\n{2}{R}：クリーチャー１体を対象とする。ターン終了時まで、それは戦士になる。",
             "type": "クリーチャー — 巨人・戦士",
             "uuid": "29f51b72-153a-5f0f-b09d-c39f9849b655"
+          },
+          {
+            "flavorText": "\"Ahora todos saben qué eres en realidad\".",
+            "identifiers": {
+              "multiverseId": "684446",
+              "scryfallId": "e152abbb-67ec-4945-8020-7d4171dcded9"
+            },
+            "language": "Spanish",
+            "multiverseId": 684446,
+            "name": "Amedrentador de Boldwyr",
+            "skuIds": {
+              "nonfoil": "c05a6e4f-4d11-5e43-ac78-9bd3e6f54a09"
+            },
+            "text": "Los Cobardes no pueden bloquear Guerreros.\n{R}: La criatura objetivo se convierte en un Cobarde hasta el final del turno.\n{2}{R}: La criatura objetivo se convierte en un Guerrero hasta el final del turno.",
+            "type": "Criatura — Guerrero gigante",
+            "uuid": "c57758b9-3f05-51db-9734-141202f28356"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305866",
           "cardsphereId": "131123",
@@ -661,6 +727,7 @@
         "name": "Boldwyr Intimidator",
         "number": "527",
         "originalText": "Cowards can't block Warriors.\n{R}: Target creature becomes a Coward until end of turn.\n{2}{R}: Target creature becomes a Warrior until end of turn.",
+        "originalType": "Creature – Giant Warrior",
         "power": "5",
         "printings": [
           "BBD",
@@ -688,9 +755,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "61bfbd8c-1450-525f-9f0c-e957f291209b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -724,38 +796,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 25017,
+        "edhrecRank": 25593,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "After weeks of unending darkness, a glimpse of dawn was all the people of Stensia needed to rekindle their will to fight.",
         "foreignData": [
-          {
-            "flavorText": "Nach Wochen nicht enden wollender Dunkelheit war ein Blick auf die Morgendämmerung alles, was die Menschen in Stenzen brauchten, um ihren Kampfeswillen neu zu entfachen.",
-            "identifiers": {
-              "multiverseId": "684347",
-              "scryfallId": "f02097b7-0cdd-4739-b930-1934d297f315"
-            },
-            "language": "German",
-            "multiverseId": 684347,
-            "name": "Morgengrauen-Kämpfer",
-            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nWenn die Morgengrauen-Kämpfer ins Spiel kommen, erhält eine Kreatur deiner Wahl +2/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "5d46d8f5-6b74-5d6f-88a7-7a07a61c3bf0"
-          },
-          {
-            "flavorText": "Tras semanas de total oscuridad, un rayo del amanecer fue todo cuanto necesitó la gente de Stensia para avivar su voluntad de luchar.",
-            "identifiers": {
-              "multiverseId": "684454",
-              "scryfallId": "a87fdc99-3106-4ba5-8e9f-5614abd88ff6"
-            },
-            "language": "Spanish",
-            "multiverseId": 684454,
-            "name": "Combatientes del alba",
-            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCuando los Combatientes del alba entren, la criatura objetivo obtiene +2/+0 hasta el final del turno.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "d1559cfe-d4cc-523e-9c25-df08178bbd6a"
-          },
           {
             "flavorText": "Après des semaines de nuit perpétuelle, l'espoir de voir l'aube était tout ce qu'il fallait au peuple de la Stensie pour retrouver le courage de se battre.",
             "identifiers": {
@@ -765,9 +812,28 @@
             "language": "French",
             "multiverseId": 684561,
             "name": "Combattants de l'aube",
+            "skuIds": {
+              "nonfoil": "225ed83a-a0ae-5332-962d-2f2d935569dc"
+            },
             "text": "Célérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)\nQuand les Combattants de l'aube arrivent, une créature ciblée gagne +2/+0 jusqu'à la fin du tour.",
             "type": "Créature — humain et guerrier",
             "uuid": "c9bf8245-4548-5b81-9e5a-aea3ff58459d"
+          },
+          {
+            "flavorText": "Nach Wochen nicht enden wollender Dunkelheit war ein Blick auf die Morgendämmerung alles, was die Menschen in Stenzen brauchten, um ihren Kampfeswillen neu zu entfachen.",
+            "identifiers": {
+              "multiverseId": "684347",
+              "scryfallId": "f02097b7-0cdd-4739-b930-1934d297f315"
+            },
+            "language": "German",
+            "multiverseId": 684347,
+            "name": "Morgengrauen-Kämpfer",
+            "skuIds": {
+              "nonfoil": "a4158e8c-9b62-579e-b80e-fabce8d97a46"
+            },
+            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nWenn die Morgengrauen-Kämpfer ins Spiel kommen, erhält eine Kreatur deiner Wahl +2/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "5d46d8f5-6b74-5d6f-88a7-7a07a61c3bf0"
           },
           {
             "flavorText": "Dopo settimane di interminabile oscurità, un barlume di alba era tutto ciò di cui il popolo di Stensia aveva bisogno per rinvigorire il suo spirito combattivo.",
@@ -778,6 +844,9 @@
             "language": "Italian",
             "multiverseId": 684668,
             "name": "Combattenti dell'Aurora",
+            "skuIds": {
+              "nonfoil": "0b74cacd-71d4-565b-9fef-73752ab6eb4d"
+            },
             "text": "Rapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)\nQuando i Combattenti dell'Aurora entrano, una creatura bersaglio prende +2/+0 fino alla fine del turno.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "4f69472e-10a2-5caf-934e-4e098044b5c9"
@@ -791,14 +860,31 @@
             "language": "Japanese",
             "multiverseId": 684775,
             "name": "夜明けの戦闘員",
+            "skuIds": {
+              "nonfoil": "7709af3d-6e64-588a-96b2-9cedcfb86836"
+            },
             "text": "速攻（このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）\n夜明けの戦闘員が戦場に出たとき、クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋０の修整を受ける。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "673d5647-1478-5a62-a26f-0a1d52d6f5f1"
+          },
+          {
+            "flavorText": "Tras semanas de total oscuridad, un rayo del amanecer fue todo cuanto necesitó la gente de Stensia para avivar su voluntad de luchar.",
+            "identifiers": {
+              "multiverseId": "684454",
+              "scryfallId": "a87fdc99-3106-4ba5-8e9f-5614abd88ff6"
+            },
+            "language": "Spanish",
+            "multiverseId": 684454,
+            "name": "Combatientes del alba",
+            "skuIds": {
+              "nonfoil": "e3a5e7a4-9bf0-5bf7-af18-aaa9251f5689"
+            },
+            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCuando los Combatientes del alba entren, la criatura objetivo obtiene +2/+0 hasta el final del turno.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "d1559cfe-d4cc-523e-9c25-df08178bbd6a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305874",
           "cardsphereId": "131115",
@@ -842,6 +928,7 @@
         "name": "Daybreak Combatants",
         "number": "535",
         "originalText": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen Daybreak Combatants enters, target creature gets +2/+0 until end of turn.",
+        "originalType": "Creature – Human Warrior",
         "power": "2",
         "printings": [
           "DBL",
@@ -855,9 +942,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "80cab5e2-a448-5918-8a91-c2029392d893"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -891,39 +983,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 15674,
+        "edhrecRank": 15678,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Her weapon's impressive, sure. But you should see her wield it.\"\n—Gred, expedition warrior",
         "foreignData": [
-          {
-            "flavorText": "„Ihre Waffe ist beeindruckend, das stimmt. Aber du solltest sehen, wie sie sie führt.\"\n—Gred, Krieger der Expedition",
-            "identifiers": {
-              "multiverseId": "684373",
-              "scryfallId": "44c54965-db6c-4960-821c-737974696c13"
-            },
-            "language": "German",
-            "multiverseId": 684373,
-            "name": "Vorhut aus Goma Fada",
-            "text": "Immer wenn die Vorhut aus Goma Fada angreift, kann eine Kreatur deiner Wahl, die ein Gegner kontrolliert, und deren Stärke kleiner oder gleich der Anzahl an Kriegern ist, die du kontrollierst, in diesem Zug nicht blocken.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "edf77c39-4771-5cda-98e9-1aeac9d6fae5"
-          },
-          {
-            "flavorText": "\"Su arma impresiona, sí. Pero tienes que verla blandiéndola\".\n—Gred, guerrero de expedición",
-            "identifiers": {
-              "multiverseId": "684480",
-              "scryfallId": "51a507e6-9c34-41c0-9d8b-2a3501b34793"
-            },
-            "language": "Spanish",
-            "multiverseId": 684480,
-            "name": "Vanguardia de Goma Fada",
-            "text": "Siempre que la Vanguardia de Goma Fada ataque, la criatura objetivo que controla un oponente con fuerza menor o igual que la cantidad de Guerreros que controlas no puede bloquear este turno.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "e527d157-0694-5c11-833c-7fa999802553"
-          },
           {
             "flavorText": "« Son arme est impressionnante, c'est vrai. Mais attendez de la voir la manier. »\n—Gred, guerrier d'expédition",
             "identifiers": {
@@ -933,9 +999,28 @@
             "language": "French",
             "multiverseId": 684587,
             "name": "Avant-garde de Goma Fada",
+            "skuIds": {
+              "nonfoil": "8501a6ac-2821-597a-965f-fd5a6dcd1a08"
+            },
             "text": "À chaque fois que l'Avant-garde de Goma Fada attaque, une créature ciblée qu'un adversaire contrôle de force inférieure ou égale au nombre de guerriers que vous contrôlez ne peut pas bloquer ce tour-ci.",
             "type": "Créature — humain et guerrier",
             "uuid": "5817dddd-13ec-5245-b979-cd5103b67c54"
+          },
+          {
+            "flavorText": "„Ihre Waffe ist beeindruckend, das stimmt. Aber du solltest sehen, wie sie sie führt.\"\n—Gred, Krieger der Expedition",
+            "identifiers": {
+              "multiverseId": "684373",
+              "scryfallId": "44c54965-db6c-4960-821c-737974696c13"
+            },
+            "language": "German",
+            "multiverseId": 684373,
+            "name": "Vorhut aus Goma Fada",
+            "skuIds": {
+              "nonfoil": "ebc0668c-d261-54fe-8382-a1019d0a8e56"
+            },
+            "text": "Immer wenn die Vorhut aus Goma Fada angreift, kann eine Kreatur deiner Wahl, die ein Gegner kontrolliert, und deren Stärke kleiner oder gleich der Anzahl an Kriegern ist, die du kontrollierst, in diesem Zug nicht blocken.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "edf77c39-4771-5cda-98e9-1aeac9d6fae5"
           },
           {
             "flavorText": "\"La sua arma è impressionante, certo. Ma dovresti vedere come la maneggia.\"\n—Gred, guerriero della spedizione",
@@ -946,6 +1031,9 @@
             "language": "Italian",
             "multiverseId": 684694,
             "name": "Avanguardia di Goma Fada",
+            "skuIds": {
+              "nonfoil": "b41b9dbc-2910-59e9-84f3-44e8e7753fdb"
+            },
             "text": "Ogniqualvolta l'Avanguardia di Goma Fada attacca, una creatura bersaglio controllata da un avversario con forza pari o inferiore al numero di Guerrieri che controlli non può bloccare in questo turno.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "bc24ba63-2ab0-5d4f-a973-fa8bd64333d3"
@@ -959,14 +1047,31 @@
             "language": "Japanese",
             "multiverseId": 684801,
             "name": "ゴーマ・ファーダの先兵",
+            "skuIds": {
+              "nonfoil": "6aedde44-09c8-5d1e-9e14-4fec2348fbbd"
+            },
             "text": "ゴーマ・ファーダの先兵が攻撃するたび、対戦相手がコントロールしていて、あなたがコントロールしている戦士の数以下のパワーを持つクリーチャー１体を対象とする。このターン、それではブロックできない。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "a50b9f53-abec-5c0d-bed8-08820de1ede7"
+          },
+          {
+            "flavorText": "\"Su arma impresiona, sí. Pero tienes que verla blandiéndola\".\n—Gred, guerrero de expedición",
+            "identifiers": {
+              "multiverseId": "684480",
+              "scryfallId": "51a507e6-9c34-41c0-9d8b-2a3501b34793"
+            },
+            "language": "Spanish",
+            "multiverseId": 684480,
+            "name": "Vanguardia de Goma Fada",
+            "skuIds": {
+              "nonfoil": "fedd4953-3cc4-532f-8557-a1b1fdf6b51f"
+            },
+            "text": "Siempre que la Vanguardia de Goma Fada ataque, la criatura objetivo que controla un oponente con fuerza menor o igual que la cantidad de Guerreros que controlas no puede bloquear este turno.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "e527d157-0694-5c11-833c-7fa999802553"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305900",
           "cardsphereId": "131052",
@@ -1004,6 +1109,7 @@
         "name": "Goma Fada Vanguard",
         "number": "561",
         "originalText": "Whenever Goma Fada Vanguard attacks, target creature an opponent controls with power less than or equal to the number of Warriors you control can't block this turn.",
+        "originalType": "Creature – Human Warrior",
         "power": "2",
         "printings": [
           "J25",
@@ -1026,9 +1132,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "dbc97c1b-b2cc-5de1-884a-6b1d4cc73e50"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1062,39 +1173,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 5554,
+        "edhrecRank": 5556,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"No shirt, no shoes, no service.\"\n—Marketplace sign",
         "foreignData": [
-          {
-            "flavorText": "„Kein Hemd und keine Schuhe: Keine Bedienung.\"\n—Schild am Marktplatz",
-            "identifiers": {
-              "multiverseId": "684377",
-              "scryfallId": "24818384-650a-4c8d-b2ba-9eb937a6b12d"
-            },
-            "language": "German",
-            "multiverseId": 684377,
-            "name": "Erbosen",
-            "text": "Eine Kreatur deiner Wahl erhält +3/+2 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "35b63321-b93a-5158-b276-336e9a798f2f"
-          },
-          {
-            "flavorText": "\"Sin camisa o sin zapatos, no le atendemos\".\n—Cartel del mercado",
-            "identifiers": {
-              "multiverseId": "684484",
-              "scryfallId": "aa8398d9-a8ab-437f-a0be-61e5d447b227"
-            },
-            "language": "Spanish",
-            "multiverseId": 684484,
-            "name": "Enfurecer",
-            "text": "La criatura objetivo obtiene +3/+2 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "397ad33b-3f61-5e63-abe2-48180cf34b33"
-          },
           {
             "flavorText": "« Pas de chemise, pas de chaussures, pas de vente. »\n—Pancarte de la place du marché",
             "identifiers": {
@@ -1104,9 +1189,28 @@
             "language": "French",
             "multiverseId": 684591,
             "name": "Exacerbation",
+            "skuIds": {
+              "nonfoil": "c32c0d42-a1f5-5c83-a426-598d1673923f"
+            },
             "text": "Une créature ciblée gagne +3/+2 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "f4be77c4-d541-5e5c-9fb7-98f35f3f891c"
+          },
+          {
+            "flavorText": "„Kein Hemd und keine Schuhe: Keine Bedienung.\"\n—Schild am Marktplatz",
+            "identifiers": {
+              "multiverseId": "684377",
+              "scryfallId": "24818384-650a-4c8d-b2ba-9eb937a6b12d"
+            },
+            "language": "German",
+            "multiverseId": 684377,
+            "name": "Erbosen",
+            "skuIds": {
+              "nonfoil": "b2970d50-6d90-5f44-b35f-96d08f97d0d4"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +3/+2 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "35b63321-b93a-5158-b276-336e9a798f2f"
           },
           {
             "flavorText": "\"Non si servono clienti a petto nudo o scalzi.\"\n—Cartello del mercato",
@@ -1117,6 +1221,9 @@
             "language": "Italian",
             "multiverseId": 684698,
             "name": "Adirare",
+            "skuIds": {
+              "nonfoil": "17919848-6c5a-50ce-b681-36290cc81e5f"
+            },
             "text": "Una creatura bersaglio prende +3/+2 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "8a796988-9d29-520d-967f-102be99c1cca"
@@ -1130,14 +1237,31 @@
             "language": "Japanese",
             "multiverseId": 684805,
             "name": "立腹",
+            "skuIds": {
+              "nonfoil": "51e3e64a-50ec-5e4f-8ded-5dca5cc936c6"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋３/＋２の修整を受ける。",
             "type": "インスタント",
             "uuid": "91643685-1a3b-5016-a312-c3efba89b0fc"
+          },
+          {
+            "flavorText": "\"Sin camisa o sin zapatos, no le atendemos\".\n—Cartel del mercado",
+            "identifiers": {
+              "multiverseId": "684484",
+              "scryfallId": "aa8398d9-a8ab-437f-a0be-61e5d447b227"
+            },
+            "language": "Spanish",
+            "multiverseId": 684484,
+            "name": "Enfurecer",
+            "skuIds": {
+              "nonfoil": "d48f3630-36e6-5eed-8843-4a4e941c02bd"
+            },
+            "text": "La criatura objetivo obtiene +3/+2 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "397ad33b-3f61-5e63-abe2-48180cf34b33"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305904",
           "cardsphereId": "131042",
@@ -1179,6 +1303,7 @@
         "name": "Infuriate",
         "number": "565",
         "originalText": "Target creature gets +3/+2 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "M20",
@@ -1192,9 +1317,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ddd249d8-efe8-5558-9e5d-57d0a2fbad22"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1224,38 +1354,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 24446,
+        "edhrecRank": 24593,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Keldon raiders' spoils are limited to what their colos can carry. No matter the value, the rest goes up in smoke.",
         "foreignData": [
-          {
-            "flavorText": "Keldonische Plünderer beschränken ihre Beute auf das, was ihre Colos tragen können. Egal wie wertvoll der Rest sein mag, er geht in Flammen auf.",
-            "identifiers": {
-              "multiverseId": "684382",
-              "scryfallId": "13fa9da3-3e74-43ea-a1ce-ba48c6b4a074"
-            },
-            "language": "German",
-            "multiverseId": 684382,
-            "name": "Keldonische Plünderin",
-            "text": "Wenn die Keldonische Plünderin ins Spiel kommt, kannst du eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "40cb70b6-6d4d-5055-b884-d5043ad70f82"
-          },
-          {
-            "flavorText": "Los botines de los incursores keldon se limitan a aquello que pueden transportar sus colos. El resto lo consume el fuego, sea cual sea su valor.",
-            "identifiers": {
-              "multiverseId": "684489",
-              "scryfallId": "4b1e8124-ad6c-42b5-b5c2-a4e497899414"
-            },
-            "language": "Spanish",
-            "multiverseId": 684489,
-            "name": "Incursora keldon",
-            "text": "Cuando la Incursora keldon entre, puedes descartar una carta. Si lo haces, roba una carta.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "c1a2d930-383d-59be-a1fb-ac75f0046f13"
-          },
           {
             "flavorText": "Le butin des pillards keldes se limite à ce que peuvent porter leurs caprinodons. Quelle que soit sa valeur, le reste part en fumée.",
             "identifiers": {
@@ -1265,9 +1370,28 @@
             "language": "French",
             "multiverseId": 684596,
             "name": "Pillarde kelde",
+            "skuIds": {
+              "nonfoil": "e956d375-3937-5f15-b912-94d027cc87d9"
+            },
             "text": "Quand la Pillarde kelde arrive, vous pouvez vous défausser d'une carte. Si vous faites ainsi, piochez une carte.",
             "type": "Créature — humain et guerrier",
             "uuid": "15aee3d8-1e73-530b-ac35-4655184f7c9e"
+          },
+          {
+            "flavorText": "Keldonische Plünderer beschränken ihre Beute auf das, was ihre Colos tragen können. Egal wie wertvoll der Rest sein mag, er geht in Flammen auf.",
+            "identifiers": {
+              "multiverseId": "684382",
+              "scryfallId": "13fa9da3-3e74-43ea-a1ce-ba48c6b4a074"
+            },
+            "language": "German",
+            "multiverseId": 684382,
+            "name": "Keldonische Plünderin",
+            "skuIds": {
+              "nonfoil": "23a03209-1ab9-5f1b-9608-8f61fa85d934"
+            },
+            "text": "Wenn die Keldonische Plünderin ins Spiel kommt, kannst du eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "40cb70b6-6d4d-5055-b884-d5043ad70f82"
           },
           {
             "flavorText": "Il bottino degli assaltatori di Keld si limita a ciò che i loro colos possono trasportare. Per quanto prezioso, il resto va in fumo.",
@@ -1278,6 +1402,9 @@
             "language": "Italian",
             "multiverseId": 684703,
             "name": "Assaltatrice di Keld",
+            "skuIds": {
+              "nonfoil": "5bc65d02-1dca-5cbc-8f1d-24c4135173b7"
+            },
             "text": "Quando l'Assaltatrice di Keld entra, puoi scartare una carta. Se lo fai, pesca una carta.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "a816b6ed-aeac-5bdf-88b7-096fe5056a40"
@@ -1291,14 +1418,31 @@
             "language": "Japanese",
             "multiverseId": 684810,
             "name": "ケルドの略奪者",
+            "skuIds": {
+              "nonfoil": "e43aaa4a-27b5-5d2a-b2e6-cf90e1032adf"
+            },
             "text": "ケルドの略奪者が戦場に出たとき、カード１枚を捨ててもよい。そうしたなら、カード１枚を引く。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "4c40d7f5-f105-5f02-a928-36914abd3989"
+          },
+          {
+            "flavorText": "Los botines de los incursores keldon se limitan a aquello que pueden transportar sus colos. El resto lo consume el fuego, sea cual sea su valor.",
+            "identifiers": {
+              "multiverseId": "684489",
+              "scryfallId": "4b1e8124-ad6c-42b5-b5c2-a4e497899414"
+            },
+            "language": "Spanish",
+            "multiverseId": 684489,
+            "name": "Incursora keldon",
+            "skuIds": {
+              "nonfoil": "fc149b61-c72c-500f-a19b-3fc7c3023f77"
+            },
+            "text": "Cuando la Incursora keldon entre, puedes descartar una carta. Si lo haces, roba una carta.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "c1a2d930-383d-59be-a1fb-ac75f0046f13"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305909",
           "cardsphereId": "131035",
@@ -1340,6 +1484,7 @@
         "name": "Keldon Raider",
         "number": "570",
         "originalText": "When Keldon Raider enters, you may discard a card. If you do, draw a card.",
+        "originalType": "Creature – Human Warrior",
         "power": "4",
         "printings": [
           "DOM",
@@ -1354,9 +1499,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5c3829c2-ccfc-5a5f-af09-a27cb5d5c7af"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1390,39 +1540,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 21787,
+        "edhrecRank": 21971,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I hate this! I hate fire! I hate you for taking me on this route!\"\n—Norin the Wary",
         "foreignData": [
-          {
-            "flavorText": "„Ich hasse das! Ich hasse Feuer! Ich hasse dich, weil du diese Route gewählt hast!\"\n—Norin der Vorsichtige",
-            "identifiers": {
-              "multiverseId": "684399",
-              "scryfallId": "dfd58d78-f6ba-4f27-b3c2-69d07c797cad"
-            },
-            "language": "German",
-            "multiverseId": 684399,
-            "name": "Pyrophobie",
-            "text": "Die Pyrophobie fügt einer Kreatur deiner Wahl 3 Schadenspunkte zu. Feiglinge können in diesem Zug nicht blocken.",
-            "type": "Hexerei",
-            "uuid": "e9d93d17-58db-501f-b975-07cb2bc65498"
-          },
-          {
-            "flavorText": "\"¡Odio todo esto! ¡Odio el fuego! ¡Te odio por llevarme por este camino!\".\n—Norin el Precavido",
-            "identifiers": {
-              "multiverseId": "684506",
-              "scryfallId": "1737516a-f4f6-4dad-b7d6-a08554f614cd"
-            },
-            "language": "Spanish",
-            "multiverseId": 684506,
-            "name": "Pirofobia",
-            "text": "La Pirofobia hace 3 puntos de daño a la criatura objetivo. Los Cobardes no pueden bloquear este turno.",
-            "type": "Conjuro",
-            "uuid": "c262dd14-7a3e-504f-aa32-727e78c04ba3"
-          },
           {
             "flavorText": "« Je déteste ça ! Je déteste le feu ! Je vous déteste pour m'avoir fait prendre cette route ! »\n—Norin le circonspect",
             "identifiers": {
@@ -1432,9 +1556,28 @@
             "language": "French",
             "multiverseId": 684613,
             "name": "Pyrophobie",
+            "skuIds": {
+              "nonfoil": "f0179e3d-08fd-5fbe-a6ab-64a334f615e4"
+            },
             "text": "La Pyrophobie inflige 3 blessures à une créature ciblée. Les couards ne peuvent pas bloquer ce tour-ci.",
             "type": "Rituel",
             "uuid": "8a39cd2b-5c25-5aff-b77c-213398e36dec"
+          },
+          {
+            "flavorText": "„Ich hasse das! Ich hasse Feuer! Ich hasse dich, weil du diese Route gewählt hast!\"\n—Norin der Vorsichtige",
+            "identifiers": {
+              "multiverseId": "684399",
+              "scryfallId": "dfd58d78-f6ba-4f27-b3c2-69d07c797cad"
+            },
+            "language": "German",
+            "multiverseId": 684399,
+            "name": "Pyrophobie",
+            "skuIds": {
+              "nonfoil": "17b54957-dac4-59a7-b1ae-b419d7aa7f55"
+            },
+            "text": "Die Pyrophobie fügt einer Kreatur deiner Wahl 3 Schadenspunkte zu. Feiglinge können in diesem Zug nicht blocken.",
+            "type": "Hexerei",
+            "uuid": "e9d93d17-58db-501f-b975-07cb2bc65498"
           },
           {
             "flavorText": "\"Odio tutto questo! Odio il fuoco! E odio te per avermi portato su questo sentiero!\"\n—Norin il Diffidente",
@@ -1445,6 +1588,9 @@
             "language": "Italian",
             "multiverseId": 684720,
             "name": "Pirofobia",
+            "skuIds": {
+              "nonfoil": "8efaddb4-a27d-5e9b-aebe-f3722b299e53"
+            },
             "text": "La Pirofobia infligge 3 danni a una creatura bersaglio. I Vigliacchi non possono bloccare in questo turno.",
             "type": "Stregoneria",
             "uuid": "31827b1a-7c17-584e-8b31-68ec488e9efa"
@@ -1458,14 +1604,31 @@
             "language": "Japanese",
             "multiverseId": 684827,
             "name": "炎恐怖症",
+            "skuIds": {
+              "nonfoil": "df14f76e-c6d5-59bf-9f29-3d5cd138f756"
+            },
             "text": "クリーチャー１体を対象とする。炎恐怖症はそれに３点のダメージを与える。このターン、臆病者ではブロックできない。",
             "type": "ソーサリー",
             "uuid": "be59b78d-347c-55a7-a5f7-ef0423b8393a"
+          },
+          {
+            "flavorText": "\"¡Odio todo esto! ¡Odio el fuego! ¡Te odio por llevarme por este camino!\".\n—Norin el Precavido",
+            "identifiers": {
+              "multiverseId": "684506",
+              "scryfallId": "1737516a-f4f6-4dad-b7d6-a08554f614cd"
+            },
+            "language": "Spanish",
+            "multiverseId": 684506,
+            "name": "Pirofobia",
+            "skuIds": {
+              "nonfoil": "aab3e0cd-c1b6-5749-9eae-eab8c39cc2cf"
+            },
+            "text": "La Pirofobia hace 3 puntos de daño a la criatura objetivo. Los Cobardes no pueden bloquear este turno.",
+            "type": "Conjuro",
+            "uuid": "c262dd14-7a3e-504f-aa32-727e78c04ba3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305926",
           "cardsphereId": "131009",
@@ -1506,6 +1669,7 @@
         "name": "Pyrophobia",
         "number": "587",
         "originalText": "Pyrophobia deals 3 damage to target creature. Cowards can't block this turn.",
+        "originalType": "Sorcery",
         "printings": [
           "J25",
           "MH1"
@@ -1527,9 +1691,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ce5eb183-c823-5c88-b0d4-b02cc4232cdb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1559,39 +1728,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 13378,
+        "edhrecRank": 13626,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "There was no witty retort, no confident boast to accompany the attack. There was only pain.",
         "foreignData": [
-          {
-            "flavorText": "Es gab keinen geistreichen Kommentar, keine selbstbewusste Prahlerei … Es gab nur Schmerz.",
-            "identifiers": {
-              "multiverseId": "684411",
-              "scryfallId": "659a8841-24b4-4716-bcbe-ec22979ebcf4"
-            },
-            "language": "German",
-            "multiverseId": 684411,
-            "name": "Seele versengen",
-            "text": "Seele versengen fügt einer Kreatur oder einem Planeswalker deiner Wahl 5 Schadenspunkte zu. Jenes Permanent verliert Unzerstörbarkeit bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "80c851ee-9abc-5c23-a6a6-caf632089f00"
-          },
-          {
-            "flavorText": "No hubo una réplica ingeniosa ni un fanfarroneo altanero que acompañase el ataque. Solo dolor.",
-            "identifiers": {
-              "multiverseId": "684518",
-              "scryfallId": "807d1a5e-d693-4422-bd42-fc8ecdb9833c"
-            },
-            "language": "Spanish",
-            "multiverseId": 684518,
-            "name": "Calcinar el alma",
-            "text": "Calcinar el alma hace 5 puntos de daño a la criatura o planeswalker objetivo. Ese permanente pierde la habilidad de indestructible hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "ea05e4c5-199b-5afa-bf1b-34a9d65a7d1b"
-          },
           {
             "flavorText": "Il n'y avait ni remarque cinglante ni fanfaronnade pour accompagner l'attaque. Seulement la douleur.",
             "identifiers": {
@@ -1601,9 +1744,28 @@
             "language": "French",
             "multiverseId": 684625,
             "name": "Calcination de l'âme",
+            "skuIds": {
+              "nonfoil": "c4fec211-123b-5f9e-a46a-069906aa5171"
+            },
             "text": "La Calcination de l'âme inflige 5 blessures à une cible, créature ou planeswalker. Ce permanent perd l'indestructible jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "a7049de2-b705-585b-9958-dd46801bf9f9"
+          },
+          {
+            "flavorText": "Es gab keinen geistreichen Kommentar, keine selbstbewusste Prahlerei … Es gab nur Schmerz.",
+            "identifiers": {
+              "multiverseId": "684411",
+              "scryfallId": "659a8841-24b4-4716-bcbe-ec22979ebcf4"
+            },
+            "language": "German",
+            "multiverseId": 684411,
+            "name": "Seele versengen",
+            "skuIds": {
+              "nonfoil": "989fc427-8328-535c-9a8b-4eccbf3cc0a5"
+            },
+            "text": "Seele versengen fügt einer Kreatur oder einem Planeswalker deiner Wahl 5 Schadenspunkte zu. Jenes Permanent verliert Unzerstörbarkeit bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "80c851ee-9abc-5c23-a6a6-caf632089f00"
           },
           {
             "flavorText": "Nessuna osservazione spiritosa, né spavalde vanterie accompagnarono l'attacco. Ci fu soltanto dolore.",
@@ -1614,6 +1776,9 @@
             "language": "Italian",
             "multiverseId": 684732,
             "name": "Ustione dell'Anima",
+            "skuIds": {
+              "nonfoil": "ddfd03c3-9826-5800-bad9-aca628212206"
+            },
             "text": "L'Ustione dell'Anima infligge 5 danni a una creatura o a un planeswalker bersaglio. Quel permanente perde indistruttibile fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "0f64e79e-3b04-54fd-a4d4-09716abb5733"
@@ -1627,14 +1792,31 @@
             "language": "Japanese",
             "multiverseId": 684839,
             "name": "魂焦がし",
+            "skuIds": {
+              "nonfoil": "aebfee3d-5af1-5433-b733-3bf7a960534a"
+            },
             "text": "クリーチャーやプレインズウォーカーである１体を対象とする。魂焦がしはそれに５点のダメージを与える。ターン終了時まで、そのパーマネントは破壊不能を失う。",
             "type": "インスタント",
             "uuid": "021e8a66-cedb-5ab7-b9da-e65207c6232d"
+          },
+          {
+            "flavorText": "No hubo una réplica ingeniosa ni un fanfarroneo altanero que acompañase el ataque. Solo dolor.",
+            "identifiers": {
+              "multiverseId": "684518",
+              "scryfallId": "807d1a5e-d693-4422-bd42-fc8ecdb9833c"
+            },
+            "language": "Spanish",
+            "multiverseId": 684518,
+            "name": "Calcinar el alma",
+            "skuIds": {
+              "nonfoil": "576f874e-54a4-58ec-985b-7b875e862b3e"
+            },
+            "text": "Calcinar el alma hace 5 puntos de daño a la criatura o planeswalker objetivo. Ese permanente pierde la habilidad de indestructible hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "ea05e4c5-199b-5afa-bf1b-34a9d65a7d1b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305938",
           "cardsphereId": "130991",
@@ -1674,6 +1856,7 @@
         "name": "Soul Sear",
         "number": "599",
         "originalText": "Soul Sear deals 5 damage to target creature or planeswalker. That permanent loses indestructible until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "M21"
@@ -1691,9 +1874,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "00ce09c6-b6cc-535e-bd2f-942ff945206d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1723,39 +1911,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 22125,
+        "edhrecRank": 22761,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Touma never met a door he didn't hate.",
         "foreignData": [
-          {
-            "flavorText": "Touma ist noch nie auf eine Tür gestoßen, die er nicht gehasst hat.",
-            "identifiers": {
-              "multiverseId": "684421",
-              "scryfallId": "8a1eb53d-e16d-4ef6-8b49-6ee5e0a035f6"
-            },
-            "language": "German",
-            "multiverseId": 684421,
-            "name": "Unaufhaltsamer Oger",
-            "text": "Wenn der Unaufhaltsame Oger ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.",
-            "type": "Artefaktkreatur — Oger, Krieger",
-            "uuid": "235787c7-c70e-5a82-9df4-c19c7ec51883"
-          },
-          {
-            "flavorText": "Puerta que ve Touma, puerta que odia.",
-            "identifiers": {
-              "multiverseId": "684528",
-              "scryfallId": "b6827b10-7ab3-4de8-9427-3a5cced11f1d"
-            },
-            "language": "Spanish",
-            "multiverseId": 684528,
-            "name": "Ogro imparable",
-            "text": "Cuando el Ogro imparable entre, la criatura objetivo no puede bloquear este turno.",
-            "type": "Criatura artefacto — Guerrero ogro",
-            "uuid": "231c8f2c-668c-5d34-a9ed-05003a837ab6"
-          },
           {
             "flavorText": "Touma détestait toutes les portes, sans exception.",
             "identifiers": {
@@ -1765,9 +1927,28 @@
             "language": "French",
             "multiverseId": 684635,
             "name": "Ogre invincible",
+            "skuIds": {
+              "nonfoil": "4555a3d5-aca3-5aad-85c9-d78c6b085420"
+            },
             "text": "Quand l'Ogre invincible arrive, une créature ciblée ne peut pas bloquer ce tour-ci.",
             "type": "Créature-artefact — ogre et guerrier",
             "uuid": "97c684ca-2c55-5d7f-94e9-89db553dd0eb"
+          },
+          {
+            "flavorText": "Touma ist noch nie auf eine Tür gestoßen, die er nicht gehasst hat.",
+            "identifiers": {
+              "multiverseId": "684421",
+              "scryfallId": "8a1eb53d-e16d-4ef6-8b49-6ee5e0a035f6"
+            },
+            "language": "German",
+            "multiverseId": 684421,
+            "name": "Unaufhaltsamer Oger",
+            "skuIds": {
+              "nonfoil": "0bab3597-2e20-5923-8e25-d1b038bf6b2c"
+            },
+            "text": "Wenn der Unaufhaltsame Oger ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.",
+            "type": "Artefaktkreatur — Oger, Krieger",
+            "uuid": "235787c7-c70e-5a82-9df4-c19c7ec51883"
           },
           {
             "flavorText": "Touma non aveva mai incrociato una porta che non odiasse.",
@@ -1778,6 +1959,9 @@
             "language": "Italian",
             "multiverseId": 684742,
             "name": "Ogre Inarrestabile",
+            "skuIds": {
+              "nonfoil": "7e327797-9f20-5910-80b5-990a303714f8"
+            },
             "text": "Quando l'Ogre Inarrestabile entra, una creatura bersaglio non può bloccare in questo turno.",
             "type": "Creatura Artefatto — Guerriero Ogre",
             "uuid": "29c5b3a3-1461-5406-8927-d01799310946"
@@ -1791,14 +1975,31 @@
             "language": "Japanese",
             "multiverseId": 684849,
             "name": "止められぬ大峨",
+            "skuIds": {
+              "nonfoil": "58678054-0503-5d18-8908-39e724f8a5ca"
+            },
             "text": "止められぬ大峨が戦場に出たとき、クリーチャー１体を対象とする。このターン、それではブロックできない。",
             "type": "アーティファクト・クリーチャー — オーガ・戦士",
             "uuid": "1a6621c5-bfa6-5b81-b072-9a4310bdd8d2"
+          },
+          {
+            "flavorText": "Puerta que ve Touma, puerta que odia.",
+            "identifiers": {
+              "multiverseId": "684528",
+              "scryfallId": "b6827b10-7ab3-4de8-9427-3a5cced11f1d"
+            },
+            "language": "Spanish",
+            "multiverseId": 684528,
+            "name": "Ogro imparable",
+            "skuIds": {
+              "nonfoil": "587522b2-65d6-576b-946d-bffa53258151"
+            },
+            "text": "Cuando el Ogro imparable entre, la criatura objetivo no puede bloquear este turno.",
+            "type": "Criatura artefacto — Guerrero ogro",
+            "uuid": "231c8f2c-668c-5d34-a9ed-05003a837ab6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305948",
           "cardsphereId": "130978",
@@ -1840,6 +2041,7 @@
         "name": "Unstoppable Ogre",
         "number": "609",
         "originalText": "When Unstoppable Ogre enters, target creature can't block this turn.",
+        "originalType": "Artifact Creature – Ogre Warrior",
         "power": "4",
         "printings": [
           "J25",
@@ -1852,9 +2054,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "3860367e-7b5b-51bc-aeae-1c009a5ccc06"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1889,36 +2096,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 22813,
+        "edhrecRank": 23526,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684429",
-              "scryfallId": "c26d3256-af80-4fb5-9d74-316763251842"
-            },
-            "language": "German",
-            "multiverseId": 684429,
-            "name": "Abrisskolonne",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nVerursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "7e41adad-7e93-54e2-b133-3bd79c3c3760"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684536",
-              "scryfallId": "2ab6c970-00f7-471f-8aac-3e896acea8bb"
-            },
-            "language": "Spanish",
-            "multiverseId": 684536,
-            "name": "Brigada de demolición",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nArrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "5d72816e-6caf-5f46-8035-0509e11d1322"
-          },
           {
             "identifiers": {
               "multiverseId": "684643",
@@ -1927,9 +2110,27 @@
             "language": "French",
             "multiverseId": 684643,
             "name": "Groupe de démolition",
+            "skuIds": {
+              "nonfoil": "022da544-d878-5aba-a21f-97ec9abb8e80"
+            },
             "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nPiétinement (Cette créature peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)",
             "type": "Créature — humain et guerrier",
             "uuid": "ec2cfa74-575a-52c8-b3a4-c528a2a39eb4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684429",
+              "scryfallId": "c26d3256-af80-4fb5-9d74-316763251842"
+            },
+            "language": "German",
+            "multiverseId": 684429,
+            "name": "Abrisskolonne",
+            "skuIds": {
+              "nonfoil": "67e45b3f-c08a-5de3-935e-2183233a7917"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nVerursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "7e41adad-7e93-54e2-b133-3bd79c3c3760"
           },
           {
             "identifiers": {
@@ -1939,6 +2140,9 @@
             "language": "Italian",
             "multiverseId": 684750,
             "name": "Banda di Demolizione",
+            "skuIds": {
+              "nonfoil": "d463f7e4-2da0-5e9b-a2e4-b87f386cf6de"
+            },
             "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nTravolgere (Questa creatura può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)",
             "type": "Creatura — Guerriero Umano",
             "uuid": "91fedd72-3216-56ea-8fbc-5a79283c37a5"
@@ -1951,14 +2155,30 @@
             "language": "Japanese",
             "multiverseId": 684857,
             "name": "解体作業員",
+            "skuIds": {
+              "nonfoil": "7d17935e-34cf-5a60-acad-740caaa78565"
+            },
             "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\nトランプル（このクリーチャーは余剰の戦闘ダメージを、これが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "0431ec18-ced1-5e25-9605-5fb659a46f33"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684536",
+              "scryfallId": "2ab6c970-00f7-471f-8aac-3e896acea8bb"
+            },
+            "language": "Spanish",
+            "multiverseId": 684536,
+            "name": "Brigada de demolición",
+            "skuIds": {
+              "nonfoil": "b3d0f732-8cd5-541d-a665-b3b37d1a618f"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nArrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "5d72816e-6caf-5f46-8035-0509e11d1322"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305956",
           "cardsphereId": "130968",
@@ -2004,6 +2224,7 @@
         "name": "Wrecking Crew",
         "number": "617",
         "originalText": "Reach (This creature can block creatures with flying.)\nTrample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "originalType": "Creature – Human Warrior",
         "power": "4",
         "printings": [
           "J25",
@@ -2016,9 +2237,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "35a440e3-edf2-5534-9943-ec27f2306b40"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2048,39 +2274,13 @@
         "colors": [],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18306,
+        "edhrecRank": 18768,
         "edhrecSaltiness": 0.42,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"It's light as a feather, but it hits with the force of a boulder. A very sharp boulder.\"",
         "foreignData": [
-          {
-            "flavorText": "„Sie ist leicht wie eine Feder, aber sie trifft mit der Kraft eines Felsblocks. Eines sehr scharfen Felsblocks.\"",
-            "identifiers": {
-              "multiverseId": "684040",
-              "scryfallId": "2a25e654-e932-49f0-9c2b-c3f2dfbd06c9"
-            },
-            "language": "German",
-            "multiverseId": 684040,
-            "name": "Relikt-Axt",
-            "text": "Wenn die Relikt-Axt ins Spiel kommt, lege sie an eine Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +1/+1. Falls sie ein Krieger ist, erhält sie stattdessen +2/+1.\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung",
-            "uuid": "f030740f-2329-5013-b5f6-ec3a6875ba75"
-          },
-          {
-            "flavorText": "\"Es ligera como una pluma, pero su golpe es como el de un pedrusco. Uno muy afilado\".",
-            "identifiers": {
-              "multiverseId": "684079",
-              "scryfallId": "d364dd06-57b1-4f9a-ae76-a810fc33ff8b"
-            },
-            "language": "Spanish",
-            "multiverseId": 684079,
-            "name": "Hacha reliquia",
-            "text": "Cuando el Hacha reliquia entre, anéxala a la criatura objetivo que controlas.\nLa criatura equipada obtiene +1/+1. Si es un Guerrero, en vez de eso, obtiene +2/+1.\nEquipar {2}. ({2}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo",
-            "uuid": "fae027d4-e39a-5cdd-b9b3-6ab82b54c598"
-          },
           {
             "flavorText": "« Elle est légère comme une plume, mais elle frappe avec la force d'un rocher. Un rocher bien tranchant. »",
             "identifiers": {
@@ -2090,9 +2290,28 @@
             "language": "French",
             "multiverseId": 684118,
             "name": "Hache à relique",
+            "skuIds": {
+              "nonfoil": "3d3205b0-0965-5d10-8606-e643f0f0f574"
+            },
             "text": "Quand la Hache à relique arrive, attachez-la à une créature ciblée que vous contrôlez.\nLa créature équipée gagne +1/+1. Si c'est un guerrier, elle gagne +2/+1 à la place.\nÉquipement {2} ({2} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
             "type": "Artefact — équipement",
             "uuid": "7e2d48ac-0976-5dc6-a3f5-2037d3de7ad8"
+          },
+          {
+            "flavorText": "„Sie ist leicht wie eine Feder, aber sie trifft mit der Kraft eines Felsblocks. Eines sehr scharfen Felsblocks.\"",
+            "identifiers": {
+              "multiverseId": "684040",
+              "scryfallId": "2a25e654-e932-49f0-9c2b-c3f2dfbd06c9"
+            },
+            "language": "German",
+            "multiverseId": 684040,
+            "name": "Relikt-Axt",
+            "skuIds": {
+              "nonfoil": "34e73f6d-0963-5fff-bc66-6d06465ceb9f"
+            },
+            "text": "Wenn die Relikt-Axt ins Spiel kommt, lege sie an eine Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +1/+1. Falls sie ein Krieger ist, erhält sie stattdessen +2/+1.\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "f030740f-2329-5013-b5f6-ec3a6875ba75"
           },
           {
             "flavorText": "\"È leggera come una piuma, ma colpisce con la forza di un macigno. Un macigno molto affilato.\"",
@@ -2103,6 +2322,9 @@
             "language": "Italian",
             "multiverseId": 684157,
             "name": "Ascia della Reliquia",
+            "skuIds": {
+              "nonfoil": "c6293d0c-7f18-5324-a517-10edcece29e5"
+            },
             "text": "Quando l'Ascia della Reliquia entra, assegnala a una creatura bersaglio che controlli.\nLa creatura equipaggiata prende +1/+1. Se è un Guerriero, prende invece +2/+1.\nEquipaggiare {2} ({2}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
             "type": "Artefatto — Equipaggiamento",
             "uuid": "739a73a0-810d-558c-9021-9232628665c6"
@@ -2116,14 +2338,31 @@
             "language": "Japanese",
             "multiverseId": 684196,
             "name": "秘宝の斧",
+            "skuIds": {
+              "nonfoil": "1a7151aa-69d8-51f1-ac79-b5884e6ba814"
+            },
             "text": "秘宝の斧が戦場に出たとき、あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。\n装備しているクリーチャーは＋１/＋１の修整を受ける。それが戦士なら、代わりにそれは＋２/＋１の修整を受ける。\n装備{2}（{2}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
             "type": "アーティファクト — 装備品",
             "uuid": "f78525d9-9979-5bf9-8095-f66b642ebca7"
+          },
+          {
+            "flavorText": "\"Es ligera como una pluma, pero su golpe es como el de un pedrusco. Uno muy afilado\".",
+            "identifiers": {
+              "multiverseId": "684079",
+              "scryfallId": "d364dd06-57b1-4f9a-ae76-a810fc33ff8b"
+            },
+            "language": "Spanish",
+            "multiverseId": 684079,
+            "name": "Hacha reliquia",
+            "skuIds": {
+              "nonfoil": "af6870a4-92b6-5d42-be5d-11201cb69678"
+            },
+            "text": "Cuando el Hacha reliquia entre, anéxala a la criatura objetivo que controlas.\nLa criatura equipada obtiene +1/+1. Si es un Guerrero, en vez de eso, obtiene +2/+1.\nEquipar {2}. ({2}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
+            "type": "Artefacto — Equipo",
+            "uuid": "fae027d4-e39a-5cdd-b9b3-6ab82b54c598"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306098",
           "cardsphereId": "130667",
@@ -2165,6 +2404,7 @@
         "name": "Relic Axe",
         "number": "759",
         "originalText": "When Relic Axe enters, attach it to target creature you control.\nEquipped creature gets +1/+1. If it's a Warrior, it gets +2/+1 instead.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "J25",
           "ZNR"
@@ -2186,9 +2426,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5939801c-fc60-5629-8909-704c3f94741a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2218,39 +2463,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2260,9 +2479,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2273,6 +2511,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2286,14 +2527,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2331,10 +2589,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2343,6 +2603,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2350,9 +2617,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2387,36 +2659,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2426,6 +2693,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2437,18 +2707,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2461,7 +2747,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2489,6 +2774,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2562,6 +2848,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2724,15 +3011,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2775,36 +3071,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2814,6 +3105,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2825,18 +3119,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2849,7 +3159,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2877,6 +3186,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2950,6 +3260,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3112,15 +3423,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3163,36 +3483,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3202,6 +3517,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3213,18 +3531,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3237,7 +3571,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3265,6 +3598,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3338,6 +3672,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3500,15 +3835,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3524,8 +3868,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3540,5 +3884,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "15674a5346dfd9"
   }
 }

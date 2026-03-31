@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "1712e569bf7b2d"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,36 +23,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 14999,
+        "edhrecRank": 14513,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681372",
-              "scryfallId": "5d580ba8-3cc1-4880-a3e1-eebba6d7c68e"
-            },
-            "language": "German",
-            "multiverseId": 681372,
-            "name": "Sandsturm-Schmetterer",
-            "text": "Verursacht Trampelschaden\nDu kannst den Sandsturm-Schmetterer erschöpfen, sowie er angreift. Wenn du dies tust, erzeugst du einen getappten und angreifenden Spielstein, der eine Kopie einer Kreatur deiner Wahl ist, die du kontrollierst. Opfere den Spielstein zu Beginn des nächsten Endsegments. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
-            "type": "Kreatur — Minotaurus, Berserker, Zauberer",
-            "uuid": "4d5ca41f-b53e-53bd-8e86-589545fdec6e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681401",
-              "scryfallId": "c42a07bb-40ba-4156-b68c-4e1bc58ca7de"
-            },
-            "language": "Spanish",
-            "multiverseId": 681401,
-            "name": "Embestidor de las arenas",
-            "text": "Arrolla.\nPuedes espolear al Embestidor de las arenas en cuanto ataque. Cuando lo hagas, crea una ficha girada y atacando que es una copia de la criatura objetivo que controlas. Sacrifica la ficha al comienzo del próximo paso final. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
-            "type": "Criatura — Hechicero berserker minotauro",
-            "uuid": "7380e4a0-63bc-5dcb-9a00-db939196e4ca"
-          },
           {
             "identifiers": {
               "multiverseId": "681430",
@@ -66,9 +37,27 @@
             "language": "French",
             "multiverseId": 681430,
             "name": "Fracasseur de la tempête de sable",
+            "skuIds": {
+              "nonfoil": "84d67150-98bc-5fb6-8adb-e1dbdffb718b"
+            },
             "text": "Piétinement\nVous pouvez surmener le Fracasseur de la tempête de sable au moment où il attaque. Quand vous faites ainsi, créez un jeton engagé et attaquant qui est une copie d'une créature ciblée que vous contrôlez. Sacrifiez le jeton au début de la prochaine étape de fin. (Une créature surmenée ne se dégage pas pendant votre prochaine étape de dégagement.)",
             "type": "Créature — minotaure et berserker et sorcier",
             "uuid": "b5546d9f-9e2d-58ac-b0fc-e0e9ebc0c2b9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681372",
+              "scryfallId": "5d580ba8-3cc1-4880-a3e1-eebba6d7c68e"
+            },
+            "language": "German",
+            "multiverseId": 681372,
+            "name": "Sandsturm-Schmetterer",
+            "skuIds": {
+              "nonfoil": "77161787-a2fd-5964-82cc-ba5a3e662fa1"
+            },
+            "text": "Verursacht Trampelschaden\nDu kannst den Sandsturm-Schmetterer erschöpfen, sowie er angreift. Wenn du dies tust, erzeugst du einen getappten und angreifenden Spielstein, der eine Kopie einer Kreatur deiner Wahl ist, die du kontrollierst. Opfere den Spielstein zu Beginn des nächsten Endsegments. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
+            "type": "Kreatur — Minotaurus, Berserker, Zauberer",
+            "uuid": "4d5ca41f-b53e-53bd-8e86-589545fdec6e"
           },
           {
             "identifiers": {
@@ -78,6 +67,9 @@
             "language": "Italian",
             "multiverseId": 681459,
             "name": "Distruttore della Tempesta di Sabbia",
+            "skuIds": {
+              "nonfoil": "2939b5e8-1762-5878-9787-f10e1cae624e"
+            },
             "text": "Travolgere\nPuoi stremare il Distruttore della Tempesta di Sabbia mentre attacca. Quando lo fai, crea una pedina TAPpata e attaccante che è una copia di una creatura bersaglio che controlli. Sacrifica la pedina all'inizio della prossima sottofase finale. (Una creatura stremata non STAPpa durante il tuo prossimo STAP.)",
             "type": "Creatura — Mago Berserker Minotauro",
             "uuid": "7611098f-9c56-5de2-9760-caebc860b104"
@@ -90,14 +82,30 @@
             "language": "Japanese",
             "multiverseId": 681488,
             "name": "砂嵐の壊し屋",
+            "skuIds": {
+              "nonfoil": "cff6d497-96d4-5403-a15a-3c045c3314c6"
+            },
             "text": "トランプル\n砂嵐の壊し屋が攻撃するに際し、これを督励してもよい。そうしたとき、あなたがコントロールしているクリーチャー１体を対象とする。それのコピーであるトークン１つをタップ状態かつ攻撃している状態で生成する。次の終了ステップの開始時に、そのトークンを生け贄に捧げる。（督励されたクリーチャーは、次のあなたのアンタップ・ステップにアンタップしない。）",
             "type": "クリーチャー — ミノタウルス・狂戦士・ウィザード",
             "uuid": "13db88ae-4899-5cf8-82cf-80bbb4e199e3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681401",
+              "scryfallId": "c42a07bb-40ba-4156-b68c-4e1bc58ca7de"
+            },
+            "language": "Spanish",
+            "multiverseId": 681401,
+            "name": "Embestidor de las arenas",
+            "skuIds": {
+              "nonfoil": "39159e86-798f-54b0-8448-8735745ec514"
+            },
+            "text": "Arrolla.\nPuedes espolear al Embestidor de las arenas en cuanto ataque. Cuando lo hagas, crea una ficha girada y atacando que es una copia de la criatura objetivo que controlas. Sacrifica la ficha al comienzo del próximo paso final. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
+            "type": "Criatura — Hechicero berserker minotauro",
+            "uuid": "7380e4a0-63bc-5dcb-9a00-db939196e4ca"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305152",
           "cardsphereId": "130737",
@@ -116,7 +124,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Exert",
           "Trample"
@@ -139,6 +146,7 @@
         "name": "Sandstorm Crasher",
         "number": "18",
         "originalText": "Trample\nYou may exert Sandstorm Crasher as it attacks. When you do, create a tapped and attacking token that's a copy of target creature you control. Sacrifice the token at the beginning of the next end step. (An exerted creature won't untap during your next untap step.)",
+        "originalType": "Creature – Minotaur Berserker Wizard",
         "power": "3",
         "printings": [
           "J25"
@@ -149,6 +157,11 @@
           "tcgplayer": "https://mtgjson.com/links/3b794bfb526d7e91"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "7f30de76-415e-5a5c-987d-a51686e4e4f2"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -181,9 +194,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2cd8790e-e7eb-5a10-b589-01065035eda4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -218,39 +236,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 2067,
+        "edhrecRank": 2211,
         "edhrecSaltiness": 0.62,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Only those who strike without a moment's hesitation may earn Hazoret's favor.",
         "foreignData": [
-          {
-            "flavorText": "Nur jene, die ohne einen Augenblick des Zögerns zuschlagen, können auf die Gunst von Hazoret hoffen.",
-            "identifiers": {
-              "multiverseId": "681608",
-              "scryfallId": "534c6d35-fe9d-4b05-aaeb-d4f298cb8130"
-            },
-            "language": "German",
-            "multiverseId": 681608,
-            "name": "Fanatische Rekruten",
-            "text": "Eile\nWenn die Fanatischen Rekruten ins Spiel kommen, übernimm bis zum Ende des Zuges die Kontrolle über ein Permanent deiner Wahl. Enttappe es. Es erhält Eile bis zum Ende des Zuges.",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "6395583c-07b8-522a-b667-797f80b99fb6"
-          },
-          {
-            "flavorText": "Solo quienes acometen sin dudar son dignos de conseguir el favor de Hazoret.",
-            "identifiers": {
-              "multiverseId": "681669",
-              "scryfallId": "20bce166-092d-4a53-80fb-69428f45e857"
-            },
-            "language": "Spanish",
-            "multiverseId": 681669,
-            "name": "Conscriptos fervientes",
-            "text": "Prisa.\nCuando los Conscriptos fervientes entren, gana el control del permanente objetivo hasta el final del turno. Endereza ese permanente. Gana la habilidad de prisa hasta el final del turno.",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "6227a5ff-1470-5ae9-a33c-9670e73db3a5"
-          },
           {
             "flavorText": "Seuls ceux qui frappent sans la moindre hésitation pourront recevoir la faveur d'Hazoret.",
             "identifiers": {
@@ -260,9 +252,28 @@
             "language": "French",
             "multiverseId": 681730,
             "name": "Conscrits zélés",
+            "skuIds": {
+              "nonfoil": "ce62ea59-1ae5-5f23-bf75-2b91d25c6ed9"
+            },
             "text": "Célérité\nQuand les Conscrits zélés arrivent, acquérez le contrôle d'un permanent ciblé jusqu'à la fin du tour. Dégagez ce permanent. Il acquiert la célérité jusqu'à la fin du tour.",
             "type": "Créature — humain et guerrier",
             "uuid": "5d79e174-23b9-582a-87b7-aeb5f1bd8485"
+          },
+          {
+            "flavorText": "Nur jene, die ohne einen Augenblick des Zögerns zuschlagen, können auf die Gunst von Hazoret hoffen.",
+            "identifiers": {
+              "multiverseId": "681608",
+              "scryfallId": "534c6d35-fe9d-4b05-aaeb-d4f298cb8130"
+            },
+            "language": "German",
+            "multiverseId": 681608,
+            "name": "Fanatische Rekruten",
+            "skuIds": {
+              "nonfoil": "44b483c7-c9a9-5ced-ab75-30b56fd5287f"
+            },
+            "text": "Eile\nWenn die Fanatischen Rekruten ins Spiel kommen, übernimm bis zum Ende des Zuges die Kontrolle über ein Permanent deiner Wahl. Enttappe es. Es erhält Eile bis zum Ende des Zuges.",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "6395583c-07b8-522a-b667-797f80b99fb6"
           },
           {
             "flavorText": "Soltanto chi colpisce senza esitare un solo istante può entrare nelle grazie di Hazoret.",
@@ -273,6 +284,9 @@
             "language": "Italian",
             "multiverseId": 681791,
             "name": "Reclute Zelanti",
+            "skuIds": {
+              "nonfoil": "bdfe0e23-242b-50b7-bb54-6b23bd912507"
+            },
             "text": "Rapidità\nQuando le Reclute Zelanti entrano, prendi il controllo di un permanente bersaglio fino alla fine del turno. STAPpa quel permanente. Ha rapidità fino alla fine del turno.",
             "type": "Creatura — Guerriero Umano",
             "uuid": "5c98cdf6-09dd-51ff-ad60-833f2c47531b"
@@ -286,14 +300,31 @@
             "language": "Japanese",
             "multiverseId": 681852,
             "name": "士気溢れる徴集兵",
+            "skuIds": {
+              "nonfoil": "bb91c3dd-89a3-59a4-80be-d3208dacf50b"
+            },
             "text": "速攻\n士気溢れる徴集兵が戦場に出たとき、パーマネント１つを対象とする。ターン終了時まで、それのコントロールを得る。そのパーマネントをアンタップする。ターン終了時まで、それは速攻を得る。",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "502cadc0-7687-5d43-bab5-113645d4d3f6"
+          },
+          {
+            "flavorText": "Solo quienes acometen sin dudar son dignos de conseguir el favor de Hazoret.",
+            "identifiers": {
+              "multiverseId": "681669",
+              "scryfallId": "20bce166-092d-4a53-80fb-69428f45e857"
+            },
+            "language": "Spanish",
+            "multiverseId": 681669,
+            "name": "Conscriptos fervientes",
+            "skuIds": {
+              "nonfoil": "7b9e2bdc-eaaf-590b-a4ec-ccbc5fdd00cc"
+            },
+            "text": "Prisa.\nCuando los Conscriptos fervientes entren, gana el control del permanente objetivo hasta el final del turno. Endereza ese permanente. Gana la habilidad de prisa hasta el final del turno.",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "6227a5ff-1470-5ae9-a33c-9670e73db3a5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305277",
           "cardsphereId": "131041",
@@ -312,7 +343,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Haste"
         ],
@@ -336,6 +366,7 @@
         "name": "Zealous Conscripts",
         "number": "143",
         "originalText": "Haste\nWhen Zealous Conscripts enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.",
+        "originalType": "Creature – Human Warrior",
         "power": "3",
         "printings": [
           "AVR",
@@ -360,9 +391,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9f7007f8-5ae0-5c61-bfb0-1c6d8b9f4b02"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -397,36 +433,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15460,
+        "edhrecRank": 15080,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680973",
-              "scryfallId": "c2c62cb0-2088-4e1e-b4ba-e326ff3348e9"
-            },
-            "language": "German",
-            "multiverseId": 680973,
-            "name": "Anep, Wesirin von Hazoret",
-            "text": "Verursacht Trampelschaden\nDu kannst Anep, Wesirin von Hazoret, erschöpfen, sowie sie angreift. Wenn du dies tust, schicke die obersten zwei Karten deiner Bibliothek ins Exil. Du kannst sie bis zum Ende deines nächsten Zuges spielen. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
-            "type": "Legendäre Kreatur — Schakal, Krieger",
-            "uuid": "c288195b-6738-5809-9d47-ab8f656ffe24"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681000",
-              "scryfallId": "62c6ea3b-c462-41b5-8d68-f58735597e9f"
-            },
-            "language": "Spanish",
-            "multiverseId": 681000,
-            "name": "Anep, visir de Hazoret",
-            "text": "Arrolla.\nPuedes espolear a Anep, visir de Hazoret en cuanto ataque. Cuando lo hagas, exilia las dos primeras cartas de tu biblioteca. Hasta el final de tu próximo turno, puedes jugar esas cartas. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
-            "type": "Criatura legendaria — Guerrero chacal",
-            "uuid": "c07fb9b6-8491-5043-b81a-e03df5ae9a4c"
-          },
           {
             "identifiers": {
               "multiverseId": "681027",
@@ -435,9 +447,27 @@
             "language": "French",
             "multiverseId": 681027,
             "name": "Anep, sultane d'Hazoret",
+            "skuIds": {
+              "nonfoil": "1c8e097b-5e93-52d7-b156-82c511febd40"
+            },
             "text": "Piétinement\nVous pouvez surmener Anep, sultane d'Hazoret au moment où elle attaque. Quand vous faites ainsi, exilez les deux cartes du dessus de votre bibliothèque. Jusqu'à la fin de votre prochain tour, vous pouvez jouer ces cartes. (Une créature surmenée ne se dégage pas pendant votre prochaine étape de dégagement.)",
             "type": "Créature légendaire — chacal et guerrier",
             "uuid": "6fa908a9-095a-56f0-ac4b-d915f7c6ee34"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680973",
+              "scryfallId": "c2c62cb0-2088-4e1e-b4ba-e326ff3348e9"
+            },
+            "language": "German",
+            "multiverseId": 680973,
+            "name": "Anep, Wesirin von Hazoret",
+            "skuIds": {
+              "nonfoil": "b14cd511-d138-55f7-ae59-f2225082c69e"
+            },
+            "text": "Verursacht Trampelschaden\nDu kannst Anep, Wesirin von Hazoret, erschöpfen, sowie sie angreift. Wenn du dies tust, schicke die obersten zwei Karten deiner Bibliothek ins Exil. Du kannst sie bis zum Ende deines nächsten Zuges spielen. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
+            "type": "Legendäre Kreatur — Schakal, Krieger",
+            "uuid": "c288195b-6738-5809-9d47-ab8f656ffe24"
           },
           {
             "identifiers": {
@@ -447,6 +477,9 @@
             "language": "Italian",
             "multiverseId": 681054,
             "name": "Anep, Visir di Hazoret",
+            "skuIds": {
+              "nonfoil": "988d505c-7843-5509-b469-566a9ae95a1f"
+            },
             "text": "Travolgere\nPuoi stremare Anep, Visir di Hazoret mentre attacca. Quando lo fai, esilia le prime due carte del tuo grimorio. Fino alla fine del tuo prossimo turno, puoi giocare quelle carte. (Una creatura stremata non STAPpa durante il tuo prossimo STAP.)",
             "type": "Creatura Leggendaria — Guerriero Sciacallo",
             "uuid": "ca9d0f45-4121-5b23-a6f1-162926f8bb63"
@@ -459,17 +492,33 @@
             "language": "Japanese",
             "multiverseId": 681081,
             "name": "ハゾレトの侍臣、アネプ",
+            "skuIds": {
+              "nonfoil": "fa4adde9-3bbd-53ed-b20d-e263b5023574"
+            },
             "text": "トランプル\nハゾレトの侍臣、アネプが攻撃するに際し、これを督励してもよい。そうしたとき、あなたのライブラリーの一番上にあるカード２枚を追放する。次のあなたのターンの終了時まで、それらのカードをプレイしてもよい。（督励されたクリーチャーは、次のあなたのアンタップ・ステップにアンタップしない。）",
             "type": "伝説のクリーチャー — ジャッカル・戦士",
             "uuid": "c28769f2-2808-5bb2-bcb3-5a876d50a9dd"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681000",
+              "scryfallId": "62c6ea3b-c462-41b5-8d68-f58735597e9f"
+            },
+            "language": "Spanish",
+            "multiverseId": 681000,
+            "name": "Anep, visir de Hazoret",
+            "skuIds": {
+              "nonfoil": "e8030029-e55e-524a-bf2a-37caf8aedefa"
+            },
+            "text": "Arrolla.\nPuedes espolear a Anep, visir de Hazoret en cuanto ataque. Cuando lo hagas, exilia las dos primeras cartas de tu biblioteca. Hasta el final de tu próximo turno, puedes jugar esas cartas. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
+            "type": "Criatura legendaria — Guerrero chacal",
+            "uuid": "c07fb9b6-8491-5043-b81a-e03df5ae9a4c"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305180",
           "cardsphereId": "130814",
@@ -488,7 +537,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Exert",
           "Trample"
@@ -516,6 +564,7 @@
         "name": "Anep, Vizier of Hazoret",
         "number": "46",
         "originalText": "Trample\nYou may exert Anep, Vizier of Hazoret as it attacks. When you do, exile the top two cards of your library. Until the end of your next turn, you may play those cards. (An exerted creature won't untap during your next untap step.)",
+        "originalType": "Legendary Creature – Jackal Warrior",
         "power": "4",
         "printings": [
           "J25"
@@ -545,9 +594,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "3e4dc4a7-f8b0-5771-a1d5-03b01f61d8ee"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -583,36 +637,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 24154,
+        "edhrecRank": 24623,
         "edhrecSaltiness": 0.62,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684332",
-              "scryfallId": "56b55e0b-0945-41c9-a4a4-3863798734ab"
-            },
-            "language": "German",
-            "multiverseId": 684332,
-            "name": "Schlachtfeld-Schurke",
-            "text": "Du kannst den Schlachtfeld-Schurken erschöpfen, sowie er angreift. (Er enttappt nicht während deines nächsten Enttappsegments.)\nImmer wenn du eine Kreatur erschöpfst, kannst du eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.",
-            "type": "Kreatur — Schakal, Räuber",
-            "uuid": "ff916df7-5f9e-5d70-a8b8-caa43da1a10b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684439",
-              "scryfallId": "eb8dbaa4-c364-4ede-8ff3-06059b5c8e50"
-            },
-            "language": "Spanish",
-            "multiverseId": 684439,
-            "name": "Saqueador del campo de batalla",
-            "text": "Puedes espolear al Saqueador del campo de batalla en cuanto ataque. (No se enderezará durante tu próximo paso de enderezar.)\nSiempre que espolees una criatura, puedes descartar una carta. Si lo haces, roba una carta.",
-            "type": "Criatura — Bribón chacal",
-            "uuid": "6aee7e40-7ea5-5979-8924-4d6d4dea17bb"
-          },
           {
             "identifiers": {
               "multiverseId": "684546",
@@ -621,9 +651,27 @@
             "language": "French",
             "multiverseId": 684546,
             "name": "Charognard de campagne",
+            "skuIds": {
+              "nonfoil": "acdca7e8-f453-5d7b-8045-13cf6db8bf6f"
+            },
             "text": "Vous pouvez surmener le Charognard de campagne au moment où il attaque. (Il se dégage pas pendant votre prochaine étape de dégagement.)\nÀ chaque fois que vous surmenez une créature, vous pouvez vous défausser d'une carte. Si vous faites ainsi, piochez une carte.",
             "type": "Créature — chacal et gredin",
             "uuid": "6970e490-bbf0-5707-8508-a7251e04eeb4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684332",
+              "scryfallId": "56b55e0b-0945-41c9-a4a4-3863798734ab"
+            },
+            "language": "German",
+            "multiverseId": 684332,
+            "name": "Schlachtfeld-Schurke",
+            "skuIds": {
+              "nonfoil": "86e0576c-30dd-5d03-8233-99587558e671"
+            },
+            "text": "Du kannst den Schlachtfeld-Schurken erschöpfen, sowie er angreift. (Er enttappt nicht während deines nächsten Enttappsegments.)\nImmer wenn du eine Kreatur erschöpfst, kannst du eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.",
+            "type": "Kreatur — Schakal, Räuber",
+            "uuid": "ff916df7-5f9e-5d70-a8b8-caa43da1a10b"
           },
           {
             "identifiers": {
@@ -633,6 +681,9 @@
             "language": "Italian",
             "multiverseId": 684653,
             "name": "Predone dei Campi di Battaglia",
+            "skuIds": {
+              "nonfoil": "585f178e-2aaa-5b19-aac0-e47e80de1d75"
+            },
             "text": "Puoi stremare il Predone dei Campi di Battaglia mentre attacca. (Non STAPperà durante il tuo prossimo STAP.)\nOgniqualvolta stremi una creatura, puoi scartare una carta. Se lo fai, pesca una carta.",
             "type": "Creatura — Farabutto Sciacallo",
             "uuid": "5452544b-5264-52c1-b2db-ba84e7ec1dd7"
@@ -645,14 +696,30 @@
             "language": "Japanese",
             "multiverseId": 684760,
             "name": "戦場のゴミあさり",
+            "skuIds": {
+              "nonfoil": "ad55ad00-7923-57a1-8ca2-21b826f65feb"
+            },
             "text": "戦場のゴミあさりが攻撃するに際し、これを督励してもよい。（これは次のあなたのアンタップ・ステップにアンタップしない。）\nあなたがクリーチャー１体を督励するたび、カード１枚を捨ててもよい。そうしたなら、カード１枚を引く。",
             "type": "クリーチャー — ジャッカル・ならず者",
             "uuid": "e18ad920-06ea-5aa6-b38b-c6c616df4942"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684439",
+              "scryfallId": "eb8dbaa4-c364-4ede-8ff3-06059b5c8e50"
+            },
+            "language": "Spanish",
+            "multiverseId": 684439,
+            "name": "Saqueador del campo de batalla",
+            "skuIds": {
+              "nonfoil": "1f6e2a2b-fdc6-5d40-bba1-b6e13ecdf491"
+            },
+            "text": "Puedes espolear al Saqueador del campo de batalla en cuanto ataque. (No se enderezará durante tu próximo paso de enderezar.)\nSiempre que espolees una criatura, puedes descartar una carta. Si lo haces, roba una carta.",
+            "type": "Criatura — Bribón chacal",
+            "uuid": "6aee7e40-7ea5-5979-8924-4d6d4dea17bb"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305859",
           "cardsphereId": "131143",
@@ -694,6 +761,7 @@
         "name": "Battlefield Scavenger",
         "number": "520",
         "originalText": "You may exert Battlefield Scavenger as it attacks. (It won't untap during your next untap step.)\nWhenever you exert a creature, you may discard a card. If you do, draw a card.",
+        "originalType": "Creature – Jackal Rogue",
         "power": "2",
         "printings": [
           "AKH",
@@ -729,9 +797,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "97909498-003f-5b1e-a44f-c36c75a70512"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -765,38 +838,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 12534,
+        "edhrecRank": 12548,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"To victory! To glory! To eternity!\"",
         "foreignData": [
-          {
-            "flavorText": "„Für den Sieg! Für Ruhm und Ehre! Für die Ewigkeit!\"",
-            "identifiers": {
-              "multiverseId": "684337",
-              "scryfallId": "56a3bec7-0e70-4105-a775-bcfbfba08d87"
-            },
-            "language": "German",
-            "multiverseId": 684337,
-            "name": "Blutdurst-Erwecker",
-            "text": "{T}: Eine Kreatur deiner Wahl erhält Eile bis zum Ende des Zuges. (Sie kann in diesem Zug angreifen und {T}.)",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "7847d5b6-b8a7-518a-933b-a532631637b6"
-          },
-          {
-            "flavorText": "\"¡Por la victoria! ¡Por la gloria! ¡Por la eternidad!\".",
-            "identifiers": {
-              "multiverseId": "684444",
-              "scryfallId": "c4ff4f89-57b5-43c9-9d0a-690532ecedaa"
-            },
-            "language": "Spanish",
-            "multiverseId": 684444,
-            "name": "Instigador de sed de sangre",
-            "text": "{T}: La criatura objetivo gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "da0ef295-303d-5f70-9c4d-6489039678a9"
-          },
           {
             "flavorText": "« Pour la victoire ! Pour la gloire ! Pour l'éternité ! »",
             "identifiers": {
@@ -806,9 +854,28 @@
             "language": "French",
             "multiverseId": 684551,
             "name": "Incitateur à la soif de sang",
+            "skuIds": {
+              "nonfoil": "8651324a-7350-5fc6-bfba-eae3f111e68e"
+            },
             "text": "{T} : Une créature ciblée acquiert la célérité jusqu'à la fin du tour. (Elle peut attaquer et {T} ce tour-ci.)",
             "type": "Créature — humain et guerrier",
             "uuid": "ddf088bb-49b4-5ebd-9647-b637ad64bf07"
+          },
+          {
+            "flavorText": "„Für den Sieg! Für Ruhm und Ehre! Für die Ewigkeit!\"",
+            "identifiers": {
+              "multiverseId": "684337",
+              "scryfallId": "56a3bec7-0e70-4105-a775-bcfbfba08d87"
+            },
+            "language": "German",
+            "multiverseId": 684337,
+            "name": "Blutdurst-Erwecker",
+            "skuIds": {
+              "nonfoil": "684abb46-ebe4-5ee0-8fd2-7c141f36b0a1"
+            },
+            "text": "{T}: Eine Kreatur deiner Wahl erhält Eile bis zum Ende des Zuges. (Sie kann in diesem Zug angreifen und {T}.)",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "7847d5b6-b8a7-518a-933b-a532631637b6"
           },
           {
             "flavorText": "\"Per la vittoria! Per la gloria! Per l'eternità!\"",
@@ -819,6 +886,9 @@
             "language": "Italian",
             "multiverseId": 684658,
             "name": "Fomentatore della Sete di Sangue",
+            "skuIds": {
+              "nonfoil": "db57e1de-b311-5421-86e8-160560ac586b"
+            },
             "text": "{T}: Una creatura bersaglio ha rapidità fino alla fine del turno. (Può attaccare e {T} in questo turno.)",
             "type": "Creatura — Guerriero Umano",
             "uuid": "ed33a439-fae3-5f27-903f-525eee8d8c91"
@@ -832,14 +902,31 @@
             "language": "Japanese",
             "multiverseId": 684765,
             "name": "血に飢えた振起者",
+            "skuIds": {
+              "nonfoil": "bd7ae1b5-3080-53a4-bdaf-c7b6fe336383"
+            },
             "text": "{T}：クリーチャー１体を対象とする。ターン終了時まで、それは速攻を得る。（このターン、それは攻撃したり{T}したりできる。）",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "c81f3df3-e8d3-5895-afd4-d32469c3fe98"
+          },
+          {
+            "flavorText": "\"¡Por la victoria! ¡Por la gloria! ¡Por la eternidad!\".",
+            "identifiers": {
+              "multiverseId": "684444",
+              "scryfallId": "c4ff4f89-57b5-43c9-9d0a-690532ecedaa"
+            },
+            "language": "Spanish",
+            "multiverseId": 684444,
+            "name": "Instigador de sed de sangre",
+            "skuIds": {
+              "nonfoil": "999aecda-21f3-57c7-8ef3-1957d5da34c2"
+            },
+            "text": "{T}: La criatura objetivo gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "da0ef295-303d-5f70-9c4d-6489039678a9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305864",
           "cardsphereId": "131125",
@@ -880,6 +967,7 @@
         "name": "Bloodlust Inciter",
         "number": "525",
         "originalText": "{T}: Target creature gains haste until end of turn. (It can attack and {T} this turn.)",
+        "originalType": "Creature – Human Warrior",
         "power": "1",
         "printings": [
           "AKH",
@@ -894,9 +982,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "38fd313f-525b-5e4f-81c7-9527f94e561d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -930,39 +1023,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 14131,
+        "edhrecRank": 14545,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The fifth cartouche is the final affirmation of glory, granted only to the worthy dead.",
         "foreignData": [
-          {
-            "flavorText": "Die fünfte Kartusche ist das abschließende Zeichen des Ruhms und wird nur den würdigen Toten verliehen.",
-            "identifiers": {
-              "multiverseId": "684341",
-              "scryfallId": "431c1e5e-308a-436c-914f-bb0b5a46588a"
-            },
-            "language": "German",
-            "multiverseId": 684341,
-            "name": "Kartusche des Eifers",
-            "text": "Verzaubert eine Kreatur, die du kontrollierst\nWenn die Kartusche des Eifers ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.\nDie verzauberte Kreatur erhält +1/+1 und hat Eile. (Sie kann angreifen und {T}, egal wann sie unter deine Kontrolle gekommen ist.)",
-            "type": "Verzauberung — Aura, Kartusche",
-            "uuid": "a4dbe2aa-2ca5-59f7-b95b-ade389ee9694"
-          },
-          {
-            "flavorText": "El quinto cartucho es la confirmación definitiva de la gloria, otorgado únicamente a los que mueren con dignidad.",
-            "identifiers": {
-              "multiverseId": "684448",
-              "scryfallId": "6f572af6-b2c1-4652-b1d7-9656178112a0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684448,
-            "name": "Cartucho de fervor",
-            "text": "Encantar criatura que controlas.\nCuando el Cartucho de fervor entre, la criatura objetivo no puede bloquear este turno.\nLa criatura encantada obtiene +1/+1 y tiene la habilidad de prisa. (Puede atacar y {T} sin importar cuándo entró bajo tu control.)",
-            "type": "Encantamiento — Aura cartucho",
-            "uuid": "45a47fe7-fbdb-57b4-8b47-a4041a2f7b7d"
-          },
           {
             "flavorText": "Le cinquième cartouche est la dernière attestation de gloire, accordée uniquement aux morts valeureux.",
             "identifiers": {
@@ -972,9 +1039,28 @@
             "language": "French",
             "multiverseId": 684555,
             "name": "Cartouche de zèle",
+            "skuIds": {
+              "nonfoil": "2a2a8da7-2931-526d-93d9-e271008895df"
+            },
             "text": "Enchanter : une créature que vous contrôlez\nQuand le Cartouche de zèle arrive, une créature ciblée ne peut pas bloquer ce tour-ci.\nLa créature enchantée gagne +1/+1 et a la célérité. (Elle peut attaquer et {T} dès le tour où elle est arrivée sous votre contrôle.)",
             "type": "Enchantement — aura et cartouche",
             "uuid": "cb0b131e-b493-5589-8d92-7825fb261485"
+          },
+          {
+            "flavorText": "Die fünfte Kartusche ist das abschließende Zeichen des Ruhms und wird nur den würdigen Toten verliehen.",
+            "identifiers": {
+              "multiverseId": "684341",
+              "scryfallId": "431c1e5e-308a-436c-914f-bb0b5a46588a"
+            },
+            "language": "German",
+            "multiverseId": 684341,
+            "name": "Kartusche des Eifers",
+            "skuIds": {
+              "nonfoil": "4cae60a0-6270-5bc6-bb41-a6885c985d1d"
+            },
+            "text": "Verzaubert eine Kreatur, die du kontrollierst\nWenn die Kartusche des Eifers ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.\nDie verzauberte Kreatur erhält +1/+1 und hat Eile. (Sie kann angreifen und {T}, egal wann sie unter deine Kontrolle gekommen ist.)",
+            "type": "Verzauberung — Aura, Kartusche",
+            "uuid": "a4dbe2aa-2ca5-59f7-b95b-ade389ee9694"
           },
           {
             "flavorText": "Il quinto cartiglio è la convalida solenne della gloria e viene concesso solo ai caduti prescelti.",
@@ -985,6 +1071,9 @@
             "language": "Italian",
             "multiverseId": 684662,
             "name": "Cartiglio dello Zelo",
+            "skuIds": {
+              "nonfoil": "031dd249-9220-57f2-bcd0-684508261e83"
+            },
             "text": "Incanta creatura che controlli\nQuando il Cartiglio dello Zelo entra, una creatura bersaglio non può bloccare in questo turno.\nLa creatura incantata prende +1/+1 e ha rapidità. (Può attaccare e {T} non appena entra sotto il tuo controllo.)",
             "type": "Incantesimo — Cartiglio Aura",
             "uuid": "805b3663-6f67-505c-a5cc-a79a5b078828"
@@ -998,14 +1087,31 @@
             "language": "Japanese",
             "multiverseId": 684769,
             "name": "激情のカルトーシュ",
+            "skuIds": {
+              "nonfoil": "b5a543b0-441e-57e3-a283-ba61dba971a2"
+            },
             "text": "エンチャント（あなたがコントロールしているクリーチャー）\n激情のカルトーシュが戦場に出たとき、クリーチャー１体を対象とする。このターン、それではブロックできない。\nエンチャントされているクリーチャーは、＋１/＋１の修整を受け速攻を持つ。（それがいつあなたのコントロール下になったかに関係なく、それは攻撃したり{T}したりできる。）",
             "type": "エンチャント — オーラ・カルトーシュ",
             "uuid": "bf361ee1-0ea1-5fca-973a-158f1a6212bb"
+          },
+          {
+            "flavorText": "El quinto cartucho es la confirmación definitiva de la gloria, otorgado únicamente a los que mueren con dignidad.",
+            "identifiers": {
+              "multiverseId": "684448",
+              "scryfallId": "6f572af6-b2c1-4652-b1d7-9656178112a0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684448,
+            "name": "Cartucho de fervor",
+            "skuIds": {
+              "nonfoil": "4f10af2c-1231-5f8b-b48a-6208334f92df"
+            },
+            "text": "Encantar criatura que controlas.\nCuando el Cartucho de fervor entre, la criatura objetivo no puede bloquear este turno.\nLa criatura encantada obtiene +1/+1 y tiene la habilidad de prisa. (Puede atacar y {T} sin importar cuándo entró bajo tu control.)",
+            "type": "Encantamiento — Aura cartucho",
+            "uuid": "45a47fe7-fbdb-57b4-8b47-a4041a2f7b7d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305868",
           "cardsphereId": "131121",
@@ -1050,6 +1156,7 @@
         "name": "Cartouche of Zeal",
         "number": "529",
         "originalText": "Enchant creature you control\nWhen Cartouche of Zeal enters, target creature can't block this turn.\nEnchanted creature gets +1/+1 and has haste. (It can attack and {T} no matter when it came under your control.)",
+        "originalType": "Enchantment – Aura Cartouche",
         "printings": [
           "AKH",
           "AKR",
@@ -1077,9 +1184,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "742056a8-6b44-5991-9987-814f7def321b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1112,39 +1224,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1457,
+        "edhrecRank": 1436,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Never flinch. Never falter. Never fear.",
         "foreignData": [
-          {
-            "flavorText": "Ohne Zögern. Ohne Furcht. Ohne Wiederkehr.",
-            "identifiers": {
-              "multiverseId": "684365",
-              "scryfallId": "686ad227-ebf8-473b-8097-2c106e524205"
-            },
-            "language": "German",
-            "multiverseId": 684365,
-            "name": "Flugstunde",
-            "text": "Opfere eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nDie Flugstunde fügt einem Ziel deiner Wahl Schadenspunkte in Höhe der Stärke der geopferten Kreatur zu.",
-            "type": "Spontanzauber",
-            "uuid": "b613bd0f-87c7-50ef-9f5e-33aff286c50b"
-          },
-          {
-            "flavorText": "Jamás encogerse. Jamás flaquear. Jamás temer.",
-            "identifiers": {
-              "multiverseId": "684472",
-              "scryfallId": "1c642928-8086-4b7d-abdb-eca63cf82e8b"
-            },
-            "language": "Spanish",
-            "multiverseId": 684472,
-            "name": "Arrojar",
-            "text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\nArrojar hace una cantidad de daño a cualquier objetivo igual a la fuerza de la criatura sacrificada.",
-            "type": "Instantáneo",
-            "uuid": "e63b056f-2999-51af-b487-a9e40879ab64"
-          },
           {
             "flavorText": "Ne jamais reculer. Ne jamais faiblir. Ne jamais avoir peur.",
             "identifiers": {
@@ -1154,9 +1240,28 @@
             "language": "French",
             "multiverseId": 684579,
             "name": "Jet",
+            "skuIds": {
+              "nonfoil": "512966c5-d87d-5317-a788-a3fb9a5b1085"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez une créature.\nLe Jet inflige un nombre de blessures égal à la force de la créature sacrifiée à n'importe quelle cible.",
             "type": "Éphémère",
             "uuid": "ab1e4ccc-e055-5c52-aa24-c156bb42c3f3"
+          },
+          {
+            "flavorText": "Ohne Zögern. Ohne Furcht. Ohne Wiederkehr.",
+            "identifiers": {
+              "multiverseId": "684365",
+              "scryfallId": "686ad227-ebf8-473b-8097-2c106e524205"
+            },
+            "language": "German",
+            "multiverseId": 684365,
+            "name": "Flugstunde",
+            "skuIds": {
+              "nonfoil": "f3bd3742-62be-59f9-982b-c660e6d6cbb2"
+            },
+            "text": "Opfere eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nDie Flugstunde fügt einem Ziel deiner Wahl Schadenspunkte in Höhe der Stärke der geopferten Kreatur zu.",
+            "type": "Spontanzauber",
+            "uuid": "b613bd0f-87c7-50ef-9f5e-33aff286c50b"
           },
           {
             "flavorText": "Mai tirarsi indietro, mai titubare, mai temere.",
@@ -1167,6 +1272,9 @@
             "language": "Italian",
             "multiverseId": 684686,
             "name": "Scagliare",
+            "skuIds": {
+              "nonfoil": "f26a66d9-c13e-5d94-9ea6-31b78a8ff0f6"
+            },
             "text": "Come costo addizionale per lanciare questa magia, sacrifica una creatura.\nScagliare infligge danno pari alla forza della creatura sacrificata a un qualsiasi bersaglio.",
             "type": "Istantaneo",
             "uuid": "e2d00b31-05ed-587c-86e5-c8ac118f5c2a"
@@ -1180,14 +1288,31 @@
             "language": "Japanese",
             "multiverseId": 684793,
             "name": "投げ飛ばし",
+            "skuIds": {
+              "nonfoil": "58e9a971-1945-5309-be99-9514fe36713f"
+            },
             "text": "この呪文を唱えるための追加コストとして、クリーチャー１体を生け贄に捧げる。\n１つを対象とする。投げ飛ばしはそれに、その生け贄に捧げたクリーチャーのパワーに等しい点数のダメージを与える。",
             "type": "インスタント",
             "uuid": "81eb3fa2-8065-509e-a79d-84cba200693c"
+          },
+          {
+            "flavorText": "Jamás encogerse. Jamás flaquear. Jamás temer.",
+            "identifiers": {
+              "multiverseId": "684472",
+              "scryfallId": "1c642928-8086-4b7d-abdb-eca63cf82e8b"
+            },
+            "language": "Spanish",
+            "multiverseId": 684472,
+            "name": "Arrojar",
+            "skuIds": {
+              "nonfoil": "cf3d7abb-6220-51cb-92ec-238f1049ad39"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\nArrojar hace una cantidad de daño a cualquier objetivo igual a la fuerza de la criatura sacrificada.",
+            "type": "Instantáneo",
+            "uuid": "e63b056f-2999-51af-b487-a9e40879ab64"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305892",
           "cardsphereId": "131068",
@@ -1231,6 +1356,7 @@
         "name": "Fling",
         "number": "553",
         "originalText": "As an additional cost to cast this spell, sacrifice a creature.\nFling deals damage equal to the sacrificed creature's power to any target.",
+        "originalType": "Instant",
         "printings": [
           "AKH",
           "DCI",
@@ -1270,9 +1396,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "48a15f6e-72de-50de-847d-87cdd51cb766"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1302,39 +1433,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 17406,
+        "edhrecRank": 17608,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The minotaur stared at the Eternal bearing down on him—the embodiment of deadly skill he had aspired to become.",
         "foreignData": [
-          {
-            "flavorText": "Sie bluten nicht und sie werden nicht müde. Sie haben die Schwächen der Sterblichkeit hinter sich gelassen.",
-            "identifiers": {
-              "multiverseId": "684383",
-              "scryfallId": "11a628a0-117b-403e-8abc-07ffdfc2fad8"
-            },
-            "language": "German",
-            "multiverseId": 684383,
-            "name": "Entzündete Wut",
-            "text": "Eine Kreatur deiner Wahl erhält +1/+0 und Erstschlag bis zum Ende des Zuges. (Sie fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
-            "type": "Spontanzauber",
-            "uuid": "d9b914c3-da49-5260-aa46-10cc43e15a97"
-          },
-          {
-            "flavorText": "El minotauro contempló al eterno que se le echaba encima; era la encarnación de la destreza letal que aspiró a poseer.",
-            "identifiers": {
-              "multiverseId": "684490",
-              "scryfallId": "b5f67709-842e-4a3e-a48a-93bee53c96c9"
-            },
-            "language": "Spanish",
-            "multiverseId": 684490,
-            "name": "Furia encendida",
-            "text": "La criatura objetivo obtiene +1/+0 y gana la habilidad de dañar primero hasta el final del turno. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
-            "type": "Instantáneo",
-            "uuid": "a145a73d-7621-595a-804c-2c48ec1a3790"
-          },
           {
             "flavorText": "Le minotaure regarda l'Éternel qui fonçait sur lui, personnification des compétences mortelles qu'il avait espéré devenir.",
             "identifiers": {
@@ -1344,9 +1449,28 @@
             "language": "French",
             "multiverseId": 684597,
             "name": "Fureur embrasée",
+            "skuIds": {
+              "nonfoil": "248217ad-0848-5a9f-b23a-980d37ae9537"
+            },
             "text": "Une créature ciblée gagne +1/+0 et acquiert l'initiative jusqu'à la fin du tour. (Elle inflige des blessures de combat avant les créatures sans l'initiative.)",
             "type": "Éphémère",
             "uuid": "a28c0d3d-0a4f-5368-9820-432b9711e41d"
+          },
+          {
+            "flavorText": "Sie bluten nicht und sie werden nicht müde. Sie haben die Schwächen der Sterblichkeit hinter sich gelassen.",
+            "identifiers": {
+              "multiverseId": "684383",
+              "scryfallId": "11a628a0-117b-403e-8abc-07ffdfc2fad8"
+            },
+            "language": "German",
+            "multiverseId": 684383,
+            "name": "Entzündete Wut",
+            "skuIds": {
+              "nonfoil": "c7c4d4a7-b046-52f9-be66-7e8ca7e61f1c"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +1/+0 und Erstschlag bis zum Ende des Zuges. (Sie fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+            "type": "Spontanzauber",
+            "uuid": "d9b914c3-da49-5260-aa46-10cc43e15a97"
           },
           {
             "flavorText": "Il minotauro fissò l'Eterno che si lanciava su di lui, personificazione della letale abilità a cui aveva sempre aspirato.",
@@ -1357,6 +1481,9 @@
             "language": "Italian",
             "multiverseId": 684704,
             "name": "Furia Infuocata",
+            "skuIds": {
+              "nonfoil": "373a731e-b451-59e1-94f4-fd5becb9c156"
+            },
             "text": "Una creatura bersaglio prende +1/+0 e ha attacco improvviso fino alla fine del turno. (Infligge danno da combattimento prima delle creature senza attacco improvviso.)",
             "type": "Istantaneo",
             "uuid": "785d39a1-6030-527b-b9ab-75222e8c8b9b"
@@ -1370,14 +1497,31 @@
             "language": "Japanese",
             "multiverseId": 684811,
             "name": "火をつける怒り",
+            "skuIds": {
+              "nonfoil": "f4f3c5b5-ddf8-5cdb-9452-24a7f5e40a1b"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋１/＋０の修整を受け先制攻撃を得る。（これは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
             "type": "インスタント",
             "uuid": "046ddd13-4e37-596d-80d8-3f57939c27bf"
+          },
+          {
+            "flavorText": "El minotauro contempló al eterno que se le echaba encima; era la encarnación de la destreza letal que aspiró a poseer.",
+            "identifiers": {
+              "multiverseId": "684490",
+              "scryfallId": "b5f67709-842e-4a3e-a48a-93bee53c96c9"
+            },
+            "language": "Spanish",
+            "multiverseId": 684490,
+            "name": "Furia encendida",
+            "skuIds": {
+              "nonfoil": "43d80919-56e4-576a-af89-49d9b19fe1ba"
+            },
+            "text": "La criatura objetivo obtiene +1/+0 y gana la habilidad de dañar primero hasta el final del turno. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)",
+            "type": "Instantáneo",
+            "uuid": "a145a73d-7621-595a-804c-2c48ec1a3790"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305910",
           "cardsphereId": "131034",
@@ -1424,6 +1568,7 @@
         "name": "Kindled Fury",
         "number": "571",
         "originalText": "Target creature gets +1/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
+        "originalType": "Instant",
         "printings": [
           "DTK",
           "FDN",
@@ -1447,9 +1592,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "64abcb90-120f-581e-bf93-de6a40faf3cf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1479,39 +1629,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20149,
+        "edhrecRank": 20911,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Those wings are no advantage. I will pin them to the ceiling of the Hekma.\"",
         "foreignData": [
-          {
-            "flavorText": "„Was helfen dir zwei Flügel, wenn ich zwei Dutzend Pfeile habe?\"",
-            "identifiers": {
-              "multiverseId": "684390",
-              "scryfallId": "3814b5a2-a157-4b0d-a2d3-68de28f1d435"
-            },
-            "language": "German",
-            "multiverseId": 684390,
-            "name": "Minotauren-Scharfschützin",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\n{1}{R}: Die Minotauren-Scharfschützin erhält +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Minotaurus, Bogenschütze",
-            "uuid": "a5498e58-3762-5c11-b52e-a0d2bf55218b"
-          },
-          {
-            "flavorText": "\"Esas alas no son una ventaja. Las clavaré en el techo de la Hekma\".",
-            "identifiers": {
-              "multiverseId": "684497",
-              "scryfallId": "b1422f43-9093-453d-9fb2-9e71176a8a6b"
-            },
-            "language": "Spanish",
-            "multiverseId": 684497,
-            "name": "Minotauro tirocertero",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\n{1}{R}: La Minotauro tirocertero obtiene +1/+0 hasta el final del turno.",
-            "type": "Criatura — Arquero minotauro",
-            "uuid": "b5502179-d6e6-5b48-a9b4-505f92633e3d"
-          },
           {
             "flavorText": "« Ces ailes ne vous avantagent pas. Je les épinglerai à la voûte de l'Hekma. »",
             "identifiers": {
@@ -1521,9 +1645,28 @@
             "language": "French",
             "multiverseId": 684604,
             "name": "Buteuse minotaure",
+            "skuIds": {
+              "nonfoil": "2fdcef91-e411-5e15-a7e0-1aaa65afefe8"
+            },
             "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\n{1}{R} : La Buteuse minotaure gagne +1/+0 jusqu'à la fin du tour.",
             "type": "Créature — minotaure et archer",
             "uuid": "8c0663cb-21d4-5ca2-81a3-ae9475f50d7c"
+          },
+          {
+            "flavorText": "„Was helfen dir zwei Flügel, wenn ich zwei Dutzend Pfeile habe?\"",
+            "identifiers": {
+              "multiverseId": "684390",
+              "scryfallId": "3814b5a2-a157-4b0d-a2d3-68de28f1d435"
+            },
+            "language": "German",
+            "multiverseId": 684390,
+            "name": "Minotauren-Scharfschützin",
+            "skuIds": {
+              "nonfoil": "ce4d52d8-34b2-5f60-8416-fa6fe1c15670"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\n{1}{R}: Die Minotauren-Scharfschützin erhält +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Minotaurus, Bogenschütze",
+            "uuid": "a5498e58-3762-5c11-b52e-a0d2bf55218b"
           },
           {
             "flavorText": "\"Quelle ali non sono un'arma vincente. Le inchioderò alla volta dell'Hekma.\"",
@@ -1534,6 +1677,9 @@
             "language": "Italian",
             "multiverseId": 684711,
             "name": "Minotaura Colposicuro",
+            "skuIds": {
+              "nonfoil": "0e3e5831-8be3-508f-b764-184beb762c7e"
+            },
             "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\n{1}{R}: La Minotaura Colposicuro prende +1/+0 fino alla fine del turno.",
             "type": "Creatura — Arciere Minotauro",
             "uuid": "401d9240-b4a5-5b84-b7c2-dfbeaf1cfdd9"
@@ -1547,14 +1693,31 @@
             "language": "Japanese",
             "multiverseId": 684818,
             "name": "ミノタウルスの名射手",
+            "skuIds": {
+              "nonfoil": "e7bfc4da-edcb-5d8a-a013-fa78e47b811f"
+            },
             "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\n{1}{R}：ターン終了時まで、ミノタウルスの名射手は＋１/＋０の修整を受ける。",
             "type": "クリーチャー — ミノタウルス・射手",
             "uuid": "da0c7aab-2ebd-525d-91cf-2d9c9bb1a29d"
+          },
+          {
+            "flavorText": "\"Esas alas no son una ventaja. Las clavaré en el techo de la Hekma\".",
+            "identifiers": {
+              "multiverseId": "684497",
+              "scryfallId": "b1422f43-9093-453d-9fb2-9e71176a8a6b"
+            },
+            "language": "Spanish",
+            "multiverseId": 684497,
+            "name": "Minotauro tirocertero",
+            "skuIds": {
+              "nonfoil": "4de80b8d-a7c8-507f-924c-6f40895535b7"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\n{1}{R}: La Minotauro tirocertero obtiene +1/+0 hasta el final del turno.",
+            "type": "Criatura — Arquero minotauro",
+            "uuid": "b5502179-d6e6-5b48-a9b4-505f92633e3d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305917",
           "cardsphereId": "131021",
@@ -1599,6 +1762,7 @@
         "name": "Minotaur Sureshot",
         "number": "578",
         "originalText": "Reach (This creature can block creatures with flying.)\n{1}{R}: Minotaur Sureshot gets +1/+0 until end of turn.",
+        "originalType": "Creature – Minotaur Archer",
         "power": "2",
         "printings": [
           "AKH",
@@ -1612,9 +1776,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "51649da9-02d6-5023-91da-dea8b4acf7d4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1648,36 +1817,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 26301,
+        "edhrecRank": 26792,
         "edhrecSaltiness": 0.09,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684393",
-              "scryfallId": "60fd6473-3252-461a-982a-ff3b04060e6c"
-            },
-            "language": "German",
-            "multiverseId": 684393,
-            "name": "Verstricker der Nef-Saat",
-            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nDu kannst den Verstricker der Nef-Saat erschöpfen, sowie er angreift. Wenn du dies tust, erhält er +1/+2 bis zum Ende des Zuges. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
-            "type": "Kreatur — Mensch, Krieger",
-            "uuid": "0a3addc0-138d-5b00-af6b-5c95f7cc9134"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684500",
-              "scryfallId": "5c404325-50ed-4431-8523-f99d60f03bc3"
-            },
-            "language": "Spanish",
-            "multiverseId": 684500,
-            "name": "Enredador de la simiente Nef",
-            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nPuedes espolear al Enredador de la simiente Nef en cuanto ataque. Cuando lo hagas, obtiene +1/+2 hasta el final del turno. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
-            "type": "Criatura — Guerrero humano",
-            "uuid": "6b39df82-47f0-5418-a29e-c82987d24b19"
-          },
           {
             "identifiers": {
               "multiverseId": "684607",
@@ -1686,9 +1831,27 @@
             "language": "French",
             "multiverseId": 684607,
             "name": "Enchevêtreur de la moisson Nef",
+            "skuIds": {
+              "nonfoil": "e9591b89-d63a-5c26-a9f9-24c432f0f44f"
+            },
             "text": "Piétinement (Cette créature peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)\nVous pouvez surmener l'Enchevêtreur de la moisson Nef au moment où il attaque. Quand vous faites ainsi, il gagne +1/+2 jusqu'à la fin du tour. (Une créature surmenée ne se dégage pas pendant votre prochaine étape de dégagement.)",
             "type": "Créature — humain et guerrier",
             "uuid": "18ce80ab-6bfe-55d3-98c2-9c72288dc09e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684393",
+              "scryfallId": "60fd6473-3252-461a-982a-ff3b04060e6c"
+            },
+            "language": "German",
+            "multiverseId": 684393,
+            "name": "Verstricker der Nef-Saat",
+            "skuIds": {
+              "nonfoil": "55459e25-06bf-5bcc-b6e7-b2b5c2fd89d1"
+            },
+            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nDu kannst den Verstricker der Nef-Saat erschöpfen, sowie er angreift. Wenn du dies tust, erhält er +1/+2 bis zum Ende des Zuges. (Eine erschöpfte Kreatur enttappt nicht während deines nächsten Enttappsegments.)",
+            "type": "Kreatur — Mensch, Krieger",
+            "uuid": "0a3addc0-138d-5b00-af6b-5c95f7cc9134"
           },
           {
             "identifiers": {
@@ -1698,6 +1861,9 @@
             "language": "Italian",
             "multiverseId": 684714,
             "name": "Intrappolatore della Messe Nef",
+            "skuIds": {
+              "nonfoil": "280be8f6-9037-50ac-af14-56a708986286"
+            },
             "text": "Travolgere (Questa creatura può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)\nPuoi stremare l'Intrappolatore della Messe Nef mentre attacca. Quando lo fai, prende +1/+2 fino alla fine del turno. (Una creatura stremata non STAPpa durante il tuo prossimo STAP.)",
             "type": "Creatura — Guerriero Umano",
             "uuid": "6f179cc0-ac2c-5b83-8dee-d49c32a247bc"
@@ -1710,14 +1876,30 @@
             "language": "Japanese",
             "multiverseId": 684821,
             "name": "ネフ一門の鉄球戦士",
+            "skuIds": {
+              "nonfoil": "430c204d-ff0c-544f-88ae-32a480b140a2"
+            },
             "text": "トランプル（このクリーチャーは余剰の戦闘ダメージを、これが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）\nネフ一門の鉄球戦士が攻撃するに際し、これを督励してもよい。そうしたとき、ターン終了時まで、これは＋１/＋２の修整を受ける。（督励されたクリーチャーは、次のあなたのアンタップ・ステップにアンタップしない。）",
             "type": "クリーチャー — 人間・戦士",
             "uuid": "e18cf551-3d72-51ba-85a6-8cce9a0266b2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684500",
+              "scryfallId": "5c404325-50ed-4431-8523-f99d60f03bc3"
+            },
+            "language": "Spanish",
+            "multiverseId": 684500,
+            "name": "Enredador de la simiente Nef",
+            "skuIds": {
+              "nonfoil": "aaf79692-5313-5f7f-b956-d86d5c812bed"
+            },
+            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nPuedes espolear al Enredador de la simiente Nef en cuanto ataque. Cuando lo hagas, obtiene +1/+2 hasta el final del turno. (Una criatura espoleada no se enderezará durante tu próximo paso de enderezar.)",
+            "type": "Criatura — Guerrero humano",
+            "uuid": "6b39df82-47f0-5418-a29e-c82987d24b19"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305920",
           "cardsphereId": "131017",
@@ -1763,6 +1945,7 @@
         "name": "Nef-Crop Entangler",
         "number": "581",
         "originalText": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nYou may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
+        "originalType": "Creature – Human Warrior",
         "power": "2",
         "printings": [
           "AKH",
@@ -1794,9 +1977,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "78425bcc-0fca-5cb8-844e-acdc82bfe151"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1830,39 +2018,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 27195,
+        "edhrecRank": 27551,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Eternal glory awaits you, my child.\"",
         "foreignData": [
-          {
-            "flavorText": "„Mein Kind, ewiger Ruhm erwartet dich.\"",
-            "identifiers": {
-              "multiverseId": "684416",
-              "scryfallId": "86c61e97-424c-4ae8-84ef-5afe81415239"
-            },
-            "language": "German",
-            "multiverseId": 684416,
-            "name": "Prüfung des Eifers",
-            "text": "Wenn die Prüfung des Eifers ins Spiel kommt, fügt sie einem Ziel deiner Wahl 3 Schadenspunkte zu.\nWenn eine Kartusche unter deiner Kontrolle ins Spiel kommt, bringe die Prüfung des Eifers auf die Hand ihres Besitzers zurück.",
-            "type": "Verzauberung",
-            "uuid": "630904d2-051a-5198-8ef4-8d96e2f35d22"
-          },
-          {
-            "flavorText": "\"La gloria eterna te espera, hijo mío\".",
-            "identifiers": {
-              "multiverseId": "684523",
-              "scryfallId": "003dbe03-2899-43b1-b995-125f998ed656"
-            },
-            "language": "Spanish",
-            "multiverseId": 684523,
-            "name": "Prueba de fervor",
-            "text": "Cuando la Prueba de fervor entre, hace 3 puntos de daño a cualquier objetivo.\nCuando un Cartucho que controlas entre, regresa la Prueba de fervor a la mano de su propietario.",
-            "type": "Encantamiento",
-            "uuid": "354924c9-84ce-5729-8ff2-796b4bd0f844"
-          },
           {
             "flavorText": "« Une gloire éternelle t'attend, mon enfant. »",
             "identifiers": {
@@ -1872,9 +2034,28 @@
             "language": "French",
             "multiverseId": 684630,
             "name": "Épreuve de zèle",
+            "skuIds": {
+              "nonfoil": "9637e49d-ec97-5ebc-8232-985dbfb8f2db"
+            },
             "text": "Quand l'Épreuve de zèle arrive, elle inflige 3 blessures à n'importe quelle cible.\nQuand un cartouche que vous contrôlez arrive, renvoyez l'Épreuve de zèle dans la main de son propriétaire.",
             "type": "Enchantement",
             "uuid": "f7e63b77-46ef-5b3c-a10b-960431bf672d"
+          },
+          {
+            "flavorText": "„Mein Kind, ewiger Ruhm erwartet dich.\"",
+            "identifiers": {
+              "multiverseId": "684416",
+              "scryfallId": "86c61e97-424c-4ae8-84ef-5afe81415239"
+            },
+            "language": "German",
+            "multiverseId": 684416,
+            "name": "Prüfung des Eifers",
+            "skuIds": {
+              "nonfoil": "1bd2e475-8745-585e-b41b-f4b3c7e4d80d"
+            },
+            "text": "Wenn die Prüfung des Eifers ins Spiel kommt, fügt sie einem Ziel deiner Wahl 3 Schadenspunkte zu.\nWenn eine Kartusche unter deiner Kontrolle ins Spiel kommt, bringe die Prüfung des Eifers auf die Hand ihres Besitzers zurück.",
+            "type": "Verzauberung",
+            "uuid": "630904d2-051a-5198-8ef4-8d96e2f35d22"
           },
           {
             "flavorText": "\"La gloria eterna ti attende, figlio mio.\"",
@@ -1885,6 +2066,9 @@
             "language": "Italian",
             "multiverseId": 684737,
             "name": "Ordalia dello Zelo",
+            "skuIds": {
+              "nonfoil": "49c824b1-0da9-5291-a8bd-7a5735b993e6"
+            },
             "text": "Quando l'Ordalia dello Zelo entra, infligge 3 danni a un qualsiasi bersaglio.\nQuando un Cartiglio che controlli entra, fai tornare l'Ordalia dello Zelo in mano al suo proprietario.",
             "type": "Incantesimo",
             "uuid": "d9e2f5c4-2d64-574a-9a15-490227fcd09e"
@@ -1898,14 +2082,31 @@
             "language": "Japanese",
             "multiverseId": 684844,
             "name": "激情の試練",
+            "skuIds": {
+              "nonfoil": "a966045a-d0b8-531e-826b-fa55e54a57e6"
+            },
             "text": "激情の試練が戦場に出たとき、１つを対象とする。これはそれに３点のダメージを与える。\nあなたがコントロールしているカルトーシュが戦場に出たとき、激情の試練をオーナーの手札に戻す。",
             "type": "エンチャント",
             "uuid": "aff14847-fe08-5ad6-9d55-1c1658462ff4"
+          },
+          {
+            "flavorText": "\"La gloria eterna te espera, hijo mío\".",
+            "identifiers": {
+              "multiverseId": "684523",
+              "scryfallId": "003dbe03-2899-43b1-b995-125f998ed656"
+            },
+            "language": "Spanish",
+            "multiverseId": 684523,
+            "name": "Prueba de fervor",
+            "skuIds": {
+              "nonfoil": "4edb8c86-928e-5420-941b-31ef082a1ef6"
+            },
+            "text": "Cuando la Prueba de fervor entre, hace 3 puntos de daño a cualquier objetivo.\nCuando un Cartucho que controlas entre, regresa la Prueba de fervor a la mano de su propietario.",
+            "type": "Encantamiento",
+            "uuid": "354924c9-84ce-5729-8ff2-796b4bd0f844"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305943",
           "cardsphereId": "130984",
@@ -1944,6 +2145,7 @@
         "name": "Trial of Zeal",
         "number": "604",
         "originalText": "When Trial of Zeal enters, it deals 3 damage to any target.\nWhen a Cartouche you control enters, return Trial of Zeal to its owner's hand.",
+        "originalType": "Enchantment",
         "printings": [
           "AKH",
           "AKR",
@@ -1962,9 +2164,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "391ff6bc-510e-52a1-8d86-a2881f0cc572"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1994,39 +2201,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 25031,
+        "edhrecRank": 25616,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Shoulder to shoulder until blade must turn against blade.",
         "foreignData": [
-          {
-            "flavorText": "Seite an Seite, bis Klinge auf Klinge trifft.",
-            "identifiers": {
-              "multiverseId": "684417",
-              "scryfallId": "7e7e71ad-bb5f-40fe-9d65-07aba6727385"
-            },
-            "language": "German",
-            "multiverseId": 684417,
-            "name": "Starkherz-Zwillinge",
-            "text": "Du kannst die Starkherz-Zwillinge erschöpfen, sowie sie angreifen. (Sie enttappen nicht während deines nächsten Enttappsegments.)\nImmer wenn du eine Kreatur erschöpfst, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Schakal, Krieger",
-            "uuid": "b1d8f3d9-fbae-59fc-a235-1e741b6266d0"
-          },
-          {
-            "flavorText": "Codo con codo hasta que el filo deba volverse contra el filo.",
-            "identifiers": {
-              "multiverseId": "684524",
-              "scryfallId": "212cacf5-2375-47ae-b687-bb95090581aa"
-            },
-            "language": "Spanish",
-            "multiverseId": 684524,
-            "name": "Mellizos almafirme",
-            "text": "Puedes espolear a los Mellizos almafirme en cuanto ataquen. (No se enderezarán durante tu próximo paso de enderezar.)\nSiempre que espolees una criatura, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Criatura — Guerrero chacal",
-            "uuid": "adaf8eff-da99-5f18-9bc3-5c5c0c1bc37c"
-          },
           {
             "flavorText": "Côte à côte jusqu'à ce que leurs lames soient face à face.",
             "identifiers": {
@@ -2036,9 +2217,28 @@
             "language": "French",
             "multiverseId": 684631,
             "name": "Jumeaux au cœur pur",
+            "skuIds": {
+              "nonfoil": "babd6ac5-1075-5466-ac27-54c30a05e048"
+            },
             "text": "Vous pouvez surmener les Jumeaux au cœur pur au moment où ils attaquent. (Ils se dégagent pas pendant votre prochaine étape de dégagement.)\nÀ chaque fois que vous surmenez une créature, les créatures que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Créature — chacal et guerrier",
             "uuid": "e85b45dd-169e-5da3-a5e6-69af17b3b1f1"
+          },
+          {
+            "flavorText": "Seite an Seite, bis Klinge auf Klinge trifft.",
+            "identifiers": {
+              "multiverseId": "684417",
+              "scryfallId": "7e7e71ad-bb5f-40fe-9d65-07aba6727385"
+            },
+            "language": "German",
+            "multiverseId": 684417,
+            "name": "Starkherz-Zwillinge",
+            "skuIds": {
+              "nonfoil": "8fc8dc29-6ce8-593e-824d-f6fede41450e"
+            },
+            "text": "Du kannst die Starkherz-Zwillinge erschöpfen, sowie sie angreifen. (Sie enttappen nicht während deines nächsten Enttappsegments.)\nImmer wenn du eine Kreatur erschöpfst, erhalten Kreaturen, die du kontrollierst, +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Schakal, Krieger",
+            "uuid": "b1d8f3d9-fbae-59fc-a235-1e741b6266d0"
           },
           {
             "flavorText": "Fianco a fianco finché non verrà il momento di incrociare le lame.",
@@ -2049,6 +2249,9 @@
             "language": "Italian",
             "multiverseId": 684738,
             "name": "Gemelli dal Cuore Saldo",
+            "skuIds": {
+              "nonfoil": "bd1072d0-f66c-55dd-a391-184dfd37877a"
+            },
             "text": "Puoi stremare i Gemelli dal Cuore Saldo mentre attaccano. (Non STAPperanno durante il tuo prossimo STAP.)\nOgniqualvolta stremi una creatura, le creature che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Creatura — Guerriero Sciacallo",
             "uuid": "dacb6716-e4e2-5c14-863c-11dc2b6d975e"
@@ -2062,14 +2265,31 @@
             "language": "Japanese",
             "multiverseId": 684845,
             "name": "信念の双子",
+            "skuIds": {
+              "nonfoil": "39e98e16-34df-5894-b4ab-1c4f1d53d6e6"
+            },
             "text": "信念の双子が攻撃するに際し、これを督励してもよい。（これは次のあなたのアンタップ・ステップにアンタップしない。）\nあなたがクリーチャー１体を督励するたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋０の修整を受ける。",
             "type": "クリーチャー — ジャッカル・戦士",
             "uuid": "3b7bbea5-6d30-5514-9558-916333cd2b90"
+          },
+          {
+            "flavorText": "Codo con codo hasta que el filo deba volverse contra el filo.",
+            "identifiers": {
+              "multiverseId": "684524",
+              "scryfallId": "212cacf5-2375-47ae-b687-bb95090581aa"
+            },
+            "language": "Spanish",
+            "multiverseId": 684524,
+            "name": "Mellizos almafirme",
+            "skuIds": {
+              "nonfoil": "e634b3b7-2433-595c-8e09-7cc08fb0dbdb"
+            },
+            "text": "Puedes espolear a los Mellizos almafirme en cuanto ataquen. (No se enderezarán durante tu próximo paso de enderezar.)\nSiempre que espolees una criatura, las criaturas que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Criatura — Guerrero chacal",
+            "uuid": "adaf8eff-da99-5f18-9bc3-5c5c0c1bc37c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305944",
           "cardsphereId": "130983",
@@ -2111,6 +2331,7 @@
         "name": "Trueheart Twins",
         "number": "605",
         "originalText": "You may exert Trueheart Twins as it attacks. (It won't untap during your next untap step.)\nWhenever you exert a creature, creatures you control get +1/+0 until end of turn.",
+        "originalType": "Creature – Jackal Warrior",
         "power": "4",
         "printings": [
           "AKH",
@@ -2145,9 +2366,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c08e3c56-bbe6-50c4-a5cf-e3caaa68cded"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2179,39 +2405,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2221,9 +2421,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2234,6 +2453,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2247,14 +2469,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2292,10 +2531,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2304,6 +2545,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2311,9 +2559,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2348,36 +2601,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2387,6 +2635,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2398,18 +2649,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2422,7 +2689,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2450,6 +2716,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2523,6 +2790,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2685,15 +2953,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2736,36 +3013,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2775,6 +3047,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2786,18 +3061,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2810,7 +3101,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2838,6 +3128,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2911,6 +3202,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3073,15 +3365,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3124,36 +3425,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3163,6 +3459,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3174,18 +3473,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3198,7 +3513,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3226,6 +3540,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3299,6 +3614,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3461,15 +3777,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3485,8 +3810,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3501,5 +3826,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "1712e569bf7b2d"
   }
 }

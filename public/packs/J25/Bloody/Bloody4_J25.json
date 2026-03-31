@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "d5a71226f124b0"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,36 +22,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 15169,
+        "edhrecRank": 15422,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684355",
-              "scryfallId": "da175527-a2d8-4452-b33e-c9e104c54ca1"
-            },
-            "language": "German",
-            "multiverseId": 684355,
-            "name": "Marodeur aus Falkenrath",
-            "text": "Fliegend\nEile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nImmer wenn der Marodeur aus Falkenrath einem Spieler Kampfschaden zufügt, lege zwei +1/+1-Marken auf ihn.",
-            "type": "Kreatur — Vampir, Krieger",
-            "uuid": "6dc9ef72-4ab2-57ea-98fc-a718eae93465"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684462",
-              "scryfallId": "0a9a0249-a582-464f-910b-175c4d7e0f25"
-            },
-            "language": "Spanish",
-            "multiverseId": 684462,
-            "name": "Merodeadores de Falkenrath",
-            "text": "Vuela.\nPrisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nSiempre que los Merodeadores de Falkenrath hagan daño de combate a un jugador, pon dos contadores +1/+1 sobre ellos.",
-            "type": "Criatura — Guerrero vampiro",
-            "uuid": "bd7c4abf-a575-5a19-ab5d-0547ecb01320"
-          },
           {
             "identifiers": {
               "multiverseId": "684569",
@@ -65,9 +36,27 @@
             "language": "French",
             "multiverseId": 684569,
             "name": "Maraudeurs Falkenrath",
+            "skuIds": {
+              "nonfoil": "77d4f745-687a-5401-a283-9ce4b05a6fdc"
+            },
             "text": "Vol\nCélérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)\nÀ chaque fois que les Maraudeurs Falkenrath infligent des blessures de combat à un joueur, mettez deux marqueurs +1/+1 sur eux.",
             "type": "Créature — vampire et guerrier",
             "uuid": "5a716ab4-f133-5620-9b19-c5e530967843"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684355",
+              "scryfallId": "da175527-a2d8-4452-b33e-c9e104c54ca1"
+            },
+            "language": "German",
+            "multiverseId": 684355,
+            "name": "Marodeur aus Falkenrath",
+            "skuIds": {
+              "nonfoil": "fe33154c-1de7-5f22-9095-11ed9729f961"
+            },
+            "text": "Fliegend\nEile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nImmer wenn der Marodeur aus Falkenrath einem Spieler Kampfschaden zufügt, lege zwei +1/+1-Marken auf ihn.",
+            "type": "Kreatur — Vampir, Krieger",
+            "uuid": "6dc9ef72-4ab2-57ea-98fc-a718eae93465"
           },
           {
             "identifiers": {
@@ -77,6 +66,9 @@
             "language": "Italian",
             "multiverseId": 684676,
             "name": "Predoni Falkenrath",
+            "skuIds": {
+              "nonfoil": "45fc96cd-cd2e-5725-b1cb-8161ea6921b7"
+            },
             "text": "Volare\nRapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)\nOgniqualvolta i Predoni Falkenrath infliggono danno da combattimento a un giocatore, metti due segnalini +1/+1 sui Predoni Falkenrath.",
             "type": "Creatura — Guerriero Vampiro",
             "uuid": "5172c1e2-daf9-5c53-bde4-eacc3c60978a"
@@ -89,14 +81,30 @@
             "language": "Japanese",
             "multiverseId": 684783,
             "name": "ファルケンラスの匪賊",
+            "skuIds": {
+              "nonfoil": "1e7b9686-1712-5d70-9090-01bb6ae738d9"
+            },
             "text": "飛行\n速攻（このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）\nファルケンラスの匪賊がプレイヤー１人に戦闘ダメージを与えるたび、これの上に＋１/＋１カウンター２個を置く。",
             "type": "クリーチャー — 吸血鬼・戦士",
             "uuid": "275593d6-fb82-5db6-a0f4-446bc98f452e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684462",
+              "scryfallId": "0a9a0249-a582-464f-910b-175c4d7e0f25"
+            },
+            "language": "Spanish",
+            "multiverseId": 684462,
+            "name": "Merodeadores de Falkenrath",
+            "skuIds": {
+              "nonfoil": "dbcdf6d8-1f35-5ef1-98fc-07ae20108fad"
+            },
+            "text": "Vuela.\nPrisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nSiempre que los Merodeadores de Falkenrath hagan daño de combate a un jugador, pon dos contadores +1/+1 sobre ellos.",
+            "type": "Criatura — Guerrero vampiro",
+            "uuid": "bd7c4abf-a575-5a19-ab5d-0547ecb01320"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305882",
           "cardsphereId": "131095",
@@ -139,6 +147,7 @@
         "name": "Falkenrath Marauders",
         "number": "543",
         "originalText": "Flying\nHaste (This creature can attack and {T} as soon as it comes under your control.)\nWhenever Falkenrath Marauders deals combat damage to a player, put two +1/+1 counters on it.",
+        "originalType": "Creature – Vampire Warrior",
         "power": "2",
         "printings": [
           "ISD",
@@ -152,9 +161,14 @@
         "rarity": "rare",
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2d4e2815-fad0-5ee0-852e-69f82d9a873b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -189,36 +203,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 7274,
+        "edhrecRank": 6619,
         "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680977",
-              "scryfallId": "d2de5090-8d14-47af-959a-68b84e16a67f"
-            },
-            "language": "German",
-            "multiverseId": 680977,
-            "name": "Ivora, unersättliche Erbin",
-            "text": "Verursacht Trampelschaden\nWenn Ivora, unersättliche Erbin, ins Spiel kommt und immer wenn sie einem Spieler Kampfschaden zufügt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du eine Karte abwirfst, lege eine +1/+1-Marke auf Ivora.",
-            "type": "Legendäre Kreatur — Vampir, Krieger",
-            "uuid": "3ac12d99-7c1a-5b07-b536-b9175cd7a273"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681004",
-              "scryfallId": "85fef709-d49d-492c-ab76-f1b02b7613e5"
-            },
-            "language": "Spanish",
-            "multiverseId": 681004,
-            "name": "Ivora, heredera insaciable",
-            "text": "Arrolla.\nCuando Ivora, heredera insaciable entre y siempre que haga daño de combate a un jugador, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\nSiempre que descartes una carta, pon un contador +1/+1 sobre Ivora.",
-            "type": "Criatura legendaria — Guerrero vampiro",
-            "uuid": "52215fe9-7072-5c13-9575-888b8b55a14e"
-          },
           {
             "identifiers": {
               "multiverseId": "681031",
@@ -227,9 +217,27 @@
             "language": "French",
             "multiverseId": 681031,
             "name": "Ivora, héritière insatiable",
+            "skuIds": {
+              "nonfoil": "50b6bc09-308b-51c8-83d7-469a1d9ab50d"
+            },
             "text": "Piétinement\nQuand Ivora, héritière insatiable arrive et à chaque fois qu'elle inflige des blessures de combat à un joueur, créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)\nÀ chaque fois que vous vous défaussez d'une carte, mettez un marqueur +1/+1 sur Ivora.",
             "type": "Créature légendaire — vampire et guerrier",
             "uuid": "2c6260df-32e3-526a-8cdc-afc4afbe77b5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680977",
+              "scryfallId": "d2de5090-8d14-47af-959a-68b84e16a67f"
+            },
+            "language": "German",
+            "multiverseId": 680977,
+            "name": "Ivora, unersättliche Erbin",
+            "skuIds": {
+              "nonfoil": "9a409f91-9285-5cc6-8765-090b7b1af644"
+            },
+            "text": "Verursacht Trampelschaden\nWenn Ivora, unersättliche Erbin, ins Spiel kommt und immer wenn sie einem Spieler Kampfschaden zufügt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du eine Karte abwirfst, lege eine +1/+1-Marke auf Ivora.",
+            "type": "Legendäre Kreatur — Vampir, Krieger",
+            "uuid": "3ac12d99-7c1a-5b07-b536-b9175cd7a273"
           },
           {
             "identifiers": {
@@ -239,6 +247,9 @@
             "language": "Italian",
             "multiverseId": 681058,
             "name": "Ivora, Erede Insaziabile",
+            "skuIds": {
+              "nonfoil": "d5ff64cb-1b74-5269-afac-5717e60ca4bb"
+            },
             "text": "Travolgere\nQuando Ivora, Erede Insaziabile entra e ogniqualvolta infligge danno da combattimento a un giocatore, crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)\nOgniqualvolta scarti una carta, metti un segnalino +1/+1 su Ivora.",
             "type": "Creatura Leggendaria — Guerriero Vampiro",
             "uuid": "0df6abf1-8b8d-5b54-b53c-6e5800bc9cf8"
@@ -251,17 +262,33 @@
             "language": "Japanese",
             "multiverseId": 681085,
             "name": "貪欲なる後継者、イヴォラ",
+            "skuIds": {
+              "nonfoil": "d98f1fc3-98e0-5a27-b893-ad0509f47512"
+            },
             "text": "トランプル\n貪欲なる後継者、イヴォラが戦場に出たとき、および、これがプレイヤー１人に戦闘ダメージを与えるたび、血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）\nあなたがカード１枚を捨てるたび、これの上に＋１/＋１カウンター１個を置く。",
             "type": "伝説のクリーチャー — 吸血鬼・戦士",
             "uuid": "c2a85acf-d98e-59f5-8b96-2b1bf09a5e26"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681004",
+              "scryfallId": "85fef709-d49d-492c-ab76-f1b02b7613e5"
+            },
+            "language": "Spanish",
+            "multiverseId": 681004,
+            "name": "Ivora, heredera insaciable",
+            "skuIds": {
+              "nonfoil": "ff5a5829-3fc8-52d7-a2cc-35ed871d9580"
+            },
+            "text": "Arrolla.\nCuando Ivora, heredera insaciable entre y siempre que haga daño de combate a un jugador, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\nSiempre que descartes una carta, pon un contador +1/+1 sobre Ivora.",
+            "type": "Criatura legendaria — Guerrero vampiro",
+            "uuid": "52215fe9-7072-5c13-9575-888b8b55a14e"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305184",
           "cardsphereId": "130823",
@@ -280,7 +307,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Trample"
         ],
@@ -307,6 +333,7 @@
         "name": "Ivora, Insatiable Heir",
         "number": "50",
         "originalText": "Trample\nWhen Ivora, Insatiable Heir enters and whenever it deals combat damage to a player, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nWhenever you discard a card, put a +1/+1 counter on Ivora.",
+        "originalType": "Legendary Creature – Vampire Warrior",
         "power": "1",
         "printings": [
           "J25"
@@ -317,6 +344,11 @@
           "tcgplayer": "https://mtgjson.com/links/3fa7ff0a73a5beaa"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -332,9 +364,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cca6dc33-fa64-5a75-a21c-41924d5b6acf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -370,39 +407,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 23950,
+        "edhrecRank": 24174,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "No wedding between rival vampire dynasties is complete without a few attempted murders at the reception.",
         "foreignData": [
-          {
-            "flavorText": "Keine Hochzeit zwischen einander befehdenden Vampirdynastien ist komplett ohne ein dem einen oder anderen versuchten Mord während des Empfangs.",
-            "identifiers": {
-              "multiverseId": "681595",
-              "scryfallId": "1d706382-d2b0-4b15-a21b-718aad239de7"
-            },
-            "language": "German",
-            "multiverseId": 681595,
-            "name": "Blutfehde",
-            "text": "Eine Kreatur deiner Wahl kämpft gegen eine andere Kreatur deiner Wahl. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
-            "type": "Hexerei",
-            "uuid": "55fb0852-e0ba-5ebe-8419-65b4859c6d9e"
-          },
-          {
-            "flavorText": "En cualquier boda entre dinastías de vampiros rivales que se precie hay varios intentos de asesinato durante el banquete.",
-            "identifiers": {
-              "multiverseId": "681656",
-              "scryfallId": "5f7f6ba6-8c10-487c-80ad-7c53d2ac0851"
-            },
-            "language": "Spanish",
-            "multiverseId": 681656,
-            "name": "Feudo de sangre",
-            "text": "La criatura objetivo lucha contra otra criatura objetivo. (Cada una hace un daño igual a su fuerza a la otra.)",
-            "type": "Conjuro",
-            "uuid": "e3436e24-7347-5920-851e-33e6d207321f"
-          },
           {
             "flavorText": "Aucun mariage entre des dynasties de vampires rivales ne serait complet sans tentatives de meurtre lors de la réception.",
             "identifiers": {
@@ -412,9 +423,28 @@
             "language": "French",
             "multiverseId": 681717,
             "name": "Luttes sanglantes",
+            "skuIds": {
+              "nonfoil": "d521f232-7f1a-514b-80c5-f8689008202f"
+            },
             "text": "Une créature ciblée se bat contre une autre créature ciblée. (Chacune inflige un nombre de blessures égal à sa force à l'autre.)",
             "type": "Rituel",
             "uuid": "4698ed8f-6d3e-5bab-a598-8be1ba512ab0"
+          },
+          {
+            "flavorText": "Keine Hochzeit zwischen einander befehdenden Vampirdynastien ist komplett ohne ein dem einen oder anderen versuchten Mord während des Empfangs.",
+            "identifiers": {
+              "multiverseId": "681595",
+              "scryfallId": "1d706382-d2b0-4b15-a21b-718aad239de7"
+            },
+            "language": "German",
+            "multiverseId": 681595,
+            "name": "Blutfehde",
+            "skuIds": {
+              "nonfoil": "56518c1e-70de-53de-957b-b88db9b722d4"
+            },
+            "text": "Eine Kreatur deiner Wahl kämpft gegen eine andere Kreatur deiner Wahl. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
+            "type": "Hexerei",
+            "uuid": "55fb0852-e0ba-5ebe-8419-65b4859c6d9e"
           },
           {
             "flavorText": "Un matrimonio tra dinastie vampiriche rivali non è completo senza qualche tentato omicidio al ricevimento.",
@@ -425,6 +455,9 @@
             "language": "Italian",
             "multiverseId": 681778,
             "name": "Faida di Sangue",
+            "skuIds": {
+              "nonfoil": "015014c2-1cb4-5e29-ac24-932ab29c6209"
+            },
             "text": "Una creatura bersaglio lotta con un'altra creatura bersaglio. (Ogni creatura infligge all'altra danno pari alla propria forza.)",
             "type": "Stregoneria",
             "uuid": "400602d8-09fe-5edb-8368-665c3a76940e"
@@ -438,14 +471,31 @@
             "language": "Japanese",
             "multiverseId": 681839,
             "name": "血の抗争",
+            "skuIds": {
+              "nonfoil": "9daff0cd-1f4f-512b-8390-2cc078c7bfc2"
+            },
             "text": "クリーチャー１体を対象とし、それでないクリーチャー１体を対象とする。その前者はその後者と格闘を行う。（それぞれはもう一方に自身のパワーに等しい点数のダメージを与える。）",
             "type": "ソーサリー",
             "uuid": "acb3c45e-d77e-5cba-8837-32d36f77a688"
+          },
+          {
+            "flavorText": "En cualquier boda entre dinastías de vampiros rivales que se precie hay varios intentos de asesinato durante el banquete.",
+            "identifiers": {
+              "multiverseId": "681656",
+              "scryfallId": "5f7f6ba6-8c10-487c-80ad-7c53d2ac0851"
+            },
+            "language": "Spanish",
+            "multiverseId": 681656,
+            "name": "Feudo de sangre",
+            "skuIds": {
+              "nonfoil": "a8054e99-bb75-59f2-b976-6aea328cc242"
+            },
+            "text": "La criatura objetivo lucha contra otra criatura objetivo. (Cada una hace un daño igual a su fuerza a la otra.)",
+            "type": "Conjuro",
+            "uuid": "e3436e24-7347-5920-851e-33e6d207321f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305264",
           "cardsphereId": "131003",
@@ -464,7 +514,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Fight"
         ],
@@ -487,6 +536,7 @@
         "name": "Blood Feud",
         "number": "130",
         "originalText": "Target creature fights another target creature. (Each deals damage equal to its power to the other.)",
+        "originalType": "Sorcery",
         "printings": [
           "BBD",
           "DKA",
@@ -505,9 +555,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7ea6070d-aae8-5a8c-bb6b-aa6b12910310"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -537,36 +592,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12302,
+        "edhrecRank": 12410,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684333",
-              "scryfallId": "4df5f994-6425-48c3-bd56-b964f90b2f6b"
-            },
-            "language": "German",
-            "multiverseId": 684333,
-            "name": "Streitlustige Besucherin",
-            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nImmer wenn die Streitlustige Besucherin einem Spieler Kampfschaden zufügt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Kreatur — Vampir",
-            "uuid": "6956251d-6360-547d-bd92-f30c4b27af87"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684440",
-              "scryfallId": "9e3efd06-57cb-4f88-88d5-404acbb9541b"
-            },
-            "language": "Spanish",
-            "multiverseId": 684440,
-            "name": "Invitada agresiva",
-            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nSiempre que la Invitada agresiva haga daño de combate a un jugador, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Criatura — Vampiro",
-            "uuid": "0c71c6d9-cd40-5f69-bdd9-866c992045ea"
-          },
           {
             "identifiers": {
               "multiverseId": "684547",
@@ -575,9 +606,27 @@
             "language": "French",
             "multiverseId": 684547,
             "name": "Convive belligérante",
+            "skuIds": {
+              "nonfoil": "ce84a93d-9aae-5c39-a85b-661696fe60e3"
+            },
             "text": "Piétinement (Cette créature peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)\nÀ chaque fois que la Convive belligérante inflige des blessures de combat à un joueur, créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)",
             "type": "Créature — vampire",
             "uuid": "d350c560-582d-59d9-a29d-db7c53ab558e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684333",
+              "scryfallId": "4df5f994-6425-48c3-bd56-b964f90b2f6b"
+            },
+            "language": "German",
+            "multiverseId": 684333,
+            "name": "Streitlustige Besucherin",
+            "skuIds": {
+              "nonfoil": "1d65c997-c945-5448-ba6a-8784c6817b3d"
+            },
+            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nImmer wenn die Streitlustige Besucherin einem Spieler Kampfschaden zufügt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
+            "type": "Kreatur — Vampir",
+            "uuid": "6956251d-6360-547d-bd92-f30c4b27af87"
           },
           {
             "identifiers": {
@@ -587,6 +636,9 @@
             "language": "Italian",
             "multiverseId": 684654,
             "name": "Invitata Bellicosa",
+            "skuIds": {
+              "nonfoil": "f1284d42-5b16-5166-b76e-1f3bcaf1c08b"
+            },
             "text": "Travolgere (Questa creatura può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)\nOgniqualvolta l'Invitata Bellicosa infligge danno da combattimento a un giocatore, crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)",
             "type": "Creatura — Vampiro",
             "uuid": "66e1d659-5518-5650-a7ae-fe9a15798292"
@@ -599,14 +651,30 @@
             "language": "Japanese",
             "multiverseId": 684761,
             "name": "好戦的な客人",
+            "skuIds": {
+              "nonfoil": "64b7d4f1-71bc-5e75-b89c-390e6669ccca"
+            },
             "text": "トランプル（このクリーチャーは余剰の戦闘ダメージを、これが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）\n好戦的な客人がプレイヤー１人に戦闘ダメージを与えるたび、血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "e2993433-3ee2-51c4-bae3-f45a878229a9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684440",
+              "scryfallId": "9e3efd06-57cb-4f88-88d5-404acbb9541b"
+            },
+            "language": "Spanish",
+            "multiverseId": 684440,
+            "name": "Invitada agresiva",
+            "skuIds": {
+              "nonfoil": "e72abef7-0510-5ecf-9de9-33fd5dd162f0"
+            },
+            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nSiempre que la Invitada agresiva haga daño de combate a un jugador, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
+            "type": "Criatura — Vampiro",
+            "uuid": "0c71c6d9-cd40-5f69-bdd9-866c992045ea"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305860",
           "cardsphereId": "131142",
@@ -650,6 +718,7 @@
         "name": "Belligerent Guest",
         "number": "521",
         "originalText": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nWhenever Belligerent Guest deals combat damage to a player, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
+        "originalType": "Creature – Vampire",
         "power": "3",
         "printings": [
           "DBL",
@@ -662,6 +731,11 @@
           "tcgplayer": "https://mtgjson.com/links/3be435efe6a9ccdc"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -677,9 +751,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "75961948-7d53-5516-ac0a-3040859f8179"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -712,36 +791,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 13189,
+        "edhrecRank": 13256,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684335",
-              "scryfallId": "4eb188e9-f536-4b5e-a9fa-e2e2675ba02e"
-            },
-            "language": "German",
-            "multiverseId": 684335,
-            "name": "Blutblüten-Zelebrantin",
-            "text": "Die Blutblüten-Zelebrantin hat Erstschlag, solange sie angreift. (Sie fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\nWenn die Blutblüten-Zelebrantin stirbt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Kreatur — Vampir",
-            "uuid": "32450415-c76c-56b7-bd13-86843de572a8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684442",
-              "scryfallId": "7d444e87-c60a-42b4-8a3f-050c4b83d662"
-            },
-            "language": "Spanish",
-            "multiverseId": 684442,
-            "name": "Celebrante de los pétalos de sangre",
-            "text": "La Celebrante de los pétalos de sangre tiene la habilidad de dañar primero mientras esté atacando. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\nCuando la Celebrante de los pétalos de sangre muera, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Criatura — Vampiro",
-            "uuid": "69c4c701-3bf3-51be-80e0-ca2fdc4ca1df"
-          },
           {
             "identifiers": {
               "multiverseId": "684549",
@@ -750,9 +805,27 @@
             "language": "French",
             "multiverseId": 684549,
             "name": "Célébrante aux pétales de sang",
+            "skuIds": {
+              "nonfoil": "90d0a72f-db4d-5284-b328-9d1f20a8528f"
+            },
             "text": "La Célébrante aux pétales de sang a l'initiative tant qu'elle attaque. (Elle inflige des blessures de combat avant les créatures sans l'initiative.)\nQuand la Célébrante aux pétales de sang meurt, créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)",
             "type": "Créature — vampire",
             "uuid": "058dc39b-2f6e-501c-849d-7650f301ca44"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684335",
+              "scryfallId": "4eb188e9-f536-4b5e-a9fa-e2e2675ba02e"
+            },
+            "language": "German",
+            "multiverseId": 684335,
+            "name": "Blutblüten-Zelebrantin",
+            "skuIds": {
+              "nonfoil": "80a99ca1-d560-5ab5-a3c7-db101d1722da"
+            },
+            "text": "Die Blutblüten-Zelebrantin hat Erstschlag, solange sie angreift. (Sie fügt Kampfschaden vor Kreaturen ohne Erstschlag zu.)\nWenn die Blutblüten-Zelebrantin stirbt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
+            "type": "Kreatur — Vampir",
+            "uuid": "32450415-c76c-56b7-bd13-86843de572a8"
           },
           {
             "identifiers": {
@@ -762,6 +835,9 @@
             "language": "Italian",
             "multiverseId": 684656,
             "name": "Celebrante dei Petali di Sangue",
+            "skuIds": {
+              "nonfoil": "64e20b3a-3697-562a-aa5b-667297e313dd"
+            },
             "text": "La Celebrante dei Petali di Sangue ha attacco improvviso fintanto che è attaccante. (Infligge danno da combattimento prima delle creature senza attacco improvviso.)\nQuando la Celebrante dei Petali di Sangue muore, crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)",
             "type": "Creatura — Vampiro",
             "uuid": "82735e30-58a0-5757-9241-5568866dccf2"
@@ -774,14 +850,30 @@
             "language": "Japanese",
             "multiverseId": 684763,
             "name": "血花の祝賀者",
+            "skuIds": {
+              "nonfoil": "247606c9-5702-5cca-b269-cf30edf8e105"
+            },
             "text": "血花の祝賀者が攻撃しているかぎり、これは先制攻撃を持つ。（これは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）\n血花の祝賀者が死亡したとき、血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "3e24279c-6b42-55a7-8249-a5bebb3c55bd"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684442",
+              "scryfallId": "7d444e87-c60a-42b4-8a3f-050c4b83d662"
+            },
+            "language": "Spanish",
+            "multiverseId": 684442,
+            "name": "Celebrante de los pétalos de sangre",
+            "skuIds": {
+              "nonfoil": "95304ec6-3462-57cc-9bd7-fdbaf8602e59"
+            },
+            "text": "La Celebrante de los pétalos de sangre tiene la habilidad de dañar primero mientras esté atacando. (Hace daño de combate antes que las criaturas sin la habilidad de dañar primero.)\nCuando la Celebrante de los pétalos de sangre muera, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
+            "type": "Criatura — Vampiro",
+            "uuid": "69c4c701-3bf3-51be-80e0-ca2fdc4ca1df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305862",
           "cardsphereId": "131136",
@@ -822,6 +914,7 @@
         "name": "Blood Petal Celebrant",
         "number": "523",
         "originalText": "Blood Petal Celebrant has first strike as long as it's attacking. (It deals combat damage before creatures without first strike.)\nWhen Blood Petal Celebrant dies, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
+        "originalType": "Creature – Vampire",
         "power": "2",
         "printings": [
           "DBL",
@@ -835,6 +928,11 @@
           "tcgplayer": "https://mtgjson.com/links/8b1eecf705478fa1"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -850,9 +948,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "92b2948f-1d18-5431-a744-ac4bacaa4f58"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -885,35 +988,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 14261,
+        "edhrecRank": 14395,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684354",
-              "scryfallId": "19f08fcb-5bae-4b48-9b58-e8ae73863369"
-            },
-            "language": "German",
-            "multiverseId": 684354,
-            "name": "Falkenrath-Zelebranten",
-            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nWenn die Falkenrath-Zelebranten ins Spiel kommen, erzeuge zwei Blut-Spielsteine. (Sie sind Artefakte mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Kreatur — Vampir",
-            "uuid": "c07f6134-e53e-5fac-8393-0e14e4b97559"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684461",
-              "scryfallId": "a13b5c8b-5b4e-452e-afbf-51d34d5f9476"
-            },
-            "language": "Spanish",
-            "multiverseId": 684461,
-            "name": "Celebrantes de Falkenrath",
-            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nCuando las Celebrantes de Falkenrath entren, crea dos fichas de Sangre. (Son artefactos con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Criatura — Vampiro",
-            "uuid": "1f86485c-d103-5d1e-9e87-1d98460e342f"
-          },
           {
             "identifiers": {
               "multiverseId": "684568",
@@ -922,9 +1002,27 @@
             "language": "French",
             "multiverseId": 684568,
             "name": "Célébrantes Falkenrath",
+            "skuIds": {
+              "nonfoil": "2b4d9c56-67eb-5cd7-85c2-9e814fab3c97"
+            },
             "text": "Menace (Cette créature ne peut pas être bloquée excepté par deux créatures ou plus.)\nQuand les Célébrantes Falkenrath arrivent, créez deux jetons Sang. (Ce sont des artefacts avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)",
             "type": "Créature — vampire",
             "uuid": "d09e0e8f-c89b-50ef-96c3-c639982234a2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684354",
+              "scryfallId": "19f08fcb-5bae-4b48-9b58-e8ae73863369"
+            },
+            "language": "German",
+            "multiverseId": 684354,
+            "name": "Falkenrath-Zelebranten",
+            "skuIds": {
+              "nonfoil": "67dafb9c-b57d-56b0-8e6b-807bc8173f55"
+            },
+            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nWenn die Falkenrath-Zelebranten ins Spiel kommen, erzeuge zwei Blut-Spielsteine. (Sie sind Artefakte mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
+            "type": "Kreatur — Vampir",
+            "uuid": "c07f6134-e53e-5fac-8393-0e14e4b97559"
           },
           {
             "identifiers": {
@@ -934,6 +1032,9 @@
             "language": "Italian",
             "multiverseId": 684675,
             "name": "Celebranti Falkenrath",
+            "skuIds": {
+              "nonfoil": "1dfa093d-cda1-5c50-a17a-7d4aee3d5d14"
+            },
             "text": "Minacciare (Questa creatura non può essere bloccata tranne che da due o più creature.)\nQuando le Celebranti Falkenrath entrano, crea due pedine Sangue. (Sono artefatti con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)",
             "type": "Creatura — Vampiro",
             "uuid": "0a4c3369-09c0-5ba2-bf7c-855b9b0ae59b"
@@ -946,14 +1047,30 @@
             "language": "Japanese",
             "multiverseId": 684782,
             "name": "ファルケンラスの祝賀者",
+            "skuIds": {
+              "nonfoil": "60efb5a9-6208-53cb-aefb-03bf1003df8f"
+            },
             "text": "威迫（このクリーチャーは２体以上のクリーチャーにしかブロックされない。）\nファルケンラスの祝賀者が戦場に出たとき、血・トークン２つを生成する。（それらは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "d94dfc8b-5abf-5ab0-8a60-d12baf25d63b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684461",
+              "scryfallId": "a13b5c8b-5b4e-452e-afbf-51d34d5f9476"
+            },
+            "language": "Spanish",
+            "multiverseId": 684461,
+            "name": "Celebrantes de Falkenrath",
+            "skuIds": {
+              "nonfoil": "f70e6d0b-086f-560f-8e6a-a3b67cf7a8ae"
+            },
+            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nCuando las Celebrantes de Falkenrath entren, crea dos fichas de Sangre. (Son artefactos con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
+            "type": "Criatura — Vampiro",
+            "uuid": "1f86485c-d103-5d1e-9e87-1d98460e342f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305881",
           "cardsphereId": "131097",
@@ -997,6 +1114,7 @@
         "name": "Falkenrath Celebrants",
         "number": "542",
         "originalText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Falkenrath Celebrants enters, create two Blood tokens. (They're artifacts with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
+        "originalType": "Creature – Vampire",
         "power": "4",
         "printings": [
           "DBL",
@@ -1010,6 +1128,11 @@
           "tcgplayer": "https://mtgjson.com/links/f75f06065afbaf33"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -1025,9 +1148,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "17219014-c157-5384-be70-04159730ecc6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1060,38 +1188,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 17083,
+        "edhrecRank": 17279,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"We spend our entire existence pursuing the joy of our first night's feast.\"\n—Anje Falkenrath",
         "foreignData": [
-          {
-            "flavorText": "„Wir verbringen unser gesamtes Dasein damit, der Freude unseres ersten Festmahls nachzujagen.\"\n—Anja Falkenrath",
-            "identifiers": {
-              "multiverseId": "684394",
-              "scryfallId": "24ea0772-1895-4c61-9091-c740e75be8ec"
-            },
-            "language": "German",
-            "multiverseId": 684394,
-            "name": "Gier der Neugeborenen",
-            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Vampir kontrollierst.\nDie Gier der Neugeborenen fügt einer Kreatur deiner Wahl 1 Schadenspunkt und ihrem Beherrscher 1 Schadenspunkt zu. Ziehe eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "07c09a31-738f-56c3-bddd-4fc4d0c0c1e8"
-          },
-          {
-            "flavorText": "\"Pasamos el resto de nuestra existencia buscando el placer que sentimos con el manjar de la primera noche\".\n—Anje Falkenrath",
-            "identifiers": {
-              "multiverseId": "684501",
-              "scryfallId": "f3d68541-61b7-4f85-81cc-8749fa5e97c4"
-            },
-            "language": "Spanish",
-            "multiverseId": 684501,
-            "name": "Goce de neonata",
-            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Vampiro.\nEl Goce de neonata hace 1 punto de daño a la criatura objetivo y 1 punto de daño a su controlador. Roba una carta.",
-            "type": "Instantáneo",
-            "uuid": "0376a8a6-5284-58de-a12b-af1416d4bd6f"
-          },
           {
             "flavorText": "« Nous passons toute notre existence à tenter de revivre la joie de notre premier festin nocturne. »\n—Anje Falkenrath",
             "identifiers": {
@@ -1101,9 +1204,28 @@
             "language": "French",
             "multiverseId": 684608,
             "name": "Euphorie de la nouvelle-née",
+            "skuIds": {
+              "nonfoil": "3ef10032-a782-5cc8-a069-30710cbb5a3b"
+            },
             "text": "Ce sort coûte {1} de moins à lancer si vous contrôlez un vampire.\nL'Euphorie de la nouvelle-née inflige 1 blessure à une créature ciblée et 1 blessure à son contrôleur. Piochez une carte.",
             "type": "Éphémère",
             "uuid": "bd972e68-71ba-5ab1-ade8-dcc44ca6b235"
+          },
+          {
+            "flavorText": "„Wir verbringen unser gesamtes Dasein damit, der Freude unseres ersten Festmahls nachzujagen.\"\n—Anja Falkenrath",
+            "identifiers": {
+              "multiverseId": "684394",
+              "scryfallId": "24ea0772-1895-4c61-9091-c740e75be8ec"
+            },
+            "language": "German",
+            "multiverseId": 684394,
+            "name": "Gier der Neugeborenen",
+            "skuIds": {
+              "nonfoil": "5a7f38bd-83b0-5f39-833b-8fb26d3cf72d"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Vampir kontrollierst.\nDie Gier der Neugeborenen fügt einer Kreatur deiner Wahl 1 Schadenspunkt und ihrem Beherrscher 1 Schadenspunkt zu. Ziehe eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "07c09a31-738f-56c3-bddd-4fc4d0c0c1e8"
           },
           {
             "flavorText": "\"Passiamo la nostra intera esistenza in cerca della gioia del nostro primo banchetto notturno.\"\n—Anje Falkenrath",
@@ -1114,6 +1236,9 @@
             "language": "Italian",
             "multiverseId": 684715,
             "name": "Fervore dei Neonati",
+            "skuIds": {
+              "nonfoil": "21d04bc5-2629-5fb9-949a-365182fc0924"
+            },
             "text": "Questa magia costa {1} in meno per essere lanciata se controlli un Vampiro.\nIl Fervore dei Neonati infligge 1 danno a una creatura bersaglio e 1 danno al suo controllore. Pesca una carta.",
             "type": "Istantaneo",
             "uuid": "b151d328-de9c-572a-8687-1a60f32888ea"
@@ -1127,14 +1252,31 @@
             "language": "Japanese",
             "multiverseId": 684822,
             "name": "新生子の衝動",
+            "skuIds": {
+              "nonfoil": "ac809269-d19b-58cb-b6c8-795a53bb6afd"
+            },
             "text": "あなたが吸血鬼をコントロールしているなら、この呪文を唱えるためのコストは{1}少なくなる。\nクリーチャー１体を対象とする。新生子の衝動はそれに１点のダメージ、そのクリーチャーのコントローラーに１点のダメージを与える。カード１枚を引く。",
             "type": "インスタント",
             "uuid": "f3144fa6-5a40-5f4b-9ded-ef12e303c593"
+          },
+          {
+            "flavorText": "\"Pasamos el resto de nuestra existencia buscando el placer que sentimos con el manjar de la primera noche\".\n—Anje Falkenrath",
+            "identifiers": {
+              "multiverseId": "684501",
+              "scryfallId": "f3d68541-61b7-4f85-81cc-8749fa5e97c4"
+            },
+            "language": "Spanish",
+            "multiverseId": 684501,
+            "name": "Goce de neonata",
+            "skuIds": {
+              "nonfoil": "99d8dffb-b8e2-5ad0-b229-4fd3650b2b54"
+            },
+            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Vampiro.\nEl Goce de neonata hace 1 punto de daño a la criatura objetivo y 1 punto de daño a su controlador. Roba una carta.",
+            "type": "Instantáneo",
+            "uuid": "0376a8a6-5284-58de-a12b-af1416d4bd6f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305921",
           "cardsphereId": "131016",
@@ -1175,6 +1317,7 @@
         "name": "Neonate's Rush",
         "number": "582",
         "originalText": "This spell costs {1} less to cast if you control a Vampire.\nNeonate's Rush deals 1 damage to target creature and 1 damage to its controller. Draw a card.",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "INR",
@@ -1188,9 +1331,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "9c79d1e1-2ca3-50ce-8b8a-2a894234f371"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1220,39 +1368,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 13378,
+        "edhrecRank": 13626,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "There was no witty retort, no confident boast to accompany the attack. There was only pain.",
         "foreignData": [
-          {
-            "flavorText": "Es gab keinen geistreichen Kommentar, keine selbstbewusste Prahlerei … Es gab nur Schmerz.",
-            "identifiers": {
-              "multiverseId": "684411",
-              "scryfallId": "659a8841-24b4-4716-bcbe-ec22979ebcf4"
-            },
-            "language": "German",
-            "multiverseId": 684411,
-            "name": "Seele versengen",
-            "text": "Seele versengen fügt einer Kreatur oder einem Planeswalker deiner Wahl 5 Schadenspunkte zu. Jenes Permanent verliert Unzerstörbarkeit bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "80c851ee-9abc-5c23-a6a6-caf632089f00"
-          },
-          {
-            "flavorText": "No hubo una réplica ingeniosa ni un fanfarroneo altanero que acompañase el ataque. Solo dolor.",
-            "identifiers": {
-              "multiverseId": "684518",
-              "scryfallId": "807d1a5e-d693-4422-bd42-fc8ecdb9833c"
-            },
-            "language": "Spanish",
-            "multiverseId": 684518,
-            "name": "Calcinar el alma",
-            "text": "Calcinar el alma hace 5 puntos de daño a la criatura o planeswalker objetivo. Ese permanente pierde la habilidad de indestructible hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "ea05e4c5-199b-5afa-bf1b-34a9d65a7d1b"
-          },
           {
             "flavorText": "Il n'y avait ni remarque cinglante ni fanfaronnade pour accompagner l'attaque. Seulement la douleur.",
             "identifiers": {
@@ -1262,9 +1384,28 @@
             "language": "French",
             "multiverseId": 684625,
             "name": "Calcination de l'âme",
+            "skuIds": {
+              "nonfoil": "c4fec211-123b-5f9e-a46a-069906aa5171"
+            },
             "text": "La Calcination de l'âme inflige 5 blessures à une cible, créature ou planeswalker. Ce permanent perd l'indestructible jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "a7049de2-b705-585b-9958-dd46801bf9f9"
+          },
+          {
+            "flavorText": "Es gab keinen geistreichen Kommentar, keine selbstbewusste Prahlerei … Es gab nur Schmerz.",
+            "identifiers": {
+              "multiverseId": "684411",
+              "scryfallId": "659a8841-24b4-4716-bcbe-ec22979ebcf4"
+            },
+            "language": "German",
+            "multiverseId": 684411,
+            "name": "Seele versengen",
+            "skuIds": {
+              "nonfoil": "989fc427-8328-535c-9a8b-4eccbf3cc0a5"
+            },
+            "text": "Seele versengen fügt einer Kreatur oder einem Planeswalker deiner Wahl 5 Schadenspunkte zu. Jenes Permanent verliert Unzerstörbarkeit bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "80c851ee-9abc-5c23-a6a6-caf632089f00"
           },
           {
             "flavorText": "Nessuna osservazione spiritosa, né spavalde vanterie accompagnarono l'attacco. Ci fu soltanto dolore.",
@@ -1275,6 +1416,9 @@
             "language": "Italian",
             "multiverseId": 684732,
             "name": "Ustione dell'Anima",
+            "skuIds": {
+              "nonfoil": "ddfd03c3-9826-5800-bad9-aca628212206"
+            },
             "text": "L'Ustione dell'Anima infligge 5 danni a una creatura o a un planeswalker bersaglio. Quel permanente perde indistruttibile fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "0f64e79e-3b04-54fd-a4d4-09716abb5733"
@@ -1288,14 +1432,31 @@
             "language": "Japanese",
             "multiverseId": 684839,
             "name": "魂焦がし",
+            "skuIds": {
+              "nonfoil": "aebfee3d-5af1-5433-b733-3bf7a960534a"
+            },
             "text": "クリーチャーやプレインズウォーカーである１体を対象とする。魂焦がしはそれに５点のダメージを与える。ターン終了時まで、そのパーマネントは破壊不能を失う。",
             "type": "インスタント",
             "uuid": "021e8a66-cedb-5ab7-b9da-e65207c6232d"
+          },
+          {
+            "flavorText": "No hubo una réplica ingeniosa ni un fanfarroneo altanero que acompañase el ataque. Solo dolor.",
+            "identifiers": {
+              "multiverseId": "684518",
+              "scryfallId": "807d1a5e-d693-4422-bd42-fc8ecdb9833c"
+            },
+            "language": "Spanish",
+            "multiverseId": 684518,
+            "name": "Calcinar el alma",
+            "skuIds": {
+              "nonfoil": "576f874e-54a4-58ec-985b-7b875e862b3e"
+            },
+            "text": "Calcinar el alma hace 5 puntos de daño a la criatura o planeswalker objetivo. Ese permanente pierde la habilidad de indestructible hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "ea05e4c5-199b-5afa-bf1b-34a9d65a7d1b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305938",
           "cardsphereId": "130991",
@@ -1335,6 +1496,7 @@
         "name": "Soul Sear",
         "number": "599",
         "originalText": "Soul Sear deals 5 damage to target creature or planeswalker. That permanent loses indestructible until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "M21"
@@ -1352,9 +1514,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "00ce09c6-b6cc-535e-bd2f-942ff945206d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1384,35 +1551,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 14586,
+        "edhrecRank": 14612,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684414",
-              "scryfallId": "d47b56a3-91c5-4b30-82bb-1b47c1ae80a7"
-            },
-            "language": "German",
-            "multiverseId": 684414,
-            "name": "Geraubte Lebenskraft",
-            "text": "Eine Kreatur deiner Wahl erhält +3/+1 bis zum Ende des Zuges. Falls es dein Zug ist, verursacht die Kreatur Trampelschaden bis zum Ende des Zuges. Anderenfalls erhält sie Erstschlag bis zum Ende des Zuges. (Eine Kreatur, die Trampelschaden verursacht, kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen. Kreaturen mit Erstschlag fügen ihren Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
-            "type": "Spontanzauber",
-            "uuid": "11d5c524-ed48-5e88-9c51-d74dc0aba75e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684521",
-              "scryfallId": "5ebc12a3-ed4c-43d4-b00e-bd8428395bff"
-            },
-            "language": "Spanish",
-            "multiverseId": 684521,
-            "name": "Vitalidad robada",
-            "text": "La criatura objetivo obtiene +3/+1 hasta el final del turno. Si es tu turno, esa criatura gana la habilidad de arrollar hasta el final del turno. De lo contrario, gana la habilidad de dañar primero hasta el final del turno. (Una criatura con la habilidad de arrollar puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca. Una criatura con la habilidad de dañar primero hace su daño de combate antes que las criaturas que no la tienen.)",
-            "type": "Instantáneo",
-            "uuid": "5ffbcb1d-cb9c-504b-b68b-43d2cf4df188"
-          },
           {
             "identifiers": {
               "multiverseId": "684628",
@@ -1421,9 +1565,27 @@
             "language": "French",
             "multiverseId": 684628,
             "name": "Vol de vitalité",
+            "skuIds": {
+              "nonfoil": "7c36a6fe-93ca-5749-bb21-e09cbbd952e0"
+            },
             "text": "Une créature ciblée gagne +3/+1 jusqu'à la fin du tour. Si c'est votre tour, cette créature acquiert le piétinement jusqu'à la fin du tour. Sinon, elle acquiert l'initiative jusqu'à la fin du tour. (Une créature avec le piétinement peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque. Une créature avec l'initiative inflige ses blessures de combat avant les créatures sans l'initiative.)",
             "type": "Éphémère",
             "uuid": "c95d9d79-7dd7-5fc5-a903-24ae00bcf953"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684414",
+              "scryfallId": "d47b56a3-91c5-4b30-82bb-1b47c1ae80a7"
+            },
+            "language": "German",
+            "multiverseId": 684414,
+            "name": "Geraubte Lebenskraft",
+            "skuIds": {
+              "nonfoil": "f53d7f52-e48c-5076-a78f-0d252ea0f13f"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +3/+1 bis zum Ende des Zuges. Falls es dein Zug ist, verursacht die Kreatur Trampelschaden bis zum Ende des Zuges. Anderenfalls erhält sie Erstschlag bis zum Ende des Zuges. (Eine Kreatur, die Trampelschaden verursacht, kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen. Kreaturen mit Erstschlag fügen ihren Kampfschaden vor Kreaturen ohne Erstschlag zu.)",
+            "type": "Spontanzauber",
+            "uuid": "11d5c524-ed48-5e88-9c51-d74dc0aba75e"
           },
           {
             "identifiers": {
@@ -1433,6 +1595,9 @@
             "language": "Italian",
             "multiverseId": 684735,
             "name": "Vitalità Rubata",
+            "skuIds": {
+              "nonfoil": "033bbf20-c6fc-52c4-ba26-bed0559f299a"
+            },
             "text": "Una creatura bersaglio prende +3/+1 fino alla fine del turno. Se è il tuo turno, quella creatura ha travolgere fino alla fine del turno. Altrimenti, ha attacco improvviso fino alla fine del turno. (Una creatura con travolgere può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando. Una creatura con attacco improvviso infligge danno da combattimento prima delle creature senza attacco improvviso.)",
             "type": "Istantaneo",
             "uuid": "37d9ca2f-e683-56ab-81b3-8d855aec18ce"
@@ -1445,14 +1610,30 @@
             "language": "Japanese",
             "multiverseId": 684842,
             "name": "盗まれた活力",
+            "skuIds": {
+              "nonfoil": "d6397cdf-e4db-5301-8a73-1ebba10d4101"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋３/＋１の修整を受ける。あなたのターン中であるなら、ターン終了時まで、そのクリーチャーはトランプルを得る。そうでないなら、ターン終了時まで、それは先制攻撃を得る。（トランプルを持つクリーチャーは、それが攻撃しているプレイヤーかプレインズウォーカーに余剰の戦闘ダメージを与えることができる。先制攻撃を持つクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。）",
             "type": "インスタント",
             "uuid": "a5d03f53-19da-539e-9ab3-bd403659e935"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684521",
+              "scryfallId": "5ebc12a3-ed4c-43d4-b00e-bd8428395bff"
+            },
+            "language": "Spanish",
+            "multiverseId": 684521,
+            "name": "Vitalidad robada",
+            "skuIds": {
+              "nonfoil": "d7ad11ca-1fba-53ef-a038-6227d389c7da"
+            },
+            "text": "La criatura objetivo obtiene +3/+1 hasta el final del turno. Si es tu turno, esa criatura gana la habilidad de arrollar hasta el final del turno. De lo contrario, gana la habilidad de dañar primero hasta el final del turno. (Una criatura con la habilidad de arrollar puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca. Una criatura con la habilidad de dañar primero hace su daño de combate antes que las criaturas que no la tienen.)",
+            "type": "Instantáneo",
+            "uuid": "5ffbcb1d-cb9c-504b-b68b-43d2cf4df188"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305941",
           "cardsphereId": "130987",
@@ -1493,6 +1674,7 @@
         "name": "Stolen Vitality",
         "number": "602",
         "originalText": "Target creature gets +3/+1 until end of turn. If it's your turn, that creature gains trample until end of turn. Otherwise, it gains first strike until end of turn. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking. A creature with first strike deals combat damage before creatures without first strike.)",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "J25",
@@ -1505,9 +1687,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1c3f9ead-ca0a-5243-a916-88e7fed8fe06"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1537,38 +1724,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15878,
+        "edhrecRank": 16099,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Gotcha.\"",
         "foreignData": [
-          {
-            "flavorText": "„Erwischt.\"",
-            "identifiers": {
-              "multiverseId": "684423",
-              "scryfallId": "752bd670-02de-42da-9a5c-5a551e35435b"
-            },
-            "language": "German",
-            "multiverseId": 684423,
-            "name": "Voldaren-Lauerer",
-            "text": "Wenn der Voldaren-Lauerer ins Spiel kommt und falls ein Gegner in diesem Zug Lebenspunkte verloren hat, fügt er bis zu einer Kreatur oder einem Planeswalker deiner Wahl X Schadenspunkte zu, wobei X gleich der Anzahl an Vampiren ist, die du kontrollierst.",
-            "type": "Kreatur — Vampir, Bogenschütze",
-            "uuid": "3f0827f3-6eba-53b1-9cb1-15b6d4183ac3"
-          },
-          {
-            "flavorText": "\"Te tengo\".",
-            "identifiers": {
-              "multiverseId": "684530",
-              "scryfallId": "ce4a26af-6e4f-4d24-ad14-037be0a17f6a"
-            },
-            "language": "Spanish",
-            "multiverseId": 684530,
-            "name": "Emboscador de Voldaren",
-            "text": "Cuando el Emboscador de Voldaren entre, si un oponente perdió vidas este turno, hace X puntos de daño a hasta una criatura o planeswalker objetivo, donde X es la cantidad de Vampiros que controlas.",
-            "type": "Criatura — Arquero vampiro",
-            "uuid": "8b402422-f8b3-5edd-8889-b32b1615daaa"
-          },
           {
             "flavorText": "« Je t'ai eu. »",
             "identifiers": {
@@ -1578,9 +1740,28 @@
             "language": "French",
             "multiverseId": 684637,
             "name": "Embusqueur Voldaren",
+            "skuIds": {
+              "nonfoil": "63846e56-bd14-53b5-9af9-23ed8430d718"
+            },
             "text": "Quand l'Embusqueur Voldaren arrive, si un adversaire a perdu des points de vie ce tour-ci, il inflige X blessures à jusqu'à une cible, créature ou planeswalker, X étant le nombre de vampires que vous contrôlez.",
             "type": "Créature — vampire et archer",
             "uuid": "1080de73-85ce-572f-8be2-f7fff1b749fd"
+          },
+          {
+            "flavorText": "„Erwischt.\"",
+            "identifiers": {
+              "multiverseId": "684423",
+              "scryfallId": "752bd670-02de-42da-9a5c-5a551e35435b"
+            },
+            "language": "German",
+            "multiverseId": 684423,
+            "name": "Voldaren-Lauerer",
+            "skuIds": {
+              "nonfoil": "88db9943-578e-55e4-978e-6687659b3a64"
+            },
+            "text": "Wenn der Voldaren-Lauerer ins Spiel kommt und falls ein Gegner in diesem Zug Lebenspunkte verloren hat, fügt er bis zu einer Kreatur oder einem Planeswalker deiner Wahl X Schadenspunkte zu, wobei X gleich der Anzahl an Vampiren ist, die du kontrollierst.",
+            "type": "Kreatur — Vampir, Bogenschütze",
+            "uuid": "3f0827f3-6eba-53b1-9cb1-15b6d4183ac3"
           },
           {
             "flavorText": "\"Beccato.\"",
@@ -1591,6 +1772,9 @@
             "language": "Italian",
             "multiverseId": 684744,
             "name": "Assalitore Voldaren",
+            "skuIds": {
+              "nonfoil": "9e7f1624-b3ac-52c5-ba08-e9bd4754b8dd"
+            },
             "text": "Quando l'Assalitore Voldaren entra, se un avversario ha perso punti vita in questo turno, scegli fino a una creatura o planeswalker bersaglio a cui l'Assalitore Voldaren infligge X danni, dove X è il numero di Vampiri che controlli.",
             "type": "Creatura — Arciere Vampiro",
             "uuid": "47ee9e5e-2cd9-5614-b4f1-45bb8609fb75"
@@ -1604,14 +1788,31 @@
             "language": "Japanese",
             "multiverseId": 684851,
             "name": "ヴォルダーレンの伏兵",
+            "skuIds": {
+              "nonfoil": "1c4fbfa8-c922-5d5a-854c-4270ac25d218"
+            },
             "text": "ヴォルダーレンの伏兵が戦場に出たとき、このターンに対戦相手がライフを失っていた場合、クリーチャーやプレインズウォーカーである最大１体を対象とする。これはそれにＸ点のダメージを与える。Ｘはあなたがコントロールしている吸血鬼の数に等しい。",
             "type": "クリーチャー — 吸血鬼・射手",
             "uuid": "83d4e0ab-0ce3-5ef0-85c7-f9fed2348483"
+          },
+          {
+            "flavorText": "\"Te tengo\".",
+            "identifiers": {
+              "multiverseId": "684530",
+              "scryfallId": "ce4a26af-6e4f-4d24-ad14-037be0a17f6a"
+            },
+            "language": "Spanish",
+            "multiverseId": 684530,
+            "name": "Emboscador de Voldaren",
+            "skuIds": {
+              "nonfoil": "f39ba3a4-5437-56d5-9cdd-9f54aa898db1"
+            },
+            "text": "Cuando el Emboscador de Voldaren entre, si un oponente perdió vidas este turno, hace X puntos de daño a hasta una criatura o planeswalker objetivo, donde X es la cantidad de Vampiros que controlas.",
+            "type": "Criatura — Arquero vampiro",
+            "uuid": "8b402422-f8b3-5edd-8889-b32b1615daaa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305950",
           "cardsphereId": "130975",
@@ -1650,6 +1851,7 @@
         "name": "Voldaren Ambusher",
         "number": "611",
         "originalText": "When Voldaren Ambusher enters, if an opponent lost life this turn, it deals X damage to up to one target creature or planeswalker, where X is the number of Vampires you control.",
+        "originalType": "Creature – Vampire Archer",
         "power": "2",
         "printings": [
           "DBL",
@@ -1674,9 +1876,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5fbabd6b-de39-5a21-b359-ba0dbaeecc0d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1710,39 +1917,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 19564,
+        "edhrecRank": 19620,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I have yet to find my equal.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich habe noch keinen ebenbürtigen Gegner gefunden.\"",
-            "identifiers": {
-              "multiverseId": "684424",
-              "scryfallId": "836e4670-c758-4b63-9a22-4a4acdf89d07"
-            },
-            "language": "German",
-            "multiverseId": 684424,
-            "name": "Voldaren-Duellant",
-            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nWenn der Voldaren-Duellant ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.",
-            "type": "Kreatur — Vampir, Krieger",
-            "uuid": "875c15ed-a47b-5832-8cf5-030854008e07"
-          },
-          {
-            "flavorText": "\"Todavía he de encontrar quien me iguale\".",
-            "identifiers": {
-              "multiverseId": "684531",
-              "scryfallId": "aa455a7c-8961-47cf-9060-aeb7bc0f6943"
-            },
-            "language": "Spanish",
-            "multiverseId": 684531,
-            "name": "Duelista de Voldaren",
-            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCuando el Duelista de Voldaren entre, la criatura objetivo no puede bloquear este turno.",
-            "type": "Criatura — Guerrero vampiro",
-            "uuid": "51d2d36d-8599-5a99-9790-0b728c790a05"
-          },
           {
             "flavorText": "« Je n'ai encore jamais rencontré mon égal. »",
             "identifiers": {
@@ -1752,9 +1933,28 @@
             "language": "French",
             "multiverseId": 684638,
             "name": "Duelliste Voldaren",
+            "skuIds": {
+              "nonfoil": "ac210ced-8578-5802-a203-278a0e3fb595"
+            },
             "text": "Célérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)\nQuand le Duelliste Voldaren arrive, une créature ciblée ne peut pas bloquer ce tour-ci.",
             "type": "Créature — vampire et guerrier",
             "uuid": "98198255-a96e-5b36-8542-2a8e587c5ad3"
+          },
+          {
+            "flavorText": "„Ich habe noch keinen ebenbürtigen Gegner gefunden.\"",
+            "identifiers": {
+              "multiverseId": "684424",
+              "scryfallId": "836e4670-c758-4b63-9a22-4a4acdf89d07"
+            },
+            "language": "German",
+            "multiverseId": 684424,
+            "name": "Voldaren-Duellant",
+            "skuIds": {
+              "nonfoil": "e976a2d5-1a59-55a0-92af-fdee5f6d47b0"
+            },
+            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nWenn der Voldaren-Duellant ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.",
+            "type": "Kreatur — Vampir, Krieger",
+            "uuid": "875c15ed-a47b-5832-8cf5-030854008e07"
           },
           {
             "flavorText": "\"Non ho ancora trovato un avversario degno.\"",
@@ -1765,6 +1965,9 @@
             "language": "Italian",
             "multiverseId": 684745,
             "name": "Duellante Voldaren",
+            "skuIds": {
+              "nonfoil": "81ecd663-5664-5f74-a483-decc8f5f49c5"
+            },
             "text": "Rapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)\nQuando il Duellante Voldaren entra, una creatura bersaglio non può bloccare in questo turno.",
             "type": "Creatura — Guerriero Vampiro",
             "uuid": "b71ac549-ca2e-50cd-9a1a-f0b34d850c91"
@@ -1778,14 +1981,31 @@
             "language": "Japanese",
             "multiverseId": 684852,
             "name": "ヴォルダーレンの決闘者",
+            "skuIds": {
+              "nonfoil": "12c52b60-9848-5d4a-a7f3-37a61d18a29e"
+            },
             "text": "速攻（このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）\nヴォルダーレンの決闘者が戦場に出たとき、クリーチャー１体を対象とする。このターン、それではブロックできない。",
             "type": "クリーチャー — 吸血鬼・戦士",
             "uuid": "4a204863-1675-53fa-bf94-3974334dd91f"
+          },
+          {
+            "flavorText": "\"Todavía he de encontrar quien me iguale\".",
+            "identifiers": {
+              "multiverseId": "684531",
+              "scryfallId": "aa455a7c-8961-47cf-9060-aeb7bc0f6943"
+            },
+            "language": "Spanish",
+            "multiverseId": 684531,
+            "name": "Duelista de Voldaren",
+            "skuIds": {
+              "nonfoil": "35710581-96e4-5cc5-9623-9836ec4e82d7"
+            },
+            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCuando el Duelista de Voldaren entre, la criatura objetivo no puede bloquear este turno.",
+            "type": "Criatura — Guerrero vampiro",
+            "uuid": "51d2d36d-8599-5a99-9790-0b728c790a05"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305951",
           "cardsphereId": "130974",
@@ -1830,6 +2050,7 @@
         "name": "Voldaren Duelist",
         "number": "612",
         "originalText": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen Voldaren Duelist enters, target creature can't block this turn.",
+        "originalType": "Creature – Vampire Warrior",
         "power": "3",
         "printings": [
           "GN2",
@@ -1845,9 +2066,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "8ea636cb-0956-55d3-a0b6-443888ebe267"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1881,39 +2107,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 4900,
+        "edhrecRank": 5069,
         "edhrecSaltiness": 0.67,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"If you're not refining your tastes, what's the point of living forever?\"",
         "foreignData": [
-          {
-            "flavorText": "„Wenn man seinen Geschmackssinn nicht verfeinert, was ist dann der Sinn von ewigem Leben?\"",
-            "identifiers": {
-              "multiverseId": "684425",
-              "scryfallId": "255ff229-f179-4047-a93b-c0b43a78921d"
-            },
-            "language": "German",
-            "multiverseId": 684425,
-            "name": "Voldaren-Gourmet",
-            "text": "Wenn der Voldaren-Gourmet ins Spiel kommt, fügt er jedem Gegner 1 Schadenspunkt zu. Erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Kreatur — Vampir",
-            "uuid": "4b8fc030-6781-58ca-9e8f-40657682ef87"
-          },
-          {
-            "flavorText": "\"Si no refinas tus gustos, ¿qué sentido tiene vivir para siempre?\".",
-            "identifiers": {
-              "multiverseId": "684532",
-              "scryfallId": "76879f52-4bdf-4dac-a2c9-95825038f4a7"
-            },
-            "language": "Spanish",
-            "multiverseId": 684532,
-            "name": "Sibarita de Voldaren",
-            "text": "Cuando el Sibarita de Voldaren entre, hace 1 punto de daño a cada oponente. Crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Criatura — Vampiro",
-            "uuid": "8ca21640-f0be-55b3-95d9-c63af19965fa"
-          },
           {
             "flavorText": "« Si vous n'en profitez pas pour raffiner vos goûts, à quoi bon vivre pour toujours ? »",
             "identifiers": {
@@ -1923,9 +2123,28 @@
             "language": "French",
             "multiverseId": 684639,
             "name": "Épicurien Voldaren",
+            "skuIds": {
+              "nonfoil": "7baf19a4-9f9e-5833-a04a-e59731cce4c8"
+            },
             "text": "Quand l'Épicurien Voldaren arrive, il inflige 1 blessure à chaque adversaire. Créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)",
             "type": "Créature — vampire",
             "uuid": "d0663918-a6e1-5eb7-bfff-225548d92a16"
+          },
+          {
+            "flavorText": "„Wenn man seinen Geschmackssinn nicht verfeinert, was ist dann der Sinn von ewigem Leben?\"",
+            "identifiers": {
+              "multiverseId": "684425",
+              "scryfallId": "255ff229-f179-4047-a93b-c0b43a78921d"
+            },
+            "language": "German",
+            "multiverseId": 684425,
+            "name": "Voldaren-Gourmet",
+            "skuIds": {
+              "nonfoil": "02664e08-98a3-5035-afc2-ff5984cc2b39"
+            },
+            "text": "Wenn der Voldaren-Gourmet ins Spiel kommt, fügt er jedem Gegner 1 Schadenspunkt zu. Erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")",
+            "type": "Kreatur — Vampir",
+            "uuid": "4b8fc030-6781-58ca-9e8f-40657682ef87"
           },
           {
             "flavorText": "\"Se non affini il tuo palato, che senso ha vivere per sempre?\"",
@@ -1936,6 +2155,9 @@
             "language": "Italian",
             "multiverseId": 684746,
             "name": "Epicureo Voldaren",
+            "skuIds": {
+              "nonfoil": "9cd95b8e-fd28-5bfb-8cbe-17dae95f62f8"
+            },
             "text": "Quando l'Epicureo Voldaren entra, infligge 1 danno a ogni avversario. Crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)",
             "type": "Creatura — Vampiro",
             "uuid": "d98470d6-a13e-51ad-bce9-546e8bf6c1a3"
@@ -1949,14 +2171,31 @@
             "language": "Japanese",
             "multiverseId": 684853,
             "name": "ヴォルダーレンの美食家",
+            "skuIds": {
+              "nonfoil": "e236f146-efec-5903-be0a-a84bb8d1c3b2"
+            },
             "text": "ヴォルダーレンの美食家が戦場に出たとき、これは各対戦相手にそれぞれ１点のダメージを与える。血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "4bb6b097-b21f-52b9-9455-0df0d0573052"
+          },
+          {
+            "flavorText": "\"Si no refinas tus gustos, ¿qué sentido tiene vivir para siempre?\".",
+            "identifiers": {
+              "multiverseId": "684532",
+              "scryfallId": "76879f52-4bdf-4dac-a2c9-95825038f4a7"
+            },
+            "language": "Spanish",
+            "multiverseId": 684532,
+            "name": "Sibarita de Voldaren",
+            "skuIds": {
+              "nonfoil": "082845ee-c141-53f4-a710-6d0b8b0ef630"
+            },
+            "text": "Cuando el Sibarita de Voldaren entre, hace 1 punto de daño a cada oponente. Crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)",
+            "type": "Criatura — Vampiro",
+            "uuid": "8ca21640-f0be-55b3-95d9-c63af19965fa"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305952",
           "cardsphereId": "130973",
@@ -1997,6 +2236,7 @@
         "name": "Voldaren Epicure",
         "number": "613",
         "originalText": "When Voldaren Epicure enters, it deals 1 damage to each opponent. Create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")",
+        "originalType": "Creature – Vampire",
         "power": "1",
         "printings": [
           "DBL",
@@ -2011,6 +2251,11 @@
           "tcgplayer": "https://mtgjson.com/links/1eea6836b6f14231"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -2026,9 +2271,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ea58ce09-01ca-5e44-9ce3-028ebbccc27a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2059,39 +2309,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2101,9 +2325,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2114,6 +2357,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2127,14 +2373,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2172,10 +2435,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2184,6 +2449,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2191,9 +2463,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2228,36 +2505,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2267,6 +2539,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2278,18 +2553,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2302,7 +2593,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2330,6 +2620,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2403,6 +2694,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2565,15 +2857,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2616,36 +2917,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2655,6 +2951,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2666,18 +2965,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2690,7 +3005,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2718,6 +3032,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2791,6 +3106,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2953,15 +3269,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3004,36 +3329,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3043,6 +3363,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3054,18 +3377,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3078,7 +3417,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3106,6 +3444,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3179,6 +3518,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3341,15 +3681,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3365,8 +3714,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3381,5 +3730,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "d5a71226f124b0"
   }
 }

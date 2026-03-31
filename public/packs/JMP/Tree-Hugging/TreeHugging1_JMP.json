@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "3b0350b88c1bec"
-  },
   "data": {
     "code": "JMP",
     "commander": [],
@@ -30,7 +25,7 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 4000,
+        "edhrecRank": 4205,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
@@ -38,8 +33,6 @@
         "flavorText": "For each creature that arrives in its audience, the sage imparts another piece of ancient wisdom for all to hear.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234892",
           "cardsphereId": "68451",
@@ -79,6 +72,7 @@
         "name": "Primordial Sage",
         "number": "422",
         "originalText": "Whenever you cast a creature spell, you may draw a card.",
+        "originalType": "Creature – Spirit",
         "power": "4",
         "printings": [
           "C14",
@@ -94,8 +88,14 @@
         "rarity": "rare",
         "securityStamp": "oval",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "2d0b37cf-59c2-56e6-bbd1-8643042a08e5"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -132,7 +132,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 2260,
+        "edhrecRank": 2175,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
@@ -140,8 +140,6 @@
         "flavorText": "Each flower identical, every leaf and petal disturbingly exact.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234900",
           "cardsphereId": "68418",
@@ -184,6 +182,7 @@
         "name": "Wall of Blossoms",
         "number": "442",
         "originalText": "Defender\nWhen Wall of Blossoms enters the battlefield, draw a card.",
+        "originalType": "Creature – Plant Wall",
         "power": "0",
         "printings": [
           "C15",
@@ -210,8 +209,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "6c26b856-4369-5ed2-832e-7220063b4b39"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -249,7 +254,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 22339,
+        "edhrecRank": 22832,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
@@ -257,8 +262,6 @@
         "flavorText": "Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234876",
           "cardsphereId": "68498",
@@ -300,6 +303,7 @@
         "name": "Ambassador Oak",
         "number": "375",
         "originalText": "When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.",
+        "originalType": "Creature – Treefolk Warrior",
         "power": "3",
         "printings": [
           "A25",
@@ -315,9 +319,20 @@
           "tcgplayer": "https://mtgjson.com/links/67c96daee8cac2d1"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "0999559d-8026-5957-b8d4-25f3a486d4cd"
+          ]
+        },
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "0b3a79ad-1204-5d61-b873-b0120931e55c"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -356,118 +371,14 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 20154,
+        "edhrecRank": 20733,
         "edhrecSaltiness": 0.2,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "If a tree fells you in the forest and no one is around to hear it, \"does it make a sound\" is the last thing you need to worry about.",
         "foreignData": [
-          {
-            "flavorText": "Wenn ein Baum dich im Wald umhaut und niemand in der Nähe ist, der es hört, ist „macht es Geräusche\" das Letzte, worüber du dir Sorgen machen musst.",
-            "identifiers": {
-              "multiverseId": "485756",
-              "scryfallId": "3d826725-c0eb-482c-acbf-47021329d5e8"
-            },
-            "language": "German",
-            "multiverseId": 485756,
-            "name": "Knorrenfaust-Eiche",
-            "text": "Immer wenn du eine Karte ziehst, erhält die Knorrenfaust-Eiche +2/+2 bis zum Ende des Zuges.",
-            "type": "Kreatur — Baumhirte",
-            "uuid": "669518ab-2628-57c4-a759-9f90b90e4b19"
-          },
-          {
-            "flavorText": "Si un árbol te derriba en el bosque y no hay nadie cerca para oírlo, que esté haciendo ruido es lo último que debería preocuparte.",
-            "identifiers": {
-              "multiverseId": "486015",
-              "scryfallId": "317b702a-04f2-4c9d-a038-4a8c0d199b5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 486015,
-            "name": "Roble puñolobanillo",
-            "text": "Siempre que robes una carta, el Roble puñolobanillo obtiene +2/+2 hasta el final del turno.",
-            "type": "Criatura — Pueblo-arbóreo",
-            "uuid": "2de68389-7d63-59aa-9708-666b4613beca"
-          },
-          {
-            "flavorText": "Si un arbre vous abat dans la forêt et que personne ne peut l'entendre, savoir si cela fait du bruit sera bien le dernier de vos soucis.",
-            "identifiers": {
-              "multiverseId": "486274",
-              "scryfallId": "fa7f485c-3f86-4d3a-aee0-de5a99ecfda0"
-            },
-            "language": "French",
-            "multiverseId": 486274,
-            "name": "Chêne aux poings noueux",
-            "text": "À chaque fois que vous piochez une carte, le Chêne aux poings noueux gagne +2/+2 jusqu'à la fin du tour.",
-            "type": "Créature : sylvin",
-            "uuid": "c22401d3-30ae-5b6d-be55-dbd288c4655a"
-          },
-          {
-            "flavorText": "Se un albero si abbatte su di te nella foresta e non c'è nessuno nei paraggi, sapere \"se faccia rumore\" sarà l'ultima delle tue preoccupazioni.",
-            "identifiers": {
-              "multiverseId": "486533",
-              "scryfallId": "5a22d1b8-0d63-476e-b9e8-902f91239f96"
-            },
-            "language": "Italian",
-            "multiverseId": 486533,
-            "name": "Quercia Pugno Nodoso",
-            "text": "Ogniqualvolta peschi una carta, la Quercia Pugno Nodoso prende +2/+2 fino alla fine del turno.",
-            "type": "Creatura — Silvantropo",
-            "uuid": "bf04fc01-2839-5b17-ae73-a3b04e0b5f9c"
-          },
-          {
-            "flavorText": "誰もいない森の中で木に倒されたら、「それは音を立てるのか？」と考える必要はない。",
-            "identifiers": {
-              "multiverseId": "486792",
-              "scryfallId": "c412be8a-c2fd-4ba4-8760-53cc095becc0"
-            },
-            "language": "Japanese",
-            "multiverseId": 486792,
-            "name": "節くれ拳の樫",
-            "text": "あなたがカードを１枚引くたび、ターン終了時まで、節くれ拳の樫は＋２/＋２の修整を受ける。",
-            "type": "クリーチャー — ツリーフォーク",
-            "uuid": "41a5856f-3621-5071-954c-1fb3e28d1f08"
-          },
-          {
-            "flavorText": "숲에서 나무가 당신의 위로 떨어지고 주변에는 아무도 그 소리를 들을 사람이 없다면, \"그게 소리가 난 것일까\"는 당신이 가장 나중에 걱정해도 될 일이다.",
-            "identifiers": {
-              "multiverseId": "487051",
-              "scryfallId": "7d2d178a-90c8-4515-83eb-ded78fe96b61"
-            },
-            "language": "Korean",
-            "multiverseId": 487051,
-            "name": "옹이주먹 떡갈나무",
-            "text": "당신이 카드를 뽑을 때마다, 옹이주먹 떡갈나무는 턴종료까지 +2/+2를 받는다.",
-            "type": "생물 — 인목",
-            "uuid": "5018e103-5a83-5bbf-a022-76b696eb7335"
-          },
-          {
-            "flavorText": "Se uma árvore derruba você numa floresta e não há ninguém por perto para ouvir, saber se fez barulho ou não é a última das suas preocupações.",
-            "identifiers": {
-              "multiverseId": "487310",
-              "scryfallId": "17fbef18-556a-4650-85c5-ee911630fd0a"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487310,
-            "name": "Carvalho Punho Nodoso",
-            "text": "Toda vez que você compra um card, Carvalho Punho Nodoso recebe +2/+2 até o final do turno.",
-            "type": "Criatura — Ent",
-            "uuid": "d4780bf7-73a8-5249-9123-defd8bee7ae2"
-          },
-          {
-            "flavorText": "Если дерево валит тебя с ног в лесу, а рядом нет никого, кто это услышал бы, то «издает ли оно звук» — это последнее, о чем стоит волноваться.",
-            "identifiers": {
-              "multiverseId": "487569",
-              "scryfallId": "2383f98a-c290-4e4e-9860-a7e6b6a6d8c5"
-            },
-            "language": "Russian",
-            "multiverseId": 487569,
-            "name": "Дуб Кряжистого Кулака",
-            "text": "Каждый раз, когда вы берете карту, Дуб Кряжистого Кулака получает +2/+2 до конца хода.",
-            "type": "Существо — Лесовик",
-            "uuid": "b960291e-00d9-5ff2-bf06-27de0031339c"
-          },
           {
             "flavorText": "如果你在森林中被树木击倒，而周围又没人听到，你恐怕都没有时间去思考「树这么动到底会不会出声」这件事。",
             "identifiers": {
@@ -477,6 +388,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487828,
             "name": "瘤拳橡树",
+            "skuIds": {
+              "foil": "79c70d48-a637-5a8c-a232-8cd8bc78874a",
+              "nonfoil": "babead95-3256-5816-8789-af850090671b"
+            },
             "text": "每当你抓一张牌时，瘤拳橡树得+2/+2直到回合结束。",
             "type": "生物 ～树妖",
             "uuid": "9e57b416-689c-57a7-a22c-ba60c8ce14db"
@@ -490,14 +405,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488087,
             "name": "瘤拳橡樹",
+            "skuIds": {
+              "foil": "d04bfd43-0e79-55bd-be45-e7fb536a2f33",
+              "nonfoil": "b02a33ab-d145-5730-89cb-b8ebde1e5e2f"
+            },
             "text": "每當你抽一張牌時，瘤拳橡樹得+2/+2直到回合結束。",
             "type": "生物 ～樹妖",
             "uuid": "3a98a797-21c9-5d0a-92f1-2df923bb10b9"
+          },
+          {
+            "flavorText": "Si un arbre vous abat dans la forêt et que personne ne peut l'entendre, savoir si cela fait du bruit sera bien le dernier de vos soucis.",
+            "identifiers": {
+              "multiverseId": "486274",
+              "scryfallId": "fa7f485c-3f86-4d3a-aee0-de5a99ecfda0"
+            },
+            "language": "French",
+            "multiverseId": 486274,
+            "name": "Chêne aux poings noueux",
+            "skuIds": {
+              "foil": "ef658c98-9f5a-5475-9ce3-45f9a886aeb9",
+              "nonfoil": "aa59f398-ca59-5d6c-8c3d-4238247680a8"
+            },
+            "text": "À chaque fois que vous piochez une carte, le Chêne aux poings noueux gagne +2/+2 jusqu'à la fin du tour.",
+            "type": "Créature : sylvin",
+            "uuid": "c22401d3-30ae-5b6d-be55-dbd288c4655a"
+          },
+          {
+            "flavorText": "Wenn ein Baum dich im Wald umhaut und niemand in der Nähe ist, der es hört, ist „macht es Geräusche\" das Letzte, worüber du dir Sorgen machen musst.",
+            "identifiers": {
+              "multiverseId": "485756",
+              "scryfallId": "3d826725-c0eb-482c-acbf-47021329d5e8"
+            },
+            "language": "German",
+            "multiverseId": 485756,
+            "name": "Knorrenfaust-Eiche",
+            "skuIds": {
+              "foil": "c9359fec-7cc2-5839-a803-f044b3ad37e4",
+              "nonfoil": "e381ca4a-8390-54d4-a4b3-6b2c5efa6810"
+            },
+            "text": "Immer wenn du eine Karte ziehst, erhält die Knorrenfaust-Eiche +2/+2 bis zum Ende des Zuges.",
+            "type": "Kreatur — Baumhirte",
+            "uuid": "669518ab-2628-57c4-a759-9f90b90e4b19"
+          },
+          {
+            "flavorText": "Se un albero si abbatte su di te nella foresta e non c'è nessuno nei paraggi, sapere \"se faccia rumore\" sarà l'ultima delle tue preoccupazioni.",
+            "identifiers": {
+              "multiverseId": "486533",
+              "scryfallId": "5a22d1b8-0d63-476e-b9e8-902f91239f96"
+            },
+            "language": "Italian",
+            "multiverseId": 486533,
+            "name": "Quercia Pugno Nodoso",
+            "skuIds": {
+              "foil": "696bd320-edb2-51c5-a1bc-8c41abb4859b",
+              "nonfoil": "db2ec890-ba33-5f99-add2-b164caf24b53"
+            },
+            "text": "Ogniqualvolta peschi una carta, la Quercia Pugno Nodoso prende +2/+2 fino alla fine del turno.",
+            "type": "Creatura — Silvantropo",
+            "uuid": "bf04fc01-2839-5b17-ae73-a3b04e0b5f9c"
+          },
+          {
+            "flavorText": "誰もいない森の中で木に倒されたら、「それは音を立てるのか？」と考える必要はない。",
+            "identifiers": {
+              "multiverseId": "486792",
+              "scryfallId": "c412be8a-c2fd-4ba4-8760-53cc095becc0"
+            },
+            "language": "Japanese",
+            "multiverseId": 486792,
+            "name": "節くれ拳の樫",
+            "skuIds": {
+              "foil": "aa9c04a1-de11-5f2f-b3f2-d2bd9fcd5590",
+              "nonfoil": "a1f1d929-5b3a-55bb-9984-9d6fd6f3fb41"
+            },
+            "text": "あなたがカードを１枚引くたび、ターン終了時まで、節くれ拳の樫は＋２/＋２の修整を受ける。",
+            "type": "クリーチャー — ツリーフォーク",
+            "uuid": "41a5856f-3621-5071-954c-1fb3e28d1f08"
+          },
+          {
+            "flavorText": "숲에서 나무가 당신의 위로 떨어지고 주변에는 아무도 그 소리를 들을 사람이 없다면, \"그게 소리가 난 것일까\"는 당신이 가장 나중에 걱정해도 될 일이다.",
+            "identifiers": {
+              "multiverseId": "487051",
+              "scryfallId": "7d2d178a-90c8-4515-83eb-ded78fe96b61"
+            },
+            "language": "Korean",
+            "multiverseId": 487051,
+            "name": "옹이주먹 떡갈나무",
+            "skuIds": {
+              "foil": "5aa2a9a5-4e99-5892-9d69-2eb6b9083dde",
+              "nonfoil": "994155a8-bca7-5090-b339-c2ecb2a28388"
+            },
+            "text": "당신이 카드를 뽑을 때마다, 옹이주먹 떡갈나무는 턴종료까지 +2/+2를 받는다.",
+            "type": "생물 — 인목",
+            "uuid": "5018e103-5a83-5bbf-a022-76b696eb7335"
+          },
+          {
+            "flavorText": "Se uma árvore derruba você numa floresta e não há ninguém por perto para ouvir, saber se fez barulho ou não é a última das suas preocupações.",
+            "identifiers": {
+              "multiverseId": "487310",
+              "scryfallId": "17fbef18-556a-4650-85c5-ee911630fd0a"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487310,
+            "name": "Carvalho Punho Nodoso",
+            "skuIds": {
+              "foil": "18017dd8-4c74-5c55-9370-44df5e7cfccf",
+              "nonfoil": "5b34bbd7-f7e4-5d6b-8dce-c909c3590206"
+            },
+            "text": "Toda vez que você compra um card, Carvalho Punho Nodoso recebe +2/+2 até o final do turno.",
+            "type": "Criatura — Ent",
+            "uuid": "d4780bf7-73a8-5249-9123-defd8bee7ae2"
+          },
+          {
+            "flavorText": "Если дерево валит тебя с ног в лесу, а рядом нет никого, кто это услышал бы, то «издает ли оно звук» — это последнее, о чем стоит волноваться.",
+            "identifiers": {
+              "multiverseId": "487569",
+              "scryfallId": "2383f98a-c290-4e4e-9860-a7e6b6a6d8c5"
+            },
+            "language": "Russian",
+            "multiverseId": 487569,
+            "name": "Дуб Кряжистого Кулака",
+            "skuIds": {
+              "foil": "214d7c33-3c09-5bbc-b653-815c29bfa2bb",
+              "nonfoil": "f688e6d6-f34e-5de9-bb74-218c629c2480"
+            },
+            "text": "Каждый раз, когда вы берете карту, Дуб Кряжистого Кулака получает +2/+2 до конца хода.",
+            "type": "Существо — Лесовик",
+            "uuid": "b960291e-00d9-5ff2-bf06-27de0031339c"
+          },
+          {
+            "flavorText": "Si un árbol te derriba en el bosque y no hay nadie cerca para oírlo, que esté haciendo ruido es lo último que debería preocuparte.",
+            "identifiers": {
+              "multiverseId": "486015",
+              "scryfallId": "317b702a-04f2-4c9d-a038-4a8c0d199b5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 486015,
+            "name": "Roble puñolobanillo",
+            "skuIds": {
+              "foil": "03cb6ce3-eda9-5098-a055-8e236b0789a8",
+              "nonfoil": "fe59d270-6a16-544f-959a-8a97b70f7b0a"
+            },
+            "text": "Siempre que robes una carta, el Roble puñolobanillo obtiene +2/+2 hasta el final del turno.",
+            "type": "Criatura — Pueblo-arbóreo",
+            "uuid": "2de68389-7d63-59aa-9708-666b4613beca"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234435",
           "cardKingdomId": "234095",
@@ -539,6 +592,7 @@
         "name": "Burlfist Oak",
         "number": "174",
         "originalText": "Whenever you draw a card, Burlfist Oak gets +2/+2 until end of turn.",
+        "originalType": "Creature – Treefolk",
         "power": "2",
         "printings": [
           "M21"
@@ -547,6 +601,7 @@
           "cardKingdom": "https://mtgjson.com/links/a68436d37d469ec8",
           "cardKingdomFoil": "https://mtgjson.com/links/50cb9d7327fddf78",
           "cardmarket": "https://mtgjson.com/links/b7840addb52c25c7",
+          "cardmarketFoil": "https://mtgjson.com/links/10404be2d270769a",
           "tcgplayer": "https://mtgjson.com/links/2f3b2c9a04c0860e"
         },
         "rarity": "uncommon",
@@ -557,16 +612,45 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "8146438c-e215-5c24-9409-a1a9515384cd",
+          "nonfoil": "a3fc7527-bd8e-505e-9ee7-d328ebcb68e6"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -603,118 +687,14 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 18186,
+        "edhrecRank": 18747,
         "edhrecSaltiness": 0.27,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "Weak and strong alike seek shelter beneath its branches.",
         "foreignData": [
-          {
-            "flavorText": "Die Schwachen sowie die Starken suchen unter seinen Ästen Schutz.",
-            "identifiers": {
-              "multiverseId": "485795",
-              "scryfallId": "52906cfc-7efc-4b0d-82e2-cef5ceaaa871"
-            },
-            "language": "German",
-            "multiverseId": 485795,
-            "name": "Hüter der Wälder",
-            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nImmer wenn der Hüter der Wälder das Ziel eines Zauberspruchs oder einer Fähigkeit wird, den bzw. die ein Gegner kontrolliert, kannst du zwei Karten ziehen.",
-            "type": "Kreatur — Baumhirte",
-            "uuid": "d6d1e23d-7824-5515-9b46-a7eec11d9506"
-          },
-          {
-            "flavorText": "Tanto los débiles como los fuertes buscan refugio bajo sus ramas.",
-            "identifiers": {
-              "multiverseId": "486054",
-              "scryfallId": "79cc24f4-a92f-4893-9818-b2a9ea0198af"
-            },
-            "language": "Spanish",
-            "multiverseId": 486054,
-            "name": "Guarda de los bosques",
-            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nSiempre que el Guarda de los bosques sea objetivo de un hechizo o habilidad que controla un oponente, puedes robar dos cartas.",
-            "type": "Criatura — Pueblo-arbóreo",
-            "uuid": "9b039eb1-3ce4-5b4d-9774-6d8bb049c7ce"
-          },
-          {
-            "flavorText": "Les plus faibles comme les plus forts s'abritent derrière ses branches.",
-            "identifiers": {
-              "multiverseId": "486313",
-              "scryfallId": "02e80011-7662-46f4-a534-67510bf0b521"
-            },
-            "language": "French",
-            "multiverseId": 486313,
-            "name": "Garde des bois",
-            "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)\nÀ chaque fois que le Garde des bois devient la cible d'un sort ou d'une capacité qu'un adversaire contrôle, vous pouvez piocher deux cartes.",
-            "type": "Créature : sylvin",
-            "uuid": "3d09f731-5287-5844-a5e9-754ed873c230"
-          },
-          {
-            "flavorText": "Tanto i forti quanto i deboli cercano rifugio sotto i suoi rami.",
-            "identifiers": {
-              "multiverseId": "486572",
-              "scryfallId": "8cf1e016-eb45-407a-8e00-d2851befaf54"
-            },
-            "language": "Italian",
-            "multiverseId": 486572,
-            "name": "Guardiano dei Boschi",
-            "text": "Cautela (Questa creatura attacca senza TAPpare.)\nOgniqualvolta il Guardiano dei Boschi diventa bersaglio di una magia o abilità controllata da un avversario, puoi pescare due carte.",
-            "type": "Creatura — Silvantropo",
-            "uuid": "0d445bfd-f3b0-56e5-9c8f-8a0df1276c8e"
-          },
-          {
-            "flavorText": "弱いものも強いものも、揃ってその枝の庇護を求める。",
-            "identifiers": {
-              "multiverseId": "486831",
-              "scryfallId": "4f4f15d8-bd96-421f-8c9e-70e1aed6ad60"
-            },
-            "language": "Japanese",
-            "multiverseId": 486831,
-            "name": "森の守部",
-            "text": "警戒（このクリーチャーは攻撃してもタップしない。）\n森の守部が、対戦相手がコントロールしている呪文か能力の対象になるたび、あなたはカードを２枚引いてもよい。",
-            "type": "クリーチャー — ツリーフォーク",
-            "uuid": "c0cc657e-8402-5c0c-9aae-9d916a36855c"
-          },
-          {
-            "flavorText": "약자든 강자든 하나같이 그것의 가지 아래에서 몸을 숨길 곳을 찾는다.",
-            "identifiers": {
-              "multiverseId": "487090",
-              "scryfallId": "c23a7eeb-e713-4b83-affa-4b80d7264a9e"
-            },
-            "language": "Korean",
-            "multiverseId": 487090,
-            "name": "숲 관리자",
-            "text": "경계 (이 생물은 공격하면서 탭되지 않는다.)\n숲 관리자가 상대가 조종하는 주문 또는 능력의 목표가 될 때마다, 당신은 카드 두 장을 뽑을 수 있다.",
-            "type": "생물 — 인목",
-            "uuid": "9ee6f0dd-d0c2-5c8c-9cb5-f32538c8c42b"
-          },
-          {
-            "flavorText": "Tanto o forte quanto o fraco buscam refúgio sob seus galhos.",
-            "identifiers": {
-              "multiverseId": "487349",
-              "scryfallId": "da449faf-92c3-4a6d-9a2f-8eccf6c453d8"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487349,
-            "name": "Guardião das Matas",
-            "text": "Vigilância (Atacar não faz com que esta criatura seja virada.)\nToda vez que Guardião das Matas se torna alvo de uma mágica ou habilidade que um oponente controla, você pode comprar dois cards.",
-            "type": "Criatura — Ent",
-            "uuid": "d690ae04-36f7-5e7f-9380-9a7a630829d5"
-          },
-          {
-            "flavorText": "И слабые, и сильные ищут убежище под его ветвями.",
-            "identifiers": {
-              "multiverseId": "487608",
-              "scryfallId": "8c7d0cb5-e441-4c77-a10a-bf681af6fcbe"
-            },
-            "language": "Russian",
-            "multiverseId": 487608,
-            "name": "Хранитель Леса",
-            "text": "Бдительность (Атакуя, это существо не поворачивается.)\nКаждый раз, когда Хранитель Леса становится целью заклинания или способности под контролем оппонента, вы можете взять две карты.",
-            "type": "Существо — Лесовик",
-            "uuid": "3fa22e17-bd82-5d96-a778-94ef0b77960f"
-          },
           {
             "flavorText": "强者和弱者都在其枝杈下寻求庇护。",
             "identifiers": {
@@ -724,6 +704,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487867,
             "name": "护林树妖",
+            "skuIds": {
+              "foil": "2d2e6be9-b511-5c6f-9b87-1a3419d16286",
+              "nonfoil": "ed3e6ab3-3c82-5149-88ce-a363dd00eba9"
+            },
             "text": "警戒（此生物攻击时不需横置。）\n每当护林树妖成为由对手操控之咒语或异能的目标时，你可以抓两张牌。",
             "type": "生物 ～树妖",
             "uuid": "7c66ddfe-f67b-5b69-b5e0-9fdcf8dd838d"
@@ -737,14 +721,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488126,
             "name": "護林樹妖",
+            "skuIds": {
+              "foil": "a900ae0c-7393-593d-86ee-ec96354dfd6b",
+              "nonfoil": "a8ba014d-56da-5374-b965-e3330d55afef"
+            },
             "text": "警戒（此生物攻擊時不需橫置。）\n每當護林樹妖成為由對手操控之咒語或異能的目標時，你可以抽兩張牌。",
             "type": "生物 ～樹妖",
             "uuid": "331b4505-2217-535f-8ae1-0e59967421f6"
+          },
+          {
+            "flavorText": "Les plus faibles comme les plus forts s'abritent derrière ses branches.",
+            "identifiers": {
+              "multiverseId": "486313",
+              "scryfallId": "02e80011-7662-46f4-a534-67510bf0b521"
+            },
+            "language": "French",
+            "multiverseId": 486313,
+            "name": "Garde des bois",
+            "skuIds": {
+              "foil": "5e6077d7-d896-51de-ae6b-cbe9b605bfc0",
+              "nonfoil": "abaeebf3-8c46-51df-b0c9-7540d7b74f61"
+            },
+            "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)\nÀ chaque fois que le Garde des bois devient la cible d'un sort ou d'une capacité qu'un adversaire contrôle, vous pouvez piocher deux cartes.",
+            "type": "Créature : sylvin",
+            "uuid": "3d09f731-5287-5844-a5e9-754ed873c230"
+          },
+          {
+            "flavorText": "Die Schwachen sowie die Starken suchen unter seinen Ästen Schutz.",
+            "identifiers": {
+              "multiverseId": "485795",
+              "scryfallId": "52906cfc-7efc-4b0d-82e2-cef5ceaaa871"
+            },
+            "language": "German",
+            "multiverseId": 485795,
+            "name": "Hüter der Wälder",
+            "skuIds": {
+              "foil": "4e16108c-b54f-5683-91fe-39d2138519c5",
+              "nonfoil": "3bb97623-4692-5f3c-8ee4-c728394d0660"
+            },
+            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nImmer wenn der Hüter der Wälder das Ziel eines Zauberspruchs oder einer Fähigkeit wird, den bzw. die ein Gegner kontrolliert, kannst du zwei Karten ziehen.",
+            "type": "Kreatur — Baumhirte",
+            "uuid": "d6d1e23d-7824-5515-9b46-a7eec11d9506"
+          },
+          {
+            "flavorText": "Tanto i forti quanto i deboli cercano rifugio sotto i suoi rami.",
+            "identifiers": {
+              "multiverseId": "486572",
+              "scryfallId": "8cf1e016-eb45-407a-8e00-d2851befaf54"
+            },
+            "language": "Italian",
+            "multiverseId": 486572,
+            "name": "Guardiano dei Boschi",
+            "skuIds": {
+              "foil": "0216c310-331c-5ca9-8e29-2e4da83174f0",
+              "nonfoil": "84fdcef5-3dbb-521c-bcf3-1a7f0e4b831f"
+            },
+            "text": "Cautela (Questa creatura attacca senza TAPpare.)\nOgniqualvolta il Guardiano dei Boschi diventa bersaglio di una magia o abilità controllata da un avversario, puoi pescare due carte.",
+            "type": "Creatura — Silvantropo",
+            "uuid": "0d445bfd-f3b0-56e5-9c8f-8a0df1276c8e"
+          },
+          {
+            "flavorText": "弱いものも強いものも、揃ってその枝の庇護を求める。",
+            "identifiers": {
+              "multiverseId": "486831",
+              "scryfallId": "4f4f15d8-bd96-421f-8c9e-70e1aed6ad60"
+            },
+            "language": "Japanese",
+            "multiverseId": 486831,
+            "name": "森の守部",
+            "skuIds": {
+              "foil": "be5f2df2-5024-5f36-a2fa-b6a152f77018",
+              "nonfoil": "0907c3bc-0bbe-578e-9269-201dbc3a282b"
+            },
+            "text": "警戒（このクリーチャーは攻撃してもタップしない。）\n森の守部が、対戦相手がコントロールしている呪文か能力の対象になるたび、あなたはカードを２枚引いてもよい。",
+            "type": "クリーチャー — ツリーフォーク",
+            "uuid": "c0cc657e-8402-5c0c-9aae-9d916a36855c"
+          },
+          {
+            "flavorText": "약자든 강자든 하나같이 그것의 가지 아래에서 몸을 숨길 곳을 찾는다.",
+            "identifiers": {
+              "multiverseId": "487090",
+              "scryfallId": "c23a7eeb-e713-4b83-affa-4b80d7264a9e"
+            },
+            "language": "Korean",
+            "multiverseId": 487090,
+            "name": "숲 관리자",
+            "skuIds": {
+              "foil": "8654c0be-360c-5706-b7df-eeccc328deca",
+              "nonfoil": "d3f4fc72-1977-5221-ac33-28da92ca4c14"
+            },
+            "text": "경계 (이 생물은 공격하면서 탭되지 않는다.)\n숲 관리자가 상대가 조종하는 주문 또는 능력의 목표가 될 때마다, 당신은 카드 두 장을 뽑을 수 있다.",
+            "type": "생물 — 인목",
+            "uuid": "9ee6f0dd-d0c2-5c8c-9cb5-f32538c8c42b"
+          },
+          {
+            "flavorText": "Tanto o forte quanto o fraco buscam refúgio sob seus galhos.",
+            "identifiers": {
+              "multiverseId": "487349",
+              "scryfallId": "da449faf-92c3-4a6d-9a2f-8eccf6c453d8"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487349,
+            "name": "Guardião das Matas",
+            "skuIds": {
+              "foil": "0aff775b-845a-534c-bb23-9f5196ae1302",
+              "nonfoil": "0e3d3803-9883-5946-b55b-3fff2afac95a"
+            },
+            "text": "Vigilância (Atacar não faz com que esta criatura seja virada.)\nToda vez que Guardião das Matas se torna alvo de uma mágica ou habilidade que um oponente controla, você pode comprar dois cards.",
+            "type": "Criatura — Ent",
+            "uuid": "d690ae04-36f7-5e7f-9380-9a7a630829d5"
+          },
+          {
+            "flavorText": "И слабые, и сильные ищут убежище под его ветвями.",
+            "identifiers": {
+              "multiverseId": "487608",
+              "scryfallId": "8c7d0cb5-e441-4c77-a10a-bf681af6fcbe"
+            },
+            "language": "Russian",
+            "multiverseId": 487608,
+            "name": "Хранитель Леса",
+            "skuIds": {
+              "foil": "97f56af9-6d46-53f7-9519-1394ffed17d0",
+              "nonfoil": "28caeb22-ff0e-5f40-b465-719bc8aed292"
+            },
+            "text": "Бдительность (Атакуя, это существо не поворачивается.)\nКаждый раз, когда Хранитель Леса становится целью заклинания или способности под контролем оппонента, вы можете взять две карты.",
+            "type": "Существо — Лесовик",
+            "uuid": "3fa22e17-bd82-5d96-a778-94ef0b77960f"
+          },
+          {
+            "flavorText": "Tanto los débiles como los fuertes buscan refugio bajo sus ramas.",
+            "identifiers": {
+              "multiverseId": "486054",
+              "scryfallId": "79cc24f4-a92f-4893-9818-b2a9ea0198af"
+            },
+            "language": "Spanish",
+            "multiverseId": 486054,
+            "name": "Guarda de los bosques",
+            "skuIds": {
+              "foil": "b7986603-7c84-5ab7-9f35-da7bc8a96e44",
+              "nonfoil": "ac054a7e-944d-58e7-b9fe-e168bb8349b0"
+            },
+            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nSiempre que el Guarda de los bosques sea objetivo de un hechizo o habilidad que controla un oponente, puedes robar dos cartas.",
+            "type": "Criatura — Pueblo-arbóreo",
+            "uuid": "9b039eb1-3ce4-5b4d-9774-6d8bb049c7ce"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234426",
           "cardKingdomId": "234076",
@@ -788,6 +910,7 @@
         "name": "Warden of the Woods",
         "number": "213",
         "originalText": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhenever Warden of the Woods becomes the target of a spell or ability an opponent controls, you may draw two cards.",
+        "originalType": "Creature – Treefolk",
         "power": "5",
         "printings": [
           "M21"
@@ -796,6 +919,7 @@
           "cardKingdom": "https://mtgjson.com/links/8ca137f1f6eb9cf5",
           "cardKingdomFoil": "https://mtgjson.com/links/664107ec280eea01",
           "cardmarket": "https://mtgjson.com/links/ff124d97af19716a",
+          "cardmarketFoil": "https://mtgjson.com/links/bce27a0435779bbe",
           "tcgplayer": "https://mtgjson.com/links/420789593e79ecb8"
         },
         "rarity": "uncommon",
@@ -810,16 +934,45 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "4bd6d717-c493-5864-b971-29b45b10e231",
+          "nonfoil": "8c785058-b669-5623-9256-7d847390ed6c"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -856,118 +1009,14 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3285,
+        "edhrecRank": 3471,
         "edhrecSaltiness": 0.07,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "The elves of Llanowar look to their past to determine the shape of their future.",
         "foreignData": [
-          {
-            "flavorText": "Die Elfen von Llanowar schauen in ihre Vergangenheit, um etwas über ihre Zukunft zu erfahren.",
-            "identifiers": {
-              "multiverseId": "485775",
-              "scryfallId": "d61a51b5-6583-4083-84d3-066bab8aa1d9"
-            },
-            "language": "German",
-            "multiverseId": 485775,
-            "name": "Llanowar-Visionär",
-            "text": "Wenn der Llanowar-Visionär ins Spiel kommt, ziehe eine Karte.\n{T}: Erzeuge {G}.",
-            "type": "Kreatur — Elf, Druide",
-            "uuid": "f976c1f8-a14f-5550-ac73-026fb211fb39"
-          },
-          {
-            "flavorText": "Los elfos de Llanowar miran su pasado para determinar su futuro.",
-            "identifiers": {
-              "multiverseId": "486034",
-              "scryfallId": "f87cc6de-d402-449e-ba68-e82464ee6349"
-            },
-            "language": "Spanish",
-            "multiverseId": 486034,
-            "name": "Visionario de Llanowar",
-            "text": "Cuando el Visionario de Llanowar entre al campo de batalla, roba una carta.\n{T}: Agrega {G}.",
-            "type": "Criatura — Druida elfo",
-            "uuid": "69970776-2424-539a-917a-226f56c231e4"
-          },
-          {
-            "flavorText": "Les elfes de Llanowar regardent leur passé pour savoir comment se profile leur avenir.",
-            "identifiers": {
-              "multiverseId": "486293",
-              "scryfallId": "dd6902ad-b158-46aa-9824-161ac6d63868"
-            },
-            "language": "French",
-            "multiverseId": 486293,
-            "name": "Visionnaire de Llanowar",
-            "text": "Quand le Visionnaire de Llanowar arrive sur le champ de bataille, piochez une carte.\n{T} : Ajoutez {G}.",
-            "type": "Créature : elfe et druide",
-            "uuid": "df9c3643-8243-5ece-be54-ec90227bbca0"
-          },
-          {
-            "flavorText": "Gli elfi di Llanowar guardano al passato per tracciare il loro futuro.",
-            "identifiers": {
-              "multiverseId": "486552",
-              "scryfallId": "73afaf2c-54e8-4410-bf9e-bd938221b1b5"
-            },
-            "language": "Italian",
-            "multiverseId": 486552,
-            "name": "Visionario di Llanowar",
-            "text": "Quando il Visionario di Llanowar entra nel campo di battaglia, pesca una carta.\n{T}: Aggiungi {G}.",
-            "type": "Creatura — Druido Elfo",
-            "uuid": "0b6c63b2-b862-502f-b6b3-3e9566494383"
-          },
-          {
-            "flavorText": "ラノワールのエルフたちは、過去を見て未来の形を判断する。",
-            "identifiers": {
-              "multiverseId": "486811",
-              "scryfallId": "f7a9d247-8f89-4f48-b800-2e4f531f43f1"
-            },
-            "language": "Japanese",
-            "multiverseId": 486811,
-            "name": "ラノワールの幻想家",
-            "text": "ラノワールの幻想家が戦場に出たとき、カードを１枚引く。\n{T}：{G}を加える。",
-            "type": "クリーチャー — エルフ・ドルイド",
-            "uuid": "fac1ea9b-7b7e-57ec-9a3b-9ba4043f2b41"
-          },
-          {
-            "flavorText": "라노워의 엘프들은 자신들의 미래의 모습을 결정하기 위해 자신들의 과거를 되돌아본다.",
-            "identifiers": {
-              "multiverseId": "487070",
-              "scryfallId": "c9e654b5-1615-4433-8fb2-7ef9c5be8b17"
-            },
-            "language": "Korean",
-            "multiverseId": 487070,
-            "name": "라노워 선지자",
-            "text": "라노워 선지자가 전장에 들어올 때, 카드 한 장을 뽑는다.\n{T}: {G}를 추가한다.",
-            "type": "생물 — 엘프 드루이드",
-            "uuid": "b1c419a1-a661-5cb7-bedc-a3ca1ca85179"
-          },
-          {
-            "flavorText": "Os elfos de Llanowar olham para o passado para determinar o próprio futuro.",
-            "identifiers": {
-              "multiverseId": "487329",
-              "scryfallId": "e83e3f26-1eb2-4ead-84f6-8c81f98e2059"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487329,
-            "name": "Visionário de Llanowar",
-            "text": "Quando Visionário de Llanowar entrar no campo de batalha, compre um card.\n{T}: Adicione {G}.",
-            "type": "Criatura — Elfo Druida",
-            "uuid": "b20cae83-7e4f-5941-a9e6-6db35d4e7775"
-          },
-          {
-            "flavorText": "Эльфы Лановара обращаются к прошлому, чтобы определить облик будущего.",
-            "identifiers": {
-              "multiverseId": "487588",
-              "scryfallId": "6daf7c1a-42b2-45fa-89ed-7e5d992a99bb"
-            },
-            "language": "Russian",
-            "multiverseId": 487588,
-            "name": "Лановарский Провидец",
-            "text": "Когда Лановарский Провидец выходит на поле битвы, возьмите карту.\n{T}: добавьте {G}.",
-            "type": "Существо — Эльф Друид",
-            "uuid": "918e3b06-4f0c-599f-95d9-ae8245869e8c"
-          },
           {
             "flavorText": "罗堰妖精追忆过往，形塑未来。",
             "identifiers": {
@@ -977,6 +1026,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487847,
             "name": "罗堰幻视师",
+            "skuIds": {
+              "foil": "d0794ad5-a524-55fe-9e26-9637e7e2989c",
+              "nonfoil": "8d31ba68-1f01-530b-b363-cb04dd1f7383"
+            },
             "text": "当罗堰幻视师进战场时，抓一张牌。\n{T}：加{G}。",
             "type": "生物 ～妖精／德鲁伊",
             "uuid": "5f1ff58c-f21e-539f-89c1-67e9cbdc84da"
@@ -990,14 +1043,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488106,
             "name": "羅堰幻視師",
+            "skuIds": {
+              "foil": "528ecc19-3187-5a3b-9f58-5f3859854dbb",
+              "nonfoil": "08cf3961-d3fd-5e55-adf5-14f71d83418e"
+            },
             "text": "當羅堰幻視師進戰場時，抽一張牌。\n{T}：加{G}。",
             "type": "生物 ～妖精／德魯伊",
             "uuid": "3267e0d9-3ffd-5049-ad12-3d570f5fe587"
+          },
+          {
+            "flavorText": "Les elfes de Llanowar regardent leur passé pour savoir comment se profile leur avenir.",
+            "identifiers": {
+              "multiverseId": "486293",
+              "scryfallId": "dd6902ad-b158-46aa-9824-161ac6d63868"
+            },
+            "language": "French",
+            "multiverseId": 486293,
+            "name": "Visionnaire de Llanowar",
+            "skuIds": {
+              "foil": "ac862ae7-ce17-5905-9bf1-c30a2d91145a",
+              "nonfoil": "d3a4bf18-13ef-521b-ab41-3c9cc3c340df"
+            },
+            "text": "Quand le Visionnaire de Llanowar arrive sur le champ de bataille, piochez une carte.\n{T} : Ajoutez {G}.",
+            "type": "Créature : elfe et druide",
+            "uuid": "df9c3643-8243-5ece-be54-ec90227bbca0"
+          },
+          {
+            "flavorText": "Die Elfen von Llanowar schauen in ihre Vergangenheit, um etwas über ihre Zukunft zu erfahren.",
+            "identifiers": {
+              "multiverseId": "485775",
+              "scryfallId": "d61a51b5-6583-4083-84d3-066bab8aa1d9"
+            },
+            "language": "German",
+            "multiverseId": 485775,
+            "name": "Llanowar-Visionär",
+            "skuIds": {
+              "foil": "7c888c70-de62-56f2-8c3e-f23899e6f88d",
+              "nonfoil": "281c5230-4064-59d8-9c57-442e1e7375a8"
+            },
+            "text": "Wenn der Llanowar-Visionär ins Spiel kommt, ziehe eine Karte.\n{T}: Erzeuge {G}.",
+            "type": "Kreatur — Elf, Druide",
+            "uuid": "f976c1f8-a14f-5550-ac73-026fb211fb39"
+          },
+          {
+            "flavorText": "Gli elfi di Llanowar guardano al passato per tracciare il loro futuro.",
+            "identifiers": {
+              "multiverseId": "486552",
+              "scryfallId": "73afaf2c-54e8-4410-bf9e-bd938221b1b5"
+            },
+            "language": "Italian",
+            "multiverseId": 486552,
+            "name": "Visionario di Llanowar",
+            "skuIds": {
+              "foil": "356828db-f2de-547a-ab97-ba170dc082cf",
+              "nonfoil": "d4219191-6665-5d0c-8847-b46ab8218cc0"
+            },
+            "text": "Quando il Visionario di Llanowar entra nel campo di battaglia, pesca una carta.\n{T}: Aggiungi {G}.",
+            "type": "Creatura — Druido Elfo",
+            "uuid": "0b6c63b2-b862-502f-b6b3-3e9566494383"
+          },
+          {
+            "flavorText": "ラノワールのエルフたちは、過去を見て未来の形を判断する。",
+            "identifiers": {
+              "multiverseId": "486811",
+              "scryfallId": "f7a9d247-8f89-4f48-b800-2e4f531f43f1"
+            },
+            "language": "Japanese",
+            "multiverseId": 486811,
+            "name": "ラノワールの幻想家",
+            "skuIds": {
+              "foil": "6b506cb7-6b73-5608-affa-7bc61d774d9d",
+              "nonfoil": "79a4c72b-13fd-5b27-84d5-2e63142a6741"
+            },
+            "text": "ラノワールの幻想家が戦場に出たとき、カードを１枚引く。\n{T}：{G}を加える。",
+            "type": "クリーチャー — エルフ・ドルイド",
+            "uuid": "fac1ea9b-7b7e-57ec-9a3b-9ba4043f2b41"
+          },
+          {
+            "flavorText": "라노워의 엘프들은 자신들의 미래의 모습을 결정하기 위해 자신들의 과거를 되돌아본다.",
+            "identifiers": {
+              "multiverseId": "487070",
+              "scryfallId": "c9e654b5-1615-4433-8fb2-7ef9c5be8b17"
+            },
+            "language": "Korean",
+            "multiverseId": 487070,
+            "name": "라노워 선지자",
+            "skuIds": {
+              "foil": "61a92c64-60e5-540e-b605-53264f6559d3",
+              "nonfoil": "36ec520c-5978-55c5-9d36-7dade1671bac"
+            },
+            "text": "라노워 선지자가 전장에 들어올 때, 카드 한 장을 뽑는다.\n{T}: {G}를 추가한다.",
+            "type": "생물 — 엘프 드루이드",
+            "uuid": "b1c419a1-a661-5cb7-bedc-a3ca1ca85179"
+          },
+          {
+            "flavorText": "Os elfos de Llanowar olham para o passado para determinar o próprio futuro.",
+            "identifiers": {
+              "multiverseId": "487329",
+              "scryfallId": "e83e3f26-1eb2-4ead-84f6-8c81f98e2059"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487329,
+            "name": "Visionário de Llanowar",
+            "skuIds": {
+              "foil": "5b879469-ff75-54df-bc81-90def1c74825",
+              "nonfoil": "0e40cb3a-3fe0-53a7-964c-20faf8094ebd"
+            },
+            "text": "Quando Visionário de Llanowar entrar no campo de batalha, compre um card.\n{T}: Adicione {G}.",
+            "type": "Criatura — Elfo Druida",
+            "uuid": "b20cae83-7e4f-5941-a9e6-6db35d4e7775"
+          },
+          {
+            "flavorText": "Эльфы Лановара обращаются к прошлому, чтобы определить облик будущего.",
+            "identifiers": {
+              "multiverseId": "487588",
+              "scryfallId": "6daf7c1a-42b2-45fa-89ed-7e5d992a99bb"
+            },
+            "language": "Russian",
+            "multiverseId": 487588,
+            "name": "Лановарский Провидец",
+            "skuIds": {
+              "foil": "a5dd397c-9856-5a7f-9b3b-631159880a39",
+              "nonfoil": "fee4c084-2d96-5424-8387-78e94e9b41e8"
+            },
+            "text": "Когда Лановарский Провидец выходит на поле битвы, возьмите карту.\n{T}: добавьте {G}.",
+            "type": "Существо — Эльф Друид",
+            "uuid": "918e3b06-4f0c-599f-95d9-ae8245869e8c"
+          },
+          {
+            "flavorText": "Los elfos de Llanowar miran su pasado para determinar su futuro.",
+            "identifiers": {
+              "multiverseId": "486034",
+              "scryfallId": "f87cc6de-d402-449e-ba68-e82464ee6349"
+            },
+            "language": "Spanish",
+            "multiverseId": 486034,
+            "name": "Visionario de Llanowar",
+            "skuIds": {
+              "foil": "9cf5cfd0-bfb0-5ccb-ac5f-e4153ce7cc4a",
+              "nonfoil": "448209c4-63e3-5560-b4fd-3963f3ec8435"
+            },
+            "text": "Cuando el Visionario de Llanowar entre al campo de batalla, roba una carta.\n{T}: Agrega {G}.",
+            "type": "Criatura — Druida elfo",
+            "uuid": "69970776-2424-539a-917a-226f56c231e4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234353",
           "cardKingdomId": "233949",
@@ -1041,6 +1232,7 @@
         "name": "Llanowar Visionary",
         "number": "193",
         "originalText": "When Llanowar Visionary enters the battlefield, draw a card.\n{T}: Add {G}.",
+        "originalType": "Creature – Elf Druid",
         "power": "2",
         "printings": [
           "J25",
@@ -1048,26 +1240,59 @@
           "PLST",
           "SLD"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c5bd30ffad77651f",
           "cardKingdomFoil": "https://mtgjson.com/links/557edd7d4a333a45",
           "cardmarket": "https://mtgjson.com/links/106f57bb22973a68",
+          "cardmarketFoil": "https://mtgjson.com/links/d6bc4e64d7ecaaa3",
           "tcgplayer": "https://mtgjson.com/links/d979149ec5f161c0"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "c0064828-6c99-5059-8814-1b87dc8f20da",
+          "nonfoil": "4dd43529-c9a2-5627-b152-1aca19acc397"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1108,117 +1333,14 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 14234,
+        "edhrecRank": 14611,
+        "edhrecSaltiness": 0.0,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "\"Let's lure the drakes to the webs over the Samok Stand. Keep the spiders content.\"\n—Aurelia",
         "foreignData": [
-          {
-            "flavorText": "„Wir sollten die Sceadas in die Netze über'm Samokwäldchen locken. Nicht, dass die Spinnen hungrig werden.\"\n—Aurelia",
-            "identifiers": {
-              "multiverseId": "485789",
-              "scryfallId": "7b513dba-d105-4c87-9d25-f105fd6caf7d"
-            },
-            "language": "German",
-            "multiverseId": 485789,
-            "name": "Schlingenspinne",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn die Schlingenspinne eine fliegende Kreatur blockt, erhält die Schlingenspinne +2/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Spinne",
-            "uuid": "3dec5ddd-c7b0-5f77-9ef9-f13e97f571cb"
-          },
-          {
-            "flavorText": "\"Atraigamos a los dracos a las redes de la Espesura de Samok. Las arañas se pondrán muy contentas\".\n—Aurelia",
-            "identifiers": {
-              "multiverseId": "486048",
-              "scryfallId": "f682838e-834c-47f6-ac19-53663f460768"
-            },
-            "language": "Spanish",
-            "multiverseId": 486048,
-            "name": "Tejetrampas",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que la Tejetrampas bloquee a una criatura con la habilidad de volar, la Tejetrampas obtiene +2/+0 hasta el final del turno.",
-            "type": "Criatura — Araña",
-            "uuid": "7cbac177-7f16-5c5f-82c3-4965baa33a79"
-          },
-          {
-            "flavorText": "« Attirons les drakôns vers les toiles qui surplombent la Position de Samok. Il faut maintenir les araignées de bonne humeur. »\n—Aurélia",
-            "identifiers": {
-              "multiverseId": "486307",
-              "scryfallId": "7ed391df-49f4-41ba-93e5-1be3fcccd55a"
-            },
-            "language": "French",
-            "multiverseId": 486307,
-            "name": "Fileuse de collet",
-            "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nÀ chaque fois que la Fileuse de collet bloque une créature avec le vol, la Fileuse de collet gagne +2/+0 jusqu'à la fin du tour.",
-            "type": "Créature : araignée",
-            "uuid": "0b896e54-56d6-5d35-9f86-083865115860"
-          },
-          {
-            "flavorText": "\"Attiriamo i draghetti nelle ragnatele sul Bosco Samok. I ragni ne saranno contenti.\"\n—Aurelia",
-            "identifiers": {
-              "multiverseId": "486566",
-              "scryfallId": "8a20df70-f5b7-496b-9a42-b8cd25b03520"
-            },
-            "language": "Italian",
-            "multiverseId": 486566,
-            "name": "Tessitrappole",
-            "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nOgniqualvolta il Tessitrappole blocca una creatura con volare, il Tessitrappole prende +2/+0 fino alla fine del turno.",
-            "type": "Creatura — Ragno",
-            "uuid": "842cb8db-9bd7-5cc3-a135-c621eb562447"
-          },
-          {
-            "flavorText": "「ドレイクをサーモク木立の巣網に誘い込みましょう。蜘蛛たちを満足させてやらなくては。」\n――オレリア",
-            "identifiers": {
-              "multiverseId": "486825",
-              "scryfallId": "80cf2812-e0da-4822-b3e8-6d7debab8391"
-            },
-            "language": "Japanese",
-            "multiverseId": 486825,
-            "name": "罠紡ぎ",
-            "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\n罠紡ぎが飛行を持つクリーチャーを１体ブロックするたび、ターン終了時まで、罠紡ぎは＋２/＋０の修整を受ける。",
-            "type": "クリーチャー — 蜘蛛",
-            "uuid": "40ffe41c-4614-518b-bcae-578607e4e2ae"
-          },
-          {
-            "flavorText": "\"사목 스탠드 숲의 거미줄로 드레이크들을 유인해라. 거미들을 만족시켜 주도록.\"\n—아우렐리아",
-            "identifiers": {
-              "multiverseId": "487084",
-              "scryfallId": "a8421cb9-8112-4913-b9bd-04cbb9b7be70"
-            },
-            "language": "Korean",
-            "multiverseId": 487084,
-            "name": "올가미 방직거미",
-            "text": "대공 (이 생물은 비행을 가진 생물을 방어할 수 있다.)\n올가미 방직거미가 비행을 가진 생물을 방어할 때마다, 올가미 방직거미는 턴종료까지 +2/+0을 받는다.",
-            "type": "생물 — 거미",
-            "uuid": "4d667d12-677e-5592-a0d9-df79fb187229"
-          },
-          {
-            "flavorText": "\"Vamos atrair os dragonetes para as teias no Arvoredo de Samok. Vamos manter as aranhas satisfeitas.\"\n— Aurélia",
-            "identifiers": {
-              "multiverseId": "487343",
-              "scryfallId": "1a827e98-5005-47b7-b94a-2c6cf05e951e"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487343,
-            "name": "Tecedora de Ardis",
-            "text": "Alcance (Esta criatura pode bloquear criaturas com voar.)\nToda vez que Tecedora de Ardis bloqueia uma criatura com voar, Tecedora de Ardis recebe +2/+0 até o final do turno.",
-            "type": "Criatura — Aranha",
-            "uuid": "263b37a3-6d6f-5c64-ad1c-7324d4eedef5"
-          },
-          {
-            "flavorText": "«Заманим дрейков в паутину над Самокским лесом. Пусть пауки порадуются».\n— Аурелия",
-            "identifiers": {
-              "multiverseId": "487602",
-              "scryfallId": "6f6f9b66-f5a7-4443-a9a5-2c524080b283"
-            },
-            "language": "Russian",
-            "multiverseId": 487602,
-            "name": "Плетельщик Силков",
-            "text": "Захват (Это существо может блокировать существа с Полетом.)\nКаждый раз, когда Плетельщик Силков блокирует существо с Полетом, Плетельщик Силков получает +2/+0 до конца хода.",
-            "type": "Существо — Паук",
-            "uuid": "85682caf-21aa-56f1-8417-dc475f001213"
-          },
           {
             "flavorText": "「我们去把龙兽都引到撒莫林的蛛网那里。让蜘蛛们饱餐一顿。」\n～欧瑞梨",
             "identifiers": {
@@ -1228,6 +1350,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487861,
             "name": "织陷蛛",
+            "skuIds": {
+              "foil": "40291df5-5688-561c-8269-c3d31e48ac58",
+              "nonfoil": "6c3cf5ac-32f2-5f3f-a5c5-4005ddb7ab2e"
+            },
             "text": "延势（此生物能阻挡具飞行异能的生物。）\n每当织陷蛛阻挡一个具飞行异能的生物时，织陷蛛得+2/+0直到回合结束。",
             "type": "生物 ～蜘蛛",
             "uuid": "3fc57eed-4927-5c28-8c7e-1d6f67819886"
@@ -1241,14 +1367,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488120,
             "name": "織陷蛛",
+            "skuIds": {
+              "foil": "e03527eb-6b64-5172-a4be-f57b7c835272",
+              "nonfoil": "1fc22659-ca41-5fa4-a335-6eea5ec70666"
+            },
             "text": "延勢（此生物能阻擋具飛行異能的生物。）\n每當織陷蛛阻擋一個具飛行異能的生物時，織陷蛛得+2/+0直到回合結束。",
             "type": "生物 ～蜘蛛",
             "uuid": "f2ed9497-5e41-550e-bf03-8cac2b7cfb56"
+          },
+          {
+            "flavorText": "« Attirons les drakôns vers les toiles qui surplombent la Position de Samok. Il faut maintenir les araignées de bonne humeur. »\n—Aurélia",
+            "identifiers": {
+              "multiverseId": "486307",
+              "scryfallId": "7ed391df-49f4-41ba-93e5-1be3fcccd55a"
+            },
+            "language": "French",
+            "multiverseId": 486307,
+            "name": "Fileuse de collet",
+            "skuIds": {
+              "foil": "db99c20c-a785-545c-aae2-975e15274dbe",
+              "nonfoil": "da6a9ecb-5f99-50f4-9512-ae0d94903516"
+            },
+            "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nÀ chaque fois que la Fileuse de collet bloque une créature avec le vol, la Fileuse de collet gagne +2/+0 jusqu'à la fin du tour.",
+            "type": "Créature : araignée",
+            "uuid": "0b896e54-56d6-5d35-9f86-083865115860"
+          },
+          {
+            "flavorText": "„Wir sollten die Sceadas in die Netze über'm Samokwäldchen locken. Nicht, dass die Spinnen hungrig werden.\"\n—Aurelia",
+            "identifiers": {
+              "multiverseId": "485789",
+              "scryfallId": "7b513dba-d105-4c87-9d25-f105fd6caf7d"
+            },
+            "language": "German",
+            "multiverseId": 485789,
+            "name": "Schlingenspinne",
+            "skuIds": {
+              "foil": "607c715b-0f9a-5412-ad00-107bab46ab56",
+              "nonfoil": "147bfad3-da08-5ded-9ffa-dd39226d8aaa"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nImmer wenn die Schlingenspinne eine fliegende Kreatur blockt, erhält die Schlingenspinne +2/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Spinne",
+            "uuid": "3dec5ddd-c7b0-5f77-9ef9-f13e97f571cb"
+          },
+          {
+            "flavorText": "\"Attiriamo i draghetti nelle ragnatele sul Bosco Samok. I ragni ne saranno contenti.\"\n—Aurelia",
+            "identifiers": {
+              "multiverseId": "486566",
+              "scryfallId": "8a20df70-f5b7-496b-9a42-b8cd25b03520"
+            },
+            "language": "Italian",
+            "multiverseId": 486566,
+            "name": "Tessitrappole",
+            "skuIds": {
+              "foil": "60e914e1-fd67-51a0-8a1f-d5cb5d3f26cb",
+              "nonfoil": "915cb310-f997-540f-84b4-29827fd32196"
+            },
+            "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nOgniqualvolta il Tessitrappole blocca una creatura con volare, il Tessitrappole prende +2/+0 fino alla fine del turno.",
+            "type": "Creatura — Ragno",
+            "uuid": "842cb8db-9bd7-5cc3-a135-c621eb562447"
+          },
+          {
+            "flavorText": "「ドレイクをサーモク木立の巣網に誘い込みましょう。蜘蛛たちを満足させてやらなくては。」\n――オレリア",
+            "identifiers": {
+              "multiverseId": "486825",
+              "scryfallId": "80cf2812-e0da-4822-b3e8-6d7debab8391"
+            },
+            "language": "Japanese",
+            "multiverseId": 486825,
+            "name": "罠紡ぎ",
+            "skuIds": {
+              "foil": "1d3d53ce-6484-52c8-8148-efa4d7952e24",
+              "nonfoil": "3a4989cf-2eb8-59e5-a0a5-ca82173aa2c3"
+            },
+            "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\n罠紡ぎが飛行を持つクリーチャーを１体ブロックするたび、ターン終了時まで、罠紡ぎは＋２/＋０の修整を受ける。",
+            "type": "クリーチャー — 蜘蛛",
+            "uuid": "40ffe41c-4614-518b-bcae-578607e4e2ae"
+          },
+          {
+            "flavorText": "\"사목 스탠드 숲의 거미줄로 드레이크들을 유인해라. 거미들을 만족시켜 주도록.\"\n—아우렐리아",
+            "identifiers": {
+              "multiverseId": "487084",
+              "scryfallId": "a8421cb9-8112-4913-b9bd-04cbb9b7be70"
+            },
+            "language": "Korean",
+            "multiverseId": 487084,
+            "name": "올가미 방직거미",
+            "skuIds": {
+              "foil": "a87d9f26-32de-5a61-aa33-683ce2cb7af5",
+              "nonfoil": "a15b78a5-cd5a-5d0d-94f2-9df86d486aff"
+            },
+            "text": "대공 (이 생물은 비행을 가진 생물을 방어할 수 있다.)\n올가미 방직거미가 비행을 가진 생물을 방어할 때마다, 올가미 방직거미는 턴종료까지 +2/+0을 받는다.",
+            "type": "생물 — 거미",
+            "uuid": "4d667d12-677e-5592-a0d9-df79fb187229"
+          },
+          {
+            "flavorText": "\"Vamos atrair os dragonetes para as teias no Arvoredo de Samok. Vamos manter as aranhas satisfeitas.\"\n— Aurélia",
+            "identifiers": {
+              "multiverseId": "487343",
+              "scryfallId": "1a827e98-5005-47b7-b94a-2c6cf05e951e"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487343,
+            "name": "Tecedora de Ardis",
+            "skuIds": {
+              "foil": "fb928c18-4dba-5ffb-94ea-2b0a11c19a69",
+              "nonfoil": "25f37a4e-3663-5993-956f-e700d5549efd"
+            },
+            "text": "Alcance (Esta criatura pode bloquear criaturas com voar.)\nToda vez que Tecedora de Ardis bloqueia uma criatura com voar, Tecedora de Ardis recebe +2/+0 até o final do turno.",
+            "type": "Criatura — Aranha",
+            "uuid": "263b37a3-6d6f-5c64-ad1c-7324d4eedef5"
+          },
+          {
+            "flavorText": "«Заманим дрейков в паутину над Самокским лесом. Пусть пауки порадуются».\n— Аурелия",
+            "identifiers": {
+              "multiverseId": "487602",
+              "scryfallId": "6f6f9b66-f5a7-4443-a9a5-2c524080b283"
+            },
+            "language": "Russian",
+            "multiverseId": 487602,
+            "name": "Плетельщик Силков",
+            "skuIds": {
+              "foil": "9e444a86-c0f4-5a24-a7af-86f3d232c980",
+              "nonfoil": "27d5a966-cb55-5771-aace-eea8c5f53b13"
+            },
+            "text": "Захват (Это существо может блокировать существа с Полетом.)\nКаждый раз, когда Плетельщик Силков блокирует существо с Полетом, Плетельщик Силков получает +2/+0 до конца хода.",
+            "type": "Существо — Паук",
+            "uuid": "85682caf-21aa-56f1-8417-dc475f001213"
+          },
+          {
+            "flavorText": "\"Atraigamos a los dracos a las redes de la Espesura de Samok. Las arañas se pondrán muy contentas\".\n—Aurelia",
+            "identifiers": {
+              "multiverseId": "486048",
+              "scryfallId": "f682838e-834c-47f6-ac19-53663f460768"
+            },
+            "language": "Spanish",
+            "multiverseId": 486048,
+            "name": "Tejetrampas",
+            "skuIds": {
+              "foil": "8022f8a6-305a-5ebf-95dc-f35045347a08",
+              "nonfoil": "61270b77-2b43-5f1e-89f3-5b66df785240"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nSiempre que la Tejetrampas bloquee a una criatura con la habilidad de volar, la Tejetrampas obtiene +2/+0 hasta el final del turno.",
+            "type": "Criatura — Araña",
+            "uuid": "7cbac177-7f16-5c5f-82c3-4965baa33a79"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234582",
           "cardKingdomId": "234276",
@@ -1296,6 +1560,7 @@
         "name": "Snarespinner",
         "number": "207",
         "originalText": "Reach (This creature can block creatures with flying.)\nWhenever Snarespinner blocks a creature with flying, Snarespinner gets +2/+0 until end of turn.",
+        "originalType": "Creature – Spider",
         "power": "1",
         "printings": [
           "DMU",
@@ -1306,6 +1571,7 @@
           "cardKingdom": "https://mtgjson.com/links/07872a57833f80b0",
           "cardKingdomFoil": "https://mtgjson.com/links/c15fccde698a4512",
           "cardmarket": "https://mtgjson.com/links/93ad2c4deb310200",
+          "cardmarketFoil": "https://mtgjson.com/links/ce09962c921c2a32",
           "tcgplayer": "https://mtgjson.com/links/0f4ea6c25e282503"
         },
         "rarity": "common",
@@ -1316,18 +1582,47 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "7f230c41-fac8-51ff-b96e-69c264d67224",
+          "nonfoil": "06ee218f-d4b6-5eb9-b71e-568fe35c4fca"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1364,108 +1659,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 25241,
+        "edhrecRank": 25895,
+        "edhrecSaltiness": 0.0,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "485769",
-              "scryfallId": "537ccca7-e377-458d-a303-3c50deece9dd"
-            },
-            "language": "German",
-            "multiverseId": 485769,
-            "name": "Knorriger Weiser",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nSolange du in diesem Zug zwei oder mehr Karten gezogen hast, erhält der Knorrige Weise +0/+2 und hat Wachsamkeit. (Er wird beim Angreifen nicht getappt.)",
-            "type": "Kreatur — Baumhirte, Druide",
-            "uuid": "f7b816b4-f9f0-5f08-8d44-67a54e0d79c4"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486028",
-              "scryfallId": "71ea33b9-6406-4df8-b6d0-c940d5a7a64d"
-            },
-            "language": "Spanish",
-            "multiverseId": 486028,
-            "name": "Sabio nudoso",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nMientras hayas robado dos o más cartas este turno, el Sabio nudoso obtiene +0/+2 y tiene la habilidad de vigilancia. (Esta criatura no se gira al atacar.)",
-            "type": "Criatura — Druida pueblo-arbóreo",
-            "uuid": "c317b65c-2368-5811-b067-bfe2e8f5e120"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486287",
-              "scryfallId": "709fc043-1406-440d-bdf0-87e8e18b879b"
-            },
-            "language": "French",
-            "multiverseId": 486287,
-            "name": "Sage noueux",
-            "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nTant que vous avez pioché au moins deux cartes ce tour-ci, le Sage noueux gagne +0/+2 et a la vigilance. (Attaquer avec cette créature ne la fait pas s'engager.)",
-            "type": "Créature : sylvin et druide",
-            "uuid": "cc38635f-90bc-557f-8421-dd5c4f5199c1"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486546",
-              "scryfallId": "1e86a9c8-594b-4f60-8a5f-ced3c8f199d0"
-            },
-            "language": "Italian",
-            "multiverseId": 486546,
-            "name": "Saggio Ritorto",
-            "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nSe hai pescato due o più carte in questo turno, il Saggio Ritorto prende +0/+2 e ha cautela. (Attacca senza TAPpare.)",
-            "type": "Creatura — Druido Silvantropo",
-            "uuid": "36686897-b857-5b0f-970f-a0177b2c9e57"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "486805",
-              "scryfallId": "b2e8c191-d7e8-4432-b085-f8d2bf09f948"
-            },
-            "language": "Japanese",
-            "multiverseId": 486805,
-            "name": "節くれの賢者",
-            "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\nこのターンにあなたがカードを２枚以上引いているかぎり、節くれの賢者は＋０/＋２の修整を受け警戒を持つ。（これは攻撃してもタップしない。）",
-            "type": "クリーチャー — ツリーフォーク・ドルイド",
-            "uuid": "176d4c3b-afd5-5a62-b379-674089a69e5e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "487064",
-              "scryfallId": "e202fc8f-0e82-45f0-a973-60876dbe336e"
-            },
-            "language": "Korean",
-            "multiverseId": 487064,
-            "name": "뒤틀린 현자",
-            "text": "대공 (이 생물은 비행을 가진 생물을 방어할 수 있다.)\n당신이 이번 턴에 카드를 두 장 이상 뽑은 한, 뒤틀린 현자는 +0/+2를 받고 경계를 가진다. (이 생물은 공격하면서 탭되지 않는다.)",
-            "type": "생물 — 인목 드루이드",
-            "uuid": "47010c27-8764-5ee5-b518-595e17ace8cc"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "487323",
-              "scryfallId": "ccb2e19c-e0f4-41a3-8a2a-12f824ed4fc5"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487323,
-            "name": "Sábio Nodoso",
-            "text": "Alcance (Esta criatura pode bloquear criaturas com voar.)\nContanto que você tenha comprado dois ou mais cards neste turno, Sábio Nodoso recebe +0/+2 e tem vigilância. (Esta criatura não é virada para atacar.)",
-            "type": "Criatura — Ent Druida",
-            "uuid": "df3e9f34-ec99-5e33-bff7-967b1fcc97cb"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "487582",
-              "scryfallId": "883bdb6a-e6b4-47b4-b68d-df5300b493b1"
-            },
-            "language": "Russian",
-            "multiverseId": 487582,
-            "name": "Узловатый Мудрец",
-            "text": "Захват (Это существо может блокировать существа с Полетом.)\nУзловатый Мудрец получает +0/+2 и имеет Бдительность при условии, что в этом ходу вы уже взяли не менее двух карт. (Атакуя, он не поворачивается.)",
-            "type": "Существо — Лесовик Друид",
-            "uuid": "a2b202dd-5209-5ecd-afb4-ea79e8fbdb88"
-          },
           {
             "identifiers": {
               "multiverseId": "487841",
@@ -1474,6 +1674,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487841,
             "name": "糙节智者",
+            "skuIds": {
+              "foil": "1a83c8b4-0614-5881-b1ff-89e9057630a2",
+              "nonfoil": "c0ca3ff8-9a08-5827-943e-9104e1913a84"
+            },
             "text": "延势（此生物能阻挡具飞行异能的生物。）\n只要你本回合中已抓两张或更多牌，糙节智者便得+0/+2且具有警戒异能。（它攻击时不需横置。）",
             "type": "生物 ～树妖／德鲁伊",
             "uuid": "a80a73f4-a3db-58c8-857a-4b1216436ecf"
@@ -1486,14 +1690,144 @@
             "language": "Chinese Traditional",
             "multiverseId": 488100,
             "name": "糙節智者",
+            "skuIds": {
+              "foil": "cbf93710-2c21-52a5-8e2d-210fd5358f41",
+              "nonfoil": "661fc1e3-28c7-53ed-816f-58f62e6a9fdc"
+            },
             "text": "延勢（此生物能阻擋具飛行異能的生物。）\n只要你本回合中已抽兩張或更多牌，糙節智者便得+0/+2且具有警戒異能。（它攻擊時不需橫置。）",
             "type": "生物 ～樹妖／德魯伊",
             "uuid": "3377986c-4018-5323-a3fb-63fadc19ebac"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486287",
+              "scryfallId": "709fc043-1406-440d-bdf0-87e8e18b879b"
+            },
+            "language": "French",
+            "multiverseId": 486287,
+            "name": "Sage noueux",
+            "skuIds": {
+              "foil": "66c9fcc8-66c9-505e-a7af-4805d1f56dad",
+              "nonfoil": "a375775a-722c-5063-ac90-394931606c62"
+            },
+            "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\nTant que vous avez pioché au moins deux cartes ce tour-ci, le Sage noueux gagne +0/+2 et a la vigilance. (Attaquer avec cette créature ne la fait pas s'engager.)",
+            "type": "Créature : sylvin et druide",
+            "uuid": "cc38635f-90bc-557f-8421-dd5c4f5199c1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "485769",
+              "scryfallId": "537ccca7-e377-458d-a303-3c50deece9dd"
+            },
+            "language": "German",
+            "multiverseId": 485769,
+            "name": "Knorriger Weiser",
+            "skuIds": {
+              "foil": "6c66397a-056b-5a0f-bdd8-e2859b1a7840",
+              "nonfoil": "35dbc4f1-8a0d-5126-b321-dd146187f6bc"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\nSolange du in diesem Zug zwei oder mehr Karten gezogen hast, erhält der Knorrige Weise +0/+2 und hat Wachsamkeit. (Er wird beim Angreifen nicht getappt.)",
+            "type": "Kreatur — Baumhirte, Druide",
+            "uuid": "f7b816b4-f9f0-5f08-8d44-67a54e0d79c4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486546",
+              "scryfallId": "1e86a9c8-594b-4f60-8a5f-ced3c8f199d0"
+            },
+            "language": "Italian",
+            "multiverseId": 486546,
+            "name": "Saggio Ritorto",
+            "skuIds": {
+              "foil": "9f76670d-7a58-59bc-9840-09cc4b5c81d1",
+              "nonfoil": "957393b9-e0fa-5d7f-96e3-9569d6cdc0c8"
+            },
+            "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\nSe hai pescato due o più carte in questo turno, il Saggio Ritorto prende +0/+2 e ha cautela. (Attacca senza TAPpare.)",
+            "type": "Creatura — Druido Silvantropo",
+            "uuid": "36686897-b857-5b0f-970f-a0177b2c9e57"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486805",
+              "scryfallId": "b2e8c191-d7e8-4432-b085-f8d2bf09f948"
+            },
+            "language": "Japanese",
+            "multiverseId": 486805,
+            "name": "節くれの賢者",
+            "skuIds": {
+              "foil": "aeb4a06d-1f62-5745-a224-75f81efe6a62",
+              "nonfoil": "8b49d23f-1977-5f64-84c5-17d912c648b9"
+            },
+            "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\nこのターンにあなたがカードを２枚以上引いているかぎり、節くれの賢者は＋０/＋２の修整を受け警戒を持つ。（これは攻撃してもタップしない。）",
+            "type": "クリーチャー — ツリーフォーク・ドルイド",
+            "uuid": "176d4c3b-afd5-5a62-b379-674089a69e5e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "487064",
+              "scryfallId": "e202fc8f-0e82-45f0-a973-60876dbe336e"
+            },
+            "language": "Korean",
+            "multiverseId": 487064,
+            "name": "뒤틀린 현자",
+            "skuIds": {
+              "foil": "fd6c3732-2154-5e61-81da-485a728ed480",
+              "nonfoil": "5ce66753-62da-59f0-9e98-0e51bb17ba5f"
+            },
+            "text": "대공 (이 생물은 비행을 가진 생물을 방어할 수 있다.)\n당신이 이번 턴에 카드를 두 장 이상 뽑은 한, 뒤틀린 현자는 +0/+2를 받고 경계를 가진다. (이 생물은 공격하면서 탭되지 않는다.)",
+            "type": "생물 — 인목 드루이드",
+            "uuid": "47010c27-8764-5ee5-b518-595e17ace8cc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "487323",
+              "scryfallId": "ccb2e19c-e0f4-41a3-8a2a-12f824ed4fc5"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487323,
+            "name": "Sábio Nodoso",
+            "skuIds": {
+              "foil": "4865eb8c-9c04-5978-a574-8d415d63b09a",
+              "nonfoil": "3d6eb490-c522-57e6-912c-29db0f0892a3"
+            },
+            "text": "Alcance (Esta criatura pode bloquear criaturas com voar.)\nContanto que você tenha comprado dois ou mais cards neste turno, Sábio Nodoso recebe +0/+2 e tem vigilância. (Esta criatura não é virada para atacar.)",
+            "type": "Criatura — Ent Druida",
+            "uuid": "df3e9f34-ec99-5e33-bff7-967b1fcc97cb"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "487582",
+              "scryfallId": "883bdb6a-e6b4-47b4-b68d-df5300b493b1"
+            },
+            "language": "Russian",
+            "multiverseId": 487582,
+            "name": "Узловатый Мудрец",
+            "skuIds": {
+              "foil": "853f1118-1a8d-5ce5-9b6d-57fab37b05c6",
+              "nonfoil": "8abb3d63-df53-592d-bdfe-0334bf1d8451"
+            },
+            "text": "Захват (Это существо может блокировать существа с Полетом.)\nУзловатый Мудрец получает +0/+2 и имеет Бдительность при условии, что в этом ходу вы уже взяли не менее двух карт. (Атакуя, он не поворачивается.)",
+            "type": "Существо — Лесовик Друид",
+            "uuid": "a2b202dd-5209-5ecd-afb4-ea79e8fbdb88"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "486028",
+              "scryfallId": "71ea33b9-6406-4df8-b6d0-c940d5a7a64d"
+            },
+            "language": "Spanish",
+            "multiverseId": 486028,
+            "name": "Sabio nudoso",
+            "skuIds": {
+              "foil": "81dbc7d1-98df-5d1e-91de-6e2a9c934d73",
+              "nonfoil": "99cdb264-c82d-5e54-a91d-ca1fe9a8dffe"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\nMientras hayas robado dos o más cartas este turno, el Sabio nudoso obtiene +0/+2 y tiene la habilidad de vigilancia. (Esta criatura no se gira al atacar.)",
+            "type": "Criatura — Druida pueblo-arbóreo",
+            "uuid": "c317b65c-2368-5811-b067-bfe2e8f5e120"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234573",
           "cardKingdomId": "234267",
@@ -1540,6 +1874,7 @@
         "name": "Gnarled Sage",
         "number": "187",
         "originalText": "Reach (This creature can block creatures with flying.)\nAs long as you've drawn two or more cards this turn, Gnarled Sage gets +0/+2 and has vigilance. (Attacking doesn't cause it to tap.)",
+        "originalType": "Creature – Treefolk Druid",
         "power": "4",
         "printings": [
           "M21"
@@ -1548,6 +1883,7 @@
           "cardKingdom": "https://mtgjson.com/links/4ce5a983035858c0",
           "cardKingdomFoil": "https://mtgjson.com/links/61da6289f4bfc685",
           "cardmarket": "https://mtgjson.com/links/5172fd2d45727f14",
+          "cardmarketFoil": "https://mtgjson.com/links/56508419d3e1ff47",
           "tcgplayer": "https://mtgjson.com/links/46c84c89501468cd"
         },
         "rarity": "common",
@@ -1566,16 +1902,45 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "1676a62d-9e59-5e00-a079-0d4c33a83125",
+          "nonfoil": "1166b337-91b8-5d1f-8de4-05854bd3edfa"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1612,7 +1977,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 9129,
+        "edhrecRank": 9721,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
@@ -1620,8 +1985,6 @@
         "flavorText": "Many elves incorporate the beauty of nature into their inventions. Very few capture its savagery.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234889",
           "cardsphereId": "68574",
@@ -1660,6 +2023,7 @@
         "name": "Nature's Way",
         "number": "412",
         "originalText": "Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.",
+        "originalType": "Sorcery",
         "printings": [
           "DDU",
           "JMP",
@@ -1692,8 +2056,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "cf2ea6fa-fd1f-5ccc-9875-016b19b48b19"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1727,7 +2097,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 230,
+        "edhrecRank": 229,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -1735,8 +2105,6 @@
         "flavorText": "An explorer's reward is a view of tomorrow's possibilities.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234883",
           "cardsphereId": "68441",
@@ -1777,6 +2145,7 @@
         "name": "Explore",
         "number": "393",
         "originalText": "You may play an additional land this turn.\nDraw a card.",
+        "originalType": "Sorcery",
         "printings": [
           "40K",
           "AFC",
@@ -1824,8 +2193,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "f5188b5d-0249-5765-b072-46a4dcfbd624"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1859,7 +2234,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 12882,
+        "edhrecRank": 13352,
         "edhrecSaltiness": 0.48,
         "finishes": [
           "nonfoil"
@@ -1867,8 +2242,6 @@
         "flavorText": "The power of the wild, concentrated in a single charge.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234875",
           "cardsphereId": "68496",
@@ -1912,6 +2285,7 @@
         "name": "Aggressive Urge",
         "number": "374",
         "originalText": "Target creature gets +1/+1 until end of turn.\nDraw a card.",
+        "originalType": "Instant",
         "printings": [
           "10E",
           "INV",
@@ -1932,8 +2306,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "89b333d3-dc4c-5402-b7ff-0e07977f34c0"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1967,7 +2347,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 14277,
+        "edhrecRank": 14731,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
@@ -1975,8 +2355,6 @@
         "flavorText": "\"Do not mistake your lofty vantage point for safety.\"\n—Shaper Tuvasa",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234806",
           "cardsphereId": "68397",
@@ -2018,6 +2396,7 @@
         "name": "Crushing Canopy",
         "number": "386",
         "originalText": "Choose one —\n• Destroy target creature with flying.\n• Destroy target enchantment.",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "GRN",
@@ -2034,8 +2413,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "ccc23e10-f154-52af-982a-931e7e8ef7f2"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -2068,7 +2453,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -2076,8 +2461,6 @@
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234720",
           "cardsphereId": "68325",
@@ -2115,18 +2498,28 @@
         "name": "Thriving Grove",
         "number": "34",
         "originalText": "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fa4ca478d4d29ded",
@@ -2135,8 +2528,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "4da66009-592a-5959-9763-9e3be6f14f02"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -2171,98 +2570,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488488",
-              "scryfallId": "14f1bd64-5fb8-4cca-aa1f-bbe2e70c12b7"
-            },
-            "language": "German",
-            "multiverseId": 488488,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "42a4226b-3649-5b18-b54e-bc3cb1d17cd7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488503",
-              "scryfallId": "39d2ae16-7544-4d70-a53d-8444167b8d40"
-            },
-            "language": "Spanish",
-            "multiverseId": 488503,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "c7945c7c-bf8c-5d6d-a55d-d44332c0ee45"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488518",
-              "scryfallId": "ee7cfb04-35ba-4977-8370-f563a5ebfd64"
-            },
-            "language": "French",
-            "multiverseId": 488518,
-            "name": "Forêt",
-            "type": "Terrain de base : forêt",
-            "uuid": "c7697dc8-1ed8-5c3c-a745-baa89c9daf60"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488533",
-              "scryfallId": "84a2ea1a-b827-45b8-8bd1-2292d0324e9c"
-            },
-            "language": "Italian",
-            "multiverseId": 488533,
-            "name": "Foresta",
-            "type": "Terra Base — Foresta",
-            "uuid": "72666fba-e24c-57e9-af75-fa90b787fd54"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488548",
-              "scryfallId": "b4561024-a0cf-4dc7-8548-5e680dac43ae"
-            },
-            "language": "Japanese",
-            "multiverseId": 488548,
-            "name": "森",
-            "type": "基本土地 — 森",
-            "uuid": "2a77883c-be79-5c6e-b60e-b8f0a5aee264"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488563",
-              "scryfallId": "134d5ee7-6259-4d36-8df8-5995c59ab159"
-            },
-            "language": "Korean",
-            "multiverseId": 488563,
-            "name": "숲",
-            "type": "기본 대지 — 숲",
-            "uuid": "f216d274-c4b6-5bb8-bfd5-b53b784d1a8a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488578",
-              "scryfallId": "64bc2068-9555-4e1c-8e19-ab4953505a8f"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488578,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "1d847e85-a2c7-5444-a574-204ab5f6f9c8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488593",
-              "scryfallId": "93bef44e-b878-4999-81b9-fd396678c173"
-            },
-            "language": "Russian",
-            "multiverseId": 488593,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "85ea43d0-bd8d-5146-93d7-30430dae3d73"
-          },
           {
             "identifiers": {
               "multiverseId": "488608",
@@ -2271,6 +2582,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488608,
             "name": "树林",
+            "skuIds": {
+              "foil": "8a12a137-488d-5349-9289-7df09d2f3b78",
+              "nonfoil": "b09e7c88-93c5-5370-a4eb-f8818517f042"
+            },
             "type": "基本地 ～树林",
             "uuid": "37f17eee-9c13-5758-a2f7-9c03438c84c6"
           },
@@ -2282,13 +2597,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488623,
             "name": "樹林",
+            "skuIds": {
+              "foil": "3fbd2ef8-0cdf-5410-b421-416bc2f70744",
+              "nonfoil": "8605ac6d-22e9-5337-ab82-7c441c5f8c5c"
+            },
             "type": "基本地 ～樹林",
             "uuid": "cda45114-1703-5a30-b39e-23b3a8b46a05"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488518",
+              "scryfallId": "ee7cfb04-35ba-4977-8370-f563a5ebfd64"
+            },
+            "language": "French",
+            "multiverseId": 488518,
+            "name": "Forêt",
+            "skuIds": {
+              "foil": "93083628-bd21-5c24-9d66-0f8b7a66e07b",
+              "nonfoil": "ff0dbe42-5276-5a49-86ff-3e6b1c020370"
+            },
+            "type": "Terrain de base : forêt",
+            "uuid": "c7697dc8-1ed8-5c3c-a745-baa89c9daf60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488488",
+              "scryfallId": "14f1bd64-5fb8-4cca-aa1f-bbe2e70c12b7"
+            },
+            "language": "German",
+            "multiverseId": 488488,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "014fdac2-a60a-5afc-a276-a5c6257769c5",
+              "nonfoil": "161ebc5a-310d-508b-8eb8-cae882b985d3"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "42a4226b-3649-5b18-b54e-bc3cb1d17cd7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488533",
+              "scryfallId": "84a2ea1a-b827-45b8-8bd1-2292d0324e9c"
+            },
+            "language": "Italian",
+            "multiverseId": 488533,
+            "name": "Foresta",
+            "skuIds": {
+              "foil": "84f3277f-0d6f-531b-8408-0fab446193ae",
+              "nonfoil": "4c6d905f-79f3-5e78-844a-02df9a6fe3bf"
+            },
+            "type": "Terra Base — Foresta",
+            "uuid": "72666fba-e24c-57e9-af75-fa90b787fd54"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488548",
+              "scryfallId": "b4561024-a0cf-4dc7-8548-5e680dac43ae"
+            },
+            "language": "Japanese",
+            "multiverseId": 488548,
+            "name": "森",
+            "skuIds": {
+              "foil": "a95520c7-c948-594e-a02f-a713df3450b7",
+              "nonfoil": "101ce2fa-223f-5d0e-878f-ef2babdc18e3"
+            },
+            "type": "基本土地 — 森",
+            "uuid": "2a77883c-be79-5c6e-b60e-b8f0a5aee264"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488563",
+              "scryfallId": "134d5ee7-6259-4d36-8df8-5995c59ab159"
+            },
+            "language": "Korean",
+            "multiverseId": 488563,
+            "name": "숲",
+            "skuIds": {
+              "foil": "0629c7a7-22c4-5d46-80ab-bd035fd5ed8f",
+              "nonfoil": "2b63133f-6ad3-5055-a5e4-ab8b346c3164"
+            },
+            "type": "기본 대지 — 숲",
+            "uuid": "f216d274-c4b6-5bb8-bfd5-b53b784d1a8a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488578",
+              "scryfallId": "64bc2068-9555-4e1c-8e19-ab4953505a8f"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488578,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "a663fdcc-fe4b-5f32-9cad-7732c5257339",
+              "nonfoil": "52d7e047-5011-5873-8dc0-22e16804e8ed"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "1d847e85-a2c7-5444-a574-204ab5f6f9c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488593",
+              "scryfallId": "93bef44e-b878-4999-81b9-fd396678c173"
+            },
+            "language": "Russian",
+            "multiverseId": 488593,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "3c81859c-bee2-5308-a895-e6bca7023385",
+              "nonfoil": "9eb6a1be-8914-568d-afef-5bcd467cb31a"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "85ea43d0-bd8d-5146-93d7-30430dae3d73"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488503",
+              "scryfallId": "39d2ae16-7544-4d70-a53d-8444167b8d40"
+            },
+            "language": "Spanish",
+            "multiverseId": 488503,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "75f54f0f-08a1-5e47-b37a-d4d50379d22a",
+              "nonfoil": "995026e6-462e-55b6-a944-e0e41445fb02"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "c7945c7c-bf8c-5d6d-a55d-d44332c0ee45"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234512",
           "cardKingdomId": "234205",
@@ -2296,6 +2733,7 @@
           "cardsphereId": "67952",
           "deckboxId": "50783",
           "mcmId": "471139",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72092",
           "mtgjsonV4Id": "c33f1628-a673-561a-bf5b-aeb2884af676",
           "mtgoId": "81223",
@@ -2337,6 +2775,7 @@
         "name": "Forest",
         "number": "272",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2407,6 +2846,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2569,26 +3009,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ca3d39a541c1bd6",
           "cardKingdomFoil": "https://mtgjson.com/links/ec3c08dabb5c4254",
+          "cardmarket": "https://mtgjson.com/links/677237834ce63be9",
+          "cardmarketFoil": "https://mtgjson.com/links/29f915c4b54fe4ab",
           "tcgplayer": "https://mtgjson.com/links/ed803d1dee441891"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "8a61e154-a5c8-57ba-a41d-4eeebee47f23",
+          "nonfoil": "a922e573-8def-5c1a-b4e9-2118365bbc15"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2604,9 +3077,9 @@
         ],
         "uuid": "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
         "variations": [
-          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5"
         ]
       },
       {
@@ -2631,98 +3104,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488489",
-              "scryfallId": "430a132e-094d-46a8-ae30-c0b48c763923"
-            },
-            "language": "German",
-            "multiverseId": 488489,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "abf04364-fb02-554c-84d0-3dc038105669"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488504",
-              "scryfallId": "d2d0e5ad-a1c4-4ae1-8e4b-68caa1134097"
-            },
-            "language": "Spanish",
-            "multiverseId": 488504,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "8b93e01f-4a96-57de-b908-ca463facbaba"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488519",
-              "scryfallId": "b2d7f8bb-7db0-4f82-a724-4a1c266777dd"
-            },
-            "language": "French",
-            "multiverseId": 488519,
-            "name": "Forêt",
-            "type": "Terrain de base : forêt",
-            "uuid": "10b96411-85f8-5eb5-ac6f-d015a0f70dec"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488534",
-              "scryfallId": "4a6303f3-b73d-4c09-a9fd-f3cd1017df68"
-            },
-            "language": "Italian",
-            "multiverseId": 488534,
-            "name": "Foresta",
-            "type": "Terra Base — Foresta",
-            "uuid": "985e260f-884d-50d0-a960-6534c4a8f376"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488549",
-              "scryfallId": "7f6e06f3-f3d8-4091-9a4b-e7da0a3bc718"
-            },
-            "language": "Japanese",
-            "multiverseId": 488549,
-            "name": "森",
-            "type": "基本土地 — 森",
-            "uuid": "caa36de4-22ab-5fbc-8fda-349312230024"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488564",
-              "scryfallId": "8634aaa8-7bf4-4c3b-871e-182d82be7f52"
-            },
-            "language": "Korean",
-            "multiverseId": 488564,
-            "name": "숲",
-            "type": "기본 대지 — 숲",
-            "uuid": "caf33bc0-2a29-56e2-9efa-a2cb23ba9355"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488579",
-              "scryfallId": "9e13cdcd-526c-4ae3-bc62-05bbc289e2a8"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488579,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "6d735ca9-0c89-544a-8589-f3bbfe6caae8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488594",
-              "scryfallId": "4807496b-f4bc-474e-aba7-a055a3fb7d72"
-            },
-            "language": "Russian",
-            "multiverseId": 488594,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "bc90b431-f153-5e07-b273-5069b2109002"
-          },
           {
             "identifiers": {
               "multiverseId": "488609",
@@ -2731,6 +3116,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488609,
             "name": "树林",
+            "skuIds": {
+              "foil": "0078243a-e869-5d69-b153-f03320e313c2",
+              "nonfoil": "2ad4c19c-5d37-5137-ba38-b0f4363918bd"
+            },
             "type": "基本地 ～树林",
             "uuid": "a1946756-6c40-5868-a308-e7a942ec5928"
           },
@@ -2742,13 +3131,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488624,
             "name": "樹林",
+            "skuIds": {
+              "foil": "9ef06e9c-a2ee-5981-a8e8-ebdb8f76b7c5",
+              "nonfoil": "099b3080-330a-54c0-8c9c-02d2ec2ddec7"
+            },
             "type": "基本地 ～樹林",
             "uuid": "f4f48514-6680-5f72-9320-247585a6a679"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488519",
+              "scryfallId": "b2d7f8bb-7db0-4f82-a724-4a1c266777dd"
+            },
+            "language": "French",
+            "multiverseId": 488519,
+            "name": "Forêt",
+            "skuIds": {
+              "foil": "2e9b2854-7ac8-5709-89d1-dc5b9455ae3f",
+              "nonfoil": "349759b5-d43d-5531-b070-178e7b57b4ed"
+            },
+            "type": "Terrain de base : forêt",
+            "uuid": "10b96411-85f8-5eb5-ac6f-d015a0f70dec"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488489",
+              "scryfallId": "430a132e-094d-46a8-ae30-c0b48c763923"
+            },
+            "language": "German",
+            "multiverseId": 488489,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "6b8e9fa6-8a4e-5db7-a1e7-b4dbaddb1198",
+              "nonfoil": "0de27bdf-c2db-5d98-a687-113152d92dbe"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "abf04364-fb02-554c-84d0-3dc038105669"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488534",
+              "scryfallId": "4a6303f3-b73d-4c09-a9fd-f3cd1017df68"
+            },
+            "language": "Italian",
+            "multiverseId": 488534,
+            "name": "Foresta",
+            "skuIds": {
+              "foil": "e151fbfa-da47-51fd-bc4c-a447e75a2aa6",
+              "nonfoil": "edc27ae5-9611-5d4b-99bb-ade431cf1e0d"
+            },
+            "type": "Terra Base — Foresta",
+            "uuid": "985e260f-884d-50d0-a960-6534c4a8f376"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488549",
+              "scryfallId": "7f6e06f3-f3d8-4091-9a4b-e7da0a3bc718"
+            },
+            "language": "Japanese",
+            "multiverseId": 488549,
+            "name": "森",
+            "skuIds": {
+              "foil": "ebda3a10-d99e-5172-8c00-61ed757e06b7",
+              "nonfoil": "f536a59b-3d10-54ae-aa45-6d26696ec00a"
+            },
+            "type": "基本土地 — 森",
+            "uuid": "caa36de4-22ab-5fbc-8fda-349312230024"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488564",
+              "scryfallId": "8634aaa8-7bf4-4c3b-871e-182d82be7f52"
+            },
+            "language": "Korean",
+            "multiverseId": 488564,
+            "name": "숲",
+            "skuIds": {
+              "foil": "301eae26-1d31-5332-a165-f617874ced7e",
+              "nonfoil": "8865aa54-a71e-5b4f-bc06-6311ef8961b7"
+            },
+            "type": "기본 대지 — 숲",
+            "uuid": "caf33bc0-2a29-56e2-9efa-a2cb23ba9355"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488579",
+              "scryfallId": "9e13cdcd-526c-4ae3-bc62-05bbc289e2a8"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488579,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "648976f3-18da-5a10-8a65-7171da6471c2",
+              "nonfoil": "358ec862-3e38-50d8-ab98-c161a7dbcd25"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "6d735ca9-0c89-544a-8589-f3bbfe6caae8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488594",
+              "scryfallId": "4807496b-f4bc-474e-aba7-a055a3fb7d72"
+            },
+            "language": "Russian",
+            "multiverseId": 488594,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "bd0d12e9-c3ce-5b41-980c-1af36e1bc46d",
+              "nonfoil": "59911c8b-e0cd-5330-aaa3-df5bd2cf1d61"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "bc90b431-f153-5e07-b273-5069b2109002"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488504",
+              "scryfallId": "d2d0e5ad-a1c4-4ae1-8e4b-68caa1134097"
+            },
+            "language": "Spanish",
+            "multiverseId": 488504,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "b83be7d1-8708-551a-9290-1ba77c51f49d",
+              "nonfoil": "29a976b4-9fa7-5894-8fc8-84c7ede0d679"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "8b93e01f-4a96-57de-b908-ca463facbaba"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234513",
           "cardKingdomId": "234206",
@@ -2756,6 +3267,7 @@
           "cardsphereId": "67953",
           "deckboxId": "50784",
           "mcmId": "471134",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72093",
           "mtgjsonV4Id": "0b857beb-141b-555f-b99f-d0fe41ff9499",
           "mtgoId": "81225",
@@ -2797,6 +3309,7 @@
         "name": "Forest",
         "number": "273",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2867,6 +3380,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3029,26 +3543,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ac160ec9c5a1efca",
           "cardKingdomFoil": "https://mtgjson.com/links/763bbd99093c995a",
+          "cardmarket": "https://mtgjson.com/links/2a2971422088eff0",
+          "cardmarketFoil": "https://mtgjson.com/links/27ae1df7256056bf",
           "tcgplayer": "https://mtgjson.com/links/80228f484f4e2bfa"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "75be2905-2a8a-56ec-adc6-fcbb2f9ebf56",
+          "nonfoil": "211cb8bd-f762-5816-a784-36dd1704950a"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -3064,9 +3611,9 @@
         ],
         "uuid": "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
         "variations": [
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
-          "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c"
         ]
       },
       {
@@ -3091,54 +3638,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488490",
-              "scryfallId": "e695c31d-2841-42a1-8a3d-d86c82491362"
-            },
-            "language": "German",
-            "multiverseId": 488490,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "237830e4-aac6-5cba-9704-ff3dc575cda7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488505",
-              "scryfallId": "16b38ffc-51d1-4112-b059-934941fbab87"
-            },
-            "language": "Spanish",
-            "multiverseId": 488505,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "4e2e3c35-2ac9-5d0a-9f84-caab2d28555b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488580",
-              "scryfallId": "5e332837-479d-4f8f-a842-98aedd8d0292"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488580,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "cac82a1a-bb44-54ed-a3e0-cba8a9ba491d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488595",
-              "scryfallId": "fcece131-fac8-4204-8f40-47b520c406b3"
-            },
-            "language": "Russian",
-            "multiverseId": 488595,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "e3c6cace-ad16-57dc-97b1-7f2f6adcc120"
-          },
           {
             "identifiers": {
               "multiverseId": "488610",
@@ -3147,6 +3650,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488610,
             "name": "树林",
+            "skuIds": {
+              "foil": "9a3afd07-f576-521f-8072-60a0bda0a749",
+              "nonfoil": "e642ea4c-7018-52f9-ab2d-eeda48dab788"
+            },
             "type": "基本地 ～树林",
             "uuid": "f26f8594-2bb4-54cc-9ab0-a24623151c3c"
           },
@@ -3158,13 +3665,75 @@
             "language": "Chinese Traditional",
             "multiverseId": 488625,
             "name": "樹林",
+            "skuIds": {
+              "foil": "e1ab8d08-86e5-5439-b26d-7f0d128778e1",
+              "nonfoil": "c42ce391-19bb-5630-9571-576c9edbd191"
+            },
             "type": "基本地 ～樹林",
             "uuid": "81d37b5e-86c4-580a-8b13-22dcd557b0ba"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488490",
+              "scryfallId": "e695c31d-2841-42a1-8a3d-d86c82491362"
+            },
+            "language": "German",
+            "multiverseId": 488490,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "221cf369-75d1-5cb5-b2e8-991848cba4dc",
+              "nonfoil": "15ed7bfd-9818-5e55-89f5-fcd5db01f420"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "237830e4-aac6-5cba-9704-ff3dc575cda7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488580",
+              "scryfallId": "5e332837-479d-4f8f-a842-98aedd8d0292"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488580,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "a8b9413d-af2c-5163-9b78-baf76ef532bd",
+              "nonfoil": "1453290f-214c-5c3f-a805-a45799b8391a"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "cac82a1a-bb44-54ed-a3e0-cba8a9ba491d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488595",
+              "scryfallId": "fcece131-fac8-4204-8f40-47b520c406b3"
+            },
+            "language": "Russian",
+            "multiverseId": 488595,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "b27d8403-12e9-5cda-9b3f-50e073d1cf6f",
+              "nonfoil": "2aa52da7-82cd-5cbb-b7b1-b7fd30332006"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "e3c6cace-ad16-57dc-97b1-7f2f6adcc120"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488505",
+              "scryfallId": "16b38ffc-51d1-4112-b059-934941fbab87"
+            },
+            "language": "Spanish",
+            "multiverseId": 488505,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "66454472-b218-5983-9d81-2cc8b9f184ca",
+              "nonfoil": "a342dfe8-1510-54c2-91ab-8095cdecaea4"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "4e2e3c35-2ac9-5d0a-9f84-caab2d28555b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234514",
           "cardKingdomId": "234207",
@@ -3172,6 +3741,7 @@
           "cardsphereId": "68178",
           "deckboxId": "50785",
           "mcmId": "471129",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72094",
           "mtgjsonV4Id": "0eab4cd9-8a62-5369-b4f2-e01788375808",
           "mtgoId": "81227",
@@ -3213,6 +3783,7 @@
         "name": "Forest",
         "number": "274",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3283,6 +3854,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3445,26 +4017,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/171875ac30790f48",
           "cardKingdomFoil": "https://mtgjson.com/links/6599ea2778125bd9",
+          "cardmarket": "https://mtgjson.com/links/1b7ee4f96031be5a",
+          "cardmarketFoil": "https://mtgjson.com/links/f82179a30a50b049",
           "tcgplayer": "https://mtgjson.com/links/105b3ffcc1d723ff"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "592acfe4-d559-51e2-b562-face4d609923",
+          "nonfoil": "59da376c-fde1-558b-ad85-b9a17f895dc2"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -3480,9 +4085,9 @@
         ],
         "uuid": "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
         "variations": [
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
-          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5"
         ]
       },
       {
@@ -3510,13 +4115,12 @@
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234831",
           "cardsphereId": "68442",
           "deckboxId": "51078",
           "mcmId": "472754",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72590",
           "mtgjsonV4Id": "441c0bc0-2f00-5655-8df3-931256648e3a",
           "multiverseId": "489654",
@@ -3557,6 +4161,7 @@
         "name": "Forest",
         "number": "70",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3627,6 +4232,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3789,14 +4395,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f0f6d4846a9d4b00",
+          "cardmarket": "https://mtgjson.com/links/4d2fa118b7d09429",
           "tcgplayer": "https://mtgjson.com/links/4f7b8294d79fb2bc"
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "2d6e3766-4652-5bf0-8abb-c8341557e319"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -3813,13 +4429,13 @@
         ],
         "uuid": "4b21f80d-f675-5ab8-b781-fe7e4862b156",
         "variations": [
-          "7cdae8aa-c236-5389-ac58-91c6a77d8b2e",
-          "3706ebe6-05ec-5342-8c47-7aab97104caf",
-          "91a5dad4-e78b-5962-bb1f-92fd5b486308",
           "2058d91b-51bb-5aa7-8ac4-bb0f44b6a420",
           "2c57ac89-ceb9-506f-8f23-d7c72e2a2a67",
+          "3706ebe6-05ec-5342-8c47-7aab97104caf",
+          "4f636989-6e64-57a0-bc0f-6dcc150daf21",
+          "7cdae8aa-c236-5389-ac58-91c6a77d8b2e",
           "802acea3-c322-5786-850d-86ad11615696",
-          "4f636989-6e64-57a0-bc0f-6dcc150daf21"
+          "91a5dad4-e78b-5962-bb1f-92fd5b486308"
         ]
       }
     ],
@@ -3835,5 +4451,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "3b0350b88c1bec"
   }
 }

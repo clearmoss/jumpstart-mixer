@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "ab0aeac5a4d40a"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,39 +23,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 1044,
+        "edhrecRank": 1037,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "If she commands it, her subjects will burn the world to ash.",
         "foreignData": [
-          {
-            "flavorText": "Wenn sie es befiehlt, verbrennen ihre Untertanen die Welt zu Asche.",
-            "identifiers": {
-              "multiverseId": "681133",
-              "scryfallId": "d9223d3f-cc1a-498e-8955-7853dd1e0960"
-            },
-            "language": "German",
-            "multiverseId": 681133,
-            "name": "Lathliss, Königin der Drachen",
-            "text": "Fliegend\nImmer wenn ein anderer Nichtspielstein-Drache unter deiner Kontrolle ins Spiel kommt, erzeuge einen 5/5 roten Drache-Kreaturenspielstein mit Flugfähigkeit.\n{1}{R}: Drachen, die du kontrollierst, erhalten +1/+0 bis zum Ende des Zuges.",
-            "type": "Legendäre Kreatur — Drache",
-            "uuid": "4b69393c-b3a3-56ef-9ff4-b5cb6554512a"
-          },
-          {
-            "flavorText": "Si ella da la orden, sus súbditos abrasarán el mundo y lo reducirán a cenizas.",
-            "identifiers": {
-              "multiverseId": "681157",
-              "scryfallId": "5739bb48-84de-4b26-8bb6-cbf3e413e747"
-            },
-            "language": "Spanish",
-            "multiverseId": 681157,
-            "name": "Lathliss, reina dragón",
-            "text": "Vuela.\nSiempre que otro Dragón que no sea ficha que controlas entre, crea una ficha de criatura Dragón roja 5/5 con la habilidad de volar.\n{1}{R}: Los Dragones que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Criatura legendaria — Dragón",
-            "uuid": "ffc07d54-e569-5182-b1db-d7c70b5cd3b1"
-          },
           {
             "flavorText": "Si elle en donne l'ordre, ses sujets réduiront le monde en cendres.",
             "identifiers": {
@@ -70,9 +39,28 @@
             "language": "French",
             "multiverseId": 681181,
             "name": "Lathliss, reine des dragons",
+            "skuIds": {
+              "nonfoil": "3ffbcbce-1363-5b0b-bf5d-456fa9c2255d"
+            },
             "text": "Vol\nÀ chaque fois qu'un autre dragon non-jeton que vous contrôlez arrive, créez un jeton de créature 5/5 rouge Dragon avec le vol.\n{1}{R} : Les dragons que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Créature légendaire — dragon",
             "uuid": "2c883983-cb73-5d4a-98d9-5a7fc6591198"
+          },
+          {
+            "flavorText": "Wenn sie es befiehlt, verbrennen ihre Untertanen die Welt zu Asche.",
+            "identifiers": {
+              "multiverseId": "681133",
+              "scryfallId": "d9223d3f-cc1a-498e-8955-7853dd1e0960"
+            },
+            "language": "German",
+            "multiverseId": 681133,
+            "name": "Lathliss, Königin der Drachen",
+            "skuIds": {
+              "nonfoil": "e5577e5c-d6be-5d3a-a608-9ab400e16515"
+            },
+            "text": "Fliegend\nImmer wenn ein anderer Nichtspielstein-Drache unter deiner Kontrolle ins Spiel kommt, erzeuge einen 5/5 roten Drache-Kreaturenspielstein mit Flugfähigkeit.\n{1}{R}: Drachen, die du kontrollierst, erhalten +1/+0 bis zum Ende des Zuges.",
+            "type": "Legendäre Kreatur — Drache",
+            "uuid": "4b69393c-b3a3-56ef-9ff4-b5cb6554512a"
           },
           {
             "flavorText": "Basta un suo ordine affinché i suoi sudditi riducano il mondo in cenere.",
@@ -83,6 +71,9 @@
             "language": "Italian",
             "multiverseId": 681205,
             "name": "Lathliss, Regina dei Draghi",
+            "skuIds": {
+              "nonfoil": "7ae7de16-f100-56a4-b77a-d279d1c664ba"
+            },
             "text": "Volare\nOgniqualvolta un altro Drago non pedina che controlli entra, crea una pedina creatura Drago 5/5 rossa con volare.\n{1}{R}: I Draghi che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Creatura Leggendaria — Drago",
             "uuid": "cd813e58-08c4-5fc3-897a-6f64226ec79f"
@@ -96,17 +87,34 @@
             "language": "Japanese",
             "multiverseId": 681229,
             "name": "ドラゴンの女王、ラスリス",
+            "skuIds": {
+              "nonfoil": "306a64d5-6b24-52be-abbf-898f6f711e9a"
+            },
             "text": "飛行\nあなたがコントロールしていてトークンでもこれでもないドラゴン１体が戦場に出るたび、飛行を持つ赤の５/５のドラゴン・クリーチャー・トークン１体を生成する。\n{1}{R}：ターン終了時まで、あなたがコントロールしているすべてのドラゴンは＋１/＋０の修整を受ける。",
             "type": "伝説のクリーチャー — ドラゴン",
             "uuid": "9c53a2da-5d36-57e9-8edd-8c83525b3705"
+          },
+          {
+            "flavorText": "Si ella da la orden, sus súbditos abrasarán el mundo y lo reducirán a cenizas.",
+            "identifiers": {
+              "multiverseId": "681157",
+              "scryfallId": "5739bb48-84de-4b26-8bb6-cbf3e413e747"
+            },
+            "language": "Spanish",
+            "multiverseId": 681157,
+            "name": "Lathliss, reina dragón",
+            "skuIds": {
+              "nonfoil": "939b6fe0-82be-5b51-80cf-8605c2dedb97"
+            },
+            "text": "Vuela.\nSiempre que otro Dragón que no sea ficha que controlas entre, crea una ficha de criatura Dragón roja 5/5 con la habilidad de volar.\n{1}{R}: Los Dragones que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Criatura legendaria — Dragón",
+            "uuid": "ffc07d54-e569-5182-b1db-d7c70b5cd3b1"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305208",
           "cardsphereId": "130880",
@@ -126,7 +134,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flying"
         ],
@@ -160,6 +167,7 @@
         "name": "Lathliss, Dragon Queen",
         "number": "74",
         "originalText": "Flying\nWhenever another nontoken Dragon you control enters, create a 5/5 red Dragon creature token with flying.\n{1}{R}: Dragons you control get +1/+0 until end of turn.",
+        "originalType": "Legendary Creature – Dragon",
         "power": "6",
         "printings": [
           "FDN",
@@ -179,6 +187,11 @@
           "tcgplayer": "https://mtgjson.com/links/1b8e50549f5674c3"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "1600e7fe-a629-50ea-9c4a-95c468f82f7a"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -187,9 +200,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7e92c104-a827-59d5-a368-a535acd898a5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -225,39 +243,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 4719,
+        "edhrecRank": 4289,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "In subsequent terms, first-year students were prohibited from enrolling in Introduction to Dragonkeeping.",
         "foreignData": [
-          {
-            "flavorText": "In den darauffolgenden Semestern war es den Studienanfängern untersagt, sich für die Einführung in die Drachenzucht einzuschreiben.",
-            "identifiers": {
-              "multiverseId": "681368",
-              "scryfallId": "c311c061-8aa1-4edc-bbd2-ae3f0cb4c97c"
-            },
-            "language": "German",
-            "multiverseId": 681368,
-            "name": "Feuerspeiender Jungdrache",
-            "text": "Fliegend\nImmer wenn du einen Nichtkreatur- oder Drache-Zauberspruch wirkst, fügt der Feuerspeiende Jungdrache jedem Gegner 1 Schadenspunkt zu.",
-            "type": "Kreatur — Drache",
-            "uuid": "9329620d-cf2f-5f73-9246-891beb1b1330"
-          },
-          {
-            "flavorText": "En los trimestres siguientes, los alumnos de primer curso tuvieron prohibido matricularse en Introducción al Cuidado de Dragones.",
-            "identifiers": {
-              "multiverseId": "681397",
-              "scryfallId": "afde4b4d-68ca-4f53-91dc-47e1aafdceb2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681397,
-            "name": "Cría escupefuego",
-            "text": "Vuela.\nSiempre que lances un hechizo que no sea criatura o un hechizo de Dragón, la Cría escupefuego hace 1 punto de daño a cada oponente.",
-            "type": "Criatura — Dragón",
-            "uuid": "adfba84c-902d-5146-87a6-aa895e4c78c0"
-          },
           {
             "flavorText": "Lors des trimestres suivants, les étudiants de première année eurent interdiction de s'inscrire au cours d'introduction à l'élevage des dragons.",
             "identifiers": {
@@ -267,9 +259,28 @@
             "language": "French",
             "multiverseId": 681426,
             "name": "Dragonnet cracheur de feu",
+            "skuIds": {
+              "nonfoil": "70da37a0-e5a4-54a5-9766-8e0c78ca27ad"
+            },
             "text": "Vol\nÀ chaque fois que vous lancez un sort non-créature ou de dragon, le Dragonnet cracheur de feu inflige 1 blessure à chaque adversaire.",
             "type": "Créature — dragon",
             "uuid": "d1ab09e3-5f63-5291-9052-dedd78c1db5d"
+          },
+          {
+            "flavorText": "In den darauffolgenden Semestern war es den Studienanfängern untersagt, sich für die Einführung in die Drachenzucht einzuschreiben.",
+            "identifiers": {
+              "multiverseId": "681368",
+              "scryfallId": "c311c061-8aa1-4edc-bbd2-ae3f0cb4c97c"
+            },
+            "language": "German",
+            "multiverseId": 681368,
+            "name": "Feuerspeiender Jungdrache",
+            "skuIds": {
+              "nonfoil": "28b1ab4e-4189-5349-aec9-02858878be73"
+            },
+            "text": "Fliegend\nImmer wenn du einen Nichtkreatur- oder Drache-Zauberspruch wirkst, fügt der Feuerspeiende Jungdrache jedem Gegner 1 Schadenspunkt zu.",
+            "type": "Kreatur — Drache",
+            "uuid": "9329620d-cf2f-5f73-9246-891beb1b1330"
           },
           {
             "flavorText": "In seguito, è stata vietata agli studenti del primo anno l'iscrizione al corso \"Introduzione alla Cura dei Draghi\".",
@@ -280,6 +291,9 @@
             "language": "Italian",
             "multiverseId": 681455,
             "name": "Cucciolo di Sputafuoco",
+            "skuIds": {
+              "nonfoil": "067535fa-1a4e-5ccd-8489-5f7d1fe8acfa"
+            },
             "text": "Volare\nOgniqualvolta lanci una magia non creatura o Drago, il Cucciolo di Sputafuoco infligge 1 danno a ogni avversario.",
             "type": "Creatura — Drago",
             "uuid": "74967374-3703-5548-81b6-49d087ec7986"
@@ -293,14 +307,31 @@
             "language": "Japanese",
             "multiverseId": 681484,
             "name": "炎吐きの仔竜",
+            "skuIds": {
+              "nonfoil": "906163cb-e012-552c-83fb-6c6e9337c307"
+            },
             "text": "飛行\nあなたがクリーチャーでないまたはドラゴンである呪文１つを唱えるたび、炎吐きの仔竜は各対戦相手にそれぞれ１点のダメージを与える。",
             "type": "クリーチャー — ドラゴン",
             "uuid": "f2b09895-6c04-56a1-84e5-4631292a195b"
+          },
+          {
+            "flavorText": "En los trimestres siguientes, los alumnos de primer curso tuvieron prohibido matricularse en Introducción al Cuidado de Dragones.",
+            "identifiers": {
+              "multiverseId": "681397",
+              "scryfallId": "afde4b4d-68ca-4f53-91dc-47e1aafdceb2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681397,
+            "name": "Cría escupefuego",
+            "skuIds": {
+              "nonfoil": "56bec4ec-758f-524e-82ff-698185d45f3a"
+            },
+            "text": "Vuela.\nSiempre que lances un hechizo que no sea criatura o un hechizo de Dragón, la Cría escupefuego hace 1 punto de daño a cada oponente.",
+            "type": "Criatura — Dragón",
+            "uuid": "adfba84c-902d-5146-87a6-aa895e4c78c0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305148",
           "cardsphereId": "130732",
@@ -319,7 +350,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Flying"
         ],
@@ -347,6 +377,7 @@
         "name": "Firespitter Whelp",
         "number": "14",
         "originalText": "Flying\nWhenever you cast a noncreature or Dragon spell, Firespitter Whelp deals 1 damage to each opponent.",
+        "originalType": "Creature – Dragon",
         "power": "2",
         "printings": [
           "FDN",
@@ -365,9 +396,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c14e9520-0478-5b1b-b285-097e396e6a3a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -400,39 +436,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1980,
+        "edhrecRank": 2079,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Sages whisper that Lathliss still keeps the heart of the old dragon queen sealed within a jewel, its smoldering warmth an eternal reminder that no monarch is untouchable.",
         "foreignData": [
-          {
-            "flavorText": "Die Weisen wispern, dass Lathliss das Herz der alten Drachenkönigin noch immer im Inneren eines Juwels verwahrt, dessen schwelende Wärme als ewige Erinnerung dient, dass kein Monarch unantastbar ist.",
-            "identifiers": {
-              "multiverseId": "681596",
-              "scryfallId": "6299868f-8b37-44ce-9250-5a4265dc97b5"
-            },
-            "language": "German",
-            "multiverseId": 681596,
-            "name": "Karneolkugel der Drachen",
-            "text": "{T}: Erzeuge {R}. Falls dieses Mana für einen Drache-Kreaturenzauber ausgegeben wird, erhält der Drache Eile bis zum Ende des Zuges.",
-            "type": "Artefakt",
-            "uuid": "7f240b41-c6cd-5700-aaa2-1203c8a08872"
-          },
-          {
-            "flavorText": "Los eruditos dicen entre susurros que Lathliss conserva el corazón de la antigua reina dragón encerrado en una joya, cuya calidez ardiente es un recordatorio eterno de que ningún monarca es intocable.",
-            "identifiers": {
-              "multiverseId": "681657",
-              "scryfallId": "b585b07d-602f-458a-8d2d-985d6d6fac1e"
-            },
-            "language": "Spanish",
-            "multiverseId": 681657,
-            "name": "Orbe de los dragones de cornalina",
-            "text": "{T}: Agrega {R}. Si ese maná se usa en un hechizo de criatura Dragón, esa criatura gana la habilidad de prisa hasta el final del turno.",
-            "type": "Artefacto",
-            "uuid": "1aec855c-b59a-57f4-80a6-248d98dbc4bc"
-          },
           {
             "flavorText": "Les sages racontent que Lathliss conserve le cœur de la vieille reine des dragons scellé dans un joyau, et que sa chaleur incandescente est un rappel éternel qu'aucun monarque n'est intouchable.",
             "identifiers": {
@@ -442,9 +452,28 @@
             "language": "French",
             "multiverseId": 681718,
             "name": "Orbe des dragons de cornaline",
+            "skuIds": {
+              "nonfoil": "eb5996df-f722-592f-b7ab-36ca621e03ed"
+            },
             "text": "{T} : Ajoutez {R}. Si ce mana est dépensé pour un sort de créature Dragon, il acquiert la célérité jusqu'à la fin du tour.",
             "type": "Artefact",
             "uuid": "868556e5-b874-5e7f-8160-5515e71d7a58"
+          },
+          {
+            "flavorText": "Die Weisen wispern, dass Lathliss das Herz der alten Drachenkönigin noch immer im Inneren eines Juwels verwahrt, dessen schwelende Wärme als ewige Erinnerung dient, dass kein Monarch unantastbar ist.",
+            "identifiers": {
+              "multiverseId": "681596",
+              "scryfallId": "6299868f-8b37-44ce-9250-5a4265dc97b5"
+            },
+            "language": "German",
+            "multiverseId": 681596,
+            "name": "Karneolkugel der Drachen",
+            "skuIds": {
+              "nonfoil": "06b13359-16f3-5df9-9cbc-ab9870491347"
+            },
+            "text": "{T}: Erzeuge {R}. Falls dieses Mana für einen Drache-Kreaturenzauber ausgegeben wird, erhält der Drache Eile bis zum Ende des Zuges.",
+            "type": "Artefakt",
+            "uuid": "7f240b41-c6cd-5700-aaa2-1203c8a08872"
           },
           {
             "flavorText": "Tra i saggi si sussurra che Lathliss tenga ancora il cuore dell'antica regina drago sigillato in un gioiello. Il suo ardente tepore è un eterno memento che nessun monarca è intoccabile.",
@@ -455,6 +484,9 @@
             "language": "Italian",
             "multiverseId": 681779,
             "name": "Globo dei Draghi di Corniola",
+            "skuIds": {
+              "nonfoil": "c6741a1d-8489-5ec5-998b-2eb2c44b4484"
+            },
             "text": "{T}: Aggiungi {R}. Se questo mana viene speso per una magia creatura Drago, quella creatura ha rapidità fino alla fine del turno.",
             "type": "Artefatto",
             "uuid": "e7cfebc9-8f5a-58d7-ba7b-733d53d90de4"
@@ -468,14 +500,31 @@
             "language": "Japanese",
             "multiverseId": 681840,
             "name": "カーネリアン・オーブ・オヴ・ドラゴンカインド",
+            "skuIds": {
+              "nonfoil": "496ebcf1-e559-5f5f-8047-991c30fa7c93"
+            },
             "text": "{T}：{R}を加える。このマナがドラゴン・クリーチャー・呪文のために支払われたなら、ターン終了時まで、それは速攻を得る。",
             "type": "アーティファクト",
             "uuid": "48ba1ba6-8edc-5a78-99ef-597ddbb8f14c"
+          },
+          {
+            "flavorText": "Los eruditos dicen entre susurros que Lathliss conserva el corazón de la antigua reina dragón encerrado en una joya, cuya calidez ardiente es un recordatorio eterno de que ningún monarca es intocable.",
+            "identifiers": {
+              "multiverseId": "681657",
+              "scryfallId": "b585b07d-602f-458a-8d2d-985d6d6fac1e"
+            },
+            "language": "Spanish",
+            "multiverseId": 681657,
+            "name": "Orbe de los dragones de cornalina",
+            "skuIds": {
+              "nonfoil": "9a7be6c9-353d-5d95-af24-506f76e1ebc9"
+            },
+            "text": "{T}: Agrega {R}. Si ese maná se usa en un hechizo de criatura Dragón, esa criatura gana la habilidad de prisa hasta el final del turno.",
+            "type": "Artefacto",
+            "uuid": "1aec855c-b59a-57f4-80a6-248d98dbc4bc"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305265",
           "cardsphereId": "131004",
@@ -494,7 +543,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -518,11 +566,15 @@
         "name": "Carnelian Orb of Dragonkind",
         "number": "131",
         "originalText": "{T}: Add {R}. If that mana is spent on a Dragon creature spell, it gains haste until end of turn.",
+        "originalType": "Artifact",
         "printings": [
           "CLB",
           "FDN",
           "HBG",
           "J25"
+        ],
+        "producedMana": [
+          "R"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/7a7d0f420f1ec098",
@@ -549,9 +601,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "638b0c74-e0c4-5be1-bfea-1f03e6c4dd0a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -581,35 +638,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6278,
+        "edhrecRank": 6757,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681599",
-              "scryfallId": "cb2e41dc-3556-4ffa-b361-4ddf0c6c722d"
-            },
-            "language": "German",
-            "multiverseId": 681599,
-            "name": "Drachenfeuer",
-            "text": "Als zusätzliche Kosten, um diesen Zauberspruch zu wirken, kannst du eine Drache-Karte aus deiner Hand offen vorzeigen oder einen Drachen, den du kontrollierst, bestimmen.\nDas Drachenfeuer fügt einer Kreatur oder einem Planeswalker deiner Wahl 3 Schadenspunkte zu. Falls du eine Drache-Karte offen vorgezeigt oder einen Drachen bestimmt hast, sowie du diesen Zauberspruch gewirkt hast, fügt das Drachenfeuer stattdessen Schadenspunkte in Höhe der Stärke jener Karte bzw. Kreatur zu.",
-            "type": "Spontanzauber",
-            "uuid": "6f1e19e4-ba9a-5a7f-a38e-e76c54b3ece5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681660",
-              "scryfallId": "10a86a6d-1bab-403a-9729-d841729f1a6f"
-            },
-            "language": "Spanish",
-            "multiverseId": 681660,
-            "name": "Fuego del dragón",
-            "text": "Como coste adicional para lanzar este hechizo, puedes mostrar una carta de Dragón de tu mano o elegir un Dragón que controlas.\nEl Fuego del dragón hace 3 puntos de daño a la criatura o planeswalker objetivo. Si mostraste una carta de Dragón o elegiste un Dragón al lanzar este hechizo, en vez de eso, el Fuego del dragón hace una cantidad de daño igual a la fuerza de esa carta o criatura.",
-            "type": "Instantáneo",
-            "uuid": "9e4cb897-93d0-5f46-816c-bd60bdcfa17d"
-          },
           {
             "identifiers": {
               "multiverseId": "681721",
@@ -618,9 +652,27 @@
             "language": "French",
             "multiverseId": 681721,
             "name": "Feu du dragon",
+            "skuIds": {
+              "nonfoil": "d37988f4-4851-5685-9f95-775dbe18b494"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, vous pouvez révéler une carte de dragon de votre main ou choisir un dragon que vous contrôlez.\nLe Feu du dragon inflige 3 blessures à une cible, créature ou planeswalker. Si vous avez révélé une carte de dragon ou choisi un dragon au moment où vous avez lancé ce sort, le Feu du dragon inflige un nombre de blessures égal à la force de cette carte ou de cette créature à la place.",
             "type": "Éphémère",
             "uuid": "8ccd2a21-e8e3-57ff-a347-303d25eddfb9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681599",
+              "scryfallId": "cb2e41dc-3556-4ffa-b361-4ddf0c6c722d"
+            },
+            "language": "German",
+            "multiverseId": 681599,
+            "name": "Drachenfeuer",
+            "skuIds": {
+              "nonfoil": "8a0b2b00-878b-533a-881e-77f669761126"
+            },
+            "text": "Als zusätzliche Kosten, um diesen Zauberspruch zu wirken, kannst du eine Drache-Karte aus deiner Hand offen vorzeigen oder einen Drachen, den du kontrollierst, bestimmen.\nDas Drachenfeuer fügt einer Kreatur oder einem Planeswalker deiner Wahl 3 Schadenspunkte zu. Falls du eine Drache-Karte offen vorgezeigt oder einen Drachen bestimmt hast, sowie du diesen Zauberspruch gewirkt hast, fügt das Drachenfeuer stattdessen Schadenspunkte in Höhe der Stärke jener Karte bzw. Kreatur zu.",
+            "type": "Spontanzauber",
+            "uuid": "6f1e19e4-ba9a-5a7f-a38e-e76c54b3ece5"
           },
           {
             "identifiers": {
@@ -630,6 +682,9 @@
             "language": "Italian",
             "multiverseId": 681782,
             "name": "Fuoco del Drago",
+            "skuIds": {
+              "nonfoil": "f330035f-287c-5a69-8ee0-070b44f6e453"
+            },
             "text": "Come costo addizionale per lanciare questa magia, puoi rivelare una carta Drago dalla tua mano o scegliere un Drago che controlli.\nIl Fuoco del Drago infligge 3 danni a una creatura o a un planeswalker bersaglio. Se hai rivelato una carta Drago o hai scelto un Drago mentre hai lanciato questa magia, il Fuoco del Drago infligge invece danno pari alla forza di quella carta o creatura.",
             "type": "Istantaneo",
             "uuid": "5f2375bd-4bb2-54e8-9fe9-8dae0e5d323f"
@@ -642,14 +697,30 @@
             "language": "Japanese",
             "multiverseId": 681843,
             "name": "ドラゴンの火",
+            "skuIds": {
+              "nonfoil": "cafc69de-4af3-511c-b81d-62dac1e03816"
+            },
             "text": "この呪文を唱えるための追加コストとして、あなたの手札にあるドラゴン・カード１枚を公開するか、あなたがコントロールしているドラゴン１体を選んでもよい。\nクリーチャーやプレインズウォーカーである１体を対象とする。ドラゴンの火はそれに３点のダメージを与える。この呪文を唱えるに際しあなたがドラゴン・カードを公開するかドラゴンを選んでいたなら、代わりにドラゴンの火は公開したカードや選んだクリーチャーのパワーに等しい点数のダメージを与える。",
             "type": "インスタント",
             "uuid": "48f79b34-1ef5-5389-a897-529d26428c59"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681660",
+              "scryfallId": "10a86a6d-1bab-403a-9729-d841729f1a6f"
+            },
+            "language": "Spanish",
+            "multiverseId": 681660,
+            "name": "Fuego del dragón",
+            "skuIds": {
+              "nonfoil": "4aa5f299-2127-517f-a089-4c25e61462b0"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, puedes mostrar una carta de Dragón de tu mano o elegir un Dragón que controlas.\nEl Fuego del dragón hace 3 puntos de daño a la criatura o planeswalker objetivo. Si mostraste una carta de Dragón o elegiste un Dragón al lanzar este hechizo, en vez de eso, el Fuego del dragón hace una cantidad de daño igual a la fuerza de esa carta o criatura.",
+            "type": "Instantáneo",
+            "uuid": "9e4cb897-93d0-5f46-816c-bd60bdcfa17d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305268",
           "cardsphereId": "131014",
@@ -668,7 +739,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -691,6 +761,7 @@
         "name": "Dragon's Fire",
         "number": "134",
         "originalText": "As an additional cost to cast this spell, you may reveal a Dragon card from your hand or choose a Dragon you control.\nDragon's Fire deals 3 damage to target creature or planeswalker. If you revealed a Dragon card or chose a Dragon as you cast this spell, Dragon's Fire deals damage equal to the power of that card or creature instead.",
+        "originalType": "Instant",
         "printings": [
           "AFR",
           "HBG",
@@ -713,9 +784,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "03172691-c6f5-5131-8220-0cd39819c649"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -745,39 +821,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 987,
+        "edhrecRank": 1011,
         "edhrecSaltiness": 0.1,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Slibbo was tired of following Korvold's draconian library rules.",
         "foreignData": [
-          {
-            "flavorText": "Slibbo hatte genug davon, Korvolds drakonische Bibliotheksregeln zu befolgen.",
-            "identifiers": {
-              "multiverseId": "681606",
-              "scryfallId": "4cc3d50f-69f4-439d-bd68-b447252a371d"
-            },
-            "language": "German",
-            "multiverseId": 681606,
-            "name": "Beute fassen",
-            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Hexerei",
-            "uuid": "b58ea2c3-c503-5142-8788-9737dec2c41b"
-          },
-          {
-            "flavorText": "Slibbo estaba harto de seguir las reglas draconianas que Korvold había impuesto en la biblioteca.",
-            "identifiers": {
-              "multiverseId": "681667",
-              "scryfallId": "c26dd23e-3862-4873-80c3-26f24553bdce"
-            },
-            "language": "Spanish",
-            "multiverseId": 681667,
-            "name": "Adueñarse de los botines",
-            "text": "Como coste adicional para lanzar este hechizo, descarta una carta.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Conjuro",
-            "uuid": "d13ae9f3-d007-5a27-9e12-0ceef7a36453"
-          },
           {
             "flavorText": "Slibbo en avait assez de suivre le règlement de bibliothèque draconien de Korvold.",
             "identifiers": {
@@ -787,9 +837,28 @@
             "language": "French",
             "multiverseId": 681728,
             "name": "S'emparer du butin",
+            "skuIds": {
+              "nonfoil": "5013dcff-16cd-5eef-916d-269f3d6a2ff7"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, défaussez-vous d'une carte.\nPiochez deux cartes et créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Rituel",
             "uuid": "beff7c66-9bf9-5847-9850-3991b24087c8"
+          },
+          {
+            "flavorText": "Slibbo hatte genug davon, Korvolds drakonische Bibliotheksregeln zu befolgen.",
+            "identifiers": {
+              "multiverseId": "681606",
+              "scryfallId": "4cc3d50f-69f4-439d-bd68-b447252a371d"
+            },
+            "language": "German",
+            "multiverseId": 681606,
+            "name": "Beute fassen",
+            "skuIds": {
+              "nonfoil": "ffdbd138-726b-5ad7-894c-7e65bacca871"
+            },
+            "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Hexerei",
+            "uuid": "b58ea2c3-c503-5142-8788-9737dec2c41b"
           },
           {
             "flavorText": "Slibbo era stanco di seguire le severe regole della biblioteca di Korvold.",
@@ -800,6 +869,9 @@
             "language": "Italian",
             "multiverseId": 681789,
             "name": "Reclamare il Bottino",
+            "skuIds": {
+              "nonfoil": "728c048e-83f8-57de-85a7-3ca97d0d367c"
+            },
             "text": "Come costo addizionale per lanciare questa magia, scarta una carta.\nPesca due carte e crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Stregoneria",
             "uuid": "4aebf510-5803-54d5-b761-ef8cc6447773"
@@ -813,14 +885,31 @@
             "language": "Japanese",
             "multiverseId": 681850,
             "name": "戦利品奪取",
+            "skuIds": {
+              "nonfoil": "56dad6bc-ad48-5d2f-843a-a37575adebf5"
+            },
             "text": "この呪文を唱えるための追加コストとして、カード１枚を捨てる。\nカード２枚を引き宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "ソーサリー",
             "uuid": "74c41030-15b6-588a-9a33-9eedea741851"
+          },
+          {
+            "flavorText": "Slibbo estaba harto de seguir las reglas draconianas que Korvold había impuesto en la biblioteca.",
+            "identifiers": {
+              "multiverseId": "681667",
+              "scryfallId": "c26dd23e-3862-4873-80c3-26f24553bdce"
+            },
+            "language": "Spanish",
+            "multiverseId": 681667,
+            "name": "Adueñarse de los botines",
+            "skuIds": {
+              "nonfoil": "fea4c1cf-18c3-5754-8a89-f8fe0d5ea2ba"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, descarta una carta.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Conjuro",
+            "uuid": "d13ae9f3-d007-5a27-9e12-0ceef7a36453"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305275",
           "cardsphereId": "131033",
@@ -839,7 +928,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -869,11 +957,19 @@
         "name": "Seize the Spoils",
         "number": "141",
         "originalText": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Sorcery",
         "printings": [
           "FDN",
           "GN3",
           "J25",
           "KHM"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1624c7de2da0a895",
@@ -881,6 +977,11 @@
           "tcgplayer": "https://mtgjson.com/links/381ade92fbc4ecf4"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2021-02-05",
@@ -888,9 +989,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bfb145b9-c710-5b32-b6b4-7b922b80766b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -920,39 +1026,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18700,
+        "edhrecRank": 18923,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The scent of cooked flesh lingers in the charred landscape of Tarkir.",
         "foreignData": [
-          {
-            "flavorText": "Der Geruch verbrannten Fleisches liegt über der versengten Landschaft Tarkirs.",
-            "identifiers": {
-              "multiverseId": "684331",
-              "scryfallId": "ed7447c4-e106-4667-a917-3edaa6770916"
-            },
-            "language": "German",
-            "multiverseId": 684331,
-            "name": "Bad im Drachenfeuer",
-            "text": "Das Bad im Drachenfeuer fügt einer Kreatur deiner Wahl 4 Schadenspunkte zu.",
-            "type": "Hexerei",
-            "uuid": "80c83de8-4c52-592c-b85d-0f2d29e3f41b"
-          },
-          {
-            "flavorText": "El aroma a carne quemada flota en el ambiente en el paisaje carbonizado de Tarkir.",
-            "identifiers": {
-              "multiverseId": "684438",
-              "scryfallId": "de1262da-376e-4825-a1fe-ca501c498db3"
-            },
-            "language": "Spanish",
-            "multiverseId": 684438,
-            "name": "Bañar en fuegodragón",
-            "text": "Bañar en fuegodragón hace 4 puntos de daño a la criatura objetivo.",
-            "type": "Conjuro",
-            "uuid": "c3468f01-a6ed-5ee5-90b6-8d53b3aadc49"
-          },
           {
             "flavorText": "L'odeur de chair brûlée imprègne les terres calcinées de Tarkir.",
             "identifiers": {
@@ -962,9 +1042,28 @@
             "language": "French",
             "multiverseId": 684545,
             "name": "Bain dans le feu des dragons",
+            "skuIds": {
+              "nonfoil": "6de05d16-1573-5c46-92da-cb83fc5ce175"
+            },
             "text": "Le Bain dans le feu des dragons inflige 4 blessures à une créature ciblée.",
             "type": "Rituel",
             "uuid": "ad14d0e2-9fa6-5146-abcb-2079adb1a6c1"
+          },
+          {
+            "flavorText": "Der Geruch verbrannten Fleisches liegt über der versengten Landschaft Tarkirs.",
+            "identifiers": {
+              "multiverseId": "684331",
+              "scryfallId": "ed7447c4-e106-4667-a917-3edaa6770916"
+            },
+            "language": "German",
+            "multiverseId": 684331,
+            "name": "Bad im Drachenfeuer",
+            "skuIds": {
+              "nonfoil": "3ecf07d8-6766-5348-898b-b9d17049bdce"
+            },
+            "text": "Das Bad im Drachenfeuer fügt einer Kreatur deiner Wahl 4 Schadenspunkte zu.",
+            "type": "Hexerei",
+            "uuid": "80c83de8-4c52-592c-b85d-0f2d29e3f41b"
           },
           {
             "flavorText": "L'odore di carne bruciata aleggia nel paesaggio annerito di Tarkir.",
@@ -975,6 +1074,9 @@
             "language": "Italian",
             "multiverseId": 684652,
             "name": "Sommergere nel Fuoco Draconico",
+            "skuIds": {
+              "nonfoil": "b58e8fc3-9acf-562b-b00c-d0815b9e515f"
+            },
             "text": "Sommergere nel Fuoco Draconico infligge 4 danni a una creatura bersaglio.",
             "type": "Stregoneria",
             "uuid": "8ef9636a-8f77-57fb-83f4-2fdfdc7ab916"
@@ -988,14 +1090,31 @@
             "language": "Japanese",
             "multiverseId": 684759,
             "name": "龍火浴びせ",
+            "skuIds": {
+              "nonfoil": "1c532b0d-2614-5f3a-bd2e-9d20c7e080c3"
+            },
             "text": "クリーチャー１体を対象とする。龍火浴びせはそれに４点のダメージを与える。",
             "type": "ソーサリー",
             "uuid": "e5cf734b-aaca-50bb-9213-4d953b73c6c4"
+          },
+          {
+            "flavorText": "El aroma a carne quemada flota en el ambiente en el paisaje carbonizado de Tarkir.",
+            "identifiers": {
+              "multiverseId": "684438",
+              "scryfallId": "de1262da-376e-4825-a1fe-ca501c498db3"
+            },
+            "language": "Spanish",
+            "multiverseId": 684438,
+            "name": "Bañar en fuegodragón",
+            "skuIds": {
+              "nonfoil": "35502ed2-140c-50e4-90a7-8d90ca3ffdca"
+            },
+            "text": "Bañar en fuegodragón hace 4 puntos de daño a la criatura objetivo.",
+            "type": "Conjuro",
+            "uuid": "c3468f01-a6ed-5ee5-90b6-8d53b3aadc49"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305858",
           "cardsphereId": "131144",
@@ -1037,6 +1156,7 @@
         "name": "Bathe in Dragonfire",
         "number": "519",
         "originalText": "Bathe in Dragonfire deals 4 damage to target creature.",
+        "originalType": "Sorcery",
         "printings": [
           "BBD",
           "FRF",
@@ -1050,9 +1170,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c71835d9-9db4-5d7a-9b81-758bac0f917c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1082,39 +1207,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 15837,
+        "edhrecRank": 16244,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Those dragons grow fast. For a while they feed on squirrels and goblins and then suddenly you're missing a mammoth.\"\n—Hurdek, Mazar mammoth trainer",
         "foreignData": [
-          {
-            "flavorText": "„Diese Drachen wachsen wirklich schnell. Erst fütterst du sie mit Eichhörnchen und Goblins, und plötzlich fehlt eines deiner Mammuts.\"\n—Hurdek, Mammutabrichter aus Mazar",
-            "identifiers": {
-              "multiverseId": "684348",
-              "scryfallId": "4dd8ae10-6d88-4b73-922b-322b4a46f42b"
-            },
-            "language": "German",
-            "multiverseId": 684348,
-            "name": "Drachen-Küken",
-            "text": "Fliegend\n{R}: Das Drachen-Küken erhält +1/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Drache",
-            "uuid": "64b422d2-1b44-545f-bdd7-d8a28507be9b"
-          },
-          {
-            "flavorText": "\"Estos dragones crecen rápido. Por un tiempo se alimentan de ardillas y trasgos, y de pronto te falta un mamut\".\n—Hurdek, entrenador de mamuts de Mazar",
-            "identifiers": {
-              "multiverseId": "684455",
-              "scryfallId": "3339f01e-f370-4a01-b089-8ed23dedd663"
-            },
-            "language": "Spanish",
-            "multiverseId": 684455,
-            "name": "Vástago de dragón",
-            "text": "Vuela.\n{R}: El Vástago de dragón obtiene +1/+0 hasta el final del turno.",
-            "type": "Criatura — Dragón",
-            "uuid": "7faa4699-c097-5830-a862-73d10880ecf1"
-          },
           {
             "flavorText": "« Ces dragons grandissent vite. Ils se nourrissent d'écureuils et de gobelins et soudain, il vous manque un mammouth. »\n—Hurdek, entraîneur de mammouths mazarien",
             "identifiers": {
@@ -1124,9 +1223,28 @@
             "language": "French",
             "multiverseId": 684562,
             "name": "Progéniture dragon",
+            "skuIds": {
+              "nonfoil": "3efb2a8d-9477-5550-a50b-800b2b33e53c"
+            },
             "text": "Vol\n{R} : La Progéniture dragon gagne +1/+0 jusqu'à la fin du tour.",
             "type": "Créature — dragon",
             "uuid": "1fe92731-29ed-5349-898c-b606e2e312bc"
+          },
+          {
+            "flavorText": "„Diese Drachen wachsen wirklich schnell. Erst fütterst du sie mit Eichhörnchen und Goblins, und plötzlich fehlt eines deiner Mammuts.\"\n—Hurdek, Mammutabrichter aus Mazar",
+            "identifiers": {
+              "multiverseId": "684348",
+              "scryfallId": "4dd8ae10-6d88-4b73-922b-322b4a46f42b"
+            },
+            "language": "German",
+            "multiverseId": 684348,
+            "name": "Drachen-Küken",
+            "skuIds": {
+              "nonfoil": "ceaabca7-541a-5beb-86ad-d41f4ae1c913"
+            },
+            "text": "Fliegend\n{R}: Das Drachen-Küken erhält +1/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Drache",
+            "uuid": "64b422d2-1b44-545f-bdd7-d8a28507be9b"
           },
           {
             "flavorText": "\"Quei draghi crescono velocemente. Per un po' si nutrono di scoiattoli e goblin e poi all'improvviso ti manca un mammut.\"\n—Hurdek, addestratore di mammut di Mazar",
@@ -1137,6 +1255,9 @@
             "language": "Italian",
             "multiverseId": 684669,
             "name": "Drago Appena Nato",
+            "skuIds": {
+              "nonfoil": "a5d25c42-7d5e-5862-a99e-e31c8a65ea23"
+            },
             "text": "Volare\n{R}: Il Drago Appena Nato prende +1/+0 fino alla fine del turno.",
             "type": "Creatura — Drago",
             "uuid": "03f148e3-d207-5083-8c2f-4809f6319f11"
@@ -1150,14 +1271,31 @@
             "language": "Japanese",
             "multiverseId": 684776,
             "name": "ドラゴンの雛",
+            "skuIds": {
+              "nonfoil": "25583cfc-8607-551d-93ab-233e845638c8"
+            },
             "text": "飛行\n{R}：ターン終了時まで、ドラゴンの雛は＋１/＋０の修整を受ける。",
             "type": "クリーチャー — ドラゴン",
             "uuid": "1bc55d99-b81b-55a3-aef9-fdbd2f84a779"
+          },
+          {
+            "flavorText": "\"Estos dragones crecen rápido. Por un tiempo se alimentan de ardillas y trasgos, y de pronto te falta un mamut\".\n—Hurdek, entrenador de mamuts de Mazar",
+            "identifiers": {
+              "multiverseId": "684455",
+              "scryfallId": "3339f01e-f370-4a01-b089-8ed23dedd663"
+            },
+            "language": "Spanish",
+            "multiverseId": 684455,
+            "name": "Vástago de dragón",
+            "skuIds": {
+              "nonfoil": "6ce547dc-91b4-5707-8a5e-465adb056067"
+            },
+            "text": "Vuela.\n{R}: El Vástago de dragón obtiene +1/+0 hasta el final del turno.",
+            "type": "Criatura — Dragón",
+            "uuid": "7faa4699-c097-5830-a862-73d10880ecf1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305875",
           "cardsphereId": "131114",
@@ -1202,6 +1340,7 @@
         "name": "Dragon Hatchling",
         "number": "536",
         "originalText": "Flying\n{R}: Dragon Hatchling gets +1/+0 until end of turn.",
+        "originalType": "Creature – Dragon",
         "power": "0",
         "printings": [
           "BBD",
@@ -1218,9 +1357,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "68ab93ee-564e-590d-ad15-6b9b8845b64f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1253,36 +1397,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 17751,
+        "edhrecRank": 18355,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684349",
-              "scryfallId": "97e6e7b4-9917-4304-9044-1616d8e792e4"
-            },
-            "language": "German",
-            "multiverseId": 684349,
-            "name": "Drachenjunges",
-            "text": "Fliegend\n{R}: Das Drachenjunge erhält +1/+0 bis zum Ende des Zuges. Falls diese Fähigkeit in diesem Zug vier Mal oder öfter aktiviert wurde, opfere das Drachenjunge zu Beginn des nächsten Endsegments.",
-            "type": "Kreatur — Drache",
-            "uuid": "38162958-23f3-5dd3-8df0-13e2f5ead9ba"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684456",
-              "scryfallId": "449198b2-80d9-4da4-9d76-da04543c5d5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 684456,
-            "name": "Cría de dragón",
-            "text": "Vuela.\n{R}: La Cría de dragón obtiene +1/+0 hasta el final del turno. Si esta habilidad fue activada cuatro o más veces este turno, sacrifica la Cría de dragón al comienzo del próximo paso final.",
-            "type": "Criatura — Dragón",
-            "uuid": "73706159-cadb-544f-9c05-37e99b002138"
-          },
           {
             "identifiers": {
               "multiverseId": "684563",
@@ -1291,9 +1411,27 @@
             "language": "French",
             "multiverseId": 684563,
             "name": "Dragonnet",
+            "skuIds": {
+              "nonfoil": "017ed4b7-bf8f-5222-b038-698b3cc01727"
+            },
             "text": "Vol\n{R} : Le Dragonnet gagne +1/+0 jusqu'à la fin du tour. Si cette capacité a été activée au moins quatre fois ce tour-ci, sacrifiez le Dragonnet au début de la prochaine étape de fin.",
             "type": "Créature — dragon",
             "uuid": "f187cab3-75ee-533c-853e-60335e1118ef"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684349",
+              "scryfallId": "97e6e7b4-9917-4304-9044-1616d8e792e4"
+            },
+            "language": "German",
+            "multiverseId": 684349,
+            "name": "Drachenjunges",
+            "skuIds": {
+              "nonfoil": "b550516c-1c3a-545c-9f0d-7c9a3941f432"
+            },
+            "text": "Fliegend\n{R}: Das Drachenjunge erhält +1/+0 bis zum Ende des Zuges. Falls diese Fähigkeit in diesem Zug vier Mal oder öfter aktiviert wurde, opfere das Drachenjunge zu Beginn des nächsten Endsegments.",
+            "type": "Kreatur — Drache",
+            "uuid": "38162958-23f3-5dd3-8df0-13e2f5ead9ba"
           },
           {
             "identifiers": {
@@ -1303,6 +1441,9 @@
             "language": "Italian",
             "multiverseId": 684670,
             "name": "Cucciolo di Drago",
+            "skuIds": {
+              "nonfoil": "fe516a0e-7610-578f-b1ac-fbe1f1959310"
+            },
             "text": "Volare\n{R}: Il Cucciolo di Drago prende +1/+0 fino alla fine del turno. Se questa abilità è stata attivata quattro o più volte in questo turno, sacrifica il Cucciolo di Drago all'inizio della prossima sottofase finale.",
             "type": "Creatura — Drago",
             "uuid": "7f04a712-a927-5dbb-a78b-862387edf165"
@@ -1315,14 +1456,30 @@
             "language": "Japanese",
             "multiverseId": 684777,
             "name": "チビ・ドラゴン",
+            "skuIds": {
+              "nonfoil": "5aa8bfa9-242e-5cb5-93f3-20769f5bf576"
+            },
             "text": "飛行\n{R}：ターン終了時まで、チビ・ドラゴンは＋１/＋０の修整を受ける。このターンにこの能力が４回以上起動されているなら、次の終了ステップの開始時に、チビ・ドラゴンを生け贄に捧げる。",
             "type": "クリーチャー — ドラゴン",
             "uuid": "3dc2f95f-59b8-559f-a626-0fb1979c7733"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684456",
+              "scryfallId": "449198b2-80d9-4da4-9d76-da04543c5d5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 684456,
+            "name": "Cría de dragón",
+            "skuIds": {
+              "nonfoil": "ebd21e3a-7a96-5309-af38-eff21756df05"
+            },
+            "text": "Vuela.\n{R}: La Cría de dragón obtiene +1/+0 hasta el final del turno. Si esta habilidad fue activada cuatro o más veces este turno, sacrifica la Cría de dragón al comienzo del próximo paso final.",
+            "type": "Criatura — Dragón",
+            "uuid": "73706159-cadb-544f-9c05-37e99b002138"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305876",
           "cardsphereId": "131107",
@@ -1367,6 +1524,7 @@
         "name": "Dragon Whelp",
         "number": "537",
         "originalText": "Flying\n{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.",
+        "originalType": "Creature – Dragon",
         "power": "2",
         "printings": [
           "2ED",
@@ -1417,9 +1575,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "590c8e46-5720-502e-99aa-8f872b0141c7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1452,39 +1615,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1279,
+        "edhrecRank": 1304,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Atarka serving-goblins coat themselves with grease imbued with noxious herbs, hoping to discourage their ravenous masters from adding them to the meal.",
         "foreignData": [
-          {
-            "flavorText": "Atarka-Goblins schmieren sich mit dem Öl giftiger Kräuter ein, in der Hoffnung, nicht als Dessert für ihre gefräßigen Meister zu enden.",
-            "identifiers": {
-              "multiverseId": "684350",
-              "scryfallId": "84c999fd-d316-44c5-a0e5-54df43e01eed"
-            },
-            "language": "German",
-            "multiverseId": 684350,
-            "name": "Diener der Drachenfürstin",
-            "text": "Drache-Zaubersprüche, die du wirkst, kosten beim Wirken {1} weniger.",
-            "type": "Kreatur — Goblin, Schamane",
-            "uuid": "499dd5a2-9fb6-5513-bdc9-a0ce0df244ac"
-          },
-          {
-            "flavorText": "Los trasgos que sirven a Atarka se untan de grasa mezclada con hierbas venenosas con la esperanza de que sus voraces señores no los añadan al banquete.",
-            "identifiers": {
-              "multiverseId": "684457",
-              "scryfallId": "a720b14d-ec2e-40e9-8bdf-4072d4f4f0df"
-            },
-            "language": "Spanish",
-            "multiverseId": 684457,
-            "name": "Sirviente de la señora dragón",
-            "text": "Te cuesta {1} menos lanzar los hechizos de Dragón.",
-            "type": "Criatura — Chamán trasgo",
-            "uuid": "603bb800-1326-58aa-98db-e8bf39b9aec0"
-          },
           {
             "flavorText": "Les gobelins servant Atarka s'enduisent de graisse imprégnée de plantes toxiques, espérant ainsi décourager leurs maîtres voraces de les ajouter au menu.",
             "identifiers": {
@@ -1494,9 +1631,28 @@
             "language": "French",
             "multiverseId": 684564,
             "name": "Servant du seigneur-dragon",
+            "skuIds": {
+              "nonfoil": "251250a3-acc1-5197-8bd4-7696968f64e4"
+            },
             "text": "Les sorts de dragon que vous lancez coûtent {1} de moins à lancer.",
             "type": "Créature — gobelin et shamane",
             "uuid": "79a6b54c-a538-527e-89c4-30888d04f7d9"
+          },
+          {
+            "flavorText": "Atarka-Goblins schmieren sich mit dem Öl giftiger Kräuter ein, in der Hoffnung, nicht als Dessert für ihre gefräßigen Meister zu enden.",
+            "identifiers": {
+              "multiverseId": "684350",
+              "scryfallId": "84c999fd-d316-44c5-a0e5-54df43e01eed"
+            },
+            "language": "German",
+            "multiverseId": 684350,
+            "name": "Diener der Drachenfürstin",
+            "skuIds": {
+              "nonfoil": "13a10618-5300-5abc-ad4e-675d0f42d3f2"
+            },
+            "text": "Drache-Zaubersprüche, die du wirkst, kosten beim Wirken {1} weniger.",
+            "type": "Kreatur — Goblin, Schamane",
+            "uuid": "499dd5a2-9fb6-5513-bdc9-a0ce0df244ac"
           },
           {
             "flavorText": "I goblin servitori di Atarka si spalmano il corpo di grasso infuso con erbe velenose, sperando di scoraggiare i loro famelici padroni dall'includerli nel loro pasto.",
@@ -1507,6 +1663,9 @@
             "language": "Italian",
             "multiverseId": 684671,
             "name": "Servitore del Signore dei Draghi",
+            "skuIds": {
+              "nonfoil": "6fbfea72-7d60-5f64-9c17-bc7fd6fa6f8d"
+            },
             "text": "Le magie Drago che lanci costano {1} in meno per essere lanciate.",
             "type": "Creatura — Sciamano Goblin",
             "uuid": "9cba770f-81df-5374-996c-dd7840e0e741"
@@ -1520,14 +1679,31 @@
             "language": "Japanese",
             "multiverseId": 684778,
             "name": "龍王の召使い",
+            "skuIds": {
+              "nonfoil": "baa50d6f-ea27-5463-b23e-0cca97c2387f"
+            },
             "text": "あなたがドラゴン・呪文を唱えるためのコストは{1}少なくなる。",
             "type": "クリーチャー — ゴブリン・シャーマン",
             "uuid": "e905a458-d7c8-5a6c-9744-ff307742f483"
+          },
+          {
+            "flavorText": "Los trasgos que sirven a Atarka se untan de grasa mezclada con hierbas venenosas con la esperanza de que sus voraces señores no los añadan al banquete.",
+            "identifiers": {
+              "multiverseId": "684457",
+              "scryfallId": "a720b14d-ec2e-40e9-8bdf-4072d4f4f0df"
+            },
+            "language": "Spanish",
+            "multiverseId": 684457,
+            "name": "Sirviente de la señora dragón",
+            "skuIds": {
+              "nonfoil": "4a595794-4535-5908-b884-8c4e7c16d3e7"
+            },
+            "text": "Te cuesta {1} menos lanzar los hechizos de Dragón.",
+            "type": "Criatura — Chamán trasgo",
+            "uuid": "603bb800-1326-58aa-98db-e8bf39b9aec0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305877",
           "cardsphereId": "131104",
@@ -1573,6 +1749,7 @@
         "name": "Dragonlord's Servant",
         "number": "538",
         "originalText": "Dragon spells you cast cost {1} less to cast.",
+        "originalType": "Creature – Goblin Shaman",
         "power": "1",
         "printings": [
           "AFC",
@@ -1622,9 +1799,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c49d29be-dae2-5275-aac0-1ffbfc6902c2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1658,39 +1840,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 3529,
+        "edhrecRank": 3593,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Surely it won't notice if I take—\"\n—Theria the Sly, last words",
         "foreignData": [
-          {
-            "flavorText": "„Er wird es sicher nicht merken, wenn ich nur diesen einen …\"\n—Theria die Gerissene, letzte Worte",
-            "identifiers": {
-              "multiverseId": "684400",
-              "scryfallId": "5305b44e-c094-4d30-a556-a284a1a4d233"
-            },
-            "language": "German",
-            "multiverseId": 684400,
-            "name": "Schatzhortender Drache",
-            "text": "Fliegend\nWenn der Schatzhortende Drache ins Spiel kommt, erzeuge zwei Schatz-Spielsteine. (Sie sind Artefakte mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Drache",
-            "uuid": "2798afc0-5871-583b-97ed-e5edada7f770"
-          },
-          {
-            "flavorText": "\"Seguro que no se dará cuenta si le robo un poqui...\".\n—Últimas palabras de Theria la Sagaz",
-            "identifiers": {
-              "multiverseId": "684507",
-              "scryfallId": "65e1c6d6-2d33-4777-8d03-aa57393c5295"
-            },
-            "language": "Spanish",
-            "multiverseId": 684507,
-            "name": "Dragón avaro",
-            "text": "Vuela.\nCuando el Dragón avaro entre, crea dos fichas de Tesoro. (Son artefactos con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Dragón",
-            "uuid": "62c06056-2cca-5733-8a98-b174dd0d5b10"
-          },
           {
             "flavorText": "« Il ne remarquera sûrement pas si je prends... »\n—Théria la maligne, derniers mots",
             "identifiers": {
@@ -1700,9 +1856,28 @@
             "language": "French",
             "multiverseId": 684614,
             "name": "Dragon insatiable",
+            "skuIds": {
+              "nonfoil": "53b9f8ac-a18f-5967-9baf-28d0a6612add"
+            },
             "text": "Vol\nQuand le Dragon insatiable arrive, créez deux jetons Trésor. (Ce sont des artefacts avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — dragon",
             "uuid": "52513808-b7b5-562e-93ea-c720e19b9444"
+          },
+          {
+            "flavorText": "„Er wird es sicher nicht merken, wenn ich nur diesen einen …\"\n—Theria die Gerissene, letzte Worte",
+            "identifiers": {
+              "multiverseId": "684400",
+              "scryfallId": "5305b44e-c094-4d30-a556-a284a1a4d233"
+            },
+            "language": "German",
+            "multiverseId": 684400,
+            "name": "Schatzhortender Drache",
+            "skuIds": {
+              "nonfoil": "1355ff95-eba3-55e5-a8e4-b611ae2465c1"
+            },
+            "text": "Fliegend\nWenn der Schatzhortende Drache ins Spiel kommt, erzeuge zwei Schatz-Spielsteine. (Sie sind Artefakte mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Drache",
+            "uuid": "2798afc0-5871-583b-97ed-e5edada7f770"
           },
           {
             "flavorText": "\"Di certo non si accorgerà se prendo...\"\n—Theria l'Astuta, ultime parole",
@@ -1713,6 +1888,9 @@
             "language": "Italian",
             "multiverseId": 684721,
             "name": "Drago Bramoso",
+            "skuIds": {
+              "nonfoil": "b8098c9f-a1da-5660-890f-d965fe3e8223"
+            },
             "text": "Volare\nQuando il Drago Bramoso entra, crea due pedine Tesoro. (Sono artefatti con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Drago",
             "uuid": "f3571cbf-9f8d-5182-80cf-dd9e26a8e041"
@@ -1726,14 +1904,31 @@
             "language": "Japanese",
             "multiverseId": 684828,
             "name": "多欲なドラゴン",
+            "skuIds": {
+              "nonfoil": "318259e0-93f4-5dfe-8fdf-adb8a6c4d292"
+            },
             "text": "飛行\n多欲なドラゴンが戦場に出たとき、宝物・トークン２つを生成する。（それらは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — ドラゴン",
             "uuid": "d37dac5a-14f2-5b0c-b572-222c116c4ce0"
+          },
+          {
+            "flavorText": "\"Seguro que no se dará cuenta si le robo un poqui...\".\n—Últimas palabras de Theria la Sagaz",
+            "identifiers": {
+              "multiverseId": "684507",
+              "scryfallId": "65e1c6d6-2d33-4777-8d03-aa57393c5295"
+            },
+            "language": "Spanish",
+            "multiverseId": 684507,
+            "name": "Dragón avaro",
+            "skuIds": {
+              "nonfoil": "4950254d-d729-5d4f-baf0-f67bc42bef41"
+            },
+            "text": "Vuela.\nCuando el Dragón avaro entre, crea dos fichas de Tesoro. (Son artefactos con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Dragón",
+            "uuid": "62c06056-2cca-5733-8a98-b174dd0d5b10"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305927",
           "cardsphereId": "131008",
@@ -1771,7 +1966,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "standard": "Legal",
           "standardbrawl": "Legal",
@@ -1783,6 +1977,7 @@
         "name": "Rapacious Dragon",
         "number": "588",
         "originalText": "Flying\nWhen Rapacious Dragon enters, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Dragon",
         "power": "3",
         "printings": [
           "2XM",
@@ -1797,16 +1992,33 @@
           "SCD",
           "TDC"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/d37fbc707aa53a4c",
           "cardmarket": "https://mtgjson.com/links/b1e82983aae3c057",
           "tcgplayer": "https://mtgjson.com/links/de3ac1fa3578e77c"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "15c2d4d5-a465-5b02-a399-db4d6823afd5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1839,39 +2051,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 19350,
+        "edhrecRank": 20057,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Fools believe that Kolaghan's brood follows lightning storms. The wise know that it is the other way around.",
         "foreignData": [
-          {
-            "flavorText": "Narren glauben, dass Kolaghans Brut den Blitzen folgt. Die Weisen wissen, dass es andersherum ist.",
-            "identifiers": {
-              "multiverseId": "684412",
-              "scryfallId": "d0d0f5d0-fa1b-4f46-acce-bce84e41c2d7"
-            },
-            "language": "German",
-            "multiverseId": 684412,
-            "name": "Blitzmaul-Drache",
-            "text": "Fliegend\nWenn der Blitzmaul-Drache ins Spiel kommt, kannst du {2}{R} bezahlen. Wenn du dies tust, fügt er einem Ziel deiner Wahl 3 Schadenspunkte zu.",
-            "type": "Kreatur — Drache",
-            "uuid": "0589c8be-c2bf-56b2-bdf7-4e26122bc05a"
-          },
-          {
-            "flavorText": "Los necios creen que la estirpe de Kólagan acompaña a las tormentas eléctricas. Los sabios entienden que es al revés.",
-            "identifiers": {
-              "multiverseId": "684519",
-              "scryfallId": "48d8a234-fa07-405c-9622-28a7cef704b0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684519,
-            "name": "Dragón lenguarrayos",
-            "text": "Vuela.\nCuando el Dragón lenguarrayos entre, puedes pagar {2}{R}. Cuando lo hagas, hace 3 puntos de daño a cualquier objetivo.",
-            "type": "Criatura — Dragón",
-            "uuid": "bd57364c-2191-5ae4-8447-843f333f58e6"
-          },
           {
             "flavorText": "Les imbéciles pensent que la couvée de Kolaghan suit les orages. Les sages savent que c'est l'inverse.",
             "identifiers": {
@@ -1881,9 +2067,28 @@
             "language": "French",
             "multiverseId": 684626,
             "name": "Dragon languefoudre",
+            "skuIds": {
+              "nonfoil": "c57c4ee0-50ff-504f-b0b8-4de5edef8d82"
+            },
             "text": "Vol\nQuand le Dragon languefoudre arrive, vous pouvez payer {2}{R}. Quand vous faites ainsi, il inflige 3 blessures à n'importe quelle cible.",
             "type": "Créature — dragon",
             "uuid": "57d4a7b6-f097-5ad8-9605-2f1dcd81543d"
+          },
+          {
+            "flavorText": "Narren glauben, dass Kolaghans Brut den Blitzen folgt. Die Weisen wissen, dass es andersherum ist.",
+            "identifiers": {
+              "multiverseId": "684412",
+              "scryfallId": "d0d0f5d0-fa1b-4f46-acce-bce84e41c2d7"
+            },
+            "language": "German",
+            "multiverseId": 684412,
+            "name": "Blitzmaul-Drache",
+            "skuIds": {
+              "nonfoil": "2d340aea-f7ee-5f0b-b223-f0d2c6ff8454"
+            },
+            "text": "Fliegend\nWenn der Blitzmaul-Drache ins Spiel kommt, kannst du {2}{R} bezahlen. Wenn du dies tust, fügt er einem Ziel deiner Wahl 3 Schadenspunkte zu.",
+            "type": "Kreatur — Drache",
+            "uuid": "0589c8be-c2bf-56b2-bdf7-4e26122bc05a"
           },
           {
             "flavorText": "Gli stolti sono convinti che la covata di Kolaghan segua le tempeste di fulmini. I saggi sanno che è piuttosto il contrario.",
@@ -1894,6 +2099,9 @@
             "language": "Italian",
             "multiverseId": 684733,
             "name": "Drago Sputafolgore",
+            "skuIds": {
+              "nonfoil": "17e3865f-e2ef-5f71-949f-11a702704883"
+            },
             "text": "Volare\nQuando il Drago Sputafolgore entra, puoi pagare {2}{R}. Quando lo fai, infligge 3 danni a un qualsiasi bersaglio.",
             "type": "Creatura — Drago",
             "uuid": "d202c34e-4869-5741-ba27-f0b68513ee51"
@@ -1907,14 +2115,31 @@
             "language": "Japanese",
             "multiverseId": 684840,
             "name": "電光吠えのドラゴン",
+            "skuIds": {
+              "nonfoil": "8708a1be-f3c7-52be-a3a3-f70a901d65a1"
+            },
             "text": "飛行\n電光吠えのドラゴンが戦場に出たとき、{2}{R}を支払ってもよい。そうしたとき、１つを対象とする。これはそれに３点のダメージを与える。",
             "type": "クリーチャー — ドラゴン",
             "uuid": "3732caae-3d96-5cd6-a937-fa5149793abb"
+          },
+          {
+            "flavorText": "Los necios creen que la estirpe de Kólagan acompaña a las tormentas eléctricas. Los sabios entienden que es al revés.",
+            "identifiers": {
+              "multiverseId": "684519",
+              "scryfallId": "48d8a234-fa07-405c-9622-28a7cef704b0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684519,
+            "name": "Dragón lenguarrayos",
+            "skuIds": {
+              "nonfoil": "0bab1b40-5e21-5640-82e0-bf6ac589ce95"
+            },
+            "text": "Vuela.\nCuando el Dragón lenguarrayos entre, puedes pagar {2}{R}. Cuando lo hagas, hace 3 puntos de daño a cualquier objetivo.",
+            "type": "Criatura — Dragón",
+            "uuid": "bd57364c-2191-5ae4-8447-843f333f58e6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305939",
           "cardsphereId": "130990",
@@ -1959,6 +2184,7 @@
         "name": "Sparktongue Dragon",
         "number": "600",
         "originalText": "Flying\nWhen Sparktongue Dragon enters, you may pay {2}{R}. When you do, it deals 3 damage to any target.",
+        "originalType": "Creature – Dragon",
         "power": "3",
         "printings": [
           "CMR",
@@ -1981,9 +2207,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1c3a0866-b611-5837-801a-f5dc2b111324"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2014,36 +2245,12 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 738,
+        "edhrecRank": 784,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684047",
-              "scryfallId": "99622f47-ae5a-4dc4-a086-f458284f0d2f"
-            },
-            "language": "German",
-            "multiverseId": 684047,
-            "name": "Vergessene Höhle",
-            "text": "Die Vergessene Höhle kommt getappt ins Spiel.\n{T}: Erzeuge {R}.\nUmwandlung {R} ({R}, wirf diese Karte ab: Ziehe eine Karte.)",
-            "type": "Land",
-            "uuid": "28563b6e-3467-5f05-a70f-bd73e510df71"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684086",
-              "scryfallId": "78793ad2-425b-4b79-bfb4-5050d291adbb"
-            },
-            "language": "Spanish",
-            "multiverseId": 684086,
-            "name": "Cueva olvidada",
-            "text": "La Cueva olvidada entra girada.\n{T}: Agrega {R}.\nCiclo {R}. ({R}, descartar esta carta: Roba una carta.)",
-            "type": "Tierra",
-            "uuid": "8d373438-295c-586e-80f5-d460809e73c4"
-          },
           {
             "identifiers": {
               "multiverseId": "684125",
@@ -2052,9 +2259,27 @@
             "language": "French",
             "multiverseId": 684125,
             "name": "Caverne oubliée",
+            "skuIds": {
+              "nonfoil": "6882fdbe-d00c-5edb-a16b-40bf349505a6"
+            },
             "text": "La Caverne oubliée arrive engagée.\n{T} : Ajoutez {R}.\nRecyclage {R} ({R}, défaussez-vous de cette carte : Piochez une carte.)",
             "type": "Terrain",
             "uuid": "d68793a1-d158-583e-8952-a45eda201c73"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684047",
+              "scryfallId": "99622f47-ae5a-4dc4-a086-f458284f0d2f"
+            },
+            "language": "German",
+            "multiverseId": 684047,
+            "name": "Vergessene Höhle",
+            "skuIds": {
+              "nonfoil": "52224a08-6139-5ea5-a800-9eabf46a43a7"
+            },
+            "text": "Die Vergessene Höhle kommt getappt ins Spiel.\n{T}: Erzeuge {R}.\nUmwandlung {R} ({R}, wirf diese Karte ab: Ziehe eine Karte.)",
+            "type": "Land",
+            "uuid": "28563b6e-3467-5f05-a70f-bd73e510df71"
           },
           {
             "identifiers": {
@@ -2064,6 +2289,9 @@
             "language": "Italian",
             "multiverseId": 684164,
             "name": "Caverna Dimenticata",
+            "skuIds": {
+              "nonfoil": "e8941ec1-e250-5e94-af0f-5c84f67a12c0"
+            },
             "text": "La Caverna Dimenticata entra TAPpata.\n{T}: Aggiungi {R}.\nCiclo {R} ({R}, Scarta questa carta: Pesca una carta.)",
             "type": "Terra",
             "uuid": "3fe9f260-d3f6-5736-b940-0cb590a055e7"
@@ -2076,14 +2304,30 @@
             "language": "Japanese",
             "multiverseId": 684203,
             "name": "忘れられた洞窟",
+            "skuIds": {
+              "nonfoil": "d501d5a2-f0ee-5244-b30e-c1fecf32afb1"
+            },
             "text": "忘れられた洞窟はタップ状態で戦場に出る。\n{T}：{R}を加える。\nサイクリング{R}（{R},このカードを捨てる：カード１枚を引く。）",
             "type": "土地",
             "uuid": "fa07ad23-e8fc-533f-8b91-c41257d1bd91"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684086",
+              "scryfallId": "78793ad2-425b-4b79-bfb4-5050d291adbb"
+            },
+            "language": "Spanish",
+            "multiverseId": 684086,
+            "name": "Cueva olvidada",
+            "skuIds": {
+              "nonfoil": "0da316a4-92ee-5ee3-9ad1-74e82ee1f74c"
+            },
+            "text": "La Cueva olvidada entra girada.\n{T}: Agrega {R}.\nCiclo {R}. ({R}, descartar esta carta: Roba una carta.)",
+            "type": "Tierra",
+            "uuid": "8d373438-295c-586e-80f5-d460809e73c4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306105",
           "cardsphereId": "130652",
@@ -2128,6 +2372,7 @@
         "name": "Forgotten Cave",
         "number": "766",
         "originalText": "Forgotten Cave enters tapped.\n{T}: Add {R}.\nCycling {R} ({R}, Discard this card: Draw a card.)",
+        "originalType": "Land",
         "printings": [
           "40K",
           "BLC",
@@ -2157,6 +2402,9 @@
           "TD0",
           "VMA"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/473ca79508f9da57",
           "cardmarket": "https://mtgjson.com/links/979bc61d1e2aa143",
@@ -2164,9 +2412,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "30b89c80-99c1-5dc8-88fb-8ea82c9cc94f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2194,39 +2447,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2236,9 +2463,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2249,6 +2495,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2262,14 +2511,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2307,10 +2573,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2319,6 +2587,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2326,9 +2601,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2363,36 +2643,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2402,6 +2677,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2413,18 +2691,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2437,7 +2731,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2465,6 +2758,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2538,6 +2832,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2700,15 +2995,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2751,36 +3055,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2790,6 +3089,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2801,18 +3103,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2825,7 +3143,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2853,6 +3170,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2926,6 +3244,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3088,15 +3407,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3139,36 +3467,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3178,6 +3501,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3189,18 +3515,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3213,7 +3555,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3241,6 +3582,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3314,6 +3656,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3476,15 +3819,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3500,8 +3852,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3516,5 +3868,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "ab0aeac5a4d40a"
   }
 }

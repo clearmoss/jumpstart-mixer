@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "385b9486f4e77d"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,39 +22,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 745,
+        "edhrecRank": 802,
         "edhrecSaltiness": 0.42,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Save that one! She looks rich!\"",
         "foreignData": [
-          {
-            "flavorText": "„Rettet die da! Sie sieht aus, als wäre sie reich!\"",
-            "identifiers": {
-              "multiverseId": "684384",
-              "scryfallId": "377f0734-49d7-40a7-864c-dc4ec62128c8"
-            },
-            "language": "German",
-            "multiverseId": 684384,
-            "name": "Krenko, Zinnstraßenboss",
-            "text": "Immer wenn Krenko, Zinnstraßenboss, angreift, lege eine +1/+1-Marke auf ihn und erzeuge dann so viele 1/1 rote Goblin-Kreaturenspielsteine, wie Krenkos Stärke beträgt.",
-            "type": "Legendäre Kreatur — Goblin",
-            "uuid": "ee5bb04b-556e-518e-9fe2-72e0d3fdde1f"
-          },
-          {
-            "flavorText": "\"¡Salven a esa! ¡Parece tener dinero!\".",
-            "identifiers": {
-              "multiverseId": "684491",
-              "scryfallId": "c61c0cce-5752-4fa4-af1f-41b55e020de5"
-            },
-            "language": "Spanish",
-            "multiverseId": 684491,
-            "name": "Krenko, líder de la Calle Hojalata",
-            "text": "Siempre que Krenko, líder de la Calle Hojalata ataque, pon un contador +1/+1 sobre él y luego crea una cantidad de fichas de criatura Trasgo rojas 1/1 igual a la fuerza de Krenko.",
-            "type": "Criatura legendaria — Trasgo",
-            "uuid": "c154ce01-8729-5408-b825-40f83b090415"
-          },
           {
             "flavorText": "« Sauvez celle-là ! Elle a l'air riche ! »",
             "identifiers": {
@@ -69,9 +38,28 @@
             "language": "French",
             "multiverseId": 684598,
             "name": "Krenko, baron de la rue d'étain",
+            "skuIds": {
+              "nonfoil": "27ea6be6-6497-5f17-970e-970f23ae91a6"
+            },
             "text": "À chaque fois que Krenko, baron de la rue d'étain attaque, mettez un marqueur +1/+1 sur lui, puis créez un nombre de jetons de créature 1/1 rouge Gobelin égal à la force de Krenko.",
             "type": "Créature légendaire — gobelin",
             "uuid": "aa521674-5189-5d9c-89c7-3c11b3c38cea"
+          },
+          {
+            "flavorText": "„Rettet die da! Sie sieht aus, als wäre sie reich!\"",
+            "identifiers": {
+              "multiverseId": "684384",
+              "scryfallId": "377f0734-49d7-40a7-864c-dc4ec62128c8"
+            },
+            "language": "German",
+            "multiverseId": 684384,
+            "name": "Krenko, Zinnstraßenboss",
+            "skuIds": {
+              "nonfoil": "d350e97b-3b77-5aca-b9ad-c340e522b187"
+            },
+            "text": "Immer wenn Krenko, Zinnstraßenboss, angreift, lege eine +1/+1-Marke auf ihn und erzeuge dann so viele 1/1 rote Goblin-Kreaturenspielsteine, wie Krenkos Stärke beträgt.",
+            "type": "Legendäre Kreatur — Goblin",
+            "uuid": "ee5bb04b-556e-518e-9fe2-72e0d3fdde1f"
           },
           {
             "flavorText": "\"Risparmiate quella lì! Ha l'aria di essere ricca!\"",
@@ -82,6 +70,9 @@
             "language": "Italian",
             "multiverseId": 684705,
             "name": "Krenko, Boss di Via Latta",
+            "skuIds": {
+              "nonfoil": "d5884d24-39cb-519e-9a8d-cc67a76da3e2"
+            },
             "text": "Ogniqualvolta Krenko, Boss di Via Latta attacca, metti un segnalino +1/+1 su di esso, poi crea un numero di pedine creatura Goblin 1/1 rosse pari alla forza di Krenko.",
             "type": "Creatura Leggendaria — Goblin",
             "uuid": "d1c02d26-77e6-5631-aa80-7bfccf0677fb"
@@ -95,17 +86,34 @@
             "language": "Japanese",
             "multiverseId": 684812,
             "name": "ブリキ通りの重鎮、クレンコ",
+            "skuIds": {
+              "nonfoil": "7a54c73f-33a1-5500-b06b-81407f7f5ee2"
+            },
             "text": "ブリキ通りの重鎮、クレンコが攻撃するたび、これの上に＋１/＋１カウンター１個を置き、その後、これのパワーに等しい数の赤の１/１のゴブリン・クリーチャー・トークンを生成する。",
             "type": "伝説のクリーチャー — ゴブリン",
             "uuid": "ddb82bc8-fd62-5d65-b617-65a277d9ad22"
+          },
+          {
+            "flavorText": "\"¡Salven a esa! ¡Parece tener dinero!\".",
+            "identifiers": {
+              "multiverseId": "684491",
+              "scryfallId": "c61c0cce-5752-4fa4-af1f-41b55e020de5"
+            },
+            "language": "Spanish",
+            "multiverseId": 684491,
+            "name": "Krenko, líder de la Calle Hojalata",
+            "skuIds": {
+              "nonfoil": "8a7fcfe4-bb2f-5363-a9c5-6ca85c38fb67"
+            },
+            "text": "Siempre que Krenko, líder de la Calle Hojalata ataque, pon un contador +1/+1 sobre él y luego crea una cantidad de fichas de criatura Trasgo rojas 1/1 igual a la fuerza de Krenko.",
+            "type": "Criatura legendaria — Trasgo",
+            "uuid": "c154ce01-8729-5408-b825-40f83b090415"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305911",
           "cardsphereId": "131032",
@@ -150,6 +158,7 @@
         "name": "Krenko, Tin Street Kingpin",
         "number": "572",
         "originalText": "Whenever Krenko, Tin Street Kingpin attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power.",
+        "originalType": "Legendary Creature – Goblin",
         "power": "1",
         "printings": [
           "DMC",
@@ -167,6 +176,11 @@
           "tcgplayer": "https://mtgjson.com/links/5f3522cc1a2bee10"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "c1c03878-08f8-5419-a688-6af5f5dce8db"
+          ]
+        },
         "rulings": [
           {
             "date": "2019-05-03",
@@ -179,9 +193,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "515de03f-3021-578e-bf27-a0a4b7a87ac6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -217,39 +236,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 6989,
+        "edhrecRank": 6234,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Hey, your door's broken!\"",
         "foreignData": [
-          {
-            "flavorText": "„Hey, deine Tür ist kaputt!\"",
-            "identifiers": {
-              "multiverseId": "681370",
-              "scryfallId": "8fef2361-6ee1-4afb-8747-38578cb420de"
-            },
-            "language": "German",
-            "multiverseId": 681370,
-            "name": "Goblin-Überraschung",
-            "text": "Bestimme eines —\n• Kreaturen, die du kontrollierst, erhalten +2/+0 bis zum Ende des Zuges.\n• Erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
-            "type": "Spontanzauber",
-            "uuid": "2066717d-c3ef-5b0d-b17b-3e92ec78fb46"
-          },
-          {
-            "flavorText": "\"¡Eh, se te rompió la puerta!\".",
-            "identifiers": {
-              "multiverseId": "681399",
-              "scryfallId": "7200c4cd-4cd2-4f4a-b9c6-1ac0139945d4"
-            },
-            "language": "Spanish",
-            "multiverseId": 681399,
-            "name": "Sorpresa trasga",
-            "text": "Elige uno:\n• Las criaturas que controlas obtienen +2/+0 hasta el final del turno.\n• Crea dos fichas de criatura Trasgo rojas 1/1.",
-            "type": "Instantáneo",
-            "uuid": "9c48f49c-bb3b-5890-91e0-19695a176531"
-          },
           {
             "flavorText": "« Hé, votre porte est cassée ! »",
             "identifiers": {
@@ -259,9 +252,28 @@
             "language": "French",
             "multiverseId": 681428,
             "name": "Surprise gobeline",
+            "skuIds": {
+              "nonfoil": "3aea2703-1d93-5799-8451-b25b5d4781de"
+            },
             "text": "Choisissez l'un —\n• Les créatures que vous contrôlez gagnent +2/+0 jusqu'à la fin du tour.\n• Créez deux jetons de créature 1/1 rouge Gobelin.",
             "type": "Éphémère",
             "uuid": "da3de65e-5a11-5bd1-884e-af2cac67146f"
+          },
+          {
+            "flavorText": "„Hey, deine Tür ist kaputt!\"",
+            "identifiers": {
+              "multiverseId": "681370",
+              "scryfallId": "8fef2361-6ee1-4afb-8747-38578cb420de"
+            },
+            "language": "German",
+            "multiverseId": 681370,
+            "name": "Goblin-Überraschung",
+            "skuIds": {
+              "nonfoil": "23ad9e32-95fc-5cdc-a243-ba3eace95237"
+            },
+            "text": "Bestimme eines —\n• Kreaturen, die du kontrollierst, erhalten +2/+0 bis zum Ende des Zuges.\n• Erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
+            "type": "Spontanzauber",
+            "uuid": "2066717d-c3ef-5b0d-b17b-3e92ec78fb46"
           },
           {
             "flavorText": "\"Ehi, la tua porta è rotta!\"",
@@ -272,6 +284,9 @@
             "language": "Italian",
             "multiverseId": 681457,
             "name": "Sorpresa Goblin",
+            "skuIds": {
+              "nonfoil": "811b2676-7fc6-551f-bc66-ed853205dcb2"
+            },
             "text": "Scegli uno —\n• Le creature che controlli prendono +2/+0 fino alla fine del turno.\n• Crea due pedine creatura Goblin 1/1 rosse.",
             "type": "Istantaneo",
             "uuid": "ef540664-2e8a-5842-8a9c-9acedfa9a917"
@@ -285,14 +300,31 @@
             "language": "Japanese",
             "multiverseId": 681486,
             "name": "ゴブリン奇襲",
+            "skuIds": {
+              "nonfoil": "d5d67667-1e1b-5915-bbdd-3d7cb2139619"
+            },
             "text": "以下から１つを選ぶ。\n・ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋２/＋０の修整を受ける。\n・赤の１/１のゴブリン・クリーチャー・トークン２体を生成する。",
             "type": "インスタント",
             "uuid": "ef9068a0-0000-5ad6-a335-04ce92d1c46a"
+          },
+          {
+            "flavorText": "\"¡Eh, se te rompió la puerta!\".",
+            "identifiers": {
+              "multiverseId": "681399",
+              "scryfallId": "7200c4cd-4cd2-4f4a-b9c6-1ac0139945d4"
+            },
+            "language": "Spanish",
+            "multiverseId": 681399,
+            "name": "Sorpresa trasga",
+            "skuIds": {
+              "nonfoil": "ffe49cd7-e08d-5f78-9aa4-08b6369a3a38"
+            },
+            "text": "Elige uno:\n• Las criaturas que controlas obtienen +2/+0 hasta el final del turno.\n• Crea dos fichas de criatura Trasgo rojas 1/1.",
+            "type": "Instantáneo",
+            "uuid": "9c48f49c-bb3b-5890-91e0-19695a176531"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305150",
           "cardsphereId": "130735",
@@ -311,7 +343,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -338,6 +369,7 @@
         "name": "Goblin Surprise",
         "number": "16",
         "originalText": "Choose one —\n• Creatures you control get +2/+0 until end of turn.\n• Create two 1/1 red Goblin creature tokens.",
+        "originalType": "Instant",
         "printings": [
           "FDN",
           "J25"
@@ -348,10 +380,20 @@
           "tcgplayer": "https://mtgjson.com/links/0e5898d50d9aedae"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "c1c03878-08f8-5419-a688-6af5f5dce8db"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e1bf8968-5078-538b-9ada-293c850e81cd"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -382,39 +424,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3544,
+        "edhrecRank": 2838,
         "edhrecSaltiness": 0.48,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "To cross swords with her is a shockingly bad idea.",
         "foreignData": [
-          {
-            "flavorText": "Die Klingen mit ihr zu kreuzen, ist eine schockierend schlechte Idee.",
-            "identifiers": {
-              "multiverseId": "680975",
-              "scryfallId": "a78fa29e-c977-466d-b0c9-683fe0497b9e"
-            },
-            "language": "German",
-            "multiverseId": 680975,
-            "name": "Generalin Kreat, die Blitzbringerin",
-            "text": "Immer wenn ein oder mehrere Goblins, die du kontrollierst, angreifen, erzeuge einen getappten und angreifenden 1/1 roten Goblin-Kreaturenspielstein.\nImmer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, fügt Generalin Kreat, die Blitzbringerin, jedem Gegner 1 Schadenspunkt zu.",
-            "type": "Legendäre Kreatur — Goblin, Soldat",
-            "uuid": "449fae16-0e50-596e-9d09-5ef7dd6708b6"
-          },
-          {
-            "flavorText": "Quien se enfrente a ella acabará con los pelos de punta.",
-            "identifiers": {
-              "multiverseId": "681002",
-              "scryfallId": "8af1625f-401e-468b-88b1-51aa22d6f480"
-            },
-            "language": "Spanish",
-            "multiverseId": 681002,
-            "name": "General Kreat, la Crearrayos",
-            "text": "Siempre que uno o más Trasgos que controlas ataquen, crea una ficha de criatura Trasgo roja 1/1 que está girada y atacando.\nSiempre que otra criatura que controlas entre, la General Kreat, la Crearrayos hace 1 punto de daño a cada oponente.",
-            "type": "Criatura legendaria — Soldado trasgo",
-            "uuid": "17c643c3-691e-5816-a2ab-03bb3cbf3ee9"
-          },
           {
             "flavorText": "Croiser le fer avec elle n'est pas vraiment une bonne idée.",
             "identifiers": {
@@ -424,9 +440,28 @@
             "language": "French",
             "multiverseId": 681029,
             "name": "Générale Krëat, la porteuse d'éclairs",
+            "skuIds": {
+              "nonfoil": "3b89371e-77ab-50b2-8719-ebdb922ec5fc"
+            },
             "text": "À chaque fois qu'au moins un gobelin que vous contrôlez attaque, créez un jeton de créature 1/1 rouge Gobelin, engagé et attaquant.\nÀ chaque fois qu'une autre créature que vous contrôlez arrive, Générale Kréat, la porteuse d'éclairs inflige 1 blessure à chaque adversaire.",
             "type": "Créature légendaire — gobelin et soldat",
             "uuid": "8a02c39e-4070-5775-b9ca-f560c3df50d7"
+          },
+          {
+            "flavorText": "Die Klingen mit ihr zu kreuzen, ist eine schockierend schlechte Idee.",
+            "identifiers": {
+              "multiverseId": "680975",
+              "scryfallId": "a78fa29e-c977-466d-b0c9-683fe0497b9e"
+            },
+            "language": "German",
+            "multiverseId": 680975,
+            "name": "Generalin Kreat, die Blitzbringerin",
+            "skuIds": {
+              "nonfoil": "8ca8336a-a3d3-5ffa-9e6e-f8ce162baa7e"
+            },
+            "text": "Immer wenn ein oder mehrere Goblins, die du kontrollierst, angreifen, erzeuge einen getappten und angreifenden 1/1 roten Goblin-Kreaturenspielstein.\nImmer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, fügt Generalin Kreat, die Blitzbringerin, jedem Gegner 1 Schadenspunkt zu.",
+            "type": "Legendäre Kreatur — Goblin, Soldat",
+            "uuid": "449fae16-0e50-596e-9d09-5ef7dd6708b6"
           },
           {
             "flavorText": "La sua abilità nell'uso della spada è decisamente folgorante.",
@@ -437,6 +472,9 @@
             "language": "Italian",
             "multiverseId": 681056,
             "name": "Generale Kreat, la Saettifera",
+            "skuIds": {
+              "nonfoil": "dfe1e5f0-6ac8-528a-a3a1-621004363dec"
+            },
             "text": "Ogniqualvolta uno o più Goblin che controlli attaccano, crea una pedina creatura Goblin 1/1 rossa TAPpata e attaccante.\nOgniqualvolta un'altra creatura che controlli entra, Generale Kreat, la Saettifera infligge 1 danno a ogni avversario.",
             "type": "Creatura Leggendaria — Soldato Goblin",
             "uuid": "d4e11593-2cd1-536b-9244-2590b43f28b6"
@@ -450,17 +488,34 @@
             "language": "Japanese",
             "multiverseId": 681083,
             "name": "電光の姫将軍、クレート",
+            "skuIds": {
+              "nonfoil": "605e2d06-065f-598c-8ffd-b5c850fdc0c1"
+            },
             "text": "あなたがコントロールしている１体以上のゴブリンが攻撃するたび、赤の１/１のゴブリン・クリーチャー・トークン１体をタップ状態かつ攻撃している状態で生成する。\nあなたがコントロールしていてこれでないクリーチャー１体が戦場に出るたび、電光の姫将軍、クレートは各対戦相手にそれぞれ１点のダメージを与える。",
             "type": "伝説のクリーチャー — ゴブリン・兵士",
             "uuid": "acb71011-0bb7-5e03-9637-0a46e438ccf2"
+          },
+          {
+            "flavorText": "Quien se enfrente a ella acabará con los pelos de punta.",
+            "identifiers": {
+              "multiverseId": "681002",
+              "scryfallId": "8af1625f-401e-468b-88b1-51aa22d6f480"
+            },
+            "language": "Spanish",
+            "multiverseId": 681002,
+            "name": "General Kreat, la Crearrayos",
+            "skuIds": {
+              "nonfoil": "8597b1e5-a509-5ace-be4e-8183f60680b4"
+            },
+            "text": "Siempre que uno o más Trasgos que controlas ataquen, crea una ficha de criatura Trasgo roja 1/1 que está girada y atacando.\nSiempre que otra criatura que controlas entre, la General Kreat, la Crearrayos hace 1 punto de daño a cada oponente.",
+            "type": "Criatura legendaria — Soldado trasgo",
+            "uuid": "17c643c3-691e-5816-a2ab-03bb3cbf3ee9"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305182",
           "cardsphereId": "130818",
@@ -479,7 +534,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -503,6 +557,7 @@
         "name": "General Kreat, the Boltbringer",
         "number": "48",
         "originalText": "Whenever one or more Goblins you control attack, create a 1/1 red Goblin creature token that's tapped and attacking.\nWhenever another creature you control enters, General Kreat, the Boltbringer deals 1 damage to each opponent.",
+        "originalType": "Legendary Creature – Goblin Soldier",
         "power": "2",
         "printings": [
           "J25"
@@ -513,6 +568,11 @@
           "tcgplayer": "https://mtgjson.com/links/656a1f0b9a8e74a9"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "c1c03878-08f8-5419-a688-6af5f5dce8db"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -528,9 +588,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c42acdf0-ac80-502b-99ed-7220860db72e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -566,39 +631,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 3483,
+        "edhrecRank": 3457,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Great goblin warlords lead vast hordes into battle from atop mighty siege-beasts. Lesser chiefs get a couple of squires and a big bug.",
         "foreignData": [
-          {
-            "flavorText": "Glorreiche Goblin-Fürsten reiten auf dem Rücken mächtiger Belagerungsbestien in die Schlacht. Weniger bedeutende Häuptlinge müssen mit einem großen Käfer Vorlieb nehmen.",
-            "identifiers": {
-              "multiverseId": "681594",
-              "scryfallId": "a59d4def-3024-40e9-9266-f14745ef8b19"
-            },
-            "language": "German",
-            "multiverseId": 681594,
-            "name": "Anführer der Käferreiter",
-            "text": "Wenn der Anführer der Käferreiter ins Spiel kommt, erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
-            "type": "Kreatur — Goblin, Krieger",
-            "uuid": "fc2ba4a8-72ba-5511-89f6-2ff871468593"
-          },
-          {
-            "flavorText": "Los líderes trasgos más importantes dirigen grandes hordas en combate montados en gigantescas bestias de asedio. Los jefes de menor envergadura se contentan con un par de escuderos y un bicho grande.",
-            "identifiers": {
-              "multiverseId": "681655",
-              "scryfallId": "85fb0baa-4275-44bc-9426-2518ab49cebd"
-            },
-            "language": "Spanish",
-            "multiverseId": 681655,
-            "name": "Jefe lomo de escarabajo",
-            "text": "Cuando el Jefe lomo de escarabajo entre, crea dos fichas de criatura Trasgo rojas 1/1.",
-            "type": "Criatura — Guerrero trasgo",
-            "uuid": "0bd08ad3-9ba5-575b-b438-cd91665b4f65"
-          },
           {
             "flavorText": "Les grands seigneurs de guerre gobelins dirigent des hordes au combat, juchés sur de redoutables bêtes de siège. Les chefs moins importants ont droit à quelques écuyers et un gros insecte.",
             "identifiers": {
@@ -608,9 +647,28 @@
             "language": "French",
             "multiverseId": 681716,
             "name": "Chef Scarapace",
+            "skuIds": {
+              "nonfoil": "07867143-1c6b-5517-b290-cdbbe814d48b"
+            },
             "text": "Quand le Chef Scarapace arrive, créez deux jetons de créature 1/1 rouge Gobelin.",
             "type": "Créature — gobelin et guerrier",
             "uuid": "4bd28d7a-7579-5226-9a9f-47d1362ea881"
+          },
+          {
+            "flavorText": "Glorreiche Goblin-Fürsten reiten auf dem Rücken mächtiger Belagerungsbestien in die Schlacht. Weniger bedeutende Häuptlinge müssen mit einem großen Käfer Vorlieb nehmen.",
+            "identifiers": {
+              "multiverseId": "681594",
+              "scryfallId": "a59d4def-3024-40e9-9266-f14745ef8b19"
+            },
+            "language": "German",
+            "multiverseId": 681594,
+            "name": "Anführer der Käferreiter",
+            "skuIds": {
+              "nonfoil": "3480ce1f-21cd-5abc-bd28-99e7aa389027"
+            },
+            "text": "Wenn der Anführer der Käferreiter ins Spiel kommt, erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
+            "type": "Kreatur — Goblin, Krieger",
+            "uuid": "fc2ba4a8-72ba-5511-89f6-2ff871468593"
           },
           {
             "flavorText": "I grandi signori della guerra goblin comandano vaste orde in battaglia dall'alto di possenti bestie da assedio. I capi subordinati si prendono qualche scudiero e un grosso insetto.",
@@ -621,6 +679,9 @@
             "language": "Italian",
             "multiverseId": 681777,
             "name": "Capo Cavalcascarabei",
+            "skuIds": {
+              "nonfoil": "b6f6a2cc-1751-5ab6-a469-9822f975c401"
+            },
             "text": "Quando il Capo Cavalcascarabei entra, crei due pedine creatura Goblin 1/1 rosse.",
             "type": "Creatura — Guerriero Goblin",
             "uuid": "99cddcbb-70d9-5526-b705-4884d975640e"
@@ -634,14 +695,31 @@
             "language": "Japanese",
             "multiverseId": 681838,
             "name": "甲虫背の酋長",
+            "skuIds": {
+              "nonfoil": "e7caed56-41ef-5d17-a7e4-2adf0cd818f8"
+            },
             "text": "甲虫背の酋長が戦場に出たとき、赤の１/１のゴブリン・クリーチャー・トークン２体を生成する。",
             "type": "クリーチャー — ゴブリン・戦士",
             "uuid": "27d79411-5904-5a71-aa98-e89469dc82e1"
+          },
+          {
+            "flavorText": "Los líderes trasgos más importantes dirigen grandes hordas en combate montados en gigantescas bestias de asedio. Los jefes de menor envergadura se contentan con un par de escuderos y un bicho grande.",
+            "identifiers": {
+              "multiverseId": "681655",
+              "scryfallId": "85fb0baa-4275-44bc-9426-2518ab49cebd"
+            },
+            "language": "Spanish",
+            "multiverseId": 681655,
+            "name": "Jefe lomo de escarabajo",
+            "skuIds": {
+              "nonfoil": "610f082a-10e1-5a3c-96fc-1b8723504cc1"
+            },
+            "text": "Cuando el Jefe lomo de escarabajo entre, crea dos fichas de criatura Trasgo rojas 1/1.",
+            "type": "Criatura — Guerrero trasgo",
+            "uuid": "0bd08ad3-9ba5-575b-b438-cd91665b4f65"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305263",
           "cardsphereId": "131001",
@@ -660,7 +738,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -682,6 +759,7 @@
         "name": "Beetleback Chief",
         "number": "129",
         "originalText": "When Beetleback Chief enters, create two 1/1 red Goblin creature tokens.",
+        "originalType": "Creature – Goblin Warrior",
         "power": "2",
         "printings": [
           "C14",
@@ -702,10 +780,20 @@
           "tcgplayer": "https://mtgjson.com/links/bb9fe2eb03231488"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "c1c03878-08f8-5419-a688-6af5f5dce8db"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "70bb3fa2-07b9-598b-a7a8-a651b4f23ac3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -739,38 +827,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 14499,
+        "edhrecRank": 14421,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"No one here but us empty barrels!\"",
         "foreignData": [
-          {
-            "flavorText": "„Hier ist niemand, nur wir leere Fässer!\"",
-            "identifiers": {
-              "multiverseId": "681602",
-              "scryfallId": "c1f8b255-60a6-4e89-b8e6-5a7aa91438c7"
-            },
-            "language": "German",
-            "multiverseId": 681602,
-            "name": "Goblin-Schmuggler",
-            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\n{T}: Eine andere Kreatur deiner Wahl mit Stärke 2 oder weniger kann in diesem Zug nicht geblockt werden.",
-            "type": "Kreatur — Goblin, Räuber",
-            "uuid": "03a6fb0d-8283-5442-a565-6d2b13b5b94a"
-          },
-          {
-            "flavorText": "\"¡Aquí solo hay barriles vacíos, claro que sí!\".",
-            "identifiers": {
-              "multiverseId": "681663",
-              "scryfallId": "32dc2e87-4f7f-4d52-82d8-370757749c12"
-            },
-            "language": "Spanish",
-            "multiverseId": 681663,
-            "name": "Contrabandista trasgo",
-            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\n{T}: Otra criatura objetivo con fuerza de 2 o menos no puede ser bloqueada este turno.",
-            "type": "Criatura — Bribón trasgo",
-            "uuid": "382a135d-9d1f-5dfe-8e7b-39dcac7dd889"
-          },
           {
             "flavorText": "« Y a personne ici, juste des tonneaux vides ! »",
             "identifiers": {
@@ -780,9 +843,28 @@
             "language": "French",
             "multiverseId": 681724,
             "name": "Contrebandier gobelin",
+            "skuIds": {
+              "nonfoil": "b872d1f0-1d81-5a02-a608-5ec0cb499568"
+            },
             "text": "Célérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)\n{T} : Une autre créature ciblée de force inférieure ou égale à 2 ne peut pas être bloquée ce tour-ci.",
             "type": "Créature — gobelin et gredin",
             "uuid": "5afd85b9-379f-5706-94cb-b4889471e2cd"
+          },
+          {
+            "flavorText": "„Hier ist niemand, nur wir leere Fässer!\"",
+            "identifiers": {
+              "multiverseId": "681602",
+              "scryfallId": "c1f8b255-60a6-4e89-b8e6-5a7aa91438c7"
+            },
+            "language": "German",
+            "multiverseId": 681602,
+            "name": "Goblin-Schmuggler",
+            "skuIds": {
+              "nonfoil": "bf74e577-d690-52e2-8b6b-3cd385b31dcb"
+            },
+            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\n{T}: Eine andere Kreatur deiner Wahl mit Stärke 2 oder weniger kann in diesem Zug nicht geblockt werden.",
+            "type": "Kreatur — Goblin, Räuber",
+            "uuid": "03a6fb0d-8283-5442-a565-6d2b13b5b94a"
           },
           {
             "flavorText": "\"Nessuno qui a parte noi svuota i barili!\"",
@@ -793,6 +875,9 @@
             "language": "Italian",
             "multiverseId": 681785,
             "name": "Goblin Contrabbandiere",
+            "skuIds": {
+              "nonfoil": "2390c26d-4d4a-5399-a5e6-78b4c975b8fe"
+            },
             "text": "Rapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)\n{T}: Un'altra creatura bersaglio con forza pari o inferiore a 2 non può essere bloccata in questo turno.",
             "type": "Creatura — Farabutto Goblin",
             "uuid": "0f7dc5e8-03f5-5834-9d8d-b21999b9b2d5"
@@ -806,14 +891,31 @@
             "language": "Japanese",
             "multiverseId": 681846,
             "name": "ゴブリンの密輸人",
+            "skuIds": {
+              "nonfoil": "086fac93-0722-5944-936c-72d97cf802b1"
+            },
             "text": "速攻（このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）\n{T}：パワーが２以下でありこれでないクリーチャー１体を対象とする。このターン、それはブロックされない。",
             "type": "クリーチャー — ゴブリン・ならず者",
             "uuid": "7b5cd555-06e7-5888-9aab-99c1627a13a1"
+          },
+          {
+            "flavorText": "\"¡Aquí solo hay barriles vacíos, claro que sí!\".",
+            "identifiers": {
+              "multiverseId": "681663",
+              "scryfallId": "32dc2e87-4f7f-4d52-82d8-370757749c12"
+            },
+            "language": "Spanish",
+            "multiverseId": 681663,
+            "name": "Contrabandista trasgo",
+            "skuIds": {
+              "nonfoil": "8801aee8-1768-52f4-b02a-10d5c514e3c4"
+            },
+            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\n{T}: Otra criatura objetivo con fuerza de 2 o menos no puede ser bloqueada este turno.",
+            "type": "Criatura — Bribón trasgo",
+            "uuid": "382a135d-9d1f-5dfe-8e7b-39dcac7dd889"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305271",
           "cardsphereId": "131025",
@@ -832,7 +934,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Haste"
         ],
@@ -863,6 +964,7 @@
         "name": "Goblin Smuggler",
         "number": "137",
         "originalText": "Haste (This creature can attack and {T} as soon as it comes under your control.)\n{T}: Another target creature with power 2 or less can't be blocked this turn.",
+        "originalType": "Creature – Goblin Rogue",
         "power": "2",
         "printings": [
           "FDN",
@@ -882,9 +984,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f27335fb-caf9-5b84-89ab-e56c330d8a81"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -918,39 +1025,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 2033,
+        "edhrecRank": 2077,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Krenko's hirelings are unflinchingly loyal.",
         "foreignData": [
-          {
-            "flavorText": "Krenkos Söldlinge sind unbeirrbar loyal.",
-            "identifiers": {
-              "multiverseId": "681605",
-              "scryfallId": "6a087202-c961-48d6-a8bb-eb9b23bc694e"
-            },
-            "language": "German",
-            "multiverseId": 681605,
-            "name": "Krenkos Befehl",
-            "text": "Erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
-            "type": "Hexerei",
-            "uuid": "511be882-d7a5-57e9-8562-8d36f39d7e8d"
-          },
-          {
-            "flavorText": "La lealtad de los mercenarios de Krenko es inquebrantable.",
-            "identifiers": {
-              "multiverseId": "681666",
-              "scryfallId": "aa2c6c62-22dd-4f6a-9068-ec8732596d9a"
-            },
-            "language": "Spanish",
-            "multiverseId": 681666,
-            "name": "Orden de Krenko",
-            "text": "Crea dos fichas de criatura Trasgo rojas 1/1.",
-            "type": "Conjuro",
-            "uuid": "fab5790b-c21f-51eb-94e7-2c692581ff31"
-          },
           {
             "flavorText": "Les sbires de Krenko lui sont loyaux à outrance.",
             "identifiers": {
@@ -960,9 +1041,28 @@
             "language": "French",
             "multiverseId": 681727,
             "name": "Commandement de Krenko",
+            "skuIds": {
+              "nonfoil": "18285422-8bfb-51d2-b64e-0c11662ce8f3"
+            },
             "text": "Créez deux jetons de créature 1/1 rouge Gobelin.",
             "type": "Rituel",
             "uuid": "f9cb7bc4-0e30-5f0d-8249-76ec67dd8ca9"
+          },
+          {
+            "flavorText": "Krenkos Söldlinge sind unbeirrbar loyal.",
+            "identifiers": {
+              "multiverseId": "681605",
+              "scryfallId": "6a087202-c961-48d6-a8bb-eb9b23bc694e"
+            },
+            "language": "German",
+            "multiverseId": 681605,
+            "name": "Krenkos Befehl",
+            "skuIds": {
+              "nonfoil": "8e30deff-0e1c-5093-a292-9b3a5aa762ed"
+            },
+            "text": "Erzeuge zwei 1/1 rote Goblin-Kreaturenspielsteine.",
+            "type": "Hexerei",
+            "uuid": "511be882-d7a5-57e9-8562-8d36f39d7e8d"
           },
           {
             "flavorText": "I tirapiedi di Krenko sono irremovibilmente fedeli.",
@@ -973,6 +1073,9 @@
             "language": "Italian",
             "multiverseId": 681788,
             "name": "Ordini di Krenko",
+            "skuIds": {
+              "nonfoil": "bbfdeaa7-bb4b-511d-8948-6f6f63e62fe7"
+            },
             "text": "Crea due pedine creatura Goblin 1/1 rosse.",
             "type": "Stregoneria",
             "uuid": "03eb9c3a-cafc-57fd-9afc-fd8e17e00047"
@@ -986,14 +1089,31 @@
             "language": "Japanese",
             "multiverseId": 681849,
             "name": "クレンコの命令",
+            "skuIds": {
+              "nonfoil": "93069440-70af-53a1-a58a-c52c277205c1"
+            },
             "text": "赤の１/１のゴブリン・クリーチャー・トークン２体を生成する。",
             "type": "ソーサリー",
             "uuid": "1b99add0-2518-5372-8495-de9fcde96241"
+          },
+          {
+            "flavorText": "La lealtad de los mercenarios de Krenko es inquebrantable.",
+            "identifiers": {
+              "multiverseId": "681666",
+              "scryfallId": "aa2c6c62-22dd-4f6a-9068-ec8732596d9a"
+            },
+            "language": "Spanish",
+            "multiverseId": 681666,
+            "name": "Orden de Krenko",
+            "skuIds": {
+              "nonfoil": "a3f132f4-8764-50a1-ba12-2ee2f50410af"
+            },
+            "text": "Crea dos fichas de criatura Trasgo rojas 1/1.",
+            "type": "Conjuro",
+            "uuid": "fab5790b-c21f-51eb-94e7-2c692581ff31"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305274",
           "cardsphereId": "131031",
@@ -1012,7 +1132,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -1034,6 +1153,7 @@
         "name": "Krenko's Command",
         "number": "140",
         "originalText": "Create two 1/1 red Goblin creature tokens.",
+        "originalType": "Sorcery",
         "printings": [
           "CLU",
           "DDN",
@@ -1050,10 +1170,20 @@
           "tcgplayer": "https://mtgjson.com/links/ff9099aef490d476"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "c1c03878-08f8-5419-a688-6af5f5dce8db"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6ad73e67-493d-5a8f-9be5-bef413085b56"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1083,39 +1213,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 7912,
+        "edhrecRank": 7908,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "They didn't fire in unison, nor in the same direction. Most didn't even use arrows. Somehow it worked perfectly.",
         "foreignData": [
-          {
-            "flavorText": "Sie feuerten weder gleichzeitig, noch in dieselbe Richtung. Die meisten von ihnen schossen nicht einmal mit Pfeilen. Und doch funktionierte es irgendwie perfekt.",
-            "identifiers": {
-              "multiverseId": "681607",
-              "scryfallId": "21534db0-145c-45ab-8c18-5f6a45584263"
-            },
-            "language": "German",
-            "multiverseId": 681607,
-            "name": "Pfeilhagelveteran",
-            "text": "Wenn der Pfeilhagelveteran ins Spiel kommt, fügt er einer Kreatur deiner Wahl, die ein Gegner kontrolliert, so viele Schadenspunkte zu, wie du Goblins kontrollierst.",
-            "type": "Kreatur — Goblin, Krieger",
-            "uuid": "c5063581-caee-508f-b962-5aa675702332"
-          },
-          {
-            "flavorText": "No disparaban a la vez ni en la misma dirección. De hecho, la mayoría ni siquiera lanzaba flechas. De alguna manera, funcionó a la perfección.",
-            "identifiers": {
-              "multiverseId": "681668",
-              "scryfallId": "0b39d0ad-e933-47d3-9501-6b790cbbf1c1"
-            },
-            "language": "Spanish",
-            "multiverseId": 681668,
-            "name": "Veterano de salvas",
-            "text": "Cuando el Veterano de salvas entre, hace una cantidad de daño a la criatura objetivo que controla un oponente igual a la cantidad de Trasgos que controlas.",
-            "type": "Criatura — Guerrero trasgo",
-            "uuid": "f60895cd-eecc-5aca-a26d-f1b52be33298"
-          },
           {
             "flavorText": "Ils ne tiraient ni à l'unisson, ni dans la même direction. La plupart d'entre eux n'utilisaient même pas de flèches. Et pourtant, cela fonctionna à la perfection.",
             "identifiers": {
@@ -1125,9 +1229,28 @@
             "language": "French",
             "multiverseId": 681729,
             "name": "Vétéran de la volée",
+            "skuIds": {
+              "nonfoil": "b0f65cdf-c8c0-5b48-9de8-080e373e9dae"
+            },
             "text": "Quand le Vétéran de la volée arrive, il inflige à une créature ciblée qu'un adversaire contrôle un nombre de blessures égal au nombre de gobelins que vous contrôlez.",
             "type": "Créature — gobelin et guerrier",
             "uuid": "978f4529-bae3-5963-b7f4-f4abe47ee0af"
+          },
+          {
+            "flavorText": "Sie feuerten weder gleichzeitig, noch in dieselbe Richtung. Die meisten von ihnen schossen nicht einmal mit Pfeilen. Und doch funktionierte es irgendwie perfekt.",
+            "identifiers": {
+              "multiverseId": "681607",
+              "scryfallId": "21534db0-145c-45ab-8c18-5f6a45584263"
+            },
+            "language": "German",
+            "multiverseId": 681607,
+            "name": "Pfeilhagelveteran",
+            "skuIds": {
+              "nonfoil": "d7b2b6cb-6992-5409-b999-868499260d6b"
+            },
+            "text": "Wenn der Pfeilhagelveteran ins Spiel kommt, fügt er einer Kreatur deiner Wahl, die ein Gegner kontrolliert, so viele Schadenspunkte zu, wie du Goblins kontrollierst.",
+            "type": "Kreatur — Goblin, Krieger",
+            "uuid": "c5063581-caee-508f-b962-5aa675702332"
           },
           {
             "flavorText": "Non tirarono all'unisono, né nella stessa direzione. La maggior parte non utilizzò neanche le frecce. In qualche modo, funzionò alla perfezione.",
@@ -1138,6 +1261,9 @@
             "language": "Italian",
             "multiverseId": 681790,
             "name": "Veterano delle Raffiche",
+            "skuIds": {
+              "nonfoil": "4e7e0cb6-ee13-5ae8-8872-34042bdd71d1"
+            },
             "text": "Quando il Veterano delle Raffiche entra, infligge danno pari al numero di Goblin che controlli a una creatura bersaglio controllata da un avversario.",
             "type": "Creatura — Guerriero Goblin",
             "uuid": "d64a7858-0928-5f96-b9cf-4e71996039f0"
@@ -1151,14 +1277,31 @@
             "language": "Japanese",
             "multiverseId": 681851,
             "name": "斉射の古参兵",
+            "skuIds": {
+              "nonfoil": "31d7f9c7-f1f5-5e90-a44b-bccdd1cd7eba"
+            },
             "text": "斉射の古参兵が戦場に出たとき、対戦相手がコントロールしているクリーチャー１体を対象とする。これはそれに、あなたがコントロールしているゴブリンの数に等しい点数のダメージを与える。",
             "type": "クリーチャー — ゴブリン・戦士",
             "uuid": "dea003dc-fc87-54fe-b4b8-2e2eecc7263e"
+          },
+          {
+            "flavorText": "No disparaban a la vez ni en la misma dirección. De hecho, la mayoría ni siquiera lanzaba flechas. De alguna manera, funcionó a la perfección.",
+            "identifiers": {
+              "multiverseId": "681668",
+              "scryfallId": "0b39d0ad-e933-47d3-9501-6b790cbbf1c1"
+            },
+            "language": "Spanish",
+            "multiverseId": 681668,
+            "name": "Veterano de salvas",
+            "skuIds": {
+              "nonfoil": "9a2efebc-1111-51e4-903e-3dc2f8655160"
+            },
+            "text": "Cuando el Veterano de salvas entre, hace una cantidad de daño a la criatura objetivo que controla un oponente igual a la cantidad de Trasgos que controlas.",
+            "type": "Criatura — Guerrero trasgo",
+            "uuid": "f60895cd-eecc-5aca-a26d-f1b52be33298"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305276",
           "cardsphereId": "131038",
@@ -1177,7 +1320,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -1202,6 +1344,7 @@
         "name": "Volley Veteran",
         "number": "142",
         "originalText": "When Volley Veteran enters, it deals damage to target creature an opponent controls equal to the number of Goblins you control.",
+        "originalType": "Creature – Goblin Warrior",
         "power": "4",
         "printings": [
           "FDN",
@@ -1223,9 +1366,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "54a7b8de-0db4-5a7e-adb4-8e9eaa268ccd"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1259,38 +1407,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 15402,
+        "edhrecRank": 15845,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Why are we following the goblin? Can he even read that map?\"\n—Daphne Vail, *Diremore* first mate",
         "foreignData": [
-          {
-            "flavorText": "„Warum folgen wir eigentlich dem Goblin? Kann er überhaupt Karten lesen?\"\n—Daphne Vail, erste Maatin der Schreckensbringer",
-            "identifiers": {
-              "multiverseId": "684372",
-              "scryfallId": "bdb458a9-6c9a-4f52-9950-b6f359581b5a"
-            },
-            "language": "German",
-            "multiverseId": 684372,
-            "name": "Goblin-Pionier",
-            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)",
-            "type": "Kreatur — Goblin, Pirat",
-            "uuid": "48b4dc3b-41eb-5a47-bdab-d3c1b64b44e3"
-          },
-          {
-            "flavorText": "\"¿Por qué estamos siguiendo al trasgo? ¿Sabe siquiera leer ese mapa?\".\n—Daphne Vail, contramaestre del Arrasador",
-            "identifiers": {
-              "multiverseId": "684479",
-              "scryfallId": "df4f4a71-dbf9-4ab7-aa5a-01ed2a23874c"
-            },
-            "language": "Spanish",
-            "multiverseId": 684479,
-            "name": "Trasgo pionero",
-            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)",
-            "type": "Criatura — Pirata trasgo",
-            "uuid": "ca5d5412-2359-59b2-aefc-821616024d6d"
-          },
           {
             "flavorText": "« Pourquoi suivons-nous ce gobelin ? Sait-il seulement lire une carte ? »\n—Daphné Vail, second de L'Inexorable",
             "identifiers": {
@@ -1300,9 +1423,28 @@
             "language": "French",
             "multiverseId": 684586,
             "name": "Pionnier gobelin",
+            "skuIds": {
+              "nonfoil": "1f6ec22e-baaa-51b3-83b0-d1da21e0909d"
+            },
             "text": "Menace (Cette créature ne peut pas être bloquée excepté par deux créatures ou plus.)",
             "type": "Créature — gobelin et pirate",
             "uuid": "f44409c7-66f6-5232-87fe-f14591f2c569"
+          },
+          {
+            "flavorText": "„Warum folgen wir eigentlich dem Goblin? Kann er überhaupt Karten lesen?\"\n—Daphne Vail, erste Maatin der Schreckensbringer",
+            "identifiers": {
+              "multiverseId": "684372",
+              "scryfallId": "bdb458a9-6c9a-4f52-9950-b6f359581b5a"
+            },
+            "language": "German",
+            "multiverseId": 684372,
+            "name": "Goblin-Pionier",
+            "skuIds": {
+              "nonfoil": "458b002e-b238-5d33-9797-23d794c0973b"
+            },
+            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)",
+            "type": "Kreatur — Goblin, Pirat",
+            "uuid": "48b4dc3b-41eb-5a47-bdab-d3c1b64b44e3"
           },
           {
             "flavorText": "\"Perché seguiamo il goblin? Sa almeno leggere la mappa?\"\n—Daphne Vail, primo ufficiale della Funesta II",
@@ -1313,6 +1455,9 @@
             "language": "Italian",
             "multiverseId": 684693,
             "name": "Goblin Scopripista",
+            "skuIds": {
+              "nonfoil": "089010fa-8eab-5b62-94ef-524981123e49"
+            },
             "text": "Minacciare (Questa creatura non può essere bloccata tranne che da due o più creature.)",
             "type": "Creatura — Pirata Goblin",
             "uuid": "43120806-6082-54d8-bee8-f41f8b2b7c80"
@@ -1326,14 +1471,31 @@
             "language": "Japanese",
             "multiverseId": 684800,
             "name": "ゴブリンの先駆者",
+            "skuIds": {
+              "nonfoil": "3b080745-78a1-5155-ad1f-6439cd461882"
+            },
             "text": "威迫（このクリーチャーは２体以上のクリーチャーにしかブロックされない。）",
             "type": "クリーチャー — ゴブリン・海賊",
             "uuid": "75ed3c38-ab86-5d9b-ac7e-95abd7fdd782"
+          },
+          {
+            "flavorText": "\"¿Por qué estamos siguiendo al trasgo? ¿Sabe siquiera leer ese mapa?\".\n—Daphne Vail, contramaestre del Arrasador",
+            "identifiers": {
+              "multiverseId": "684479",
+              "scryfallId": "df4f4a71-dbf9-4ab7-aa5a-01ed2a23874c"
+            },
+            "language": "Spanish",
+            "multiverseId": 684479,
+            "name": "Trasgo pionero",
+            "skuIds": {
+              "nonfoil": "f4af7795-c283-5f40-9f9a-1539688dbd0d"
+            },
+            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)",
+            "type": "Criatura — Pirata trasgo",
+            "uuid": "ca5d5412-2359-59b2-aefc-821616024d6d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305899",
           "cardsphereId": "131053",
@@ -1377,6 +1539,7 @@
         "name": "Goblin Trailblazer",
         "number": "560",
         "originalText": "Menace (This creature can't be blocked except by two or more creatures.)",
+        "originalType": "Creature – Goblin Pirate",
         "power": "2",
         "printings": [
           "CMR",
@@ -1392,9 +1555,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b3c847c0-7c62-53e6-a42a-3b29c981db97"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1428,38 +1596,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 22262,
+        "edhrecRank": 22553,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Some khenra archers fashion their arrows with a personal touch.",
         "foreignData": [
-          {
-            "flavorText": "Die Khenra geben jedem ihrer Geschosse eine persönliche Note.",
-            "identifiers": {
-              "multiverseId": "684395",
-              "scryfallId": "7c67205a-0502-489d-a39b-92131003a819"
-            },
-            "language": "German",
-            "multiverseId": 684395,
-            "name": "Feuer eröffnen",
-            "text": "Feuer eröffnen fügt einem Ziel deiner Wahl 3 Schadenspunkte zu.",
-            "type": "Spontanzauber",
-            "uuid": "0ec9795f-fc46-5cf7-8f51-2dffbd1cb6a8"
-          },
-          {
-            "flavorText": "Algunos arqueros khenra elaboran sus flechas dándoles un toque personal.",
-            "identifiers": {
-              "multiverseId": "684502",
-              "scryfallId": "f3b2344d-efcc-4765-9aa6-80a94fe73acc"
-            },
-            "language": "Spanish",
-            "multiverseId": 684502,
-            "name": "Abrir fuego",
-            "text": "Abrir fuego hace 3 puntos de daño a cualquier objetivo.",
-            "type": "Instantáneo",
-            "uuid": "97efaccc-3dcb-5727-97ea-d68ca6a3ea62"
-          },
           {
             "flavorText": "Certains archers khenra personnalisent leurs flèches.",
             "identifiers": {
@@ -1469,9 +1612,28 @@
             "language": "French",
             "multiverseId": 684609,
             "name": "Ouvrir le feu",
+            "skuIds": {
+              "nonfoil": "189bdd93-4d1b-59c5-9e4e-3156d3876e11"
+            },
             "text": "Ouvrir le feu inflige 3 blessures à n'importe quelle cible.",
             "type": "Éphémère",
             "uuid": "c22bc43c-3c92-5b76-b251-826829590753"
+          },
+          {
+            "flavorText": "Die Khenra geben jedem ihrer Geschosse eine persönliche Note.",
+            "identifiers": {
+              "multiverseId": "684395",
+              "scryfallId": "7c67205a-0502-489d-a39b-92131003a819"
+            },
+            "language": "German",
+            "multiverseId": 684395,
+            "name": "Feuer eröffnen",
+            "skuIds": {
+              "nonfoil": "9a25eb51-5f32-54dd-80d0-01d983473fbe"
+            },
+            "text": "Feuer eröffnen fügt einem Ziel deiner Wahl 3 Schadenspunkte zu.",
+            "type": "Spontanzauber",
+            "uuid": "0ec9795f-fc46-5cf7-8f51-2dffbd1cb6a8"
           },
           {
             "flavorText": "Alcuni arcieri khenra costruiscono le proprie frecce con un tocco personale.",
@@ -1482,6 +1644,9 @@
             "language": "Italian",
             "multiverseId": 684716,
             "name": "Aprire il Fuoco",
+            "skuIds": {
+              "nonfoil": "79a0dbcc-f4f4-564b-b048-3fb909366936"
+            },
             "text": "Aprire il Fuoco infligge 3 danni a un qualsiasi bersaglio.",
             "type": "Istantaneo",
             "uuid": "04e8bb76-4386-5bd2-abbb-44895103daba"
@@ -1495,14 +1660,31 @@
             "language": "Japanese",
             "multiverseId": 684823,
             "name": "発射",
+            "skuIds": {
+              "nonfoil": "bac8b41d-03ea-5e46-8d83-9379a39d536c"
+            },
             "text": "１つを対象とする。発射はそれに３点のダメージを与える。",
             "type": "インスタント",
             "uuid": "1b81e6f6-0988-5455-890e-c3348d8df744"
+          },
+          {
+            "flavorText": "Algunos arqueros khenra elaboran sus flechas dándoles un toque personal.",
+            "identifiers": {
+              "multiverseId": "684502",
+              "scryfallId": "f3b2344d-efcc-4765-9aa6-80a94fe73acc"
+            },
+            "language": "Spanish",
+            "multiverseId": 684502,
+            "name": "Abrir fuego",
+            "skuIds": {
+              "nonfoil": "ba1047ad-3156-504b-8f4b-ce53ccf90e19"
+            },
+            "text": "Abrir fuego hace 3 puntos de daño a cualquier objetivo.",
+            "type": "Instantáneo",
+            "uuid": "97efaccc-3dcb-5727-97ea-d68ca6a3ea62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305922",
           "cardsphereId": "131015",
@@ -1544,6 +1726,7 @@
         "name": "Open Fire",
         "number": "583",
         "originalText": "Open Fire deals 3 damage to any target.",
+        "originalType": "Instant",
         "printings": [
           "AKR",
           "HOU",
@@ -1556,9 +1739,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f83efed4-062f-5d7f-9975-c75400bdb4aa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1588,23 +1776,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18251,
+        "edhrecRank": 18887,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684408",
-              "scryfallId": "588500d7-04ad-4fc6-8976-b407f8940fe9"
-            },
-            "language": "German",
-            "multiverseId": 684408,
-            "name": "Erbeutete Klinge",
-            "text": "Wenn die Erbeutete Klinge ins Spiel kommt, lege sie an eine Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +2/+0.\nAusrüsten {2}{R} ({2}{R}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung",
-            "uuid": "700dc54a-ad76-5524-b98f-03c983ddeaa6"
-          },
           {
             "identifiers": {
               "multiverseId": "684622",
@@ -1613,9 +1790,27 @@
             "language": "French",
             "multiverseId": 684622,
             "name": "Lame récupérée",
+            "skuIds": {
+              "nonfoil": "f87e6906-d47d-5509-a192-677684674469"
+            },
             "text": "Quand la Lame récupérée arrive, attachez-la à une créature ciblée que vous contrôlez.\nLa créature équipée gagne +2/+0.\nÉquipement {2}{R} ({2}{R} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
             "type": "Artefact — équipement",
             "uuid": "2c519376-57d9-5451-961e-fd856fc8a16d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684408",
+              "scryfallId": "588500d7-04ad-4fc6-8976-b407f8940fe9"
+            },
+            "language": "German",
+            "multiverseId": 684408,
+            "name": "Erbeutete Klinge",
+            "skuIds": {
+              "nonfoil": "f927ef79-7ebe-5ba9-a373-0c66206e6fd5"
+            },
+            "text": "Wenn die Erbeutete Klinge ins Spiel kommt, lege sie an eine Kreatur deiner Wahl an, die du kontrollierst.\nDie ausgerüstete Kreatur erhält +2/+0.\nAusrüsten {2}{R} ({2}{R}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "700dc54a-ad76-5524-b98f-03c983ddeaa6"
           },
           {
             "identifiers": {
@@ -1625,6 +1820,9 @@
             "language": "Italian",
             "multiverseId": 684729,
             "name": "Lama Sottratta",
+            "skuIds": {
+              "nonfoil": "010427b9-ed2c-5b3f-a4b6-14e0a5c86db4"
+            },
             "text": "Quando la Lama Sottratta entra, assegnala a una creatura bersaglio che controlli.\nLa creatura equipaggiata prende +2/+0.\nEquipaggiare {2}{R} ({2}{R}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
             "type": "Artefatto — Equipaggiamento",
             "uuid": "45bfea89-0639-5329-ad75-3a28c71fc0df"
@@ -1637,14 +1835,15 @@
             "language": "Japanese",
             "multiverseId": 684836,
             "name": "拾った刃",
+            "skuIds": {
+              "nonfoil": "336fb454-e5f1-598e-b4bc-a44b47f3db3c"
+            },
             "text": "拾った刃が戦場に出たとき、あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。\n装備しているクリーチャーは＋２/＋０の修整を受ける。\n装備{2}{R}（{2}{R}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
             "type": "アーティファクト — 装備品",
             "uuid": "ab4e1a1c-e597-5e00-b496-e56bbaff76da"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305935",
           "cardsphereId": "130994",
@@ -1689,6 +1888,7 @@
         "name": "Scavenged Blade",
         "number": "596",
         "originalText": "When Scavenged Blade enters, attach it to target creature you control.\nEquipped creature gets +2/+0.\nEquip {2}{R} ({2}{R}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "J25",
           "ZNR"
@@ -1710,9 +1910,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f5b5b69a-8cc5-50bf-a511-dd51f80711d7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1744,39 +1949,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 2278,
+        "edhrecRank": 2256,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The beauty of it is they never see it coming. Ever.\"\n—Razzix, sparkmage",
         "foreignData": [
-          {
-            "flavorText": "„Das Schöne daran ist, dass sie ihn nie kommen sehen. Niemals.\"\n—Razzix, Funkenmagier",
-            "identifiers": {
-              "multiverseId": "684410",
-              "scryfallId": "fe7576f3-742d-4fe2-a07d-6933f4672a86"
-            },
-            "language": "German",
-            "multiverseId": 684410,
-            "name": "Schock",
-            "text": "Der Schock fügt einem Ziel deiner Wahl 2 Schadenspunkte zu.",
-            "type": "Spontanzauber",
-            "uuid": "58f6c68a-aa08-582d-acc1-0249786a5a1a"
-          },
-          {
-            "flavorText": "\"Lo hermoso que tiene es que nunca lo ven venir. Nunca\".\n—Rázzix, magochispa",
-            "identifiers": {
-              "multiverseId": "684517",
-              "scryfallId": "01d8650e-d191-4c5f-b088-bf6147306ec0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684517,
-            "name": "Choque",
-            "text": "El Choque hace 2 puntos de daño a cualquier objetivo.",
-            "type": "Instantáneo",
-            "uuid": "6b6ef1f1-d84f-5c5c-9226-b251ef6b82ae"
-          },
           {
             "flavorText": "« Le plus beau, c'est qu'ils ne le voient jamais venir. Jamais. »\n—Razzix, étincemage",
             "identifiers": {
@@ -1786,9 +1965,28 @@
             "language": "French",
             "multiverseId": 684624,
             "name": "Choc",
+            "skuIds": {
+              "nonfoil": "7b488f60-3299-58cd-9bd6-475b475608ed"
+            },
             "text": "Le Choc inflige 2 blessures à n'importe quelle cible.",
             "type": "Éphémère",
             "uuid": "36538706-f474-5ec6-a83c-eacc4ff8ce5f"
+          },
+          {
+            "flavorText": "„Das Schöne daran ist, dass sie ihn nie kommen sehen. Niemals.\"\n—Razzix, Funkenmagier",
+            "identifiers": {
+              "multiverseId": "684410",
+              "scryfallId": "fe7576f3-742d-4fe2-a07d-6933f4672a86"
+            },
+            "language": "German",
+            "multiverseId": 684410,
+            "name": "Schock",
+            "skuIds": {
+              "nonfoil": "0589dffb-d2d6-5f13-b0e5-8876dc0ddc09"
+            },
+            "text": "Der Schock fügt einem Ziel deiner Wahl 2 Schadenspunkte zu.",
+            "type": "Spontanzauber",
+            "uuid": "58f6c68a-aa08-582d-acc1-0249786a5a1a"
           },
           {
             "flavorText": "\"La cosa bella è che non se lo aspettano. Mai.\"\n—Razzix, magoscintilla",
@@ -1799,6 +1997,9 @@
             "language": "Italian",
             "multiverseId": 684731,
             "name": "Shock",
+            "skuIds": {
+              "nonfoil": "2a228fc7-1a4c-555d-be69-f076c89b834d"
+            },
             "text": "Lo Shock infligge 2 danni a un qualsiasi bersaglio.",
             "type": "Istantaneo",
             "uuid": "3f426756-6f74-5744-85dd-15d6e20bfd10"
@@ -1812,14 +2013,31 @@
             "language": "Japanese",
             "multiverseId": 684838,
             "name": "ショック",
+            "skuIds": {
+              "nonfoil": "830e5f73-3054-57ee-835c-76dc658075f0"
+            },
             "text": "１つを対象とする。ショックはそれに２点のダメージを与える。",
             "type": "インスタント",
             "uuid": "79c0d82e-3db1-5eba-9535-8cb3049d8636"
+          },
+          {
+            "flavorText": "\"Lo hermoso que tiene es que nunca lo ven venir. Nunca\".\n—Rázzix, magochispa",
+            "identifiers": {
+              "multiverseId": "684517",
+              "scryfallId": "01d8650e-d191-4c5f-b088-bf6147306ec0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684517,
+            "name": "Choque",
+            "skuIds": {
+              "nonfoil": "51debc38-e14c-5d2e-b94d-6e1659924294"
+            },
+            "text": "El Choque hace 2 puntos de daño a cualquier objetivo.",
+            "type": "Instantáneo",
+            "uuid": "6b6ef1f1-d84f-5c5c-9226-b251ef6b82ae"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305937",
           "cardsphereId": "130992",
@@ -1867,6 +2085,7 @@
         "name": "Shock",
         "number": "598",
         "originalText": "Shock deals 2 damage to any target.",
+        "originalType": "Instant",
         "printings": [
           "10E",
           "6ED",
@@ -1909,9 +2128,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a7a92ccf-ba32-5642-a0b7-47b99010d641"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1941,39 +2165,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 19237,
+        "edhrecRank": 19775,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I would rather cast myself into the abyss than let my blood stain the cap of those monsters.\"\n—Syr Alin, the Lion's Claw",
         "foreignData": [
-          {
-            "flavorText": "„Ich würde mich lieber in den Abgrund stürzen als zuzulassen, dass mein Blut die Kappen dieser Monster färbt.\"\n—Syr Alin Löwenpranke",
-            "identifiers": {
-              "multiverseId": "684426",
-              "scryfallId": "a84b8d19-9fdb-445b-b16d-6f8c8470b6a1"
-            },
-            "language": "German",
-            "multiverseId": 684426,
-            "name": "Wieselreiter-Blutkappe",
-            "text": "{1}{R}: Die Wieselreiter-Blutkappe erhält +2/+0 bis zum Ende des Zuges.",
-            "type": "Kreatur — Goblin, Ritter",
-            "uuid": "d66464b1-5333-5fbe-827b-6c7c4d650c3b"
-          },
-          {
-            "flavorText": "\"Antes me lanzaría al abismo que permitir que mi sangre empape el gorro de esos monstruos\".\n—Syr Alin, la Garra del León",
-            "identifiers": {
-              "multiverseId": "684533",
-              "scryfallId": "26a4d02b-6aef-483a-8a2d-4c00809b2030"
-            },
-            "language": "Spanish",
-            "multiverseId": 684533,
-            "name": "Gorro rojo comadrejero",
-            "text": "{1}{R}: El Gorro rojo comadrejero obtiene +2/+0 hasta el final del turno.",
-            "type": "Criatura — Caballero trasgo",
-            "uuid": "367088a1-729d-5850-8950-460431fb1689"
-          },
           {
             "flavorText": "« Je préfère me précipiter dans l'abysse que laisser mon sang colorer le bonnet de ces monstres. »\n—Syr Alin, la Griffe du Lion",
             "identifiers": {
@@ -1983,9 +2181,28 @@
             "language": "French",
             "multiverseId": 684640,
             "name": "Bonnet-rouge à dos de belette",
+            "skuIds": {
+              "nonfoil": "104de44c-6ab9-57ad-9ea1-884509aa909b"
+            },
             "text": "{1}{R} : Le Bonnet-rouge à dos de belette gagne +2/+0 jusqu'à la fin du tour.",
             "type": "Créature — gobelin et chevalier",
             "uuid": "932372c4-2cbc-5dc7-9681-2e6ca895b635"
+          },
+          {
+            "flavorText": "„Ich würde mich lieber in den Abgrund stürzen als zuzulassen, dass mein Blut die Kappen dieser Monster färbt.\"\n—Syr Alin Löwenpranke",
+            "identifiers": {
+              "multiverseId": "684426",
+              "scryfallId": "a84b8d19-9fdb-445b-b16d-6f8c8470b6a1"
+            },
+            "language": "German",
+            "multiverseId": 684426,
+            "name": "Wieselreiter-Blutkappe",
+            "skuIds": {
+              "nonfoil": "bfbc676b-49ba-5df6-83dc-64e925640ac9"
+            },
+            "text": "{1}{R}: Die Wieselreiter-Blutkappe erhält +2/+0 bis zum Ende des Zuges.",
+            "type": "Kreatur — Goblin, Ritter",
+            "uuid": "d66464b1-5333-5fbe-827b-6c7c4d650c3b"
           },
           {
             "flavorText": "\"Preferirei gettarmi nell'abisso anziché lasciare che il mio sangue tinga il berretto di quei mostri.\"\n—Syr Alin, l'Artiglio del Leone",
@@ -1996,6 +2213,9 @@
             "language": "Italian",
             "multiverseId": 684747,
             "name": "Berretto Rosso Cavalcadonnole",
+            "skuIds": {
+              "nonfoil": "5e527878-dcb6-5b93-a715-f59c3268b887"
+            },
             "text": "{1}{R}: Il Berretto Rosso Cavalcadonnole prende +2/+0 fino alla fine del turno.",
             "type": "Creatura — Cavaliere Goblin",
             "uuid": "70efd30b-7d47-54d4-a4d5-af51f352762f"
@@ -2009,14 +2229,31 @@
             "language": "Japanese",
             "multiverseId": 684854,
             "name": "イタチ乗りのレッドキャップ",
+            "skuIds": {
+              "nonfoil": "90dd7a88-8efd-5b9a-8eaa-b77647cec198"
+            },
             "text": "{1}{R}：ターン終了時まで、イタチ乗りのレッドキャップは＋２/＋０の修整を受ける。",
             "type": "クリーチャー — ゴブリン・騎士",
             "uuid": "0cad9d7d-a606-535c-9086-eecaffe9b5f6"
+          },
+          {
+            "flavorText": "\"Antes me lanzaría al abismo que permitir que mi sangre empape el gorro de esos monstruos\".\n—Syr Alin, la Garra del León",
+            "identifiers": {
+              "multiverseId": "684533",
+              "scryfallId": "26a4d02b-6aef-483a-8a2d-4c00809b2030"
+            },
+            "language": "Spanish",
+            "multiverseId": 684533,
+            "name": "Gorro rojo comadrejero",
+            "skuIds": {
+              "nonfoil": "0a7611fe-aeb0-5e54-bbb1-d4fc3e59b0ab"
+            },
+            "text": "{1}{R}: El Gorro rojo comadrejero obtiene +2/+0 hasta el final del turno.",
+            "type": "Criatura — Caballero trasgo",
+            "uuid": "367088a1-729d-5850-8950-460431fb1689"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305953",
           "cardsphereId": "130971",
@@ -2048,6 +2285,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -2057,6 +2295,7 @@
         "name": "Weaselback Redcap",
         "number": "614",
         "originalText": "{1}{R}: Weaselback Redcap gets +2/+0 until end of turn.",
+        "originalType": "Creature – Goblin Knight",
         "power": "1",
         "printings": [
           "ELD",
@@ -2070,9 +2309,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "fcfb108b-d316-5586-b090-d576b184cf52"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2104,39 +2348,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [
-          {
-            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
-            "identifiers": {
-              "multiverseId": "684056",
-              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
-            },
-            "language": "German",
-            "multiverseId": 684056,
-            "name": "Gedeihende Felsklippe",
-            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
-          },
-          {
-            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
-            "identifiers": {
-              "multiverseId": "684095",
-              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
-            },
-            "language": "Spanish",
-            "multiverseId": 684095,
-            "name": "Risco floreciente",
-            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
-          },
           {
             "flavorText": "Au fil des éons, la pierre s'est érodée, révélant les couleurs vives du cœur de la montagne.",
             "identifiers": {
@@ -2146,9 +2364,28 @@
             "language": "French",
             "multiverseId": 684134,
             "name": "Promontoire prospère",
+            "skuIds": {
+              "nonfoil": "a86b85bb-16b4-5197-a405-bbc6ef858153"
+            },
             "text": "Le Promontoire prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le rouge.\n{T} : Ajoutez {R} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "01927848-a6be-57e4-a334-4a1fe4e943a2"
+          },
+          {
+            "flavorText": "Im Laufe der Äonen wurde der Fels abgetragen, sodass die satten Farben im Herzen des Gebirges sichtbar wurden.",
+            "identifiers": {
+              "multiverseId": "684056",
+              "scryfallId": "8926640d-dbdc-44d4-9c77-4cebd62997c2"
+            },
+            "language": "German",
+            "multiverseId": 684056,
+            "name": "Gedeihende Felsklippe",
+            "skuIds": {
+              "nonfoil": "509c265a-3273-57db-9952-f1398f6d4bde"
+            },
+            "text": "Die Gedeihende Felsklippe kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Rot.\n{T}: Erzeuge {R} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "9c775b7f-1a6e-5b5b-ad03-76e212302d5a"
           },
           {
             "flavorText": "Col passare delle ere, la pietra si erose, rivelando i brillanti colori nel cuore della montagna.",
@@ -2159,6 +2396,9 @@
             "language": "Italian",
             "multiverseId": 684173,
             "name": "Falesia Florida",
+            "skuIds": {
+              "nonfoil": "db410625-538a-55b2-b4ac-faf820f994f5"
+            },
             "text": "La Falesia Florida entra TAPpata. Mentre entra, scegli un colore diverso dal rosso.\n{T}: Aggiungi {R} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "f57493fb-1dea-5d87-b4a8-5b6af72a4b9c"
@@ -2172,14 +2412,31 @@
             "language": "Japanese",
             "multiverseId": 684212,
             "name": "興隆する絶壁",
+            "skuIds": {
+              "nonfoil": "e39d21c9-d1f8-526b-94c8-4e37266e6a3b"
+            },
             "text": "興隆する絶壁はタップ状態で戦場に出る。これが戦場に出るに際し、赤でない色１色を選ぶ。\n{T}：{R}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "58b97478-33fd-51ca-a6c1-6b9aa230a810"
+          },
+          {
+            "flavorText": "A medida que pasaban los siglos, la roca se iba erosionando, revelando así los bellos colores del corazón de la montaña.",
+            "identifiers": {
+              "multiverseId": "684095",
+              "scryfallId": "e41c9eab-dde3-48a5-9c0c-342b77b0045f"
+            },
+            "language": "Spanish",
+            "multiverseId": 684095,
+            "name": "Risco floreciente",
+            "skuIds": {
+              "nonfoil": "f6622adc-6f4e-51e4-b082-ffdee7d4c21c"
+            },
+            "text": "El Risco floreciente entra girado. En cuanto entre, elige un color que no sea rojo.\n{T}: Agrega {R} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "53d4e806-c9ce-5d1f-b45d-6c32f62bcc62"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306114",
           "cardsphereId": "130630",
@@ -2217,10 +2474,12 @@
         "name": "Thriving Bluff",
         "number": "775",
         "originalText": "Thriving Bluff enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2229,6 +2488,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/4994b6d201bcc34f",
           "cardmarket": "https://mtgjson.com/links/6b15da8dbe896d9a",
@@ -2236,9 +2502,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f47b508d-9951-55ba-a08a-24eaec1aa0d2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2273,36 +2544,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -2312,6 +2578,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -2323,18 +2592,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -2347,7 +2632,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2375,6 +2659,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2448,6 +2733,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2610,15 +2896,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2661,36 +2956,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -2700,6 +2990,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -2711,18 +3004,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -2735,7 +3044,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2763,6 +3071,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2836,6 +3145,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2998,15 +3308,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3049,36 +3368,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681262",
-              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
-            },
-            "language": "German",
-            "multiverseId": 681262,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681277",
-              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
-            },
-            "language": "Spanish",
-            "multiverseId": 681277,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681292",
               "scryfallId": "24476a9e-d4e4-4d0f-842e-de2338bc2c53"
             },
             "language": "French",
             "multiverseId": 681292,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "9a3079f7-7116-5681-8aae-f1bfa5827968"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "76f3d049-a92b-5369-818c-a42926e0a589"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681262",
+              "scryfallId": "579bc158-be8b-4d65-91cd-68ba993f90b3"
+            },
+            "language": "German",
+            "multiverseId": 681262,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "0858b7db-9d95-5382-8a2a-e81e683f3ab6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "91ef0507-d521-5a5f-bba1-354143a57141"
           },
           {
             "identifiers": {
@@ -3088,6 +3402,9 @@
             "language": "Italian",
             "multiverseId": 681307,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "7f452444-0f0d-504a-bee8-8cd858cf0c29"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "821ac00a-2159-53c7-bcef-a7b15b65fc1e"
           },
@@ -3099,18 +3416,34 @@
             "language": "Japanese",
             "multiverseId": 681322,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "49827b1d-02d7-5a67-8362-ec6953620e45"
+            },
             "type": "基本土地 — 山",
             "uuid": "973c2cb2-3f96-5a06-a864-8acccade90c5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681277",
+              "scryfallId": "bfcb638a-54b8-4110-9504-91b0f9c92a27"
+            },
+            "language": "Spanish",
+            "multiverseId": 681277,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "cda316bc-ddd8-5615-b6b9-cae75be59719"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "51c3baea-133a-560f-9a90-c4e09d5b3ab0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305226",
           "cardsphereId": "131382",
           "deckboxId": "98086",
           "mcmId": "795513",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95177",
           "mtgjsonV4Id": "3f7f42b9-b13f-508d-91bc-56ac4f4e89a7",
           "multiverseId": "681247",
@@ -3123,7 +3456,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3151,6 +3483,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "92",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3224,6 +3557,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3386,15 +3720,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/c6194f3a40b2eee0",
+          "cardmarket": "https://mtgjson.com/links/fda96fedc8a0caf6",
           "tcgplayer": "https://mtgjson.com/links/182f8afd88635ff9"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "049f1a0b-90c6-51e5-ae9a-b0d53becf70f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3410,8 +3753,8 @@
         ],
         "uuid": "8234e343-80ad-5f38-b955-25de9ff61d34",
         "variations": [
-          "58ba6564-2594-5355-afbf-624255edb960",
-          "22c8b2c5-2022-51a9-bb78-6934750f3264"
+          "22c8b2c5-2022-51a9-bb78-6934750f3264",
+          "58ba6564-2594-5355-afbf-624255edb960"
         ]
       }
     ],
@@ -3426,5 +3769,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "385b9486f4e77d"
   }
 }

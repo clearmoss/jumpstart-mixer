@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "4e7eee24b94c13"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,36 +23,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1680,
+        "edhrecRank": 1685,
         "edhrecSaltiness": 0.46,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681119",
-              "scryfallId": "d0d9a86a-52bb-4dd1-b3c1-fd1afedbc2dd"
-            },
-            "language": "German",
-            "multiverseId": 681119,
-            "name": "Giada, Quelle der Hoffnung",
-            "text": "Fliegend, Wachsamkeit\nJeder andere Engel, den du kontrollierst, kommt für jeden Engel, den du bereits kontrollierst, mit einer zusätzlichen +1/+1-Marke ins Spiel.\n{T}: Erzeuge {W}. Gib dieses Mana nur aus, um einen Engel-Zauberspruch zu wirken.",
-            "type": "Legendäre Kreatur — Engel",
-            "uuid": "b0787460-8435-5d3e-ab90-29d891df0be5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681143",
-              "scryfallId": "81d88df9-0ef4-430b-996f-cf3e2be8d6b5"
-            },
-            "language": "Spanish",
-            "multiverseId": 681143,
-            "name": "Giada, fuente de esperanza",
-            "text": "Vuela, vigilancia.\nCada otro Ángel que controlas entra con un contador +1/+1 adicional sobre él por cada Ángel que ya controles.\n{T}: Agrega {W}. Usa este maná solo para lanzar un hechizo de Ángel.",
-            "type": "Criatura legendaria — Ángel",
-            "uuid": "66f55a46-c097-5dc7-b613-e099e16a9eee"
-          },
           {
             "identifiers": {
               "multiverseId": "681167",
@@ -66,9 +37,27 @@
             "language": "French",
             "multiverseId": 681167,
             "name": "Giada, fontaine de l'espoir",
+            "skuIds": {
+              "nonfoil": "3602921e-baf1-566f-9f28-d315aba8cae2"
+            },
             "text": "Vol, vigilance\nChaque autre ange que vous contrôlez arrive avec, sur lui, un marqueur +1/+1 supplémentaire pour chaque ange que vous contrôlez déjà.\n{T} : Ajoutez {W}. Ne dépensez ce mana que pour lancer un sort d'ange.",
             "type": "Créature légendaire — ange",
             "uuid": "bcf3b935-d7ec-575d-a468-fa7323ffe334"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681119",
+              "scryfallId": "d0d9a86a-52bb-4dd1-b3c1-fd1afedbc2dd"
+            },
+            "language": "German",
+            "multiverseId": 681119,
+            "name": "Giada, Quelle der Hoffnung",
+            "skuIds": {
+              "nonfoil": "3664f65e-5bdb-58ab-8318-c882c5b3f599"
+            },
+            "text": "Fliegend, Wachsamkeit\nJeder andere Engel, den du kontrollierst, kommt für jeden Engel, den du bereits kontrollierst, mit einer zusätzlichen +1/+1-Marke ins Spiel.\n{T}: Erzeuge {W}. Gib dieses Mana nur aus, um einen Engel-Zauberspruch zu wirken.",
+            "type": "Legendäre Kreatur — Engel",
+            "uuid": "b0787460-8435-5d3e-ab90-29d891df0be5"
           },
           {
             "identifiers": {
@@ -78,6 +67,9 @@
             "language": "Italian",
             "multiverseId": 681191,
             "name": "Giada, Fonte di Speranza",
+            "skuIds": {
+              "nonfoil": "c637639b-2714-5613-b4ad-6736545d54e4"
+            },
             "text": "Volare, cautela\nOgni altro Angelo che controlli entra con un segnalino +1/+1 addizionale per ogni Angelo che già controlli.\n{T}: Aggiungi {W}. Spendi questo mana solo per lanciare una magia Angelo.",
             "type": "Creatura Leggendaria — Angelo",
             "uuid": "d2f8c9d2-7608-562d-b29f-c1a51f4372d4"
@@ -90,17 +82,33 @@
             "language": "Japanese",
             "multiverseId": 681215,
             "name": "希望の源、ジアーダ",
+            "skuIds": {
+              "nonfoil": "7acc9356-0546-5b79-b324-bb946497ed76"
+            },
             "text": "飛行、警戒\nあなたがコントロールしていてこれでないすべての天使は、あなたがすでにコントロールしている天使１体につき１個の＋１/＋１カウンターが追加で置かれた状態で戦場に出る。\n{T}：{W}を加える。このマナは天使・呪文を唱えるためにしか支払えない。",
             "type": "伝説のクリーチャー — 天使",
             "uuid": "9bb519bd-3c95-5af5-81f7-bdfefb101d86"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681143",
+              "scryfallId": "81d88df9-0ef4-430b-996f-cf3e2be8d6b5"
+            },
+            "language": "Spanish",
+            "multiverseId": 681143,
+            "name": "Giada, fuente de esperanza",
+            "skuIds": {
+              "nonfoil": "aa21e279-08aa-50c2-9077-a902e817ec06"
+            },
+            "text": "Vuela, vigilancia.\nCada otro Ángel que controlas entra con un contador +1/+1 adicional sobre él por cada Ángel que ya controles.\n{T}: Agrega {W}. Usa este maná solo para lanzar un hechizo de Ángel.",
+            "type": "Criatura legendaria — Ángel",
+            "uuid": "66f55a46-c097-5dc7-b613-e099e16a9eee"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305194",
           "cardsphereId": "130868",
@@ -120,7 +128,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flying",
           "Vigilance"
@@ -155,6 +162,7 @@
         "name": "Giada, Font of Hope",
         "number": "60",
         "originalText": "Flying, vigilance\nEach other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.\n{T}: Add {W}. Spend this mana only to cast an Angel spell.",
+        "originalType": "Legendary Creature – Angel",
         "power": "2",
         "printings": [
           "FDN",
@@ -165,6 +173,9 @@
           "PWCS",
           "SLD",
           "SNC"
+        ],
+        "producedMana": [
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/43a0931fa820f2bb",
@@ -180,9 +191,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6231855d-4461-5e1c-b131-5c5834c5d585"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -217,36 +233,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 2960,
+        "edhrecRank": 3064,
         "edhrecSaltiness": 0.3,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "685034",
-              "scryfallId": "87e9878a-cef1-4b08-be27-b9310fc4ef45"
-            },
-            "language": "German",
-            "multiverseId": 685034,
-            "name": "Heroldin des Krieges",
-            "text": "Fliegend\nImmer wenn die Heroldin des Krieges angreift, lege eine +1/+1-Marke auf sie.\nEngel-Zaubersprüche und Mensch-Zaubersprüche, die du wirkst, kosten beim Wirken für jede +1/+1-Marke auf der Heroldin des Krieges {1} weniger.",
-            "type": "Kreatur — Engel",
-            "uuid": "9f5d64a0-d5ca-5a7b-b0ba-b59bffb8b9fc"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "685158",
-              "scryfallId": "750f0dd5-cba3-49e5-81d2-010d3a1fcc09"
-            },
-            "language": "Spanish",
-            "multiverseId": 685158,
-            "name": "Emisaria de guerra",
-            "text": "Vuela.\nSiempre que la Emisaria de guerra ataque, pon un contador +1/+1 sobre ella.\nTe cuesta {1} menos lanzar los hechizos de Ángel y Humano por cada contador +1/+1 sobre la Emisaria de guerra.",
-            "type": "Criatura — Ángel",
-            "uuid": "8ed7269d-e7ea-5b15-83ab-d0dff8e2c98b"
-          },
           {
             "identifiers": {
               "multiverseId": "685282",
@@ -255,9 +247,27 @@
             "language": "French",
             "multiverseId": 685282,
             "name": "Héraut de la guerre",
+            "skuIds": {
+              "nonfoil": "01a37b21-06cf-5442-a4ac-9e69a91f2903"
+            },
             "text": "Vol\nÀ chaque fois que le Héraut de la guerre attaque, mettez un marqueur +1/+1 sur lui.\nLes sorts d'ange et les sorts d'humain que vous lancez coûtent {1} de moins à lancer pour chaque marqueur +1/+1 sur le Héraut de la guerre.",
             "type": "Créature — ange",
             "uuid": "fb307c7e-7c3a-5e15-b23c-278161ae37e6"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685034",
+              "scryfallId": "87e9878a-cef1-4b08-be27-b9310fc4ef45"
+            },
+            "language": "German",
+            "multiverseId": 685034,
+            "name": "Heroldin des Krieges",
+            "skuIds": {
+              "nonfoil": "f5c0388d-ca74-56b4-a3fc-e970d48698de"
+            },
+            "text": "Fliegend\nImmer wenn die Heroldin des Krieges angreift, lege eine +1/+1-Marke auf sie.\nEngel-Zaubersprüche und Mensch-Zaubersprüche, die du wirkst, kosten beim Wirken für jede +1/+1-Marke auf der Heroldin des Krieges {1} weniger.",
+            "type": "Kreatur — Engel",
+            "uuid": "9f5d64a0-d5ca-5a7b-b0ba-b59bffb8b9fc"
           },
           {
             "identifiers": {
@@ -267,6 +277,9 @@
             "language": "Italian",
             "multiverseId": 685406,
             "name": "Messaggera di Guerra",
+            "skuIds": {
+              "nonfoil": "f161e867-1ed6-5867-928f-3cfd8bc13ed1"
+            },
             "text": "Volare\nOgniqualvolta la Messaggera di Guerra attacca, metti un segnalino +1/+1 su di essa.\nLe magie Angelo e le magie Umano che lanci costano {1} in meno per essere lanciate per ogni segnalino +1/+1 sulla Messaggera di Guerra.",
             "type": "Creatura — Angelo",
             "uuid": "1392c849-e303-5a1c-996e-47308af40f0e"
@@ -279,14 +292,30 @@
             "language": "Japanese",
             "multiverseId": 685530,
             "name": "戦争の伝令",
+            "skuIds": {
+              "nonfoil": "dabf6e9a-2f48-562b-9312-3c9d8d85e41d"
+            },
             "text": "飛行\n戦争の伝令が攻撃するたび、これの上に＋１/＋１カウンター１個を置く。\nあなたが天使・呪文や人間・呪文を唱えるためのコストは、戦争の伝令の上にある＋１/＋１カウンター１個につき{1}少なくなる。",
             "type": "クリーチャー — 天使",
             "uuid": "345e89a6-ceed-5b9f-bbaa-99e238a05c75"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "685158",
+              "scryfallId": "750f0dd5-cba3-49e5-81d2-010d3a1fcc09"
+            },
+            "language": "Spanish",
+            "multiverseId": 685158,
+            "name": "Emisaria de guerra",
+            "skuIds": {
+              "nonfoil": "2ff7a9de-74c3-55ea-9447-5b28d2595204"
+            },
+            "text": "Vuela.\nSiempre que la Emisaria de guerra ataque, pon un contador +1/+1 sobre ella.\nTe cuesta {1} menos lanzar los hechizos de Ángel y Humano por cada contador +1/+1 sobre la Emisaria de guerra.",
+            "type": "Criatura — Ángel",
+            "uuid": "8ed7269d-e7ea-5b15-83ab-d0dff8e2c98b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305356",
           "cardsphereId": "130748",
@@ -328,6 +357,7 @@
         "name": "Herald of War",
         "number": "207",
         "originalText": "Flying\nWhenever Herald of War attacks, put a +1/+1 counter on it.\nAngel spells and Human spells you cast cost {1} less to cast for each +1/+1 counter on Herald of War.",
+        "originalType": "Creature – Angel",
         "power": "3",
         "printings": [
           "AVR",
@@ -364,9 +394,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "94564b01-422d-50f7-add2-bd4df8b6d32a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -400,39 +435,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 26553,
+        "edhrecRank": 26920,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I seek no fight with you, but neither will I stand aside.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich suche keinen Streit mit euch, aber ihr könnt hier nicht passieren.\"",
-            "identifiers": {
-              "multiverseId": "681357",
-              "scryfallId": "493abded-f9eb-4a1f-a32c-40e26414234b"
-            },
-            "language": "German",
-            "multiverseId": 681357,
-            "name": "Getreue Spießmeisterin",
-            "text": "Wenn die Getreue Spießmeisterin ins Spiel kommt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)\nSolange es dein Zug ist, hat die Getreue Spießmeisterin Erstschlag.",
-            "type": "Kreatur — Nashorn, Mönch, Soldat",
-            "uuid": "0bc24c0a-e6c7-5b58-ace9-ccfa9b38e1e2"
-          },
-          {
-            "flavorText": "\"No quiero pelear contra ti, pero tampoco me quedaré de brazos cruzados\".",
-            "identifiers": {
-              "multiverseId": "681386",
-              "scryfallId": "58521b16-d925-43e6-b3e2-994d350f3f2f"
-            },
-            "language": "Spanish",
-            "multiverseId": 681386,
-            "name": "Maestra lancera leal",
-            "text": "Cuando la Maestra lancera leal entre, adivina 2. (Mira las dos primeras cartas de tu biblioteca y luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)\nMientras sea tu turno, la Maestra lancera leal tiene la habilidad de dañar primero.",
-            "type": "Criatura — Soldado monje rinoceronte",
-            "uuid": "0b690a6c-a0f7-5ee0-a7ad-75919c4d3b13"
-          },
           {
             "flavorText": "« Je ne désire pas me battre contre vous, mais je ne reculerai pas non plus. »",
             "identifiers": {
@@ -442,9 +451,28 @@
             "language": "French",
             "multiverseId": 681415,
             "name": "Maîtresse piquière fidèle",
+            "skuIds": {
+              "nonfoil": "94765e08-966d-53b3-80bd-632e665abd75"
+            },
             "text": "Quand la Maîtresse piquière fidèle arrive, regard 2. (Regardez les deux cartes du dessus de votre bibliothèque. Mettez ensuite n'importe quel nombre d'entre elles au-dessous de votre bibliothèque et le reste au-dessus, dans l'ordre de votre choix.)\nTant que c'est votre tour, la Maîtresse piquière fidèle a l'initiative.",
             "type": "Créature — rhinocéros et moine et soldat",
             "uuid": "2efa4ba8-a416-5c0e-8c56-da0916a091e1"
+          },
+          {
+            "flavorText": "„Ich suche keinen Streit mit euch, aber ihr könnt hier nicht passieren.\"",
+            "identifiers": {
+              "multiverseId": "681357",
+              "scryfallId": "493abded-f9eb-4a1f-a32c-40e26414234b"
+            },
+            "language": "German",
+            "multiverseId": 681357,
+            "name": "Getreue Spießmeisterin",
+            "skuIds": {
+              "nonfoil": "4389cd4e-43ea-57c1-9189-9bd4eb7f6a58"
+            },
+            "text": "Wenn die Getreue Spießmeisterin ins Spiel kommt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)\nSolange es dein Zug ist, hat die Getreue Spießmeisterin Erstschlag.",
+            "type": "Kreatur — Nashorn, Mönch, Soldat",
+            "uuid": "0bc24c0a-e6c7-5b58-ace9-ccfa9b38e1e2"
           },
           {
             "flavorText": "\"Non voglio lottare, ma di certo non mi farò da parte.\"",
@@ -455,6 +483,9 @@
             "language": "Italian",
             "multiverseId": 681444,
             "name": "Picchiera Devota",
+            "skuIds": {
+              "nonfoil": "d91965cb-68c5-5726-92f9-d358b324e655"
+            },
             "text": "Quando la Picchiera Devota entra, profetizza 2. (Guarda le prime due carte del tuo grimorio, poi mettine un qualsiasi numero in fondo e le altre in cima in qualsiasi ordine.)\nFintanto che è il tuo turno, la Picchiera Devota ha attacco improvviso.",
             "type": "Creatura — Soldato Monaco Rinoceronte",
             "uuid": "f4148c70-9af2-5462-a8b2-fc1c5e994198"
@@ -468,14 +499,31 @@
             "language": "Japanese",
             "multiverseId": 681473,
             "name": "信心深い長槍の達人",
+            "skuIds": {
+              "nonfoil": "193984ec-8072-5c94-807a-18a1d9ba3064"
+            },
             "text": "信心深い長槍の達人が戦場に出たとき、占術２を行う。（あなたのライブラリーの一番上にあるカード２枚を見て、そのうちの望む枚数を一番下に、残りを一番上に、それぞれ望む順番で置く。）\nあなたのターンの間、信心深い長槍の達人は先制攻撃を持つ。",
             "type": "クリーチャー — サイ・モンク・兵士",
             "uuid": "7d84ecb6-ffe3-50cf-a214-e0cbaa36842b"
+          },
+          {
+            "flavorText": "\"No quiero pelear contra ti, pero tampoco me quedaré de brazos cruzados\".",
+            "identifiers": {
+              "multiverseId": "681386",
+              "scryfallId": "58521b16-d925-43e6-b3e2-994d350f3f2f"
+            },
+            "language": "Spanish",
+            "multiverseId": 681386,
+            "name": "Maestra lancera leal",
+            "skuIds": {
+              "nonfoil": "98a1338c-0e05-5b6f-95a2-4402caf54e54"
+            },
+            "text": "Cuando la Maestra lancera leal entre, adivina 2. (Mira las dos primeras cartas de tu biblioteca y luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)\nMientras sea tu turno, la Maestra lancera leal tiene la habilidad de dañar primero.",
+            "type": "Criatura — Soldado monje rinoceronte",
+            "uuid": "0b690a6c-a0f7-5ee0-a7ad-75919c4d3b13"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305137",
           "cardsphereId": "130694",
@@ -494,7 +542,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Scry"
         ],
@@ -518,6 +565,7 @@
         "name": "Faithful Pikemaster",
         "number": "3",
         "originalText": "When Faithful Pikemaster enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)\nAs long as it's your turn, Faithful Pikemaster has first strike.",
+        "originalType": "Creature – Rhino Monk Soldier",
         "power": "3",
         "printings": [
           "J25"
@@ -529,9 +577,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "62928ace-6bd1-5cd5-bd03-8b7136dfa7e5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -565,39 +618,13 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20636,
+        "edhrecRank": 20324,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Made from a feather from Firja's wing, it marks a worthy hero with the blessing of the valkyries.",
         "foreignData": [
-          {
-            "flavorText": "Aus einer Feder von Firjas Flügel gefertigt, kennzeichnet es einen würdigen Helden mit dem Segen der Walküren.",
-            "identifiers": {
-              "multiverseId": "681383",
-              "scryfallId": "6fe64788-a608-4545-8beb-f7fa96681d48"
-            },
-            "language": "German",
-            "multiverseId": 681383,
-            "name": "Starnheim-Andenken",
-            "text": "{T}: Erzeuge {W}.\n{1}{W}, {T}: Eine Kreatur deiner Wahl erhält +1/+1 und Flugfähigkeit bis zum Ende des Zuges. Aktiviere diese Fähigkeit wie eine Hexerei.",
-            "type": "Artefakt",
-            "uuid": "751c51b9-abd2-5e87-b6a9-0c1010b3f6e7"
-          },
-          {
-            "flavorText": "Está elaborado con la pluma de un ala de Firja y es una señal de un héroe que recibió la bendición de las valkirias.",
-            "identifiers": {
-              "multiverseId": "681412",
-              "scryfallId": "48b1b2c3-43ec-43ab-9995-a433e00a2080"
-            },
-            "language": "Spanish",
-            "multiverseId": 681412,
-            "name": "Recuerdo del Starnheim",
-            "text": "{T}: Agrega {W}.\n{1}{W}, {T}: La criatura objetivo obtiene +1/+1 y gana la habilidad de volar hasta el final del turno. Activa esto solo como un conjuro.",
-            "type": "Artefacto",
-            "uuid": "43c541c8-c57e-50b0-a458-408c6a55fd7d"
-          },
           {
             "flavorText": "Fabriqué à partir d'une plume de l'aile de Firja, il donne à un héros valeureux la bénédiction des valkyries.",
             "identifiers": {
@@ -607,9 +634,28 @@
             "language": "French",
             "multiverseId": 681441,
             "name": "Souvenir de Starnheim",
+            "skuIds": {
+              "nonfoil": "02163cf9-5b8f-558c-b043-60bb6a62a574"
+            },
             "text": "{T} : Ajoutez {W}.\n{1}{W}, {T} : Une créature ciblée gagne +1/+1 et acquiert le vol jusqu'à la fin du tour. N'activez que lorsque vous pourriez lancer un rituel.",
             "type": "Artefact",
             "uuid": "0f46a01b-1caf-5017-b2c1-0edee5347ee5"
+          },
+          {
+            "flavorText": "Aus einer Feder von Firjas Flügel gefertigt, kennzeichnet es einen würdigen Helden mit dem Segen der Walküren.",
+            "identifiers": {
+              "multiverseId": "681383",
+              "scryfallId": "6fe64788-a608-4545-8beb-f7fa96681d48"
+            },
+            "language": "German",
+            "multiverseId": 681383,
+            "name": "Starnheim-Andenken",
+            "skuIds": {
+              "nonfoil": "8216310b-2163-53fd-aabc-d6d2ac72a591"
+            },
+            "text": "{T}: Erzeuge {W}.\n{1}{W}, {T}: Eine Kreatur deiner Wahl erhält +1/+1 und Flugfähigkeit bis zum Ende des Zuges. Aktiviere diese Fähigkeit wie eine Hexerei.",
+            "type": "Artefakt",
+            "uuid": "751c51b9-abd2-5e87-b6a9-0c1010b3f6e7"
           },
           {
             "flavorText": "Realizzato con una piuma delle ali di Firja, dona a un eroe meritevole la benedizione delle valchirie.",
@@ -620,6 +666,9 @@
             "language": "Italian",
             "multiverseId": 681470,
             "name": "Cimelio di Starnheim",
+            "skuIds": {
+              "nonfoil": "b0f34972-9838-5700-b74b-ab57e3159cc1"
+            },
             "text": "{T}: Aggiungi {W}.\n{1}{W}, {T}: Una creatura bersaglio prende +1/+1 e ha volare fino alla fine del turno. Attiva solo come una stregoneria.",
             "type": "Artefatto",
             "uuid": "b9265190-c8c7-5dcf-994c-98635892fb95"
@@ -633,14 +682,31 @@
             "language": "Japanese",
             "multiverseId": 681499,
             "name": "シュタルンハイムの遺品",
+            "skuIds": {
+              "nonfoil": "eab4441c-6218-5066-b2bc-df83e602dc7c"
+            },
             "text": "{T}：{W}を加える。\n{1}{W}, {T}：クリーチャー１体を対象とする。ターン終了時まで、それは＋１/＋１の修整を受け飛行を得る。起動はソーサリーとしてのみ行う。",
             "type": "アーティファクト",
             "uuid": "b163a470-6113-543e-9b64-a683d1ee39bb"
+          },
+          {
+            "flavorText": "Está elaborado con la pluma de un ala de Firja y es una señal de un héroe que recibió la bendición de las valkirias.",
+            "identifiers": {
+              "multiverseId": "681412",
+              "scryfallId": "48b1b2c3-43ec-43ab-9995-a433e00a2080"
+            },
+            "language": "Spanish",
+            "multiverseId": 681412,
+            "name": "Recuerdo del Starnheim",
+            "skuIds": {
+              "nonfoil": "07d4db3d-3d4a-5069-8dce-150ca14cc277"
+            },
+            "text": "{T}: Agrega {W}.\n{1}{W}, {T}: La criatura objetivo obtiene +1/+1 y gana la habilidad de volar hasta el final del turno. Activa esto solo como un conjuro.",
+            "type": "Artefacto",
+            "uuid": "43c541c8-c57e-50b0-a458-408c6a55fd7d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305163",
           "cardsphereId": "130754",
@@ -659,7 +725,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -678,8 +743,12 @@
         "name": "Starnheim Memento",
         "number": "29",
         "originalText": "{T}: Add {W}.\n{1}{W}, {T}: Target creature gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.",
+        "originalType": "Artifact",
         "printings": [
           "J25"
+        ],
+        "producedMana": [
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/17f5f6e4b81d3653",
@@ -688,9 +757,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cbe9f397-84b8-5e4c-81b9-1927529c7ff4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -720,39 +794,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 17800,
+        "edhrecRank": 17761,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Boros built a prison in the sky where Azorius statutes couldn't restrict their sense of justice.",
         "foreignData": [
-          {
-            "flavorText": "Die Boros erbauten ein Gefängnis im Himmel, wo ihr Rechtsempfinden nicht von Azorius-Statuten eingeengt werden konnte.",
-            "identifiers": {
-              "multiverseId": "684991",
-              "scryfallId": "f613faf6-f866-43cf-a5c6-a53c2da78ee9"
-            },
-            "language": "German",
-            "multiverseId": 684991,
-            "name": "Edikt der Engel",
-            "text": "Schicke eine Kreatur oder eine Verzauberung deiner Wahl ins Exil.",
-            "type": "Hexerei",
-            "uuid": "c25b60f6-c83b-53ae-b529-15c87a3877a8"
-          },
-          {
-            "flavorText": "Los boros construyeron una prisión en el cielo en la que los estatutos azorios no pudieran restringir su sentido de la justicia.",
-            "identifiers": {
-              "multiverseId": "685115",
-              "scryfallId": "a34480cc-b4a2-4e3b-b4d8-68cda3ae4151"
-            },
-            "language": "Spanish",
-            "multiverseId": 685115,
-            "name": "Edicto angelical",
-            "text": "Exilia la criatura o encantamiento objetivo.",
-            "type": "Conjuro",
-            "uuid": "55d133b1-8463-50e3-9fd0-059ad87125b0"
-          },
           {
             "flavorText": "Pour assouvir leur sens de la justice, les Boros bâtirent une prison dans le ciel, à l'abri des décrets d'Azorius.",
             "identifiers": {
@@ -762,9 +810,28 @@
             "language": "French",
             "multiverseId": 685239,
             "name": "Édit angélique",
+            "skuIds": {
+              "nonfoil": "b0180262-6355-5498-9d05-c80e70d6039d"
+            },
             "text": "Exilez une cible, créature ou enchantement.",
             "type": "Rituel",
             "uuid": "3d63f28a-73ef-5de9-b8f7-fa644642e28c"
+          },
+          {
+            "flavorText": "Die Boros erbauten ein Gefängnis im Himmel, wo ihr Rechtsempfinden nicht von Azorius-Statuten eingeengt werden konnte.",
+            "identifiers": {
+              "multiverseId": "684991",
+              "scryfallId": "f613faf6-f866-43cf-a5c6-a53c2da78ee9"
+            },
+            "language": "German",
+            "multiverseId": 684991,
+            "name": "Edikt der Engel",
+            "skuIds": {
+              "nonfoil": "7d14f4ac-b26e-5c56-8a51-1e45b46090d5"
+            },
+            "text": "Schicke eine Kreatur oder eine Verzauberung deiner Wahl ins Exil.",
+            "type": "Hexerei",
+            "uuid": "c25b60f6-c83b-53ae-b529-15c87a3877a8"
           },
           {
             "flavorText": "I Boros costruirono una prigione nel cielo dove i regolamenti Azorius non potevano limitare il loro senso della giustizia.",
@@ -775,6 +842,9 @@
             "language": "Italian",
             "multiverseId": 685363,
             "name": "Editto Angelico",
+            "skuIds": {
+              "nonfoil": "08a43ce7-bbc8-5315-9a1b-440059817886"
+            },
             "text": "Esilia una creatura o un incantesimo bersaglio.",
             "type": "Stregoneria",
             "uuid": "936e3bee-f8d8-5cf0-ac4d-134195cd15cc"
@@ -788,14 +858,31 @@
             "language": "Japanese",
             "multiverseId": 685487,
             "name": "天使の布告",
+            "skuIds": {
+              "nonfoil": "8ac40796-50d6-5018-9b16-2b7f6536bc23"
+            },
             "text": "エンチャントやクリーチャーである１つを対象とする。それを追放する。",
             "type": "ソーサリー",
             "uuid": "d8a6df87-4aaa-5a45-8fbd-7faea2da8756"
+          },
+          {
+            "flavorText": "Los boros construyeron una prisión en el cielo en la que los estatutos azorios no pudieran restringir su sentido de la justicia.",
+            "identifiers": {
+              "multiverseId": "685115",
+              "scryfallId": "a34480cc-b4a2-4e3b-b4d8-68cda3ae4151"
+            },
+            "language": "Spanish",
+            "multiverseId": 685115,
+            "name": "Edicto angelical",
+            "skuIds": {
+              "nonfoil": "26926ddc-06f9-51be-80ee-43b2fd9fb4e6"
+            },
+            "text": "Exilia la criatura o encantamiento objetivo.",
+            "type": "Conjuro",
+            "uuid": "55d133b1-8463-50e3-9fd0-059ad87125b0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305313",
           "cardsphereId": "130616",
@@ -814,7 +901,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -842,6 +928,7 @@
         "name": "Angelic Edict",
         "number": "164",
         "originalText": "Exile target creature or enchantment.",
+        "originalType": "Sorcery",
         "printings": [
           "FDN",
           "GTC",
@@ -856,9 +943,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e10f5347-7fea-5b35-b36a-e5af6cac6fca"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -888,39 +980,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 22063,
+        "edhrecRank": 22316,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Fear neither clouds nor darkness. The light shall overcome them all.\"",
         "foreignData": [
-          {
-            "flavorText": "„Fürchtet weder Wolken noch Dunkelheit. Das Licht wird über sie triumphieren.\"",
-            "identifiers": {
-              "multiverseId": "685033",
-              "scryfallId": "74513921-6630-4b2f-b100-0f811653cadb"
-            },
-            "language": "German",
-            "multiverseId": 685033,
-            "name": "Heroldin der Sonne",
-            "text": "Fliegend\n{3}{W}: Lege eine +1/+1-Marke auf eine andere fliegende Kreatur deiner Wahl.",
-            "type": "Kreatur — Engel",
-            "uuid": "34b09b58-3503-57f9-a540-5dd3c0f39433"
-          },
-          {
-            "flavorText": "\"No temas a las nubes ni a la oscuridad. La luz se impondrá sobre ellas\".",
-            "identifiers": {
-              "multiverseId": "685157",
-              "scryfallId": "85e99e3f-0e60-4a7d-8704-8c75d7b07b8e"
-            },
-            "language": "Spanish",
-            "multiverseId": 685157,
-            "name": "Heraldo del sol",
-            "text": "Vuela.\n{3}{W}: Pon un contador +1/+1 sobre otra criatura objetivo con la habilidad de volar.",
-            "type": "Criatura — Ángel",
-            "uuid": "df87409a-3ad6-524c-b3ea-4f0f9784ba44"
-          },
           {
             "flavorText": "« Ne craignez ni les nuages ni la nuit. La lumière s'imposera. »",
             "identifiers": {
@@ -930,9 +996,28 @@
             "language": "French",
             "multiverseId": 685281,
             "name": "Héraut du Soleil",
+            "skuIds": {
+              "nonfoil": "f94fe017-96e8-5c0f-ba0a-d9f369da904e"
+            },
             "text": "Vol\n{3}{W} : Mettez un marqueur +1/+1 sur une autre créature avec le vol ciblée.",
             "type": "Créature — ange",
             "uuid": "6d7319cb-509f-5d65-ad94-a55110ee538a"
+          },
+          {
+            "flavorText": "„Fürchtet weder Wolken noch Dunkelheit. Das Licht wird über sie triumphieren.\"",
+            "identifiers": {
+              "multiverseId": "685033",
+              "scryfallId": "74513921-6630-4b2f-b100-0f811653cadb"
+            },
+            "language": "German",
+            "multiverseId": 685033,
+            "name": "Heroldin der Sonne",
+            "skuIds": {
+              "nonfoil": "5fc1f94d-5373-5aad-b250-ecde8121d9d5"
+            },
+            "text": "Fliegend\n{3}{W}: Lege eine +1/+1-Marke auf eine andere fliegende Kreatur deiner Wahl.",
+            "type": "Kreatur — Engel",
+            "uuid": "34b09b58-3503-57f9-a540-5dd3c0f39433"
           },
           {
             "flavorText": "\"Non temere le nuvole né l'oscurità. La luce trionferà su tutto.\"",
@@ -943,6 +1028,9 @@
             "language": "Italian",
             "multiverseId": 685405,
             "name": "Messaggera del Sole",
+            "skuIds": {
+              "nonfoil": "f12d0b2a-30aa-5929-89e1-c9d9946232b6"
+            },
             "text": "Volare\n{3}{W}: Metti un segnalino +1/+1 su un'altra creatura bersaglio con volare.",
             "type": "Creatura — Angelo",
             "uuid": "6ebe2115-55f6-509e-9fd8-6fb92e2a1e83"
@@ -956,14 +1044,31 @@
             "language": "Japanese",
             "multiverseId": 685529,
             "name": "太陽の伝令",
+            "skuIds": {
+              "nonfoil": "9e9b03b2-a3c7-5ea7-9962-b8b1607fab5b"
+            },
             "text": "飛行\n{3}{W}：飛行を持ちこれでないクリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 天使",
             "uuid": "f6cb0885-9bde-5296-a08f-e5a145083f26"
+          },
+          {
+            "flavorText": "\"No temas a las nubes ni a la oscuridad. La luz se impondrá sobre ellas\".",
+            "identifiers": {
+              "multiverseId": "685157",
+              "scryfallId": "85e99e3f-0e60-4a7d-8704-8c75d7b07b8e"
+            },
+            "language": "Spanish",
+            "multiverseId": 685157,
+            "name": "Heraldo del sol",
+            "skuIds": {
+              "nonfoil": "a041e7cd-1431-5467-abdb-6f66910b7791"
+            },
+            "text": "Vuela.\n{3}{W}: Pon un contador +1/+1 sobre otra criatura objetivo con la habilidad de volar.",
+            "type": "Criatura — Ángel",
+            "uuid": "df87409a-3ad6-524c-b3ea-4f0f9784ba44"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305355",
           "cardsphereId": "130746",
@@ -1006,6 +1111,7 @@
         "name": "Herald of the Sun",
         "number": "206",
         "originalText": "Flying\n{3}{W}: Put a +1/+1 counter on another target creature with flying.",
+        "originalType": "Creature – Angel",
         "power": "4",
         "printings": [
           "J25",
@@ -1018,9 +1124,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "02353ca0-bfd3-5c03-9c9d-74db0f0f5da5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1053,39 +1164,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 1549,
+        "edhrecRank": 1572,
         "edhrecSaltiness": 0.1,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"This city could certainly use a bit more divine intervention.\"\n—Inspector Jillard",
         "foreignData": [
-          {
-            "flavorText": "„Diese Stadt könnte gewiss ein bisschen mehr göttliches Eingreifen gebrauchen.\"\n—Inspektor Jillard",
-            "identifiers": {
-              "multiverseId": "685039",
-              "scryfallId": "34a3d58f-4735-44ca-bbef-f458b99bea0e"
-            },
-            "language": "German",
-            "multiverseId": 685039,
-            "name": "Inspirierender Aufseher",
-            "text": "Fliegend\nWenn der Inspirierende Aufseher ins Spiel kommt, erhältst du 1 Lebenspunkt dazu und ziehst eine Karte.",
-            "type": "Kreatur — Engel, Kleriker",
-            "uuid": "67bdd6d7-068f-5cc9-9aeb-b069aee73698"
-          },
-          {
-            "flavorText": "\"A esta ciudad le vendría bien un poco más de intervención divina\".\n—Inspectora Jillard",
-            "identifiers": {
-              "multiverseId": "685163",
-              "scryfallId": "871e01ee-c563-4287-be2f-b90ab43bbd20"
-            },
-            "language": "Spanish",
-            "multiverseId": 685163,
-            "name": "Supervisor motivante",
-            "text": "Vuela.\nCuando el Supervisor motivante entre, ganas 1 vida y robas una carta.",
-            "type": "Criatura — Clérigo ángel",
-            "uuid": "cabe05b5-57c6-50c3-82ab-bd19f9365f09"
-          },
           {
             "flavorText": "« Un peu plus d'interventions divines ne feraient pas de mal à cette ville. »\n—Inspecteur Jillard",
             "identifiers": {
@@ -1095,9 +1180,28 @@
             "language": "French",
             "multiverseId": 685287,
             "name": "Brigadier inspirateur",
+            "skuIds": {
+              "nonfoil": "682751be-dfb2-543f-afe7-892b4234e033"
+            },
             "text": "Vol\nQuand le Brigadier inspirateur arrive, vous gagnez 1 point de vie et vous piochez une carte.",
             "type": "Créature — ange et clerc",
             "uuid": "9bc76afe-4f8c-547e-b513-58361344415f"
+          },
+          {
+            "flavorText": "„Diese Stadt könnte gewiss ein bisschen mehr göttliches Eingreifen gebrauchen.\"\n—Inspektor Jillard",
+            "identifiers": {
+              "multiverseId": "685039",
+              "scryfallId": "34a3d58f-4735-44ca-bbef-f458b99bea0e"
+            },
+            "language": "German",
+            "multiverseId": 685039,
+            "name": "Inspirierender Aufseher",
+            "skuIds": {
+              "nonfoil": "f77c06da-2329-5cc9-8853-e6b0765447cf"
+            },
+            "text": "Fliegend\nWenn der Inspirierende Aufseher ins Spiel kommt, erhältst du 1 Lebenspunkt dazu und ziehst eine Karte.",
+            "type": "Kreatur — Engel, Kleriker",
+            "uuid": "67bdd6d7-068f-5cc9-9aeb-b069aee73698"
           },
           {
             "flavorText": "\"A questa città farebbe di certo molto comodo un po' più di intervento divino.\"\n—Ispettrice Jillard",
@@ -1108,6 +1212,9 @@
             "language": "Italian",
             "multiverseId": 685411,
             "name": "Sorvegliante Ispiratore",
+            "skuIds": {
+              "nonfoil": "484edcd5-748e-55b6-82b2-e89ca835fd45"
+            },
             "text": "Volare\nQuando il Sorvegliante Ispiratore entra, guadagni 1 punto vita e peschi una carta.",
             "type": "Creatura — Chierico Angelo",
             "uuid": "92f30fb8-2f6a-5590-8619-ac993ab2f202"
@@ -1121,14 +1228,31 @@
             "language": "Japanese",
             "multiverseId": 685535,
             "name": "鼓舞する監視者",
+            "skuIds": {
+              "nonfoil": "3f0252b6-f4ea-5bcf-8949-5bd61ad8cd12"
+            },
             "text": "飛行\n鼓舞する監視者が戦場に出たとき、１点のライフを得てカード１枚を引く。",
             "type": "クリーチャー — 天使・クレリック",
             "uuid": "680d150b-3b8b-5112-b7c7-fa77c38f29d9"
+          },
+          {
+            "flavorText": "\"A esta ciudad le vendría bien un poco más de intervención divina\".\n—Inspectora Jillard",
+            "identifiers": {
+              "multiverseId": "685163",
+              "scryfallId": "871e01ee-c563-4287-be2f-b90ab43bbd20"
+            },
+            "language": "Spanish",
+            "multiverseId": 685163,
+            "name": "Supervisor motivante",
+            "skuIds": {
+              "nonfoil": "d065e84d-f1b0-5cc2-aaa2-4fe7029260f5"
+            },
+            "text": "Vuela.\nCuando el Supervisor motivante entre, ganas 1 vida y robas una carta.",
+            "type": "Criatura — Clérigo ángel",
+            "uuid": "cabe05b5-57c6-50c3-82ab-bd19f9365f09"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305361",
           "cardsphereId": "131435",
@@ -1176,6 +1300,7 @@
         "name": "Inspiring Overseer",
         "number": "212",
         "originalText": "Flying\nWhen Inspiring Overseer enters, you gain 1 life and draw a card.",
+        "originalType": "Creature – Angel Cleric",
         "power": "2",
         "printings": [
           "BLC",
@@ -1193,9 +1318,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d7365f75-56db-5182-913f-5aa5b19bf97d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1229,39 +1359,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 5314,
+        "edhrecRank": 5330,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Can't a fella get a moment's peace around here?\"",
         "foreignData": [
-          {
-            "flavorText": "„Hat man denn hier nirgends seinen Frieden?\"",
-            "identifiers": {
-              "multiverseId": "685061",
-              "scryfallId": "716d59f9-425f-4221-bb40-4c836a41b866"
-            },
-            "language": "German",
-            "multiverseId": 685061,
-            "name": "Pazifismus",
-            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur kann nicht angreifen oder blocken.",
-            "type": "Verzauberung — Aura",
-            "uuid": "98d9f6f8-63ba-5a1a-b28e-68b3c7894084"
-          },
-          {
-            "flavorText": "\"¿Es que ya no puede uno estar tranquilo?\".",
-            "identifiers": {
-              "multiverseId": "685185",
-              "scryfallId": "8f254a01-8b54-46c7-bf64-fb69da14c6d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 685185,
-            "name": "Pacifismo",
-            "text": "Encantar criatura.\nLa criatura encantada no puede atacar ni bloquear.",
-            "type": "Encantamiento — Aura",
-            "uuid": "ea58dd00-7bd4-52ab-9d18-f0b8b0c3b712"
-          },
           {
             "flavorText": "« On ne peut jamais être un peu tranquille ici ? »",
             "identifiers": {
@@ -1271,9 +1375,28 @@
             "language": "French",
             "multiverseId": 685309,
             "name": "Pacifisme",
+            "skuIds": {
+              "nonfoil": "9317eb50-96c4-5e47-8935-8d599033b246"
+            },
             "text": "Enchanter : créature\nLa créature enchantée ne peut ni attaquer ni bloquer.",
             "type": "Enchantement — aura",
             "uuid": "712b7a00-4f3b-593f-88bb-ce48aeb34788"
+          },
+          {
+            "flavorText": "„Hat man denn hier nirgends seinen Frieden?\"",
+            "identifiers": {
+              "multiverseId": "685061",
+              "scryfallId": "716d59f9-425f-4221-bb40-4c836a41b866"
+            },
+            "language": "German",
+            "multiverseId": 685061,
+            "name": "Pazifismus",
+            "skuIds": {
+              "nonfoil": "fdc8a5d6-57ba-54da-8815-3c0073e0bf76"
+            },
+            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur kann nicht angreifen oder blocken.",
+            "type": "Verzauberung — Aura",
+            "uuid": "98d9f6f8-63ba-5a1a-b28e-68b3c7894084"
           },
           {
             "flavorText": "\"Non si può avere un attimo di pace da queste parti?\"",
@@ -1284,6 +1407,9 @@
             "language": "Italian",
             "multiverseId": 685433,
             "name": "Pacifismo",
+            "skuIds": {
+              "nonfoil": "6ea4a325-eb42-534a-a6c4-d70317919503"
+            },
             "text": "Incanta creatura\nLa creatura incantata non può attaccare o bloccare.",
             "type": "Incantesimo — Aura",
             "uuid": "b5aedc1a-485f-52f3-8575-ca8d90858cc0"
@@ -1297,14 +1423,31 @@
             "language": "Japanese",
             "multiverseId": 685557,
             "name": "平和な心",
+            "skuIds": {
+              "nonfoil": "50560e78-b629-5380-89a5-6c3a5b59b297"
+            },
             "text": "エンチャント（クリーチャー）\nエンチャントしているクリーチャーでは攻撃もブロックもできない。",
             "type": "エンチャント — オーラ",
             "uuid": "4ae1ef2b-c08d-55f0-a388-982ef2a63bfc"
+          },
+          {
+            "flavorText": "\"¿Es que ya no puede uno estar tranquilo?\".",
+            "identifiers": {
+              "multiverseId": "685185",
+              "scryfallId": "8f254a01-8b54-46c7-bf64-fb69da14c6d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 685185,
+            "name": "Pacifismo",
+            "skuIds": {
+              "nonfoil": "b695b298-3c54-535d-81a0-f724637af38b"
+            },
+            "text": "Encantar criatura.\nLa criatura encantada no puede atacar ni bloquear.",
+            "type": "Encantamiento — Aura",
+            "uuid": "ea58dd00-7bd4-52ab-9d18-f0b8b0c3b712"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305383",
           "cardsphereId": "130893",
@@ -1355,6 +1498,7 @@
         "name": "Pacifism",
         "number": "234",
         "originalText": "Enchant creature\nEnchanted creature can't attack or block.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "10E",
           "6ED",
@@ -1398,9 +1542,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d7ec6ec2-bab5-5999-9c59-79bf60a25e21"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1432,38 +1581,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6873,
+        "edhrecRank": 7051,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Even the clouds became a field of battle. Known as the Sky Theater, it saw the Eternals clash with squadrons of angels.",
         "foreignData": [
-          {
-            "flavorText": "Selbst die Wolken wurden zum Schlachtfeld. Hoch in den Lüften rangen die Verewigten mit Engelsgeschwadern.",
-            "identifiers": {
-              "multiverseId": "685065",
-              "scryfallId": "f836f7e7-0c05-4786-b456-7665b72b316a"
-            },
-            "language": "German",
-            "multiverseId": 685065,
-            "name": "Beflügeltes Aufgebot",
-            "text": "Enttappe alle Kreaturen, die du kontrollierst. Fliegende Kreaturen, die du kontrollierst, erhalten +2/+2 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "764d39d5-7593-55d4-a4fd-d52ccaef29fb"
-          },
-          {
-            "flavorText": "Incluso las nubes se convirtieron en un escenario de combate conocido como el \"cielo de batalla\". En él, los eternos se enfrentaron a escuadrones de ángeles.",
-            "identifiers": {
-              "multiverseId": "685189",
-              "scryfallId": "d6ab9223-dfd2-4d17-8007-be2131daa9da"
-            },
-            "language": "Spanish",
-            "multiverseId": 685189,
-            "name": "Ataque alado",
-            "text": "Endereza todas las criaturas que controlas. Las criaturas que controlas con la habilidad de volar obtienen +2/+2 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "c2e9546e-df17-53d9-8a0d-d1efbd0eb859"
-          },
           {
             "flavorText": "Même les nuages devinrent un champ de bataille. Dans ce Front céleste, les Éternels affrontaient des escadrons d'anges.",
             "identifiers": {
@@ -1473,9 +1597,28 @@
             "language": "French",
             "multiverseId": 685313,
             "name": "Ralliement d'ailes",
+            "skuIds": {
+              "nonfoil": "688ae8d9-177e-5315-b0c8-7cc3f7f8a6b0"
+            },
             "text": "Dégagez toutes les créatures que vous contrôlez. Les créatures avec le vol que vous contrôlez gagnent +2/+2 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "99500699-6d0e-5527-9acd-553f9e3b83e0"
+          },
+          {
+            "flavorText": "Selbst die Wolken wurden zum Schlachtfeld. Hoch in den Lüften rangen die Verewigten mit Engelsgeschwadern.",
+            "identifiers": {
+              "multiverseId": "685065",
+              "scryfallId": "f836f7e7-0c05-4786-b456-7665b72b316a"
+            },
+            "language": "German",
+            "multiverseId": 685065,
+            "name": "Beflügeltes Aufgebot",
+            "skuIds": {
+              "nonfoil": "9b385b46-4d35-5bf0-b2cc-bafb20580818"
+            },
+            "text": "Enttappe alle Kreaturen, die du kontrollierst. Fliegende Kreaturen, die du kontrollierst, erhalten +2/+2 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "764d39d5-7593-55d4-a4fd-d52ccaef29fb"
           },
           {
             "flavorText": "Perfino le nuvole divennero un campo di battaglia: il cosiddetto Teatro Aereo vide gli Eterni scontrarsi con squadroni di angeli.",
@@ -1486,6 +1629,9 @@
             "language": "Italian",
             "multiverseId": 685437,
             "name": "Adunata d'Ali",
+            "skuIds": {
+              "nonfoil": "8d614e0e-c6f5-580a-833d-480b89029067"
+            },
             "text": "STAPpa tutte le creature che controlli. Le creature con volare che controlli prendono +2/+2 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "cd42d197-4373-5075-b844-1dcf1f894d00"
@@ -1499,14 +1645,31 @@
             "language": "Japanese",
             "multiverseId": 685561,
             "name": "翼の結集",
+            "skuIds": {
+              "nonfoil": "5ee011c5-34c5-5043-89f8-b0c0fbe320f4"
+            },
             "text": "あなたがコントロールしているすべてのクリーチャーをアンタップする。ターン終了時まで、あなたがコントロールしていて飛行を持つすべてのクリーチャーは＋２/＋２の修整を受ける。",
             "type": "インスタント",
             "uuid": "3f43a02d-58f6-5763-ad3f-39ed55ba9473"
+          },
+          {
+            "flavorText": "Incluso las nubes se convirtieron en un escenario de combate conocido como el \"cielo de batalla\". En él, los eternos se enfrentaron a escuadrones de ángeles.",
+            "identifiers": {
+              "multiverseId": "685189",
+              "scryfallId": "d6ab9223-dfd2-4d17-8007-be2131daa9da"
+            },
+            "language": "Spanish",
+            "multiverseId": 685189,
+            "name": "Ataque alado",
+            "skuIds": {
+              "nonfoil": "fed394a1-6790-58a3-b2cd-23f61346c7d7"
+            },
+            "text": "Endereza todas las criaturas que controlas. Las criaturas que controlas con la habilidad de volar obtienen +2/+2 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "c2e9546e-df17-53d9-8a0d-d1efbd0eb859"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305387",
           "cardsphereId": "130897",
@@ -1545,6 +1708,7 @@
         "name": "Rally of Wings",
         "number": "238",
         "originalText": "Untap all creatures you control. Creatures you control with flying get +2/+2 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "SCD",
@@ -1563,9 +1727,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "46dfb456-6af3-59e7-bd08-a535bf188644"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1595,38 +1764,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 18060,
+        "edhrecRank": 18704,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Only the worthy may pass.\"",
         "foreignData": [
-          {
-            "flavorText": "„Nur die Würdigen dürfen passieren.\"",
-            "identifiers": {
-              "multiverseId": "685085",
-              "scryfallId": "e3ba33c8-faa9-4380-a95a-5d0bec1f8ec2"
-            },
-            "language": "German",
-            "multiverseId": 685085,
-            "name": "Getreue Walküre",
-            "text": "Du kannst {1}{W} bezahlen und eine Kreaturenkarte aus deinem Friedhof ins Exil schicken, anstatt die Manakosten dieses Zauberspruchs zu bezahlen.\nFliegend",
-            "type": "Kreatur — Engel, Krieger",
-            "uuid": "a85c1ef4-8ef5-5adb-b406-a81eb9f3db53"
-          },
-          {
-            "flavorText": "\"Solo los dignos pueden pasar\".",
-            "identifiers": {
-              "multiverseId": "685209",
-              "scryfallId": "1b11b055-082e-4607-8545-28faa2c0c79b"
-            },
-            "language": "Spanish",
-            "multiverseId": 685209,
-            "name": "Valkiria denodada",
-            "text": "Puedes pagar {1}{W} y exiliar una carta de criatura de tu cementerio en vez de pagar el coste de maná de este hechizo.\nVuela.",
-            "type": "Criatura — Guerrero ángel",
-            "uuid": "fdb126e2-a960-5e30-8339-c71e3becdd93"
-          },
           {
             "flavorText": "« Seuls les dignes pourront passer. »",
             "identifiers": {
@@ -1636,9 +1780,28 @@
             "language": "French",
             "multiverseId": 685333,
             "name": "Valkyrie vaillante",
+            "skuIds": {
+              "nonfoil": "c5af8b58-2b7b-59ef-aeb1-0f50ed57a4f5"
+            },
             "text": "Vous pouvez payer {1}{W} et exiler une carte de créature de votre cimetière à la place de payer le coût de mana de ce sort.\nVol",
             "type": "Créature — ange et guerrier",
             "uuid": "00425159-4fcd-5499-ad1f-27cae5425135"
+          },
+          {
+            "flavorText": "„Nur die Würdigen dürfen passieren.\"",
+            "identifiers": {
+              "multiverseId": "685085",
+              "scryfallId": "e3ba33c8-faa9-4380-a95a-5d0bec1f8ec2"
+            },
+            "language": "German",
+            "multiverseId": 685085,
+            "name": "Getreue Walküre",
+            "skuIds": {
+              "nonfoil": "1e70d542-fc24-5fde-b41f-aea1bda5349e"
+            },
+            "text": "Du kannst {1}{W} bezahlen und eine Kreaturenkarte aus deinem Friedhof ins Exil schicken, anstatt die Manakosten dieses Zauberspruchs zu bezahlen.\nFliegend",
+            "type": "Kreatur — Engel, Krieger",
+            "uuid": "a85c1ef4-8ef5-5adb-b406-a81eb9f3db53"
           },
           {
             "flavorText": "\"Solo chi ne è degno potrà passare.\"",
@@ -1649,6 +1812,9 @@
             "language": "Italian",
             "multiverseId": 685457,
             "name": "Valchiria Intrepida",
+            "skuIds": {
+              "nonfoil": "7367c27e-9204-5d55-8e78-3d11fec21820"
+            },
             "text": "Puoi pagare {1}{W} ed esiliare una carta creatura dal tuo cimitero invece di pagare il costo di mana di questa magia.\nVolare",
             "type": "Creatura — Guerriero Angelo",
             "uuid": "a3ffc769-3192-51d7-ad3b-c724fe9e1d85"
@@ -1662,14 +1828,31 @@
             "language": "Japanese",
             "multiverseId": 685581,
             "name": "確固たる戦乙女",
+            "skuIds": {
+              "nonfoil": "7e7bb0bb-6d63-54f6-b3bc-8a22f583a3ea"
+            },
             "text": "この呪文のマナ・コストを支払うのではなく、「{1}{W}を支払い、あなたの墓地にあるクリーチャー・カード１枚を追放する。」を選んでもよい。\n飛行",
             "type": "クリーチャー — 天使・戦士",
             "uuid": "94b11d65-6ed6-5bfb-a8f5-b2afd7c361d4"
+          },
+          {
+            "flavorText": "\"Solo los dignos pueden pasar\".",
+            "identifiers": {
+              "multiverseId": "685209",
+              "scryfallId": "1b11b055-082e-4607-8545-28faa2c0c79b"
+            },
+            "language": "Spanish",
+            "multiverseId": 685209,
+            "name": "Valkiria denodada",
+            "skuIds": {
+              "nonfoil": "2546ffa9-2582-5d0e-b1b1-31ba0d412d58"
+            },
+            "text": "Puedes pagar {1}{W} y exiliar una carta de criatura de tu cementerio en vez de pagar el coste de maná de este hechizo.\nVuela.",
+            "type": "Criatura — Guerrero ángel",
+            "uuid": "fdb126e2-a960-5e30-8339-c71e3becdd93"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305407",
           "cardsphereId": "131355",
@@ -1713,6 +1896,7 @@
         "name": "Stalwart Valkyrie",
         "number": "258",
         "originalText": "You may pay {1}{W} and exile a creature card from your graveyard rather than pay this spell's mana cost.\nFlying",
+        "originalType": "Creature – Angel Warrior",
         "power": "3",
         "printings": [
           "J22",
@@ -1740,9 +1924,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5ff31cdf-c213-5213-ac64-ee96699483c7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1776,39 +1965,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 3352,
+        "edhrecRank": 3225,
         "edhrecSaltiness": 0.13,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Before she is admitted to the host of Starnheim, a young valkyrie must learn a thousand tales of her ancestors.",
         "foreignData": [
-          {
-            "flavorText": "Bevor sie in die Heerscharen von Starnheim aufgenommen wird, muss eine junge Walküre tausend Geschichten ihrer Vorfahren lernen.",
-            "identifiers": {
-              "multiverseId": "685107",
-              "scryfallId": "af161f77-fd5c-4e35-a271-7bfb43c924b7"
-            },
-            "language": "German",
-            "multiverseId": 685107,
-            "name": "Jugendliche Walküre",
-            "text": "Fliegend\nImmer wenn ein anderer Engel unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf die Jugendliche Walküre.",
-            "type": "Kreatur — Engel",
-            "uuid": "5351ac45-7ca0-5395-b172-e95efdfc4940"
-          },
-          {
-            "flavorText": "Antes de poder ser admitida en la hueste del Starnheim, una valkiria joven debe aprender mil historias de sus ancestras.",
-            "identifiers": {
-              "multiverseId": "685231",
-              "scryfallId": "e348d732-6f9c-4235-a060-fe5eea8b34e2"
-            },
-            "language": "Spanish",
-            "multiverseId": 685231,
-            "name": "Valkiria joven",
-            "text": "Vuela.\nSiempre que otro Ángel que controlas entre, pon un contador +1/+1 sobre la Valkiria joven.",
-            "type": "Criatura — Ángel",
-            "uuid": "22da4d83-152b-5f76-9110-3983da68aca4"
-          },
           {
             "flavorText": "Avant d'être admise dans l'armée de Starnheim, une jeune valkyrie doit apprendre mille récits de ses ancêtres.",
             "identifiers": {
@@ -1818,9 +1981,28 @@
             "language": "French",
             "multiverseId": 685355,
             "name": "Jeune valkyrie",
+            "skuIds": {
+              "nonfoil": "a4ae9b10-1785-5ddc-9a47-830c0594e66b"
+            },
             "text": "Vol\nÀ chaque fois qu'un autre ange que vous contrôlez arrive, mettez un marqueur +1/+1 sur la Jeune valkyrie.",
             "type": "Créature — ange",
             "uuid": "e1a4198a-ad71-5a3e-87e3-0ae7ed3a425a"
+          },
+          {
+            "flavorText": "Bevor sie in die Heerscharen von Starnheim aufgenommen wird, muss eine junge Walküre tausend Geschichten ihrer Vorfahren lernen.",
+            "identifiers": {
+              "multiverseId": "685107",
+              "scryfallId": "af161f77-fd5c-4e35-a271-7bfb43c924b7"
+            },
+            "language": "German",
+            "multiverseId": 685107,
+            "name": "Jugendliche Walküre",
+            "skuIds": {
+              "nonfoil": "898c8194-5332-57e4-a6d5-70880eaf8232"
+            },
+            "text": "Fliegend\nImmer wenn ein anderer Engel unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf die Jugendliche Walküre.",
+            "type": "Kreatur — Engel",
+            "uuid": "5351ac45-7ca0-5395-b172-e95efdfc4940"
           },
           {
             "flavorText": "Prima di essere ammessa nella schiera di Starnheim, una giovane valchiria deve apprendere un migliaio di racconti sulle sue antenate.",
@@ -1831,6 +2013,9 @@
             "language": "Italian",
             "multiverseId": 685479,
             "name": "Valchiria Giovane",
+            "skuIds": {
+              "nonfoil": "2bee7ecb-1f48-5a19-9b08-605f9d93f476"
+            },
             "text": "Volare\nOgniqualvolta un altro Angelo che controlli entra, metti un segnalino +1/+1 sulla Valchiria Giovane.",
             "type": "Creatura — Angelo",
             "uuid": "75ae6552-df53-5c9e-b159-977bf2ec30bc"
@@ -1844,14 +2029,31 @@
             "language": "Japanese",
             "multiverseId": 685603,
             "name": "若年の戦乙女",
+            "skuIds": {
+              "nonfoil": "89bcc023-962f-58b6-8803-3ef8e41d7d42"
+            },
             "text": "飛行\nあなたがコントロールしていてこれでない天使１体が戦場に出るたび、若年の戦乙女の上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — 天使",
             "uuid": "2fd5a532-2419-5037-8379-8c34760781da"
+          },
+          {
+            "flavorText": "Antes de poder ser admitida en la hueste del Starnheim, una valkiria joven debe aprender mil historias de sus ancestras.",
+            "identifiers": {
+              "multiverseId": "685231",
+              "scryfallId": "e348d732-6f9c-4235-a060-fe5eea8b34e2"
+            },
+            "language": "Spanish",
+            "multiverseId": 685231,
+            "name": "Valkiria joven",
+            "skuIds": {
+              "nonfoil": "fd50b430-0221-56a5-8f50-12501eb5b68f"
+            },
+            "text": "Vuela.\nSiempre que otro Ángel que controlas entre, pon un contador +1/+1 sobre la Valkiria joven.",
+            "type": "Criatura — Ángel",
+            "uuid": "22da4d83-152b-5f76-9110-3983da68aca4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305429",
           "cardsphereId": "131345",
@@ -1897,6 +2099,7 @@
         "name": "Youthful Valkyrie",
         "number": "280",
         "originalText": "Flying\nWhenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie.",
+        "originalType": "Creature – Angel",
         "power": "1",
         "printings": [
           "FDN",
@@ -1912,9 +2115,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cfcf7ba0-b05a-5d28-9470-6424cc547d8a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1945,36 +2153,12 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1278,
+        "edhrecRank": 1354,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684055",
-              "scryfallId": "48d207b3-f364-4a7d-8913-fda3c9114a60"
-            },
-            "language": "German",
-            "multiverseId": 684055,
-            "name": "Abgelegene Steppe",
-            "text": "Die Abgelegene Steppe kommt getappt ins Spiel.\n{T}: Erzeuge {W}.\nUmwandlung {W} ({W}, wirf diese Karte ab: Ziehe eine Karte.)",
-            "type": "Land",
-            "uuid": "026771a0-1505-57d7-858e-93ac6d1c5dfa"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684094",
-              "scryfallId": "38d3e101-2369-4b5c-9c34-5469d80cb2ba"
-            },
-            "language": "Spanish",
-            "multiverseId": 684094,
-            "name": "Estepa aislada",
-            "text": "La Estepa aislada entra girada.\n{T}: Agrega {W}.\nCiclo {W}. ({W}, descartar esta carta: Roba una carta.)",
-            "type": "Tierra",
-            "uuid": "295c78c1-d895-5ae3-ab0f-e42ac6fcb4df"
-          },
           {
             "identifiers": {
               "multiverseId": "684133",
@@ -1983,9 +2167,27 @@
             "language": "French",
             "multiverseId": 684133,
             "name": "Steppes retirées",
+            "skuIds": {
+              "nonfoil": "9d5c3a1f-510c-502c-befa-2802aabf5c67"
+            },
             "text": "Les Steppes retirées arrivent engagées.\n{T} : Ajoutez {W}.\nRecyclage {W} ({W}, défaussez-vous de cette carte : Piochez une carte.)",
             "type": "Terrain",
             "uuid": "031a633a-a729-5059-8213-3e6d1566b747"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684055",
+              "scryfallId": "48d207b3-f364-4a7d-8913-fda3c9114a60"
+            },
+            "language": "German",
+            "multiverseId": 684055,
+            "name": "Abgelegene Steppe",
+            "skuIds": {
+              "nonfoil": "99643821-7fb3-550c-bd73-d7b92e1d7255"
+            },
+            "text": "Die Abgelegene Steppe kommt getappt ins Spiel.\n{T}: Erzeuge {W}.\nUmwandlung {W} ({W}, wirf diese Karte ab: Ziehe eine Karte.)",
+            "type": "Land",
+            "uuid": "026771a0-1505-57d7-858e-93ac6d1c5dfa"
           },
           {
             "identifiers": {
@@ -1995,6 +2197,9 @@
             "language": "Italian",
             "multiverseId": 684172,
             "name": "Steppa Isolata",
+            "skuIds": {
+              "nonfoil": "28e682a5-4b28-522d-a1c0-cac7aa288fc6"
+            },
             "text": "La Steppa Isolata entra TAPpata.\n{T}: Aggiungi {W}.\nCiclo {W} ({W}, Scarta questa carta: Pesca una carta.)",
             "type": "Terra",
             "uuid": "1b4c9669-3abb-5b60-bc93-7ad207e67492"
@@ -2007,14 +2212,30 @@
             "language": "Japanese",
             "multiverseId": 684211,
             "name": "隔離されたステップ",
+            "skuIds": {
+              "nonfoil": "3d22e4d3-4df1-58ef-a87c-c8a137cedcae"
+            },
             "text": "隔離されたステップはタップ状態で戦場に出る。\n{T}：{W}を加える。\nサイクリング{W}（{W}, このカードを捨てる：カード１枚を引く。）",
             "type": "土地",
             "uuid": "ea46563e-8419-54b0-9bd0-284e7f00041c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684094",
+              "scryfallId": "38d3e101-2369-4b5c-9c34-5469d80cb2ba"
+            },
+            "language": "Spanish",
+            "multiverseId": 684094,
+            "name": "Estepa aislada",
+            "skuIds": {
+              "nonfoil": "dde74b85-b820-5888-b545-4e5518cf94f6"
+            },
+            "text": "La Estepa aislada entra girada.\n{T}: Agrega {W}.\nCiclo {W}. ({W}, descartar esta carta: Roba una carta.)",
+            "type": "Tierra",
+            "uuid": "295c78c1-d895-5ae3-ab0f-e42ac6fcb4df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306113",
           "cardsphereId": "130631",
@@ -2059,6 +2280,7 @@
         "name": "Secluded Steppe",
         "number": "774",
         "originalText": "Secluded Steppe enters tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+        "originalType": "Land",
         "printings": [
           "ARC",
           "C13",
@@ -2085,6 +2307,9 @@
           "VMA",
           "WC04"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/7878a24a001ef25d",
           "cardmarket": "https://mtgjson.com/links/b0cff1280d96aa89",
@@ -2092,9 +2317,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f6edd419-8a6e-54df-957f-d0f3b4879e32"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2122,39 +2352,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1164,
+        "edhrecRank": 1092,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Wildflowers here bloom not with the season but with the ebb and flow of magic.",
         "foreignData": [
-          {
-            "flavorText": "Die Blüte der Wildblumen richtet sich hier nicht nach den Jahreszeiten, sondern nach den Gezeiten der Magie.",
-            "identifiers": {
-              "multiverseId": "684058",
-              "scryfallId": "76eefcea-75cd-4a7d-80f7-d22c721b7ef6"
-            },
-            "language": "German",
-            "multiverseId": 684058,
-            "name": "Gedeihende Heide",
-            "text": "Die Gedeihende Heide kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Weiß.\n{T}: Erzeuge {W} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "4877a2f5-4ccc-57d0-951d-eae067ee2b28"
-          },
-          {
-            "flavorText": "Las flores salvajes de aquí no florecen según las estaciones, sino según los altibajos y el flujo de la magia.",
-            "identifiers": {
-              "multiverseId": "684097",
-              "scryfallId": "86671d6e-1736-425e-8737-98ccc08955fa"
-            },
-            "language": "Spanish",
-            "multiverseId": 684097,
-            "name": "Brezal floreciente",
-            "text": "El Brezal floreciente entra girado. En cuanto entre, elige un color que no sea blanco.\n{T}: Agrega {W} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "87d0a20f-903b-552b-abd4-0a2c5cbe7818"
-          },
           {
             "flavorText": "Ici, les fleurs sauvages s'épanouissent non pas au gré des saisons mais au gré des flux de magie.",
             "identifiers": {
@@ -2164,9 +2368,28 @@
             "language": "French",
             "multiverseId": 684136,
             "name": "Prairie prospère",
+            "skuIds": {
+              "nonfoil": "f58f17d4-623e-507d-8939-850b8d06ff7b"
+            },
             "text": "La Prairie prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le blanc.\n{T} : Ajoutez {W} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "9c771c5d-1978-5014-9a64-15ad2532641a"
+          },
+          {
+            "flavorText": "Die Blüte der Wildblumen richtet sich hier nicht nach den Jahreszeiten, sondern nach den Gezeiten der Magie.",
+            "identifiers": {
+              "multiverseId": "684058",
+              "scryfallId": "76eefcea-75cd-4a7d-80f7-d22c721b7ef6"
+            },
+            "language": "German",
+            "multiverseId": 684058,
+            "name": "Gedeihende Heide",
+            "skuIds": {
+              "nonfoil": "85fe1b89-5f94-5a47-8bb2-240d8688aceb"
+            },
+            "text": "Die Gedeihende Heide kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Weiß.\n{T}: Erzeuge {W} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "4877a2f5-4ccc-57d0-951d-eae067ee2b28"
           },
           {
             "flavorText": "I fiori selvatici qui non sbocciano in base alle stagioni, ma seguendo il fluire della magia.",
@@ -2177,6 +2400,9 @@
             "language": "Italian",
             "multiverseId": 684175,
             "name": "Brughiera Florida",
+            "skuIds": {
+              "nonfoil": "b321d669-4918-5832-8d82-61d927bdee5e"
+            },
             "text": "La Brughiera Florida entra TAPpata. Mentre entra, scegli un colore diverso dal bianco.\n{T}: Aggiungi {W} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "94cdfa26-1f41-51df-bc91-b87871af2890"
@@ -2190,14 +2416,31 @@
             "language": "Japanese",
             "multiverseId": 684214,
             "name": "興隆する荒野",
+            "skuIds": {
+              "nonfoil": "11ec8437-e5d2-5250-bb7d-36717c5321fa"
+            },
             "text": "興隆する荒野はタップ状態で戦場に出る。これが戦場に出るに際し、白でない色１色を選ぶ。\n{T}：{W}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "b1ff6a84-aa05-5678-87f7-f251cc74db3e"
+          },
+          {
+            "flavorText": "Las flores salvajes de aquí no florecen según las estaciones, sino según los altibajos y el flujo de la magia.",
+            "identifiers": {
+              "multiverseId": "684097",
+              "scryfallId": "86671d6e-1736-425e-8737-98ccc08955fa"
+            },
+            "language": "Spanish",
+            "multiverseId": 684097,
+            "name": "Brezal floreciente",
+            "skuIds": {
+              "nonfoil": "ee08a62d-7902-5275-b15a-44f0d599cfc2"
+            },
+            "text": "El Brezal floreciente entra girado. En cuanto entre, elige un color que no sea blanco.\n{T}: Agrega {W} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "87d0a20f-903b-552b-abd4-0a2c5cbe7818"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306116",
           "cardsphereId": "130628",
@@ -2235,12 +2478,14 @@
         "name": "Thriving Heath",
         "number": "777",
         "originalText": "Thriving Heath enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2250,6 +2495,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b4711fb2de3fc55c",
           "cardmarket": "https://mtgjson.com/links/46672c2f8a92ebbd",
@@ -2257,9 +2509,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ec36093e-91bf-5847-a6f9-09b7d5094636"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2294,36 +2551,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681251",
-              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
-            },
-            "language": "German",
-            "multiverseId": 681251,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681266",
-              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
-            },
-            "language": "Spanish",
-            "multiverseId": 681266,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681281",
               "scryfallId": "c8902983-76fe-4317-93cb-78579bb4af32"
             },
             "language": "French",
             "multiverseId": 681281,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "1f5f2a2f-8bce-50b4-a9b1-0ba1cd6a6206"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "9e496ba0-d6e9-57c3-b0b3-7331c6cf6150"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681251",
+              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
+            },
+            "language": "German",
+            "multiverseId": 681251,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "5ca1f722-3338-5594-9182-be880a4f68b7"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
           },
           {
             "identifiers": {
@@ -2333,6 +2585,9 @@
             "language": "Italian",
             "multiverseId": 681296,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "2322dfe9-c07e-5a3d-9489-1adda783e79a"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "0e2fcf8f-c501-5f0d-820e-d29f729ab24a"
           },
@@ -2344,18 +2599,34 @@
             "language": "Japanese",
             "multiverseId": 681311,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "8a017051-9191-5b68-b216-a67886175218"
+            },
             "type": "基本土地 — 平地",
             "uuid": "41b50bca-41f0-59a5-91c4-58db101ed5b7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681266",
+              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
+            },
+            "language": "Spanish",
+            "multiverseId": 681266,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "db5a270e-cbf9-5d5d-af7f-c91fd19aea5e"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305215",
           "cardsphereId": "131371",
           "deckboxId": "98075",
           "mcmId": "795502",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95166",
           "mtgjsonV4Id": "764e86d5-2162-595b-95de-e2463c0a19a7",
           "multiverseId": "681236",
@@ -2368,7 +2639,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2396,6 +2666,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "81",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -2464,6 +2735,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2552,6 +2824,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -2624,15 +2897,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/558b1ae7ab7b8dc8",
+          "cardmarket": "https://mtgjson.com/links/f4e5bee6e13f2a5e",
           "tcgplayer": "https://mtgjson.com/links/0ce8ff1a7f67b11f"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bc1560d9-0d7f-51db-8e3b-7290090a185d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2648,8 +2930,8 @@
         ],
         "uuid": "ca9d5ba3-483e-5365-83c1-e49431ab2674",
         "variations": [
-          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854",
-          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa"
+          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa",
+          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854"
         ]
       },
       {
@@ -2675,36 +2957,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681252",
-              "scryfallId": "ed9080ea-1b42-4b1a-9b8a-671d1ea6b613"
-            },
-            "language": "German",
-            "multiverseId": 681252,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "9679fbc5-6474-5732-921b-77cf15c2392f"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681267",
-              "scryfallId": "e5ad40e9-7ea4-48b9-9419-27f3b0a26e7d"
-            },
-            "language": "Spanish",
-            "multiverseId": 681267,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "c2594087-80f9-5aa3-a51e-af8f08355cee"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681282",
               "scryfallId": "bb7b39f7-4942-42e8-8731-4320ab678aab"
             },
             "language": "French",
             "multiverseId": 681282,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "4ec3e238-a483-57e9-83d0-5c7f9bc8fbb3"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "8c657279-7cc3-5a38-9336-844e6b61bb26"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681252",
+              "scryfallId": "ed9080ea-1b42-4b1a-9b8a-671d1ea6b613"
+            },
+            "language": "German",
+            "multiverseId": 681252,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "a364f14d-efe9-524c-8eeb-3e38fb630803"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "9679fbc5-6474-5732-921b-77cf15c2392f"
           },
           {
             "identifiers": {
@@ -2714,6 +2991,9 @@
             "language": "Italian",
             "multiverseId": 681297,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "da36f5d2-8641-5474-975d-36201a535607"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "d3c38c32-019c-502f-bf71-4728e8de3f7e"
           },
@@ -2725,18 +3005,34 @@
             "language": "Japanese",
             "multiverseId": 681312,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "a33e9aae-c63d-5c85-ac19-990aa8bf5cd5"
+            },
             "type": "基本土地 — 平地",
             "uuid": "b3ce13ad-f83f-5954-9b42-e121f2b61ae3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681267",
+              "scryfallId": "e5ad40e9-7ea4-48b9-9419-27f3b0a26e7d"
+            },
+            "language": "Spanish",
+            "multiverseId": 681267,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "605c47f6-cb9e-5b12-ba0f-2c0ceb565988"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "c2594087-80f9-5aa3-a51e-af8f08355cee"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305216",
           "cardsphereId": "131372",
           "deckboxId": "98076",
           "mcmId": "795503",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95167",
           "mtgjsonV4Id": "a37b239a-d72e-5449-8712-f1b851a927b3",
           "multiverseId": "681237",
@@ -2749,7 +3045,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2777,6 +3072,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "82",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -2845,6 +3141,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2933,6 +3230,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -3005,15 +3303,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b6b74ddfa6d0586b",
+          "cardmarket": "https://mtgjson.com/links/b365b90c9e736ac9",
           "tcgplayer": "https://mtgjson.com/links/225a7f7b6285b8f0"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1db1c4bc-b10a-5372-84aa-4c6dd18ce629"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3029,8 +3336,8 @@
         ],
         "uuid": "e1476e4a-4ec6-54d1-a0b2-76e0936fc854",
         "variations": [
-          "ca9d5ba3-483e-5365-83c1-e49431ab2674",
-          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa"
+          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa",
+          "ca9d5ba3-483e-5365-83c1-e49431ab2674"
         ]
       },
       {
@@ -3056,36 +3363,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681253",
-              "scryfallId": "f0cb8e25-f437-4de9-b903-4f007eae3157"
-            },
-            "language": "German",
-            "multiverseId": 681253,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "218329d2-67b7-59b1-b5d6-292f514d2916"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681268",
-              "scryfallId": "dec08335-6b08-46c5-83f5-9ae1247b6cd9"
-            },
-            "language": "Spanish",
-            "multiverseId": 681268,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "f9a3fdb4-22ad-5c9e-beff-9c580ee48552"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681283",
               "scryfallId": "738a3321-81f4-4de1-9b9a-bb8281b341ab"
             },
             "language": "French",
             "multiverseId": 681283,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "c9085a9a-e3e2-5e72-9038-70fc4321cd72"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "4b643cbc-6d89-57d5-8933-2902789d00cc"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681253",
+              "scryfallId": "f0cb8e25-f437-4de9-b903-4f007eae3157"
+            },
+            "language": "German",
+            "multiverseId": 681253,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "17989a19-b8af-5bbd-8f19-33df6d6465bc"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "218329d2-67b7-59b1-b5d6-292f514d2916"
           },
           {
             "identifiers": {
@@ -3095,6 +3397,9 @@
             "language": "Italian",
             "multiverseId": 681298,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "ae5907d4-deac-5853-bde2-592a76d2c23d"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "e48f506d-f331-5498-a532-b2974c97d570"
           },
@@ -3106,18 +3411,34 @@
             "language": "Japanese",
             "multiverseId": 681313,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "01639160-0883-593e-8e77-cd09b5ff060e"
+            },
             "type": "基本土地 — 平地",
             "uuid": "7ae8ceba-b735-5bff-93fb-00570217b93a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681268",
+              "scryfallId": "dec08335-6b08-46c5-83f5-9ae1247b6cd9"
+            },
+            "language": "Spanish",
+            "multiverseId": 681268,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "9013722e-a85a-5280-8cfd-12b2e56e9701"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "f9a3fdb4-22ad-5c9e-beff-9c580ee48552"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305217",
           "cardsphereId": "131373",
           "deckboxId": "98077",
           "mcmId": "795504",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95168",
           "mtgjsonV4Id": "b5b69680-31af-56de-847a-2f3eaf8f78d9",
           "multiverseId": "681238",
@@ -3130,7 +3451,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3158,6 +3478,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "83",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -3226,6 +3547,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3314,6 +3636,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -3386,15 +3709,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6401ee86c7c6c80d",
+          "cardmarket": "https://mtgjson.com/links/934778c3295b3d7d",
           "tcgplayer": "https://mtgjson.com/links/af2785d2abe185bd"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "be914aed-834a-543d-a085-1ba611c93305"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3426,5 +3758,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "4e7eee24b94c13"
   }
 }

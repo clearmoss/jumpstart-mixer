@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "d03ad4f700e864"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,39 +23,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 480,
+        "edhrecRank": 495,
         "edhrecSaltiness": 0.95,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Oppose us and die a heretic. Join us and be blessed with immortality.\"",
         "foreignData": [
-          {
-            "flavorText": "„Widersetze dich uns und stirb als Ketzer. Schließe dich uns an und du wirst mit Unsterblichkeit gesegnet.\"",
-            "identifiers": {
-              "multiverseId": "681130",
-              "scryfallId": "36f14b52-1a97-4162-a0a4-08427a0c2a26"
-            },
-            "language": "German",
-            "multiverseId": 681130,
-            "name": "Vito, Dorn der Rose des Zwielichts",
-            "text": "Immer wenn du Lebenspunkte dazuerhältst, verliert ein Gegner deiner Wahl entsprechend viele Lebenspunkte.\n{3}{B}{B}: Kreaturen, die du kontrollierst, erhalten Lebensverknüpfung bis zum Ende des Zuges.",
-            "type": "Legendäre Kreatur — Vampir, Kleriker",
-            "uuid": "57cc62b5-50a3-56c4-afd4-3dacd23798fc"
-          },
-          {
-            "flavorText": "\"Si te nos opones, morirás como hereje. Si te unes a nosotros, recibirás la bendición de la inmortalidad\".",
-            "identifiers": {
-              "multiverseId": "681154",
-              "scryfallId": "c743690f-369f-409b-ae96-faeda1676d45"
-            },
-            "language": "Spanish",
-            "multiverseId": 681154,
-            "name": "Vito, Espina de la Rosa del Crepúsculo",
-            "text": "Siempre que ganes vidas, el oponente objetivo pierde esa misma cantidad de vidas.\n{3}{B}{B}: Las criaturas que controlas ganan la habilidad de vínculo vital hasta el final del turno.",
-            "type": "Criatura legendaria — Clérigo vampiro",
-            "uuid": "42103e2b-63b8-58c3-9963-bdd1afb5eafd"
-          },
           {
             "flavorText": "« Opposez-vous à nous et vous mourrez comme un hérétique. Rejoignez-nous et vous goûterez à l'immortalité. »",
             "identifiers": {
@@ -70,9 +39,28 @@
             "language": "French",
             "multiverseId": 681178,
             "name": "Vito, Épine de la Rose du crépuscule",
+            "skuIds": {
+              "nonfoil": "b40f0fa3-2168-55e7-8e08-def9e8a56f90"
+            },
             "text": "À chaque fois que vous gagnez des points de vie, un adversaire ciblé perd autant de points de vie.\n{3}{B}{B} : Les créatures que vous contrôlez acquièrent le lien de vie jusqu'à la fin du tour.",
             "type": "Créature légendaire — vampire et clerc",
             "uuid": "b4659a67-ec26-5a56-922d-c6e3f1edba44"
+          },
+          {
+            "flavorText": "„Widersetze dich uns und stirb als Ketzer. Schließe dich uns an und du wirst mit Unsterblichkeit gesegnet.\"",
+            "identifiers": {
+              "multiverseId": "681130",
+              "scryfallId": "36f14b52-1a97-4162-a0a4-08427a0c2a26"
+            },
+            "language": "German",
+            "multiverseId": 681130,
+            "name": "Vito, Dorn der Rose des Zwielichts",
+            "skuIds": {
+              "nonfoil": "0df438b8-e8a5-5bc3-a96d-e6f7a5d493d3"
+            },
+            "text": "Immer wenn du Lebenspunkte dazuerhältst, verliert ein Gegner deiner Wahl entsprechend viele Lebenspunkte.\n{3}{B}{B}: Kreaturen, die du kontrollierst, erhalten Lebensverknüpfung bis zum Ende des Zuges.",
+            "type": "Legendäre Kreatur — Vampir, Kleriker",
+            "uuid": "57cc62b5-50a3-56c4-afd4-3dacd23798fc"
           },
           {
             "flavorText": "\"Opponiti a noi e muori come eretico. Unisciti a noi e sarai benedetto dall'immortalità.\"",
@@ -83,6 +71,9 @@
             "language": "Italian",
             "multiverseId": 681202,
             "name": "Vitor, Spina della Rosa del Vespro",
+            "skuIds": {
+              "nonfoil": "3861e34e-f1f5-5c70-a20b-288425f86abe"
+            },
             "text": "Ogniqualvolta guadagni punti vita, un avversario bersaglio perde altrettanti punti vita.\n{3}{B}{B}: Le creature che controlli hanno legame vitale fino alla fine del turno.",
             "type": "Creatura Leggendaria — Chierico Vampiro",
             "uuid": "fbdf0136-f15e-5d0f-b7f0-bd891747dce9"
@@ -96,17 +87,34 @@
             "language": "Japanese",
             "multiverseId": 681226,
             "name": "薄暮薔薇の棘、ヴィト",
+            "skuIds": {
+              "nonfoil": "c284b010-1408-5a1a-aefe-bfd2c6529827"
+            },
             "text": "あなたがライフを得るたび、対戦相手１人を対象とする。そのプレイヤーはその点数に等しい点数のライフを失う。\n{3}{B}{B}：ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは絆魂を得る。",
             "type": "伝説のクリーチャー — 吸血鬼・クレリック",
             "uuid": "bfeb2d9f-3909-51a8-bd97-5c4e289f6ffb"
+          },
+          {
+            "flavorText": "\"Si te nos opones, morirás como hereje. Si te unes a nosotros, recibirás la bendición de la inmortalidad\".",
+            "identifiers": {
+              "multiverseId": "681154",
+              "scryfallId": "c743690f-369f-409b-ae96-faeda1676d45"
+            },
+            "language": "Spanish",
+            "multiverseId": 681154,
+            "name": "Vito, Espina de la Rosa del Crepúsculo",
+            "skuIds": {
+              "nonfoil": "a64233a7-5a6b-5241-8d67-ee711ed86b8e"
+            },
+            "text": "Siempre que ganes vidas, el oponente objetivo pierde esa misma cantidad de vidas.\n{3}{B}{B}: Las criaturas que controlas ganan la habilidad de vínculo vital hasta el final del turno.",
+            "type": "Criatura legendaria — Clérigo vampiro",
+            "uuid": "42103e2b-63b8-58c3-9963-bdd1afb5eafd"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305205",
           "cardsphereId": "130879",
@@ -126,7 +134,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -153,6 +160,7 @@
         "name": "Vito, Thorn of the Dusk Rose",
         "number": "71",
         "originalText": "Whenever you gain life, target opponent loses that much life.\n{3}{B}{B}: Creatures you control gain lifelink until end of turn.",
+        "originalType": "Legendary Creature – Vampire Cleric",
         "power": "1",
         "printings": [
           "J22",
@@ -194,9 +202,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "11b6ac53-99fd-5b02-9e70-a08054106849"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -233,39 +246,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 20029,
+        "edhrecRank": 19593,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Arise, sister. Our journey has only just begun.\"",
         "foreignData": [
-          {
-            "flavorText": "„Erhebe dich, Schwester. Unsere Reise hat gerade erst begonnen.\"",
-            "identifiers": {
-              "multiverseId": "681364",
-              "scryfallId": "908a0a32-96ef-44a6-9782-04e2989f7407"
-            },
-            "language": "German",
-            "multiverseId": 681364,
-            "name": "Ableben aberkennen",
-            "text": "Dieser Zauberspruch kostet beim Wirken {2} weniger, falls er eine Kreaturenkarte mit Manabetrag 3 oder weniger als Ziel hat.\nBringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Du erhältst 2 Lebenspunkte dazu.",
-            "type": "Hexerei",
-            "uuid": "76cb775f-bc29-534e-a8ec-3eb5c3c0c664"
-          },
-          {
-            "flavorText": "\"Álzate, hermana. Esto es tan solo el principio de nuestro viaje\".",
-            "identifiers": {
-              "multiverseId": "681393",
-              "scryfallId": "ee2384d9-0270-46a2-b8fd-c8bdf2a41369"
-            },
-            "language": "Spanish",
-            "multiverseId": 681393,
-            "name": "Revocar la muerte",
-            "text": "Te cuesta {2} menos lanzar este hechizo si hace objetivo a una carta de criatura con valor de maná de 3 o menos.\nRegresa la carta de criatura objetivo de tu cementerio al campo de batalla. Ganas 2 vidas.",
-            "type": "Conjuro",
-            "uuid": "d84c30f6-1b8c-5855-be6d-6a51dcc60201"
-          },
           {
             "flavorText": "« Lève-toi, toi qui es notre sœur. Notre voyage ne fait que commencer. »",
             "identifiers": {
@@ -275,9 +262,28 @@
             "language": "French",
             "multiverseId": 681422,
             "name": "Révocation du décès",
+            "skuIds": {
+              "nonfoil": "48cf4190-0f1f-5dfc-9914-172b3d42cb4e"
+            },
             "text": "Ce sort coûte {2} de moins à lancer s'il cible une carte de créature avec une valeur de mana inférieure ou égale à 3.\nRenvoyez sur le champ de bataille une carte de créature ciblée depuis votre cimetière. Vous gagnez 2 points de vie.",
             "type": "Rituel",
             "uuid": "03a697e4-5335-514a-90c6-78f3461c24f8"
+          },
+          {
+            "flavorText": "„Erhebe dich, Schwester. Unsere Reise hat gerade erst begonnen.\"",
+            "identifiers": {
+              "multiverseId": "681364",
+              "scryfallId": "908a0a32-96ef-44a6-9782-04e2989f7407"
+            },
+            "language": "German",
+            "multiverseId": 681364,
+            "name": "Ableben aberkennen",
+            "skuIds": {
+              "nonfoil": "64055cac-e9d8-50e9-927f-6b6eaa2f2e24"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken {2} weniger, falls er eine Kreaturenkarte mit Manabetrag 3 oder weniger als Ziel hat.\nBringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Du erhältst 2 Lebenspunkte dazu.",
+            "type": "Hexerei",
+            "uuid": "76cb775f-bc29-534e-a8ec-3eb5c3c0c664"
           },
           {
             "flavorText": "\"Alzati, sorella. Il nostro viaggio è appena iniziato.\"",
@@ -288,6 +294,9 @@
             "language": "Italian",
             "multiverseId": 681451,
             "name": "Revocare la Dipartita",
+            "skuIds": {
+              "nonfoil": "2db30941-297a-53ca-b868-79295fef8a45"
+            },
             "text": "Questa magia costa {2} in meno per essere lanciata se bersaglia una carta creatura con valore di mana pari o inferiore a 3.\nRimetti sul campo di battaglia una carta creatura bersaglio dal tuo cimitero. Guadagni 2 punti vita.",
             "type": "Stregoneria",
             "uuid": "2e9d2349-cb96-5532-a2a9-cff1013a5c7f"
@@ -301,14 +310,31 @@
             "language": "Japanese",
             "multiverseId": 681480,
             "name": "死者の呼び戻し",
+            "skuIds": {
+              "nonfoil": "56730a89-d732-50d9-8656-49d5f55778e7"
+            },
             "text": "この呪文がマナ総量が３以下であるクリーチャー・カードを対象とするなら、この呪文を唱えるためのコストは{2}少なくなる。\nあなたの墓地にあるクリーチャー・カード１枚を対象とする。それを戦場に戻す。あなたは２点のライフを得る。",
             "type": "ソーサリー",
             "uuid": "dde775c5-9544-5b13-a990-0aada5c1d180"
+          },
+          {
+            "flavorText": "\"Álzate, hermana. Esto es tan solo el principio de nuestro viaje\".",
+            "identifiers": {
+              "multiverseId": "681393",
+              "scryfallId": "ee2384d9-0270-46a2-b8fd-c8bdf2a41369"
+            },
+            "language": "Spanish",
+            "multiverseId": 681393,
+            "name": "Revocar la muerte",
+            "skuIds": {
+              "nonfoil": "ca076ee1-8212-5541-94b5-23721a543e72"
+            },
+            "text": "Te cuesta {2} menos lanzar este hechizo si hace objetivo a una carta de criatura con valor de maná de 3 o menos.\nRegresa la carta de criatura objetivo de tu cementerio al campo de batalla. Ganas 2 vidas.",
+            "type": "Conjuro",
+            "uuid": "d84c30f6-1b8c-5855-be6d-6a51dcc60201"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305144",
           "cardsphereId": "130710",
@@ -327,7 +353,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -348,6 +373,7 @@
         "name": "Revoke Demise",
         "number": "10",
         "originalText": "This spell costs {2} less to cast if it targets a creature card with mana value 3 or less.\nReturn target creature card from your graveyard to the battlefield. You gain 2 life.",
+        "originalType": "Sorcery",
         "printings": [
           "J25"
         ],
@@ -368,9 +394,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "8fd8c56f-925d-5929-a45c-8c8ee8fa0bcf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -400,39 +431,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11848,
+        "edhrecRank": 12124,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"My blood was never my own. I carried it gladly for the Hungering One, and at last she arises to reclaim it.\"",
         "foreignData": [
-          {
-            "flavorText": "„Mein Blut war nie mein Eigentum. Ich verwahrte es nur für die Hungernde, und nun erhebt sie sich endlich, um es einzufordern.\"",
-            "identifiers": {
-              "multiverseId": "681577",
-              "scryfallId": "9e5a2789-29ad-435d-94b0-66679c062a81"
-            },
-            "language": "German",
-            "multiverseId": 681577,
-            "name": "Knochenrufer-Klerikerin",
-            "text": "{3}{B}, opfere die Knochenrufer-Klerikerin: Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Aktiviere diese Fähigkeit wie eine Hexerei.",
-            "type": "Kreatur — Mensch, Kleriker",
-            "uuid": "647308dc-aa8a-5cf7-9abc-3063d5aeaa31"
-          },
-          {
-            "flavorText": "\"Mi sangre nunca fue mía. Me contentaba con guardarla para la Hambrienta, que, por fin, se alza para recuperarla\".",
-            "identifiers": {
-              "multiverseId": "681638",
-              "scryfallId": "5febf443-3045-4c3c-a945-3a3343f84e59"
-            },
-            "language": "Spanish",
-            "multiverseId": 681638,
-            "name": "Clériga reclamahuesos",
-            "text": "{3}{B}, sacrificar la Clériga reclamahuesos: Regresa la carta de criatura objetivo de tu cementerio al campo de batalla. Activa esto solo como un conjuro.",
-            "type": "Criatura — Clérigo humano",
-            "uuid": "3731175e-d359-596b-8721-b3a6c9808a80"
-          },
           {
             "flavorText": "« Mon sang ne m'a jamais appartenu. Je l'ai fièrement porté pour Celle-qui-est-affamée, et enfin elle revient pour le récupérer. »",
             "identifiers": {
@@ -442,9 +447,28 @@
             "language": "French",
             "multiverseId": 681699,
             "name": "Clerc meneuse d'os",
+            "skuIds": {
+              "nonfoil": "cfbdc034-019c-56b0-8c72-1a5f23093632"
+            },
             "text": "{3}{B}, sacrifiez la Clerc meneuse d'os : Renvoyez sur le champ de bataille une carte de créature ciblée depuis votre cimetière. N'activez que lorsque vous pourriez lancer un rituel.",
             "type": "Créature — humain et clerc",
             "uuid": "a064588f-d48d-5cf2-8b71-c126e11f7a04"
+          },
+          {
+            "flavorText": "„Mein Blut war nie mein Eigentum. Ich verwahrte es nur für die Hungernde, und nun erhebt sie sich endlich, um es einzufordern.\"",
+            "identifiers": {
+              "multiverseId": "681577",
+              "scryfallId": "9e5a2789-29ad-435d-94b0-66679c062a81"
+            },
+            "language": "German",
+            "multiverseId": 681577,
+            "name": "Knochenrufer-Klerikerin",
+            "skuIds": {
+              "nonfoil": "4601d62e-a735-55a4-960d-3b2253815a19"
+            },
+            "text": "{3}{B}, opfere die Knochenrufer-Klerikerin: Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Aktiviere diese Fähigkeit wie eine Hexerei.",
+            "type": "Kreatur — Mensch, Kleriker",
+            "uuid": "647308dc-aa8a-5cf7-9abc-3063d5aeaa31"
           },
           {
             "flavorText": "\"Il mio sangue non è mai stato mio. L'ho portato volentieri per l'Affamata e infine lei è sorta per rivendicarlo.\"",
@@ -455,6 +479,9 @@
             "language": "Italian",
             "multiverseId": 681760,
             "name": "Chierica Convocaossa",
+            "skuIds": {
+              "nonfoil": "3b6fb359-d5c4-50aa-9d72-7b399efebfdd"
+            },
             "text": "{3}{B}, Sacrifica la Chierica Convocaossa: Rimetti sul campo di battaglia una carta creatura bersaglio dal tuo cimitero. Attiva solo come una stregoneria.",
             "type": "Creatura — Chierico Umano",
             "uuid": "4796e3f5-0f46-5c76-87f1-db8636ec8245"
@@ -468,14 +495,31 @@
             "language": "Japanese",
             "multiverseId": 681821,
             "name": "骨呼びのクレリック",
+            "skuIds": {
+              "nonfoil": "7eed9eab-ab1e-5b9e-a13d-e93ab68536b2"
+            },
             "text": "{3}{B}, 骨呼びのクレリックを生け贄に捧げる：あなたの墓地にあるクリーチャー・カード１枚を対象とする。それを戦場に戻す。起動はソーサリーとしてのみ行う。",
             "type": "クリーチャー — 人間・クレリック",
             "uuid": "d730a745-e0d8-5a55-9c79-b8e09564aece"
+          },
+          {
+            "flavorText": "\"Mi sangre nunca fue mía. Me contentaba con guardarla para la Hambrienta, que, por fin, se alza para recuperarla\".",
+            "identifiers": {
+              "multiverseId": "681638",
+              "scryfallId": "5febf443-3045-4c3c-a945-3a3343f84e59"
+            },
+            "language": "Spanish",
+            "multiverseId": 681638,
+            "name": "Clériga reclamahuesos",
+            "skuIds": {
+              "nonfoil": "83ee624a-9419-523d-942f-52160fd9e1b9"
+            },
+            "text": "{3}{B}, sacrificar la Clériga reclamahuesos: Regresa la carta de criatura objetivo de tu cementerio al campo de batalla. Activa esto solo como un conjuro.",
+            "type": "Criatura — Clérigo humano",
+            "uuid": "3731175e-d359-596b-8721-b3a6c9808a80"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305246",
           "cardsphereId": "130927",
@@ -494,7 +538,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -513,6 +556,7 @@
         "name": "Bonecaller Cleric",
         "number": "112",
         "originalText": "{3}{B}, Sacrifice Bonecaller Cleric: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.",
+        "originalType": "Creature – Human Cleric",
         "power": "2",
         "printings": [
           "CLB",
@@ -532,9 +576,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5001c341-6153-5121-8ebe-ca0f328d9f0d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -568,39 +617,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 14727,
+        "edhrecRank": 15121,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Under Ormendahl's demonic influence, Bishop Jerren became the perfect agent of bloody blasphemy.",
         "foreignData": [
-          {
-            "flavorText": "Unter dem dämonischen Einfluss Ormendahls wurde Bischof Jerren zum perfekten Agenten der blutigen Blasphemie.",
-            "identifiers": {
-              "multiverseId": "681578",
-              "scryfallId": "dcbc1ceb-3bff-4e11-8397-1d8cea6fb996"
-            },
-            "language": "German",
-            "multiverseId": 681578,
-            "name": "Düsterer Handel",
-            "text": "Schaue dir die obersten drei Karten deiner Bibliothek an. Nimm zwei davon auf deine Hand und lege die andere auf deinen Friedhof. Der Düstere Handel fügt dir 2 Schadenspunkte zu.",
-            "type": "Spontanzauber",
-            "uuid": "2f003ae7-698e-5915-93cd-093c69df07aa"
-          },
-          {
-            "flavorText": "Bajo la influencia demoníaca de Ormendahl, el obispo Jerren se convirtió en un agente perfecto para la blasfemia sangrienta.",
-            "identifiers": {
-              "multiverseId": "681639",
-              "scryfallId": "187616be-4aa9-4c00-9ca1-d87a2be7a746"
-            },
-            "language": "Spanish",
-            "multiverseId": 681639,
-            "name": "Intercambio oscuro",
-            "text": "Mira las tres primeras cartas de tu biblioteca. Pon dos de ellas en tu mano y la otra en tu cementerio. El Intercambio oscuro te hace 2 puntos de daño.",
-            "type": "Instantáneo",
-            "uuid": "7ecb6df4-8349-5acc-917e-35febcfc7164"
-          },
           {
             "flavorText": "Sous l'influence démoniaque d'Ormendahl, l'évêque Jerren devint l'agent idéal d'un blasphème sanglant.",
             "identifiers": {
@@ -610,9 +633,28 @@
             "language": "French",
             "multiverseId": 681700,
             "name": "Obscur marché",
+            "skuIds": {
+              "nonfoil": "0d9d4aaa-0c1b-5c4e-812d-6f95c9a45d42"
+            },
             "text": "Regardez les trois cartes du dessus de votre bibliothèque. Mettez deux d'entre elles dans votre main et l'autre dans votre cimetière. L'Obscur marché vous inflige 2 blessures.",
             "type": "Éphémère",
             "uuid": "76df18dc-dd1b-544d-ac29-5ad9ea14c0d7"
+          },
+          {
+            "flavorText": "Unter dem dämonischen Einfluss Ormendahls wurde Bischof Jerren zum perfekten Agenten der blutigen Blasphemie.",
+            "identifiers": {
+              "multiverseId": "681578",
+              "scryfallId": "dcbc1ceb-3bff-4e11-8397-1d8cea6fb996"
+            },
+            "language": "German",
+            "multiverseId": 681578,
+            "name": "Düsterer Handel",
+            "skuIds": {
+              "nonfoil": "47d47104-b972-53ee-bcd9-ec6d529667a5"
+            },
+            "text": "Schaue dir die obersten drei Karten deiner Bibliothek an. Nimm zwei davon auf deine Hand und lege die andere auf deinen Friedhof. Der Düstere Handel fügt dir 2 Schadenspunkte zu.",
+            "type": "Spontanzauber",
+            "uuid": "2f003ae7-698e-5915-93cd-093c69df07aa"
           },
           {
             "flavorText": "Sotto l'influenza demoniaca di Ormendahl, il vescovo Jerren divenne l'agente perfetto della blasfemia sanguinosa.",
@@ -623,6 +665,9 @@
             "language": "Italian",
             "multiverseId": 681761,
             "name": "Transazione Oscura",
+            "skuIds": {
+              "nonfoil": "5e5bd2db-08b5-5161-a14b-1514075dd0f1"
+            },
             "text": "Guarda le prime tre carte del tuo grimorio. Aggiungine due alla tua mano e metti l'altra nel tuo cimitero. La Transazione Oscura ti infligge 2 danni.",
             "type": "Istantaneo",
             "uuid": "c60e223c-22c4-5c13-b413-ca817784338a"
@@ -636,14 +681,31 @@
             "language": "Japanese",
             "multiverseId": 681822,
             "name": "闇の取り引き",
+            "skuIds": {
+              "nonfoil": "3781be79-bc99-5587-bc71-b99492ddcded"
+            },
             "text": "あなたのライブラリーの一番上にあるカード３枚を見る。そのうち２枚をあなたの手札に、残りをあなたの墓地に置く。闇の取り引きはあなたに２点のダメージを与える。",
             "type": "インスタント",
             "uuid": "78e7f533-6113-5216-bc86-067c2302e854"
+          },
+          {
+            "flavorText": "Bajo la influencia demoníaca de Ormendahl, el obispo Jerren se convirtió en un agente perfecto para la blasfemia sangrienta.",
+            "identifiers": {
+              "multiverseId": "681639",
+              "scryfallId": "187616be-4aa9-4c00-9ca1-d87a2be7a746"
+            },
+            "language": "Spanish",
+            "multiverseId": 681639,
+            "name": "Intercambio oscuro",
+            "skuIds": {
+              "nonfoil": "bac63faf-377f-5ac1-9855-4903c44a9c4c"
+            },
+            "text": "Mira las tres primeras cartas de tu biblioteca. Pon dos de ellas en tu mano y la otra en tu cementerio. El Intercambio oscuro te hace 2 puntos de daño.",
+            "type": "Instantáneo",
+            "uuid": "7ecb6df4-8349-5acc-917e-35febcfc7164"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305247",
           "cardsphereId": "130928",
@@ -662,7 +724,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -686,6 +747,7 @@
         "name": "Dark Bargain",
         "number": "113",
         "originalText": "Look at the top three cards of your library. Put two of them into your hand and the other into your graveyard. Dark Bargain deals 2 damage to you.",
+        "originalType": "Instant",
         "printings": [
           "DOM",
           "IKO",
@@ -704,9 +766,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ed071a75-cb8c-5ad6-9a0b-72cb144f49c2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -736,39 +803,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 18611,
+        "edhrecRank": 18724,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Your death will take a mere moment, but it will feel like an eternity.\"\n—Vilis, Broker of Blood",
         "foreignData": [
-          {
-            "flavorText": "„Dein Todeskampf wird nur einen Augenblick dauern, aber es wird sich wie eine Ewigkeit anfühlen.\"\n—Vilis, Makler des Blutes",
-            "identifiers": {
-              "multiverseId": "681983",
-              "scryfallId": "93e90908-bc03-492f-ab2e-528f4cd98dba"
-            },
-            "language": "German",
-            "multiverseId": 681983,
-            "name": "Schmerzvolles Absaugen",
-            "text": "Das Schmerzvolle Absaugen fügt einem Ziel deiner Wahl 3 Schadenspunkte zu und du erhältst 3 Lebenspunkte dazu.",
-            "type": "Hexerei",
-            "uuid": "39798549-4229-50ff-8434-5ccea27ce8c1"
-          },
-          {
-            "flavorText": "\"Tu muerte será apenas un momento, pero te parecerá una eternidad\".\n—Vilis, especulador de sangre",
-            "identifiers": {
-              "multiverseId": "682100",
-              "scryfallId": "716ef818-ca82-4ad6-b3d3-451f7d987e72"
-            },
-            "language": "Spanish",
-            "multiverseId": 682100,
-            "name": "Extracción agonizante",
-            "text": "La Extracción agonizante hace 3 puntos de daño a cualquier objetivo y tú ganas 3 vidas.",
-            "type": "Conjuro",
-            "uuid": "1297d834-498f-53f6-8b20-fc2085f8d031"
-          },
           {
             "flavorText": "« Votre mort ne durera qu'un court instant, mais il vous semblera une éternité. »\n—Vilis, courtier de sang",
             "identifiers": {
@@ -778,9 +819,28 @@
             "language": "French",
             "multiverseId": 682217,
             "name": "Siphon d'agonie",
+            "skuIds": {
+              "nonfoil": "ed6ef858-1118-50a3-8a78-2b397488eaff"
+            },
             "text": "Le Siphon d'agonie inflige 3 blessures à n'importe quelle cible et vous gagnez 3 points de vie.",
             "type": "Rituel",
             "uuid": "38091bac-0146-5c15-b2d8-b2fb38999ddc"
+          },
+          {
+            "flavorText": "„Dein Todeskampf wird nur einen Augenblick dauern, aber es wird sich wie eine Ewigkeit anfühlen.\"\n—Vilis, Makler des Blutes",
+            "identifiers": {
+              "multiverseId": "681983",
+              "scryfallId": "93e90908-bc03-492f-ab2e-528f4cd98dba"
+            },
+            "language": "German",
+            "multiverseId": 681983,
+            "name": "Schmerzvolles Absaugen",
+            "skuIds": {
+              "nonfoil": "6792a121-1b0e-5e9e-9840-2b45121eef05"
+            },
+            "text": "Das Schmerzvolle Absaugen fügt einem Ziel deiner Wahl 3 Schadenspunkte zu und du erhältst 3 Lebenspunkte dazu.",
+            "type": "Hexerei",
+            "uuid": "39798549-4229-50ff-8434-5ccea27ce8c1"
           },
           {
             "flavorText": "\"La tua morte non durerà che un istante, ma sembrerà un'eternità.\"\n—Vilis, Intermediario di Sangue",
@@ -791,6 +851,9 @@
             "language": "Italian",
             "multiverseId": 682334,
             "name": "Assorbimento Straziante",
+            "skuIds": {
+              "nonfoil": "f7d48add-7005-5c10-ae55-686763d8fd6e"
+            },
             "text": "L'Assorbimento Straziante infligge 3 danni a un qualsiasi bersaglio e tu guadagni 3 punti vita.",
             "type": "Stregoneria",
             "uuid": "2ed73b05-eda4-5501-a3b0-3fad2b5ebe9e"
@@ -804,14 +867,31 @@
             "language": "Japanese",
             "multiverseId": 682451,
             "name": "苦しめる吸引",
+            "skuIds": {
+              "nonfoil": "b57e84aa-128b-50c0-b5d6-3bf73a64a10d"
+            },
             "text": "１つを対象とする。苦しめる吸引はそれに３点のダメージを与え、あなたは３点のライフを得る。",
             "type": "ソーサリー",
             "uuid": "a0689b51-056b-5ac2-981c-399a669d8bb4"
+          },
+          {
+            "flavorText": "\"Tu muerte será apenas un momento, pero te parecerá una eternidad\".\n—Vilis, especulador de sangre",
+            "identifiers": {
+              "multiverseId": "682100",
+              "scryfallId": "716ef818-ca82-4ad6-b3d3-451f7d987e72"
+            },
+            "language": "Spanish",
+            "multiverseId": 682100,
+            "name": "Extracción agonizante",
+            "skuIds": {
+              "nonfoil": "956083b9-4e2b-5a17-affc-ef3edf1507b5"
+            },
+            "text": "La Extracción agonizante hace 3 puntos de daño a cualquier objetivo y tú ganas 3 vidas.",
+            "type": "Conjuro",
+            "uuid": "1297d834-498f-53f6-8b20-fc2085f8d031"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305544",
           "cardsphereId": "131070",
@@ -853,6 +933,7 @@
         "name": "Agonizing Syphon",
         "number": "396",
         "originalText": "Agonizing Syphon deals 3 damage to any target and you gain 3 life.",
+        "originalType": "Sorcery",
         "printings": [
           "J25",
           "JMP",
@@ -871,9 +952,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d86bff01-8a7f-507a-b4bb-e2df89caec9e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -903,39 +989,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 21792,
+        "edhrecRank": 22385,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Cabal clerics serve two masters: their patriarch and their god.",
         "foreignData": [
-          {
-            "flavorText": "Kabbalisten-Kleriker dienen zwei Herren: ihrem Patriarchen und ihrem Gott.",
-            "identifiers": {
-              "multiverseId": "682005",
-              "scryfallId": "94a6ee12-c9c0-4c70-ad54-76c9d2f22854"
-            },
-            "language": "German",
-            "multiverseId": 682005,
-            "name": "Dunkler Bittsteller",
-            "text": "{T}, opfere drei Kleriker: Durchsuche deinen Friedhof, deine Hand und/oder deine Bibliothek nach einer Karte namens Spross der Dunkelheit und bringe sie ins Spiel. Falls du auf diese Weise deine Bibliothek durchsuchst, mische danach.",
-            "type": "Kreatur — Mensch, Kleriker",
-            "uuid": "e7e7a762-bc52-5654-8011-030beb1ee8ca"
-          },
-          {
-            "flavorText": "Los clérigos de la Cábala sirven a dos amos: a su patriarca y a su dios.",
-            "identifiers": {
-              "multiverseId": "682122",
-              "scryfallId": "fb280aca-1e26-499b-b9f7-fe008550fb05"
-            },
-            "language": "Spanish",
-            "multiverseId": 682122,
-            "name": "Suplicante siniestro",
-            "text": "{T}, sacrificar tres Clérigos: Busca en tu cementerio, mano y/o biblioteca una carta llamada Vástago de la oscuridad y ponla en el campo de batalla. Si buscas en tu biblioteca de esta manera, baraja.",
-            "type": "Criatura — Clérigo humano",
-            "uuid": "1f2ad035-71ae-5702-95aa-1dff38d02a34"
-          },
           {
             "flavorText": "Les clercs de la Coterie servent deux maîtres : leur patriarche et leur dieu.",
             "identifiers": {
@@ -945,9 +1005,28 @@
             "language": "French",
             "multiverseId": 682239,
             "name": "Obscur supplicateur",
+            "skuIds": {
+              "nonfoil": "bf0445b8-2df2-5176-8da3-e9bd3c22623c"
+            },
             "text": "{T}, sacrifiez trois clercs : Cherchez dans votre cimetière, votre main et/ou votre bibliothèque une carte appelée Scion des ténèbres et mettez-la sur le champ de bataille. Si vous cherchez dans votre bibliothèque de cette manière, mélangez.",
             "type": "Créature — humain et clerc",
             "uuid": "d4b4a706-02df-5d4a-b8a0-b402e9b1e9a8"
+          },
+          {
+            "flavorText": "Kabbalisten-Kleriker dienen zwei Herren: ihrem Patriarchen und ihrem Gott.",
+            "identifiers": {
+              "multiverseId": "682005",
+              "scryfallId": "94a6ee12-c9c0-4c70-ad54-76c9d2f22854"
+            },
+            "language": "German",
+            "multiverseId": 682005,
+            "name": "Dunkler Bittsteller",
+            "skuIds": {
+              "nonfoil": "0de606a2-9c8c-5831-950d-13b6f3460e59"
+            },
+            "text": "{T}, opfere drei Kleriker: Durchsuche deinen Friedhof, deine Hand und/oder deine Bibliothek nach einer Karte namens Spross der Dunkelheit und bringe sie ins Spiel. Falls du auf diese Weise deine Bibliothek durchsuchst, mische danach.",
+            "type": "Kreatur — Mensch, Kleriker",
+            "uuid": "e7e7a762-bc52-5654-8011-030beb1ee8ca"
           },
           {
             "flavorText": "I chierici della Cabala servono due padroni: il loro patriarca e il loro dio.",
@@ -958,6 +1037,9 @@
             "language": "Italian",
             "multiverseId": 682356,
             "name": "Supplicante Oscuro",
+            "skuIds": {
+              "nonfoil": "5e9e9bab-190c-5d07-b46f-09e623deb6a9"
+            },
             "text": "{T}, Sacrifica tre Chierici: Passa in rassegna il tuo cimitero, la tua mano e/o il tuo grimorio per una carta chiamata Progenie dell'Oscurità e mettila sul campo di battaglia. Se passi in rassegna il tuo grimorio in questo modo, rimescola.",
             "type": "Creatura — Chierico Umano",
             "uuid": "273ba9f0-bcb1-5c07-a83c-f821fd5de226"
@@ -971,14 +1053,31 @@
             "language": "Japanese",
             "multiverseId": 682473,
             "name": "闇の嘆願者",
+            "skuIds": {
+              "nonfoil": "0bb3c9a7-93d1-5ece-ad45-8d4c34e973ee"
+            },
             "text": "{T}, クレリック３体を生け贄に捧げる：あなたの墓地や手札やライブラリーから「闇の末裔」という名前のカード１枚を探し、戦場に出す。これによりライブラリーからカードを探したなら、ライブラリーを切り直す。",
             "type": "クリーチャー — 人間・クレリック",
             "uuid": "f6656a7d-dec4-55bd-9cac-b4b6e348ca2b"
+          },
+          {
+            "flavorText": "Los clérigos de la Cábala sirven a dos amos: a su patriarca y a su dios.",
+            "identifiers": {
+              "multiverseId": "682122",
+              "scryfallId": "fb280aca-1e26-499b-b9f7-fe008550fb05"
+            },
+            "language": "Spanish",
+            "multiverseId": 682122,
+            "name": "Suplicante siniestro",
+            "skuIds": {
+              "nonfoil": "ddfd1513-73d4-5636-83b7-04aae6f08055"
+            },
+            "text": "{T}, sacrificar tres Clérigos: Busca en tu cementerio, mano y/o biblioteca una carta llamada Vástago de la oscuridad y ponla en el campo de batalla. Si buscas en tu biblioteca de esta manera, baraja.",
+            "type": "Criatura — Clérigo humano",
+            "uuid": "1f2ad035-71ae-5702-95aa-1dff38d02a34"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305566",
           "cardsphereId": "131178",
@@ -1017,6 +1116,7 @@
         "name": "Dark Supplicant",
         "number": "418",
         "originalText": "{T}, Sacrifice three Clerics: Search your graveyard, hand, and/or library for a card named Scion of Darkness and put it onto the battlefield. If you search your library this way, shuffle.",
+        "originalType": "Creature – Human Cleric",
         "power": "1",
         "printings": [
           "J25",
@@ -1039,9 +1139,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "833f7521-74a6-5e09-8ace-8706cf7718fe"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1075,36 +1180,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15764,
+        "edhrecRank": 16478,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682018",
-              "scryfallId": "41279b12-71f1-46fe-aa9f-bb70b963f859"
-            },
-            "language": "German",
-            "multiverseId": 682018,
-            "name": "Schauriger Seelenhüter",
-            "text": "Wenn der Schaurige Seelenhüter ins Spiel kommt, millst du drei Karten. (Lege die obersten drei Karten deiner Bibliothek auf deinen Friedhof.)\n{4}{B}, schicke den Schaurigen Seelenhüter aus deinem Friedhof ins Exil: Bringe eine andere Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
-            "type": "Kreatur — Geist, Kleriker",
-            "uuid": "90a0e031-b998-5ec8-a86e-9e398eeba2b9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682135",
-              "scryfallId": "26d33a0d-77db-4190-94ba-666ce3bda7b2"
-            },
-            "language": "Spanish",
-            "multiverseId": 682135,
-            "name": "Cuidador de almas espeluznante",
-            "text": "Cuando el Cuidador de almas espeluznante entre, muele tres cartas. (Pon las tres primeras cartas de tu biblioteca en tu cementerio.)\n{4}{B}, exiliar el Cuidador de almas espeluznante de tu cementerio: Regresa otra carta de criatura objetivo de tu cementerio a tu mano.",
-            "type": "Criatura — Clérigo espíritu",
-            "uuid": "637427d6-9192-520b-a505-adfb9e7ca141"
-          },
           {
             "identifiers": {
               "multiverseId": "682252",
@@ -1113,9 +1194,27 @@
             "language": "French",
             "multiverseId": 682252,
             "name": "Veilleur d'âmes inquiétant",
+            "skuIds": {
+              "nonfoil": "40c2c774-df75-53e9-bf31-2a41124db1c5"
+            },
             "text": "Quand le Veilleur d'âmes inquiétant arrive, meulez trois cartes. (Mettez les trois cartes du dessus de votre bibliothèque dans votre cimetière.)\n{4}{B}, exilez le Veilleur d'âmes inquiétant depuis votre cimetière : Renvoyez une autre carte de créature ciblée depuis votre cimetière dans votre main.",
             "type": "Créature — esprit et clerc",
             "uuid": "76e91fae-808e-5d2c-b94e-54a5eba139ce"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682018",
+              "scryfallId": "41279b12-71f1-46fe-aa9f-bb70b963f859"
+            },
+            "language": "German",
+            "multiverseId": 682018,
+            "name": "Schauriger Seelenhüter",
+            "skuIds": {
+              "nonfoil": "69c8e3e1-7d98-5ffa-9a0f-0b642e9b1998"
+            },
+            "text": "Wenn der Schaurige Seelenhüter ins Spiel kommt, millst du drei Karten. (Lege die obersten drei Karten deiner Bibliothek auf deinen Friedhof.)\n{4}{B}, schicke den Schaurigen Seelenhüter aus deinem Friedhof ins Exil: Bringe eine andere Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
+            "type": "Kreatur — Geist, Kleriker",
+            "uuid": "90a0e031-b998-5ec8-a86e-9e398eeba2b9"
           },
           {
             "identifiers": {
@@ -1125,6 +1224,9 @@
             "language": "Italian",
             "multiverseId": 682369,
             "name": "Guardiano di Anime Inquietante",
+            "skuIds": {
+              "nonfoil": "8b7af0ed-040d-542f-b67b-912fd567733b"
+            },
             "text": "Quando il Guardiano di Anime Inquietante entra, macina tre carte. (Metti nel tuo cimitero le prime tre carte del tuo grimorio.)\n{4}{B}, Esilia il Guardiano di Anime Inquietante dal tuo cimitero: Riprendi in mano un'altra carta creatura bersaglio dal tuo cimitero.",
             "type": "Creatura — Chierico Spirito",
             "uuid": "0b095ba8-a8c6-5d74-9d76-0632e8eb8fba"
@@ -1137,14 +1239,30 @@
             "language": "Japanese",
             "multiverseId": 682486,
             "name": "不気味な魂の守護者",
+            "skuIds": {
+              "nonfoil": "8869df75-a527-5b0d-a73e-e1d74ec86366"
+            },
             "text": "不気味な魂の守護者が戦場に出たとき、カード３枚を切削する。（あなたのライブラリーの一番上にあるカード３枚をあなたの墓地に置く。）\n{4}{B}, あなたの墓地にある不気味な魂の守護者を追放する：あなたの墓地にありこれでないクリーチャー・カード１枚を対象とする。それをあなたの手札に戻す。",
             "type": "クリーチャー — スピリット・クレリック",
             "uuid": "f0ddf192-e01c-500c-8284-23608fceb0e9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682135",
+              "scryfallId": "26d33a0d-77db-4190-94ba-666ce3bda7b2"
+            },
+            "language": "Spanish",
+            "multiverseId": 682135,
+            "name": "Cuidador de almas espeluznante",
+            "skuIds": {
+              "nonfoil": "a2e3fbd3-1157-5a65-8743-655248ae3cc6"
+            },
+            "text": "Cuando el Cuidador de almas espeluznante entre, muele tres cartas. (Pon las tres primeras cartas de tu biblioteca en tu cementerio.)\n{4}{B}, exiliar el Cuidador de almas espeluznante de tu cementerio: Regresa otra carta de criatura objetivo de tu cementerio a tu mano.",
+            "type": "Criatura — Clérigo espíritu",
+            "uuid": "637427d6-9192-520b-a505-adfb9e7ca141"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305770",
           "cardsphereId": "131264",
@@ -1188,6 +1306,7 @@
         "name": "Eerie Soultender",
         "number": "431",
         "originalText": "When Eerie Soultender enters, mill three cards. (Put the top three cards of your library into your graveyard.)\n{4}{B}, Exile Eerie Soultender from your graveyard: Return another target creature card from your graveyard to your hand.",
+        "originalType": "Creature – Spirit Cleric",
         "power": "3",
         "printings": [
           "DMU",
@@ -1200,9 +1319,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f60c71a6-9dff-50c6-94f4-cfc63051d011"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1236,39 +1360,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 4392,
+        "edhrecRank": 4489,
         "edhrecSaltiness": 0.28,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"One day, the great serpent will rejoin us on Skemfar, and those who've wronged us will taste of our venom.\"",
         "foreignData": [
-          {
-            "flavorText": "„Eines Tages wird die Große Schlange wieder zu uns nach Skemfar kommen, und dann sollen alle, die uns Unrecht getan haben, unser Gift schmecken.\"",
-            "identifiers": {
-              "multiverseId": "682019",
-              "scryfallId": "36acf825-538d-4145-a243-9e537301744e"
-            },
-            "language": "German",
-            "multiverseId": 682019,
-            "name": "Urschlangenkult-Schülerin",
-            "text": "Wenn die Urschlangenkult-Schülerin ins Spiel kommt, wirft jeder Gegner eine Karte ab.",
-            "type": "Kreatur — Elf, Kleriker",
-            "uuid": "734c9e45-b947-58aa-8a20-d919bce9ba54"
-          },
-          {
-            "flavorText": "\"Llegará el día en el que la Gran Serpiente se reúna con nosotros en Skemfar, y aquellos que nos lastimaron degustarán nuestro veneno\".",
-            "identifiers": {
-              "multiverseId": "682136",
-              "scryfallId": "c9f0a451-8a2e-406c-9fa4-7948b236787d"
-            },
-            "language": "Spanish",
-            "multiverseId": 682136,
-            "name": "Discípula colmilloanciana",
-            "text": "Cuando la Discípula colmilloanciana entre, cada oponente descarta una carta.",
-            "type": "Criatura — Clérigo elfo",
-            "uuid": "24b62d71-2133-57c8-acaf-fb1ce4d2d028"
-          },
           {
             "flavorText": "« Un jour, le Grand serpent nous rejoindra sur Skemfar, et ceux qui nous ont fait du tort goûteront à notre venin. »",
             "identifiers": {
@@ -1278,9 +1376,28 @@
             "language": "French",
             "multiverseId": 682253,
             "name": "Disciple Croc-ancêtre",
+            "skuIds": {
+              "nonfoil": "f7b3ff52-7247-566f-83f0-6ef57909991e"
+            },
             "text": "Quand la Disciple Croc-ancêtre arrive, chaque adversaire se défausse d'une carte.",
             "type": "Créature — elfe et clerc",
             "uuid": "e9f7d990-cfd3-58a6-887f-32c8be48b044"
+          },
+          {
+            "flavorText": "„Eines Tages wird die Große Schlange wieder zu uns nach Skemfar kommen, und dann sollen alle, die uns Unrecht getan haben, unser Gift schmecken.\"",
+            "identifiers": {
+              "multiverseId": "682019",
+              "scryfallId": "36acf825-538d-4145-a243-9e537301744e"
+            },
+            "language": "German",
+            "multiverseId": 682019,
+            "name": "Urschlangenkult-Schülerin",
+            "skuIds": {
+              "nonfoil": "680ae76f-c1f4-5e65-9d79-0edd213c3c68"
+            },
+            "text": "Wenn die Urschlangenkult-Schülerin ins Spiel kommt, wirft jeder Gegner eine Karte ab.",
+            "type": "Kreatur — Elf, Kleriker",
+            "uuid": "734c9e45-b947-58aa-8a20-d919bce9ba54"
           },
           {
             "flavorText": "\"Un giorno, la Grande Serpe si unirà di nuovo a noi a Skemfar e coloro che ci hanno offeso assaggeranno il suo veleno.\"",
@@ -1291,6 +1408,9 @@
             "language": "Italian",
             "multiverseId": 682370,
             "name": "Discepola di Zannantica",
+            "skuIds": {
+              "nonfoil": "ed602b1c-11b9-5727-9892-43d555dc57d4"
+            },
             "text": "Quando la Discepola di Zannantica entra, ogni avversario scarta una carta.",
             "type": "Creatura — Chierico Elfo",
             "uuid": "8f638a66-4184-5e69-a0b2-21e86f9894e2"
@@ -1304,14 +1424,31 @@
             "language": "Japanese",
             "multiverseId": 682487,
             "name": "古牙の信奉者",
+            "skuIds": {
+              "nonfoil": "2ce7b78d-2301-5e01-9623-d0f4369e654c"
+            },
             "text": "古牙の信奉者が戦場に出たとき、各対戦相手はそれぞれカード１枚を捨てる。",
             "type": "クリーチャー — エルフ・クレリック",
             "uuid": "688428a4-5b3f-5fd0-9d00-1f7d651274e8"
+          },
+          {
+            "flavorText": "\"Llegará el día en el que la Gran Serpiente se reúna con nosotros en Skemfar, y aquellos que nos lastimaron degustarán nuestro veneno\".",
+            "identifiers": {
+              "multiverseId": "682136",
+              "scryfallId": "c9f0a451-8a2e-406c-9fa4-7948b236787d"
+            },
+            "language": "Spanish",
+            "multiverseId": 682136,
+            "name": "Discípula colmilloanciana",
+            "skuIds": {
+              "nonfoil": "dea99a27-5cb6-5803-8d4e-182ebf879106"
+            },
+            "text": "Cuando la Discípula colmilloanciana entre, cada oponente descarta una carta.",
+            "type": "Criatura — Clérigo elfo",
+            "uuid": "24b62d71-2133-57c8-acaf-fb1ce4d2d028"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305771",
           "cardsphereId": "131263",
@@ -1352,6 +1489,7 @@
         "name": "Elderfang Disciple",
         "number": "432",
         "originalText": "When Elderfang Disciple enters, each opponent discards a card.",
+        "originalType": "Creature – Elf Cleric",
         "power": "1",
         "printings": [
           "J25",
@@ -1370,9 +1508,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "07615f23-f7c0-510b-981e-8da24862aa28"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1406,39 +1549,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 16603,
+        "edhrecRank": 17020,
         "edhrecSaltiness": 0.43,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Great Serpent, hear my song! We wait, our faith unshaken, for your glorious return.\"",
         "foreignData": [
-          {
-            "flavorText": "„Große Schlange, höre meinen Gesang! Wir erwarten in unerschütterlichem Glauben deine glorreiche Rückkehr.\"",
-            "identifiers": {
-              "multiverseId": "682044",
-              "scryfallId": "f06e3606-67ed-4d4f-a77a-e3505e349311"
-            },
-            "language": "German",
-            "multiverseId": 682044,
-            "name": "Getreue der Koma",
-            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Getreue der Koma stirbt, millt jeder Spieler drei Karten. (Jeder Spieler legt die obersten drei Karten seiner Bibliothek auf seinen Friedhof.)",
-            "type": "Kreatur — Elf, Kleriker",
-            "uuid": "aef4692d-ee70-5877-8e8d-a4de387d231d"
-          },
-          {
-            "flavorText": "\"Gran Serpiente, ¡escucha mi canción! Esperamos con una fe inquebrantable tu glorioso regreso\".",
-            "identifiers": {
-              "multiverseId": "682161",
-              "scryfallId": "efbbe15d-6dac-4744-87c7-d4a0cdf24f92"
-            },
-            "language": "Spanish",
-            "multiverseId": 682161,
-            "name": "Fiel de Koma",
-            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando la Fiel de Koma muera, cada jugador muele tres cartas. (Cada uno pone las tres primeras cartas de su biblioteca en su cementerio.)",
-            "type": "Criatura — Clérigo elfo",
-            "uuid": "c9637c01-6693-558c-bbc3-99eba0aba540"
-          },
           {
             "flavorText": "« Ô Grand serpent, entends mes prières ! Notre foi en ton retour glorieux est inébranlable. »",
             "identifiers": {
@@ -1448,9 +1565,28 @@
             "language": "French",
             "multiverseId": 682278,
             "name": "Fidèle de Koma",
+            "skuIds": {
+              "nonfoil": "8a027786-57d6-556b-99b7-173fee359700"
+            },
             "text": "Lien de vie (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)\nQuand la Fidèle de Koma meurt, chaque joueur meule trois cartes. (Il met les trois cartes du dessus de sa bibliothèque dans son cimetière.)",
             "type": "Créature — elfe et clerc",
             "uuid": "99063b0f-4be2-570f-b8f2-086acbe6fc49"
+          },
+          {
+            "flavorText": "„Große Schlange, höre meinen Gesang! Wir erwarten in unerschütterlichem Glauben deine glorreiche Rückkehr.\"",
+            "identifiers": {
+              "multiverseId": "682044",
+              "scryfallId": "f06e3606-67ed-4d4f-a77a-e3505e349311"
+            },
+            "language": "German",
+            "multiverseId": 682044,
+            "name": "Getreue der Koma",
+            "skuIds": {
+              "nonfoil": "cd7a3552-3ce0-553f-9ab8-63b06f733076"
+            },
+            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Getreue der Koma stirbt, millt jeder Spieler drei Karten. (Jeder Spieler legt die obersten drei Karten seiner Bibliothek auf seinen Friedhof.)",
+            "type": "Kreatur — Elf, Kleriker",
+            "uuid": "aef4692d-ee70-5877-8e8d-a4de387d231d"
           },
           {
             "flavorText": "\"Grande Serpe, ascolta il mio canto! Attendiamo il tuo glorioso ritorno con fede incrollabile.\"",
@@ -1461,6 +1597,9 @@
             "language": "Italian",
             "multiverseId": 682395,
             "name": "Fedele di Koma",
+            "skuIds": {
+              "nonfoil": "67d19843-62dd-5072-be53-3d50ff0214f5"
+            },
             "text": "Legame vitale (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)\nQuando la Fedele di Koma muore, ogni giocatore macina tre carte. (Ognuno mette nel proprio cimitero le prime tre carte del proprio grimorio.)",
             "type": "Creatura — Chierico Elfo",
             "uuid": "931bb810-6bcf-5327-9c6d-fb11e24cb335"
@@ -1474,14 +1613,31 @@
             "language": "Japanese",
             "multiverseId": 682512,
             "name": "コーマの信者",
+            "skuIds": {
+              "nonfoil": "8b9bd094-c8c7-5362-ad62-f7d893a9bd6a"
+            },
             "text": "絆魂（このクリーチャーがダメージを与えると、さらにあなたはその点数分のライフを得る。）\nコーマの信者が死亡したとき、各プレイヤーはそれぞれカード３枚を切削する。（各プレイヤーはそれぞれ、自分のライブラリーの一番上にあるカード３枚を自分の墓地に置く。）",
             "type": "クリーチャー — エルフ・クレリック",
             "uuid": "0b1d366d-350c-5870-ba10-99bea763156e"
+          },
+          {
+            "flavorText": "\"Gran Serpiente, ¡escucha mi canción! Esperamos con una fe inquebrantable tu glorioso regreso\".",
+            "identifiers": {
+              "multiverseId": "682161",
+              "scryfallId": "efbbe15d-6dac-4744-87c7-d4a0cdf24f92"
+            },
+            "language": "Spanish",
+            "multiverseId": 682161,
+            "name": "Fiel de Koma",
+            "skuIds": {
+              "nonfoil": "37dded98-e996-5dbe-ae11-408a5e58d06b"
+            },
+            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando la Fiel de Koma muera, cada jugador muele tres cartas. (Cada uno pone las tres primeras cartas de su biblioteca en su cementerio.)",
+            "type": "Criatura — Clérigo elfo",
+            "uuid": "c9637c01-6693-558c-bbc3-99eba0aba540"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305796",
           "cardsphereId": "131238",
@@ -1526,6 +1682,7 @@
         "name": "Koma's Faithful",
         "number": "457",
         "originalText": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen Koma's Faithful dies, each player mills three cards. (They each put the top three cards of their library into their graveyard.)",
+        "originalType": "Creature – Elf Cleric",
         "power": "3",
         "printings": [
           "J25",
@@ -1538,9 +1695,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5fceb94f-485b-52d6-8021-25e78344dbb7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1574,39 +1736,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 16799,
+        "edhrecRank": 16590,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The time of condemnation is at hand. Dusk washes over the world, and I consign you to eternal darkness!\"",
         "foreignData": [
-          {
-            "flavorText": "„Der Moment der Verdammung steht bevor. Das Zwielicht verschlingt die Welt und ich übergebe euch der ewigen Dunkelheit!\"",
-            "identifiers": {
-              "multiverseId": "682049",
-              "scryfallId": "7a434805-e59b-47c7-9c46-6e4c20c9bb4c"
-            },
-            "language": "German",
-            "multiverseId": 682049,
-            "name": "Plötzliches Verlangen",
-            "text": "Eine Kreatur deiner Wahl erhält -2/-2 bis zum Ende des Zuges. Du erhältst 2 Lebenspunkte dazu.",
-            "type": "Spontanzauber",
-            "uuid": "f2d43c2b-ea3c-544b-9b65-cdaec742283b"
-          },
-          {
-            "flavorText": "\"Llegó el momento de la condenación. ¡El Crepúsculo invade el mundo y yo te sentencio a la oscuridad eterna!\".",
-            "identifiers": {
-              "multiverseId": "682166",
-              "scryfallId": "4cd43062-a2af-4c64-87d0-561915bb248a"
-            },
-            "language": "Spanish",
-            "multiverseId": 682166,
-            "name": "Momento de antojo",
-            "text": "La criatura objetivo obtiene -2/-2 hasta el final del turno. Ganas 2 vidas.",
-            "type": "Instantáneo",
-            "uuid": "5a4c0eb8-7050-5bbe-bfeb-76c1640ddae6"
-          },
           {
             "flavorText": "« L'heure de la condamnation est proche. Le crépuscule s'étend sur le monde, et je vous relègue dans les ténèbres éternelles ! »",
             "identifiers": {
@@ -1616,9 +1752,28 @@
             "language": "French",
             "multiverseId": 682283,
             "name": "Instant d'envie",
+            "skuIds": {
+              "nonfoil": "fe09ba5f-74f5-5132-8168-ce3cf14c27fd"
+            },
             "text": "Une créature ciblée gagne -2/-2 jusqu'à la fin du tour. Vous gagnez 2 points de vie.",
             "type": "Éphémère",
             "uuid": "19f4030a-e566-5b27-8fb5-71d8ae3f80aa"
+          },
+          {
+            "flavorText": "„Der Moment der Verdammung steht bevor. Das Zwielicht verschlingt die Welt und ich übergebe euch der ewigen Dunkelheit!\"",
+            "identifiers": {
+              "multiverseId": "682049",
+              "scryfallId": "7a434805-e59b-47c7-9c46-6e4c20c9bb4c"
+            },
+            "language": "German",
+            "multiverseId": 682049,
+            "name": "Plötzliches Verlangen",
+            "skuIds": {
+              "nonfoil": "6bee5c30-9541-5457-9a90-f4f9d926aafd"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -2/-2 bis zum Ende des Zuges. Du erhältst 2 Lebenspunkte dazu.",
+            "type": "Spontanzauber",
+            "uuid": "f2d43c2b-ea3c-544b-9b65-cdaec742283b"
           },
           {
             "flavorText": "\"Il tempo del castigo è prossimo. Il Vespro pervaderà il mondo e sarete condannati all'oscurità eterna!\"",
@@ -1629,6 +1784,9 @@
             "language": "Italian",
             "multiverseId": 682400,
             "name": "Momento di Bramosia",
+            "skuIds": {
+              "nonfoil": "27ec47ff-9637-503b-b601-fecf0e6c812b"
+            },
             "text": "Una creatura bersaglio prende -2/-2 fino alla fine del turno. Guadagni 2 punti vita.",
             "type": "Istantaneo",
             "uuid": "c567f424-def5-5067-83f0-96f13818d602"
@@ -1642,14 +1800,31 @@
             "language": "Japanese",
             "multiverseId": 682517,
             "name": "渇望の時",
+            "skuIds": {
+              "nonfoil": "32276320-a5a0-5b33-88bd-77f61f4d41ee"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－２/－２の修整を受ける。２点のライフを得る。",
             "type": "インスタント",
             "uuid": "5f9e91cc-6ddf-5978-a537-ed9aeadf23f7"
+          },
+          {
+            "flavorText": "\"Llegó el momento de la condenación. ¡El Crepúsculo invade el mundo y yo te sentencio a la oscuridad eterna!\".",
+            "identifiers": {
+              "multiverseId": "682166",
+              "scryfallId": "4cd43062-a2af-4c64-87d0-561915bb248a"
+            },
+            "language": "Spanish",
+            "multiverseId": 682166,
+            "name": "Momento de antojo",
+            "skuIds": {
+              "nonfoil": "a3b28c94-7aa7-57df-9f6d-6b9cd2154d7f"
+            },
+            "text": "La criatura objetivo obtiene -2/-2 hasta el final del turno. Ganas 2 vidas.",
+            "type": "Instantáneo",
+            "uuid": "5a4c0eb8-7050-5bbe-bfeb-76c1640ddae6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305801",
           "cardsphereId": "131233",
@@ -1695,6 +1870,7 @@
         "name": "Moment of Craving",
         "number": "462",
         "originalText": "Target creature gets -2/-2 until end of turn. You gain 2 life.",
+        "originalType": "Instant",
         "printings": [
           "FDN",
           "J22",
@@ -1719,9 +1895,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d8e1bc08-74e6-5b5d-ade3-9af0b78097a0"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1751,36 +1932,12 @@
         ],
         "convertedManaCost": 8.0,
         "count": 1,
-        "edhrecRank": 9941,
+        "edhrecRank": 10271,
         "edhrecSaltiness": 0.67,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682073",
-              "scryfallId": "0265f0a9-68e3-486c-9890-71e2dea323fd"
-            },
-            "language": "German",
-            "multiverseId": 682073,
-            "name": "Spross der Dunkelheit",
-            "text": "Verursacht Trampelschaden\nImmer wenn der Spross der Dunkelheit einem Spieler Kampfschaden zufügt, kannst du eine Kreaturenkarte deiner Wahl aus dem Friedhof jenes Spielers unter deiner Kontrolle ins Spiel bringen.\nUmwandlung {3} ({3}, wirf diese Karte ab: Ziehe eine Karte.)",
-            "type": "Kreatur — Avatar",
-            "uuid": "a67d1391-64a0-57f7-8adc-25ccf17ff72b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682190",
-              "scryfallId": "d9140219-01e2-44d2-bb40-7e5108ae95b0"
-            },
-            "language": "Spanish",
-            "multiverseId": 682190,
-            "name": "Vástago de la oscuridad",
-            "text": "Arrolla.\nSiempre que el Vástago de la oscuridad haga daño de combate a un jugador, puedes poner en el campo de batalla bajo tu control la carta de criatura objetivo del cementerio de ese jugador.\nCiclo {3}. ({3}, descartar esta carta: Roba una carta.)",
-            "type": "Criatura — Avatar",
-            "uuid": "b6cce8a5-2aad-5bd9-bf4c-42ceb09a95ef"
-          },
           {
             "identifiers": {
               "multiverseId": "682307",
@@ -1789,9 +1946,27 @@
             "language": "French",
             "multiverseId": 682307,
             "name": "Scion des ténèbres",
+            "skuIds": {
+              "nonfoil": "e03f82ac-3442-50ee-8091-4eb8bef4c2cd"
+            },
             "text": "Piétinement\nÀ chaque fois que le Scion des ténèbres inflige des blessures de combat à un joueur, vous pouvez mettre sur le champ de bataille, sous votre contrôle, une carte de créature ciblée depuis le cimetière de ce joueur.\nRecyclage {3} ({3}, défaussez-vous de cette carte : Piochez une carte.)",
             "type": "Créature — avatar",
             "uuid": "0459eaa9-7087-5d87-b16b-6c242560897b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682073",
+              "scryfallId": "0265f0a9-68e3-486c-9890-71e2dea323fd"
+            },
+            "language": "German",
+            "multiverseId": 682073,
+            "name": "Spross der Dunkelheit",
+            "skuIds": {
+              "nonfoil": "a2b84efe-c58d-5d2a-967b-931eede9e03e"
+            },
+            "text": "Verursacht Trampelschaden\nImmer wenn der Spross der Dunkelheit einem Spieler Kampfschaden zufügt, kannst du eine Kreaturenkarte deiner Wahl aus dem Friedhof jenes Spielers unter deiner Kontrolle ins Spiel bringen.\nUmwandlung {3} ({3}, wirf diese Karte ab: Ziehe eine Karte.)",
+            "type": "Kreatur — Avatar",
+            "uuid": "a67d1391-64a0-57f7-8adc-25ccf17ff72b"
           },
           {
             "identifiers": {
@@ -1801,6 +1976,9 @@
             "language": "Italian",
             "multiverseId": 682424,
             "name": "Progenie dell'Oscurità",
+            "skuIds": {
+              "nonfoil": "18dda11e-e924-5b7e-b756-74743bbf27d7"
+            },
             "text": "Travolgere\nOgniqualvolta la Progenie dell'Oscurità infligge danno da combattimento a un giocatore, puoi mettere sul campo di battaglia sotto il tuo controllo una carta creatura bersaglio dal cimitero di quel giocatore.\nCiclo {3} ({3}, Scarta questa carta: Pesca una carta.)",
             "type": "Creatura — Avatar",
             "uuid": "3f14903e-7264-5ce6-9f46-e16fd85405f7"
@@ -1813,14 +1991,30 @@
             "language": "Japanese",
             "multiverseId": 682541,
             "name": "闇の末裔",
+            "skuIds": {
+              "nonfoil": "c1cbac40-3db8-5219-af79-8f3c8cbf7a84"
+            },
             "text": "トランプル\n闇の末裔がプレイヤー１人に戦闘ダメージを与えるたび、そのプレイヤーの墓地にあるクリーチャー・カード１枚を対象とする。それを、あなたのコントロール下で戦場に出してもよい。\nサイクリング{3}（{3}, このカードを捨てる：カード１枚を引く。）",
             "type": "クリーチャー — アバター",
             "uuid": "a44437a3-267e-518f-8d6b-329ff060268c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682190",
+              "scryfallId": "d9140219-01e2-44d2-bb40-7e5108ae95b0"
+            },
+            "language": "Spanish",
+            "multiverseId": 682190,
+            "name": "Vástago de la oscuridad",
+            "skuIds": {
+              "nonfoil": "b522f195-af40-5b8d-9905-92ae2498910e"
+            },
+            "text": "Arrolla.\nSiempre que el Vástago de la oscuridad haga daño de combate a un jugador, puedes poner en el campo de batalla bajo tu control la carta de criatura objetivo del cementerio de ese jugador.\nCiclo {3}. ({3}, descartar esta carta: Roba una carta.)",
+            "type": "Criatura — Avatar",
+            "uuid": "b6cce8a5-2aad-5bd9-bf4c-42ceb09a95ef"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305825",
           "cardsphereId": "131210",
@@ -1863,6 +2057,7 @@
         "name": "Scion of Darkness",
         "number": "486",
         "originalText": "Trample\nWhenever Scion of Darkness deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+        "originalType": "Creature – Avatar",
         "power": "6",
         "printings": [
           "2X2",
@@ -1883,9 +2078,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "3eb38f53-f218-5fb6-9b43-ec4e717a229b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1918,36 +2118,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 4865,
+        "edhrecRank": 4527,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682076",
-              "scryfallId": "1aaa659f-41b8-4d77-a4c5-24b8d0290b7b"
-            },
-            "language": "German",
-            "multiverseId": 682076,
-            "name": "Skemfar-Schattenseherin",
-            "text": "Wenn die Skemfar-Schattenseherin ins Spiel kommt, bestimme eines —\n• Jeder Gegner verliert X Lebenspunkte, wobei X gleich der höchsten Anzahl an Kreaturen ist, die du kontrollierst und die einen Kreaturentyp gemeinsam haben.\n• Du erhältst X Lebenspunkte dazu, wobei X gleich der höchsten Anzahl an Kreaturen ist, die du kontrollierst und die einen Kreaturentyp gemeinsam haben.",
-            "type": "Kreatur — Elf, Kleriker",
-            "uuid": "59227a72-1e3c-5279-a5eb-c56d35b97d2d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682193",
-              "scryfallId": "e0a46bab-5d81-4552-8686-5ab472fc349a"
-            },
-            "language": "Spanish",
-            "multiverseId": 682193,
-            "name": "Sabia de las sombras de Skemfar",
-            "text": "Cuando la Sabia de las sombras de Skemfar entre, elige uno:\n• Cada oponente pierde X vidas, donde X es la mayor cantidad de criaturas que controlas que tengan un tipo de criatura en común.\n• Ganas X vidas, donde X es la mayor cantidad de criaturas que controlas que tengan un tipo de criatura en común.",
-            "type": "Criatura — Clérigo elfo",
-            "uuid": "9ae16f87-6fbc-5981-a8bb-a5e93856bab9"
-          },
           {
             "identifiers": {
               "multiverseId": "682310",
@@ -1956,9 +2132,27 @@
             "language": "French",
             "multiverseId": 682310,
             "name": "Ombresage de Skemfar",
+            "skuIds": {
+              "nonfoil": "0f4278d8-ac53-5786-855c-be8fde8170c4"
+            },
             "text": "Quand l'Ombresage de Skemfar arrive, choisissez l'un —\n• Chaque adversaire perd X points de vie, X étant le plus grand nombre de créatures que vous contrôlez qui ont un type de créature en commun.\n• Vous gagnez X points de vie, X étant le plus grand nombre de créatures que vous contrôlez qui ont un type de créature en commun.",
             "type": "Créature — elfe et clerc",
             "uuid": "dfb738a2-5063-5e65-9571-b4afe398d166"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682076",
+              "scryfallId": "1aaa659f-41b8-4d77-a4c5-24b8d0290b7b"
+            },
+            "language": "German",
+            "multiverseId": 682076,
+            "name": "Skemfar-Schattenseherin",
+            "skuIds": {
+              "nonfoil": "2e4430ad-63ca-5c8a-abb8-7757bf5b8fb3"
+            },
+            "text": "Wenn die Skemfar-Schattenseherin ins Spiel kommt, bestimme eines —\n• Jeder Gegner verliert X Lebenspunkte, wobei X gleich der höchsten Anzahl an Kreaturen ist, die du kontrollierst und die einen Kreaturentyp gemeinsam haben.\n• Du erhältst X Lebenspunkte dazu, wobei X gleich der höchsten Anzahl an Kreaturen ist, die du kontrollierst und die einen Kreaturentyp gemeinsam haben.",
+            "type": "Kreatur — Elf, Kleriker",
+            "uuid": "59227a72-1e3c-5279-a5eb-c56d35b97d2d"
           },
           {
             "identifiers": {
@@ -1968,6 +2162,9 @@
             "language": "Italian",
             "multiverseId": 682427,
             "name": "Saggia delle Ombre di Skemfar",
+            "skuIds": {
+              "nonfoil": "5abc942f-4572-50d7-a06d-6017f3d552cf"
+            },
             "text": "Quando la Saggia delle Ombre di Skemfar entra, scegli uno —\n• Ogni avversario perde X punti vita, dove X è il maggior numero di creature che controlli che hanno un tipo di creatura in comune.\n• Guadagni X punti vita, dove X è il maggior numero di creature che controlli che hanno un tipo di creatura in comune.",
             "type": "Creatura — Chierico Elfo",
             "uuid": "ae7a964f-7f38-5292-ac29-3196614210d0"
@@ -1980,14 +2177,30 @@
             "language": "Japanese",
             "multiverseId": 682544,
             "name": "スケムファーの影賢者",
+            "skuIds": {
+              "nonfoil": "fdf809db-12db-5dc7-9360-fe4962da2ae8"
+            },
             "text": "スケムファーの影賢者が戦場に出たとき、以下から１つを選ぶ。\n・各対戦相手はそれぞれＸ点のライフを失う。Ｘは、あなたがコントロールしていて共通のクリーチャー・タイプを持つクリーチャーの最大数に等しい。\n・Ｘ点のライフを得る。Ｘは、あなたがコントロールしていて共通のクリーチャー・タイプを持つクリーチャーの最大数に等しい。",
             "type": "クリーチャー — エルフ・クレリック",
             "uuid": "50a47244-7d5a-5f61-83ca-77a2776b2c88"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682193",
+              "scryfallId": "e0a46bab-5d81-4552-8686-5ab472fc349a"
+            },
+            "language": "Spanish",
+            "multiverseId": 682193,
+            "name": "Sabia de las sombras de Skemfar",
+            "skuIds": {
+              "nonfoil": "d97fa1c6-5cf0-5169-a63c-bef9fa416442"
+            },
+            "text": "Cuando la Sabia de las sombras de Skemfar entre, elige uno:\n• Cada oponente pierde X vidas, donde X es la mayor cantidad de criaturas que controlas que tengan un tipo de criatura en común.\n• Ganas X vidas, donde X es la mayor cantidad de criaturas que controlas que tengan un tipo de criatura en común.",
+            "type": "Criatura — Clérigo elfo",
+            "uuid": "9ae16f87-6fbc-5981-a8bb-a5e93856bab9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305828",
           "cardsphereId": "131207",
@@ -2026,6 +2239,7 @@
         "name": "Skemfar Shadowsage",
         "number": "489",
         "originalText": "When Skemfar Shadowsage enters, choose one —\n• Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common.\n• You gain X life, where X is the greatest number of creatures you control that have a creature type in common.",
+        "originalType": "Creature – Elf Cleric",
         "power": "2",
         "printings": [
           "J25",
@@ -2049,9 +2263,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67730b21-4392-5726-bf07-856e895ac0a7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2083,39 +2302,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
-          {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
-            "identifiers": {
-              "multiverseId": "684060",
-              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
-            },
-            "language": "German",
-            "multiverseId": 684060,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "684099",
-              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684099,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
-          },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
             "identifiers": {
@@ -2125,9 +2318,28 @@
             "language": "French",
             "multiverseId": 684138,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "add59bbe-0b4b-5e14-9a6a-47bf39042209"
+            },
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "684060",
+              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
+            },
+            "language": "German",
+            "multiverseId": 684060,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "afbea6f1-e976-504e-b830-36843d57a647"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2138,6 +2350,9 @@
             "language": "Italian",
             "multiverseId": 684177,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "01ccf6ce-a9b3-5200-950b-077f06168b6c"
+            },
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
@@ -2151,14 +2366,31 @@
             "language": "Japanese",
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "66dadb12-235f-57b1-8a05-6ca3b2f2374f"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
+          },
+          {
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
+            "identifiers": {
+              "multiverseId": "684099",
+              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684099,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "2fc2ec38-fc7e-549d-bddc-8eccb2fc0db9"
+            },
+            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306118",
           "cardsphereId": "130620",
@@ -2196,11 +2428,13 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2208,7 +2442,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ea3b0ea9ac38ec4",
@@ -2217,9 +2459,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77f55632-6902-5207-821a-0a16defe007e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2254,36 +2501,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2293,6 +2535,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -2304,18 +2549,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -2328,7 +2589,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2356,6 +2616,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2425,6 +2686,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2584,15 +2846,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2608,8 +2879,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -2635,36 +2906,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681258",
-              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
-            },
-            "language": "German",
-            "multiverseId": 681258,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681273",
-              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
-            },
-            "language": "Spanish",
-            "multiverseId": 681273,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681288",
               "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
             },
             "language": "French",
             "multiverseId": 681288,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "58cc2114-ff20-5b2b-8243-fe9c71444056"
+            },
             "type": "Terrain de base — marais",
             "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "df8c56c8-2c52-5f7c-a0f9-dc007b453cc8"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
           },
           {
             "identifiers": {
@@ -2674,6 +2940,9 @@
             "language": "Italian",
             "multiverseId": 681303,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "38762243-399f-5806-a2ff-72b8eafa5764"
+            },
             "type": "Terra Base — Palude",
             "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
           },
@@ -2685,18 +2954,34 @@
             "language": "Japanese",
             "multiverseId": 681318,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "bac3b3f5-1e4f-53d2-b37d-f29f8830f1b3"
+            },
             "type": "基本土地 — 沼",
             "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "012c01ef-0c6c-5f00-8ee3-cc9ed0399fa5"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305222",
           "cardsphereId": "131378",
           "deckboxId": "98082",
           "mcmId": "795509",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95173",
           "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
           "multiverseId": "681243",
@@ -2709,7 +2994,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2737,6 +3021,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "88",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2806,6 +3091,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2965,15 +3251,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "cardmarket": "https://mtgjson.com/links/d72081b51f72a9fd",
           "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0f6de19-a0e0-5f46-b789-722db3f3d050"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2989,8 +3284,8 @@
         ],
         "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
         "variations": [
-          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338"
         ]
       },
       {
@@ -3016,36 +3311,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681259",
-              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
-            },
-            "language": "German",
-            "multiverseId": 681259,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681274",
-              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681274,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681289",
               "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
             },
             "language": "French",
             "multiverseId": 681289,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "83eec502-7b1d-59a8-9981-d0be754718c4"
+            },
             "type": "Terrain de base — marais",
             "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "8273f910-cf00-5709-878e-3650541afce7"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
           },
           {
             "identifiers": {
@@ -3055,6 +3345,9 @@
             "language": "Italian",
             "multiverseId": 681304,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "a84aa32a-8785-528e-ad51-add235859b0f"
+            },
             "type": "Terra Base — Palude",
             "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
           },
@@ -3066,18 +3359,34 @@
             "language": "Japanese",
             "multiverseId": 681319,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "f946fc76-6b28-53a6-bfdb-03572ac6abf9"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "a560fadb-19ac-5380-a675-5ea7a7ced15c"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305223",
           "cardsphereId": "131379",
           "deckboxId": "98083",
           "mcmId": "795510",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95174",
           "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
           "multiverseId": "681244",
@@ -3090,7 +3399,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3118,6 +3426,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "89",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3187,6 +3496,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3346,15 +3656,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "cardmarket": "https://mtgjson.com/links/c5cffa7bb040b1df",
           "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "218449c3-8e95-5b56-a14d-e3c30f76d304"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3386,5 +3705,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "d03ad4f700e864"
   }
 }

@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "1df14f757c950f"
-  },
   "data": {
     "code": "JMP",
     "commander": [],
@@ -30,7 +25,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1133,
+        "edhrecRank": 1115,
         "edhrecSaltiness": 1.17,
         "finishes": [
           "nonfoil"
@@ -41,8 +36,6 @@
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235162",
           "cardsphereId": "68684",
@@ -91,6 +84,7 @@
         "name": "Krenko, Mob Boss",
         "number": "339",
         "originalText": "{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.",
+        "originalType": "Legendary Creature – Goblin Warrior",
         "power": "3",
         "printings": [
           "CMM",
@@ -110,6 +104,11 @@
           "tcgplayer": "https://mtgjson.com/links/375626e47395164d"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "624155e0-9fb2-5dc4-ab66-fb7cd6196d53"
+          ]
+        },
         "rulings": [
           {
             "date": "2012-07-01",
@@ -118,8 +117,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "c37352cb-15fc-56a4-affd-02e5f36e0964"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -159,7 +164,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 25152,
+        "edhrecRank": 25453,
         "edhrecSaltiness": 0.86,
         "finishes": [
           "nonfoil"
@@ -167,8 +172,6 @@
         "flavorText": "With a commando around, somebody's gonna get hurt.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235151",
           "cardsphereId": "68833",
@@ -209,6 +212,7 @@
         "name": "Goblin Commando",
         "number": "325",
         "originalText": "When Goblin Commando enters the battlefield, it deals 2 damage to target creature.",
+        "originalType": "Creature – Goblin",
         "power": "2",
         "printings": [
           "JMP",
@@ -222,8 +226,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "9070598e-347e-5d4c-bab3-63a08d077ea3"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -260,15 +270,14 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 17556,
+        "edhrecRank": 17854,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "He has the biggest bashing stick, so it's a safe bet he's the leader.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235129",
           "cardsphereId": "68709",
@@ -313,6 +322,7 @@
         "name": "Boggart Brute",
         "number": "299",
         "originalText": "Menace (This creature can't be blocked except by two or more creatures.)",
+        "originalType": "Creature – Goblin Warrior",
         "power": "3",
         "printings": [
           "DDT",
@@ -335,8 +345,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "6301c41b-9b36-530f-a1b9-f27f91691fe9"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -374,7 +390,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 3123,
+        "edhrecRank": 3181,
         "edhrecSaltiness": 0.23,
         "finishes": [
           "nonfoil"
@@ -382,8 +398,6 @@
         "flavorText": "\"We can take 'em. You go first!\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235153",
           "cardsphereId": "68834",
@@ -415,6 +429,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -424,6 +439,7 @@
         "name": "Goblin Instigator",
         "number": "327",
         "originalText": "When Goblin Instigator enters the battlefield, create a 1/1 red Goblin creature token.",
+        "originalType": "Creature – Goblin Rogue",
         "power": "1",
         "printings": [
           "JMP",
@@ -437,9 +453,20 @@
           "tcgplayer": "https://mtgjson.com/links/9eedb766d0054955"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "624155e0-9fb2-5dc4-ab66-fb7cd6196d53"
+          ]
+        },
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "f1cebd44-1859-5311-98ec-711efdc4651a"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -477,15 +504,14 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18165,
+        "edhrecRank": 18482,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I'm not running away! I'm figuring out the best routes.\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235156",
           "cardsphereId": "68838",
@@ -528,6 +554,7 @@
         "name": "Goblin Shortcutter",
         "number": "330",
         "originalText": "When Goblin Shortcutter enters the battlefield, target creature can't block this turn.",
+        "originalType": "Creature – Goblin Scout",
         "power": "2",
         "printings": [
           "JMP",
@@ -541,8 +568,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "b522d071-0242-5c69-82cb-ea7c0ced35bf"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -580,7 +613,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20483,
+        "edhrecRank": 21034,
         "edhrecSaltiness": 0.57,
         "finishes": [
           "nonfoil"
@@ -588,8 +621,6 @@
         "flavorText": "\"Nobody ever listens to my complaints! Not even when I use the listening stick.\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235168",
           "cardsphereId": "68863",
@@ -630,6 +661,7 @@
         "name": "Ornery Goblin",
         "number": "353",
         "originalText": "Whenever Ornery Goblin blocks or becomes blocked by a creature, Ornery Goblin deals 1 damage to that creature.",
+        "originalType": "Creature – Goblin Warrior",
         "power": "2",
         "printings": [
           "CLU",
@@ -649,8 +681,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "a2b458be-c928-5627-88c4-f69a6ceb0cde"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -689,118 +727,14 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 11903,
+        "edhrecRank": 12180,
         "edhrecSaltiness": 0.53,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "With great power comes great risk of getting yourself killed.",
         "foreignData": [
-          {
-            "flavorText": "Mit großer Macht kommt auch das große Risiko, getötet zu werden.",
-            "identifiers": {
-              "multiverseId": "485729",
-              "scryfallId": "86567d95-2cbc-4d0b-9b91-23bd22205e83"
-            },
-            "language": "German",
-            "multiverseId": 485729,
-            "name": "Goblin-Brandstifter",
-            "text": "Wenn der Goblin-Brandstifter stirbt, kannst du ihn einem Ziel deiner Wahl 1 Schadenspunkt zufügen lassen.",
-            "type": "Kreatur — Goblin, Schamane",
-            "uuid": "0355b0ef-8a2b-588d-bb9b-2a1e52b1b86d"
-          },
-          {
-            "flavorText": "Un gran poder conlleva un gran riesgo de hacer que te maten.",
-            "identifiers": {
-              "multiverseId": "485988",
-              "scryfallId": "2e61f314-1a8c-44e6-9069-5aaabe76ba80"
-            },
-            "language": "Spanish",
-            "multiverseId": 485988,
-            "name": "Calcinador trasgo",
-            "text": "Cuando el Calcinador trasgo muera, puedes hacer que haga 1 punto de daño a cualquier objetivo.",
-            "type": "Criatura — Chamán trasgo",
-            "uuid": "275013bb-f5f2-52c4-b44b-929904c49d72"
-          },
-          {
-            "flavorText": "Quiconque a un grand pouvoir court le risque de se faire tuer.",
-            "identifiers": {
-              "multiverseId": "486247",
-              "scryfallId": "6b880ffb-3362-4831-8c16-2dbe2d794fc5"
-            },
-            "language": "French",
-            "multiverseId": 486247,
-            "name": "Incendiaire gobelin",
-            "text": "Quand l'Incendiaire gobelin meurt, vous pouvez faire qu'il inflige 1 blessure à n'importe quelle cible.",
-            "type": "Créature : gobelin et shamane",
-            "uuid": "dcc93513-1562-5324-9969-0cf75752f35a"
-          },
-          {
-            "flavorText": "Con molto potere ci sono molti rischi di rimanere uccisi.",
-            "identifiers": {
-              "multiverseId": "486506",
-              "scryfallId": "aa10df46-c7ba-4281-bfc0-4c7d7baec3a8"
-            },
-            "language": "Italian",
-            "multiverseId": 486506,
-            "name": "Goblin Inceneritore",
-            "text": "Quando il Goblin Inceneritore muore, puoi fargli infliggere 1 danno a un qualsiasi bersaglio.",
-            "type": "Creatura — Sciamano Goblin",
-            "uuid": "f1d6952f-3a36-5bf1-a8cf-c81f64514f1d"
-          },
-          {
-            "flavorText": "大きな力は、自分をも殺してしまうほどの大きな危険を伴う。",
-            "identifiers": {
-              "multiverseId": "486765",
-              "scryfallId": "ad064413-67e1-4c4c-8029-e4398dae73cb"
-            },
-            "language": "Japanese",
-            "multiverseId": 486765,
-            "name": "ゴブリンの付け火屋",
-            "text": "ゴブリンの付け火屋が死亡したとき、クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。あなたは「ゴブリンの付け火屋はそれに１点のダメージを与える。」を選んでもよい。",
-            "type": "クリーチャー — ゴブリン・シャーマン",
-            "uuid": "cbfdc770-6a02-570a-9bc5-57b443b3bf38"
-          },
-          {
-            "flavorText": "강력한 힘에는 높은 사망 확률이 따르는 법이다.",
-            "identifiers": {
-              "multiverseId": "487024",
-              "scryfallId": "8db9192c-ca3f-4cd1-99a0-adfb16073960"
-            },
-            "language": "Korean",
-            "multiverseId": 487024,
-            "name": "고블린 방화범",
-            "text": "고블린 방화범이 죽을 때, 원하는 목표를 정한다. 당신은 고블린 방화범이 그 목표에게 피해 1점을 입히게 할 수 있다.",
-            "type": "생물 — 고블린 주술사",
-            "uuid": "35474dc1-50ea-5959-9811-618ab111b8a1"
-          },
-          {
-            "flavorText": "Um poder grandioso também traz consigo um grande risco de morte.",
-            "identifiers": {
-              "multiverseId": "487283",
-              "scryfallId": "52e9dd3f-39c8-499f-a025-4e0e9d19ca0b"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487283,
-            "name": "Pirômano Goblin",
-            "text": "Quando Pirômano Goblin morre, você pode fazer com que ele cause 1 ponto de dano a qualquer alvo.",
-            "type": "Criatura — Goblin Xamã",
-            "uuid": "d4e07f9d-4acf-5fc5-85c7-570dbee6aab2"
-          },
-          {
-            "flavorText": "Чем больше могущество, тем больше риск быть убитым.",
-            "identifiers": {
-              "multiverseId": "487542",
-              "scryfallId": "7700a487-64fd-4dc6-bd04-3628c7a4540e"
-            },
-            "language": "Russian",
-            "multiverseId": 487542,
-            "name": "Гоблин-Воспламенитель",
-            "text": "Когда Гоблин-Воспламенитель умирает, вы можете заставить его нанести 1 повреждение любой цели.",
-            "type": "Существо — Гоблин Шаман",
-            "uuid": "21dd9944-7fed-53a1-993a-b9e212991871"
-          },
           {
             "flavorText": "能力越强，丧命的危险越大。",
             "identifiers": {
@@ -810,6 +744,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487801,
             "name": "纵火鬼怪",
+            "skuIds": {
+              "foil": "c2d54b83-6436-5659-8244-0ae2e8bee4fa",
+              "nonfoil": "5bbe278d-ea34-5044-bd1a-237cb5871707"
+            },
             "text": "当纵火鬼怪死去时，你可以让它对任意一个目标造成1点伤害。",
             "type": "生物 ～鬼怪／祭师",
             "uuid": "d307154b-596c-58e9-9279-8092beb417be"
@@ -823,14 +761,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488060,
             "name": "縱火鬼怪",
+            "skuIds": {
+              "foil": "9efeb39f-1fd6-5b7a-9309-de900cabda81",
+              "nonfoil": "1d966205-210f-5544-9124-51435ee3d106"
+            },
             "text": "當縱火鬼怪死去時，你可以讓它對任意一個目標造成1點傷害。",
             "type": "生物 ～鬼怪／祭師",
             "uuid": "90731c21-2369-500a-8421-f2694cf65482"
+          },
+          {
+            "flavorText": "Quiconque a un grand pouvoir court le risque de se faire tuer.",
+            "identifiers": {
+              "multiverseId": "486247",
+              "scryfallId": "6b880ffb-3362-4831-8c16-2dbe2d794fc5"
+            },
+            "language": "French",
+            "multiverseId": 486247,
+            "name": "Incendiaire gobelin",
+            "skuIds": {
+              "foil": "eadc54d0-4ab9-5e85-9fdd-ab24d54d5991",
+              "nonfoil": "83c97b26-f844-5e12-ac1d-4e8a4d48984b"
+            },
+            "text": "Quand l'Incendiaire gobelin meurt, vous pouvez faire qu'il inflige 1 blessure à n'importe quelle cible.",
+            "type": "Créature : gobelin et shamane",
+            "uuid": "dcc93513-1562-5324-9969-0cf75752f35a"
+          },
+          {
+            "flavorText": "Mit großer Macht kommt auch das große Risiko, getötet zu werden.",
+            "identifiers": {
+              "multiverseId": "485729",
+              "scryfallId": "86567d95-2cbc-4d0b-9b91-23bd22205e83"
+            },
+            "language": "German",
+            "multiverseId": 485729,
+            "name": "Goblin-Brandstifter",
+            "skuIds": {
+              "foil": "b4d37255-82ca-5f92-8824-fd27b0f9e37d",
+              "nonfoil": "998f0a36-1bec-52ad-bdbd-7ca8934415ae"
+            },
+            "text": "Wenn der Goblin-Brandstifter stirbt, kannst du ihn einem Ziel deiner Wahl 1 Schadenspunkt zufügen lassen.",
+            "type": "Kreatur — Goblin, Schamane",
+            "uuid": "0355b0ef-8a2b-588d-bb9b-2a1e52b1b86d"
+          },
+          {
+            "flavorText": "Con molto potere ci sono molti rischi di rimanere uccisi.",
+            "identifiers": {
+              "multiverseId": "486506",
+              "scryfallId": "aa10df46-c7ba-4281-bfc0-4c7d7baec3a8"
+            },
+            "language": "Italian",
+            "multiverseId": 486506,
+            "name": "Goblin Inceneritore",
+            "skuIds": {
+              "foil": "01f25584-0a29-57d5-a0c2-9266b6328e91",
+              "nonfoil": "619d9c23-11c6-5e0f-af91-d49ffddf4429"
+            },
+            "text": "Quando il Goblin Inceneritore muore, puoi fargli infliggere 1 danno a un qualsiasi bersaglio.",
+            "type": "Creatura — Sciamano Goblin",
+            "uuid": "f1d6952f-3a36-5bf1-a8cf-c81f64514f1d"
+          },
+          {
+            "flavorText": "大きな力は、自分をも殺してしまうほどの大きな危険を伴う。",
+            "identifiers": {
+              "multiverseId": "486765",
+              "scryfallId": "ad064413-67e1-4c4c-8029-e4398dae73cb"
+            },
+            "language": "Japanese",
+            "multiverseId": 486765,
+            "name": "ゴブリンの付け火屋",
+            "skuIds": {
+              "foil": "2c1120c9-c3e7-55c3-8598-634dfe06963e",
+              "nonfoil": "eec2d88a-d08d-5f23-b452-357415a075d9"
+            },
+            "text": "ゴブリンの付け火屋が死亡したとき、クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。あなたは「ゴブリンの付け火屋はそれに１点のダメージを与える。」を選んでもよい。",
+            "type": "クリーチャー — ゴブリン・シャーマン",
+            "uuid": "cbfdc770-6a02-570a-9bc5-57b443b3bf38"
+          },
+          {
+            "flavorText": "강력한 힘에는 높은 사망 확률이 따르는 법이다.",
+            "identifiers": {
+              "multiverseId": "487024",
+              "scryfallId": "8db9192c-ca3f-4cd1-99a0-adfb16073960"
+            },
+            "language": "Korean",
+            "multiverseId": 487024,
+            "name": "고블린 방화범",
+            "skuIds": {
+              "foil": "de0af162-518d-54c6-8ce7-aef73f0372fa",
+              "nonfoil": "a3ff334f-994c-50d7-9f0d-0ef9842a8f2e"
+            },
+            "text": "고블린 방화범이 죽을 때, 원하는 목표를 정한다. 당신은 고블린 방화범이 그 목표에게 피해 1점을 입히게 할 수 있다.",
+            "type": "생물 — 고블린 주술사",
+            "uuid": "35474dc1-50ea-5959-9811-618ab111b8a1"
+          },
+          {
+            "flavorText": "Um poder grandioso também traz consigo um grande risco de morte.",
+            "identifiers": {
+              "multiverseId": "487283",
+              "scryfallId": "52e9dd3f-39c8-499f-a025-4e0e9d19ca0b"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487283,
+            "name": "Pirômano Goblin",
+            "skuIds": {
+              "foil": "abec5ce0-fc5b-5379-86e9-6091189f078e",
+              "nonfoil": "15ac68cc-39c0-53f6-88d1-0c928178898e"
+            },
+            "text": "Quando Pirômano Goblin morre, você pode fazer com que ele cause 1 ponto de dano a qualquer alvo.",
+            "type": "Criatura — Goblin Xamã",
+            "uuid": "d4e07f9d-4acf-5fc5-85c7-570dbee6aab2"
+          },
+          {
+            "flavorText": "Чем больше могущество, тем больше риск быть убитым.",
+            "identifiers": {
+              "multiverseId": "487542",
+              "scryfallId": "7700a487-64fd-4dc6-bd04-3628c7a4540e"
+            },
+            "language": "Russian",
+            "multiverseId": 487542,
+            "name": "Гоблин-Воспламенитель",
+            "skuIds": {
+              "foil": "9b3a4563-a929-5b98-99b3-73112447cb86",
+              "nonfoil": "5b75d3d8-0614-501b-888d-5a3d1e464582"
+            },
+            "text": "Когда Гоблин-Воспламенитель умирает, вы можете заставить его нанести 1 повреждение любой цели.",
+            "type": "Существо — Гоблин Шаман",
+            "uuid": "21dd9944-7fed-53a1-993a-b9e212991871"
+          },
+          {
+            "flavorText": "Un gran poder conlleva un gran riesgo de hacer que te maten.",
+            "identifiers": {
+              "multiverseId": "485988",
+              "scryfallId": "2e61f314-1a8c-44e6-9069-5aaabe76ba80"
+            },
+            "language": "Spanish",
+            "multiverseId": 485988,
+            "name": "Calcinador trasgo",
+            "skuIds": {
+              "foil": "9bbe3a0c-a4fe-53af-bba4-36656e0c99af",
+              "nonfoil": "e4cf1d97-eaaa-511f-ae2b-955d2463b6ea"
+            },
+            "text": "Cuando el Calcinador trasgo muera, puedes hacer que haga 1 punto de daño a cualquier objetivo.",
+            "type": "Criatura — Chamán trasgo",
+            "uuid": "275013bb-f5f2-52c4-b44b-929904c49d72"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234420",
           "cardKingdomId": "234070",
@@ -876,6 +952,7 @@
         "name": "Goblin Arsonist",
         "number": "147",
         "originalText": "When Goblin Arsonist dies, you may have it deal 1 damage to any target.",
+        "originalType": "Creature – Goblin Shaman",
         "power": "1",
         "printings": [
           "DDK",
@@ -889,20 +966,50 @@
           "cardKingdom": "https://mtgjson.com/links/3a1e831ea157506f",
           "cardKingdomFoil": "https://mtgjson.com/links/8510e28e230a4d90",
           "cardmarket": "https://mtgjson.com/links/178c1677c97a78b9",
+          "cardmarketFoil": "https://mtgjson.com/links/72f29a11549c6def",
           "tcgplayer": "https://mtgjson.com/links/ff9ba48e53bb4d08"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "36e87bb4-b918-577f-819c-aab169a813ef",
+          "nonfoil": "7f5425dd-33ec-5b9d-9c32-63166d966fa3"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -938,7 +1045,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 13759,
+        "edhrecRank": 14350,
         "edhrecSaltiness": 0.35,
         "finishes": [
           "nonfoil"
@@ -946,8 +1053,6 @@
         "flavorText": "\"The coronation of King Numsgil, no . . . adventures of Tuktuk, no . . . the saga of Morpo the Bard, no! Where's *my* story?\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235154",
           "cardsphereId": "68835",
@@ -981,6 +1086,7 @@
         "name": "Goblin Lore",
         "number": "328",
         "originalText": "Draw four cards, then discard three cards at random.",
+        "originalType": "Sorcery",
         "printings": [
           "10E",
           "JMP",
@@ -995,8 +1101,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "2a853404-013c-5621-a1cb-0c56b21f11bc"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1030,7 +1142,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 8086,
+        "edhrecRank": 8441,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
@@ -1038,8 +1150,6 @@
         "flavorText": "You don't so much hire goblins as put ideas in their heads.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235155",
           "cardsphereId": "68836",
@@ -1079,6 +1189,7 @@
         "name": "Goblin Rally",
         "number": "329",
         "originalText": "Create four 1/1 red Goblin creature tokens.",
+        "originalType": "Sorcery",
         "printings": [
           "GK1",
           "J22",
@@ -1091,9 +1202,20 @@
           "tcgplayer": "https://mtgjson.com/links/bff621013e4deeee"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "624155e0-9fb2-5dc4-ab66-fb7cd6196d53"
+          ]
+        },
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "afa4333a-7411-5a28-8004-bb2c18a6f5dd"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1127,7 +1249,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 8275,
+        "edhrecRank": 8468,
         "edhrecSaltiness": 0.31,
         "finishes": [
           "nonfoil"
@@ -1135,8 +1257,6 @@
         "flavorText": "Everyone who could still lift a weapon had a part in retaking Sea Gate.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235169",
           "cardsphereId": "68864",
@@ -1178,6 +1298,7 @@
         "name": "Outnumber",
         "number": "354",
         "originalText": "Outnumber deals damage to target creature equal to the number of creatures you control.",
+        "originalType": "Instant",
         "printings": [
           "BFZ",
           "J22",
@@ -1197,8 +1318,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "8d87ba78-2215-51a8-a1cb-eceb477463df"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1233,118 +1360,14 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15068,
+        "edhrecRank": 15583,
         "edhrecSaltiness": 0.25,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "\"From a great bonfire at the dawn of time, the first Gruul kindled their rage. The same flame burns in you.\"\n—Kroshkar, Gruul shaman",
         "foreignData": [
-          {
-            "flavorText": "„Die grenzenlose Wut der ersten Gruul wurde durch ein riesiges Feuer am Anbeginn der Zeit gespeist. Dieselbe Flamme brennt auch in dir.\"\n—Kroshkar, Gruul-Schamane",
-            "identifiers": {
-              "multiverseId": "485716",
-              "scryfallId": "346ce472-0b56-40ab-8046-b874b45231c0"
-            },
-            "language": "German",
-            "multiverseId": 485716,
-            "name": "Auflodern",
-            "text": "Kreaturen, die du kontrollierst, erhalten +2/+0 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "8a431d5f-a6aa-534b-bdbd-2bd496fc8890"
-          },
-          {
-            "flavorText": "\"En una gran hoguera en el albor de los tiempos, los primeros gruul encendieron su ira. La misma llama arde en ti\".\n—Kroshkar, chamán gruul",
-            "identifiers": {
-              "multiverseId": "485975",
-              "scryfallId": "45bc802f-66c0-4514-a1d0-9fc192eb2748"
-            },
-            "language": "Spanish",
-            "multiverseId": 485975,
-            "name": "Arder de rabia",
-            "text": "Las criaturas que controlas obtienen +2/+0 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "9a9e2a9e-5688-5b81-9001-1dff643f33e1"
-          },
-          {
-            "flavorText": "« À l'aube des temps, le premier Gruul a attisé sa rage dans un grand feu de joie. Cette même flamme brûle en vous. »\n—Kroshkar, shamane gruul",
-            "identifiers": {
-              "multiverseId": "486234",
-              "scryfallId": "dae151d1-165d-455e-a9e7-a1f5a17a29e5"
-            },
-            "language": "French",
-            "multiverseId": 486234,
-            "name": "Pleins feux",
-            "text": "Les créatures que vous contrôlez gagnent +2/+0 jusqu'à la fin du tour.",
-            "type": "Éphémère",
-            "uuid": "005b243a-8d31-5dd8-91ba-e1536342de41"
-          },
-          {
-            "flavorText": "\"Da un grande rogo all'alba dei tempi, i primi Gruul accesero la loro furia. La stessa fiamma brucia dentro di te.\"\n—Kroshkar, sciamano Gruul",
-            "identifiers": {
-              "multiverseId": "486493",
-              "scryfallId": "6216e8c9-8809-4f83-8b8f-250a7e3c105a"
-            },
-            "language": "Italian",
-            "multiverseId": 486493,
-            "name": "Avvampare",
-            "text": "Le creature che controlli prendono +2/+0 fino alla fine del turno.",
-            "type": "Istantaneo",
-            "uuid": "197fd016-61e1-5d38-96f7-271ebd1bf941"
-          },
-          {
-            "flavorText": "「太古の昔の大かがり火で、最初のグルールは怒りを燃え立たせた。お前の中には同じ炎が燃えている。」\n――グルールのシャーマン、クロシュカー",
-            "identifiers": {
-              "multiverseId": "486752",
-              "scryfallId": "deddf7b4-2794-4073-a14a-1e20c53d642d"
-            },
-            "language": "Japanese",
-            "multiverseId": 486752,
-            "name": "燃えさかる炎",
-            "text": "ターン終了時まで、あなたがコントロールしているクリーチャーは＋２/＋０の修整を受ける。",
-            "type": "インスタント",
-            "uuid": "00a7e6ce-b089-58e2-8656-6324dae8663a"
-          },
-          {
-            "flavorText": "\"여명의 시간에 일어난 거대한 불길 속에서, 최초의 그룰이 분노에 불을 지폈다. 그때와 같은 불길이 네 안에서도 불타고 있다.\"\n—그룰 주술사 크로슈카르",
-            "identifiers": {
-              "multiverseId": "487011",
-              "scryfallId": "226be84c-da72-456f-bfeb-bcb342456bf7"
-            },
-            "language": "Korean",
-            "multiverseId": 487011,
-            "name": "밝게 태우기",
-            "text": "당신이 조종하는 생물들은 턴종료까지 +2/+0을 받는다.",
-            "type": "순간마법",
-            "uuid": "266a4926-e8bb-5f0f-9623-f51ab87764ce"
-          },
-          {
-            "flavorText": "\"Da grande fogueira da aurora dos tempos os primeiros Gruul inflamaram a própria fúria. A mesma chama arde em você.\"\n— Kroshkar, xamã Gruul",
-            "identifiers": {
-              "multiverseId": "487270",
-              "scryfallId": "7e4d7cb2-2f45-411a-aa1c-4d55b37df035"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487270,
-            "name": "Ira Ardente",
-            "text": "As criaturas que você controla recebem +2/+0 até o final do turno.",
-            "type": "Mágica Instantânea",
-            "uuid": "afaf2326-be61-57bc-af2b-c5c6ccd0341f"
-          },
-          {
-            "flavorText": "«Из великого костра на заре времен Груулы почерпнули огонь своей ярости. То же пламя горит и в тебе».\n— Крошкар, шаман Груулов",
-            "identifiers": {
-              "multiverseId": "487529",
-              "scryfallId": "a51766ad-9469-4296-b08a-891f8d53939d"
-            },
-            "language": "Russian",
-            "multiverseId": 487529,
-            "name": "Яркий Огонь",
-            "text": "Существа под вашим контролем получают +2/+0 до конца хода.",
-            "type": "Мгновенное заклинание",
-            "uuid": "b6dc7bcc-68bb-5f22-9995-88a474733671"
-          },
           {
             "flavorText": "「古鲁人血液中的怒火，从先人在创世之初升起第一簇盛大篝火起就开始燃烧，一直延续至今。这股怒火同样也在你的体内燃烧。」\n～古鲁祭师克许卡",
             "identifiers": {
@@ -1354,6 +1377,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487788,
             "name": "怒火冲天",
+            "skuIds": {
+              "foil": "95a0b816-8021-5ebd-9bea-7f7abf59963e",
+              "nonfoil": "f6911940-6a4e-556a-afaf-cbe11eaea9cf"
+            },
             "text": "由你操控的生物得+2/+0直到回合结束。",
             "type": "瞬间",
             "uuid": "00f22d99-5975-51e9-80dd-0fc844d86d43"
@@ -1367,14 +1394,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488047,
             "name": "怒火沖天",
+            "skuIds": {
+              "foil": "e6bf7d9e-a510-57ce-9698-f6b542bf2a19",
+              "nonfoil": "1127842f-2037-512a-a944-f072b07f88ca"
+            },
             "text": "由你操控的生物得+2/+0直到回合結束。",
             "type": "瞬間",
             "uuid": "fcbe0426-f1b6-5b50-add6-93f602a23abc"
+          },
+          {
+            "flavorText": "« À l'aube des temps, le premier Gruul a attisé sa rage dans un grand feu de joie. Cette même flamme brûle en vous. »\n—Kroshkar, shamane gruul",
+            "identifiers": {
+              "multiverseId": "486234",
+              "scryfallId": "dae151d1-165d-455e-a9e7-a1f5a17a29e5"
+            },
+            "language": "French",
+            "multiverseId": 486234,
+            "name": "Pleins feux",
+            "skuIds": {
+              "foil": "bcc3905b-352b-58f4-b039-451a8e1f2ee6",
+              "nonfoil": "b8fbed3e-c311-5cac-9502-b351b6e4651b"
+            },
+            "text": "Les créatures que vous contrôlez gagnent +2/+0 jusqu'à la fin du tour.",
+            "type": "Éphémère",
+            "uuid": "005b243a-8d31-5dd8-91ba-e1536342de41"
+          },
+          {
+            "flavorText": "„Die grenzenlose Wut der ersten Gruul wurde durch ein riesiges Feuer am Anbeginn der Zeit gespeist. Dieselbe Flamme brennt auch in dir.\"\n—Kroshkar, Gruul-Schamane",
+            "identifiers": {
+              "multiverseId": "485716",
+              "scryfallId": "346ce472-0b56-40ab-8046-b874b45231c0"
+            },
+            "language": "German",
+            "multiverseId": 485716,
+            "name": "Auflodern",
+            "skuIds": {
+              "foil": "3d98daf5-b258-5789-afdc-f3f604248482",
+              "nonfoil": "873b84d3-4312-5fb1-80e7-f8d60ef89754"
+            },
+            "text": "Kreaturen, die du kontrollierst, erhalten +2/+0 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "8a431d5f-a6aa-534b-bdbd-2bd496fc8890"
+          },
+          {
+            "flavorText": "\"Da un grande rogo all'alba dei tempi, i primi Gruul accesero la loro furia. La stessa fiamma brucia dentro di te.\"\n—Kroshkar, sciamano Gruul",
+            "identifiers": {
+              "multiverseId": "486493",
+              "scryfallId": "6216e8c9-8809-4f83-8b8f-250a7e3c105a"
+            },
+            "language": "Italian",
+            "multiverseId": 486493,
+            "name": "Avvampare",
+            "skuIds": {
+              "foil": "16cea792-829d-53e9-a902-897527ba0f01",
+              "nonfoil": "572b28a7-aa27-5a02-a583-4f8e7a413d4c"
+            },
+            "text": "Le creature che controlli prendono +2/+0 fino alla fine del turno.",
+            "type": "Istantaneo",
+            "uuid": "197fd016-61e1-5d38-96f7-271ebd1bf941"
+          },
+          {
+            "flavorText": "「太古の昔の大かがり火で、最初のグルールは怒りを燃え立たせた。お前の中には同じ炎が燃えている。」\n――グルールのシャーマン、クロシュカー",
+            "identifiers": {
+              "multiverseId": "486752",
+              "scryfallId": "deddf7b4-2794-4073-a14a-1e20c53d642d"
+            },
+            "language": "Japanese",
+            "multiverseId": 486752,
+            "name": "燃えさかる炎",
+            "skuIds": {
+              "foil": "90d1a738-8f4b-5fa2-9854-e5e50c12d121",
+              "nonfoil": "dd6b4dd2-ce63-5e5d-bb14-f0bfc640d46a"
+            },
+            "text": "ターン終了時まで、あなたがコントロールしているクリーチャーは＋２/＋０の修整を受ける。",
+            "type": "インスタント",
+            "uuid": "00a7e6ce-b089-58e2-8656-6324dae8663a"
+          },
+          {
+            "flavorText": "\"여명의 시간에 일어난 거대한 불길 속에서, 최초의 그룰이 분노에 불을 지폈다. 그때와 같은 불길이 네 안에서도 불타고 있다.\"\n—그룰 주술사 크로슈카르",
+            "identifiers": {
+              "multiverseId": "487011",
+              "scryfallId": "226be84c-da72-456f-bfeb-bcb342456bf7"
+            },
+            "language": "Korean",
+            "multiverseId": 487011,
+            "name": "밝게 태우기",
+            "skuIds": {
+              "foil": "cf4d93de-356e-5a14-9694-aaab491b626d",
+              "nonfoil": "fda261ce-ecc3-5bd9-8056-3473ea569ef9"
+            },
+            "text": "당신이 조종하는 생물들은 턴종료까지 +2/+0을 받는다.",
+            "type": "순간마법",
+            "uuid": "266a4926-e8bb-5f0f-9623-f51ab87764ce"
+          },
+          {
+            "flavorText": "\"Da grande fogueira da aurora dos tempos os primeiros Gruul inflamaram a própria fúria. A mesma chama arde em você.\"\n— Kroshkar, xamã Gruul",
+            "identifiers": {
+              "multiverseId": "487270",
+              "scryfallId": "7e4d7cb2-2f45-411a-aa1c-4d55b37df035"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487270,
+            "name": "Ira Ardente",
+            "skuIds": {
+              "foil": "3ed57127-614e-5e46-9487-9d5ed4df0ece",
+              "nonfoil": "4851b725-1f1c-5bf0-b8e9-a72adc314c98"
+            },
+            "text": "As criaturas que você controla recebem +2/+0 até o final do turno.",
+            "type": "Mágica Instantânea",
+            "uuid": "afaf2326-be61-57bc-af2b-c5c6ccd0341f"
+          },
+          {
+            "flavorText": "«Из великого костра на заре времен Груулы почерпнули огонь своей ярости. То же пламя горит и в тебе».\n— Крошкар, шаман Груулов",
+            "identifiers": {
+              "multiverseId": "487529",
+              "scryfallId": "a51766ad-9469-4296-b08a-891f8d53939d"
+            },
+            "language": "Russian",
+            "multiverseId": 487529,
+            "name": "Яркий Огонь",
+            "skuIds": {
+              "foil": "ca6fd201-bc8f-574e-866f-3d5abfdf2c4c",
+              "nonfoil": "7d271eda-4313-50c4-bb9a-021e3eabaee1"
+            },
+            "text": "Существа под вашим контролем получают +2/+0 до конца хода.",
+            "type": "Мгновенное заклинание",
+            "uuid": "b6dc7bcc-68bb-5f22-9995-88a474733671"
+          },
+          {
+            "flavorText": "\"En una gran hoguera en el albor de los tiempos, los primeros gruul encendieron su ira. La misma llama arde en ti\".\n—Kroshkar, chamán gruul",
+            "identifiers": {
+              "multiverseId": "485975",
+              "scryfallId": "45bc802f-66c0-4514-a1d0-9fc192eb2748"
+            },
+            "language": "Spanish",
+            "multiverseId": 485975,
+            "name": "Arder de rabia",
+            "skuIds": {
+              "foil": "a1ea0a57-aecb-540a-a29a-3727d84fdbed",
+              "nonfoil": "e8ef2340-2efb-579c-999d-6ea0cf81bc00"
+            },
+            "text": "Las criaturas que controlas obtienen +2/+0 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "9a9e2a9e-5688-5b81-9001-1dff643f33e1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234558",
           "cardKingdomId": "234252",
@@ -1399,6 +1564,7 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
+          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1419,6 +1585,7 @@
         "name": "Burn Bright",
         "number": "134",
         "originalText": "Creatures you control get +2/+0 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "ANB",
           "J22",
@@ -1430,20 +1597,50 @@
           "cardKingdom": "https://mtgjson.com/links/453e2d7e3ec9a7ab",
           "cardKingdomFoil": "https://mtgjson.com/links/26c3c0467d19395b",
           "cardmarket": "https://mtgjson.com/links/a1d19e303e597313",
+          "cardmarketFoil": "https://mtgjson.com/links/84c7bbbf2d90fcfa",
           "tcgplayer": "https://mtgjson.com/links/6f502f600c55488d"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "c12542d0-57db-588d-927e-abb9dff31687",
+          "nonfoil": "45f4ce49-6247-5e0a-a390-2a5fe782269f"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [],
@@ -1476,7 +1673,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 10431,
+        "edhrecRank": 10794,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
@@ -1484,8 +1681,6 @@
         "flavorText": "\"Grease up a firecannon good and proper with dinosaur-liver oil, and it'll shoot just about anything.\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235164",
           "cardsphereId": "68853",
@@ -1526,6 +1721,7 @@
         "name": "Makeshift Munitions",
         "number": "348",
         "originalText": "{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to any target.",
+        "originalType": "Enchantment",
         "printings": [
           "CMM",
           "CMR",
@@ -1545,8 +1741,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "e4159165-e892-5288-98a2-288c19e23f0f"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1579,7 +1781,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1295,
+        "edhrecRank": 1196,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -1587,8 +1789,6 @@
         "flavorText": "As eons passed, the rock wore away, revealing the rich colors at the mountain's heart.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234719",
           "cardsphereId": "68324",
@@ -1626,10 +1826,12 @@
         "name": "Thriving Bluff",
         "number": "33",
         "originalText": "Thriving Bluff enters the battlefield tapped.\nAs Thriving Bluff enters the battlefield, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -1638,6 +1840,13 @@
           "TLE",
           "WHO"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ae68d9f587e85be0",
           "cardmarket": "https://mtgjson.com/links/e45ce581e2cc0d2f",
@@ -1645,8 +1854,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "75f392ba-2c21-553b-beee-60a5c0a2dd64"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1681,98 +1896,10 @@
         "count": 2,
         "edhrecSaltiness": 0.32,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488485",
-              "scryfallId": "1ca37100-9639-4ce0-8f9e-57080fda1f79"
-            },
-            "language": "German",
-            "multiverseId": 488485,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "ea9bc9e6-5da6-535e-aa12-eb398c9b0860"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488500",
-              "scryfallId": "0481558e-c369-4942-aea4-526fbb7528f7"
-            },
-            "language": "Spanish",
-            "multiverseId": 488500,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "e64c2962-1b25-52ac-b906-ae2ad6a3d2e3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488515",
-              "scryfallId": "95d04448-88dc-414a-a8ef-d1e44658eee6"
-            },
-            "language": "French",
-            "multiverseId": 488515,
-            "name": "Montagne",
-            "type": "Terrain de base : montagne",
-            "uuid": "c4b3d130-f353-5a9d-88a2-210884108d81"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488530",
-              "scryfallId": "945143b1-7354-4f71-9fa9-184753727513"
-            },
-            "language": "Italian",
-            "multiverseId": 488530,
-            "name": "Montagna",
-            "type": "Terra Base — Montagna",
-            "uuid": "c0e84e1d-3693-59e5-b595-21513af2d8b8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488545",
-              "scryfallId": "268d9a17-7209-4f04-9863-1f7e30d6c79b"
-            },
-            "language": "Japanese",
-            "multiverseId": 488545,
-            "name": "山",
-            "type": "基本土地 — 山",
-            "uuid": "0744238e-399a-592d-8883-cd03dba7776d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488560",
-              "scryfallId": "2df6dc03-4f51-451a-a98a-d5406a0cd567"
-            },
-            "language": "Korean",
-            "multiverseId": 488560,
-            "name": "산",
-            "type": "기본 대지 — 산",
-            "uuid": "1a636bdf-1fdb-54f7-98a5-c3c74a21a995"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488575",
-              "scryfallId": "5b3aef81-aff8-4517-a3fc-1774bc0585fa"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488575,
-            "name": "Montanha",
-            "type": "Terreno Básico — Montanha",
-            "uuid": "15ac6983-8f44-5b09-beb9-1910136ada60"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488590",
-              "scryfallId": "a88c6477-ed50-4dfb-965d-2327ceda352b"
-            },
-            "language": "Russian",
-            "multiverseId": 488590,
-            "name": "Гора",
-            "type": "Базовая Земля — Гора",
-            "uuid": "138d93fd-9dd5-53b3-9765-5efc848ca67a"
-          },
           {
             "identifiers": {
               "multiverseId": "488605",
@@ -1781,6 +1908,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488605,
             "name": "山脉",
+            "skuIds": {
+              "foil": "688a57ca-203d-54b6-af7e-05eb9c0343ff",
+              "nonfoil": "5d63084c-6caa-51c3-b5d6-1b476e2150c9"
+            },
             "type": "基本地 ～山脉",
             "uuid": "3afcb246-7f3a-528f-9de1-20011bcf92ce"
           },
@@ -1792,13 +1923,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488620,
             "name": "山脈",
+            "skuIds": {
+              "foil": "658d3122-63a0-56a0-8b61-546576b25523",
+              "nonfoil": "a6451ef3-7fdd-51bc-b1fe-9a54bd32bc14"
+            },
             "type": "基本地 ～山脈",
             "uuid": "55be43ae-94e2-5b6e-a5ef-46ccffe120b0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488515",
+              "scryfallId": "95d04448-88dc-414a-a8ef-d1e44658eee6"
+            },
+            "language": "French",
+            "multiverseId": 488515,
+            "name": "Montagne",
+            "skuIds": {
+              "foil": "cee1a533-ee4e-577f-9c99-4be8d312416d",
+              "nonfoil": "c736b02c-c48e-5637-975a-e47eaee5caaa"
+            },
+            "type": "Terrain de base : montagne",
+            "uuid": "c4b3d130-f353-5a9d-88a2-210884108d81"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488485",
+              "scryfallId": "1ca37100-9639-4ce0-8f9e-57080fda1f79"
+            },
+            "language": "German",
+            "multiverseId": 488485,
+            "name": "Gebirge",
+            "skuIds": {
+              "foil": "2abf59c6-0185-537b-8861-b4d5b7c3ae67",
+              "nonfoil": "5c002d15-3d62-57b3-9880-2915d7bb6d00"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "ea9bc9e6-5da6-535e-aa12-eb398c9b0860"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488530",
+              "scryfallId": "945143b1-7354-4f71-9fa9-184753727513"
+            },
+            "language": "Italian",
+            "multiverseId": 488530,
+            "name": "Montagna",
+            "skuIds": {
+              "foil": "09b26f52-e418-5170-844d-ed8ae3569874",
+              "nonfoil": "758631d7-c564-5609-8778-6de6ace2df15"
+            },
+            "type": "Terra Base — Montagna",
+            "uuid": "c0e84e1d-3693-59e5-b595-21513af2d8b8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488545",
+              "scryfallId": "268d9a17-7209-4f04-9863-1f7e30d6c79b"
+            },
+            "language": "Japanese",
+            "multiverseId": 488545,
+            "name": "山",
+            "skuIds": {
+              "foil": "e74c3395-2ca4-54a8-bab9-9ab9cd5ceb71",
+              "nonfoil": "9cfae030-71b0-50db-982a-dff2a937bd67"
+            },
+            "type": "基本土地 — 山",
+            "uuid": "0744238e-399a-592d-8883-cd03dba7776d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488560",
+              "scryfallId": "2df6dc03-4f51-451a-a98a-d5406a0cd567"
+            },
+            "language": "Korean",
+            "multiverseId": 488560,
+            "name": "산",
+            "skuIds": {
+              "foil": "a82cb12e-624d-510c-959e-993d900586c1",
+              "nonfoil": "1da3cd28-8a05-56aa-b286-1df1a897e2a5"
+            },
+            "type": "기본 대지 — 산",
+            "uuid": "1a636bdf-1fdb-54f7-98a5-c3c74a21a995"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488575",
+              "scryfallId": "5b3aef81-aff8-4517-a3fc-1774bc0585fa"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488575,
+            "name": "Montanha",
+            "skuIds": {
+              "foil": "e11a7459-df82-5156-a13d-51b07bd30af9",
+              "nonfoil": "f6b33b51-b9b2-5809-8ad4-c899eb7c1646"
+            },
+            "type": "Terreno Básico — Montanha",
+            "uuid": "15ac6983-8f44-5b09-beb9-1910136ada60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488590",
+              "scryfallId": "a88c6477-ed50-4dfb-965d-2327ceda352b"
+            },
+            "language": "Russian",
+            "multiverseId": 488590,
+            "name": "Гора",
+            "skuIds": {
+              "foil": "132fb5ef-f52d-5930-b470-8f385eea36ae",
+              "nonfoil": "89b588e8-78a5-5d74-b67e-8f933038aa00"
+            },
+            "type": "Базовая Земля — Гора",
+            "uuid": "138d93fd-9dd5-53b3-9765-5efc848ca67a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488500",
+              "scryfallId": "0481558e-c369-4942-aea4-526fbb7528f7"
+            },
+            "language": "Spanish",
+            "multiverseId": 488500,
+            "name": "Montaña",
+            "skuIds": {
+              "foil": "e3d9fe84-443e-5a9f-a61d-89fdb01dd2ff",
+              "nonfoil": "a16ba26b-153a-5b3e-bdaa-85ae0a352974"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "e64c2962-1b25-52ac-b906-ae2ad6a3d2e3"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234509",
           "cardKingdomId": "234202",
@@ -1806,6 +2059,7 @@
           "cardsphereId": "67957",
           "deckboxId": "50780",
           "mcmId": "471154",
+          "mcmMetaId": "3743",
           "mtgArenaId": "72089",
           "mtgjsonV4Id": "c99ae80c-01e6-5520-9f4d-0878ff557b4e",
           "mtgoId": "81217",
@@ -1847,6 +2101,7 @@
         "name": "Mountain",
         "number": "269",
         "originalText": "R",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -1920,6 +2175,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2082,24 +2338,57 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/85d5963560b10529",
           "cardKingdomFoil": "https://mtgjson.com/links/d2bc8eea6b6e0bab",
+          "cardmarket": "https://mtgjson.com/links/d92078a2caaed89a",
+          "cardmarketFoil": "https://mtgjson.com/links/84e4b8dff4081ce7",
           "tcgplayer": "https://mtgjson.com/links/c35f03cf3db9e8b8"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "3f39c559-7f02-546a-b195-f191df90663c",
+          "nonfoil": "d1d947e8-e3cf-532e-96fe-3ebde7a4d43f"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
             "a598f9ce-12cf-5a24-9442-0305527400f0",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2115,9 +2404,9 @@
         ],
         "uuid": "0ef985c1-e2c4-5e7b-baa9-8014da1fc934",
         "variations": [
-          "b3c01104-639b-53a0-9613-b9c00afa9daa",
+          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f",
           "9db2788f-544b-5631-8c27-e9470cc6adfe",
-          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f"
+          "b3c01104-639b-53a0-9613-b9c00afa9daa"
         ]
       },
       {
@@ -2142,20 +2431,24 @@
         "count": 2,
         "edhrecSaltiness": 0.32,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "488486",
-              "scryfallId": "292079ef-83c0-418c-a4f0-7d803bb3adfe"
+              "multiverseId": "488621",
+              "scryfallId": "c6e1e2ee-cf4a-4cc6-a2ab-e32a2d628fa9"
             },
-            "language": "German",
-            "multiverseId": 488486,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "352b868a-d7f7-5e7e-9297-56c9069227b5"
+            "language": "Chinese Traditional",
+            "multiverseId": 488621,
+            "name": "山脈",
+            "skuIds": {
+              "foil": "5764a9ae-6a76-5738-8f11-0b7203b5bdf9",
+              "nonfoil": "17ddbb49-d051-54d3-b2f3-c8412b4f6342"
+            },
+            "type": "基本地 ～山脈",
+            "uuid": "b11f0bd2-fca5-5f59-842e-ae1ef907462c"
           },
           {
             "identifiers": {
@@ -2165,8 +2458,27 @@
             "language": "French",
             "multiverseId": 488516,
             "name": "Montagne",
+            "skuIds": {
+              "foil": "83e835c6-e34b-5bc9-99c9-b7ac7574bd33",
+              "nonfoil": "6b93d644-5733-5935-90fc-f2eb132f90f1"
+            },
             "type": "Terrain de base : montagne",
             "uuid": "58440255-c441-5950-85db-c155f6d078f5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488486",
+              "scryfallId": "292079ef-83c0-418c-a4f0-7d803bb3adfe"
+            },
+            "language": "German",
+            "multiverseId": 488486,
+            "name": "Gebirge",
+            "skuIds": {
+              "foil": "dedddfb3-b69d-59c7-80b1-e15ff7bee870",
+              "nonfoil": "6834122e-2cb3-5338-abc6-236058223405"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "352b868a-d7f7-5e7e-9297-56c9069227b5"
           },
           {
             "identifiers": {
@@ -2176,6 +2488,10 @@
             "language": "Italian",
             "multiverseId": 488531,
             "name": "Montagna",
+            "skuIds": {
+              "foil": "116d4db8-0974-5437-9ce1-3bb0a9fd195f",
+              "nonfoil": "a6d3af70-57d7-5650-a2cf-903044757c79"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "b330a9ad-2c07-56b5-a1dc-5a7c95116d6e"
           },
@@ -2187,6 +2503,10 @@
             "language": "Japanese",
             "multiverseId": 488546,
             "name": "山",
+            "skuIds": {
+              "foil": "656b11d4-62c8-5e08-9713-ce1c30deec80",
+              "nonfoil": "d1084626-fe6a-5c4a-9a7a-a5b2bf089c63"
+            },
             "type": "基本土地 — 山",
             "uuid": "5f9323f0-4150-5b00-940c-0706867fca1e"
           },
@@ -2198,24 +2518,15 @@
             "language": "Korean",
             "multiverseId": 488561,
             "name": "산",
+            "skuIds": {
+              "foil": "7077763a-124f-564c-b011-60b9acb27492",
+              "nonfoil": "835b9529-5273-506c-998a-2689726d0976"
+            },
             "type": "기본 대지 — 산",
             "uuid": "48c256d9-150c-549c-9ebb-539657d6e587"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488621",
-              "scryfallId": "c6e1e2ee-cf4a-4cc6-a2ab-e32a2d628fa9"
-            },
-            "language": "Chinese Traditional",
-            "multiverseId": 488621,
-            "name": "山脈",
-            "type": "基本地 ～山脈",
-            "uuid": "b11f0bd2-fca5-5f59-842e-ae1ef907462c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234510",
           "cardKingdomId": "234203",
@@ -2223,6 +2534,7 @@
           "cardsphereId": "67958",
           "deckboxId": "50781",
           "mcmId": "471149",
+          "mcmMetaId": "3743",
           "mtgArenaId": "72090",
           "mtgjsonV4Id": "fe0a1c47-6164-566c-8b25-974773067952",
           "mtgoId": "81219",
@@ -2264,6 +2576,7 @@
         "name": "Mountain",
         "number": "270",
         "originalText": "R",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2337,6 +2650,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2499,24 +2813,57 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6d211fa0c893e429",
           "cardKingdomFoil": "https://mtgjson.com/links/50410e978c1eefb0",
+          "cardmarket": "https://mtgjson.com/links/c878e858df459830",
+          "cardmarketFoil": "https://mtgjson.com/links/a4b4f1327dfeacf6",
           "tcgplayer": "https://mtgjson.com/links/f3c31de9ffd45aeb"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "f6e15ed9-aece-5ae4-ac8a-7a1ddc884ed4",
+          "nonfoil": "58e5ea43-6adb-5e78-a081-276c82c91e91"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
             "a598f9ce-12cf-5a24-9442-0305527400f0",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2533,8 +2880,8 @@
         "uuid": "b3c01104-639b-53a0-9613-b9c00afa9daa",
         "variations": [
           "0ef985c1-e2c4-5e7b-baa9-8014da1fc934",
-          "9db2788f-544b-5631-8c27-e9470cc6adfe",
-          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f"
+          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f",
+          "9db2788f-544b-5631-8c27-e9470cc6adfe"
         ]
       },
       {
@@ -2559,98 +2906,10 @@
         "count": 2,
         "edhrecSaltiness": 0.32,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488487",
-              "scryfallId": "c15a7146-0c55-45cb-8d6f-63d014760e19"
-            },
-            "language": "German",
-            "multiverseId": 488487,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9f18267a-1337-5256-b177-9e399de038ee"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488502",
-              "scryfallId": "d70fb7f7-9715-4cd7-b090-fdc9b763d4e4"
-            },
-            "language": "Spanish",
-            "multiverseId": 488502,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "80bc436e-39a5-52c0-882c-bc76bb936819"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488517",
-              "scryfallId": "358022d5-12aa-433c-8835-7dcccbceba90"
-            },
-            "language": "French",
-            "multiverseId": 488517,
-            "name": "Montagne",
-            "type": "Terrain de base : montagne",
-            "uuid": "739037da-15e7-5e0a-b874-6cfa22fcece8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488532",
-              "scryfallId": "0f3396af-af85-4353-afad-7c2a9ec25819"
-            },
-            "language": "Italian",
-            "multiverseId": 488532,
-            "name": "Montagna",
-            "type": "Terra Base — Montagna",
-            "uuid": "3b8c46e9-37c4-5cd7-bf17-fbfbeeb35780"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488547",
-              "scryfallId": "e22c2bd3-94ff-47ec-920c-214e3586aec0"
-            },
-            "language": "Japanese",
-            "multiverseId": 488547,
-            "name": "山",
-            "type": "基本土地 — 山",
-            "uuid": "1422e9ba-0bfc-544d-b70e-66975119dadd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488562",
-              "scryfallId": "36fc0b78-2169-4862-a6eb-5e8489d1b172"
-            },
-            "language": "Korean",
-            "multiverseId": 488562,
-            "name": "산",
-            "type": "기본 대지 — 산",
-            "uuid": "dc2b76e7-33c8-5130-a438-44adb537a5d2"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488577",
-              "scryfallId": "f66f06ed-1207-474c-ba3d-78876bedd85f"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488577,
-            "name": "Montanha",
-            "type": "Terreno Básico — Montanha",
-            "uuid": "9efde2c5-2523-543f-9b45-363334abd30b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488592",
-              "scryfallId": "e1d9145e-4f58-4ba6-9d78-2469f05d85e4"
-            },
-            "language": "Russian",
-            "multiverseId": 488592,
-            "name": "Гора",
-            "type": "Базовая Земля — Гора",
-            "uuid": "76c6cf90-60cb-54e7-b3cb-958d069fb87c"
-          },
           {
             "identifiers": {
               "multiverseId": "488607",
@@ -2659,6 +2918,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488607,
             "name": "山脉",
+            "skuIds": {
+              "foil": "28edd65e-f4bb-5792-b679-aa08a3cbc623",
+              "nonfoil": "d34e3c74-3c9d-53e7-8aec-3cd8dee3bc24"
+            },
             "type": "基本地 ～山脉",
             "uuid": "c12be2fa-dbb8-5f3b-a889-d947ec3f512e"
           },
@@ -2670,13 +2933,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488622,
             "name": "山脈",
+            "skuIds": {
+              "foil": "2e08dcfa-4074-5007-86a8-1429cc8f09de",
+              "nonfoil": "defd2814-fd01-5b5f-a3db-ce1e615aea88"
+            },
             "type": "基本地 ～山脈",
             "uuid": "f0865c2e-9275-5c33-aa37-64e2cb4b1cbb"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488517",
+              "scryfallId": "358022d5-12aa-433c-8835-7dcccbceba90"
+            },
+            "language": "French",
+            "multiverseId": 488517,
+            "name": "Montagne",
+            "skuIds": {
+              "foil": "8c617be0-723c-59c8-bff6-0dfcf10ba2de",
+              "nonfoil": "5497cfc9-a52c-5b4a-ba03-2acb5f637dbf"
+            },
+            "type": "Terrain de base : montagne",
+            "uuid": "739037da-15e7-5e0a-b874-6cfa22fcece8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488487",
+              "scryfallId": "c15a7146-0c55-45cb-8d6f-63d014760e19"
+            },
+            "language": "German",
+            "multiverseId": 488487,
+            "name": "Gebirge",
+            "skuIds": {
+              "foil": "d87ad39a-ab57-57c6-8753-566c0d32a3b3",
+              "nonfoil": "18288dc8-daf6-5fbd-8784-e88cc77daec6"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9f18267a-1337-5256-b177-9e399de038ee"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488532",
+              "scryfallId": "0f3396af-af85-4353-afad-7c2a9ec25819"
+            },
+            "language": "Italian",
+            "multiverseId": 488532,
+            "name": "Montagna",
+            "skuIds": {
+              "foil": "ac073ac6-e818-52c3-bdc4-1f80956d99f2",
+              "nonfoil": "5e0007bf-8078-5fdf-b07f-466ce67910fd"
+            },
+            "type": "Terra Base — Montagna",
+            "uuid": "3b8c46e9-37c4-5cd7-bf17-fbfbeeb35780"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488547",
+              "scryfallId": "e22c2bd3-94ff-47ec-920c-214e3586aec0"
+            },
+            "language": "Japanese",
+            "multiverseId": 488547,
+            "name": "山",
+            "skuIds": {
+              "foil": "b0880abe-4b08-5ae2-9729-3b4aec9d20de",
+              "nonfoil": "fbffff22-a89c-55f8-bd6b-93e895435274"
+            },
+            "type": "基本土地 — 山",
+            "uuid": "1422e9ba-0bfc-544d-b70e-66975119dadd"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488562",
+              "scryfallId": "36fc0b78-2169-4862-a6eb-5e8489d1b172"
+            },
+            "language": "Korean",
+            "multiverseId": 488562,
+            "name": "산",
+            "skuIds": {
+              "foil": "127c14d6-e067-5a44-bd3b-e238894b1abf",
+              "nonfoil": "85479a15-9420-51e1-ab26-39844e22da97"
+            },
+            "type": "기본 대지 — 산",
+            "uuid": "dc2b76e7-33c8-5130-a438-44adb537a5d2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488577",
+              "scryfallId": "f66f06ed-1207-474c-ba3d-78876bedd85f"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488577,
+            "name": "Montanha",
+            "skuIds": {
+              "foil": "e9c91ac6-c891-5302-997c-5606b2b92f52",
+              "nonfoil": "414a6d82-2b9a-5706-80c5-a0b47aa18d73"
+            },
+            "type": "Terreno Básico — Montanha",
+            "uuid": "9efde2c5-2523-543f-9b45-363334abd30b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488592",
+              "scryfallId": "e1d9145e-4f58-4ba6-9d78-2469f05d85e4"
+            },
+            "language": "Russian",
+            "multiverseId": 488592,
+            "name": "Гора",
+            "skuIds": {
+              "foil": "e8d4a6d7-57de-563c-8763-f5da274b0c06",
+              "nonfoil": "e667bea1-bd87-52ef-8892-0aac183c07c8"
+            },
+            "type": "Базовая Земля — Гора",
+            "uuid": "76c6cf90-60cb-54e7-b3cb-958d069fb87c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488502",
+              "scryfallId": "d70fb7f7-9715-4cd7-b090-fdc9b763d4e4"
+            },
+            "language": "Spanish",
+            "multiverseId": 488502,
+            "name": "Montaña",
+            "skuIds": {
+              "foil": "c3a5a02c-af9c-59ee-bf00-facee4949d0e",
+              "nonfoil": "6f59b402-d60f-5a63-83f7-1209aed7ba52"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "80bc436e-39a5-52c0-882c-bc76bb936819"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234511",
           "cardKingdomId": "234204",
@@ -2684,6 +3069,7 @@
           "cardsphereId": "67959",
           "deckboxId": "50782",
           "mcmId": "471144",
+          "mcmMetaId": "3743",
           "mtgArenaId": "72091",
           "mtgjsonV4Id": "b7fafb63-c2c5-514a-a8c1-d24f857ee8df",
           "mtgoId": "81221",
@@ -2725,6 +3111,7 @@
         "name": "Mountain",
         "number": "271",
         "originalText": "R",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -2798,6 +3185,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2960,24 +3348,57 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b6143dc55d5b0693",
           "cardKingdomFoil": "https://mtgjson.com/links/b6c95d44094cee93",
+          "cardmarket": "https://mtgjson.com/links/07030fd944eb797e",
+          "cardmarketFoil": "https://mtgjson.com/links/3fff2e7e5f5046fb",
           "tcgplayer": "https://mtgjson.com/links/359dd34b2e184409"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "177ffff7-d742-5a2b-bdd3-bab2c1da66a4",
+          "nonfoil": "0fe1caeb-1b55-5219-a335-72194deb4809"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
             "a598f9ce-12cf-5a24-9442-0305527400f0",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2994,8 +3415,8 @@
         "uuid": "9db2788f-544b-5631-8c27-e9470cc6adfe",
         "variations": [
           "0ef985c1-e2c4-5e7b-baa9-8014da1fc934",
-          "b3c01104-639b-53a0-9613-b9c00afa9daa",
-          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f"
+          "3cabbf32-9716-54d5-a2b0-cf3e65bb573f",
+          "b3c01104-639b-53a0-9613-b9c00afa9daa"
         ]
       },
       {
@@ -3023,13 +3444,12 @@
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "235039",
           "cardsphereId": "68491",
           "deckboxId": "51073",
           "mcmId": "474099",
+          "mcmMetaId": "3743",
           "mtgArenaId": "72585",
           "mtgjsonV4Id": "ab27b35e-50a1-57bd-831b-bf7583922c14",
           "multiverseId": "489649",
@@ -3070,6 +3490,7 @@
         "name": "Mountain",
         "number": "65",
         "originalText": "R",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3143,6 +3564,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3305,14 +3727,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/26cfbf307a99369d",
+          "cardmarket": "https://mtgjson.com/links/e12ec246db13723d",
           "tcgplayer": "https://mtgjson.com/links/6486623d191ec869"
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "759f3a9b-13ae-5347-9682-78ace29882d6"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -3329,13 +3761,13 @@
         ],
         "uuid": "bc5d5a2c-0237-5157-8577-ae4e17e49bde",
         "variations": [
-          "2a7ca032-f5a6-5f6a-85d9-d56f38a10962",
-          "e6d85336-b24d-5180-b9aa-5ceb86db19d5",
           "16c51de0-a63d-5030-8f0a-9bf62e7b0004",
+          "2a7ca032-f5a6-5f6a-85d9-d56f38a10962",
+          "3e9318de-15bf-53df-b89f-a73ff9930714",
           "4b7d8a15-3c56-5f5e-ac05-d2f3cff4ea7f",
-          "cf82442b-636d-5efc-a977-cb986936a2be",
           "8d156bd9-7abb-54c8-b532-0fe5d7570ba1",
-          "3e9318de-15bf-53df-b89f-a73ff9930714"
+          "cf82442b-636d-5efc-a977-cb986936a2be",
+          "e6d85336-b24d-5180-b9aa-5ceb86db19d5"
         ]
       }
     ],
@@ -3351,5 +3783,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "1df14f757c950f"
   }
 }

@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "b4c968c5a70544"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,39 +23,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 3235,
+        "edhrecRank": 3300,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I see no heroes upon this field. Only tinder awaiting my spark.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich sehe keine Helden auf diesem Feld. Nur Zunder, der auf meinen Funken wartet.\"",
-            "identifiers": {
-              "multiverseId": "681124",
-              "scryfallId": "06a18b90-46b7-4ecf-9fc9-d1903ceb28f9"
-            },
-            "language": "German",
-            "multiverseId": 681124,
-            "name": "Thryx, der plötzliche Sturm",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\nZaubersprüche mit Manabetrag 5 oder mehr, die du wirkst, kosten beim Wirken {1} weniger und können nicht neutralisiert werden.",
-            "type": "Legendäre Kreatur — Elementarwesen, Riese",
-            "uuid": "1fba8dec-d50d-59ef-839a-c95cebef0f26"
-          },
-          {
-            "flavorText": "\"Aquí no veo a ningún héroe, solo combustible a la espera de mi chispa\".",
-            "identifiers": {
-              "multiverseId": "681148",
-              "scryfallId": "73d83b78-6bcd-419d-bbc2-765b44e89bf3"
-            },
-            "language": "Spanish",
-            "multiverseId": 681148,
-            "name": "Thryx, la Tempestad Inmediata",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\nTe cuesta {1} menos lanzar hechizos con valor de maná de 5 o más y no pueden ser contrarrestados.",
-            "type": "Criatura legendaria — Gigante elemental",
-            "uuid": "409bd077-0d0f-54bb-90b2-ed387ba1f5a6"
-          },
           {
             "flavorText": "« Je ne vois pas de héros sur ce champ de bataille. Seulement du petit bois qui attend mon étincelle. »",
             "identifiers": {
@@ -70,9 +39,28 @@
             "language": "French",
             "multiverseId": 681172,
             "name": "Thryx, la Tempête soudaine",
+            "skuIds": {
+              "nonfoil": "0df2ba4d-4329-5f6a-9a7b-c35e0b9723f3"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nVol\nLes sorts avec une valeur de mana supérieure ou égale à 5 que vous lancez coûtent {1} de moins à lancer et ne peuvent pas être contrecarrés.",
             "type": "Créature légendaire — élémental et géant",
             "uuid": "00058e37-ed76-56c4-9015-9dedd5898635"
+          },
+          {
+            "flavorText": "„Ich sehe keine Helden auf diesem Feld. Nur Zunder, der auf meinen Funken wartet.\"",
+            "identifiers": {
+              "multiverseId": "681124",
+              "scryfallId": "06a18b90-46b7-4ecf-9fc9-d1903ceb28f9"
+            },
+            "language": "German",
+            "multiverseId": 681124,
+            "name": "Thryx, der plötzliche Sturm",
+            "skuIds": {
+              "nonfoil": "93c717c9-9505-5460-9a89-17d4124a5053"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\nZaubersprüche mit Manabetrag 5 oder mehr, die du wirkst, kosten beim Wirken {1} weniger und können nicht neutralisiert werden.",
+            "type": "Legendäre Kreatur — Elementarwesen, Riese",
+            "uuid": "1fba8dec-d50d-59ef-839a-c95cebef0f26"
           },
           {
             "flavorText": "\"Non vedo eroi su questo campo. Solo ramoscelli in attesa della mia scintilla.\"",
@@ -83,6 +71,9 @@
             "language": "Italian",
             "multiverseId": 681196,
             "name": "Tryx, la Tempesta Improvvisa",
+            "skuIds": {
+              "nonfoil": "b1b2a141-a7f7-5566-8c29-f22c1006204c"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nVolare\nLe magie che lanci con valore di mana pari o superiore a 5 costano {1} in meno per essere lanciate e non possono essere neutralizzate.",
             "type": "Creatura Leggendaria — Gigante Elementale",
             "uuid": "01bb7401-3418-5b90-a664-4bb885613d56"
@@ -96,17 +87,34 @@
             "language": "Japanese",
             "multiverseId": 681220,
             "name": "急嵐のトリクス",
+            "skuIds": {
+              "nonfoil": "9006da9a-ff6d-5c4a-914d-c4fe3dc23494"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n飛行\nあなたがマナ総量が５以上である呪文を唱えるためのコストは{1}少なくなり、その呪文は打ち消されない。",
             "type": "伝説のクリーチャー — エレメンタル・巨人",
             "uuid": "740891a5-773a-5b6c-8680-5e75f179785b"
+          },
+          {
+            "flavorText": "\"Aquí no veo a ningún héroe, solo combustible a la espera de mi chispa\".",
+            "identifiers": {
+              "multiverseId": "681148",
+              "scryfallId": "73d83b78-6bcd-419d-bbc2-765b44e89bf3"
+            },
+            "language": "Spanish",
+            "multiverseId": 681148,
+            "name": "Thryx, la Tempestad Inmediata",
+            "skuIds": {
+              "nonfoil": "f7037176-b0d0-5521-a6d4-2dfd7f5a06b8"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\nTe cuesta {1} menos lanzar hechizos con valor de maná de 5 o más y no pueden ser contrarrestados.",
+            "type": "Criatura legendaria — Gigante elemental",
+            "uuid": "409bd077-0d0f-54bb-90b2-ed387ba1f5a6"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305199",
           "cardsphereId": "130873",
@@ -126,7 +134,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flash",
           "Flying"
@@ -157,6 +164,7 @@
         "name": "Thryx, the Sudden Storm",
         "number": "65",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nSpells you cast with mana value 5 or greater cost {1} less to cast and can't be countered.",
+        "originalType": "Legendary Creature – Elemental Giant",
         "power": "4",
         "printings": [
           "CMM",
@@ -199,9 +207,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6b527483-4f97-5116-b76d-13c2f08df1da"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -237,38 +250,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 11393,
+        "edhrecRank": 11707,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "There is no boat big enough.",
         "foreignData": [
-          {
-            "flavorText": "Es gibt kein Boot, das groß genug wäre.",
-            "identifiers": {
-              "multiverseId": "682782",
-              "scryfallId": "8fa0bcc7-6010-4838-bd71-f720238772b8"
-            },
-            "language": "German",
-            "multiverseId": 682782,
-            "name": "Gefräßiger Riesenhai",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nWenn der Gefräßige Riesenhai ins Spiel kommt, neutralisiere einen Artefakt- oder Kreaturenzauber deiner Wahl.",
-            "type": "Kreatur — Hai",
-            "uuid": "eb1f4831-eacb-5bdd-a709-ad3c1ccfcd93"
-          },
-          {
-            "flavorText": "Ningún barco es suficientemente grande.",
-            "identifiers": {
-              "multiverseId": "682896",
-              "scryfallId": "3040f2a2-f708-4f53-bc4a-c23c7092d46e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682896,
-            "name": "Gran tiburón voraz",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nCuando el Gran tiburón voraz entre, contrarresta el hechizo de artefacto o criatura objetivo.",
-            "type": "Criatura — Tiburón",
-            "uuid": "d20e2601-e29c-5773-b49b-58fd108d2c56"
-          },
           {
             "flavorText": "Il n'existe aucun bateau assez gros.",
             "identifiers": {
@@ -278,9 +266,28 @@
             "language": "French",
             "multiverseId": 683010,
             "name": "Grand requin vorace",
+            "skuIds": {
+              "nonfoil": "4e8242da-f0bd-5087-90eb-4239ef7f3a68"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nQuand le Grand requin vorace arrive, contrecarrez un sort d'artefact ou de créature ciblé.",
             "type": "Créature — requin",
             "uuid": "a44d2fe8-52f8-5555-b342-3be9a759bc36"
+          },
+          {
+            "flavorText": "Es gibt kein Boot, das groß genug wäre.",
+            "identifiers": {
+              "multiverseId": "682782",
+              "scryfallId": "8fa0bcc7-6010-4838-bd71-f720238772b8"
+            },
+            "language": "German",
+            "multiverseId": 682782,
+            "name": "Gefräßiger Riesenhai",
+            "skuIds": {
+              "nonfoil": "38febcf7-45b9-598b-aaeb-bb65528a4944"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nWenn der Gefräßige Riesenhai ins Spiel kommt, neutralisiere einen Artefakt- oder Kreaturenzauber deiner Wahl.",
+            "type": "Kreatur — Hai",
+            "uuid": "eb1f4831-eacb-5bdd-a709-ad3c1ccfcd93"
           },
           {
             "flavorText": "Non esiste una barca abbastanza grossa.",
@@ -291,6 +298,9 @@
             "language": "Italian",
             "multiverseId": 683124,
             "name": "Gransqualo Vorace",
+            "skuIds": {
+              "nonfoil": "690e8dbf-3b18-5b52-b9e2-7b4f8b10acc8"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nQuando il Gransqualo Vorace entra, neutralizza una magia artefatto o creatura bersaglio.",
             "type": "Creatura — Squalo",
             "uuid": "d67e6510-00ec-5f82-87bd-9529ed42580d"
@@ -304,14 +314,31 @@
             "language": "Japanese",
             "multiverseId": 683238,
             "name": "大食の巨大鮫",
+            "skuIds": {
+              "nonfoil": "f4895800-327c-5d2b-8733-629b65e98d6c"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n大食の巨大鮫が戦場に出たとき、アーティファクトやクリーチャーである呪文１つを対象とする。それを打ち消す。",
             "type": "クリーチャー — サメ",
             "uuid": "c12a6bbd-22a5-5b6f-aa93-476cb7733953"
+          },
+          {
+            "flavorText": "Ningún barco es suficientemente grande.",
+            "identifiers": {
+              "multiverseId": "682896",
+              "scryfallId": "3040f2a2-f708-4f53-bc4a-c23c7092d46e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682896,
+            "name": "Gran tiburón voraz",
+            "skuIds": {
+              "nonfoil": "105cc90b-e2c4-5f1d-b25b-1efb8e189d72"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nCuando el Gran tiburón voraz entre, contrarresta el hechizo de artefacto o criatura objetivo.",
+            "type": "Criatura — Tiburón",
+            "uuid": "d20e2601-e29c-5773-b49b-58fd108d2c56"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305530",
           "cardsphereId": "131091",
@@ -358,6 +385,7 @@
         "name": "Voracious Greatshark",
         "number": "382",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nWhen Voracious Greatshark enters, counter target artifact or creature spell.",
+        "originalType": "Creature – Shark",
         "power": "5",
         "printings": [
           "FDN",
@@ -381,9 +409,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a046976d-0abb-5dfb-af0f-d51388a2501a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -417,39 +450,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 16551,
+        "edhrecRank": 15965,
         "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"What do you think? New class pet?\"",
         "foreignData": [
-          {
-            "flavorText": "„Was meinst du? Neues Haustier?\"",
-            "identifiers": {
-              "multiverseId": "681360",
-              "scryfallId": "f43e5534-44e0-4352-a59d-9440dbfd3b2f"
-            },
-            "language": "German",
-            "multiverseId": 681360,
-            "name": "Entzückende Entdeckung",
-            "text": "Dieser Zauberspruch kostet beim Wirken für jeden Zauberspruch, den deine Gegner in diesem Zug gewirkt haben, {1} weniger.\nHellsicht 2, ziehe dann zwei Karten. (Schaue dir für Hellsicht 2 die obersten zwei Karten deiner Bibliothek an und lege dann eine beliebige Anzahl davon unter deine Bibliothek und den Rest in beliebiger Reihenfolge oben darauf.)",
-            "type": "Spontanzauber",
-            "uuid": "d07a3605-23d8-54ef-ba98-6bb95713a73c"
-          },
-          {
-            "flavorText": "\"¿Qué les parece? ¿Una nueva mascota para la clase?\".",
-            "identifiers": {
-              "multiverseId": "681389",
-              "scryfallId": "934e594a-dc26-4865-aaab-f58e84862037"
-            },
-            "language": "Spanish",
-            "multiverseId": 681389,
-            "name": "Descubrimiento maravilloso",
-            "text": "Te cuesta {1} menos lanzar este hechizo por cada hechizo que tus oponentes hayan lanzado este turno.\nAdivina 2, luego roba dos cartas. (Para adivinar 2, mira las dos primeras cartas de tu biblioteca y luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)",
-            "type": "Instantáneo",
-            "uuid": "2f6f0813-2c87-56df-9dfb-2cd3fb758b84"
-          },
           {
             "flavorText": "« Qu'en pensez-vous ? Nouvelle mascotte de la classe ? »",
             "identifiers": {
@@ -459,9 +466,28 @@
             "language": "French",
             "multiverseId": 681418,
             "name": "Découverte délectable",
+            "skuIds": {
+              "nonfoil": "b1c1299d-f84b-5b5b-a2c7-0577904306d8"
+            },
             "text": "Ce sort coûte {1} de moins à lancer pour chaque sort que vos adversaires ont lancé ce tour-ci.\nRegard 2, puis piochez deux cartes. (Pour appliquer regard 2, regardez les deux cartes du dessus de votre bibliothèque. Mettez ensuite n'importe quel nombre d'entre elles au-dessous de votre bibliothèque et le reste au-dessus, dans l'ordre de votre choix.)",
             "type": "Éphémère",
             "uuid": "d8a56b53-d02b-53d7-a0ef-9f90365f952d"
+          },
+          {
+            "flavorText": "„Was meinst du? Neues Haustier?\"",
+            "identifiers": {
+              "multiverseId": "681360",
+              "scryfallId": "f43e5534-44e0-4352-a59d-9440dbfd3b2f"
+            },
+            "language": "German",
+            "multiverseId": 681360,
+            "name": "Entzückende Entdeckung",
+            "skuIds": {
+              "nonfoil": "e0b8d1e7-3638-5cfc-83df-7b76378fba85"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken für jeden Zauberspruch, den deine Gegner in diesem Zug gewirkt haben, {1} weniger.\nHellsicht 2, ziehe dann zwei Karten. (Schaue dir für Hellsicht 2 die obersten zwei Karten deiner Bibliothek an und lege dann eine beliebige Anzahl davon unter deine Bibliothek und den Rest in beliebiger Reihenfolge oben darauf.)",
+            "type": "Spontanzauber",
+            "uuid": "d07a3605-23d8-54ef-ba98-6bb95713a73c"
           },
           {
             "flavorText": "\"Che ve ne pare? Una nuova mascotte?\"",
@@ -472,6 +498,9 @@
             "language": "Italian",
             "multiverseId": 681447,
             "name": "Scoperta Incantevole",
+            "skuIds": {
+              "nonfoil": "ba09d0fa-cd8a-5171-9acb-00763fb09f30"
+            },
             "text": "Questa magia costa {1} in meno per essere lanciata per ogni magia lanciata dai tuoi avversari in questo turno.\nProfetizza 2, poi pesca due carte. (Per profetizzare 2, guarda le prime due carte del tuo grimorio, poi mettine un qualsiasi numero in fondo e le altre in cima in qualsiasi ordine.)",
             "type": "Istantaneo",
             "uuid": "3f03dae5-3ad5-5f25-a836-67b70eb86524"
@@ -485,14 +514,31 @@
             "language": "Japanese",
             "multiverseId": 681476,
             "name": "嬉しい発見",
+            "skuIds": {
+              "nonfoil": "2a72bfe0-0a47-54da-982e-1df3ce83714a"
+            },
             "text": "この呪文を唱えるためのコストは、このターンに対戦相手が唱えた呪文１つにつき{1}少なくなる。\n占術２を行う。その後、カード２枚を引く。（占術２とは、あなたのライブラリーの一番上にあるカード２枚を見、そのうちの望む枚数をあなたのライブラリーの一番下に、残りを一番上に、それぞれ望む順番で置くことである。）",
             "type": "インスタント",
             "uuid": "75d63ea2-d640-54df-9898-7553a7cd2d68"
+          },
+          {
+            "flavorText": "\"¿Qué les parece? ¿Una nueva mascota para la clase?\".",
+            "identifiers": {
+              "multiverseId": "681389",
+              "scryfallId": "934e594a-dc26-4865-aaab-f58e84862037"
+            },
+            "language": "Spanish",
+            "multiverseId": 681389,
+            "name": "Descubrimiento maravilloso",
+            "skuIds": {
+              "nonfoil": "f4c0aa34-d922-5183-8b00-cf345f8e7d01"
+            },
+            "text": "Te cuesta {1} menos lanzar este hechizo por cada hechizo que tus oponentes hayan lanzado este turno.\nAdivina 2, luego roba dos cartas. (Para adivinar 2, mira las dos primeras cartas de tu biblioteca y luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)",
+            "type": "Instantáneo",
+            "uuid": "2f6f0813-2c87-56df-9dfb-2cd3fb758b84"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305140",
           "cardsphereId": "130697",
@@ -511,7 +557,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Scry"
         ],
@@ -533,6 +578,7 @@
         "name": "Delightful Discovery",
         "number": "6",
         "originalText": "This spell costs {1} less to cast for each spell your opponents have cast this turn.\nScry 2, then draw two cards. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+        "originalType": "Instant",
         "printings": [
           "J25"
         ],
@@ -553,9 +599,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a28b5cb7-d29f-5e89-a814-1a549bab08ec"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -585,39 +636,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 10651,
+        "edhrecRank": 10412,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I always attack from where their spyglasses can't see.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich greife immer von dort an, wo sie mich mit einem Fernrohr nicht sehen können.\"",
-            "identifiers": {
-              "multiverseId": "682692",
-              "scryfallId": "d6578c2e-1994-43ab-8802-6dc815c1ecd9"
-            },
-            "language": "German",
-            "multiverseId": 682692,
-            "name": "Brackgeborener Meuchler",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nImmer wenn du während des Zuges eines Gegners einen Zauberspruch wirkst, lege eine +1/+1-Marke auf den Brackgeborenen Meuchler.",
-            "type": "Kreatur — Meervolk, Pirat",
-            "uuid": "04fe73ba-7782-5661-83ab-d164be04b9ba"
-          },
-          {
-            "flavorText": "\"Siempre ataco por donde no me ven los catalejos\".",
-            "identifiers": {
-              "multiverseId": "682806",
-              "scryfallId": "cb61a913-8e72-4cbe-8596-aa7388fd0f5f"
-            },
-            "language": "Spanish",
-            "multiverseId": 682806,
-            "name": "Degollador salobre",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nSiempre que lances un hechizo durante el turno de un oponente, pon un contador +1/+1 sobre el Degollador salobre.",
-            "type": "Criatura — Pirata tritón",
-            "uuid": "1d9b6add-6208-5cec-b220-d9988614ffef"
-          },
           {
             "flavorText": "« J'attaque toujours par un endroit invisible à leurs longues-vues. »",
             "identifiers": {
@@ -627,9 +652,28 @@
             "language": "French",
             "multiverseId": 682920,
             "name": "Surineur né des embruns",
+            "skuIds": {
+              "nonfoil": "ce67b1bb-dd27-5f77-ac4a-b6c561442029"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nÀ chaque fois que vous lancez un sort pendant le tour d'un adversaire, mettez un marqueur +1/+1 sur le Surineur né des embruns.",
             "type": "Créature — ondin et pirate",
             "uuid": "c38ccd72-02a3-5f59-a289-0e446b2f8712"
+          },
+          {
+            "flavorText": "„Ich greife immer von dort an, wo sie mich mit einem Fernrohr nicht sehen können.\"",
+            "identifiers": {
+              "multiverseId": "682692",
+              "scryfallId": "d6578c2e-1994-43ab-8802-6dc815c1ecd9"
+            },
+            "language": "German",
+            "multiverseId": 682692,
+            "name": "Brackgeborener Meuchler",
+            "skuIds": {
+              "nonfoil": "7a0292b9-be0c-5134-a69f-1de301650eb2"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nImmer wenn du während des Zuges eines Gegners einen Zauberspruch wirkst, lege eine +1/+1-Marke auf den Brackgeborenen Meuchler.",
+            "type": "Kreatur — Meervolk, Pirat",
+            "uuid": "04fe73ba-7782-5661-83ab-d164be04b9ba"
           },
           {
             "flavorText": "\"Attacco sempre da dove i loro cannocchiali non possono vedere.\"",
@@ -640,6 +684,9 @@
             "language": "Italian",
             "multiverseId": 683034,
             "name": "Tagliagole Salmastride",
+            "skuIds": {
+              "nonfoil": "df04a5ae-3974-5cdc-8ab0-d24683538097"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nOgniqualvolta lanci una magia durante il turno di un avversario, metti un segnalino +1/+1 sul Tagliagole Salmastride.",
             "type": "Creatura — Pirata Tritone",
             "uuid": "a500fbd8-80e3-521a-922b-acb0c52d5552"
@@ -653,14 +700,31 @@
             "language": "Japanese",
             "multiverseId": 683148,
             "name": "塩水生まれの殺し屋",
+            "skuIds": {
+              "nonfoil": "d2324abd-20bf-5dc8-a626-cd68c2e2a52d"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nあなたが対戦相手のターン中に呪文１つを唱えるたび、塩水生まれの殺し屋の上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — マーフォーク・海賊",
             "uuid": "ac228f90-1e9a-54e5-aada-ee335d505e0f"
+          },
+          {
+            "flavorText": "\"Siempre ataco por donde no me ven los catalejos\".",
+            "identifiers": {
+              "multiverseId": "682806",
+              "scryfallId": "cb61a913-8e72-4cbe-8596-aa7388fd0f5f"
+            },
+            "language": "Spanish",
+            "multiverseId": 682806,
+            "name": "Degollador salobre",
+            "skuIds": {
+              "nonfoil": "b8dff81b-b29d-509c-8ac4-77572e455221"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nSiempre que lances un hechizo durante el turno de un oponente, pon un contador +1/+1 sobre el Degollador salobre.",
+            "type": "Criatura — Pirata tritón",
+            "uuid": "1d9b6add-6208-5cec-b220-d9988614ffef"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305440",
           "cardsphereId": "131333",
@@ -706,6 +770,7 @@
         "name": "Brineborn Cutthroat",
         "number": "291",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nWhenever you cast a spell during an opponent's turn, put a +1/+1 counter on Brineborn Cutthroat.",
+        "originalType": "Creature – Merfolk Pirate",
         "power": "2",
         "printings": [
           "FDN",
@@ -732,9 +797,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "358eaefc-cfa9-5650-a774-48178e1c8926"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -768,36 +838,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 17418,
+        "edhrecRank": 17863,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682695",
-              "scryfallId": "58bcaf61-180c-495b-a354-07829ff8f4b0"
-            },
-            "language": "German",
-            "multiverseId": 682695,
-            "name": "Gefängnissphäre",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur\nWenn die Gefängnissphäre ins Spiel kommt, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura",
-            "uuid": "978db196-f2b7-53f4-86bd-d842e00995f7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682809",
-              "scryfallId": "83854e12-fc82-4da3-a2dd-ea107cb9e4d4"
-            },
-            "language": "Spanish",
-            "multiverseId": 682809,
-            "name": "Esfera de captura",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura.\nCuando la Esfera de captura entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura",
-            "uuid": "8dbb0096-5535-555d-96be-7b5a13b54d1d"
-          },
           {
             "identifiers": {
               "multiverseId": "682923",
@@ -806,9 +852,27 @@
             "language": "French",
             "multiverseId": 682923,
             "name": "Sphère de capture",
+            "skuIds": {
+              "nonfoil": "d728c2e6-84b8-5694-9425-65b90eea1c8b"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nEnchanter : créature\nQuand la Sphère de capture arrive, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
             "type": "Enchantement — aura",
             "uuid": "b01cdb0a-dda4-5015-bb74-eb8b5afbf60f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682695",
+              "scryfallId": "58bcaf61-180c-495b-a354-07829ff8f4b0"
+            },
+            "language": "German",
+            "multiverseId": 682695,
+            "name": "Gefängnissphäre",
+            "skuIds": {
+              "nonfoil": "f810d1f7-3e5f-5e36-a38d-cd6677a27451"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur\nWenn die Gefängnissphäre ins Spiel kommt, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
+            "type": "Verzauberung — Aura",
+            "uuid": "978db196-f2b7-53f4-86bd-d842e00995f7"
           },
           {
             "identifiers": {
@@ -818,6 +882,9 @@
             "language": "Italian",
             "multiverseId": 683037,
             "name": "Sfera di Cattura",
+            "skuIds": {
+              "nonfoil": "12f09c58-014f-5cbc-b264-bf1598770547"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nIncanta creatura\nQuando la Sfera di Cattura entra, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
             "type": "Incantesimo — Aura",
             "uuid": "f4cf77f8-fbfb-5b65-b18c-8771e9ca0b89"
@@ -830,14 +897,30 @@
             "language": "Japanese",
             "multiverseId": 683151,
             "name": "捕獲球",
+            "skuIds": {
+              "nonfoil": "b8b75978-1ac6-5842-814d-2bd7d0746b35"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nエンチャント（クリーチャー）\n捕獲球が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
             "type": "エンチャント — オーラ",
             "uuid": "7b7159c0-9321-5a3e-b68f-022c25f87909"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682809",
+              "scryfallId": "83854e12-fc82-4da3-a2dd-ea107cb9e4d4"
+            },
+            "language": "Spanish",
+            "multiverseId": 682809,
+            "name": "Esfera de captura",
+            "skuIds": {
+              "nonfoil": "45e2c31d-ded3-52b6-9a99-29edf6cff37d"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura.\nCuando la Esfera de captura entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
+            "type": "Encantamiento — Aura",
+            "uuid": "8dbb0096-5535-555d-96be-7b5a13b54d1d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305443",
           "cardsphereId": "131329",
@@ -883,6 +966,7 @@
         "name": "Capture Sphere",
         "number": "294",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nWhen Capture Sphere enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "2X2",
           "GRN",
@@ -898,9 +982,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "34f4a25d-fff9-5deb-b81d-ffa331ac8441"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -932,39 +1021,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 9311,
+        "edhrecRank": 9676,
         "edhrecSaltiness": 0.52,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Wave-borne, he watches over secrets of the shore.\"\n—Psemilla, Meletian poet",
         "foreignData": [
-          {
-            "flavorText": "„Von den Wellen getragen, wacht er über die Geheimnisse der Küste.\"\n—Psemilla, meletische Poetin",
-            "identifiers": {
-              "multiverseId": "682734",
-              "scryfallId": "65abf0b5-ae85-414f-ab38-875d7f0efd52"
-            },
-            "language": "German",
-            "multiverseId": 682734,
-            "name": "Najade der versteckten Buchten",
-            "text": "Solange es nicht dein Zug ist, kosten Zaubersprüche, die du wirkst, beim Wirken {1} weniger.",
-            "type": "Verzauberungskreatur — Nymphe",
-            "uuid": "a2534c96-d1e3-535d-9ea5-a400b042d817"
-          },
-          {
-            "flavorText": "\"Nacido de una ola, / los secretos de la costa controla\".\n—Psemila, poeta meletiano",
-            "identifiers": {
-              "multiverseId": "682848",
-              "scryfallId": "66004211-97ba-4246-b411-b72f94df0e2c"
-            },
-            "language": "Spanish",
-            "multiverseId": 682848,
-            "name": "Náyade de las caletas ocultas",
-            "text": "Mientras no sea tu turno, te cuesta {1} menos lanzar hechizos.",
-            "type": "Criatura encantamiento — Ninfa",
-            "uuid": "9f85462b-c3d9-584d-82b7-10254bd10e41"
-          },
           {
             "flavorText": "« Né des vagues, il garde un œil sur les secrets du rivage. »\n—Psémilla, poétesse mélétisienne",
             "identifiers": {
@@ -974,9 +1037,28 @@
             "language": "French",
             "multiverseId": 682962,
             "name": "Naïade des criques cachées",
+            "skuIds": {
+              "nonfoil": "49816cd1-ceb7-5265-8375-73652c32da91"
+            },
             "text": "Tant que ce n'est pas votre tour, les sorts que vous lancez coûtent {1} de moins à lancer.",
             "type": "Créature-enchantement — nymphe",
             "uuid": "90453c67-943c-56d9-bb19-e0dab2df3541"
+          },
+          {
+            "flavorText": "„Von den Wellen getragen, wacht er über die Geheimnisse der Küste.\"\n—Psemilla, meletische Poetin",
+            "identifiers": {
+              "multiverseId": "682734",
+              "scryfallId": "65abf0b5-ae85-414f-ab38-875d7f0efd52"
+            },
+            "language": "German",
+            "multiverseId": 682734,
+            "name": "Najade der versteckten Buchten",
+            "skuIds": {
+              "nonfoil": "8fd3cd0d-c173-5d77-b080-672630902755"
+            },
+            "text": "Solange es nicht dein Zug ist, kosten Zaubersprüche, die du wirkst, beim Wirken {1} weniger.",
+            "type": "Verzauberungskreatur — Nymphe",
+            "uuid": "a2534c96-d1e3-535d-9ea5-a400b042d817"
           },
           {
             "flavorText": "\"Nato dalle onde, sorveglia i segreti della costa.\"\n—Psemilla, poetessa di Meletis",
@@ -987,6 +1069,9 @@
             "language": "Italian",
             "multiverseId": 683076,
             "name": "Naiade delle Baie Nascoste",
+            "skuIds": {
+              "nonfoil": "9ab51559-26d7-58a8-96c3-4a55d1e479d3"
+            },
             "text": "Fintanto che non è il tuo turno, le magie che lanci costano {1} in meno per essere lanciate.",
             "type": "Creatura Incantesimo — Ninfa",
             "uuid": "dd1c95ef-115a-51d8-94f7-e56286171a9f"
@@ -1000,17 +1085,34 @@
             "language": "Japanese",
             "multiverseId": 683190,
             "name": "隠れた入り江のナイアード",
+            "skuIds": {
+              "nonfoil": "80368fa5-ca7f-55a0-be91-c77a413bd2b8"
+            },
             "text": "あなたのターンでないかぎり、あなたが呪文を唱えるためのコストは{1}少なくなる。",
             "type": "クリーチャー・エンチャント — ニンフ",
             "uuid": "68d567ab-2a16-5dad-a64a-d90fb73c7db2"
+          },
+          {
+            "flavorText": "\"Nacido de una ola, / los secretos de la costa controla\".\n—Psemila, poeta meletiano",
+            "identifiers": {
+              "multiverseId": "682848",
+              "scryfallId": "66004211-97ba-4246-b411-b72f94df0e2c"
+            },
+            "language": "Spanish",
+            "multiverseId": 682848,
+            "name": "Náyade de las caletas ocultas",
+            "skuIds": {
+              "nonfoil": "f9c615ae-6181-54ca-894e-26a6fbf90798"
+            },
+            "text": "Mientras no sea tu turno, te cuesta {1} menos lanzar hechizos.",
+            "type": "Criatura encantamiento — Ninfa",
+            "uuid": "9f85462b-c3d9-584d-82b7-10254bd10e41"
           }
         ],
         "frameEffects": [
           "enchantment"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305482",
           "cardsphereId": "131287",
@@ -1052,6 +1154,7 @@
         "name": "Naiad of Hidden Coves",
         "number": "333",
         "originalText": "As long as it's not your turn, spells you cast cost {1} less to cast.",
+        "originalType": "Enchantment Creature – Nymph",
         "power": "2",
         "printings": [
           "J25",
@@ -1070,9 +1173,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1ee6faa3-e6cf-5e94-8916-b8bc425f113b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1114,32 +1222,6 @@
         "flavorText": "\"It's easy to anticipate Captain Storm's orders: take the more dangerous route.\"",
         "foreignData": [
           {
-            "flavorText": "„Kapitänin Storms Kurs ist leicht vorauszusehen, denn sie wählt immer die gefährlichere Route.\"",
-            "identifiers": {
-              "multiverseId": "682740",
-              "scryfallId": "39c2bfea-1615-4a47-b4a7-4475b8eb686b"
-            },
-            "language": "German",
-            "multiverseId": 682740,
-            "name": "Optionen",
-            "text": "Hellsicht 1. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)\nZiehe eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "538f23e3-762d-5d88-99e9-88238f821755"
-          },
-          {
-            "flavorText": "\"Es fácil anticipar las órdenes de la capitana Tempestad: ¡solo tienes que tomar la ruta más peligrosa!\".",
-            "identifiers": {
-              "multiverseId": "682854",
-              "scryfallId": "eaf2db1f-0604-42b4-b7de-ca98a9af0fd6"
-            },
-            "language": "Spanish",
-            "multiverseId": 682854,
-            "name": "Optar",
-            "text": "Adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)\nRoba una carta.",
-            "type": "Instantáneo",
-            "uuid": "c8fadab2-cfbe-5f79-80a2-170a4bea996f"
-          },
-          {
             "flavorText": "« Il n'y rien de plus simple que d'anticiper les ordres de la capitaine Tempeste : suivre le cap le plus dangereux. »",
             "identifiers": {
               "multiverseId": "682968",
@@ -1148,9 +1230,28 @@
             "language": "French",
             "multiverseId": 682968,
             "name": "Option",
+            "skuIds": {
+              "nonfoil": "cfe6f3ae-ef62-552f-83b9-f87511e37d0f"
+            },
             "text": "Regard 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez mettre cette carte au-dessous.)\nPiochez une carte.",
             "type": "Éphémère",
             "uuid": "0aa35284-9852-534b-a2a8-864a124bf036"
+          },
+          {
+            "flavorText": "„Kapitänin Storms Kurs ist leicht vorauszusehen, denn sie wählt immer die gefährlichere Route.\"",
+            "identifiers": {
+              "multiverseId": "682740",
+              "scryfallId": "39c2bfea-1615-4a47-b4a7-4475b8eb686b"
+            },
+            "language": "German",
+            "multiverseId": 682740,
+            "name": "Optionen",
+            "skuIds": {
+              "nonfoil": "673df8cb-f0a0-512c-8222-ce61386a8cae"
+            },
+            "text": "Hellsicht 1. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie unter deine Bibliothek legen.)\nZiehe eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "538f23e3-762d-5d88-99e9-88238f821755"
           },
           {
             "flavorText": "\"È facile prevedere gli ordini della Capitana Fendiburrasca: basta tracciare la rotta più pericolosa.\"",
@@ -1161,6 +1262,9 @@
             "language": "Italian",
             "multiverseId": 683082,
             "name": "Opzione",
+            "skuIds": {
+              "nonfoil": "f5562597-7ad6-5297-8232-8da284182f7a"
+            },
             "text": "Profetizza 1. (Guarda la prima carta del tuo grimorio. Puoi metterla in fondo.)\nPesca una carta.",
             "type": "Istantaneo",
             "uuid": "3dded82b-d44e-572d-b587-c91bef3b8f13"
@@ -1174,14 +1278,31 @@
             "language": "Japanese",
             "multiverseId": 683196,
             "name": "選択",
+            "skuIds": {
+              "nonfoil": "6d815c32-cc3c-5241-8411-9b16f6c92cec"
+            },
             "text": "占術１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。そのカードを一番下に置いてもよい。）\nカード１枚を引く。",
             "type": "インスタント",
             "uuid": "62c806ac-c6f0-5198-847d-474568ac68b1"
+          },
+          {
+            "flavorText": "\"Es fácil anticipar las órdenes de la capitana Tempestad: ¡solo tienes que tomar la ruta más peligrosa!\".",
+            "identifiers": {
+              "multiverseId": "682854",
+              "scryfallId": "eaf2db1f-0604-42b4-b7de-ca98a9af0fd6"
+            },
+            "language": "Spanish",
+            "multiverseId": 682854,
+            "name": "Optar",
+            "skuIds": {
+              "nonfoil": "5a9e30cf-37fb-5f61-8aee-30dc291e13f6"
+            },
+            "text": "Adivina 1. (Mira la primera carta de tu biblioteca. Puedes poner esa carta en el fondo.)\nRoba una carta.",
+            "type": "Instantáneo",
+            "uuid": "c8fadab2-cfbe-5f79-80a2-170a4bea996f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305488",
           "cardsphereId": "131281",
@@ -1218,6 +1339,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "predh": "Legal",
           "premodern": "Legal",
@@ -1231,6 +1353,7 @@
         "name": "Opt",
         "number": "339",
         "originalText": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+        "originalType": "Instant",
         "printings": [
           "DOM",
           "ELD",
@@ -1258,9 +1381,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e7d87887-9298-5844-889a-6504312b2ed2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1290,39 +1418,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 10090,
+        "edhrecRank": 10242,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The fae know when they're not wanted. That's precisely why they show up.",
         "foreignData": [
-          {
-            "flavorText": "Die Feen wissen genau, wann sie nicht gerne gesehen sind. Genau dann tauchen sie auf.",
-            "identifiers": {
-              "multiverseId": "682744",
-              "scryfallId": "9fdd6a21-b17f-4afe-bd4c-6c1f27cf5592"
-            },
-            "language": "German",
-            "multiverseId": 682744,
-            "name": "Triezknilch",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\nWenn der Triezknilch ins Spiel kommt, kannst du ein Permanent deiner Wahl tappen oder enttappen.",
-            "type": "Kreatur — Feenwesen, Räuber",
-            "uuid": "eaaffa10-665c-51e8-b3dd-8c35a5d385e6"
-          },
-          {
-            "flavorText": "Las hadas saben cuándo no son bien recibidas. Eso es precisamente por lo que aparecen.",
-            "identifiers": {
-              "multiverseId": "682858",
-              "scryfallId": "2a2c03fc-b23b-4986-8422-5dd323279a8d"
-            },
-            "language": "Spanish",
-            "multiverseId": 682858,
-            "name": "Pequeña molestia",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\nCuando la Pequeña molestia entre, puedes girar o enderezar el permanente objetivo.",
-            "type": "Criatura — Bribón hada",
-            "uuid": "e2c134dc-213f-57c2-972c-8b3b0cb88132"
-          },
           {
             "flavorText": "Les færies savent quand leur présence n'est pas souhaitée. C'est surtout là qu'elles se montrent.",
             "identifiers": {
@@ -1332,9 +1434,28 @@
             "language": "French",
             "multiverseId": 682972,
             "name": "Harceleuse",
+            "skuIds": {
+              "nonfoil": "c16df655-e364-59f1-af9e-25162ab5d7fb"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nVol\nQuand la Harceleuse arrive, vous pouvez engager ou dégager un permanent ciblé.",
             "type": "Créature — peuple fée et gredin",
             "uuid": "915f4357-2155-5eaa-8303-44297b7b7dfb"
+          },
+          {
+            "flavorText": "Die Feen wissen genau, wann sie nicht gerne gesehen sind. Genau dann tauchen sie auf.",
+            "identifiers": {
+              "multiverseId": "682744",
+              "scryfallId": "9fdd6a21-b17f-4afe-bd4c-6c1f27cf5592"
+            },
+            "language": "German",
+            "multiverseId": 682744,
+            "name": "Triezknilch",
+            "skuIds": {
+              "nonfoil": "4a61ac28-a870-5825-8b29-bccd6e27f453"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\nWenn der Triezknilch ins Spiel kommt, kannst du ein Permanent deiner Wahl tappen oder enttappen.",
+            "type": "Kreatur — Feenwesen, Räuber",
+            "uuid": "eaaffa10-665c-51e8-b3dd-8c35a5d385e6"
           },
           {
             "flavorText": "Gli spiritelli comprendono quando non sono desiderati. Ed è proprio per questo che decidono di farsi vivi.",
@@ -1345,6 +1466,9 @@
             "language": "Italian",
             "multiverseId": 683086,
             "name": "Pulce Fastidiosa",
+            "skuIds": {
+              "nonfoil": "173c91aa-3209-5e18-913a-348193ff45a0"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nVolare\nQuando la Pulce Fastidiosa entra, puoi TAPpare o STAPpare un permanente bersaglio.",
             "type": "Creatura — Farabutto Spiritello",
             "uuid": "f3f81241-a9da-5e4d-aae4-52285f3f4460"
@@ -1358,14 +1482,31 @@
             "language": "Japanese",
             "multiverseId": 683200,
             "name": "やっかい児",
+            "skuIds": {
+              "nonfoil": "5fd91ad7-a369-5f49-b108-a514ccf4e157"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n飛行\nやっかい児が戦場に出たとき、パーマネント１つを対象とする。それをタップまたはアンタップしてもよい。",
             "type": "クリーチャー — フェアリー・ならず者",
             "uuid": "88af86e1-65b0-5cdd-b277-3e3a504525fb"
+          },
+          {
+            "flavorText": "Las hadas saben cuándo no son bien recibidas. Eso es precisamente por lo que aparecen.",
+            "identifiers": {
+              "multiverseId": "682858",
+              "scryfallId": "2a2c03fc-b23b-4986-8422-5dd323279a8d"
+            },
+            "language": "Spanish",
+            "multiverseId": 682858,
+            "name": "Pequeña molestia",
+            "skuIds": {
+              "nonfoil": "54a9cdb5-7c00-5082-9dce-f3d3520fcae0"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\nCuando la Pequeña molestia entre, puedes girar o enderezar el permanente objetivo.",
+            "type": "Criatura — Bribón hada",
+            "uuid": "e2c134dc-213f-57c2-972c-8b3b0cb88132"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305492",
           "cardsphereId": "131277",
@@ -1410,6 +1551,7 @@
         "name": "Pestermite",
         "number": "343",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nWhen Pestermite enters, you may tap or untap target permanent.",
+        "originalType": "Creature – Faerie Rogue",
         "power": "2",
         "printings": [
           "J22",
@@ -1424,9 +1566,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c8d358be-ac0e-585a-bc28-562dc0dc20d6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1460,39 +1607,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 1792,
+        "edhrecRank": 1872,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Any ship that sails on these mean seas for long is bound to pick up a ghost or two.\"\n—Admiral Beckett Brass",
         "foreignData": [
-          {
-            "flavorText": "„Jedes Schiff, das diese raue See zu lange befährt, zählt irgendwann ein paar Geister zu seiner Besatzung.\"\n—Admiralin Beckett Tollkun",
-            "identifiers": {
-              "multiverseId": "682763",
-              "scryfallId": "5cfbc1d5-130c-4bf3-8709-1a746a86a2e9"
-            },
-            "language": "German",
-            "multiverseId": 682763,
-            "name": "Spektraler Seemann",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\n{3}{U}: Ziehe eine Karte.",
-            "type": "Kreatur — Geist, Pirat",
-            "uuid": "2b07ffe9-8fe6-51f5-a038-d906ef91204a"
-          },
-          {
-            "flavorText": "\"Cualquier navío que surque estos mares el tiempo suficiente se encontrará con algún fantasma que otro\".\n—Almirante Beckett Azófar",
-            "identifiers": {
-              "multiverseId": "682877",
-              "scryfallId": "a611bff4-9a25-4508-8d63-00ea3948cd26"
-            },
-            "language": "Spanish",
-            "multiverseId": 682877,
-            "name": "Marinero espectral",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\n{3}{U}: Roba una carta.",
-            "type": "Criatura — Pirata espíritu",
-            "uuid": "8640d1e8-879b-57a3-8af0-23b3edef19a6"
-          },
           {
             "flavorText": "« Les navires qui voguent longtemps sur ces mers damnées récupèrent tous un ou deux fantômes. »\n—Amirale Beckett Hardiesce",
             "identifiers": {
@@ -1502,9 +1623,28 @@
             "language": "French",
             "multiverseId": 682991,
             "name": "Marin spectral",
+            "skuIds": {
+              "nonfoil": "97b27393-3763-5a0e-bbed-f1388b5972bd"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nVol\n{3}{U} : Piochez une carte.",
             "type": "Créature — esprit et pirate",
             "uuid": "1409acaa-b455-5d86-8fc7-2a5ba29c1460"
+          },
+          {
+            "flavorText": "„Jedes Schiff, das diese raue See zu lange befährt, zählt irgendwann ein paar Geister zu seiner Besatzung.\"\n—Admiralin Beckett Tollkun",
+            "identifiers": {
+              "multiverseId": "682763",
+              "scryfallId": "5cfbc1d5-130c-4bf3-8709-1a746a86a2e9"
+            },
+            "language": "German",
+            "multiverseId": 682763,
+            "name": "Spektraler Seemann",
+            "skuIds": {
+              "nonfoil": "eb7c2dc2-b4e8-519e-bcda-0463cf28751e"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nFliegend\n{3}{U}: Ziehe eine Karte.",
+            "type": "Kreatur — Geist, Pirat",
+            "uuid": "2b07ffe9-8fe6-51f5-a038-d906ef91204a"
           },
           {
             "flavorText": "\"Qualsiasi nave che solchi a lungo questi mari nefasti è destinata a prendere a bordo un fantasma o due.\"\n—Ammiraglio Beckett Cuor di Bronzo",
@@ -1515,6 +1655,9 @@
             "language": "Italian",
             "multiverseId": 683105,
             "name": "Marinaio Spettrale",
+            "skuIds": {
+              "nonfoil": "ccbede3e-f5d6-5bdb-8212-e91ba663cab2"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nVolare\n{3}{U}: Pesca una carta.",
             "type": "Creatura — Pirata Spirito",
             "uuid": "b78391c4-f4bf-5307-bc04-73059a6ecf2c"
@@ -1528,14 +1671,31 @@
             "language": "Japanese",
             "multiverseId": 683219,
             "name": "幽体の船乗り",
+            "skuIds": {
+              "nonfoil": "43ee3786-de74-5854-9320-be575cfd3495"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n飛行\n{3}{U}：カード１枚を引く。",
             "type": "クリーチャー — スピリット・海賊",
             "uuid": "15b8d66e-2a4c-5da3-96db-0d44a912bc6c"
+          },
+          {
+            "flavorText": "\"Cualquier navío que surque estos mares el tiempo suficiente se encontrará con algún fantasma que otro\".\n—Almirante Beckett Azófar",
+            "identifiers": {
+              "multiverseId": "682877",
+              "scryfallId": "a611bff4-9a25-4508-8d63-00ea3948cd26"
+            },
+            "language": "Spanish",
+            "multiverseId": 682877,
+            "name": "Marinero espectral",
+            "skuIds": {
+              "nonfoil": "1074d13b-d396-538c-aaf2-5c5ee56dc1d0"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nVuela.\n{3}{U}: Roba una carta.",
+            "type": "Criatura — Pirata espíritu",
+            "uuid": "8640d1e8-879b-57a3-8af0-23b3edef19a6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305511",
           "cardsphereId": "131132",
@@ -1582,6 +1742,7 @@
         "name": "Spectral Sailor",
         "number": "363",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\n{3}{U}: Draw a card.",
+        "originalType": "Creature – Spirit Pirate",
         "power": "1",
         "printings": [
           "FDN",
@@ -1600,9 +1761,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5f184338-535a-54c9-a5c8-6ff57a2db6e5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1636,36 +1802,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 15271,
+        "edhrecRank": 15537,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682766",
-              "scryfallId": "4a274df6-1fcd-4ae3-a4cf-ffdd107f3234"
-            },
-            "language": "German",
-            "multiverseId": 682766,
-            "name": "Sternenlicht-Mantel",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur, die du kontrollierst\nWenn der Sternenlicht-Mantel ins Spiel kommt, erhält die verzauberte Kreatur Fluchsicherheit bis zum Ende des Zuges. (Sie kann nicht das Ziel von Zaubersprüchen oder Fähigkeiten sein, die deine Gegner kontrollieren.)\nDie verzauberte Kreatur erhält +1/+1.",
-            "type": "Verzauberung — Aura",
-            "uuid": "00b24d29-ca11-5ac3-b943-b02fe7e4bb46"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682880",
-              "scryfallId": "60ade664-aa48-4e59-8ac1-984570c5a9e4"
-            },
-            "language": "Spanish",
-            "multiverseId": 682880,
-            "name": "Manto de estrellas",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura que controlas.\nCuando el Manto de estrellas entre, la criatura encantada gana la habilidad de antimaleficio hasta el final del turno. (No puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)\nLa criatura encantada obtiene +1/+1.",
-            "type": "Encantamiento — Aura",
-            "uuid": "b6af5b81-6584-5b91-9ea3-106e9d32094e"
-          },
           {
             "identifiers": {
               "multiverseId": "682994",
@@ -1674,9 +1816,27 @@
             "language": "French",
             "multiverseId": 682994,
             "name": "Manteau étoilé",
+            "skuIds": {
+              "nonfoil": "e23d7952-9adf-5ab5-ae7a-28654880e95a"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nEnchanter : une créature que vous contrôlez\nQuand le Manteau étoilé arrive, la créature enchantée acquiert la défense talismanique jusqu'à la fin du tour. (Elle ne peut pas être la cible de sorts ou de capacités que vos adversaires contrôlent.)\nLa créature enchantée gagne +1/+1.",
             "type": "Enchantement — aura",
             "uuid": "d1eb985a-6b7c-52c3-aec7-e06546545076"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682766",
+              "scryfallId": "4a274df6-1fcd-4ae3-a4cf-ffdd107f3234"
+            },
+            "language": "German",
+            "multiverseId": 682766,
+            "name": "Sternenlicht-Mantel",
+            "skuIds": {
+              "nonfoil": "35c6a0e7-f6fb-5357-a89e-0c7b2ccb5a49"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nVerzaubert eine Kreatur, die du kontrollierst\nWenn der Sternenlicht-Mantel ins Spiel kommt, erhält die verzauberte Kreatur Fluchsicherheit bis zum Ende des Zuges. (Sie kann nicht das Ziel von Zaubersprüchen oder Fähigkeiten sein, die deine Gegner kontrollieren.)\nDie verzauberte Kreatur erhält +1/+1.",
+            "type": "Verzauberung — Aura",
+            "uuid": "00b24d29-ca11-5ac3-b943-b02fe7e4bb46"
           },
           {
             "identifiers": {
@@ -1686,6 +1846,9 @@
             "language": "Italian",
             "multiverseId": 683108,
             "name": "Manto Illuminato di Stelle",
+            "skuIds": {
+              "nonfoil": "0c97f4b6-4d9e-55fd-804b-d5c8fc069575"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nIncanta creatura che controlli\nQuando il Manto Illuminato di Stelle entra, la creatura incantata ha anti-malocchio fino alla fine del turno. (Non può essere bersaglio di magie o abilità controllate dai tuoi avversari.)\nLa creatura incantata prende +1/+1.",
             "type": "Incantesimo — Aura",
             "uuid": "d9316775-15ed-5ccb-a20f-e8806b0b1093"
@@ -1698,14 +1861,30 @@
             "language": "Japanese",
             "multiverseId": 683222,
             "name": "星明かりのマント",
+            "skuIds": {
+              "nonfoil": "1c298ef2-7339-5a14-a2e6-d475634af2e9"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\nエンチャント（あなたがコントロールしているクリーチャー）\n星明かりのマントが戦場に出たとき、ターン終了時まで、エンチャントしているクリーチャーは呪禁を得る。（それは対戦相手がコントロールしている呪文や能力の対象にならない。）\nエンチャントしているクリーチャーは＋１/＋１の修整を受ける。",
             "type": "エンチャント — オーラ",
             "uuid": "a5b8de31-510e-5a59-9858-cb0a49640d01"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682880",
+              "scryfallId": "60ade664-aa48-4e59-8ac1-984570c5a9e4"
+            },
+            "language": "Spanish",
+            "multiverseId": 682880,
+            "name": "Manto de estrellas",
+            "skuIds": {
+              "nonfoil": "68d12c4b-0bae-502d-ba89-cd057b0595f2"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEncantar criatura que controlas.\nCuando el Manto de estrellas entre, la criatura encantada gana la habilidad de antimaleficio hasta el final del turno. (No puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)\nLa criatura encantada obtiene +1/+1.",
+            "type": "Encantamiento — Aura",
+            "uuid": "b6af5b81-6584-5b91-9ea3-106e9d32094e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305514",
           "cardsphereId": "131129",
@@ -1750,6 +1929,7 @@
         "name": "Starlit Mantle",
         "number": "366",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature you control\nWhen Starlit Mantle enters, enchanted creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)\nEnchanted creature gets +1/+1.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "J25",
           "THB"
@@ -1767,9 +1947,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e102e304-6e49-56c4-b7fd-9a8e0c54d986"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1801,39 +1986,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 13916,
+        "edhrecRank": 13938,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Starfish are its favorite prey.",
         "foreignData": [
-          {
-            "flavorText": "Seine bevorzugte Beute sind Seesterne.",
-            "identifiers": {
-              "multiverseId": "682767",
-              "scryfallId": "4bfb599e-4e62-4dc9-b3d5-1aac3435edd1"
-            },
-            "language": "German",
-            "multiverseId": 682767,
-            "name": "Stechender Feuerfisch",
-            "text": "Immer wenn du deinen ersten Zauberspruch im Zug eines Gegners wirkst, kannst du ein Nichtland-Permanent deiner Wahl tappen oder enttappen.",
-            "type": "Verzauberungskreatur — Fisch",
-            "uuid": "a7729bf2-548f-58a2-8266-eb241bfdb130"
-          },
-          {
-            "flavorText": "Su presa favorita son las estrellas de mar.",
-            "identifiers": {
-              "multiverseId": "682881",
-              "scryfallId": "760e55d0-ae95-4de7-8538-49c5fb29a2e9"
-            },
-            "language": "Spanish",
-            "multiverseId": 682881,
-            "name": "Pez león puntiagudo",
-            "text": "Siempre que lances tu primer hechizo durante el turno de cada oponente, puedes girar o enderezar el permanente objetivo que no sea tierra.",
-            "type": "Criatura encantamiento — Pez",
-            "uuid": "4116ede1-bf37-5dcb-84d6-3bbe28a0abb5"
-          },
           {
             "flavorText": "Les étoiles de mer sont ses proies préférées.",
             "identifiers": {
@@ -1843,9 +2002,28 @@
             "language": "French",
             "multiverseId": 682995,
             "name": "Rascasse piquante",
+            "skuIds": {
+              "nonfoil": "adbe0003-f38a-5d6f-bd16-8042173310cf"
+            },
             "text": "À chaque fois que vous lancez votre premier sort pendant le tour de chaque adversaire, vous pouvez engager ou dégager un permanent non-terrain ciblé.",
             "type": "Créature-enchantement — poisson",
             "uuid": "5b82e671-6428-58b0-bc69-55f4b59b9e29"
+          },
+          {
+            "flavorText": "Seine bevorzugte Beute sind Seesterne.",
+            "identifiers": {
+              "multiverseId": "682767",
+              "scryfallId": "4bfb599e-4e62-4dc9-b3d5-1aac3435edd1"
+            },
+            "language": "German",
+            "multiverseId": 682767,
+            "name": "Stechender Feuerfisch",
+            "skuIds": {
+              "nonfoil": "6d3b5daa-cbec-5227-b9c3-45bfc6403e44"
+            },
+            "text": "Immer wenn du deinen ersten Zauberspruch im Zug eines Gegners wirkst, kannst du ein Nichtland-Permanent deiner Wahl tappen oder enttappen.",
+            "type": "Verzauberungskreatur — Fisch",
+            "uuid": "a7729bf2-548f-58a2-8266-eb241bfdb130"
           },
           {
             "flavorText": "Le stelle marine sono le sue prede preferite.",
@@ -1856,6 +2034,9 @@
             "language": "Italian",
             "multiverseId": 683109,
             "name": "Pesce Scorpione Pungente",
+            "skuIds": {
+              "nonfoil": "fa4d2eb5-fb9f-55d7-a98a-ea4e78995ec7"
+            },
             "text": "Ogniqualvolta lanci la tua prima magia durante il turno di ogni avversario, puoi TAPpare o STAPpare un permanente non terra bersaglio.",
             "type": "Creatura Incantesimo — Pesce",
             "uuid": "680b2b00-2848-5d58-87ed-bdc5ef796608"
@@ -1869,17 +2050,34 @@
             "language": "Japanese",
             "multiverseId": 683223,
             "name": "有刺カサゴ",
+            "skuIds": {
+              "nonfoil": "18001ea7-38f5-5814-bf41-0ac6bccc4c76"
+            },
             "text": "あなたが、対戦相手の各ターン内のあなたの１つ目の呪文を唱えるたび、土地でないパーマネント１つを対象とする。それをタップまたはアンタップしてもよい。",
             "type": "クリーチャー・エンチャント — 魚",
             "uuid": "8e3fdbb9-9682-57f7-bd71-fb639df8d974"
+          },
+          {
+            "flavorText": "Su presa favorita son las estrellas de mar.",
+            "identifiers": {
+              "multiverseId": "682881",
+              "scryfallId": "760e55d0-ae95-4de7-8538-49c5fb29a2e9"
+            },
+            "language": "Spanish",
+            "multiverseId": 682881,
+            "name": "Pez león puntiagudo",
+            "skuIds": {
+              "nonfoil": "20cbd24a-09fd-5557-a103-f89df42f3c46"
+            },
+            "text": "Siempre que lances tu primer hechizo durante el turno de cada oponente, puedes girar o enderezar el permanente objetivo que no sea tierra.",
+            "type": "Criatura encantamiento — Pez",
+            "uuid": "4116ede1-bf37-5dcb-84d6-3bbe28a0abb5"
           }
         ],
         "frameEffects": [
           "enchantment"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305515",
           "cardsphereId": "131128",
@@ -1919,6 +2117,7 @@
         "name": "Stinging Lionfish",
         "number": "367",
         "originalText": "Whenever you cast your first spell during each opponent's turn, you may tap or untap target nonland permanent.",
+        "originalType": "Enchantment Creature – Fish",
         "power": "2",
         "printings": [
           "HBG",
@@ -1951,9 +2150,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "3ca5817d-05b1-53e4-9d13-f103cc31ef11"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1987,39 +2191,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 26289,
+        "edhrecRank": 26854,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The currents are strange today, and the fish are fearful. Something's stirring in the depths.\"\n—Rathstaf, Kannah fisherman",
         "foreignData": [
-          {
-            "flavorText": "„Die Strömungen sind heute merkwürdig und die Fische voller Furcht. In den Tiefen regt sich etwas.\"\n—Rathstaf, Kannah-Fischer",
-            "identifiers": {
-              "multiverseId": "682780",
-              "scryfallId": "ccfeab09-454b-46c1-8c02-d4e12a836d47"
-            },
-            "language": "German",
-            "multiverseId": 682780,
-            "name": "Unterwasser-Eindringling",
-            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nDer Unterwasser-Eindringling kommt getappt ins Spiel.",
-            "type": "Kreatur — Riese, Räuber",
-            "uuid": "39207bbf-f393-53a8-a322-219ecf326715"
-          },
-          {
-            "flavorText": "\"Hoy las corrientes no están como de costumbre y los peces tienen miedo. Hay algo moviéndose por las profundidades\".\n—Rathstaf, pescador kannah",
-            "identifiers": {
-              "multiverseId": "682894",
-              "scryfallId": "28dd4095-100c-4c91-ae82-a5e2ffbdf0c5"
-            },
-            "language": "Spanish",
-            "multiverseId": 682894,
-            "name": "Invasor submarino",
-            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEl Invasor submarino entra girado.",
-            "type": "Criatura — Bribón gigante",
-            "uuid": "ee6f84a8-d63a-50a0-a6f1-f1a6fe3d271d"
-          },
           {
             "flavorText": "« Les courants sont étranges aujourd'hui, et les poissons sont farouches. Quelque chose bouge dans les profondeurs. »\n—Rathstaf, pêcheur kannah",
             "identifiers": {
@@ -2029,9 +2207,28 @@
             "language": "French",
             "multiverseId": 683008,
             "name": "Envahisseur sous-marin",
+            "skuIds": {
+              "nonfoil": "71dbb477-f92f-5ea9-935a-3f7c7fb3138a"
+            },
             "text": "Flash (Vous pouvez lancer ce sort à tout moment où vous pourriez lancer un éphémère.)\nL'Envahisseur sous-marin arrive engagé.",
             "type": "Créature — géant et gredin",
             "uuid": "de6c6139-cae1-5f5a-8a5a-4fc9afbe88a6"
+          },
+          {
+            "flavorText": "„Die Strömungen sind heute merkwürdig und die Fische voller Furcht. In den Tiefen regt sich etwas.\"\n—Rathstaf, Kannah-Fischer",
+            "identifiers": {
+              "multiverseId": "682780",
+              "scryfallId": "ccfeab09-454b-46c1-8c02-d4e12a836d47"
+            },
+            "language": "German",
+            "multiverseId": 682780,
+            "name": "Unterwasser-Eindringling",
+            "skuIds": {
+              "nonfoil": "2e12e736-d9ae-5259-a14a-74b8bbc63b8e"
+            },
+            "text": "Aufblitzen (Du kannst diesen Zauberspruch zu jedem Zeitpunkt wirken, zu dem du einen Spontanzauber wirken könntest.)\nDer Unterwasser-Eindringling kommt getappt ins Spiel.",
+            "type": "Kreatur — Riese, Räuber",
+            "uuid": "39207bbf-f393-53a8-a322-219ecf326715"
           },
           {
             "flavorText": "\"Oggi le correnti sono strane e i pesci sono spaventati. Qualcosa si sta agitando negli abissi.\"\n—Rathstaf, pescatore Kannah",
@@ -2042,6 +2239,9 @@
             "language": "Italian",
             "multiverseId": 683122,
             "name": "Invasore Sottomarino",
+            "skuIds": {
+              "nonfoil": "3268d9a1-8bca-5192-b008-df5a3b76edab"
+            },
             "text": "Lampo (Puoi lanciare questa magia in ogni momento in cui potresti lanciare un istantaneo.)\nL'Invasore Sottomarino entra TAPpato.",
             "type": "Creatura — Farabutto Gigante",
             "uuid": "fd6ceac0-acb3-5f3b-8d54-3f49337973ca"
@@ -2055,14 +2255,31 @@
             "language": "Japanese",
             "multiverseId": 683236,
             "name": "海中の侵略者",
+            "skuIds": {
+              "nonfoil": "f193fa11-4882-5e66-81a6-96653c585e72"
+            },
             "text": "瞬速（この呪文を、あなたがインスタントを唱えられるときならいつでも唱えてよい。）\n海中の侵略者はタップ状態で戦場に出る。",
             "type": "クリーチャー — 巨人・ならず者",
             "uuid": "2686b7ed-ebe5-5504-864f-0aae31cadf86"
+          },
+          {
+            "flavorText": "\"Hoy las corrientes no están como de costumbre y los peces tienen miedo. Hay algo moviéndose por las profundidades\".\n—Rathstaf, pescador kannah",
+            "identifiers": {
+              "multiverseId": "682894",
+              "scryfallId": "28dd4095-100c-4c91-ae82-a5e2ffbdf0c5"
+            },
+            "language": "Spanish",
+            "multiverseId": 682894,
+            "name": "Invasor submarino",
+            "skuIds": {
+              "nonfoil": "8a6f0d73-abf3-51b5-9ca3-1221dd2ebc6e"
+            },
+            "text": "Destello. (Puedes lanzar este hechizo en cualquier momento en que pudieras lanzar un instantáneo.)\nEl Invasor submarino entra girado.",
+            "type": "Criatura — Bribón gigante",
+            "uuid": "ee6f84a8-d63a-50a0-a6f1-f1a6fe3d271d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305528",
           "cardsphereId": "131096",
@@ -2106,6 +2323,7 @@
         "name": "Undersea Invader",
         "number": "380",
         "originalText": "Flash (You may cast this spell any time you could cast an instant.)\nUndersea Invader enters tapped.",
+        "originalType": "Creature – Giant Rogue",
         "power": "5",
         "printings": [
           "J22",
@@ -2119,9 +2337,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "87a7c0fc-74b0-5a8c-8550-c917a82f8a98"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2153,39 +2376,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
-          {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
-            "identifiers": {
-              "multiverseId": "684059",
-              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
-            },
-            "language": "German",
-            "multiverseId": 684059,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "684098",
-              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
-            },
-            "language": "Spanish",
-            "multiverseId": 684098,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
-          },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
             "identifiers": {
@@ -2195,9 +2392,28 @@
             "language": "French",
             "multiverseId": 684137,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "fdc167be-8ef8-57ed-a369-d7f00d07733b"
+            },
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "684059",
+              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
+            },
+            "language": "German",
+            "multiverseId": 684059,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "03938098-9af1-539d-a5cc-04e6aab95a54"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2208,6 +2424,9 @@
             "language": "Italian",
             "multiverseId": 684176,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "c9d96256-d217-5ef1-94f0-693550cc6ba5"
+            },
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
@@ -2221,14 +2440,31 @@
             "language": "Japanese",
             "multiverseId": 684215,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "9a973770-024c-5e07-a3c6-3af88a966157"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
+          },
+          {
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
+            "identifiers": {
+              "multiverseId": "684098",
+              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
+            },
+            "language": "Spanish",
+            "multiverseId": 684098,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "520ae535-6387-5433-9539-ea7dfce43789"
+            },
+            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306117",
           "cardsphereId": "130626",
@@ -2266,12 +2502,14 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2279,7 +2517,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/66576e95f29fe898",
@@ -2288,9 +2534,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67685a63-8e31-57e4-acb3-d94a375bae4f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2325,36 +2576,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681254",
-              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
-            },
-            "language": "German",
-            "multiverseId": 681254,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681269",
-              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681269,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681284",
               "scryfallId": "8751d0e8-aa20-4d8e-a39f-e542d6ab2424"
             },
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "cb0ef6d5-f7d2-5691-bfdf-53e3a7d110b9"
+            },
             "type": "Terrain de base — île",
             "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681254",
+              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
+            },
+            "language": "German",
+            "multiverseId": 681254,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "04ea0771-3452-51f4-bdf6-6fe1ca1af63a"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2364,6 +2610,9 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "f13bcd50-af8f-5431-a106-a9d255f15459"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
@@ -2375,18 +2624,34 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "c117e37a-2d0d-5996-bf9e-7d64e38a799d"
+            },
             "type": "基本土地 — 島",
             "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681269",
+              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681269,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "93455c64-eb7d-5e65-9540-2db34e522179"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305218",
           "cardsphereId": "131374",
           "deckboxId": "98078",
           "mcmId": "795505",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95169",
           "mtgjsonV4Id": "08023772-e668-5bc2-b371-b0f5ce320b77",
           "multiverseId": "681239",
@@ -2399,7 +2664,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2427,6 +2691,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2496,6 +2761,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2656,15 +2922,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f22125830525c472",
+          "cardmarket": "https://mtgjson.com/links/76af4fc19321352c",
           "tcgplayer": "https://mtgjson.com/links/72c5fde6e8a3d9d8"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "21402412-1e93-5f68-911b-a3ab19229cbc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2707,36 +2982,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681255",
-              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
-            },
-            "language": "German",
-            "multiverseId": 681255,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681270",
-              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
-            },
-            "language": "Spanish",
-            "multiverseId": 681270,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681285",
               "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
             },
             "language": "French",
             "multiverseId": 681285,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "87b6c0f1-4e30-5ed3-88f9-b1440d4397e3"
+            },
             "type": "Terrain de base — île",
             "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "7af6d605-2c12-5380-9b05-56684ac83548"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
           },
           {
             "identifiers": {
@@ -2746,6 +3016,9 @@
             "language": "Italian",
             "multiverseId": 681300,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "aa2acc70-8c55-59c3-b1b3-335ecd8cdcf7"
+            },
             "type": "Terra Base — Isola",
             "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
           },
@@ -2757,18 +3030,34 @@
             "language": "Japanese",
             "multiverseId": 681315,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9d13c5e5-565f-5bcb-ac12-4623bfe4c5ad"
+            },
             "type": "基本土地 — 島",
             "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "0aa11aa1-a1be-5474-aa73-e762139aa94b"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305219",
           "cardsphereId": "131375",
           "deckboxId": "98079",
           "mcmId": "795506",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95170",
           "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
           "multiverseId": "681240",
@@ -2781,7 +3070,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2809,6 +3097,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "85",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2878,6 +3167,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3038,15 +3328,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "cardmarket": "https://mtgjson.com/links/c83b9d49e721a8d6",
           "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b80979e0-eed6-52a5-8f39-b7f4aac6d594"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3089,36 +3388,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681256",
-              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
-            },
-            "language": "German",
-            "multiverseId": 681256,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681271",
-              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
-            },
-            "language": "Spanish",
-            "multiverseId": 681271,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681286",
               "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
             },
             "language": "French",
             "multiverseId": 681286,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "0c917650-1318-57f6-8da7-86999824bcf2"
+            },
             "type": "Terrain de base — île",
             "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "fce83af5-56a7-5297-aeff-1c20caf0b035"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
           },
           {
             "identifiers": {
@@ -3128,6 +3422,9 @@
             "language": "Italian",
             "multiverseId": 681301,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "4dfc8e1d-1d20-5b8d-9391-23f5e94b63c0"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
           },
@@ -3139,18 +3436,34 @@
             "language": "Japanese",
             "multiverseId": 681316,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "bb009efe-4d5f-594d-a597-179d0d26f514"
+            },
             "type": "基本土地 — 島",
             "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "91bb7f4a-9b9d-50ac-b116-b68a1d9ab1ff"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305220",
           "cardsphereId": "131376",
           "deckboxId": "98080",
           "mcmId": "795507",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95171",
           "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
           "multiverseId": "681241",
@@ -3163,7 +3476,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3191,6 +3503,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "86",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3260,6 +3573,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3420,15 +3734,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "cardmarket": "https://mtgjson.com/links/9bb956231e7930e4",
           "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7461ac97-c757-5f2d-8711-f19dab487de3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3444,8 +3767,8 @@
         ],
         "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
         "variations": [
-          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
-          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc"
         ]
       }
     ],
@@ -3460,5 +3783,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "b4c968c5a70544"
   }
 }

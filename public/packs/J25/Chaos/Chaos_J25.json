@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "5c567512e6e78d"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -32,39 +27,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 6367,
+        "edhrecRank": 6715,
         "edhrecSaltiness": 0.32,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Soil and stone, hear my call! Branch and bone, yield your all!\"",
         "foreignData": [
-          {
-            "flavorText": "„Erde und Stein, Ast und Gebein, zu diesem Behuf, folgt meinem Ruf!\"",
-            "identifiers": {
-              "multiverseId": "681139",
-              "scryfallId": "2c8a7b06-a96f-4876-ad67-89ad46e49586"
-            },
-            "language": "German",
-            "multiverseId": 681139,
-            "name": "Averna, erblühendes Chaos",
-            "text": "Sowie du Kaskade anwendest, kannst du von den ins Exil geschickten Karten eine Länderkarte getappt ins Spiel bringen. (Nachdem die letzte Karte ins Exil geschickt wurde und bevor du entscheidest, ob du eine wirkst.)",
-            "type": "Legendäre Kreatur — Elementarwesen, Schamane",
-            "uuid": "c8ab20b4-06fc-5b67-8628-455a8ea0d855"
-          },
-          {
-            "flavorText": "\"Tierra y piedra, ¡oigan mi llamado! Ramas y huesos, ¡pónganse de mi lado!\".",
-            "identifiers": {
-              "multiverseId": "681163",
-              "scryfallId": "d923b9b4-5329-47e8-bfbf-266d79d19c9b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681163,
-            "name": "Averna, el Caos Floreciente",
-            "text": "Mientras uses la habilidad de cascada, puedes poner en el campo de batalla girada una carta de tierra de entre las cartas exiliadas. (Hazlo después de que se exilie la última carta pero antes de decidir si lanzar o no una carta que no sea tierra.)",
-            "type": "Criatura legendaria — Chamán elemental",
-            "uuid": "ba213d5c-6a1f-5ec4-b000-f94ebb6cd819"
-          },
           {
             "flavorText": "« Terre et roche, entendez ma requête ! Branche et os, aidez-nous pour la conquête ! »",
             "identifiers": {
@@ -74,9 +43,28 @@
             "language": "French",
             "multiverseId": 681187,
             "name": "Averna, floraison du chaos",
+            "skuIds": {
+              "nonfoil": "ecfe0f86-8aa5-5a3f-aa82-0685dfd5ca3b"
+            },
             "text": "Au moment où vous appliquez la cascade, vous pouvez mettre sur le champ de bataille, engagée, une carte de terrain parmi les cartes exilées. (Faites-le après que la dernière carte est exilée mais avant de choisir ou non de lancer une carte non-terrain.)",
             "type": "Créature légendaire — élémental et shamane",
             "uuid": "312b7af0-544a-5c56-8eec-7f6479d371ec"
+          },
+          {
+            "flavorText": "„Erde und Stein, Ast und Gebein, zu diesem Behuf, folgt meinem Ruf!\"",
+            "identifiers": {
+              "multiverseId": "681139",
+              "scryfallId": "2c8a7b06-a96f-4876-ad67-89ad46e49586"
+            },
+            "language": "German",
+            "multiverseId": 681139,
+            "name": "Averna, erblühendes Chaos",
+            "skuIds": {
+              "nonfoil": "98a671e1-0d77-5d82-8946-8a3ed442b6a1"
+            },
+            "text": "Sowie du Kaskade anwendest, kannst du von den ins Exil geschickten Karten eine Länderkarte getappt ins Spiel bringen. (Nachdem die letzte Karte ins Exil geschickt wurde und bevor du entscheidest, ob du eine wirkst.)",
+            "type": "Legendäre Kreatur — Elementarwesen, Schamane",
+            "uuid": "c8ab20b4-06fc-5b67-8628-455a8ea0d855"
           },
           {
             "flavorText": "\"Suolo e pietra, rispondete alla necessità! Ramo e osso, piegatevi alla mia volontà!\"",
@@ -87,6 +75,9 @@
             "language": "Italian",
             "multiverseId": 681211,
             "name": "Avernay, il Germoglio del Caos",
+            "skuIds": {
+              "nonfoil": "99bebee5-ed79-503b-9f7a-bde8f356a5f7"
+            },
             "text": "Mentre risolvi cascata, puoi mettere sul campo di battaglia TAPpata una carta terra scelta tra le carte esiliate. (Fallo dopo che l'ultima carta è stata esiliata ma prima di decidere se lanciare una carta non terra.)",
             "type": "Creatura Leggendaria — Sciamano Elementale",
             "uuid": "65c51ad1-b4ed-5665-a361-3293d8a977f7"
@@ -100,17 +91,34 @@
             "language": "Japanese",
             "multiverseId": 681235,
             "name": "混沌の花、アヴェルナ",
+            "skuIds": {
+              "nonfoil": "4e4af1f8-27d7-5885-a0b2-1e4eb167f947"
+            },
             "text": "あなたが続唱を行うに際し、それにより追放されたカードの中から土地・カード１枚をタップ状態で戦場に出してもよい。（この処理は、最後のカードが追放された後、土地でないカードを唱えるかどうかを決定する前に行う。）",
             "type": "伝説のクリーチャー — エレメンタル・シャーマン",
             "uuid": "b5831d18-da54-5ac7-b280-49fc5137d329"
+          },
+          {
+            "flavorText": "\"Tierra y piedra, ¡oigan mi llamado! Ramas y huesos, ¡pónganse de mi lado!\".",
+            "identifiers": {
+              "multiverseId": "681163",
+              "scryfallId": "d923b9b4-5329-47e8-bfbf-266d79d19c9b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681163,
+            "name": "Averna, el Caos Floreciente",
+            "skuIds": {
+              "nonfoil": "05581577-62f5-5953-a985-0a7b46847b93"
+            },
+            "text": "Mientras uses la habilidad de cascada, puedes poner en el campo de batalla girada una carta de tierra de entre las cartas exiliadas. (Hazlo después de que se exilie la última carta pero antes de decidir si lanzar o no una carta que no sea tierra.)",
+            "type": "Criatura legendaria — Chamán elemental",
+            "uuid": "ba213d5c-6a1f-5ec4-b000-f94ebb6cd819"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305214",
           "cardsphereId": "130886",
@@ -130,7 +138,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -154,6 +161,7 @@
         "name": "Averna, the Chaos Bloom",
         "number": "80",
         "originalText": "As you cascade, you may put a land card from among the exiled cards onto the battlefield tapped. (Do this after the last card is exiled but before deciding whether to cast a nonland card.)",
+        "originalType": "Legendary Creature – Elemental Shaman",
         "power": "4",
         "printings": [
           "CMR",
@@ -214,9 +222,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7b6295bb-16d9-563b-bdeb-07b10a2cea5c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -249,39 +262,13 @@
         "colors": [],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 14128,
+        "edhrecRank": 13453,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Conflux proved that Alara's strength came from unity, not division.",
         "foreignData": [
-          {
-            "flavorText": "Der Conflux hat bewiesen, dass Alaras Stärke in der Einigkeit und nicht in der Spaltung liegt.",
-            "identifiers": {
-              "multiverseId": "681382",
-              "scryfallId": "5ba12b08-0ec1-443a-88a2-b51ac9728eb4"
-            },
-            "language": "German",
-            "multiverseId": 681382,
-            "name": "Fragmentloser Fremder",
-            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nStandardlandumwandlung {2} ({2}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
-            "type": "Artefaktkreatur — Konstrukt, Späher",
-            "uuid": "ce32253f-bbc0-53e7-ab02-24d77780e483"
-          },
-          {
-            "flavorText": "La Confluencia demostró que la fuerza de Alara provenía de la unidad, no de la división.",
-            "identifiers": {
-              "multiverseId": "681411",
-              "scryfallId": "ceab7566-12ef-4eba-a904-579541c5b269"
-            },
-            "language": "Spanish",
-            "multiverseId": 681411,
-            "name": "Salvaje sin fragmento",
-            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nCiclo de tierras básicas {2}. ({2}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
-            "type": "Criatura artefacto — Explorador constructo",
-            "uuid": "2878989f-5e4f-57d3-b18b-0be6e0aef741"
-          },
           {
             "flavorText": "La Confluence a démontré qu'Alara trouvait sa force dans l'unité, et non dans la division.",
             "identifiers": {
@@ -291,9 +278,28 @@
             "language": "French",
             "multiverseId": 681440,
             "name": "Pérégrin sans éclat",
+            "skuIds": {
+              "nonfoil": "f54227ed-b589-521c-89c1-30d52f3a3cdf"
+            },
             "text": "Piétinement (Cette créature peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)\nRecyclage de terrain de base {2} ({2}, défaussez-vous de cette carte : Cherchez dans votre bibliothèque une carte de terrain de base, révélez-la, mettez-la dans votre main, puis mélangez.)",
             "type": "Créature-artefact — construction et éclaireur",
             "uuid": "374828c1-a2cf-5f87-b859-d23cf9555afe"
+          },
+          {
+            "flavorText": "Der Conflux hat bewiesen, dass Alaras Stärke in der Einigkeit und nicht in der Spaltung liegt.",
+            "identifiers": {
+              "multiverseId": "681382",
+              "scryfallId": "5ba12b08-0ec1-443a-88a2-b51ac9728eb4"
+            },
+            "language": "German",
+            "multiverseId": 681382,
+            "name": "Fragmentloser Fremder",
+            "skuIds": {
+              "nonfoil": "18d3430a-c0e7-5008-8f6f-1abfb95897b9"
+            },
+            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nStandardlandumwandlung {2} ({2}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
+            "type": "Artefaktkreatur — Konstrukt, Späher",
+            "uuid": "ce32253f-bbc0-53e7-ab02-24d77780e483"
           },
           {
             "flavorText": "La Convergenza dimostrò che la forza di Alara proveniva dall'unione, non dalla divisione.",
@@ -304,6 +310,9 @@
             "language": "Italian",
             "multiverseId": 681469,
             "name": "Forestiero di Nessun Frammento",
+            "skuIds": {
+              "nonfoil": "f97f9b4c-2777-5760-94cb-7afe096a119e"
+            },
             "text": "Travolgere (Questa creatura può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)\nCicloterra base {2} ({2}, Scarta questa carta: Passa in rassegna il tuo grimorio per una carta terra base, rivelala e aggiungila alla tua mano, poi rimescola.)",
             "type": "Creatura Artefatto — Esploratore Costrutto",
             "uuid": "436db6f6-b134-5613-bd2d-4456ec8e7e00"
@@ -317,14 +326,31 @@
             "language": "Japanese",
             "multiverseId": 681498,
             "name": "断片無き辺境育ち",
+            "skuIds": {
+              "nonfoil": "a8a0e84e-f833-573e-ad71-fbf8fb8f1512"
+            },
             "text": "トランプル（このクリーチャーは余剰の戦闘ダメージを、これが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）\n基本土地サイクリング{2}（{2}, このカードを捨てる：あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。）",
             "type": "アーティファクト・クリーチャー — 構築物・スカウト",
             "uuid": "c56c461b-8b45-571e-84da-3b307ce1f1bf"
+          },
+          {
+            "flavorText": "La Confluencia demostró que la fuerza de Alara provenía de la unidad, no de la división.",
+            "identifiers": {
+              "multiverseId": "681411",
+              "scryfallId": "ceab7566-12ef-4eba-a904-579541c5b269"
+            },
+            "language": "Spanish",
+            "multiverseId": 681411,
+            "name": "Salvaje sin fragmento",
+            "skuIds": {
+              "nonfoil": "beabdea9-54a9-551d-82e9-ded0817ea6ff"
+            },
+            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nCiclo de tierras básicas {2}. ({2}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
+            "type": "Criatura artefacto — Explorador constructo",
+            "uuid": "2878989f-5e4f-57d3-b18b-0be6e0aef741"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305162",
           "cardsphereId": "130752",
@@ -343,12 +369,12 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Basic landcycling",
           "Cycling",
           "Landcycling",
-          "Trample"
+          "Trample",
+          "Typecycling"
         ],
         "language": "English",
         "layout": "normal",
@@ -370,6 +396,7 @@
         "name": "Shardless Outlander",
         "number": "28",
         "originalText": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+        "originalType": "Artifact Creature – Construct Scout",
         "power": "6",
         "printings": [
           "J25"
@@ -381,9 +408,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "18dccfa2-5644-54fe-9de9-8eb10c5235f2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -414,38 +446,13 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 75,
+        "edhrecRank": 79,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The beacon shone over the city, its lights a message to every traveler: whoever you are, you belong here.",
         "foreignData": [
-          {
-            "flavorText": "Das Leuchtfeuer erstrahlte über der Stadt, sein Licht eine Botschaft an alle Reisenden: Wer ihr auch seid, ihr seid hier willkommen.",
-            "identifiers": {
-              "multiverseId": "681616",
-              "scryfallId": "d4ae0e30-8349-4ffb-8fe0-cc2d95db9602"
-            },
-            "language": "German",
-            "multiverseId": 681616,
-            "name": "Chromatische Laterne",
-            "text": "Länder, die du kontrollierst, haben „{T}: Erzeuge ein Mana einer beliebigen Farbe.\"\n{T}: Erzeuge ein Mana einer beliebigen Farbe.",
-            "type": "Artefakt",
-            "uuid": "ed4732a6-6da8-5bd7-8649-1c91d87834a8"
-          },
-          {
-            "flavorText": "El faro iluminaba toda la ciudad y su luz era un mensaje de bienvenida y acogida para todos los viajeros.",
-            "identifiers": {
-              "multiverseId": "681677",
-              "scryfallId": "14b4cbe2-36a5-4844-b942-4e1f2209d206"
-            },
-            "language": "Spanish",
-            "multiverseId": 681677,
-            "name": "Linterna cromática",
-            "text": "Las tierras que controlas tienen \"{T}: Agrega un maná de cualquier color\".\n{T}: Agrega un maná de cualquier color.",
-            "type": "Artefacto",
-            "uuid": "5730ee8e-189f-50cd-8e10-788c59380656"
-          },
           {
             "flavorText": "Le flambeau illuminait la ville, ses lumières représentant un message pour tous les voyageurs : qui que vous soyez, vous êtes ici chez vous.",
             "identifiers": {
@@ -455,9 +462,28 @@
             "language": "French",
             "multiverseId": 681738,
             "name": "Lanterne chromatique",
+            "skuIds": {
+              "nonfoil": "0efdf5ca-3f28-56c3-8dae-d89c1cb80770"
+            },
             "text": "Les terrains que vous contrôlez ont : « {T} : Ajoutez un mana de la couleur de votre choix. »\n{T} : Ajoutez un mana de la couleur de votre choix.",
             "type": "Artefact",
             "uuid": "92396132-373f-5a31-9efa-9fedd828dde3"
+          },
+          {
+            "flavorText": "Das Leuchtfeuer erstrahlte über der Stadt, sein Licht eine Botschaft an alle Reisenden: Wer ihr auch seid, ihr seid hier willkommen.",
+            "identifiers": {
+              "multiverseId": "681616",
+              "scryfallId": "d4ae0e30-8349-4ffb-8fe0-cc2d95db9602"
+            },
+            "language": "German",
+            "multiverseId": 681616,
+            "name": "Chromatische Laterne",
+            "skuIds": {
+              "nonfoil": "5925961c-33d8-5dbd-bfc1-8c50d43bfef0"
+            },
+            "text": "Länder, die du kontrollierst, haben „{T}: Erzeuge ein Mana einer beliebigen Farbe.\"\n{T}: Erzeuge ein Mana einer beliebigen Farbe.",
+            "type": "Artefakt",
+            "uuid": "ed4732a6-6da8-5bd7-8649-1c91d87834a8"
           },
           {
             "flavorText": "Il faro illuminava la città e la sua luce era un messaggio per ogni viandante: chiunque tu sia, questa è casa tua.",
@@ -468,6 +494,9 @@
             "language": "Italian",
             "multiverseId": 681799,
             "name": "Lanterna Cromatica",
+            "skuIds": {
+              "nonfoil": "bbb9356d-9a33-51a2-a0c7-48ea865240d0"
+            },
             "text": "Le terre che controlli hanno \"{T}: Aggiungi un mana di un qualsiasi colore\".\n{T}: Aggiungi un mana di un qualsiasi colore.",
             "type": "Artefatto",
             "uuid": "92a43fed-d664-539a-8a93-550e2c30dee4"
@@ -481,14 +510,31 @@
             "language": "Japanese",
             "multiverseId": 681860,
             "name": "彩色の灯籠",
+            "skuIds": {
+              "nonfoil": "ab0ff92a-21cd-527f-b353-79e4c7f62b34"
+            },
             "text": "あなたがコントロールしているすべての土地は「{T}：好きな色１色のマナ１点を加える。」を持つ。\n{T}：好きな色１色のマナ１点を加える。",
             "type": "アーティファクト",
             "uuid": "e80083ff-cf7e-5fc5-800d-cb7684f12fb6"
+          },
+          {
+            "flavorText": "El faro iluminaba toda la ciudad y su luz era un mensaje de bienvenida y acogida para todos los viajeros.",
+            "identifiers": {
+              "multiverseId": "681677",
+              "scryfallId": "14b4cbe2-36a5-4844-b942-4e1f2209d206"
+            },
+            "language": "Spanish",
+            "multiverseId": 681677,
+            "name": "Linterna cromática",
+            "skuIds": {
+              "nonfoil": "13253c6c-5902-51e2-8ffa-8dd3db198326"
+            },
+            "text": "Las tierras que controlas tienen \"{T}: Agrega un maná de cualquier color\".\n{T}: Agrega un maná de cualquier color.",
+            "type": "Artefacto",
+            "uuid": "5730ee8e-189f-50cd-8e10-788c59380656"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305285",
           "cardsphereId": "131056",
@@ -507,7 +553,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -529,12 +574,14 @@
         "name": "Chromatic Lantern",
         "number": "151",
         "originalText": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+        "originalType": "Artifact",
         "printings": [
           "40K",
           "BRR",
           "C16",
           "CMM",
           "DRC",
+          "ECC",
           "FCA",
           "GRN",
           "J25",
@@ -548,7 +595,15 @@
           "PLST",
           "RTR",
           "RVR",
-          "SLD"
+          "SLD",
+          "TMC"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/e0618271cab971f0",
@@ -564,9 +619,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7e9f4c65-4523-5685-8ef5-5455be2b55f3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -592,39 +652,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 185,
+        "edhrecRank": 189,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"You should have granted us an audience. Instead, you now reign over a kingdom of ruins.\"\n—Sarkhan, the Dragonspeaker",
         "foreignData": [
-          {
-            "flavorText": "„Du hättest uns eine Audienz gewähren sollen. Stattdessen herrschst du nun über ein Königreich der Ruinen.\"\n—Sarkhan Drachensprecher",
-            "identifiers": {
-              "multiverseId": "681619",
-              "scryfallId": "1b88b4a2-a1dd-468a-b17b-4da15b794a69"
-            },
-            "language": "German",
-            "multiverseId": 681619,
-            "name": "Aschenödnis",
-            "text": "{T}: Erzeuge {C}.\nStandardlandumwandlung {1} ({1}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
-            "type": "Land",
-            "uuid": "7863bde3-0a30-5361-8189-4fb3dd8d68ce"
-          },
-          {
-            "flavorText": "\"Debiste habernos concedido una audiencia. Por no hacerlo, ahora lideras un reino en ruinas\".\n—Sarkhan, el dragonhablante",
-            "identifiers": {
-              "multiverseId": "681680",
-              "scryfallId": "a9f24de2-d30d-4903-94b5-a3a7e6458b38"
-            },
-            "language": "Spanish",
-            "multiverseId": 681680,
-            "name": "Yermos humeantes",
-            "text": "{T}: Agrega {C}.\nCiclo de tierras básicas {1}. ({1}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
-            "type": "Tierra",
-            "uuid": "ab8faa7e-da07-566c-bd50-ca75748566e4"
-          },
           {
             "flavorText": "« Vous auriez dû nous accorder une audience. Vous régnez à présent sur un champ de ruines. »\n—Sarkhan, le languedragon",
             "identifiers": {
@@ -634,9 +668,28 @@
             "language": "French",
             "multiverseId": 681741,
             "name": "Landes cendreuses",
+            "skuIds": {
+              "nonfoil": "57d191f3-6721-537b-aa59-f45f9662b507"
+            },
             "text": "{T} : Ajoutez {C}.\nRecyclage de terrain de base {1} ({1}, défaussez-vous de cette carte : Cherchez dans votre bibliothèque une carte de terrain de base, révélez-la, mettez-la dans votre main, puis mélangez.)",
             "type": "Terrain",
             "uuid": "0209a0a6-0d6f-5e53-b4da-82a039d781b8"
+          },
+          {
+            "flavorText": "„Du hättest uns eine Audienz gewähren sollen. Stattdessen herrschst du nun über ein Königreich der Ruinen.\"\n—Sarkhan Drachensprecher",
+            "identifiers": {
+              "multiverseId": "681619",
+              "scryfallId": "1b88b4a2-a1dd-468a-b17b-4da15b794a69"
+            },
+            "language": "German",
+            "multiverseId": 681619,
+            "name": "Aschenödnis",
+            "skuIds": {
+              "nonfoil": "e213db47-fc41-5ec9-8af5-6af92146169c"
+            },
+            "text": "{T}: Erzeuge {C}.\nStandardlandumwandlung {1} ({1}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
+            "type": "Land",
+            "uuid": "7863bde3-0a30-5361-8189-4fb3dd8d68ce"
           },
           {
             "flavorText": "\"Avresti dovuto procurarci un pubblico. Invece, ora governi un regno di rovine.\"\n— Sarkhan, il Dracofono",
@@ -647,6 +700,9 @@
             "language": "Italian",
             "multiverseId": 681802,
             "name": "Distese di Polvere",
+            "skuIds": {
+              "nonfoil": "6094107a-5229-5e9a-baad-b13bc7f4ad0f"
+            },
             "text": "{T}: Aggiungi {C}.\nCicloterra base {1} ({1}, Scarta questa carta: Passa in rassegna il tuo grimorio per una carta terra base, rivelala e aggiungila alla tua mano, poi rimescola.)",
             "type": "Terra",
             "uuid": "3eeb4911-f09b-5b55-a297-363c6991d424"
@@ -660,14 +716,31 @@
             "language": "Japanese",
             "multiverseId": 681863,
             "name": "灰のやせ地",
+            "skuIds": {
+              "nonfoil": "ba86bd1f-385a-5d71-aff9-11996fe4ee26"
+            },
             "text": "{T}：{C}を加える。\n基本土地サイクリング{1}（{1}, このカードを捨てる：あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。）",
             "type": "土地",
             "uuid": "f91dd1a7-964b-5382-98f0-6b7ab3cc7094"
+          },
+          {
+            "flavorText": "\"Debiste habernos concedido una audiencia. Por no hacerlo, ahora lideras un reino en ruinas\".\n—Sarkhan, el dragonhablante",
+            "identifiers": {
+              "multiverseId": "681680",
+              "scryfallId": "a9f24de2-d30d-4903-94b5-a3a7e6458b38"
+            },
+            "language": "Spanish",
+            "multiverseId": 681680,
+            "name": "Yermos humeantes",
+            "skuIds": {
+              "nonfoil": "c4de95b3-44d1-57c5-8e34-262e3584f765"
+            },
+            "text": "{T}: Agrega {C}.\nCiclo de tierras básicas {1}. ({1}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
+            "type": "Tierra",
+            "uuid": "ab8faa7e-da07-566c-bd50-ca75748566e4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305288",
           "cardsphereId": "131062",
@@ -686,11 +759,11 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Basic landcycling",
           "Cycling",
-          "Landcycling"
+          "Landcycling",
+          "Typecycling"
         ],
         "language": "English",
         "layout": "normal",
@@ -711,6 +784,7 @@
         "name": "Ash Barrens",
         "number": "154",
         "originalText": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+        "originalType": "Land",
         "printings": [
           "2XM",
           "40K",
@@ -738,7 +812,11 @@
           "PZ2",
           "SLD",
           "TDC",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "C"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/9a8017a5c9b79a16",
@@ -747,9 +825,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "db9ac35b-f9f7-5334-837d-9669e98eb93f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -775,39 +858,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 27,
+        "edhrecRank": 28,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Conflux crashed together far-flung continents, like ships colliding in a storm.",
         "foreignData": [
-          {
-            "flavorText": "Im Conflux kollidierten entfernte Kontinente miteinander wie Schiffe, die in einem Sturm aneinander zerschellen.",
-            "identifiers": {
-              "multiverseId": "681621",
-              "scryfallId": "09c03784-7012-45b7-a704-f085182c64ab"
-            },
-            "language": "German",
-            "multiverseId": 681621,
-            "name": "Immerändernde Weite",
-            "text": "{T}, opfere die Immerändernde Weite: Durchsuche deine Bibliothek nach einer Standardland-Karte, bringe sie getappt ins Spiel und mische danach.",
-            "type": "Land",
-            "uuid": "b9ccdc3a-830b-570d-ad2d-94e03219068c"
-          },
-          {
-            "flavorText": "La Confluencia unió continentes alejados, que colisionaron como navíos en una tormenta.",
-            "identifiers": {
-              "multiverseId": "681682",
-              "scryfallId": "6f924b61-3d44-4357-81ae-793539495430"
-            },
-            "language": "Spanish",
-            "multiverseId": 681682,
-            "name": "Expansión terramórfica",
-            "text": "{T}, sacrificar la Expansión terramórfica: Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja.",
-            "type": "Tierra",
-            "uuid": "6b0d6067-7a36-55b3-9271-84821564ca40"
-          },
           {
             "flavorText": "La Confluence a amalgamé des continents lointains, comme des navires qui se percutent lors d'une tempête.",
             "identifiers": {
@@ -817,9 +874,28 @@
             "language": "French",
             "multiverseId": 681743,
             "name": "Immensité terramorphe",
+            "skuIds": {
+              "nonfoil": "471872a9-cea3-5d6d-b3a2-8a70138f5945"
+            },
             "text": "{T}, sacrifiez l'Immensité terramorphe : Cherchez dans votre bibliothèque une carte de terrain de base, mettez-la sur le champ de bataille engagée, puis mélangez.",
             "type": "Terrain",
             "uuid": "011838c4-3aab-5701-8ed6-29a9cf3cac63"
+          },
+          {
+            "flavorText": "Im Conflux kollidierten entfernte Kontinente miteinander wie Schiffe, die in einem Sturm aneinander zerschellen.",
+            "identifiers": {
+              "multiverseId": "681621",
+              "scryfallId": "09c03784-7012-45b7-a704-f085182c64ab"
+            },
+            "language": "German",
+            "multiverseId": 681621,
+            "name": "Immerändernde Weite",
+            "skuIds": {
+              "nonfoil": "b829fb8d-25b8-5c23-b7f5-3299edb9255f"
+            },
+            "text": "{T}, opfere die Immerändernde Weite: Durchsuche deine Bibliothek nach einer Standardland-Karte, bringe sie getappt ins Spiel und mische danach.",
+            "type": "Land",
+            "uuid": "b9ccdc3a-830b-570d-ad2d-94e03219068c"
           },
           {
             "flavorText": "La Convergenza fece collidere continenti lontani, come uno scontro tra navi in tempesta.",
@@ -830,6 +906,9 @@
             "language": "Italian",
             "multiverseId": 681804,
             "name": "Distesa Terramorfica",
+            "skuIds": {
+              "nonfoil": "3b5bff3a-6f65-5175-b6d9-316525cdab25"
+            },
             "text": "{T}, Sacrifica la Distesa Terramorfica: Passa in rassegna il tuo grimorio per una carta terra base, mettila sul campo di battaglia TAPpata, poi rimescola.",
             "type": "Terra",
             "uuid": "5f5d55d5-11e3-5e1b-9700-db13da9fa214"
@@ -843,14 +922,31 @@
             "language": "Japanese",
             "multiverseId": 681865,
             "name": "広漠なる変幻地",
+            "skuIds": {
+              "nonfoil": "fa200646-f229-5ed8-b5e4-2641a939e340"
+            },
             "text": "{T}, 広漠なる変幻地を生け贄に捧げる：あなたのライブラリーから基本土地・カード１枚を探し、タップ状態で戦場に出す。その後、ライブラリーを切り直す。",
             "type": "土地",
             "uuid": "85f115d0-89ec-54d9-944b-036868670eea"
+          },
+          {
+            "flavorText": "La Confluencia unió continentes alejados, que colisionaron como navíos en una tormenta.",
+            "identifiers": {
+              "multiverseId": "681682",
+              "scryfallId": "6f924b61-3d44-4357-81ae-793539495430"
+            },
+            "language": "Spanish",
+            "multiverseId": 681682,
+            "name": "Expansión terramórfica",
+            "skuIds": {
+              "nonfoil": "3d0693bc-e1b5-5fe3-bcef-e01d712587eb"
+            },
+            "text": "{T}, sacrificar la Expansión terramórfica: Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja.",
+            "type": "Tierra",
+            "uuid": "6b0d6067-7a36-55b3-9271-84821564ca40"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305290",
           "cardsphereId": "131064",
@@ -869,7 +965,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -896,6 +991,7 @@
         "name": "Terramorphic Expanse",
         "number": "156",
         "originalText": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "originalType": "Land",
         "printings": [
           "10E",
           "40K",
@@ -921,6 +1017,7 @@
           "DMC",
           "DRC",
           "DSK",
+          "ECC",
           "EOC",
           "H09",
           "HOP",
@@ -959,9 +1056,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ec9afbb1-6d42-528b-9fcc-b16a5e7d95db"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -991,39 +1093,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 18104,
+        "edhrecRank": 18712,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Jund feasts on the unprepared.",
         "foreignData": [
-          {
-            "flavorText": "Jund weidet sich an den Unvorbereiteten.",
-            "identifiers": {
-              "multiverseId": "684358",
-              "scryfallId": "2c62de33-a8b8-4b0f-830d-e8c3f5f2064b"
-            },
-            "language": "German",
-            "multiverseId": 684358,
-            "name": "Feuriger Fall",
-            "text": "Der Feurige Fall fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.\nStandardlandumwandlung {1}{R} ({1}{R}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
-            "type": "Spontanzauber",
-            "uuid": "a1b66401-7785-56c7-b8c6-f9fb76e6baca"
-          },
-          {
-            "flavorText": "Jund disfruta con los sorprendidos.",
-            "identifiers": {
-              "multiverseId": "684465",
-              "scryfallId": "d77154d5-3969-47f8-9f32-8df287b3ddb6"
-            },
-            "language": "Spanish",
-            "multiverseId": 684465,
-            "name": "Caída ardiente",
-            "text": "La Caída ardiente hace 5 puntos de daño a la criatura objetivo.\nCiclo de tierras básicas {1}{R}. ({1}{R}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
-            "type": "Instantáneo",
-            "uuid": "4be89151-5753-5f04-9c27-8a4f79fda6a6"
-          },
           {
             "flavorText": "Jund festoie des ingénus.",
             "identifiers": {
@@ -1033,9 +1109,28 @@
             "language": "French",
             "multiverseId": 684572,
             "name": "Chute ardente",
+            "skuIds": {
+              "nonfoil": "d80b92e2-5204-58b5-ba71-9a7dc4fac4d8"
+            },
             "text": "La Chute ardente inflige 5 blessures à une créature ciblée.\nRecyclage de terrain de base {1}{R} ({1}{R}, défaussez-vous de cette carte : Cherchez dans votre bibliothèque une carte de terrain de base, révélez-la, mettez-la dans votre main, puis mélangez.)",
             "type": "Éphémère",
             "uuid": "8214da4e-85ac-5cca-a3ff-b2bcace79864"
+          },
+          {
+            "flavorText": "Jund weidet sich an den Unvorbereiteten.",
+            "identifiers": {
+              "multiverseId": "684358",
+              "scryfallId": "2c62de33-a8b8-4b0f-830d-e8c3f5f2064b"
+            },
+            "language": "German",
+            "multiverseId": 684358,
+            "name": "Feuriger Fall",
+            "skuIds": {
+              "nonfoil": "56db384c-5859-5697-9584-ddf0fe46f80f"
+            },
+            "text": "Der Feurige Fall fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.\nStandardlandumwandlung {1}{R} ({1}{R}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
+            "type": "Spontanzauber",
+            "uuid": "a1b66401-7785-56c7-b8c6-f9fb76e6baca"
           },
           {
             "flavorText": "Jund banchetta con gli sprovveduti.",
@@ -1046,6 +1141,9 @@
             "language": "Italian",
             "multiverseId": 684679,
             "name": "Rovina Impetuosa",
+            "skuIds": {
+              "nonfoil": "c7ccedcb-5450-5e52-878a-fc3554907299"
+            },
             "text": "La Rovina Impetuosa infligge 5 danni a una creatura bersaglio.\nCicloterra base {1}{R} ({1}{R}, Scarta questa carta: Passa in rassegna il tuo grimorio per una carta terra base, rivelala e aggiungila alla tua mano, poi rimescola.)",
             "type": "Istantaneo",
             "uuid": "30034eb1-0279-5e39-b6dd-e6f6a78d451d"
@@ -1059,14 +1157,31 @@
             "language": "Japanese",
             "multiverseId": 684786,
             "name": "焦熱の落下",
+            "skuIds": {
+              "nonfoil": "fb5f343f-db49-5d17-97e6-4254080d57a4"
+            },
             "text": "クリーチャー１体を対象とする。焦熱の落下はそれに５点のダメージを与える。\n基本土地サイクリング{1}{R} （{1}{R}, このカードを捨てる：あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。）",
             "type": "インスタント",
             "uuid": "261bcce5-e1db-51e0-88ba-f09c2f00f874"
+          },
+          {
+            "flavorText": "Jund disfruta con los sorprendidos.",
+            "identifiers": {
+              "multiverseId": "684465",
+              "scryfallId": "d77154d5-3969-47f8-9f32-8df287b3ddb6"
+            },
+            "language": "Spanish",
+            "multiverseId": 684465,
+            "name": "Caída ardiente",
+            "skuIds": {
+              "nonfoil": "0e3fe8de-fdc3-538b-88d0-e08a4a1c4f57"
+            },
+            "text": "La Caída ardiente hace 5 puntos de daño a la criatura objetivo.\nCiclo de tierras básicas {1}{R}. ({1}{R}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
+            "type": "Instantáneo",
+            "uuid": "4be89151-5753-5f04-9c27-8a4f79fda6a6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305885",
           "cardsphereId": "131086",
@@ -1088,7 +1203,8 @@
         "keywords": [
           "Basic landcycling",
           "Cycling",
-          "Landcycling"
+          "Landcycling",
+          "Typecycling"
         ],
         "language": "English",
         "layout": "normal",
@@ -1113,6 +1229,7 @@
         "name": "Fiery Fall",
         "number": "546",
         "originalText": "Fiery Fall deals 5 damage to target creature.\nBasic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+        "originalType": "Instant",
         "printings": [
           "2X2",
           "C21",
@@ -1152,9 +1269,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0453bdd9-e32e-5407-bbe4-444eee155018"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1186,39 +1308,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6444,
+        "edhrecRank": 7134,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Although the Anima herself remains at the Sacellum, her druids roam Naya, collecting mana bonds with every location in the world.",
         "foreignData": [
-          {
-            "flavorText": "Obwohl die Anima selbst im Sacellum verbleibt, durchforsten ihre Druiden Naya und sammeln Manaverbindungen zu jedem Ort auf der Welt.",
-            "identifiers": {
-              "multiverseId": "683406",
-              "scryfallId": "f92ea853-cf6e-44e6-9d52-056681bd275f"
-            },
-            "language": "German",
-            "multiverseId": 683406,
-            "name": "Druide der Anima",
-            "text": "{T}: Erzeuge {R}, {G} oder {W}.",
-            "type": "Kreatur — Elf, Druide",
-            "uuid": "30f990f4-c205-5982-a1f4-814bcd617a9a"
-          },
-          {
-            "flavorText": "Aunque el Ánima permanece en Sacellum, sus druidas vagan por Naya, recolectando uniones de maná con cada lugar del mundo.",
-            "identifiers": {
-              "multiverseId": "683528",
-              "scryfallId": "c9f4579b-d493-4c80-97e4-5177728467c4"
-            },
-            "language": "Spanish",
-            "multiverseId": 683528,
-            "name": "Druida del Ánima",
-            "text": "{T}: Agrega {R}, {G} o {W}.",
-            "type": "Criatura — Druida elfo",
-            "uuid": "3c8ee69f-f786-5933-afd6-028435f64a39"
-          },
           {
             "flavorText": "Même si l'Anima demeure au Sacellum, ses druides parcourent Naya pour récolter des liens de mana dans tous les lieux du monde.",
             "identifiers": {
@@ -1228,9 +1324,28 @@
             "language": "French",
             "multiverseId": 683650,
             "name": "Druidesse de l'Anima",
+            "skuIds": {
+              "nonfoil": "604464bd-5fb7-5c85-9485-e6bd3886752d"
+            },
             "text": "{T} : Ajoutez {R}, {G} ou {W}.",
             "type": "Créature — elfe et druide",
             "uuid": "037c9397-0b68-5732-81db-a3487c93034e"
+          },
+          {
+            "flavorText": "Obwohl die Anima selbst im Sacellum verbleibt, durchforsten ihre Druiden Naya und sammeln Manaverbindungen zu jedem Ort auf der Welt.",
+            "identifiers": {
+              "multiverseId": "683406",
+              "scryfallId": "f92ea853-cf6e-44e6-9d52-056681bd275f"
+            },
+            "language": "German",
+            "multiverseId": 683406,
+            "name": "Druide der Anima",
+            "skuIds": {
+              "nonfoil": "f0ac8893-67a2-5b60-a888-dc44af8ecab1"
+            },
+            "text": "{T}: Erzeuge {R}, {G} oder {W}.",
+            "type": "Kreatur — Elf, Druide",
+            "uuid": "30f990f4-c205-5982-a1f4-814bcd617a9a"
           },
           {
             "flavorText": "Sebbene l'Anima stessa rimanga nel Sacello, i suoi druidi perlustrano Naya, raccogliendo vincoli di mana con ogni luogo del mondo.",
@@ -1241,6 +1356,9 @@
             "language": "Italian",
             "multiverseId": 683772,
             "name": "Druida dell'Anima",
+            "skuIds": {
+              "nonfoil": "8803d9cf-97bf-51d3-8a0e-780f3a0786b9"
+            },
             "text": "{T}: Aggiungi {R}, {G} o {W}.",
             "type": "Creatura — Druido Elfo",
             "uuid": "beb22b5a-fd2c-55f0-a0ed-c010d318cd3f"
@@ -1254,14 +1372,31 @@
             "language": "Japanese",
             "multiverseId": 683894,
             "name": "アニマのドルイド",
+            "skuIds": {
+              "nonfoil": "a37cd76d-631a-5869-b598-beda3d2dc87d"
+            },
             "text": "{T}：{R}か{G}か{W}を加える。",
             "type": "クリーチャー — エルフ・ドルイド",
             "uuid": "6b2d3d9b-1cae-51e2-9e2b-57695cbc9a3e"
+          },
+          {
+            "flavorText": "Aunque el Ánima permanece en Sacellum, sus druidas vagan por Naya, recolectando uniones de maná con cada lugar del mundo.",
+            "identifiers": {
+              "multiverseId": "683528",
+              "scryfallId": "c9f4579b-d493-4c80-97e4-5177728467c4"
+            },
+            "language": "Spanish",
+            "multiverseId": 683528,
+            "name": "Druida del Ánima",
+            "skuIds": {
+              "nonfoil": "3d0a8659-5670-5659-8814-147eba783432"
+            },
+            "text": "{T}: Agrega {R}, {G} o {W}.",
+            "type": "Criatura — Druida elfo",
+            "uuid": "3c8ee69f-f786-5933-afd6-028435f64a39"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305991",
           "cardsphereId": "130866",
@@ -1302,10 +1437,16 @@
         "name": "Druid of the Anima",
         "number": "652",
         "originalText": "{T}: Add {R}, {G}, or {W}.",
+        "originalType": "Creature – Elf Druid",
         "power": "1",
         "printings": [
           "ALA",
           "J25"
+        ],
+        "producedMana": [
+          "G",
+          "R",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b913883913d65b1b",
@@ -1314,9 +1455,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "491fc0b2-dc56-5923-b33c-2b307245656f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1352,36 +1498,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 6914,
+        "edhrecRank": 7183,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684023",
-              "scryfallId": "2501186f-d871-49f9-bd6c-bb4bfe232bf5"
-            },
-            "language": "German",
-            "multiverseId": 684023,
-            "name": "Pechhaltiger Strahl",
-            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)\nDer Pechhaltige Strahl fügt einer Kreatur deiner Wahl 4 Schadenspunkte zu.",
-            "type": "Spontanzauber",
-            "uuid": "62bffbb9-0972-5557-8f0b-f5db95704a52"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684062",
-              "scryfallId": "3179d0eb-36d0-4eb8-8426-487c77cb9388"
-            },
-            "language": "Spanish",
-            "multiverseId": 684062,
-            "name": "Ráfaga bituminosa",
-            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)\nLa Ráfaga bituminosa hace 4 puntos de daño a la criatura objetivo.",
-            "type": "Instantáneo",
-            "uuid": "c6e87130-5c7b-5f74-9ab5-f710e3cfd60b"
-          },
           {
             "identifiers": {
               "multiverseId": "684101",
@@ -1390,9 +1512,27 @@
             "language": "French",
             "multiverseId": 684101,
             "name": "Salve bitumeuse",
+            "skuIds": {
+              "nonfoil": "fad6dc79-b3ed-570e-a702-cd7c49aca826"
+            },
             "text": "Cascade (Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu'à ce que vous exiliez une carte non-terrain d'un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous dans un ordre aléatoire.)\nLa Salve bitumeuse inflige 4 blessures à une créature ciblée.",
             "type": "Éphémère",
             "uuid": "9dce5a2d-3c51-5f6d-95e6-a3daaa222209"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684023",
+              "scryfallId": "2501186f-d871-49f9-bd6c-bb4bfe232bf5"
+            },
+            "language": "German",
+            "multiverseId": 684023,
+            "name": "Pechhaltiger Strahl",
+            "skuIds": {
+              "nonfoil": "b92ef767-9e59-5b16-8d67-bf7f47fe8ee5"
+            },
+            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)\nDer Pechhaltige Strahl fügt einer Kreatur deiner Wahl 4 Schadenspunkte zu.",
+            "type": "Spontanzauber",
+            "uuid": "62bffbb9-0972-5557-8f0b-f5db95704a52"
           },
           {
             "identifiers": {
@@ -1402,6 +1542,9 @@
             "language": "Italian",
             "multiverseId": 684140,
             "name": "Esplosione di Bitume",
+            "skuIds": {
+              "nonfoil": "1607668f-6ffc-5ae3-b9fe-38e9cc8470d6"
+            },
             "text": "Cascata (Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo in ordine casuale.)\nL'Esplosione di Bitume infligge 4 danni a una creatura bersaglio.",
             "type": "Istantaneo",
             "uuid": "8366bee0-e656-5883-9e73-9c9e2e613cf6"
@@ -1414,14 +1557,30 @@
             "language": "Japanese",
             "multiverseId": 684179,
             "name": "瀝青破",
+            "skuIds": {
+              "nonfoil": "36ed9c47-bf66-5797-9118-990245b9be95"
+            },
             "text": "続唱（あなたがこの呪文を唱えたとき、コストがこれより低く土地でないカード１枚が追放されるまで、あなたのライブラリーの一番上から１枚ずつ追放していく。それをマナ・コストを支払うことなく唱えてもよい。それらの追放したカードを、無作為の順番で一番下に置く。）\nクリーチャー１体を対象とする。瀝青破はそれに４点のダメージを与える。",
             "type": "インスタント",
             "uuid": "bc017153-64ba-5e8a-b4f1-68aa1523f49e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684062",
+              "scryfallId": "3179d0eb-36d0-4eb8-8426-487c77cb9388"
+            },
+            "language": "Spanish",
+            "multiverseId": 684062,
+            "name": "Ráfaga bituminosa",
+            "skuIds": {
+              "nonfoil": "7f61d46e-5c78-5af3-9e99-8af8249575f6"
+            },
+            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)\nLa Ráfaga bituminosa hace 4 puntos de daño a la criatura objetivo.",
+            "type": "Instantáneo",
+            "uuid": "c6e87130-5c7b-5f74-9ab5-f710e3cfd60b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306081",
           "cardsphereId": "130687",
@@ -1464,6 +1623,7 @@
         "name": "Bituminous Blast",
         "number": "742",
         "originalText": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nBituminous Blast deals 4 damage to target creature.",
+        "originalType": "Instant",
         "printings": [
           "40K",
           "AFC",
@@ -1523,9 +1683,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "417bd554-f078-55c1-918c-538b9993908b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1557,36 +1722,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 4042,
+        "edhrecRank": 4412,
         "edhrecSaltiness": 0.32,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684024",
-              "scryfallId": "12c17119-0417-4977-b202-0133b2b50e15"
-            },
-            "language": "German",
-            "multiverseId": 684024,
-            "name": "Blutzopf-Elf",
-            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nKaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
-            "type": "Kreatur — Elf, Berserker",
-            "uuid": "d88526e2-caf4-5455-8a01-28d530dc4e01"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684063",
-              "scryfallId": "1765a0bd-00a0-4d86-9ed9-2d28a4f5f5a0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684063,
-            "name": "Elfo trenzas sangrientas",
-            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
-            "type": "Criatura — Berserker elfo",
-            "uuid": "932dce82-ecfe-52f4-84ea-8d536958430b"
-          },
           {
             "identifiers": {
               "multiverseId": "684102",
@@ -1595,9 +1736,27 @@
             "language": "French",
             "multiverseId": 684102,
             "name": "Elfe aux Nattes sanguinolentes",
+            "skuIds": {
+              "nonfoil": "b04ae633-eaa3-5450-8ef5-4780b6717dec"
+            },
             "text": "Célérité (Cette créature peut attaquer et {T} dès le tour où elle arrive sous votre contrôle.)\nCascade (Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu'à ce que vous exiliez une carte non-terrain d'un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous dans un ordre aléatoire.)",
             "type": "Créature — elfe et berserker",
             "uuid": "dc5a50c3-f879-513b-9a33-ca4129f1dd59"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684024",
+              "scryfallId": "12c17119-0417-4977-b202-0133b2b50e15"
+            },
+            "language": "German",
+            "multiverseId": 684024,
+            "name": "Blutzopf-Elf",
+            "skuIds": {
+              "nonfoil": "b65c3836-00f6-58a5-acb7-32b9f093856d"
+            },
+            "text": "Eile (Diese Kreatur kann angreifen und {T}, sobald sie unter deine Kontrolle kommt.)\nKaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
+            "type": "Kreatur — Elf, Berserker",
+            "uuid": "d88526e2-caf4-5455-8a01-28d530dc4e01"
           },
           {
             "identifiers": {
@@ -1607,6 +1766,9 @@
             "language": "Italian",
             "multiverseId": 684141,
             "name": "Elfa dalle Trecce Rosse",
+            "skuIds": {
+              "nonfoil": "5de3d470-296c-5468-b9b3-097d834109e7"
+            },
             "text": "Rapidità (Questa creatura può attaccare e {T} non appena entra sotto il tuo controllo.)\nCascata (Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo in ordine casuale.)",
             "type": "Creatura — Berserker Elfo",
             "uuid": "708b6507-9918-529d-9f33-4dfcd287edec"
@@ -1619,14 +1781,30 @@
             "language": "Japanese",
             "multiverseId": 684180,
             "name": "血編み髪のエルフ",
+            "skuIds": {
+              "nonfoil": "a49bd094-8079-5e48-9c5e-8ac8115cdee7"
+            },
             "text": "速攻（このクリーチャーは、あなたのコントロール下になってすぐに攻撃したり{T}したりできる。）\n続唱（あなたがこの呪文を唱えたとき、コストがこれより低く土地でないカード１枚が追放されるまで、あなたのライブラリーの一番上から１枚ずつ追放していく。それをマナ・コストを支払うことなく唱えてもよい。それらの追放したカードを、無作為の順番で一番下に置く。）",
             "type": "クリーチャー — エルフ・狂戦士",
             "uuid": "befca1fa-ec98-5f81-8ede-609caa52ecd2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684063",
+              "scryfallId": "1765a0bd-00a0-4d86-9ed9-2d28a4f5f5a0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684063,
+            "name": "Elfo trenzas sangrientas",
+            "skuIds": {
+              "nonfoil": "252d0f9d-1172-5618-995b-d5669e230062"
+            },
+            "text": "Prisa. (Esta criatura puede atacar y {T} tan pronto como entra bajo tu control.)\nCascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
+            "type": "Criatura — Berserker elfo",
+            "uuid": "932dce82-ecfe-52f4-84ea-8d536958430b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306082",
           "cardsphereId": "130686",
@@ -1669,6 +1847,7 @@
         "name": "Bloodbraid Elf",
         "number": "743",
         "originalText": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+        "originalType": "Creature – Elf Berserker",
         "power": "3",
         "printings": [
           "2X2",
@@ -1732,9 +1911,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e47ac903-6030-53d8-bad1-5ff7bdf37c7f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1770,39 +1954,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 16806,
+        "edhrecRank": 17482,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "A match for any army—even its own.",
         "foreignData": [
-          {
-            "flavorText": "Ein Gegner für eine ganze Armee — auch für die eigene.",
-            "identifiers": {
-              "multiverseId": "684025",
-              "scryfallId": "5a95817d-8916-4cb2-8544-5c5d17586cfe"
-            },
-            "language": "German",
-            "multiverseId": 684025,
-            "name": "Verpflichteter Wurm",
-            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
-            "type": "Kreatur — Wurm",
-            "uuid": "ae016f48-180c-5a0a-a2d2-e5a845dd319e"
-          },
-          {
-            "flavorText": "Podría enfrentar a cualquier ejército; incluso el propio.",
-            "identifiers": {
-              "multiverseId": "684064",
-              "scryfallId": "d0f4e6e4-9876-413b-b9d5-8124bdb75f70"
-            },
-            "language": "Spanish",
-            "multiverseId": 684064,
-            "name": "Sierpe reclutada",
-            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
-            "type": "Criatura — Sierpe",
-            "uuid": "6d7f4cb9-f163-5d33-a5b6-289f9782b144"
-          },
           {
             "flavorText": "Du fil à retordre pour toute armée — même la sienne.",
             "identifiers": {
@@ -1812,9 +1970,28 @@
             "language": "French",
             "multiverseId": 684103,
             "name": "Guivre conscrite",
+            "skuIds": {
+              "nonfoil": "cdb0f50f-0d1e-57c5-982e-3b9755275f6e"
+            },
             "text": "Cascade (Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu'à ce que vous exiliez une carte non-terrain d'un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous dans un ordre aléatoire.)",
             "type": "Créature — guivre",
             "uuid": "eef30976-587d-561f-83fc-0bf4d6dea971"
+          },
+          {
+            "flavorText": "Ein Gegner für eine ganze Armee — auch für die eigene.",
+            "identifiers": {
+              "multiverseId": "684025",
+              "scryfallId": "5a95817d-8916-4cb2-8544-5c5d17586cfe"
+            },
+            "language": "German",
+            "multiverseId": 684025,
+            "name": "Verpflichteter Wurm",
+            "skuIds": {
+              "nonfoil": "5b6651d4-becc-55b2-afe3-e858da4b72eb"
+            },
+            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
+            "type": "Kreatur — Wurm",
+            "uuid": "ae016f48-180c-5a0a-a2d2-e5a845dd319e"
           },
           {
             "flavorText": "Una sfida per qualsiasi armata. Compresa la sua.",
@@ -1825,6 +2002,9 @@
             "language": "Italian",
             "multiverseId": 684142,
             "name": "Wurm Arruolato",
+            "skuIds": {
+              "nonfoil": "da713449-4320-5324-9afa-59c51ab0e716"
+            },
             "text": "Cascata (Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo in ordine casuale.)",
             "type": "Creatura — Wurm",
             "uuid": "f8cf3970-58c4-50e6-b238-e0a2533e93de"
@@ -1838,14 +2018,31 @@
             "language": "Japanese",
             "multiverseId": 684181,
             "name": "徴兵されたワーム",
+            "skuIds": {
+              "nonfoil": "abe20fb4-d2cb-5633-bad4-fe1e9aef6770"
+            },
             "text": "続唱（あなたがこの呪文を唱えたとき、コストがこれより低く土地でないカード１枚が追放されるまで、あなたのライブラリーの一番上から１枚ずつ追放していく。それをマナ・コストを支払うことなく唱えてもよい。それらの追放したカードを、無作為の順番で一番下に置く。）",
             "type": "クリーチャー — ワーム",
             "uuid": "dafa19b9-4b67-5b82-8786-2c6f3b0ba3d9"
+          },
+          {
+            "flavorText": "Podría enfrentar a cualquier ejército; incluso el propio.",
+            "identifiers": {
+              "multiverseId": "684064",
+              "scryfallId": "d0f4e6e4-9876-413b-b9d5-8124bdb75f70"
+            },
+            "language": "Spanish",
+            "multiverseId": 684064,
+            "name": "Sierpe reclutada",
+            "skuIds": {
+              "nonfoil": "baa7a987-40a4-582d-92c9-40d5350d5b0c"
+            },
+            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
+            "type": "Criatura — Sierpe",
+            "uuid": "6d7f4cb9-f163-5d33-a5b6-289f9782b144"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306083",
           "cardsphereId": "130685",
@@ -1888,6 +2085,7 @@
         "name": "Enlisted Wurm",
         "number": "744",
         "originalText": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+        "originalType": "Creature – Wurm",
         "power": "5",
         "printings": [
           "ARB",
@@ -1941,9 +2139,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a981da72-7e38-52b7-bcd6-c45001b8ffb0"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1984,37 +2187,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 14203,
+        "edhrecRank": 14817,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.",
         "foreignData": [
-          {
-            "flavorText": "Als sich die Fragmente im Mahlstrom wieder vereinigten, erschufen die Manaströme neue monströse Wesen.",
-            "identifiers": {
-              "multiverseId": "684026",
-              "scryfallId": "e158c58b-19ad-4bc0-8851-c4bc55a34eba"
-            },
-            "language": "German",
-            "multiverseId": 684026,
-            "name": "Fusionselementar",
-            "type": "Kreatur — Elementarwesen",
-            "uuid": "1b3450da-f563-5281-9df7-eb0ec784e1f8"
-          },
-          {
-            "flavorText": "Mientras los fragmentos se fundían en el Remolino, sus energías de maná se fusionaban en nuevas monstruosidades.",
-            "identifiers": {
-              "multiverseId": "684065",
-              "scryfallId": "e690f398-7fb9-4daa-b47d-666088ee646a"
-            },
-            "language": "Spanish",
-            "multiverseId": 684065,
-            "name": "Elemental de la fusión",
-            "type": "Criatura — Elemental",
-            "uuid": "d2e3aadc-70de-5f92-8063-190216ed5c40"
-          },
           {
             "flavorText": "Tandis que les éclats fusionnaient dans le Maelstrom, l'énergie de leurs manas s'amalgamait pour donner naissance à de nouvelles monstruosités.",
             "identifiers": {
@@ -2024,8 +2203,26 @@
             "language": "French",
             "multiverseId": 684104,
             "name": "Élémental de fusion",
+            "skuIds": {
+              "nonfoil": "f0e27be9-6170-5f08-9b62-425d695d90f8"
+            },
             "type": "Créature — élémental",
             "uuid": "acbe6df8-346a-5f2a-8ae0-0a50bb4cff86"
+          },
+          {
+            "flavorText": "Als sich die Fragmente im Mahlstrom wieder vereinigten, erschufen die Manaströme neue monströse Wesen.",
+            "identifiers": {
+              "multiverseId": "684026",
+              "scryfallId": "e158c58b-19ad-4bc0-8851-c4bc55a34eba"
+            },
+            "language": "German",
+            "multiverseId": 684026,
+            "name": "Fusionselementar",
+            "skuIds": {
+              "nonfoil": "4c0c4da0-1872-5f5e-8c72-0c4bb637a1b4"
+            },
+            "type": "Kreatur — Elementarwesen",
+            "uuid": "1b3450da-f563-5281-9df7-eb0ec784e1f8"
           },
           {
             "flavorText": "Quando i frammenti si fusero attorno al Maelstrom, le loro energie di mana si mescolarono assieme originando nuove mostruosità.",
@@ -2036,6 +2233,9 @@
             "language": "Italian",
             "multiverseId": 684143,
             "name": "Elementale della Fusione",
+            "skuIds": {
+              "nonfoil": "b6634232-bfa7-500d-8825-35ed95bb944d"
+            },
             "type": "Creatura — Elementale",
             "uuid": "98d0fc22-9025-5c78-99f2-253dc1435cac"
           },
@@ -2048,13 +2248,29 @@
             "language": "Japanese",
             "multiverseId": 684182,
             "name": "融合の精霊",
+            "skuIds": {
+              "nonfoil": "df5f7597-c989-5a78-836e-30b3da13d680"
+            },
             "type": "クリーチャー — エレメンタル",
             "uuid": "eb2ac48a-8d94-5e45-9270-b20a045016ee"
+          },
+          {
+            "flavorText": "Mientras los fragmentos se fundían en el Remolino, sus energías de maná se fusionaban en nuevas monstruosidades.",
+            "identifiers": {
+              "multiverseId": "684065",
+              "scryfallId": "e690f398-7fb9-4daa-b47d-666088ee646a"
+            },
+            "language": "Spanish",
+            "multiverseId": 684065,
+            "name": "Elemental de la fusión",
+            "skuIds": {
+              "nonfoil": "c9578d97-7526-5387-84bc-4dd06d473d60"
+            },
+            "type": "Criatura — Elemental",
+            "uuid": "d2e3aadc-70de-5f92-8063-190216ed5c40"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306084",
           "cardsphereId": "130684",
@@ -2093,6 +2309,7 @@
         "manaValue": 5.0,
         "name": "Fusion Elemental",
         "number": "745",
+        "originalType": "Creature – Elemental",
         "power": "8",
         "printings": [
           "CON",
@@ -2110,9 +2327,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a35c7143-5bdc-50fd-85d7-bafe274da1fc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2146,36 +2368,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12715,
+        "edhrecRank": 13171,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684027",
-              "scryfallId": "b71972cb-cdbd-4b19-8b38-f24ddb8eba44"
-            },
-            "language": "German",
-            "multiverseId": 684027,
-            "name": "Gewalttätiger Ausbruch",
-            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)\nKreaturen, die du kontrollierst, erhalten +1/+0 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "9d0c30a3-70c7-5cca-825b-abae60e6c941"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684066",
-              "scryfallId": "940260ba-c295-4b70-9447-f772d8de17d4"
-            },
-            "language": "Spanish",
-            "multiverseId": 684066,
-            "name": "Arranque violento",
-            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)\nLas criaturas que controlas obtienen +1/+0 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "e0de0034-4233-546e-b3f1-60140a3063fd"
-          },
           {
             "identifiers": {
               "multiverseId": "684105",
@@ -2184,9 +2382,27 @@
             "language": "French",
             "multiverseId": 684105,
             "name": "Bouffée de violence",
+            "skuIds": {
+              "nonfoil": "183e234e-6d4d-51c1-b839-0e94d57863fe"
+            },
             "text": "Cascade (Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu'à ce que vous exiliez une carte non-terrain d'un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous dans un ordre aléatoire.)\nLes créatures que vous contrôlez gagnent +1/+0 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "b6129aab-8fa7-5001-9e45-f3e66adf1d62"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684027",
+              "scryfallId": "b71972cb-cdbd-4b19-8b38-f24ddb8eba44"
+            },
+            "language": "German",
+            "multiverseId": 684027,
+            "name": "Gewalttätiger Ausbruch",
+            "skuIds": {
+              "nonfoil": "55a05e5c-68e4-5b18-9c69-d107ff6dd94a"
+            },
+            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)\nKreaturen, die du kontrollierst, erhalten +1/+0 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "9d0c30a3-70c7-5cca-825b-abae60e6c941"
           },
           {
             "identifiers": {
@@ -2196,6 +2412,9 @@
             "language": "Italian",
             "multiverseId": 684144,
             "name": "Esplosione Violenta",
+            "skuIds": {
+              "nonfoil": "30921019-cf59-5ce1-9f33-0096c508adb2"
+            },
             "text": "Cascata (Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo in ordine casuale.)\nLe creature che controlli prendono +1/+0 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "9b7f3ecf-f514-5c24-aca1-22c975105c80"
@@ -2208,14 +2427,30 @@
             "language": "Japanese",
             "multiverseId": 684183,
             "name": "暴力的な突発",
+            "skuIds": {
+              "nonfoil": "8cc38e3b-b70a-5a3b-a9eb-979cbf0c79d8"
+            },
             "text": "続唱（あなたがこの呪文を唱えたとき、コストがこれより低く土地でないカード１枚が追放されるまで、あなたのライブラリーの一番上から１枚ずつ追放していく。それをマナ・コストを支払うことなく唱えてもよい。それらの追放したカードを、無作為の順番で一番下に置く。）\nターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋０の修整を受ける。",
             "type": "インスタント",
             "uuid": "9f2e72d4-5c1d-5297-a02e-260ece8d0873"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684066",
+              "scryfallId": "940260ba-c295-4b70-9447-f772d8de17d4"
+            },
+            "language": "Spanish",
+            "multiverseId": 684066,
+            "name": "Arranque violento",
+            "skuIds": {
+              "nonfoil": "99ff8120-64e4-5e1d-975c-10376b85eb4f"
+            },
+            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)\nLas criaturas que controlas obtienen +1/+0 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "e0de0034-4233-546e-b3f1-60140a3063fd"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306085",
           "cardsphereId": "130683",
@@ -2259,6 +2494,7 @@
         "name": "Violent Outburst",
         "number": "746",
         "originalText": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nCreatures you control get +1/+0 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "ARB",
           "J25",
@@ -2309,9 +2545,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "99a929ed-dc28-54d9-8e93-b86e1082ccaa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2337,39 +2578,13 @@
         "colors": [],
         "convertedManaCost": 8.0,
         "count": 1,
-        "edhrecRank": 4465,
+        "edhrecRank": 4436,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Nothing of the Maelstrom is quiet or easy.\"\n—Ajani Goldmane",
         "foreignData": [
-          {
-            "flavorText": "„Nichts im Mahlstrom ist ruhig oder einfach.\"\n—Ajani Goldmähne",
-            "identifiers": {
-              "multiverseId": "684035",
-              "scryfallId": "2110c031-76ca-438d-a13a-a397e638319a"
-            },
-            "language": "German",
-            "multiverseId": 684035,
-            "name": "Mahlstrom-Koloss",
-            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
-            "type": "Artefaktkreatur — Golem",
-            "uuid": "4dd6c05a-c0fe-583d-9586-8fa8f5901864"
-          },
-          {
-            "flavorText": "\"Nada en el Remolino es fácil o tranquilo\".\n—Ajani Melena Dorada",
-            "identifiers": {
-              "multiverseId": "684074",
-              "scryfallId": "3c2c9b1d-0b1c-4b16-923b-ab3172a480fe"
-            },
-            "language": "Spanish",
-            "multiverseId": 684074,
-            "name": "Coloso del Remolino",
-            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
-            "type": "Criatura artefacto — Gólem",
-            "uuid": "fbdbf907-1caf-5f02-98fb-6ba5b8527363"
-          },
           {
             "flavorText": "« Le Maelström n'a rien de tranquille ou de simple. »\n—Ajani Crinièredor",
             "identifiers": {
@@ -2379,9 +2594,28 @@
             "language": "French",
             "multiverseId": 684113,
             "name": "Colosse de maelström",
+            "skuIds": {
+              "nonfoil": "4d1c70ee-3e7f-5e4f-854b-5930294fb74d"
+            },
             "text": "Cascade (Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu'à ce que vous exiliez une carte non-terrain d'un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous dans un ordre aléatoire.)",
             "type": "Créature-artefact — golem",
             "uuid": "edd74ee1-e3f6-53d3-9ce9-67575e16d91c"
+          },
+          {
+            "flavorText": "„Nichts im Mahlstrom ist ruhig oder einfach.\"\n—Ajani Goldmähne",
+            "identifiers": {
+              "multiverseId": "684035",
+              "scryfallId": "2110c031-76ca-438d-a13a-a397e638319a"
+            },
+            "language": "German",
+            "multiverseId": 684035,
+            "name": "Mahlstrom-Koloss",
+            "skuIds": {
+              "nonfoil": "1e2032f9-1742-5571-a3fd-98fe0f397a87"
+            },
+            "text": "Kaskade (Wenn du diesen Zauberspruch wirkst, schicke Karten oben von deiner Bibliothek ins Exil, bis du eine Nichtland-Karte ins Exil schickst, die weniger kostet. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter die Bibliothek.)",
+            "type": "Artefaktkreatur — Golem",
+            "uuid": "4dd6c05a-c0fe-583d-9586-8fa8f5901864"
           },
           {
             "flavorText": "\"Niente che riguardi il Maelstrom è mai tranquillo o agevole.\"\n—Ajani Criniera D'Oro",
@@ -2392,6 +2626,9 @@
             "language": "Italian",
             "multiverseId": 684152,
             "name": "Colosso del Maelstrom",
+            "skuIds": {
+              "nonfoil": "cee964be-226c-5656-924c-45781bba9746"
+            },
             "text": "Cascata (Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo in ordine casuale.)",
             "type": "Creatura Artefatto — Golem",
             "uuid": "b2ce9114-5d4a-56af-9a99-eb437aab5a4d"
@@ -2405,14 +2642,31 @@
             "language": "Japanese",
             "multiverseId": 684191,
             "name": "大渦の巨人",
+            "skuIds": {
+              "nonfoil": "4213913c-ccb7-5de2-a762-e3ea330425b3"
+            },
             "text": "続唱（あなたがこの呪文を唱えたとき、コストがこれより低く土地でないカード１枚が追放されるまで、あなたのライブラリーの一番上から１枚ずつ追放していく。それをマナ・コストを支払うことなく唱えてもよい。それらの追放したカードを、無作為の順番で一番下に置く。）",
             "type": "アーティファクト・クリーチャー — ゴーレム",
             "uuid": "e197fdcb-ca5d-5b36-81eb-ac0fdc2dae8b"
+          },
+          {
+            "flavorText": "\"Nada en el Remolino es fácil o tranquilo\".\n—Ajani Melena Dorada",
+            "identifiers": {
+              "multiverseId": "684074",
+              "scryfallId": "3c2c9b1d-0b1c-4b16-923b-ab3172a480fe"
+            },
+            "language": "Spanish",
+            "multiverseId": 684074,
+            "name": "Coloso del Remolino",
+            "skuIds": {
+              "nonfoil": "a8036283-c12e-5b96-ad91-24e4937ababe"
+            },
+            "text": "Cascada. (Cuando lances este hechizo, exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra y que cueste menos. Puedes lanzarla sin pagar su coste de maná. Pon las cartas exiliadas en el fondo en un orden aleatorio.)",
+            "type": "Criatura artefacto — Gólem",
+            "uuid": "fbdbf907-1caf-5f02-98fb-6ba5b8527363"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306093",
           "cardsphereId": "130672",
@@ -2454,6 +2708,7 @@
         "name": "Maelstrom Colossus",
         "number": "754",
         "originalText": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+        "originalType": "Artifact Creature – Golem",
         "power": "7",
         "printings": [
           "CMR",
@@ -2504,9 +2759,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "222887f2-5fbf-5ec3-8c46-1b14a6fca812"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2545,36 +2805,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681251",
-              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
-            },
-            "language": "German",
-            "multiverseId": 681251,
-            "name": "Ebene",
-            "type": "Standardland — Ebene",
-            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681266",
-              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
-            },
-            "language": "Spanish",
-            "multiverseId": 681266,
-            "name": "Llanura",
-            "type": "Tierra básica — Llanura",
-            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681281",
               "scryfallId": "c8902983-76fe-4317-93cb-78579bb4af32"
             },
             "language": "French",
             "multiverseId": 681281,
             "name": "Plaine",
+            "skuIds": {
+              "nonfoil": "1f5f2a2f-8bce-50b4-a9b1-0ba1cd6a6206"
+            },
             "type": "Terrain de base — plaine",
             "uuid": "9e496ba0-d6e9-57c3-b0b3-7331c6cf6150"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681251",
+              "scryfallId": "00702212-8f0e-42e5-a04e-9062e47b48d0"
+            },
+            "language": "German",
+            "multiverseId": 681251,
+            "name": "Ebene",
+            "skuIds": {
+              "nonfoil": "5ca1f722-3338-5594-9182-be880a4f68b7"
+            },
+            "type": "Standardland — Ebene",
+            "uuid": "9da80993-2884-555f-a17a-d9180ad21331"
           },
           {
             "identifiers": {
@@ -2584,6 +2839,9 @@
             "language": "Italian",
             "multiverseId": 681296,
             "name": "Pianura",
+            "skuIds": {
+              "nonfoil": "2322dfe9-c07e-5a3d-9489-1adda783e79a"
+            },
             "type": "Terra Base — Pianura",
             "uuid": "0e2fcf8f-c501-5f0d-820e-d29f729ab24a"
           },
@@ -2595,18 +2853,34 @@
             "language": "Japanese",
             "multiverseId": 681311,
             "name": "平地",
+            "skuIds": {
+              "nonfoil": "8a017051-9191-5b68-b216-a67886175218"
+            },
             "type": "基本土地 — 平地",
             "uuid": "41b50bca-41f0-59a5-91c4-58db101ed5b7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681266",
+              "scryfallId": "45b363cf-38a7-4680-8399-3331c616ca26"
+            },
+            "language": "Spanish",
+            "multiverseId": 681266,
+            "name": "Llanura",
+            "skuIds": {
+              "nonfoil": "db5a270e-cbf9-5d5d-af7f-c91fd19aea5e"
+            },
+            "type": "Tierra básica — Llanura",
+            "uuid": "cffb6a81-59c0-59b4-92a1-1bd3daea6369"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305215",
           "cardsphereId": "131371",
           "deckboxId": "98075",
           "mcmId": "795502",
+          "mcmMetaId": "4251",
           "mtgArenaId": "95166",
           "mtgjsonV4Id": "764e86d5-2162-595b-95de-e2463c0a19a7",
           "multiverseId": "681236",
@@ -2619,7 +2893,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2647,6 +2920,7 @@
         "manaValue": 0.0,
         "name": "Plains",
         "number": "81",
+        "originalType": "Basic Land – Plains",
         "printings": [
           "10E",
           "2ED",
@@ -2715,6 +2989,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2803,6 +3078,7 @@
           "PGPX",
           "PGRU",
           "PIP",
+          "PL26",
           "PLST",
           "PMPS",
           "PMPS06",
@@ -2875,15 +3151,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/558b1ae7ab7b8dc8",
+          "cardmarket": "https://mtgjson.com/links/f4e5bee6e13f2a5e",
           "tcgplayer": "https://mtgjson.com/links/0ce8ff1a7f67b11f"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bc1560d9-0d7f-51db-8e3b-7290090a185d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2899,8 +3184,8 @@
         ],
         "uuid": "ca9d5ba3-483e-5365-83c1-e49431ab2674",
         "variations": [
-          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854",
-          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa"
+          "b6dd08ae-fe7f-500e-9bfb-b22843e1aaaa",
+          "e1476e4a-4ec6-54d1-a0b2-76e0936fc854"
         ]
       },
       {
@@ -2926,36 +3211,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681254",
-              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
-            },
-            "language": "German",
-            "multiverseId": 681254,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681269",
-              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681269,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681284",
               "scryfallId": "8751d0e8-aa20-4d8e-a39f-e542d6ab2424"
             },
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "cb0ef6d5-f7d2-5691-bfdf-53e3a7d110b9"
+            },
             "type": "Terrain de base — île",
             "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681254",
+              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
+            },
+            "language": "German",
+            "multiverseId": 681254,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "04ea0771-3452-51f4-bdf6-6fe1ca1af63a"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2965,6 +3245,9 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "f13bcd50-af8f-5431-a106-a9d255f15459"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
@@ -2976,18 +3259,34 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "c117e37a-2d0d-5996-bf9e-7d64e38a799d"
+            },
             "type": "基本土地 — 島",
             "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681269",
+              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681269,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "93455c64-eb7d-5e65-9540-2db34e522179"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305218",
           "cardsphereId": "131374",
           "deckboxId": "98078",
           "mcmId": "795505",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95169",
           "mtgjsonV4Id": "08023772-e668-5bc2-b371-b0f5ce320b77",
           "multiverseId": "681239",
@@ -3000,7 +3299,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3028,6 +3326,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3097,6 +3396,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3257,15 +3557,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f22125830525c472",
+          "cardmarket": "https://mtgjson.com/links/76af4fc19321352c",
           "tcgplayer": "https://mtgjson.com/links/72c5fde6e8a3d9d8"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "21402412-1e93-5f68-911b-a3ab19229cbc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3308,36 +3617,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -3347,6 +3651,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -3358,18 +3665,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -3382,7 +3705,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3410,6 +3732,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3479,6 +3802,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3638,15 +3962,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3662,8 +3995,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -3689,36 +4022,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681260",
-              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
-            },
-            "language": "German",
-            "multiverseId": 681260,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681275",
-              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
-            },
-            "language": "Spanish",
-            "multiverseId": 681275,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681290",
               "scryfallId": "19a6364c-9bfd-4c96-b291-2dae2a3285fc"
             },
             "language": "French",
             "multiverseId": 681290,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d8bed63a-7155-54c4-b463-6c38d40c7233"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "ab709d98-d4f9-55a5-95ad-d7bee833c897"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681260",
+              "scryfallId": "129fdc58-0664-4d6e-b02c-b3128045944c"
+            },
+            "language": "German",
+            "multiverseId": 681260,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "c97cb6d5-4928-5f12-9732-bcb795db8340"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "c617c6a2-13ed-5429-bf72-09be9dabdd07"
           },
           {
             "identifiers": {
@@ -3728,6 +4056,9 @@
             "language": "Italian",
             "multiverseId": 681305,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "8e9d48f5-0384-5a5f-9b05-8a18d7d18f73"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "c3462fce-16d8-5e55-9011-a51a9208f115"
           },
@@ -3739,18 +4070,34 @@
             "language": "Japanese",
             "multiverseId": 681320,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "c70d5fa8-8225-5888-b005-9a5fc4dde879"
+            },
             "type": "基本土地 — 山",
             "uuid": "e5ceaffe-fead-521f-8de3-4951d4960a95"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681275",
+              "scryfallId": "702707d3-726a-4aa9-924b-eeb1efe7e9fb"
+            },
+            "language": "Spanish",
+            "multiverseId": 681275,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "bb7717a2-f469-5722-b820-60c287c68f87"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "ea7c0e3e-c774-55f8-96dd-8945cab6db35"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305224",
           "cardsphereId": "131380",
           "deckboxId": "98084",
           "mcmId": "795511",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95175",
           "mtgjsonV4Id": "0d3ce3f6-b61d-5d43-bef7-801ba82d8d59",
           "multiverseId": "681245",
@@ -3763,7 +4110,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3791,6 +4137,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "90",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -3864,6 +4211,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -4026,15 +4374,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1c9517686a6aa94e",
+          "cardmarket": "https://mtgjson.com/links/9cb8c5174f0cebe7",
           "tcgplayer": "https://mtgjson.com/links/74d8ab5292723a62"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1ef8fc9-3c6f-5969-b7ef-cbb2440915e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -4077,36 +4434,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681261",
-              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
-            },
-            "language": "German",
-            "multiverseId": 681261,
-            "name": "Gebirge",
-            "type": "Standardland — Gebirge",
-            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681276",
-              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681276,
-            "name": "Montaña",
-            "type": "Tierra básica — Montaña",
-            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681291",
               "scryfallId": "5938d843-d183-4684-838b-95f71f18a35f"
             },
             "language": "French",
             "multiverseId": 681291,
             "name": "Montagne",
+            "skuIds": {
+              "nonfoil": "d5542b6e-82e3-529e-822d-7e63212f5ad9"
+            },
             "type": "Terrain de base — montagne",
             "uuid": "21820d28-6a0c-554d-bb28-af34dbc9756d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681261",
+              "scryfallId": "e23f29ec-661d-4abd-8fe0-e977a2e11052"
+            },
+            "language": "German",
+            "multiverseId": 681261,
+            "name": "Gebirge",
+            "skuIds": {
+              "nonfoil": "54456703-5551-5b90-af9d-8fe66a2e18bf"
+            },
+            "type": "Standardland — Gebirge",
+            "uuid": "9dd23253-6c92-544f-8ea7-38bbeee3b938"
           },
           {
             "identifiers": {
@@ -4116,6 +4468,9 @@
             "language": "Italian",
             "multiverseId": 681306,
             "name": "Montagna",
+            "skuIds": {
+              "nonfoil": "78e3b7e0-0e3e-5d02-a6ae-01b80287b703"
+            },
             "type": "Terra Base — Montagna",
             "uuid": "1cd07531-44ba-55af-ba74-f2df2e54e912"
           },
@@ -4127,18 +4482,34 @@
             "language": "Japanese",
             "multiverseId": 681321,
             "name": "山",
+            "skuIds": {
+              "nonfoil": "09318f63-99aa-5125-9e50-c25db44f3ebb"
+            },
             "type": "基本土地 — 山",
             "uuid": "813272eb-4853-587c-9d16-b54f0e7d3994"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681276",
+              "scryfallId": "4c5aa51e-a914-4292-afac-d246a4d5b50b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681276,
+            "name": "Montaña",
+            "skuIds": {
+              "nonfoil": "d7a1d046-13ea-5fd2-99ed-67a5dc68fe93"
+            },
+            "type": "Tierra básica — Montaña",
+            "uuid": "d69d4e72-57b0-52b2-8635-fdc79a31f026"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305225",
           "cardsphereId": "131381",
           "deckboxId": "98085",
           "mcmId": "795512",
+          "mcmMetaId": "3743",
           "mtgArenaId": "95176",
           "mtgjsonV4Id": "6a467f4b-3d32-5888-973d-89beec8115cb",
           "multiverseId": "681246",
@@ -4151,7 +4522,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -4179,6 +4549,7 @@
         "manaValue": 0.0,
         "name": "Mountain",
         "number": "91",
+        "originalType": "Basic Land – Mountain",
         "printings": [
           "10E",
           "2ED",
@@ -4252,6 +4623,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -4414,15 +4786,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "R"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fff06b6387fd5ed5",
+          "cardmarket": "https://mtgjson.com/links/5a864ade8c73f732",
           "tcgplayer": "https://mtgjson.com/links/e161c05476037b35"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1d75e54f-b5e0-5dd5-bc54-af09b9800234"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -4465,36 +4846,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681263",
-              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
-            },
-            "language": "German",
-            "multiverseId": 681263,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681278",
-              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
-            },
-            "language": "Spanish",
-            "multiverseId": 681278,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681293",
               "scryfallId": "3eb6a0b9-0629-4e6c-a31d-610aa70f6037"
             },
             "language": "French",
             "multiverseId": 681293,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "cf315f2d-d6fa-5f8a-b327-3b05cb1b1425"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "b10ace0b-9e6a-5815-b238-b578636bc2c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681263",
+              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
+            },
+            "language": "German",
+            "multiverseId": 681263,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "43f12410-e8b0-5cac-8539-bb262bfe2889"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
           },
           {
             "identifiers": {
@@ -4504,6 +4880,9 @@
             "language": "Italian",
             "multiverseId": 681308,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6c9f1064-862d-5686-9d1d-182ea54c741f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "f889c416-e0ce-556c-b55e-f2a30c98062f"
           },
@@ -4515,18 +4894,34 @@
             "language": "Japanese",
             "multiverseId": 681323,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "eed625d1-92fd-5c21-b3be-b31d31337bc3"
+            },
             "type": "基本土地 — 森",
             "uuid": "a6843a19-8ad2-540e-8eff-8f4da4433681"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681278",
+              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
+            },
+            "language": "Spanish",
+            "multiverseId": 681278,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2c8a7443-87b7-5d2f-aa06-661ab320103c"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305227",
           "cardsphereId": "131383",
           "deckboxId": "98087",
           "mcmId": "795514",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95178",
           "mtgjsonV4Id": "952bfe5f-ab3f-567c-be51-b1e1177bcd27",
           "multiverseId": "681248",
@@ -4539,7 +4934,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -4567,6 +4961,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "93",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -4637,6 +5032,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -4799,15 +5195,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/43adef7c33aa4590",
+          "cardmarket": "https://mtgjson.com/links/778a4fdc956baf3c",
           "tcgplayer": "https://mtgjson.com/links/694d7368b6e0ea08"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "652993ee-52fa-54d6-ae86-2613ad80c3eb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -4823,8 +5228,8 @@
         ],
         "uuid": "cb1f99de-6c0c-5616-9091-be7af9f67e51",
         "variations": [
-          "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "d79afedf-c505-574e-91c0-95eb7f7cfe7c"
         ]
       },
       {
@@ -4850,36 +5255,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681264",
-              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
-            },
-            "language": "German",
-            "multiverseId": 681264,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681279",
-              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 681279,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681294",
               "scryfallId": "631d105e-81dd-4d38-902e-9833568b9c62"
             },
             "language": "French",
             "multiverseId": 681294,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "925f7141-4f6e-5447-8690-f9f1d514f8fe"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "52d84231-47dd-553b-b791-b0dd8e0c26c2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681264",
+              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
+            },
+            "language": "German",
+            "multiverseId": 681264,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "6b5869a4-6157-5253-bd5d-3e394c5c2172"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
           },
           {
             "identifiers": {
@@ -4889,6 +5289,9 @@
             "language": "Italian",
             "multiverseId": 681309,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "7ce2027c-2595-5aef-b260-e5df6e4bc79f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "27e89f38-2f5a-5a80-9501-940856b5fc0b"
           },
@@ -4900,18 +5303,34 @@
             "language": "Japanese",
             "multiverseId": 681324,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2ed704fe-38a1-5fd8-b8f4-03e5633be7b9"
+            },
             "type": "基本土地 — 森",
             "uuid": "159454ea-3215-5905-80f5-0375cc3e3785"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681279",
+              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 681279,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2dbc8b56-f8e1-5cb4-8833-93165854fc84"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305228",
           "cardsphereId": "131384",
           "deckboxId": "98088",
           "mcmId": "795515",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95179",
           "mtgjsonV4Id": "c5ff8984-9b17-5479-b453-28e905eec248",
           "multiverseId": "681249",
@@ -4924,7 +5343,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -4952,6 +5370,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "94",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -5022,6 +5441,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -5184,15 +5604,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a7859c6792802052",
+          "cardmarket": "https://mtgjson.com/links/4cf2b896b0d1f397",
           "tcgplayer": "https://mtgjson.com/links/06ef70de48280700"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cd3e2a76-6b0a-5f5c-a4db-6f0045a38f77"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -5208,8 +5637,8 @@
         ],
         "uuid": "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
         "variations": [
-          "cb1f99de-6c0c-5616-9091-be7af9f67e51",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "cb1f99de-6c0c-5616-9091-be7af9f67e51"
         ]
       }
     ],
@@ -5224,5 +5653,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "5c567512e6e78d"
   }
 }

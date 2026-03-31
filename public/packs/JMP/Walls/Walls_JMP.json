@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "b284a7f2a3c78c"
-  },
   "data": {
     "code": "JMP",
     "commander": [],
@@ -30,7 +25,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 2260,
+        "edhrecRank": 2175,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
@@ -38,8 +33,6 @@
         "flavorText": "Each flower identical, every leaf and petal disturbingly exact.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234900",
           "cardsphereId": "68418",
@@ -82,6 +75,7 @@
         "name": "Wall of Blossoms",
         "number": "442",
         "originalText": "Defender\nWhen Wall of Blossoms enters the battlefield, draw a card.",
+        "originalType": "Creature – Plant Wall",
         "power": "0",
         "printings": [
           "C15",
@@ -108,8 +102,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "6c26b856-4369-5ed2-832e-7220063b4b39"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -148,7 +148,7 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 5453,
+        "edhrecRank": 4954,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
@@ -156,8 +156,6 @@
         "flavorText": "\"Knock, knock.\"",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234824",
           "cardsphereId": "68434",
@@ -194,6 +192,7 @@
         "name": "Towering Titan",
         "number": "31",
         "originalText": "Towering Titan enters the battlefield with X +1/+1 counters on it, where X is the total toughness of other creatures you control.\nSacrifice a creature with defender: All creatures gain trample until end of turn.",
+        "originalType": "Creature – Giant",
         "power": "0",
         "printings": [
           "JMP",
@@ -217,8 +216,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "1768d4bc-a0af-5944-b364-156670c57984"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -255,15 +260,14 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 5914,
+        "edhrecRank": 5698,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "So-called \"old wood\" is rare in deforested Ravnica. Statues carved from it are said to house the last of the ancient nature spirits.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234879",
           "cardsphereId": "68419",
@@ -306,6 +310,7 @@
         "name": "Carven Caryatid",
         "number": "382",
         "originalText": "Defender\nWhen Carven Caryatid enters the battlefield, draw a card.",
+        "originalType": "Creature – Spirit",
         "power": "2",
         "printings": [
           "IMA",
@@ -320,8 +325,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "72e524c6-3bdd-569b-a725-819d255bda22"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -354,15 +365,14 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 25571,
+        "edhrecRank": 25970,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Do not mistake a quiet rampart for one that is unguarded. Some things stir only when they need to.\"\n—Bonovar, siege commander",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234909",
           "cardsphereId": "68431",
@@ -406,6 +416,7 @@
         "name": "Gargoyle Sentinel",
         "number": "465",
         "originalText": "Defender\n{3}: Until end of turn, Gargoyle Sentinel loses defender and gains flying.",
+        "originalType": "Artifact Creature – Gargoyle",
         "power": "3",
         "printings": [
           "JMP",
@@ -420,8 +431,14 @@
         },
         "rarity": "uncommon",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "47d1b57d-2f80-52cc-bf9e-43e5447c7c83"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -459,7 +476,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 3082,
+        "edhrecRank": 2924,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
@@ -467,8 +484,6 @@
         "flavorText": "\"Our enemy is nothing less than the end of all life. We shall not want for allies.\"\n—*The War Diaries*",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234890",
           "cardsphereId": "68417",
@@ -512,6 +527,7 @@
         "name": "Overgrown Battlement",
         "number": "417",
         "originalText": "Defender\n{T}: Add {G} for each creature with defender you control.",
+        "originalType": "Creature – Wall",
         "power": "0",
         "printings": [
           "IMA",
@@ -520,6 +536,9 @@
           "PLST",
           "ROE",
           "TDC"
+        ],
+        "producedMana": [
+          "G"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f54ec392d6de6f1b",
@@ -534,8 +553,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "c34a4607-c4d2-58b6-b61c-928a96e20bf1"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -572,7 +597,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 25670,
+        "edhrecRank": 26518,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
@@ -580,8 +605,6 @@
         "flavorText": "Nature abhors a zombie.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234887",
           "cardsphereId": "68416",
@@ -626,6 +649,7 @@
         "name": "Grave Bramble",
         "number": "401",
         "originalText": "Defender\nProtection from Zombies (This creature can't be blocked, targeted, or dealt damage by Zombies.)",
+        "originalType": "Creature – Plant",
         "power": "3",
         "printings": [
           "ISD",
@@ -638,8 +662,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "5372dbd7-28c2-5315-aeb2-c5ed989d1edf"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -676,7 +706,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 14974,
+        "edhrecRank": 15475,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -684,8 +714,6 @@
         "flavorText": "Like all jungle plants, the vines must fight and claw for sunlight. Once their place is secured, they grow strong, sharp, and impenetrable.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234901",
           "cardsphereId": "68415",
@@ -731,6 +759,7 @@
         "name": "Wall of Vines",
         "number": "443",
         "originalText": "Defender, reach",
+        "originalType": "Creature – Plant Wall",
         "power": "0",
         "printings": [
           "JMP",
@@ -744,8 +773,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "773507ce-5ef9-55eb-b952-bd73aa48a798"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -779,7 +814,7 @@
         "colors": [],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 22353,
+        "edhrecRank": 22418,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
@@ -787,8 +822,6 @@
         "flavorText": "\"It wandered slowly across the landscape, calling out in its lonely voice, but no other castles answered its cries.\"\n—*Beyond the Great Henge*",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234910",
           "cardsphereId": "68430",
@@ -833,6 +866,7 @@
         "name": "Roving Keep",
         "number": "480",
         "originalText": "Defender\n{7}: Roving Keep gets +2/+0 and gains trample until end of turn. It can attack this turn as though it didn't have defender.",
+        "originalType": "Artifact Creature – Wall",
         "power": "5",
         "printings": [
           "ELD",
@@ -845,8 +879,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "1f211e94-4a94-5f9e-a623-c9f3a0e7c835"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -885,118 +925,14 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 13564,
+        "edhrecRank": 14308,
         "edhrecSaltiness": 0.07,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "flavorText": "Nature's way of saying \"take the long way home.\"",
         "foreignData": [
-          {
-            "flavorText": "Die Natur will uns damit sagen: „Nimm lieber einen Umweg.\"",
-            "identifiers": {
-              "multiverseId": "485777",
-              "scryfallId": "b4c8ce9f-c92f-4109-8836-19c0f1e2b09f"
-            },
-            "language": "German",
-            "multiverseId": 485777,
-            "name": "Fallgitter-Ranken",
-            "text": "Verteidiger (Diese Kreatur kann nicht angreifen.)\n{2}, {T}, opfere eine Kreatur mit Verteidiger: Ziehe eine Karte.",
-            "type": "Kreatur — Pflanze, Mauer",
-            "uuid": "4171ac09-d605-53e5-9c42-70cb70c41836"
-          },
-          {
-            "flavorText": "Es la manera que tiene la naturaleza de decir: \"Toma el camino largo hacia casa\".",
-            "identifiers": {
-              "multiverseId": "486036",
-              "scryfallId": "b9aff001-908f-4607-9f1b-8fb4c2ea38a9"
-            },
-            "language": "Spanish",
-            "multiverseId": 486036,
-            "name": "Enredadera del portón",
-            "text": "Defensor. (Esta criatura no puede atacar.)\n{2}, {T}, sacrificar una criatura con la habilidad de defensor: Roba una carta.",
-            "type": "Criatura — Muro planta",
-            "uuid": "28e3fbb1-89f0-56e2-a5ea-5a63bbefb59d"
-          },
-          {
-            "flavorText": "Quand la nature vous dit de faire « un détour pour rentrer chez vous ».",
-            "identifiers": {
-              "multiverseId": "486295",
-              "scryfallId": "9d56e06b-016f-4d06-9040-9060678da7b8"
-            },
-            "language": "French",
-            "multiverseId": 486295,
-            "name": "Lierre de herse",
-            "text": "Défenseur (Cette créature ne peut pas attaquer.)\n{2}, {T}, sacrifiez une créature avec le défenseur : Piochez une carte.",
-            "type": "Créature : plante et mur",
-            "uuid": "ef0a2c28-1b6d-5667-848f-8eeadbf81ecd"
-          },
-          {
-            "flavorText": "È la natura che ti dice di tornare a casa per la via più lunga.",
-            "identifiers": {
-              "multiverseId": "486554",
-              "scryfallId": "acf07330-a773-44ec-9b2a-627a9f3869c6"
-            },
-            "language": "Italian",
-            "multiverseId": 486554,
-            "name": "Saracinesca di Rampicanti",
-            "text": "Difensore (Questa creatura non può attaccare.)\n{2}, {T}, Sacrifica una creatura con difensore: Pesca una carta.",
-            "type": "Creatura — Muro Pianta",
-            "uuid": "357e867b-6887-5f25-a67e-1bb2010d108d"
-          },
-          {
-            "flavorText": "「遠回りをして帰りなさい」という自然からの忠告。",
-            "identifiers": {
-              "multiverseId": "486813",
-              "scryfallId": "12050816-d8b4-4d01-a0ea-0438ad8cdf40"
-            },
-            "language": "Japanese",
-            "multiverseId": 486813,
-            "name": "落とし格子の蔦",
-            "text": "防衛（このクリーチャーでは攻撃できない。）\n{2}, {T}, 防衛を持つクリーチャー１体を生け贄に捧げる：カードを１枚引く。",
-            "type": "クリーチャー — 植物・壁",
-            "uuid": "3f0cb2f2-2c6e-595a-94bc-8454621ddc77"
-          },
-          {
-            "flavorText": "자연이 \"빙 돌아서 집에 가라\"라고 말하는 방법.",
-            "identifiers": {
-              "multiverseId": "487072",
-              "scryfallId": "9be36ce3-7aaf-44b0-a040-5679b19c5006"
-            },
-            "language": "Korean",
-            "multiverseId": 487072,
-            "name": "쇠창살 덩굴",
-            "text": "수비태세 (이 생물은 공격할 수 없다.)\n{2}, {T}, 수비태세를 가진 생물 한 개를 희생한다: 카드 한 장을 뽑는다.",
-            "type": "생물 — 식물 벽",
-            "uuid": "9a197c80-f42c-5bb7-9ea5-904328b49641"
-          },
-          {
-            "flavorText": "É o jeito da natureza dizer \"pegue o caminho mais longo para casa\".",
-            "identifiers": {
-              "multiverseId": "487331",
-              "scryfallId": "a8d10c8c-6394-493f-98fd-59f8e0e744ac"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 487331,
-            "name": "Hédera do Pórtico",
-            "text": "Defensor (Esta criatura não pode atacar.)\n{2}, {T}, sacrifique uma criatura com defensor: Compre um card.",
-            "type": "Criatura — Planta Barreira",
-            "uuid": "f06ea93d-00c8-5835-9b38-f59d781d9456"
-          },
-          {
-            "flavorText": "Так природа говорит: «Иди домой длинной дорогой».",
-            "identifiers": {
-              "multiverseId": "487590",
-              "scryfallId": "0caa0b08-2594-457a-a51b-352a8b071c40"
-            },
-            "language": "Russian",
-            "multiverseId": 487590,
-            "name": "Решетчатая Лиана",
-            "text": "Защитник (Это существо не может атаковать.)\n{2}, {T}, пожертвуйте существо со способностью Защитника: возьмите карту.",
-            "type": "Существо — Растение Стена",
-            "uuid": "5dbe19e5-e865-51ca-9959-19f62e9e0d26"
-          },
           {
             "flavorText": "大自然版本的「长路归家」。",
             "identifiers": {
@@ -1006,6 +942,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 487849,
             "name": "闸门藤蔓",
+            "skuIds": {
+              "foil": "82926cfb-903c-58da-9e8b-4a157d967e77",
+              "nonfoil": "82e69e05-24b2-52e0-b86b-41af94b831e8"
+            },
             "text": "守军（此生物不能攻击。）\n{2}，{T}，牺牲一个具守军异能的生物：抓一张牌。",
             "type": "生物 ～植物／墙",
             "uuid": "ad27802c-3108-5a9a-ba28-2f52e457940c"
@@ -1019,14 +959,152 @@
             "language": "Chinese Traditional",
             "multiverseId": 488108,
             "name": "閘門藤蔓",
+            "skuIds": {
+              "foil": "93ee6c2a-da36-5c0a-bccd-5e854e3c7887",
+              "nonfoil": "1d3514c6-0b18-5ecc-b534-92b64ad9c9e6"
+            },
             "text": "守軍（此生物不能攻擊。）\n{2}，{T}，犧牲一個具守軍異能的生物：抽一張牌。",
             "type": "生物 ～植物／牆",
             "uuid": "e95d3b91-f7d0-55b5-a531-480e45795937"
+          },
+          {
+            "flavorText": "Quand la nature vous dit de faire « un détour pour rentrer chez vous ».",
+            "identifiers": {
+              "multiverseId": "486295",
+              "scryfallId": "9d56e06b-016f-4d06-9040-9060678da7b8"
+            },
+            "language": "French",
+            "multiverseId": 486295,
+            "name": "Lierre de herse",
+            "skuIds": {
+              "foil": "06302c80-46a9-56be-927c-5d32649435c6",
+              "nonfoil": "483217d6-e7d0-53a6-b4f5-57dffb3b5420"
+            },
+            "text": "Défenseur (Cette créature ne peut pas attaquer.)\n{2}, {T}, sacrifiez une créature avec le défenseur : Piochez une carte.",
+            "type": "Créature : plante et mur",
+            "uuid": "ef0a2c28-1b6d-5667-848f-8eeadbf81ecd"
+          },
+          {
+            "flavorText": "Die Natur will uns damit sagen: „Nimm lieber einen Umweg.\"",
+            "identifiers": {
+              "multiverseId": "485777",
+              "scryfallId": "b4c8ce9f-c92f-4109-8836-19c0f1e2b09f"
+            },
+            "language": "German",
+            "multiverseId": 485777,
+            "name": "Fallgitter-Ranken",
+            "skuIds": {
+              "foil": "0b077612-8eac-52ee-b766-3451124f85d7",
+              "nonfoil": "833b4b83-530d-58a6-a215-37b33ff0e10e"
+            },
+            "text": "Verteidiger (Diese Kreatur kann nicht angreifen.)\n{2}, {T}, opfere eine Kreatur mit Verteidiger: Ziehe eine Karte.",
+            "type": "Kreatur — Pflanze, Mauer",
+            "uuid": "4171ac09-d605-53e5-9c42-70cb70c41836"
+          },
+          {
+            "flavorText": "È la natura che ti dice di tornare a casa per la via più lunga.",
+            "identifiers": {
+              "multiverseId": "486554",
+              "scryfallId": "acf07330-a773-44ec-9b2a-627a9f3869c6"
+            },
+            "language": "Italian",
+            "multiverseId": 486554,
+            "name": "Saracinesca di Rampicanti",
+            "skuIds": {
+              "foil": "9c4c692a-52a1-5a2e-adc3-da701430490c",
+              "nonfoil": "578c697c-70e0-5ac7-af47-f5bd73281c89"
+            },
+            "text": "Difensore (Questa creatura non può attaccare.)\n{2}, {T}, Sacrifica una creatura con difensore: Pesca una carta.",
+            "type": "Creatura — Muro Pianta",
+            "uuid": "357e867b-6887-5f25-a67e-1bb2010d108d"
+          },
+          {
+            "flavorText": "「遠回りをして帰りなさい」という自然からの忠告。",
+            "identifiers": {
+              "multiverseId": "486813",
+              "scryfallId": "12050816-d8b4-4d01-a0ea-0438ad8cdf40"
+            },
+            "language": "Japanese",
+            "multiverseId": 486813,
+            "name": "落とし格子の蔦",
+            "skuIds": {
+              "foil": "15f55ce1-4c09-5f8a-b88a-2a601ca6259a",
+              "nonfoil": "c6e133a4-feb2-55f5-a7ad-b05dadaa8212"
+            },
+            "text": "防衛（このクリーチャーでは攻撃できない。）\n{2}, {T}, 防衛を持つクリーチャー１体を生け贄に捧げる：カードを１枚引く。",
+            "type": "クリーチャー — 植物・壁",
+            "uuid": "3f0cb2f2-2c6e-595a-94bc-8454621ddc77"
+          },
+          {
+            "flavorText": "자연이 \"빙 돌아서 집에 가라\"라고 말하는 방법.",
+            "identifiers": {
+              "multiverseId": "487072",
+              "scryfallId": "9be36ce3-7aaf-44b0-a040-5679b19c5006"
+            },
+            "language": "Korean",
+            "multiverseId": 487072,
+            "name": "쇠창살 덩굴",
+            "skuIds": {
+              "foil": "75f6afde-aed1-556b-bca8-6067c2132ea2",
+              "nonfoil": "23d80997-0e98-55c6-9cbe-e55864f443cf"
+            },
+            "text": "수비태세 (이 생물은 공격할 수 없다.)\n{2}, {T}, 수비태세를 가진 생물 한 개를 희생한다: 카드 한 장을 뽑는다.",
+            "type": "생물 — 식물 벽",
+            "uuid": "9a197c80-f42c-5bb7-9ea5-904328b49641"
+          },
+          {
+            "flavorText": "É o jeito da natureza dizer \"pegue o caminho mais longo para casa\".",
+            "identifiers": {
+              "multiverseId": "487331",
+              "scryfallId": "a8d10c8c-6394-493f-98fd-59f8e0e744ac"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 487331,
+            "name": "Hédera do Pórtico",
+            "skuIds": {
+              "foil": "330bc738-8fed-5ef8-955b-cc8cfde73449",
+              "nonfoil": "a1dec6cd-59e0-5cde-a013-9195d4d19a60"
+            },
+            "text": "Defensor (Esta criatura não pode atacar.)\n{2}, {T}, sacrifique uma criatura com defensor: Compre um card.",
+            "type": "Criatura — Planta Barreira",
+            "uuid": "f06ea93d-00c8-5835-9b38-f59d781d9456"
+          },
+          {
+            "flavorText": "Так природа говорит: «Иди домой длинной дорогой».",
+            "identifiers": {
+              "multiverseId": "487590",
+              "scryfallId": "0caa0b08-2594-457a-a51b-352a8b071c40"
+            },
+            "language": "Russian",
+            "multiverseId": 487590,
+            "name": "Решетчатая Лиана",
+            "skuIds": {
+              "foil": "636395a2-2687-579b-974c-33914b5f9351",
+              "nonfoil": "d3fd834d-c8e3-5a1b-8fb6-b4379207bea4"
+            },
+            "text": "Защитник (Это существо не может атаковать.)\n{2}, {T}, пожертвуйте существо со способностью Защитника: возьмите карту.",
+            "type": "Существо — Растение Стена",
+            "uuid": "5dbe19e5-e865-51ca-9959-19f62e9e0d26"
+          },
+          {
+            "flavorText": "Es la manera que tiene la naturaleza de decir: \"Toma el camino largo hacia casa\".",
+            "identifiers": {
+              "multiverseId": "486036",
+              "scryfallId": "b9aff001-908f-4607-9f1b-8fb4c2ea38a9"
+            },
+            "language": "Spanish",
+            "multiverseId": 486036,
+            "name": "Enredadera del portón",
+            "skuIds": {
+              "foil": "d3fe0135-3efa-598d-82e2-0850e3843cc3",
+              "nonfoil": "c2948709-361a-57ab-97f0-10ba79292bb4"
+            },
+            "text": "Defensor. (Esta criatura no puede atacar.)\n{2}, {T}, sacrificar una criatura con la habilidad de defensor: Roba una carta.",
+            "type": "Criatura — Muro planta",
+            "uuid": "28e3fbb1-89f0-56e2-a5ea-5a63bbefb59d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234577",
           "cardKingdomId": "234271",
@@ -1074,6 +1152,7 @@
         "name": "Portcullis Vine",
         "number": "195",
         "originalText": "Defender (This creature can't attack.)\n{2}, {T}, Sacrifice a creature with defender: Draw a card.",
+        "originalType": "Creature – Plant Wall",
         "power": "0",
         "printings": [
           "GRN",
@@ -1083,6 +1162,7 @@
           "cardKingdom": "https://mtgjson.com/links/26b6ae741d82590c",
           "cardKingdomFoil": "https://mtgjson.com/links/1b4082e09e077641",
           "cardmarket": "https://mtgjson.com/links/4532f2dd80be7b97",
+          "cardmarketFoil": "https://mtgjson.com/links/2f1cb35cae127dcc",
           "tcgplayer": "https://mtgjson.com/links/c64076d2cc111fc2"
         },
         "rarity": "common",
@@ -1093,16 +1173,45 @@
           }
         ],
         "setCode": "M21",
+        "skuIds": {
+          "foil": "bfd76864-5596-55cd-8a2e-63356bf0c594",
+          "nonfoil": "26994300-1b0b-561f-bd4c-b7cfeaf063e1"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1139,7 +1248,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 14277,
+        "edhrecRank": 14731,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
@@ -1147,8 +1256,6 @@
         "flavorText": "\"Do not mistake your lofty vantage point for safety.\"\n—Shaper Tuvasa",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234806",
           "cardsphereId": "68397",
@@ -1190,6 +1297,7 @@
         "name": "Crushing Canopy",
         "number": "386",
         "originalText": "Choose one —\n• Destroy target creature with flying.\n• Destroy target enchantment.",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "GRN",
@@ -1206,8 +1314,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "ccc23e10-f154-52af-982a-931e7e8ef7f2"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1237,7 +1351,7 @@
         "colors": [],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 19398,
+        "edhrecRank": 19008,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -1245,8 +1359,6 @@
         "flavorText": "The best defense is a good offense.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234913",
           "cardsphereId": "68429",
@@ -1289,6 +1401,7 @@
         "name": "Warmonger's Chariot",
         "number": "490",
         "originalText": "Equipped creature gets +2/+2.\nAs long as equipped creature has defender, it can attack as though it didn't have defender.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "CNS",
           "JMP",
@@ -1311,8 +1424,14 @@
           }
         ],
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "d17fad61-7926-514e-b13f-5520e39d9a4f"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1348,15 +1467,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 2814,
+        "edhrecRank": 2561,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234877",
           "cardsphereId": "68432",
@@ -1396,6 +1513,7 @@
         "name": "Assault Formation",
         "number": "378",
         "originalText": "Each creature you control assigns combat damage equal to its toughness rather than its power.\n{G}: Target creature with defender can attack this turn as though it didn't have defender.\n{2}{G}: Creatures you control get +0/+1 until end of turn.",
+        "originalType": "Enchantment",
         "printings": [
           "DTK",
           "IMA",
@@ -1421,8 +1539,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "670b318d-d3bd-5247-a005-357e352aa502"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1455,7 +1579,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -1463,8 +1587,6 @@
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234720",
           "cardsphereId": "68325",
@@ -1502,18 +1624,28 @@
         "name": "Thriving Grove",
         "number": "34",
         "originalText": "Thriving Grove enters the battlefield tapped.\nAs Thriving Grove enters the battlefield, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/fa4ca478d4d29ded",
@@ -1522,8 +1654,14 @@
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "4da66009-592a-5959-9763-9e3be6f14f02"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -1558,98 +1696,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488488",
-              "scryfallId": "14f1bd64-5fb8-4cca-aa1f-bbe2e70c12b7"
-            },
-            "language": "German",
-            "multiverseId": 488488,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "42a4226b-3649-5b18-b54e-bc3cb1d17cd7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488503",
-              "scryfallId": "39d2ae16-7544-4d70-a53d-8444167b8d40"
-            },
-            "language": "Spanish",
-            "multiverseId": 488503,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "c7945c7c-bf8c-5d6d-a55d-d44332c0ee45"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488518",
-              "scryfallId": "ee7cfb04-35ba-4977-8370-f563a5ebfd64"
-            },
-            "language": "French",
-            "multiverseId": 488518,
-            "name": "Forêt",
-            "type": "Terrain de base : forêt",
-            "uuid": "c7697dc8-1ed8-5c3c-a745-baa89c9daf60"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488533",
-              "scryfallId": "84a2ea1a-b827-45b8-8bd1-2292d0324e9c"
-            },
-            "language": "Italian",
-            "multiverseId": 488533,
-            "name": "Foresta",
-            "type": "Terra Base — Foresta",
-            "uuid": "72666fba-e24c-57e9-af75-fa90b787fd54"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488548",
-              "scryfallId": "b4561024-a0cf-4dc7-8548-5e680dac43ae"
-            },
-            "language": "Japanese",
-            "multiverseId": 488548,
-            "name": "森",
-            "type": "基本土地 — 森",
-            "uuid": "2a77883c-be79-5c6e-b60e-b8f0a5aee264"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488563",
-              "scryfallId": "134d5ee7-6259-4d36-8df8-5995c59ab159"
-            },
-            "language": "Korean",
-            "multiverseId": 488563,
-            "name": "숲",
-            "type": "기본 대지 — 숲",
-            "uuid": "f216d274-c4b6-5bb8-bfd5-b53b784d1a8a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488578",
-              "scryfallId": "64bc2068-9555-4e1c-8e19-ab4953505a8f"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488578,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "1d847e85-a2c7-5444-a574-204ab5f6f9c8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488593",
-              "scryfallId": "93bef44e-b878-4999-81b9-fd396678c173"
-            },
-            "language": "Russian",
-            "multiverseId": 488593,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "85ea43d0-bd8d-5146-93d7-30430dae3d73"
-          },
           {
             "identifiers": {
               "multiverseId": "488608",
@@ -1658,6 +1708,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488608,
             "name": "树林",
+            "skuIds": {
+              "foil": "8a12a137-488d-5349-9289-7df09d2f3b78",
+              "nonfoil": "b09e7c88-93c5-5370-a4eb-f8818517f042"
+            },
             "type": "基本地 ～树林",
             "uuid": "37f17eee-9c13-5758-a2f7-9c03438c84c6"
           },
@@ -1669,13 +1723,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488623,
             "name": "樹林",
+            "skuIds": {
+              "foil": "3fbd2ef8-0cdf-5410-b421-416bc2f70744",
+              "nonfoil": "8605ac6d-22e9-5337-ab82-7c441c5f8c5c"
+            },
             "type": "基本地 ～樹林",
             "uuid": "cda45114-1703-5a30-b39e-23b3a8b46a05"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488518",
+              "scryfallId": "ee7cfb04-35ba-4977-8370-f563a5ebfd64"
+            },
+            "language": "French",
+            "multiverseId": 488518,
+            "name": "Forêt",
+            "skuIds": {
+              "foil": "93083628-bd21-5c24-9d66-0f8b7a66e07b",
+              "nonfoil": "ff0dbe42-5276-5a49-86ff-3e6b1c020370"
+            },
+            "type": "Terrain de base : forêt",
+            "uuid": "c7697dc8-1ed8-5c3c-a745-baa89c9daf60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488488",
+              "scryfallId": "14f1bd64-5fb8-4cca-aa1f-bbe2e70c12b7"
+            },
+            "language": "German",
+            "multiverseId": 488488,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "014fdac2-a60a-5afc-a276-a5c6257769c5",
+              "nonfoil": "161ebc5a-310d-508b-8eb8-cae882b985d3"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "42a4226b-3649-5b18-b54e-bc3cb1d17cd7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488533",
+              "scryfallId": "84a2ea1a-b827-45b8-8bd1-2292d0324e9c"
+            },
+            "language": "Italian",
+            "multiverseId": 488533,
+            "name": "Foresta",
+            "skuIds": {
+              "foil": "84f3277f-0d6f-531b-8408-0fab446193ae",
+              "nonfoil": "4c6d905f-79f3-5e78-844a-02df9a6fe3bf"
+            },
+            "type": "Terra Base — Foresta",
+            "uuid": "72666fba-e24c-57e9-af75-fa90b787fd54"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488548",
+              "scryfallId": "b4561024-a0cf-4dc7-8548-5e680dac43ae"
+            },
+            "language": "Japanese",
+            "multiverseId": 488548,
+            "name": "森",
+            "skuIds": {
+              "foil": "a95520c7-c948-594e-a02f-a713df3450b7",
+              "nonfoil": "101ce2fa-223f-5d0e-878f-ef2babdc18e3"
+            },
+            "type": "基本土地 — 森",
+            "uuid": "2a77883c-be79-5c6e-b60e-b8f0a5aee264"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488563",
+              "scryfallId": "134d5ee7-6259-4d36-8df8-5995c59ab159"
+            },
+            "language": "Korean",
+            "multiverseId": 488563,
+            "name": "숲",
+            "skuIds": {
+              "foil": "0629c7a7-22c4-5d46-80ab-bd035fd5ed8f",
+              "nonfoil": "2b63133f-6ad3-5055-a5e4-ab8b346c3164"
+            },
+            "type": "기본 대지 — 숲",
+            "uuid": "f216d274-c4b6-5bb8-bfd5-b53b784d1a8a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488578",
+              "scryfallId": "64bc2068-9555-4e1c-8e19-ab4953505a8f"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488578,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "a663fdcc-fe4b-5f32-9cad-7732c5257339",
+              "nonfoil": "52d7e047-5011-5873-8dc0-22e16804e8ed"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "1d847e85-a2c7-5444-a574-204ab5f6f9c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488593",
+              "scryfallId": "93bef44e-b878-4999-81b9-fd396678c173"
+            },
+            "language": "Russian",
+            "multiverseId": 488593,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "3c81859c-bee2-5308-a895-e6bca7023385",
+              "nonfoil": "9eb6a1be-8914-568d-afef-5bcd467cb31a"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "85ea43d0-bd8d-5146-93d7-30430dae3d73"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488503",
+              "scryfallId": "39d2ae16-7544-4d70-a53d-8444167b8d40"
+            },
+            "language": "Spanish",
+            "multiverseId": 488503,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "75f54f0f-08a1-5e47-b37a-d4d50379d22a",
+              "nonfoil": "995026e6-462e-55b6-a944-e0e41445fb02"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "c7945c7c-bf8c-5d6d-a55d-d44332c0ee45"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234512",
           "cardKingdomId": "234205",
@@ -1683,6 +1859,7 @@
           "cardsphereId": "67952",
           "deckboxId": "50783",
           "mcmId": "471139",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72092",
           "mtgjsonV4Id": "c33f1628-a673-561a-bf5b-aeb2884af676",
           "mtgoId": "81223",
@@ -1724,6 +1901,7 @@
         "name": "Forest",
         "number": "272",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -1794,6 +1972,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -1956,26 +2135,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ca3d39a541c1bd6",
           "cardKingdomFoil": "https://mtgjson.com/links/ec3c08dabb5c4254",
+          "cardmarket": "https://mtgjson.com/links/677237834ce63be9",
+          "cardmarketFoil": "https://mtgjson.com/links/29f915c4b54fe4ab",
           "tcgplayer": "https://mtgjson.com/links/ed803d1dee441891"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "8a61e154-a5c8-57ba-a41d-4eeebee47f23",
+          "nonfoil": "a922e573-8def-5c1a-b4e9-2118365bbc15"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -1991,9 +2203,9 @@
         ],
         "uuid": "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
         "variations": [
-          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5"
         ]
       },
       {
@@ -2018,98 +2230,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488489",
-              "scryfallId": "430a132e-094d-46a8-ae30-c0b48c763923"
-            },
-            "language": "German",
-            "multiverseId": 488489,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "abf04364-fb02-554c-84d0-3dc038105669"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488504",
-              "scryfallId": "d2d0e5ad-a1c4-4ae1-8e4b-68caa1134097"
-            },
-            "language": "Spanish",
-            "multiverseId": 488504,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "8b93e01f-4a96-57de-b908-ca463facbaba"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488519",
-              "scryfallId": "b2d7f8bb-7db0-4f82-a724-4a1c266777dd"
-            },
-            "language": "French",
-            "multiverseId": 488519,
-            "name": "Forêt",
-            "type": "Terrain de base : forêt",
-            "uuid": "10b96411-85f8-5eb5-ac6f-d015a0f70dec"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488534",
-              "scryfallId": "4a6303f3-b73d-4c09-a9fd-f3cd1017df68"
-            },
-            "language": "Italian",
-            "multiverseId": 488534,
-            "name": "Foresta",
-            "type": "Terra Base — Foresta",
-            "uuid": "985e260f-884d-50d0-a960-6534c4a8f376"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488549",
-              "scryfallId": "7f6e06f3-f3d8-4091-9a4b-e7da0a3bc718"
-            },
-            "language": "Japanese",
-            "multiverseId": 488549,
-            "name": "森",
-            "type": "基本土地 — 森",
-            "uuid": "caa36de4-22ab-5fbc-8fda-349312230024"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488564",
-              "scryfallId": "8634aaa8-7bf4-4c3b-871e-182d82be7f52"
-            },
-            "language": "Korean",
-            "multiverseId": 488564,
-            "name": "숲",
-            "type": "기본 대지 — 숲",
-            "uuid": "caf33bc0-2a29-56e2-9efa-a2cb23ba9355"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488579",
-              "scryfallId": "9e13cdcd-526c-4ae3-bc62-05bbc289e2a8"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488579,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "6d735ca9-0c89-544a-8589-f3bbfe6caae8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488594",
-              "scryfallId": "4807496b-f4bc-474e-aba7-a055a3fb7d72"
-            },
-            "language": "Russian",
-            "multiverseId": 488594,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "bc90b431-f153-5e07-b273-5069b2109002"
-          },
           {
             "identifiers": {
               "multiverseId": "488609",
@@ -2118,6 +2242,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488609,
             "name": "树林",
+            "skuIds": {
+              "foil": "0078243a-e869-5d69-b153-f03320e313c2",
+              "nonfoil": "2ad4c19c-5d37-5137-ba38-b0f4363918bd"
+            },
             "type": "基本地 ～树林",
             "uuid": "a1946756-6c40-5868-a308-e7a942ec5928"
           },
@@ -2129,13 +2257,135 @@
             "language": "Chinese Traditional",
             "multiverseId": 488624,
             "name": "樹林",
+            "skuIds": {
+              "foil": "9ef06e9c-a2ee-5981-a8e8-ebdb8f76b7c5",
+              "nonfoil": "099b3080-330a-54c0-8c9c-02d2ec2ddec7"
+            },
             "type": "基本地 ～樹林",
             "uuid": "f4f48514-6680-5f72-9320-247585a6a679"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488519",
+              "scryfallId": "b2d7f8bb-7db0-4f82-a724-4a1c266777dd"
+            },
+            "language": "French",
+            "multiverseId": 488519,
+            "name": "Forêt",
+            "skuIds": {
+              "foil": "2e9b2854-7ac8-5709-89d1-dc5b9455ae3f",
+              "nonfoil": "349759b5-d43d-5531-b070-178e7b57b4ed"
+            },
+            "type": "Terrain de base : forêt",
+            "uuid": "10b96411-85f8-5eb5-ac6f-d015a0f70dec"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488489",
+              "scryfallId": "430a132e-094d-46a8-ae30-c0b48c763923"
+            },
+            "language": "German",
+            "multiverseId": 488489,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "6b8e9fa6-8a4e-5db7-a1e7-b4dbaddb1198",
+              "nonfoil": "0de27bdf-c2db-5d98-a687-113152d92dbe"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "abf04364-fb02-554c-84d0-3dc038105669"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488534",
+              "scryfallId": "4a6303f3-b73d-4c09-a9fd-f3cd1017df68"
+            },
+            "language": "Italian",
+            "multiverseId": 488534,
+            "name": "Foresta",
+            "skuIds": {
+              "foil": "e151fbfa-da47-51fd-bc4c-a447e75a2aa6",
+              "nonfoil": "edc27ae5-9611-5d4b-99bb-ade431cf1e0d"
+            },
+            "type": "Terra Base — Foresta",
+            "uuid": "985e260f-884d-50d0-a960-6534c4a8f376"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488549",
+              "scryfallId": "7f6e06f3-f3d8-4091-9a4b-e7da0a3bc718"
+            },
+            "language": "Japanese",
+            "multiverseId": 488549,
+            "name": "森",
+            "skuIds": {
+              "foil": "ebda3a10-d99e-5172-8c00-61ed757e06b7",
+              "nonfoil": "f536a59b-3d10-54ae-aa45-6d26696ec00a"
+            },
+            "type": "基本土地 — 森",
+            "uuid": "caa36de4-22ab-5fbc-8fda-349312230024"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488564",
+              "scryfallId": "8634aaa8-7bf4-4c3b-871e-182d82be7f52"
+            },
+            "language": "Korean",
+            "multiverseId": 488564,
+            "name": "숲",
+            "skuIds": {
+              "foil": "301eae26-1d31-5332-a165-f617874ced7e",
+              "nonfoil": "8865aa54-a71e-5b4f-bc06-6311ef8961b7"
+            },
+            "type": "기본 대지 — 숲",
+            "uuid": "caf33bc0-2a29-56e2-9efa-a2cb23ba9355"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488579",
+              "scryfallId": "9e13cdcd-526c-4ae3-bc62-05bbc289e2a8"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488579,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "648976f3-18da-5a10-8a65-7171da6471c2",
+              "nonfoil": "358ec862-3e38-50d8-ab98-c161a7dbcd25"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "6d735ca9-0c89-544a-8589-f3bbfe6caae8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488594",
+              "scryfallId": "4807496b-f4bc-474e-aba7-a055a3fb7d72"
+            },
+            "language": "Russian",
+            "multiverseId": 488594,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "bd0d12e9-c3ce-5b41-980c-1af36e1bc46d",
+              "nonfoil": "59911c8b-e0cd-5330-aaa3-df5bd2cf1d61"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "bc90b431-f153-5e07-b273-5069b2109002"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488504",
+              "scryfallId": "d2d0e5ad-a1c4-4ae1-8e4b-68caa1134097"
+            },
+            "language": "Spanish",
+            "multiverseId": 488504,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "b83be7d1-8708-551a-9290-1ba77c51f49d",
+              "nonfoil": "29a976b4-9fa7-5894-8fc8-84c7ede0d679"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "8b93e01f-4a96-57de-b908-ca463facbaba"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234513",
           "cardKingdomId": "234206",
@@ -2143,6 +2393,7 @@
           "cardsphereId": "67953",
           "deckboxId": "50784",
           "mcmId": "471134",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72093",
           "mtgjsonV4Id": "0b857beb-141b-555f-b99f-d0fe41ff9499",
           "mtgoId": "81225",
@@ -2184,6 +2435,7 @@
         "name": "Forest",
         "number": "273",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2254,6 +2506,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2416,26 +2669,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ac160ec9c5a1efca",
           "cardKingdomFoil": "https://mtgjson.com/links/763bbd99093c995a",
+          "cardmarket": "https://mtgjson.com/links/2a2971422088eff0",
+          "cardmarketFoil": "https://mtgjson.com/links/27ae1df7256056bf",
           "tcgplayer": "https://mtgjson.com/links/80228f484f4e2bfa"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "75be2905-2a8a-56ec-adc6-fcbb2f9ebf56",
+          "nonfoil": "211cb8bd-f762-5816-a784-36dd1704950a"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2451,9 +2737,9 @@
         ],
         "uuid": "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
         "variations": [
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
-          "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c"
         ]
       },
       {
@@ -2478,54 +2764,10 @@
         "count": 2,
         "edhrecSaltiness": 0.7,
         "finishes": [
-          "nonfoil",
-          "foil"
+          "foil",
+          "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "488490",
-              "scryfallId": "e695c31d-2841-42a1-8a3d-d86c82491362"
-            },
-            "language": "German",
-            "multiverseId": 488490,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "237830e4-aac6-5cba-9704-ff3dc575cda7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488505",
-              "scryfallId": "16b38ffc-51d1-4112-b059-934941fbab87"
-            },
-            "language": "Spanish",
-            "multiverseId": 488505,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "4e2e3c35-2ac9-5d0a-9f84-caab2d28555b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488580",
-              "scryfallId": "5e332837-479d-4f8f-a842-98aedd8d0292"
-            },
-            "language": "Portuguese (Brazil)",
-            "multiverseId": 488580,
-            "name": "Floresta",
-            "type": "Terreno Básico — Floresta",
-            "uuid": "cac82a1a-bb44-54ed-a3e0-cba8a9ba491d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "488595",
-              "scryfallId": "fcece131-fac8-4204-8f40-47b520c406b3"
-            },
-            "language": "Russian",
-            "multiverseId": 488595,
-            "name": "Лес",
-            "type": "Базовая Земля — Лес",
-            "uuid": "e3c6cace-ad16-57dc-97b1-7f2f6adcc120"
-          },
           {
             "identifiers": {
               "multiverseId": "488610",
@@ -2534,6 +2776,10 @@
             "language": "Chinese Simplified",
             "multiverseId": 488610,
             "name": "树林",
+            "skuIds": {
+              "foil": "9a3afd07-f576-521f-8072-60a0bda0a749",
+              "nonfoil": "e642ea4c-7018-52f9-ab2d-eeda48dab788"
+            },
             "type": "基本地 ～树林",
             "uuid": "f26f8594-2bb4-54cc-9ab0-a24623151c3c"
           },
@@ -2545,13 +2791,75 @@
             "language": "Chinese Traditional",
             "multiverseId": 488625,
             "name": "樹林",
+            "skuIds": {
+              "foil": "e1ab8d08-86e5-5439-b26d-7f0d128778e1",
+              "nonfoil": "c42ce391-19bb-5630-9571-576c9edbd191"
+            },
             "type": "基本地 ～樹林",
             "uuid": "81d37b5e-86c4-580a-8b13-22dcd557b0ba"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488490",
+              "scryfallId": "e695c31d-2841-42a1-8a3d-d86c82491362"
+            },
+            "language": "German",
+            "multiverseId": 488490,
+            "name": "Wald",
+            "skuIds": {
+              "foil": "221cf369-75d1-5cb5-b2e8-991848cba4dc",
+              "nonfoil": "15ed7bfd-9818-5e55-89f5-fcd5db01f420"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "237830e4-aac6-5cba-9704-ff3dc575cda7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488580",
+              "scryfallId": "5e332837-479d-4f8f-a842-98aedd8d0292"
+            },
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 488580,
+            "name": "Floresta",
+            "skuIds": {
+              "foil": "a8b9413d-af2c-5163-9b78-baf76ef532bd",
+              "nonfoil": "1453290f-214c-5c3f-a805-a45799b8391a"
+            },
+            "type": "Terreno Básico — Floresta",
+            "uuid": "cac82a1a-bb44-54ed-a3e0-cba8a9ba491d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488595",
+              "scryfallId": "fcece131-fac8-4204-8f40-47b520c406b3"
+            },
+            "language": "Russian",
+            "multiverseId": 488595,
+            "name": "Лес",
+            "skuIds": {
+              "foil": "b27d8403-12e9-5cda-9b3f-50e073d1cf6f",
+              "nonfoil": "2aa52da7-82cd-5cbb-b7b1-b7fd30332006"
+            },
+            "type": "Базовая Земля — Лес",
+            "uuid": "e3c6cace-ad16-57dc-97b1-7f2f6adcc120"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "488505",
+              "scryfallId": "16b38ffc-51d1-4112-b059-934941fbab87"
+            },
+            "language": "Spanish",
+            "multiverseId": 488505,
+            "name": "Bosque",
+            "skuIds": {
+              "foil": "66454472-b218-5983-9d81-2cc8b9f184ca",
+              "nonfoil": "a342dfe8-1510-54c2-91ab-8095cdecaea4"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "4e2e3c35-2ac9-5d0a-9f84-caab2d28555b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": true,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomFoilId": "234514",
           "cardKingdomId": "234207",
@@ -2559,6 +2867,7 @@
           "cardsphereId": "68178",
           "deckboxId": "50785",
           "mcmId": "471129",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72094",
           "mtgjsonV4Id": "0eab4cd9-8a62-5369-b4f2-e01788375808",
           "mtgoId": "81227",
@@ -2600,6 +2909,7 @@
         "name": "Forest",
         "number": "274",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2670,6 +2980,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2832,26 +3143,59 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/171875ac30790f48",
           "cardKingdomFoil": "https://mtgjson.com/links/6599ea2778125bd9",
+          "cardmarket": "https://mtgjson.com/links/1b7ee4f96031be5a",
+          "cardmarketFoil": "https://mtgjson.com/links/f82179a30a50b049",
           "tcgplayer": "https://mtgjson.com/links/105b3ffcc1d723ff"
         },
         "rarity": "common",
         "setCode": "M21",
+        "skuIds": {
+          "foil": "592acfe4-d559-51e2-b562-face4d609923",
+          "nonfoil": "59da376c-fde1-558b-ad85-b9a17f895dc2"
+        },
         "sourceProducts": {
           "foil": [
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
             "34c98bec-2765-5b7f-bb23-8b294c3d2575",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
             "547f7fe8-5bf3-5b1f-b7d5-2348edfeb15f",
-            "61ee3ba9-54d4-55e6-8c49-3977d922f30e"
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "7cdb0f94-84e3-5b5d-9b6d-8a934013ee37",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "a610b4f7-4a48-5ed7-96cf-8c4cd6096f93",
+            "c3fb860d-a205-5fa8-a121-c962efe554b9",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ],
           "nonfoil": [
             "0071157a-adbc-5a2a-8a2b-fac76fcb5c02",
+            "1f778b30-fced-5a87-8b15-bd8d8f629a27",
+            "43889322-6597-5f7d-89d0-149e0f19b3f4",
+            "4e767adb-1817-5acc-b20f-a4412710f9be",
+            "585faa33-fa77-51d5-8b56-4ec67fbc2b51",
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
             "61ee3ba9-54d4-55e6-8c49-3977d922f30e",
+            "639e32d8-aa88-5c64-9f1f-455c4bde54fd",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
             "75683f38-cc47-5b5d-be9b-18abe5cede48",
             "7cf1ca21-2f4f-5c1a-b4b8-8b453961139b",
+            "996040bb-963c-5a0f-b532-47fa2ed24098",
+            "a598f9ce-12cf-5a24-9442-0305527400f0",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "c3fb860d-a205-5fa8-a121-c962efe554b9",
-            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
+            "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01",
+            "d185042b-f0c5-5afe-b72f-9a7144b0fc2a",
+            "d65b1bd7-24be-5f34-85ab-d6cb046d99c6"
           ]
         },
         "subtypes": [
@@ -2867,9 +3211,9 @@
         ],
         "uuid": "d2df9ae2-3b2e-5527-b3d0-c4bf5fd4142c",
         "variations": [
+          "16c6758e-a4b1-5a71-b003-e953b496340e",
           "6bbebbf3-912c-5f84-a73d-24230fd8eedf",
-          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5",
-          "16c6758e-a4b1-5a71-b003-e953b496340e"
+          "dcf5782a-6dd7-5f23-9fd9-d1e58ca021e5"
         ]
       },
       {
@@ -2897,13 +3241,12 @@
         ],
         "foreignData": [],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "234833",
           "cardsphereId": "68435",
           "deckboxId": "51083",
           "mcmId": "473264",
+          "mcmMetaId": "2177",
           "mtgArenaId": "72595",
           "mtgjsonV4Id": "fab9adac-02cd-575f-8dc0-5b1279c39924",
           "multiverseId": "489659",
@@ -2944,6 +3287,7 @@
         "name": "Forest",
         "number": "75",
         "originalText": "G",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3014,6 +3358,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3176,14 +3521,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/9b411b6b0c40f31d",
+          "cardmarket": "https://mtgjson.com/links/1df6a13656034248",
           "tcgplayer": "https://mtgjson.com/links/8cc157d902e51970"
         },
         "rarity": "common",
         "setCode": "JMP",
+        "skuIds": {
+          "nonfoil": "7c43b2d4-68d4-5c9e-93e7-68f28a626a88"
+        },
         "sourceProducts": {
           "nonfoil": [
+            "5dab8fa5-9eaf-5ceb-845e-8ebde4f69066",
+            "6fd6fc44-7c68-5f4c-85e6-4e6201d5ceee",
+            "b69c1574-221b-5e70-88aa-5ebae5713897",
             "ca9092e8-a921-5e37-ab9d-4b0f76bb0d01"
           ]
         },
@@ -3200,13 +3555,13 @@
         ],
         "uuid": "2c57ac89-ceb9-506f-8f23-d7c72e2a2a67",
         "variations": [
-          "4b21f80d-f675-5ab8-b781-fe7e4862b156",
-          "7cdae8aa-c236-5389-ac58-91c6a77d8b2e",
-          "3706ebe6-05ec-5342-8c47-7aab97104caf",
-          "91a5dad4-e78b-5962-bb1f-92fd5b486308",
           "2058d91b-51bb-5aa7-8ac4-bb0f44b6a420",
+          "3706ebe6-05ec-5342-8c47-7aab97104caf",
+          "4b21f80d-f675-5ab8-b781-fe7e4862b156",
+          "4f636989-6e64-57a0-bc0f-6dcc150daf21",
+          "7cdae8aa-c236-5389-ac58-91c6a77d8b2e",
           "802acea3-c322-5786-850d-86ad11615696",
-          "4f636989-6e64-57a0-bc0f-6dcc150daf21"
+          "91a5dad4-e78b-5962-bb1f-92fd5b486308"
         ]
       }
     ],
@@ -3222,5 +3577,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "b284a7f2a3c78c"
   }
 }

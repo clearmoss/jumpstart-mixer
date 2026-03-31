@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "25b1a856a5baad"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,39 +22,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1812,
+        "edhrecRank": 1899,
         "edhrecSaltiness": 0.35,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Capenna needs some new blood. Preferably spilled by us.\"",
         "foreignData": [
-          {
-            "flavorText": "„Capenna braucht frisches Blut. Am besten von uns vergossenes.\"",
-            "identifiers": {
-              "multiverseId": "681587",
-              "scryfallId": "9755f5c7-d12e-4eae-94df-ab1ee80c1062"
-            },
-            "language": "German",
-            "multiverseId": 681587,
-            "name": "Sangumagier",
-            "text": "Fliegend\nImmer wenn eine Kreatur, die ein Gegner kontrolliert, stirbt, kannst du 3 Lebenspunkte dazuerhalten.\nImmer wenn ein Gegner eine Karte abwirft, kannst du 3 Lebenspunkte dazuerhalten.",
-            "type": "Kreatur — Vampir, Schamane",
-            "uuid": "d5f3839c-9a24-512d-a9b2-4d02f6bf39bb"
-          },
-          {
-            "flavorText": "\"Capenna necesita sangre fresca. Y, de ser posible, la derramaremos nosotros\".",
-            "identifiers": {
-              "multiverseId": "681648",
-              "scryfallId": "82987407-0766-42af-8c26-8315aed46d78"
-            },
-            "language": "Spanish",
-            "multiverseId": 681648,
-            "name": "Sangromante",
-            "text": "Vuela.\nSiempre que una criatura que controla un oponente muera, puedes ganar 3 vidas.\nSiempre que un oponente descarte una carta, puedes ganar 3 vidas.",
-            "type": "Criatura — Chamán vampiro",
-            "uuid": "73de0a6e-2e63-5385-bd7e-c5b529ccf709"
-          },
           {
             "flavorText": "« Capenna a besoin de sang neuf. De préférence versé par nous. »",
             "identifiers": {
@@ -69,9 +38,28 @@
             "language": "French",
             "multiverseId": 681709,
             "name": "Sangromancienne",
+            "skuIds": {
+              "nonfoil": "d46cf3bd-2f26-5f47-909e-9f9fc319660d"
+            },
             "text": "Vol\nÀ chaque fois qu'une créature qu'un adversaire contrôle meurt, vous pouvez gagner 3 points de vie.\nÀ chaque fois qu'un adversaire se défausse d'une carte, vous pouvez gagner 3 points de vie.",
             "type": "Créature — vampire et shamane",
             "uuid": "59e53eba-e7fa-5fd2-855f-ced0a2848d47"
+          },
+          {
+            "flavorText": "„Capenna braucht frisches Blut. Am besten von uns vergossenes.\"",
+            "identifiers": {
+              "multiverseId": "681587",
+              "scryfallId": "9755f5c7-d12e-4eae-94df-ab1ee80c1062"
+            },
+            "language": "German",
+            "multiverseId": 681587,
+            "name": "Sangumagier",
+            "skuIds": {
+              "nonfoil": "1c8943a2-063e-5e4b-8fcf-ea631836883c"
+            },
+            "text": "Fliegend\nImmer wenn eine Kreatur, die ein Gegner kontrolliert, stirbt, kannst du 3 Lebenspunkte dazuerhalten.\nImmer wenn ein Gegner eine Karte abwirft, kannst du 3 Lebenspunkte dazuerhalten.",
+            "type": "Kreatur — Vampir, Schamane",
+            "uuid": "d5f3839c-9a24-512d-a9b2-4d02f6bf39bb"
           },
           {
             "flavorText": "\"Capenna ha bisogno di sangue nuovo. Preferibilmente, versato da noi.\"",
@@ -82,6 +70,9 @@
             "language": "Italian",
             "multiverseId": 681770,
             "name": "Ematomante",
+            "skuIds": {
+              "nonfoil": "33e1f2b5-c57d-5b3a-9934-a612d99f2683"
+            },
             "text": "Volare\nOgniqualvolta una creatura controllata da un avversario muore, puoi guadagnare 3 punti vita.\nOgniqualvolta un avversario scarta una carta, puoi guadagnare 3 punti vita.",
             "type": "Creatura — Sciamano Vampiro",
             "uuid": "ed8dc338-0246-5d41-98be-52844bd3f559"
@@ -95,14 +86,31 @@
             "language": "Japanese",
             "multiverseId": 681831,
             "name": "吸血術士",
+            "skuIds": {
+              "nonfoil": "db7a8d8f-ef28-5067-bbd2-48cbab1cd7be"
+            },
             "text": "飛行\n対戦相手がコントロールしているクリーチャー１体が死亡するたび、あなたは３点のライフを得てもよい。\n対戦相手がカード１枚を捨てるたび、あなたは３点のライフを得てもよい。",
             "type": "クリーチャー — 吸血鬼・シャーマン",
             "uuid": "5e20923a-7d78-5ebb-ad06-3a004cf50886"
+          },
+          {
+            "flavorText": "\"Capenna necesita sangre fresca. Y, de ser posible, la derramaremos nosotros\".",
+            "identifiers": {
+              "multiverseId": "681648",
+              "scryfallId": "82987407-0766-42af-8c26-8315aed46d78"
+            },
+            "language": "Spanish",
+            "multiverseId": 681648,
+            "name": "Sangromante",
+            "skuIds": {
+              "nonfoil": "38d0a45d-cd92-55a1-9659-ec12c843d1af"
+            },
+            "text": "Vuela.\nSiempre que una criatura que controla un oponente muera, puedes ganar 3 vidas.\nSiempre que un oponente descarte una carta, puedes ganar 3 vidas.",
+            "type": "Criatura — Chamán vampiro",
+            "uuid": "73de0a6e-2e63-5385-bd7e-c5b529ccf709"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305256",
           "cardsphereId": "130972",
@@ -121,7 +129,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flying"
         ],
@@ -146,6 +153,7 @@
         "name": "Sangromancer",
         "number": "122",
         "originalText": "Flying\nWhenever a creature an opponent controls dies, you may gain 3 life.\nWhenever an opponent discards a card, you may gain 3 life.",
+        "originalType": "Creature – Vampire Shaman",
         "power": "3",
         "printings": [
           "C16",
@@ -171,9 +179,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ea4c70d1-8c55-55bf-a383-0f14c3ac7205"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -208,39 +221,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18247,
+        "edhrecRank": 18079,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Her hunger for blood is matched only by her hunger for vengeance.",
         "foreignData": [
-          {
-            "flavorText": "Ihr Hunger nach Blut wird nur von ihrem Durst nach Rache übertroffen.",
-            "identifiers": {
-              "multiverseId": "681365",
-              "scryfallId": "6f597a48-ee7b-46f7-8b04-c7e1b3a97b15"
-            },
-            "language": "German",
-            "multiverseId": 681365,
-            "name": "Geißel der Unterstadt",
-            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Geißel der Unterstadt ins Spiel kommt, erhält eine andere Kreatur deiner Wahl, die du kontrollierst, Lebensverknüpfung bis zum Ende des Zuges.",
-            "type": "Kreatur — Gorgo, Vampir",
-            "uuid": "1f2eb113-9e02-5e22-9875-3be84d66d5c3"
-          },
-          {
-            "flavorText": "Su sed de sangre solo se equipara a su sed de venganza.",
-            "identifiers": {
-              "multiverseId": "681394",
-              "scryfallId": "278c95f7-861f-4df7-bb8e-86f2b3008ab8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681394,
-            "name": "Azote de la Subciudad",
-            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando el Azote de la Subciudad entre, otra criatura objetivo que controlas gana la habilidad de vínculo vital hasta el final del turno.",
-            "type": "Criatura — Vampiro gorgona",
-            "uuid": "a3067f90-9263-5fb9-8acf-877ba9e24620"
-          },
           {
             "flavorText": "Sa soif de sang n'a d'égal que sa soif de vengeance.",
             "identifiers": {
@@ -250,9 +237,28 @@
             "language": "French",
             "multiverseId": 681423,
             "name": "Fléau de la Citerraine",
+            "skuIds": {
+              "nonfoil": "8b3e41e8-9609-5bfc-9591-8ea5925fd8d0"
+            },
             "text": "Lien de vie (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)\nQuand le Fléau de la Citerraine arrive, une autre créature ciblée que vous contrôlez acquiert le lien de vie jusqu'à la fin du tour.",
             "type": "Créature — gorgonoïde et vampire",
             "uuid": "9ab478d1-19e7-5d81-a56f-78ecd3ef45f2"
+          },
+          {
+            "flavorText": "Ihr Hunger nach Blut wird nur von ihrem Durst nach Rache übertroffen.",
+            "identifiers": {
+              "multiverseId": "681365",
+              "scryfallId": "6f597a48-ee7b-46f7-8b04-c7e1b3a97b15"
+            },
+            "language": "German",
+            "multiverseId": 681365,
+            "name": "Geißel der Unterstadt",
+            "skuIds": {
+              "nonfoil": "16b2c775-e2b1-5195-87a3-574580649ff4"
+            },
+            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Geißel der Unterstadt ins Spiel kommt, erhält eine andere Kreatur deiner Wahl, die du kontrollierst, Lebensverknüpfung bis zum Ende des Zuges.",
+            "type": "Kreatur — Gorgo, Vampir",
+            "uuid": "1f2eb113-9e02-5e22-9875-3be84d66d5c3"
           },
           {
             "flavorText": "La sua sete di sangue è pari solo alla sua sete di vendetta.",
@@ -263,6 +269,9 @@
             "language": "Italian",
             "multiverseId": 681452,
             "name": "Flagello della Città Sepolta",
+            "skuIds": {
+              "nonfoil": "f8847ea9-367c-524d-a4f3-ecec935fdc3b"
+            },
             "text": "Legame vitale (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)\nQuando il Flagello della Città Sepolta entra, un'altra creatura bersaglio che controlli ha legame vitale fino alla fine del turno.",
             "type": "Creatura — Vampiro Gorgone",
             "uuid": "af1670af-20f2-5994-b3c9-926452b612c3"
@@ -276,14 +285,31 @@
             "language": "Japanese",
             "multiverseId": 681481,
             "name": "地底街の災い魔",
+            "skuIds": {
+              "nonfoil": "7d315c81-186a-52bf-98f4-0ac7f4ee3fda"
+            },
             "text": "絆魂（このクリーチャーがダメージを与えると、さらにあなたはその点数分のライフを得る。）\n地底街の災い魔が戦場に出たとき、あなたがコントロールしていてこれでないクリーチャー１体を対象とする。ターン終了時まで、それは絆魂を得る。",
             "type": "クリーチャー — ゴルゴン・吸血鬼",
             "uuid": "09bc2fff-2338-51f7-bb80-489dbc593789"
+          },
+          {
+            "flavorText": "Su sed de sangre solo se equipara a su sed de venganza.",
+            "identifiers": {
+              "multiverseId": "681394",
+              "scryfallId": "278c95f7-861f-4df7-bb8e-86f2b3008ab8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681394,
+            "name": "Azote de la Subciudad",
+            "skuIds": {
+              "nonfoil": "26c651f6-8b9a-5a77-b866-3acf3ffa09d1"
+            },
+            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando el Azote de la Subciudad entre, otra criatura objetivo que controlas gana la habilidad de vínculo vital hasta el final del turno.",
+            "type": "Criatura — Vampiro gorgona",
+            "uuid": "a3067f90-9263-5fb9-8acf-877ba9e24620"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305145",
           "cardsphereId": "130711",
@@ -302,7 +328,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Lifelink"
         ],
@@ -326,6 +351,7 @@
         "name": "Scourge of the Undercity",
         "number": "11",
         "originalText": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen Scourge of the Undercity enters, another target creature you control gains lifelink until end of turn.",
+        "originalType": "Creature – Gorgon Vampire",
         "power": "2",
         "printings": [
           "J25"
@@ -337,9 +363,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77a28cd3-0cc2-51cb-8eb0-3fc3373a6543"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -374,36 +405,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 16830,
+        "edhrecRank": 16633,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680970",
-              "scryfallId": "ef4e2a06-f608-49d2-9d1e-6ace2492a84a"
-            },
-            "language": "German",
-            "multiverseId": 680970,
-            "name": "Nazar, der samtige Biss",
-            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nImmer wenn du Lebenspunkte dazuerhältst, lege eine Schmausmarke auf Nazar.\nImmer wenn Nazar angreift, kannst du drei Schmausmarken von ihm entfernen. Falls du dies tust, ziehst du drei Karten und verlierst 3 Lebenspunkte.",
-            "type": "Legendäre Kreatur — Vampir, Hexenmeister",
-            "uuid": "c28a81cc-604a-5f55-bcfc-bba4c883fa92"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680997",
-              "scryfallId": "eea49c64-b6df-4388-9eb0-a45743b57475"
-            },
-            "language": "Spanish",
-            "multiverseId": 680997,
-            "name": "Nazar, el Colmillo de Terciopelo",
-            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nSiempre que ganes vidas, pon un contador de alimento sobre Nazar, el Colmillo de Terciopelo.\nSiempre que Nazar ataque, puedes remover tres contadores de alimento de él. Si lo haces, robas tres cartas y pierdes 3 vidas.",
-            "type": "Criatura legendaria — Brujo vampiro",
-            "uuid": "86f33c60-2d12-520f-a277-21eca298676f"
-          },
           {
             "identifiers": {
               "multiverseId": "681024",
@@ -412,9 +419,27 @@
             "language": "French",
             "multiverseId": 681024,
             "name": "Nazar, le croc de velours",
+            "skuIds": {
+              "nonfoil": "dce8aa0b-3d3b-5f25-9fc0-65f9c65969eb"
+            },
             "text": "Menace (Cette créature ne peut pas être bloquée excepté par deux créatures ou plus.)\nÀ chaque fois que vous gagnez des points de vie, mettez un marqueur « sustentation » sur Nazar, le croc de velours.\nÀ chaque fois que Nazar attaque, vous pouvez lui retirer trois marqueurs « sustentation ». Si vous faites ainsi, vous piochez trois cartes et vous perdez 3 points de vie.",
             "type": "Créature légendaire — vampire et psychagogue",
             "uuid": "11edba13-080e-55f1-b715-83819f86e852"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680970",
+              "scryfallId": "ef4e2a06-f608-49d2-9d1e-6ace2492a84a"
+            },
+            "language": "German",
+            "multiverseId": 680970,
+            "name": "Nazar, der samtige Biss",
+            "skuIds": {
+              "nonfoil": "9ccdf7a3-c453-5f8c-a059-725b1d467d46"
+            },
+            "text": "Bedrohlich (Diese Kreatur kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.)\nImmer wenn du Lebenspunkte dazuerhältst, lege eine Schmausmarke auf Nazar.\nImmer wenn Nazar angreift, kannst du drei Schmausmarken von ihm entfernen. Falls du dies tust, ziehst du drei Karten und verlierst 3 Lebenspunkte.",
+            "type": "Legendäre Kreatur — Vampir, Hexenmeister",
+            "uuid": "c28a81cc-604a-5f55-bcfc-bba4c883fa92"
           },
           {
             "identifiers": {
@@ -424,6 +449,9 @@
             "language": "Italian",
             "multiverseId": 681051,
             "name": "Nazar, la Zanna Vellutata",
+            "skuIds": {
+              "nonfoil": "e78bbddb-dd08-5b13-b9a0-600e5957c81a"
+            },
             "text": "Minacciare (Questa creatura non può essere bloccata tranne che da due o più creature.)\nOgniqualvolta guadagni punti vita, metti un segnalino nutrimento su Nazar, la Zanna Vellutata.\nOgniqualvolta Nazar attacca, puoi rimuovere tre segnalini nutrimento da esso. Se lo fai, peschi tre carte e perdi 3 punti vita.",
             "type": "Creatura Leggendaria — Warlock Vampiro",
             "uuid": "b4ffadc8-a1ce-5cb8-a356-d19f89459573"
@@ -436,17 +464,33 @@
             "language": "Japanese",
             "multiverseId": 681078,
             "name": "ベルベットの牙、ナザール",
+            "skuIds": {
+              "nonfoil": "28b9f840-96d6-55b4-b480-db32d74ec592"
+            },
             "text": "威迫（このクリーチャーは２体以上のクリーチャーにしかブロックされない。）\nあなたがライフを得るたび、ベルベットの牙、ナザールの上に餌カウンター１個を置く。\nこれが攻撃するたび、これの上から餌カウンター３個を取り除いてもよい。そうしたなら、カード３枚を引き、３点のライフを失う。",
             "type": "伝説のクリーチャー — 吸血鬼・邪術師",
             "uuid": "cdd8e04f-5c21-543a-a615-e4a1f6e02642"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680997",
+              "scryfallId": "eea49c64-b6df-4388-9eb0-a45743b57475"
+            },
+            "language": "Spanish",
+            "multiverseId": 680997,
+            "name": "Nazar, el Colmillo de Terciopelo",
+            "skuIds": {
+              "nonfoil": "e58545d8-fe67-577b-b2ed-1c9145b039bf"
+            },
+            "text": "Amenaza. (Esta criatura no puede ser bloqueada excepto por dos o más criaturas.)\nSiempre que ganes vidas, pon un contador de alimento sobre Nazar, el Colmillo de Terciopelo.\nSiempre que Nazar ataque, puedes remover tres contadores de alimento de él. Si lo haces, robas tres cartas y pierdes 3 vidas.",
+            "type": "Criatura legendaria — Brujo vampiro",
+            "uuid": "86f33c60-2d12-520f-a277-21eca298676f"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305177",
           "cardsphereId": "130807",
@@ -465,7 +509,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Menace"
         ],
@@ -492,6 +535,7 @@
         "name": "Nazar, the Velvet Fang",
         "number": "43",
         "originalText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever you gain life, put a feeding counter on Nazar, the Velvet Fang.\nWhenever Nazar attacks, you may remove three feeding counters from it. If you do, you draw three cards and you lose 3 life.",
+        "originalType": "Legendary Creature – Vampire Warlock",
         "power": "3",
         "printings": [
           "J25"
@@ -525,9 +569,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a59300e2-3421-5270-bf2c-d8dd2fbdb468"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -563,39 +612,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18341,
+        "edhrecRank": 18680,
         "edhrecSaltiness": 0.21,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Looks like my Blood Fast is about to end early.\"",
         "foreignData": [
-          {
-            "flavorText": "„Sieht ganz so aus, als müsste ich mein Blutfasten vorzeitig brechen.\"",
-            "identifiers": {
-              "multiverseId": "681590",
-              "scryfallId": "8afaa8d2-6889-40b8-b9b4-371301118a3e"
-            },
-            "language": "German",
-            "multiverseId": 681590,
-            "name": "Aderlassender Wolkenläufer",
-            "text": "Fliegend\nWenn der Aderlassende Wolkenläufer ins Spiel kommt, verliert ein Gegner deiner Wahl 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
-            "type": "Kreatur — Vampir, Soldat",
-            "uuid": "e194a0e9-20ce-5654-9883-845702884822"
-          },
-          {
-            "flavorText": "\"Parece que mi Ayuno de Sangre terminará antes de lo previsto\".",
-            "identifiers": {
-              "multiverseId": "681651",
-              "scryfallId": "6afb5c3d-e3e9-4f6c-9bca-6bbf276ecc8c"
-            },
-            "language": "Spanish",
-            "multiverseId": 681651,
-            "name": "Huesteceleste derramasangre",
-            "text": "Vuela.\nCuando el Huesteceleste derramasangre entre, el oponente objetivo pierde 1 vida y tú ganas 1 vida.",
-            "type": "Criatura — Soldado vampiro",
-            "uuid": "6644a673-58f9-5a51-844f-7303b47c5df4"
-          },
           {
             "flavorText": "« On dirait que mon Jeûne de sang va prendre fin prématurément. »",
             "identifiers": {
@@ -605,9 +628,28 @@
             "language": "French",
             "multiverseId": 681712,
             "name": "Gravesang marcheciel",
+            "skuIds": {
+              "nonfoil": "ac1048c4-4b2f-52eb-b7ca-a5444ec74d8a"
+            },
             "text": "Vol\nQuand le Gravesang marcheciel arrive, un adversaire ciblé perd 1 point de vie et vous gagnez 1 point de vie.",
             "type": "Créature — vampire et soldat",
             "uuid": "ccdadbf9-43f8-522a-aaa2-a98ddf751baa"
+          },
+          {
+            "flavorText": "„Sieht ganz so aus, als müsste ich mein Blutfasten vorzeitig brechen.\"",
+            "identifiers": {
+              "multiverseId": "681590",
+              "scryfallId": "8afaa8d2-6889-40b8-b9b4-371301118a3e"
+            },
+            "language": "German",
+            "multiverseId": 681590,
+            "name": "Aderlassender Wolkenläufer",
+            "skuIds": {
+              "nonfoil": "d6cc6c11-46eb-530e-8426-6fb72f0cb5f5"
+            },
+            "text": "Fliegend\nWenn der Aderlassende Wolkenläufer ins Spiel kommt, verliert ein Gegner deiner Wahl 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
+            "type": "Kreatur — Vampir, Soldat",
+            "uuid": "e194a0e9-20ce-5654-9883-845702884822"
           },
           {
             "flavorText": "\"Sembra che la mia Astensione dal sangue si interromperà prima del previsto.\"",
@@ -618,6 +660,9 @@
             "language": "Italian",
             "multiverseId": 681773,
             "name": "Aerofante Dissanguatore",
+            "skuIds": {
+              "nonfoil": "938fd67d-5d49-5732-8456-dadb6797cde4"
+            },
             "text": "Volare\nQuando l'Aerofante Dissanguatore entra, un avversario bersaglio perde 1 punto vita e tu guadagni 1 punto vita.",
             "type": "Creatura — Soldato Vampiro",
             "uuid": "610e9d52-ecf5-5eb5-9185-15d0ebab12b1"
@@ -631,14 +676,31 @@
             "language": "Japanese",
             "multiverseId": 681834,
             "name": "流血の空渡り",
+            "skuIds": {
+              "nonfoil": "7338351c-4d38-5037-ab43-652c9a2a0727"
+            },
             "text": "飛行\n流血の空渡りが戦場に出たとき、対戦相手１人を対象とする。そのプレイヤーは１点のライフを失い、あなたは１点のライフを得る。",
             "type": "クリーチャー — 吸血鬼・兵士",
             "uuid": "dbc00511-736f-59cb-85fa-0c8b59d21ad1"
+          },
+          {
+            "flavorText": "\"Parece que mi Ayuno de Sangre terminará antes de lo previsto\".",
+            "identifiers": {
+              "multiverseId": "681651",
+              "scryfallId": "6afb5c3d-e3e9-4f6c-9bca-6bbf276ecc8c"
+            },
+            "language": "Spanish",
+            "multiverseId": 681651,
+            "name": "Huesteceleste derramasangre",
+            "skuIds": {
+              "nonfoil": "de3282c4-4b4f-5268-8864-4fad604f043d"
+            },
+            "text": "Vuela.\nCuando el Huesteceleste derramasangre entre, el oponente objetivo pierde 1 vida y tú ganas 1 vida.",
+            "type": "Criatura — Soldado vampiro",
+            "uuid": "6644a673-58f9-5a51-844f-7303b47c5df4"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305259",
           "cardsphereId": "130985",
@@ -657,7 +719,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flying"
         ],
@@ -684,6 +745,7 @@
         "name": "Skymarch Bloodletter",
         "number": "125",
         "originalText": "Flying\nWhen Skymarch Bloodletter enters, target opponent loses 1 life and you gain 1 life.",
+        "originalType": "Creature – Vampire Soldier",
         "power": "2",
         "printings": [
           "J25",
@@ -697,9 +759,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1c5f5c87-8dc3-53a3-b8d0-c80642460055"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -733,39 +800,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 12061,
+        "edhrecRank": 12382,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Wipe your chin, child. We can't have Olivia thinking we're uncivilized.\"\n—Anje Falkenrath",
         "foreignData": [
-          {
-            "flavorText": "„Wisch dir den Mund ab, Kind. Wir wollen doch nicht, dass Olivia denkt, wir seien unzivilisiert.\"\n—Anja Falkenrath",
-            "identifiers": {
-              "multiverseId": "681991",
-              "scryfallId": "8b46077d-d356-4b30-a69a-0e974ccb2f85"
-            },
-            "language": "German",
-            "multiverseId": 681991,
-            "name": "Ausbluten",
-            "text": "Eine Kreatur deiner Wahl erhält -13/-13 bis zum Ende des Zuges. Falls die Kreatur in diesem Zug sterben würde, schicke sie stattdessen ins Exil.",
-            "type": "Spontanzauber",
-            "uuid": "13c89fd9-e7ff-515a-9baa-4449ca73bb52"
-          },
-          {
-            "flavorText": "\"Límpiate el mentón, jovencita. No queremos que Olivia piense que somos salvajes\".\n—Anje Falkenrath",
-            "identifiers": {
-              "multiverseId": "682108",
-              "scryfallId": "a9b67736-fe3b-480f-8d31-35c94c72cc16"
-            },
-            "language": "Spanish",
-            "multiverseId": 682108,
-            "name": "Dejar seco",
-            "text": "La criatura objetivo obtiene -13/-13 hasta el final del turno. Si esa criatura fuera a morir este turno, en vez de eso, exíliala.",
-            "type": "Instantáneo",
-            "uuid": "5a2a4ecf-68cd-592b-832b-9fe092b2182c"
-          },
           {
             "flavorText": "« Essuie ton menton, mon enfant. Il ne faudrait pas qu'Olivia nous croie incivilisés. »\n—Anje Falkenrath",
             "identifiers": {
@@ -775,9 +816,28 @@
             "language": "French",
             "multiverseId": 682225,
             "name": "Vider de son sang",
+            "skuIds": {
+              "nonfoil": "dac00e93-9eee-5ff7-86dc-d14c8da1c064"
+            },
             "text": "Une créature ciblée gagne -13/-13 jusqu'à la fin du tour. Si cette créature devait mourir ce tour-ci, exilez-la à la place.",
             "type": "Éphémère",
             "uuid": "28414686-d939-5452-9a90-ecee0a73c01d"
+          },
+          {
+            "flavorText": "„Wisch dir den Mund ab, Kind. Wir wollen doch nicht, dass Olivia denkt, wir seien unzivilisiert.\"\n—Anja Falkenrath",
+            "identifiers": {
+              "multiverseId": "681991",
+              "scryfallId": "8b46077d-d356-4b30-a69a-0e974ccb2f85"
+            },
+            "language": "German",
+            "multiverseId": 681991,
+            "name": "Ausbluten",
+            "skuIds": {
+              "nonfoil": "96c2c5bc-a111-5934-9120-8e4759e7a269"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -13/-13 bis zum Ende des Zuges. Falls die Kreatur in diesem Zug sterben würde, schicke sie stattdessen ins Exil.",
+            "type": "Spontanzauber",
+            "uuid": "13c89fd9-e7ff-515a-9baa-4449ca73bb52"
           },
           {
             "flavorText": "\"Pulisciti il mento, ragazza. Altrimenti Olivia ci prenderà per degli incivili.\"\n—Anje Falkenrath",
@@ -788,6 +848,9 @@
             "language": "Italian",
             "multiverseId": 682342,
             "name": "Prosciugare il Sangue",
+            "skuIds": {
+              "nonfoil": "f3fd30ef-4e4a-563e-88e0-ce74b48f6815"
+            },
             "text": "Una creatura bersaglio prende -13/-13 fino alla fine del turno. Se quella creatura sta per morire in questo turno, invece esiliala.",
             "type": "Istantaneo",
             "uuid": "abd3d227-83d8-50e5-a693-5bf6612dd062"
@@ -801,14 +864,31 @@
             "language": "Japanese",
             "multiverseId": 682459,
             "name": "骨の髄まで",
+            "skuIds": {
+              "nonfoil": "4d962730-9006-544b-8ba9-1ac82cc4d773"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－13/－13の修整を受ける。このターン、そのクリーチャーが死亡するなら、代わりにそれを追放する。",
             "type": "インスタント",
             "uuid": "7c27608f-0bbd-5215-ab68-50cbc41166f4"
+          },
+          {
+            "flavorText": "\"Límpiate el mentón, jovencita. No queremos que Olivia piense que somos salvajes\".\n—Anje Falkenrath",
+            "identifiers": {
+              "multiverseId": "682108",
+              "scryfallId": "a9b67736-fe3b-480f-8d31-35c94c72cc16"
+            },
+            "language": "Spanish",
+            "multiverseId": 682108,
+            "name": "Dejar seco",
+            "skuIds": {
+              "nonfoil": "076f3c7d-db99-5ec4-8eb6-7da62c1c44ba"
+            },
+            "text": "La criatura objetivo obtiene -13/-13 hasta el final del turno. Si esa criatura fuera a morir este turno, en vez de eso, exíliala.",
+            "type": "Instantáneo",
+            "uuid": "5a2a4ecf-68cd-592b-832b-9fe092b2182c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305552",
           "cardsphereId": "131164",
@@ -849,6 +929,7 @@
         "name": "Bleed Dry",
         "number": "404",
         "originalText": "Target creature gets -13/-13 until end of turn. If that creature would die this turn, exile it instead.",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "J25",
@@ -867,9 +948,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "dcdd6cdf-025d-58d6-af2d-49ef5fd4787d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -899,39 +985,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18638,
+        "edhrecRank": 18946,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"You've heard that a vampire can't enter a home without an invitation? A lie meant to help you sleep at night.\"\n—Kerin, watch sergeant",
         "foreignData": [
-          {
-            "flavorText": "„Man hat dir erzählt, ein Vampir könne dein Haus ohne Einladung nicht betreten? Eine Lüge, damit du nachts besser schlafen kannst.\"\n—Kerin, Feldwebel der Wache",
-            "identifiers": {
-              "multiverseId": "681993",
-              "scryfallId": "e29e9b75-d149-4d32-b3be-f9e3a4aa13f5"
-            },
-            "language": "German",
-            "multiverseId": 681993,
-            "name": "Bluträuber",
-            "text": "Solange es dein Zug ist, hat der Bluträuber Lebensverknüpfung. (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)",
-            "type": "Kreatur — Vampir, Räuber",
-            "uuid": "e4925b70-a931-50b2-8098-b5c6e01f76b3"
-          },
-          {
-            "flavorText": "\"¿Sabes eso que dicen que un vampiro no puede entrar sin que lo inviten? No es más que una patraña para que duermas en paz\".\n—Kerin, sargento de la guardia",
-            "identifiers": {
-              "multiverseId": "682110",
-              "scryfallId": "8f845053-13fc-41e4-abe8-765ef188a4b6"
-            },
-            "language": "Spanish",
-            "multiverseId": 682110,
-            "name": "Ladrón de sangre",
-            "text": "Mientras sea tu turno, el Ladrón de sangre tiene la habilidad de vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)",
-            "type": "Criatura — Bribón vampiro",
-            "uuid": "717324cf-e1ab-5701-a6b5-cb9c6f214f12"
-          },
           {
             "flavorText": "« On vous a dit qu'un vampire ne pouvait pas entrer chez vous sans y avoir été invité ? C'était un mensonge pour vous aider à dormir la nuit. »\n—Kerin, sergente de garde",
             "identifiers": {
@@ -941,9 +1001,28 @@
             "language": "French",
             "multiverseId": 682227,
             "name": "Cambrioleur de sang",
+            "skuIds": {
+              "nonfoil": "662a50cb-ac2a-5c10-93aa-f2111e8f0fec"
+            },
             "text": "Tant que c'est votre tour, le Cambrioleur de sang a le lien de vie. (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)",
             "type": "Créature — vampire et gredin",
             "uuid": "ff5ae624-fbdf-5b84-91b5-cf04ab1367d1"
+          },
+          {
+            "flavorText": "„Man hat dir erzählt, ein Vampir könne dein Haus ohne Einladung nicht betreten? Eine Lüge, damit du nachts besser schlafen kannst.\"\n—Kerin, Feldwebel der Wache",
+            "identifiers": {
+              "multiverseId": "681993",
+              "scryfallId": "e29e9b75-d149-4d32-b3be-f9e3a4aa13f5"
+            },
+            "language": "German",
+            "multiverseId": 681993,
+            "name": "Bluträuber",
+            "skuIds": {
+              "nonfoil": "7c758494-7a7b-5b04-a836-a6e8ffca8484"
+            },
+            "text": "Solange es dein Zug ist, hat der Bluträuber Lebensverknüpfung. (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)",
+            "type": "Kreatur — Vampir, Räuber",
+            "uuid": "e4925b70-a931-50b2-8098-b5c6e01f76b3"
           },
           {
             "flavorText": "\"Avete sentito dire che un vampiro non può entrare in una casa senza invito? Una piccola bugia per farvi dormire la notte.\"\n—Kerin, sergente di guardia",
@@ -954,6 +1033,9 @@
             "language": "Italian",
             "multiverseId": 682344,
             "name": "Depredatore di Sangue",
+            "skuIds": {
+              "nonfoil": "f78f0d59-8afe-5cbc-b68b-df0e69d06311"
+            },
             "text": "Fintanto che è il tuo turno, il Depredatore di Sangue ha legame vitale. (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)",
             "type": "Creatura — Farabutto Vampiro",
             "uuid": "435431d8-b3f3-59b0-8430-ac0bbb30c0c9"
@@ -967,14 +1049,31 @@
             "language": "Japanese",
             "multiverseId": 682461,
             "name": "血の強盗",
+            "skuIds": {
+              "nonfoil": "5e2e4823-a655-5d81-9bb5-a0601130122f"
+            },
             "text": "あなたのターンであるかぎり、血の強盗は絆魂を持つ。（このクリーチャーがダメージを与えると、さらにあなたはその点数分のライフを得る。）",
             "type": "クリーチャー — 吸血鬼・ならず者",
             "uuid": "d637a2ac-f68f-54c9-856a-d96d7eef2430"
+          },
+          {
+            "flavorText": "\"¿Sabes eso que dicen que un vampiro no puede entrar sin que lo inviten? No es más que una patraña para que duermas en paz\".\n—Kerin, sargento de la guardia",
+            "identifiers": {
+              "multiverseId": "682110",
+              "scryfallId": "8f845053-13fc-41e4-abe8-765ef188a4b6"
+            },
+            "language": "Spanish",
+            "multiverseId": 682110,
+            "name": "Ladrón de sangre",
+            "skuIds": {
+              "nonfoil": "cf33b059-6255-595d-9af8-9b30cb742712"
+            },
+            "text": "Mientras sea tu turno, el Ladrón de sangre tiene la habilidad de vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)",
+            "type": "Criatura — Bribón vampiro",
+            "uuid": "717324cf-e1ab-5701-a6b5-cb9c6f214f12"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305554",
           "cardsphereId": "131166",
@@ -1015,6 +1114,7 @@
         "name": "Blood Burglar",
         "number": "406",
         "originalText": "As long as it's your turn, Blood Burglar has lifelink. (Damage dealt by this creature also causes you to gain that much life.)",
+        "originalType": "Creature – Vampire Rogue",
         "power": "2",
         "printings": [
           "J25",
@@ -1027,9 +1127,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "44f9b9af-5d93-5fc4-939d-d86ead4c59d3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1063,36 +1168,12 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 7802,
+        "edhrecRank": 7820,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681994",
-              "scryfallId": "bacb825f-e7fc-4e17-87e1-8d90b4be4cd8"
-            },
-            "language": "German",
-            "multiverseId": 681994,
-            "name": "Blutbrunnen",
-            "text": "Wenn der Blutbrunnen ins Spiel kommt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\n{3}{B}, {T}, opfere den Blutbrunnen: Bringe bis zu zwei Kreaturenkarten deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
-            "type": "Artefakt",
-            "uuid": "f9084541-f2d9-5120-b028-98d44c702de8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682111",
-              "scryfallId": "4c7b2317-257e-4b28-85db-56ec7aed13e6"
-            },
-            "language": "Spanish",
-            "multiverseId": 682111,
-            "name": "Fuente de sangre",
-            "text": "Cuando la Fuente de sangre entre, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\n{3}{B}, {T}, sacrificar la Fuente de sangre: Regresa hasta dos cartas de criatura objetivo de tu cementerio a tu mano.",
-            "type": "Artefacto",
-            "uuid": "998ab9eb-2870-5273-8206-1122dc1e5306"
-          },
           {
             "identifiers": {
               "multiverseId": "682228",
@@ -1101,9 +1182,27 @@
             "language": "French",
             "multiverseId": 682228,
             "name": "Fontaine de sang",
+            "skuIds": {
+              "nonfoil": "31272346-5ef7-56ef-a88a-896ef311c892"
+            },
             "text": "Quand la Fontaine de sang arrive, créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)\n{3}{B}, {T}, sacrifiez la Fontaine de sang : Renvoyez jusqu'à deux cartes de créature ciblées depuis votre cimetière dans votre main.",
             "type": "Artefact",
             "uuid": "54e09121-8138-5b55-b52e-13d85dc33886"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681994",
+              "scryfallId": "bacb825f-e7fc-4e17-87e1-8d90b4be4cd8"
+            },
+            "language": "German",
+            "multiverseId": 681994,
+            "name": "Blutbrunnen",
+            "skuIds": {
+              "nonfoil": "ff051ab4-91b8-5ef4-a533-3ea407103c5f"
+            },
+            "text": "Wenn der Blutbrunnen ins Spiel kommt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\n{3}{B}, {T}, opfere den Blutbrunnen: Bringe bis zu zwei Kreaturenkarten deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
+            "type": "Artefakt",
+            "uuid": "f9084541-f2d9-5120-b028-98d44c702de8"
           },
           {
             "identifiers": {
@@ -1113,6 +1212,9 @@
             "language": "Italian",
             "multiverseId": 682345,
             "name": "Fontana di Sangue",
+            "skuIds": {
+              "nonfoil": "403fcd00-651a-51fc-8f58-d546987e2843"
+            },
             "text": "Quando la Fontana di Sangue entra, crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)\n{3}{B}, {T}, Sacrifica la Fontana di Sangue: Riprendi in mano fino a due carte creatura bersaglio dal tuo cimitero.",
             "type": "Artefatto",
             "uuid": "6e9fc744-a6a4-566f-a7d6-cbb649eee67b"
@@ -1125,14 +1227,30 @@
             "language": "Japanese",
             "multiverseId": 682462,
             "name": "血の泉",
+            "skuIds": {
+              "nonfoil": "39b57f45-b288-597f-9862-65c6629f6b3d"
+            },
             "text": "血の泉が戦場に出たとき、血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）\n{3}{B}, {T}, 血の泉を生け贄に捧げる：あなたの墓地にあるクリーチャー・カード最大２枚を対象とする。それらをあなたの手札に戻す。",
             "type": "アーティファクト",
             "uuid": "d7bfff8f-d22d-565d-8f17-3ec6732591da"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682111",
+              "scryfallId": "4c7b2317-257e-4b28-85db-56ec7aed13e6"
+            },
+            "language": "Spanish",
+            "multiverseId": 682111,
+            "name": "Fuente de sangre",
+            "skuIds": {
+              "nonfoil": "4b89200b-1cd5-5477-b927-6ccdb0b2f38f"
+            },
+            "text": "Cuando la Fuente de sangre entre, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\n{3}{B}, {T}, sacrificar la Fuente de sangre: Regresa hasta dos cartas de criatura objetivo de tu cementerio a tu mano.",
+            "type": "Artefacto",
+            "uuid": "998ab9eb-2870-5273-8206-1122dc1e5306"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305555",
           "cardsphereId": "131167",
@@ -1173,6 +1291,7 @@
         "name": "Blood Fountain",
         "number": "407",
         "originalText": "When Blood Fountain enters, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\n{3}{B}, {T}, Sacrifice Blood Fountain: Return up to two target creature cards from your graveyard to your hand.",
+        "originalType": "Artifact",
         "printings": [
           "DBL",
           "J25",
@@ -1185,6 +1304,11 @@
           "tcgplayer": "https://mtgjson.com/links/dd9b342d4ae8accb"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -1200,9 +1324,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0ec75f5a-817a-5a0d-8787-eb949d0f0e77"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1232,39 +1361,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 18932,
+        "edhrecRank": 19188,
         "edhrecSaltiness": 0.65,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "For the more refined vampire, breaking a victim's will is far more satisfying than simply taking their blood.",
         "foreignData": [
-          {
-            "flavorText": "Für die kultivierteren Vampire ist es wesentlich befriedigender, den Willen eines Opfers zu brechen, als nur sein Blut zu trinken.",
-            "identifiers": {
-              "multiverseId": "681997",
-              "scryfallId": "9033f0aa-9d6c-4796-b20f-c3dc0b27b41f"
-            },
-            "language": "German",
-            "multiverseId": 681997,
-            "name": "Blutzehnt-Eintreiberin",
-            "text": "Fliegend\nWenn die Blutzehnt-Eintreiberin ins Spiel kommt und falls ein Gegner in diesem Zug Lebenspunkte verloren hat, wirft jeder Gegner eine Karte ab.",
-            "type": "Kreatur — Vampir, Adliger",
-            "uuid": "3ac1b50e-4034-50b1-978f-9dae7fdfdeff"
-          },
-          {
-            "flavorText": "Para los vampiros más refinados, doblegar la voluntad de una víctima es mucho más satisfactorio que simplemente arrebatarle la sangre.",
-            "identifiers": {
-              "multiverseId": "682114",
-              "scryfallId": "5666854f-e418-49cd-b1b1-4d640294753a"
-            },
-            "language": "Spanish",
-            "multiverseId": 682114,
-            "name": "Recolectora de diezmos de sangre",
-            "text": "Vuela.\nCuando la Recolectora de diezmos de sangre entre, si un oponente perdió vidas este turno, cada oponente descarta una carta.",
-            "type": "Criatura — Noble vampiro",
-            "uuid": "06ec04b9-ef28-59bf-9d72-b7328e80af4b"
-          },
           {
             "flavorText": "Chez les vampires plus raffinés, briser la volonté d'une victime est bien plus satisfaisant que de se contenter de boire son sang.",
             "identifiers": {
@@ -1274,9 +1377,28 @@
             "language": "French",
             "multiverseId": 682231,
             "name": "Collectrice de la dîme de sang",
+            "skuIds": {
+              "nonfoil": "22c49877-78e3-5ffb-bb91-3b145fe95d20"
+            },
             "text": "Vol\nQuand la Collectrice de la dîme de sang arrive, si un adversaire a perdu des points de vie ce tour-ci, chaque adversaire se défausse d'une carte.",
             "type": "Créature — vampire et noble",
             "uuid": "671ad1bb-e3e4-5abd-ac4e-24b1f2b63fb6"
+          },
+          {
+            "flavorText": "Für die kultivierteren Vampire ist es wesentlich befriedigender, den Willen eines Opfers zu brechen, als nur sein Blut zu trinken.",
+            "identifiers": {
+              "multiverseId": "681997",
+              "scryfallId": "9033f0aa-9d6c-4796-b20f-c3dc0b27b41f"
+            },
+            "language": "German",
+            "multiverseId": 681997,
+            "name": "Blutzehnt-Eintreiberin",
+            "skuIds": {
+              "nonfoil": "8ae3516e-e777-5bf2-82cb-8d55a0c11598"
+            },
+            "text": "Fliegend\nWenn die Blutzehnt-Eintreiberin ins Spiel kommt und falls ein Gegner in diesem Zug Lebenspunkte verloren hat, wirft jeder Gegner eine Karte ab.",
+            "type": "Kreatur — Vampir, Adliger",
+            "uuid": "3ac1b50e-4034-50b1-978f-9dae7fdfdeff"
           },
           {
             "flavorText": "Per i vampiri più raffinati, spezzare la forza di volontà delle vittime è più soddisfacente che berne il sangue.",
@@ -1287,6 +1409,9 @@
             "language": "Italian",
             "multiverseId": 682348,
             "name": "Esattrice di Offerte di Sangue",
+            "skuIds": {
+              "nonfoil": "dbaf9949-cba5-5980-b96c-90ee94d4abf2"
+            },
             "text": "Volare\nQuando l'Esattrice di Offerte di Sangue entra, se un avversario ha perso punti vita in questo turno, ogni avversario scarta una carta.",
             "type": "Creatura — Nobile Vampiro",
             "uuid": "39e8218e-f22f-5a2f-a3ec-78aaa68a4104"
@@ -1300,14 +1425,31 @@
             "language": "Japanese",
             "multiverseId": 682465,
             "name": "税血の徴収者",
+            "skuIds": {
+              "nonfoil": "c53bfe02-6c61-5385-a570-8137bd06f9eb"
+            },
             "text": "飛行\n税血の徴収者が戦場に出たとき、このターンに対戦相手がライフを失っていた場合、各対戦相手はそれぞれカード１枚を捨てる。",
             "type": "クリーチャー — 吸血鬼・貴族",
             "uuid": "26083a5c-76fc-5acb-b95d-bfcbda818ead"
+          },
+          {
+            "flavorText": "Para los vampiros más refinados, doblegar la voluntad de una víctima es mucho más satisfactorio que simplemente arrebatarle la sangre.",
+            "identifiers": {
+              "multiverseId": "682114",
+              "scryfallId": "5666854f-e418-49cd-b1b1-4d640294753a"
+            },
+            "language": "Spanish",
+            "multiverseId": 682114,
+            "name": "Recolectora de diezmos de sangre",
+            "skuIds": {
+              "nonfoil": "240d8230-0c80-5e79-9653-23249d693140"
+            },
+            "text": "Vuela.\nCuando la Recolectora de diezmos de sangre entre, si un oponente perdió vidas este turno, cada oponente descarta una carta.",
+            "type": "Criatura — Noble vampiro",
+            "uuid": "06ec04b9-ef28-59bf-9d72-b7328e80af4b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305558",
           "cardsphereId": "131170",
@@ -1353,6 +1495,7 @@
         "name": "Bloodtithe Collector",
         "number": "410",
         "originalText": "Flying\nWhen Bloodtithe Collector enters, if an opponent lost life this turn, each opponent discards a card.",
+        "originalType": "Creature – Vampire Noble",
         "power": "3",
         "printings": [
           "DBL",
@@ -1373,9 +1516,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cf9c5b9b-b853-5122-b1ba-8f105d8b95e5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1409,39 +1557,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 13641,
+        "edhrecRank": 14072,
         "edhrecSaltiness": 0.6,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"You are one of the few to whom we offer our blessing. What fool would reject immortality?\"\n—Runo Stromkirk",
         "foreignData": [
-          {
-            "flavorText": "„Du bist einer der wenigen, denen wir unseren Segen geben. Welcher Narr würde die Unsterblichkeit ablehnen?\"\n—Runo Stromkirch",
-            "identifiers": {
-              "multiverseId": "682031",
-              "scryfallId": "b11625ad-42c4-4c12-a755-69f3341b46a0"
-            },
-            "language": "German",
-            "multiverseId": 682031,
-            "name": "Gabe der Vampirzähne",
-            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +2/+2, solange sie ein Vampir ist. Anderenfalls erhält sie -2/-2.",
-            "type": "Verzauberung — Aura",
-            "uuid": "61993c43-1ba6-5a13-bae2-e5dcfbc12ba7"
-          },
-          {
-            "flavorText": "\"Eres uno de los pocos a los que otorgamos nuestra bendición. ¿Qué necio rechazaría la inmortalidad?\".\n—Runo Stromkirk",
-            "identifiers": {
-              "multiverseId": "682148",
-              "scryfallId": "26ff261c-a5d2-448d-a532-2329e1a88e11"
-            },
-            "language": "Spanish",
-            "multiverseId": 682148,
-            "name": "Obsequio de los colmillos",
-            "text": "Encantar criatura.\nLa criatura encantada obtiene +2/+2 mientras sea un Vampiro. De lo contrario, obtiene -2/-2.",
-            "type": "Encantamiento — Aura",
-            "uuid": "d50fdce7-c38e-5fd6-9348-39094aeeed2b"
-          },
           {
             "flavorText": "« Vous êtes l'un des rares à qui nous offrons notre bénédiction. Quel imbécile oserait refuser l'immortalité ? »\n—Runo Stromkirk",
             "identifiers": {
@@ -1451,9 +1573,28 @@
             "language": "French",
             "multiverseId": 682265,
             "name": "Don de crocs",
+            "skuIds": {
+              "nonfoil": "d8ac1a92-c32c-5944-b568-fc9035afba5d"
+            },
             "text": "Enchanter : créature\nLa créature enchantée gagne +2/+2 tant qu'elle est un vampire. Sinon, elle gagne -2/-2.",
             "type": "Enchantement — aura",
             "uuid": "1152e7eb-fc31-59e1-949f-b5dc3478b08b"
+          },
+          {
+            "flavorText": "„Du bist einer der wenigen, denen wir unseren Segen geben. Welcher Narr würde die Unsterblichkeit ablehnen?\"\n—Runo Stromkirch",
+            "identifiers": {
+              "multiverseId": "682031",
+              "scryfallId": "b11625ad-42c4-4c12-a755-69f3341b46a0"
+            },
+            "language": "German",
+            "multiverseId": 682031,
+            "name": "Gabe der Vampirzähne",
+            "skuIds": {
+              "nonfoil": "e4f98230-3ca7-5834-8367-03dbcf6c6840"
+            },
+            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +2/+2, solange sie ein Vampir ist. Anderenfalls erhält sie -2/-2.",
+            "type": "Verzauberung — Aura",
+            "uuid": "61993c43-1ba6-5a13-bae2-e5dcfbc12ba7"
           },
           {
             "flavorText": "\"Ti offriamo la nostra benedizione, è un privilegio riservato a pochi. Quale folle rinuncerebbe all'immortalità?\"\n—Runo Stromkirk",
@@ -1464,6 +1605,9 @@
             "language": "Italian",
             "multiverseId": 682382,
             "name": "Dono dei Canini",
+            "skuIds": {
+              "nonfoil": "6668ca1f-e835-5e78-9f47-910c179c7a65"
+            },
             "text": "Incanta creatura\nLa creatura incantata prende +2/+2 fintanto che è un Vampiro. Altrimenti, prende -2/-2.",
             "type": "Incantesimo — Aura",
             "uuid": "18e81b16-80a8-5eb0-904b-caf57cec0014"
@@ -1477,14 +1621,31 @@
             "language": "Japanese",
             "multiverseId": 682499,
             "name": "牙の天稟",
+            "skuIds": {
+              "nonfoil": "5a5a53b8-efcf-5f9d-b040-db8efc7c132c"
+            },
             "text": "エンチャント（クリーチャー）\nエンチャントしているクリーチャーは、それが吸血鬼であるかぎり＋２/＋２の修整を受ける。そうでないなら、それは－２/－２の修整を受ける。",
             "type": "エンチャント — オーラ",
             "uuid": "38170a56-c8c3-5b48-9ef3-21a13a94ee70"
+          },
+          {
+            "flavorText": "\"Eres uno de los pocos a los que otorgamos nuestra bendición. ¿Qué necio rechazaría la inmortalidad?\".\n—Runo Stromkirk",
+            "identifiers": {
+              "multiverseId": "682148",
+              "scryfallId": "26ff261c-a5d2-448d-a532-2329e1a88e11"
+            },
+            "language": "Spanish",
+            "multiverseId": 682148,
+            "name": "Obsequio de los colmillos",
+            "skuIds": {
+              "nonfoil": "3aef2c13-040a-50b5-a5d8-d4fbc01676a2"
+            },
+            "text": "Encantar criatura.\nLa criatura encantada obtiene +2/+2 mientras sea un Vampiro. De lo contrario, obtiene -2/-2.",
+            "type": "Encantamiento — Aura",
+            "uuid": "d50fdce7-c38e-5fd6-9348-39094aeeed2b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305783",
           "cardsphereId": "131251",
@@ -1528,6 +1689,7 @@
         "name": "Gift of Fangs",
         "number": "444",
         "originalText": "Enchant creature\nEnchanted creature gets +2/+2 as long as it's a Vampire. Otherwise, it gets -2/-2.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "DBL",
           "J25",
@@ -1540,9 +1702,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a92f53c9-4dc0-5c01-b3f4-dc16c39278a8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1574,36 +1741,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 9724,
+        "edhrecRank": 9783,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682032",
-              "scryfallId": "e1d2d315-1424-4dfc-a8ef-e2703af56bb6"
-            },
-            "language": "German",
-            "multiverseId": 682032,
-            "name": "Unersättlicher Gast",
-            "text": "Wenn der Unersättliche Gast ins Spiel kommt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du einen Blut-Spielstein opferst, erhältst du 1 Lebenspunkt dazu.",
-            "type": "Kreatur — Vampir",
-            "uuid": "bc823f55-acc4-5f2e-8b8c-a3a01b891ce5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682149",
-              "scryfallId": "2ba70a4b-112d-4baf-951b-fc4f9c91b389"
-            },
-            "language": "Spanish",
-            "multiverseId": 682149,
-            "name": "Invitada glotona",
-            "text": "Cuando la Invitada glotona entre, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\nSiempre que sacrifiques una ficha de Sangre, ganas 1 vida.",
-            "type": "Criatura — Vampiro",
-            "uuid": "e97fd71a-1a4a-501a-9f25-8a12680a3c3a"
-          },
           {
             "identifiers": {
               "multiverseId": "682266",
@@ -1612,9 +1755,27 @@
             "language": "French",
             "multiverseId": 682266,
             "name": "Convive gloutonne",
+            "skuIds": {
+              "nonfoil": "1738bcf7-c514-5d32-ae17-bf8460be55b4"
+            },
             "text": "Quand la Convive gloutonne arrive, créez un jeton Sang. (C'est un artefact avec « {1}, {T}, défaussez-vous d'une carte, sacrifiez cet artefact : Piochez une carte. »)\nÀ chaque fois que vous sacrifiez un jeton Sang, vous gagnez 1 point de vie.",
             "type": "Créature — vampire",
             "uuid": "ce95fa1f-4280-56e4-85bb-4af02628a8c4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682032",
+              "scryfallId": "e1d2d315-1424-4dfc-a8ef-e2703af56bb6"
+            },
+            "language": "German",
+            "multiverseId": 682032,
+            "name": "Unersättlicher Gast",
+            "skuIds": {
+              "nonfoil": "59005c6b-cadc-5f47-9a9b-b678f7437940"
+            },
+            "text": "Wenn der Unersättliche Gast ins Spiel kommt, erzeuge einen Blut-Spielstein. (Er ist ein Artefakt mit „{1}, {T}, wirf eine Karte ab, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du einen Blut-Spielstein opferst, erhältst du 1 Lebenspunkt dazu.",
+            "type": "Kreatur — Vampir",
+            "uuid": "bc823f55-acc4-5f2e-8b8c-a3a01b891ce5"
           },
           {
             "identifiers": {
@@ -1624,6 +1785,9 @@
             "language": "Italian",
             "multiverseId": 682383,
             "name": "Invitata Ingorda",
+            "skuIds": {
+              "nonfoil": "0a33214d-22d7-5de0-8411-3b1c3968472a"
+            },
             "text": "Quando l'Invitata Ingorda entra, crea una pedina Sangue. (È un artefatto con \"{1}, {T}, Scarta una carta, Sacrifica questo artefatto: Pesca una carta\".)\nOgniqualvolta sacrifichi una pedina Sangue, guadagni 1 punto vita.",
             "type": "Creatura — Vampiro",
             "uuid": "5afd55b9-b224-508f-b405-0e4d9520e1ef"
@@ -1636,14 +1800,30 @@
             "language": "Japanese",
             "multiverseId": 682500,
             "name": "大食の客人",
+            "skuIds": {
+              "nonfoil": "a5ede10d-1bbc-5e93-a7d4-efc9224630ae"
+            },
             "text": "大食の客人が戦場に出たとき、血・トークン１つを生成する。（それは「{1}, {T}, カード１枚を捨てる, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）\nあなたが血・トークン１つを生け贄に捧げるたび、１点のライフを得る。",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "abda0cb4-2d23-5c62-b302-f8eba91d5652"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682149",
+              "scryfallId": "2ba70a4b-112d-4baf-951b-fc4f9c91b389"
+            },
+            "language": "Spanish",
+            "multiverseId": 682149,
+            "name": "Invitada glotona",
+            "skuIds": {
+              "nonfoil": "9b86ad1f-1126-54a3-8fd8-975ff953a5d1"
+            },
+            "text": "Cuando la Invitada glotona entre, crea una ficha de Sangre. (Es un artefacto con \"{1}, {T}, descartar una carta, sacrificar este artefacto: Roba una carta\".)\nSiempre que sacrifiques una ficha de Sangre, ganas 1 vida.",
+            "type": "Criatura — Vampiro",
+            "uuid": "e97fd71a-1a4a-501a-9f25-8a12680a3c3a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305784",
           "cardsphereId": "131250",
@@ -1684,6 +1864,7 @@
         "name": "Gluttonous Guest",
         "number": "445",
         "originalText": "When Gluttonous Guest enters, create a Blood token. (It's an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Blood token, you gain 1 life.",
+        "originalType": "Creature – Vampire",
         "power": "1",
         "printings": [
           "DBL",
@@ -1697,6 +1878,11 @@
           "tcgplayer": "https://mtgjson.com/links/41f9b65f7babf846"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "3a52a1b5-c7c6-5b34-b8d8-2d794b499785"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -1712,9 +1898,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a56ff9fc-f185-5548-ad81-411cbeaf5d43"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1747,36 +1938,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 10617,
+        "edhrecRank": 11110,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682089",
-              "scryfallId": "6bb856f9-484e-47bc-a1b8-e1858a1167fa"
-            },
-            "language": "German",
-            "multiverseId": 682089,
-            "name": "Drang zu trinken",
-            "text": "Eine Kreatur deiner Wahl erhält -3/-3 bis zum Ende des Zuges. Du kannst eine beliebige Anzahl an ungetappten Vampir-Kreaturen, die du kontrollierst, tappen. Falls du dies tust, lege auf jeden der Vampire eine +1/+1-Marke.",
-            "type": "Spontanzauber",
-            "uuid": "62af54e8-4500-5981-9f17-d90e9b6c406b"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682206",
-              "scryfallId": "6762c481-7055-491c-af84-f6f9d101cafd"
-            },
-            "language": "Spanish",
-            "multiverseId": 682206,
-            "name": "Impulso alimenticio",
-            "text": "La criatura objetivo obtiene -3/-3 hasta el final del turno. Puedes girar cualquier cantidad de criaturas Vampiro enderezadas que controles. Si lo haces, pon un contador +1/+1 sobre cada uno de esos Vampiros.",
-            "type": "Instantáneo",
-            "uuid": "4664108d-7eeb-5d34-9967-2c4728efce9e"
-          },
           {
             "identifiers": {
               "multiverseId": "682323",
@@ -1785,9 +1952,27 @@
             "language": "French",
             "multiverseId": 682323,
             "name": "Pulsion d'appétence",
+            "skuIds": {
+              "nonfoil": "f77b9655-2da3-5726-9509-f43a1c5ad212"
+            },
             "text": "Une créature ciblée gagne -3/-3 jusqu'à la fin du tour. Vous pouvez engager n'importe quel nombre de créatures Vampire dégagées que vous contrôlez. Si vous faites ainsi, mettez un marqueur +1/+1 sur chacun de ces vampires.",
             "type": "Éphémère",
             "uuid": "f16bf19a-db52-57a4-a363-cafb07e4e3e0"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682089",
+              "scryfallId": "6bb856f9-484e-47bc-a1b8-e1858a1167fa"
+            },
+            "language": "German",
+            "multiverseId": 682089,
+            "name": "Drang zu trinken",
+            "skuIds": {
+              "nonfoil": "2ea9c616-f2d4-5c89-ae4c-22ce3cd004c4"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -3/-3 bis zum Ende des Zuges. Du kannst eine beliebige Anzahl an ungetappten Vampir-Kreaturen, die du kontrollierst, tappen. Falls du dies tust, lege auf jeden der Vampire eine +1/+1-Marke.",
+            "type": "Spontanzauber",
+            "uuid": "62af54e8-4500-5981-9f17-d90e9b6c406b"
           },
           {
             "identifiers": {
@@ -1797,6 +1982,9 @@
             "language": "Italian",
             "multiverseId": 682440,
             "name": "Impulso a Nutrirsi",
+            "skuIds": {
+              "nonfoil": "3ced8737-44df-594f-8722-2867e6168859"
+            },
             "text": "Una creatura bersaglio prende -3/-3 fino alla fine del turno. Puoi TAPpare un qualsiasi numero di creature Vampiro STAPpate che controlli. Se lo fai, metti un segnalino +1/+1 su ciascuno di quei Vampiri.",
             "type": "Istantaneo",
             "uuid": "502510ba-8f84-5ee3-9de4-d36c47f5fe69"
@@ -1809,14 +1997,30 @@
             "language": "Japanese",
             "multiverseId": 682557,
             "name": "食餌の衝動",
+            "skuIds": {
+              "nonfoil": "c038cdd4-c845-5746-a32b-4b018eab3d90"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－３/－３の修整を受ける。あなたがコントロールしていてアンタップ状態である、望む数の吸血鬼・クリーチャーをタップしてもよい。そうしたなら、それらの各吸血鬼の上に、それぞれ＋１/＋１カウンター１個を置く。",
             "type": "インスタント",
             "uuid": "d348291d-bbeb-5a75-bd27-0d611cce5ab4"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682206",
+              "scryfallId": "6762c481-7055-491c-af84-f6f9d101cafd"
+            },
+            "language": "Spanish",
+            "multiverseId": 682206,
+            "name": "Impulso alimenticio",
+            "skuIds": {
+              "nonfoil": "99b917c5-75ec-5201-88b4-750459a4acdd"
+            },
+            "text": "La criatura objetivo obtiene -3/-3 hasta el final del turno. Puedes girar cualquier cantidad de criaturas Vampiro enderezadas que controles. Si lo haces, pon un contador +1/+1 sobre cada uno de esos Vampiros.",
+            "type": "Instantáneo",
+            "uuid": "4664108d-7eeb-5d34-9967-2c4728efce9e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305841",
           "cardsphereId": "131184",
@@ -1855,6 +2059,7 @@
         "name": "Urge to Feed",
         "number": "502",
         "originalText": "Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.",
+        "originalType": "Instant",
         "printings": [
           "DDK",
           "E02",
@@ -1883,9 +2088,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "677f94b7-9c6e-59e8-b3de-a061855d9877"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1915,39 +2125,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 3241,
+        "edhrecRank": 3327,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"This place suits me: craven authorities and plentiful prey.\"",
         "foreignData": [
-          {
-            "flavorText": "„Dieser Ort ist wie für mich gemacht: eine feige Obrigkeit und Beute in rauen Mengen.\"",
-            "identifiers": {
-              "multiverseId": "682091",
-              "scryfallId": "df1fd4e9-cd4c-4af8-a82c-91b0a381817b"
-            },
-            "language": "German",
-            "multiverseId": 682091,
-            "name": "Düstermond-Vampirin",
-            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)\nLebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)",
-            "type": "Kreatur — Vampir",
-            "uuid": "0293429e-b451-5005-9d15-253b2d8831ed"
-          },
-          {
-            "flavorText": "\"Este lugar me conviene: gobernantes cobardes y multitud de presas\".",
-            "identifiers": {
-              "multiverseId": "682208",
-              "scryfallId": "73ad7d75-b036-4bf2-8666-c0e79492c66e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682208,
-            "name": "Vampira de la Luna Funesta",
-            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)\nVínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)",
-            "type": "Criatura — Vampiro",
-            "uuid": "d47a5283-f0a5-5e22-aa44-fdf78e36e80f"
-          },
           {
             "flavorText": "« Cet endroit me convient : une police lâche et des proies à foison. »",
             "identifiers": {
@@ -1957,9 +2141,28 @@
             "language": "French",
             "multiverseId": 682325,
             "name": "Vampire de la lune sinistre",
+            "skuIds": {
+              "nonfoil": "5313b2c1-8a1e-5764-8284-2ec0d06bd147"
+            },
             "text": "Contact mortel (Le nombre de blessures que cette créature inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)\nLien de vie (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)",
             "type": "Créature — vampire",
             "uuid": "32851a97-c9f2-589b-a440-bdfced82ddb4"
+          },
+          {
+            "flavorText": "„Dieser Ort ist wie für mich gemacht: eine feige Obrigkeit und Beute in rauen Mengen.\"",
+            "identifiers": {
+              "multiverseId": "682091",
+              "scryfallId": "df1fd4e9-cd4c-4af8-a82c-91b0a381817b"
+            },
+            "language": "German",
+            "multiverseId": 682091,
+            "name": "Düstermond-Vampirin",
+            "skuIds": {
+              "nonfoil": "936360d8-9f6a-5f0a-9120-5573ebac1ea9"
+            },
+            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)\nLebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)",
+            "type": "Kreatur — Vampir",
+            "uuid": "0293429e-b451-5005-9d15-253b2d8831ed"
           },
           {
             "flavorText": "\"Questo posto mi si addice: autorità codarde e prede in abbondanza.\"",
@@ -1970,6 +2173,9 @@
             "language": "Italian",
             "multiverseId": 682442,
             "name": "Vampira della Luna Funesta",
+            "skuIds": {
+              "nonfoil": "d2af5bfc-8d1f-571c-b7db-058c7a41e71f"
+            },
             "text": "Tocco letale (Qualsiasi danno che questa creatura infligge a una creatura è sufficiente a distruggerla.)\nLegame vitale (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)",
             "type": "Creatura — Vampiro",
             "uuid": "0487e548-3a83-58bb-b60f-a914f6ce4d12"
@@ -1983,14 +2189,31 @@
             "language": "Japanese",
             "multiverseId": 682559,
             "name": "凶月の吸血鬼",
+            "skuIds": {
+              "nonfoil": "5221c338-2019-57ff-bc8a-c52d2fcba62f"
+            },
             "text": "接死（これが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）\n絆魂（このクリーチャーがダメージを与えると、さらにあなたはその点数分のライフを得る。）",
             "type": "クリーチャー — 吸血鬼",
             "uuid": "e4b32ae1-94ba-53d1-99ee-59c7393d06df"
+          },
+          {
+            "flavorText": "\"Este lugar me conviene: gobernantes cobardes y multitud de presas\".",
+            "identifiers": {
+              "multiverseId": "682208",
+              "scryfallId": "73ad7d75-b036-4bf2-8666-c0e79492c66e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682208,
+            "name": "Vampira de la Luna Funesta",
+            "skuIds": {
+              "nonfoil": "d82f75f6-61a4-5610-b584-f570b51f791b"
+            },
+            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)\nVínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)",
+            "type": "Criatura — Vampiro",
+            "uuid": "d47a5283-f0a5-5e22-aa44-fdf78e36e80f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305843",
           "cardsphereId": "131180",
@@ -2033,6 +2256,7 @@
         "name": "Vampire of the Dire Moon",
         "number": "504",
         "originalText": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nLifelink (Damage dealt by this creature also causes you to gain that much life.)",
+        "originalType": "Creature – Vampire",
         "power": "1",
         "printings": [
           "J25",
@@ -2046,9 +2270,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c4121e47-6d98-5dbe-ba73-80193cdd4a48"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2079,39 +2308,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
-          {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
-            "identifiers": {
-              "multiverseId": "684060",
-              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
-            },
-            "language": "German",
-            "multiverseId": 684060,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "684099",
-              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684099,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
-          },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
             "identifiers": {
@@ -2121,9 +2324,28 @@
             "language": "French",
             "multiverseId": 684138,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "add59bbe-0b4b-5e14-9a6a-47bf39042209"
+            },
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "684060",
+              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
+            },
+            "language": "German",
+            "multiverseId": 684060,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "afbea6f1-e976-504e-b830-36843d57a647"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2134,6 +2356,9 @@
             "language": "Italian",
             "multiverseId": 684177,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "01ccf6ce-a9b3-5200-950b-077f06168b6c"
+            },
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
@@ -2147,14 +2372,31 @@
             "language": "Japanese",
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "66dadb12-235f-57b1-8a05-6ca3b2f2374f"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
+          },
+          {
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
+            "identifiers": {
+              "multiverseId": "684099",
+              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684099,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "2fc2ec38-fc7e-549d-bddc-8eccb2fc0db9"
+            },
+            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306118",
           "cardsphereId": "130620",
@@ -2192,11 +2434,13 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2204,7 +2448,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ea3b0ea9ac38ec4",
@@ -2213,9 +2465,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77f55632-6902-5207-821a-0a16defe007e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2250,36 +2507,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2289,6 +2541,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -2300,18 +2555,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -2324,7 +2595,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2352,6 +2622,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2421,6 +2692,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2580,15 +2852,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2604,8 +2885,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -2631,36 +2912,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681258",
-              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
-            },
-            "language": "German",
-            "multiverseId": 681258,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681273",
-              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
-            },
-            "language": "Spanish",
-            "multiverseId": 681273,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681288",
               "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
             },
             "language": "French",
             "multiverseId": 681288,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "58cc2114-ff20-5b2b-8243-fe9c71444056"
+            },
             "type": "Terrain de base — marais",
             "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "df8c56c8-2c52-5f7c-a0f9-dc007b453cc8"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
           },
           {
             "identifiers": {
@@ -2670,6 +2946,9 @@
             "language": "Italian",
             "multiverseId": 681303,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "38762243-399f-5806-a2ff-72b8eafa5764"
+            },
             "type": "Terra Base — Palude",
             "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
           },
@@ -2681,18 +2960,34 @@
             "language": "Japanese",
             "multiverseId": 681318,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "bac3b3f5-1e4f-53d2-b37d-f29f8830f1b3"
+            },
             "type": "基本土地 — 沼",
             "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "012c01ef-0c6c-5f00-8ee3-cc9ed0399fa5"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305222",
           "cardsphereId": "131378",
           "deckboxId": "98082",
           "mcmId": "795509",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95173",
           "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
           "multiverseId": "681243",
@@ -2705,7 +3000,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2733,6 +3027,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "88",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2802,6 +3097,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2961,15 +3257,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "cardmarket": "https://mtgjson.com/links/d72081b51f72a9fd",
           "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0f6de19-a0e0-5f46-b789-722db3f3d050"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2985,8 +3290,8 @@
         ],
         "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
         "variations": [
-          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338"
         ]
       },
       {
@@ -3012,36 +3317,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681259",
-              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
-            },
-            "language": "German",
-            "multiverseId": 681259,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681274",
-              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681274,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681289",
               "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
             },
             "language": "French",
             "multiverseId": 681289,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "83eec502-7b1d-59a8-9981-d0be754718c4"
+            },
             "type": "Terrain de base — marais",
             "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "8273f910-cf00-5709-878e-3650541afce7"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
           },
           {
             "identifiers": {
@@ -3051,6 +3351,9 @@
             "language": "Italian",
             "multiverseId": 681304,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "a84aa32a-8785-528e-ad51-add235859b0f"
+            },
             "type": "Terra Base — Palude",
             "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
           },
@@ -3062,18 +3365,34 @@
             "language": "Japanese",
             "multiverseId": 681319,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "f946fc76-6b28-53a6-bfdb-03572ac6abf9"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "a560fadb-19ac-5380-a675-5ea7a7ced15c"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305223",
           "cardsphereId": "131379",
           "deckboxId": "98083",
           "mcmId": "795510",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95174",
           "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
           "multiverseId": "681244",
@@ -3086,7 +3405,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3114,6 +3432,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "89",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3183,6 +3502,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3342,15 +3662,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "cardmarket": "https://mtgjson.com/links/c5cffa7bb040b1df",
           "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "218449c3-8e95-5b56-a14d-e3c30f76d304"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3382,5 +3711,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "25b1a856a5baad"
   }
 }

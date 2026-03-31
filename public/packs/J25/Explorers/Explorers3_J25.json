@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "4afa294600c1f2"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,35 +22,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 17437,
+        "edhrecRank": 18720,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683393",
-              "scryfallId": "e6d10cfb-cf9b-41c9-944f-a37001fd97c5"
-            },
-            "language": "German",
-            "multiverseId": 683393,
-            "name": "Dornstrauchweg-Sucherin",
-            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nWenn die Dornstrauchweg-Sucherin ins Spiel kommt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")\nSolange du einen Spielstein kontrollierst, erhält die Dornstrauchweg-Sucherin +2/+0.",
-            "type": "Kreatur — Mensch, Späher",
-            "uuid": "0e90a3a6-7846-592b-8d78-fe7b30e30403"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683515",
-              "scryfallId": "e3f8ccc0-7086-46c2-ab1b-a9b743bce438"
-            },
-            "language": "Spanish",
-            "multiverseId": 683515,
-            "name": "Rastreadora de Puentespino",
-            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nCuando la Rastreadora de Puentespino entre, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)\nMientras controles una ficha, la Rastreadora de Puentespino obtiene +2/+0.",
-            "type": "Criatura — Explorador humano",
-            "uuid": "050f8d40-cbb2-599b-a9ba-855389835609"
-          },
           {
             "identifiers": {
               "multiverseId": "683637",
@@ -64,9 +36,27 @@
             "language": "French",
             "multiverseId": 683637,
             "name": "Traqueuse du Pont de bruyère",
+            "skuIds": {
+              "nonfoil": "3ea3d064-676b-53ad-adcb-9ad3e999dd0d"
+            },
             "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)\nQuand la Traqueuse du Pont de bruyère arrive, enquêtez. (Créez un jeton Indice. C'est un artefact avec « {2}, sacrifiez cet artefact : Piochez une carte. »)\nTant que vous contrôlez un jeton, la Traqueuse du Pont de bruyère gagne +2/+0.",
             "type": "Créature — humain et éclaireur",
             "uuid": "2a370390-b262-5435-b696-e397e429b1fe"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683393",
+              "scryfallId": "e6d10cfb-cf9b-41c9-944f-a37001fd97c5"
+            },
+            "language": "German",
+            "multiverseId": 683393,
+            "name": "Dornstrauchweg-Sucherin",
+            "skuIds": {
+              "nonfoil": "68ea7f9a-e0f8-5f80-acc8-8655727fa1de"
+            },
+            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)\nWenn die Dornstrauchweg-Sucherin ins Spiel kommt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")\nSolange du einen Spielstein kontrollierst, erhält die Dornstrauchweg-Sucherin +2/+0.",
+            "type": "Kreatur — Mensch, Späher",
+            "uuid": "0e90a3a6-7846-592b-8d78-fe7b30e30403"
           },
           {
             "identifiers": {
@@ -76,6 +66,9 @@
             "language": "Italian",
             "multiverseId": 683759,
             "name": "Battipista di Ponterovo",
+            "skuIds": {
+              "nonfoil": "78c6f0ce-b9e6-57e6-96de-1f1fdcf01652"
+            },
             "text": "Cautela (Questa creatura attacca senza TAPpare.)\nQuando la Battipista di Ponterovo entra, indaga. (Crea una pedina Indizio. È un artefatto con \"{2}, Sacrifica questo artefatto: Pesca una carta\".)\nFintanto che controlli una pedina, la Battipista di Ponterovo prende +2/+0.",
             "type": "Creatura — Esploratore Umano",
             "uuid": "a60da1d6-771f-539e-b558-a8ef2b23317b"
@@ -88,14 +81,30 @@
             "language": "Japanese",
             "multiverseId": 683881,
             "name": "茨橋の追跡者",
+            "skuIds": {
+              "nonfoil": "bedfe977-e51e-5cd3-b855-7289f66d487c"
+            },
             "text": "警戒（このクリーチャーは攻撃してもタップしない。）\n茨橋の追跡者が戦場に出たとき、調査を行う。（手掛かり・トークン１つを生成する。それは、「{2}, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）\nあなたがトークンをコントロールしているかぎり、茨橋の追跡者は＋２/＋０の修整を受ける。",
             "type": "クリーチャー — 人間・スカウト",
             "uuid": "8379c3f0-62a2-5187-86b0-e6ca00fbf69a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683515",
+              "scryfallId": "e3f8ccc0-7086-46c2-ab1b-a9b743bce438"
+            },
+            "language": "Spanish",
+            "multiverseId": 683515,
+            "name": "Rastreadora de Puentespino",
+            "skuIds": {
+              "nonfoil": "f5262fad-9ba2-5d59-b434-0bb9d711a250"
+            },
+            "text": "Vigilancia. (Esta criatura no se gira al atacar.)\nCuando la Rastreadora de Puentespino entre, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)\nMientras controles una ficha, la Rastreadora de Puentespino obtiene +2/+0.",
+            "type": "Criatura — Explorador humano",
+            "uuid": "050f8d40-cbb2-599b-a9ba-855389835609"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305978",
           "cardsphereId": "130941",
@@ -139,6 +148,7 @@
         "name": "Briarbridge Tracker",
         "number": "639",
         "originalText": "Vigilance (Attacking doesn't cause this creature to tap.)\nWhen Briarbridge Tracker enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nAs long as you control a token, Briarbridge Tracker gets +2/+0.",
+        "originalType": "Creature – Human Scout",
         "power": "2",
         "printings": [
           "DBL",
@@ -153,11 +163,21 @@
           "tcgplayer": "https://mtgjson.com/links/52bd947b49327cb1"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "d5f5a562-498f-5454-8027-47b398224f68"
+          ]
+        },
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d4b9d033-7c23-5719-86b2-a4f85e639ee6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -191,36 +211,12 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 12047,
+        "edhrecRank": 12761,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683469",
-              "scryfallId": "039c47a1-e73f-43e5-b0dd-6552c7313eb4"
-            },
-            "language": "German",
-            "multiverseId": 683469,
-            "name": "Dämmerwald-Bändigerin",
-            "text": "Wenn die Dämmerwald-Bändigerin ins Spiel kommt, erzeuge einen 2/2 grünen Wolf-Kreaturenspielstein, einen 3/3 grünen Bestie-Kreaturenspielstein und einen 4/4 grünen Bestie-Kreaturenspielstein.\nKreaturenspielsteine, die du kontrollierst, haben Todesberührung. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügen, ist ausreichend, um jene Kreatur zu zerstören.)",
-            "type": "Kreatur — Mensch, Waldläufer",
-            "uuid": "cebd6d92-de1e-5ab0-b904-c24c8e91092d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683591",
-              "scryfallId": "ebdbb72b-249d-47e7-a3b7-afc7c5d9d357"
-            },
-            "language": "Spanish",
-            "multiverseId": 683591,
-            "name": "Domadora de Somberwald",
-            "text": "Cuando la Domadora de Somberwald entre, crea una ficha de criatura Lobo verde 2/2, una ficha de criatura Bestia verde 3/3 y una ficha de criatura Bestia verde 4/4.\nLas fichas de criatura que controlas tienen la habilidad de toque mortal. (Cualquier cantidad de daño que hagan a una criatura es suficiente para destruirla.)",
-            "type": "Criatura — Guardabosque humano",
-            "uuid": "02dc609b-10e9-5bc5-827b-afa58bdb8087"
-          },
           {
             "identifiers": {
               "multiverseId": "683713",
@@ -229,9 +225,27 @@
             "language": "French",
             "multiverseId": 683713,
             "name": "Maîtresse des bêtes de Somberwald",
+            "skuIds": {
+              "nonfoil": "9e8ac6f8-5a16-5e92-b5a2-ffaec170d6a4"
+            },
             "text": "Quand la Maîtresse des bêtes de Somberwald arrive, créez un jeton de créature 2/2 verte Loup, un jeton de créature 3/3 verte Bête et un jeton de créature 4/4 verte Bête.\nLes jetons de créature que vous contrôlez ont le contact mortel. (Le nombre de blessures qu'ils infligent à une créature, quel qu'il soit, est suffisant pour la détruire.)",
             "type": "Créature — humain et ranger",
             "uuid": "6b8d2272-b968-59ce-9d5d-51b34836828f"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683469",
+              "scryfallId": "039c47a1-e73f-43e5-b0dd-6552c7313eb4"
+            },
+            "language": "German",
+            "multiverseId": 683469,
+            "name": "Dämmerwald-Bändigerin",
+            "skuIds": {
+              "nonfoil": "ee716185-9ff9-59d9-8d06-4ef33f4bc465"
+            },
+            "text": "Wenn die Dämmerwald-Bändigerin ins Spiel kommt, erzeuge einen 2/2 grünen Wolf-Kreaturenspielstein, einen 3/3 grünen Bestie-Kreaturenspielstein und einen 4/4 grünen Bestie-Kreaturenspielstein.\nKreaturenspielsteine, die du kontrollierst, haben Todesberührung. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügen, ist ausreichend, um jene Kreatur zu zerstören.)",
+            "type": "Kreatur — Mensch, Waldläufer",
+            "uuid": "cebd6d92-de1e-5ab0-b904-c24c8e91092d"
           },
           {
             "identifiers": {
@@ -241,6 +255,9 @@
             "language": "Italian",
             "multiverseId": 683835,
             "name": "Domatrice di Somberwald",
+            "skuIds": {
+              "nonfoil": "09e31ec9-ce22-5cbc-aa93-648199e54ee7"
+            },
             "text": "Quando la Domatrice di Somberwald entra, crea una pedina creatura Lupo 2/2 verde, una pedina creatura Bestia 3/3 verde e una pedina creatura Bestia 4/4 verde.\nLe pedine creatura che controlli hanno tocco letale. (Qualsiasi danno che infliggono a una creatura è sufficiente a distruggerla.)",
             "type": "Creatura — Ranger Umano",
             "uuid": "250c1c9e-a7c2-50f1-a1e2-06c4fd58afc6"
@@ -253,14 +270,30 @@
             "language": "Japanese",
             "multiverseId": 683957,
             "name": "ソンバーワルドの獣使い",
+            "skuIds": {
+              "nonfoil": "cd2f992f-3950-58e0-8b19-a7f9f73cc411"
+            },
             "text": "ソンバーワルドの獣使いが戦場に出たとき、緑の２/２の狼・クリーチャー・トークン１体と緑の３/３のビースト・クリーチャー・トークン１体と緑の４/４のビースト・クリーチャー・トークン１体を生成する。\nあなたがコントロールしているすべてのクリーチャー・トークンは接死を持つ。（それらが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）",
             "type": "クリーチャー — 人間・レインジャー",
             "uuid": "60d43853-3bd1-53c7-b736-70b16f259bf5"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683591",
+              "scryfallId": "ebdbb72b-249d-47e7-a3b7-afc7c5d9d357"
+            },
+            "language": "Spanish",
+            "multiverseId": 683591,
+            "name": "Domadora de Somberwald",
+            "skuIds": {
+              "nonfoil": "e7783a55-2203-567e-a02e-c89ec0b4f070"
+            },
+            "text": "Cuando la Domadora de Somberwald entre, crea una ficha de criatura Lobo verde 2/2, una ficha de criatura Bestia verde 3/3 y una ficha de criatura Bestia verde 4/4.\nLas fichas de criatura que controlas tienen la habilidad de toque mortal. (Cualquier cantidad de daño que hagan a una criatura es suficiente para destruirla.)",
+            "type": "Criatura — Guardabosque humano",
+            "uuid": "02dc609b-10e9-5bc5-827b-afa58bdb8087"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306054",
           "cardsphereId": "130771",
@@ -297,6 +330,7 @@
         "name": "Somberwald Beastmaster",
         "number": "715",
         "originalText": "When Somberwald Beastmaster enters, create a 2/2 green Wolf creature token, a 3/3 green Beast creature token, and a 4/4 green Beast creature token.\nCreature tokens you control have deathtouch. (Any amount of damage they deal to a creature is enough to destroy it.)",
+        "originalType": "Creature – Human Ranger",
         "power": "1",
         "printings": [
           "J25",
@@ -309,11 +343,23 @@
           "tcgplayer": "https://mtgjson.com/links/5b52d95eede2fe65"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "97c5c865-86c4-5aac-8837-1caf9695383f",
+            "a044bb73-0342-5a84-985b-6526bf1e019f",
+            "d8b57f87-ee35-5815-8052-273a38f1d919"
+          ]
+        },
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ad631932-fdfb-5cf3-93aa-fcba99881d8d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -348,39 +394,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 12955,
+        "edhrecRank": 12789,
         "edhrecSaltiness": 0.05,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Spark or no, Nissa would always be an explorer.",
         "foreignData": [
-          {
-            "flavorText": "Funke hin oder her, Nissa würde immer eine Entdeckerin sein.",
-            "identifiers": {
-              "multiverseId": "681374",
-              "scryfallId": "30836c58-27a3-4e7c-808f-1c22d5926332"
-            },
-            "language": "German",
-            "multiverseId": 681374,
-            "name": "Losziehen",
-            "text": "Bestimme eines —\n• Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.\n• Eine Kreatur deiner Wahl erhält +2/+2 bis zum Ende des Zuges.",
-            "type": "Spontanzauber",
-            "uuid": "070bc234-d03f-52cd-a084-10e6c5fbae76"
-          },
-          {
-            "flavorText": "Con chispa o sin ella, Nissa siempre sería una exploradora.",
-            "identifiers": {
-              "multiverseId": "681403",
-              "scryfallId": "57ecaea3-bdbc-4274-b2be-95672d8fee43"
-            },
-            "language": "Spanish",
-            "multiverseId": 681403,
-            "name": "Ponerse en marcha",
-            "text": "Elige uno:\n• Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.\n• La criatura objetivo obtiene +2/+2 hasta el final del turno.",
-            "type": "Instantáneo",
-            "uuid": "2b9591cc-ddcf-590b-82b7-ec5aa296b537"
-          },
           {
             "flavorText": "Avec ou sans étincelle, Nissa sera toujours une exploratrice.",
             "identifiers": {
@@ -390,9 +410,28 @@
             "language": "French",
             "multiverseId": 681432,
             "name": "Aller de l'avant",
+            "skuIds": {
+              "nonfoil": "421f9104-97db-53dc-8e79-0f216fe2f267"
+            },
             "text": "Choisissez l'un —\n• Cherchez dans votre bibliothèque une carte de terrain de base, révélez-la, mettez-la dans votre main, puis mélangez.\n• Une créature ciblée gagne +2/+2 jusqu'à la fin du tour.",
             "type": "Éphémère",
             "uuid": "e46f58bf-88ad-59a6-bf22-9fd459d46093"
+          },
+          {
+            "flavorText": "Funke hin oder her, Nissa würde immer eine Entdeckerin sein.",
+            "identifiers": {
+              "multiverseId": "681374",
+              "scryfallId": "30836c58-27a3-4e7c-808f-1c22d5926332"
+            },
+            "language": "German",
+            "multiverseId": 681374,
+            "name": "Losziehen",
+            "skuIds": {
+              "nonfoil": "b0a25160-9bdb-5260-b93e-185ca3b3c7c5"
+            },
+            "text": "Bestimme eines —\n• Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.\n• Eine Kreatur deiner Wahl erhält +2/+2 bis zum Ende des Zuges.",
+            "type": "Spontanzauber",
+            "uuid": "070bc234-d03f-52cd-a084-10e6c5fbae76"
           },
           {
             "flavorText": "Con o senza scintilla, Nissa sarebbe sempre rimasta un'esploratrice.",
@@ -403,6 +442,9 @@
             "language": "Italian",
             "multiverseId": 681461,
             "name": "Andare Avanti",
+            "skuIds": {
+              "nonfoil": "66833420-dd18-52e6-9044-2077fed0d9ed"
+            },
             "text": "Scegli uno —\n• Passa in rassegna il tuo grimorio per una carta terra base, rivelala e aggiungila alla tua mano, poi rimescola.\n• Una creatura bersaglio prende +2/+2 fino alla fine del turno.",
             "type": "Istantaneo",
             "uuid": "fa1e0f1d-ed57-5d8d-bb71-a64eef4c713b"
@@ -416,14 +458,31 @@
             "language": "Japanese",
             "multiverseId": 681490,
             "name": "勇往邁進",
+            "skuIds": {
+              "nonfoil": "e061095a-d52d-5305-92cd-371dba880cca"
+            },
             "text": "以下から１つを選ぶ。\n・あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。\n・クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋２の修整を受ける。",
             "type": "インスタント",
             "uuid": "65ec0ce2-933c-5feb-a5b9-840c8e6498e7"
+          },
+          {
+            "flavorText": "Con chispa o sin ella, Nissa siempre sería una exploradora.",
+            "identifiers": {
+              "multiverseId": "681403",
+              "scryfallId": "57ecaea3-bdbc-4274-b2be-95672d8fee43"
+            },
+            "language": "Spanish",
+            "multiverseId": 681403,
+            "name": "Ponerse en marcha",
+            "skuIds": {
+              "nonfoil": "704bca75-c621-596c-9de4-6bb553958cad"
+            },
+            "text": "Elige uno:\n• Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.\n• La criatura objetivo obtiene +2/+2 hasta el final del turno.",
+            "type": "Instantáneo",
+            "uuid": "2b9591cc-ddcf-590b-82b7-ec5aa296b537"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305154",
           "cardsphereId": "130739",
@@ -442,7 +501,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -463,6 +521,7 @@
         "name": "Go Forth",
         "number": "20",
         "originalText": "Choose one —\n• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n• Target creature gets +2/+2 until end of turn.",
+        "originalType": "Instant",
         "printings": [
           "J25"
         ],
@@ -473,9 +532,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "5d6242c7-eb9f-5370-99c1-7efcd42081be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -506,39 +570,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 19266,
+        "edhrecRank": 19346,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "All throughout the glade, sprouts squelched happily along to the tune.",
         "foreignData": [
-          {
-            "flavorText": "Überall auf der Lichtung wuchsen Sprösslinge zu der Melodie fröhlich aus dem Boden.",
-            "identifiers": {
-              "multiverseId": "681379",
-              "scryfallId": "de837261-b763-412e-884e-0b4d6ff132ab"
-            },
-            "language": "German",
-            "multiverseId": 681379,
-            "name": "Schleimiger Flöter",
-            "text": "Immer wenn der Schleimige Flöter angreift, erhält er +1/+1 bis zum Ende des Zuges. Falls du vier oder mehr Kreaturen kontrollierst, erhält er stattdessen +2/+2 und Unzerstörbarkeit bis zum Ende des Zuges. (Schaden und Effekte, die „zerstören\", zerstören ihn nicht.)",
-            "type": "Kreatur — Pilzwesen, Barde",
-            "uuid": "52f5bb42-6c5b-535f-afcd-1afff75c4a94"
-          },
-          {
-            "flavorText": "En todo el claro, los brotes chapoteaban alegres al son de su música.",
-            "identifiers": {
-              "multiverseId": "681408",
-              "scryfallId": "a06aba84-f0e8-4dfe-a628-186f0f0d57e7"
-            },
-            "language": "Spanish",
-            "multiverseId": 681408,
-            "name": "Flautista viscoso",
-            "text": "Siempre que el Flautista viscoso ataque, obtiene +1/+1 hasta el final del turno. Si controlas cuatro o más criaturas, en vez de eso, obtiene +2/+2 y gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no lo destruyen.)",
-            "type": "Criatura — Bardo hongo",
-            "uuid": "6424157a-678b-502a-be76-4228349d2aca"
-          },
           {
             "flavorText": "Dans tout le sous-bois, les pousses clapotaient joyeusement en chœur.",
             "identifiers": {
@@ -548,9 +586,28 @@
             "language": "French",
             "multiverseId": 681437,
             "name": "Joueur de flûte gluant",
+            "skuIds": {
+              "nonfoil": "6d3a4346-dd5a-569f-8cba-ad2fcd725783"
+            },
             "text": "À chaque fois que le Joueur de flûte gluant attaque, il gagne +1/+1 jusqu'à la fin du tour. Si vous contrôlez au moins quatre créatures, il gagne +2/+2 et acquiert l'indestructible jusqu'à la fin du tour à la place. (Les blessures et les effets qui disent « détruisez » ne le détruisent pas.)",
             "type": "Créature — fongus et barde",
             "uuid": "ef9cfaf4-20fa-5659-b78e-1ceda46b456a"
+          },
+          {
+            "flavorText": "Überall auf der Lichtung wuchsen Sprösslinge zu der Melodie fröhlich aus dem Boden.",
+            "identifiers": {
+              "multiverseId": "681379",
+              "scryfallId": "de837261-b763-412e-884e-0b4d6ff132ab"
+            },
+            "language": "German",
+            "multiverseId": 681379,
+            "name": "Schleimiger Flöter",
+            "skuIds": {
+              "nonfoil": "7bda093d-74cf-5c4b-9f2a-fe954479e321"
+            },
+            "text": "Immer wenn der Schleimige Flöter angreift, erhält er +1/+1 bis zum Ende des Zuges. Falls du vier oder mehr Kreaturen kontrollierst, erhält er stattdessen +2/+2 und Unzerstörbarkeit bis zum Ende des Zuges. (Schaden und Effekte, die „zerstören\", zerstören ihn nicht.)",
+            "type": "Kreatur — Pilzwesen, Barde",
+            "uuid": "52f5bb42-6c5b-535f-afcd-1afff75c4a94"
           },
           {
             "flavorText": "I germogli saltellavano allegramente al ritmo della melodia in tutta la radura.",
@@ -561,6 +618,9 @@
             "language": "Italian",
             "multiverseId": 681466,
             "name": "Pifferaio Viscido",
+            "skuIds": {
+              "nonfoil": "6be1ebf0-f3bd-5bbf-a0c7-a190b765b8bc"
+            },
             "text": "Ogniqualvolta il Pifferaio Viscido attacca, prende +1/+1 fino alla fine del turno. Se controlli quattro o più creature, invece prende +2/+2 e ha indistruttibile fino alla fine del turno. (Il danno e gli effetti che dicono \"distruggi\" non lo distruggono.)",
             "type": "Creatura — Bardo Fungus",
             "uuid": "d4c8ee42-fbc5-5f0f-bd7f-a9dd113c482e"
@@ -574,14 +634,31 @@
             "language": "Japanese",
             "multiverseId": 681495,
             "name": "ぬめぬめ笛吹き",
+            "skuIds": {
+              "nonfoil": "0b67e94e-f4f9-50b4-b50d-bcf5cfa9be90"
+            },
             "text": "ぬめぬめ笛吹きが攻撃するたび、ターン終了時まで、これは＋１/＋１の修整を受ける。あなたが４体以上のクリーチャーをコントロールしているなら、代わりに、ターン終了時まで、これは＋２/＋２の修整を受け破壊不能を得る。（ダメージや「破壊」と書かれた効果では、これは破壊されない。）",
             "type": "クリーチャー — ファンガス・バード",
             "uuid": "763b7721-956e-5dd7-a94d-bcc846f20fb9"
+          },
+          {
+            "flavorText": "En todo el claro, los brotes chapoteaban alegres al son de su música.",
+            "identifiers": {
+              "multiverseId": "681408",
+              "scryfallId": "a06aba84-f0e8-4dfe-a628-186f0f0d57e7"
+            },
+            "language": "Spanish",
+            "multiverseId": 681408,
+            "name": "Flautista viscoso",
+            "skuIds": {
+              "nonfoil": "eb887450-4523-5694-9577-170dd7e3d6d1"
+            },
+            "text": "Siempre que el Flautista viscoso ataque, obtiene +1/+1 hasta el final del turno. Si controlas cuatro o más criaturas, en vez de eso, obtiene +2/+2 y gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no lo destruyen.)",
+            "type": "Criatura — Bardo hongo",
+            "uuid": "6424157a-678b-502a-be76-4228349d2aca"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305159",
           "cardsphereId": "130747",
@@ -600,7 +677,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -621,6 +697,7 @@
         "name": "Slimy Piper",
         "number": "25",
         "originalText": "Whenever Slimy Piper attacks, it gets +1/+1 until end of turn. If you control four or more creatures, it gets +2/+2 and gains indestructible until end of turn instead. (Damage and effects that say \"destroy\" don't destroy it.)",
+        "originalType": "Creature – Fungus Bard",
         "power": "2",
         "printings": [
           "J25"
@@ -632,9 +709,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "979bb443-1eef-5381-9acd-cfaa13ebef32"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -665,39 +747,13 @@
         "colors": [],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 14128,
+        "edhrecRank": 13453,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Conflux proved that Alara's strength came from unity, not division.",
         "foreignData": [
-          {
-            "flavorText": "Der Conflux hat bewiesen, dass Alaras Stärke in der Einigkeit und nicht in der Spaltung liegt.",
-            "identifiers": {
-              "multiverseId": "681382",
-              "scryfallId": "5ba12b08-0ec1-443a-88a2-b51ac9728eb4"
-            },
-            "language": "German",
-            "multiverseId": 681382,
-            "name": "Fragmentloser Fremder",
-            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nStandardlandumwandlung {2} ({2}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
-            "type": "Artefaktkreatur — Konstrukt, Späher",
-            "uuid": "ce32253f-bbc0-53e7-ab02-24d77780e483"
-          },
-          {
-            "flavorText": "La Confluencia demostró que la fuerza de Alara provenía de la unidad, no de la división.",
-            "identifiers": {
-              "multiverseId": "681411",
-              "scryfallId": "ceab7566-12ef-4eba-a904-579541c5b269"
-            },
-            "language": "Spanish",
-            "multiverseId": 681411,
-            "name": "Salvaje sin fragmento",
-            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nCiclo de tierras básicas {2}. ({2}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
-            "type": "Criatura artefacto — Explorador constructo",
-            "uuid": "2878989f-5e4f-57d3-b18b-0be6e0aef741"
-          },
           {
             "flavorText": "La Confluence a démontré qu'Alara trouvait sa force dans l'unité, et non dans la division.",
             "identifiers": {
@@ -707,9 +763,28 @@
             "language": "French",
             "multiverseId": 681440,
             "name": "Pérégrin sans éclat",
+            "skuIds": {
+              "nonfoil": "f54227ed-b589-521c-89c1-30d52f3a3cdf"
+            },
             "text": "Piétinement (Cette créature peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)\nRecyclage de terrain de base {2} ({2}, défaussez-vous de cette carte : Cherchez dans votre bibliothèque une carte de terrain de base, révélez-la, mettez-la dans votre main, puis mélangez.)",
             "type": "Créature-artefact — construction et éclaireur",
             "uuid": "374828c1-a2cf-5f87-b859-d23cf9555afe"
+          },
+          {
+            "flavorText": "Der Conflux hat bewiesen, dass Alaras Stärke in der Einigkeit und nicht in der Spaltung liegt.",
+            "identifiers": {
+              "multiverseId": "681382",
+              "scryfallId": "5ba12b08-0ec1-443a-88a2-b51ac9728eb4"
+            },
+            "language": "German",
+            "multiverseId": 681382,
+            "name": "Fragmentloser Fremder",
+            "skuIds": {
+              "nonfoil": "18d3430a-c0e7-5008-8f6f-1abfb95897b9"
+            },
+            "text": "Verursacht Trampelschaden (Diese Kreatur kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)\nStandardlandumwandlung {2} ({2}, wirf diese Karte ab: Durchsuche deine Bibliothek nach einer Standardland-Karte, zeige sie offen vor, nimm sie auf deine Hand und mische danach.)",
+            "type": "Artefaktkreatur — Konstrukt, Späher",
+            "uuid": "ce32253f-bbc0-53e7-ab02-24d77780e483"
           },
           {
             "flavorText": "La Convergenza dimostrò che la forza di Alara proveniva dall'unione, non dalla divisione.",
@@ -720,6 +795,9 @@
             "language": "Italian",
             "multiverseId": 681469,
             "name": "Forestiero di Nessun Frammento",
+            "skuIds": {
+              "nonfoil": "f97f9b4c-2777-5760-94cb-7afe096a119e"
+            },
             "text": "Travolgere (Questa creatura può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)\nCicloterra base {2} ({2}, Scarta questa carta: Passa in rassegna il tuo grimorio per una carta terra base, rivelala e aggiungila alla tua mano, poi rimescola.)",
             "type": "Creatura Artefatto — Esploratore Costrutto",
             "uuid": "436db6f6-b134-5613-bd2d-4456ec8e7e00"
@@ -733,14 +811,31 @@
             "language": "Japanese",
             "multiverseId": 681498,
             "name": "断片無き辺境育ち",
+            "skuIds": {
+              "nonfoil": "a8a0e84e-f833-573e-ad71-fbf8fb8f1512"
+            },
             "text": "トランプル（このクリーチャーは余剰の戦闘ダメージを、これが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）\n基本土地サイクリング{2}（{2}, このカードを捨てる：あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。）",
             "type": "アーティファクト・クリーチャー — 構築物・スカウト",
             "uuid": "c56c461b-8b45-571e-84da-3b307ce1f1bf"
+          },
+          {
+            "flavorText": "La Confluencia demostró que la fuerza de Alara provenía de la unidad, no de la división.",
+            "identifiers": {
+              "multiverseId": "681411",
+              "scryfallId": "ceab7566-12ef-4eba-a904-579541c5b269"
+            },
+            "language": "Spanish",
+            "multiverseId": 681411,
+            "name": "Salvaje sin fragmento",
+            "skuIds": {
+              "nonfoil": "beabdea9-54a9-551d-82e9-ded0817ea6ff"
+            },
+            "text": "Arrolla. (Esta criatura puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)\nCiclo de tierras básicas {2}. ({2}, descartar esta carta: Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja.)",
+            "type": "Criatura artefacto — Explorador constructo",
+            "uuid": "2878989f-5e4f-57d3-b18b-0be6e0aef741"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305162",
           "cardsphereId": "130752",
@@ -759,12 +854,12 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Basic landcycling",
           "Cycling",
           "Landcycling",
-          "Trample"
+          "Trample",
+          "Typecycling"
         ],
         "language": "English",
         "layout": "normal",
@@ -786,6 +881,7 @@
         "name": "Shardless Outlander",
         "number": "28",
         "originalText": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+        "originalType": "Artifact Creature – Construct Scout",
         "power": "6",
         "printings": [
           "J25"
@@ -797,9 +893,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "18dccfa2-5644-54fe-9de9-8eb10c5235f2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -835,39 +936,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 11054,
+        "edhrecRank": 10386,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Your claim to this land is as tenuous as my tolerance of your presence on it.\"",
         "foreignData": [
-          {
-            "flavorText": "„Dein Anspruch auf dieses Land ist ebenso kümmerlich wie meine Duldung deiner Anwesenheit dort.\"",
-            "identifiers": {
-              "multiverseId": "680978",
-              "scryfallId": "6b53633a-714d-4de6-a31f-5bb8e24d8952"
-            },
-            "language": "German",
-            "multiverseId": 680978,
-            "name": "Braulios von der Pheres-Herde",
-            "text": "Stärke und Widerstandskraft von Braulios sind gleich der Anzahl an Ländern, die du kontrollierst.\nImmer wenn Braulios angreift, ziehe eine Karte, dann kannst du eine Länderkarte aus deiner Hand ins Spiel bringen.",
-            "type": "Legendäre Kreatur — Zentaur, Späher",
-            "uuid": "7b11c919-7eaf-5565-97d0-bb192a0f1da2"
-          },
-          {
-            "flavorText": "\"Tu proclamación de que esta tierra es tuya es tan insignificante como mi tolerancia ante tu presencia\".",
-            "identifiers": {
-              "multiverseId": "681005",
-              "scryfallId": "9a575a01-31c1-44cb-9a67-6cfc895148fd"
-            },
-            "language": "Spanish",
-            "multiverseId": 681005,
-            "name": "Braulios del clan Feres",
-            "text": "Tanto la fuerza como la resistencia de Braulios del clan Feres son iguales a la cantidad de tierras que controlas.\nSiempre que Braulios del clan Feres ataque, roba una carta. Luego puedes poner en el campo de batalla una carta de tierra de tu mano.",
-            "type": "Criatura legendaria — Explorador centauro",
-            "uuid": "4c85a05e-1a9f-5fff-b3ca-db9eb0cd5eb3"
-          },
           {
             "flavorText": "« Votre revendication de ces terres est aussi ténue que ma tolérance de votre présence ici. »",
             "identifiers": {
@@ -877,9 +952,28 @@
             "language": "French",
             "multiverseId": 681032,
             "name": "Braulios du clan Phérès",
+            "skuIds": {
+              "nonfoil": "2027e382-7dcf-5ae7-915f-061cd81a7368"
+            },
             "text": "La force et l'endurance de Braulios du clan Phérès sont chacune égales au nombre de terrains que vous contrôlez.\nÀ chaque fois que Braulios du clan Phérès attaque, piochez une carte, puis vous pouvez mettre sur le champ de bataille une carte de terrain de votre main.",
             "type": "Créature légendaire — centaure et éclaireur",
             "uuid": "2ba48b95-e595-522c-a1c4-2834d22154fd"
+          },
+          {
+            "flavorText": "„Dein Anspruch auf dieses Land ist ebenso kümmerlich wie meine Duldung deiner Anwesenheit dort.\"",
+            "identifiers": {
+              "multiverseId": "680978",
+              "scryfallId": "6b53633a-714d-4de6-a31f-5bb8e24d8952"
+            },
+            "language": "German",
+            "multiverseId": 680978,
+            "name": "Braulios von der Pheres-Herde",
+            "skuIds": {
+              "nonfoil": "f339905b-4acc-5e98-8bdf-432943ab0901"
+            },
+            "text": "Stärke und Widerstandskraft von Braulios sind gleich der Anzahl an Ländern, die du kontrollierst.\nImmer wenn Braulios angreift, ziehe eine Karte, dann kannst du eine Länderkarte aus deiner Hand ins Spiel bringen.",
+            "type": "Legendäre Kreatur — Zentaur, Späher",
+            "uuid": "7b11c919-7eaf-5565-97d0-bb192a0f1da2"
           },
           {
             "flavorText": "\"Il tuo diritto su questa terra è inconsistente come la mia capacità di tollerare la tua presenza su di essa.\"",
@@ -890,6 +984,9 @@
             "language": "Italian",
             "multiverseId": 681059,
             "name": "Braulios della Banda Feres",
+            "skuIds": {
+              "nonfoil": "3a56dfa9-ad63-5473-aae2-085884d23e92"
+            },
             "text": "La forza e la costituzione di Braulios della Banda Feres sono pari al numero di terre che controlli.\nOgniqualvolta Braulios della Banda Feres attacca, pesca una carta, poi puoi mettere sul campo di battaglia una carta terra dalla tua mano.",
             "type": "Creatura Leggendaria — Esploratore Centauro",
             "uuid": "22ef93d1-19bd-5e94-b18e-9fd90173bb57"
@@ -903,17 +1000,34 @@
             "language": "Japanese",
             "multiverseId": 681086,
             "name": "フィーリーズ団のブラウリオス",
+            "skuIds": {
+              "nonfoil": "0656a116-8785-5712-8a1b-d623bace2989"
+            },
             "text": "フィーリーズ団のブラウリオスのパワーとタフネスはそれぞれ、あなたがコントロールしている土地の数に等しい。\nフィーリーズ団のブラウリオスが攻撃するたび、カード１枚を引く。その後、あなたの手札にある土地・カード１枚を戦場に出してもよい。",
             "type": "伝説のクリーチャー — ケンタウルス・スカウト",
             "uuid": "a97b91f6-1fc3-5b33-a8db-93aa35fa0ee9"
+          },
+          {
+            "flavorText": "\"Tu proclamación de que esta tierra es tuya es tan insignificante como mi tolerancia ante tu presencia\".",
+            "identifiers": {
+              "multiverseId": "681005",
+              "scryfallId": "9a575a01-31c1-44cb-9a67-6cfc895148fd"
+            },
+            "language": "Spanish",
+            "multiverseId": 681005,
+            "name": "Braulios del clan Feres",
+            "skuIds": {
+              "nonfoil": "84865cb0-3e02-55aa-8074-e52a8bcf7d49"
+            },
+            "text": "Tanto la fuerza como la resistencia de Braulios del clan Feres son iguales a la cantidad de tierras que controlas.\nSiempre que Braulios del clan Feres ataque, roba una carta. Luego puedes poner en el campo de batalla una carta de tierra de tu mano.",
+            "type": "Criatura legendaria — Explorador centauro",
+            "uuid": "4c85a05e-1a9f-5fff-b3ca-db9eb0cd5eb3"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305185",
           "cardsphereId": "130825",
@@ -932,7 +1046,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -956,6 +1069,7 @@
         "name": "Braulios of Pheres Band",
         "number": "51",
         "originalText": "Braulios of Pheres Band's power and toughness are each equal to the number of lands you control.\nWhenever Braulios of Pheres Band attacks, draw a card, then you may put a land card from your hand onto the battlefield.",
+        "originalType": "Legendary Creature – Centaur Scout",
         "power": "*",
         "printings": [
           "J25"
@@ -973,9 +1087,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ea546e5a-e0c6-50b6-9234-7601d4cacb26"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1011,39 +1130,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 230,
+        "edhrecRank": 229,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As he crested the final peak, Nidd gasped at the beauty laid out before him. Finally, he had found a place to rest his weary legs. A place to call home.",
         "foreignData": [
-          {
-            "flavorText": "Als er den letzten Gipfel erklommen hatte, verschlug es Nidd ob der Schönheit, die vor ihm lag, den Atem. Endlich hatte er einen Ort gefunden, an dem er seine müden Füße ausruhen konnte. Einen Ort, den er Heimat nennen konnte.",
-            "identifiers": {
-              "multiverseId": "681611",
-              "scryfallId": "32c767c3-4cb5-4ca7-aba7-6f13340689b7"
-            },
-            "language": "German",
-            "multiverseId": 681611,
-            "name": "Erkunden",
-            "text": "Du darfst in diesem Zug ein zusätzliches Land spielen.\nZiehe eine Karte.",
-            "type": "Hexerei",
-            "uuid": "35fb8584-dbe6-5164-b979-a714b4c2e406"
-          },
-          {
-            "flavorText": "Cuando coronó la última cima, Nidd quedó asombrado por la belleza que se extendía ante él. Por fin había llegado a un lugar en el que descansar sus fatigadas patas. Un lugar al que llamar \"hogar\".",
-            "identifiers": {
-              "multiverseId": "681672",
-              "scryfallId": "05879b82-c854-486e-8654-a21ffd78d7e8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681672,
-            "name": "Explorar",
-            "text": "Puedes jugar una tierra adicional este turno.\nRoba una carta.",
-            "type": "Conjuro",
-            "uuid": "9eceed6a-8a63-5ee3-a588-638f9c3431d8"
-          },
           {
             "flavorText": "Quand il atteignit le dernier sommet, Nidd eut le souffle coupé en découvrant le panorama qui s'étalait devant lui. Enfin, il avait trouvé un lieu où reposer ses jambes épuisées. Un foyer.",
             "identifiers": {
@@ -1053,9 +1146,28 @@
             "language": "French",
             "multiverseId": 681733,
             "name": "Explorer",
+            "skuIds": {
+              "nonfoil": "af26a7c0-88f8-5c16-afba-1c5d1d8aad19"
+            },
             "text": "Vous pouvez jouer un terrain supplémentaire ce tour-ci.\nPiochez une carte.",
             "type": "Rituel",
             "uuid": "2c039687-36af-55a5-8167-ad3b940ef2da"
+          },
+          {
+            "flavorText": "Als er den letzten Gipfel erklommen hatte, verschlug es Nidd ob der Schönheit, die vor ihm lag, den Atem. Endlich hatte er einen Ort gefunden, an dem er seine müden Füße ausruhen konnte. Einen Ort, den er Heimat nennen konnte.",
+            "identifiers": {
+              "multiverseId": "681611",
+              "scryfallId": "32c767c3-4cb5-4ca7-aba7-6f13340689b7"
+            },
+            "language": "German",
+            "multiverseId": 681611,
+            "name": "Erkunden",
+            "skuIds": {
+              "nonfoil": "82061b97-22b9-59a2-8451-37a97242a0ac"
+            },
+            "text": "Du darfst in diesem Zug ein zusätzliches Land spielen.\nZiehe eine Karte.",
+            "type": "Hexerei",
+            "uuid": "35fb8584-dbe6-5164-b979-a714b4c2e406"
           },
           {
             "flavorText": "Una volta superato l'ultimo picco, Nidd trasalì alla vista della bellezza che si stagliava innanzi a lui. Finalmente, aveva trovato un posto per riposare le sue stanche gambe. Un posto in cui sentirsi a casa.",
@@ -1066,6 +1178,9 @@
             "language": "Italian",
             "multiverseId": 681794,
             "name": "Esplorare",
+            "skuIds": {
+              "nonfoil": "a5a8f47e-bf62-5ce0-b008-ee68400b14e9"
+            },
             "text": "Puoi giocare una terra addizionale in questo turno.\nPesca una carta.",
             "type": "Stregoneria",
             "uuid": "e4cefb38-acf8-5e15-8fe2-0b3e5c15de77"
@@ -1079,14 +1194,31 @@
             "language": "Japanese",
             "multiverseId": 681855,
             "name": "探検",
+            "skuIds": {
+              "nonfoil": "2b217907-41e3-5a01-8f46-26c39fd9efc7"
+            },
             "text": "このターン、追加で土地１つをプレイしてもよい。\nカード１枚を引く。",
             "type": "ソーサリー",
             "uuid": "63f4f5f0-653d-567f-b069-0f43166a4cde"
+          },
+          {
+            "flavorText": "Cuando coronó la última cima, Nidd quedó asombrado por la belleza que se extendía ante él. Por fin había llegado a un lugar en el que descansar sus fatigadas patas. Un lugar al que llamar \"hogar\".",
+            "identifiers": {
+              "multiverseId": "681672",
+              "scryfallId": "05879b82-c854-486e-8654-a21ffd78d7e8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681672,
+            "name": "Explorar",
+            "skuIds": {
+              "nonfoil": "d7a80e67-31b1-5c23-9729-cca94f87a6cc"
+            },
+            "text": "Puedes jugar una tierra adicional este turno.\nRoba una carta.",
+            "type": "Conjuro",
+            "uuid": "9eceed6a-8a63-5ee3-a588-638f9c3431d8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305280",
           "cardsphereId": "131046",
@@ -1105,7 +1237,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -1128,6 +1259,7 @@
         "name": "Explore",
         "number": "146",
         "originalText": "You may play an additional land this turn.\nDraw a card.",
+        "originalType": "Sorcery",
         "printings": [
           "40K",
           "AFC",
@@ -1175,9 +1307,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "dee8522c-9232-5af2-ba32-5b6fd899eb7b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1207,39 +1344,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 22339,
+        "edhrecRank": 22832,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.",
         "foreignData": [
-          {
-            "flavorText": "Baumhirten und Elfen haben ein gemeinsames Interesse am Wald; bei den Elfen liegt es vor allem daran, dass sie am liebsten von Bäumen auf andere herabblicken.",
-            "identifiers": {
-              "multiverseId": "683380",
-              "scryfallId": "660d603d-ba76-40d8-80e7-9708683de809"
-            },
-            "language": "German",
-            "multiverseId": 683380,
-            "name": "Eichen-Botschafter",
-            "text": "Wenn der Eichen-Botschafter ins Spiel kommt, erzeuge einen 1/1 grünen Elf-Krieger-Kreaturenspielstein.",
-            "type": "Kreatur — Baumhirte, Krieger",
-            "uuid": "a44a1ebf-a27a-533d-a6c5-c2253661f4fc"
-          },
-          {
-            "flavorText": "Los arbóreos y los elfos comparten su interés por los bosques, pero en realidad los elfos solo se sienten tranquilos mirando desde arriba.",
-            "identifiers": {
-              "multiverseId": "683502",
-              "scryfallId": "e906d14b-0041-4bae-9c5a-1391af139525"
-            },
-            "language": "Spanish",
-            "multiverseId": 683502,
-            "name": "Roble embajador",
-            "text": "Cuando el Roble embajador entre, crea una ficha de criatura Guerrero Elfo verde 1/1.",
-            "type": "Criatura — Guerrero pueblo-arbóreo",
-            "uuid": "6dea7b47-732c-5ca9-aa42-a9f0f01831d6"
-          },
           {
             "flavorText": "Les sylvins et les elfes trouvent dans les forêts un intérêt commun, mais en fait, les elfes apprécient surtout de voir le monde de haut.",
             "identifiers": {
@@ -1249,9 +1360,28 @@
             "language": "French",
             "multiverseId": 683624,
             "name": "Ambassadeur chêne",
+            "skuIds": {
+              "nonfoil": "191f0db6-8816-5527-8571-e6cff78d2429"
+            },
             "text": "Quand l'Ambassadeur chêne arrive, créez un jeton de créature 1/1 verte Elfe et Guerrier.",
             "type": "Créature — sylvin et guerrier",
             "uuid": "7041521a-ad8d-566d-92b3-a1b3855faaa4"
+          },
+          {
+            "flavorText": "Baumhirten und Elfen haben ein gemeinsames Interesse am Wald; bei den Elfen liegt es vor allem daran, dass sie am liebsten von Bäumen auf andere herabblicken.",
+            "identifiers": {
+              "multiverseId": "683380",
+              "scryfallId": "660d603d-ba76-40d8-80e7-9708683de809"
+            },
+            "language": "German",
+            "multiverseId": 683380,
+            "name": "Eichen-Botschafter",
+            "skuIds": {
+              "nonfoil": "d8c30ecd-36c5-56b2-a812-28a1e64fb23e"
+            },
+            "text": "Wenn der Eichen-Botschafter ins Spiel kommt, erzeuge einen 1/1 grünen Elf-Krieger-Kreaturenspielstein.",
+            "type": "Kreatur — Baumhirte, Krieger",
+            "uuid": "a44a1ebf-a27a-533d-a6c5-c2253661f4fc"
           },
           {
             "flavorText": "Elfi e silvantropi condividono un interesse comune per le foreste, ma gli elfi si sentono davvero a casa solo con una visuale dall'alto.",
@@ -1262,6 +1392,9 @@
             "language": "Italian",
             "multiverseId": 683746,
             "name": "Quercia Ambasciatrice",
+            "skuIds": {
+              "nonfoil": "c9b77bcc-e8a7-5a39-a3aa-e6f39e3817c9"
+            },
             "text": "Quando la Quercia Ambasciatrice entra, crea una pedina creatura Guerriero Elfo 1/1 verde.",
             "type": "Creatura — Guerriero Silvantropo",
             "uuid": "1a2ea8d2-3be3-5032-b70f-a99697f449ae"
@@ -1275,14 +1408,31 @@
             "language": "Japanese",
             "multiverseId": 683868,
             "name": "大使の樫",
+            "skuIds": {
+              "nonfoil": "44dde415-ef40-5978-812e-51d9ec171ffd"
+            },
             "text": "大使の樫が戦場に出たとき、緑の１/１のエルフ・戦士・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — ツリーフォーク・戦士",
             "uuid": "d783b4aa-1417-5f5a-8fa2-e4fac015bd4f"
+          },
+          {
+            "flavorText": "Los arbóreos y los elfos comparten su interés por los bosques, pero en realidad los elfos solo se sienten tranquilos mirando desde arriba.",
+            "identifiers": {
+              "multiverseId": "683502",
+              "scryfallId": "e906d14b-0041-4bae-9c5a-1391af139525"
+            },
+            "language": "Spanish",
+            "multiverseId": 683502,
+            "name": "Roble embajador",
+            "skuIds": {
+              "nonfoil": "37ed22e1-7948-5461-b4cd-861dda277911"
+            },
+            "text": "Cuando el Roble embajador entre, crea una ficha de criatura Guerrero Elfo verde 1/1.",
+            "type": "Criatura — Guerrero pueblo-arbóreo",
+            "uuid": "6dea7b47-732c-5ca9-aa42-a9f0f01831d6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305965",
           "cardsphereId": "130957",
@@ -1324,6 +1474,7 @@
         "name": "Ambassador Oak",
         "number": "626",
         "originalText": "When Ambassador Oak enters, create a 1/1 green Elf Warrior creature token.",
+        "originalType": "Creature – Treefolk Warrior",
         "power": "3",
         "printings": [
           "A25",
@@ -1339,10 +1490,20 @@
           "tcgplayer": "https://mtgjson.com/links/1aff85fd1dd36e60"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "73b705e5-0868-50dc-aff2-73f0d36de975"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b419cd88-be74-5163-8dee-9c72019e60b6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1376,38 +1537,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 25007,
+        "edhrecRank": 25825,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "A good courier travels fast and asks no questions.",
         "foreignData": [
-          {
-            "flavorText": "Ein guter Kurier reist schnell und stellt keine Fragen.",
-            "identifiers": {
-              "multiverseId": "683396",
-              "scryfallId": "444da952-2680-4dfe-a286-3ba5312c2c3b"
-            },
-            "language": "German",
-            "multiverseId": 683396,
-            "name": "Nebenstraßen-Kurierin",
-            "text": "Wenn die Nebenstraßen-Kurierin stirbt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")",
-            "type": "Kreatur — Mensch, Späher",
-            "uuid": "5318259e-2ef1-53a1-9e9a-9663b5455ed0"
-          },
-          {
-            "flavorText": "Una buena mensajera viaja rápido y no hace preguntas.",
-            "identifiers": {
-              "multiverseId": "683518",
-              "scryfallId": "7c245e46-89b5-4c19-9b7c-7e531f16e741"
-            },
-            "language": "Spanish",
-            "multiverseId": 683518,
-            "name": "Mensajera de la senda remota",
-            "text": "Cuando la Mensajera de la senda remota muera, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)",
-            "type": "Criatura — Explorador humano",
-            "uuid": "aab7e594-1410-5023-9e18-cb5b85a6f2bd"
-          },
           {
             "flavorText": "Un bon messager voyage vite et ne pose pas de questions.",
             "identifiers": {
@@ -1417,9 +1553,28 @@
             "language": "French",
             "multiverseId": 683640,
             "name": "Messagère des routes secondaires",
+            "skuIds": {
+              "nonfoil": "a0afa35d-c0fe-53c1-bda2-8fe63d29f384"
+            },
             "text": "Quand la Messagère des routes secondaires meurt, enquêtez. (Créez un jeton Indice. C'est un artefact avec « {2}, sacrifiez cet artefact : Piochez une carte. »)",
             "type": "Créature — humain et éclaireur",
             "uuid": "397d64c7-8ce1-5213-9b76-0e64071049c7"
+          },
+          {
+            "flavorText": "Ein guter Kurier reist schnell und stellt keine Fragen.",
+            "identifiers": {
+              "multiverseId": "683396",
+              "scryfallId": "444da952-2680-4dfe-a286-3ba5312c2c3b"
+            },
+            "language": "German",
+            "multiverseId": 683396,
+            "name": "Nebenstraßen-Kurierin",
+            "skuIds": {
+              "nonfoil": "b12fcc67-2ee6-5298-ac0b-4dcd8116f4b0"
+            },
+            "text": "Wenn die Nebenstraßen-Kurierin stirbt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")",
+            "type": "Kreatur — Mensch, Späher",
+            "uuid": "5318259e-2ef1-53a1-9e9a-9663b5455ed0"
           },
           {
             "flavorText": "Un buon messaggero viaggia velocemente e non fa domande.",
@@ -1430,6 +1585,9 @@
             "language": "Italian",
             "multiverseId": 683762,
             "name": "Messaggera dei Sentieri",
+            "skuIds": {
+              "nonfoil": "c9757594-d0e3-5060-b314-6ae77b75dce8"
+            },
             "text": "Quando la Messaggera dei Sentieri muore, indaga. (Crea una pedina Indizio. È un artefatto con \"{2}, Sacrifica questo artefatto: Pesca una carta\".)",
             "type": "Creatura — Esploratore Umano",
             "uuid": "9bb59fda-5c54-5bba-9c38-ee2ea9db5f6f"
@@ -1443,14 +1601,31 @@
             "language": "Japanese",
             "multiverseId": 683884,
             "name": "裏道の急使",
+            "skuIds": {
+              "nonfoil": "c026e3be-cd3f-5f05-b5d0-c39610ae8474"
+            },
             "text": "裏道の急使が死亡したとき、調査を行う。（手掛かり・トークン１つを生成する。それは、「{2}, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）",
             "type": "クリーチャー — 人間・スカウト",
             "uuid": "86b842d0-00d2-557f-a51b-ff1be91622cf"
+          },
+          {
+            "flavorText": "Una buena mensajera viaja rápido y no hace preguntas.",
+            "identifiers": {
+              "multiverseId": "683518",
+              "scryfallId": "7c245e46-89b5-4c19-9b7c-7e531f16e741"
+            },
+            "language": "Spanish",
+            "multiverseId": 683518,
+            "name": "Mensajera de la senda remota",
+            "skuIds": {
+              "nonfoil": "6864b71f-85e3-5b53-bf10-1488b8897f6e"
+            },
+            "text": "Cuando la Mensajera de la senda remota muera, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)",
+            "type": "Criatura — Explorador humano",
+            "uuid": "aab7e594-1410-5023-9e18-cb5b85a6f2bd"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305981",
           "cardsphereId": "130938",
@@ -1495,6 +1670,7 @@
         "name": "Byway Courier",
         "number": "642",
         "originalText": "When Byway Courier dies, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")",
+        "originalType": "Creature – Human Scout",
         "power": "3",
         "printings": [
           "J25",
@@ -1508,6 +1684,11 @@
           "tcgplayer": "https://mtgjson.com/links/0f395b8d58e22498"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "d5f5a562-498f-5454-8027-47b398224f68"
+          ]
+        },
         "rulings": [
           {
             "date": "2016-04-08",
@@ -1523,9 +1704,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d0f2007a-3ff2-5b68-9781-99aa43fca540"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1559,39 +1745,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 11184,
+        "edhrecRank": 11417,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As werewolf attacks increased, brutal weapons not seen since the Travails were dusted off and put to work.",
         "foreignData": [
-          {
-            "flavorText": "Als Angriffe durch Werwölfe zunahmen, wurden brutale Waffen, die man seit den Wirren nicht mehr gesehen hatte, entstaubt und eingesetzt.",
-            "identifiers": {
-              "multiverseId": "683399",
-              "scryfallId": "f87348fc-0cbd-410a-b040-58466da6b6d8"
-            },
-            "language": "German",
-            "multiverseId": 683399,
-            "name": "Gezielter Schuss",
-            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, erhält +1/+1 bis zum Ende des Zuges. Sie fügt einer Kreatur deiner Wahl, die du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
-            "type": "Spontanzauber",
-            "uuid": "bf797c3a-755a-5bb2-b7e3-42cd55a3182e"
-          },
-          {
-            "flavorText": "Puesto que los ataques de los licántropos iban en aumento, se desempolvaron armas brutales que no se veían desde las Penurias.",
-            "identifiers": {
-              "multiverseId": "683521",
-              "scryfallId": "cf0575a6-52ae-4c70-b850-46d9a6445e3f"
-            },
-            "language": "Spanish",
-            "multiverseId": 683521,
-            "name": "Disparo certero",
-            "text": "La criatura objetivo que controlas obtiene +1/+1 hasta el final del turno. Hace una cantidad de daño igual a su fuerza a la criatura objetivo que no controlas.",
-            "type": "Instantáneo",
-            "uuid": "af4f1cd4-a0f9-50c5-916d-c0588dec80c7"
-          },
           {
             "flavorText": "Avec l'augmentation des attaques de loups-garous, des armes brutales inaperçues depuis les Calamités furent dépoussiérées pour reprendre du service.",
             "identifiers": {
@@ -1601,9 +1761,28 @@
             "language": "French",
             "multiverseId": 683643,
             "name": "Tir dégagé",
+            "skuIds": {
+              "nonfoil": "85443223-ee27-577e-ab47-ed1e7e018069"
+            },
             "text": "Une créature ciblée que vous contrôlez gagne +1/+1 jusqu'à la fin du tour. Elle inflige un nombre de blessures égal à sa force à une créature ciblée que vous ne contrôlez pas.",
             "type": "Éphémère",
             "uuid": "eef30e9e-0f7f-5bbb-ad9d-36cf799e91f3"
+          },
+          {
+            "flavorText": "Als Angriffe durch Werwölfe zunahmen, wurden brutale Waffen, die man seit den Wirren nicht mehr gesehen hatte, entstaubt und eingesetzt.",
+            "identifiers": {
+              "multiverseId": "683399",
+              "scryfallId": "f87348fc-0cbd-410a-b040-58466da6b6d8"
+            },
+            "language": "German",
+            "multiverseId": 683399,
+            "name": "Gezielter Schuss",
+            "skuIds": {
+              "nonfoil": "126abae0-923f-5862-b5b3-94d4a53594e6"
+            },
+            "text": "Eine Kreatur deiner Wahl, die du kontrollierst, erhält +1/+1 bis zum Ende des Zuges. Sie fügt einer Kreatur deiner Wahl, die du nicht kontrollierst, Schadenspunkte in Höhe ihrer Stärke zu.",
+            "type": "Spontanzauber",
+            "uuid": "bf797c3a-755a-5bb2-b7e3-42cd55a3182e"
           },
           {
             "flavorText": "Con l'aumento degli attacchi di mannari, furono rispolverate e utilizzate armi brutali che non si vedevano dai tempi delle Tribolazioni.",
@@ -1614,6 +1793,9 @@
             "language": "Italian",
             "multiverseId": 683765,
             "name": "Bersaglio Facile",
+            "skuIds": {
+              "nonfoil": "ae86b5cb-8274-5b62-89b5-1d4107f72041"
+            },
             "text": "Una creatura bersaglio che controlli prende +1/+1 fino alla fine del turno. Infligge danno pari alla sua forza a una creatura bersaglio che non controlli.",
             "type": "Istantaneo",
             "uuid": "ab4c56ee-cab7-5c55-b2dd-99bb9bec20b6"
@@ -1627,14 +1809,31 @@
             "language": "Japanese",
             "multiverseId": 683887,
             "name": "直接射撃",
+            "skuIds": {
+              "nonfoil": "2736a67e-e937-53f5-bcfe-c390561d6fed"
+            },
             "text": "あなたがコントロールしているクリーチャー１体を対象とし、あなたがコントロールしていないクリーチャー１体を対象とする。ターン終了時まで、その前者は＋１/＋１の修整を受ける。その前者はその後者に、その前者のパワーに等しい点数のダメージを与える。",
             "type": "インスタント",
             "uuid": "f9496814-6b6b-5645-8e43-cd0a04c8d4b9"
+          },
+          {
+            "flavorText": "Puesto que los ataques de los licántropos iban en aumento, se desempolvaron armas brutales que no se veían desde las Penurias.",
+            "identifiers": {
+              "multiverseId": "683521",
+              "scryfallId": "cf0575a6-52ae-4c70-b850-46d9a6445e3f"
+            },
+            "language": "Spanish",
+            "multiverseId": 683521,
+            "name": "Disparo certero",
+            "skuIds": {
+              "nonfoil": "1e8894f4-0157-5986-9b05-4ae15081b2c8"
+            },
+            "text": "La criatura objetivo que controlas obtiene +1/+1 hasta el final del turno. Hace una cantidad de daño igual a su fuerza a la criatura objetivo que no controlas.",
+            "type": "Instantáneo",
+            "uuid": "af4f1cd4-a0f9-50c5-916d-c0588dec80c7"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305984",
           "cardsphereId": "130921",
@@ -1676,6 +1875,7 @@
         "name": "Clear Shot",
         "number": "645",
         "originalText": "Target creature you control gets +1/+1 until end of turn. It deals damage equal to its power to target creature you don't control.",
+        "originalType": "Instant",
         "printings": [
           "2XM",
           "DBL",
@@ -1705,9 +1905,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e55930a9-8f72-5752-a3a5-16f4f30b9347"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1737,35 +1942,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 6115,
+        "edhrecRank": 6911,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683489",
-              "scryfallId": "b294fe22-cd24-4575-aa42-57a162bce134"
-            },
-            "language": "German",
-            "multiverseId": 683489,
-            "name": "Mysterien des Ulvenwalds",
-            "text": "Immer wenn eine Nichtspielsteinkreatur, die du kontrollierst, stirbt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du einen Hinweis opferst, erzeuge einen 1/1 weißen Mensch-Soldat-Kreaturenspielstein.",
-            "type": "Verzauberung",
-            "uuid": "c9a1a09f-9305-5a65-b375-e623afa801ca"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683611",
-              "scryfallId": "01b551de-f3c1-4958-977e-1f6561f28bb2"
-            },
-            "language": "Spanish",
-            "multiverseId": 683611,
-            "name": "Misterios de Ulvenwald",
-            "text": "Siempre que una criatura que no sea ficha que controlas muera, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)\nSiempre que sacrifiques una Pista, crea una ficha de criatura Soldado Humano blanca 1/1.",
-            "type": "Encantamiento",
-            "uuid": "99e7a6af-958a-540a-9898-cd14c681f62b"
-          },
           {
             "identifiers": {
               "multiverseId": "683733",
@@ -1774,9 +1956,27 @@
             "language": "French",
             "multiverseId": 683733,
             "name": "Mystères d'Ulvenwald",
+            "skuIds": {
+              "nonfoil": "ba223faa-95c8-5f6a-9428-df693721578d"
+            },
             "text": "À chaque fois qu'une créature non-jeton que vous contrôlez meurt, enquêtez. (Créez un jeton Indice. C'est un artefact avec « {2}, sacrifiez cet artefact : Piochez une carte. »)\nÀ chaque fois que vous sacrifiez un indice, créez un jeton de créature 1/1 blanche Humain et Soldat.",
             "type": "Enchantement",
             "uuid": "0b7c0db8-7201-53de-806f-5c43908c9427"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683489",
+              "scryfallId": "b294fe22-cd24-4575-aa42-57a162bce134"
+            },
+            "language": "German",
+            "multiverseId": 683489,
+            "name": "Mysterien des Ulvenwalds",
+            "skuIds": {
+              "nonfoil": "21d20f8d-b7af-5ce7-b661-881442f33497"
+            },
+            "text": "Immer wenn eine Nichtspielsteinkreatur, die du kontrollierst, stirbt, stelle Nachforschungen an. (Erzeuge einen Hinweis-Spielstein. Er ist ein Artefakt mit „{2}, opfere dieses Artefakt: Ziehe eine Karte.\")\nImmer wenn du einen Hinweis opferst, erzeuge einen 1/1 weißen Mensch-Soldat-Kreaturenspielstein.",
+            "type": "Verzauberung",
+            "uuid": "c9a1a09f-9305-5a65-b375-e623afa801ca"
           },
           {
             "identifiers": {
@@ -1786,6 +1986,9 @@
             "language": "Italian",
             "multiverseId": 683855,
             "name": "Misteri di Ulvenwald",
+            "skuIds": {
+              "nonfoil": "909fa510-6ad3-542c-8b93-22a243c592f3"
+            },
             "text": "Ogniqualvolta una creatura non pedina che controlli muore, indaga. (Crea una pedina Indizio. È un artefatto con \"{2}, Sacrifica questo artefatto: Pesca una carta\".)\nOgniqualvolta sacrifichi un Indizio, crea una pedina creatura Soldato Umano 1/1 bianca.",
             "type": "Incantesimo",
             "uuid": "6edc345c-a043-5d8e-a03d-9ad9bbe6763c"
@@ -1798,14 +2001,30 @@
             "language": "Japanese",
             "multiverseId": 683977,
             "name": "ウルヴェンワルドの謎",
+            "skuIds": {
+              "nonfoil": "94a6cd8c-3790-5332-a167-2223f92a745b"
+            },
             "text": "あなたがコントロールしていてトークンでないクリーチャー１体が死亡するたび、調査を行う。（手掛かり・トークン１つを生成する。それは、「{2}, このアーティファクトを生け贄に捧げる：カード１枚を引く。」を持つアーティファクトである。）\nあなたが手掛かり１つを生け贄に捧げるたび、白の１/１の人間・兵士・クリーチャー・トークン１体を生成する。",
             "type": "エンチャント",
             "uuid": "53bad8a5-4b09-53b9-ba47-9a3e82f478d6"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683611",
+              "scryfallId": "01b551de-f3c1-4958-977e-1f6561f28bb2"
+            },
+            "language": "Spanish",
+            "multiverseId": 683611,
+            "name": "Misterios de Ulvenwald",
+            "skuIds": {
+              "nonfoil": "910701c2-d78f-5f6e-bb37-b06f78291d68"
+            },
+            "text": "Siempre que una criatura que no sea ficha que controlas muera, investiga. (Crea una ficha de Pista. Es un artefacto con \"{2}, sacrificar este artefacto: Roba una carta\".)\nSiempre que sacrifiques una Pista, crea una ficha de criatura Soldado Humano blanca 1/1.",
+            "type": "Encantamiento",
+            "uuid": "99e7a6af-958a-540a-9898-cd14c681f62b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306074",
           "cardsphereId": "130702",
@@ -1847,6 +2066,7 @@
         "name": "Ulvenwald Mysteries",
         "number": "735",
         "originalText": "Whenever a nontoken creature you control dies, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")\nWhenever you sacrifice a Clue, create a 1/1 white Human Soldier creature token.",
+        "originalType": "Enchantment",
         "printings": [
           "2XM",
           "INR",
@@ -1863,6 +2083,12 @@
           "tcgplayer": "https://mtgjson.com/links/bbd3603f62000eee"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "d5f5a562-498f-5454-8027-47b398224f68",
+            "f2c87685-37e9-5497-93ed-10a0bb33351a"
+          ]
+        },
         "rulings": [
           {
             "date": "2025-01-24",
@@ -1878,9 +2104,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "47306849-7e6f-5194-a6fb-2aa4be6a343d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1910,39 +2141,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 13245,
+        "edhrecRank": 13529,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Every footfall on the forest floor is a heartbeat sending strength into my veins.\"",
         "foreignData": [
-          {
-            "flavorText": "„Jeder Hufschlag auf dem Waldboden ist ein Herzschlag, der Stärke in meine Venen pumpt.\"",
-            "identifiers": {
-              "multiverseId": "683495",
-              "scryfallId": "bed6b8ea-4540-4088-9420-ed5721f99206"
-            },
-            "language": "German",
-            "multiverseId": 683495,
-            "name": "Waldland-Champion",
-            "text": "Immer wenn ein oder mehrere Spielsteine unter deiner Kontrolle ins Spiel kommen, lege entsprechend viele +1/+1-Marken auf den Waldland-Champion.",
-            "type": "Kreatur — Elf, Späher",
-            "uuid": "68779dcb-f326-5200-83a8-e88180b8f0ff"
-          },
-          {
-            "flavorText": "\"Cada paso en el bosque es un latido que envía fuerza a mis venas\".",
-            "identifiers": {
-              "multiverseId": "683617",
-              "scryfallId": "9dd8974d-1f69-4ce9-af52-c647ada7eadb"
-            },
-            "language": "Spanish",
-            "multiverseId": 683617,
-            "name": "Campeona de los bosques",
-            "text": "Siempre que una o más fichas que controlas entren, pon esa misma cantidad de contadores +1/+1 sobre la Campeona de los bosques.",
-            "type": "Criatura — Explorador elfo",
-            "uuid": "73daf51d-709b-554f-b595-0811e2fbfca8"
-          },
           {
             "flavorText": "« Chaque pas sur le sol forestier est un battement de cœur qui injecte sa force dans mes veines. »",
             "identifiers": {
@@ -1952,9 +2157,28 @@
             "language": "French",
             "multiverseId": 683739,
             "name": "Championne des sylves",
+            "skuIds": {
+              "nonfoil": "c774d4d9-da82-50fd-8a8d-3258cac1bd8c"
+            },
             "text": "À chaque fois qu'au moins un jeton que vous contrôlez arrive, mettez autant de marqueurs +1/+1 sur la Championne des sylves.",
             "type": "Créature — elfe et éclaireur",
             "uuid": "be0caabf-b4a9-59fd-a924-a7bd85675e88"
+          },
+          {
+            "flavorText": "„Jeder Hufschlag auf dem Waldboden ist ein Herzschlag, der Stärke in meine Venen pumpt.\"",
+            "identifiers": {
+              "multiverseId": "683495",
+              "scryfallId": "bed6b8ea-4540-4088-9420-ed5721f99206"
+            },
+            "language": "German",
+            "multiverseId": 683495,
+            "name": "Waldland-Champion",
+            "skuIds": {
+              "nonfoil": "c4481afb-a413-5f76-805c-03ed8a7b5e3b"
+            },
+            "text": "Immer wenn ein oder mehrere Spielsteine unter deiner Kontrolle ins Spiel kommen, lege entsprechend viele +1/+1-Marken auf den Waldland-Champion.",
+            "type": "Kreatur — Elf, Späher",
+            "uuid": "68779dcb-f326-5200-83a8-e88180b8f0ff"
           },
           {
             "flavorText": "\"Ogni passo sul terreno della foresta è un battito che infonde forza nelle mie vene.\"",
@@ -1965,6 +2189,9 @@
             "language": "Italian",
             "multiverseId": 683861,
             "name": "Campionessa delle Selve",
+            "skuIds": {
+              "nonfoil": "980bf50e-058c-51ab-9dd1-c19c77055e31"
+            },
             "text": "Ogniqualvolta una o più pedine che controlli entrano, metti altrettanti segnalini +1/+1 sulla Campionessa delle Selve.",
             "type": "Creatura — Esploratore Elfo",
             "uuid": "85a680bd-3b70-502d-b697-d4037f466822"
@@ -1978,14 +2205,31 @@
             "language": "Japanese",
             "multiverseId": 683983,
             "name": "森林の勇者",
+            "skuIds": {
+              "nonfoil": "02a40bb2-caf2-5ad7-a023-30d34670ad9c"
+            },
             "text": "あなたがコントロールしている１つ以上のトークンが戦場に出るたび、森林の勇者の上にその数に等しい個数の＋１/＋１カウンターを置く。",
             "type": "クリーチャー — エルフ・スカウト",
             "uuid": "f370a1e7-0dfd-5766-9c3d-b4cd254fd5bb"
+          },
+          {
+            "flavorText": "\"Cada paso en el bosque es un latido que envía fuerza a mis venas\".",
+            "identifiers": {
+              "multiverseId": "683617",
+              "scryfallId": "9dd8974d-1f69-4ce9-af52-c647ada7eadb"
+            },
+            "language": "Spanish",
+            "multiverseId": 683617,
+            "name": "Campeona de los bosques",
+            "skuIds": {
+              "nonfoil": "c1ad06bc-5b5e-529f-975f-67ed7d1a6c26"
+            },
+            "text": "Siempre que una o más fichas que controlas entren, pon esa misma cantidad de contadores +1/+1 sobre la Campeona de los bosques.",
+            "type": "Criatura — Explorador elfo",
+            "uuid": "73daf51d-709b-554f-b595-0811e2fbfca8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306080",
           "cardsphereId": "130688",
@@ -2025,6 +2269,7 @@
         "name": "Woodland Champion",
         "number": "741",
         "originalText": "Whenever one or more tokens you control enter, put that many +1/+1 counters on Woodland Champion.",
+        "originalType": "Creature – Elf Scout",
         "power": "2",
         "printings": [
           "2XM",
@@ -2045,9 +2290,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cf5b9097-b7df-5430-bec1-5e252e903876"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2079,39 +2329,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [
-          {
-            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
-            "identifiers": {
-              "multiverseId": "684057",
-              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
-            },
-            "language": "German",
-            "multiverseId": 684057,
-            "name": "Gedeihender Hain",
-            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
-          },
-          {
-            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
-            "identifiers": {
-              "multiverseId": "684096",
-              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
-            },
-            "language": "Spanish",
-            "multiverseId": 684096,
-            "name": "Arboleda floreciente",
-            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
-          },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
             "identifiers": {
@@ -2121,9 +2345,28 @@
             "language": "French",
             "multiverseId": 684135,
             "name": "Bosquet prospère",
+            "skuIds": {
+              "nonfoil": "51437dd3-acf7-561d-be34-2bd7b585902d"
+            },
             "text": "Le Bosquet prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "dd8a7da7-437c-510e-b6b7-9ec69e67361d"
+          },
+          {
+            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
+            "identifiers": {
+              "multiverseId": "684057",
+              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
+            },
+            "language": "German",
+            "multiverseId": 684057,
+            "name": "Gedeihender Hain",
+            "skuIds": {
+              "nonfoil": "5af71e60-aa94-54bb-8d0d-8e714c39a35d"
+            },
+            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2134,6 +2377,9 @@
             "language": "Italian",
             "multiverseId": 684174,
             "name": "Boschetto Florido",
+            "skuIds": {
+              "nonfoil": "544714bc-313e-5ca7-889b-450cfd079452"
+            },
             "text": "Il Boschetto Florido entra TAPpato. Mentre entra, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "6693c01e-35dc-5c63-98bd-89ac731d6a2d"
@@ -2147,14 +2393,31 @@
             "language": "Japanese",
             "multiverseId": 684213,
             "name": "興隆する木立",
+            "skuIds": {
+              "nonfoil": "52b35007-104f-5d42-84f2-c1e1e5fe06f4"
+            },
             "text": "興隆する木立はタップ状態で戦場に出る。これが戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "2d4a252c-eb6e-5f19-b978-330e45a4ab4a"
+          },
+          {
+            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
+            "identifiers": {
+              "multiverseId": "684096",
+              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
+            },
+            "language": "Spanish",
+            "multiverseId": 684096,
+            "name": "Arboleda floreciente",
+            "skuIds": {
+              "nonfoil": "18a4b132-b84a-56f0-9287-48ae6ab87ca9"
+            },
+            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306115",
           "cardsphereId": "130629",
@@ -2192,18 +2455,28 @@
         "name": "Thriving Grove",
         "number": "776",
         "originalText": "Thriving Grove enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f4238a645e85036c",
@@ -2212,9 +2485,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a0902c07-54be-5e85-93bf-1c5106c1eb35"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2249,36 +2527,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681263",
-              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
-            },
-            "language": "German",
-            "multiverseId": 681263,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681278",
-              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
-            },
-            "language": "Spanish",
-            "multiverseId": 681278,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681293",
               "scryfallId": "3eb6a0b9-0629-4e6c-a31d-610aa70f6037"
             },
             "language": "French",
             "multiverseId": 681293,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "cf315f2d-d6fa-5f8a-b327-3b05cb1b1425"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "b10ace0b-9e6a-5815-b238-b578636bc2c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681263",
+              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
+            },
+            "language": "German",
+            "multiverseId": 681263,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "43f12410-e8b0-5cac-8539-bb262bfe2889"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
           },
           {
             "identifiers": {
@@ -2288,6 +2561,9 @@
             "language": "Italian",
             "multiverseId": 681308,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6c9f1064-862d-5686-9d1d-182ea54c741f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "f889c416-e0ce-556c-b55e-f2a30c98062f"
           },
@@ -2299,18 +2575,34 @@
             "language": "Japanese",
             "multiverseId": 681323,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "eed625d1-92fd-5c21-b3be-b31d31337bc3"
+            },
             "type": "基本土地 — 森",
             "uuid": "a6843a19-8ad2-540e-8eff-8f4da4433681"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681278",
+              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
+            },
+            "language": "Spanish",
+            "multiverseId": 681278,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2c8a7443-87b7-5d2f-aa06-661ab320103c"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305227",
           "cardsphereId": "131383",
           "deckboxId": "98087",
           "mcmId": "795514",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95178",
           "mtgjsonV4Id": "952bfe5f-ab3f-567c-be51-b1e1177bcd27",
           "multiverseId": "681248",
@@ -2323,7 +2615,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2351,6 +2642,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "93",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2421,6 +2713,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2583,15 +2876,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/43adef7c33aa4590",
+          "cardmarket": "https://mtgjson.com/links/778a4fdc956baf3c",
           "tcgplayer": "https://mtgjson.com/links/694d7368b6e0ea08"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "652993ee-52fa-54d6-ae86-2613ad80c3eb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2607,8 +2909,8 @@
         ],
         "uuid": "cb1f99de-6c0c-5616-9091-be7af9f67e51",
         "variations": [
-          "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "d79afedf-c505-574e-91c0-95eb7f7cfe7c"
         ]
       },
       {
@@ -2634,36 +2936,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681264",
-              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
-            },
-            "language": "German",
-            "multiverseId": 681264,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681279",
-              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 681279,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681294",
               "scryfallId": "631d105e-81dd-4d38-902e-9833568b9c62"
             },
             "language": "French",
             "multiverseId": 681294,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "925f7141-4f6e-5447-8690-f9f1d514f8fe"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "52d84231-47dd-553b-b791-b0dd8e0c26c2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681264",
+              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
+            },
+            "language": "German",
+            "multiverseId": 681264,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "6b5869a4-6157-5253-bd5d-3e394c5c2172"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
           },
           {
             "identifiers": {
@@ -2673,6 +2970,9 @@
             "language": "Italian",
             "multiverseId": 681309,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "7ce2027c-2595-5aef-b260-e5df6e4bc79f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "27e89f38-2f5a-5a80-9501-940856b5fc0b"
           },
@@ -2684,18 +2984,34 @@
             "language": "Japanese",
             "multiverseId": 681324,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2ed704fe-38a1-5fd8-b8f4-03e5633be7b9"
+            },
             "type": "基本土地 — 森",
             "uuid": "159454ea-3215-5905-80f5-0375cc3e3785"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681279",
+              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 681279,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2dbc8b56-f8e1-5cb4-8833-93165854fc84"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305228",
           "cardsphereId": "131384",
           "deckboxId": "98088",
           "mcmId": "795515",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95179",
           "mtgjsonV4Id": "c5ff8984-9b17-5479-b453-28e905eec248",
           "multiverseId": "681249",
@@ -2708,7 +3024,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2736,6 +3051,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "94",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2806,6 +3122,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2968,15 +3285,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a7859c6792802052",
+          "cardmarket": "https://mtgjson.com/links/4cf2b896b0d1f397",
           "tcgplayer": "https://mtgjson.com/links/06ef70de48280700"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cd3e2a76-6b0a-5f5c-a4db-6f0045a38f77"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2992,8 +3318,8 @@
         ],
         "uuid": "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
         "variations": [
-          "cb1f99de-6c0c-5616-9091-be7af9f67e51",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "cb1f99de-6c0c-5616-9091-be7af9f67e51"
         ]
       },
       {
@@ -3019,36 +3345,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681265",
-              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
-            },
-            "language": "German",
-            "multiverseId": 681265,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681280",
-              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
-            },
-            "language": "Spanish",
-            "multiverseId": 681280,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681295",
               "scryfallId": "300c0dae-dcb3-429c-96c9-0a718b92c3ed"
             },
             "language": "French",
             "multiverseId": 681295,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "e17e6dff-7bf3-54b4-8ae8-570ae9bc4f99"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "229ce3ad-7120-5b6f-ab60-4f98fa8cf855"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681265",
+              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
+            },
+            "language": "German",
+            "multiverseId": 681265,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "301e2e8c-305e-5e4b-ae86-44c0365ae2f0"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
           },
           {
             "identifiers": {
@@ -3058,6 +3379,9 @@
             "language": "Italian",
             "multiverseId": 681310,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6360a4f6-874c-53c9-ac14-8579e1d91c8e"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "c763b563-99b8-5c05-8c8a-5a65d56c9237"
           },
@@ -3069,18 +3393,34 @@
             "language": "Japanese",
             "multiverseId": 681325,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2f7a4c88-d340-57a0-b491-4465ba20adc1"
+            },
             "type": "基本土地 — 森",
             "uuid": "464ed43f-8f2c-5351-82d4-e130a949ae08"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681280",
+              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
+            },
+            "language": "Spanish",
+            "multiverseId": 681280,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "62e7272b-aecd-561b-a528-4e028f863b67"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305229",
           "cardsphereId": "131385",
           "deckboxId": "98089",
           "mcmId": "795516",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95180",
           "mtgjsonV4Id": "7243b80f-e2c7-53a7-9833-124662686acb",
           "multiverseId": "681250",
@@ -3093,7 +3433,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3121,6 +3460,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "95",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3191,6 +3531,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3353,15 +3694,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/7e9f7a8efa5d44f2",
+          "cardmarket": "https://mtgjson.com/links/5ce0459040c05931",
           "tcgplayer": "https://mtgjson.com/links/5c047147e17edc45"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a618b1f9-1d0b-5b4d-bb33-d6662525f0a1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3393,5 +3743,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "4afa294600c1f2"
   }
 }

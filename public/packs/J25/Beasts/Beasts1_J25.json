@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "c746af438d7a1d"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -29,36 +24,12 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 12233,
+        "edhrecRank": 11887,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680982",
-              "scryfallId": "fe24e71e-adb0-46bb-b461-f87930f38031"
-            },
-            "language": "German",
-            "multiverseId": 680982,
-            "name": "Slinza die Dornenstampede",
-            "text": "Bestie-Zaubersprüche, die du wirkst, kosten beim Wirken {2} weniger.\nJede andere Bestie-Kreatur, die du kontrollierst, kommt mit einer zusätzlichen +1/+1-Marke ins Spiel.\nImmer wenn Slinza oder eine andere Kreatur mit Stärke 4 oder mehr ins Spiel kommt, kannst du {1}{R/G} bezahlen. Wenn du dies tust, kämpft Slinza gegen eine Kreatur deiner Wahl, die du nicht kontrollierst.",
-            "type": "Legendäre Kreatur — Bestie",
-            "uuid": "745834a5-df2b-530e-bb3c-90d21131fc11"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681009",
-              "scryfallId": "da5f7014-6dd4-4540-9434-664425b6c71b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681009,
-            "name": "Slinza, la estampida con púas",
-            "text": "Te cuesta {2} menos lanzar los hechizos de Bestia.\nCada otra criatura Bestia que controlas entra con un contador +1/+1 adicional sobre ella.\nSiempre que Slinza u otra criatura con fuerza de 4 o más entre, puedes pagar {1}{R/G}. Cuando lo hagas, Slinza lucha contra la criatura objetivo que no controlas.",
-            "type": "Criatura legendaria — Bestia",
-            "uuid": "36876f85-4f3f-52da-acaf-f908bcf01cf8"
-          },
           {
             "identifiers": {
               "multiverseId": "681036",
@@ -67,9 +38,27 @@
             "language": "French",
             "multiverseId": 681036,
             "name": "Slinza, la ruée piquante",
+            "skuIds": {
+              "nonfoil": "eeaa0127-66cf-58d6-b90e-eb3eb745b5df"
+            },
             "text": "Les sorts de bête que vous lancez coûtent {2} de moins à lancer.\nChaque autre créature Bête que vous contrôlez arrive avec un marqueur +1/+1 supplémentaire sur elle.\nÀ chaque fois que Slinza ou une autre créature de force supérieure ou égale à 4 arrive, vous pouvez payer {1}{R/G}. Quand vous faites ainsi, Slinza se bat contre une créature ciblée que vous ne contrôlez pas.",
             "type": "Créature légendaire — bête",
             "uuid": "47e0cb7e-5784-54e0-b97a-bc81bd029f4b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680982",
+              "scryfallId": "fe24e71e-adb0-46bb-b461-f87930f38031"
+            },
+            "language": "German",
+            "multiverseId": 680982,
+            "name": "Slinza die Dornenstampede",
+            "skuIds": {
+              "nonfoil": "aae828a0-0a10-5d65-92b8-1347965d6af8"
+            },
+            "text": "Bestie-Zaubersprüche, die du wirkst, kosten beim Wirken {2} weniger.\nJede andere Bestie-Kreatur, die du kontrollierst, kommt mit einer zusätzlichen +1/+1-Marke ins Spiel.\nImmer wenn Slinza oder eine andere Kreatur mit Stärke 4 oder mehr ins Spiel kommt, kannst du {1}{R/G} bezahlen. Wenn du dies tust, kämpft Slinza gegen eine Kreatur deiner Wahl, die du nicht kontrollierst.",
+            "type": "Legendäre Kreatur — Bestie",
+            "uuid": "745834a5-df2b-530e-bb3c-90d21131fc11"
           },
           {
             "identifiers": {
@@ -79,6 +68,9 @@
             "language": "Italian",
             "multiverseId": 681063,
             "name": "Slinza, la Carica Acuminata",
+            "skuIds": {
+              "nonfoil": "f96d05bd-747f-5723-81bb-5b1222e16a7d"
+            },
             "text": "Le magie Bestia che lanci costano {2} in meno per essere lanciate.\nOgni altra creatura Bestia che controlli entra con un segnalino +1/+1 addizionale.\nOgniqualvolta Slinza o un'altra creatura con forza pari o superiore a 4 entra, puoi pagare {1}{R/G}. Quando lo fai, Slinza lotta con una creatura bersaglio che non controlli.",
             "type": "Creatura Leggendaria — Bestia",
             "uuid": "f72c1f4b-89bb-50a5-95be-764edb6d25a7"
@@ -91,17 +83,33 @@
             "language": "Japanese",
             "multiverseId": 681090,
             "name": "棘持つ暴走者、スリンザ",
+            "skuIds": {
+              "nonfoil": "da1e6164-9eec-55aa-883e-d069f1d7a697"
+            },
             "text": "あなたがビースト・呪文を唱えるためのコストは{2}少なくなる。\nあなたがコントロールしていてこれでない各ビースト・クリーチャーはそれぞれ追加の＋１/＋１カウンター１個が置かれた状態で戦場に出る。\nこれやパワーが４以上でありこれでないクリーチャー１体が戦場に出るたび、{1}{R/G}を支払ってもよい。そうしたとき、あなたがコントロールしていないクリーチャー１体を対象とする。これはそれと格闘を行う。",
             "type": "伝説のクリーチャー — ビースト",
             "uuid": "d201fb0a-f8f5-51ac-9e62-1b1287bd61d2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681009",
+              "scryfallId": "da5f7014-6dd4-4540-9434-664425b6c71b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681009,
+            "name": "Slinza, la estampida con púas",
+            "skuIds": {
+              "nonfoil": "4e98ba1e-20ce-503d-8196-c196af851a85"
+            },
+            "text": "Te cuesta {2} menos lanzar los hechizos de Bestia.\nCada otra criatura Bestia que controlas entra con un contador +1/+1 adicional sobre ella.\nSiempre que Slinza u otra criatura con fuerza de 4 o más entre, puedes pagar {1}{R/G}. Cuando lo hagas, Slinza lucha contra la criatura objetivo que no controlas.",
+            "type": "Criatura legendaria — Bestia",
+            "uuid": "36876f85-4f3f-52da-acaf-f908bcf01cf8"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305189",
           "cardsphereId": "130840",
@@ -120,7 +128,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Fight"
         ],
@@ -147,6 +154,7 @@
         "name": "Slinza, the Spiked Stampede",
         "number": "55",
         "originalText": "Beast spells you cast cost {2} less to cast.\nEach other Beast creature you control enters with an additional +1/+1 counter on it.\nWhenever Slinza or another creature with power 4 or greater enters, you may pay {1}{(}r/g)}. When you do, Slinza fights target creature you don't control.",
+        "originalType": "Legendary Creature – Beast",
         "power": "5",
         "printings": [
           "J25"
@@ -193,9 +201,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ab49fb8f-c5b9-5494-b782-a4e32ba92fe8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -231,39 +244,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 25608,
+        "edhrecRank": 25596,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "It supplements its leafy diet with delicacies snatched from low-flying airships.",
         "foreignData": [
-          {
-            "flavorText": "Es ergänzt seine blättrige Nahrung mit Leckerbissen, die es von tief fliegenden Luftschiffen erbeutet.",
-            "identifiers": {
-              "multiverseId": "681375",
-              "scryfallId": "d9b3c6c1-0565-4252-90eb-32d5f6f026b9"
-            },
-            "language": "German",
-            "multiverseId": 681375,
-            "name": "Hungriges Megafaultier",
-            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\n{2}, {T}: Lege eine +1/+1-Marke auf das Hungrige Megafaultier.",
-            "type": "Kreatur — Faultier, Bestie",
-            "uuid": "f7d89b67-1e9e-5951-99a2-4efeb98dea5a"
-          },
-          {
-            "flavorText": "Complementa su dieta basada en hojas con exquisiteces de las naves que vuelan bajo.",
-            "identifiers": {
-              "multiverseId": "681404",
-              "scryfallId": "5caec970-5ec7-4ee6-a564-9ca06101708e"
-            },
-            "language": "Spanish",
-            "multiverseId": 681404,
-            "name": "Megaperezoso hambriento",
-            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\n{2}, {T}: Pon un contador +1/+1 sobre el Megaperezoso hambriento.",
-            "type": "Criatura — Bestia perezoso",
-            "uuid": "e480dc18-2c1b-578e-abe2-f0964518db75"
-          },
           {
             "flavorText": "Il complète son alimentation composée de feuilles avec ce qu'il arrache aux aéronefs volant à basse altitude.",
             "identifiers": {
@@ -273,9 +260,28 @@
             "language": "French",
             "multiverseId": 681433,
             "name": "Mégaresseux affamé",
+            "skuIds": {
+              "nonfoil": "c41d7696-49c9-5951-92ac-9cb9606630d8"
+            },
             "text": "Portée (Cette créature peut bloquer les créatures avec le vol.)\n{2}, {T} : Mettez un marqueur +1/+1 sur le Mégaresseux affamé.",
             "type": "Créature — paresseux et bête",
             "uuid": "44da4014-e6b4-5d62-b769-38211742e44c"
+          },
+          {
+            "flavorText": "Es ergänzt seine blättrige Nahrung mit Leckerbissen, die es von tief fliegenden Luftschiffen erbeutet.",
+            "identifiers": {
+              "multiverseId": "681375",
+              "scryfallId": "d9b3c6c1-0565-4252-90eb-32d5f6f026b9"
+            },
+            "language": "German",
+            "multiverseId": 681375,
+            "name": "Hungriges Megafaultier",
+            "skuIds": {
+              "nonfoil": "efaf3e53-4760-591d-9324-8d0bd1ee1801"
+            },
+            "text": "Reichweite (Diese Kreatur kann fliegende Kreaturen blocken.)\n{2}, {T}: Lege eine +1/+1-Marke auf das Hungrige Megafaultier.",
+            "type": "Kreatur — Faultier, Bestie",
+            "uuid": "f7d89b67-1e9e-5951-99a2-4efeb98dea5a"
           },
           {
             "flavorText": "Integra la sua dieta a base di foglie con leccornie rubate dalle aeronavi che volano basso.",
@@ -286,6 +292,9 @@
             "language": "Italian",
             "multiverseId": 681462,
             "name": "Megabradipo Affamato",
+            "skuIds": {
+              "nonfoil": "9bdf95aa-6c7b-5676-92bc-ee98fb381eb8"
+            },
             "text": "Raggiungere (Questa creatura può bloccare le creature con volare.)\n{2}, {T}: Metti un segnalino +1/+1 sul Megabradipo Affamato.",
             "type": "Creatura — Bestia Bradipo",
             "uuid": "f25a6bde-6304-56d2-b6bf-619cb96caee9"
@@ -299,14 +308,31 @@
             "language": "Japanese",
             "multiverseId": 681491,
             "name": "腹ぺこメガ・スロス",
+            "skuIds": {
+              "nonfoil": "ec1e8d50-a097-534e-a886-7fe7377f1872"
+            },
             "text": "到達（このクリーチャーは飛行を持つクリーチャーをブロックできる。）\n{2}, {T}：腹ぺこメガ・スロスの上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — ナマケモノ・ビースト",
             "uuid": "6227ba07-feca-5a35-9bb9-7f4c26c82831"
+          },
+          {
+            "flavorText": "Complementa su dieta basada en hojas con exquisiteces de las naves que vuelan bajo.",
+            "identifiers": {
+              "multiverseId": "681404",
+              "scryfallId": "5caec970-5ec7-4ee6-a564-9ca06101708e"
+            },
+            "language": "Spanish",
+            "multiverseId": 681404,
+            "name": "Megaperezoso hambriento",
+            "skuIds": {
+              "nonfoil": "8707e33d-bbc2-5eca-b858-5a236a579888"
+            },
+            "text": "Alcance. (Esta criatura puede bloquear criaturas con la habilidad de volar.)\n{2}, {T}: Pon un contador +1/+1 sobre el Megaperezoso hambriento.",
+            "type": "Criatura — Bestia perezoso",
+            "uuid": "e480dc18-2c1b-578e-abe2-f0964518db75"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305155",
           "cardsphereId": "130742",
@@ -325,7 +351,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Reach"
         ],
@@ -347,6 +372,7 @@
         "name": "Hungry Megasloth",
         "number": "21",
         "originalText": "Reach (This creature can block creatures with flying.)\n{2}, {T}: Put a +1/+1 counter on Hungry Megasloth.",
+        "originalType": "Creature – Sloth Beast",
         "power": "3",
         "printings": [
           "J25"
@@ -358,9 +384,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67cd6344-b2bc-5e87-bc93-46769d6434b6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -395,39 +426,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 21026,
+        "edhrecRank": 21186,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Drive the beasts into the enemy ranks, then stay back and let them do the work.\"\n—Koth",
         "foreignData": [
-          {
-            "flavorText": "„Treibe die Bestien in die feindlichen Reihen, bleib dann zurück und lass sie die Arbeit machen.\"\n—Koth",
-            "identifiers": {
-              "multiverseId": "681380",
-              "scryfallId": "6c843cae-a79b-4f20-b055-5f73e70e702c"
-            },
-            "language": "German",
-            "multiverseId": 681380,
-            "name": "Stachel-Tyrranax",
-            "text": "Zu Beginn des Kampfes in deinem Zug kannst du {2}{G} bezahlen. Wenn du dies tust, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl. Die Kreatur verursacht Trampelschaden bis zum Ende des Zuges. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
-            "type": "Kreatur — Dinosaurier, Bestie",
-            "uuid": "053cfcbb-6457-5269-afa1-1ce5ac1ea153"
-          },
-          {
-            "flavorText": "\"Conduce a las bestias hacia las tropas enemigas y tú quédate en la retaguardia esperando a que hagan su trabajo\".\n—Koth",
-            "identifiers": {
-              "multiverseId": "681409",
-              "scryfallId": "3e60b3fe-7485-4a32-97e5-4aa4f730c269"
-            },
-            "language": "Spanish",
-            "multiverseId": 681409,
-            "name": "Tyrranax espinoso",
-            "text": "Al comienzo del combate en tu turno, puedes pagar {2}{G}. Cuando lo hagas, pon un contador +1/+1 sobre la criatura objetivo. Esa criatura gana la habilidad de arrollar hasta el final del turno. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
-            "type": "Criatura — Bestia dinosaurio",
-            "uuid": "2deeeff3-a0db-5344-aebf-4f0659824ea1"
-          },
           {
             "flavorText": "« Poussez les bêtes dans les rangs ennemis, puis restez en arrière et laissez-les faire tout le travail. »\n—Koth",
             "identifiers": {
@@ -437,9 +442,28 @@
             "language": "French",
             "multiverseId": 681438,
             "name": "Tyrranax à piquants",
+            "skuIds": {
+              "nonfoil": "9b43ff90-50e8-56a9-82cd-16080f6ad0b9"
+            },
             "text": "Au début du combat pendant votre tour, vous pouvez payer {2}{G}. Quand vous faites ainsi, mettez un marqueur +1/+1 sur une créature ciblée. Cette créature acquiert le piétinement jusqu'à la fin du tour. (Elle peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)",
             "type": "Créature — dinosaure et bête",
             "uuid": "c3b2dcfb-9f10-52c0-8537-03892594ed97"
+          },
+          {
+            "flavorText": "„Treibe die Bestien in die feindlichen Reihen, bleib dann zurück und lass sie die Arbeit machen.\"\n—Koth",
+            "identifiers": {
+              "multiverseId": "681380",
+              "scryfallId": "6c843cae-a79b-4f20-b055-5f73e70e702c"
+            },
+            "language": "German",
+            "multiverseId": 681380,
+            "name": "Stachel-Tyrranax",
+            "skuIds": {
+              "nonfoil": "e34d7347-148e-516a-ad25-418ec0a31ef8"
+            },
+            "text": "Zu Beginn des Kampfes in deinem Zug kannst du {2}{G} bezahlen. Wenn du dies tust, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl. Die Kreatur verursacht Trampelschaden bis zum Ende des Zuges. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
+            "type": "Kreatur — Dinosaurier, Bestie",
+            "uuid": "053cfcbb-6457-5269-afa1-1ce5ac1ea153"
           },
           {
             "flavorText": "\"Spingi le bestie tra le schiere del nemico, poi allontanati e lascia che se ne occupino loro.\"\n—Koth",
@@ -450,6 +474,9 @@
             "language": "Italian",
             "multiverseId": 681467,
             "name": "Tyrranax Spinato",
+            "skuIds": {
+              "nonfoil": "e4a59977-303e-5080-99db-7425b9c266c3"
+            },
             "text": "All'inizio del combattimento nel tuo turno, puoi pagare {2}{G}. Quando lo fai, metti un segnalino +1/+1 su una creatura bersaglio. Quella creatura ha travolgere fino alla fine del turno. (Può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)",
             "type": "Creatura — Bestia Dinosauro",
             "uuid": "ba9bf223-79a6-5bd3-8c01-514ba961cb9b"
@@ -463,14 +490,31 @@
             "language": "Japanese",
             "multiverseId": 681496,
             "name": "有刺ティラナックス",
+            "skuIds": {
+              "nonfoil": "e6a99d84-0563-5172-be9d-1ec782e692e4"
+            },
             "text": "あなたのターンの戦闘の開始時に、{2}{G}を支払ってもよい。そうしたとき、クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。ターン終了時まで、そのクリーチャーはトランプルを得る。（それは余剰の戦闘ダメージを、それが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）",
             "type": "クリーチャー — 恐竜・ビースト",
             "uuid": "a74d44ee-e320-5249-8530-8424535ffd22"
+          },
+          {
+            "flavorText": "\"Conduce a las bestias hacia las tropas enemigas y tú quédate en la retaguardia esperando a que hagan su trabajo\".\n—Koth",
+            "identifiers": {
+              "multiverseId": "681409",
+              "scryfallId": "3e60b3fe-7485-4a32-97e5-4aa4f730c269"
+            },
+            "language": "Spanish",
+            "multiverseId": 681409,
+            "name": "Tyrranax espinoso",
+            "skuIds": {
+              "nonfoil": "ea5c118c-90b0-5330-bfba-2ed9e123f7d1"
+            },
+            "text": "Al comienzo del combate en tu turno, puedes pagar {2}{G}. Cuando lo hagas, pon un contador +1/+1 sobre la criatura objetivo. Esa criatura gana la habilidad de arrollar hasta el final del turno. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
+            "type": "Criatura — Bestia dinosaurio",
+            "uuid": "2deeeff3-a0db-5344-aebf-4f0659824ea1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305160",
           "cardsphereId": "130749",
@@ -489,7 +533,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -508,6 +551,7 @@
         "name": "Spined Tyrranax",
         "number": "26",
         "originalText": "At the beginning of combat on your turn, you may pay {2}{G}. When you do, put a +1/+1 counter on target creature. That creature gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "originalType": "Creature – Dinosaur Beast",
         "power": "5",
         "printings": [
           "J25"
@@ -525,9 +569,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "50a4a2ac-88ca-5f38-8633-82412ffb2b20"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -562,39 +611,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 13667,
+        "edhrecRank": 13392,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Your human laws mean nothing here. Plead your case before the tribunal of the wilds.\"",
         "foreignData": [
-          {
-            "flavorText": "„Eure menschlichen Gesetze bedeuten hier nichts. Trage deinen Fall vor dem Tribunal der Wildnis vor.\"",
-            "identifiers": {
-              "multiverseId": "681381",
-              "scryfallId": "8057ac1c-8861-4f9e-bcf8-d3be0d842947"
-            },
-            "language": "German",
-            "multiverseId": 681381,
-            "name": "Vasallin des Waldlands",
-            "text": "Immer wenn eine Bestie, die du kontrollierst, ins Spiel kommt, ziehe eine Karte.",
-            "type": "Kreatur — Elf, Druide, Adliger",
-            "uuid": "a7b8ff6c-9da9-5846-ab19-367b79ad6b9a"
-          },
-          {
-            "flavorText": "\"Aquí tus leyes humanas no significan nada. Defiéndete ante el tribunal de la naturaleza\".",
-            "identifiers": {
-              "multiverseId": "681410",
-              "scryfallId": "822812d4-4567-4b1f-a2e4-893189e9b9c5"
-            },
-            "language": "Spanish",
-            "multiverseId": 681410,
-            "name": "Sierva de los bosques",
-            "text": "Siempre que una Bestia que controlas entre, roba una carta.",
-            "type": "Criatura — Noble druida elfo",
-            "uuid": "18724967-2e0f-565b-b4fd-a89eb64f1389"
-          },
           {
             "flavorText": "« Vos lois humaines ne valent rien ici. Plaidez votre cause devant le tribunal de la nature. »",
             "identifiers": {
@@ -604,9 +627,28 @@
             "language": "French",
             "multiverseId": 681439,
             "name": "Noble des sylves",
+            "skuIds": {
+              "nonfoil": "7d73bc44-faa5-5117-9527-619b8585ecf5"
+            },
             "text": "À chaque fois qu'une bête que vous contrôlez arrive, piochez une carte.",
             "type": "Créature — elfe et druide et noble",
             "uuid": "69eeeeef-5f28-5428-bae1-91e7d134185f"
+          },
+          {
+            "flavorText": "„Eure menschlichen Gesetze bedeuten hier nichts. Trage deinen Fall vor dem Tribunal der Wildnis vor.\"",
+            "identifiers": {
+              "multiverseId": "681381",
+              "scryfallId": "8057ac1c-8861-4f9e-bcf8-d3be0d842947"
+            },
+            "language": "German",
+            "multiverseId": 681381,
+            "name": "Vasallin des Waldlands",
+            "skuIds": {
+              "nonfoil": "ce3724d9-cebb-5d15-9ba4-2893b56a721b"
+            },
+            "text": "Immer wenn eine Bestie, die du kontrollierst, ins Spiel kommt, ziehe eine Karte.",
+            "type": "Kreatur — Elf, Druide, Adliger",
+            "uuid": "a7b8ff6c-9da9-5846-ab19-367b79ad6b9a"
           },
           {
             "flavorText": "\"Le vostre leggi umane non hanno alcun rilievo qui. Presentate il vostro caso al tribunale delle terre selvagge.\"",
@@ -617,6 +659,9 @@
             "language": "Italian",
             "multiverseId": 681468,
             "name": "Vassalla delle Selve",
+            "skuIds": {
+              "nonfoil": "d6bd9b04-d4b1-53c3-bf9e-34260eecbdc9"
+            },
             "text": "Ogniqualvolta una Bestia che controlli entra, pesca una carta.",
             "type": "Creatura — Nobile Druido Elfo",
             "uuid": "c205ae01-a148-5400-8903-2aae8c4930cd"
@@ -630,14 +675,31 @@
             "language": "Japanese",
             "multiverseId": 681497,
             "name": "森林の主",
+            "skuIds": {
+              "nonfoil": "176e2f80-7bf1-59b7-b80b-eb4d70512221"
+            },
             "text": "あなたがコントロールしているビースト１体が戦場に出るたび、カード１枚を引く。",
             "type": "クリーチャー — エルフ・ドルイド・貴族",
             "uuid": "3c48cee7-fa86-5dd2-b936-99d2a998a060"
+          },
+          {
+            "flavorText": "\"Aquí tus leyes humanas no significan nada. Defiéndete ante el tribunal de la naturaleza\".",
+            "identifiers": {
+              "multiverseId": "681410",
+              "scryfallId": "822812d4-4567-4b1f-a2e4-893189e9b9c5"
+            },
+            "language": "Spanish",
+            "multiverseId": 681410,
+            "name": "Sierva de los bosques",
+            "skuIds": {
+              "nonfoil": "c8035509-cfdf-5a0e-b269-1d1eb5126324"
+            },
+            "text": "Siempre que una Bestia que controlas entre, roba una carta.",
+            "type": "Criatura — Noble druida elfo",
+            "uuid": "18724967-2e0f-565b-b4fd-a89eb64f1389"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305161",
           "cardsphereId": "130750",
@@ -656,7 +718,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -677,6 +738,7 @@
         "name": "Woodland Liege",
         "number": "27",
         "originalText": "Whenever a Beast you control enters, draw a card.",
+        "originalType": "Creature – Elf Druid Noble",
         "power": "2",
         "printings": [
           "J25"
@@ -698,9 +760,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0d251814-7853-52be-b35c-d942aadcf763"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -735,39 +802,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 230,
+        "edhrecRank": 229,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "As he crested the final peak, Nidd gasped at the beauty laid out before him. Finally, he had found a place to rest his weary legs. A place to call home.",
         "foreignData": [
-          {
-            "flavorText": "Als er den letzten Gipfel erklommen hatte, verschlug es Nidd ob der Schönheit, die vor ihm lag, den Atem. Endlich hatte er einen Ort gefunden, an dem er seine müden Füße ausruhen konnte. Einen Ort, den er Heimat nennen konnte.",
-            "identifiers": {
-              "multiverseId": "681611",
-              "scryfallId": "32c767c3-4cb5-4ca7-aba7-6f13340689b7"
-            },
-            "language": "German",
-            "multiverseId": 681611,
-            "name": "Erkunden",
-            "text": "Du darfst in diesem Zug ein zusätzliches Land spielen.\nZiehe eine Karte.",
-            "type": "Hexerei",
-            "uuid": "35fb8584-dbe6-5164-b979-a714b4c2e406"
-          },
-          {
-            "flavorText": "Cuando coronó la última cima, Nidd quedó asombrado por la belleza que se extendía ante él. Por fin había llegado a un lugar en el que descansar sus fatigadas patas. Un lugar al que llamar \"hogar\".",
-            "identifiers": {
-              "multiverseId": "681672",
-              "scryfallId": "05879b82-c854-486e-8654-a21ffd78d7e8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681672,
-            "name": "Explorar",
-            "text": "Puedes jugar una tierra adicional este turno.\nRoba una carta.",
-            "type": "Conjuro",
-            "uuid": "9eceed6a-8a63-5ee3-a588-638f9c3431d8"
-          },
           {
             "flavorText": "Quand il atteignit le dernier sommet, Nidd eut le souffle coupé en découvrant le panorama qui s'étalait devant lui. Enfin, il avait trouvé un lieu où reposer ses jambes épuisées. Un foyer.",
             "identifiers": {
@@ -777,9 +818,28 @@
             "language": "French",
             "multiverseId": 681733,
             "name": "Explorer",
+            "skuIds": {
+              "nonfoil": "af26a7c0-88f8-5c16-afba-1c5d1d8aad19"
+            },
             "text": "Vous pouvez jouer un terrain supplémentaire ce tour-ci.\nPiochez une carte.",
             "type": "Rituel",
             "uuid": "2c039687-36af-55a5-8167-ad3b940ef2da"
+          },
+          {
+            "flavorText": "Als er den letzten Gipfel erklommen hatte, verschlug es Nidd ob der Schönheit, die vor ihm lag, den Atem. Endlich hatte er einen Ort gefunden, an dem er seine müden Füße ausruhen konnte. Einen Ort, den er Heimat nennen konnte.",
+            "identifiers": {
+              "multiverseId": "681611",
+              "scryfallId": "32c767c3-4cb5-4ca7-aba7-6f13340689b7"
+            },
+            "language": "German",
+            "multiverseId": 681611,
+            "name": "Erkunden",
+            "skuIds": {
+              "nonfoil": "82061b97-22b9-59a2-8451-37a97242a0ac"
+            },
+            "text": "Du darfst in diesem Zug ein zusätzliches Land spielen.\nZiehe eine Karte.",
+            "type": "Hexerei",
+            "uuid": "35fb8584-dbe6-5164-b979-a714b4c2e406"
           },
           {
             "flavorText": "Una volta superato l'ultimo picco, Nidd trasalì alla vista della bellezza che si stagliava innanzi a lui. Finalmente, aveva trovato un posto per riposare le sue stanche gambe. Un posto in cui sentirsi a casa.",
@@ -790,6 +850,9 @@
             "language": "Italian",
             "multiverseId": 681794,
             "name": "Esplorare",
+            "skuIds": {
+              "nonfoil": "a5a8f47e-bf62-5ce0-b008-ee68400b14e9"
+            },
             "text": "Puoi giocare una terra addizionale in questo turno.\nPesca una carta.",
             "type": "Stregoneria",
             "uuid": "e4cefb38-acf8-5e15-8fe2-0b3e5c15de77"
@@ -803,14 +866,31 @@
             "language": "Japanese",
             "multiverseId": 681855,
             "name": "探検",
+            "skuIds": {
+              "nonfoil": "2b217907-41e3-5a01-8f46-26c39fd9efc7"
+            },
             "text": "このターン、追加で土地１つをプレイしてもよい。\nカード１枚を引く。",
             "type": "ソーサリー",
             "uuid": "63f4f5f0-653d-567f-b069-0f43166a4cde"
+          },
+          {
+            "flavorText": "Cuando coronó la última cima, Nidd quedó asombrado por la belleza que se extendía ante él. Por fin había llegado a un lugar en el que descansar sus fatigadas patas. Un lugar al que llamar \"hogar\".",
+            "identifiers": {
+              "multiverseId": "681672",
+              "scryfallId": "05879b82-c854-486e-8654-a21ffd78d7e8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681672,
+            "name": "Explorar",
+            "skuIds": {
+              "nonfoil": "d7a80e67-31b1-5c23-9729-cca94f87a6cc"
+            },
+            "text": "Puedes jugar una tierra adicional este turno.\nRoba una carta.",
+            "type": "Conjuro",
+            "uuid": "9eceed6a-8a63-5ee3-a588-638f9c3431d8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305280",
           "cardsphereId": "131046",
@@ -829,7 +909,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -852,6 +931,7 @@
         "name": "Explore",
         "number": "146",
         "originalText": "You may play an additional land this turn.\nDraw a card.",
+        "originalType": "Sorcery",
         "printings": [
           "40K",
           "AFC",
@@ -899,9 +979,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "dee8522c-9232-5af2-ba32-5b6fd899eb7b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -931,38 +1016,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 21614,
+        "edhrecRank": 22074,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "To Alara's Wild Nacatl, the greatest blessing is to be spared by the behemoths.",
         "foreignData": [
-          {
-            "flavorText": "Für die wilden Nacatl von Alara gilt es als der größte Segen, von den Behemoths verschont zu bleiben.",
-            "identifiers": {
-              "multiverseId": "681613",
-              "scryfallId": "26da5d1b-6346-4de7-95fa-dda02acc284c"
-            },
-            "language": "German",
-            "multiverseId": 681613,
-            "name": "Gabe der Gargantuas",
-            "text": "Schaue dir die obersten vier Karten deiner Bibliothek an. Du kannst eine Kreaturenkarte und/oder eine Länderkarte davon offen vorzeigen und die vorgezeigten Karten auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
-            "type": "Hexerei",
-            "uuid": "04b91035-541e-50d4-a455-8adc93e7f64b"
-          },
-          {
-            "flavorText": "Para los nacatl salvajes de Alara, la mayor bendición que existe es que las grandes bestias les perdonen la vida.",
-            "identifiers": {
-              "multiverseId": "681674",
-              "scryfallId": "7432901f-d8d0-4657-8de7-e6ba70680a2e"
-            },
-            "language": "Spanish",
-            "multiverseId": 681674,
-            "name": "Regalo de las gargantúas",
-            "text": "Mira las cuatro primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura y/o una carta de tierra de entre ellas y poner las cartas mostradas en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
-            "type": "Conjuro",
-            "uuid": "d403dd39-063d-5b50-be6a-132072cde28d"
-          },
           {
             "flavorText": "Pour le nacatl sauvage d'Alara, être épargné par les béhémoths est la plus grande bénédiction.",
             "identifiers": {
@@ -972,9 +1032,28 @@
             "language": "French",
             "multiverseId": 681735,
             "name": "Don du gargantuesque",
+            "skuIds": {
+              "nonfoil": "776d4136-55de-5fab-8ef2-5c7d94356212"
+            },
             "text": "Regardez les quatre cartes du dessus de votre bibliothèque. Vous pouvez révéler une carte de créature et/ou une carte de terrain parmi elles et mettre les cartes révélées dans votre main. Mettez le reste au-dessous de votre bibliothèque, dans l'ordre de votre choix.",
             "type": "Rituel",
             "uuid": "95a708da-3c78-5b8e-8c3f-e11aa5583e10"
+          },
+          {
+            "flavorText": "Für die wilden Nacatl von Alara gilt es als der größte Segen, von den Behemoths verschont zu bleiben.",
+            "identifiers": {
+              "multiverseId": "681613",
+              "scryfallId": "26da5d1b-6346-4de7-95fa-dda02acc284c"
+            },
+            "language": "German",
+            "multiverseId": 681613,
+            "name": "Gabe der Gargantuas",
+            "skuIds": {
+              "nonfoil": "b8ff9494-790a-5b3d-9778-f857a4aed930"
+            },
+            "text": "Schaue dir die obersten vier Karten deiner Bibliothek an. Du kannst eine Kreaturenkarte und/oder eine Länderkarte davon offen vorzeigen und die vorgezeigten Karten auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
+            "type": "Hexerei",
+            "uuid": "04b91035-541e-50d4-a455-8adc93e7f64b"
           },
           {
             "flavorText": "Per i Nacatl Selvatici di Alara, la benedizione più grande è essere risparmiati dai behemoth.",
@@ -985,6 +1064,9 @@
             "language": "Italian",
             "multiverseId": 681796,
             "name": "Dono del Mastodonte",
+            "skuIds": {
+              "nonfoil": "c29e4c25-635d-526f-8613-c0c14b5e1fcd"
+            },
             "text": "Guarda le prime quattro carte del tuo grimorio. Puoi rivelare una carta creatura e/o una carta terra scelte tra esse e aggiungere alla tua mano le carte rivelate. Metti le altre in fondo al tuo grimorio in qualsiasi ordine.",
             "type": "Stregoneria",
             "uuid": "249d846c-f5a1-5933-9179-13d168244849"
@@ -998,14 +1080,31 @@
             "language": "Japanese",
             "multiverseId": 681857,
             "name": "ガルガンチュアンの贈り物",
+            "skuIds": {
+              "nonfoil": "56e15657-630e-5009-8745-11738ddb13b4"
+            },
             "text": "あなたのライブラリーの一番上にあるカード４枚を見る。「その中からクリーチャー・カード最大１枚と土地・カード最大１枚を公開し、あなたの手札に加える。」を選んでもよい。残りをあなたのライブラリーの一番下に望む順番で置く。",
             "type": "ソーサリー",
             "uuid": "25b9e2c6-6f49-5a2c-81fb-c260a3ffdd17"
+          },
+          {
+            "flavorText": "Para los nacatl salvajes de Alara, la mayor bendición que existe es que las grandes bestias les perdonen la vida.",
+            "identifiers": {
+              "multiverseId": "681674",
+              "scryfallId": "7432901f-d8d0-4657-8de7-e6ba70680a2e"
+            },
+            "language": "Spanish",
+            "multiverseId": 681674,
+            "name": "Regalo de las gargantúas",
+            "skuIds": {
+              "nonfoil": "12274726-0f91-5412-918e-1b5d5ee01b14"
+            },
+            "text": "Mira las cuatro primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura y/o una carta de tierra de entre ellas y poner las cartas mostradas en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
+            "type": "Conjuro",
+            "uuid": "d403dd39-063d-5b50-be6a-132072cde28d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305282",
           "cardsphereId": "131048",
@@ -1024,7 +1123,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -1047,6 +1145,7 @@
         "name": "Gift of the Gargantuan",
         "number": "148",
         "originalText": "Look at the top four cards of your library. You may reveal a creature card and/or a land card from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
+        "originalType": "Sorcery",
         "printings": [
           "ALA",
           "J22",
@@ -1069,9 +1168,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "beb52362-93c5-577d-a140-783d79c03fb7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1101,39 +1205,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20706,
+        "edhrecRank": 21067,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I am neither their drover nor their leader. To these majestic beasts, I am simply their herdmate and nothing more.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich bin weder ihr Hirte noch ihr Anführer. Für diese majestätischen Tiere bin ich einfach nur ein Mitglied ihrer Herde, sonst nichts.\"",
-            "identifiers": {
-              "multiverseId": "683376",
-              "scryfallId": "90a59664-fe92-49b2-93b2-77c549631921"
-            },
-            "language": "German",
-            "multiverseId": 683376,
-            "name": "Fürsprecher der Bestie",
-            "text": "Zu Beginn deines Endsegments legst du eine +1/+1-Marke auf eine Bestie-Kreatur deiner Wahl, die du kontrollierst.",
-            "type": "Kreatur — Elf, Schamane",
-            "uuid": "5ed5e464-dee3-5aac-b75d-a586774d6790"
-          },
-          {
-            "flavorText": "\"No soy ni su arriero ni su líder. Para estas majestuosas bestias, soy simplemente uno más en el rebaño. Nada más\".",
-            "identifiers": {
-              "multiverseId": "683498",
-              "scryfallId": "8702082a-ab27-43d1-8580-b60cc606fec5"
-            },
-            "language": "Spanish",
-            "multiverseId": 683498,
-            "name": "Defensor de la bestia",
-            "text": "Al comienzo de tu paso final, pon un contador +1/+1 sobre la criatura Bestia objetivo que controles.",
-            "type": "Criatura — Chamán elfo",
-            "uuid": "dd6c8326-0da3-52d8-a4a7-49aa2b90bf44"
-          },
           {
             "flavorText": "« Je ne suis ni leur meneur ni leur chef. Aux yeux de ces bêtes majestueuses, je ne suis qu'un membre de la meute et rien d'autre. »",
             "identifiers": {
@@ -1143,9 +1221,28 @@
             "language": "French",
             "multiverseId": 683620,
             "name": "Partisan de la bête",
+            "skuIds": {
+              "nonfoil": "0c56fa94-445b-5047-8c9e-0230b461febb"
+            },
             "text": "Au début de votre étape de fin, mettez un marqueur +1/+1 sur une créature Bête ciblée que vous contrôlez.",
             "type": "Créature — elfe et shamane",
             "uuid": "5ee14551-82a8-548c-86f3-291b6ce22ec5"
+          },
+          {
+            "flavorText": "„Ich bin weder ihr Hirte noch ihr Anführer. Für diese majestätischen Tiere bin ich einfach nur ein Mitglied ihrer Herde, sonst nichts.\"",
+            "identifiers": {
+              "multiverseId": "683376",
+              "scryfallId": "90a59664-fe92-49b2-93b2-77c549631921"
+            },
+            "language": "German",
+            "multiverseId": 683376,
+            "name": "Fürsprecher der Bestie",
+            "skuIds": {
+              "nonfoil": "3b6376be-7255-565c-b5e5-b306171e518e"
+            },
+            "text": "Zu Beginn deines Endsegments legst du eine +1/+1-Marke auf eine Bestie-Kreatur deiner Wahl, die du kontrollierst.",
+            "type": "Kreatur — Elf, Schamane",
+            "uuid": "5ed5e464-dee3-5aac-b75d-a586774d6790"
           },
           {
             "flavorText": "\"Non sono la loro guida né il loro pastore. Semplicemente, per queste bestie maestose faccio parte del branco.\"",
@@ -1156,6 +1253,9 @@
             "language": "Italian",
             "multiverseId": 683742,
             "name": "Fautore delle Bestie",
+            "skuIds": {
+              "nonfoil": "e3fd6ae8-f104-5052-8145-8d194558f095"
+            },
             "text": "All'inizio della tua sottofase finale, metti un segnalino +1/+1 su una creatura Bestia bersaglio che controlli.",
             "type": "Creatura — Sciamano Elfo",
             "uuid": "129ae503-2c09-52c0-9ef6-0536b8cf39f8"
@@ -1169,14 +1269,31 @@
             "language": "Japanese",
             "multiverseId": 683864,
             "name": "獣の代言者",
+            "skuIds": {
+              "nonfoil": "5ffc0a4a-2d01-5068-839a-4d95edeb4f17"
+            },
             "text": "あなたの終了ステップの開始時に、あなたがコントロールしているビースト・クリーチャー１体を対象とする。それの上に＋１/＋１カウンター１個を置く。",
             "type": "クリーチャー — エルフ・シャーマン",
             "uuid": "64b883dc-3531-5f15-94b8-4aa846074809"
+          },
+          {
+            "flavorText": "\"No soy ni su arriero ni su líder. Para estas majestuosas bestias, soy simplemente uno más en el rebaño. Nada más\".",
+            "identifiers": {
+              "multiverseId": "683498",
+              "scryfallId": "8702082a-ab27-43d1-8580-b60cc606fec5"
+            },
+            "language": "Spanish",
+            "multiverseId": 683498,
+            "name": "Defensor de la bestia",
+            "skuIds": {
+              "nonfoil": "bb78df82-3132-5028-99ad-4861095a48be"
+            },
+            "text": "Al comienzo de tu paso final, pon un contador +1/+1 sobre la criatura Bestia objetivo que controles.",
+            "type": "Criatura — Chamán elfo",
+            "uuid": "dd6c8326-0da3-52d8-a4a7-49aa2b90bf44"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305961",
           "cardsphereId": "130962",
@@ -1218,6 +1335,7 @@
         "name": "Advocate of the Beast",
         "number": "622",
         "originalText": "At the beginning of your end step, put a +1/+1 counter on target Beast creature you control.",
+        "originalType": "Creature – Elf Shaman",
         "power": "2",
         "printings": [
           "J25",
@@ -1236,9 +1354,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "07fa7fd9-e5f7-5b2b-9bd5-1023a7ec3d51"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1272,39 +1395,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 26365,
+        "edhrecRank": 26840,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Magistrate Ludy agreed to designate land for the brushstriders only after several broken windows and dozens of missing blini-cakes.",
         "foreignData": [
-          {
-            "flavorText": "Erst als etliche Fenster zu Bruch gegangen und Dutzende von Pfannkuchen verschwunden waren, war Magistrat Ludy schließlich bereit, den Gestrüppläufern Land zuzuweisen.",
-            "identifiers": {
-              "multiverseId": "683394",
-              "scryfallId": "9942e79e-8c9b-4d9d-900c-37061ac5cbd4"
-            },
-            "language": "German",
-            "multiverseId": 683394,
-            "name": "Gestrüppläufer",
-            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)",
-            "type": "Kreatur — Bestie",
-            "uuid": "0e432703-58ee-547e-b2e4-d68091c389f0"
-          },
-          {
-            "flavorText": "El magistrado Ludy accedió a destinar tierras a los zancoarbustos tras la rotura de varias ventanas y la desaparición de docenas de pastas de té.",
-            "identifiers": {
-              "multiverseId": "683516",
-              "scryfallId": "7f0e4fad-2027-4278-896c-24c5b559ca06"
-            },
-            "language": "Spanish",
-            "multiverseId": 683516,
-            "name": "Zancoarbusto",
-            "text": "Vigilancia. (Esta criatura no se gira al atacar.)",
-            "type": "Criatura — Bestia",
-            "uuid": "122147f3-a2b9-5d68-a3dc-882164feebdb"
-          },
           {
             "flavorText": "Le magistrat Ludy concéda des terres aux enjambeurs de broussailles après plusieurs bris de fenêtre et la disparition de dizaines de gâteaux.",
             "identifiers": {
@@ -1314,9 +1411,28 @@
             "language": "French",
             "multiverseId": 683638,
             "name": "Enjambeur de broussailles",
+            "skuIds": {
+              "nonfoil": "950df488-53af-5855-9245-70e8f53123df"
+            },
             "text": "Vigilance (Attaquer avec cette créature ne la fait pas s'engager.)",
             "type": "Créature — bête",
             "uuid": "76f607fc-a392-57f6-a9e8-96da266c9b13"
+          },
+          {
+            "flavorText": "Erst als etliche Fenster zu Bruch gegangen und Dutzende von Pfannkuchen verschwunden waren, war Magistrat Ludy schließlich bereit, den Gestrüppläufern Land zuzuweisen.",
+            "identifiers": {
+              "multiverseId": "683394",
+              "scryfallId": "9942e79e-8c9b-4d9d-900c-37061ac5cbd4"
+            },
+            "language": "German",
+            "multiverseId": 683394,
+            "name": "Gestrüppläufer",
+            "skuIds": {
+              "nonfoil": "897c5ce1-bb2d-5f71-a0fd-47a2b39da428"
+            },
+            "text": "Wachsamkeit (Diese Kreatur wird beim Angreifen nicht getappt.)",
+            "type": "Kreatur — Bestie",
+            "uuid": "0e432703-58ee-547e-b2e4-d68091c389f0"
           },
           {
             "flavorText": "Il Magistrato Ludy ha acconsentito ad assegnare terre agli erranti boscosi solo dopo diverse finestre rotte e varie dozzine di torte scomparse.",
@@ -1327,6 +1443,9 @@
             "language": "Italian",
             "multiverseId": 683760,
             "name": "Errante Boscoso",
+            "skuIds": {
+              "nonfoil": "e4db41ed-4e98-5d0d-a5dd-5699d56ecc8c"
+            },
             "text": "Cautela (Questa creatura attacca senza TAPpare.)",
             "type": "Creatura — Bestia",
             "uuid": "1e682c39-6f28-54fd-a9e5-57ad5da05c47"
@@ -1340,14 +1459,31 @@
             "language": "Japanese",
             "multiverseId": 683882,
             "name": "刷毛履き",
+            "skuIds": {
+              "nonfoil": "b5577efe-78fa-5502-8694-ff62111ffe98"
+            },
             "text": "警戒（このクリーチャーは攻撃してもタップしない。）",
             "type": "クリーチャー — ビースト",
             "uuid": "ee07fbc5-e66d-58d0-9f78-ab9b77281aac"
+          },
+          {
+            "flavorText": "El magistrado Ludy accedió a destinar tierras a los zancoarbustos tras la rotura de varias ventanas y la desaparición de docenas de pastas de té.",
+            "identifiers": {
+              "multiverseId": "683516",
+              "scryfallId": "7f0e4fad-2027-4278-896c-24c5b559ca06"
+            },
+            "language": "Spanish",
+            "multiverseId": 683516,
+            "name": "Zancoarbusto",
+            "skuIds": {
+              "nonfoil": "f9a5aab2-4f7e-5e4d-b669-944b77ca1577"
+            },
+            "text": "Vigilancia. (Esta criatura no se gira al atacar.)",
+            "type": "Criatura — Bestia",
+            "uuid": "122147f3-a2b9-5d68-a3dc-882164feebdb"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305979",
           "cardsphereId": "130940",
@@ -1390,6 +1526,7 @@
         "name": "Brushstrider",
         "number": "640",
         "originalText": "Vigilance (Attacking doesn't cause this creature to tap.)",
+        "originalType": "Creature – Beast",
         "power": "3",
         "printings": [
           "CN2",
@@ -1404,9 +1541,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a98ce926-0bae-51d8-b128-038eee21aec1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1439,36 +1581,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6663,
+        "edhrecRank": 6527,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683418",
-              "scryfallId": "e0f5709c-d1ec-4643-bc3f-fe647e306570"
-            },
-            "language": "German",
-            "multiverseId": 683418,
-            "name": "Knurrer-Kolonie",
-            "text": "Bonus {2}{G} (Du kannst zusätzlich {2}{G} bezahlen, sowie du diesen Zauberspruch wirkst.)\nFalls die Bonuskosten der Knurrer-Kolonie bezahlt wurden, kommt sie mit zwei +1/+1-Marken ins Spiel.\nJede Kreatur, die du kontrollierst und auf der eine +1/+1-Marke liegt, verursacht Trampelschaden. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
-            "type": "Kreatur — Bestie",
-            "uuid": "2b3f2022-7f86-5b58-9dcb-e89473f44df7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683540",
-              "scryfallId": "b4f9b283-4508-488c-9f15-09e20c08f1e6"
-            },
-            "language": "Spanish",
-            "multiverseId": 683540,
-            "name": "Colonia de gnárlidos",
-            "text": "Estímulo {2}{G}. (Puedes pagar {2}{G} adicionales al lanzar este hechizo.)\nSi la Colonia de gnárlidos fue estimulada, entra con dos contadores +1/+1 sobre ella.\nCada criatura que controlas con un contador +1/+1 sobre ella tiene la habilidad de arrollar. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
-            "type": "Criatura — Bestia",
-            "uuid": "a509510d-42ac-52d8-9048-3772fe4f0a37"
-          },
           {
             "identifiers": {
               "multiverseId": "683662",
@@ -1477,9 +1595,27 @@
             "language": "French",
             "multiverseId": 683662,
             "name": "Colonie de gnarlides",
+            "skuIds": {
+              "nonfoil": "373d4ca5-95b4-502d-97a4-e0ea656a7547"
+            },
             "text": "Kick {2}{G} (Vous pouvez payer {2}{G} supplémentaires au moment où vous lancez ce sort.)\nSi la Colonie de gnarlides a été kickée, elle arrive avec deux marqueurs +1/+1 sur elle.\nChaque créature que vous contrôlez avec au moins un marqueur +1/+1 sur elle a le piétinement. (Elle peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)",
             "type": "Créature — bête",
             "uuid": "fbb72b19-94cf-5f42-8ea0-d02d74cdbff9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683418",
+              "scryfallId": "e0f5709c-d1ec-4643-bc3f-fe647e306570"
+            },
+            "language": "German",
+            "multiverseId": 683418,
+            "name": "Knurrer-Kolonie",
+            "skuIds": {
+              "nonfoil": "3875a167-7bec-5769-9d52-462d1df58e33"
+            },
+            "text": "Bonus {2}{G} (Du kannst zusätzlich {2}{G} bezahlen, sowie du diesen Zauberspruch wirkst.)\nFalls die Bonuskosten der Knurrer-Kolonie bezahlt wurden, kommt sie mit zwei +1/+1-Marken ins Spiel.\nJede Kreatur, die du kontrollierst und auf der eine +1/+1-Marke liegt, verursacht Trampelschaden. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
+            "type": "Kreatur — Bestie",
+            "uuid": "2b3f2022-7f86-5b58-9dcb-e89473f44df7"
           },
           {
             "identifiers": {
@@ -1489,6 +1625,9 @@
             "language": "Italian",
             "multiverseId": 683784,
             "name": "Colonia di Gnarlid",
+            "skuIds": {
+              "nonfoil": "b284262c-9aa0-5b0e-aac3-c0a27e093414"
+            },
             "text": "Potenziamento {2}{G} (Puoi pagare {2}{G} addizionale mentre lanci questa magia.)\nSe la Colonia di Gnarlid è stata potenziata, entra con due segnalini +1/+1.\nOgni creatura con un segnalino +1/+1 che controlli ha travolgere. (Può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)",
             "type": "Creatura — Bestia",
             "uuid": "721f17dd-66e6-5947-ba63-36f3f45b94a9"
@@ -1501,14 +1640,30 @@
             "language": "Japanese",
             "multiverseId": 683906,
             "name": "ナーリッドの群棲",
+            "skuIds": {
+              "nonfoil": "876faa99-2746-50ee-a846-fde48de6f598"
+            },
             "text": "キッカー{2}{G}（この呪文を唱えるに際し、追加で{2}{G}を支払ってもよい。）\nナーリッドの群棲がキッカーされていたなら、これは＋１/＋１カウンター２個が置かれた状態で戦場に出る。\nあなたがコントロールしていて＋１/＋１カウンターが置かれているすべてのクリーチャーはトランプルを持つ。（それらは余剰の戦闘ダメージを、それが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）",
             "type": "クリーチャー — ビースト",
             "uuid": "1fabeb3c-8243-5ca4-8180-cbbc66f24fd2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683540",
+              "scryfallId": "b4f9b283-4508-488c-9f15-09e20c08f1e6"
+            },
+            "language": "Spanish",
+            "multiverseId": 683540,
+            "name": "Colonia de gnárlidos",
+            "skuIds": {
+              "nonfoil": "958ba14b-83ea-5479-8fbb-59df85a43231"
+            },
+            "text": "Estímulo {2}{G}. (Puedes pagar {2}{G} adicionales al lanzar este hechizo.)\nSi la Colonia de gnárlidos fue estimulada, entra con dos contadores +1/+1 sobre ella.\nCada criatura que controlas con un contador +1/+1 sobre ella tiene la habilidad de arrollar. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
+            "type": "Criatura — Bestia",
+            "uuid": "a509510d-42ac-52d8-9048-3772fe4f0a37"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306003",
           "cardsphereId": "130849",
@@ -1553,6 +1708,7 @@
         "name": "Gnarlid Colony",
         "number": "664",
         "originalText": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)\nIf Gnarlid Colony was kicked, it enters with two +1/+1 counters on it.\nEach creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "originalType": "Creature – Beast",
         "power": "2",
         "printings": [
           "FDN",
@@ -1592,9 +1748,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2fe13be8-1477-5288-9578-7bd3b966cfaa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1627,36 +1788,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 20253,
+        "edhrecRank": 20988,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683446",
-              "scryfallId": "a873fcdc-0df0-433e-8aa5-5cb7d7ade5b9"
-            },
-            "language": "German",
-            "multiverseId": 683446,
-            "name": "Eigensinniger Baloth",
-            "text": "Wenn der Eigensinnige Baloth ins Spiel kommt, erhältst du 4 Lebenspunkte dazu.\nFalls ein Zauberspruch oder eine Fähigkeit, den bzw. die ein Gegner kontrolliert, dazu führt, dass du den Eigensinnigen Baloth abwirfst, bringe ihn ins Spiel, anstatt ihn auf deinen Friedhof zu legen.",
-            "type": "Kreatur — Bestie",
-            "uuid": "1ded8bd1-0542-53ea-8c08-8b92f8775e28"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683568",
-              "scryfallId": "10cb4123-f756-4bf0-88ea-1b1eac4e488c"
-            },
-            "language": "Spanish",
-            "multiverseId": 683568,
-            "name": "Báloth obstinado",
-            "text": "Cuando el Báloth obstinado entre, ganas 4 vidas.\nSi un hechizo o habilidad que controla un oponente te hace descartar el Báloth obstinado, ponlo en el campo de batalla en vez de ponerlo en tu cementerio.",
-            "type": "Criatura — Bestia",
-            "uuid": "640c7943-b111-58f3-b8fc-ae48c7adbd96"
-          },
           {
             "identifiers": {
               "multiverseId": "683690",
@@ -1665,9 +1802,27 @@
             "language": "French",
             "multiverseId": 683690,
             "name": "Baloth tenace",
+            "skuIds": {
+              "nonfoil": "1eee87db-7f6e-54e2-b36b-e9c574528f22"
+            },
             "text": "Quand le Baloth tenace arrive, vous gagnez 4 points de vie.\nSi un sort ou une capacité qu'un adversaire contrôle vous contraint à vous défausser du Baloth tenace, mettez-le sur le champ de bataille à la place de le mettre dans votre cimetière.",
             "type": "Créature — bête",
             "uuid": "1766f7da-2f55-58ad-b146-cbd2baefb9e3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683446",
+              "scryfallId": "a873fcdc-0df0-433e-8aa5-5cb7d7ade5b9"
+            },
+            "language": "German",
+            "multiverseId": 683446,
+            "name": "Eigensinniger Baloth",
+            "skuIds": {
+              "nonfoil": "7dcbb938-3cc6-54d4-b0a7-f624d87e4e10"
+            },
+            "text": "Wenn der Eigensinnige Baloth ins Spiel kommt, erhältst du 4 Lebenspunkte dazu.\nFalls ein Zauberspruch oder eine Fähigkeit, den bzw. die ein Gegner kontrolliert, dazu führt, dass du den Eigensinnigen Baloth abwirfst, bringe ihn ins Spiel, anstatt ihn auf deinen Friedhof zu legen.",
+            "type": "Kreatur — Bestie",
+            "uuid": "1ded8bd1-0542-53ea-8c08-8b92f8775e28"
           },
           {
             "identifiers": {
@@ -1677,6 +1832,9 @@
             "language": "Italian",
             "multiverseId": 683812,
             "name": "Baloth Testardo",
+            "skuIds": {
+              "nonfoil": "8e4baa78-b38c-5885-862c-4ff60c0a4e8b"
+            },
             "text": "Quando il Baloth Testardo entra, guadagni 4 punti vita.\nSe una magia o abilità controllata da un avversario ti fa scartare il Baloth Testardo, mettilo sul campo di battaglia invece di metterlo nel tuo cimitero.",
             "type": "Creatura — Bestia",
             "uuid": "0b746841-6ff0-5b70-9c9e-a81cfe9a7365"
@@ -1689,14 +1847,30 @@
             "language": "Japanese",
             "multiverseId": 683934,
             "name": "強情なベイロス",
+            "skuIds": {
+              "nonfoil": "97077b89-c61c-5c6d-bf87-345a12ae0664"
+            },
             "text": "強情なベイロスが戦場に出たとき、４点のライフを得る。\n対戦相手がコントロールしている呪文や能力によってあなたが強情なベイロスを捨てるなら、これをあなたの墓地に置く代わりに戦場に出す。",
             "type": "クリーチャー — ビースト",
             "uuid": "2d7b9929-b8e2-5c3e-b1aa-b53df9a31c80"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683568",
+              "scryfallId": "10cb4123-f756-4bf0-88ea-1b1eac4e488c"
+            },
+            "language": "Spanish",
+            "multiverseId": 683568,
+            "name": "Báloth obstinado",
+            "skuIds": {
+              "nonfoil": "7d3f3c26-4837-5d2d-925b-9a12342c3253"
+            },
+            "text": "Cuando el Báloth obstinado entre, ganas 4 vidas.\nSi un hechizo o habilidad que controla un oponente te hace descartar el Báloth obstinado, ponlo en el campo de batalla en vez de ponerlo en tu cementerio.",
+            "type": "Criatura — Bestia",
+            "uuid": "640c7943-b111-58f3-b8fc-ae48c7adbd96"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306031",
           "cardsphereId": "130797",
@@ -1737,6 +1911,7 @@
         "name": "Obstinate Baloth",
         "number": "692",
         "originalText": "When Obstinate Baloth enters, you gain 4 life.\nIf a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.",
+        "originalType": "Creature – Beast",
         "power": "4",
         "printings": [
           "BRO",
@@ -1769,9 +1944,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0666bca7-411c-5cf9-a12e-a6999aa53190"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1804,38 +1984,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18065,
+        "edhrecRank": 18456,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "If you hear it coming, you're not its prey.",
         "foreignData": [
-          {
-            "flavorText": "Wenn du es kommen hörst, bist du nicht seine Beute.",
-            "identifiers": {
-              "multiverseId": "683453",
-              "scryfallId": "37ed2434-b033-48ed-ae94-f8362a446785"
-            },
-            "language": "German",
-            "multiverseId": 683453,
-            "name": "Angriff des Raubtiers",
-            "text": "Eine Kreatur deiner Wahl erhält +3/+3 und verursacht Trampelschaden bis zum Ende des Zuges. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
-            "type": "Spontanzauber",
-            "uuid": "f49c2c9d-6ab3-59b7-9f2a-ac996d800182"
-          },
-          {
-            "flavorText": "Si lo escuchas venir es porque no eres su presa.",
-            "identifiers": {
-              "multiverseId": "683575",
-              "scryfallId": "7ac44ca3-3e2c-40ef-844d-f47063a3c4f6"
-            },
-            "language": "Spanish",
-            "multiverseId": 683575,
-            "name": "Ataque del depredador",
-            "text": "La criatura objetivo obtiene +3/+3 y gana la habilidad de arrollar hasta el final del turno. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
-            "type": "Instantáneo",
-            "uuid": "a0ad7871-b656-5dbe-9715-91849abadec6"
-          },
           {
             "flavorText": "Si vous l'entendez approcher, c'est qu'il n'est pas après vous.",
             "identifiers": {
@@ -1845,9 +2000,28 @@
             "language": "French",
             "multiverseId": 683697,
             "name": "Frappe du prédateur",
+            "skuIds": {
+              "nonfoil": "8923bfee-18ea-5f06-ad93-bcf7b4833068"
+            },
             "text": "Une créature ciblée gagne +3/+3 et acquiert le piétinement jusqu'à la fin du tour. (Elle peut infliger son surplus de blessures de combat au joueur ou au planeswalker qu'elle attaque.)",
             "type": "Éphémère",
             "uuid": "cb2f678c-ec74-5d1b-a65d-805c66927f7c"
+          },
+          {
+            "flavorText": "Wenn du es kommen hörst, bist du nicht seine Beute.",
+            "identifiers": {
+              "multiverseId": "683453",
+              "scryfallId": "37ed2434-b033-48ed-ae94-f8362a446785"
+            },
+            "language": "German",
+            "multiverseId": 683453,
+            "name": "Angriff des Raubtiers",
+            "skuIds": {
+              "nonfoil": "23a6e27f-7929-5545-bd93-3fa4e9829aeb"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +3/+3 und verursacht Trampelschaden bis zum Ende des Zuges. (Sie kann überschüssigen Kampfschaden dem verteidigenden Spieler oder Planeswalker zufügen.)",
+            "type": "Spontanzauber",
+            "uuid": "f49c2c9d-6ab3-59b7-9f2a-ac996d800182"
           },
           {
             "flavorText": "Se lo senti arrivare, significa che non sei la sua preda.",
@@ -1858,6 +2032,9 @@
             "language": "Italian",
             "multiverseId": 683819,
             "name": "Assalto del Predatore",
+            "skuIds": {
+              "nonfoil": "f36dc164-aa72-56a9-bf56-652ed5ffe466"
+            },
             "text": "Una creatura bersaglio prende +3/+3 e ha travolgere fino alla fine del turno. (Può infliggere il danno da combattimento in eccesso al giocatore o al planeswalker che sta attaccando.)",
             "type": "Istantaneo",
             "uuid": "4a68d965-91ab-5a39-9f64-9d41159bf124"
@@ -1871,14 +2048,31 @@
             "language": "Japanese",
             "multiverseId": 683941,
             "name": "捕食者の一撃",
+            "skuIds": {
+              "nonfoil": "f9dbb04a-14b0-5316-9c23-cca6534f54ac"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋３/＋３の修整を受けトランプルを得る。（それは余剰の戦闘ダメージを、それが攻撃しているプレイヤーかプレインズウォーカーに与えることができる。）",
             "type": "インスタント",
             "uuid": "03a62fe5-286f-53bf-ad79-61a37e067d18"
+          },
+          {
+            "flavorText": "Si lo escuchas venir es porque no eres su presa.",
+            "identifiers": {
+              "multiverseId": "683575",
+              "scryfallId": "7ac44ca3-3e2c-40ef-844d-f47063a3c4f6"
+            },
+            "language": "Spanish",
+            "multiverseId": 683575,
+            "name": "Ataque del depredador",
+            "skuIds": {
+              "nonfoil": "7844ec65-80d6-5a1d-b3e2-ac820b41655c"
+            },
+            "text": "La criatura objetivo obtiene +3/+3 y gana la habilidad de arrollar hasta el final del turno. (Puede hacer el daño de combate sobrante al jugador o planeswalker al que ataca.)",
+            "type": "Instantáneo",
+            "uuid": "a0ad7871-b656-5dbe-9715-91849abadec6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306038",
           "cardsphereId": "130789",
@@ -1920,6 +2114,7 @@
         "name": "Predator's Strike",
         "number": "699",
         "originalText": "Target creature gets +3/+3 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+        "originalType": "Instant",
         "printings": [
           "J25",
           "MRD",
@@ -1933,9 +2128,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "460d87f9-5029-50f4-b9bb-474961165c94"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1965,36 +2165,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 19997,
+        "edhrecRank": 20605,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "683481",
-              "scryfallId": "29a1f344-4832-4d7b-81a5-9363cf101c07"
-            },
-            "language": "German",
-            "multiverseId": 683481,
-            "name": "Raubtierfütterung",
-            "text": "Bestimme eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Wenn die Kreatur in diesem Zug stirbt, erhältst du 3 Lebenspunkte dazu. Eine Kreatur deiner Wahl, die du kontrollierst, kämpft gegen die bestimmte Kreatur. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
-            "type": "Hexerei",
-            "uuid": "2de748ca-ebd8-5393-840c-8e4bca8e60d9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "683603",
-              "scryfallId": "6046a237-5736-4d00-9c00-9661855d6c61"
-            },
-            "language": "Spanish",
-            "multiverseId": 683603,
-            "name": "Hora de cenar",
-            "text": "Elige una criatura objetivo que controla un oponente. Cuando esa criatura muera este turno, ganas 3 vidas. La criatura objetivo que controlas lucha contra esa criatura. (Cada una hace un daño igual a su fuerza a la otra.)",
-            "type": "Conjuro",
-            "uuid": "e5c1ce42-e022-57eb-95ab-eed559e0b40e"
-          },
           {
             "identifiers": {
               "multiverseId": "683725",
@@ -2003,9 +2179,27 @@
             "language": "French",
             "multiverseId": 683725,
             "name": "Heure du repas",
+            "skuIds": {
+              "nonfoil": "d0dc47ba-ffaa-58b4-9f77-0582c1c9daaa"
+            },
             "text": "Choisissez une créature ciblée qu'un adversaire contrôle. Quand cette créature meurt ce tour-ci, vous gagnez 3 points de vie. Une créature ciblée que vous contrôlez se bat contre cette créature. (Chacune inflige un nombre de blessures égal à sa force à l'autre.)",
             "type": "Rituel",
             "uuid": "b8321288-c4f4-5312-86db-4283c34ae8c7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683481",
+              "scryfallId": "29a1f344-4832-4d7b-81a5-9363cf101c07"
+            },
+            "language": "German",
+            "multiverseId": 683481,
+            "name": "Raubtierfütterung",
+            "skuIds": {
+              "nonfoil": "43f5702b-9037-51de-8630-9b28f289f688"
+            },
+            "text": "Bestimme eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Wenn die Kreatur in diesem Zug stirbt, erhältst du 3 Lebenspunkte dazu. Eine Kreatur deiner Wahl, die du kontrollierst, kämpft gegen die bestimmte Kreatur. (Jede fügt der anderen Schadenspunkte in Höhe ihrer Stärke zu.)",
+            "type": "Hexerei",
+            "uuid": "2de748ca-ebd8-5393-840c-8e4bca8e60d9"
           },
           {
             "identifiers": {
@@ -2015,6 +2209,9 @@
             "language": "Italian",
             "multiverseId": 683847,
             "name": "Saziare la Fame",
+            "skuIds": {
+              "nonfoil": "4b163f50-a575-583a-aec7-c9951424dc8a"
+            },
             "text": "Scegli una creatura bersaglio controllata da un avversario. Quando quella creatura muore in questo turno, guadagni 3 punti vita. Una creatura bersaglio che controlli lotta con quella creatura. (Ogni creatura infligge all'altra danno pari alla propria forza.)",
             "type": "Stregoneria",
             "uuid": "7fe6f4fb-07f7-5347-b009-5b2b2197b9f8"
@@ -2027,14 +2224,30 @@
             "language": "Japanese",
             "multiverseId": 683969,
             "name": "食餌の時間",
+            "skuIds": {
+              "nonfoil": "71369666-106f-5443-8461-e7f000cf87c7"
+            },
             "text": "対戦相手がコントロールしているクリーチャー１体を対象とし、あなたがコントロールしているクリーチャー１体を対象とする。このターンにその前者が死亡したとき、あなたは３点のライフを得る。その後者はその前者と格闘を行う。（それぞれはもう一方に自身のパワーに等しい点数のダメージを与える。）",
             "type": "ソーサリー",
             "uuid": "53c68562-ab81-56f1-9816-7502147eb031"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "683603",
+              "scryfallId": "6046a237-5736-4d00-9c00-9661855d6c61"
+            },
+            "language": "Spanish",
+            "multiverseId": 683603,
+            "name": "Hora de cenar",
+            "skuIds": {
+              "nonfoil": "5ee68b11-b1aa-5738-bd03-bbe2346b8df1"
+            },
+            "text": "Elige una criatura objetivo que controla un oponente. Cuando esa criatura muera este turno, ganas 3 vidas. La criatura objetivo que controlas lucha contra esa criatura. (Cada una hace un daño igual a su fuerza a la otra.)",
+            "type": "Conjuro",
+            "uuid": "e5c1ce42-e022-57eb-95ab-eed559e0b40e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306066",
           "cardsphereId": "130713",
@@ -2079,6 +2292,7 @@
         "name": "Time to Feed",
         "number": "727",
         "originalText": "Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature. (Each deals damage equal to its power to the other.)",
+        "originalType": "Sorcery",
         "printings": [
           "DDO",
           "J25",
@@ -2107,9 +2321,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "8350ad07-b0f9-5a32-94cb-85beade454aa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2137,39 +2356,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1433,
+        "edhrecRank": 1241,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Far from human eyes, birds flit between vivid blossoms in a hidden paradise.",
         "foreignData": [
-          {
-            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
-            "identifiers": {
-              "multiverseId": "684057",
-              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
-            },
-            "language": "German",
-            "multiverseId": 684057,
-            "name": "Gedeihender Hain",
-            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
-          },
-          {
-            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
-            "identifiers": {
-              "multiverseId": "684096",
-              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
-            },
-            "language": "Spanish",
-            "multiverseId": 684096,
-            "name": "Arboleda floreciente",
-            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
-          },
           {
             "flavorText": "À l'abri des regards humains, les oiseaux papillonnent entre les fleurs luxuriantes d'un paradis caché.",
             "identifiers": {
@@ -2179,9 +2372,28 @@
             "language": "French",
             "multiverseId": 684135,
             "name": "Bosquet prospère",
+            "skuIds": {
+              "nonfoil": "51437dd3-acf7-561d-be34-2bd7b585902d"
+            },
             "text": "Le Bosquet prospère arrive engagé. Au moment où il arrive, choisissez une couleur autre que le vert.\n{T} : Ajoutez {G} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "dd8a7da7-437c-510e-b6b7-9ec69e67361d"
+          },
+          {
+            "flavorText": "Menschlichen Blicken entzogen, schwirren Vögel in einem verborgenen Paradies zwischen farbenfrohen Blüten umher.",
+            "identifiers": {
+              "multiverseId": "684057",
+              "scryfallId": "e11b6da5-8cd4-4b81-9b59-7658d1c5dcc8"
+            },
+            "language": "German",
+            "multiverseId": 684057,
+            "name": "Gedeihender Hain",
+            "skuIds": {
+              "nonfoil": "5af71e60-aa94-54bb-8d0d-8e714c39a35d"
+            },
+            "text": "Der Gedeihende Hain kommt getappt ins Spiel. Sowie er ins Spiel kommt, bestimme eine Farbe außer Grün.\n{T}: Erzeuge {G} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "ceb9543a-6d35-5c66-8c46-964fc18e95f6"
           },
           {
             "flavorText": "Al riparo da occhi umani, gli uccellini guizzano tra boccioli dai colori vivaci in un paradiso nascosto.",
@@ -2192,6 +2404,9 @@
             "language": "Italian",
             "multiverseId": 684174,
             "name": "Boschetto Florido",
+            "skuIds": {
+              "nonfoil": "544714bc-313e-5ca7-889b-450cfd079452"
+            },
             "text": "Il Boschetto Florido entra TAPpato. Mentre entra, scegli un colore diverso dal verde.\n{T}: Aggiungi {G} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "6693c01e-35dc-5c63-98bd-89ac731d6a2d"
@@ -2205,14 +2420,31 @@
             "language": "Japanese",
             "multiverseId": 684213,
             "name": "興隆する木立",
+            "skuIds": {
+              "nonfoil": "52b35007-104f-5d42-84f2-c1e1e5fe06f4"
+            },
             "text": "興隆する木立はタップ状態で戦場に出る。これが戦場に出るに際し、緑でない色１色を選ぶ。\n{T}：{G}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "2d4a252c-eb6e-5f19-b978-330e45a4ab4a"
+          },
+          {
+            "flavorText": "Lejos de la mirada de los humanos, los pájaros revolotean entre flores en un paraíso oculto.",
+            "identifiers": {
+              "multiverseId": "684096",
+              "scryfallId": "1f8dfbc7-b572-4f53-ac9f-0a22bc58939a"
+            },
+            "language": "Spanish",
+            "multiverseId": 684096,
+            "name": "Arboleda floreciente",
+            "skuIds": {
+              "nonfoil": "18a4b132-b84a-56f0-9287-48ae6ab87ca9"
+            },
+            "text": "La Arboleda floreciente entra girada. En cuanto entre, elige un color que no sea verde.\n{T}: Agrega {G} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "6998fc67-3687-51e1-8ae6-09b938690977"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306115",
           "cardsphereId": "130629",
@@ -2250,18 +2482,28 @@
         "name": "Thriving Grove",
         "number": "776",
         "originalText": "Thriving Grove enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
+          "ECC",
           "J22",
           "J25",
           "JMP",
           "LCC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f4238a645e85036c",
@@ -2270,9 +2512,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a0902c07-54be-5e85-93bf-1c5106c1eb35"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2307,36 +2554,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681263",
-              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
-            },
-            "language": "German",
-            "multiverseId": 681263,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681278",
-              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
-            },
-            "language": "Spanish",
-            "multiverseId": 681278,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681293",
               "scryfallId": "3eb6a0b9-0629-4e6c-a31d-610aa70f6037"
             },
             "language": "French",
             "multiverseId": 681293,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "cf315f2d-d6fa-5f8a-b327-3b05cb1b1425"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "b10ace0b-9e6a-5815-b238-b578636bc2c8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681263",
+              "scryfallId": "79ec48f3-d930-4d05-92c8-9398d8cea33e"
+            },
+            "language": "German",
+            "multiverseId": 681263,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "43f12410-e8b0-5cac-8539-bb262bfe2889"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "468a839c-a69f-5f86-9717-cf5d1aa22aaf"
           },
           {
             "identifiers": {
@@ -2346,6 +2588,9 @@
             "language": "Italian",
             "multiverseId": 681308,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6c9f1064-862d-5686-9d1d-182ea54c741f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "f889c416-e0ce-556c-b55e-f2a30c98062f"
           },
@@ -2357,18 +2602,34 @@
             "language": "Japanese",
             "multiverseId": 681323,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "eed625d1-92fd-5c21-b3be-b31d31337bc3"
+            },
             "type": "基本土地 — 森",
             "uuid": "a6843a19-8ad2-540e-8eff-8f4da4433681"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681278",
+              "scryfallId": "d6abdd9f-e0c7-4eb0-971e-a7c8c305b061"
+            },
+            "language": "Spanish",
+            "multiverseId": 681278,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2c8a7443-87b7-5d2f-aa06-661ab320103c"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d80a227e-05ad-5644-80c7-b49e24380ae8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305227",
           "cardsphereId": "131383",
           "deckboxId": "98087",
           "mcmId": "795514",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95178",
           "mtgjsonV4Id": "952bfe5f-ab3f-567c-be51-b1e1177bcd27",
           "multiverseId": "681248",
@@ -2381,7 +2642,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2409,6 +2669,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "93",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2479,6 +2740,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -2641,15 +2903,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/43adef7c33aa4590",
+          "cardmarket": "https://mtgjson.com/links/778a4fdc956baf3c",
           "tcgplayer": "https://mtgjson.com/links/694d7368b6e0ea08"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "652993ee-52fa-54d6-ae86-2613ad80c3eb"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2665,8 +2936,8 @@
         ],
         "uuid": "cb1f99de-6c0c-5616-9091-be7af9f67e51",
         "variations": [
-          "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "d79afedf-c505-574e-91c0-95eb7f7cfe7c"
         ]
       },
       {
@@ -2692,36 +2963,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681264",
-              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
-            },
-            "language": "German",
-            "multiverseId": 681264,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681279",
-              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
-            },
-            "language": "Spanish",
-            "multiverseId": 681279,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681294",
               "scryfallId": "631d105e-81dd-4d38-902e-9833568b9c62"
             },
             "language": "French",
             "multiverseId": 681294,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "925f7141-4f6e-5447-8690-f9f1d514f8fe"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "52d84231-47dd-553b-b791-b0dd8e0c26c2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681264",
+              "scryfallId": "9b65e871-5301-4578-bb8e-f87d4b4f02f7"
+            },
+            "language": "German",
+            "multiverseId": 681264,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "6b5869a4-6157-5253-bd5d-3e394c5c2172"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "d299296c-921f-577c-ada7-1de6b10263e3"
           },
           {
             "identifiers": {
@@ -2731,6 +2997,9 @@
             "language": "Italian",
             "multiverseId": 681309,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "7ce2027c-2595-5aef-b260-e5df6e4bc79f"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "27e89f38-2f5a-5a80-9501-940856b5fc0b"
           },
@@ -2742,18 +3011,34 @@
             "language": "Japanese",
             "multiverseId": 681324,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2ed704fe-38a1-5fd8-b8f4-03e5633be7b9"
+            },
             "type": "基本土地 — 森",
             "uuid": "159454ea-3215-5905-80f5-0375cc3e3785"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681279",
+              "scryfallId": "640a4048-a417-445d-ab63-ec5d54d9bb5c"
+            },
+            "language": "Spanish",
+            "multiverseId": 681279,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "2dbc8b56-f8e1-5cb4-8833-93165854fc84"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "01c26b61-6fcd-5e23-806c-09d4d450a9fe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305228",
           "cardsphereId": "131384",
           "deckboxId": "98088",
           "mcmId": "795515",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95179",
           "mtgjsonV4Id": "c5ff8984-9b17-5479-b453-28e905eec248",
           "multiverseId": "681249",
@@ -2766,7 +3051,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2794,6 +3078,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "94",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -2864,6 +3149,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3026,15 +3312,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a7859c6792802052",
+          "cardmarket": "https://mtgjson.com/links/4cf2b896b0d1f397",
           "tcgplayer": "https://mtgjson.com/links/06ef70de48280700"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "cd3e2a76-6b0a-5f5c-a4db-6f0045a38f77"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3050,8 +3345,8 @@
         ],
         "uuid": "d79afedf-c505-574e-91c0-95eb7f7cfe7c",
         "variations": [
-          "cb1f99de-6c0c-5616-9091-be7af9f67e51",
-          "9dc82bc1-71ce-5470-85f5-105206104ea4"
+          "9dc82bc1-71ce-5470-85f5-105206104ea4",
+          "cb1f99de-6c0c-5616-9091-be7af9f67e51"
         ]
       },
       {
@@ -3077,36 +3372,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681265",
-              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
-            },
-            "language": "German",
-            "multiverseId": 681265,
-            "name": "Wald",
-            "type": "Standardland — Wald",
-            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681280",
-              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
-            },
-            "language": "Spanish",
-            "multiverseId": 681280,
-            "name": "Bosque",
-            "type": "Tierra básica — Bosque",
-            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681295",
               "scryfallId": "300c0dae-dcb3-429c-96c9-0a718b92c3ed"
             },
             "language": "French",
             "multiverseId": 681295,
             "name": "Forêt",
+            "skuIds": {
+              "nonfoil": "e17e6dff-7bf3-54b4-8ae8-570ae9bc4f99"
+            },
             "type": "Terrain de base — forêt",
             "uuid": "229ce3ad-7120-5b6f-ab60-4f98fa8cf855"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681265",
+              "scryfallId": "3d40c2f4-feaa-4d70-8882-baecc564e80d"
+            },
+            "language": "German",
+            "multiverseId": 681265,
+            "name": "Wald",
+            "skuIds": {
+              "nonfoil": "301e2e8c-305e-5e4b-ae86-44c0365ae2f0"
+            },
+            "type": "Standardland — Wald",
+            "uuid": "64d340bb-36ff-544a-9d04-01052e6b98bd"
           },
           {
             "identifiers": {
@@ -3116,6 +3406,9 @@
             "language": "Italian",
             "multiverseId": 681310,
             "name": "Foresta",
+            "skuIds": {
+              "nonfoil": "6360a4f6-874c-53c9-ac14-8579e1d91c8e"
+            },
             "type": "Terra Base — Foresta",
             "uuid": "c763b563-99b8-5c05-8c8a-5a65d56c9237"
           },
@@ -3127,18 +3420,34 @@
             "language": "Japanese",
             "multiverseId": 681325,
             "name": "森",
+            "skuIds": {
+              "nonfoil": "2f7a4c88-d340-57a0-b491-4465ba20adc1"
+            },
             "type": "基本土地 — 森",
             "uuid": "464ed43f-8f2c-5351-82d4-e130a949ae08"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681280",
+              "scryfallId": "e1d04c3a-bea2-4286-a49b-cdce09aacb02"
+            },
+            "language": "Spanish",
+            "multiverseId": 681280,
+            "name": "Bosque",
+            "skuIds": {
+              "nonfoil": "62e7272b-aecd-561b-a528-4e028f863b67"
+            },
+            "type": "Tierra básica — Bosque",
+            "uuid": "d23d53e4-6308-5ae6-8ea8-75fe6562ae12"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305229",
           "cardsphereId": "131385",
           "deckboxId": "98089",
           "mcmId": "795516",
+          "mcmMetaId": "2177",
           "mtgArenaId": "95180",
           "mtgjsonV4Id": "7243b80f-e2c7-53a7-9833-124662686acb",
           "multiverseId": "681250",
@@ -3151,7 +3460,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3179,6 +3487,7 @@
         "manaValue": 0.0,
         "name": "Forest",
         "number": "95",
+        "originalType": "Basic Land – Forest",
         "printings": [
           "10E",
           "2ED",
@@ -3249,6 +3558,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "EVG",
@@ -3411,15 +3721,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "G"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/7e9f7a8efa5d44f2",
+          "cardmarket": "https://mtgjson.com/links/5ce0459040c05931",
           "tcgplayer": "https://mtgjson.com/links/5c047147e17edc45"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a618b1f9-1d0b-5b4d-bb33-d6662525f0a1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3451,5 +3770,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "c746af438d7a1d"
   }
 }

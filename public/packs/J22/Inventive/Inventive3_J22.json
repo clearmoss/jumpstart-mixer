@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "dc84b0ef2ef3fb"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -25,7 +20,7 @@
         "colors": [],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 854,
+        "edhrecRank": 826,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
@@ -33,30 +28,20 @@
         "flavorText": "\"The world is already run by all manner of machines. One day, they'll remind us of that fact.\"\n—Sargis Haz, artificer",
         "foreignData": [
           {
-            "flavorText": "„Die Welt wird jetzt schon von unterschiedlichsten Maschinen regiert. Eines Tages werden sie es uns spüren lassen.\"\n—Sargis Haz, Tüftler",
+            "flavorText": "「这世界已经靠各种机械来运作着。有一天，它们会提醒我们这事实。」\n～神器师莎琪亥",
             "identifiers": {
-              "multiverseId": "596302",
-              "scryfallId": "367112ee-8cad-4aa7-9b44-4e79421c2bb9"
+              "multiverseId": "596911",
+              "scryfallId": "c30a05c8-ac5c-4409-97e5-969d32f50883"
             },
-            "language": "German",
-            "multiverseId": 596302,
-            "name": "Aufseher aus Stahl",
-            "text": "{T}: Lege auf jede Artefaktkreatur, die du kontrollierst, eine +1/+1-Marke.",
-            "type": "Artefaktkreatur — Konstrukt",
-            "uuid": "cc1356a5-f586-566e-aef5-5e94576bb808"
-          },
-          {
-            "flavorText": "\"El mundo ya está dirigido por todo tipo de máquinas. Un día, nos recordarán ese hecho\".\n—Sargis Haz, artífice",
-            "identifiers": {
-              "multiverseId": "596389",
-              "scryfallId": "b34cf7bb-d801-4676-b084-631e42a2d78c"
+            "language": "Chinese Simplified",
+            "multiverseId": 596911,
+            "name": "钢铁督军",
+            "skuIds": {
+              "nonfoil": "558e7f1e-06a0-510f-9220-57d14b97a6ef"
             },
-            "language": "Spanish",
-            "multiverseId": 596389,
-            "name": "Capataz de acero",
-            "text": "{T}: Pon un contador +1/+1 sobre cada criatura artefacto que controlas.",
-            "type": "Criatura artefacto — Constructo",
-            "uuid": "84fcb706-c73f-5e6d-948c-740619537457"
+            "text": "{T}：在每个由你操控的神器生物上各放置一个+1/+1指示物。",
+            "type": "神器生物 ～组构体",
+            "uuid": "58914afb-b369-5115-927c-0c6b2aacbeb1"
           },
           {
             "flavorText": "« Le monde est déjà dirigé par toutes sortes de machines. Un jour, elles nous le rappelleront. »\n—Sargis Haz, artificier",
@@ -67,9 +52,28 @@
             "language": "French",
             "multiverseId": 596476,
             "name": "Brigadier d'acier",
+            "skuIds": {
+              "nonfoil": "60e0af23-3aaf-5f15-a06c-6005502ddd36"
+            },
             "text": "{T} : Mettez un marqueur +1/+1 sur chaque créature-artefact que vous contrôlez.",
             "type": "Créature-artefact : construction",
             "uuid": "07bb8c21-a5b1-5e73-8ab8-d2a537523007"
+          },
+          {
+            "flavorText": "„Die Welt wird jetzt schon von unterschiedlichsten Maschinen regiert. Eines Tages werden sie es uns spüren lassen.\"\n—Sargis Haz, Tüftler",
+            "identifiers": {
+              "multiverseId": "596302",
+              "scryfallId": "367112ee-8cad-4aa7-9b44-4e79421c2bb9"
+            },
+            "language": "German",
+            "multiverseId": 596302,
+            "name": "Aufseher aus Stahl",
+            "skuIds": {
+              "nonfoil": "b3bd6f7e-e42f-5bb3-bf75-36c755b32788"
+            },
+            "text": "{T}: Lege auf jede Artefaktkreatur, die du kontrollierst, eine +1/+1-Marke.",
+            "type": "Artefaktkreatur — Konstrukt",
+            "uuid": "cc1356a5-f586-566e-aef5-5e94576bb808"
           },
           {
             "flavorText": "\"Il mondo ormai è gestito da macchine di ogni genere. Un giorno, ci ricorderanno questo fatto.\"\n—Sargis Haz, artefice",
@@ -80,6 +84,9 @@
             "language": "Italian",
             "multiverseId": 596563,
             "name": "Sorvegliante d'Acciaio",
+            "skuIds": {
+              "nonfoil": "df0df250-ad42-58fc-9e0a-579b43e24785"
+            },
             "text": "{T}: Metti un segnalino +1/+1 su ogni creatura artefatto che controlli.",
             "type": "Creatura Artefatto — Costrutto",
             "uuid": "c999e82b-577f-5f71-bb0a-fbbc26e6185d"
@@ -93,27 +100,31 @@
             "language": "Japanese",
             "multiverseId": 596650,
             "name": "鋼の監視者",
+            "skuIds": {
+              "nonfoil": "a23396be-43dc-5044-8afb-3e6e3981c383"
+            },
             "text": "{T}：あなたがコントロールしている各アーティファクト・クリーチャーの上にそれぞれ、＋１/＋１カウンター１個を置く。",
             "type": "アーティファクト・クリーチャー — 構築物",
             "uuid": "054bd3c0-55ea-5585-b329-d4c9fafb6583"
           },
           {
-            "flavorText": "「这世界已经靠各种机械来运作着。有一天，它们会提醒我们这事实。」\n～神器师莎琪亥",
+            "flavorText": "\"El mundo ya está dirigido por todo tipo de máquinas. Un día, nos recordarán ese hecho\".\n—Sargis Haz, artífice",
             "identifiers": {
-              "multiverseId": "596911",
-              "scryfallId": "c30a05c8-ac5c-4409-97e5-969d32f50883"
+              "multiverseId": "596389",
+              "scryfallId": "b34cf7bb-d801-4676-b084-631e42a2d78c"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596911,
-            "name": "钢铁督军",
-            "text": "{T}：在每个由你操控的神器生物上各放置一个+1/+1指示物。",
-            "type": "神器生物 ～组构体",
-            "uuid": "58914afb-b369-5115-927c-0c6b2aacbeb1"
+            "language": "Spanish",
+            "multiverseId": 596389,
+            "name": "Capataz de acero",
+            "skuIds": {
+              "nonfoil": "b146874d-6ffa-54e1-a957-1f958148b2dd"
+            },
+            "text": "{T}: Pon un contador +1/+1 sobre cada criatura artefacto que controlas.",
+            "type": "Criatura artefacto — Constructo",
+            "uuid": "84fcb706-c73f-5e6d-948c-740619537457"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270572",
           "cardsphereId": "96901",
@@ -153,6 +164,7 @@
         "name": "Steel Overseer",
         "number": "798",
         "originalText": "{T}: Put a +1/+1 counter on each artifact creature you control.",
+        "originalType": "Artifact Creature – Construct",
         "power": "1",
         "printings": [
           "BRC",
@@ -180,9 +192,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "620b6f00-c8a3-5233-b9c4-e9be12c7dcd4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -218,7 +235,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1916,
+        "edhrecRank": 2028,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
@@ -226,27 +243,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597095",
-              "scryfallId": "d8adca01-625e-44ab-ac3e-5aa7794d4ba1"
+              "multiverseId": "597417",
+              "scryfallId": "f069771b-2f9e-425a-90ce-20118f34d69c"
             },
-            "language": "German",
-            "multiverseId": 597095,
-            "name": "Wirbler-Räuberin",
-            "text": "Wenn die Wirbler-Räuberin ins Spiel kommt, erzeuge zwei 1/1 farblose Thopter-Artefaktkreaturenspielsteine mit Flugfähigkeit.\nTappe zwei ungetappte Artefakte, die du kontrollierst: Eine Kreatur deiner Wahl kann in diesem Zug nicht geblockt werden.",
-            "type": "Kreatur — Mensch, Räuber, Handwerker",
-            "uuid": "72c56394-2091-5a2b-9765-81cfa8a4bbf4"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597141",
-              "scryfallId": "805c86ca-9c5b-4d06-8f8d-309c41331000"
+            "language": "Chinese Simplified",
+            "multiverseId": 597417,
+            "name": "旋翼浪客",
+            "skuIds": {
+              "nonfoil": "a3620d55-05f5-5de5-90a4-9ae06c8d2596"
             },
-            "language": "Spanish",
-            "multiverseId": 597141,
-            "name": "Bribona de los zumbones",
-            "text": "Cuando la Bribona de los zumbones entre al campo de batalla, crea dos fichas de criatura artefacto Tóptero incoloras 1/1 con la habilidad de volar.\nGirar dos artefactos enderezados que controlas: La criatura objetivo no puede ser bloqueada este turno.",
-            "type": "Criatura — Artífice bribón humano",
-            "uuid": "7367506b-d370-5e00-9a04-85f562e7d5ac"
+            "text": "当旋翼浪客进战场时，派出两个1/1无色，具飞行异能的振翼机衍生神器生物。\n横置两个由你操控且未横置的神器：目标生物本回合不能被阻挡。",
+            "type": "生物 ～人类／浪客／神器师",
+            "uuid": "5c38ba9f-71d3-5146-bd4a-6bde457840d6"
           },
           {
             "identifiers": {
@@ -256,9 +264,27 @@
             "language": "French",
             "multiverseId": 597187,
             "name": "Gredine à voltigeurs",
+            "skuIds": {
+              "nonfoil": "25b3efbe-31b8-55b2-bf26-b359f9764908"
+            },
             "text": "Quand la Gredine à voltigeurs arrive sur le champ de bataille, créez deux jetons de créature-artefact 1/1 incolore Mécanoptère avec le vol.\nEngagez deux artefacts dégagés que vous contrôlez : Une créature ciblée ne peut pas être bloquée ce tour-ci.",
             "type": "Créature : humain et gredin et artificier",
             "uuid": "0e03b116-fc99-58c9-b3e9-7a97e9f37950"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597095",
+              "scryfallId": "d8adca01-625e-44ab-ac3e-5aa7794d4ba1"
+            },
+            "language": "German",
+            "multiverseId": 597095,
+            "name": "Wirbler-Räuberin",
+            "skuIds": {
+              "nonfoil": "f98a1781-8731-5e73-8cb8-11d59f3da17c"
+            },
+            "text": "Wenn die Wirbler-Räuberin ins Spiel kommt, erzeuge zwei 1/1 farblose Thopter-Artefaktkreaturenspielsteine mit Flugfähigkeit.\nTappe zwei ungetappte Artefakte, die du kontrollierst: Eine Kreatur deiner Wahl kann in diesem Zug nicht geblockt werden.",
+            "type": "Kreatur — Mensch, Räuber, Handwerker",
+            "uuid": "72c56394-2091-5a2b-9765-81cfa8a4bbf4"
           },
           {
             "identifiers": {
@@ -268,6 +294,9 @@
             "language": "Italian",
             "multiverseId": 597233,
             "name": "Canaglia dei Turbinanti",
+            "skuIds": {
+              "nonfoil": "8c899df7-549a-5b06-a1ab-5de3d0d2de4f"
+            },
             "text": "Quando la Canaglia dei Turbinanti entra nel campo di battaglia, crea due pedine creatura artefatto Tottero 1/1 incolori con volare.\nTAPpa due artefatti STAPpati che controlli: Una creatura bersaglio non può essere bloccata in questo turno.",
             "type": "Creatura — Artefice Farabutto Umano",
             "uuid": "293728ba-f54a-502b-a4e8-2f14989c775b"
@@ -280,26 +309,30 @@
             "language": "Japanese",
             "multiverseId": 597279,
             "name": "つむじ風のならず者",
+            "skuIds": {
+              "nonfoil": "332b434d-623d-5135-9e32-e424c23b372f"
+            },
             "text": "つむじ風のならず者が戦場に出たとき、飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークン２体を生成する。\nあなたがコントロールしていてアンタップ状態であるアーティファクト２つをタップする：クリーチャー１体を対象とする。このターン、それはブロックされない。",
             "type": "クリーチャー — 人間・ならず者・工匠",
             "uuid": "f3cb094e-f2aa-52d6-9da6-83753acb0779"
           },
           {
             "identifiers": {
-              "multiverseId": "597417",
-              "scryfallId": "f069771b-2f9e-425a-90ce-20118f34d69c"
+              "multiverseId": "597141",
+              "scryfallId": "805c86ca-9c5b-4d06-8f8d-309c41331000"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597417,
-            "name": "旋翼浪客",
-            "text": "当旋翼浪客进战场时，派出两个1/1无色，具飞行异能的振翼机衍生神器生物。\n横置两个由你操控且未横置的神器：目标生物本回合不能被阻挡。",
-            "type": "生物 ～人类／浪客／神器师",
-            "uuid": "5c38ba9f-71d3-5146-bd4a-6bde457840d6"
+            "language": "Spanish",
+            "multiverseId": 597141,
+            "name": "Bribona de los zumbones",
+            "skuIds": {
+              "nonfoil": "c73d41d4-5cfc-51c2-a3c2-2c96cf5b9c6b"
+            },
+            "text": "Cuando la Bribona de los zumbones entre al campo de batalla, crea dos fichas de criatura artefacto Tóptero incoloras 1/1 con la habilidad de volar.\nGirar dos artefactos enderezados que controlas: La criatura objetivo no puede ser bloqueada este turno.",
+            "type": "Criatura — Artífice bribón humano",
+            "uuid": "7367506b-d370-5e00-9a04-85f562e7d5ac"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270269",
           "cardsphereId": "96889",
@@ -337,6 +370,7 @@
         "name": "Whirler Rogue",
         "number": "66",
         "originalText": "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.\nTap two untapped artifacts you control: Target creature can't be blocked this turn.",
+        "originalType": "Creature – Human Rogue Artificer",
         "power": "2",
         "printings": [
           "BRC",
@@ -364,6 +398,11 @@
           "tcgplayer": "https://mtgjson.com/links/f3442c50126960b8"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9afed1c1-def8-5173-b9db-740daede6def"
+          ]
+        },
         "rulings": [
           {
             "date": "2015-06-22",
@@ -375,9 +414,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "53fd11d0-120a-5b7f-b629-bfb3fafa4c30"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -410,7 +454,7 @@
         "colors": [],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 15942,
+        "edhrecRank": 16530,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
@@ -418,27 +462,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597542",
-              "scryfallId": "f5cba36f-50a0-4c51-af2c-bc126a78a8a0"
+              "multiverseId": "597717",
+              "scryfallId": "317b5c9c-29bf-4239-b67a-888c3d9b7bf7"
             },
-            "language": "German",
-            "multiverseId": 597542,
-            "name": "Mechanische Hydra",
-            "text": "Die Mechanische Hydra kommt mit vier +1/+1-Marken ins Spiel.\nImmer wenn die Mechanische Hydra angreift oder blockt, entferne eine +1/+1-Marke von ihr. Falls du dies tust, fügt die Mechanische Hydra einem Ziel deiner Wahl 1 Schadenspunkt zu.\n{T}: Lege eine +1/+1-Marke auf die Mechanische Hydra.",
-            "type": "Artefaktkreatur — Hydra",
-            "uuid": "af43e5a6-e80c-5bc0-8730-fc5c920969d8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597567",
-              "scryfallId": "a2446832-a277-4f8b-87bb-20aebcefdce4"
+            "language": "Chinese Simplified",
+            "multiverseId": 597717,
+            "name": "发条多头龙",
+            "skuIds": {
+              "nonfoil": "bf934ad0-24db-5470-8589-08fdf09fdf0a"
             },
-            "language": "Spanish",
-            "multiverseId": 597567,
-            "name": "Hidra mecánica",
-            "text": "La Hidra mecánica entra al campo de batalla con cuatro contadores +1/+1 sobre ella.\nSiempre que la Hidra mecánica ataque o bloquee, remueve un contador +1/+1 de ella. Si lo haces, la Hidra mecánica hace 1 punto de daño a cualquier objetivo.\n{T}: Pon un contador +1/+1 sobre la Hidra mecánica.",
-            "type": "Criatura artefacto — Hidra",
-            "uuid": "ada39a0f-8d88-576c-b7de-c61739039cc1"
+            "text": "发条多头龙进战场时上面有四个+1/+1指示物。\n每当发条多头龙攻击或阻挡时，从其上移去一个+1/+1指示物。若你如此作，则发条多头龙对任意一个目标造成1点伤害。\n{T}：在发条多头龙上放置一个+1/+1指示物。",
+            "type": "神器生物 ～多头龙",
+            "uuid": "2b9a7e6f-f4f9-5c51-a0f0-6a19c5b560ba"
           },
           {
             "identifiers": {
@@ -448,9 +483,27 @@
             "language": "French",
             "multiverseId": 597592,
             "name": "Hydre mécanique",
+            "skuIds": {
+              "nonfoil": "4c7376af-6bd2-58ce-bd85-cc14e746c340"
+            },
             "text": "L'Hydre mécanique arrive sur le champ de bataille avec quatre marqueurs +1/+1 sur elle.\nÀ chaque fois que l'Hydre mécanique attaque ou bloque, retirez-lui un marqueur +1/+1. Si vous faites ainsi, l'Hydre mécanique inflige 1 blessure à n'importe quelle cible.\n{T} : Mettez un marqueur +1/+1 sur l'Hydre mécanique.",
             "type": "Créature-artefact : hydre",
             "uuid": "8e84cc5c-ff16-5944-93f9-8ed531682290"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597542",
+              "scryfallId": "f5cba36f-50a0-4c51-af2c-bc126a78a8a0"
+            },
+            "language": "German",
+            "multiverseId": 597542,
+            "name": "Mechanische Hydra",
+            "skuIds": {
+              "nonfoil": "5c69e7ae-28d4-51f8-b3e1-a5178800f36c"
+            },
+            "text": "Die Mechanische Hydra kommt mit vier +1/+1-Marken ins Spiel.\nImmer wenn die Mechanische Hydra angreift oder blockt, entferne eine +1/+1-Marke von ihr. Falls du dies tust, fügt die Mechanische Hydra einem Ziel deiner Wahl 1 Schadenspunkt zu.\n{T}: Lege eine +1/+1-Marke auf die Mechanische Hydra.",
+            "type": "Artefaktkreatur — Hydra",
+            "uuid": "af43e5a6-e80c-5bc0-8730-fc5c920969d8"
           },
           {
             "identifiers": {
@@ -460,6 +513,9 @@
             "language": "Italian",
             "multiverseId": 597617,
             "name": "Idra Meccanica",
+            "skuIds": {
+              "nonfoil": "cc16cf46-9d3b-5a92-9d2c-9d92cfc87077"
+            },
             "text": "L'Idra Meccanica entra nel campo di battaglia con quattro segnalini +1/+1.\nOgniqualvolta l'Idra Meccanica attacca o blocca, rimuovi un segnalino +1/+1 da essa. Se lo fai, l'Idra Meccanica infligge 1 danno a un qualsiasi bersaglio.\n{T}: Metti un segnalino +1/+1 sull'Idra Meccanica.",
             "type": "Creatura Artefatto — Idra",
             "uuid": "d1f123cd-9a0a-5714-88f6-e37927ab97fc"
@@ -472,26 +528,30 @@
             "language": "Japanese",
             "multiverseId": 597642,
             "name": "機械仕掛けのハイドラ",
+            "skuIds": {
+              "nonfoil": "53dd8dfa-6271-50a7-bc59-2e84fc6aa310"
+            },
             "text": "機械仕掛けのハイドラは、＋１/＋１カウンター４個が置かれた状態で戦場に出る。\n機械仕掛けのハイドラが攻撃かブロックするたび、クリーチャーやプレインズウォーカーやプレイヤーのうち１つを対象とする。これの上から＋１/＋１カウンター１個を取り除く。そうしたなら、機械仕掛けのハイドラはそれに１点のダメージを与える。\n{T}：機械仕掛けのハイドラの上に＋１/＋１カウンター１個を置く。",
             "type": "アーティファクト・クリーチャー — ハイドラ",
             "uuid": "ff749d79-4d83-5117-89ac-91fdedca05bc"
           },
           {
             "identifiers": {
-              "multiverseId": "597717",
-              "scryfallId": "317b5c9c-29bf-4239-b67a-888c3d9b7bf7"
+              "multiverseId": "597567",
+              "scryfallId": "a2446832-a277-4f8b-87bb-20aebcefdce4"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597717,
-            "name": "发条多头龙",
-            "text": "发条多头龙进战场时上面有四个+1/+1指示物。\n每当发条多头龙攻击或阻挡时，从其上移去一个+1/+1指示物。若你如此作，则发条多头龙对任意一个目标造成1点伤害。\n{T}：在发条多头龙上放置一个+1/+1指示物。",
-            "type": "神器生物 ～多头龙",
-            "uuid": "2b9a7e6f-f4f9-5c51-a0f0-6a19c5b560ba"
+            "language": "Spanish",
+            "multiverseId": 597567,
+            "name": "Hidra mecánica",
+            "skuIds": {
+              "nonfoil": "b21c2533-3301-5784-b75d-4aafbb9e4fbb"
+            },
+            "text": "La Hidra mecánica entra al campo de batalla con cuatro contadores +1/+1 sobre ella.\nSiempre que la Hidra mecánica ataque o bloquee, remueve un contador +1/+1 de ella. Si lo haces, la Hidra mecánica hace 1 punto de daño a cualquier objetivo.\n{T}: Pon un contador +1/+1 sobre la Hidra mecánica.",
+            "type": "Criatura artefacto — Hidra",
+            "uuid": "ada39a0f-8d88-576c-b7de-c61739039cc1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270301",
           "cardsphereId": "96893",
@@ -526,6 +586,7 @@
         "name": "Clockwork Hydra",
         "number": "135",
         "originalText": "Clockwork Hydra enters the battlefield with four +1/+1 counters on it.\nWhenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to any target.\n{T}: Put a +1/+1 counter on Clockwork Hydra.",
+        "originalType": "Artifact Creature – Hydra",
         "power": "0",
         "printings": [
           "DDF",
@@ -550,9 +611,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "92819568-8233-5b58-a08c-2b6360c0c097"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -588,7 +654,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 27120,
+        "edhrecRank": 27749,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
@@ -596,30 +662,20 @@
         "flavorText": "Young artificers on Kaladesh let their imaginations run wild.",
         "foreignData": [
           {
-            "flavorText": "Junge Handwerker auf Kaladesh lassen ihrer Fantasie freien Lauf.",
+            "flavorText": "卡拉德许的年轻神器师会任由自身想象尽情发挥。",
             "identifiers": {
-              "multiverseId": "595229",
-              "scryfallId": "7b7e03e3-5978-43d7-bbf2-89cee4833770"
+              "multiverseId": "595985",
+              "scryfallId": "5a197654-47a6-4c87-8d69-e75c3ca40469"
             },
-            "language": "German",
-            "multiverseId": 595229,
-            "name": "Technoschmied-Wunderkind",
-            "text": "Das Technoschmied-Wunderkind erhält +1/+0, solange du ein Artefakt kontrollierst.",
-            "type": "Kreatur — Mensch, Handwerker",
-            "uuid": "af106670-e609-568b-bb48-887a0ed78b3f"
-          },
-          {
-            "flavorText": "Los jóvenes artífices de Kaladesh dejan volar su imaginación.",
-            "identifiers": {
-              "multiverseId": "595337",
-              "scryfallId": "6cf2ec80-0889-4594-972f-4a4a6a5ac582"
+            "language": "Chinese Simplified",
+            "multiverseId": 595985,
+            "name": "工匠逸才",
+            "skuIds": {
+              "nonfoil": "9d47d01b-5f26-52d3-a3a7-3325b3aa5ec1"
             },
-            "language": "Spanish",
-            "multiverseId": 595337,
-            "name": "Prodigio de los engranajes",
-            "text": "La Prodigio de los engranajes obtiene +1/+0 mientras controles un artefacto.",
-            "type": "Criatura — Artífice humano",
-            "uuid": "124c75be-078e-59d5-8194-92192d98283e"
+            "text": "只要你操控神器，工匠逸才便得+1/+0。",
+            "type": "生物 ～人类／神器师",
+            "uuid": "851c8431-824a-5d12-9eb4-cd64114a04a5"
           },
           {
             "flavorText": "Sur Kaladesh, les jeunes artificiers laissent libre cours à leur imagination.",
@@ -630,9 +686,28 @@
             "language": "French",
             "multiverseId": 595445,
             "name": "Prodige mécanique",
+            "skuIds": {
+              "nonfoil": "12babe01-7bb8-57db-a924-05c52164d286"
+            },
             "text": "La Prodige mécanique gagne +1/+0 tant que vous contrôlez un artefact.",
             "type": "Créature : humain et artificier",
             "uuid": "4237a600-627e-50a5-ab9c-499260f23e49"
+          },
+          {
+            "flavorText": "Junge Handwerker auf Kaladesh lassen ihrer Fantasie freien Lauf.",
+            "identifiers": {
+              "multiverseId": "595229",
+              "scryfallId": "7b7e03e3-5978-43d7-bbf2-89cee4833770"
+            },
+            "language": "German",
+            "multiverseId": 595229,
+            "name": "Technoschmied-Wunderkind",
+            "skuIds": {
+              "nonfoil": "b0a74385-1e80-508a-8aef-0481a79b4115"
+            },
+            "text": "Das Technoschmied-Wunderkind erhält +1/+0, solange du ein Artefakt kontrollierst.",
+            "type": "Kreatur — Mensch, Handwerker",
+            "uuid": "af106670-e609-568b-bb48-887a0ed78b3f"
           },
           {
             "flavorText": "Su Kaladesh i giovani artefici danno briglia sciolta alla propria immaginazione.",
@@ -643,6 +718,9 @@
             "language": "Italian",
             "multiverseId": 595553,
             "name": "Prodigio degli Ingranaggi",
+            "skuIds": {
+              "nonfoil": "d3fc9838-bb09-55a4-ae9a-4d574bb2c0b1"
+            },
             "text": "Il Prodigio degli Ingranaggi prende +1/+0 fintanto che controlli un artefatto.",
             "type": "Creatura — Artefice Umano",
             "uuid": "4173c3f1-a46c-5b88-8713-e61f2e495970"
@@ -656,27 +734,31 @@
             "language": "Japanese",
             "multiverseId": 595661,
             "name": "機械職人の神童",
+            "skuIds": {
+              "nonfoil": "9b638215-ef88-5fee-8905-92455d956424"
+            },
             "text": "あなたがアーティファクトをコントロールしているかぎり、機械職人の神童は＋１/＋０の修整を受ける。",
             "type": "クリーチャー — 人間・工匠",
             "uuid": "4acedb1c-7e08-5433-a9e2-166dc1a1184e"
           },
           {
-            "flavorText": "卡拉德许的年轻神器师会任由自身想象尽情发挥。",
+            "flavorText": "Los jóvenes artífices de Kaladesh dejan volar su imaginación.",
             "identifiers": {
-              "multiverseId": "595985",
-              "scryfallId": "5a197654-47a6-4c87-8d69-e75c3ca40469"
+              "multiverseId": "595337",
+              "scryfallId": "6cf2ec80-0889-4594-972f-4a4a6a5ac582"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595985,
-            "name": "工匠逸才",
-            "text": "只要你操控神器，工匠逸才便得+1/+0。",
-            "type": "生物 ～人类／神器师",
-            "uuid": "851c8431-824a-5d12-9eb4-cd64114a04a5"
+            "language": "Spanish",
+            "multiverseId": 595337,
+            "name": "Prodigio de los engranajes",
+            "skuIds": {
+              "nonfoil": "2f5f198a-b657-53eb-8d8e-f17e8f85ca83"
+            },
+            "text": "La Prodigio de los engranajes obtiene +1/+0 mientras controles un artefacto.",
+            "type": "Criatura — Artífice humano",
+            "uuid": "124c75be-078e-59d5-8194-92192d98283e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270389",
           "cardsphereId": "96924",
@@ -717,6 +799,7 @@
         "name": "Gearsmith Prodigy",
         "number": "303",
         "originalText": "Gearsmith Prodigy gets +1/+0 as long as you control an artifact.",
+        "originalType": "Creature – Human Artificer",
         "power": "1",
         "printings": [
           "J22",
@@ -729,9 +812,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "8df2c592-3e61-5fc7-b085-52488b834e7b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -767,7 +855,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18637,
+        "edhrecRank": 19105,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
@@ -775,30 +863,20 @@
         "flavorText": "\"They say perfection is unattainable, but they said that about flight too.\"",
         "foreignData": [
           {
-            "flavorText": "„Sie sagen, Perfektion sei unmöglich, aber das sagten sie auch übers Fliegen.\"",
+            "flavorText": "「他们口口声声说完美不可及，但他们之前对飞行也是这态度。」",
             "identifiers": {
-              "multiverseId": "595201",
-              "scryfallId": "9fa2af44-4fdc-42f3-95b6-7b6320af8e1b"
+              "multiverseId": "595957",
+              "scryfallId": "9c31ac65-c50c-492d-ac4b-060a42f1d7cc"
             },
-            "language": "German",
-            "multiverseId": 595201,
-            "name": "Luftfahrtpionierin",
-            "text": "Wenn die Luftfahrtpionierin ins Spiel kommt, erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
-            "type": "Kreatur — Mensch, Handwerker",
-            "uuid": "d8c9b987-903c-589d-936b-a07127bb9576"
-          },
-          {
-            "flavorText": "\"Dicen que la perfección es inalcanzable, pero lo mismo decían de volar\".",
-            "identifiers": {
-              "multiverseId": "595309",
-              "scryfallId": "ced15f28-7b66-4a5e-a543-f42eac3601b7"
+            "language": "Chinese Simplified",
+            "multiverseId": 595957,
+            "name": "翔空先驱",
+            "skuIds": {
+              "nonfoil": "c361cb85-664a-5f0f-9c38-755cf55b7ec3"
             },
-            "language": "Spanish",
-            "multiverseId": 595309,
-            "name": "Pionera de la aviación",
-            "text": "Cuando la Pionera de la aviación entre al campo de batalla, crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
-            "type": "Criatura — Artífice humano",
-            "uuid": "5c481dc7-1621-507c-9ac3-f3031e12e810"
+            "text": "当翔空先驱进战场时，派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
+            "type": "生物 ～人类／神器师",
+            "uuid": "2617d3b2-11c4-53c8-a4a4-757c917d70d6"
           },
           {
             "flavorText": "« Ils disent que la perfection est impossible, mais ils disaient la même chose à propos du vol. »",
@@ -809,9 +887,28 @@
             "language": "French",
             "multiverseId": 595417,
             "name": "Pionnière de l'aviation",
+            "skuIds": {
+              "nonfoil": "03457898-4927-5f0b-a915-912f8ad9ac6b"
+            },
             "text": "Quand la Pionnière de l'aviation arrive sur le champ de bataille, créez un jeton de créature-artefact 1/1 incolore Mécanoptère avec le vol.",
             "type": "Créature : humain et artificier",
             "uuid": "38ffef35-cf9c-5780-ba7e-e79f382a3b35"
+          },
+          {
+            "flavorText": "„Sie sagen, Perfektion sei unmöglich, aber das sagten sie auch übers Fliegen.\"",
+            "identifiers": {
+              "multiverseId": "595201",
+              "scryfallId": "9fa2af44-4fdc-42f3-95b6-7b6320af8e1b"
+            },
+            "language": "German",
+            "multiverseId": 595201,
+            "name": "Luftfahrtpionierin",
+            "skuIds": {
+              "nonfoil": "8085667b-71f7-571c-9815-4c3470ebce6f"
+            },
+            "text": "Wenn die Luftfahrtpionierin ins Spiel kommt, erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
+            "type": "Kreatur — Mensch, Handwerker",
+            "uuid": "d8c9b987-903c-589d-936b-a07127bb9576"
           },
           {
             "flavorText": "\"Dicono che la perfezione non esiste, così come dicevano che era impossibile volare.\"",
@@ -822,6 +919,9 @@
             "language": "Italian",
             "multiverseId": 595525,
             "name": "Pioniera dell'Aviazione",
+            "skuIds": {
+              "nonfoil": "a3c261dd-43ac-5e9b-9aea-5135527a4064"
+            },
             "text": "Quando la Pioniera dell'Aviazione entra nel campo di battaglia, crea una pedina creatura artefatto Tottero 1/1 incolore con volare.",
             "type": "Creatura — Artefice Umano",
             "uuid": "740e5a0f-0268-5f98-8135-10558d8a8377"
@@ -835,27 +935,31 @@
             "language": "Japanese",
             "multiverseId": 595633,
             "name": "飛行の先駆者",
+            "skuIds": {
+              "nonfoil": "76fc61ab-063c-530e-bed1-c4e36d327032"
+            },
             "text": "飛行の先駆者が戦場に出たとき、飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — 人間・工匠",
             "uuid": "fb7e4814-d029-5cf0-b67e-632b45662abc"
           },
           {
-            "flavorText": "「他们口口声声说完美不可及，但他们之前对飞行也是这态度。」",
+            "flavorText": "\"Dicen que la perfección es inalcanzable, pero lo mismo decían de volar\".",
             "identifiers": {
-              "multiverseId": "595957",
-              "scryfallId": "9c31ac65-c50c-492d-ac4b-060a42f1d7cc"
+              "multiverseId": "595309",
+              "scryfallId": "ced15f28-7b66-4a5e-a543-f42eac3601b7"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595957,
-            "name": "翔空先驱",
-            "text": "当翔空先驱进战场时，派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
-            "type": "生物 ～人类／神器师",
-            "uuid": "2617d3b2-11c4-53c8-a4a4-757c917d70d6"
+            "language": "Spanish",
+            "multiverseId": 595309,
+            "name": "Pionera de la aviación",
+            "skuIds": {
+              "nonfoil": "72391c5d-e852-5227-9625-f552721c6827"
+            },
+            "text": "Cuando la Pionera de la aviación entre al campo de batalla, crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
+            "type": "Criatura — Artífice humano",
+            "uuid": "5c481dc7-1621-507c-9ac3-f3031e12e810"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270374",
           "cardsphereId": "96925",
@@ -896,6 +1000,7 @@
         "name": "Aviation Pioneer",
         "number": "275",
         "originalText": "When Aviation Pioneer enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying.",
+        "originalType": "Creature – Human Artificer",
         "power": "1",
         "printings": [
           "J22",
@@ -907,10 +1012,20 @@
           "tcgplayer": "https://mtgjson.com/links/037d1938e4140b43"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9afed1c1-def8-5173-b9db-740daede6def"
+          ]
+        },
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "df9a50b9-15ca-5ae5-a122-51eda85cba7b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -942,7 +1057,7 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 4115,
+        "edhrecRank": 4453,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -950,30 +1065,20 @@
         "flavorText": "The kor send their thopter kites to see if the land is in a welcoming mood.",
         "foreignData": [
           {
-            "flavorText": "Die Kor schicken ihre Thopter vor, um zu schauen, ob das Land gerade gute Laune hat.",
+            "flavorText": "寇族派出振翼机升空，打量这块大地是否有意愿接纳他们。",
             "identifiers": {
-              "multiverseId": "596295",
-              "scryfallId": "6b87d49d-7fb6-4054-831b-801de7a20ef6"
+              "multiverseId": "596904",
+              "scryfallId": "86a04a07-30c5-4e40-ba04-6acce29cd0bc"
             },
-            "language": "German",
-            "multiverseId": 596295,
-            "name": "Auge der Pilger",
-            "text": "Fliegend\nWenn das Auge der Pilger ins Spiel kommt, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie offen vorzeigen, auf deine Hand nehmen und danach mischen.",
-            "type": "Artefaktkreatur — Thopter",
-            "uuid": "90214537-25ec-522c-807e-a6cc0b01689a"
-          },
-          {
-            "flavorText": "Los kor envían a sus tópteros cometa para ver si la tierra está de humor para una visita.",
-            "identifiers": {
-              "multiverseId": "596382",
-              "scryfallId": "6725c4f0-f122-4a83-a6ec-c8e0833db166"
+            "language": "Chinese Simplified",
+            "multiverseId": 596904,
+            "name": "朝圣客之眼",
+            "skuIds": {
+              "nonfoil": "9b829ad1-d158-59af-8961-46378df76fb3"
             },
-            "language": "Spanish",
-            "multiverseId": 596382,
-            "name": "Ojo del peregrino",
-            "text": "Vuela.\nCuando el Ojo del peregrino entre al campo de batalla, puedes buscar en tu biblioteca una carta de tierra básica, mostrarla, ponerla en tu mano y luego barajar.",
-            "type": "Criatura artefacto — Tóptero",
-            "uuid": "881af8f1-efc7-5a6b-b319-83363b3be4ba"
+            "text": "飞行\n当朝圣客之眼进战场时，你可以从你牌库中搜寻一张基本地牌，展示该牌，将它置于你手上，然后洗牌。",
+            "type": "神器生物 ～振翼机",
+            "uuid": "8814f796-9bea-5640-8993-980284ea5852"
           },
           {
             "flavorText": "Les kor envoient leurs voiles mécanoptères en éclaireur pour déterminer si la terre est d'humeur accueillante.",
@@ -984,9 +1089,28 @@
             "language": "French",
             "multiverseId": 596469,
             "name": "Œil du pèlerin",
+            "skuIds": {
+              "nonfoil": "19e6e33c-d809-5747-bf58-bb9bca43d7a1"
+            },
             "text": "Vol\nQuand l'Œil du pèlerin arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte de terrain de base, la révéler, la mettre dans votre main, puis mélanger.",
             "type": "Créature-artefact : mécanoptère",
             "uuid": "58f96c14-92c3-5488-bc77-9de5bc46e4df"
+          },
+          {
+            "flavorText": "Die Kor schicken ihre Thopter vor, um zu schauen, ob das Land gerade gute Laune hat.",
+            "identifiers": {
+              "multiverseId": "596295",
+              "scryfallId": "6b87d49d-7fb6-4054-831b-801de7a20ef6"
+            },
+            "language": "German",
+            "multiverseId": 596295,
+            "name": "Auge der Pilger",
+            "skuIds": {
+              "nonfoil": "bca35b0d-ab32-5bd4-87dc-154047d48b82"
+            },
+            "text": "Fliegend\nWenn das Auge der Pilger ins Spiel kommt, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie offen vorzeigen, auf deine Hand nehmen und danach mischen.",
+            "type": "Artefaktkreatur — Thopter",
+            "uuid": "90214537-25ec-522c-807e-a6cc0b01689a"
           },
           {
             "flavorText": "I kor spediscono sempre i loro alianti totteri per verificare se la terra è di buonumore o meno.",
@@ -997,6 +1121,9 @@
             "language": "Italian",
             "multiverseId": 596556,
             "name": "Occhio del Pellegrino",
+            "skuIds": {
+              "nonfoil": "a5164749-babf-57d1-92c3-92340b009b43"
+            },
             "text": "Volare\nQuando l'Occhio del Pellegrino entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta terra base, rivelarla e aggiungerla alla tua mano, poi rimescolare.",
             "type": "Creatura Artefatto — Tottero",
             "uuid": "2a38cc48-4d4f-52eb-b1fc-e54379abf2aa"
@@ -1010,27 +1137,31 @@
             "language": "Japanese",
             "multiverseId": 596643,
             "name": "巡礼者の目",
+            "skuIds": {
+              "nonfoil": "677e49fc-0a99-5e9c-a0f2-3cae5f39bcf1"
+            },
             "text": "飛行\n巡礼者の目が戦場に出たとき、あなたは「あなたのライブラリーから基本土地・カード１枚を探し、公開し、あなたの手札に加える。その後、ライブラリーを切り直す。」を選んでもよい。",
             "type": "アーティファクト・クリーチャー — 飛行機械",
             "uuid": "697cfe8d-ddd6-5e87-8dcd-95c0de35d6cb"
           },
           {
-            "flavorText": "寇族派出振翼机升空，打量这块大地是否有意愿接纳他们。",
+            "flavorText": "Los kor envían a sus tópteros cometa para ver si la tierra está de humor para una visita.",
             "identifiers": {
-              "multiverseId": "596904",
-              "scryfallId": "86a04a07-30c5-4e40-ba04-6acce29cd0bc"
+              "multiverseId": "596382",
+              "scryfallId": "6725c4f0-f122-4a83-a6ec-c8e0833db166"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596904,
-            "name": "朝圣客之眼",
-            "text": "飞行\n当朝圣客之眼进战场时，你可以从你牌库中搜寻一张基本地牌，展示该牌，将它置于你手上，然后洗牌。",
-            "type": "神器生物 ～振翼机",
-            "uuid": "8814f796-9bea-5640-8993-980284ea5852"
+            "language": "Spanish",
+            "multiverseId": 596382,
+            "name": "Ojo del peregrino",
+            "skuIds": {
+              "nonfoil": "a6560d0d-6e64-5513-aeab-1f7ec4b4592a"
+            },
+            "text": "Vuela.\nCuando el Ojo del peregrino entre al campo de batalla, puedes buscar en tu biblioteca una carta de tierra básica, mostrarla, ponerla en tu mano y luego barajar.",
+            "type": "Criatura artefacto — Tóptero",
+            "uuid": "881af8f1-efc7-5a6b-b319-83363b3be4ba"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270567",
           "cardsphereId": "96904",
@@ -1075,6 +1206,7 @@
         "name": "Pilgrim's Eye",
         "number": "791",
         "originalText": "Flying\nWhen Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "originalType": "Artifact Creature – Thopter",
         "power": "1",
         "printings": [
           "BFZ",
@@ -1105,9 +1237,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a3a44272-bc2f-53b4-b879-1ee6a05efb19"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1143,37 +1280,28 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 16592,
+        "edhrecRank": 16745,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Its collection is vast, yet each ship has a special place in its heart.",
         "foreignData": [
           {
-            "flavorText": "Ihre Sammlung ist riesig und doch hat jedes Schiff einen besonderen Platz in ihrem Herzen.",
+            "flavorText": "它的收藏丰富，但每艘船在其心中都占有特殊地位。",
             "identifiers": {
-              "multiverseId": "595228",
-              "scryfallId": "e97637fa-2e4e-40c9-bfee-ef05e8671637"
+              "multiverseId": "595984",
+              "scryfallId": "7b03bdfb-8d6e-4d8e-bba1-1ec274bd37f7"
             },
-            "language": "German",
-            "multiverseId": 595228,
-            "name": "Maschinen-Verschlingerin",
-            "text": "Dieser Zauberspruch kostet beim Wirken für jedes Artefakt, das du kontrollierst, {1} weniger.\n{5}{U}: Die Maschinen-Verschlingerin kann in diesem Zug nicht geblockt werden.",
-            "type": "Kreatur — Schlange",
-            "uuid": "f86bcc69-4b78-5fb0-8ef1-bbc63bb31765"
-          },
-          {
-            "flavorText": "Su colección es inmensa, pero cada nave tiene un hueco especial en su corazón.",
-            "identifiers": {
-              "multiverseId": "595336",
-              "scryfallId": "37c43845-a126-4137-bf9e-b57fb6da1331"
+            "language": "Chinese Simplified",
+            "multiverseId": 595984,
+            "name": "觅械巨蛇",
+            "skuIds": {
+              "nonfoil": "9534c203-8227-5fee-959e-77ff27ebc82b"
             },
-            "language": "Spanish",
-            "multiverseId": 595336,
-            "name": "Serpiente devoraingenios",
-            "text": "Te cuesta {1} menos lanzar este hechizo por cada artefacto que controlas.\n{5}{U}: La Serpiente devoraingenios no puede ser bloqueada este turno.",
-            "type": "Criatura — Serpiente",
-            "uuid": "afec5caa-ef40-5c8e-962e-74963fe17aa6"
+            "text": "你每操控一个神器，此咒语便减少{1}来施放。\n{5}{U}：觅械巨蛇本回合不能被阻挡。",
+            "type": "生物 ～巨蛇",
+            "uuid": "a804c9ea-c9af-5053-8419-6dd0a8d0c57b"
           },
           {
             "flavorText": "Sa collection est immense, mais chaque vaisseau a une place spéciale dans son cœur.",
@@ -1184,9 +1312,28 @@
             "language": "French",
             "multiverseId": 595444,
             "name": "Serpent mécanochercheur",
+            "skuIds": {
+              "nonfoil": "9ce9c9ae-cb5d-57fd-8c26-259e7983ce02"
+            },
             "text": "Ce sort coûte {1} de moins à lancer pour chaque artefact que vous contrôlez.\n{5}{U} : Le Serpent mécanochercheur ne peut pas être bloqué ce tour-ci.",
             "type": "Créature : grand serpent",
             "uuid": "e6b043c3-e6cc-50ec-b998-3a812c2ff603"
+          },
+          {
+            "flavorText": "Ihre Sammlung ist riesig und doch hat jedes Schiff einen besonderen Platz in ihrem Herzen.",
+            "identifiers": {
+              "multiverseId": "595228",
+              "scryfallId": "e97637fa-2e4e-40c9-bfee-ef05e8671637"
+            },
+            "language": "German",
+            "multiverseId": 595228,
+            "name": "Maschinen-Verschlingerin",
+            "skuIds": {
+              "nonfoil": "846053d0-a8e8-5fe4-a0db-d18478fadac0"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken für jedes Artefakt, das du kontrollierst, {1} weniger.\n{5}{U}: Die Maschinen-Verschlingerin kann in diesem Zug nicht geblockt werden.",
+            "type": "Kreatur — Schlange",
+            "uuid": "f86bcc69-4b78-5fb0-8ef1-bbc63bb31765"
           },
           {
             "flavorText": "La sua collezione è vasta, ma ogni navicella occupa un posto speciale nel suo cuore.",
@@ -1197,6 +1344,9 @@
             "language": "Italian",
             "multiverseId": 595552,
             "name": "Serpe Meccanivora",
+            "skuIds": {
+              "nonfoil": "f02ab5a2-2f87-5f89-9bf8-3c506598ac64"
+            },
             "text": "Questa magia costa {1} in meno per essere lanciata per ogni artefatto che controlli.\n{5}{U}: La Serpe Meccanivora non può essere bloccata in questo turno.",
             "type": "Creatura — Serpe",
             "uuid": "28e17c0f-eb9b-5d43-acc9-a854eac1ecff"
@@ -1210,27 +1360,31 @@
             "language": "Japanese",
             "multiverseId": 595660,
             "name": "歯車襲いの海蛇",
+            "skuIds": {
+              "nonfoil": "2fb9c93e-abd9-5a36-a1dc-2ff661a3c909"
+            },
             "text": "この呪文を唱えるためのコストは、あなたがコントロールしているアーティファクト１つにつき{1}少なくなる。\n{5}{U}：このターン、歯車襲いの海蛇はブロックされない。",
             "type": "クリーチャー — 海蛇",
             "uuid": "b476ca13-ba3b-5cdc-88c0-967d15b00050"
           },
           {
-            "flavorText": "它的收藏丰富，但每艘船在其心中都占有特殊地位。",
+            "flavorText": "Su colección es inmensa, pero cada nave tiene un hueco especial en su corazón.",
             "identifiers": {
-              "multiverseId": "595984",
-              "scryfallId": "7b03bdfb-8d6e-4d8e-bba1-1ec274bd37f7"
+              "multiverseId": "595336",
+              "scryfallId": "37c43845-a126-4137-bf9e-b57fb6da1331"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595984,
-            "name": "觅械巨蛇",
-            "text": "你每操控一个神器，此咒语便减少{1}来施放。\n{5}{U}：觅械巨蛇本回合不能被阻挡。",
-            "type": "生物 ～巨蛇",
-            "uuid": "a804c9ea-c9af-5053-8419-6dd0a8d0c57b"
+            "language": "Spanish",
+            "multiverseId": 595336,
+            "name": "Serpiente devoraingenios",
+            "skuIds": {
+              "nonfoil": "99e01e22-30f9-5da7-9e3d-ad2e1cf3581f"
+            },
+            "text": "Te cuesta {1} menos lanzar este hechizo por cada artefacto que controlas.\n{5}{U}: La Serpiente devoraingenios no puede ser bloqueada este turno.",
+            "type": "Criatura — Serpiente",
+            "uuid": "afec5caa-ef40-5c8e-962e-74963fe17aa6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270388",
           "cardsphereId": "96926",
@@ -1278,6 +1432,7 @@
         "name": "Gearseeker Serpent",
         "number": "302",
         "originalText": "This spell costs {1} less to cast for each artifact you control.\n{5}{U}: Gearseeker Serpent can't be blocked this turn.",
+        "originalType": "Creature – Serpent",
         "power": "5",
         "printings": [
           "DFT",
@@ -1311,9 +1466,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "837a5a84-1dd6-5c74-b64c-5eccb24e5b8f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1348,7 +1508,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 12823,
+        "edhrecRank": 13399,
         "edhrecSaltiness": 0.42,
         "finishes": [
           "nonfoil"
@@ -1356,27 +1516,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "589619",
-              "scryfallId": "66b847e8-d970-4907-b0f4-bab4538bc313"
+              "multiverseId": "589976",
+              "scryfallId": "5754c6a6-27f9-4c04-8de7-d56132e34c5c"
             },
-            "language": "German",
-            "multiverseId": 589619,
-            "name": "Start-Panne",
-            "text": "Neutralisiere einen Kreaturen- oder Planeswalkerzauber deiner Wahl. Erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
-            "type": "Spontanzauber",
-            "uuid": "bc4cda08-fa66-5d2d-bf86-5267c09855cb"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "589670",
-              "scryfallId": "7d9c496c-17ab-4ac0-9624-413772442d97"
+            "language": "Chinese Simplified",
+            "multiverseId": 589976,
+            "name": "首秀失误",
+            "skuIds": {
+              "nonfoil": "c269933c-5af7-5af3-a921-5ef8b0ad847d"
             },
-            "language": "Spanish",
-            "multiverseId": 589670,
-            "name": "Lanzamiento accidentado",
-            "text": "Contrarresta el hechizo de criatura o de planeswalker objetivo. Crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
-            "type": "Instantáneo",
-            "uuid": "a167b9a8-9d91-5366-ac2d-1a79ba53c761"
+            "text": "反击目标生物或鹏洛客咒语。派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
+            "type": "瞬间",
+            "uuid": "398bf2e1-4bde-591b-8f23-5bb62bfe0522"
           },
           {
             "identifiers": {
@@ -1386,9 +1537,27 @@
             "language": "French",
             "multiverseId": 589721,
             "name": "Incident de lancement",
+            "skuIds": {
+              "nonfoil": "69c14a94-946a-5ac3-bc02-393c5574b8db"
+            },
             "text": "Contrecarrez un sort de créature ou de planeswalker ciblé. Créez un jeton de créature-artefact 1/1 incolore Mécanoptère avec le vol.",
             "type": "Éphémère",
             "uuid": "c6dc803e-83d3-5447-8de4-8baaad250029"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "589619",
+              "scryfallId": "66b847e8-d970-4907-b0f4-bab4538bc313"
+            },
+            "language": "German",
+            "multiverseId": 589619,
+            "name": "Start-Panne",
+            "skuIds": {
+              "nonfoil": "dc065c3f-dd68-57b8-9f86-e45c00891df9"
+            },
+            "text": "Neutralisiere einen Kreaturen- oder Planeswalkerzauber deiner Wahl. Erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
+            "type": "Spontanzauber",
+            "uuid": "bc4cda08-fa66-5d2d-bf86-5267c09855cb"
           },
           {
             "identifiers": {
@@ -1398,6 +1567,9 @@
             "language": "Italian",
             "multiverseId": 589772,
             "name": "Incidente di Lancio",
+            "skuIds": {
+              "nonfoil": "6422223c-cafe-5b8f-a628-ebf1062d3a94"
+            },
             "text": "Neutralizza una magia creatura o planeswalker bersaglio. Crea una pedina creatura artefatto Tottero 1/1 incolore con volare.",
             "type": "Istantaneo",
             "uuid": "4d77d55d-84a3-5d21-809a-e5490d596a84"
@@ -1410,26 +1582,30 @@
             "language": "Japanese",
             "multiverseId": 589823,
             "name": "打ち上げ事故",
+            "skuIds": {
+              "nonfoil": "5d90ad8d-f099-5ba0-b794-2f1ecc4699db"
+            },
             "text": "クリーチャーやプレインズウォーカーである呪文１つを対象とする。それを打ち消す。飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークン１体を生成する。",
             "type": "インスタント",
             "uuid": "cc056f39-d259-5af6-a369-98950a7f48b2"
           },
           {
             "identifiers": {
-              "multiverseId": "589976",
-              "scryfallId": "5754c6a6-27f9-4c04-8de7-d56132e34c5c"
+              "multiverseId": "589670",
+              "scryfallId": "7d9c496c-17ab-4ac0-9624-413772442d97"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589976,
-            "name": "首秀失误",
-            "text": "反击目标生物或鹏洛客咒语。派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
-            "type": "瞬间",
-            "uuid": "398bf2e1-4bde-591b-8f23-5bb62bfe0522"
+            "language": "Spanish",
+            "multiverseId": 589670,
+            "name": "Lanzamiento accidentado",
+            "skuIds": {
+              "nonfoil": "db7f9702-5be6-5d73-85bf-0de89c3b4d7a"
+            },
+            "text": "Contrarresta el hechizo de criatura o de planeswalker objetivo. Crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
+            "type": "Instantáneo",
+            "uuid": "a167b9a8-9d91-5366-ac2d-1a79ba53c761"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270239",
           "cardsphereId": "96879",
@@ -1460,6 +1636,7 @@
         "name": "Launch Mishap",
         "number": "14",
         "originalText": "Counter target creature or planeswalker spell. Create a 1/1 colorless Thopter artifact creature token with flying.",
+        "originalType": "Instant",
         "printings": [
           "J22"
         ],
@@ -1469,10 +1646,20 @@
           "tcgplayer": "https://mtgjson.com/links/25ebad50469c4763"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9afed1c1-def8-5173-b9db-740daede6def"
+          ]
+        },
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "80f7f795-5708-54c5-97b9-2e819b17ce8d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1504,7 +1691,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 13332,
+        "edhrecRank": 13619,
         "edhrecSaltiness": 0.3,
         "finishes": [
           "nonfoil"
@@ -1512,30 +1699,20 @@
         "flavorText": "The artificers of Kaladesh strive ceaselessly for perfection, progress, and the ultimate expression of elegance.",
         "foreignData": [
           {
-            "flavorText": "Die Handwerker von Kaladesh streben unablässig nach Perfektion, Fortschritt und der ultimativen Darstellung von Eleganz.",
+            "flavorText": "卡拉德许神器师为求完美、创新、至上典雅而不断钻研求精。",
             "identifiers": {
-              "multiverseId": "595198",
-              "scryfallId": "9f6343d8-0163-49b9-9397-9283692cfdb3"
+              "multiverseId": "595954",
+              "scryfallId": "09ef805a-8457-4387-9f02-14ba22503ec2"
             },
-            "language": "German",
-            "multiverseId": 595198,
-            "name": "Geistesblitz des Handwerkers",
-            "text": "Ziehe zwei Karten. Falls du kein Artefakt kontrollierst, wirf eine Karte ab.",
-            "type": "Spontanzauber",
-            "uuid": "c73ec453-a145-5f06-9afc-3fad6c8388cf"
-          },
-          {
-            "flavorText": "Los artífices de Kaladesh buscan sin descanso la perfección, el progreso y la expresión definitiva de la elegancia.",
-            "identifiers": {
-              "multiverseId": "595306",
-              "scryfallId": "56a2e4bd-012d-4104-886d-13cf6bc4793f"
+            "language": "Chinese Simplified",
+            "multiverseId": 595954,
+            "name": "神器师的顿悟",
+            "skuIds": {
+              "nonfoil": "c8c872d4-e4e8-5abe-897d-047311f662e5"
             },
-            "language": "Spanish",
-            "multiverseId": 595306,
-            "name": "Epifanía del artífice",
-            "text": "Roba dos cartas. Si no controlas ningún artefacto, descarta una carta.",
-            "type": "Instantáneo",
-            "uuid": "99bb3684-0cfd-5412-a481-f907a336ef18"
+            "text": "抓两张牌。如果你未操控神器，则弃一张牌。",
+            "type": "瞬间",
+            "uuid": "547439d0-bd33-50c2-92ec-0a4460518982"
           },
           {
             "flavorText": "Les artificiers de Kaladesh aspirent sans relâche à la perfection, au progrès et à l'expression ultime de l'élégance.",
@@ -1546,9 +1723,28 @@
             "language": "French",
             "multiverseId": 595414,
             "name": "Révélation de l'artificier",
+            "skuIds": {
+              "nonfoil": "d6528fb2-edb9-5058-ac67-c5f7411b6a2f"
+            },
             "text": "Piochez deux cartes. Si vous ne contrôlez aucun artefact, défaussez-vous d'une carte.",
             "type": "Éphémère",
             "uuid": "04a70101-3474-59f9-a8de-ee78f5ac2ad4"
+          },
+          {
+            "flavorText": "Die Handwerker von Kaladesh streben unablässig nach Perfektion, Fortschritt und der ultimativen Darstellung von Eleganz.",
+            "identifiers": {
+              "multiverseId": "595198",
+              "scryfallId": "9f6343d8-0163-49b9-9397-9283692cfdb3"
+            },
+            "language": "German",
+            "multiverseId": 595198,
+            "name": "Geistesblitz des Handwerkers",
+            "skuIds": {
+              "nonfoil": "210eeebe-985c-54cd-aaf0-3d4ef401fef4"
+            },
+            "text": "Ziehe zwei Karten. Falls du kein Artefakt kontrollierst, wirf eine Karte ab.",
+            "type": "Spontanzauber",
+            "uuid": "c73ec453-a145-5f06-9afc-3fad6c8388cf"
           },
           {
             "flavorText": "Gli artefici di Kaladesh aspirano incessantemente alla perfezione, al progresso e all'espressione suprema dell'eleganza.",
@@ -1559,6 +1755,9 @@
             "language": "Italian",
             "multiverseId": 595522,
             "name": "Rivelazione dell'Artefice",
+            "skuIds": {
+              "nonfoil": "2de6e0c7-ea3d-586b-8949-16890bee016b"
+            },
             "text": "Pesca due carte. Se non controlli artefatti, scarta una carta.",
             "type": "Istantaneo",
             "uuid": "62a5061a-2776-5d44-8ed1-360de62e7092"
@@ -1572,27 +1771,31 @@
             "language": "Japanese",
             "multiverseId": 595630,
             "name": "工匠の天啓",
+            "skuIds": {
+              "nonfoil": "73dc9337-4927-5483-997c-df3f03705341"
+            },
             "text": "カード２枚を引く。あなたがアーティファクトをコントロールしていないなら、カード１枚を捨てる。",
             "type": "インスタント",
             "uuid": "d69204cd-5336-5daf-a208-511e05dab770"
           },
           {
-            "flavorText": "卡拉德许神器师为求完美、创新、至上典雅而不断钻研求精。",
+            "flavorText": "Los artífices de Kaladesh buscan sin descanso la perfección, el progreso y la expresión definitiva de la elegancia.",
             "identifiers": {
-              "multiverseId": "595954",
-              "scryfallId": "09ef805a-8457-4387-9f02-14ba22503ec2"
+              "multiverseId": "595306",
+              "scryfallId": "56a2e4bd-012d-4104-886d-13cf6bc4793f"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595954,
-            "name": "神器师的顿悟",
-            "text": "抓两张牌。如果你未操控神器，则弃一张牌。",
-            "type": "瞬间",
-            "uuid": "547439d0-bd33-50c2-92ec-0a4460518982"
+            "language": "Spanish",
+            "multiverseId": 595306,
+            "name": "Epifanía del artífice",
+            "skuIds": {
+              "nonfoil": "b6c65e6b-ef80-5ed9-b90d-152ef1ee9cfe"
+            },
+            "text": "Roba dos cartas. Si no controlas ningún artefacto, descarta una carta.",
+            "type": "Instantáneo",
+            "uuid": "99bb3684-0cfd-5412-a481-f907a336ef18"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270372",
           "cardsphereId": "96923",
@@ -1620,6 +1823,7 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "vintage": "Legal"
         },
@@ -1628,6 +1832,7 @@
         "name": "Artificer's Epiphany",
         "number": "272",
         "originalText": "Draw two cards. If you control no artifacts, discard a card.",
+        "originalType": "Instant",
         "printings": [
           "DDU",
           "J22",
@@ -1646,9 +1851,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "2a283503-4060-53a2-9ec8-958a31579250"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1680,7 +1890,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 844,
+        "edhrecRank": 875,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
@@ -1688,27 +1898,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595287",
-              "scryfallId": "7f3d4e50-a26b-4f3f-8bca-1f5d39b02776"
+              "multiverseId": "596043",
+              "scryfallId": "cfa0741d-ee20-461d-9ebd-389432112e62"
             },
-            "language": "German",
-            "multiverseId": 595287,
-            "name": "Thopter-Spionagenetz",
-            "text": "Zu Beginn deines Versorgungssegments und falls du ein Artefakt kontrollierst, erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.\nImmer wenn eine oder mehrere Artefaktkreaturen, die du kontrollierst, einem Spieler Kampfschaden zufügen, ziehe eine Karte.",
-            "type": "Verzauberung",
-            "uuid": "4ce67712-35a2-52b0-95df-69ed3dcb1b51"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595395",
-              "scryfallId": "5d1c6d18-d02d-42e2-a144-1ecc01d44ebb"
+            "language": "Chinese Simplified",
+            "multiverseId": 596043,
+            "name": "振翼机情报网",
+            "skuIds": {
+              "nonfoil": "5bbd62f7-4423-50bf-acbb-57f2e8e89247"
             },
-            "language": "Spanish",
-            "multiverseId": 595395,
-            "name": "Red de espionaje tóptera",
-            "text": "Al comienzo de tu mantenimiento, si controlas un artefacto, crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.\nSiempre que una o más criaturas artefacto que controlas hagan daño de combate a un jugador, roba una carta.",
-            "type": "Encantamiento",
-            "uuid": "7bfe802f-c949-56a7-a26e-233cb132e00a"
+            "text": "在你的维持开始时，若你操控神器，则派出一个1/1无色，具飞行异能的振翼机衍生神器生物。\n每当由你操控的一个或数个神器生物对任一牌手造成战斗伤害时，抓一张牌。",
+            "type": "结界",
+            "uuid": "4161a3dc-ca55-5e16-a5b2-2facc6a47a8d"
           },
           {
             "identifiers": {
@@ -1718,9 +1919,27 @@
             "language": "French",
             "multiverseId": 595503,
             "name": "Réseau de mécanoptères espions",
+            "skuIds": {
+              "nonfoil": "36141289-eb23-5b99-a387-94f1832ecad4"
+            },
             "text": "Au début de votre entretien, si vous contrôlez un artefact, créez un jeton de créature-artefact 1/1 incolore Mécanoptère avec le vol.\nÀ chaque fois qu'au moins une créature-artefact que vous contrôlez inflige des blessures de combat à un joueur, piochez une carte.",
             "type": "Enchantement",
             "uuid": "01c6ec79-ef3b-504d-8aac-e27dd35d8db3"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595287",
+              "scryfallId": "7f3d4e50-a26b-4f3f-8bca-1f5d39b02776"
+            },
+            "language": "German",
+            "multiverseId": 595287,
+            "name": "Thopter-Spionagenetz",
+            "skuIds": {
+              "nonfoil": "6ee4ed1f-93fe-574a-abf5-425a09b91c48"
+            },
+            "text": "Zu Beginn deines Versorgungssegments und falls du ein Artefakt kontrollierst, erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.\nImmer wenn eine oder mehrere Artefaktkreaturen, die du kontrollierst, einem Spieler Kampfschaden zufügen, ziehe eine Karte.",
+            "type": "Verzauberung",
+            "uuid": "4ce67712-35a2-52b0-95df-69ed3dcb1b51"
           },
           {
             "identifiers": {
@@ -1730,6 +1949,9 @@
             "language": "Italian",
             "multiverseId": 595611,
             "name": "Rete di Totteri Spia",
+            "skuIds": {
+              "nonfoil": "b399b3ab-835c-5af6-b652-842496b65bfe"
+            },
             "text": "All'inizio del tuo mantenimento, se controlli un artefatto, crea una pedina creatura artefatto Tottero 1/1 incolore con volare.\nOgniqualvolta una o più creature artefatto che controlli infliggono danno da combattimento a un giocatore, peschi una carta.",
             "type": "Incantesimo",
             "uuid": "972a1696-302d-5dbb-bfa1-f1e28fc02cd2"
@@ -1742,26 +1964,30 @@
             "language": "Japanese",
             "multiverseId": 595719,
             "name": "飛行機械の諜報網",
+            "skuIds": {
+              "nonfoil": "1642b9d1-9cc5-5930-ad7f-94b4c999bfde"
+            },
             "text": "あなたのアップキープの開始時に、あなたがアーティファクトをコントロールしている場合、飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークン１体を生成する。\nあなたがコントロールしている１体以上のアーティファクト・クリーチャーがプレイヤー１人に戦闘ダメージを与えるたび、カード１枚を引く。",
             "type": "エンチャント",
             "uuid": "d3b90d0d-3a1c-517e-aa58-bf3b5890da1d"
           },
           {
             "identifiers": {
-              "multiverseId": "596043",
-              "scryfallId": "cfa0741d-ee20-461d-9ebd-389432112e62"
+              "multiverseId": "595395",
+              "scryfallId": "5d1c6d18-d02d-42e2-a144-1ecc01d44ebb"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596043,
-            "name": "振翼机情报网",
-            "text": "在你的维持开始时，若你操控神器，则派出一个1/1无色，具飞行异能的振翼机衍生神器生物。\n每当由你操控的一个或数个神器生物对任一牌手造成战斗伤害时，抓一张牌。",
-            "type": "结界",
-            "uuid": "4161a3dc-ca55-5e16-a5b2-2facc6a47a8d"
+            "language": "Spanish",
+            "multiverseId": 595395,
+            "name": "Red de espionaje tóptera",
+            "skuIds": {
+              "nonfoil": "e8b13943-9a7e-5011-a96f-c23a889714ae"
+            },
+            "text": "Al comienzo de tu mantenimiento, si controlas un artefacto, crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.\nSiempre que una o más criaturas artefacto que controlas hagan daño de combate a un jugador, roba una carta.",
+            "type": "Encantamiento",
+            "uuid": "7bfe802f-c949-56a7-a26e-233cb132e00a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270414",
           "cardsphereId": "96919",
@@ -1796,6 +2022,7 @@
         "name": "Thopter Spy Network",
         "number": "361",
         "originalText": "At the beginning of your upkeep, if you control an artifact, create a 1/1 colorless Thopter artifact creature token with flying.\nWhenever one or more artifact creatures you control deal combat damage to a player, draw a card.",
+        "originalType": "Enchantment",
         "printings": [
           "BRC",
           "C18",
@@ -1812,6 +2039,11 @@
           "tcgplayer": "https://mtgjson.com/links/c3f1156def44b60b"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "9afed1c1-def8-5173-b9db-740daede6def"
+          ]
+        },
         "rulings": [
           {
             "date": "2015-06-22",
@@ -1824,9 +2056,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "28ce1844-eb39-5764-803a-d0d0385cfddf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1854,37 +2091,28 @@
         "colors": [],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18327,
+        "edhrecRank": 18755,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Our creations are more than mere things. They have life in them, little bits of ourselves.\"\n—Saheeli Rai",
         "foreignData": [
           {
-            "flavorText": "„Unsere Geschöpfe sind mehr als nur Dinge. Ihnen wohnt Leben inne, ein kleiner Teil von uns selbst.\"\n—Saheeli Rai",
+            "flavorText": "「我们的造物不只是物。我们将自身的一部分托付其中，蕴含着生命的灵动。」\n～莎希莉莱伊",
             "identifiers": {
-              "multiverseId": "596312",
-              "scryfallId": "777ead6c-5ecc-4b6a-af21-0dc799a87187"
+              "multiverseId": "596921",
+              "scryfallId": "49ce8dc0-e2de-41ee-8781-f72903aa4462"
             },
-            "language": "German",
-            "multiverseId": 596312,
-            "name": "Wirblermacher",
-            "text": "{4}, {T}: Erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
-            "type": "Artefakt",
-            "uuid": "cbc30955-309e-5f58-a22a-e1a9e676d5f1"
-          },
-          {
-            "flavorText": "\"Nuestras creaciones son más que simples objetos. Tienen vida propia, pequeños fragmentos de nosotros mismos\".\n—Saheeli Rai",
-            "identifiers": {
-              "multiverseId": "596399",
-              "scryfallId": "9603d319-dda2-460f-a738-dfa4518ff868"
+            "language": "Chinese Simplified",
+            "multiverseId": 596921,
+            "name": "制桨机",
+            "skuIds": {
+              "nonfoil": "0c50eb4b-87b2-529a-82a3-569d38693f9e"
             },
-            "language": "Spanish",
-            "multiverseId": 596399,
-            "name": "Fabricaingenios",
-            "text": "{4}, {T}: Crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
-            "type": "Artefacto",
-            "uuid": "19459469-ece3-5bf5-b3f1-7cd5af9d879e"
+            "text": "{4}，{T}：派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
+            "type": "神器",
+            "uuid": "cc553959-15b4-5495-b968-41daa05513f6"
           },
           {
             "flavorText": "« Nos créations ne sont pas de simples objets. Nous leur insufflons la vie, une partie de nous-mêmes. »\n—Saheeli Rai",
@@ -1895,9 +2123,28 @@
             "language": "French",
             "multiverseId": 596486,
             "name": "Concepteur de voltigeurs",
+            "skuIds": {
+              "nonfoil": "b561fd79-99c3-55c1-8f29-246bf01059b7"
+            },
             "text": "{4}, {T} : Créez un jeton de créature-artefact 1/1 incolore Mécanoptère avec le vol.",
             "type": "Artefact",
             "uuid": "7b4d8843-8bd2-503a-941c-bbe3ae6901e4"
+          },
+          {
+            "flavorText": "„Unsere Geschöpfe sind mehr als nur Dinge. Ihnen wohnt Leben inne, ein kleiner Teil von uns selbst.\"\n—Saheeli Rai",
+            "identifiers": {
+              "multiverseId": "596312",
+              "scryfallId": "777ead6c-5ecc-4b6a-af21-0dc799a87187"
+            },
+            "language": "German",
+            "multiverseId": 596312,
+            "name": "Wirblermacher",
+            "skuIds": {
+              "nonfoil": "8eb8e28d-2d0a-55c1-97ca-450cda6d09d6"
+            },
+            "text": "{4}, {T}: Erzeuge einen 1/1 farblosen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit.",
+            "type": "Artefakt",
+            "uuid": "cbc30955-309e-5f58-a22a-e1a9e676d5f1"
           },
           {
             "flavorText": "\"Le nostre creazioni sono ben più di semplici oggetti. Sono infuse di vita, racchiudono frammenti di noi stessi.\"\n—Saheeli Raji",
@@ -1908,6 +2155,9 @@
             "language": "Italian",
             "multiverseId": 596573,
             "name": "Creaturbinanti",
+            "skuIds": {
+              "nonfoil": "853977c4-33f5-5702-972a-bede67ad8ea8"
+            },
             "text": "{4}, {T}: Crea una pedina creatura artefatto Tottero 1/1 incolore con volare.",
             "type": "Artefatto",
             "uuid": "dbc77dfe-5790-592f-b3a1-25ef9031bf23"
@@ -1921,27 +2171,31 @@
             "language": "Japanese",
             "multiverseId": 596660,
             "name": "つむじ風製造機",
+            "skuIds": {
+              "nonfoil": "cb545f43-e671-5c6f-bc87-63c9b18ed15f"
+            },
             "text": "{4},{T}：飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークン１体を生成する。",
             "type": "アーティファクト",
             "uuid": "fe16bb5a-6080-56d1-92b3-705f187dc325"
           },
           {
-            "flavorText": "「我们的造物不只是物。我们将自身的一部分托付其中，蕴含着生命的灵动。」\n～莎希莉莱伊",
+            "flavorText": "\"Nuestras creaciones son más que simples objetos. Tienen vida propia, pequeños fragmentos de nosotros mismos\".\n—Saheeli Rai",
             "identifiers": {
-              "multiverseId": "596921",
-              "scryfallId": "49ce8dc0-e2de-41ee-8781-f72903aa4462"
+              "multiverseId": "596399",
+              "scryfallId": "9603d319-dda2-460f-a738-dfa4518ff868"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596921,
-            "name": "制桨机",
-            "text": "{4}，{T}：派出一个1/1无色，具飞行异能的振翼机衍生神器生物。",
-            "type": "神器",
-            "uuid": "cc553959-15b4-5495-b968-41daa05513f6"
+            "language": "Spanish",
+            "multiverseId": 596399,
+            "name": "Fabricaingenios",
+            "skuIds": {
+              "nonfoil": "9de96eb4-be51-5ecf-8c14-5c4fe0e50c09"
+            },
+            "text": "{4}, {T}: Crea una ficha de criatura artefacto Tóptero incolora 1/1 con la habilidad de volar.",
+            "type": "Artefacto",
+            "uuid": "19459469-ece3-5bf5-b3f1-7cd5af9d879e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270577",
           "cardsphereId": "96898",
@@ -1979,6 +2233,7 @@
         "name": "Whirlermaker",
         "number": "808",
         "originalText": "{4}, {T}: Create a 1/1 colorless Thopter artifact creature token with flying.",
+        "originalType": "Artifact",
         "printings": [
           "J22",
           "J25",
@@ -1991,10 +2246,20 @@
           "tcgplayer": "https://mtgjson.com/links/07e4695c59817a36"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9afed1c1-def8-5173-b9db-740daede6def"
+          ]
+        },
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "46a961d3-f8c5-55b9-affb-2c50af4a786a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2024,7 +2289,7 @@
         "colors": [],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 2653,
+        "edhrecRank": 2695,
         "edhrecSaltiness": 0.11,
         "finishes": [
           "nonfoil"
@@ -2032,30 +2297,20 @@
         "flavorText": "\"Release that which was never caged.\"\n—Spellbomb inscription",
         "foreignData": [
           {
-            "flavorText": "„Das freizulassen, was nie eingesperrt war.\"\n—Gravur der Spruchbombe",
+            "flavorText": "「释放，从未禁锢。」\n～咒击弹铭文",
             "identifiers": {
-              "multiverseId": "596256",
-              "scryfallId": "579cdea3-772b-475f-a67b-856c9daa2f6b"
+              "multiverseId": "596865",
+              "scryfallId": "016ed834-6901-4dc7-adbd-db475902ec1e"
             },
-            "language": "German",
-            "multiverseId": 596256,
-            "name": "Äther-Spruchbombe",
-            "text": "{U}, opfere die Äther-Spruchbombe: Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\n{1}, opfere die Äther-Spruchbombe: Ziehe eine Karte.",
-            "type": "Artefakt",
-            "uuid": "ded8468f-d856-5713-a62f-c91e61838304"
-          },
-          {
-            "flavorText": "\"Libera lo que nunca estuvo enjaulado\".\n—Inscripción en la bombahechizo",
-            "identifiers": {
-              "multiverseId": "596343",
-              "scryfallId": "fee64f5e-6866-4806-b98e-a29a977cb8f0"
+            "language": "Chinese Simplified",
+            "multiverseId": 596865,
+            "name": "乙太咒击弹",
+            "skuIds": {
+              "nonfoil": "5f4f48f5-5dc3-55c7-87e7-cffb07e7dbc3"
             },
-            "language": "Spanish",
-            "multiverseId": 596343,
-            "name": "Bombahechizo de éter",
-            "text": "{U}, sacrificar la Bombahechizo de éter: Regresa la criatura objetivo a la mano de su propietario.\n{1}, sacrificar la Bombahechizo de éter: Roba una carta.",
-            "type": "Artefacto",
-            "uuid": "d90c882f-1016-54bb-9b06-231a8b35465f"
+            "text": "{U}，牺牲乙太咒击弹：将目标生物移回其拥有者手上。\n{1}，牺牲乙太咒击弹：抓一张牌。",
+            "type": "神器",
+            "uuid": "3c1c88e1-46d7-586f-ab17-889936afa076"
           },
           {
             "flavorText": "« Libère ce qui jamais n'a été mis en cage. »\n—Inscription sur une bombe à sortilèges",
@@ -2066,9 +2321,28 @@
             "language": "French",
             "multiverseId": 596430,
             "name": "Bombe à sortilèges d'Éther",
+            "skuIds": {
+              "nonfoil": "301c9d7c-4278-5f9c-a6ee-f6c6de44deba"
+            },
             "text": "{U}, sacrifiez la Bombe à sortilèges d'Éther : Renvoyez une créature ciblée dans la main de son propriétaire.\n{1}, sacrifiez la Bombe à sortilèges d'Éther : Piochez une carte.",
             "type": "Artefact",
             "uuid": "f6dad5d4-e13c-50a3-a50b-3cd10e3a3d3b"
+          },
+          {
+            "flavorText": "„Das freizulassen, was nie eingesperrt war.\"\n—Gravur der Spruchbombe",
+            "identifiers": {
+              "multiverseId": "596256",
+              "scryfallId": "579cdea3-772b-475f-a67b-856c9daa2f6b"
+            },
+            "language": "German",
+            "multiverseId": 596256,
+            "name": "Äther-Spruchbombe",
+            "skuIds": {
+              "nonfoil": "45c6fc85-1594-53ac-841d-3d4200ea207c"
+            },
+            "text": "{U}, opfere die Äther-Spruchbombe: Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\n{1}, opfere die Äther-Spruchbombe: Ziehe eine Karte.",
+            "type": "Artefakt",
+            "uuid": "ded8468f-d856-5713-a62f-c91e61838304"
           },
           {
             "flavorText": "\"Libera ciò che non è mai stato in gabbia.\"\n—Iscrizione della Bombarcana",
@@ -2079,6 +2353,9 @@
             "language": "Italian",
             "multiverseId": 596517,
             "name": "Bombarcana Eterea",
+            "skuIds": {
+              "nonfoil": "e54279c9-48ec-5eb4-b0d6-812711098c88"
+            },
             "text": "{U}, Sacrifica la Bombarcana Eterea: Fai tornare una creatura bersaglio in mano al suo proprietario.\n{1}, Sacrifica la Bombarcana Eterea: Pesca una carta.",
             "type": "Artefatto",
             "uuid": "ff1aa375-3591-532a-a66b-af1c2ddda948"
@@ -2092,27 +2369,31 @@
             "language": "Japanese",
             "multiverseId": 596604,
             "name": "上天の呪文爆弾",
+            "skuIds": {
+              "nonfoil": "8ed7b532-4a55-50c6-b354-dffeb5640f83"
+            },
             "text": "{U},上天の呪文爆弾を生け贄に捧げる：クリーチャー１体を対象とする。それをオーナーの手札に戻す。\n{1},上天の呪文爆弾を生け贄に捧げる：カード１枚を引く。",
             "type": "アーティファクト",
             "uuid": "93d99c03-22ea-5fab-be9c-d86f71c991e8"
           },
           {
-            "flavorText": "「释放，从未禁锢。」\n～咒击弹铭文",
+            "flavorText": "\"Libera lo que nunca estuvo enjaulado\".\n—Inscripción en la bombahechizo",
             "identifiers": {
-              "multiverseId": "596865",
-              "scryfallId": "016ed834-6901-4dc7-adbd-db475902ec1e"
+              "multiverseId": "596343",
+              "scryfallId": "fee64f5e-6866-4806-b98e-a29a977cb8f0"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596865,
-            "name": "乙太咒击弹",
-            "text": "{U}，牺牲乙太咒击弹：将目标生物移回其拥有者手上。\n{1}，牺牲乙太咒击弹：抓一张牌。",
-            "type": "神器",
-            "uuid": "3c1c88e1-46d7-586f-ab17-889936afa076"
+            "language": "Spanish",
+            "multiverseId": 596343,
+            "name": "Bombahechizo de éter",
+            "skuIds": {
+              "nonfoil": "4585711d-82f4-53f7-bf20-42fec6f16ff2"
+            },
+            "text": "{U}, sacrificar la Bombahechizo de éter: Regresa la criatura objetivo a la mano de su propietario.\n{1}, sacrificar la Bombahechizo de éter: Roba una carta.",
+            "type": "Artefacto",
+            "uuid": "d90c882f-1016-54bb-9b06-231a8b35465f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270550",
           "cardsphereId": "96911",
@@ -2152,6 +2433,7 @@
         "name": "Aether Spellbomb",
         "number": "752",
         "originalText": "{U}, Sacrifice Aether Spellbomb: Return target creature to its owner's hand.\n{1}, Sacrifice Aether Spellbomb: Draw a card.",
+        "originalType": "Artifact",
         "printings": [
           "ARC",
           "DDF",
@@ -2168,9 +2450,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ea87f65b-b6eb-51d0-b848-3418605ddd4f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2200,7 +2487,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -2208,30 +2495,20 @@
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
           {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
             "identifiers": {
-              "multiverseId": "596329",
-              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+              "multiverseId": "596938",
+              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
             },
-            "language": "German",
-            "multiverseId": 596329,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "596416",
-              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
+            "language": "Chinese Simplified",
+            "multiverseId": 596938,
+            "name": "兴旺岛屿",
+            "skuIds": {
+              "nonfoil": "5450c1b8-d944-5662-8c7a-b37fcfda800f"
             },
-            "language": "Spanish",
-            "multiverseId": 596416,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
+            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
           },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
@@ -2242,9 +2519,28 @@
             "language": "French",
             "multiverseId": 596503,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "93e8bfea-3a48-5e55-8f4b-90dbeb5bbadf"
+            },
             "text": "L'Île prospère arrive sur le champ de bataille engagée.\nAu moment où l'Île prospère arrive sur le champ de bataille, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "b358cc4d-40ea-5bb9-a336-d13a3b994f85"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "596329",
+              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+            },
+            "language": "German",
+            "multiverseId": 596329,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "6b38935c-176b-56c6-b81a-3b0dcb9da69e"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2255,6 +2551,9 @@
             "language": "Italian",
             "multiverseId": 596590,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "cf678639-2090-5e35-acc5-51feb83415ee"
+            },
             "text": "L'Isola Florida entra nel campo di battaglia TAPpata.\nMentre l'Isola Florida entra nel campo di battaglia, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "c54e2963-6d75-5069-ac7f-4996bb9067af"
@@ -2268,27 +2567,31 @@
             "language": "Japanese",
             "multiverseId": 596677,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "55d97164-e6eb-589d-aa56-41b3ca44055e"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。\n興隆する島嶼が戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "afce460c-7748-5426-b20d-fb2835b3c36b"
           },
           {
-            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
             "identifiers": {
-              "multiverseId": "596938",
-              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
+              "multiverseId": "596416",
+              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596938,
-            "name": "兴旺岛屿",
-            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
+            "language": "Spanish",
+            "multiverseId": 596416,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "5a71ffda-a0be-5e3d-b150-cecffa9f8b09"
+            },
+            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270585",
           "cardsphereId": "96779",
@@ -2325,12 +2628,14 @@
         "name": "Thriving Isle",
         "number": "825",
         "originalText": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2338,7 +2643,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ef6dd617500d54d9",
@@ -2347,9 +2660,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "452bd8bb-fd64-544d-a1dc-68dca32d8adf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2379,7 +2697,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 349,
+        "edhrecRank": 334,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
@@ -2387,30 +2705,20 @@
         "flavorText": "Lumengrid, site of the Knowledge Pool, source of vedalken arcana.",
         "foreignData": [
           {
-            "flavorText": "Lumengrid, Sitz des Wissensvorrats, Quelle der vedalkischen Geheimnisse.",
+            "flavorText": "博识都，知识之池静凝之地，维多肯秘密的泉源。",
             "identifiers": {
-              "multiverseId": "596324",
-              "scryfallId": "a280e29b-0f4f-4b4c-921f-6939995a6527"
+              "multiverseId": "596933",
+              "scryfallId": "91f0d53e-c4cd-4b3c-8a71-dbd3ce412ac0"
             },
-            "language": "German",
-            "multiverseId": 596324,
-            "name": "Sitz der Synode",
-            "text": "{T}: Erzeuge {U}.",
-            "type": "Artefakt, Land",
-            "uuid": "3ff2b5b3-9d59-524b-9073-1b2adce879af"
-          },
-          {
-            "flavorText": "Lúmengrid, sede del Pozo del conocimiento, fuente del saber vedalken.",
-            "identifiers": {
-              "multiverseId": "596411",
-              "scryfallId": "9e31c139-9e47-4127-a320-f6fe4de4f8d8"
+            "language": "Chinese Simplified",
+            "multiverseId": 596933,
+            "name": "悉诺议会宅邸",
+            "skuIds": {
+              "nonfoil": "d02e8b4a-d416-587a-abbb-40cd038cb237"
             },
-            "language": "Spanish",
-            "multiverseId": 596411,
-            "name": "Sede del sínodo",
-            "text": "{T}: Agrega {U}.",
-            "type": "Tierra artefacto",
-            "uuid": "ee588fe7-b9c5-51a5-ba3d-5f3b10152c97"
+            "text": "{T}：加{U}。",
+            "type": "神器地",
+            "uuid": "0ff17dd3-4b89-53af-bf1a-37814ee29563"
           },
           {
             "flavorText": "Lumengrid, site du Sauvoir de Connaissance, source arcane des vedalkens.",
@@ -2421,9 +2729,28 @@
             "language": "French",
             "multiverseId": 596498,
             "name": "Siège du Synode",
+            "skuIds": {
+              "nonfoil": "b2ab7c76-13c6-5e18-864a-b7f0723890ec"
+            },
             "text": "{T} : Ajoutez {U}.",
             "type": "Terrain-artefact",
             "uuid": "813a6fc5-b752-56f5-a4b5-875a69db5fcc"
+          },
+          {
+            "flavorText": "Lumengrid, Sitz des Wissensvorrats, Quelle der vedalkischen Geheimnisse.",
+            "identifiers": {
+              "multiverseId": "596324",
+              "scryfallId": "a280e29b-0f4f-4b4c-921f-6939995a6527"
+            },
+            "language": "German",
+            "multiverseId": 596324,
+            "name": "Sitz der Synode",
+            "skuIds": {
+              "nonfoil": "bec2f673-d8c0-5946-94e5-685f7dfe7b7b"
+            },
+            "text": "{T}: Erzeuge {U}.",
+            "type": "Artefakt, Land",
+            "uuid": "3ff2b5b3-9d59-524b-9073-1b2adce879af"
           },
           {
             "flavorText": "Lumengrid, sito della Pozza della Conoscenza, la fonte dell'arcana sapienza dei vedalken.",
@@ -2434,6 +2761,9 @@
             "language": "Italian",
             "multiverseId": 596585,
             "name": "Sede del Sinodo",
+            "skuIds": {
+              "nonfoil": "0503443b-0fb5-5ecb-9d32-701d015337d3"
+            },
             "text": "{T}: Aggiungi {U}.",
             "type": "Terra Artefatto",
             "uuid": "97516ae7-9c3a-5b17-a942-de8572435786"
@@ -2447,27 +2777,31 @@
             "language": "Japanese",
             "multiverseId": 596672,
             "name": "教議会の座席",
+            "skuIds": {
+              "nonfoil": "2abf25b4-e61e-593d-8c0f-75656791aefe"
+            },
             "text": "{T}：{U}を加える。",
             "type": "アーティファクト・土地",
             "uuid": "cc1d6aa5-72cc-571b-8ded-6fe0d6116642"
           },
           {
-            "flavorText": "博识都，知识之池静凝之地，维多肯秘密的泉源。",
+            "flavorText": "Lúmengrid, sede del Pozo del conocimiento, fuente del saber vedalken.",
             "identifiers": {
-              "multiverseId": "596933",
-              "scryfallId": "91f0d53e-c4cd-4b3c-8a71-dbd3ce412ac0"
+              "multiverseId": "596411",
+              "scryfallId": "9e31c139-9e47-4127-a320-f6fe4de4f8d8"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596933,
-            "name": "悉诺议会宅邸",
-            "text": "{T}：加{U}。",
-            "type": "神器地",
-            "uuid": "0ff17dd3-4b89-53af-bf1a-37814ee29563"
+            "language": "Spanish",
+            "multiverseId": 596411,
+            "name": "Sede del sínodo",
+            "skuIds": {
+              "nonfoil": "f313f521-1608-548b-8de3-064608841c9d"
+            },
+            "text": "{T}: Agrega {U}.",
+            "type": "Tierra artefacto",
+            "uuid": "ee588fe7-b9c5-51a5-ba3d-5f3b10152c97"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270581",
           "cardsphereId": "96896",
@@ -2506,6 +2840,7 @@
         "name": "Seat of the Synod",
         "number": "820",
         "originalText": "{T}: Add {U}.",
+        "originalType": "Artifact Land",
         "printings": [
           "BRC",
           "C16",
@@ -2521,6 +2856,9 @@
           "TD2",
           "WC04"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/acf46a0a79df2242",
           "cardmarket": "https://mtgjson.com/links/859fdf3d48deb535",
@@ -2528,9 +2866,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ad0da077-b286-5edf-a897-7dc63d7a484b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2568,25 +2911,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597763",
-              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+              "multiverseId": "597868",
+              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
             },
-            "language": "German",
-            "multiverseId": 597763,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597778",
-              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
+            "language": "Chinese Simplified",
+            "multiverseId": 597868,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "bc048538-7fb0-545a-9f2d-2c0793feda37"
             },
-            "language": "Spanish",
-            "multiverseId": 597778,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
+            "type": "基本地 ～海岛",
+            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
           },
           {
             "identifiers": {
@@ -2596,8 +2931,25 @@
             "language": "French",
             "multiverseId": 597793,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "718ded01-dd87-5245-b7e6-7a5ef5877a97"
+            },
             "type": "Terrain de base : île",
             "uuid": "2470a3d0-26b7-5661-9d52-d5e48d6049aa"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597763",
+              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+            },
+            "language": "German",
+            "multiverseId": 597763,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "270a78ae-ed59-55cd-a765-f361ffc0e393"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
           },
           {
             "identifiers": {
@@ -2607,6 +2959,9 @@
             "language": "Italian",
             "multiverseId": 597808,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "c6d59d8d-de84-580c-8527-51844669ce21"
+            },
             "type": "Terra Base — Isola",
             "uuid": "72f351cc-f4f0-5149-9de4-6c062dece287"
           },
@@ -2618,29 +2973,34 @@
             "language": "Japanese",
             "multiverseId": 597823,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "33cc94a0-e6ac-508a-809d-5c539a231edd"
+            },
             "type": "基本土地 — 島",
             "uuid": "89ff2a7d-44ad-530a-bdf5-9850a915eb7c"
           },
           {
             "identifiers": {
-              "multiverseId": "597868",
-              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
+              "multiverseId": "597778",
+              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597868,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
+            "language": "Spanish",
+            "multiverseId": 597778,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "865123bc-01fd-5f88-ac22-160883945026"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270282",
           "cardsphereId": "96732",
           "deckboxId": "71294",
           "mcmId": "687359",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "202ef466-a412-5e98-888e-d007dc4b45c2",
           "multiverseId": "597748",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2679,6 +3039,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "101",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2748,6 +3109,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2908,15 +3270,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/88cffb7a2c906851",
+          "cardmarket": "https://mtgjson.com/links/6589c393dfe7df52",
           "tcgplayer": "https://mtgjson.com/links/4fe28b434034ba2e"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a793dc90-17a8-58c7-b490-547ebc26f6de"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2961,25 +3332,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597764",
-              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+              "multiverseId": "597869",
+              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
             },
-            "language": "German",
-            "multiverseId": 597764,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597779",
-              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
+            "language": "Chinese Simplified",
+            "multiverseId": 597869,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "3864757a-748b-5da6-8959-4e744276baff"
             },
-            "language": "Spanish",
-            "multiverseId": 597779,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
+            "type": "基本地 ～海岛",
+            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
           },
           {
             "identifiers": {
@@ -2989,8 +3352,25 @@
             "language": "French",
             "multiverseId": 597794,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "61133527-b11a-5be5-baa4-bcfac3d8ff67"
+            },
             "type": "Terrain de base : île",
             "uuid": "9d779f8b-8e17-59c0-a616-6932acd625d8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597764",
+              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+            },
+            "language": "German",
+            "multiverseId": 597764,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "71066775-0f1d-5710-b673-ebd0b760af6f"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
           },
           {
             "identifiers": {
@@ -3000,6 +3380,9 @@
             "language": "Italian",
             "multiverseId": 597809,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "56a0d74a-07a0-52e0-b7c1-b8bf589c3fc3"
+            },
             "type": "Terra Base — Isola",
             "uuid": "7469ec41-b333-58e1-85c1-111559a6f227"
           },
@@ -3011,29 +3394,34 @@
             "language": "Japanese",
             "multiverseId": 597824,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9f850ed6-ff17-535c-ad43-48424be5d125"
+            },
             "type": "基本土地 — 島",
             "uuid": "967e4846-dc2f-5593-a0c6-ff7166140a21"
           },
           {
             "identifiers": {
-              "multiverseId": "597869",
-              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
+              "multiverseId": "597779",
+              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597869,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
+            "language": "Spanish",
+            "multiverseId": 597779,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "e87eb06c-bd14-5933-a9f1-7f3343a0d3c9"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270283",
           "cardsphereId": "96733",
           "deckboxId": "71295",
           "mcmId": "687360",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "089ffe1e-204e-5497-a06e-9f002a05f2a2",
           "multiverseId": "597749",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3072,6 +3460,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "102",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3141,6 +3530,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3301,15 +3691,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3654238d6e97ce9c",
+          "cardmarket": "https://mtgjson.com/links/a67e187b3068798c",
           "tcgplayer": "https://mtgjson.com/links/72e364f528a609f6"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3bca12dc-bf4b-51b2-9da7-6edd2ec08903"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3325,8 +3724,8 @@
         ],
         "uuid": "078dbb69-e17b-5d0a-967e-887d605796da",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "6b885758-9973-5e10-8113-89e02702cfa7"
+          "6b885758-9973-5e10-8113-89e02702cfa7",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       },
       {
@@ -3354,25 +3753,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597765",
-              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+              "multiverseId": "597870",
+              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
             },
-            "language": "German",
-            "multiverseId": 597765,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597780",
-              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
+            "language": "Chinese Simplified",
+            "multiverseId": 597870,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "f28d17bf-01eb-5bea-b140-e032e95c177f"
             },
-            "language": "Spanish",
-            "multiverseId": 597780,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
+            "type": "基本地 ～海岛",
+            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
           },
           {
             "identifiers": {
@@ -3382,8 +3773,25 @@
             "language": "French",
             "multiverseId": 597795,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "e0452c37-3145-54f4-877c-5c59ad7c07c5"
+            },
             "type": "Terrain de base : île",
             "uuid": "f2648836-4166-55fd-b147-45d61afe6fbf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597765",
+              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+            },
+            "language": "German",
+            "multiverseId": 597765,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "e3620e6b-dd56-5d11-8e6d-7a6956ac6d81"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
           },
           {
             "identifiers": {
@@ -3393,6 +3801,9 @@
             "language": "Italian",
             "multiverseId": 597810,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "49ffe84e-2d57-5c55-a1ab-4b7c738530f5"
+            },
             "type": "Terra Base — Isola",
             "uuid": "c68a531f-9f50-58d5-879c-6891c7ec0003"
           },
@@ -3404,29 +3815,34 @@
             "language": "Japanese",
             "multiverseId": 597825,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "427d9251-e578-5607-801d-07cf00e3a486"
+            },
             "type": "基本土地 — 島",
             "uuid": "eeb0211c-e9bf-5163-830c-c283f9d05ee9"
           },
           {
             "identifiers": {
-              "multiverseId": "597870",
-              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
+              "multiverseId": "597780",
+              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597870,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
+            "language": "Spanish",
+            "multiverseId": 597780,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "6a8fb956-980a-52b5-a794-5cb4acadc051"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270284",
           "cardsphereId": "96734",
           "deckboxId": "71296",
           "mcmId": "687361",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "77bc71cd-b741-58e5-b874-edcb1fb840bf",
           "multiverseId": "597750",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3465,6 +3881,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "103",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3534,6 +3951,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3694,15 +4112,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3e2b031dfb3f0153",
+          "cardmarket": "https://mtgjson.com/links/f3560bb87ffa2803",
           "tcgplayer": "https://mtgjson.com/links/2ce532101f10254a"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5ddc768c-35de-5bba-ba23-e7da71d2573c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3718,8 +4145,8 @@
         ],
         "uuid": "6b885758-9973-5e10-8113-89e02702cfa7",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "078dbb69-e17b-5d0a-967e-887d605796da"
+          "078dbb69-e17b-5d0a-967e-887d605796da",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       }
     ],
@@ -3734,5 +4161,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "dc84b0ef2ef3fb"
   }
 }

@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "b72f9ee9e0de2f"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,39 +23,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6326,
+        "edhrecRank": 6245,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Good work, but I know you can do better. Try again.\"",
         "foreignData": [
-          {
-            "flavorText": "„Gute Arbeit, aber ich weiß, dass du es besser kannst. Versuch es noch einmal.\"",
-            "identifiers": {
-              "multiverseId": "681120",
-              "scryfallId": "b35f29ca-f964-472e-b1aa-e2acd43fbb02"
-            },
-            "language": "German",
-            "multiverseId": 681120,
-            "name": "Naban, Dekan der Iteration",
-            "text": "Falls ein Zauberer, der unter deiner Kontrolle ins Spiel kommt, bei einem Permanent, das du kontrollierst, eine ausgelöste Fähigkeit auslöst, wird jene Fähigkeit ein weiteres Mal ausgelöst.",
-            "type": "Legendäre Kreatur — Mensch, Zauberer",
-            "uuid": "ca59cead-134d-5705-8a97-90fd21ce5299"
-          },
-          {
-            "flavorText": "\"No está mal, pero sé que puedes hacerlo mejor. Vuelve a intentarlo\".",
-            "identifiers": {
-              "multiverseId": "681144",
-              "scryfallId": "4a58d8a1-c887-44c8-8258-d43fe73fe14b"
-            },
-            "language": "Spanish",
-            "multiverseId": 681144,
-            "name": "Naban, decano de la iteración",
-            "text": "Si un Hechicero que controlas entra y esto hace que se dispare una habilidad disparada de un permanente que controlas, esa habilidad se dispara una vez más.",
-            "type": "Criatura legendaria — Hechicero humano",
-            "uuid": "b61c3c24-a1ca-59e4-9549-275e52267b34"
-          },
           {
             "flavorText": "« Bon travail, mais je sais que vous pouvez faire mieux. Réessayez. »",
             "identifiers": {
@@ -70,9 +39,28 @@
             "language": "French",
             "multiverseId": 681168,
             "name": "Naban, doyen de l'itération",
+            "skuIds": {
+              "nonfoil": "3c4ed3bd-a94f-53a3-83cb-1c448762edf4"
+            },
             "text": "Si l'arrivée d'un sorcier sous votre contrôle provoque le déclenchement d'une capacité déclenchée d'un permanent que vous contrôlez, cette capacité se déclenche une fois de plus.",
             "type": "Créature légendaire — humain et sorcier",
             "uuid": "ac475787-32cc-5629-8666-a3c08603d3cd"
+          },
+          {
+            "flavorText": "„Gute Arbeit, aber ich weiß, dass du es besser kannst. Versuch es noch einmal.\"",
+            "identifiers": {
+              "multiverseId": "681120",
+              "scryfallId": "b35f29ca-f964-472e-b1aa-e2acd43fbb02"
+            },
+            "language": "German",
+            "multiverseId": 681120,
+            "name": "Naban, Dekan der Iteration",
+            "skuIds": {
+              "nonfoil": "72c374b9-671d-5ad1-bd71-98fcc76b423a"
+            },
+            "text": "Falls ein Zauberer, der unter deiner Kontrolle ins Spiel kommt, bei einem Permanent, das du kontrollierst, eine ausgelöste Fähigkeit auslöst, wird jene Fähigkeit ein weiteres Mal ausgelöst.",
+            "type": "Legendäre Kreatur — Mensch, Zauberer",
+            "uuid": "ca59cead-134d-5705-8a97-90fd21ce5299"
           },
           {
             "flavorText": "\"Ben fatto, ma so che puoi fare di meglio. Riprova.\"",
@@ -83,6 +71,9 @@
             "language": "Italian",
             "multiverseId": 681192,
             "name": "Naban, Decano dell'Iterazione",
+            "skuIds": {
+              "nonfoil": "21b4bf31-bfc4-5ed3-8a18-6afd84a976b5"
+            },
             "text": "Se un Mago che controlli e che entra fa innescare un'abilità innescata di un permanente che controlli, quell'abilità si innesca una volta in più.",
             "type": "Creatura Leggendaria — Mago Umano",
             "uuid": "491a5e9a-4f5d-5078-8887-177cf127ba88"
@@ -96,17 +87,34 @@
             "language": "Japanese",
             "multiverseId": 681216,
             "name": "反復の学部長、ナバン",
+            "skuIds": {
+              "nonfoil": "82afd34e-ebc0-5df4-9cc8-f0032ec5adc8"
+            },
             "text": "あなたがコントロールしているウィザードが戦場に出たことによりあなたがコントロールしているパーマネントの誘発型能力１つが誘発するなら、その能力は追加でもう１回誘発する。",
             "type": "伝説のクリーチャー — 人間・ウィザード",
             "uuid": "9e8d981f-c0df-546c-91eb-25f6e237cf88"
+          },
+          {
+            "flavorText": "\"No está mal, pero sé que puedes hacerlo mejor. Vuelve a intentarlo\".",
+            "identifiers": {
+              "multiverseId": "681144",
+              "scryfallId": "4a58d8a1-c887-44c8-8258-d43fe73fe14b"
+            },
+            "language": "Spanish",
+            "multiverseId": 681144,
+            "name": "Naban, decano de la iteración",
+            "skuIds": {
+              "nonfoil": "036a3342-5766-5d63-a35f-3afdaaae2887"
+            },
+            "text": "Si un Hechicero que controlas entra y esto hace que se dispare una habilidad disparada de un permanente que controlas, esa habilidad se dispara una vez más.",
+            "type": "Criatura legendaria — Hechicero humano",
+            "uuid": "b61c3c24-a1ca-59e4-9549-275e52267b34"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305195",
           "cardsphereId": "130869",
@@ -126,7 +134,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -153,6 +160,7 @@
         "name": "Naban, Dean of Iteration",
         "number": "61",
         "originalText": "If a Wizard you control entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+        "originalType": "Legendary Creature – Human Wizard",
         "power": "2",
         "printings": [
           "DOM",
@@ -209,9 +217,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "36894196-0f05-5cc5-bcb6-af2e601e2c74"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -248,36 +261,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 19922,
+        "edhrecRank": 19878,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681363",
-              "scryfallId": "4dc8c601-a27b-404f-b1eb-822233609808"
-            },
-            "language": "German",
-            "multiverseId": 681363,
-            "name": "Fesseln aus Sternenlicht",
-            "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura",
-            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681392",
-              "scryfallId": "77381d57-f4dc-41a0-b9e0-901ef25932c4"
-            },
-            "language": "Spanish",
-            "multiverseId": 681392,
-            "name": "Trampa estrellada",
-            "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura",
-            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
-          },
           {
             "identifiers": {
               "multiverseId": "681421",
@@ -286,9 +275,27 @@
             "language": "French",
             "multiverseId": 681421,
             "name": "Collet de lumière stellaire",
+            "skuIds": {
+              "nonfoil": "c203d4f0-35db-5b2e-998a-00afd7d366ae"
+            },
             "text": "Enchanter : créature\nQuand le Collet de lumière stellaire arrive, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
             "type": "Enchantement — aura",
             "uuid": "b14b9d45-a785-58d7-af7d-fb5f18787f03"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681363",
+              "scryfallId": "4dc8c601-a27b-404f-b1eb-822233609808"
+            },
+            "language": "German",
+            "multiverseId": 681363,
+            "name": "Fesseln aus Sternenlicht",
+            "skuIds": {
+              "nonfoil": "4848a1fa-2401-57be-9e6a-40edbb47ac92"
+            },
+            "text": "Verzaubert eine Kreatur\nWenn die Fesseln aus Sternenlicht ins Spiel kommen, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
+            "type": "Verzauberung — Aura",
+            "uuid": "65bcbf59-d347-5d93-be47-f5b1ed66926c"
           },
           {
             "identifiers": {
@@ -298,6 +305,9 @@
             "language": "Italian",
             "multiverseId": 681450,
             "name": "Trappola di Luce Stellare",
+            "skuIds": {
+              "nonfoil": "b4f65b2d-61a0-59bc-8c95-db5781af9d4b"
+            },
             "text": "Incanta creatura\nQuando la Trappola di Luce Stellare entra, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
             "type": "Incantesimo — Aura",
             "uuid": "f99ed183-d444-5d98-baa3-e547748226a4"
@@ -310,14 +320,30 @@
             "language": "Japanese",
             "multiverseId": 681479,
             "name": "星明かりの罠",
+            "skuIds": {
+              "nonfoil": "314d4a70-d383-5343-8dc5-2b048aaa9f42"
+            },
             "text": "エンチャント（クリーチャー）\n星明かりの罠が戦場に出たとき、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
             "type": "エンチャント — オーラ",
             "uuid": "d1a74b35-8031-5fd1-91e3-7b29a89f3e18"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681392",
+              "scryfallId": "77381d57-f4dc-41a0-b9e0-901ef25932c4"
+            },
+            "language": "Spanish",
+            "multiverseId": 681392,
+            "name": "Trampa estrellada",
+            "skuIds": {
+              "nonfoil": "d07f5257-61fe-5d2b-ad82-35bb444b6711"
+            },
+            "text": "Encantar criatura.\nCuando la Trampa estrellada entre, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
+            "type": "Encantamiento — Aura",
+            "uuid": "8cae8645-99ba-5a82-a906-ba4770674be1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305143",
           "cardsphereId": "130709",
@@ -336,7 +362,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Enchant"
         ],
@@ -366,6 +391,7 @@
         "name": "Starlight Snare",
         "number": "9",
         "originalText": "Enchant creature\nWhen Starlight Snare enters, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "FDN",
           "J25"
@@ -377,9 +403,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2bb015b6-c3d2-5165-b73e-432df060a4b5"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -411,39 +442,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 2248,
+        "edhrecRank": 2334,
         "edhrecSaltiness": 0.09,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Such dull wishes these humans make! To grant them as wished would be a dismal affair. Perhaps with a twist . . .\"",
         "foreignData": [
-          {
-            "flavorText": "„Menschen wünschen sich die langweiligsten Dinge! Es wäre eine Schande, diese Wünsche einfach so zu erfüllen. Vielleicht mit einer kleinen Prise Überraschung?\"",
-            "identifiers": {
-              "multiverseId": "681571",
-              "scryfallId": "82b99c97-0472-4c61-8d82-9e7d0aa93bd7"
-            },
-            "language": "German",
-            "multiverseId": 681571,
-            "name": "Prophezeiende Fee",
-            "text": "Fliegend\nWenn die Prophezeiende Fee ins Spiel kommt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)",
-            "type": "Kreatur — Feenwesen, Zauberer",
-            "uuid": "4494727a-063c-5031-b7aa-9bcd83af3e7e"
-          },
-          {
-            "flavorText": "\"¡Los humanos piden deseos aburridísimos! Sería deplorable concedérselos así. Quizá haya que hacerles algún apaño...\".",
-            "identifiers": {
-              "multiverseId": "681632",
-              "scryfallId": "68c9ce1f-0798-41eb-af30-430ca1376482"
-            },
-            "language": "Spanish",
-            "multiverseId": 681632,
-            "name": "Vidente hada",
-            "text": "Vuela.\nCuando el Vidente hada entre, adivina 2. (Mira las dos primeras cartas de tu biblioteca, luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)",
-            "type": "Criatura — Hechicero hada",
-            "uuid": "76977cf9-ea28-5535-af50-0c162729ad4a"
-          },
           {
             "flavorText": "« Les souhaits des humains sont tellement insipides ! Les exaucer serait d'un ennui mortel. Peut-être qu'en les déformant un peu... »",
             "identifiers": {
@@ -453,9 +458,28 @@
             "language": "French",
             "multiverseId": 681693,
             "name": "Voyant faerie",
+            "skuIds": {
+              "nonfoil": "15b6727e-3c3f-515a-ae06-7b3d3d544f46"
+            },
             "text": "Vol\nQuand le Voyant faerie arrive, regard 2. (Regardez les deux cartes du dessus de votre bibliothèque. Mettez ensuite n'importe quel nombre d'entre elles au-dessous de votre bibliothèque et le reste au-dessus, dans l'ordre de votre choix.)",
             "type": "Créature — peuple fée et sorcier",
             "uuid": "8ebfaff6-cbbd-53c8-9e77-2d457df1c929"
+          },
+          {
+            "flavorText": "„Menschen wünschen sich die langweiligsten Dinge! Es wäre eine Schande, diese Wünsche einfach so zu erfüllen. Vielleicht mit einer kleinen Prise Überraschung?\"",
+            "identifiers": {
+              "multiverseId": "681571",
+              "scryfallId": "82b99c97-0472-4c61-8d82-9e7d0aa93bd7"
+            },
+            "language": "German",
+            "multiverseId": 681571,
+            "name": "Prophezeiende Fee",
+            "skuIds": {
+              "nonfoil": "2cc963d7-9661-5344-aa9b-d1c0e927e0e4"
+            },
+            "text": "Fliegend\nWenn die Prophezeiende Fee ins Spiel kommt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)",
+            "type": "Kreatur — Feenwesen, Zauberer",
+            "uuid": "4494727a-063c-5031-b7aa-9bcd83af3e7e"
           },
           {
             "flavorText": "\"Che desideri noiosi esprimono questi umani! Realizzarli così come sono sarebbe vergognoso. Magari, con qualche modifica...\"",
@@ -466,6 +490,9 @@
             "language": "Italian",
             "multiverseId": 681754,
             "name": "Spiritello Veggente",
+            "skuIds": {
+              "nonfoil": "9b5bf4c1-68e8-5b5e-b3ae-8f8516ad8fdf"
+            },
             "text": "Volare\nQuando lo Spiritello Veggente entra, profetizza 2. (Guarda le prime due carte del tuo grimorio, poi mettine un qualsiasi numero in fondo e le altre in cima in qualsiasi ordine.)",
             "type": "Creatura — Mago Spiritello",
             "uuid": "3c8397a9-6e33-5712-bbe4-f939b1332565"
@@ -479,14 +506,31 @@
             "language": "Japanese",
             "multiverseId": 681815,
             "name": "フェアリーの予見者",
+            "skuIds": {
+              "nonfoil": "b1598556-7570-5470-aaa0-81f9d3b3bb4e"
+            },
             "text": "飛行\nフェアリーの予見者が戦場に出たとき、占術２を行う。（あなたのライブラリーの一番上にあるカード２枚を見て、そのうちの望む枚数を一番下に、残りを一番上に、それぞれ望む順番で置く。）",
             "type": "クリーチャー — フェアリー・ウィザード",
             "uuid": "96b6d3ce-6ad5-5304-94fb-1740bdfdc72c"
+          },
+          {
+            "flavorText": "\"¡Los humanos piden deseos aburridísimos! Sería deplorable concedérselos así. Quizá haya que hacerles algún apaño...\".",
+            "identifiers": {
+              "multiverseId": "681632",
+              "scryfallId": "68c9ce1f-0798-41eb-af30-430ca1376482"
+            },
+            "language": "Spanish",
+            "multiverseId": 681632,
+            "name": "Vidente hada",
+            "skuIds": {
+              "nonfoil": "dac08eda-876d-531d-97b5-33b121b1942f"
+            },
+            "text": "Vuela.\nCuando el Vidente hada entre, adivina 2. (Mira las dos primeras cartas de tu biblioteca, luego pon cualquier cantidad de ellas en el fondo y el resto en la parte superior en cualquier orden.)",
+            "type": "Criatura — Hechicero hada",
+            "uuid": "76977cf9-ea28-5535-af50-0c162729ad4a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305240",
           "cardsphereId": "130914",
@@ -505,7 +549,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Flying",
           "Scry"
@@ -531,6 +574,7 @@
         "name": "Faerie Seer",
         "number": "106",
         "originalText": "Flying\nWhen Faerie Seer enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+        "originalType": "Creature – Faerie Wizard",
         "power": "1",
         "printings": [
           "H1R",
@@ -549,9 +593,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1e1cbea2-5c14-5614-ad1c-9cf5bbd8791b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -585,39 +634,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 20965,
+        "edhrecRank": 21256,
         "edhrecSaltiness": 0.71,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"We don't choose who comes here. We choose how long they stay.\"",
         "foreignData": [
-          {
-            "flavorText": "„Wir können nicht kontrollieren, wer hierherkommt. Aber wir entscheiden, wann sie wieder gehen.\"",
-            "identifiers": {
-              "multiverseId": "682682",
-              "scryfallId": "9d870fac-bca5-4151-a0d9-81cf013d25cd"
-            },
-            "language": "German",
-            "multiverseId": 682682,
-            "name": "Wandermagierin der Akademie",
-            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Zauberer kontrollierst.\nWenn die Wandermagierin der Akademie ins Spiel kommt, bringe eine Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurück.",
-            "type": "Kreatur — Mensch, Zauberer",
-            "uuid": "cbc44b54-a74f-5bb9-979a-706c7f517c34"
-          },
-          {
-            "flavorText": "\"No elegimos quién viene aquí, pero sí cuánto tiempo se queda\".",
-            "identifiers": {
-              "multiverseId": "682796",
-              "scryfallId": "c53450b0-b94a-41bd-a4b3-cf712244b6db"
-            },
-            "language": "Spanish",
-            "multiverseId": 682796,
-            "name": "Maga graduada de la Academia",
-            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Hechicero.\nCuando la Maga graduada de la Academia entre, regresa la criatura objetivo que controla un oponente a la mano de su propietario.",
-            "type": "Criatura — Hechicero humano",
-            "uuid": "a5e4fe71-6c38-559c-8c60-6cdf34573e3d"
-          },
           {
             "flavorText": "« Nous ne choisissons pas ceux qui viennent ici. Nous décidons du temps qu'ils restent. »",
             "identifiers": {
@@ -627,9 +650,28 @@
             "language": "French",
             "multiverseId": 682910,
             "name": "Mage compagnon de l'Académie",
+            "skuIds": {
+              "nonfoil": "da50274d-4d6b-585b-8541-5e1283c0b453"
+            },
             "text": "Ce sort coûte {1} de moins à lancer si vous contrôlez un sorcier.\nQuand le Mage compagnon de l'Académie arrive, renvoyez une créature ciblée qu'un adversaire contrôle dans la main de son propriétaire.",
             "type": "Créature — humain et sorcier",
             "uuid": "6958691a-be57-5cc4-bcf7-af838a6a45f1"
+          },
+          {
+            "flavorText": "„Wir können nicht kontrollieren, wer hierherkommt. Aber wir entscheiden, wann sie wieder gehen.\"",
+            "identifiers": {
+              "multiverseId": "682682",
+              "scryfallId": "9d870fac-bca5-4151-a0d9-81cf013d25cd"
+            },
+            "language": "German",
+            "multiverseId": 682682,
+            "name": "Wandermagierin der Akademie",
+            "skuIds": {
+              "nonfoil": "10e03d72-713d-5814-8965-160498a55d0a"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken {1} weniger, falls du einen Zauberer kontrollierst.\nWenn die Wandermagierin der Akademie ins Spiel kommt, bringe eine Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurück.",
+            "type": "Kreatur — Mensch, Zauberer",
+            "uuid": "cbc44b54-a74f-5bb9-979a-706c7f517c34"
           },
           {
             "flavorText": "\"Non decidiamo chi viene qui, ma quanto resterà.\"",
@@ -640,6 +682,9 @@
             "language": "Italian",
             "multiverseId": 683024,
             "name": "Maga Veterana dell'Accademia",
+            "skuIds": {
+              "nonfoil": "e858f815-e5a3-5a79-8e37-a9f8f7b2cb77"
+            },
             "text": "Questa magia costa {1} in meno per essere lanciata se controlli un Mago.\nQuando la Maga Veterana dell'Accademia entra, fai tornare una creatura bersaglio controllata da un avversario in mano al suo proprietario.",
             "type": "Creatura — Mago Umano",
             "uuid": "45a278bf-0fea-55b0-b5a3-e3fa1e157eaf"
@@ -653,14 +698,31 @@
             "language": "Japanese",
             "multiverseId": 683138,
             "name": "アカデミーの修士魔道士",
+            "skuIds": {
+              "nonfoil": "3c54d9d0-711d-50da-8deb-43347693ef8b"
+            },
             "text": "あなたがウィザードをコントロールしているなら、この呪文を唱えるためのコストは{1}少なくなる。\nアカデミーの修士魔道士が戦場に出たとき、対戦相手がコントロールしているクリーチャー１体を対象とする。それをオーナーの手札に戻す。",
             "type": "クリーチャー — 人間・ウィザード",
             "uuid": "78f1d879-0e24-502c-86c9-6bc6b66e052b"
+          },
+          {
+            "flavorText": "\"No elegimos quién viene aquí, pero sí cuánto tiempo se queda\".",
+            "identifiers": {
+              "multiverseId": "682796",
+              "scryfallId": "c53450b0-b94a-41bd-a4b3-cf712244b6db"
+            },
+            "language": "Spanish",
+            "multiverseId": 682796,
+            "name": "Maga graduada de la Academia",
+            "skuIds": {
+              "nonfoil": "a9484aa5-9470-5bf3-8214-ed15e14ef661"
+            },
+            "text": "Te cuesta {1} menos lanzar este hechizo si controlas un Hechicero.\nCuando la Maga graduada de la Academia entre, regresa la criatura objetivo que controla un oponente a la mano de su propietario.",
+            "type": "Criatura — Hechicero humano",
+            "uuid": "a5e4fe71-6c38-559c-8c60-6cdf34573e3d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305430",
           "cardsphereId": "131344",
@@ -702,6 +764,7 @@
         "name": "Academy Journeymage",
         "number": "281",
         "originalText": "This spell costs {1} less to cast if you control a Wizard.\nWhen Academy Journeymage enters, return target creature an opponent controls to its owner's hand.",
+        "originalType": "Creature – Human Wizard",
         "power": "3",
         "printings": [
           "DOM",
@@ -726,9 +789,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2c50faa9-89ca-52a4-997f-5e69185def53"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -762,39 +830,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 913,
+        "edhrecRank": 941,
         "edhrecSaltiness": 0.31,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Words of power never disappear. They sleep, awaiting those with the will to rouse them.\"",
         "foreignData": [
-          {
-            "flavorText": "„Worte der Macht verschwinden nie. Sie warten ruhend auf diejenigen, die wissen, wie man sie spricht.\"",
-            "identifiers": {
-              "multiverseId": "682686",
-              "scryfallId": "3ab51b78-8840-4c4b-9099-8514bde6f34b"
-            },
-            "language": "German",
-            "multiverseId": 682686,
-            "name": "Archäomagierin",
-            "text": "Wenn die Archäomagierin ins Spiel kommt, bringe eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
-            "type": "Kreatur — Mensch, Zauberer",
-            "uuid": "94c73497-dd88-5cd6-be7a-baa2b2080835"
-          },
-          {
-            "flavorText": "\"Las palabras de poder nunca desaparecen. Duermen, esperando a aquellos que tengan el valor de despertarlas\".",
-            "identifiers": {
-              "multiverseId": "682800",
-              "scryfallId": "d020e8bf-4199-44a2-b8c5-6d33d4401caf"
-            },
-            "language": "Spanish",
-            "multiverseId": 682800,
-            "name": "Arqueomante",
-            "text": "Cuando la Arqueomante entre, regresa la carta de instantáneo o de conjuro objetivo de tu cementerio a tu mano.",
-            "type": "Criatura — Hechicero humano",
-            "uuid": "22b8f5c0-c405-55b8-8fa4-bfcf54b90a07"
-          },
           {
             "flavorText": "« Les mots de pouvoir ne meurent jamais. Ils sommeillent, attendant quiconque aura la volonté de les réveiller. »",
             "identifiers": {
@@ -804,9 +846,28 @@
             "language": "French",
             "multiverseId": 682914,
             "name": "Archéomancienne",
+            "skuIds": {
+              "nonfoil": "5377cd05-e93d-5e42-9d74-35c4d7baf71e"
+            },
             "text": "Quand l'Archéomancienne arrive, renvoyez une carte d'éphémère ou de rituel ciblée depuis votre cimetière dans votre main.",
             "type": "Créature — humain et sorcier",
             "uuid": "38491ab8-d96d-50d4-b695-9306ba5a80e0"
+          },
+          {
+            "flavorText": "„Worte der Macht verschwinden nie. Sie warten ruhend auf diejenigen, die wissen, wie man sie spricht.\"",
+            "identifiers": {
+              "multiverseId": "682686",
+              "scryfallId": "3ab51b78-8840-4c4b-9099-8514bde6f34b"
+            },
+            "language": "German",
+            "multiverseId": 682686,
+            "name": "Archäomagierin",
+            "skuIds": {
+              "nonfoil": "7663b22e-199f-5677-a435-4cc540a4ea83"
+            },
+            "text": "Wenn die Archäomagierin ins Spiel kommt, bringe eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.",
+            "type": "Kreatur — Mensch, Zauberer",
+            "uuid": "94c73497-dd88-5cd6-be7a-baa2b2080835"
           },
           {
             "flavorText": "\"Le parole del potere non scompaiono mai. Rimangono dormienti, in attesa di quanti hanno la volontà di risvegliarle.\"",
@@ -817,6 +878,9 @@
             "language": "Italian",
             "multiverseId": 683028,
             "name": "Archeomante",
+            "skuIds": {
+              "nonfoil": "3b73ed88-f20d-570f-8089-3b19bbdd8cc2"
+            },
             "text": "Quando l'Archeomante entra, riprendi in mano dal tuo cimitero una carta istantaneo o stregoneria bersaglio.",
             "type": "Creatura — Mago Umano",
             "uuid": "3227133e-0f02-54d4-bf99-653feb56ac14"
@@ -830,14 +894,31 @@
             "language": "Japanese",
             "multiverseId": 683142,
             "name": "古術師",
+            "skuIds": {
+              "nonfoil": "451e1833-57ad-550a-bafc-5ae76f5f7208"
+            },
             "text": "古術師が戦場に出たとき、あなたの墓地にありインスタントやソーサリーであるカード１枚を対象とする。それをあなたの手札に戻す。",
             "type": "クリーチャー — 人間・ウィザード",
             "uuid": "90b4302c-f03c-56d4-a271-c46124eed975"
+          },
+          {
+            "flavorText": "\"Las palabras de poder nunca desaparecen. Duermen, esperando a aquellos que tengan el valor de despertarlas\".",
+            "identifiers": {
+              "multiverseId": "682800",
+              "scryfallId": "d020e8bf-4199-44a2-b8c5-6d33d4401caf"
+            },
+            "language": "Spanish",
+            "multiverseId": 682800,
+            "name": "Arqueomante",
+            "skuIds": {
+              "nonfoil": "214353e0-efb4-5da1-b931-f523ba5244ca"
+            },
+            "text": "Cuando la Arqueomante entre, regresa la carta de instantáneo o de conjuro objetivo de tu cementerio a tu mano.",
+            "type": "Criatura — Hechicero humano",
+            "uuid": "22b8f5c0-c405-55b8-8fa4-bfcf54b90a07"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305434",
           "cardsphereId": "131339",
@@ -878,6 +959,7 @@
         "name": "Archaeomancer",
         "number": "285",
         "originalText": "When Archaeomancer enters, return target instant or sorcery card from your graveyard to your hand.",
+        "originalType": "Creature – Human Wizard",
         "power": "1",
         "printings": [
           "C17",
@@ -903,9 +985,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f9d4d000-3a1d-5363-a6fe-26dae6e68bbe"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -939,39 +1026,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 10433,
+        "edhrecRank": 10866,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"There is no future save the one my master wills.\"",
         "foreignData": [
-          {
-            "flavorText": "„Es gibt keine Zukunft, außer der, die mein Meister herbeiwünscht.\"",
-            "identifiers": {
-              "multiverseId": "682687",
-              "scryfallId": "d0f80612-0183-43db-8ff2-e69970d7b240"
-            },
-            "language": "German",
-            "multiverseId": 682687,
-            "name": "Bolas' Augur",
-            "text": "Wenn Bolas' Augur ins Spiel kommt, schaue dir die obersten drei Karten deiner Bibliothek an. Du kannst davon eine Spontanzauber- oder Hexereikarte offen vorzeigen und auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "3734735a-c1e6-5158-80a1-02f431b6d1fa"
-          },
-          {
-            "flavorText": "\"No hay otro futuro salvo aquel que mi maestro desee\".",
-            "identifiers": {
-              "multiverseId": "682801",
-              "scryfallId": "0c343091-3668-4dc6-b19e-5dc9362b05bd"
-            },
-            "language": "Spanish",
-            "multiverseId": 682801,
-            "name": "Presagio de Nicol Bolas",
-            "text": "Cuando el Presagio de Nicol Bolas entre, mira las tres primeras cartas de tu biblioteca. Puedes mostrar una carta de instantáneo o de conjuro de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "c18b7898-753d-5439-9dee-c8ea37a780bf"
-          },
           {
             "flavorText": "« Il n'y a pas d'autre avenir que celui que désire mon maître. »",
             "identifiers": {
@@ -981,9 +1042,28 @@
             "language": "French",
             "multiverseId": 682915,
             "name": "Augure de Bolas",
+            "skuIds": {
+              "nonfoil": "63aefefe-49e8-5a33-8183-46a285abb2d9"
+            },
             "text": "Quand l'Augure de Bolas arrive, regardez les trois cartes du dessus de votre bibliothèque. Vous pouvez révéler une carte d'éphémère ou de rituel parmi elles et la mettre dans votre main. Mettez le reste au-dessous de votre bibliothèque, dans l'ordre de votre choix.",
             "type": "Créature — ondin et sorcier",
             "uuid": "6aa508c4-6e69-5145-87ff-9144d9cfdc47"
+          },
+          {
+            "flavorText": "„Es gibt keine Zukunft, außer der, die mein Meister herbeiwünscht.\"",
+            "identifiers": {
+              "multiverseId": "682687",
+              "scryfallId": "d0f80612-0183-43db-8ff2-e69970d7b240"
+            },
+            "language": "German",
+            "multiverseId": 682687,
+            "name": "Bolas' Augur",
+            "skuIds": {
+              "nonfoil": "843a8599-8d12-541b-be80-17e67aa1cc59"
+            },
+            "text": "Wenn Bolas' Augur ins Spiel kommt, schaue dir die obersten drei Karten deiner Bibliothek an. Du kannst davon eine Spontanzauber- oder Hexereikarte offen vorzeigen und auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "3734735a-c1e6-5158-80a1-02f431b6d1fa"
           },
           {
             "flavorText": "\"Non esiste futuro salvo quello che desidera il mio signore.\"",
@@ -994,6 +1074,9 @@
             "language": "Italian",
             "multiverseId": 683029,
             "name": "Augure di Bolas",
+            "skuIds": {
+              "nonfoil": "1333ab8a-65f7-586e-ab9a-8c934438557d"
+            },
             "text": "Quando l'Augure di Bolas entra, guarda le prime tre carte del tuo grimorio. Puoi rivelare una carta istantaneo o stregoneria scelta tra esse e aggiungerla alla tua mano. Metti le altre in fondo al tuo grimorio in qualsiasi ordine.",
             "type": "Creatura — Mago Tritone",
             "uuid": "84b0260c-1c60-56dc-9c51-3cf75d56f561"
@@ -1007,14 +1090,31 @@
             "language": "Japanese",
             "multiverseId": 683143,
             "name": "ボーラスの占い師",
+            "skuIds": {
+              "nonfoil": "22fb1183-d0eb-578b-9249-6bb45d330381"
+            },
             "text": "ボーラスの占い師が戦場に出たとき、あなたのライブラリーの一番上にあるカード３枚を見る。その中からインスタントやソーサリーであるカード１枚を公開してあなたの手札に加えてもよい。残りをあなたのライブラリーの一番下に望む順番で置く。",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "e04e240a-058f-52e5-b6fd-7858efc87745"
+          },
+          {
+            "flavorText": "\"No hay otro futuro salvo aquel que mi maestro desee\".",
+            "identifiers": {
+              "multiverseId": "682801",
+              "scryfallId": "0c343091-3668-4dc6-b19e-5dc9362b05bd"
+            },
+            "language": "Spanish",
+            "multiverseId": 682801,
+            "name": "Presagio de Nicol Bolas",
+            "skuIds": {
+              "nonfoil": "4472c5ef-381e-5e39-9524-c81ae998879a"
+            },
+            "text": "Cuando el Presagio de Nicol Bolas entre, mira las tres primeras cartas de tu biblioteca. Puedes mostrar una carta de instantáneo o de conjuro de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "c18b7898-753d-5439-9dee-c8ea37a780bf"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305435",
           "cardsphereId": "131338",
@@ -1055,6 +1155,7 @@
         "name": "Augur of Bolas",
         "number": "286",
         "originalText": "When Augur of Bolas enters, look at the top three cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "1",
         "printings": [
           "C13",
@@ -1082,9 +1183,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "4957309b-2671-5d89-9fe6-8441f9afda91"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1118,39 +1224,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 15416,
+        "edhrecRank": 16032,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "A wizard can be outnumbered but never outsmarted.",
         "foreignData": [
-          {
-            "flavorText": "Ein Zauberer kann übermannt werden, aber niemals überlistet.",
-            "identifiers": {
-              "multiverseId": "682699",
-              "scryfallId": "56e3d4f2-f2d4-4621-9a02-58a3e044b6fa"
-            },
-            "language": "German",
-            "multiverseId": 682699,
-            "name": "Würgende Ketten",
-            "text": "Tappe bis zu vier Kreaturen deiner Wahl.\nUmwandlung {1}{U} ({1}{U}, wirf diese Karte ab: Ziehe eine Karte.)\nWenn du die Würgenden Ketten umwandelst, kannst du eine Kreatur deiner Wahl tappen.",
-            "type": "Spontanzauber",
-            "uuid": "fb3fd66f-b5e6-5d46-ac90-afaf63649663"
-          },
-          {
-            "flavorText": "Es posible superar a un hechicero en número, pero no en inteligencia.",
-            "identifiers": {
-              "multiverseId": "682813",
-              "scryfallId": "298d643d-931a-4b1c-af14-957a3b96769b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682813,
-            "name": "Cadenas asfixiantes",
-            "text": "Gira hasta cuatro criaturas objetivo.\nCiclo {1}{U}. ({1}{U}, descartar esta carta: Roba una carta.)\nCuando actives la habilidad de ciclo de las Cadenas asfixiantes, puedes girar la criatura objetivo.",
-            "type": "Instantáneo",
-            "uuid": "ad72d3b8-048c-576b-b6db-bb1117f66e41"
-          },
           {
             "flavorText": "Un sorcier peut se trouver en infériorité numérique, mais sera toujours le plus rusé.",
             "identifiers": {
@@ -1160,9 +1240,28 @@
             "language": "French",
             "multiverseId": 682927,
             "name": "Chaînes étrangleuses",
+            "skuIds": {
+              "nonfoil": "5e8030ce-c0cc-521a-9a41-6b07368c3061"
+            },
             "text": "Engagez jusqu'à quatre créatures ciblées.\nRecyclage {1}{U} ({1}{U}, défaussez-vous de cette carte : Piochez une carte.)\nQuand vous recyclez les Chaînes étrangleuses, vous pouvez engager une créature ciblée.",
             "type": "Éphémère",
             "uuid": "6350a4f3-d60b-564a-8323-4402f6b6c3d6"
+          },
+          {
+            "flavorText": "Ein Zauberer kann übermannt werden, aber niemals überlistet.",
+            "identifiers": {
+              "multiverseId": "682699",
+              "scryfallId": "56e3d4f2-f2d4-4621-9a02-58a3e044b6fa"
+            },
+            "language": "German",
+            "multiverseId": 682699,
+            "name": "Würgende Ketten",
+            "skuIds": {
+              "nonfoil": "9858fb48-12ee-584b-aed4-4c268bdde108"
+            },
+            "text": "Tappe bis zu vier Kreaturen deiner Wahl.\nUmwandlung {1}{U} ({1}{U}, wirf diese Karte ab: Ziehe eine Karte.)\nWenn du die Würgenden Ketten umwandelst, kannst du eine Kreatur deiner Wahl tappen.",
+            "type": "Spontanzauber",
+            "uuid": "fb3fd66f-b5e6-5d46-ac90-afaf63649663"
           },
           {
             "flavorText": "Un mago può essere superato nei numeri, ma mai in astuzia.",
@@ -1173,6 +1272,9 @@
             "language": "Italian",
             "multiverseId": 683041,
             "name": "Pastoie Soffocanti",
+            "skuIds": {
+              "nonfoil": "0c05b8a2-872a-56c4-bda7-e503f24f76f8"
+            },
             "text": "TAPpa fino a quattro creature bersaglio.\nCiclo {1}{U} ({1}{U}, Scarta questa carta: Pesca una carta.)\nQuando cicli le Pastoie Soffocanti, puoi TAPpare una creatura bersaglio.",
             "type": "Istantaneo",
             "uuid": "42eb1b87-8c60-5d6f-ad13-8c92b55e2f8e"
@@ -1186,14 +1288,31 @@
             "language": "Japanese",
             "multiverseId": 683155,
             "name": "締めつける綱",
+            "skuIds": {
+              "nonfoil": "baaf7949-3d9b-5105-9cad-67ed7c5eb65a"
+            },
             "text": "クリーチャー最大４体を対象とする。それらをタップする。\nサイクリング{1}{U}（{1}{U}, このカードを捨てる：カード１枚を引く。）\nあなたが締めつける綱をサイクリングしたとき、クリーチャー１体を対象とする。それをタップしてもよい。",
             "type": "インスタント",
             "uuid": "4876216a-31e3-57d7-a66c-625818522266"
+          },
+          {
+            "flavorText": "Es posible superar a un hechicero en número, pero no en inteligencia.",
+            "identifiers": {
+              "multiverseId": "682813",
+              "scryfallId": "298d643d-931a-4b1c-af14-957a3b96769b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682813,
+            "name": "Cadenas asfixiantes",
+            "skuIds": {
+              "nonfoil": "8d6220c0-c347-50ac-afe6-e22d3400bad5"
+            },
+            "text": "Gira hasta cuatro criaturas objetivo.\nCiclo {1}{U}. ({1}{U}, descartar esta carta: Roba una carta.)\nCuando actives la habilidad de ciclo de las Cadenas asfixiantes, puedes girar la criatura objetivo.",
+            "type": "Instantáneo",
+            "uuid": "ad72d3b8-048c-576b-b6db-bb1117f66e41"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305447",
           "cardsphereId": "131324",
@@ -1239,6 +1358,7 @@
         "name": "Choking Tethers",
         "number": "298",
         "originalText": "Tap up to four target creatures.\nCycling {1}{U} ({1}{U}, Discard this card: Draw a card.)\nWhen you cycle Choking Tethers, you may tap target creature.",
+        "originalType": "Instant",
         "printings": [
           "A25",
           "J21",
@@ -1269,9 +1389,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0040e95b-72a7-59b7-a2b9-1d76954e90c4"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1301,39 +1426,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 8159,
+        "edhrecRank": 8376,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I can see which way the wind is blowing.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich kann sehen, in welche Richtung der Wind weht.\"",
-            "identifiers": {
-              "multiverseId": "682701",
-              "scryfallId": "a391fc88-19e8-497d-aae5-07bf7a45ffff"
-            },
-            "language": "German",
-            "multiverseId": 682701,
-            "name": "Wolkensippen-Seherin",
-            "text": "Fliegend\nWenn die Wolkensippen-Seherin ins Spiel kommt, ziehe eine Karte.",
-            "type": "Kreatur — Elementarwesen, Zauberer",
-            "uuid": "a9016a16-0650-5f4c-8b74-3416306d8ea3"
-          },
-          {
-            "flavorText": "\"Puedo ver la dirección en la que sopla el viento\".",
-            "identifiers": {
-              "multiverseId": "682815",
-              "scryfallId": "e158e2d9-efdf-4440-ae4e-5a1e119dcd4b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682815,
-            "name": "Vidente nimboide",
-            "text": "Vuela.\nCuando la Vidente nimboide entre, roba una carta.",
-            "type": "Criatura — Hechicero elemental",
-            "uuid": "99c9d63c-a3e3-5b71-b153-87c0db42d088"
-          },
           {
             "flavorText": "« Je vois de quel côté le vent souffle. »",
             "identifiers": {
@@ -1343,9 +1442,28 @@
             "language": "French",
             "multiverseId": 682929,
             "name": "Voyante sangnuage",
+            "skuIds": {
+              "nonfoil": "178909ae-85b0-579e-b4fb-0095b6272c4c"
+            },
             "text": "Vol\nQuand la Voyante sangnuage arrive, piochez une carte.",
             "type": "Créature — élémental et sorcier",
             "uuid": "612a9f92-7b41-58bc-8b87-83b86187663d"
+          },
+          {
+            "flavorText": "„Ich kann sehen, in welche Richtung der Wind weht.\"",
+            "identifiers": {
+              "multiverseId": "682701",
+              "scryfallId": "a391fc88-19e8-497d-aae5-07bf7a45ffff"
+            },
+            "language": "German",
+            "multiverseId": 682701,
+            "name": "Wolkensippen-Seherin",
+            "skuIds": {
+              "nonfoil": "f5e6d12a-337d-59bc-8b66-a85f568cf505"
+            },
+            "text": "Fliegend\nWenn die Wolkensippen-Seherin ins Spiel kommt, ziehe eine Karte.",
+            "type": "Kreatur — Elementarwesen, Zauberer",
+            "uuid": "a9016a16-0650-5f4c-8b74-3416306d8ea3"
           },
           {
             "flavorText": "\"Posso vedere la direzione in cui soffia il vento.\"",
@@ -1356,6 +1474,9 @@
             "language": "Italian",
             "multiverseId": 683043,
             "name": "Veggente Nembiforme",
+            "skuIds": {
+              "nonfoil": "c19f93ee-41cb-5460-95ac-e3b5a3864726"
+            },
             "text": "Volare\nQuando la Veggente Nembiforme entra, pesca una carta.",
             "type": "Creatura — Mago Elementale",
             "uuid": "a1a3f164-17b0-54bf-a5e2-2e51baa79ace"
@@ -1369,14 +1490,31 @@
             "language": "Japanese",
             "multiverseId": 683157,
             "name": "雲族の予見者",
+            "skuIds": {
+              "nonfoil": "3dca0b18-1dfb-5626-9537-18463f598afb"
+            },
             "text": "飛行\n雲族の予見者が戦場に出たとき、カード１枚を引く。",
             "type": "クリーチャー — エレメンタル・ウィザード",
             "uuid": "d8d5d572-cd1b-580a-b53a-f5dd3b1f56e3"
+          },
+          {
+            "flavorText": "\"Puedo ver la dirección en la que sopla el viento\".",
+            "identifiers": {
+              "multiverseId": "682815",
+              "scryfallId": "e158e2d9-efdf-4440-ae4e-5a1e119dcd4b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682815,
+            "name": "Vidente nimboide",
+            "skuIds": {
+              "nonfoil": "5fcc460c-f116-5fd6-be61-2ffed5c184cc"
+            },
+            "text": "Vuela.\nCuando la Vidente nimboide entre, roba una carta.",
+            "type": "Criatura — Hechicero elemental",
+            "uuid": "99c9d63c-a3e3-5b71-b153-87c0db42d088"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305449",
           "cardsphereId": "131321",
@@ -1401,6 +1539,7 @@
         "language": "English",
         "layout": "normal",
         "legalities": {
+          "alchemy": "Legal",
           "brawl": "Legal",
           "commander": "Legal",
           "duel": "Legal",
@@ -1420,6 +1559,7 @@
         "name": "Cloudkin Seer",
         "number": "300",
         "originalText": "Flying\nWhen Cloudkin Seer enters, draw a card.",
+        "originalType": "Creature – Elemental Wizard",
         "power": "2",
         "printings": [
           "ANB",
@@ -1435,9 +1575,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "4758b6e6-4fc3-58c9-a707-6a6efba46692"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1471,39 +1616,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 11030,
+        "edhrecRank": 11411,
         "edhrecSaltiness": 0.33,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The treasure in my mind is greater than any worldly glory.\"",
         "foreignData": [
-          {
-            "flavorText": "„Die Schätze in meinem Gedächtnis sind mit allem weltlichen Ruhm nicht aufzuwiegen.\"",
-            "identifiers": {
-              "multiverseId": "682702",
-              "scryfallId": "9d7bc456-cdae-421d-bf9f-2f6ee2980306"
-            },
-            "language": "German",
-            "multiverseId": 682702,
-            "name": "Konzentrieren",
-            "text": "Ziehe drei Karten.",
-            "type": "Hexerei",
-            "uuid": "23dd861d-495a-5acf-bf96-e0b5987491ff"
-          },
-          {
-            "flavorText": "\"El tesoro en mi mente es más grande que cualquier gloria mundana\".",
-            "identifiers": {
-              "multiverseId": "682816",
-              "scryfallId": "9ac2d3c9-5899-4002-b828-15b1267f8d47"
-            },
-            "language": "Spanish",
-            "multiverseId": 682816,
-            "name": "Concentrarse",
-            "text": "Roba tres cartas.",
-            "type": "Conjuro",
-            "uuid": "161a57e0-1733-5132-b07b-f9066032f94c"
-          },
           {
             "flavorText": "« Je préfère les trésors de mon esprit à toutes les richesses de la terre. »",
             "identifiers": {
@@ -1513,9 +1632,28 @@
             "language": "French",
             "multiverseId": 682930,
             "name": "Concentration",
+            "skuIds": {
+              "nonfoil": "4a1bf0b4-bcce-5047-bbd9-a84460e2b8b4"
+            },
             "text": "Piochez trois cartes.",
             "type": "Rituel",
             "uuid": "585468b7-5e09-5a5c-b30f-f885ee4a7280"
+          },
+          {
+            "flavorText": "„Die Schätze in meinem Gedächtnis sind mit allem weltlichen Ruhm nicht aufzuwiegen.\"",
+            "identifiers": {
+              "multiverseId": "682702",
+              "scryfallId": "9d7bc456-cdae-421d-bf9f-2f6ee2980306"
+            },
+            "language": "German",
+            "multiverseId": 682702,
+            "name": "Konzentrieren",
+            "skuIds": {
+              "nonfoil": "a3279732-b746-5174-95a0-700207c0df6d"
+            },
+            "text": "Ziehe drei Karten.",
+            "type": "Hexerei",
+            "uuid": "23dd861d-495a-5acf-bf96-e0b5987491ff"
           },
           {
             "flavorText": "\"Il tesoro che c'è nella mia mente è più grande di tutti i beni terreni.\"",
@@ -1526,6 +1664,9 @@
             "language": "Italian",
             "multiverseId": 683044,
             "name": "Concentrare",
+            "skuIds": {
+              "nonfoil": "041d6da5-2bd8-57e4-a9ee-1817c49969c5"
+            },
             "text": "Pesca tre carte.",
             "type": "Stregoneria",
             "uuid": "e329d589-5acf-57bd-badc-e84642a2bd3c"
@@ -1539,14 +1680,31 @@
             "language": "Japanese",
             "multiverseId": 683158,
             "name": "集中",
+            "skuIds": {
+              "nonfoil": "fb278b0d-42b0-57ee-b142-4c09a0ee8f7d"
+            },
             "text": "カード３枚を引く。",
             "type": "ソーサリー",
             "uuid": "d6efc422-7156-53af-84e8-9b6178031ac1"
+          },
+          {
+            "flavorText": "\"El tesoro en mi mente es más grande que cualquier gloria mundana\".",
+            "identifiers": {
+              "multiverseId": "682816",
+              "scryfallId": "9ac2d3c9-5899-4002-b828-15b1267f8d47"
+            },
+            "language": "Spanish",
+            "multiverseId": 682816,
+            "name": "Concentrarse",
+            "skuIds": {
+              "nonfoil": "1fe63060-dafe-50ad-970a-f282916d719d"
+            },
+            "text": "Roba tres cartas.",
+            "type": "Conjuro",
+            "uuid": "161a57e0-1733-5132-b07b-f9066032f94c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305450",
           "cardsphereId": "131320",
@@ -1587,6 +1745,7 @@
         "name": "Concentrate",
         "number": "301",
         "originalText": "Draw three cards.",
+        "originalType": "Sorcery",
         "printings": [
           "8ED",
           "C14",
@@ -1605,9 +1764,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "874a0f7f-d9cb-543d-8711-499d6b8fef81"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1637,39 +1801,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 14323,
+        "edhrecRank": 14789,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Successful battles start with knowing who's worth fighting.",
         "foreignData": [
-          {
-            "flavorText": "Für einen siegreichen Kampf musst du deine Feinde weise wählen.",
-            "identifiers": {
-              "multiverseId": "682707",
-              "scryfallId": "f8316a98-2171-489d-887a-e704eb655fff"
-            },
-            "language": "German",
-            "multiverseId": 682707,
-            "name": "Vertreibungsmagierin",
-            "text": "Wenn die Vertreibungsmagierin ins Spiel kommt, bringe eine Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurück.",
-            "type": "Kreatur — Mensch, Zauberer",
-            "uuid": "e665551c-49d6-5814-83d1-43e8b4d173b9"
-          },
-          {
-            "flavorText": "Para tener éxito en un combate hay que empezar por saber con quién merece la pena luchar.",
-            "identifiers": {
-              "multiverseId": "682821",
-              "scryfallId": "e0064c65-3c32-4ce6-b96a-aaa814c38326"
-            },
-            "language": "Spanish",
-            "multiverseId": 682821,
-            "name": "Maga de exclusión",
-            "text": "Cuando la Maga de exclusión entre, regresa la criatura objetivo que controla un oponente a la mano de su propietario.",
-            "type": "Criatura — Hechicero humano",
-            "uuid": "dfff8140-4e2d-55c9-b186-63471d9dcbf9"
-          },
           {
             "flavorText": "Un combat réussi commence par savoir qui vaut la peine d'être affronté.",
             "identifiers": {
@@ -1679,9 +1817,28 @@
             "language": "French",
             "multiverseId": 682935,
             "name": "Mage d'exclusion",
+            "skuIds": {
+              "nonfoil": "ae93d3cb-26ca-5776-ad36-9914263e7e55"
+            },
             "text": "Quand la Mage d'exclusion arrive, renvoyez une créature ciblée qu'un adversaire contrôle dans la main de son propriétaire.",
             "type": "Créature — humain et sorcier",
             "uuid": "f6804fe4-b078-599d-8376-674d7ff23cdd"
+          },
+          {
+            "flavorText": "Für einen siegreichen Kampf musst du deine Feinde weise wählen.",
+            "identifiers": {
+              "multiverseId": "682707",
+              "scryfallId": "f8316a98-2171-489d-887a-e704eb655fff"
+            },
+            "language": "German",
+            "multiverseId": 682707,
+            "name": "Vertreibungsmagierin",
+            "skuIds": {
+              "nonfoil": "342bcae8-8a6f-57b6-8e4d-4c462a0fa147"
+            },
+            "text": "Wenn die Vertreibungsmagierin ins Spiel kommt, bringe eine Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurück.",
+            "type": "Kreatur — Mensch, Zauberer",
+            "uuid": "e665551c-49d6-5814-83d1-43e8b4d173b9"
           },
           {
             "flavorText": "Le battaglie vittoriose iniziano col capire chi vale la pena di affrontare.",
@@ -1692,6 +1849,9 @@
             "language": "Italian",
             "multiverseId": 683049,
             "name": "Maga dell'Esclusione",
+            "skuIds": {
+              "nonfoil": "9889e1df-e8aa-569a-bddf-9369d2e15351"
+            },
             "text": "Quando la Maga dell'Esclusione entra, fai tornare una creatura bersaglio controllata da un avversario in mano al suo proprietario.",
             "type": "Creatura — Mago Umano",
             "uuid": "4bd1c546-3342-5af3-9c06-0fe4a28207ea"
@@ -1705,14 +1865,31 @@
             "language": "Japanese",
             "multiverseId": 683163,
             "name": "排斥する魔道士",
+            "skuIds": {
+              "nonfoil": "98a2abb1-448c-5069-9d9d-bfada884ded3"
+            },
             "text": "排斥する魔道士が戦場に出たとき、対戦相手がコントロールしているクリーチャー１体を対象する。それをオーナーの手札に戻す。",
             "type": "クリーチャー — 人間・ウィザード",
             "uuid": "9062dc99-ca0b-5ebc-a369-c6a39f0ea5d9"
+          },
+          {
+            "flavorText": "Para tener éxito en un combate hay que empezar por saber con quién merece la pena luchar.",
+            "identifiers": {
+              "multiverseId": "682821",
+              "scryfallId": "e0064c65-3c32-4ce6-b96a-aaa814c38326"
+            },
+            "language": "Spanish",
+            "multiverseId": 682821,
+            "name": "Maga de exclusión",
+            "skuIds": {
+              "nonfoil": "2d793fca-2905-5ccd-bda7-05f90bbae804"
+            },
+            "text": "Cuando la Maga de exclusión entre, regresa la criatura objetivo que controla un oponente a la mano de su propietario.",
+            "type": "Criatura — Hechicero humano",
+            "uuid": "dfff8140-4e2d-55c9-b186-63471d9dcbf9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305455",
           "cardsphereId": "131315",
@@ -1755,6 +1932,7 @@
         "name": "Exclusion Mage",
         "number": "306",
         "originalText": "When Exclusion Mage enters, return target creature an opponent controls to its owner's hand.",
+        "originalType": "Creature – Human Wizard",
         "power": "2",
         "printings": [
           "FDN",
@@ -1769,9 +1947,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "3299f2d8-05c7-5c66-bfaa-783f7883e09a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1805,39 +1988,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 4318,
+        "edhrecRank": 4469,
         "edhrecSaltiness": 0.23,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Well, at least all of that arm-waving and arcane babbling you did was impressive.\"",
         "foreignData": [
-          {
-            "flavorText": "„Immerhin war das Herumfuchteln mit den Armen und das arkane Geplapper ziemlich eindrucksvoll.\"",
-            "identifiers": {
-              "multiverseId": "682750",
-              "scryfallId": "1039a564-60e3-44e0-85a6-1e17a63ff983"
-            },
-            "language": "German",
-            "multiverseId": 682750,
-            "name": "Zurückverweisen",
-            "text": "Neutralisiere einen Zauberspruch deiner Wahl. Falls der Zauberspruch auf diese Weise neutralisiert wird, bringe ihn auf die Hand seines Besitzers zurück, anstatt ihn auf dessen Friedhof zu legen.\nZiehe eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "91a7bf02-eae2-57ed-b7a0-c8b5f0f283aa"
-          },
-          {
-            "flavorText": "\"Bueno, al menos todos esos movimientos de brazos y balbuceos arcanos que has hecho me han impresionado\".",
-            "identifiers": {
-              "multiverseId": "682864",
-              "scryfallId": "05eb0e82-7025-4488-98f1-5b5ee0511bf6"
-            },
-            "language": "Spanish",
-            "multiverseId": 682864,
-            "name": "Reenviar",
-            "text": "Contrarresta el hechizo objetivo. Si ese hechizo es contrarrestado de esta manera, ponlo en la mano de su propietario en vez de en su cementerio.\nRoba una carta.",
-            "type": "Instantáneo",
-            "uuid": "124b51f9-28fe-5fc2-9fda-0faa19d8ff21"
-          },
           {
             "flavorText": "« Au moins, toute cette gesticulation et ce babillage arcane avaient l'air impressionnants. »",
             "identifiers": {
@@ -1847,9 +2004,28 @@
             "language": "French",
             "multiverseId": 682978,
             "name": "Déférence",
+            "skuIds": {
+              "nonfoil": "9102d7bc-2350-5c50-a148-e8624e40537b"
+            },
             "text": "Contrecarrez un sort ciblé. Si ce sort est contrecarré de cette manière, mettez-le dans la main de son propriétaire à la place du cimetière de ce joueur.\nPiochez une carte.",
             "type": "Éphémère",
             "uuid": "c7562bc9-571e-50e0-a2a0-f49412d28caf"
+          },
+          {
+            "flavorText": "„Immerhin war das Herumfuchteln mit den Armen und das arkane Geplapper ziemlich eindrucksvoll.\"",
+            "identifiers": {
+              "multiverseId": "682750",
+              "scryfallId": "1039a564-60e3-44e0-85a6-1e17a63ff983"
+            },
+            "language": "German",
+            "multiverseId": 682750,
+            "name": "Zurückverweisen",
+            "skuIds": {
+              "nonfoil": "f7e12225-b194-5483-bfa4-d7cf5249e15f"
+            },
+            "text": "Neutralisiere einen Zauberspruch deiner Wahl. Falls der Zauberspruch auf diese Weise neutralisiert wird, bringe ihn auf die Hand seines Besitzers zurück, anstatt ihn auf dessen Friedhof zu legen.\nZiehe eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "91a7bf02-eae2-57ed-b7a0-c8b5f0f283aa"
           },
           {
             "flavorText": "\"Beh, almeno il tuo mulinare di braccia e le tue ciance arcane sono stati impressionanti.\"",
@@ -1860,6 +2036,9 @@
             "language": "Italian",
             "multiverseId": 683092,
             "name": "Rimandare",
+            "skuIds": {
+              "nonfoil": "7e6f3dbc-d20d-5038-9b8b-899e10b145e5"
+            },
             "text": "Neutralizza una magia bersaglio. Se quella magia viene neutralizzata in questo modo, mettila in mano al suo proprietario invece che nel cimitero di quel giocatore.\nPesca una carta.",
             "type": "Istantaneo",
             "uuid": "9ab9db61-f0d8-53ae-85cf-0fa93f89617b"
@@ -1873,14 +2052,31 @@
             "language": "Japanese",
             "multiverseId": 683206,
             "name": "差し戻し",
+            "skuIds": {
+              "nonfoil": "62d3f3bb-3dcb-58a9-9a4c-aa6f0bd90030"
+            },
             "text": "呪文１つを対象とする。それを打ち消す。その呪文がこれにより打ち消されたなら、それをそのプレイヤーの墓地に置く代わりにオーナーの手札に加える。\nカード１枚を引く。",
             "type": "インスタント",
             "uuid": "accebc59-eda8-51cc-9b74-72b627d20479"
+          },
+          {
+            "flavorText": "\"Bueno, al menos todos esos movimientos de brazos y balbuceos arcanos que has hecho me han impresionado\".",
+            "identifiers": {
+              "multiverseId": "682864",
+              "scryfallId": "05eb0e82-7025-4488-98f1-5b5ee0511bf6"
+            },
+            "language": "Spanish",
+            "multiverseId": 682864,
+            "name": "Reenviar",
+            "skuIds": {
+              "nonfoil": "9e8a29e9-cf85-5ce3-8778-5742c4f4bc04"
+            },
+            "text": "Contrarresta el hechizo objetivo. Si ese hechizo es contrarrestado de esta manera, ponlo en la mano de su propietario en vez de en su cementerio.\nRoba una carta.",
+            "type": "Instantáneo",
+            "uuid": "124b51f9-28fe-5fc2-9fda-0faa19d8ff21"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305498",
           "cardsphereId": "131271",
@@ -1919,6 +2115,7 @@
         "name": "Remand",
         "number": "349",
         "originalText": "Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.\nDraw a card.",
+        "originalType": "Instant",
         "printings": [
           "DDM",
           "F08",
@@ -1946,9 +2143,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f5ac4e48-3ec0-5de9-8d5d-62c91b1500ef"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1978,38 +2180,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 13128,
+        "edhrecRank": 13960,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Every cry lifts her allies toward the thunder.",
         "foreignData": [
-          {
-            "flavorText": "Jeder Schrei bringt ihre Verbündeten dem Donner näher.",
-            "identifiers": {
-              "multiverseId": "682790",
-              "scryfallId": "3d9cb343-0bc7-4d65-b792-ed63756e89e3"
-            },
-            "language": "German",
-            "multiverseId": 682790,
-            "name": "Windrufer-Avior",
-            "text": "Fliegend\nUmwandlung {U} ({U}, wirf diese Karte ab: Ziehe eine Karte.)\nWenn du den Windrufer-Avior umwandelst, erhält eine Kreatur deiner Wahl Flugfähigkeit bis zum Ende des Zuges.",
-            "type": "Kreatur — Vogel, Zauberer",
-            "uuid": "f4656dbd-813c-572c-9eae-27e2954b5e6e"
-          },
-          {
-            "flavorText": "Con cada chillido eleva a sus aliados hacia la tormenta.",
-            "identifiers": {
-              "multiverseId": "682904",
-              "scryfallId": "b7747150-068d-4d6c-aa65-352cb7bd806b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682904,
-            "name": "Aven invocavientos",
-            "text": "Vuela.\nCiclo {U}. ({U}, descartar esta carta: Roba una carta.)\nCuando actives la habilidad de ciclo de la Aven invocavientos, la criatura objetivo gana la habilidad de volar hasta el final del turno.",
-            "type": "Criatura — Hechicero ave",
-            "uuid": "df1a5fb5-3f14-50d2-8750-ebbc2d6d89cc"
-          },
           {
             "flavorText": "Chacun de ses cris hisse ses alliés vers le tonnerre.",
             "identifiers": {
@@ -2019,9 +2196,28 @@
             "language": "French",
             "multiverseId": 683018,
             "name": "Avemain meneur de vent",
+            "skuIds": {
+              "nonfoil": "9a844a3b-c002-5b09-b10c-977d32fdedbe"
+            },
             "text": "Vol\nRecyclage {U} ({U}, défaussez-vous de cette carte : Piochez une carte.)\nQuand vous recyclez l'Avemain meneur de vent, une créature ciblée acquiert le vol jusqu'à la fin du tour.",
             "type": "Créature — oiseau et sorcier",
             "uuid": "76f16cca-da70-57eb-b828-deebf9a55c13"
+          },
+          {
+            "flavorText": "Jeder Schrei bringt ihre Verbündeten dem Donner näher.",
+            "identifiers": {
+              "multiverseId": "682790",
+              "scryfallId": "3d9cb343-0bc7-4d65-b792-ed63756e89e3"
+            },
+            "language": "German",
+            "multiverseId": 682790,
+            "name": "Windrufer-Avior",
+            "skuIds": {
+              "nonfoil": "6f05a1e4-1b62-5983-9e69-d70de42dc3bd"
+            },
+            "text": "Fliegend\nUmwandlung {U} ({U}, wirf diese Karte ab: Ziehe eine Karte.)\nWenn du den Windrufer-Avior umwandelst, erhält eine Kreatur deiner Wahl Flugfähigkeit bis zum Ende des Zuges.",
+            "type": "Kreatur — Vogel, Zauberer",
+            "uuid": "f4656dbd-813c-572c-9eae-27e2954b5e6e"
           },
           {
             "flavorText": "Ogni grido solleva i suoi alleati verso il tuono.",
@@ -2032,6 +2228,9 @@
             "language": "Italian",
             "multiverseId": 683132,
             "name": "Aviana Convocaventi",
+            "skuIds": {
+              "nonfoil": "5e0cd2ef-4d58-58a4-a48b-59fa597d42b5"
+            },
             "text": "Volare\nCiclo {U} ({U}, Scarta questa carta: Pesca una carta.)\nQuando cicli l'Aviana Convocaventi, una creatura bersaglio ha volare fino alla fine del turno.",
             "type": "Creatura — Mago Uccello",
             "uuid": "f6b934cb-da2c-5520-912f-8a72ec8bb644"
@@ -2045,14 +2244,31 @@
             "language": "Japanese",
             "multiverseId": 683246,
             "name": "風呼びのエイヴン",
+            "skuIds": {
+              "nonfoil": "adce965e-a6d9-53a4-9154-2b20ace08249"
+            },
             "text": "飛行\nサイクリング{U}（{U}, このカードを捨てる：カード１枚を引く。）\nあなたが風呼びのエイヴンをサイクリングしたとき、クリーチャー１体を対象とする。ターン終了時まで、それは飛行を得る。",
             "type": "クリーチャー — 鳥・ウィザード",
             "uuid": "b19826f6-11e7-50f3-ae6f-70c217d5c4f6"
+          },
+          {
+            "flavorText": "Con cada chillido eleva a sus aliados hacia la tormenta.",
+            "identifiers": {
+              "multiverseId": "682904",
+              "scryfallId": "b7747150-068d-4d6c-aa65-352cb7bd806b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682904,
+            "name": "Aven invocavientos",
+            "skuIds": {
+              "nonfoil": "1724fc48-ff02-59d9-a270-4f693ecda0aa"
+            },
+            "text": "Vuela.\nCiclo {U}. ({U}, descartar esta carta: Roba una carta.)\nCuando actives la habilidad de ciclo de la Aven invocavientos, la criatura objetivo gana la habilidad de volar hasta el final del turno.",
+            "type": "Criatura — Hechicero ave",
+            "uuid": "df1a5fb5-3f14-50d2-8750-ebbc2d6d89cc"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305538",
           "cardsphereId": "131081",
@@ -2096,6 +2312,7 @@
         "name": "Windcaller Aven",
         "number": "390",
         "originalText": "Flying\nCycling {U} ({U}, Discard this card: Draw a card.)\nWhen you cycle Windcaller Aven, target creature gains flying until end of turn.",
+        "originalType": "Creature – Bird Wizard",
         "power": "4",
         "printings": [
           "CMM",
@@ -2111,9 +2328,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "c1bebdad-8869-5e3e-b723-b45f7d291349"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2145,39 +2367,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
-          {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
-            "identifiers": {
-              "multiverseId": "684059",
-              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
-            },
-            "language": "German",
-            "multiverseId": 684059,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "684098",
-              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
-            },
-            "language": "Spanish",
-            "multiverseId": 684098,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
-          },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
             "identifiers": {
@@ -2187,9 +2383,28 @@
             "language": "French",
             "multiverseId": 684137,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "fdc167be-8ef8-57ed-a369-d7f00d07733b"
+            },
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "684059",
+              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
+            },
+            "language": "German",
+            "multiverseId": 684059,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "03938098-9af1-539d-a5cc-04e6aab95a54"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2200,6 +2415,9 @@
             "language": "Italian",
             "multiverseId": 684176,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "c9d96256-d217-5ef1-94f0-693550cc6ba5"
+            },
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
@@ -2213,14 +2431,31 @@
             "language": "Japanese",
             "multiverseId": 684215,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "9a973770-024c-5e07-a3c6-3af88a966157"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
+          },
+          {
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
+            "identifiers": {
+              "multiverseId": "684098",
+              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
+            },
+            "language": "Spanish",
+            "multiverseId": 684098,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "520ae535-6387-5433-9539-ea7dfce43789"
+            },
+            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306117",
           "cardsphereId": "130626",
@@ -2258,12 +2493,14 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2271,7 +2508,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/66576e95f29fe898",
@@ -2280,9 +2525,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67685a63-8e31-57e4-acb3-d94a375bae4f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2317,36 +2567,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681254",
-              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
-            },
-            "language": "German",
-            "multiverseId": 681254,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681269",
-              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681269,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681284",
               "scryfallId": "8751d0e8-aa20-4d8e-a39f-e542d6ab2424"
             },
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "cb0ef6d5-f7d2-5691-bfdf-53e3a7d110b9"
+            },
             "type": "Terrain de base — île",
             "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681254",
+              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
+            },
+            "language": "German",
+            "multiverseId": 681254,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "04ea0771-3452-51f4-bdf6-6fe1ca1af63a"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2356,6 +2601,9 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "f13bcd50-af8f-5431-a106-a9d255f15459"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
@@ -2367,18 +2615,34 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "c117e37a-2d0d-5996-bf9e-7d64e38a799d"
+            },
             "type": "基本土地 — 島",
             "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681269",
+              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681269,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "93455c64-eb7d-5e65-9540-2db34e522179"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305218",
           "cardsphereId": "131374",
           "deckboxId": "98078",
           "mcmId": "795505",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95169",
           "mtgjsonV4Id": "08023772-e668-5bc2-b371-b0f5ce320b77",
           "multiverseId": "681239",
@@ -2391,7 +2655,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2419,6 +2682,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2488,6 +2752,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2648,15 +2913,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f22125830525c472",
+          "cardmarket": "https://mtgjson.com/links/76af4fc19321352c",
           "tcgplayer": "https://mtgjson.com/links/72c5fde6e8a3d9d8"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "21402412-1e93-5f68-911b-a3ab19229cbc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2699,36 +2973,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681255",
-              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
-            },
-            "language": "German",
-            "multiverseId": 681255,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681270",
-              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
-            },
-            "language": "Spanish",
-            "multiverseId": 681270,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681285",
               "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
             },
             "language": "French",
             "multiverseId": 681285,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "87b6c0f1-4e30-5ed3-88f9-b1440d4397e3"
+            },
             "type": "Terrain de base — île",
             "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "7af6d605-2c12-5380-9b05-56684ac83548"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
           },
           {
             "identifiers": {
@@ -2738,6 +3007,9 @@
             "language": "Italian",
             "multiverseId": 681300,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "aa2acc70-8c55-59c3-b1b3-335ecd8cdcf7"
+            },
             "type": "Terra Base — Isola",
             "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
           },
@@ -2749,18 +3021,34 @@
             "language": "Japanese",
             "multiverseId": 681315,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9d13c5e5-565f-5bcb-ac12-4623bfe4c5ad"
+            },
             "type": "基本土地 — 島",
             "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "0aa11aa1-a1be-5474-aa73-e762139aa94b"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305219",
           "cardsphereId": "131375",
           "deckboxId": "98079",
           "mcmId": "795506",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95170",
           "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
           "multiverseId": "681240",
@@ -2773,7 +3061,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2801,6 +3088,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "85",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2870,6 +3158,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3030,15 +3319,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "cardmarket": "https://mtgjson.com/links/c83b9d49e721a8d6",
           "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b80979e0-eed6-52a5-8f39-b7f4aac6d594"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3081,36 +3379,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681256",
-              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
-            },
-            "language": "German",
-            "multiverseId": 681256,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681271",
-              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
-            },
-            "language": "Spanish",
-            "multiverseId": 681271,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681286",
               "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
             },
             "language": "French",
             "multiverseId": 681286,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "0c917650-1318-57f6-8da7-86999824bcf2"
+            },
             "type": "Terrain de base — île",
             "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "fce83af5-56a7-5297-aeff-1c20caf0b035"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
           },
           {
             "identifiers": {
@@ -3120,6 +3413,9 @@
             "language": "Italian",
             "multiverseId": 681301,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "4dfc8e1d-1d20-5b8d-9391-23f5e94b63c0"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
           },
@@ -3131,18 +3427,34 @@
             "language": "Japanese",
             "multiverseId": 681316,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "bb009efe-4d5f-594d-a597-179d0d26f514"
+            },
             "type": "基本土地 — 島",
             "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "91bb7f4a-9b9d-50ac-b116-b68a1d9ab1ff"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305220",
           "cardsphereId": "131376",
           "deckboxId": "98080",
           "mcmId": "795507",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95171",
           "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
           "multiverseId": "681241",
@@ -3155,7 +3467,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3183,6 +3494,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "86",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3252,6 +3564,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3412,15 +3725,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "cardmarket": "https://mtgjson.com/links/9bb956231e7930e4",
           "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7461ac97-c757-5f2d-8711-f19dab487de3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3436,8 +3758,8 @@
         ],
         "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
         "variations": [
-          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
-          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc"
         ]
       }
     ],
@@ -3452,5 +3774,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "b72f9ee9e0de2f"
   }
 }

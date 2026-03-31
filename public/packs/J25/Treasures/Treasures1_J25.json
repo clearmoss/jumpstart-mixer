@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "ff103b1add5be9"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -29,36 +24,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 8848,
+        "edhrecRank": 8271,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680968",
-              "scryfallId": "e556c161-1d4b-4028-8e1f-6f098b01b555"
-            },
-            "language": "German",
-            "multiverseId": 680968,
-            "name": "Evereth, raubende Vizekönigin",
-            "text": "Fliegend\nOpfere eine andere Kreatur oder ein anderes Artefakt: Lege eine +1/+1-Marke auf Evereth, raubende Vizekönigin. Falls das geopferte Permanent ein Schatz war, erhält Evereth Lebensverknüpfung bis zum Ende des Zuges. Aktiviere diese Fähigkeit wie eine Hexerei.\nWenn Evereth stirbt, kannst du {1}{B/R} bezahlen. Wenn du dies tust, fügt Evereth jedem Gegner Schadenspunkte in Höhe ihrer Stärke zu.",
-            "type": "Legendäre Kreatur — Vampir, Soldat",
-            "uuid": "f9e5cc06-850c-572a-82b2-d7da5e591cc8"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680995",
-              "scryfallId": "20ce796b-bdad-4e01-b21a-604111217e69"
-            },
-            "language": "Spanish",
-            "multiverseId": 680995,
-            "name": "Evereth, virreina del saqueo",
-            "text": "Vuela.\nSacrificar otra criatura o artefacto: Pon un contador +1/+1 sobre Evereth, virreina del saqueo. Si el permanente sacrificado era un Tesoro, Evereth gana la habilidad de vínculo vital hasta el final del turno. Activa esto solo como un conjuro.\nCuando Evereth muera, puedes pagar {1}{B/R}. Cuando lo hagas, Evereth hace una cantidad de daño igual a su fuerza a cada oponente.",
-            "type": "Criatura legendaria — Soldado vampiro",
-            "uuid": "3c66ca88-7bc1-54f3-8941-2918d661581e"
-          },
           {
             "identifiers": {
               "multiverseId": "681022",
@@ -67,9 +38,27 @@
             "language": "French",
             "multiverseId": 681022,
             "name": "Evereth, vice-reine du saccage",
+            "skuIds": {
+              "nonfoil": "409d5034-ec9c-5929-a268-a29e5dbad3de"
+            },
             "text": "Vol\nSacrifiez une autre créature ou un autre artefact : Mettez un marqueur +1/+1 sur Evereth, vice-reine du saccage. Si le permanent sacrifié était un trésor, Evereth acquiert le lien de vie jusqu'à la fin du tour. N'activez que lorsque vous pourriez lancer un rituel.\nQuand Evereth meurt, vous pouvez payer {1}{B/R}. Quand vous faites ainsi, Evereth inflige un nombre de blessures égal à sa force à chaque adversaire.",
             "type": "Créature légendaire — vampire et soldat",
             "uuid": "f4072e28-51f6-5c50-8036-d16f731e4f26"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680968",
+              "scryfallId": "e556c161-1d4b-4028-8e1f-6f098b01b555"
+            },
+            "language": "German",
+            "multiverseId": 680968,
+            "name": "Evereth, raubende Vizekönigin",
+            "skuIds": {
+              "nonfoil": "ac556260-3df2-5ab5-bab5-7c47f6b8638e"
+            },
+            "text": "Fliegend\nOpfere eine andere Kreatur oder ein anderes Artefakt: Lege eine +1/+1-Marke auf Evereth, raubende Vizekönigin. Falls das geopferte Permanent ein Schatz war, erhält Evereth Lebensverknüpfung bis zum Ende des Zuges. Aktiviere diese Fähigkeit wie eine Hexerei.\nWenn Evereth stirbt, kannst du {1}{B/R} bezahlen. Wenn du dies tust, fügt Evereth jedem Gegner Schadenspunkte in Höhe ihrer Stärke zu.",
+            "type": "Legendäre Kreatur — Vampir, Soldat",
+            "uuid": "f9e5cc06-850c-572a-82b2-d7da5e591cc8"
           },
           {
             "identifiers": {
@@ -79,6 +68,9 @@
             "language": "Italian",
             "multiverseId": 681049,
             "name": "Evereth, Viceregina del Saccheggio",
+            "skuIds": {
+              "nonfoil": "73434de4-b26b-52b4-8ec2-55caee046c09"
+            },
             "text": "Volare\nSacrifica un'altra creatura o artefatto: Metti un segnalino +1/+1 su Evereth, Viceregina del Saccheggio. Se il permanente sacrificato era un Tesoro, Evereth ha legame vitale fino alla fine del turno. Attiva solo come una stregoneria.\nQuando Evereth muore, puoi pagare {1}{B/R}. Quando lo fai, Evereth infligge danno pari alla sua forza a ogni avversario.",
             "type": "Creatura Leggendaria — Soldato Vampiro",
             "uuid": "b9d8518a-9890-5777-a97f-6f968e6ca0d1"
@@ -91,17 +83,33 @@
             "language": "Japanese",
             "multiverseId": 681076,
             "name": "略奪総督、エヴェレス",
+            "skuIds": {
+              "nonfoil": "4895f49b-e27f-5e67-ad13-4cd0ac629472"
+            },
             "text": "飛行\nクリーチャーやアーティファクトでありこれでない１つを生け贄に捧げる：略奪総督、エヴェレスの上に＋１/＋１カウンター１個を置く。その生け贄に捧げられたパーマネントが宝物であったなら、ターン終了時まで、これは絆魂を得る。起動はソーサリーとしてのみ行う。\nこれが死亡したとき、{1}{B/R}を支払ってもよい。そうしたとき、これは各対戦相手にそれぞれ、これのパワーに等しい点数のダメージを与える。",
             "type": "伝説のクリーチャー — 吸血鬼・兵士",
             "uuid": "358c80eb-f00b-5d6d-986d-6b2031bcf682"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680995",
+              "scryfallId": "20ce796b-bdad-4e01-b21a-604111217e69"
+            },
+            "language": "Spanish",
+            "multiverseId": 680995,
+            "name": "Evereth, virreina del saqueo",
+            "skuIds": {
+              "nonfoil": "ae420a9b-81f2-594d-b465-dfde8b467cc9"
+            },
+            "text": "Vuela.\nSacrificar otra criatura o artefacto: Pon un contador +1/+1 sobre Evereth, virreina del saqueo. Si el permanente sacrificado era un Tesoro, Evereth gana la habilidad de vínculo vital hasta el final del turno. Activa esto solo como un conjuro.\nCuando Evereth muera, puedes pagar {1}{B/R}. Cuando lo hagas, Evereth hace una cantidad de daño igual a su fuerza a cada oponente.",
+            "type": "Criatura legendaria — Soldado vampiro",
+            "uuid": "3c66ca88-7bc1-54f3-8941-2918d661581e"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305175",
           "cardsphereId": "130798",
@@ -120,7 +128,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Flying"
         ],
@@ -147,6 +154,7 @@
         "name": "Evereth, Viceroy of Plunder",
         "number": "41",
         "originalText": "Flying\nSacrifice another creature or artifact: Put a +1/+1 counter on Evereth, Viceroy of Plunder. If the sacrificed permanent was a Treasure, Evereth gains lifelink until end of turn. Activate only as a sorcery.\nWhen Evereth dies, you may pay {1}{(}b/r)}. When you do, Evereth deals damage equal to its power to each opponent.",
+        "originalType": "Legendary Creature – Vampire Soldier",
         "power": "2",
         "printings": [
           "J25"
@@ -165,9 +173,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "fb5a232c-d9c6-5adf-b00e-18313f03aa7b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -203,36 +216,12 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1874,
+        "edhrecRank": 1959,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682071",
-              "scryfallId": "944c9753-f0fc-43df-bfa7-40ffa9c6520b"
-            },
-            "language": "German",
-            "multiverseId": 682071,
-            "name": "Skrupelloser Technomagier",
-            "text": "Wenn der Skrupellose Technomagier ins Spiel kommt, kannst du eine andere Kreatur, die du kontrollierst, opfern. Falls du dies tust, erzeuge so viele Schatz-Spielsteine, wie die Stärke jener Kreatur betrug.\n{2}{B}, opfere X Artefakte: Bringe eine Kreaturenkarte deiner Wahl mit Stärke X oder weniger aus deinem Friedhof ins Spiel zurück. X kann nicht 0 sein.",
-            "type": "Kreatur — Mensch, Zauberer",
-            "uuid": "7fdff114-9da5-5d04-a462-44e9edf286d2"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682188",
-              "scryfallId": "8ed70a46-3e46-4d75-a7ac-e63ff4da848c"
-            },
-            "language": "Spanish",
-            "multiverseId": 682188,
-            "name": "Tecnomante despiadado",
-            "text": "Cuando el Tecnomante despiadado entre, puedes sacrificar otra criatura que controlas. Si lo haces, crea una cantidad de fichas de Tesoro igual a la fuerza de esa criatura.\n{2}{B}, sacrificar X artefactos: Regresa la carta de criatura objetivo con fuerza de X o menos de tu cementerio al campo de batalla. X no puede ser 0.",
-            "type": "Criatura — Hechicero humano",
-            "uuid": "45a32be1-1cfa-53e0-827a-293be8516161"
-          },
           {
             "identifiers": {
               "multiverseId": "682305",
@@ -241,9 +230,27 @@
             "language": "French",
             "multiverseId": 682305,
             "name": "Technomancien impitoyable",
+            "skuIds": {
+              "nonfoil": "a7b5ea03-d469-5b71-aad6-f99310d24e0a"
+            },
             "text": "Quand le Technomancien impitoyable arrive, vous pouvez sacrifier une autre créature que vous contrôlez. Si vous faites ainsi, créez un nombre de jetons Trésor égal à la force de cette créature.\n{2}{B}, sacrifiez X artefacts : Renvoyez sur le champ de bataille une carte de créature de force inférieure ou égale à X ciblée depuis votre cimetière. X ne peut pas être 0.",
             "type": "Créature — humain et sorcier",
             "uuid": "724d250f-df3a-5a2c-90f8-c3b50b657898"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682071",
+              "scryfallId": "944c9753-f0fc-43df-bfa7-40ffa9c6520b"
+            },
+            "language": "German",
+            "multiverseId": 682071,
+            "name": "Skrupelloser Technomagier",
+            "skuIds": {
+              "nonfoil": "37d8905f-a8b5-5c4c-9322-4b0cceda2e51"
+            },
+            "text": "Wenn der Skrupellose Technomagier ins Spiel kommt, kannst du eine andere Kreatur, die du kontrollierst, opfern. Falls du dies tust, erzeuge so viele Schatz-Spielsteine, wie die Stärke jener Kreatur betrug.\n{2}{B}, opfere X Artefakte: Bringe eine Kreaturenkarte deiner Wahl mit Stärke X oder weniger aus deinem Friedhof ins Spiel zurück. X kann nicht 0 sein.",
+            "type": "Kreatur — Mensch, Zauberer",
+            "uuid": "7fdff114-9da5-5d04-a462-44e9edf286d2"
           },
           {
             "identifiers": {
@@ -253,6 +260,9 @@
             "language": "Italian",
             "multiverseId": 682422,
             "name": "Tecnomante Spietato",
+            "skuIds": {
+              "nonfoil": "fe6cc485-af20-5769-8a85-0e23e1b4a43b"
+            },
             "text": "Quando il Tecnomante Spietato entra, puoi sacrificare un'altra creatura che controlli. Se lo fai, crea un numero di pedine Tesoro pari alla forza di quella creatura.\n{2}{B}, Sacrifica X artefatti: Rimetti sul campo di battaglia una carta creatura bersaglio con forza pari o inferiore a X dal tuo cimitero. X non può essere 0.",
             "type": "Creatura — Mago Umano",
             "uuid": "b2e9818f-c71d-5ecb-8425-e583f83ff37a"
@@ -265,14 +275,30 @@
             "language": "Japanese",
             "multiverseId": 682539,
             "name": "無情な屍技術師",
+            "skuIds": {
+              "nonfoil": "c3534afe-a757-580f-a7c6-f67c61ef555a"
+            },
             "text": "無情な屍技術師が戦場に出たとき、あなたがコントロールしていてこれでないクリーチャー１体を生け贄に捧げてもよい。そうしたなら、そのクリーチャーのパワーに等しい数の宝物・トークンを生成する。\n{2}{B}, アーティファクトＸ個を生け贄に捧げる：あなたの墓地にありパワーがＸ以下であるクリーチャー・カード１枚を対象とする。それを戦場に戻す。Ｘは０にできない。",
             "type": "クリーチャー — 人間・ウィザード",
             "uuid": "c92fc0d5-8595-53b2-9aa5-444139a02301"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682188",
+              "scryfallId": "8ed70a46-3e46-4d75-a7ac-e63ff4da848c"
+            },
+            "language": "Spanish",
+            "multiverseId": 682188,
+            "name": "Tecnomante despiadado",
+            "skuIds": {
+              "nonfoil": "729da160-97ed-5524-a003-a6212611ec93"
+            },
+            "text": "Cuando el Tecnomante despiadado entre, puedes sacrificar otra criatura que controlas. Si lo haces, crea una cantidad de fichas de Tesoro igual a la fuerza de esa criatura.\n{2}{B}, sacrificar X artefactos: Regresa la carta de criatura objetivo con fuerza de X o menos de tu cementerio al campo de batalla. X no puede ser 0.",
+            "type": "Criatura — Hechicero humano",
+            "uuid": "45a32be1-1cfa-53e0-827a-293be8516161"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305823",
           "cardsphereId": "131212",
@@ -312,6 +338,7 @@
         "name": "Ruthless Technomancer",
         "number": "484",
         "originalText": "When Ruthless Technomancer enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0.",
+        "originalType": "Creature – Human Wizard",
         "power": "2",
         "printings": [
           "J25",
@@ -324,11 +351,21 @@
           "tcgplayer": "https://mtgjson.com/links/620b8bc39a6639d4"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "8581e082-2bf3-5c14-b491-aec836168c7f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -362,39 +399,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 134,
+        "edhrecRank": 132,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Fortune may favor the bold, but it also flattens the foolhardy.",
         "foreignData": [
-          {
-            "flavorText": "Das Glück ist mit den Tüchtigen, aber es tilgt auch die Törichten.",
-            "identifiers": {
-              "multiverseId": "681580",
-              "scryfallId": "dd5d9ae1-aca9-4a5e-b2ba-ca44ef493459"
-            },
-            "language": "German",
-            "multiverseId": 681580,
-            "name": "Tödlicher Disput",
-            "text": "Opfere ein Artefakt oder eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Spontanzauber",
-            "uuid": "871b417c-fec3-5320-9cf5-4ae9ac74c4d9"
-          },
-          {
-            "flavorText": "Puede que la suerte sonría a los valientes, pero también destruye a los imprudentes.",
-            "identifiers": {
-              "multiverseId": "681641",
-              "scryfallId": "f46a341a-4931-4897-94c4-da601977e912"
-            },
-            "language": "Spanish",
-            "multiverseId": 681641,
-            "name": "Disputa mortal",
-            "text": "Como coste adicional para lanzar este hechizo, sacrifica un artefacto o criatura.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Instantáneo",
-            "uuid": "5b81cf36-688d-5248-ba0e-d95502e27180"
-          },
           {
             "flavorText": "Certes, la fortune sourit aux audacieux, mais elle cause également la perte des imprudents.",
             "identifiers": {
@@ -404,9 +415,28 @@
             "language": "French",
             "multiverseId": 681702,
             "name": "Dispute mortelle",
+            "skuIds": {
+              "nonfoil": "259a325f-559b-5687-a89c-3263d218e1ef"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez un artefact ou une créature.\nPiochez deux cartes et créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Éphémère",
             "uuid": "d5ab6f58-994a-5ea1-b1ad-b9f6256b85d5"
+          },
+          {
+            "flavorText": "Das Glück ist mit den Tüchtigen, aber es tilgt auch die Törichten.",
+            "identifiers": {
+              "multiverseId": "681580",
+              "scryfallId": "dd5d9ae1-aca9-4a5e-b2ba-ca44ef493459"
+            },
+            "language": "German",
+            "multiverseId": 681580,
+            "name": "Tödlicher Disput",
+            "skuIds": {
+              "nonfoil": "b3c7de1b-e3a9-5191-8ba6-03ee3668b353"
+            },
+            "text": "Opfere ein Artefakt oder eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Spontanzauber",
+            "uuid": "871b417c-fec3-5320-9cf5-4ae9ac74c4d9"
           },
           {
             "flavorText": "La fortuna aiuterà gli audaci, ma abbatte gli avventati.",
@@ -417,6 +447,9 @@
             "language": "Italian",
             "multiverseId": 681763,
             "name": "Disputa Mortale",
+            "skuIds": {
+              "nonfoil": "31eb9eec-2e85-558e-94f3-03af3c25a64f"
+            },
             "text": "Come costo addizionale per lanciare questa magia, sacrifica un artefatto o una creatura.\nPesca due carte e crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Istantaneo",
             "uuid": "631c61e1-f4ec-5e2a-b5f0-ced83fd98537"
@@ -430,14 +463,31 @@
             "language": "Japanese",
             "multiverseId": 681824,
             "name": "命取りの論争",
+            "skuIds": {
+              "nonfoil": "9e91e823-7084-5baf-88ca-bc6cb23eac6d"
+            },
             "text": "この呪文を唱えるための追加コストとして、アーティファクトやクリーチャーである１つを生け贄に捧げる。\nカード２枚を引き、宝物・トークン１つを生成する。（それは、「{T},このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "インスタント",
             "uuid": "7fd305f6-6568-53ac-a20a-599587db21bc"
+          },
+          {
+            "flavorText": "Puede que la suerte sonría a los valientes, pero también destruye a los imprudentes.",
+            "identifiers": {
+              "multiverseId": "681641",
+              "scryfallId": "f46a341a-4931-4897-94c4-da601977e912"
+            },
+            "language": "Spanish",
+            "multiverseId": 681641,
+            "name": "Disputa mortal",
+            "skuIds": {
+              "nonfoil": "33447b16-bc6d-5040-a0ed-633bf4649271"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, sacrifica un artefacto o criatura.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Instantáneo",
+            "uuid": "5b81cf36-688d-5248-ba0e-d95502e27180"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305249",
           "cardsphereId": "130932",
@@ -456,7 +506,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -482,6 +531,7 @@
         "name": "Deadly Dispute",
         "number": "115",
         "originalText": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Instant",
         "printings": [
           "AFR",
           "BLC",
@@ -497,16 +547,33 @@
           "SLD",
           "TDC"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1942df45c0783297",
           "cardmarket": "https://mtgjson.com/links/30af87a64924c9be",
           "tcgplayer": "https://mtgjson.com/links/42e6b2277311ef22"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0d5c7fd9-ac34-5254-ac37-7b1059b4b186"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -536,39 +603,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 12874,
+        "edhrecRank": 13305,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The Dusk Legion demanded a share of the gold. The pirates happily obliged.",
         "foreignData": [
-          {
-            "flavorText": "Die Legion des Zwielichts forderte einen Teil des Goldes ein. Die Piraten kamen dem nur allzu gerne nach.",
-            "identifiers": {
-              "multiverseId": "681583",
-              "scryfallId": "a5ec1071-069d-4390-9649-df0493aa2ad7"
-            },
-            "language": "German",
-            "multiverseId": 681583,
-            "name": "Grimmiges Kopfgeld",
-            "text": "Zerstöre eine Kreatur oder einen Planeswalker deiner Wahl. Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Hexerei",
-            "uuid": "a491c2e0-bb71-5517-b2c3-d966fdf2ed54"
-          },
-          {
-            "flavorText": "La Legión del Crepúsculo exigió una parte del oro y los piratas se lo dieron con gusto.",
-            "identifiers": {
-              "multiverseId": "681644",
-              "scryfallId": "84eb2aa0-fe28-4c75-891a-a4af09978bc9"
-            },
-            "language": "Spanish",
-            "multiverseId": 681644,
-            "name": "Botín siniestro",
-            "text": "Destruye la criatura o planeswalker objetivo. Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Conjuro",
-            "uuid": "b8630700-f9ae-5291-a720-681bb55d5d55"
-          },
           {
             "flavorText": "La Légion du crépuscule exigea une part de l'or. Les pirates acceptèrent de bon cœur.",
             "identifiers": {
@@ -578,9 +619,28 @@
             "language": "French",
             "multiverseId": 681705,
             "name": "Don sinistre",
+            "skuIds": {
+              "nonfoil": "fe82258d-b725-5c0a-8860-333fd1a30304"
+            },
             "text": "Détruisez une cible, créature ou planeswalker. Créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Rituel",
             "uuid": "ed2c8243-1435-523e-911e-337ebcaf3e11"
+          },
+          {
+            "flavorText": "Die Legion des Zwielichts forderte einen Teil des Goldes ein. Die Piraten kamen dem nur allzu gerne nach.",
+            "identifiers": {
+              "multiverseId": "681583",
+              "scryfallId": "a5ec1071-069d-4390-9649-df0493aa2ad7"
+            },
+            "language": "German",
+            "multiverseId": 681583,
+            "name": "Grimmiges Kopfgeld",
+            "skuIds": {
+              "nonfoil": "000451a2-75b5-555f-8239-43a8006d271b"
+            },
+            "text": "Zerstöre eine Kreatur oder einen Planeswalker deiner Wahl. Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Hexerei",
+            "uuid": "a491c2e0-bb71-5517-b2c3-d966fdf2ed54"
           },
           {
             "flavorText": "La Legione del Vespro pretendeva una quota dell'oro. I pirati l'assecondarono con piacere.",
@@ -591,6 +651,9 @@
             "language": "Italian",
             "multiverseId": 681766,
             "name": "Taglia Macabra",
+            "skuIds": {
+              "nonfoil": "79402586-e4c3-5300-bb5a-9e1483237e54"
+            },
             "text": "Distruggi una creatura o un planeswalker bersaglio. Crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Stregoneria",
             "uuid": "c8ba76d5-0901-5939-a246-8b1c6de610c8"
@@ -604,14 +667,31 @@
             "language": "Japanese",
             "multiverseId": 681827,
             "name": "不気味な報奨",
+            "skuIds": {
+              "nonfoil": "54c7062f-2ab3-514e-909b-3fa8f3d8233f"
+            },
             "text": "クリーチャーやプレインズウォーカーである１体を対象とする。それを破壊する。宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "ソーサリー",
             "uuid": "10dcf1e2-6aed-5e88-a2b6-37265ce88b20"
+          },
+          {
+            "flavorText": "La Legión del Crepúsculo exigió una parte del oro y los piratas se lo dieron con gusto.",
+            "identifiers": {
+              "multiverseId": "681644",
+              "scryfallId": "84eb2aa0-fe28-4c75-891a-a4af09978bc9"
+            },
+            "language": "Spanish",
+            "multiverseId": 681644,
+            "name": "Botín siniestro",
+            "skuIds": {
+              "nonfoil": "20d4f97c-f4c1-549b-9b8b-6183d1edbc44"
+            },
+            "text": "Destruye la criatura o planeswalker objetivo. Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Conjuro",
+            "uuid": "b8630700-f9ae-5291-a720-681bb55d5d55"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305252",
           "cardsphereId": "130936",
@@ -630,7 +710,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -656,11 +735,19 @@
         "name": "Grim Bounty",
         "number": "118",
         "originalText": "Destroy target creature or planeswalker. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Sorcery",
         "printings": [
           "AFR",
           "HBG",
           "J25",
           "PLST"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/253bae1af7eeeddd",
@@ -668,6 +755,11 @@
           "tcgplayer": "https://mtgjson.com/links/e3b68cb777470889"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2021-07-23",
@@ -675,9 +767,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "989c3bff-ed24-5add-bf83-cdb04d50c8e2"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -707,36 +804,12 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 3349,
+        "edhrecRank": 3350,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681589",
-              "scryfallId": "35b91a9a-ff77-4635-ad10-f97012c0f33e"
-            },
-            "language": "German",
-            "multiverseId": 681589,
-            "name": "Trottender Grul",
-            "text": "Wenn der Trottende Grul stirbt, bestimme eines —\n• Eine Kreatur deiner Wahl, die ein Gegner kontrolliert, erhält -1/-1 bis zum Ende des Zuges.\n• Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Zombie",
-            "uuid": "789bcd9c-1911-5f96-880c-4d5e671f2a53"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681650",
-              "scryfallId": "94fb5efd-665b-4fea-9c28-51b48f539090"
-            },
-            "language": "Spanish",
-            "multiverseId": 681650,
-            "name": "Ghast hedionda",
-            "text": "Cuando la Ghast hedionda muera, elige uno:\n• La criatura objetivo que controla un oponente obtiene -1/-1 hasta el final del turno.\n• Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Zombie",
-            "uuid": "035dd79d-1c86-5fc7-8eb3-87ee1fde1276"
-          },
           {
             "identifiers": {
               "multiverseId": "681711",
@@ -745,9 +818,27 @@
             "language": "French",
             "multiverseId": 681711,
             "name": "Blême titubante",
+            "skuIds": {
+              "nonfoil": "4e8da6df-ab4d-5327-9c9b-fd6ed976805c"
+            },
             "text": "Quand la Blême titubante meurt, choisissez l'un —\n• Une créature ciblée qu'un adversaire contrôle gagne -1/-1 jusqu'à la fin du tour.\n• Créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — zombie",
             "uuid": "72970ec5-70d1-5fed-8726-1af6a6d27bae"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681589",
+              "scryfallId": "35b91a9a-ff77-4635-ad10-f97012c0f33e"
+            },
+            "language": "German",
+            "multiverseId": 681589,
+            "name": "Trottender Grul",
+            "skuIds": {
+              "nonfoil": "01318824-7c2d-5f8e-a49e-35dfe430a580"
+            },
+            "text": "Wenn der Trottende Grul stirbt, bestimme eines —\n• Eine Kreatur deiner Wahl, die ein Gegner kontrolliert, erhält -1/-1 bis zum Ende des Zuges.\n• Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Zombie",
+            "uuid": "789bcd9c-1911-5f96-880c-4d5e671f2a53"
           },
           {
             "identifiers": {
@@ -757,6 +848,9 @@
             "language": "Italian",
             "multiverseId": 681772,
             "name": "Ghast Barcollante",
+            "skuIds": {
+              "nonfoil": "83a6838e-aba5-57c3-a758-dea16e085072"
+            },
             "text": "Quando il Ghast Barcollante muore, scegli uno —\n• Una creatura bersaglio controllata da un avversario prende -1/-1 fino alla fine del turno.\n• Crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Zombie",
             "uuid": "9056b2c8-33ac-5ba3-9ff8-56d0afb1b00b"
@@ -769,14 +863,30 @@
             "language": "Japanese",
             "multiverseId": 681833,
             "name": "よろめく怪異",
+            "skuIds": {
+              "nonfoil": "8714694e-21c7-559d-afb0-feab7fd4d843"
+            },
             "text": "よろめく怪異が死亡したとき、以下から１つを選ぶ。\n・対戦相手がコントロールしているクリーチャー１体を対象とする。ターン終了時まで、それは－１/－１の修整を受ける。\n・宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — ゾンビ",
             "uuid": "371522fb-2c65-54ac-8bc0-34bc3c798d4c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681650",
+              "scryfallId": "94fb5efd-665b-4fea-9c28-51b48f539090"
+            },
+            "language": "Spanish",
+            "multiverseId": 681650,
+            "name": "Ghast hedionda",
+            "skuIds": {
+              "nonfoil": "f45256a6-0a90-5adb-b4fa-4adc615c1dfe"
+            },
+            "text": "Cuando la Ghast hedionda muera, elige uno:\n• La criatura objetivo que controla un oponente obtiene -1/-1 hasta el final del turno.\n• Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Zombie",
+            "uuid": "035dd79d-1c86-5fc7-8eb3-87ee1fde1276"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305258",
           "cardsphereId": "130980",
@@ -795,7 +905,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -821,6 +930,7 @@
         "name": "Shambling Ghast",
         "number": "124",
         "originalText": "When Shambling Ghast dies, choose one —\n• Target creature an opponent controls gets -1/-1 until end of turn.\n• Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Zombie",
         "power": "1",
         "printings": [
           "AFR",
@@ -828,16 +938,33 @@
           "J25",
           "PLST"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a418ec05c8623c41",
           "cardmarket": "https://mtgjson.com/links/fd46ecc61c53548b",
           "tcgplayer": "https://mtgjson.com/links/cc9c9d7b72179d4d"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bd0b744f-ec1d-533d-a48d-9a62fee31e71"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -870,39 +997,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 357,
+        "edhrecRank": 339,
         "edhrecSaltiness": 0.35,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Lives taken are lives not easily forgotten.",
         "foreignData": [
-          {
-            "flavorText": "Genommene Leben sind Leben, die nicht leicht zu vergessen sind.",
-            "identifiers": {
-              "multiverseId": "681990",
-              "scryfallId": "87a423ff-caa7-4827-a45d-85efed967cf8"
-            },
-            "language": "German",
-            "multiverseId": 681990,
-            "name": "Bastion der Erinnerung",
-            "text": "Wenn die Bastion der Erinnerung ins Spiel kommt, erzeuge einen 1/1 weißen Mensch-Soldat-Kreaturenspielstein.\nImmer wenn eine Kreatur, die du kontrollierst, stirbt, verliert jeder Gegner 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
-            "type": "Verzauberung",
-            "uuid": "c04d6e5f-3dff-59b5-b72d-37e9ecb8e0f1"
-          },
-          {
-            "flavorText": "Las vidas arrebatadas no son fáciles de olvidar.",
-            "identifiers": {
-              "multiverseId": "682107",
-              "scryfallId": "97cc42ec-1c1e-491c-9d5a-8107df26b814"
-            },
-            "language": "Spanish",
-            "multiverseId": 682107,
-            "name": "Bastión de los recuerdos",
-            "text": "Cuando el Bastión de los recuerdos entre, crea una ficha de criatura Soldado Humano blanca 1/1.\nSiempre que una criatura que controlas muera, cada oponente pierde 1 vida y tú ganas 1 vida.",
-            "type": "Encantamiento",
-            "uuid": "b7a1daf2-c20e-532f-a8ca-bc0602ec1969"
-          },
           {
             "flavorText": "Les vies ôtées ne sont pas vite oubliées.",
             "identifiers": {
@@ -912,9 +1013,28 @@
             "language": "French",
             "multiverseId": 682224,
             "name": "Bastion du souvenir",
+            "skuIds": {
+              "nonfoil": "e3579a08-8caa-5546-811a-0838e01ceeee"
+            },
             "text": "Quand le Bastion du souvenir arrive, créez un jeton de créature 1/1 blanche Humain et Soldat.\nÀ chaque fois qu'une créature que vous contrôlez meurt, chaque adversaire perd 1 point de vie et vous gagnez 1 point de vie.",
             "type": "Enchantement",
             "uuid": "5443b7ae-25ba-5db3-849a-ee09dae12e19"
+          },
+          {
+            "flavorText": "Genommene Leben sind Leben, die nicht leicht zu vergessen sind.",
+            "identifiers": {
+              "multiverseId": "681990",
+              "scryfallId": "87a423ff-caa7-4827-a45d-85efed967cf8"
+            },
+            "language": "German",
+            "multiverseId": 681990,
+            "name": "Bastion der Erinnerung",
+            "skuIds": {
+              "nonfoil": "9ed1a283-4f31-5c5a-be7e-de0b1eecf434"
+            },
+            "text": "Wenn die Bastion der Erinnerung ins Spiel kommt, erzeuge einen 1/1 weißen Mensch-Soldat-Kreaturenspielstein.\nImmer wenn eine Kreatur, die du kontrollierst, stirbt, verliert jeder Gegner 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
+            "type": "Verzauberung",
+            "uuid": "c04d6e5f-3dff-59b5-b72d-37e9ecb8e0f1"
           },
           {
             "flavorText": "Le vite strappate non si dimenticano facilmente.",
@@ -925,6 +1045,9 @@
             "language": "Italian",
             "multiverseId": 682341,
             "name": "Baluardo del Ricordo",
+            "skuIds": {
+              "nonfoil": "30147d73-52f3-509f-af05-c166358011c2"
+            },
             "text": "Quando il Baluardo del Ricordo entra, crea una pedina creatura Soldato Umano 1/1 bianca.\nOgniqualvolta una creatura che controlli muore, ogni avversario perde 1 punto vita e tu guadagni 1 punto vita.",
             "type": "Incantesimo",
             "uuid": "9d94151c-320e-598e-8da8-4da6ae4d173e"
@@ -938,14 +1061,31 @@
             "language": "Japanese",
             "multiverseId": 682458,
             "name": "想起の拠点",
+            "skuIds": {
+              "nonfoil": "b44359aa-ab73-5479-ad46-d825a7acf3c0"
+            },
             "text": "想起の拠点が戦場に出たとき、白の１/１の人間・兵士・クリーチャー・トークン１体を生成する。\nあなたがコントロールしているクリーチャー１体が死亡するたび、各対戦相手はそれぞれ１点のライフを失い、あなたは１点のライフを得る。",
             "type": "エンチャント",
             "uuid": "21899698-e449-511d-92e5-d57a8e23edfa"
+          },
+          {
+            "flavorText": "Las vidas arrebatadas no son fáciles de olvidar.",
+            "identifiers": {
+              "multiverseId": "682107",
+              "scryfallId": "97cc42ec-1c1e-491c-9d5a-8107df26b814"
+            },
+            "language": "Spanish",
+            "multiverseId": 682107,
+            "name": "Bastión de los recuerdos",
+            "skuIds": {
+              "nonfoil": "dab912d1-ad2b-5044-9842-39d931bd80c2"
+            },
+            "text": "Cuando el Bastión de los recuerdos entre, crea una ficha de criatura Soldado Humano blanca 1/1.\nSiempre que una criatura que controlas muera, cada oponente pierde 1 vida y tú ganas 1 vida.",
+            "type": "Encantamiento",
+            "uuid": "b7a1daf2-c20e-532f-a8ca-bc0602ec1969"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305551",
           "cardsphereId": "131163",
@@ -984,6 +1124,7 @@
         "name": "Bastion of Remembrance",
         "number": "403",
         "originalText": "When Bastion of Remembrance enters, create a 1/1 white Human Soldier creature token.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+        "originalType": "Enchantment",
         "printings": [
           "BLC",
           "CMM",
@@ -1002,6 +1143,11 @@
           "tcgplayer": "https://mtgjson.com/links/5c756f1ca84cd79b"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "f2c87685-37e9-5497-93ed-10a0bb33351a"
+          ]
+        },
         "rulings": [
           {
             "date": "2020-04-17",
@@ -1017,9 +1163,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b0e23563-8613-5905-baf6-6a4b670e2739"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1049,39 +1200,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11420,
+        "edhrecRank": 11721,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Among the pirates of the Brazen Coalition, the only thing more dangerous than failure is success.",
         "foreignData": [
-          {
-            "flavorText": "Die Piraten der Tollkühnen Koalition sagen: Versagen ist gefährlich, Erfolg ist lebensgefährlich.",
-            "identifiers": {
-              "multiverseId": "682009",
-              "scryfallId": "a154fca1-a7c9-495c-ae31-035b5a68ab66"
-            },
-            "language": "German",
-            "multiverseId": 682009,
-            "name": "Schreckensflotten-Räuberin",
-            "text": "Wenn die Schreckensflotten-Räuberin stirbt, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Mensch, Pirat",
-            "uuid": "edf957f3-7742-50c0-979e-1940a3496ce5"
-          },
-          {
-            "flavorText": "Entre los piratas de la Coalición Azófar, lo único más peligroso que el fracaso es el éxito.",
-            "identifiers": {
-              "multiverseId": "682126",
-              "scryfallId": "b2ec1457-6760-4497-9ded-162b9e03c28f"
-            },
-            "language": "Spanish",
-            "multiverseId": 682126,
-            "name": "Acaparadora de la Flota Arrasadora",
-            "text": "Cuando la Acaparadora de la Flota Arrasadora muera, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Pirata humano",
-            "uuid": "a62c1d7d-504a-5a4b-a197-cb7653ea046e"
-          },
           {
             "flavorText": "Chez les pirates de la Coalition des hardis, la seule chose plus dangereuse que l'échec est le succès.",
             "identifiers": {
@@ -1091,9 +1216,28 @@
             "language": "French",
             "multiverseId": 682243,
             "name": "Entasseuse de la Flotte implacable",
+            "skuIds": {
+              "nonfoil": "d767d2f5-194e-591d-bf83-a1f9e8230637"
+            },
             "text": "Quand l'Entasseuse de la Flotte implacable meurt, créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — humain et pirate",
             "uuid": "99310349-0d20-5268-b61c-fc5288701239"
+          },
+          {
+            "flavorText": "Die Piraten der Tollkühnen Koalition sagen: Versagen ist gefährlich, Erfolg ist lebensgefährlich.",
+            "identifiers": {
+              "multiverseId": "682009",
+              "scryfallId": "a154fca1-a7c9-495c-ae31-035b5a68ab66"
+            },
+            "language": "German",
+            "multiverseId": 682009,
+            "name": "Schreckensflotten-Räuberin",
+            "skuIds": {
+              "nonfoil": "32509c6a-3741-51fa-b9e5-352138905dbe"
+            },
+            "text": "Wenn die Schreckensflotten-Räuberin stirbt, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Mensch, Pirat",
+            "uuid": "edf957f3-7742-50c0-979e-1940a3496ce5"
           },
           {
             "flavorText": "Per i pirati dell'Alleanza di Bronzo, l'unica cosa più pericolosa del fallimento è il successo.",
@@ -1104,6 +1248,9 @@
             "language": "Italian",
             "multiverseId": 682360,
             "name": "Accaparratrice della Flotta Funesta",
+            "skuIds": {
+              "nonfoil": "8d6b646d-f121-5c8c-be66-9746fad3d8cb"
+            },
             "text": "Quando l'Accaparratrice della Flotta Funesta muore, crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Pirata Umano",
             "uuid": "df397856-98c8-569c-a542-f71bd79e3898"
@@ -1117,14 +1264,31 @@
             "language": "Japanese",
             "multiverseId": 682477,
             "name": "凶兆艦隊の貯め込み屋",
+            "skuIds": {
+              "nonfoil": "79119d53-c23d-5406-b1c4-f36f77f475fb"
+            },
             "text": "凶兆艦隊の貯め込み屋が死亡したとき、宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — 人間・海賊",
             "uuid": "dd2d70ac-2a62-5dfb-b722-b80d53c4f740"
+          },
+          {
+            "flavorText": "Entre los piratas de la Coalición Azófar, lo único más peligroso que el fracaso es el éxito.",
+            "identifiers": {
+              "multiverseId": "682126",
+              "scryfallId": "b2ec1457-6760-4497-9ded-162b9e03c28f"
+            },
+            "language": "Spanish",
+            "multiverseId": 682126,
+            "name": "Acaparadora de la Flota Arrasadora",
+            "skuIds": {
+              "nonfoil": "5771e958-f013-57f9-9d01-5247d35320f3"
+            },
+            "text": "Cuando la Acaparadora de la Flota Arrasadora muera, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Pirata humano",
+            "uuid": "a62c1d7d-504a-5a4b-a197-cb7653ea046e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305570",
           "cardsphereId": "131194",
@@ -1169,11 +1333,19 @@
         "name": "Dire Fleet Hoarder",
         "number": "422",
         "originalText": "When Dire Fleet Hoarder dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Human Pirate",
         "power": "2",
         "printings": [
           "2XM",
           "J25",
           "XLN"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/b3ff537e4c0c33e4",
@@ -1181,10 +1353,20 @@
           "tcgplayer": "https://mtgjson.com/links/f8eb0f6beac9003a"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e264842f-5efa-5813-b287-1484f46f306b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1218,36 +1400,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 1675,
+        "edhrecRank": 1548,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682027",
-              "scryfallId": "224b09a7-1b54-4c93-9b89-e68b7db32ec3"
-            },
-            "language": "German",
-            "multiverseId": 682027,
-            "name": "Tod vortäuschen",
-            "text": "Bis zum Ende des Zuges erhält eine Kreatur deiner Wahl +2/+0 und „Wenn diese Kreatur stirbt, bringe sie unter der Kontrolle ihres Besitzers getappt ins Spiel zurück und du erzeugst einen Schatz-Spielstein.\" (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Spontanzauber",
-            "uuid": "71e90d93-389a-563a-9a20-9be962728bd3"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682144",
-              "scryfallId": "deed64d1-8a49-47a0-998d-a3c8cdc3aaba"
-            },
-            "language": "Spanish",
-            "multiverseId": 682144,
-            "name": "Fingir tu propia muerte",
-            "text": "Hasta el final del turno, la criatura objetivo obtiene +2/+0 y gana \"Cuando esta criatura muera, regrésala al campo de batalla girada bajo el control de su propietario y tú creas una ficha de Tesoro\". (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Instantáneo",
-            "uuid": "3c64bcba-ef01-55d7-8fc7-e49cc5b14aa7"
-          },
           {
             "identifiers": {
               "multiverseId": "682261",
@@ -1256,9 +1414,27 @@
             "language": "French",
             "multiverseId": 682261,
             "name": "Simulez votre propre mort",
+            "skuIds": {
+              "nonfoil": "ab19defe-1783-5bff-b097-98a80e54934c"
+            },
             "text": "Jusqu'à la fin du tour, une créature ciblée gagne +2/+0 et acquiert « Quand cette créature meurt, renvoyez-la sur le champ de bataille engagée sous le contrôle de son propriétaire et vous créez un jeton Trésor. » (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Éphémère",
             "uuid": "aa4a39e4-367b-57e8-9ed8-c98d01a6ab2b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682027",
+              "scryfallId": "224b09a7-1b54-4c93-9b89-e68b7db32ec3"
+            },
+            "language": "German",
+            "multiverseId": 682027,
+            "name": "Tod vortäuschen",
+            "skuIds": {
+              "nonfoil": "486e191e-b8b0-59f8-bf8d-2101a66170ff"
+            },
+            "text": "Bis zum Ende des Zuges erhält eine Kreatur deiner Wahl +2/+0 und „Wenn diese Kreatur stirbt, bringe sie unter der Kontrolle ihres Besitzers getappt ins Spiel zurück und du erzeugst einen Schatz-Spielstein.\" (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Spontanzauber",
+            "uuid": "71e90d93-389a-563a-9a20-9be962728bd3"
           },
           {
             "identifiers": {
@@ -1268,6 +1444,9 @@
             "language": "Italian",
             "multiverseId": 682378,
             "name": "Inscenare la Morte",
+            "skuIds": {
+              "nonfoil": "baac772f-f8cb-54a2-913c-7f026bcd43fb"
+            },
             "text": "Fino alla fine del turno, una creatura bersaglio prende +2/+0 e ha \"Quando questa creatura muore, rimettila sul campo di battaglia TAPpata sotto il controllo del suo proprietario e crea una pedina Tesoro\". (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Istantaneo",
             "uuid": "8cc787c3-d4d5-5d86-acc3-9a6efd5bd4e8"
@@ -1280,14 +1459,30 @@
             "language": "Japanese",
             "multiverseId": 682495,
             "name": "死の偽装",
+            "skuIds": {
+              "nonfoil": "1f3478df-460d-565b-9bab-c1eff6a571b6"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋０の修整を受け、「このクリーチャーが死亡したとき、これをオーナーのコントロール下でタップ状態で戦場に戻し、あなたは宝物・トークン１つを生成する。」を得る。（それは「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "インスタント",
             "uuid": "9fd9df9a-a081-589c-bf4a-b387a4ce1b51"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682144",
+              "scryfallId": "deed64d1-8a49-47a0-998d-a3c8cdc3aaba"
+            },
+            "language": "Spanish",
+            "multiverseId": 682144,
+            "name": "Fingir tu propia muerte",
+            "skuIds": {
+              "nonfoil": "bacf711c-e683-5a56-8445-a2040c160694"
+            },
+            "text": "Hasta el final del turno, la criatura objetivo obtiene +2/+0 y gana \"Cuando esta criatura muera, regrésala al campo de batalla girada bajo el control de su propietario y tú creas una ficha de Tesoro\". (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Instantáneo",
+            "uuid": "3c64bcba-ef01-55d7-8fc7-e49cc5b14aa7"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305779",
           "cardsphereId": "131255",
@@ -1335,11 +1530,19 @@
         "name": "Fake Your Own Death",
         "number": "440",
         "originalText": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Instant",
         "printings": [
           "FDN",
           "J25",
           "OTJ",
           "SNC"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/de4efabca7d03adc",
@@ -1347,6 +1550,11 @@
           "tcgplayer": "https://mtgjson.com/links/fd3895b006814d1a"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2022-04-29",
@@ -1358,9 +1566,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2e5ef3a6-4888-5241-8e71-705dd83a5ccf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1390,39 +1603,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 245,
+        "edhrecRank": 235,
         "edhrecSaltiness": 0.71,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Shame to let good gold go to the grave.\"",
         "foreignData": [
-          {
-            "flavorText": "„Als Grabbeigabe wäre das Gold doch verschwendet.\"",
-            "identifiers": {
-              "multiverseId": "682063",
-              "scryfallId": "f4acbd0f-95e3-4b82-aa3c-298de4f16907"
-            },
-            "language": "German",
-            "multiverseId": 682063,
-            "name": "Erbarmungsloser Plünderer",
-            "text": "Immer wenn eine andere Kreatur, die du kontrollierst, stirbt, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Mensch, Pirat",
-            "uuid": "4a47f37d-ab5e-50d2-80cc-4cf3b183e154"
-          },
-          {
-            "flavorText": "\"Sería una lástima que un oro tan bueno acabara en una tumba\".",
-            "identifiers": {
-              "multiverseId": "682180",
-              "scryfallId": "1c0f6984-a1db-4add-b7eb-afca9e4ec977"
-            },
-            "language": "Spanish",
-            "multiverseId": 682180,
-            "name": "Saqueador despiadado",
-            "text": "Siempre que otra criatura que controlas muera, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Pirata humano",
-            "uuid": "104ad8a5-a4bb-54ef-97b2-76c74cb89e11"
-          },
           {
             "flavorText": "« Il serait dommage de laisser du bel or à la tombe. »",
             "identifiers": {
@@ -1432,9 +1619,28 @@
             "language": "French",
             "multiverseId": 682297,
             "name": "Saccageur impitoyable",
+            "skuIds": {
+              "nonfoil": "5b5e9c21-ec52-5d11-b3df-ecb954e50394"
+            },
             "text": "À chaque fois qu'une autre créature que vous contrôlez meurt, créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — humain et pirate",
             "uuid": "6e3083ff-74d7-5f4c-8b20-ad51129b2289"
+          },
+          {
+            "flavorText": "„Als Grabbeigabe wäre das Gold doch verschwendet.\"",
+            "identifiers": {
+              "multiverseId": "682063",
+              "scryfallId": "f4acbd0f-95e3-4b82-aa3c-298de4f16907"
+            },
+            "language": "German",
+            "multiverseId": 682063,
+            "name": "Erbarmungsloser Plünderer",
+            "skuIds": {
+              "nonfoil": "72e2eeac-d4c5-553b-b1ae-d48eb2c010bc"
+            },
+            "text": "Immer wenn eine andere Kreatur, die du kontrollierst, stirbt, erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Mensch, Pirat",
+            "uuid": "4a47f37d-ab5e-50d2-80cc-4cf3b183e154"
           },
           {
             "flavorText": "\"Sarebbe un peccato lasciare che dell'oro prezioso finisca in una tomba.\"",
@@ -1445,6 +1651,9 @@
             "language": "Italian",
             "multiverseId": 682414,
             "name": "Saccheggiatore Impietoso",
+            "skuIds": {
+              "nonfoil": "85030d84-ac55-5e62-907b-8f674ac12285"
+            },
             "text": "Ogniqualvolta un'altra creatura che controlli muore, crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Pirata Umano",
             "uuid": "1705e6b6-ce50-5695-b480-d72225a1abf2"
@@ -1458,14 +1667,31 @@
             "language": "Japanese",
             "multiverseId": 682531,
             "name": "無慈悲な略奪者",
+            "skuIds": {
+              "nonfoil": "db4b8710-6012-5409-a7c7-01bb1a3ed07c"
+            },
             "text": "あなたがコントロールしていてこれでないクリーチャー１体が死亡するたび、宝物・トークン１つを生成する。（それは、「{T},このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — 人間・海賊",
             "uuid": "b42c09f4-8d66-5380-8431-d5d8754d3059"
+          },
+          {
+            "flavorText": "\"Sería una lástima que un oro tan bueno acabara en una tumba\".",
+            "identifiers": {
+              "multiverseId": "682180",
+              "scryfallId": "1c0f6984-a1db-4add-b7eb-afca9e4ec977"
+            },
+            "language": "Spanish",
+            "multiverseId": 682180,
+            "name": "Saqueador despiadado",
+            "skuIds": {
+              "nonfoil": "1475995a-eef2-5e2a-b8a8-6f0a13f587d8"
+            },
+            "text": "Siempre que otra criatura que controlas muera, crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Pirata humano",
+            "uuid": "104ad8a5-a4bb-54ef-97b2-76c74cb89e11"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305815",
           "cardsphereId": "131219",
@@ -1507,6 +1733,7 @@
         "name": "Pitiless Plunderer",
         "number": "476",
         "originalText": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Human Pirate",
         "power": "1",
         "printings": [
           "FIC",
@@ -1519,12 +1746,24 @@
           "SLD",
           "SPG"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a62c54061c990194",
           "cardmarket": "https://mtgjson.com/links/1e23bcc69d1fd061",
           "tcgplayer": "https://mtgjson.com/links/5b9aa70271249392"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2018-01-19",
@@ -1532,9 +1771,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a8e1811e-d908-53dc-8fa7-5d722ca9104b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1568,39 +1812,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 768,
+        "edhrecRank": 765,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"They may show up with the wrong thigh bone or mandible, but they always show up.\"\n—Zul Ashur, lich lord",
         "foreignData": [
-          {
-            "flavorText": "„Manchmal kommen sie mit einem falschen Schenkelknochen oder einem schiefen Kiefer daher, aber sie tauchen immer wieder auf.\"\n—Zul Ashur, Lichfürst",
-            "identifiers": {
-              "multiverseId": "682068",
-              "scryfallId": "65eeb6e8-5975-4fde-aa3e-be57fae187cf"
-            },
-            "language": "German",
-            "multiverseId": 682068,
-            "name": "Wieder aufstehendes Skelett",
-            "text": "{1}{B}: Bringe das Wieder aufstehende Skelett aus deinem Friedhof getappt ins Spiel zurück.",
-            "type": "Kreatur — Skelett, Krieger",
-            "uuid": "bcd950f5-4da8-57d3-8d48-03324a4577f0"
-          },
-          {
-            "flavorText": "\"Puede que aparezcan con un hueso mal puesto o sin la mandíbula, pero siempre aparecen\".\n—Zul Ashur, señora liche",
-            "identifiers": {
-              "multiverseId": "682185",
-              "scryfallId": "4d0cd5d2-7e2e-4fbc-a4ed-98c749d94f9c"
-            },
-            "language": "Spanish",
-            "multiverseId": 682185,
-            "name": "Esqueleto reconstruyéndose",
-            "text": "{1}{B}: Regresa el Esqueleto reconstruyéndose de tu cementerio al campo de batalla girado.",
-            "type": "Criatura — Guerrero esqueleto",
-            "uuid": "71220055-f000-513f-bbcf-8ee66440d51e"
-          },
           {
             "flavorText": "« Ils ont parfois le mauvais fémur ou la mauvaise mâchoire, mais ils viennent toujours. »\n—Zul Ashur, seigneur liche",
             "identifiers": {
@@ -1610,9 +1828,28 @@
             "language": "French",
             "multiverseId": 682302,
             "name": "Squelette réassemblable",
+            "skuIds": {
+              "nonfoil": "f6b8e898-4236-5d35-bc8a-14b03aff2f6f"
+            },
             "text": "{1}{B} : Renvoyez sur le champ de bataille, engagé, le Squelette réassemblable depuis votre cimetière.",
             "type": "Créature — squelette et guerrier",
             "uuid": "c55d7fe4-5ca2-575c-b81a-7f7604c41402"
+          },
+          {
+            "flavorText": "„Manchmal kommen sie mit einem falschen Schenkelknochen oder einem schiefen Kiefer daher, aber sie tauchen immer wieder auf.\"\n—Zul Ashur, Lichfürst",
+            "identifiers": {
+              "multiverseId": "682068",
+              "scryfallId": "65eeb6e8-5975-4fde-aa3e-be57fae187cf"
+            },
+            "language": "German",
+            "multiverseId": 682068,
+            "name": "Wieder aufstehendes Skelett",
+            "skuIds": {
+              "nonfoil": "7cc818e7-8972-527a-a482-792d1d923aab"
+            },
+            "text": "{1}{B}: Bringe das Wieder aufstehende Skelett aus deinem Friedhof getappt ins Spiel zurück.",
+            "type": "Kreatur — Skelett, Krieger",
+            "uuid": "bcd950f5-4da8-57d3-8d48-03324a4577f0"
           },
           {
             "flavorText": "\"Possono farsi vivi con il femore o la mandibola sbagliati, ma si fanno sempre vivi.\"\n—Zul Ashur, signore dei lich",
@@ -1623,6 +1860,9 @@
             "language": "Italian",
             "multiverseId": 682419,
             "name": "Scheletro Riassemblato",
+            "skuIds": {
+              "nonfoil": "f9b3a9a4-782c-547c-9652-c29405435045"
+            },
             "text": "{1}{B}: Rimetti sul campo di battaglia lo Scheletro Riassemblato TAPpato dal tuo cimitero.",
             "type": "Creatura — Guerriero Scheletro",
             "uuid": "1600708d-0e8a-5273-ac51-64611033329c"
@@ -1636,14 +1876,31 @@
             "language": "Japanese",
             "multiverseId": 682536,
             "name": "組み直しの骸骨",
+            "skuIds": {
+              "nonfoil": "712acab0-fc63-5ee3-bcc0-2e12546381a3"
+            },
             "text": "{1}{B}：あなたの墓地にある組み直しの骸骨をタップ状態で戦場に戻す。",
             "type": "クリーチャー — スケルトン・戦士",
             "uuid": "045c42da-eb5e-5d1b-8d6b-f55f5db9d264"
+          },
+          {
+            "flavorText": "\"Puede que aparezcan con un hueso mal puesto o sin la mandíbula, pero siempre aparecen\".\n—Zul Ashur, señora liche",
+            "identifiers": {
+              "multiverseId": "682185",
+              "scryfallId": "4d0cd5d2-7e2e-4fbc-a4ed-98c749d94f9c"
+            },
+            "language": "Spanish",
+            "multiverseId": 682185,
+            "name": "Esqueleto reconstruyéndose",
+            "skuIds": {
+              "nonfoil": "2c1be3ef-e17a-587b-8f24-be3c874627e5"
+            },
+            "text": "{1}{B}: Regresa el Esqueleto reconstruyéndose de tu cementerio al campo de batalla girado.",
+            "type": "Criatura — Guerrero esqueleto",
+            "uuid": "71220055-f000-513f-bbcf-8ee66440d51e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305820",
           "cardsphereId": "131215",
@@ -1675,6 +1932,7 @@
           "legacy": "Legal",
           "modern": "Legal",
           "oathbreaker": "Legal",
+          "penny": "Legal",
           "pioneer": "Legal",
           "predh": "Legal",
           "standard": "Legal",
@@ -1687,6 +1945,7 @@
         "name": "Reassembling Skeleton",
         "number": "481",
         "originalText": "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.",
+        "originalType": "Creature – Skeleton Warrior",
         "power": "1",
         "printings": [
           "AFC",
@@ -1714,9 +1973,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e2924c3d-eab1-5a33-bad3-bc954b1c37d9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1750,39 +2014,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 7652,
+        "edhrecRank": 8299,
         "edhrecSaltiness": 0.25,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"This scum is barely worth the trouble.\"",
         "foreignData": [
-          {
-            "flavorText": "„Dieser Abschaum ist den Ärger gar nicht wert.\"",
-            "identifiers": {
-              "multiverseId": "682070",
-              "scryfallId": "47b27b03-ed7a-42cb-97f8-1ec51e37c830"
-            },
-            "language": "German",
-            "multiverseId": 682070,
-            "name": "Skrupelloses Schlitzohr",
-            "text": "{2}{B}, opfere eine Kreatur: Erzeuge zwei Schatz-Spielsteine. (Sie sind Artefakte mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")\nOpfere drei Schätze: Ziehe eine Karte.",
-            "type": "Kreatur — Ork, Pirat",
-            "uuid": "16dd0854-4377-5d21-924b-ed30a4afedb9"
-          },
-          {
-            "flavorText": "\"Este gusano apenas se merece el esfuerzo de aplastarlo\".",
-            "identifiers": {
-              "multiverseId": "682187",
-              "scryfallId": "11b02de8-0520-4f7b-850d-506bd6c081c4"
-            },
-            "language": "Spanish",
-            "multiverseId": 682187,
-            "name": "Canalla despiadado",
-            "text": "{2}{B}, sacrificar una criatura: Crea dos fichas de Tesoro. (Son artefactos con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)\nSacrificar tres Tesoros: Roba una carta.",
-            "type": "Criatura — Pirata orco",
-            "uuid": "089898a8-19c8-5bf4-8d5c-002837728793"
-          },
           {
             "flavorText": "« Cette racaille n'en vaut presque pas le coup. »",
             "identifiers": {
@@ -1792,9 +2030,28 @@
             "language": "French",
             "multiverseId": 682304,
             "name": "Forban impitoyable",
+            "skuIds": {
+              "nonfoil": "ab2d6500-a868-5b36-af29-65f04ffe25e5"
+            },
             "text": "{2}{B}, sacrifiez une créature : Créez deux jetons Trésor. (Ce sont des artefacts avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)\nSacrifiez trois trésors : Piochez une carte.",
             "type": "Créature — orque et pirate",
             "uuid": "61371d3f-1374-512c-a76c-fb9bbac7b86f"
+          },
+          {
+            "flavorText": "„Dieser Abschaum ist den Ärger gar nicht wert.\"",
+            "identifiers": {
+              "multiverseId": "682070",
+              "scryfallId": "47b27b03-ed7a-42cb-97f8-1ec51e37c830"
+            },
+            "language": "German",
+            "multiverseId": 682070,
+            "name": "Skrupelloses Schlitzohr",
+            "skuIds": {
+              "nonfoil": "680e1749-43d6-5580-92c1-b97c9e4bc02a"
+            },
+            "text": "{2}{B}, opfere eine Kreatur: Erzeuge zwei Schatz-Spielsteine. (Sie sind Artefakte mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")\nOpfere drei Schätze: Ziehe eine Karte.",
+            "type": "Kreatur — Ork, Pirat",
+            "uuid": "16dd0854-4377-5d21-924b-ed30a4afedb9"
           },
           {
             "flavorText": "\"Non ne vale quasi la pena, per questa feccia.\"",
@@ -1805,6 +2062,9 @@
             "language": "Italian",
             "multiverseId": 682421,
             "name": "Furfante Spietato",
+            "skuIds": {
+              "nonfoil": "f6a74df2-0d92-5b1e-8b25-20938fa1468c"
+            },
             "text": "{2}{B}, Sacrifica una creatura: Crea due pedine Tesoro. (Sono artefatti con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)\nSacrifica tre Tesori: Pesca una carta.",
             "type": "Creatura — Pirata Orco",
             "uuid": "4600f814-2677-580c-9333-4e89277410aa"
@@ -1818,14 +2078,31 @@
             "language": "Japanese",
             "multiverseId": 682538,
             "name": "無情な無頼漢",
+            "skuIds": {
+              "nonfoil": "7c318c27-21f9-55bb-9117-e9f023b48598"
+            },
             "text": "{2}{B}, クリーチャー１体を生け贄に捧げる：宝物・トークン２つを生成する。（それらは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）\n宝物３つを生け贄に捧げる：カード１枚を引く。",
             "type": "クリーチャー — オーク・海賊",
             "uuid": "d953ff2b-3c56-5869-ba68-707ddb1378a2"
+          },
+          {
+            "flavorText": "\"Este gusano apenas se merece el esfuerzo de aplastarlo\".",
+            "identifiers": {
+              "multiverseId": "682187",
+              "scryfallId": "11b02de8-0520-4f7b-850d-506bd6c081c4"
+            },
+            "language": "Spanish",
+            "multiverseId": 682187,
+            "name": "Canalla despiadado",
+            "skuIds": {
+              "nonfoil": "f49cb716-6302-5760-b66a-977885d9f42a"
+            },
+            "text": "{2}{B}, sacrificar una criatura: Crea dos fichas de Tesoro. (Son artefactos con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)\nSacrificar tres Tesoros: Roba una carta.",
+            "type": "Criatura — Pirata orco",
+            "uuid": "089898a8-19c8-5bf4-8d5c-002837728793"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305822",
           "cardsphereId": "131213",
@@ -1868,11 +2145,19 @@
         "name": "Ruthless Knave",
         "number": "483",
         "originalText": "{2}{B}, Sacrifice a creature: Create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")\nSacrifice three Treasures: Draw a card.",
+        "originalType": "Creature – Orc Pirate",
         "power": "3",
         "printings": [
           "J25",
           "PLST",
           "XLN"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/14d3ade2615ed693",
@@ -1880,6 +2165,11 @@
           "tcgplayer": "https://mtgjson.com/links/37853c8a054d98ff"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "rulings": [
           {
             "date": "2017-09-29",
@@ -1891,9 +2181,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "33118b11-37a2-5d76-a862-6bfcaeffc9aa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1927,39 +2222,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 10625,
+        "edhrecRank": 11184,
         "edhrecSaltiness": 0.07,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"That will pay for another arm extension all by itself! Well, as long as it doesn't explode.\"",
         "foreignData": [
-          {
-            "flavorText": "„Das reicht ganz leicht für eine weitere Armverlängerung! Na ja, solange es nicht explodiert.\"",
-            "identifiers": {
-              "multiverseId": "682088",
-              "scryfallId": "7fe1608a-4a6a-47da-a1f6-c435a0441b8a"
-            },
-            "language": "German",
-            "multiverseId": 682088,
-            "name": "Unterstadt-Leichensammlerin",
-            "text": "{T}: Erzeuge einen Schatz-Spielstein. Aktiviere diese Fähigkeit nur, falls in diesem Zug eine Kreatur gestorben ist. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Artefaktkreatur — Mensch, Räuber",
-            "uuid": "44bc316e-f9d1-558f-bd50-03977417cdee"
-          },
-          {
-            "flavorText": "\"¡Con esto podré pagarme otra extensión del brazo! Bueno, siempre y cuando no explote\".",
-            "identifiers": {
-              "multiverseId": "682205",
-              "scryfallId": "86ced5bd-89a0-4ca3-b3ac-05426b475b8a"
-            },
-            "language": "Spanish",
-            "multiverseId": 682205,
-            "name": "Rapiñadora de la subciudad",
-            "text": "{T}: Crea una ficha de Tesoro. Activa esto solo si una criatura murió este turno. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura artefacto — Bribón humano",
-            "uuid": "433789a5-69f4-5d97-8eed-4654a06ee9cf"
-          },
           {
             "flavorText": "« Cela paiera une extension de bras complète ! Enfin, sauf si ça explose. »",
             "identifiers": {
@@ -1969,9 +2238,28 @@
             "language": "French",
             "multiverseId": 682322,
             "name": "Fouineur des tréfonds",
+            "skuIds": {
+              "nonfoil": "8e1e85cc-246b-50fe-a99b-0300e7e7c57c"
+            },
             "text": "{T} : Créez un jeton Trésor. N'activez que si une créature est morte ce tour-ci. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature-artefact — humain et gredin",
             "uuid": "18204fc0-0dea-5ebf-8357-d31d4c6c8c3e"
+          },
+          {
+            "flavorText": "„Das reicht ganz leicht für eine weitere Armverlängerung! Na ja, solange es nicht explodiert.\"",
+            "identifiers": {
+              "multiverseId": "682088",
+              "scryfallId": "7fe1608a-4a6a-47da-a1f6-c435a0441b8a"
+            },
+            "language": "German",
+            "multiverseId": 682088,
+            "name": "Unterstadt-Leichensammlerin",
+            "skuIds": {
+              "nonfoil": "d162eb8a-7bff-58bb-afd4-0bb50c140c38"
+            },
+            "text": "{T}: Erzeuge einen Schatz-Spielstein. Aktiviere diese Fähigkeit nur, falls in diesem Zug eine Kreatur gestorben ist. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Artefaktkreatur — Mensch, Räuber",
+            "uuid": "44bc316e-f9d1-558f-bd50-03977417cdee"
           },
           {
             "flavorText": "\"Con questo mi pagherò un'altra estensione del braccio! Beh, sempre che non esploda.\"",
@@ -1982,6 +2270,9 @@
             "language": "Italian",
             "multiverseId": 682439,
             "name": "Sciacalla della Città Sepolta",
+            "skuIds": {
+              "nonfoil": "f2d74eef-39e0-508b-9604-9bcf20d6fb9d"
+            },
             "text": "{T}: Crea una pedina Tesoro. Attiva solo se è morta una creatura in questo turno. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura Artefatto — Farabutto Umano",
             "uuid": "b8284cdf-79ff-5103-97c9-acae2de0f390"
@@ -1995,14 +2286,31 @@
             "language": "Japanese",
             "multiverseId": 682556,
             "name": "地下街のたかり屋",
+            "skuIds": {
+              "nonfoil": "ea9e9cc9-150c-512e-ae88-01f36c18c619"
+            },
             "text": "{T}：宝物・トークン１つを生成する。このターンにクリーチャーが死亡していなければ起動できない。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "アーティファクト・クリーチャー — 人間・ならず者",
             "uuid": "dae8df61-84bf-5308-81bd-1bee60bea6cc"
+          },
+          {
+            "flavorText": "\"¡Con esto podré pagarme otra extensión del brazo! Bueno, siempre y cuando no explote\".",
+            "identifiers": {
+              "multiverseId": "682205",
+              "scryfallId": "86ced5bd-89a0-4ca3-b3ac-05426b475b8a"
+            },
+            "language": "Spanish",
+            "multiverseId": 682205,
+            "name": "Rapiñadora de la subciudad",
+            "skuIds": {
+              "nonfoil": "164a73ba-a375-55d7-9ad7-5107a9b50840"
+            },
+            "text": "{T}: Crea una ficha de Tesoro. Activa esto solo si una criatura murió este turno. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura artefacto — Bribón humano",
+            "uuid": "433789a5-69f4-5d97-8eed-4654a06ee9cf"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305840",
           "cardsphereId": "131187",
@@ -2046,10 +2354,18 @@
         "name": "Undercity Scrounger",
         "number": "501",
         "originalText": "{T}: Create a Treasure token. Activate only if a creature died this turn. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Artifact Creature – Human Rogue",
         "power": "1",
         "printings": [
           "J25",
           "NEO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/623a72c046f848f3",
@@ -2057,10 +2373,20 @@
           "tcgplayer": "https://mtgjson.com/links/022231402f640d88"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bccb381d-6005-5c43-9368-b22508f8f19a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2093,39 +2419,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
-          {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
-            "identifiers": {
-              "multiverseId": "684060",
-              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
-            },
-            "language": "German",
-            "multiverseId": 684060,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "684099",
-              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684099,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
-          },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
             "identifiers": {
@@ -2135,9 +2435,28 @@
             "language": "French",
             "multiverseId": 684138,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "add59bbe-0b4b-5e14-9a6a-47bf39042209"
+            },
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "684060",
+              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
+            },
+            "language": "German",
+            "multiverseId": 684060,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "afbea6f1-e976-504e-b830-36843d57a647"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2148,6 +2467,9 @@
             "language": "Italian",
             "multiverseId": 684177,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "01ccf6ce-a9b3-5200-950b-077f06168b6c"
+            },
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
@@ -2161,14 +2483,31 @@
             "language": "Japanese",
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "66dadb12-235f-57b1-8a05-6ca3b2f2374f"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
+          },
+          {
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
+            "identifiers": {
+              "multiverseId": "684099",
+              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684099,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "2fc2ec38-fc7e-549d-bddc-8eccb2fc0db9"
+            },
+            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306118",
           "cardsphereId": "130620",
@@ -2206,11 +2545,13 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2218,7 +2559,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ea3b0ea9ac38ec4",
@@ -2227,9 +2576,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77f55632-6902-5207-821a-0a16defe007e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2264,36 +2618,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2303,6 +2652,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -2314,18 +2666,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -2338,7 +2706,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2366,6 +2733,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2435,6 +2803,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2594,15 +2963,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2618,8 +2996,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -2645,36 +3023,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681258",
-              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
-            },
-            "language": "German",
-            "multiverseId": 681258,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681273",
-              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
-            },
-            "language": "Spanish",
-            "multiverseId": 681273,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681288",
               "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
             },
             "language": "French",
             "multiverseId": 681288,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "58cc2114-ff20-5b2b-8243-fe9c71444056"
+            },
             "type": "Terrain de base — marais",
             "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "df8c56c8-2c52-5f7c-a0f9-dc007b453cc8"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
           },
           {
             "identifiers": {
@@ -2684,6 +3057,9 @@
             "language": "Italian",
             "multiverseId": 681303,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "38762243-399f-5806-a2ff-72b8eafa5764"
+            },
             "type": "Terra Base — Palude",
             "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
           },
@@ -2695,18 +3071,34 @@
             "language": "Japanese",
             "multiverseId": 681318,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "bac3b3f5-1e4f-53d2-b37d-f29f8830f1b3"
+            },
             "type": "基本土地 — 沼",
             "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "012c01ef-0c6c-5f00-8ee3-cc9ed0399fa5"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305222",
           "cardsphereId": "131378",
           "deckboxId": "98082",
           "mcmId": "795509",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95173",
           "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
           "multiverseId": "681243",
@@ -2719,7 +3111,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2747,6 +3138,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "88",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2816,6 +3208,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2975,15 +3368,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "cardmarket": "https://mtgjson.com/links/d72081b51f72a9fd",
           "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0f6de19-a0e0-5f46-b789-722db3f3d050"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2999,8 +3401,8 @@
         ],
         "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
         "variations": [
-          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338"
         ]
       },
       {
@@ -3026,36 +3428,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681259",
-              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
-            },
-            "language": "German",
-            "multiverseId": 681259,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681274",
-              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681274,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681289",
               "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
             },
             "language": "French",
             "multiverseId": 681289,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "83eec502-7b1d-59a8-9981-d0be754718c4"
+            },
             "type": "Terrain de base — marais",
             "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "8273f910-cf00-5709-878e-3650541afce7"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
           },
           {
             "identifiers": {
@@ -3065,6 +3462,9 @@
             "language": "Italian",
             "multiverseId": 681304,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "a84aa32a-8785-528e-ad51-add235859b0f"
+            },
             "type": "Terra Base — Palude",
             "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
           },
@@ -3076,18 +3476,34 @@
             "language": "Japanese",
             "multiverseId": 681319,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "f946fc76-6b28-53a6-bfdb-03572ac6abf9"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "a560fadb-19ac-5380-a675-5ea7a7ced15c"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305223",
           "cardsphereId": "131379",
           "deckboxId": "98083",
           "mcmId": "795510",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95174",
           "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
           "multiverseId": "681244",
@@ -3100,7 +3516,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3128,6 +3543,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "89",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3197,6 +3613,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3356,15 +3773,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "cardmarket": "https://mtgjson.com/links/c5cffa7bb040b1df",
           "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "218449c3-8e95-5b56-a14d-e3c30f76d304"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3396,5 +3822,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "ff103b1add5be9"
   }
 }

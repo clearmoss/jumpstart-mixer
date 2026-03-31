@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "3149dffd041f95"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -29,36 +24,12 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11705,
+        "edhrecRank": 11228,
         "edhrecSaltiness": 0.54,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680967",
-              "scryfallId": "839d358d-a087-4bcd-815e-db43a712abee"
-            },
-            "language": "German",
-            "multiverseId": 680967,
-            "name": "Aphelia die Schlangenflüsterin",
-            "text": "Todesberührung\nImmer wenn Aphelia angreift, kannst du {1}{B/G} bezahlen. Falls du dies tust, erzeuge einen 1/1 schwarzen Ophis-Kreaturenspielstein mit Todesberührung.\n{4}{B}: Immer wenn bis zum Ende des Zuges eine oder mehrere Gorgos und/oder Ophis, die du kontrollierst, einem Spieler Kampfschaden zufügen, verliert der Spieler die Hälfte seiner Lebenspunkte, aufgerundet.",
-            "type": "Legendäre Kreatur — Gorgo, Assassine",
-            "uuid": "3eef747a-8986-56a4-82da-ac508113c90a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680994",
-              "scryfallId": "4e411189-f7c9-40d6-8594-6ed5472e9769"
-            },
-            "language": "Spanish",
-            "multiverseId": 680994,
-            "name": "Aphelia, encantadora de víboras",
-            "text": "Toque mortal.\nSiempre que Aphelia ataque, puedes pagar {1}{B/G}. Si lo haces, crea una ficha de criatura Víbora negra 1/1 con la habilidad de toque mortal.\n{4}{B}: Hasta el final del turno, siempre que una o más Gorgonas y/o Víboras que controlas hagan daño de combate a un jugador, ese jugador pierde la mitad de sus vidas, redondeando hacia arriba.",
-            "type": "Criatura legendaria — Asesino gorgona",
-            "uuid": "12aae858-2f6e-5c4c-93df-2d24a90a17f9"
-          },
           {
             "identifiers": {
               "multiverseId": "681021",
@@ -67,9 +38,27 @@
             "language": "French",
             "multiverseId": 681021,
             "name": "Aphelia, celle qui chuchote aux vipères",
+            "skuIds": {
+              "nonfoil": "5a49cc33-f9ea-5e6e-b09a-626ab414904b"
+            },
             "text": "Contact mortel\nÀ chaque fois qu'Aphelia attaque, vous pouvez payer {1}{B/G}. Si vous faites ainsi, créez un jeton de créature 1/1 noire Serpent avec le contact mortel.\n{4}{B} : Jusqu'à la fin du tour, à chaque fois qu'au moins une gorgonoïde et/ou un serpent que vous contrôlez inflige des blessures de combat à un joueur, ce joueur perd la moitié de ses points de vie, arrondie à l'unité supérieure.",
             "type": "Créature légendaire — gorgonoïde et assassin",
             "uuid": "7c5fd51e-6b9a-507a-94c8-d20f9a0986b9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680967",
+              "scryfallId": "839d358d-a087-4bcd-815e-db43a712abee"
+            },
+            "language": "German",
+            "multiverseId": 680967,
+            "name": "Aphelia die Schlangenflüsterin",
+            "skuIds": {
+              "nonfoil": "ea64f81b-4621-553d-aa1d-74d40b7264fe"
+            },
+            "text": "Todesberührung\nImmer wenn Aphelia angreift, kannst du {1}{B/G} bezahlen. Falls du dies tust, erzeuge einen 1/1 schwarzen Ophis-Kreaturenspielstein mit Todesberührung.\n{4}{B}: Immer wenn bis zum Ende des Zuges eine oder mehrere Gorgos und/oder Ophis, die du kontrollierst, einem Spieler Kampfschaden zufügen, verliert der Spieler die Hälfte seiner Lebenspunkte, aufgerundet.",
+            "type": "Legendäre Kreatur — Gorgo, Assassine",
+            "uuid": "3eef747a-8986-56a4-82da-ac508113c90a"
           },
           {
             "identifiers": {
@@ -79,6 +68,9 @@
             "language": "Italian",
             "multiverseId": 681048,
             "name": "Aphelia, Sussurratrice di Vipere",
+            "skuIds": {
+              "nonfoil": "b2fec295-5baa-59a0-bb53-8dc68498b415"
+            },
             "text": "Tocco letale\nOgniqualvolta Aphelia attacca, puoi pagare {1}{B/G}. Se lo fai, crea una pedina creatura Serpente 1/1 nera con tocco letale.\n{4}{B}: Fino alla fine del turno, ogniqualvolta uno o più Gorgoni e/o Serpenti che controlli infliggono danno da combattimento a un giocatore, quel giocatore perde metà dei suoi punti vita, arrotondati per eccesso.",
             "type": "Creatura Leggendaria — Assassino Gorgone",
             "uuid": "14c05b59-5979-5894-b59b-70025e274765"
@@ -91,17 +83,33 @@
             "language": "Japanese",
             "multiverseId": 681075,
             "name": "囁く毒蛇、アフェリア",
+            "skuIds": {
+              "nonfoil": "96c241b0-4155-5a72-9d0a-1a3575b37827"
+            },
             "text": "接死\nこれが攻撃するたび、{1}{B/G}を支払ってもよい。そうしたなら、接死を持つ黒の１/１の蛇・クリーチャー・トークン１体を生成する。\n{4}{B}：ターン終了時まで、あなたがコントロールしていてゴルゴンや蛇である１体以上がプレイヤー１人に戦闘ダメージを与えるたび、そのプレイヤーは自分のライフの端数を切り上げた半分の点数のライフを失う。",
             "type": "伝説のクリーチャー — ゴルゴン・暗殺者",
             "uuid": "127c2972-49a1-55d3-ad8a-e44002db82e9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680994",
+              "scryfallId": "4e411189-f7c9-40d6-8594-6ed5472e9769"
+            },
+            "language": "Spanish",
+            "multiverseId": 680994,
+            "name": "Aphelia, encantadora de víboras",
+            "skuIds": {
+              "nonfoil": "d646a8a0-b7b5-5248-bd49-55505d9c6012"
+            },
+            "text": "Toque mortal.\nSiempre que Aphelia ataque, puedes pagar {1}{B/G}. Si lo haces, crea una ficha de criatura Víbora negra 1/1 con la habilidad de toque mortal.\n{4}{B}: Hasta el final del turno, siempre que una o más Gorgonas y/o Víboras que controlas hagan daño de combate a un jugador, ese jugador pierde la mitad de sus vidas, redondeando hacia arriba.",
+            "type": "Criatura legendaria — Asesino gorgona",
+            "uuid": "12aae858-2f6e-5c4c-93df-2d24a90a17f9"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305174",
           "cardsphereId": "130796",
@@ -120,7 +128,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Deathtouch"
         ],
@@ -147,6 +154,7 @@
         "name": "Aphelia, Viper Whisperer",
         "number": "40",
         "originalText": "Deathtouch\nWhenever Aphelia attacks, you may pay {1}{(}b/g)}. If you do, create a 1/1 black Snake creature token with deathtouch.\n{4}{B}: Until end of turn, whenever one or more Gorgons and/or Snakes you control deal combat damage to a player, that player loses half their life, rounded up.",
+        "originalType": "Legendary Creature – Gorgon Assassin",
         "power": "1",
         "printings": [
           "J25"
@@ -157,6 +165,11 @@
           "tcgplayer": "https://mtgjson.com/links/68204fb8ebddb4a7"
         },
         "rarity": "mythic",
+        "relatedCards": {
+          "tokens": [
+            "b9aa07f8-d31a-58af-b034-082736e07773"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -165,9 +178,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "ad9c5795-25c5-5b9e-98e1-83a042e5ceec"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -203,36 +221,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 6977,
+        "edhrecRank": 7271,
         "edhrecSaltiness": 0.35,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682042",
-              "scryfallId": "f8895027-eaa8-49f1-af2e-f584af05e1de"
-            },
-            "language": "German",
-            "multiverseId": 682042,
-            "name": "Fäulniszahnkobra",
-            "text": "Todesberührung\nImmer wenn eine Kreatur mit Todesberührung, die du kontrollierst, angreift, verliert jeder Gegner 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.\nImmer wenn eine Kreatur mit Todesberührung, die du kontrollierst, einem Planeswalker Schaden zufügt, zerstöre den Planeswalker.",
-            "type": "Kreatur — Ophis",
-            "uuid": "02f41d9b-461c-50e8-9e3f-09fa8eac5de2"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682159",
-              "scryfallId": "cf344dfd-a245-42a4-b328-e75213461150"
-            },
-            "language": "Spanish",
-            "multiverseId": 682159,
-            "name": "Maldecidora con capucha",
-            "text": "Toque mortal.\nSiempre que una criatura que controlas con la habilidad de toque mortal ataque, cada oponente pierde 1 vida y tú ganas 1 vida.\nSiempre que una criatura que controlas con la habilidad de toque mortal haga daño a un planeswalker, destruye ese planeswalker.",
-            "type": "Criatura — Víbora",
-            "uuid": "f17c351c-753b-5b98-9820-ab1557e2efbc"
-          },
           {
             "identifiers": {
               "multiverseId": "682276",
@@ -241,9 +235,27 @@
             "language": "French",
             "multiverseId": 682276,
             "name": "Pestecroc cagoulard",
+            "skuIds": {
+              "nonfoil": "1f5404df-bb3e-59d2-8fc4-a51c9a5ac381"
+            },
             "text": "Contact mortel\nÀ chaque fois qu'une créature avec le contact mortel que vous contrôlez attaque, chaque adversaire perd 1 point de vie et vous gagnez 1 point de vie.\nÀ chaque fois qu'une créature avec le contact mortel que vous contrôlez inflige des blessures à un planeswalker, détruisez ce planeswalker.",
             "type": "Créature — serpent",
             "uuid": "982d8f02-60b7-5c0b-a506-9cf4c16061be"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682042",
+              "scryfallId": "f8895027-eaa8-49f1-af2e-f584af05e1de"
+            },
+            "language": "German",
+            "multiverseId": 682042,
+            "name": "Fäulniszahnkobra",
+            "skuIds": {
+              "nonfoil": "8c7b610e-263f-5049-b0f8-d3074ebc04b9"
+            },
+            "text": "Todesberührung\nImmer wenn eine Kreatur mit Todesberührung, die du kontrollierst, angreift, verliert jeder Gegner 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.\nImmer wenn eine Kreatur mit Todesberührung, die du kontrollierst, einem Planeswalker Schaden zufügt, zerstöre den Planeswalker.",
+            "type": "Kreatur — Ophis",
+            "uuid": "02f41d9b-461c-50e8-9e3f-09fa8eac5de2"
           },
           {
             "identifiers": {
@@ -253,6 +265,9 @@
             "language": "Italian",
             "multiverseId": 682393,
             "name": "Zannafunesta dal Cappuccio",
+            "skuIds": {
+              "nonfoil": "3a5ff1db-592f-58db-8db2-84c2d10c1463"
+            },
             "text": "Tocco letale\nOgniqualvolta una creatura con tocco letale che controlli attacca, ogni avversario perde 1 punto vita e tu guadagni 1 punto vita.\nOgniqualvolta una creatura con tocco letale che controlli infligge danno a un planeswalker, distruggi quel planeswalker.",
             "type": "Creatura — Serpente",
             "uuid": "e56eec08-f3b8-5ed2-9375-c6b401de9e60"
@@ -265,14 +280,30 @@
             "language": "Japanese",
             "multiverseId": 682510,
             "name": "頭巾様の荒廃牙",
+            "skuIds": {
+              "nonfoil": "193577d2-02d6-56e1-8800-ccf1945044d9"
+            },
             "text": "接死\nあなたがコントロールしていて接死を持つクリーチャー１体が攻撃するたび、各対戦相手はそれぞれ１点のライフを失い、あなたは１点のライフを得る。\nあなたがコントロールしていて接死を持つクリーチャー１体がプレインズウォーカー１体にダメージを与えるたび、そのプレインズウォーカーを破壊する。",
             "type": "クリーチャー — 蛇",
             "uuid": "9794d9e7-4a5e-5c27-97cd-ea1e36c4262a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682159",
+              "scryfallId": "cf344dfd-a245-42a4-b328-e75213461150"
+            },
+            "language": "Spanish",
+            "multiverseId": 682159,
+            "name": "Maldecidora con capucha",
+            "skuIds": {
+              "nonfoil": "baabd12a-595a-562a-80cb-a04c8a9bc7a1"
+            },
+            "text": "Toque mortal.\nSiempre que una criatura que controlas con la habilidad de toque mortal ataque, cada oponente pierde 1 vida y tú ganas 1 vida.\nSiempre que una criatura que controlas con la habilidad de toque mortal haga daño a un planeswalker, destruye ese planeswalker.",
+            "type": "Criatura — Víbora",
+            "uuid": "f17c351c-753b-5b98-9820-ab1557e2efbc"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305794",
           "cardsphereId": "131240",
@@ -315,6 +346,7 @@
         "name": "Hooded Blightfang",
         "number": "455",
         "originalText": "Deathtouch\nWhenever a creature you control with deathtouch attacks, each opponent loses 1 life and you gain 1 life.\nWhenever a creature you control with deathtouch deals damage to a planeswalker, destroy that planeswalker.",
+        "originalType": "Creature – Snake",
         "power": "1",
         "printings": [
           "J25",
@@ -340,9 +372,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a3c3d627-5a35-5413-b05d-0b30f7e88b64"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -376,39 +413,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 18247,
+        "edhrecRank": 18079,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Her hunger for blood is matched only by her hunger for vengeance.",
         "foreignData": [
-          {
-            "flavorText": "Ihr Hunger nach Blut wird nur von ihrem Durst nach Rache übertroffen.",
-            "identifiers": {
-              "multiverseId": "681365",
-              "scryfallId": "6f597a48-ee7b-46f7-8b04-c7e1b3a97b15"
-            },
-            "language": "German",
-            "multiverseId": 681365,
-            "name": "Geißel der Unterstadt",
-            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Geißel der Unterstadt ins Spiel kommt, erhält eine andere Kreatur deiner Wahl, die du kontrollierst, Lebensverknüpfung bis zum Ende des Zuges.",
-            "type": "Kreatur — Gorgo, Vampir",
-            "uuid": "1f2eb113-9e02-5e22-9875-3be84d66d5c3"
-          },
-          {
-            "flavorText": "Su sed de sangre solo se equipara a su sed de venganza.",
-            "identifiers": {
-              "multiverseId": "681394",
-              "scryfallId": "278c95f7-861f-4df7-bb8e-86f2b3008ab8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681394,
-            "name": "Azote de la Subciudad",
-            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando el Azote de la Subciudad entre, otra criatura objetivo que controlas gana la habilidad de vínculo vital hasta el final del turno.",
-            "type": "Criatura — Vampiro gorgona",
-            "uuid": "a3067f90-9263-5fb9-8acf-877ba9e24620"
-          },
           {
             "flavorText": "Sa soif de sang n'a d'égal que sa soif de vengeance.",
             "identifiers": {
@@ -418,9 +429,28 @@
             "language": "French",
             "multiverseId": 681423,
             "name": "Fléau de la Citerraine",
+            "skuIds": {
+              "nonfoil": "8b3e41e8-9609-5bfc-9591-8ea5925fd8d0"
+            },
             "text": "Lien de vie (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)\nQuand le Fléau de la Citerraine arrive, une autre créature ciblée que vous contrôlez acquiert le lien de vie jusqu'à la fin du tour.",
             "type": "Créature — gorgonoïde et vampire",
             "uuid": "9ab478d1-19e7-5d81-a56f-78ecd3ef45f2"
+          },
+          {
+            "flavorText": "Ihr Hunger nach Blut wird nur von ihrem Durst nach Rache übertroffen.",
+            "identifiers": {
+              "multiverseId": "681365",
+              "scryfallId": "6f597a48-ee7b-46f7-8b04-c7e1b3a97b15"
+            },
+            "language": "German",
+            "multiverseId": 681365,
+            "name": "Geißel der Unterstadt",
+            "skuIds": {
+              "nonfoil": "16b2c775-e2b1-5195-87a3-574580649ff4"
+            },
+            "text": "Lebensverknüpfung (Schaden, der von dieser Kreatur zugefügt wird, lässt dich entsprechend viele Lebenspunkte dazuerhalten.)\nWenn die Geißel der Unterstadt ins Spiel kommt, erhält eine andere Kreatur deiner Wahl, die du kontrollierst, Lebensverknüpfung bis zum Ende des Zuges.",
+            "type": "Kreatur — Gorgo, Vampir",
+            "uuid": "1f2eb113-9e02-5e22-9875-3be84d66d5c3"
           },
           {
             "flavorText": "La sua sete di sangue è pari solo alla sua sete di vendetta.",
@@ -431,6 +461,9 @@
             "language": "Italian",
             "multiverseId": 681452,
             "name": "Flagello della Città Sepolta",
+            "skuIds": {
+              "nonfoil": "f8847ea9-367c-524d-a4f3-ecec935fdc3b"
+            },
             "text": "Legame vitale (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)\nQuando il Flagello della Città Sepolta entra, un'altra creatura bersaglio che controlli ha legame vitale fino alla fine del turno.",
             "type": "Creatura — Vampiro Gorgone",
             "uuid": "af1670af-20f2-5994-b3c9-926452b612c3"
@@ -444,14 +477,31 @@
             "language": "Japanese",
             "multiverseId": 681481,
             "name": "地底街の災い魔",
+            "skuIds": {
+              "nonfoil": "7d315c81-186a-52bf-98f4-0ac7f4ee3fda"
+            },
             "text": "絆魂（このクリーチャーがダメージを与えると、さらにあなたはその点数分のライフを得る。）\n地底街の災い魔が戦場に出たとき、あなたがコントロールしていてこれでないクリーチャー１体を対象とする。ターン終了時まで、それは絆魂を得る。",
             "type": "クリーチャー — ゴルゴン・吸血鬼",
             "uuid": "09bc2fff-2338-51f7-bb80-489dbc593789"
+          },
+          {
+            "flavorText": "Su sed de sangre solo se equipara a su sed de venganza.",
+            "identifiers": {
+              "multiverseId": "681394",
+              "scryfallId": "278c95f7-861f-4df7-bb8e-86f2b3008ab8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681394,
+            "name": "Azote de la Subciudad",
+            "skuIds": {
+              "nonfoil": "26c651f6-8b9a-5a77-b866-3acf3ffa09d1"
+            },
+            "text": "Vínculo vital. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)\nCuando el Azote de la Subciudad entre, otra criatura objetivo que controlas gana la habilidad de vínculo vital hasta el final del turno.",
+            "type": "Criatura — Vampiro gorgona",
+            "uuid": "a3067f90-9263-5fb9-8acf-877ba9e24620"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305145",
           "cardsphereId": "130711",
@@ -470,7 +520,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Lifelink"
         ],
@@ -494,6 +543,7 @@
         "name": "Scourge of the Undercity",
         "number": "11",
         "originalText": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen Scourge of the Undercity enters, another target creature you control gains lifelink until end of turn.",
+        "originalType": "Creature – Gorgon Vampire",
         "power": "2",
         "printings": [
           "J25"
@@ -505,9 +555,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77a28cd3-0cc2-51cb-8eb0-3fc3373a6543"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -541,39 +596,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 20363,
+        "edhrecRank": 20846,
         "edhrecSaltiness": 0.4,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Now really, was that the expression you wanted preserved on your face forever?\"",
         "foreignData": [
-          {
-            "flavorText": "„Oh, entschuldige, ich glaube, das war nicht unbedingt der Gesichtsausdruck, den du in Stein für alle Ewigkeit tragen wolltest …\"",
-            "identifiers": {
-              "multiverseId": "681585",
-              "scryfallId": "e126ec74-694b-4e86-9231-03652a8addfd"
-            },
-            "language": "German",
-            "multiverseId": 681585,
-            "name": "Tötender Blick",
-            "text": "Zerstöre eine Kreatur deiner Wahl mit Stärke X oder weniger.",
-            "type": "Spontanzauber",
-            "uuid": "bee5497e-2e97-5ed0-989f-3172777f6191"
-          },
-          {
-            "flavorText": "\"¿De verdad querías que tu rostro se quedara con esa expresión para siempre?\".",
-            "identifiers": {
-              "multiverseId": "681646",
-              "scryfallId": "a923ff7f-95ad-479f-b86e-9a0586f9cc79"
-            },
-            "language": "Spanish",
-            "multiverseId": 681646,
-            "name": "Mirada asesina",
-            "text": "Destruye la criatura objetivo con fuerza de X o menos.",
-            "type": "Instantáneo",
-            "uuid": "8509b69a-7866-598a-b709-84c41a3ce517"
-          },
           {
             "flavorText": "« Était-ce vraiment l'expression que vous vouliez voir gravée sur votre visage pour l'éternité ? »",
             "identifiers": {
@@ -583,9 +612,28 @@
             "language": "French",
             "multiverseId": 681707,
             "name": "Regard tueur",
+            "skuIds": {
+              "nonfoil": "200d85e0-05ff-57c5-8fb7-2b83c3762448"
+            },
             "text": "Détruisez une créature ciblée de force inférieure ou égale à X.",
             "type": "Éphémère",
             "uuid": "e8bcb08b-51d2-5652-85f4-0125b229f5f6"
+          },
+          {
+            "flavorText": "„Oh, entschuldige, ich glaube, das war nicht unbedingt der Gesichtsausdruck, den du in Stein für alle Ewigkeit tragen wolltest …\"",
+            "identifiers": {
+              "multiverseId": "681585",
+              "scryfallId": "e126ec74-694b-4e86-9231-03652a8addfd"
+            },
+            "language": "German",
+            "multiverseId": 681585,
+            "name": "Tötender Blick",
+            "skuIds": {
+              "nonfoil": "a677fa1f-00a8-5830-82eb-0fece5f74b89"
+            },
+            "text": "Zerstöre eine Kreatur deiner Wahl mit Stärke X oder weniger.",
+            "type": "Spontanzauber",
+            "uuid": "bee5497e-2e97-5ed0-989f-3172777f6191"
           },
           {
             "flavorText": "\"Ma davvero, era quella l'espressione che volevi imprimere per sempre sul tuo volto?\"",
@@ -596,6 +644,9 @@
             "language": "Italian",
             "multiverseId": 681768,
             "name": "Sguardo Che Uccide",
+            "skuIds": {
+              "nonfoil": "d6f4e947-3553-5c32-bca1-744ceda768d9"
+            },
             "text": "Distruggi una creatura bersaglio con forza pari o inferiore a X.",
             "type": "Istantaneo",
             "uuid": "0f50f50e-1f5a-53e1-9000-0ff019ee4558"
@@ -609,14 +660,31 @@
             "language": "Japanese",
             "multiverseId": 681829,
             "name": "殺意の凝視",
+            "skuIds": {
+              "nonfoil": "a5d02fc4-fd0c-5ef6-8c17-8b2cd4f24733"
+            },
             "text": "パワーがＸ以下であるクリーチャー１体を対象とする。それを破壊する。",
             "type": "インスタント",
             "uuid": "8c27373a-09ed-559f-9a4d-dfe66168cb66"
+          },
+          {
+            "flavorText": "\"¿De verdad querías que tu rostro se quedara con esa expresión para siempre?\".",
+            "identifiers": {
+              "multiverseId": "681646",
+              "scryfallId": "a923ff7f-95ad-479f-b86e-9a0586f9cc79"
+            },
+            "language": "Spanish",
+            "multiverseId": 681646,
+            "name": "Mirada asesina",
+            "skuIds": {
+              "nonfoil": "248b3e31-413f-5982-b33d-7178d0659765"
+            },
+            "text": "Destruye la criatura objetivo con fuerza de X o menos.",
+            "type": "Instantáneo",
+            "uuid": "8509b69a-7866-598a-b709-84c41a3ce517"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305254",
           "cardsphereId": "130959",
@@ -635,7 +703,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -657,6 +724,7 @@
         "name": "Killing Glare",
         "number": "120",
         "originalText": "Destroy target creature with power X or less.",
+        "originalType": "Instant",
         "printings": [
           "GTC",
           "J25"
@@ -674,9 +742,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "37dcfb86-4935-50f2-98f2-2d24da294ebc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -706,39 +779,13 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 21283,
+        "edhrecRank": 21619,
         "edhrecSaltiness": 0.44,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Patrol didn't find a single footprint, Captain. We should be safe to rest here.\"\n—Lowell, army scout",
         "foreignData": [
-          {
-            "flavorText": "„Die Patrouille konnte keinen einzigen Fußabdruck finden, Hauptmann. Hier sollte ein sicherer Lageplatz sein.\"\n—Lowell, Kundschafter der Armee",
-            "identifiers": {
-              "multiverseId": "681588",
-              "scryfallId": "2aee4d2a-badd-4b38-8154-6c50bfa9abf1"
-            },
-            "language": "German",
-            "multiverseId": 681588,
-            "name": "Schlangenmeuchler",
-            "text": "Wenn der Schlangenmeuchler ins Spiel kommt, kannst du eine nichtschwarze Kreatur deiner Wahl zerstören.",
-            "type": "Kreatur — Ophis, Assassine",
-            "uuid": "7ace8a53-aa1a-51de-bead-97148caa8374"
-          },
-          {
-            "flavorText": "\"La patrulla no encontró ninguna huella, capitán. Es un lugar seguro para descansar\".\n—Lowell, vigía del ejército",
-            "identifiers": {
-              "multiverseId": "681649",
-              "scryfallId": "59752fbd-fe5d-4280-9718-e25b8f61a81a"
-            },
-            "language": "Spanish",
-            "multiverseId": 681649,
-            "name": "Asesino serpiente",
-            "text": "Cuando el Asesino serpiente entre, puedes destruir la criatura objetivo que no sea negra.",
-            "type": "Criatura — Asesino víbora",
-            "uuid": "7cdbc53d-8db8-5530-9b33-cbafe9389935"
-          },
           {
             "flavorText": "« La patrouille n'a pas trouvé la moindre empreinte, capitaine. Nous devrions pouvoir nous reposer ici en toute sécurité. »\n—Lowell, éclaireur de l'armée",
             "identifiers": {
@@ -748,9 +795,28 @@
             "language": "French",
             "multiverseId": 681710,
             "name": "Assassin serpentiforme",
+            "skuIds": {
+              "nonfoil": "e0976981-1643-59aa-8460-c0dad2489077"
+            },
             "text": "Quand l'Assassin serpentiforme arrive, vous pouvez détruire une créature non-noire ciblée.",
             "type": "Créature — serpent et assassin",
             "uuid": "cc3b316b-28d4-5141-bc53-aebc7995102c"
+          },
+          {
+            "flavorText": "„Die Patrouille konnte keinen einzigen Fußabdruck finden, Hauptmann. Hier sollte ein sicherer Lageplatz sein.\"\n—Lowell, Kundschafter der Armee",
+            "identifiers": {
+              "multiverseId": "681588",
+              "scryfallId": "2aee4d2a-badd-4b38-8154-6c50bfa9abf1"
+            },
+            "language": "German",
+            "multiverseId": 681588,
+            "name": "Schlangenmeuchler",
+            "skuIds": {
+              "nonfoil": "9b6882ca-5407-57cf-9552-d258a45343ed"
+            },
+            "text": "Wenn der Schlangenmeuchler ins Spiel kommt, kannst du eine nichtschwarze Kreatur deiner Wahl zerstören.",
+            "type": "Kreatur — Ophis, Assassine",
+            "uuid": "7ace8a53-aa1a-51de-bead-97148caa8374"
           },
           {
             "flavorText": "\"La pattuglia non ha trovato neanche un'impronta, capitano. Dovremmo poter riposare al sicuro qui.\"\n— Lowell, esploratore dell'esercito",
@@ -761,6 +827,9 @@
             "language": "Italian",
             "multiverseId": 681771,
             "name": "Assassino Serpe",
+            "skuIds": {
+              "nonfoil": "cf902989-a133-5c96-a676-74540e9f9ffd"
+            },
             "text": "Quando l'Assassino Serpe entra, puoi distruggere una creatura non nera bersaglio.",
             "type": "Creatura — Assassino Serpente",
             "uuid": "da30ce24-51d4-5ef2-aa1b-d964ede73688"
@@ -774,14 +843,31 @@
             "language": "Japanese",
             "multiverseId": 681832,
             "name": "蛇人間の暗殺者",
+            "skuIds": {
+              "nonfoil": "6fdb1c1b-d3db-5f05-b164-f49e201b01bd"
+            },
             "text": "蛇人間の暗殺者が戦場に出たとき、黒でないクリーチャー１体を対象とする。それを破壊してもよい。",
             "type": "クリーチャー — 蛇・暗殺者",
             "uuid": "c5194c5d-2b68-5d42-9738-f504273fa995"
+          },
+          {
+            "flavorText": "\"La patrulla no encontró ninguna huella, capitán. Es un lugar seguro para descansar\".\n—Lowell, vigía del ejército",
+            "identifiers": {
+              "multiverseId": "681649",
+              "scryfallId": "59752fbd-fe5d-4280-9718-e25b8f61a81a"
+            },
+            "language": "Spanish",
+            "multiverseId": 681649,
+            "name": "Asesino serpiente",
+            "skuIds": {
+              "nonfoil": "a4253faf-616c-514e-bae3-88f555852561"
+            },
+            "text": "Cuando el Asesino serpiente entre, puedes destruir la criatura objetivo que no sea negra.",
+            "type": "Criatura — Asesino víbora",
+            "uuid": "7cdbc53d-8db8-5530-9b33-cbafe9389935"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305257",
           "cardsphereId": "130977",
@@ -800,7 +886,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -820,6 +905,7 @@
         "name": "Serpent Assassin",
         "number": "123",
         "originalText": "When Serpent Assassin enters, you may destroy target nonblack creature.",
+        "originalType": "Creature – Snake Assassin",
         "power": "2",
         "printings": [
           "J25",
@@ -832,9 +918,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "4b685f4d-8ce8-569a-b7dc-782d4b750d29"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -868,39 +959,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 18829,
+        "edhrecRank": 19194,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Every Silumgar blade carries the blessing of our dragonlord.\"\n—Xathi the Infallible",
         "foreignData": [
-          {
-            "flavorText": "„Jede Silumgar-Klinge trägt den Segen unseres Drachenfürsten.\"\n—Xathi die Unfehlbare",
-            "identifiers": {
-              "multiverseId": "681999",
-              "scryfallId": "306125c3-8174-4afd-ace9-a9e4574d7d9e"
-            },
-            "language": "German",
-            "multiverseId": 681999,
-            "name": "Giftbeschichtung",
-            "text": "Eine Kreatur deiner Wahl erhält +1/+2 und Todesberührung bis zum Ende des Zuges. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügt, ist ausreichend, um jene Kreatur zu zerstören.)",
-            "type": "Spontanzauber",
-            "uuid": "5de86de5-2409-5bf0-a19a-208d733f5778"
-          },
-          {
-            "flavorText": "\"Todos los filos de Sílumgar llevan la bendición de nuestro señor dragón\".\n—Xathi, la Infalible",
-            "identifiers": {
-              "multiverseId": "682116",
-              "scryfallId": "2c61c945-2a81-4e20-acaa-44d650dc3846"
-            },
-            "language": "Spanish",
-            "multiverseId": 682116,
-            "name": "Cubrir de veneno",
-            "text": "La criatura objetivo obtiene +1/+2 y gana la habilidad de toque mortal hasta el final del turno. (Cualquier cantidad de daño que haga a una criatura es suficiente para destruirla.)",
-            "type": "Instantáneo",
-            "uuid": "a239eccb-9e85-5615-8a70-34eab4fccc42"
-          },
           {
             "flavorText": "« Chaque lame de Silumgar accorde la bénédiction de notre seigneur-dragon. »\n—Xathi, l'Infaillible",
             "identifiers": {
@@ -910,9 +975,28 @@
             "language": "French",
             "multiverseId": 682233,
             "name": "Enduire de venin",
+            "skuIds": {
+              "nonfoil": "3a335e2c-3c5c-55e0-892b-304eabb6243c"
+            },
             "text": "Une créature ciblée gagne +1/+2 et acquiert le contact mortel jusqu'à la fin du tour. (Le nombre de blessures qu'elle inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)",
             "type": "Éphémère",
             "uuid": "398ae71b-23e0-5138-9ae0-c3f0007172f4"
+          },
+          {
+            "flavorText": "„Jede Silumgar-Klinge trägt den Segen unseres Drachenfürsten.\"\n—Xathi die Unfehlbare",
+            "identifiers": {
+              "multiverseId": "681999",
+              "scryfallId": "306125c3-8174-4afd-ace9-a9e4574d7d9e"
+            },
+            "language": "German",
+            "multiverseId": 681999,
+            "name": "Giftbeschichtung",
+            "skuIds": {
+              "nonfoil": "eec3c1be-7965-5391-9915-74f43782533c"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält +1/+2 und Todesberührung bis zum Ende des Zuges. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügt, ist ausreichend, um jene Kreatur zu zerstören.)",
+            "type": "Spontanzauber",
+            "uuid": "5de86de5-2409-5bf0-a19a-208d733f5778"
           },
           {
             "flavorText": "\"Ogni lama Silumgar reca la benedizione del nostro signore dei draghi.\"\n—Xathi l'Infallibile",
@@ -923,6 +1007,9 @@
             "language": "Italian",
             "multiverseId": 682350,
             "name": "Ricoprire di Veleno",
+            "skuIds": {
+              "nonfoil": "29fe5996-5f15-50d3-837a-e4458069fd6f"
+            },
             "text": "Una creatura bersaglio prende +1/+2 e ha tocco letale fino alla fine del turno. (Qualsiasi danno che quella creatura infligge a una creatura è sufficiente a distruggerla.)",
             "type": "Istantaneo",
             "uuid": "1b6f5ca4-4a96-533c-9242-2650a6f3e81d"
@@ -936,14 +1023,31 @@
             "language": "Japanese",
             "multiverseId": 682467,
             "name": "毒塗り",
+            "skuIds": {
+              "nonfoil": "2c2ccdc3-e52f-5d99-97e0-2ba0a3af00fa"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋１/＋２の修整を受け接死を得る。（それが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）",
             "type": "インスタント",
             "uuid": "d6b97d18-cac7-5412-b4f4-d904305fdba3"
+          },
+          {
+            "flavorText": "\"Todos los filos de Sílumgar llevan la bendición de nuestro señor dragón\".\n—Xathi, la Infalible",
+            "identifiers": {
+              "multiverseId": "682116",
+              "scryfallId": "2c61c945-2a81-4e20-acaa-44d650dc3846"
+            },
+            "language": "Spanish",
+            "multiverseId": 682116,
+            "name": "Cubrir de veneno",
+            "skuIds": {
+              "nonfoil": "347d8960-bdaf-5000-a3fc-a1979687e742"
+            },
+            "text": "La criatura objetivo obtiene +1/+2 y gana la habilidad de toque mortal hasta el final del turno. (Cualquier cantidad de daño que haga a una criatura es suficiente para destruirla.)",
+            "type": "Instantáneo",
+            "uuid": "a239eccb-9e85-5615-8a70-34eab4fccc42"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305560",
           "cardsphereId": "131172",
@@ -985,6 +1089,7 @@
         "name": "Coat with Venom",
         "number": "412",
         "originalText": "Target creature gets +1/+2 and gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+        "originalType": "Instant",
         "printings": [
           "DTK",
           "E02",
@@ -998,9 +1103,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "a91f991b-3b67-55e3-be48-1cb5287b3a75"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1030,39 +1140,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 214,
+        "edhrecRank": 194,
         "edhrecSaltiness": 0.08,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I have seen things that would reduce a weaker person to blubbering and raving. Want to hear about them?\"\n—Vraska",
         "foreignData": [
-          {
-            "flavorText": "„Ich habe Dinge gesehen, die einen Schwächeren in den Wahnsinn treiben würden. Möchtest du, dass ich dir davon erzähle?\"\n—Vraska",
-            "identifiers": {
-              "multiverseId": "682058",
-              "scryfallId": "048df33a-97ce-4dfc-a04a-a7e629ef6cc8"
-            },
-            "language": "German",
-            "multiverseId": 682058,
-            "name": "Nachtgeflüster",
-            "text": "Du ziehst zwei Karten und verlierst 2 Lebenspunkte.",
-            "type": "Hexerei",
-            "uuid": "51e63832-3843-5f1a-ba87-a9b09b70c875"
-          },
-          {
-            "flavorText": "\"Presencié cosas que sumirían a los débiles en las lágrimas y el delirio más absolutos. ¿Quieres conocerlas?\".\n—Vraska",
-            "identifiers": {
-              "multiverseId": "682175",
-              "scryfallId": "747b0bf7-64fa-4c16-8131-954f2e85fc6b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682175,
-            "name": "Susurro nocturno",
-            "text": "Robas dos cartas y pierdes 2 vidas.",
-            "type": "Conjuro",
-            "uuid": "a2971d82-74ac-5443-8b79-2aa90a84e1e5"
-          },
           {
             "flavorText": "« J'ai vu des choses qui auraient fait fondre en larmes un esprit plus impressionnable. Je peux vous les raconter ? »\n—Vraska",
             "identifiers": {
@@ -1072,9 +1156,28 @@
             "language": "French",
             "multiverseId": 682292,
             "name": "Chuchotements nocturnes",
+            "skuIds": {
+              "nonfoil": "0ace8050-dd04-5163-becc-05fa8b070dff"
+            },
             "text": "Vous piochez deux cartes et vous perdez 2 points de vie.",
             "type": "Rituel",
             "uuid": "08505553-dc53-5dc5-8f07-1753580fc1b0"
+          },
+          {
+            "flavorText": "„Ich habe Dinge gesehen, die einen Schwächeren in den Wahnsinn treiben würden. Möchtest du, dass ich dir davon erzähle?\"\n—Vraska",
+            "identifiers": {
+              "multiverseId": "682058",
+              "scryfallId": "048df33a-97ce-4dfc-a04a-a7e629ef6cc8"
+            },
+            "language": "German",
+            "multiverseId": 682058,
+            "name": "Nachtgeflüster",
+            "skuIds": {
+              "nonfoil": "ccd3824f-3697-5e42-b05f-4bffaa5751af"
+            },
+            "text": "Du ziehst zwei Karten und verlierst 2 Lebenspunkte.",
+            "type": "Hexerei",
+            "uuid": "51e63832-3843-5f1a-ba87-a9b09b70c875"
           },
           {
             "flavorText": "\"Ho visto cose che avrebbero ridotto una persona più debole a un piagnucolio delirante. Vuoi che te le racconti?\"\n—Vraska",
@@ -1085,6 +1188,9 @@
             "language": "Italian",
             "multiverseId": 682409,
             "name": "Sussurri della Notte",
+            "skuIds": {
+              "nonfoil": "fb7ab1aa-ac57-5ce9-a4b2-f5ae91172196"
+            },
             "text": "Peschi due carte e perdi 2 punti vita.",
             "type": "Stregoneria",
             "uuid": "a31aa14b-76d9-541b-9fb2-d91413a2bd89"
@@ -1098,14 +1204,31 @@
             "language": "Japanese",
             "multiverseId": 682526,
             "name": "夜の囁き",
+            "skuIds": {
+              "nonfoil": "b5423547-c932-5d6c-9e0a-49c03541aba4"
+            },
             "text": "カード２枚を引き、２点のライフを失う。",
             "type": "ソーサリー",
             "uuid": "d192cf12-c005-58b4-a9c4-a47cfe7bf22f"
+          },
+          {
+            "flavorText": "\"Presencié cosas que sumirían a los débiles en las lágrimas y el delirio más absolutos. ¿Quieres conocerlas?\".\n—Vraska",
+            "identifiers": {
+              "multiverseId": "682175",
+              "scryfallId": "747b0bf7-64fa-4c16-8131-954f2e85fc6b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682175,
+            "name": "Susurro nocturno",
+            "skuIds": {
+              "nonfoil": "4d0ba080-38de-5c82-a2d9-5ba0f5334803"
+            },
+            "text": "Robas dos cartas y pierdes 2 vidas.",
+            "type": "Conjuro",
+            "uuid": "a2971d82-74ac-5443-8b79-2aa90a84e1e5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305810",
           "cardsphereId": "131224",
@@ -1146,11 +1269,13 @@
         "name": "Night's Whisper",
         "number": "471",
         "originalText": "You draw two cards and you lose 2 life.",
+        "originalType": "Sorcery",
         "printings": [
           "5DN",
           "DDM",
           "DMC",
           "DSC",
+          "ECC",
           "EMA",
           "EOC",
           "FIC",
@@ -1170,14 +1295,19 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "350cb4e8-e860-533b-99aa-cf96fab494bd"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
         "supertypes": [],
-        "text": "You draw two cards and you lose 2 life.",
+        "text": "You draw two cards and lose 2 life.",
         "type": "Sorcery",
         "types": [
           "Sorcery"
@@ -1202,39 +1332,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 12740,
+        "edhrecRank": 12755,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The serpents' dens built into statues of Pharika serve not only to consecrate her temples, but as a hidden line of defense.",
         "foreignData": [
-          {
-            "flavorText": "Die Schlangennester, die in die Statuen der Pharika eingearbeitet sind, sollen ihre Tempel nicht nur weihen, sondern auch verteidigen.",
-            "identifiers": {
-              "multiverseId": "682061",
-              "scryfallId": "4d049703-76d1-44fc-b8d0-b9b696794cbd"
-            },
-            "language": "German",
-            "multiverseId": 682061,
-            "name": "Pharikas Auserwählte",
-            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)",
-            "type": "Kreatur — Ophis",
-            "uuid": "fa480a2b-b95b-5159-94b2-a9e367a18178"
-          },
-          {
-            "flavorText": "Los nidos de serpiente construidos en las estatuas de Farika no solo sirven para consagrar sus templos, sino también como una línea de defensa oculta.",
-            "identifiers": {
-              "multiverseId": "682178",
-              "scryfallId": "3e680fd9-327c-41d8-8b36-df4463de3b1e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682178,
-            "name": "Elegida de Farika",
-            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)",
-            "type": "Criatura — Víbora",
-            "uuid": "43cf4d53-5677-5339-b50c-1a1ae59839ca"
-          },
           {
             "flavorText": "Les nids de serpents creusés dans les statues de Pharika servent non seulement à consacrer ses temples, mais aussi à les défendre.",
             "identifiers": {
@@ -1244,9 +1348,28 @@
             "language": "French",
             "multiverseId": 682295,
             "name": "Élue de Pharika",
+            "skuIds": {
+              "nonfoil": "8409d6af-ee7b-56f9-978b-926cefc030da"
+            },
             "text": "Contact mortel (Le nombre de blessures que cette créature inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)",
             "type": "Créature — serpent",
             "uuid": "fde2eb67-3a7f-59f8-8ee1-16cc2d6eab9c"
+          },
+          {
+            "flavorText": "Die Schlangennester, die in die Statuen der Pharika eingearbeitet sind, sollen ihre Tempel nicht nur weihen, sondern auch verteidigen.",
+            "identifiers": {
+              "multiverseId": "682061",
+              "scryfallId": "4d049703-76d1-44fc-b8d0-b9b696794cbd"
+            },
+            "language": "German",
+            "multiverseId": 682061,
+            "name": "Pharikas Auserwählte",
+            "skuIds": {
+              "nonfoil": "d27c3b61-2633-5e78-a8eb-c4f5019b9957"
+            },
+            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)",
+            "type": "Kreatur — Ophis",
+            "uuid": "fa480a2b-b95b-5159-94b2-a9e367a18178"
           },
           {
             "flavorText": "I nidi di serpenti ricavati nelle statue di Farika servono non solo per consacrare i suoi templi, ma anche come forma di protezione occulta.",
@@ -1257,6 +1380,9 @@
             "language": "Italian",
             "multiverseId": 682412,
             "name": "Prescelta di Farika",
+            "skuIds": {
+              "nonfoil": "4ff95114-d3aa-5150-96b2-d9209f03a4c1"
+            },
             "text": "Tocco letale (Qualsiasi danno che questa creatura infligge a una creatura è sufficiente a distruggerla.)",
             "type": "Creatura — Serpente",
             "uuid": "65356fe5-38af-5a53-827e-3244f62eed37"
@@ -1270,14 +1396,31 @@
             "language": "Japanese",
             "multiverseId": 682529,
             "name": "ファリカに選ばれしもの",
+            "skuIds": {
+              "nonfoil": "fbe16372-1f50-516e-ad71-dd9ba565dcc1"
+            },
             "text": "接死（これが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）",
             "type": "クリーチャー — 蛇",
             "uuid": "f114e5e3-5e81-53db-b799-d26e79d828f2"
+          },
+          {
+            "flavorText": "Los nidos de serpiente construidos en las estatuas de Farika no solo sirven para consagrar sus templos, sino también como una línea de defensa oculta.",
+            "identifiers": {
+              "multiverseId": "682178",
+              "scryfallId": "3e680fd9-327c-41d8-8b36-df4463de3b1e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682178,
+            "name": "Elegida de Farika",
+            "skuIds": {
+              "nonfoil": "9e75093e-974a-5b2e-911e-e8d7b1d239ad"
+            },
+            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)",
+            "type": "Criatura — Víbora",
+            "uuid": "43cf4d53-5677-5339-b50c-1a1ae59839ca"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305813",
           "cardsphereId": "131221",
@@ -1322,6 +1465,7 @@
         "name": "Pharika's Chosen",
         "number": "474",
         "originalText": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+        "originalType": "Creature – Snake",
         "power": "1",
         "printings": [
           "J25",
@@ -1334,9 +1478,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "fb44e77c-77ea-57eb-8949-5a8a0fb00834"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1369,39 +1518,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 22949,
+        "edhrecRank": 23447,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The Silumgar hide behind the deadly wildlife of their swamps. They'd rather scheme in their jungle palaces than face us.\"\n—Khibat, Kolaghan warrior",
         "foreignData": [
-          {
-            "flavorText": "„Die Silumgar verstecken sich hinter den tödlichen Kreaturen ihrer Sümpfe. Sie sitzen lieber in ihren Dschungelpalästen und schmieden Pläne, als uns gegenüberzutreten.\"\n—Khibat, Kolaghan-Krieger",
-            "identifiers": {
-              "multiverseId": "682085",
-              "scryfallId": "b3303163-cb76-4f08-96cd-3123dcae27f0"
-            },
-            "language": "German",
-            "multiverseId": 682085,
-            "name": "Ukud-Kobra",
-            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)",
-            "type": "Kreatur — Ophis",
-            "uuid": "a8e24552-e5d4-56c6-8725-5141ef063aab"
-          },
-          {
-            "flavorText": "\"Los Sílumgar se esconden tras la fauna mortal de sus pantanos. Prefieren hacer planes desde sus palacios en la jungla antes que enfrentarse a nosotros\".\n—Kibat, guerrero de Kólagan",
-            "identifiers": {
-              "multiverseId": "682202",
-              "scryfallId": "5a56388e-fbf5-442a-a465-a1ababeb8617"
-            },
-            "language": "Spanish",
-            "multiverseId": 682202,
-            "name": "Cobra de Ukud",
-            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)",
-            "type": "Criatura — Víbora",
-            "uuid": "8f09c1e2-e53b-59c2-9ce9-3c7ceafcd522"
-          },
           {
             "flavorText": "« Les Silumgar se cachent derrière la faune mortelle de leurs marais. Ils préfèrent conspirer dans leurs palais fangeux plutôt que de nous affronter. »\n—Khibat, guerrier de Kolaghan",
             "identifiers": {
@@ -1411,9 +1534,28 @@
             "language": "French",
             "multiverseId": 682319,
             "name": "Cobra d'Oukoud",
+            "skuIds": {
+              "nonfoil": "8931ccfe-3c36-59f9-aa33-0de3f1ac3625"
+            },
             "text": "Contact mortel (Le nombre de blessures que cette créature inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)",
             "type": "Créature — serpent",
             "uuid": "deab11de-943c-568f-8bc8-2807fcaccc9d"
+          },
+          {
+            "flavorText": "„Die Silumgar verstecken sich hinter den tödlichen Kreaturen ihrer Sümpfe. Sie sitzen lieber in ihren Dschungelpalästen und schmieden Pläne, als uns gegenüberzutreten.\"\n—Khibat, Kolaghan-Krieger",
+            "identifiers": {
+              "multiverseId": "682085",
+              "scryfallId": "b3303163-cb76-4f08-96cd-3123dcae27f0"
+            },
+            "language": "German",
+            "multiverseId": 682085,
+            "name": "Ukud-Kobra",
+            "skuIds": {
+              "nonfoil": "520dde72-507c-54f6-92ec-a145a465e50f"
+            },
+            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)",
+            "type": "Kreatur — Ophis",
+            "uuid": "a8e24552-e5d4-56c6-8725-5141ef063aab"
           },
           {
             "flavorText": "\"I Silumgar si nascondono dietro i mortali predatori delle loro paludi. Preferiscono complottare nei loro palazzi della giungla piuttosto che affrontarci.\"\n—Khibat, guerriero Kolaghan",
@@ -1424,6 +1566,9 @@
             "language": "Italian",
             "multiverseId": 682436,
             "name": "Cobra di Ukud",
+            "skuIds": {
+              "nonfoil": "45cd6786-93a1-55c2-800c-8cb2c7924edb"
+            },
             "text": "Tocco letale (Qualsiasi danno che questa creatura infligge a una creatura è sufficiente a distruggerla.)",
             "type": "Creatura — Serpente",
             "uuid": "555c335c-ebb6-550e-a108-2cbf48126257"
@@ -1437,14 +1582,31 @@
             "language": "Japanese",
             "multiverseId": 682553,
             "name": "ウクドのコブラ",
+            "skuIds": {
+              "nonfoil": "c7be6cc9-3687-556e-9234-73db306af055"
+            },
             "text": "接死（これが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）",
             "type": "クリーチャー — 蛇",
             "uuid": "bf6d274f-d98f-5564-bf50-57aa0bc75dc0"
+          },
+          {
+            "flavorText": "\"Los Sílumgar se esconden tras la fauna mortal de sus pantanos. Prefieren hacer planes desde sus palacios en la jungla antes que enfrentarse a nosotros\".\n—Kibat, guerrero de Kólagan",
+            "identifiers": {
+              "multiverseId": "682202",
+              "scryfallId": "5a56388e-fbf5-442a-a465-a1ababeb8617"
+            },
+            "language": "Spanish",
+            "multiverseId": 682202,
+            "name": "Cobra de Ukud",
+            "skuIds": {
+              "nonfoil": "01ef18f2-af77-553f-9387-1d2768faacef"
+            },
+            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)",
+            "type": "Criatura — Víbora",
+            "uuid": "8f09c1e2-e53b-59c2-9ce9-3c7ceafcd522"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305837",
           "cardsphereId": "131198",
@@ -1487,6 +1649,7 @@
         "name": "Ukud Cobra",
         "number": "498",
         "originalText": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+        "originalType": "Creature – Snake",
         "power": "2",
         "printings": [
           "DTK",
@@ -1499,9 +1662,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "de1c93cd-cf6e-51dc-a23b-60d38978edfc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1534,38 +1702,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 19774,
+        "edhrecRank": 20397,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Many have sought snake-twined Pharika's panacea. Do you wish to share their fate?\"",
         "foreignData": [
-          {
-            "flavorText": "„Nach dem Allheilmittel der schlangenumwundenen Pharika haben schon viele gesucht. Möchtest du ihr Schicksal teilen?\"",
-            "identifiers": {
-              "multiverseId": "682093",
-              "scryfallId": "ffcb0851-47a9-417b-a12d-62bb134b09a2"
-            },
-            "language": "German",
-            "multiverseId": 682093,
-            "name": "Giftige Hohepriesterin",
-            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)\nWenn die Giftige Hohepriesterin ins Spiel kommt, millst du drei Karten. (Lege die obersten drei Karten deiner Bibliothek auf deinen Friedhof.)",
-            "type": "Kreatur — Gorgo, Kleriker",
-            "uuid": "66b96e9d-8a46-55d0-b26f-a617de4bd8e0"
-          },
-          {
-            "flavorText": "\"Muchos han buscado la panacea de Farika, la de los cabellos de serpiente. ¿Quieres compartir su destino?\".",
-            "identifiers": {
-              "multiverseId": "682210",
-              "scryfallId": "8b4c146f-ffc0-482b-aaf2-792891a35b95"
-            },
-            "language": "Spanish",
-            "multiverseId": 682210,
-            "name": "Hierofante venenosa",
-            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)\nCuando la Hierofante venenosa entre, muele tres cartas. (Pon las tres primeras cartas de tu biblioteca en tu cementerio.)",
-            "type": "Criatura — Clérigo gorgona",
-            "uuid": "04109c55-54e0-5cc0-8739-212e0c6d7e00"
-          },
           {
             "flavorText": "« Nombreux sont ceux à avoir cherché à s'emparer de la panacée de Pharika, enlacée de serpents. Souhaites-tu connaître le même sort qu'eux ? »",
             "identifiers": {
@@ -1575,9 +1718,28 @@
             "language": "French",
             "multiverseId": 682327,
             "name": "Hiérophante venimeuse",
+            "skuIds": {
+              "nonfoil": "16a996ae-ce61-52ea-a430-8cc6841ca7ba"
+            },
             "text": "Contact mortel (Le nombre de blessures que cette créature inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)\nQuand la Hiérophante venimeuse arrive, meulez trois cartes. (Mettez les trois cartes du dessus de votre bibliothèque dans votre cimetière.)",
             "type": "Créature — gorgonoïde et clerc",
             "uuid": "0f5d05b2-5059-517f-9f59-f7a8d78ab656"
+          },
+          {
+            "flavorText": "„Nach dem Allheilmittel der schlangenumwundenen Pharika haben schon viele gesucht. Möchtest du ihr Schicksal teilen?\"",
+            "identifiers": {
+              "multiverseId": "682093",
+              "scryfallId": "ffcb0851-47a9-417b-a12d-62bb134b09a2"
+            },
+            "language": "German",
+            "multiverseId": 682093,
+            "name": "Giftige Hohepriesterin",
+            "skuIds": {
+              "nonfoil": "1c4defdd-1f44-586f-b0a5-a68a0097d8ee"
+            },
+            "text": "Todesberührung (Eine beliebige Menge Schadenspunkte, die dies einer Kreatur zufügt, ist ausreichend, um sie zu zerstören.)\nWenn die Giftige Hohepriesterin ins Spiel kommt, millst du drei Karten. (Lege die obersten drei Karten deiner Bibliothek auf deinen Friedhof.)",
+            "type": "Kreatur — Gorgo, Kleriker",
+            "uuid": "66b96e9d-8a46-55d0-b26f-a617de4bd8e0"
           },
           {
             "flavorText": "\"Molti hanno cercato la panacea di Farika, colei che è ammantata di serpenti. Vuoi condividere il loro destino?\"",
@@ -1588,6 +1750,9 @@
             "language": "Italian",
             "multiverseId": 682444,
             "name": "Gerofante Velenosa",
+            "skuIds": {
+              "nonfoil": "a03af281-1f46-524c-ab71-016ed3ebc688"
+            },
             "text": "Tocco letale (Qualsiasi danno che questa creatura infligge a una creatura è sufficiente a distruggerla.)\nQuando la Gerofante Velenosa entra, macina tre carte. (Metti nel tuo cimitero le prime tre carte del tuo grimorio.)",
             "type": "Creatura — Chierico Gorgone",
             "uuid": "396d45eb-38d0-5a65-9122-4de0ada52943"
@@ -1601,14 +1766,31 @@
             "language": "Japanese",
             "multiverseId": 682561,
             "name": "毒の秘義司祭",
+            "skuIds": {
+              "nonfoil": "c524fedc-1a21-5057-afb7-404f0c8288e5"
+            },
             "text": "接死（これが何らかのダメージをクリーチャーに与えたら、それだけで破壊する。）\n毒の秘義司祭が戦場に出たとき、カード３枚を切削する。（あなたのライブラリーの一番上にあるカード３枚をあなたの墓地に置く。）",
             "type": "クリーチャー — ゴルゴン・クレリック",
             "uuid": "b1e28e52-1ce8-5274-95fc-37aab15c9657"
+          },
+          {
+            "flavorText": "\"Muchos han buscado la panacea de Farika, la de los cabellos de serpiente. ¿Quieres compartir su destino?\".",
+            "identifiers": {
+              "multiverseId": "682210",
+              "scryfallId": "8b4c146f-ffc0-482b-aaf2-792891a35b95"
+            },
+            "language": "Spanish",
+            "multiverseId": 682210,
+            "name": "Hierofante venenosa",
+            "skuIds": {
+              "nonfoil": "599dc4cd-800c-5c16-b015-515542018369"
+            },
+            "text": "Toque mortal. (Cualquier cantidad de daño que esto haga a una criatura es suficiente para destruirla.)\nCuando la Hierofante venenosa entre, muele tres cartas. (Pon las tres primeras cartas de tu biblioteca en tu cementerio.)",
+            "type": "Criatura — Clérigo gorgona",
+            "uuid": "04109c55-54e0-5cc0-8739-212e0c6d7e00"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305845",
           "cardsphereId": "131182",
@@ -1654,6 +1836,7 @@
         "name": "Venomous Hierophant",
         "number": "506",
         "originalText": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Venomous Hierophant enters, mill three cards. (Put the top three cards of your library into your graveyard.)",
+        "originalType": "Creature – Gorgon Cleric",
         "power": "3",
         "printings": [
           "CLU",
@@ -1667,9 +1850,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d2944530-7f97-555b-9250-669e739362e9"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1703,39 +1891,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 19519,
+        "edhrecRank": 20147,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"You might have pleaded your case with my queen earlier. Now I am here, and it is far too late.\"",
         "foreignData": [
-          {
-            "flavorText": "„Du hättest dein Anliegen früher meiner Königin vortragen sollen. Jetzt bin ich hier, und es ist zu spät.\"",
-            "identifiers": {
-              "multiverseId": "682097",
-              "scryfallId": "8d389f71-4da1-49c8-8737-d9c17abfeee7"
-            },
-            "language": "German",
-            "multiverseId": 682097,
-            "name": "Vraskas Vollstreckerin",
-            "text": "Wenn Vraskas Vollstreckerin ins Spiel kommt, zerstöre eine Kreatur oder einen Planeswalker deiner Wahl, die bzw. den ein Gegner kontrolliert und der bzw. dem in diesem Zug Schaden zugefügt wurde.",
-            "type": "Kreatur — Gorgo, Assassine",
-            "uuid": "9b878cac-6500-52a5-b060-b58c086faf58"
-          },
-          {
-            "flavorText": "\"Puede que suplicaras clemencia a mi reina antes. Pero ahora ya estoy aquí y es demasiado tarde\".",
-            "identifiers": {
-              "multiverseId": "682214",
-              "scryfallId": "ffa96d28-68b8-48d1-b856-72554d88a461"
-            },
-            "language": "Spanish",
-            "multiverseId": 682214,
-            "name": "Rematadora de Vraska",
-            "text": "Cuando la Rematadora de Vraska entre, destruye la criatura o planeswalker objetivo que controla un oponente y que haya recibido daño este turno.",
-            "type": "Criatura — Asesino gorgona",
-            "uuid": "b598c87d-8159-540c-8401-13f02652123e"
-          },
           {
             "flavorText": "« Vous auriez pu plaider votre cause auprès de ma reine plus tôt. Maintenant je suis là, et c'est trop tard. »",
             "identifiers": {
@@ -1745,9 +1907,28 @@
             "language": "French",
             "multiverseId": 682331,
             "name": "Finisseuse de Vraska",
+            "skuIds": {
+              "nonfoil": "1bcc0a43-0ff6-5af5-a036-1d1e73cb33a9"
+            },
             "text": "Quand la Finisseuse de Vraska arrive, détruisez une cible, créature ou planeswalker qu'un adversaire contrôle, qui a subi des blessures ce tour-ci.",
             "type": "Créature — gorgonoïde et assassin",
             "uuid": "2f0f305a-b53f-5799-a0eb-a16986aca497"
+          },
+          {
+            "flavorText": "„Du hättest dein Anliegen früher meiner Königin vortragen sollen. Jetzt bin ich hier, und es ist zu spät.\"",
+            "identifiers": {
+              "multiverseId": "682097",
+              "scryfallId": "8d389f71-4da1-49c8-8737-d9c17abfeee7"
+            },
+            "language": "German",
+            "multiverseId": 682097,
+            "name": "Vraskas Vollstreckerin",
+            "skuIds": {
+              "nonfoil": "ca1ca1b2-8d7f-5685-a779-3cba03018c9b"
+            },
+            "text": "Wenn Vraskas Vollstreckerin ins Spiel kommt, zerstöre eine Kreatur oder einen Planeswalker deiner Wahl, die bzw. den ein Gegner kontrolliert und der bzw. dem in diesem Zug Schaden zugefügt wurde.",
+            "type": "Kreatur — Gorgo, Assassine",
+            "uuid": "9b878cac-6500-52a5-b060-b58c086faf58"
           },
           {
             "flavorText": "\"Il tempo per supplicare pietà alla mia regina è passato. Ormai sono qui e per te è troppo tardi.\"",
@@ -1758,6 +1939,9 @@
             "language": "Italian",
             "multiverseId": 682448,
             "name": "Giustiziera di Vraska",
+            "skuIds": {
+              "nonfoil": "56b8c5f2-4b22-515a-925e-b51bc44e43c0"
+            },
             "text": "Quando la Giustiziera di Vraska entra, distruggi una creatura o un planeswalker bersaglio a cui è stato inflitto danno in questo turno controllati da un avversario.",
             "type": "Creatura — Assassino Gorgone",
             "uuid": "09c0987d-deab-564a-bcee-310064b6969d"
@@ -1771,14 +1955,31 @@
             "language": "Japanese",
             "multiverseId": 682565,
             "name": "ヴラスカの懐刀",
+            "skuIds": {
+              "nonfoil": "9ca38c6d-4df7-5112-91b5-b1ef19667435"
+            },
             "text": "ヴラスカの懐刀が戦場に出たとき、対戦相手がコントロールしていてこのターンにダメージを受けた、クリーチャーやプレインズウォーカーである１体を対象とする。それを破壊する。",
             "type": "クリーチャー — ゴルゴン・暗殺者",
             "uuid": "a106189b-613b-5cd6-938d-cd63c09a3297"
+          },
+          {
+            "flavorText": "\"Puede que suplicaras clemencia a mi reina antes. Pero ahora ya estoy aquí y es demasiado tarde\".",
+            "identifiers": {
+              "multiverseId": "682214",
+              "scryfallId": "ffa96d28-68b8-48d1-b856-72554d88a461"
+            },
+            "language": "Spanish",
+            "multiverseId": 682214,
+            "name": "Rematadora de Vraska",
+            "skuIds": {
+              "nonfoil": "51aab596-e3fb-526a-83e5-6e3238e7f066"
+            },
+            "text": "Cuando la Rematadora de Vraska entre, destruye la criatura o planeswalker objetivo que controla un oponente y que haya recibido daño este turno.",
+            "type": "Criatura — Asesino gorgona",
+            "uuid": "b598c87d-8159-540c-8401-13f02652123e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305849",
           "cardsphereId": "131153",
@@ -1820,6 +2021,7 @@
         "name": "Vraska's Finisher",
         "number": "510",
         "originalText": "When Vraska's Finisher enters, destroy target creature or planeswalker an opponent controls that was dealt damage this turn.",
+        "originalType": "Creature – Gorgon Assassin",
         "power": "3",
         "printings": [
           "J25",
@@ -1833,9 +2035,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "6b3f5708-bfc3-5dae-8a08-fa279bfb86d8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1865,36 +2072,12 @@
         "colors": [],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 8820,
+        "edhrecRank": 9129,
         "edhrecSaltiness": 0.2,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "684033",
-              "scryfallId": "38983c7a-5c8d-4e6f-b3db-4107c953f032"
-            },
-            "language": "German",
-            "multiverseId": 684033,
-            "name": "Gorgonenflegel",
-            "text": "Die ausgerüstete Kreatur erhält +1/+1 und hat Todesberührung. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügt, ist ausreichend, um jene Kreatur zu zerstören.)\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
-            "type": "Artefakt — Ausrüstung",
-            "uuid": "0c77588b-b121-5c98-b90e-7be9ebfc04b4"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "684072",
-              "scryfallId": "61e1f8c4-a36e-4bc2-bc3d-97a947145911"
-            },
-            "language": "Spanish",
-            "multiverseId": 684072,
-            "name": "Azote de gorgonas",
-            "text": "La criatura equipada obtiene +1/+1 y tiene la habilidad de toque mortal. (Cualquier cantidad de daño que haga a una criatura es suficiente para destruir esa criatura.)\nEquipar {2}. ({2}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
-            "type": "Artefacto — Equipo",
-            "uuid": "1ac346c9-16da-5593-ad70-60a84faf3a10"
-          },
           {
             "identifiers": {
               "multiverseId": "684111",
@@ -1903,9 +2086,27 @@
             "language": "French",
             "multiverseId": 684111,
             "name": "Fléau de la gorgone",
+            "skuIds": {
+              "nonfoil": "cadfbe97-fed5-5d4b-a8c4-5265c7d152c3"
+            },
             "text": "La créature équipée gagne +1/+1 et a le contact mortel. (Le nombre de blessures qu'elle inflige à une créature, quel qu'il soit, est suffisant pour la détruire.)\nÉquipement {2} ({2} : Attachez à une créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
             "type": "Artefact — équipement",
             "uuid": "a0aa4159-5e3c-5658-81b5-ddf3ab9cd91a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684033",
+              "scryfallId": "38983c7a-5c8d-4e6f-b3db-4107c953f032"
+            },
+            "language": "German",
+            "multiverseId": 684033,
+            "name": "Gorgonenflegel",
+            "skuIds": {
+              "nonfoil": "6affece1-9bd3-5b23-8038-01f6b4bf5adf"
+            },
+            "text": "Die ausgerüstete Kreatur erhält +1/+1 und hat Todesberührung. (Eine beliebige Menge Schadenspunkte, die sie einer Kreatur zufügt, ist ausreichend, um jene Kreatur zu zerstören.)\nAusrüsten {2} ({2}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+            "type": "Artefakt — Ausrüstung",
+            "uuid": "0c77588b-b121-5c98-b90e-7be9ebfc04b4"
           },
           {
             "identifiers": {
@@ -1915,6 +2116,9 @@
             "language": "Italian",
             "multiverseId": 684150,
             "name": "Gorgone Sferzante",
+            "skuIds": {
+              "nonfoil": "57e93fc6-1196-5c53-a907-eeba278c3e44"
+            },
             "text": "La creatura equipaggiata prende +1/+1 e ha tocco letale. (Qualsiasi danno che essa infligge a una creatura è sufficiente a distruggere quella creatura.)\nEquipaggiare {2} ({2}: Assegna a una creatura bersaglio che controlli. Equipaggia solo come una stregoneria.)",
             "type": "Artefatto — Equipaggiamento",
             "uuid": "d2357d4f-c157-53e5-b745-7f657b71db5d"
@@ -1927,14 +2131,30 @@
             "language": "Japanese",
             "multiverseId": 684189,
             "name": "ゴルゴンのフレイル",
+            "skuIds": {
+              "nonfoil": "f596e188-c0b2-5daa-b03a-8e0445d91d50"
+            },
             "text": "装備しているクリーチャーは＋１/＋１の修整を受け接死を持つ。（それが何らかのダメージをクリーチャーに与えたら、それだけでそのクリーチャーを破壊する。）\n装備{2}（{2}：あなたがコントロールしているクリーチャー１体を対象とする。これをそれにつける。装備はソーサリーとしてのみ行う。）",
             "type": "アーティファクト — 装備品",
             "uuid": "a2cd10d0-8c02-5dd7-b4cc-027ec811db7b"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "684072",
+              "scryfallId": "61e1f8c4-a36e-4bc2-bc3d-97a947145911"
+            },
+            "language": "Spanish",
+            "multiverseId": 684072,
+            "name": "Azote de gorgonas",
+            "skuIds": {
+              "nonfoil": "ce9efa36-e112-53f2-8521-525a3f3f0272"
+            },
+            "text": "La criatura equipada obtiene +1/+1 y tiene la habilidad de toque mortal. (Cualquier cantidad de daño que haga a una criatura es suficiente para destruir esa criatura.)\nEquipar {2}. ({2}: Anexa este Equipo a la criatura objetivo que controlas. Activa la habilidad de equipar como un conjuro.)",
+            "type": "Artefacto — Equipo",
+            "uuid": "1ac346c9-16da-5593-ad70-60a84faf3a10"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306091",
           "cardsphereId": "130676",
@@ -1976,6 +2196,7 @@
         "name": "Gorgon Flail",
         "number": "752",
         "originalText": "Equipped creature gets +1/+1 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy that creature.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+        "originalType": "Artifact – Equipment",
         "printings": [
           "J25",
           "M10",
@@ -1988,9 +2209,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "99ee7d83-46eb-5714-a723-9d1797887348"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2020,39 +2246,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
-          {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
-            "identifiers": {
-              "multiverseId": "684060",
-              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
-            },
-            "language": "German",
-            "multiverseId": 684060,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "684099",
-              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684099,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
-          },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
             "identifiers": {
@@ -2062,9 +2262,28 @@
             "language": "French",
             "multiverseId": 684138,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "add59bbe-0b4b-5e14-9a6a-47bf39042209"
+            },
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "684060",
+              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
+            },
+            "language": "German",
+            "multiverseId": 684060,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "afbea6f1-e976-504e-b830-36843d57a647"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2075,6 +2294,9 @@
             "language": "Italian",
             "multiverseId": 684177,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "01ccf6ce-a9b3-5200-950b-077f06168b6c"
+            },
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
@@ -2088,14 +2310,31 @@
             "language": "Japanese",
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "66dadb12-235f-57b1-8a05-6ca3b2f2374f"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
+          },
+          {
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
+            "identifiers": {
+              "multiverseId": "684099",
+              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684099,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "2fc2ec38-fc7e-549d-bddc-8eccb2fc0db9"
+            },
+            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306118",
           "cardsphereId": "130620",
@@ -2133,11 +2372,13 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2145,7 +2386,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ea3b0ea9ac38ec4",
@@ -2154,9 +2403,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77f55632-6902-5207-821a-0a16defe007e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2191,36 +2445,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2230,6 +2479,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -2241,18 +2493,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -2265,7 +2533,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2293,6 +2560,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2362,6 +2630,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2521,15 +2790,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2545,8 +2823,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -2572,36 +2850,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681258",
-              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
-            },
-            "language": "German",
-            "multiverseId": 681258,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681273",
-              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
-            },
-            "language": "Spanish",
-            "multiverseId": 681273,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681288",
               "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
             },
             "language": "French",
             "multiverseId": 681288,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "58cc2114-ff20-5b2b-8243-fe9c71444056"
+            },
             "type": "Terrain de base — marais",
             "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "df8c56c8-2c52-5f7c-a0f9-dc007b453cc8"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
           },
           {
             "identifiers": {
@@ -2611,6 +2884,9 @@
             "language": "Italian",
             "multiverseId": 681303,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "38762243-399f-5806-a2ff-72b8eafa5764"
+            },
             "type": "Terra Base — Palude",
             "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
           },
@@ -2622,18 +2898,34 @@
             "language": "Japanese",
             "multiverseId": 681318,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "bac3b3f5-1e4f-53d2-b37d-f29f8830f1b3"
+            },
             "type": "基本土地 — 沼",
             "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "012c01ef-0c6c-5f00-8ee3-cc9ed0399fa5"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305222",
           "cardsphereId": "131378",
           "deckboxId": "98082",
           "mcmId": "795509",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95173",
           "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
           "multiverseId": "681243",
@@ -2646,7 +2938,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2674,6 +2965,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "88",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2743,6 +3035,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2902,15 +3195,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "cardmarket": "https://mtgjson.com/links/d72081b51f72a9fd",
           "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0f6de19-a0e0-5f46-b789-722db3f3d050"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2926,8 +3228,8 @@
         ],
         "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
         "variations": [
-          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338"
         ]
       },
       {
@@ -2953,36 +3255,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681259",
-              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
-            },
-            "language": "German",
-            "multiverseId": 681259,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681274",
-              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681274,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681289",
               "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
             },
             "language": "French",
             "multiverseId": 681289,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "83eec502-7b1d-59a8-9981-d0be754718c4"
+            },
             "type": "Terrain de base — marais",
             "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "8273f910-cf00-5709-878e-3650541afce7"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
           },
           {
             "identifiers": {
@@ -2992,6 +3289,9 @@
             "language": "Italian",
             "multiverseId": 681304,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "a84aa32a-8785-528e-ad51-add235859b0f"
+            },
             "type": "Terra Base — Palude",
             "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
           },
@@ -3003,18 +3303,34 @@
             "language": "Japanese",
             "multiverseId": 681319,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "f946fc76-6b28-53a6-bfdb-03572ac6abf9"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "a560fadb-19ac-5380-a675-5ea7a7ced15c"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305223",
           "cardsphereId": "131379",
           "deckboxId": "98083",
           "mcmId": "795510",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95174",
           "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
           "multiverseId": "681244",
@@ -3027,7 +3343,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3055,6 +3370,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "89",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3124,6 +3440,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3283,15 +3600,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "cardmarket": "https://mtgjson.com/links/c5cffa7bb040b1df",
           "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "218449c3-8e95-5b56-a14d-e3c30f76d304"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3323,5 +3649,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "3149dffd041f95"
   }
 }

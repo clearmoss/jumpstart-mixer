@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "5db466f4ebbddd"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -27,39 +22,13 @@
         ],
         "convertedManaCost": 8.0,
         "count": 1,
-        "edhrecRank": 1838,
+        "edhrecRank": 1939,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Sometimes death comes knocking. Sometimes it tears down the walls.",
         "foreignData": [
-          {
-            "flavorText": "Manchmal klopft der Tod an. Manchmal reißt er auch Wände ein.",
-            "identifiers": {
-              "multiverseId": "681986",
-              "scryfallId": "e021cb97-50c9-43ac-9162-0021b0789dc9"
-            },
-            "language": "German",
-            "multiverseId": 681986,
-            "name": "Armee der Verdammten",
-            "text": "Erzeuge dreizehn getappte 2/2 schwarze Zombie-Kreaturenspielsteine.\nRückblende {7}{B}{B}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
-            "type": "Hexerei",
-            "uuid": "fd9cee12-1f5e-52e8-be0c-e6fe26cebc86"
-          },
-          {
-            "flavorText": "A veces la muerte golpea a tu puerta. A veces tira abajo las paredes.",
-            "identifiers": {
-              "multiverseId": "682103",
-              "scryfallId": "cdda6d5b-b202-4b19-ab0b-705f95f8f11c"
-            },
-            "language": "Spanish",
-            "multiverseId": 682103,
-            "name": "Ejército de los condenados",
-            "text": "Crea trece fichas de criatura Zombie negras 2/2 giradas.\nRetrospectiva {7}{B}{B}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
-            "type": "Conjuro",
-            "uuid": "04706aaa-ccbd-5152-8806-14771bb5b8e0"
-          },
           {
             "flavorText": "Parfois la mort vient frapper à votre porte. Parfois, elle défonce les murs.",
             "identifiers": {
@@ -69,9 +38,28 @@
             "language": "French",
             "multiverseId": 682220,
             "name": "Armée des damnés",
+            "skuIds": {
+              "nonfoil": "acbd2100-3057-5e4b-83d1-396f9dde620d"
+            },
             "text": "Créez treize jetons de créature 2/2 noire Zombie engagés.\nFlashback {7}{B}{B}{B} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)",
             "type": "Rituel",
             "uuid": "34b9b705-e4f5-553f-beb7-8123fb240576"
+          },
+          {
+            "flavorText": "Manchmal klopft der Tod an. Manchmal reißt er auch Wände ein.",
+            "identifiers": {
+              "multiverseId": "681986",
+              "scryfallId": "e021cb97-50c9-43ac-9162-0021b0789dc9"
+            },
+            "language": "German",
+            "multiverseId": 681986,
+            "name": "Armee der Verdammten",
+            "skuIds": {
+              "nonfoil": "3d8b2692-888d-5663-8110-13c946d4f9eb"
+            },
+            "text": "Erzeuge dreizehn getappte 2/2 schwarze Zombie-Kreaturenspielsteine.\nRückblende {7}{B}{B}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
+            "type": "Hexerei",
+            "uuid": "fd9cee12-1f5e-52e8-be0c-e6fe26cebc86"
           },
           {
             "flavorText": "A volte la morte viene bussando. A volte sfonda le pareti.",
@@ -82,6 +70,9 @@
             "language": "Italian",
             "multiverseId": 682337,
             "name": "Esercito dei Dannati",
+            "skuIds": {
+              "nonfoil": "e867434a-4f83-5f20-ba1a-d1eef5483e2d"
+            },
             "text": "Crea tredici pedine creatura Zombie 2/2 nere TAPpate.\nFlashback {7}{B}{B}{B} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)",
             "type": "Stregoneria",
             "uuid": "16f8657d-b769-56a9-903b-fe5a20c9c44e"
@@ -95,14 +86,31 @@
             "language": "Japanese",
             "multiverseId": 682454,
             "name": "忌むべき者の軍団",
+            "skuIds": {
+              "nonfoil": "68fa1c18-223f-5424-b2f4-6582eb2d438d"
+            },
             "text": "黒の２/２のゾンビ・クリーチャー・トークン13体をタップ状態で生成する。\nフラッシュバック{7}{B}{B}{B}（あなたの墓地にあるこのカードをフラッシュバック・コストで唱えてもよい。その後、これを追放する。）",
             "type": "ソーサリー",
             "uuid": "36fed11c-3c7f-5bcd-9c5a-c64601263ea6"
+          },
+          {
+            "flavorText": "A veces la muerte golpea a tu puerta. A veces tira abajo las paredes.",
+            "identifiers": {
+              "multiverseId": "682103",
+              "scryfallId": "cdda6d5b-b202-4b19-ab0b-705f95f8f11c"
+            },
+            "language": "Spanish",
+            "multiverseId": 682103,
+            "name": "Ejército de los condenados",
+            "skuIds": {
+              "nonfoil": "0115f5ce-0860-54c4-a2f3-befc2b933e1d"
+            },
+            "text": "Crea trece fichas de criatura Zombie negras 2/2 giradas.\nRetrospectiva {7}{B}{B}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+            "type": "Conjuro",
+            "uuid": "04706aaa-ccbd-5152-8806-14771bb5b8e0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305547",
           "cardsphereId": "131159",
@@ -144,6 +152,7 @@
         "name": "Army of the Damned",
         "number": "399",
         "originalText": "Create thirteen tapped 2/2 black Zombie creature tokens.\nFlashback {7}{B}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "originalType": "Sorcery",
         "printings": [
           "C13",
           "C16",
@@ -160,6 +169,11 @@
           "tcgplayer": "https://mtgjson.com/links/34fde5682f748870"
         },
         "rarity": "mythic",
+        "relatedCards": {
+          "tokens": [
+            "e8918ec2-32fe-5ef5-a5aa-5c578794d5f3"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -188,9 +202,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "51edbd6b-19d2-5bfe-8697-2211d7bf6232"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -221,36 +240,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 11196,
+        "edhrecRank": 10763,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680971",
-              "scryfallId": "2453b2b7-4bd9-4177-84af-df3896508434"
-            },
-            "language": "German",
-            "multiverseId": 680971,
-            "name": "Ozox, der klackernde König",
-            "text": "Ozox, der klackernde König kann nicht blocken.\nWenn Ozox stirbt, erzeuge Wackelknochen, einen legendären 2/1 schwarzen Skelett-Kreaturenspielstein mit „Diese Kreatur kann nicht blocken\" und „Wenn diese Kreatur das Spiel verlässt, bringe eine Karte deiner Wahl namens Ozox, der klackernde König, aus deinem Friedhof auf deine Hand zurück.\"",
-            "type": "Legendäre Kreatur — Skelett, Adliger",
-            "uuid": "eb4421b4-4644-52c2-958e-4c0f912f952a"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680998",
-              "scryfallId": "c44e29b9-acb1-4283-8ff7-2db890e4f23d"
-            },
-            "language": "Spanish",
-            "multiverseId": 680998,
-            "name": "Ozox, el rey repiqueteador",
-            "text": "Ozox, el rey repiqueteador no puede bloquear.\nCuando Ozox muera, crea a Huesudo, una ficha de criatura legendaria Esqueleto negra 2/1 con \"Esta criatura no puede bloquear\" y \"Cuando esta criatura deje el campo de batalla, regresa la carta objetivo llamada Ozox, el rey repiqueteador de tu cementerio a tu mano\".",
-            "type": "Criatura legendaria — Noble esqueleto",
-            "uuid": "66832686-71de-5c67-9905-34741bcdde07"
-          },
           {
             "identifiers": {
               "multiverseId": "681025",
@@ -259,9 +254,27 @@
             "language": "French",
             "multiverseId": 681025,
             "name": "Ozox, roi cliquetant",
+            "skuIds": {
+              "nonfoil": "924d7bbe-b800-5af1-a5d3-57d5d0e70102"
+            },
             "text": "Ozox, roi cliquetant ne peut pas bloquer.\nQuand Ozox meurt, créez Sacdos, un jeton de créature légendaire 2/1 noire Squelette avec « Cette créature ne peut pas bloquer » et « Quand cette créature quitte le champ de bataille, renvoyez dans votre main une carte ciblée appelée Ozox, roi cliquetant depuis votre cimetière. »",
             "type": "Créature légendaire — squelette et noble",
             "uuid": "c47ca637-e6ef-5f28-ab40-137e686ddd07"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680971",
+              "scryfallId": "2453b2b7-4bd9-4177-84af-df3896508434"
+            },
+            "language": "German",
+            "multiverseId": 680971,
+            "name": "Ozox, der klackernde König",
+            "skuIds": {
+              "nonfoil": "5b2e29ec-ff7c-5798-b200-454832d8b221"
+            },
+            "text": "Ozox, der klackernde König kann nicht blocken.\nWenn Ozox stirbt, erzeuge Wackelknochen, einen legendären 2/1 schwarzen Skelett-Kreaturenspielstein mit „Diese Kreatur kann nicht blocken\" und „Wenn diese Kreatur das Spiel verlässt, bringe eine Karte deiner Wahl namens Ozox, der klackernde König, aus deinem Friedhof auf deine Hand zurück.\"",
+            "type": "Legendäre Kreatur — Skelett, Adliger",
+            "uuid": "eb4421b4-4644-52c2-958e-4c0f912f952a"
           },
           {
             "identifiers": {
@@ -271,6 +284,9 @@
             "language": "Italian",
             "multiverseId": 681052,
             "name": "Ozox, il Re Scricchiolante",
+            "skuIds": {
+              "nonfoil": "2266cd7d-6e05-5625-852e-4aa6bd82b889"
+            },
             "text": "Ozox, il Re Scricchiolante non può bloccare.\nQuando Ozox muore, crea Mucchietto d'Ossa, una pedina creatura leggendaria Scheletro 2/1 nera con \"Questa creatura non può bloccare\" e \"Quando questa creatura lascia il campo di battaglia, riprendi in mano una carta bersaglio chiamata Ozox, il Re Scricchiolante dal tuo cimitero\".",
             "type": "Creatura Leggendaria — Nobile Scheletro",
             "uuid": "4cb6f369-9406-5af2-b945-7827b920253d"
@@ -283,17 +299,33 @@
             "language": "Japanese",
             "multiverseId": 681079,
             "name": "骨鳴りの王、オゾクス",
+            "skuIds": {
+              "nonfoil": "b398bbce-b734-5c2e-a0a6-a354e2a59c21"
+            },
             "text": "骨鳴りの王、オゾクスではブロックできない。\nこれが死亡したとき、「絡み骨」という名前で「このクリーチャーではブロックできない。」と「このクリーチャーが戦場を離れたとき、あなたの墓地にある『骨鳴りの王、オゾクス』という名前のカード１枚を対象とする。それをあなたの手札に戻す。」を持つ黒の２/１の伝説のスケルトン・クリーチャー・トークン１体を生成する。",
             "type": "伝説のクリーチャー — スケルトン・貴族",
             "uuid": "265bc95f-ac4d-5646-8d24-39c112fdfa89"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680998",
+              "scryfallId": "c44e29b9-acb1-4283-8ff7-2db890e4f23d"
+            },
+            "language": "Spanish",
+            "multiverseId": 680998,
+            "name": "Ozox, el rey repiqueteador",
+            "skuIds": {
+              "nonfoil": "ce18e9eb-6467-5794-b8fa-01c6ae158d02"
+            },
+            "text": "Ozox, el rey repiqueteador no puede bloquear.\nCuando Ozox muera, crea a Huesudo, una ficha de criatura legendaria Esqueleto negra 2/1 con \"Esta criatura no puede bloquear\" y \"Cuando esta criatura deje el campo de batalla, regresa la carta objetivo llamada Ozox, el rey repiqueteador de tu cementerio a tu mano\".",
+            "type": "Criatura legendaria — Noble esqueleto",
+            "uuid": "66832686-71de-5c67-9905-34741bcdde07"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305178",
           "cardsphereId": "130810",
@@ -312,7 +344,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "leadershipSkills": {
@@ -336,6 +367,7 @@
         "name": "Ozox, the Clattering King",
         "number": "44",
         "originalText": "Ozox, the Clattering King can't block.\nWhen Ozox dies, create Jumblebones, a legendary 2/1 black Skeleton creature token with \"This creature can't block\" and \"When this creature leaves the battlefield, return target card named Ozox, the Clattering King from your graveyard to your hand.\"",
+        "originalType": "Legendary Creature – Skeleton Noble",
         "power": "3",
         "printings": [
           "J25"
@@ -347,9 +379,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "45fa0957-54df-5a9b-a151-cb6149d1e89a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -385,39 +422,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 134,
+        "edhrecRank": 132,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Fortune may favor the bold, but it also flattens the foolhardy.",
         "foreignData": [
-          {
-            "flavorText": "Das Glück ist mit den Tüchtigen, aber es tilgt auch die Törichten.",
-            "identifiers": {
-              "multiverseId": "681580",
-              "scryfallId": "dd5d9ae1-aca9-4a5e-b2ba-ca44ef493459"
-            },
-            "language": "German",
-            "multiverseId": 681580,
-            "name": "Tödlicher Disput",
-            "text": "Opfere ein Artefakt oder eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Spontanzauber",
-            "uuid": "871b417c-fec3-5320-9cf5-4ae9ac74c4d9"
-          },
-          {
-            "flavorText": "Puede que la suerte sonría a los valientes, pero también destruye a los imprudentes.",
-            "identifiers": {
-              "multiverseId": "681641",
-              "scryfallId": "f46a341a-4931-4897-94c4-da601977e912"
-            },
-            "language": "Spanish",
-            "multiverseId": 681641,
-            "name": "Disputa mortal",
-            "text": "Como coste adicional para lanzar este hechizo, sacrifica un artefacto o criatura.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Instantáneo",
-            "uuid": "5b81cf36-688d-5248-ba0e-d95502e27180"
-          },
           {
             "flavorText": "Certes, la fortune sourit aux audacieux, mais elle cause également la perte des imprudents.",
             "identifiers": {
@@ -427,9 +438,28 @@
             "language": "French",
             "multiverseId": 681702,
             "name": "Dispute mortelle",
+            "skuIds": {
+              "nonfoil": "259a325f-559b-5687-a89c-3263d218e1ef"
+            },
             "text": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez un artefact ou une créature.\nPiochez deux cartes et créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Éphémère",
             "uuid": "d5ab6f58-994a-5ea1-b1ad-b9f6256b85d5"
+          },
+          {
+            "flavorText": "Das Glück ist mit den Tüchtigen, aber es tilgt auch die Törichten.",
+            "identifiers": {
+              "multiverseId": "681580",
+              "scryfallId": "dd5d9ae1-aca9-4a5e-b2ba-ca44ef493459"
+            },
+            "language": "German",
+            "multiverseId": 681580,
+            "name": "Tödlicher Disput",
+            "skuIds": {
+              "nonfoil": "b3c7de1b-e3a9-5191-8ba6-03ee3668b353"
+            },
+            "text": "Opfere ein Artefakt oder eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nZiehe zwei Karten und erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Spontanzauber",
+            "uuid": "871b417c-fec3-5320-9cf5-4ae9ac74c4d9"
           },
           {
             "flavorText": "La fortuna aiuterà gli audaci, ma abbatte gli avventati.",
@@ -440,6 +470,9 @@
             "language": "Italian",
             "multiverseId": 681763,
             "name": "Disputa Mortale",
+            "skuIds": {
+              "nonfoil": "31eb9eec-2e85-558e-94f3-03af3c25a64f"
+            },
             "text": "Come costo addizionale per lanciare questa magia, sacrifica un artefatto o una creatura.\nPesca due carte e crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Istantaneo",
             "uuid": "631c61e1-f4ec-5e2a-b5f0-ced83fd98537"
@@ -453,14 +486,31 @@
             "language": "Japanese",
             "multiverseId": 681824,
             "name": "命取りの論争",
+            "skuIds": {
+              "nonfoil": "9e91e823-7084-5baf-88ca-bc6cb23eac6d"
+            },
             "text": "この呪文を唱えるための追加コストとして、アーティファクトやクリーチャーである１つを生け贄に捧げる。\nカード２枚を引き、宝物・トークン１つを生成する。（それは、「{T},このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "インスタント",
             "uuid": "7fd305f6-6568-53ac-a20a-599587db21bc"
+          },
+          {
+            "flavorText": "Puede que la suerte sonría a los valientes, pero también destruye a los imprudentes.",
+            "identifiers": {
+              "multiverseId": "681641",
+              "scryfallId": "f46a341a-4931-4897-94c4-da601977e912"
+            },
+            "language": "Spanish",
+            "multiverseId": 681641,
+            "name": "Disputa mortal",
+            "skuIds": {
+              "nonfoil": "33447b16-bc6d-5040-a0ed-633bf4649271"
+            },
+            "text": "Como coste adicional para lanzar este hechizo, sacrifica un artefacto o criatura.\nRoba dos cartas y crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Instantáneo",
+            "uuid": "5b81cf36-688d-5248-ba0e-d95502e27180"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305249",
           "cardsphereId": "130932",
@@ -479,7 +529,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -505,6 +554,7 @@
         "name": "Deadly Dispute",
         "number": "115",
         "originalText": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Instant",
         "printings": [
           "AFR",
           "BLC",
@@ -520,16 +570,33 @@
           "SLD",
           "TDC"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/1942df45c0783297",
           "cardmarket": "https://mtgjson.com/links/30af87a64924c9be",
           "tcgplayer": "https://mtgjson.com/links/42e6b2277311ef22"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "0d5c7fd9-ac34-5254-ac37-7b1059b4b186"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -559,36 +626,12 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 3349,
+        "edhrecRank": 3350,
         "edhrecSaltiness": 0.15,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "681589",
-              "scryfallId": "35b91a9a-ff77-4635-ad10-f97012c0f33e"
-            },
-            "language": "German",
-            "multiverseId": 681589,
-            "name": "Trottender Grul",
-            "text": "Wenn der Trottende Grul stirbt, bestimme eines —\n• Eine Kreatur deiner Wahl, die ein Gegner kontrolliert, erhält -1/-1 bis zum Ende des Zuges.\n• Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
-            "type": "Kreatur — Zombie",
-            "uuid": "789bcd9c-1911-5f96-880c-4d5e671f2a53"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681650",
-              "scryfallId": "94fb5efd-665b-4fea-9c28-51b48f539090"
-            },
-            "language": "Spanish",
-            "multiverseId": 681650,
-            "name": "Ghast hedionda",
-            "text": "Cuando la Ghast hedionda muera, elige uno:\n• La criatura objetivo que controla un oponente obtiene -1/-1 hasta el final del turno.\n• Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
-            "type": "Criatura — Zombie",
-            "uuid": "035dd79d-1c86-5fc7-8eb3-87ee1fde1276"
-          },
           {
             "identifiers": {
               "multiverseId": "681711",
@@ -597,9 +640,27 @@
             "language": "French",
             "multiverseId": 681711,
             "name": "Blême titubante",
+            "skuIds": {
+              "nonfoil": "4e8da6df-ab4d-5327-9c9b-fd6ed976805c"
+            },
             "text": "Quand la Blême titubante meurt, choisissez l'un —\n• Une créature ciblée qu'un adversaire contrôle gagne -1/-1 jusqu'à la fin du tour.\n• Créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
             "type": "Créature — zombie",
             "uuid": "72970ec5-70d1-5fed-8726-1af6a6d27bae"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681589",
+              "scryfallId": "35b91a9a-ff77-4635-ad10-f97012c0f33e"
+            },
+            "language": "German",
+            "multiverseId": 681589,
+            "name": "Trottender Grul",
+            "skuIds": {
+              "nonfoil": "01318824-7c2d-5f8e-a49e-35dfe430a580"
+            },
+            "text": "Wenn der Trottende Grul stirbt, bestimme eines —\n• Eine Kreatur deiner Wahl, die ein Gegner kontrolliert, erhält -1/-1 bis zum Ende des Zuges.\n• Erzeuge einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+            "type": "Kreatur — Zombie",
+            "uuid": "789bcd9c-1911-5f96-880c-4d5e671f2a53"
           },
           {
             "identifiers": {
@@ -609,6 +670,9 @@
             "language": "Italian",
             "multiverseId": 681772,
             "name": "Ghast Barcollante",
+            "skuIds": {
+              "nonfoil": "83a6838e-aba5-57c3-a758-dea16e085072"
+            },
             "text": "Quando il Ghast Barcollante muore, scegli uno —\n• Una creatura bersaglio controllata da un avversario prende -1/-1 fino alla fine del turno.\n• Crea una pedina Tesoro. (È un artefatto con \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
             "type": "Creatura — Zombie",
             "uuid": "9056b2c8-33ac-5ba3-9ff8-56d0afb1b00b"
@@ -621,14 +685,30 @@
             "language": "Japanese",
             "multiverseId": 681833,
             "name": "よろめく怪異",
+            "skuIds": {
+              "nonfoil": "8714694e-21c7-559d-afb0-feab7fd4d843"
+            },
             "text": "よろめく怪異が死亡したとき、以下から１つを選ぶ。\n・対戦相手がコントロールしているクリーチャー１体を対象とする。ターン終了時まで、それは－１/－１の修整を受ける。\n・宝物・トークン１つを生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
             "type": "クリーチャー — ゾンビ",
             "uuid": "371522fb-2c65-54ac-8bc0-34bc3c798d4c"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681650",
+              "scryfallId": "94fb5efd-665b-4fea-9c28-51b48f539090"
+            },
+            "language": "Spanish",
+            "multiverseId": 681650,
+            "name": "Ghast hedionda",
+            "skuIds": {
+              "nonfoil": "f45256a6-0a90-5adb-b4fa-4adc615c1dfe"
+            },
+            "text": "Cuando la Ghast hedionda muera, elige uno:\n• La criatura objetivo que controla un oponente obtiene -1/-1 hasta el final del turno.\n• Crea una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+            "type": "Criatura — Zombie",
+            "uuid": "035dd79d-1c86-5fc7-8eb3-87ee1fde1276"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305258",
           "cardsphereId": "130980",
@@ -647,7 +727,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "keywords": [
           "Treasure"
         ],
@@ -673,6 +752,7 @@
         "name": "Shambling Ghast",
         "number": "124",
         "originalText": "When Shambling Ghast dies, choose one —\n• Target creature an opponent controls gets -1/-1 until end of turn.\n• Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature – Zombie",
         "power": "1",
         "printings": [
           "AFR",
@@ -680,16 +760,33 @@
           "J25",
           "PLST"
         ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a418ec05c8623c41",
           "cardmarket": "https://mtgjson.com/links/fd46ecc61c53548b",
           "tcgplayer": "https://mtgjson.com/links/cc9c9d7b72179d4d"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "9b7b8d88-0042-548c-a8dd-18089528b064"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bd0b744f-ec1d-533d-a48d-9a62fee31e71"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -722,35 +819,12 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 10804,
+        "edhrecRank": 10733,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682001",
-              "scryfallId": "1fc190d2-6b1a-4dd0-8d06-d976e88f7b4b"
-            },
-            "language": "German",
-            "multiverseId": 682001,
-            "name": "Aus dem Keller kriechen",
-            "text": "Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück. Lege eine +1/+1-Marke auf bis zu einen Zombie deiner Wahl, den du kontrollierst.\nRückblende {3}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
-            "type": "Hexerei",
-            "uuid": "7f7318f7-623d-5950-9684-e3758c4653b6"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682118",
-              "scryfallId": "c3923adc-bef5-4a33-9ef5-83b14851c2d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 682118,
-            "name": "Surgir de la bodega",
-            "text": "Regresa la carta de criatura objetivo de tu cementerio a tu mano. Pon un contador +1/+1 sobre hasta un Zombie objetivo que controlas.\nRetrospectiva {3}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
-            "type": "Conjuro",
-            "uuid": "271ad77b-5cb8-59d0-ad78-119b6dec407c"
-          },
           {
             "identifiers": {
               "multiverseId": "682235",
@@ -759,9 +833,27 @@
             "language": "French",
             "multiverseId": 682235,
             "name": "Ramper hors de la cave",
+            "skuIds": {
+              "nonfoil": "33f2d398-0fb1-5dd1-b096-9628bc6006b1"
+            },
             "text": "Renvoyez une carte de créature ciblée depuis votre cimetière dans votre main. Ciblez jusqu'à un zombie que vous contrôlez. Mettez un marqueur +1/+1 sur lui.\nFlashback {3}{B} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)",
             "type": "Rituel",
             "uuid": "d36eda8a-22f1-53e4-b44b-74a8956b1fdf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682001",
+              "scryfallId": "1fc190d2-6b1a-4dd0-8d06-d976e88f7b4b"
+            },
+            "language": "German",
+            "multiverseId": 682001,
+            "name": "Aus dem Keller kriechen",
+            "skuIds": {
+              "nonfoil": "338a9fb2-b461-5a15-afed-23bdaca8325b"
+            },
+            "text": "Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück. Lege eine +1/+1-Marke auf bis zu einen Zombie deiner Wahl, den du kontrollierst.\nRückblende {3}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
+            "type": "Hexerei",
+            "uuid": "7f7318f7-623d-5950-9684-e3758c4653b6"
           },
           {
             "identifiers": {
@@ -771,6 +863,9 @@
             "language": "Italian",
             "multiverseId": 682352,
             "name": "Strisciare dalla Cantina",
+            "skuIds": {
+              "nonfoil": "d60e1de6-4073-5488-b462-fcceba36e603"
+            },
             "text": "Riprendi in mano una carta creatura bersaglio dal tuo cimitero. Scegli fino a uno Zombie bersaglio che controlli. Metti un segnalino +1/+1 su di esso.\nFlashback {3}{B} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)",
             "type": "Stregoneria",
             "uuid": "5cf08e6c-4dd6-5917-9d30-efe527be65c2"
@@ -783,14 +878,30 @@
             "language": "Japanese",
             "multiverseId": 682469,
             "name": "地下室からの這い上がり",
+            "skuIds": {
+              "nonfoil": "be0a1716-d17e-5944-a68c-ba5c01004757"
+            },
             "text": "あなたの墓地にあるクリーチャー・カード１枚を対象とし、あなたがコントロールしているゾンビ最大１体を対象とする。その前者をあなたの手札に戻す。その後者の上に＋１/＋１カウンター１個を置く。\nフラッシュバック{3}{B}（あなたの墓地にあるこのカードをフラッシュバック・コストで唱えてもよい。その後、これを追放する。）",
             "type": "ソーサリー",
             "uuid": "c9d5a421-0b36-568c-a99c-50518da60c70"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682118",
+              "scryfallId": "c3923adc-bef5-4a33-9ef5-83b14851c2d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 682118,
+            "name": "Surgir de la bodega",
+            "skuIds": {
+              "nonfoil": "58da5f83-0c90-5089-b61a-cc7884e0c448"
+            },
+            "text": "Regresa la carta de criatura objetivo de tu cementerio a tu mano. Pon un contador +1/+1 sobre hasta un Zombie objetivo que controlas.\nRetrospectiva {3}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+            "type": "Conjuro",
+            "uuid": "271ad77b-5cb8-59d0-ad78-119b6dec407c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305562",
           "cardsphereId": "131174",
@@ -834,6 +945,7 @@
         "name": "Crawl from the Cellar",
         "number": "414",
         "originalText": "Return target creature card from your graveyard to your hand. Put a +1/+1 counter on up to one target Zombie you control.\nFlashback {3}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "originalType": "Sorcery",
         "printings": [
           "DBL",
           "INR",
@@ -873,9 +985,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "bcf458aa-7c6c-5941-ba11-c3d82a231416"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -905,39 +1022,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 16861,
+        "edhrecRank": 17382,
         "edhrecSaltiness": 0.54,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The chaplain would perhaps have found some small comfort had he known that the replacement window would be named in his honor.",
         "foreignData": [
-          {
-            "flavorText": "Der Kaplan hätte vielleicht ein wenig Trost gefunden, wenn er gewusst hätte, dass man das Ersatzfenster nach ihm benennen würde.",
-            "identifiers": {
-              "multiverseId": "682007",
-              "scryfallId": "7b119664-78ae-4943-8f84-b47109114fac"
-            },
-            "language": "German",
-            "multiverseId": 682007,
-            "name": "Fenstersturz",
-            "text": "Zerstöre eine nichtfliegende Kreatur deiner Wahl.",
-            "type": "Spontanzauber",
-            "uuid": "3e8c96c9-2116-5af3-9a78-9f4746a6e1ac"
-          },
-          {
-            "flavorText": "Quizás al capellán le hubiese consolado un poco saber que se nombraría a la ventana de repuesto en su honor.",
-            "identifiers": {
-              "multiverseId": "682124",
-              "scryfallId": "1a7b6c4b-9960-45d5-9cff-63a881c90cd3"
-            },
-            "language": "Spanish",
-            "multiverseId": 682124,
-            "name": "Defenestrar",
-            "text": "Destruye la criatura objetivo sin la habilidad de volar.",
-            "type": "Instantáneo",
-            "uuid": "2d8cdad0-6e20-5f61-adeb-9c1a1e2534f1"
-          },
           {
             "flavorText": "L'aumônier aurait peut-être trouvé une maigre consolation en apprenant que la fenêtre de remplacement serait nommée en son honneur.",
             "identifiers": {
@@ -947,9 +1038,28 @@
             "language": "French",
             "multiverseId": 682241,
             "name": "Défenestration",
+            "skuIds": {
+              "nonfoil": "6ec0a0bb-c2f2-5807-ac37-e90d795115bb"
+            },
             "text": "Détruisez une créature sans le vol ciblée.",
             "type": "Éphémère",
             "uuid": "4cbb2ce5-2c17-5ced-bd3c-cc8cc87b5e05"
+          },
+          {
+            "flavorText": "Der Kaplan hätte vielleicht ein wenig Trost gefunden, wenn er gewusst hätte, dass man das Ersatzfenster nach ihm benennen würde.",
+            "identifiers": {
+              "multiverseId": "682007",
+              "scryfallId": "7b119664-78ae-4943-8f84-b47109114fac"
+            },
+            "language": "German",
+            "multiverseId": 682007,
+            "name": "Fenstersturz",
+            "skuIds": {
+              "nonfoil": "2e4fa0de-b5b2-580e-9e7a-182f4301f3f5"
+            },
+            "text": "Zerstöre eine nichtfliegende Kreatur deiner Wahl.",
+            "type": "Spontanzauber",
+            "uuid": "3e8c96c9-2116-5af3-9a78-9f4746a6e1ac"
           },
           {
             "flavorText": "Il cappellano avrebbe forse provato conforto nel sapere che la nuova finestra avrebbe portato il suo nome.",
@@ -960,6 +1070,9 @@
             "language": "Italian",
             "multiverseId": 682358,
             "name": "Defenestrare",
+            "skuIds": {
+              "nonfoil": "6b830d9e-42f7-54b2-a6b1-5728b94f3832"
+            },
             "text": "Distruggi una creatura bersaglio senza volare.",
             "type": "Istantaneo",
             "uuid": "6d6f3d4d-6ad4-5f8e-9ad1-92ba754e46aa"
@@ -973,14 +1086,31 @@
             "language": "Japanese",
             "multiverseId": 682475,
             "name": "窓からの放り投げ",
+            "skuIds": {
+              "nonfoil": "73ddfa2a-c6da-5fb0-b815-4e70cc5910ce"
+            },
             "text": "飛行を持たないクリーチャー１体を対象とする。それを破壊する。",
             "type": "インスタント",
             "uuid": "a4baf751-994e-516c-805c-7dcc2cd78d9d"
+          },
+          {
+            "flavorText": "Quizás al capellán le hubiese consolado un poco saber que se nombraría a la ventana de repuesto en su honor.",
+            "identifiers": {
+              "multiverseId": "682124",
+              "scryfallId": "1a7b6c4b-9960-45d5-9cff-63a881c90cd3"
+            },
+            "language": "Spanish",
+            "multiverseId": 682124,
+            "name": "Defenestrar",
+            "skuIds": {
+              "nonfoil": "b3357ff9-ffac-5e33-9b70-fd6cc94a37c6"
+            },
+            "text": "Destruye la criatura objetivo sin la habilidad de volar.",
+            "type": "Instantáneo",
+            "uuid": "2d8cdad0-6e20-5f61-adeb-9c1a1e2534f1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305568",
           "cardsphereId": "131189",
@@ -1022,6 +1152,7 @@
         "name": "Defenestrate",
         "number": "420",
         "originalText": "Destroy target creature without flying.",
+        "originalType": "Instant",
         "printings": [
           "DBL",
           "J25",
@@ -1034,9 +1165,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "05cc83bc-d21e-5b3f-9c9a-3de9925f4faa"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1066,39 +1202,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 6870,
+        "edhrecRank": 7372,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The most dangerous place to be in Kessig is alone.",
         "foreignData": [
-          {
-            "flavorText": "Der gefährlichste Ort in Kessig ist der, an dem man allein ist.",
-            "identifiers": {
-              "multiverseId": "682012",
-              "scryfallId": "d4bf55f5-9635-4182-964c-4da389e50a02"
-            },
-            "language": "German",
-            "multiverseId": 682012,
-            "name": "Todgeweihter Abtrünniger",
-            "text": "Wenn der Todgeweihte Abtrünnige stirbt, erzeuge einen 2/2 schwarzen Zombie-Kreaturenspielstein.",
-            "type": "Kreatur — Mensch",
-            "uuid": "99a3cb3b-a9ce-5326-abe9-60e150dda021"
-          },
-          {
-            "flavorText": "En Kessig no hay mayor peligro que estar a solas.",
-            "identifiers": {
-              "multiverseId": "682129",
-              "scryfallId": "a8b1ee8f-e1bb-4a0f-91d2-bffab7305253"
-            },
-            "language": "Spanish",
-            "multiverseId": 682129,
-            "name": "Disidente condenado",
-            "text": "Cuando el Disidente condenado muera, crea una ficha de criatura Zombie negra 2/2.",
-            "type": "Criatura — Humano",
-            "uuid": "26cc45c3-fe0a-5a1b-a40d-dd9f123a636c"
-          },
           {
             "flavorText": "Le plus dangereux, c'est de se retrouver seul à Kessig.",
             "identifiers": {
@@ -1108,9 +1218,28 @@
             "language": "French",
             "multiverseId": 682246,
             "name": "Dissident damné",
+            "skuIds": {
+              "nonfoil": "65953d27-864c-5228-a29a-083a2c5a30d5"
+            },
             "text": "Quand le Dissident damné meurt, créez un jeton de créature 2/2 noire Zombie.",
             "type": "Créature — humain",
             "uuid": "89613b49-c3ff-546f-990f-02f3f10ca005"
+          },
+          {
+            "flavorText": "Der gefährlichste Ort in Kessig ist der, an dem man allein ist.",
+            "identifiers": {
+              "multiverseId": "682012",
+              "scryfallId": "d4bf55f5-9635-4182-964c-4da389e50a02"
+            },
+            "language": "German",
+            "multiverseId": 682012,
+            "name": "Todgeweihter Abtrünniger",
+            "skuIds": {
+              "nonfoil": "19b4de7c-e135-5f8a-be7b-f1b62534dca7"
+            },
+            "text": "Wenn der Todgeweihte Abtrünnige stirbt, erzeuge einen 2/2 schwarzen Zombie-Kreaturenspielstein.",
+            "type": "Kreatur — Mensch",
+            "uuid": "99a3cb3b-a9ce-5326-abe9-60e150dda021"
           },
           {
             "flavorText": "Il luogo più pericoloso del Kessig è la solitudine.",
@@ -1121,6 +1250,9 @@
             "language": "Italian",
             "multiverseId": 682363,
             "name": "Dissenziente Condannato",
+            "skuIds": {
+              "nonfoil": "587ccd9d-548b-5d31-a621-ba41a63c0324"
+            },
             "text": "Quando il Dissenziente Condannato muore, crea una pedina creatura Zombie 2/2 nera.",
             "type": "Creatura — Umano",
             "uuid": "15cf9d2d-7277-587c-8f23-8a99f564365f"
@@ -1134,14 +1266,31 @@
             "language": "Japanese",
             "multiverseId": 682480,
             "name": "悪運尽きた造反者",
+            "skuIds": {
+              "nonfoil": "5c809c58-0ca1-5d3d-9462-777ea09355eb"
+            },
             "text": "悪運尽きた造反者が死亡したとき、黒の２/２のゾンビ・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — 人間",
             "uuid": "17298d29-5b9b-519d-ae31-4d8915d93197"
+          },
+          {
+            "flavorText": "En Kessig no hay mayor peligro que estar a solas.",
+            "identifiers": {
+              "multiverseId": "682129",
+              "scryfallId": "a8b1ee8f-e1bb-4a0f-91d2-bffab7305253"
+            },
+            "language": "Spanish",
+            "multiverseId": 682129,
+            "name": "Disidente condenado",
+            "skuIds": {
+              "nonfoil": "4fa514ce-7038-5842-9fc2-17d3bf5f0b18"
+            },
+            "text": "Cuando el Disidente condenado muera, crea una ficha de criatura Zombie negra 2/2.",
+            "type": "Criatura — Humano",
+            "uuid": "26cc45c3-fe0a-5a1b-a40d-dd9f123a636c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305573",
           "cardsphereId": "131196",
@@ -1183,6 +1332,7 @@
         "name": "Doomed Dissenter",
         "number": "425",
         "originalText": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token.",
+        "originalType": "Creature – Human",
         "power": "1",
         "printings": [
           "AKH",
@@ -1202,10 +1352,20 @@
           "tcgplayer": "https://mtgjson.com/links/e2c2278767580d8e"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "e8918ec2-32fe-5ef5-a5aa-5c578794d5f3"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d627ffb3-fa3a-5134-921c-d6e89958fd25"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1238,39 +1398,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1644,
+        "edhrecRank": 1798,
         "edhrecSaltiness": 0.22,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I often think on how excited they must feel to be chosen as my prey.\"",
         "foreignData": [
-          {
-            "flavorText": "„Ich denke oft darüber nach, wie aufregend es sein muss, von mir als Beute ausgewählt zu werden.\"",
-            "identifiers": {
-              "multiverseId": "682028",
-              "scryfallId": "c7d5fb08-3741-46c5-9973-1aa258a4c1d9"
-            },
-            "language": "German",
-            "multiverseId": 682028,
-            "name": "Adliger von Falkenrath",
-            "text": "Fliegend\nImmer wenn der Adlige von Falkenrath oder eine andere Kreatur stirbt, verliert ein Spieler deiner Wahl 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
-            "type": "Kreatur — Vampir, Adliger",
-            "uuid": "03dc21c0-e946-5443-bf4f-952a1132770d"
-          },
-          {
-            "flavorText": "\"A veces pienso en lo felices que deben sentirse de ser elegidos como mi presa\".",
-            "identifiers": {
-              "multiverseId": "682145",
-              "scryfallId": "30bcf454-b88b-47ab-8ec8-ab0e673dae2b"
-            },
-            "language": "Spanish",
-            "multiverseId": 682145,
-            "name": "Noble Falkenrath",
-            "text": "Vuela.\nSiempre que el Noble Falkenrath u otra criatura muera, el jugador objetivo pierde 1 vida y tú ganas 1 vida.",
-            "type": "Criatura — Noble vampiro",
-            "uuid": "941f7f01-0d7d-5a39-9a39-2bdbe27f2f68"
-          },
           {
             "flavorText": "« Souvent, je me dis qu'ils doivent être si excités d'avoir été choisis par moi pour proie. »",
             "identifiers": {
@@ -1280,9 +1414,28 @@
             "language": "French",
             "multiverseId": 682262,
             "name": "Noble Falkenrath",
+            "skuIds": {
+              "nonfoil": "ba15334b-de62-54e6-88dd-52d56598180d"
+            },
             "text": "Vol\nÀ chaque fois que le Noble Falkenrath ou qu'une autre créature meurt, un joueur ciblé perd 1 point de vie et vous gagnez 1 point de vie.",
             "type": "Créature — vampire et noble",
             "uuid": "c0aacc4d-72cc-5edb-976b-c2ae9dad3db3"
+          },
+          {
+            "flavorText": "„Ich denke oft darüber nach, wie aufregend es sein muss, von mir als Beute ausgewählt zu werden.\"",
+            "identifiers": {
+              "multiverseId": "682028",
+              "scryfallId": "c7d5fb08-3741-46c5-9973-1aa258a4c1d9"
+            },
+            "language": "German",
+            "multiverseId": 682028,
+            "name": "Adliger von Falkenrath",
+            "skuIds": {
+              "nonfoil": "07e62962-16e2-5de1-b0ba-7d64dca69f0c"
+            },
+            "text": "Fliegend\nImmer wenn der Adlige von Falkenrath oder eine andere Kreatur stirbt, verliert ein Spieler deiner Wahl 1 Lebenspunkt und du erhältst 1 Lebenspunkt dazu.",
+            "type": "Kreatur — Vampir, Adliger",
+            "uuid": "03dc21c0-e946-5443-bf4f-952a1132770d"
           },
           {
             "flavorText": "\"Penso spesso a quanto debbano essere emozionate per esser state scelte come mie prede.\"",
@@ -1293,6 +1446,9 @@
             "language": "Italian",
             "multiverseId": 682379,
             "name": "Nobile Falkenrath",
+            "skuIds": {
+              "nonfoil": "be6de81b-1f6f-501b-84be-a952bcfe012a"
+            },
             "text": "Volare\nOgniqualvolta il Nobile Falkenrath o un'altra creatura muore, un giocatore bersaglio perde 1 punto vita e tu guadagni 1 punto vita.",
             "type": "Creatura — Nobile Vampiro",
             "uuid": "f1fdab69-efeb-5edc-aaa2-f9b41c79c60c"
@@ -1306,14 +1462,31 @@
             "language": "Japanese",
             "multiverseId": 682496,
             "name": "ファルケンラスの貴族",
+            "skuIds": {
+              "nonfoil": "5111b867-2d44-5160-a042-437a281c6ff0"
+            },
             "text": "飛行\nファルケンラスの貴族やこれでないクリーチャー１体が死亡するたび、プレイヤー１人を対象とする。そのプレイヤーは１点のライフを失い、あなたは１点のライフを得る。",
             "type": "クリーチャー — 吸血鬼・貴族",
             "uuid": "7fb334ea-859a-5b93-a963-2e5f1ece0fa4"
+          },
+          {
+            "flavorText": "\"A veces pienso en lo felices que deben sentirse de ser elegidos como mi presa\".",
+            "identifiers": {
+              "multiverseId": "682145",
+              "scryfallId": "30bcf454-b88b-47ab-8ec8-ab0e673dae2b"
+            },
+            "language": "Spanish",
+            "multiverseId": 682145,
+            "name": "Noble Falkenrath",
+            "skuIds": {
+              "nonfoil": "3fa64d5b-5b8d-540d-9f10-66cc28d9d097"
+            },
+            "text": "Vuela.\nSiempre que el Noble Falkenrath u otra criatura muera, el jugador objetivo pierde 1 vida y tú ganas 1 vida.",
+            "type": "Criatura — Noble vampiro",
+            "uuid": "941f7f01-0d7d-5a39-9a39-2bdbe27f2f68"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305780",
           "cardsphereId": "131254",
@@ -1357,6 +1530,7 @@
         "name": "Falkenrath Noble",
         "number": "441",
         "originalText": "Flying\nWhenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.",
+        "originalType": "Creature – Vampire Noble",
         "power": "2",
         "printings": [
           "C17",
@@ -1385,9 +1559,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e934e7b2-76af-5387-ab04-b32e3240894b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1421,38 +1600,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 18149,
+        "edhrecRank": 18469,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "For a ghoul, every village is a buffet and every disaster is a reunion.",
         "foreignData": [
-          {
-            "flavorText": "Für einen Ghul ist jedes Dorf ein Buffet und jede Katastrophe ein Klassentreffen.",
-            "identifiers": {
-              "multiverseId": "682048",
-              "scryfallId": "70e5aa20-49ee-48c4-9330-54c0c0ec4b59"
-            },
-            "language": "German",
-            "multiverseId": 682048,
-            "name": "Stöhnen der Unheiligen",
-            "text": "Erzeuge zwei 2/2 schwarze Zombie-Kreaturenspielsteine.\nRückblende {5}{B}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
-            "type": "Hexerei",
-            "uuid": "07d4eb12-9588-51bb-9de9-73e266ecde99"
-          },
-          {
-            "flavorText": "Para un necrófago, cada aldea es un almuerzo y cada desastre, una fiesta.",
-            "identifiers": {
-              "multiverseId": "682165",
-              "scryfallId": "bdb89a80-92b9-44b0-b3aa-0fe41382a102"
-            },
-            "language": "Spanish",
-            "multiverseId": 682165,
-            "name": "Gemidos de los impíos",
-            "text": "Crea dos fichas de criatura Zombie negras 2/2.\nRetrospectiva {5}{B}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
-            "type": "Conjuro",
-            "uuid": "0790d88d-ca31-5813-8fff-617c5cc197f6"
-          },
           {
             "flavorText": "Pour une goule, chaque village est un banquet et chaque désastre, une réunion de famille.",
             "identifiers": {
@@ -1462,9 +1616,28 @@
             "language": "French",
             "multiverseId": 682282,
             "name": "Gémissement des anathèmes",
+            "skuIds": {
+              "nonfoil": "c8656743-fe8f-5b30-8114-81c68021f76b"
+            },
             "text": "Créez deux jetons de créature 2/2 noire Zombie.\nFlashback {5}{B}{B} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)",
             "type": "Rituel",
             "uuid": "18208832-9a7e-5b7c-8105-4849ba95dcde"
+          },
+          {
+            "flavorText": "Für einen Ghul ist jedes Dorf ein Buffet und jede Katastrophe ein Klassentreffen.",
+            "identifiers": {
+              "multiverseId": "682048",
+              "scryfallId": "70e5aa20-49ee-48c4-9330-54c0c0ec4b59"
+            },
+            "language": "German",
+            "multiverseId": 682048,
+            "name": "Stöhnen der Unheiligen",
+            "skuIds": {
+              "nonfoil": "73f63122-7905-5f43-bda6-962744f28b59"
+            },
+            "text": "Erzeuge zwei 2/2 schwarze Zombie-Kreaturenspielsteine.\nRückblende {5}{B}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
+            "type": "Hexerei",
+            "uuid": "07d4eb12-9588-51bb-9de9-73e266ecde99"
           },
           {
             "flavorText": "Per un ghoul, ogni villaggio è un buffet e ogni disastro una rimpatriata.",
@@ -1475,6 +1648,9 @@
             "language": "Italian",
             "multiverseId": 682399,
             "name": "Lamento dei Sacrileghi",
+            "skuIds": {
+              "nonfoil": "07d08e8e-fa96-5141-97e1-0f0a7e0bbc23"
+            },
             "text": "Crea due pedine creatura Zombie 2/2 nere.\nFlashback {5}{B}{B} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)",
             "type": "Stregoneria",
             "uuid": "d83b8215-c339-547e-8166-e597d1572394"
@@ -1488,14 +1664,31 @@
             "language": "Japanese",
             "multiverseId": 682516,
             "name": "神聖を汚す者のうめき",
+            "skuIds": {
+              "nonfoil": "f4ebce45-0653-5fe5-99ec-e26e21173c8c"
+            },
             "text": "黒の２/２のゾンビ・クリーチャー・トークン２体を生成する。\nフラッシュバック{5}{B}{B}（あなたの墓地にあるこのカードをフラッシュバック・コストで唱えてもよい。その後、これを追放する。）",
             "type": "ソーサリー",
             "uuid": "0591ac05-733b-5f1e-a2e5-7427617303fa"
+          },
+          {
+            "flavorText": "Para un necrófago, cada aldea es un almuerzo y cada desastre, una fiesta.",
+            "identifiers": {
+              "multiverseId": "682165",
+              "scryfallId": "bdb89a80-92b9-44b0-b3aa-0fe41382a102"
+            },
+            "language": "Spanish",
+            "multiverseId": 682165,
+            "name": "Gemidos de los impíos",
+            "skuIds": {
+              "nonfoil": "dcb3ad16-5949-5d38-a49d-2190d3f16dd5"
+            },
+            "text": "Crea dos fichas de criatura Zombie negras 2/2.\nRetrospectiva {5}{B}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+            "type": "Conjuro",
+            "uuid": "0790d88d-ca31-5813-8fff-617c5cc197f6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305800",
           "cardsphereId": "131234",
@@ -1530,7 +1723,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
         },
@@ -1539,6 +1731,7 @@
         "name": "Moan of the Unhallowed",
         "number": "461",
         "originalText": "Create two 2/2 black Zombie creature tokens.\nFlashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "originalType": "Sorcery",
         "printings": [
           "DDQ",
           "GN3",
@@ -1553,6 +1746,11 @@
           "tcgplayer": "https://mtgjson.com/links/dc8eb6ee5ed85823"
         },
         "rarity": "uncommon",
+        "relatedCards": {
+          "tokens": [
+            "e8918ec2-32fe-5ef5-a5aa-5c578794d5f3"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -1580,9 +1778,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d48b240f-9ac3-5c73-8088-79167a7b97e6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1612,39 +1815,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 304,
+        "edhrecRank": 272,
         "edhrecSaltiness": 0.19,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "On Innistrad, one person's windfall usually starts with another person lying face down in the mud.",
         "foreignData": [
-          {
-            "flavorText": "Auf Innistrad beginnt der Glücksfall des einen normalerweise damit, dass ein anderer mit dem Gesicht nach unten im Schlamm liegt.",
-            "identifiers": {
-              "multiverseId": "682051",
-              "scryfallId": "34ca7977-fbe9-47b6-a8bb-92fab441c5b5"
-            },
-            "language": "German",
-            "multiverseId": 682051,
-            "name": "Morbide Opportunistin",
-            "text": "Immer wenn eine oder mehrere andere Kreaturen sterben, ziehe eine Karte. Diese Fähigkeit wird nur einmal pro Zug ausgelöst.",
-            "type": "Kreatur — Mensch, Räuber",
-            "uuid": "86779173-dc97-5015-affb-6b128d1f2e1b"
-          },
-          {
-            "flavorText": "En Innistrad, las riquezas se suelen obtener de personas tendidas en el barro.",
-            "identifiers": {
-              "multiverseId": "682168",
-              "scryfallId": "c2a78214-54fa-4979-856c-81ec2526653e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682168,
-            "name": "Oportunista morbosa",
-            "text": "Siempre que una o más otras criaturas mueran, roba una carta. Esta habilidad solo se dispara una vez por turno.",
-            "type": "Criatura — Bribón humano",
-            "uuid": "48d6fb9b-683f-5184-878d-07ee7f364ff9"
-          },
           {
             "flavorText": "Sur Innistrad, l'aubaine d'une personne commence généralement lorsqu'une autre gît dans la boue.",
             "identifiers": {
@@ -1654,9 +1831,28 @@
             "language": "French",
             "multiverseId": 682285,
             "name": "Opportuniste morbide",
+            "skuIds": {
+              "nonfoil": "a1d70632-8733-5d30-9511-2cdfb13bec18"
+            },
             "text": "À chaque fois qu'au moins une autre créature meurt, piochez une carte. Cette capacité ne se déclenche qu'une seule fois par tour.",
             "type": "Créature — humain et gredin",
             "uuid": "d3380c05-a31c-53b8-b37e-ea2fae6f83f8"
+          },
+          {
+            "flavorText": "Auf Innistrad beginnt der Glücksfall des einen normalerweise damit, dass ein anderer mit dem Gesicht nach unten im Schlamm liegt.",
+            "identifiers": {
+              "multiverseId": "682051",
+              "scryfallId": "34ca7977-fbe9-47b6-a8bb-92fab441c5b5"
+            },
+            "language": "German",
+            "multiverseId": 682051,
+            "name": "Morbide Opportunistin",
+            "skuIds": {
+              "nonfoil": "22260602-7a52-5cd2-a634-f6f76943e07c"
+            },
+            "text": "Immer wenn eine oder mehrere andere Kreaturen sterben, ziehe eine Karte. Diese Fähigkeit wird nur einmal pro Zug ausgelöst.",
+            "type": "Kreatur — Mensch, Räuber",
+            "uuid": "86779173-dc97-5015-affb-6b128d1f2e1b"
           },
           {
             "flavorText": "Su Innistrad, i colpi di fortuna iniziano spesso con qualcun altro a faccia in giù nel fango.",
@@ -1667,6 +1863,9 @@
             "language": "Italian",
             "multiverseId": 682402,
             "name": "Opportunista Macabra",
+            "skuIds": {
+              "nonfoil": "fa591525-bbb9-519a-97ea-4796b2da85a5"
+            },
             "text": "Ogniqualvolta una o più altre creature muoiono, pesca una carta. Questa abilità si innesca solo una volta per turno.",
             "type": "Creatura — Farabutto Umano",
             "uuid": "1bb6471a-b7bd-5b2d-99d2-d1596318ce80"
@@ -1680,14 +1879,31 @@
             "language": "Japanese",
             "multiverseId": 682519,
             "name": "病的な日和見主義者",
+            "skuIds": {
+              "nonfoil": "54f9d64c-e446-5e28-ae94-f66b6277a3c6"
+            },
             "text": "これでない１体以上のクリーチャーが死亡するたび、カード１枚を引く。この能力は、毎ターン１回しか誘発しない。",
             "type": "クリーチャー — 人間・ならず者",
             "uuid": "3360ed48-3738-54f1-a72a-5cb2b51ba696"
+          },
+          {
+            "flavorText": "En Innistrad, las riquezas se suelen obtener de personas tendidas en el barro.",
+            "identifiers": {
+              "multiverseId": "682168",
+              "scryfallId": "c2a78214-54fa-4979-856c-81ec2526653e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682168,
+            "name": "Oportunista morbosa",
+            "skuIds": {
+              "nonfoil": "0cd72cbd-d140-5539-9652-53b9c3d9706f"
+            },
+            "text": "Siempre que una o más otras criaturas mueran, roba una carta. Esta habilidad solo se dispara una vez por turno.",
+            "type": "Criatura — Bribón humano",
+            "uuid": "48d6fb9b-683f-5184-878d-07ee7f364ff9"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305803",
           "cardsphereId": "131231",
@@ -1726,6 +1942,7 @@
         "name": "Morbid Opportunist",
         "number": "464",
         "originalText": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
+        "originalType": "Creature – Human Rogue",
         "power": "1",
         "printings": [
           "BLC",
@@ -1754,9 +1971,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "2e7c7a9b-80ed-5530-917f-da3358ac87c7"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1790,39 +2012,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 789,
+        "edhrecRank": 799,
         "edhrecSaltiness": 0.18,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Linger on death's door and risk being invited in.",
         "foreignData": [
-          {
-            "flavorText": "Wer an die Tür des Todes klopft, wird oft auch hereingebeten.",
-            "identifiers": {
-              "multiverseId": "682083",
-              "scryfallId": "94e94056-90cb-49bd-84aa-ba0bed379bb2"
-            },
-            "language": "German",
-            "multiverseId": 682083,
-            "name": "Tragischer Ausrutscher",
-            "text": "Eine Kreatur deiner Wahl erhält -1/-1 bis zum Ende des Zuges.\nMorbide — Die Kreatur erhält stattdessen -13/-13 bis zum Ende des Zuges, falls in diesem Zug eine Kreatur gestorben ist.",
-            "type": "Spontanzauber",
-            "uuid": "26c4ca1b-4734-51fb-b922-6db8ff121880"
-          },
-          {
-            "flavorText": "Asómate a la puerta de la muerte y correrás el riesgo de que te invite a pasar.",
-            "identifiers": {
-              "multiverseId": "682200",
-              "scryfallId": "b546780d-4cbc-4cc1-b0c5-9f658727a0b9"
-            },
-            "language": "Spanish",
-            "multiverseId": 682200,
-            "name": "Desliz trágico",
-            "text": "La criatura objetivo obtiene -1/-1 hasta el final del turno.\nNecrario — En vez de eso, esa criatura obtiene -13/-13 hasta el final del turno si una criatura murió este turno.",
-            "type": "Instantáneo",
-            "uuid": "5ed41bb8-d82a-592d-af4d-eb161046bb90"
-          },
           {
             "flavorText": "Attardez-vous au seuil de la mort et vous pourriez être invité à le franchir.",
             "identifiers": {
@@ -1832,9 +2028,28 @@
             "language": "French",
             "multiverseId": 682317,
             "name": "Fatale glissade",
+            "skuIds": {
+              "nonfoil": "c5185117-07ab-5579-89ea-e978a9a85a61"
+            },
             "text": "Une créature ciblée gagne -1/-1 jusqu'à la fin du tour.\nMorbidité — Cette créature gagne -13/-13 jusqu'à la fin du tour à la place si une créature est morte ce tour-ci.",
             "type": "Éphémère",
             "uuid": "59bc1f52-4151-5a68-9753-c3403215a954"
+          },
+          {
+            "flavorText": "Wer an die Tür des Todes klopft, wird oft auch hereingebeten.",
+            "identifiers": {
+              "multiverseId": "682083",
+              "scryfallId": "94e94056-90cb-49bd-84aa-ba0bed379bb2"
+            },
+            "language": "German",
+            "multiverseId": 682083,
+            "name": "Tragischer Ausrutscher",
+            "skuIds": {
+              "nonfoil": "1992cda0-a18c-5d7e-bc80-3baf5d454cf9"
+            },
+            "text": "Eine Kreatur deiner Wahl erhält -1/-1 bis zum Ende des Zuges.\nMorbide — Die Kreatur erhält stattdessen -13/-13 bis zum Ende des Zuges, falls in diesem Zug eine Kreatur gestorben ist.",
+            "type": "Spontanzauber",
+            "uuid": "26c4ca1b-4734-51fb-b922-6db8ff121880"
           },
           {
             "flavorText": "Trattieniti alla porta della morte e rischierai di essere invitato a entrare.",
@@ -1845,6 +2060,9 @@
             "language": "Italian",
             "multiverseId": 682434,
             "name": "Tragico Scivolone",
+            "skuIds": {
+              "nonfoil": "f82b9ebb-1f52-5b83-9014-8861d6fea98c"
+            },
             "text": "Una creatura bersaglio prende -1/-1 fino alla fine del turno.\nMorboso — Quella creatura prende invece -13/-13 fino alla fine del turno se è morta una creatura in questo turno.",
             "type": "Istantaneo",
             "uuid": "5f43aefd-cc6d-5ef0-b077-bfe19737dfe7"
@@ -1858,14 +2076,31 @@
             "language": "Japanese",
             "multiverseId": 682551,
             "name": "悲劇的な過ち",
+            "skuIds": {
+              "nonfoil": "58b0bd8b-f047-515f-a6e7-66f7a6d8b81d"
+            },
             "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－１/－１の修整を受ける。\n陰鬱 ― このターンにクリーチャーが死亡していたなら、代わりに、ターン終了時まで、それは－13/－13の修整を受ける。",
             "type": "インスタント",
             "uuid": "a01ba5bc-1a9b-51ec-8db3-5df4dcc18c3f"
+          },
+          {
+            "flavorText": "Asómate a la puerta de la muerte y correrás el riesgo de que te invite a pasar.",
+            "identifiers": {
+              "multiverseId": "682200",
+              "scryfallId": "b546780d-4cbc-4cc1-b0c5-9f658727a0b9"
+            },
+            "language": "Spanish",
+            "multiverseId": 682200,
+            "name": "Desliz trágico",
+            "skuIds": {
+              "nonfoil": "07ff097a-16e3-56b4-b2ea-f8b923351186"
+            },
+            "text": "La criatura objetivo obtiene -1/-1 hasta el final del turno.\nNecrario — En vez de eso, esa criatura obtiene -13/-13 hasta el final del turno si una criatura murió este turno.",
+            "type": "Instantáneo",
+            "uuid": "5ed41bb8-d82a-592d-af4d-eb161046bb90"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305835",
           "cardsphereId": "131200",
@@ -1908,6 +2143,7 @@
         "name": "Tragic Slip",
         "number": "496",
         "originalText": "Target creature gets -1/-1 until end of turn.\nMorbid — That creature gets -13/-13 until end of turn instead if a creature died this turn.",
+        "originalType": "Instant",
         "printings": [
           "C14",
           "CMM",
@@ -1931,9 +2167,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "42d867d6-12ad-5023-868c-932ab039dabe"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -1963,39 +2204,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 23198,
+        "edhrecRank": 23525,
         "edhrecSaltiness": 0.5,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Havengul wakes are widely regarded as great entertainment. If you're lucky, the guest of honor climbs out of the casket and joins in the festivities.",
         "foreignData": [
-          {
-            "flavorText": "Totenwachen in Pfuhlhaven werden allgemein als großartige Unterhaltung angesehen. Mit etwas Glück klettert der Ehrengast aus dem Sarg und nimmt an den Feierlichkeiten teil.",
-            "identifiers": {
-              "multiverseId": "682099",
-              "scryfallId": "546232c8-cc74-4b12-81c9-ecf52ffbf416"
-            },
-            "language": "German",
-            "multiverseId": 682099,
-            "name": "Wachtänzerin",
-            "text": "Morbide — Wenn die Wachtänzerin ins Spiel kommt und falls in diesem Zug eine Kreatur gestorben ist, erzeuge einen 2/2 schwarzen Zombie-Kreaturenspielstein.",
-            "type": "Kreatur — Mensch, Schamane",
-            "uuid": "23e890be-51fc-5815-bd72-7440da2f551f"
-          },
-          {
-            "flavorText": "Los velatorios de Havengul se consideran un entretenimiento de primera. Si hay suerte, hasta el invitado de honor sale del ataúd y se une a la celebración.",
-            "identifiers": {
-              "multiverseId": "682216",
-              "scryfallId": "64f8741d-9644-427b-bf49-54ae8e7807bc"
-            },
-            "language": "Spanish",
-            "multiverseId": 682216,
-            "name": "Danzadora del velatorio",
-            "text": "Necrario — Cuando la Danzadora del velatorio entre, si una criatura murió este turno, crea una ficha de criatura Zombie negra 2/2.",
-            "type": "Criatura — Chamán humano",
-            "uuid": "e85a1438-3237-54c9-8439-405b2126e18b"
-          },
           {
             "flavorText": "Les veillées d'Havengul sont considérées comme un formidable divertissement. Avec un peu de chance, l'invité d'honneur sort du cercueil et se joint aux festivités.",
             "identifiers": {
@@ -2005,9 +2220,28 @@
             "language": "French",
             "multiverseId": 682333,
             "name": "Danseuse de veillée",
+            "skuIds": {
+              "nonfoil": "37e77338-3c99-57f8-9349-f07407f290e9"
+            },
             "text": "Morbidité — Quand la Danseuse de veillée arrive, si une créature est morte ce tour-ci, créez un jeton de créature 2/2 noire Zombie.",
             "type": "Créature — humain et shamane",
             "uuid": "6f71bfea-02fe-5a0f-b094-5c83dfd0f71a"
+          },
+          {
+            "flavorText": "Totenwachen in Pfuhlhaven werden allgemein als großartige Unterhaltung angesehen. Mit etwas Glück klettert der Ehrengast aus dem Sarg und nimmt an den Feierlichkeiten teil.",
+            "identifiers": {
+              "multiverseId": "682099",
+              "scryfallId": "546232c8-cc74-4b12-81c9-ecf52ffbf416"
+            },
+            "language": "German",
+            "multiverseId": 682099,
+            "name": "Wachtänzerin",
+            "skuIds": {
+              "nonfoil": "1d9cccd2-3932-5569-b3e2-4f455d840256"
+            },
+            "text": "Morbide — Wenn die Wachtänzerin ins Spiel kommt und falls in diesem Zug eine Kreatur gestorben ist, erzeuge einen 2/2 schwarzen Zombie-Kreaturenspielstein.",
+            "type": "Kreatur — Mensch, Schamane",
+            "uuid": "23e890be-51fc-5815-bd72-7440da2f551f"
           },
           {
             "flavorText": "Le veglie funebri di Havengul sono comunemente considerate spettacoli di altissimo livello. Se hai fortuna, l'ospite d'onore barcolla fuori dalla bara e si unisce al divertimento.",
@@ -2018,6 +2252,9 @@
             "language": "Italian",
             "multiverseId": 682450,
             "name": "Danzatrice della Veglia",
+            "skuIds": {
+              "nonfoil": "d8dd0001-93d0-5331-8387-266ad131e277"
+            },
             "text": "Morboso — Quando la Danzatrice della Veglia entra, se è morta una creatura in questo turno, crea una pedina creatura Zombie 2/2 nera.",
             "type": "Creatura — Sciamano Umano",
             "uuid": "b8dcfeb1-dfc9-55fa-97fa-d492c62caf8d"
@@ -2031,14 +2268,31 @@
             "language": "Japanese",
             "multiverseId": 682567,
             "name": "覚醒舞い",
+            "skuIds": {
+              "nonfoil": "4482bdea-8f92-5593-b2e7-e9753671ae03"
+            },
             "text": "陰鬱 ― 覚醒舞いが戦場に出たとき、このターンにクリーチャーが死亡していた場合、黒の２/２のゾンビ・クリーチャー・トークン１体を生成する。",
             "type": "クリーチャー — 人間・シャーマン",
             "uuid": "0fb65158-14db-5aa3-845d-0a8924cd917d"
+          },
+          {
+            "flavorText": "Los velatorios de Havengul se consideran un entretenimiento de primera. Si hay suerte, hasta el invitado de honor sale del ataúd y se une a la celebración.",
+            "identifiers": {
+              "multiverseId": "682216",
+              "scryfallId": "64f8741d-9644-427b-bf49-54ae8e7807bc"
+            },
+            "language": "Spanish",
+            "multiverseId": 682216,
+            "name": "Danzadora del velatorio",
+            "skuIds": {
+              "nonfoil": "f82a8fc8-bb3d-5129-9c71-e41694c8e442"
+            },
+            "text": "Necrario — Cuando la Danzadora del velatorio entre, si una criatura murió este turno, crea una ficha de criatura Zombie negra 2/2.",
+            "type": "Criatura — Chamán humano",
+            "uuid": "e85a1438-3237-54c9-8439-405b2126e18b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305851",
           "cardsphereId": "131151",
@@ -2082,6 +2336,7 @@
         "name": "Wakedancer",
         "number": "512",
         "originalText": "Morbid — When Wakedancer enters, if a creature died this turn, create a 2/2 black Zombie creature token.",
+        "originalType": "Creature – Human Shaman",
         "power": "2",
         "printings": [
           "CNS",
@@ -2096,10 +2351,20 @@
           "tcgplayer": "https://mtgjson.com/links/6b0756ad58bf48e1"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "e8918ec2-32fe-5ef5-a5aa-5c578794d5f3"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "1b62611e-70c9-5737-9cfd-16907b508d18"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2131,39 +2396,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1382,
+        "edhrecRank": 1248,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Beauty appears in strange places for those with eyes to see it.",
         "foreignData": [
-          {
-            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
-            "identifiers": {
-              "multiverseId": "684060",
-              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
-            },
-            "language": "German",
-            "multiverseId": 684060,
-            "name": "Gedeihendes Moor",
-            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
-          },
-          {
-            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
-            "identifiers": {
-              "multiverseId": "684099",
-              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
-            },
-            "language": "Spanish",
-            "multiverseId": 684099,
-            "name": "Páramo floreciente",
-            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
-          },
           {
             "flavorText": "La beauté perle dans des endroits étranges pour ceux qui peuvent la voir.",
             "identifiers": {
@@ -2173,9 +2412,28 @@
             "language": "French",
             "multiverseId": 684138,
             "name": "Lande prospère",
+            "skuIds": {
+              "nonfoil": "add59bbe-0b4b-5e14-9a6a-47bf39042209"
+            },
             "text": "La Lande prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le noir.\n{T} : Ajoutez {B} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "a76a0ddb-e39d-5569-93fa-57551d988380"
+          },
+          {
+            "flavorText": "Schönheit zeigt sich denen, die sie erkennen können, an merkwürdigen Orten.",
+            "identifiers": {
+              "multiverseId": "684060",
+              "scryfallId": "70dc6ef6-6bd2-476e-8d33-09e8ce48af81"
+            },
+            "language": "German",
+            "multiverseId": 684060,
+            "name": "Gedeihendes Moor",
+            "skuIds": {
+              "nonfoil": "afbea6f1-e976-504e-b830-36843d57a647"
+            },
+            "text": "Das Gedeihende Moor kommt getappt ins Spiel. Sowie es ins Spiel kommt, bestimme eine Farbe außer Schwarz.\n{T}: Erzeuge {B} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "17194be6-3a7c-5dcb-b74a-f91d3687af76"
           },
           {
             "flavorText": "La bellezza si manifesta in luoghi insoliti per chi ha occhi per vederla.",
@@ -2186,6 +2444,9 @@
             "language": "Italian",
             "multiverseId": 684177,
             "name": "Landa Florida",
+            "skuIds": {
+              "nonfoil": "01ccf6ce-a9b3-5200-950b-077f06168b6c"
+            },
             "text": "La Landa Florida entra TAPpata. Mentre entra, scegli un colore diverso dal nero.\n{T}: Aggiungi {B} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d19e37a6-1c12-58e6-86ae-1da5ee514e8e"
@@ -2199,14 +2460,31 @@
             "language": "Japanese",
             "multiverseId": 684216,
             "name": "興隆する湿地帯",
+            "skuIds": {
+              "nonfoil": "66dadb12-235f-57b1-8a05-6ca3b2f2374f"
+            },
             "text": "興隆する湿地帯はタップ状態で戦場に出る。これが戦場に出るに際し、黒でない色１色を選ぶ。\n{T}：{B}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "f3b6dbe1-be7a-5911-a933-9817db572a06"
+          },
+          {
+            "flavorText": "Los que ven la belleza son capaces de vislumbrarla en lugares extraños.",
+            "identifiers": {
+              "multiverseId": "684099",
+              "scryfallId": "5d03481a-f1e2-4650-ac43-bcfc919af3d0"
+            },
+            "language": "Spanish",
+            "multiverseId": 684099,
+            "name": "Páramo floreciente",
+            "skuIds": {
+              "nonfoil": "2fc2ec38-fc7e-549d-bddc-8eccb2fc0db9"
+            },
+            "text": "El Páramo floreciente entra girado. En cuanto entre, elige un color que no sea negro.\n{T}: Agrega {B} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "9b615620-5a0c-5362-bc42-65d971a0aa23"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306118",
           "cardsphereId": "130620",
@@ -2244,11 +2522,13 @@
         "name": "Thriving Moor",
         "number": "779",
         "originalText": "Thriving Moor enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2256,7 +2536,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3ea3b0ea9ac38ec4",
@@ -2265,9 +2553,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "77f55632-6902-5207-821a-0a16defe007e"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2302,36 +2595,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681257",
-              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
-            },
-            "language": "German",
-            "multiverseId": 681257,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681272",
-              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
-            },
-            "language": "Spanish",
-            "multiverseId": 681272,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681287",
               "scryfallId": "dbbbfbb3-40cc-4281-8f6c-9a3e173a870f"
             },
             "language": "French",
             "multiverseId": 681287,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "f9abec25-34cb-5c70-b6c0-2881132ed0a9"
+            },
             "type": "Terrain de base — marais",
             "uuid": "f99821a7-8a11-5799-9dbd-ef62f471276d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681257",
+              "scryfallId": "60189cfb-a92d-4773-a57c-2c56aad090b6"
+            },
+            "language": "German",
+            "multiverseId": 681257,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "73bf3371-8efb-543e-b3ca-d39b2e8900a0"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "f9bff1dd-e5a2-55b3-be6a-5ab348a894da"
           },
           {
             "identifiers": {
@@ -2341,6 +2629,9 @@
             "language": "Italian",
             "multiverseId": 681302,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "0713bb3f-169a-500a-aae5-2e72d53c3f86"
+            },
             "type": "Terra Base — Palude",
             "uuid": "61d5e49b-06e5-5afe-917e-1d80bf50a141"
           },
@@ -2352,18 +2643,34 @@
             "language": "Japanese",
             "multiverseId": 681317,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "7eec6c6d-89d6-599c-9f2c-37b42ec40ea4"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7ed3d0f3-bd69-5b59-acad-0c4d3eb731f2"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681272",
+              "scryfallId": "e8028797-6d34-4258-8bbb-76510f903c63"
+            },
+            "language": "Spanish",
+            "multiverseId": 681272,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "e711fbea-5a4d-55c5-826f-399c87dbcb82"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "c7f4bb73-34e5-5bba-ab0e-7b1b30313f20"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305221",
           "cardsphereId": "131377",
           "deckboxId": "98081",
           "mcmId": "795508",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95172",
           "mtgjsonV4Id": "6cac11da-cef6-59c1-b5b1-b72ff3e7c45b",
           "multiverseId": "681242",
@@ -2376,7 +2683,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2404,6 +2710,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "87",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2473,6 +2780,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2632,15 +2940,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a1adc2518252d0d0",
+          "cardmarket": "https://mtgjson.com/links/ed9b668a11b61b90",
           "tcgplayer": "https://mtgjson.com/links/23acaf4b5c79aa29"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e32441e7-f365-5c55-bf4a-f1a83c9024be"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2656,8 +2973,8 @@
         ],
         "uuid": "ca007cbf-9a91-5ab9-b193-106f6bc86338",
         "variations": [
-          "f5473513-deec-5064-9953-ccd86f913a65",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "f5473513-deec-5064-9953-ccd86f913a65"
         ]
       },
       {
@@ -2683,36 +3000,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681258",
-              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
-            },
-            "language": "German",
-            "multiverseId": 681258,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681273",
-              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
-            },
-            "language": "Spanish",
-            "multiverseId": 681273,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681288",
               "scryfallId": "a8a2867a-cf69-4112-9b52-ccee3ac11024"
             },
             "language": "French",
             "multiverseId": 681288,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "58cc2114-ff20-5b2b-8243-fe9c71444056"
+            },
             "type": "Terrain de base — marais",
             "uuid": "ebe0f73a-0892-59d6-8156-f304c455f529"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681258",
+              "scryfallId": "ef440a07-d6ee-471a-b767-a556490ea3f0"
+            },
+            "language": "German",
+            "multiverseId": 681258,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "df8c56c8-2c52-5f7c-a0f9-dc007b453cc8"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "6e8bbb9b-084e-5571-8b1f-cb97335ca0ea"
           },
           {
             "identifiers": {
@@ -2722,6 +3034,9 @@
             "language": "Italian",
             "multiverseId": 681303,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "38762243-399f-5806-a2ff-72b8eafa5764"
+            },
             "type": "Terra Base — Palude",
             "uuid": "e0a5e635-4d6d-582d-a0c2-635718aa0652"
           },
@@ -2733,18 +3048,34 @@
             "language": "Japanese",
             "multiverseId": 681318,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "bac3b3f5-1e4f-53d2-b37d-f29f8830f1b3"
+            },
             "type": "基本土地 — 沼",
             "uuid": "deac43c1-1de9-5dd6-8764-785ee5513c60"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681273",
+              "scryfallId": "1b7b9b97-67a8-4779-9801-900cf6f69274"
+            },
+            "language": "Spanish",
+            "multiverseId": 681273,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "012c01ef-0c6c-5f00-8ee3-cc9ed0399fa5"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "ccec6469-f130-54ab-b134-db474fcfa20c"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305222",
           "cardsphereId": "131378",
           "deckboxId": "98082",
           "mcmId": "795509",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95173",
           "mtgjsonV4Id": "d889a660-b99f-5e9e-87ba-fe4cbbb55e86",
           "multiverseId": "681243",
@@ -2757,7 +3088,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2785,6 +3115,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "88",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -2854,6 +3185,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3013,15 +3345,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/0245369dd34e161b",
+          "cardmarket": "https://mtgjson.com/links/d72081b51f72a9fd",
           "tcgplayer": "https://mtgjson.com/links/70ed1aced0c9c8c7"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e0f6de19-a0e0-5f46-b789-722db3f3d050"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3037,8 +3378,8 @@
         ],
         "uuid": "f5473513-deec-5064-9953-ccd86f913a65",
         "variations": [
-          "ca007cbf-9a91-5ab9-b193-106f6bc86338",
-          "9a705e08-8737-5fb3-90ce-8126202afa73"
+          "9a705e08-8737-5fb3-90ce-8126202afa73",
+          "ca007cbf-9a91-5ab9-b193-106f6bc86338"
         ]
       },
       {
@@ -3064,36 +3405,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681259",
-              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
-            },
-            "language": "German",
-            "multiverseId": 681259,
-            "name": "Sumpf",
-            "type": "Standardland — Sumpf",
-            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681274",
-              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
-            },
-            "language": "Spanish",
-            "multiverseId": 681274,
-            "name": "Pantano",
-            "type": "Tierra básica — Pantano",
-            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681289",
               "scryfallId": "0ca19b41-4e82-4d73-a343-3b8a1560e63d"
             },
             "language": "French",
             "multiverseId": 681289,
             "name": "Marais",
+            "skuIds": {
+              "nonfoil": "83eec502-7b1d-59a8-9981-d0be754718c4"
+            },
             "type": "Terrain de base — marais",
             "uuid": "aeabee3f-70f2-52a2-942c-5d725cb64271"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681259",
+              "scryfallId": "ed675f98-14cc-46bf-b2b0-be49dd56f1ae"
+            },
+            "language": "German",
+            "multiverseId": 681259,
+            "name": "Sumpf",
+            "skuIds": {
+              "nonfoil": "8273f910-cf00-5709-878e-3650541afce7"
+            },
+            "type": "Standardland — Sumpf",
+            "uuid": "851332b5-87c7-5f4e-a59a-0e057e63c902"
           },
           {
             "identifiers": {
@@ -3103,6 +3439,9 @@
             "language": "Italian",
             "multiverseId": 681304,
             "name": "Palude",
+            "skuIds": {
+              "nonfoil": "a84aa32a-8785-528e-ad51-add235859b0f"
+            },
             "type": "Terra Base — Palude",
             "uuid": "a1f421a5-5b3e-5245-abab-207732749223"
           },
@@ -3114,18 +3453,34 @@
             "language": "Japanese",
             "multiverseId": 681319,
             "name": "沼",
+            "skuIds": {
+              "nonfoil": "f946fc76-6b28-53a6-bfdb-03572ac6abf9"
+            },
             "type": "基本土地 — 沼",
             "uuid": "7c66eaf6-343f-57a6-ba5e-e3be54d8196d"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681274",
+              "scryfallId": "a5386a5e-d25c-4134-9119-7a34c4bf66d8"
+            },
+            "language": "Spanish",
+            "multiverseId": 681274,
+            "name": "Pantano",
+            "skuIds": {
+              "nonfoil": "a560fadb-19ac-5380-a675-5ea7a7ced15c"
+            },
+            "type": "Tierra básica — Pantano",
+            "uuid": "6e25a8da-c26b-5bfc-b48d-6448bdb78bb0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305223",
           "cardsphereId": "131379",
           "deckboxId": "98083",
           "mcmId": "795510",
+          "mcmMetaId": "5739",
           "mtgArenaId": "95174",
           "mtgjsonV4Id": "54dee59f-f7b8-51b2-9f39-49e9a65e3e4d",
           "multiverseId": "681244",
@@ -3138,7 +3493,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3166,6 +3520,7 @@
         "manaValue": 0.0,
         "name": "Swamp",
         "number": "89",
+        "originalType": "Basic Land – Swamp",
         "printings": [
           "10E",
           "2ED",
@@ -3235,6 +3590,7 @@
           "DTK",
           "DVD",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3394,15 +3750,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "B"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/a705b38f4d131e3a",
+          "cardmarket": "https://mtgjson.com/links/c5cffa7bb040b1df",
           "tcgplayer": "https://mtgjson.com/links/1819091ea8bf98a5"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "218449c3-8e95-5b56-a14d-e3c30f76d304"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3434,5 +3799,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "5db466f4ebbddd"
   }
 }

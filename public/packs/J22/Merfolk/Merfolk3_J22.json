@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "7184bf794d8c2a"
-  },
   "data": {
     "code": "J22",
     "commander": [],
@@ -29,7 +24,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 11010,
+        "edhrecRank": 11178,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
@@ -37,27 +32,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595232",
-              "scryfallId": "b830b2d4-2629-4444-8322-67a3fae8d15c"
+              "multiverseId": "595988",
+              "scryfallId": "08a373ab-5deb-4e6d-acdd-cb94b3276726"
             },
-            "language": "German",
-            "multiverseId": 595232,
-            "name": "Vorbote der Gezeiten",
-            "text": "Du kannst den Vorboten der Gezeiten wirken, als ob er Aufblitzen hätte, falls du beim Wirken {2} mehr bezahlst.\nWenn der Vorbote der Gezeiten ins Spiel kommt, kannst du eine getappte Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurückbringen.",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "e2ea56ba-87c5-517b-a39d-c26af96b606c"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595340",
-              "scryfallId": "fe2bb7d7-d272-4484-904e-35b7e74a01a6"
+            "language": "Chinese Simplified",
+            "multiverseId": 595988,
+            "name": "潮兆人鱼",
+            "skuIds": {
+              "nonfoil": "ecd25466-39f1-519a-86f1-0a8c034c9726"
             },
-            "language": "Spanish",
-            "multiverseId": 595340,
-            "name": "Heraldo de las mareas",
-            "text": "Puedes lanzar el Heraldo de las mareas como si tuviera la habilidad de destello si pagas {2} más para lanzarlo.\nCuando el Heraldo de las mareas entre al campo de batalla, puedes regresar la criatura objetivo girada que controla un oponente a la mano de su propietario.",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "b09e4e73-6841-587d-b46e-fddbb794e98e"
+            "text": "如果你施放潮兆人鱼时多支付{2}，你便可以将其视同具闪现异能地来施放。\n当潮兆人鱼进战场时，你可以将目标由对手操控且已横置的生物移回其拥有者手上。",
+            "type": "生物 ～人鱼／法术师",
+            "uuid": "b86a173b-b760-545f-9f13-d020e756979f"
           },
           {
             "identifiers": {
@@ -67,9 +53,27 @@
             "language": "French",
             "multiverseId": 595448,
             "name": "Annonciateur des marées",
+            "skuIds": {
+              "nonfoil": "d0161ea5-c4fe-553d-805e-a5aea4f9e16c"
+            },
             "text": "Vous pouvez lancer l'Annonciateur des marées comme s'il avait le flash si vous payez {2} supplémentaires pour le lancer.\nQuand l'Annonciateur des marées arrive sur le champ de bataille, vous pouvez renvoyer une créature engagée ciblée qu'un adversaire contrôle dans la main de son propriétaire.",
             "type": "Créature : ondin et sorcier",
             "uuid": "6a39bb2e-412e-54ef-b6ba-b0e9fa6ff779"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595232",
+              "scryfallId": "b830b2d4-2629-4444-8322-67a3fae8d15c"
+            },
+            "language": "German",
+            "multiverseId": 595232,
+            "name": "Vorbote der Gezeiten",
+            "skuIds": {
+              "nonfoil": "6b0815f8-cc6e-5e08-aef7-167487cc6637"
+            },
+            "text": "Du kannst den Vorboten der Gezeiten wirken, als ob er Aufblitzen hätte, falls du beim Wirken {2} mehr bezahlst.\nWenn der Vorbote der Gezeiten ins Spiel kommt, kannst du eine getappte Kreatur deiner Wahl, die ein Gegner kontrolliert, auf die Hand ihres Besitzers zurückbringen.",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "e2ea56ba-87c5-517b-a39d-c26af96b606c"
           },
           {
             "identifiers": {
@@ -79,6 +83,9 @@
             "language": "Italian",
             "multiverseId": 595556,
             "name": "Araldo delle Maree",
+            "skuIds": {
+              "nonfoil": "b155aa28-9910-5bb4-bef6-de828f205b42"
+            },
             "text": "Puoi lanciare l'Araldo delle Maree come se avesse lampo se paghi {2} in più per lanciarlo.\nQuando l'Araldo delle Maree entra nel campo di battaglia, puoi far tornare una creatura TAPpata bersaglio controllata da un avversario in mano al suo proprietario.",
             "type": "Creatura — Mago Tritone",
             "uuid": "a05785e0-0ed2-5c64-986d-0fba2d67da0e"
@@ -91,26 +98,30 @@
             "language": "Japanese",
             "multiverseId": 595664,
             "name": "潮流の先駆け",
+            "skuIds": {
+              "nonfoil": "daacc87d-7f42-5dea-b5b0-ed84aa65dafd"
+            },
             "text": "あなたが潮流の先駆けを唱えるためにさらに{2}を支払うなら、あなたはこれを瞬速を持っているかのように唱えてもよい。\n潮流の先駆けが戦場に出たとき、対戦相手がコントロールしていてタップ状態であるクリーチャー１体を対象とする。あなたはそれをオーナーの手札に戻してもよい。",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "89b49f33-fca5-57d1-a4ef-431efd3461b6"
           },
           {
             "identifiers": {
-              "multiverseId": "595988",
-              "scryfallId": "08a373ab-5deb-4e6d-acdd-cb94b3276726"
+              "multiverseId": "595340",
+              "scryfallId": "fe2bb7d7-d272-4484-904e-35b7e74a01a6"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595988,
-            "name": "潮兆人鱼",
-            "text": "如果你施放潮兆人鱼时多支付{2}，你便可以将其视同具闪现异能地来施放。\n当潮兆人鱼进战场时，你可以将目标由对手操控且已横置的生物移回其拥有者手上。",
-            "type": "生物 ～人鱼／法术师",
-            "uuid": "b86a173b-b760-545f-9f13-d020e756979f"
+            "language": "Spanish",
+            "multiverseId": 595340,
+            "name": "Heraldo de las mareas",
+            "skuIds": {
+              "nonfoil": "d002635d-5eb0-56b0-87b2-88bcdd6d0a52"
+            },
+            "text": "Puedes lanzar el Heraldo de las mareas como si tuviera la habilidad de destello si pagas {2} más para lanzarlo.\nCuando el Heraldo de las mareas entre al campo de batalla, puedes regresar la criatura objetivo girada que controla un oponente a la mano de su propietario.",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "b09e4e73-6841-587d-b46e-fddbb794e98e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271507",
           "cardsphereId": "97519",
@@ -153,6 +164,7 @@
         "name": "Harbinger of the Tides",
         "number": "306",
         "originalText": "You may cast Harbinger of the Tides as though it had flash if you pay {2} more to cast it.\nWhen Harbinger of the Tides enters the battlefield, you may return target tapped creature an opponent controls to its owner's hand.",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "2",
         "printings": [
           "C17",
@@ -170,9 +182,14 @@
         "rarity": "rare",
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "309a7afe-24f8-5966-a661-488d2cc9c8f1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -180,7 +197,7 @@
           "Wizard"
         ],
         "supertypes": [],
-        "text": "You may cast this card as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)\nWhen this creature enters, you may return target tapped creature an opponent controls to its owner's hand.",
+        "text": "You may cast this spell as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)\nWhen this creature enters, you may return target tapped creature an opponent controls to its owner's hand.",
         "toughness": "2",
         "type": "Creature — Merfolk Wizard",
         "types": [
@@ -208,7 +225,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 15463,
+        "edhrecRank": 15692,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -216,30 +233,20 @@
         "flavorText": "Anyone who thinks merrows have more brains than brawn has never been run over by one.",
         "foreignData": [
           {
-            "flavorText": "Jeder, der glaubt, dass Meermänner mehr Verstand als Muskelmasse haben, ist noch nie von einem überrannt worden.",
+            "flavorText": "以为美洛只懂机巧而没肌肉的人，一定是没给他们踩在脚底过。",
             "identifiers": {
-              "multiverseId": "595295",
-              "scryfallId": "e730b3cf-7d92-4eb7-b16d-bb698bcf8dd8"
+              "multiverseId": "596051",
+              "scryfallId": "61ce154d-cec5-495d-94ac-7624b0c9ffb8"
             },
-            "language": "German",
-            "multiverseId": 595295,
-            "name": "Wellenschläger",
-            "text": "Immer wenn eine bleibende Karte, die du kontrollierst, enttappt wird, erhält der Wellenschläger +1/+1 bis zum Ende des Zuges.",
-            "type": "Kreatur — Meervolk, Soldat",
-            "uuid": "8e0a6895-0fdd-53dd-b41c-a1ff21172f76"
-          },
-          {
-            "flavorText": "Cualquiera que piense que los merrow tienen más cerebro que músculo nunca fue atropellado por uno.",
-            "identifiers": {
-              "multiverseId": "595403",
-              "scryfallId": "0d89c6fc-6dce-441e-ac93-ddd7db138ad3"
+            "language": "Chinese Simplified",
+            "multiverseId": 596051,
+            "name": "波涛痛击兵",
+            "skuIds": {
+              "nonfoil": "cef9a45e-74df-563f-b4c1-4b6cff386614"
             },
-            "language": "Spanish",
-            "multiverseId": 595403,
-            "name": "Trillador de la estela",
-            "text": "Siempre que un permanente que controlas se enderece, el Trillador de la estela obtiene +1/+1 hasta el final del turno.",
-            "type": "Criatura — Soldado tritón",
-            "uuid": "c524febc-84e9-56fd-8478-3b21df78c5c0"
+            "text": "每当一个由你操控的永久物成为未横置时，波涛痛击兵得+1/+1直到回合结束。",
+            "type": "生物 ～人鱼／士兵",
+            "uuid": "db24112c-c304-5024-b5a4-d90362eb1764"
           },
           {
             "flavorText": "Si vous pensez que les suires sont tous des intellectuels, c'est que vous n'avez jamais été piétiné par l'un d'eux.",
@@ -250,9 +257,28 @@
             "language": "French",
             "multiverseId": 595511,
             "name": "Rudoyeur des sillages",
+            "skuIds": {
+              "nonfoil": "78024278-c3ff-5aba-9f93-2de1eaafde88"
+            },
             "text": "À chaque fois qu'un permanent que vous contrôlez devient dégagé, le Rudoyeur des sillages gagne +1/+1 jusqu'à la fin du tour.",
             "type": "Créature : ondin et soldat",
             "uuid": "cefb6823-c178-539e-9f1d-ad78af13f427"
+          },
+          {
+            "flavorText": "Jeder, der glaubt, dass Meermänner mehr Verstand als Muskelmasse haben, ist noch nie von einem überrannt worden.",
+            "identifiers": {
+              "multiverseId": "595295",
+              "scryfallId": "e730b3cf-7d92-4eb7-b16d-bb698bcf8dd8"
+            },
+            "language": "German",
+            "multiverseId": 595295,
+            "name": "Wellenschläger",
+            "skuIds": {
+              "nonfoil": "ed0ea912-a8c4-53fb-8b17-ef579ae517a7"
+            },
+            "text": "Immer wenn eine bleibende Karte, die du kontrollierst, enttappt wird, erhält der Wellenschläger +1/+1 bis zum Ende des Zuges.",
+            "type": "Kreatur — Meervolk, Soldat",
+            "uuid": "8e0a6895-0fdd-53dd-b41c-a1ff21172f76"
           },
           {
             "flavorText": "Chiunque pensi che i merrow hanno più cervello che muscoli non è mai stato travolto da uno di loro.",
@@ -263,6 +289,9 @@
             "language": "Italian",
             "multiverseId": 595619,
             "name": "Sferzascia",
+            "skuIds": {
+              "nonfoil": "7684db5f-dba3-5be1-9954-10d3835cd481"
+            },
             "text": "Ogniqualvolta un permanente che controlli viene STAPpato, lo Sferzascia prende +1/+1 fino alla fine del turno.",
             "type": "Creatura — Soldato Tritone",
             "uuid": "e620dab0-fb5f-5fe7-8af2-aed49c62ec5a"
@@ -276,27 +305,31 @@
             "language": "Japanese",
             "multiverseId": 595727,
             "name": "航跡の打破者",
+            "skuIds": {
+              "nonfoil": "e868e632-2ab0-54a8-94ff-4b48c448b716"
+            },
             "text": "あなたがコントロールしているパーマネント１つがアンタップ状態になるたび、ターン終了時まで、航跡の打破者は＋１/＋１の修整を受ける。",
             "type": "クリーチャー — マーフォーク・兵士",
             "uuid": "49221247-6274-501c-aeae-34fde829e918"
           },
           {
-            "flavorText": "以为美洛只懂机巧而没肌肉的人，一定是没给他们踩在脚底过。",
+            "flavorText": "Cualquiera que piense que los merrow tienen más cerebro que músculo nunca fue atropellado por uno.",
             "identifiers": {
-              "multiverseId": "596051",
-              "scryfallId": "61ce154d-cec5-495d-94ac-7624b0c9ffb8"
+              "multiverseId": "595403",
+              "scryfallId": "0d89c6fc-6dce-441e-ac93-ddd7db138ad3"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596051,
-            "name": "波涛痛击兵",
-            "text": "每当一个由你操控的永久物成为未横置时，波涛痛击兵得+1/+1直到回合结束。",
-            "type": "生物 ～人鱼／士兵",
-            "uuid": "db24112c-c304-5024-b5a4-d90362eb1764"
+            "language": "Spanish",
+            "multiverseId": 595403,
+            "name": "Trillador de la estela",
+            "skuIds": {
+              "nonfoil": "3e0e2035-3801-5a0b-bbae-ff75846a7827"
+            },
+            "text": "Siempre que un permanente que controlas se enderece, el Trillador de la estela obtiene +1/+1 hasta el final del turno.",
+            "type": "Criatura — Soldado tritón",
+            "uuid": "c524febc-84e9-56fd-8478-3b21df78c5c0"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271527",
           "cardsphereId": "97469",
@@ -331,6 +364,7 @@
         "name": "Wake Thrasher",
         "number": "369",
         "originalText": "Whenever a permanent you control becomes untapped, Wake Thrasher gets +1/+1 until end of turn.",
+        "originalType": "Creature – Merfolk Soldier",
         "power": "1",
         "printings": [
           "DDT",
@@ -352,9 +386,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "f5c31a46-42ce-579e-ac59-8ffb4a37fe9c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -390,7 +429,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 3833,
+        "edhrecRank": 3927,
         "edhrecSaltiness": 0.26,
         "finishes": [
           "nonfoil"
@@ -398,30 +437,20 @@
         "flavorText": "\". . . that's when I reeled in a human about yay big.\"",
         "foreignData": [
           {
-            "flavorText": "„… da hab ich mir einen Menschen geangelt, der war so groß.\"",
+            "flavorText": "「…当时我卷起了一个体型有这么大的人类。」",
             "identifiers": {
-              "multiverseId": "597090",
-              "scryfallId": "63749aef-224a-4322-bacf-9129fc5a7080"
+              "multiverseId": "597412",
+              "scryfallId": "1e8f06f2-ab9c-419f-bf22-399007838136"
             },
-            "language": "German",
-            "multiverseId": 597090,
-            "name": "Merrow-Rittersmann",
-            "text": "Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1.\nImmer wenn du einen Meervolk-Zauberspruch wirkst, kannst du eine bleibende Karte deiner Wahl tappen oder enttappen.",
-            "type": "Kreatur — Meervolk, Soldat",
-            "uuid": "be4fd1a9-21de-509c-a777-cfe7a2cac1d6"
-          },
-          {
-            "flavorText": "\"... y en ese instante atrapé un humano así de grande\".",
-            "identifiers": {
-              "multiverseId": "597136",
-              "scryfallId": "651ecbc5-dfcd-4d41-b0a4-4b8a4eb8e737"
+            "language": "Chinese Simplified",
+            "multiverseId": 597412,
+            "name": "美洛理骑士",
+            "skuIds": {
+              "nonfoil": "a90025e9-7fce-5955-9f2d-778b6f59ed47"
             },
-            "language": "Spanish",
-            "multiverseId": 597136,
-            "name": "Reejerey merrow",
-            "text": "Las otras criaturas Tritón que controlas obtienen +1/+1.\nSiempre que lances un hechizo de Tritón, puedes girar o enderezar el permanente objetivo.",
-            "type": "Criatura — Soldado tritón",
-            "uuid": "8eeda3e9-7743-5d8e-918e-b640f0e6028b"
+            "text": "由你操控的其他人鱼生物得+1/+1。\n每当你施放人鱼咒语时，你可以横置或重置目标永久物。",
+            "type": "生物 ～人鱼／士兵",
+            "uuid": "8bb66839-aa4f-5d2e-9526-a4f8cb27606c"
           },
           {
             "flavorText": "« ... et là, j'ai pêché un humain grand comme ça. »",
@@ -432,9 +461,28 @@
             "language": "French",
             "multiverseId": 597182,
             "name": "Reejerey suire",
+            "skuIds": {
+              "nonfoil": "610ce838-a7a7-5161-b6ff-2d8d7ad3c9ba"
+            },
             "text": "Les autres créatures Ondin que vous contrôlez gagnent +1/+1.\nÀ chaque fois que vous lancez un sort d'ondin, vous pouvez engager ou dégager un permanent ciblé.",
             "type": "Créature : ondin et soldat",
             "uuid": "9824ea31-aa1f-58ec-b32c-295e89f337dc"
+          },
+          {
+            "flavorText": "„… da hab ich mir einen Menschen geangelt, der war so groß.\"",
+            "identifiers": {
+              "multiverseId": "597090",
+              "scryfallId": "63749aef-224a-4322-bacf-9129fc5a7080"
+            },
+            "language": "German",
+            "multiverseId": 597090,
+            "name": "Merrow-Rittersmann",
+            "skuIds": {
+              "nonfoil": "e15359fe-d2f8-5674-9f02-a7e0f06cc992"
+            },
+            "text": "Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1.\nImmer wenn du einen Meervolk-Zauberspruch wirkst, kannst du eine bleibende Karte deiner Wahl tappen oder enttappen.",
+            "type": "Kreatur — Meervolk, Soldat",
+            "uuid": "be4fd1a9-21de-509c-a777-cfe7a2cac1d6"
           },
           {
             "flavorText": "\"... e in quel preciso istante un umano grosso così ha abboccato.\"",
@@ -445,6 +493,9 @@
             "language": "Italian",
             "multiverseId": 597228,
             "name": "Reejerey Merrow",
+            "skuIds": {
+              "nonfoil": "7d9826c3-4344-57c5-9970-4ad32e5752c3"
+            },
             "text": "Le altre creature Tritone che controlli prendono +1/+1.\nOgniqualvolta lanci una magia Tritone, puoi TAPpare o STAPpare un permanente bersaglio.",
             "type": "Creatura — Soldato Tritone",
             "uuid": "3d2096b6-7378-5757-aac3-75ca5d77aa27"
@@ -458,27 +509,31 @@
             "language": "Japanese",
             "multiverseId": 597274,
             "name": "メロウの騎兵",
+            "skuIds": {
+              "nonfoil": "10c0cd7e-7617-5397-93b1-901a4077a2c3"
+            },
             "text": "あなたがコントロールしていてこれでないすべてのマーフォーク・クリーチャーは＋１/＋１の修整を受ける。\nあなたがマーフォーク・呪文を唱えるたび、パーマネント１つを対象とする。あなたはそれをタップまたはアンタップしてもよい。",
             "type": "クリーチャー — マーフォーク・兵士",
             "uuid": "674fbaae-a1af-5342-b4e6-b68785354e13"
           },
           {
-            "flavorText": "「…当时我卷起了一个体型有这么大的人类。」",
+            "flavorText": "\"... y en ese instante atrapé un humano así de grande\".",
             "identifiers": {
-              "multiverseId": "597412",
-              "scryfallId": "1e8f06f2-ab9c-419f-bf22-399007838136"
+              "multiverseId": "597136",
+              "scryfallId": "651ecbc5-dfcd-4d41-b0a4-4b8a4eb8e737"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597412,
-            "name": "美洛理骑士",
-            "text": "由你操控的其他人鱼生物得+1/+1。\n每当你施放人鱼咒语时，你可以横置或重置目标永久物。",
-            "type": "生物 ～人鱼／士兵",
-            "uuid": "8bb66839-aa4f-5d2e-9526-a4f8cb27606c"
+            "language": "Spanish",
+            "multiverseId": 597136,
+            "name": "Reejerey merrow",
+            "skuIds": {
+              "nonfoil": "0ce33192-4ae8-51f2-b549-789ce73a2c64"
+            },
+            "text": "Las otras criaturas Tritón que controlas obtienen +1/+1.\nSiempre que lances un hechizo de Tritón, puedes girar o enderezar el permanente objetivo.",
+            "type": "Criatura — Soldado tritón",
+            "uuid": "8eeda3e9-7743-5d8e-918e-b640f0e6028b"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271454",
           "cardsphereId": "97362",
@@ -516,6 +571,7 @@
         "name": "Merrow Reejerey",
         "number": "61",
         "originalText": "Other Merfolk creatures you control get +1/+1.\nWhenever you cast a Merfolk spell, you may tap or untap target permanent.",
+        "originalType": "Creature – Merfolk Soldier",
         "power": "2",
         "printings": [
           "DDT",
@@ -533,9 +589,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a69cb0a1-b550-58f9-a6d0-ef5f7bbea023"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -571,7 +632,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 9624,
+        "edhrecRank": 9761,
         "edhrecSaltiness": 0.04,
         "finishes": [
           "nonfoil"
@@ -579,30 +640,20 @@
         "flavorText": "Memories of ages past are said to swim the minds of lounging fallowsages.",
         "foreignData": [
           {
-            "flavorText": "Es heißt, dass die Erinnerungen an längst vergangene Zeiten in die Köpfe der herumfaulenzenden Merromeriten hineinschwimmen.",
+            "flavorText": "据说在闲散的静修贤者脑海中，陈年记忆仍在流动着。",
             "identifiers": {
-              "multiverseId": "595223",
-              "scryfallId": "9bae3d4b-4d6d-4fed-bd2c-040a00299d07"
+              "multiverseId": "595979",
+              "scryfallId": "8bb61123-82d0-4920-86f9-04ccdb0b8b55"
             },
-            "language": "German",
-            "multiverseId": 595223,
-            "name": "Merromerit",
-            "text": "Immer wenn der Merromerit getappt wird, kannst du eine Karte ziehen.",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "174abb6a-d678-508a-b07b-5b127bd1d2d9"
-          },
-          {
-            "flavorText": "Se dice que en las mentes de los haraganes sabios durmientes nadan los recuerdos de eras pasadas.",
-            "identifiers": {
-              "multiverseId": "595331",
-              "scryfallId": "be340636-32ac-4f5d-b537-ba72dafbfdd4"
+            "language": "Chinese Simplified",
+            "multiverseId": 595979,
+            "name": "静修贤者",
+            "skuIds": {
+              "nonfoil": "f2d84907-25ce-5271-a01c-a0a5d7b78cae"
             },
-            "language": "Spanish",
-            "multiverseId": 595331,
-            "name": "Sabio durmiente",
-            "text": "Siempre que el Sabio durmiente se gire, puedes robar una carta.",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "11df5dc1-15ad-502e-be1f-9d9b1397d390"
+            "text": "每当静修贤者成为横置时，你可以抓一张牌。",
+            "type": "生物 ～人鱼／法术师",
+            "uuid": "781e6e19-8107-560e-bb67-ece8ae99af74"
           },
           {
             "flavorText": "On dit que les souvenirs de temps révolus nagent dans l'esprit des sages des jachères.",
@@ -613,9 +664,28 @@
             "language": "French",
             "multiverseId": 595439,
             "name": "Sage des jachères",
+            "skuIds": {
+              "nonfoil": "96de2cdb-185d-521d-98d3-cd7c8db2180d"
+            },
             "text": "À chaque fois que le Sage des jachères devient engagé, vous pouvez piocher une carte.",
             "type": "Créature : ondin et sorcier",
             "uuid": "1fe58cb0-26eb-53f2-8307-de0f9828085e"
+          },
+          {
+            "flavorText": "Es heißt, dass die Erinnerungen an längst vergangene Zeiten in die Köpfe der herumfaulenzenden Merromeriten hineinschwimmen.",
+            "identifiers": {
+              "multiverseId": "595223",
+              "scryfallId": "9bae3d4b-4d6d-4fed-bd2c-040a00299d07"
+            },
+            "language": "German",
+            "multiverseId": 595223,
+            "name": "Merromerit",
+            "skuIds": {
+              "nonfoil": "fd8031d6-f84a-5be5-910e-887ee5ec81aa"
+            },
+            "text": "Immer wenn der Merromerit getappt wird, kannst du eine Karte ziehen.",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "174abb6a-d678-508a-b07b-5b127bd1d2d9"
           },
           {
             "flavorText": "Si dice che i ricordi delle ere passate galleggino nelle menti degli oziosi saggi torpidi.",
@@ -626,6 +696,9 @@
             "language": "Italian",
             "multiverseId": 595547,
             "name": "Saggio Torpido",
+            "skuIds": {
+              "nonfoil": "eda61a28-6d4f-5489-bdd2-d615af42d6b6"
+            },
             "text": "Ogniqualvolta il Saggio Torpido viene TAPpato, puoi pescare una carta.",
             "type": "Creatura — Mago Tritone",
             "uuid": "aaf17964-9a6e-59a3-90bc-cc8b2cbbbfa4"
@@ -639,27 +712,31 @@
             "language": "Japanese",
             "multiverseId": 595655,
             "name": "休賢者",
+            "skuIds": {
+              "nonfoil": "954dfc96-bfcf-5695-a1c6-2c76da4aaf8a"
+            },
             "text": "休賢者がタップ状態になるたび、あなたはカード１枚を引いてもよい。",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "f198c131-3b56-5e64-b113-d57a86d9fc09"
           },
           {
-            "flavorText": "据说在闲散的静修贤者脑海中，陈年记忆仍在流动着。",
+            "flavorText": "Se dice que en las mentes de los haraganes sabios durmientes nadan los recuerdos de eras pasadas.",
             "identifiers": {
-              "multiverseId": "595979",
-              "scryfallId": "8bb61123-82d0-4920-86f9-04ccdb0b8b55"
+              "multiverseId": "595331",
+              "scryfallId": "be340636-32ac-4f5d-b537-ba72dafbfdd4"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595979,
-            "name": "静修贤者",
-            "text": "每当静修贤者成为横置时，你可以抓一张牌。",
-            "type": "生物 ～人鱼／法术师",
-            "uuid": "781e6e19-8107-560e-bb67-ece8ae99af74"
+            "language": "Spanish",
+            "multiverseId": 595331,
+            "name": "Sabio durmiente",
+            "skuIds": {
+              "nonfoil": "b116bcae-b78f-579c-95d6-cc7d20218232"
+            },
+            "text": "Siempre que el Sabio durmiente se gire, puedes robar una carta.",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "11df5dc1-15ad-502e-be1f-9d9b1397d390"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271274",
           "cardsphereId": "97481",
@@ -685,7 +762,6 @@
           "legacy": "Legal",
           "modern": "Legal",
           "oathbreaker": "Legal",
-          "penny": "Legal",
           "predh": "Legal",
           "vintage": "Legal"
         },
@@ -694,6 +770,7 @@
         "name": "Fallowsage",
         "number": "297",
         "originalText": "Whenever Fallowsage becomes tapped, you may draw a card.",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "2",
         "printings": [
           "J22",
@@ -717,9 +794,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "e2c28880-6917-5b5e-90c8-ae700c3ee590"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -755,7 +837,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 22835,
+        "edhrecRank": 23681,
         "edhrecSaltiness": 0.06,
         "finishes": [
           "nonfoil"
@@ -763,27 +845,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595299",
-              "scryfallId": "114be188-5c51-4de6-be4c-954111fdbd4f"
+              "multiverseId": "596055",
+              "scryfallId": "a9d98545-c305-4002-89e5-785ac99d0181"
             },
-            "language": "German",
-            "multiverseId": 595299,
-            "name": "Windgleiter-Patrouille",
-            "text": "Fliegend\nImmer wenn die Windgleiter-Patrouille einem Spieler Kampfschaden zufügt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "e509552b-1197-54cf-b016-db6541255059"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595407",
-              "scryfallId": "5e4b4d1f-f1e8-49ef-9e62-d7436f934dc1"
+            "language": "Chinese Simplified",
+            "multiverseId": 596055,
+            "name": "御风巡卫",
+            "skuIds": {
+              "nonfoil": "101a2771-aaf3-530f-8ec9-06f250e0e343"
             },
-            "language": "Spanish",
-            "multiverseId": 595407,
-            "name": "Patrulla jinete del viento",
-            "text": "Vuela.\nSiempre que la Patrulla jinete del viento haga daño de combate a un jugador, adivina 2. (Mira las dos primeras cartas de tu biblioteca, luego pon cualquier cantidad de ellas en el fondo de tu biblioteca y el resto en la parte superior en cualquier orden.)",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "344cd853-54bb-500b-a8c8-1c4238523ad1"
+            "text": "飞行\n每当御风巡卫对任一牌手造成战斗伤害时，占卜2。（检视你牌库顶的两张牌，然后将其中任意数量的牌以任意顺序置于你牌库底，其余则以任意顺序置于你牌库顶。）",
+            "type": "生物 ～人鱼／法术师",
+            "uuid": "b880f041-7756-5465-94d4-3ff704447db0"
           },
           {
             "identifiers": {
@@ -793,9 +866,27 @@
             "language": "French",
             "multiverseId": 595515,
             "name": "Patrouille des vents",
+            "skuIds": {
+              "nonfoil": "18e2fcdc-5d39-55e0-9b83-8904b084b24d"
+            },
             "text": "Vol\nÀ chaque fois que la Patrouille des vents inflige des blessures de combat à un joueur, regard 2. (Regardez les deux cartes du dessus de votre bibliothèque. Mettez n'importe quel nombre d'entre elles au-dessous de votre bibliothèque et le reste, au-dessus, dans l'ordre de votre choix.)",
             "type": "Créature : ondin et sorcier",
             "uuid": "3626119d-2007-5af7-b82d-764fdd9d1748"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595299",
+              "scryfallId": "114be188-5c51-4de6-be4c-954111fdbd4f"
+            },
+            "language": "German",
+            "multiverseId": 595299,
+            "name": "Windgleiter-Patrouille",
+            "skuIds": {
+              "nonfoil": "a3d6ae63-2ef6-5d51-b594-0c7192ed6b4c"
+            },
+            "text": "Fliegend\nImmer wenn die Windgleiter-Patrouille einem Spieler Kampfschaden zufügt, wende Hellsicht 2 an. (Schaue dir die obersten zwei Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl davon unter deine Bibliothek legen und den Rest in beliebiger Reihenfolge oben darauf.)",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "e509552b-1197-54cf-b016-db6541255059"
           },
           {
             "identifiers": {
@@ -805,6 +896,9 @@
             "language": "Italian",
             "multiverseId": 595623,
             "name": "Pattuglia Solcabrezza",
+            "skuIds": {
+              "nonfoil": "8715a00a-aa23-5844-a72f-d8b72f2b7338"
+            },
             "text": "Volare\nOgniqualvolta la Pattuglia Solcabrezza infligge danno da combattimento a un giocatore, profetizza 2. (Guarda le prime due carte del tuo grimorio, poi mettine un qualsiasi numero in fondo al tuo grimorio e le altre in cima in qualsiasi ordine.)",
             "type": "Creatura — Mago Tritone",
             "uuid": "809099d6-57cd-5841-9ebf-7ec4d0173e55"
@@ -817,26 +911,30 @@
             "language": "Japanese",
             "multiverseId": 595731,
             "name": "風乗りの巡回兵",
+            "skuIds": {
+              "nonfoil": "f06a6d3b-717a-5bf3-ad60-e7dc283cfc5b"
+            },
             "text": "飛行\n風乗りの巡回兵がプレイヤー１人に戦闘ダメージを与えるたび、占術２を行う。（あなたのライブラリーの一番上にあるカード２枚を見て、そのうちの望む枚数をあなたのライブラリーの一番下に、残りを一番上に、それぞれ望む順番で置く。）",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "2eef5cdd-8507-547f-aff3-adbe6a091042"
           },
           {
             "identifiers": {
-              "multiverseId": "596055",
-              "scryfallId": "a9d98545-c305-4002-89e5-785ac99d0181"
+              "multiverseId": "595407",
+              "scryfallId": "5e4b4d1f-f1e8-49ef-9e62-d7436f934dc1"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596055,
-            "name": "御风巡卫",
-            "text": "飞行\n每当御风巡卫对任一牌手造成战斗伤害时，占卜2。（检视你牌库顶的两张牌，然后将其中任意数量的牌以任意顺序置于你牌库底，其余则以任意顺序置于你牌库顶。）",
-            "type": "生物 ～人鱼／法术师",
-            "uuid": "b880f041-7756-5465-94d4-3ff704447db0"
+            "language": "Spanish",
+            "multiverseId": 595407,
+            "name": "Patrulla jinete del viento",
+            "skuIds": {
+              "nonfoil": "d3bd10a1-cb12-55f0-8472-2e7c76bfd929"
+            },
+            "text": "Vuela.\nSiempre que la Patrulla jinete del viento haga daño de combate a un jugador, adivina 2. (Mira las dos primeras cartas de tu biblioteca, luego pon cualquier cantidad de ellas en el fondo de tu biblioteca y el resto en la parte superior en cualquier orden.)",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "344cd853-54bb-500b-a8c8-1c4238523ad1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271296",
           "cardsphereId": "97468",
@@ -878,6 +976,7 @@
         "name": "Windrider Patrol",
         "number": "373",
         "originalText": "Flying\nWhenever Windrider Patrol deals combat damage to a player, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "4",
         "printings": [
           "BFZ",
@@ -891,9 +990,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "d938fdb7-804a-5b16-9b77-2da91416a4b3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -929,7 +1033,7 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 1873,
+        "edhrecRank": 1898,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
@@ -937,30 +1041,20 @@
         "flavorText": "\"Who will miss you, drywalker? A wife? A child? Perhaps they will blame the sea for your fate, and teach future generations to stay far away from it.\"",
         "foreignData": [
           {
-            "flavorText": "„Wer soll dich schon vermissen, Trockenläufer? Deine Frau? Dein Kind? Vielleicht denken sie, die See hätte dich verschlungen, und werden ihren Nachkommen einschärfen, sich von ihr fernzuhalten.\"",
+            "flavorText": "「地上人，谁会思念你？妻子？孩子？或许他们会将你的命运归咎于大海，教导后世子孙远离它。」",
             "identifiers": {
-              "multiverseId": "595291",
-              "scryfallId": "07c808a6-993e-4141-a124-208d548d5209"
+              "multiverseId": "596047",
+              "scryfallId": "1d957b8b-5094-4b91-a277-6c208a07984f"
             },
-            "language": "German",
-            "multiverseId": 595291,
-            "name": "Tritonier-Küstenschleicher",
-            "text": "Der Tritonier-Küstenschleicher kann nicht geblockt werden.",
-            "type": "Kreatur — Meervolk, Räuber",
-            "uuid": "103e3219-0ad9-599c-ba81-8e34f7122018"
-          },
-          {
-            "flavorText": "\"¿Quién te añorará, pisatierra? ¿Una esposa? ¿Un hijo? Quizá culpen al mar de tu destino y enseñen a las nuevas generaciones a no acercarse a él\".",
-            "identifiers": {
-              "multiverseId": "595399",
-              "scryfallId": "76403992-1585-4b08-8977-268011805d11"
+            "language": "Chinese Simplified",
+            "multiverseId": 596047,
+            "name": "岸袭屈东",
+            "skuIds": {
+              "nonfoil": "435b6753-8633-5146-8482-ce6f7d75bfa2"
             },
-            "language": "Spanish",
-            "multiverseId": 595399,
-            "name": "Vigilacostas tritónido",
-            "text": "El Vigilacostas tritónido no puede ser bloqueado.",
-            "type": "Criatura — Bribón tritón",
-            "uuid": "df80cafb-21dc-5a70-8a7a-04875228201a"
+            "text": "岸袭屈东不能被阻挡。",
+            "type": "生物 ～人鱼／浪客",
+            "uuid": "f7c5ca66-2381-5242-bc7f-e7a8c6f6b262"
           },
           {
             "flavorText": "« Et à qui manqueras-tu, pied-sec ? Une épouse ? Un enfant ? Peut-être blâmeront-ils la mer pour ta mort, et apprendront-ils aux générations futures à rester à l'écart des vagues. »",
@@ -971,9 +1065,28 @@
             "language": "French",
             "multiverseId": 595507,
             "name": "Pisteur des côtes triton",
+            "skuIds": {
+              "nonfoil": "6e9c8d40-e870-5987-a266-b2d612c8df49"
+            },
             "text": "Le Pisteur des côtes triton ne peut pas être bloqué.",
             "type": "Créature : ondin et gredin",
             "uuid": "e167ed93-054d-5f78-9095-ef9f9ce3efaa"
+          },
+          {
+            "flavorText": "„Wer soll dich schon vermissen, Trockenläufer? Deine Frau? Dein Kind? Vielleicht denken sie, die See hätte dich verschlungen, und werden ihren Nachkommen einschärfen, sich von ihr fernzuhalten.\"",
+            "identifiers": {
+              "multiverseId": "595291",
+              "scryfallId": "07c808a6-993e-4141-a124-208d548d5209"
+            },
+            "language": "German",
+            "multiverseId": 595291,
+            "name": "Tritonier-Küstenschleicher",
+            "skuIds": {
+              "nonfoil": "cd59c2a4-fae3-565f-8c93-802a9a3ae400"
+            },
+            "text": "Der Tritonier-Küstenschleicher kann nicht geblockt werden.",
+            "type": "Kreatur — Meervolk, Räuber",
+            "uuid": "103e3219-0ad9-599c-ba81-8e34f7122018"
           },
           {
             "flavorText": "\"Chi ti piangerà, piediasciutti? Una moglie? Un figlio? Forse accuseranno il mare della tua fine e insegneranno alle generazioni future a tenersene lontani.\"",
@@ -984,6 +1097,9 @@
             "language": "Italian",
             "multiverseId": 595615,
             "name": "Marinide Braccacoste",
+            "skuIds": {
+              "nonfoil": "07d76609-bd72-5cb9-8420-5be536731fc8"
+            },
             "text": "Il Marinide Braccacoste non può essere bloccato.",
             "type": "Creatura — Farabutto Tritone",
             "uuid": "a2656c69-3a03-57af-b584-2c7792273e4f"
@@ -997,27 +1113,31 @@
             "language": "Japanese",
             "multiverseId": 595723,
             "name": "トリトンの岸忍び",
+            "skuIds": {
+              "nonfoil": "3385a855-6bdb-53ca-8ec7-e3dc83d25f74"
+            },
             "text": "トリトンの岸忍びはブロックされない。",
             "type": "クリーチャー — マーフォーク・ならず者",
             "uuid": "88352acc-5847-5f26-84e1-767331ace3d1"
           },
           {
-            "flavorText": "「地上人，谁会思念你？妻子？孩子？或许他们会将你的命运归咎于大海，教导后世子孙远离它。」",
+            "flavorText": "\"¿Quién te añorará, pisatierra? ¿Una esposa? ¿Un hijo? Quizá culpen al mar de tu destino y enseñen a las nuevas generaciones a no acercarse a él\".",
             "identifiers": {
-              "multiverseId": "596047",
-              "scryfallId": "1d957b8b-5094-4b91-a277-6c208a07984f"
+              "multiverseId": "595399",
+              "scryfallId": "76403992-1585-4b08-8977-268011805d11"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596047,
-            "name": "岸袭屈东",
-            "text": "岸袭屈东不能被阻挡。",
-            "type": "生物 ～人鱼／浪客",
-            "uuid": "f7c5ca66-2381-5242-bc7f-e7a8c6f6b262"
+            "language": "Spanish",
+            "multiverseId": 595399,
+            "name": "Vigilacostas tritónido",
+            "skuIds": {
+              "nonfoil": "e804ca1c-a8c9-5d3b-beb0-2d1f36511ed6"
+            },
+            "text": "El Vigilacostas tritónido no puede ser bloqueado.",
+            "type": "Criatura — Bribón tritón",
+            "uuid": "df80cafb-21dc-5a70-8a7a-04875228201a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271295",
           "cardsphereId": "97492",
@@ -1057,6 +1177,7 @@
         "name": "Triton Shorestalker",
         "number": "365",
         "originalText": "Triton Shorestalker can't be blocked.",
+        "originalType": "Creature – Merfolk Rogue",
         "power": "1",
         "printings": [
           "J22",
@@ -1072,9 +1193,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "f2018a17-6a0b-530a-bf99-b02274c72e3d"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1110,7 +1236,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20561,
+        "edhrecRank": 20871,
         "edhrecSaltiness": 0.24,
         "finishes": [
           "nonfoil"
@@ -1118,30 +1244,20 @@
         "flavorText": "\"Water is in the air, the trees, and the earth. Understand its motion, speak its language, and the subtle currents that flow through all living things will fall under your command.\"",
         "foreignData": [
           {
-            "flavorText": "„Wasser ist in der Luft, in den Bäumen und in der Erde. Wenn du seine Bewegung verstehst und seine Sprache sprichst, kannst du die ganzen minimalen Strömungen durch alle Lebewesen unter deine Kontrolle bringen.\"",
+            "flavorText": "「天上，树里，土底都有水。了解其动向，通晓其语言，以及内部流窜的暗流，你就能掌握一切活物。」",
             "identifiers": {
-              "multiverseId": "595280",
-              "scryfallId": "9d606e36-8ab9-4fd3-901f-8434568c7482"
+              "multiverseId": "596036",
+              "scryfallId": "35324e35-c9cd-459d-ac7f-962d4c3c59db"
             },
-            "language": "German",
-            "multiverseId": 595280,
-            "name": "Steinbach-Seeteufel",
-            "text": "{1}{U}, {T}: Du kannst eine Kreatur deiner Wahl tappen oder enttappen.",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "c57847c3-325b-55c4-ab4c-1c842ad6a90c"
-          },
-          {
-            "flavorText": "\"Hay agua en el aire, en los árboles y en la tierra. Entiende su movimiento, habla su lenguaje y las sutiles corrientes que fluyen en todas las cosas vivas caerán bajo tus órdenes\".",
-            "identifiers": {
-              "multiverseId": "595388",
-              "scryfallId": "8eb60cb3-7518-4e88-ad4f-d795d5c0c008"
+            "language": "Chinese Simplified",
+            "multiverseId": 596036,
+            "name": "石溪钓客",
+            "skuIds": {
+              "nonfoil": "ee2581e1-ea74-5046-b97a-d1dd89ed9c87"
             },
-            "language": "Spanish",
-            "multiverseId": 595388,
-            "name": "Pescador de Arroyo Rocoso",
-            "text": "{1}{U}, {T}: Puedes girar o enderezar la criatura objetivo.",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "921d4f23-90aa-5d38-9150-96066058b601"
+            "text": "{1}{U}，{T}：你可以横置或重置目标生物。",
+            "type": "生物 ～人鱼／法术师",
+            "uuid": "2e599b75-7ecf-5735-bb92-832576d3ec4e"
           },
           {
             "flavorText": "« L'eau est dans l'air, dans les arbres et dans la terre. Comprends ses mouvements, parle son langage, et les courants subtils qui traversent tout ce qui est vivant seront sous ton commandement. »",
@@ -1152,9 +1268,28 @@
             "language": "French",
             "multiverseId": 595496,
             "name": "Pêcheur de Pierreruisseau",
+            "skuIds": {
+              "nonfoil": "baae89e9-b2df-5f43-9905-ae305926057a"
+            },
             "text": "{1}{U}, {T} : Vous pouvez engager ou dégager une créature ciblée.",
             "type": "Créature : ondin et sorcier",
             "uuid": "3ef9375f-2f5b-566c-a96b-d2ab5e8d7994"
+          },
+          {
+            "flavorText": "„Wasser ist in der Luft, in den Bäumen und in der Erde. Wenn du seine Bewegung verstehst und seine Sprache sprichst, kannst du die ganzen minimalen Strömungen durch alle Lebewesen unter deine Kontrolle bringen.\"",
+            "identifiers": {
+              "multiverseId": "595280",
+              "scryfallId": "9d606e36-8ab9-4fd3-901f-8434568c7482"
+            },
+            "language": "German",
+            "multiverseId": 595280,
+            "name": "Steinbach-Seeteufel",
+            "skuIds": {
+              "nonfoil": "0d153b47-8967-58c4-a4f5-69c68ddd9d1e"
+            },
+            "text": "{1}{U}, {T}: Du kannst eine Kreatur deiner Wahl tappen oder enttappen.",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "c57847c3-325b-55c4-ab4c-1c842ad6a90c"
           },
           {
             "flavorText": "\"L'acqua è nell'aria, negli alberi e nella terra. Comprendine il movimento, parlane il linguaggio e la sottile corrente che scorre in ogni essere vivente ubbidirà ai tuoi ordini.\"",
@@ -1165,6 +1300,9 @@
             "language": "Italian",
             "multiverseId": 595604,
             "name": "Pescatore di Riopietroso",
+            "skuIds": {
+              "nonfoil": "34134a2e-39b8-5c9f-8df1-b75b5409a6d4"
+            },
             "text": "{1}{U}, {T}: Puoi TAPpare o STAPpare una creatura bersaglio.",
             "type": "Creatura — Mago Tritone",
             "uuid": "6c0a6239-a7e3-5acc-a7ee-f25e760a874f"
@@ -1178,27 +1316,31 @@
             "language": "Japanese",
             "multiverseId": 595712,
             "name": "石ころ川の釣り師",
+            "skuIds": {
+              "nonfoil": "971872df-c0a0-5e07-8ef6-97144a5af758"
+            },
             "text": "{1}{U}, {T}：クリーチャー１体を対象とする。あなたはそれをタップまたはアンタップしてもよい。",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "be47b322-2374-5af4-ae36-1b26311c38dc"
           },
           {
-            "flavorText": "「天上，树里，土底都有水。了解其动向，通晓其语言，以及内部流窜的暗流，你就能掌握一切活物。」",
+            "flavorText": "\"Hay agua en el aire, en los árboles y en la tierra. Entiende su movimiento, habla su lenguaje y las sutiles corrientes que fluyen en todas las cosas vivas caerán bajo tus órdenes\".",
             "identifiers": {
-              "multiverseId": "596036",
-              "scryfallId": "35324e35-c9cd-459d-ac7f-962d4c3c59db"
+              "multiverseId": "595388",
+              "scryfallId": "8eb60cb3-7518-4e88-ad4f-d795d5c0c008"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596036,
-            "name": "石溪钓客",
-            "text": "{1}{U}，{T}：你可以横置或重置目标生物。",
-            "type": "生物 ～人鱼／法术师",
-            "uuid": "2e599b75-7ecf-5735-bb92-832576d3ec4e"
+            "language": "Spanish",
+            "multiverseId": 595388,
+            "name": "Pescador de Arroyo Rocoso",
+            "skuIds": {
+              "nonfoil": "883d6b0c-ea7f-5fe1-9e95-82ef279a9bd0"
+            },
+            "text": "{1}{U}, {T}: Puedes girar o enderezar la criatura objetivo.",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "921d4f23-90aa-5d38-9150-96066058b601"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271291",
           "cardsphereId": "97503",
@@ -1235,6 +1377,7 @@
         "name": "Stonybrook Angler",
         "number": "354",
         "originalText": "{1}{U}, {T}: You may tap or untap target creature.",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "1",
         "printings": [
           "J22",
@@ -1247,9 +1390,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a38dc69a-50d4-56ec-96f1-9cece6a043c3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1285,7 +1433,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 20739,
+        "edhrecRank": 21264,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
@@ -1293,30 +1441,20 @@
         "flavorText": "The river is a powerful friend.",
         "foreignData": [
           {
-            "flavorText": "Der Fluss ist ein mächtiger Verbündeter.",
+            "flavorText": "河流是强大的伙伴。",
             "identifiers": {
-              "multiverseId": "595296",
-              "scryfallId": "1b938096-3083-4b1c-88a7-9508167fb1b5"
+              "multiverseId": "596052",
+              "scryfallId": "e525c029-1422-4456-b892-8553a7102d4e"
             },
-            "language": "German",
-            "multiverseId": 595296,
-            "name": "Wasserfallenweberin",
-            "text": "Wenn die Wasserfallenweberin ins Spiel kommt, tappe eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Sie enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "d08d0247-7579-538a-8be9-c4491abea145"
-          },
-          {
-            "flavorText": "El río es un aliado poderoso.",
-            "identifiers": {
-              "multiverseId": "595404",
-              "scryfallId": "e8899824-f792-422d-a55d-6b71c4d12b2d"
+            "language": "Chinese Simplified",
+            "multiverseId": 596052,
+            "name": "水阱织师",
+            "skuIds": {
+              "nonfoil": "ab0a6daf-b3f7-5ed9-9d2b-a23f51bea4c0"
             },
-            "language": "Spanish",
-            "multiverseId": 595404,
-            "name": "Tejedora de trampa acuática",
-            "text": "Cuando la Tejedora de trampa acuática entre al campo de batalla, gira la criatura objetivo que controla un oponente. Esa criatura no se endereza durante el próximo paso de enderezar de su controlador.",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "c3ab67ab-80b2-506e-a827-7c712f8703fe"
+            "text": "当水阱织师进战场时，横置目标由对手操控的生物。该生物于其操控者的下一个重置步骤中不能重置。",
+            "type": "生物 ～人鱼／法术师",
+            "uuid": "c2480c5e-bf43-5d30-a4e0-7f11ca0e3f8d"
           },
           {
             "flavorText": "La rivière est une puissante alliée.",
@@ -1327,9 +1465,28 @@
             "language": "French",
             "multiverseId": 595512,
             "name": "Tisseuse de piège aquatique",
+            "skuIds": {
+              "nonfoil": "2320798b-4c47-5c9b-b58a-1f7bf4405881"
+            },
             "text": "Quand la Tisseuse de piège aquatique arrive sur le champ de bataille, engagez une créature ciblée qu'un adversaire contrôle. Cette créature ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.",
             "type": "Créature : ondin et sorcier",
             "uuid": "c3ea6801-9368-5cfc-9204-ef2fcebb6cc4"
+          },
+          {
+            "flavorText": "Der Fluss ist ein mächtiger Verbündeter.",
+            "identifiers": {
+              "multiverseId": "595296",
+              "scryfallId": "1b938096-3083-4b1c-88a7-9508167fb1b5"
+            },
+            "language": "German",
+            "multiverseId": 595296,
+            "name": "Wasserfallenweberin",
+            "skuIds": {
+              "nonfoil": "911d9a50-05eb-5de6-ae54-1ab61936d438"
+            },
+            "text": "Wenn die Wasserfallenweberin ins Spiel kommt, tappe eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Sie enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "d08d0247-7579-538a-8be9-c4491abea145"
           },
           {
             "flavorText": "Il fiume è un alleato potente.",
@@ -1340,6 +1497,9 @@
             "language": "Italian",
             "multiverseId": 595620,
             "name": "Tessitrice di Idrotrappole",
+            "skuIds": {
+              "nonfoil": "d4cc7004-4096-5616-b3e1-7b6a9dadac65"
+            },
             "text": "Quando la Tessitrice di Idrotrappole entra nel campo di battaglia, TAPpa una creatura bersaglio controllata da un avversario. Quella creatura non STAPpa durante il prossimo STAP del suo controllore.",
             "type": "Creatura — Mago Tritone",
             "uuid": "f7f0775c-2711-5f32-a486-a4d73e7f7582"
@@ -1353,27 +1513,31 @@
             "language": "Japanese",
             "multiverseId": 595728,
             "name": "水罠織り",
+            "skuIds": {
+              "nonfoil": "26afe3dd-1804-5f3a-baec-6d98d970a5a2"
+            },
             "text": "水罠織りが戦場に出たとき、対戦相手がコントロールしているクリーチャー１体を対象とする。それをタップする。そのクリーチャーは、次のそれのコントローラーのアンタップ・ステップにアンタップしない。",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "d06356d6-14d0-5038-b665-afe167990b17"
           },
           {
-            "flavorText": "河流是强大的伙伴。",
+            "flavorText": "El río es un aliado poderoso.",
             "identifiers": {
-              "multiverseId": "596052",
-              "scryfallId": "e525c029-1422-4456-b892-8553a7102d4e"
+              "multiverseId": "595404",
+              "scryfallId": "e8899824-f792-422d-a55d-6b71c4d12b2d"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596052,
-            "name": "水阱织师",
-            "text": "当水阱织师进战场时，横置目标由对手操控的生物。该生物于其操控者的下一个重置步骤中不能重置。",
-            "type": "生物 ～人鱼／法术师",
-            "uuid": "c2480c5e-bf43-5d30-a4e0-7f11ca0e3f8d"
+            "language": "Spanish",
+            "multiverseId": 595404,
+            "name": "Tejedora de trampa acuática",
+            "skuIds": {
+              "nonfoil": "2dd9f3c0-a21c-538c-b980-eab7e3c7ea8c"
+            },
+            "text": "Cuando la Tejedora de trampa acuática entre al campo de batalla, gira la criatura objetivo que controla un oponente. Esa criatura no se endereza durante el próximo paso de enderezar de su controlador.",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "c3ab67ab-80b2-506e-a827-7c712f8703fe"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271528",
           "cardsphereId": "97488",
@@ -1413,6 +1577,7 @@
         "name": "Watertrap Weaver",
         "number": "370",
         "originalText": "When Watertrap Weaver enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "2",
         "printings": [
           "J22",
@@ -1431,9 +1596,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "77ca1a44-e2a1-5fac-a5aa-83a010c82c2b"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -1469,7 +1639,7 @@
         ],
         "convertedManaCost": 5.0,
         "count": 1,
-        "edhrecRank": 21204,
+        "edhrecRank": 19883,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
@@ -1477,30 +1647,20 @@
         "flavorText": "\"I told you this one would be a handful.\"",
         "foreignData": [
           {
-            "flavorText": "„Ich habe ja gesagt, dass wir alle Hände voll zu tun haben werden.\"",
+            "flavorText": "「我早就告诉你这家伙不好对付。」",
             "identifiers": {
-              "multiverseId": "589623",
-              "scryfallId": "61b488fc-4cce-4847-87b1-e4218c0ba362"
+              "multiverseId": "589980",
+              "scryfallId": "14283326-c302-4c14-9650-a40e7af89d74"
             },
-            "language": "German",
-            "multiverseId": 589623,
-            "name": "Synchronisierte Vertreibung",
-            "text": "Dieser Zauberspruch kostet beim Wirken {2} weniger, falls du mindestens zwei Kreaturen kontrollierst, die einen Kreaturentyp gemeinsam haben.\nLege eine bleibende Karte deiner Wahl, die kein Land ist, als zweite Karte von oben in die Bibliothek ihres Besitzers.",
-            "type": "Spontanzauber",
-            "uuid": "96b71d58-ba84-59f1-a9e5-99935b334a45"
-          },
-          {
-            "flavorText": "\"Ya te dije que con este había que tener mano dura\".",
-            "identifiers": {
-              "multiverseId": "589674",
-              "scryfallId": "68dbb3b6-9a5a-4dc7-a5de-583dd29139b2"
+            "language": "Chinese Simplified",
+            "multiverseId": 589980,
+            "name": "同步驱赶",
+            "skuIds": {
+              "nonfoil": "0d6b94ff-4c48-5026-9ac0-d512b2f8465f"
             },
-            "language": "Spanish",
-            "multiverseId": 589674,
-            "name": "Expulsión sincronizada",
-            "text": "Te cuesta {2} menos lanzar este hechizo si controlas al menos dos criaturas que compartan un tipo de criatura.\nPon el permanente objetivo que no sea tierra en la biblioteca de su propietario en segundo lugar desde la parte superior.",
-            "type": "Instantáneo",
-            "uuid": "524d103d-91fd-593a-9508-785c3b518745"
+            "text": "如果你操控至少两个具共通生物类别的生物，则此咒语减少{2}来施放。\n将目标非地永久物置于其拥有者的牌库顶数来第二张的位置。",
+            "type": "瞬间",
+            "uuid": "e5c3bc7b-cc5e-5a3b-b20f-ddeae179d2c7"
           },
           {
             "flavorText": "« Je t'avais dit que celui-ci nous poserait des problèmes. »",
@@ -1511,9 +1671,28 @@
             "language": "French",
             "multiverseId": 589725,
             "name": "Éviction synchronisée",
+            "skuIds": {
+              "nonfoil": "b7d05527-2296-5879-8b63-7333ace1b7e7"
+            },
             "text": "Ce sort coûte {2} de moins à lancer si vous contrôlez au moins deux créatures qui partagent un type de créature.\nMettez un permanent non-terrain ciblé dans la bibliothèque de son propriétaire en deuxième position à partir du dessus.",
             "type": "Éphémère",
             "uuid": "95bcecfd-7645-5fc9-90ad-c59b10528c4b"
+          },
+          {
+            "flavorText": "„Ich habe ja gesagt, dass wir alle Hände voll zu tun haben werden.\"",
+            "identifiers": {
+              "multiverseId": "589623",
+              "scryfallId": "61b488fc-4cce-4847-87b1-e4218c0ba362"
+            },
+            "language": "German",
+            "multiverseId": 589623,
+            "name": "Synchronisierte Vertreibung",
+            "skuIds": {
+              "nonfoil": "1d59b7a6-c7d9-5da7-bd29-9d07ac659073"
+            },
+            "text": "Dieser Zauberspruch kostet beim Wirken {2} weniger, falls du mindestens zwei Kreaturen kontrollierst, die einen Kreaturentyp gemeinsam haben.\nLege eine bleibende Karte deiner Wahl, die kein Land ist, als zweite Karte von oben in die Bibliothek ihres Besitzers.",
+            "type": "Spontanzauber",
+            "uuid": "96b71d58-ba84-59f1-a9e5-99935b334a45"
           },
           {
             "flavorText": "\"Te l'avevo detto che sarebbe stata un'operazione a quattro mani.\"",
@@ -1524,6 +1703,9 @@
             "language": "Italian",
             "multiverseId": 589776,
             "name": "Espulsione Sincronizzata",
+            "skuIds": {
+              "nonfoil": "5058d4ab-2b73-5169-baca-c99540596235"
+            },
             "text": "Questa magia costa {2} in meno per essere lanciata se controlli almeno due creature che condividono un tipo di creatura.\nMetti un permanente non terra bersaglio nel grimorio del suo proprietario come seconda carta.",
             "type": "Istantaneo",
             "uuid": "af43c884-92aa-5ff4-9714-722a66738d4d"
@@ -1537,27 +1719,31 @@
             "language": "Japanese",
             "multiverseId": 589827,
             "name": "同調退去",
+            "skuIds": {
+              "nonfoil": "10a0f70e-b883-5b36-900b-f5ae9f51c3a1"
+            },
             "text": "あなたが共通のクリーチャー・タイプ１つを持つ２体以上のクリーチャーをコントロールしているなら、この呪文を唱えるためのコストは{2}少なくなる。\n土地でないパーマネント１つを対象とする。それをオーナーのライブラリーの一番上から２枚目に置く。",
             "type": "インスタント",
             "uuid": "2f1328e2-13f4-5f9d-b3d0-e5ac843b7ff8"
           },
           {
-            "flavorText": "「我早就告诉你这家伙不好对付。」",
+            "flavorText": "\"Ya te dije que con este había que tener mano dura\".",
             "identifiers": {
-              "multiverseId": "589980",
-              "scryfallId": "14283326-c302-4c14-9650-a40e7af89d74"
+              "multiverseId": "589674",
+              "scryfallId": "68dbb3b6-9a5a-4dc7-a5de-583dd29139b2"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589980,
-            "name": "同步驱赶",
-            "text": "如果你操控至少两个具共通生物类别的生物，则此咒语减少{2}来施放。\n将目标非地永久物置于其拥有者的牌库顶数来第二张的位置。",
-            "type": "瞬间",
-            "uuid": "e5c3bc7b-cc5e-5a3b-b20f-ddeae179d2c7"
+            "language": "Spanish",
+            "multiverseId": 589674,
+            "name": "Expulsión sincronizada",
+            "skuIds": {
+              "nonfoil": "79925857-a196-50bf-916a-f1be434322d1"
+            },
+            "text": "Te cuesta {2} menos lanzar este hechizo si controlas al menos dos criaturas que compartan un tipo de criatura.\nPon el permanente objetivo que no sea tierra en la biblioteca de su propietario en segundo lugar desde la parte superior.",
+            "type": "Instantáneo",
+            "uuid": "524d103d-91fd-593a-9508-785c3b518745"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270243",
           "cardsphereId": "96966",
@@ -1588,6 +1774,7 @@
         "name": "Synchronized Eviction",
         "number": "18",
         "originalText": "This spell costs {2} less to cast if you control at least two creatures that share a creature type.\nPut target nonland permanent into its owner's library second from the top.",
+        "originalType": "Instant",
         "printings": [
           "J22"
         ],
@@ -1598,9 +1785,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5ee4cd74-58a0-5b4c-ae67-0288ba6f0006"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1632,7 +1824,7 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 14620,
+        "edhrecRank": 15101,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
@@ -1640,30 +1832,20 @@
         "flavorText": "It's easy to be two steps ahead when you can see their every thought.",
         "foreignData": [
           {
-            "flavorText": "Es ist einfach, zwei Schritte voraus zu sein, wenn man jeden ihrer Gedanken sehen kann.",
+            "flavorText": "如果你能看清对手每道思绪，那么能预先考虑两步也并非难事。",
             "identifiers": {
-              "multiverseId": "589622",
-              "scryfallId": "e32c1c30-a055-4877-8c96-d68dbbe2afc9"
+              "multiverseId": "589979",
+              "scryfallId": "3e6622d2-1879-45c0-afaa-91a14e60ae7b"
             },
-            "language": "German",
-            "multiverseId": 589622,
-            "name": "Seelenlesen",
-            "text": "Bestimme eines —\n• Neutralisiere einen Zauberspruch deiner Wahl, es sei denn, sein Beherrscher bezahlt {4}.\n• Ziehe zwei Karten.",
-            "type": "Spontanzauber",
-            "uuid": "4e6f53a6-477c-59ad-b825-f2253413eb5c"
-          },
-          {
-            "flavorText": "Es fácil ir un paso por delante cuando puedes leerles todos los pensamientos.",
-            "identifiers": {
-              "multiverseId": "589673",
-              "scryfallId": "57186dd0-ec92-4caa-9d4d-3cc7fba3f511"
+            "language": "Chinese Simplified",
+            "multiverseId": 589979,
+            "name": "读取魂魄",
+            "skuIds": {
+              "nonfoil": "a263c8e5-ead2-591f-a748-16fac9f8a9f3"
             },
-            "language": "Spanish",
-            "multiverseId": 589673,
-            "name": "Lectura del alma",
-            "text": "Elige uno:\n• Contrarresta el hechizo objetivo a menos que su controlador pague {4}.\n• Roba dos cartas.",
-            "type": "Instantáneo",
-            "uuid": "f9167760-135d-5723-9b0b-7d479c84b212"
+            "text": "选择一项～\n•除非目标咒语的操控者支付{4}，否则反击之。\n•抓两张牌。",
+            "type": "瞬间",
+            "uuid": "6ced4b63-b242-5f36-8ab8-3f1a190b1a39"
           },
           {
             "flavorText": "Avoir deux coups d'avance n'est pas difficile quand on peut voir chacune de leurs pensées.",
@@ -1674,9 +1856,28 @@
             "language": "French",
             "multiverseId": 589724,
             "name": "Lecture d'âme",
+            "skuIds": {
+              "nonfoil": "8068f1d3-66f1-5d0f-a292-5b883007aca3"
+            },
             "text": "Choisissez l'un —\n• Contrecarrez un sort ciblé à moins que son contrôleur ne paie {4}.\n• Piochez deux cartes.",
             "type": "Éphémère",
             "uuid": "1fe73dde-604c-51c9-b61d-26b3c2c85746"
+          },
+          {
+            "flavorText": "Es ist einfach, zwei Schritte voraus zu sein, wenn man jeden ihrer Gedanken sehen kann.",
+            "identifiers": {
+              "multiverseId": "589622",
+              "scryfallId": "e32c1c30-a055-4877-8c96-d68dbbe2afc9"
+            },
+            "language": "German",
+            "multiverseId": 589622,
+            "name": "Seelenlesen",
+            "skuIds": {
+              "nonfoil": "9af07059-20dc-562e-bca2-b43227dbed15"
+            },
+            "text": "Bestimme eines —\n• Neutralisiere einen Zauberspruch deiner Wahl, es sei denn, sein Beherrscher bezahlt {4}.\n• Ziehe zwei Karten.",
+            "type": "Spontanzauber",
+            "uuid": "4e6f53a6-477c-59ad-b825-f2253413eb5c"
           },
           {
             "flavorText": "È facile essere sempre un passo avanti a tutti quando puoi leggere ogni loro pensiero.",
@@ -1687,6 +1888,9 @@
             "language": "Italian",
             "multiverseId": 589775,
             "name": "Lettura dell'Anima",
+            "skuIds": {
+              "nonfoil": "896c5b58-5bb5-5b39-94bb-3bbc05d9678d"
+            },
             "text": "Scegli uno —\n• Neutralizza una magia bersaglio a meno che il suo controllore non paghi {4}.\n• Pesca due carte.",
             "type": "Istantaneo",
             "uuid": "789dcd2b-b45c-5704-b360-276774d767df"
@@ -1700,27 +1904,31 @@
             "language": "Japanese",
             "multiverseId": 589826,
             "name": "魂読み",
+            "skuIds": {
+              "nonfoil": "4e9a9797-e69c-577a-95ca-26f095e61789"
+            },
             "text": "以下から１つを選ぶ。\n・呪文１つを対象とする。それのコントローラーが{4}を支払わないかぎり、それを打ち消す。\n・カード２枚を引く。",
             "type": "インスタント",
             "uuid": "4c4adead-d190-5f3d-89fe-fe319bf2d5c5"
           },
           {
-            "flavorText": "如果你能看清对手每道思绪，那么能预先考虑两步也并非难事。",
+            "flavorText": "Es fácil ir un paso por delante cuando puedes leerles todos los pensamientos.",
             "identifiers": {
-              "multiverseId": "589979",
-              "scryfallId": "3e6622d2-1879-45c0-afaa-91a14e60ae7b"
+              "multiverseId": "589673",
+              "scryfallId": "57186dd0-ec92-4caa-9d4d-3cc7fba3f511"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 589979,
-            "name": "读取魂魄",
-            "text": "选择一项～\n•除非目标咒语的操控者支付{4}，否则反击之。\n•抓两张牌。",
-            "type": "瞬间",
-            "uuid": "6ced4b63-b242-5f36-8ab8-3f1a190b1a39"
+            "language": "Spanish",
+            "multiverseId": 589673,
+            "name": "Lectura del alma",
+            "skuIds": {
+              "nonfoil": "b93a3a5d-94cf-539d-ba39-d5c3ea1d2038"
+            },
+            "text": "Elige uno:\n• Contrarresta el hechizo objetivo a menos que su controlador pague {4}.\n• Roba dos cartas.",
+            "type": "Instantáneo",
+            "uuid": "f9167760-135d-5723-9b0b-7d479c84b212"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270242",
           "cardsphereId": "96955",
@@ -1757,6 +1965,7 @@
         "name": "Soul Read",
         "number": "17",
         "originalText": "Choose one —\n• Counter target spell unless its controller pays {4}.\n• Draw two cards.",
+        "originalType": "Instant",
         "printings": [
           "J22",
           "J25"
@@ -1768,9 +1977,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "39c05e85-0648-585f-9216-f9fe96f0e8cd"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1802,7 +2016,7 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 18860,
+        "edhrecRank": 19285,
         "edhrecSaltiness": 0.36,
         "finishes": [
           "nonfoil"
@@ -1810,27 +2024,18 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "595209",
-              "scryfallId": "c53b1453-9531-4cdd-bb91-a494220531c0"
+              "multiverseId": "595965",
+              "scryfallId": "a5b0f64b-40f4-4202-8648-e0ac0b98ba56"
             },
-            "language": "German",
-            "multiverseId": 595209,
-            "name": "Brandende Flutwelle",
-            "text": "Dieser Zauberspruch hat Aufblitzen, solange du ein Meervolk kontrollierst.\nBringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\nZiehe eine Karte.",
-            "type": "Hexerei",
-            "uuid": "9dc121c9-6991-5f39-9e35-e80ea41d4a76"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "595317",
-              "scryfallId": "1aba7523-b363-49c0-9d56-560b68342703"
+            "language": "Chinese Simplified",
+            "multiverseId": 595965,
+            "name": "覆顶潮浪",
+            "skuIds": {
+              "nonfoil": "645fde02-ebb8-5ccb-afef-6e144bb190d2"
             },
-            "language": "Spanish",
-            "multiverseId": 595317,
-            "name": "Marea rompiente",
-            "text": "Este hechizo tiene la habilidad de destello mientras controles un Tritón.\nRegresa la criatura objetivo a la mano de su propietario.\nRoba una carta.",
-            "type": "Conjuro",
-            "uuid": "718c880a-b0c4-5319-8adb-86a4c0a4bd89"
+            "text": "只要你操控人鱼，此咒语便具有闪现异能。\n将目标生物移回其拥有者手上。\n抓一张牌。",
+            "type": "法术",
+            "uuid": "5cf3daf1-8347-5645-be02-e12848e1441b"
           },
           {
             "identifiers": {
@@ -1840,9 +2045,27 @@
             "language": "French",
             "multiverseId": 595425,
             "name": "Marée déferlante",
+            "skuIds": {
+              "nonfoil": "3b3f83b4-d506-50fd-85ba-7f05ba6f58e2"
+            },
             "text": "Ce sort a le flash tant que vous contrôlez un ondin.\nRenvoyez une créature ciblée dans la main de son propriétaire.\nPiochez une carte.",
             "type": "Rituel",
             "uuid": "6932fefc-28af-5ecf-9019-4398bba0d058"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "595209",
+              "scryfallId": "c53b1453-9531-4cdd-bb91-a494220531c0"
+            },
+            "language": "German",
+            "multiverseId": 595209,
+            "name": "Brandende Flutwelle",
+            "skuIds": {
+              "nonfoil": "2ca292c7-f234-58dd-b208-19fe9a943c06"
+            },
+            "text": "Dieser Zauberspruch hat Aufblitzen, solange du ein Meervolk kontrollierst.\nBringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.\nZiehe eine Karte.",
+            "type": "Hexerei",
+            "uuid": "9dc121c9-6991-5f39-9e35-e80ea41d4a76"
           },
           {
             "identifiers": {
@@ -1852,6 +2075,9 @@
             "language": "Italian",
             "multiverseId": 595533,
             "name": "Marea Schiacciante",
+            "skuIds": {
+              "nonfoil": "bb36bf27-1990-53ba-a06f-e3b4cdd91686"
+            },
             "text": "Questa magia ha lampo fintanto che controlli un Tritone.\nFai tornare una creatura bersaglio in mano al suo proprietario.\nPesca una carta.",
             "type": "Stregoneria",
             "uuid": "a77140e2-375b-5443-a73b-a70a6315c4f6"
@@ -1864,26 +2090,30 @@
             "language": "Japanese",
             "multiverseId": 595641,
             "name": "粉砕する潮流",
+            "skuIds": {
+              "nonfoil": "73b23eab-40a0-53d4-8c8e-a5050c0246ee"
+            },
             "text": "あなたがマーフォークをコントロールしているかぎり、この呪文は瞬速を持つ。\nクリーチャー１体を対象とする。それをオーナーの手札に戻す。\nカード１枚を引く。",
             "type": "ソーサリー",
             "uuid": "7f8b5f74-e59f-55e0-90b6-7c5056b0c710"
           },
           {
             "identifiers": {
-              "multiverseId": "595965",
-              "scryfallId": "a5b0f64b-40f4-4202-8648-e0ac0b98ba56"
+              "multiverseId": "595317",
+              "scryfallId": "1aba7523-b363-49c0-9d56-560b68342703"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 595965,
-            "name": "覆顶潮浪",
-            "text": "只要你操控人鱼，此咒语便具有闪现异能。\n将目标生物移回其拥有者手上。\n抓一张牌。",
-            "type": "法术",
-            "uuid": "5cf3daf1-8347-5645-be02-e12848e1441b"
+            "language": "Spanish",
+            "multiverseId": 595317,
+            "name": "Marea rompiente",
+            "skuIds": {
+              "nonfoil": "f4d12cb0-3560-5060-b1ad-78b845a427b6"
+            },
+            "text": "Este hechizo tiene la habilidad de destello mientras controles un Tritón.\nRegresa la criatura objetivo a la mano de su propietario.\nRoba una carta.",
+            "type": "Conjuro",
+            "uuid": "718c880a-b0c4-5319-8adb-86a4c0a4bd89"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270379",
           "cardsphereId": "96730",
@@ -1923,6 +2153,7 @@
         "name": "Crashing Tide",
         "number": "283",
         "originalText": "This spell has flash as long as you control a Merfolk.\nReturn target creature to its owner's hand.\nDraw a card.",
+        "originalType": "Sorcery",
         "printings": [
           "J22",
           "PLST",
@@ -1945,9 +2176,14 @@
           }
         ],
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "ff13940e-3588-53cf-9bfc-cc2429567ac1"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -1979,7 +2215,7 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 16950,
+        "edhrecRank": 17200,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
@@ -1987,30 +2223,20 @@
         "flavorText": "\"River and sea, jungle and sky. Water flows freely between the two halves of the world. We are creatures of the water.\"\n—Shaper Tuvasa",
         "foreignData": [
           {
-            "flavorText": "„Flüsse und Meer, Dschungel und Himmel. Das Wasser fließt frei zwischen den zwei Hälften der Welt. Wir sind Kreaturen des Wassers.\"\n—Wandler Tuvasa",
+            "flavorText": "「河流入海，丛林蔽天。水能够在世界的两半之间自由流动。我族正是依水而生。」\n～塑形师吐瓦萨",
             "identifiers": {
-              "multiverseId": "595256",
-              "scryfallId": "3b4734aa-0b93-4c63-8632-68e84baf1fcd"
+              "multiverseId": "596012",
+              "scryfallId": "264c9a3e-014c-42fe-9716-040977790942"
             },
-            "language": "German",
-            "multiverseId": 595256,
-            "name": "Eins mit dem Wind",
-            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +2/+2 und hat Flugfähigkeit.",
-            "type": "Verzauberung — Aura",
-            "uuid": "87401ba8-fa40-5791-9c7a-3d18d0520ec2"
-          },
-          {
-            "flavorText": "\"Mar y río, jungla y cielo. El agua fluye entre las dos mitades del mundo. Somos criaturas de agua\".\n—Moldeador Tuvasa",
-            "identifiers": {
-              "multiverseId": "595364",
-              "scryfallId": "c04fe5b4-08d4-456e-aa43-74992f8f3e59"
+            "language": "Chinese Simplified",
+            "multiverseId": 596012,
+            "name": "御风而行",
+            "skuIds": {
+              "nonfoil": "499d1391-3c85-587d-ba2a-cdd88584c97d"
             },
-            "language": "Spanish",
-            "multiverseId": 595364,
-            "name": "Fundirse con el viento",
-            "text": "Encantar criatura.\nLa criatura encantada obtiene +2/+2 y tiene la habilidad de volar.",
-            "type": "Encantamiento — Aura",
-            "uuid": "d609c441-c742-5aa5-871f-e958fce3b758"
+            "text": "结附于生物\n所结附的生物得+2/+2且具有飞行异能。",
+            "type": "结界 ～灵气",
+            "uuid": "9781a0da-af95-5372-916d-353faad535c7"
           },
           {
             "flavorText": "« Rivière et mer, jungle et ciel. L'eau s'écoule librement entre ces deux moitiés du monde. Nous sommes des créatures aquatiques. »\n—Modeleur Tuvasa",
@@ -2021,9 +2247,28 @@
             "language": "French",
             "multiverseId": 595472,
             "name": "En harmonie avec le vent",
+            "skuIds": {
+              "nonfoil": "43e7f614-3258-54ce-b186-c62a14b67832"
+            },
             "text": "Enchanter : créature\nLa créature enchantée gagne +2/+2 et a le vol.",
             "type": "Enchantement : aura",
             "uuid": "c7acaf35-134b-5e09-af8e-4e4a6237c5f0"
+          },
+          {
+            "flavorText": "„Flüsse und Meer, Dschungel und Himmel. Das Wasser fließt frei zwischen den zwei Hälften der Welt. Wir sind Kreaturen des Wassers.\"\n—Wandler Tuvasa",
+            "identifiers": {
+              "multiverseId": "595256",
+              "scryfallId": "3b4734aa-0b93-4c63-8632-68e84baf1fcd"
+            },
+            "language": "German",
+            "multiverseId": 595256,
+            "name": "Eins mit dem Wind",
+            "skuIds": {
+              "nonfoil": "0152ad42-16ad-557d-810b-e0b29e59b82f"
+            },
+            "text": "Verzaubert eine Kreatur\nDie verzauberte Kreatur erhält +2/+2 und hat Flugfähigkeit.",
+            "type": "Verzauberung — Aura",
+            "uuid": "87401ba8-fa40-5791-9c7a-3d18d0520ec2"
           },
           {
             "flavorText": "\"Fiume e mare, giungla e cielo: l'acqua scorre libera tra le due metà del mondo, e noi siamo creature dell'acqua.\"\n—Tuvasa il plasmatore",
@@ -2034,6 +2279,9 @@
             "language": "Italian",
             "multiverseId": 595580,
             "name": "Comunione con il Vento",
+            "skuIds": {
+              "nonfoil": "d466ceec-5a94-50c1-8ba0-7c35898eee85"
+            },
             "text": "Incanta creatura\nLa creatura incantata prende +2/+2 e ha volare.",
             "type": "Incantesimo — Aura",
             "uuid": "5c53c9f9-9252-5cf6-b9a1-f5c176a34516"
@@ -2047,27 +2295,31 @@
             "language": "Japanese",
             "multiverseId": 595688,
             "name": "風と共に",
+            "skuIds": {
+              "nonfoil": "ed2e4377-fb61-5583-adc7-68676d309d25"
+            },
             "text": "エンチャント（クリーチャー）\nエンチャントしているクリーチャーは、＋２/＋２の修整を受け飛行を持つ。",
             "type": "エンチャント — オーラ",
             "uuid": "b025fb9a-3b6b-5254-a34f-d0769c94ba9e"
           },
           {
-            "flavorText": "「河流入海，丛林蔽天。水能够在世界的两半之间自由流动。我族正是依水而生。」\n～塑形师吐瓦萨",
+            "flavorText": "\"Mar y río, jungla y cielo. El agua fluye entre las dos mitades del mundo. Somos criaturas de agua\".\n—Moldeador Tuvasa",
             "identifiers": {
-              "multiverseId": "596012",
-              "scryfallId": "264c9a3e-014c-42fe-9716-040977790942"
+              "multiverseId": "595364",
+              "scryfallId": "c04fe5b4-08d4-456e-aa43-74992f8f3e59"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596012,
-            "name": "御风而行",
-            "text": "结附于生物\n所结附的生物得+2/+2且具有飞行异能。",
-            "type": "结界 ～灵气",
-            "uuid": "9781a0da-af95-5372-916d-353faad535c7"
+            "language": "Spanish",
+            "multiverseId": 595364,
+            "name": "Fundirse con el viento",
+            "skuIds": {
+              "nonfoil": "a5f51280-c579-5d96-9328-9f7f26208a2a"
+            },
+            "text": "Encantar criatura.\nLa criatura encantada obtiene +2/+2 y tiene la habilidad de volar.",
+            "type": "Encantamiento — Aura",
+            "uuid": "d609c441-c742-5aa5-871f-e958fce3b758"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "271286",
           "cardsphereId": "97529",
@@ -2111,6 +2363,7 @@
         "name": "One With the Wind",
         "number": "330",
         "originalText": "Enchant creature\nEnchanted creature gets +2/+2 and has flying.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "J22",
           "XLN"
@@ -2122,9 +2375,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "9db97f46-ac02-57ce-908e-61875a8dd9f8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2156,7 +2414,7 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
@@ -2164,30 +2422,20 @@
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
           {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
             "identifiers": {
-              "multiverseId": "596329",
-              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+              "multiverseId": "596938",
+              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
             },
-            "language": "German",
-            "multiverseId": 596329,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "596416",
-              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
+            "language": "Chinese Simplified",
+            "multiverseId": 596938,
+            "name": "兴旺岛屿",
+            "skuIds": {
+              "nonfoil": "5450c1b8-d944-5662-8c7a-b37fcfda800f"
             },
-            "language": "Spanish",
-            "multiverseId": 596416,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
+            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
+            "type": "地",
+            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
           },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
@@ -2198,9 +2446,28 @@
             "language": "French",
             "multiverseId": 596503,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "93e8bfea-3a48-5e55-8f4b-90dbeb5bbadf"
+            },
             "text": "L'Île prospère arrive sur le champ de bataille engagée.\nAu moment où l'Île prospère arrive sur le champ de bataille, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "b358cc4d-40ea-5bb9-a336-d13a3b994f85"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "596329",
+              "scryfallId": "af1481ac-7724-428f-864d-fa48c7892436"
+            },
+            "language": "German",
+            "multiverseId": 596329,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "6b38935c-176b-56c6-b81a-3b0dcb9da69e"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel.\nSowie die Gedeihende Insel ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "f24f7f03-cb98-50b7-be57-157e1d263703"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2211,6 +2478,9 @@
             "language": "Italian",
             "multiverseId": 596590,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "cf678639-2090-5e35-acc5-51feb83415ee"
+            },
             "text": "L'Isola Florida entra nel campo di battaglia TAPpata.\nMentre l'Isola Florida entra nel campo di battaglia, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "c54e2963-6d75-5069-ac7f-4996bb9067af"
@@ -2224,27 +2494,31 @@
             "language": "Japanese",
             "multiverseId": 596677,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "55d97164-e6eb-589d-aa56-41b3ca44055e"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。\n興隆する島嶼が戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "afce460c-7748-5426-b20d-fb2835b3c36b"
           },
           {
-            "flavorText": "于精妙微观世界中，尽览自然伟大奇迹。",
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
             "identifiers": {
-              "multiverseId": "596938",
-              "scryfallId": "12468397-9aea-4935-8c32-54f1295cb150"
+              "multiverseId": "596416",
+              "scryfallId": "8f5e4239-6951-4856-a673-914bf9028735"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 596938,
-            "name": "兴旺岛屿",
-            "text": "兴旺岛屿须横置进战场。\n于兴旺岛屿进战场时，选择一种蓝色以外的颜色。\n{T}：加{U}或一点所选颜色的法术力。",
-            "type": "地",
-            "uuid": "224c0d71-ae3b-5a04-86d1-aab413a37099"
+            "language": "Spanish",
+            "multiverseId": 596416,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "5a71ffda-a0be-5e3d-b150-cecffa9f8b09"
+            },
+            "text": "El Islote floreciente entra al campo de batalla girada.\nEn cuanto el Islote floreciente entre al campo de batalla, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "035ad877-4f94-5a1e-bef2-92c6bfeab45f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270585",
           "cardsphereId": "96779",
@@ -2281,12 +2555,14 @@
         "name": "Thriving Isle",
         "number": "825",
         "originalText": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2294,7 +2570,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/ef6dd617500d54d9",
@@ -2303,9 +2587,14 @@
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "452bd8bb-fd64-544d-a1dc-68dca32d8adf"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [],
@@ -2342,25 +2631,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597763",
-              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+              "multiverseId": "597868",
+              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
             },
-            "language": "German",
-            "multiverseId": 597763,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597778",
-              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
+            "language": "Chinese Simplified",
+            "multiverseId": 597868,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "bc048538-7fb0-545a-9f2d-2c0793feda37"
             },
-            "language": "Spanish",
-            "multiverseId": 597778,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
+            "type": "基本地 ～海岛",
+            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
           },
           {
             "identifiers": {
@@ -2370,8 +2651,25 @@
             "language": "French",
             "multiverseId": 597793,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "718ded01-dd87-5245-b7e6-7a5ef5877a97"
+            },
             "type": "Terrain de base : île",
             "uuid": "2470a3d0-26b7-5661-9d52-d5e48d6049aa"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597763",
+              "scryfallId": "640d8304-2020-4b8f-a0f4-6479a85e4440"
+            },
+            "language": "German",
+            "multiverseId": 597763,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "270a78ae-ed59-55cd-a765-f361ffc0e393"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "07348273-d158-506d-8ea1-6c1b916570e7"
           },
           {
             "identifiers": {
@@ -2381,6 +2679,9 @@
             "language": "Italian",
             "multiverseId": 597808,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "c6d59d8d-de84-580c-8527-51844669ce21"
+            },
             "type": "Terra Base — Isola",
             "uuid": "72f351cc-f4f0-5149-9de4-6c062dece287"
           },
@@ -2392,29 +2693,34 @@
             "language": "Japanese",
             "multiverseId": 597823,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "33cc94a0-e6ac-508a-809d-5c539a231edd"
+            },
             "type": "基本土地 — 島",
             "uuid": "89ff2a7d-44ad-530a-bdf5-9850a915eb7c"
           },
           {
             "identifiers": {
-              "multiverseId": "597868",
-              "scryfallId": "9227c574-95ff-4949-b1c5-dabc0a6ea0ed"
+              "multiverseId": "597778",
+              "scryfallId": "65e3d302-c959-49ff-a82a-4124e875bbc3"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597868,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "535500b1-d959-5f24-84c7-d0dcb4aa65b6"
+            "language": "Spanish",
+            "multiverseId": 597778,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "865123bc-01fd-5f88-ac22-160883945026"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "a4f5b1b8-659c-5b19-b47b-d1dc91557c94"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270282",
           "cardsphereId": "96732",
           "deckboxId": "71294",
           "mcmId": "687359",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "202ef466-a412-5e98-888e-d007dc4b45c2",
           "multiverseId": "597748",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2453,6 +2759,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "101",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2522,6 +2829,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2682,15 +2990,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/88cffb7a2c906851",
+          "cardmarket": "https://mtgjson.com/links/6589c393dfe7df52",
           "tcgplayer": "https://mtgjson.com/links/4fe28b434034ba2e"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "a793dc90-17a8-58c7-b490-547ebc26f6de"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -2735,25 +3052,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597764",
-              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+              "multiverseId": "597869",
+              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
             },
-            "language": "German",
-            "multiverseId": 597764,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597779",
-              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
+            "language": "Chinese Simplified",
+            "multiverseId": 597869,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "3864757a-748b-5da6-8959-4e744276baff"
             },
-            "language": "Spanish",
-            "multiverseId": 597779,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
+            "type": "基本地 ～海岛",
+            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
           },
           {
             "identifiers": {
@@ -2763,8 +3072,25 @@
             "language": "French",
             "multiverseId": 597794,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "61133527-b11a-5be5-baa4-bcfac3d8ff67"
+            },
             "type": "Terrain de base : île",
             "uuid": "9d779f8b-8e17-59c0-a616-6932acd625d8"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597764",
+              "scryfallId": "bad23494-1ca7-48f8-b817-3fac56aaeb34"
+            },
+            "language": "German",
+            "multiverseId": 597764,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "71066775-0f1d-5710-b673-ebd0b760af6f"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "341ed536-2b69-5b07-9731-aff8cc07c6a5"
           },
           {
             "identifiers": {
@@ -2774,6 +3100,9 @@
             "language": "Italian",
             "multiverseId": 597809,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "56a0d74a-07a0-52e0-b7c1-b8bf589c3fc3"
+            },
             "type": "Terra Base — Isola",
             "uuid": "7469ec41-b333-58e1-85c1-111559a6f227"
           },
@@ -2785,29 +3114,34 @@
             "language": "Japanese",
             "multiverseId": 597824,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9f850ed6-ff17-535c-ad43-48424be5d125"
+            },
             "type": "基本土地 — 島",
             "uuid": "967e4846-dc2f-5593-a0c6-ff7166140a21"
           },
           {
             "identifiers": {
-              "multiverseId": "597869",
-              "scryfallId": "0e253b1f-aa5d-4a5f-a2ce-66cbd61a939b"
+              "multiverseId": "597779",
+              "scryfallId": "67c33b53-6f62-4752-83c9-9c598c24a161"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597869,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "4ba34a31-0c14-5293-bafe-c3d307da2fad"
+            "language": "Spanish",
+            "multiverseId": 597779,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "e87eb06c-bd14-5933-a9f1-7f3343a0d3c9"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "1391277b-3cc8-55bb-88fd-4f15c95dc044"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270283",
           "cardsphereId": "96733",
           "deckboxId": "71295",
           "mcmId": "687360",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "089ffe1e-204e-5497-a06e-9f002a05f2a2",
           "multiverseId": "597749",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -2846,6 +3180,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "102",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2915,6 +3250,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3075,15 +3411,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3654238d6e97ce9c",
+          "cardmarket": "https://mtgjson.com/links/a67e187b3068798c",
           "tcgplayer": "https://mtgjson.com/links/72e364f528a609f6"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "3bca12dc-bf4b-51b2-9da7-6edd2ec08903"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3099,8 +3444,8 @@
         ],
         "uuid": "078dbb69-e17b-5d0a-967e-887d605796da",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "6b885758-9973-5e10-8113-89e02702cfa7"
+          "6b885758-9973-5e10-8113-89e02702cfa7",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       },
       {
@@ -3128,25 +3473,17 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "597765",
-              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+              "multiverseId": "597870",
+              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
             },
-            "language": "German",
-            "multiverseId": 597765,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "597780",
-              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
+            "language": "Chinese Simplified",
+            "multiverseId": 597870,
+            "name": "海岛",
+            "skuIds": {
+              "nonfoil": "f28d17bf-01eb-5bea-b140-e032e95c177f"
             },
-            "language": "Spanish",
-            "multiverseId": 597780,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
+            "type": "基本地 ～海岛",
+            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
           },
           {
             "identifiers": {
@@ -3156,8 +3493,25 @@
             "language": "French",
             "multiverseId": 597795,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "e0452c37-3145-54f4-877c-5c59ad7c07c5"
+            },
             "type": "Terrain de base : île",
             "uuid": "f2648836-4166-55fd-b147-45d61afe6fbf"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "597765",
+              "scryfallId": "8a72d89f-97e7-4bc5-bd3b-1c6e0271350f"
+            },
+            "language": "German",
+            "multiverseId": 597765,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "e3620e6b-dd56-5d11-8e6d-7a6956ac6d81"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "18cbd658-bc72-5b10-a19c-04d0c41295b0"
           },
           {
             "identifiers": {
@@ -3167,6 +3521,9 @@
             "language": "Italian",
             "multiverseId": 597810,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "49ffe84e-2d57-5c55-a1ab-4b7c738530f5"
+            },
             "type": "Terra Base — Isola",
             "uuid": "c68a531f-9f50-58d5-879c-6891c7ec0003"
           },
@@ -3178,29 +3535,34 @@
             "language": "Japanese",
             "multiverseId": 597825,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "427d9251-e578-5607-801d-07cf00e3a486"
+            },
             "type": "基本土地 — 島",
             "uuid": "eeb0211c-e9bf-5163-830c-c283f9d05ee9"
           },
           {
             "identifiers": {
-              "multiverseId": "597870",
-              "scryfallId": "f0cdc362-8a31-4a60-9ee3-badc8ed3821b"
+              "multiverseId": "597780",
+              "scryfallId": "b66091cc-7ff3-4225-9aaa-d37e59baafe2"
             },
-            "language": "Chinese Simplified",
-            "multiverseId": 597870,
-            "name": "海岛",
-            "type": "基本地 ～海岛",
-            "uuid": "db313381-7167-5cb1-b7ab-5f1e41973888"
+            "language": "Spanish",
+            "multiverseId": 597780,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "6a8fb956-980a-52b5-a794-5cb4acadc051"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "f3f9bdab-ec4e-532d-8322-7d9f51b3b22f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "270284",
           "cardsphereId": "96734",
           "deckboxId": "71296",
           "mcmId": "687361",
+          "mcmMetaId": "2923",
           "mtgjsonV4Id": "77bc71cd-b741-58e5-b874-edcb1fb840bf",
           "multiverseId": "597750",
           "scryfallCardBackId": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
@@ -3239,6 +3601,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "103",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3308,6 +3671,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3468,15 +3832,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/3e2b031dfb3f0153",
+          "cardmarket": "https://mtgjson.com/links/f3560bb87ffa2803",
           "tcgplayer": "https://mtgjson.com/links/2ce532101f10254a"
         },
         "rarity": "common",
         "setCode": "J22",
+        "skuIds": {
+          "nonfoil": "5ddc768c-35de-5bba-ba23-e7da71d2573c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "31fd15cb-48ac-52b8-8f3c-84968a601869"
+            "31fd15cb-48ac-52b8-8f3c-84968a601869",
+            "860e0098-a7fa-5c83-8288-20298a342204",
+            "97c1a52a-2f10-5a98-bca4-3df1fe9bfee3"
           ]
         },
         "subtypes": [
@@ -3492,8 +3865,8 @@
         ],
         "uuid": "6b885758-9973-5e10-8113-89e02702cfa7",
         "variations": [
-          "be47edd4-58d7-5216-9ab3-541c33934457",
-          "078dbb69-e17b-5d0a-967e-887d605796da"
+          "078dbb69-e17b-5d0a-967e-887d605796da",
+          "be47edd4-58d7-5216-9ab3-541c33934457"
         ]
       }
     ],
@@ -3508,5 +3881,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "7184bf794d8c2a"
   }
 }

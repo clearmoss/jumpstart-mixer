@@ -1,9 +1,4 @@
 {
-  "meta": {
-    "date": "2025-12-02",
-    "version": "5.2.2+20251202",
-    "publicId": "9f1f3af9728707"
-  },
   "data": {
     "code": "J25",
     "commander": [],
@@ -28,36 +23,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 9255,
+        "edhrecRank": 8558,
         "edhrecSaltiness": 0.37,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "680963",
-              "scryfallId": "67e1108a-dd06-4396-b135-0b621fca6e5c"
-            },
-            "language": "German",
-            "multiverseId": 680963,
-            "name": "Neerdiv, durchtriebene Taucherin",
-            "text": "Immer wenn Neerdiv, durchtriebene Taucherin, getappt wird, millt ein Spieler deiner Wahl so viele Karten, wie ihre Stärke beträgt.\nImmer wenn du einen Zauberspruch aus deinem Friedhof wirkst oder eine Fähigkeit einer Karte in deinem Friedhof aktivierst, ziehe eine Karte und lege eine +1/+1-Marke auf Neerdiv.",
-            "type": "Legendäre Kreatur — Meervolk, Räuber",
-            "uuid": "774c4c50-3027-5324-a02f-4c455be8e85d"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "680990",
-              "scryfallId": "7fc3b9ef-6ad7-4968-9b70-a0c1cb4b7d6f"
-            },
-            "language": "Spanish",
-            "multiverseId": 680990,
-            "name": "Neerdiv, buceadora taimada",
-            "text": "Siempre que Neerdiv, buceadora taimada se gire, el jugador objetivo muele una cantidad de cartas igual a su fuerza.\nSiempre que lances un hechizo desde tu cementerio o actives una habilidad de una carta en tu cementerio, roba una carta y pon un contador +1/+1 sobre Neerdiv.",
-            "type": "Criatura legendaria — Bribón tritón",
-            "uuid": "4a01ccaa-17f5-5e2f-b498-1a1d6a8449a8"
-          },
           {
             "identifiers": {
               "multiverseId": "681017",
@@ -66,9 +37,27 @@
             "language": "French",
             "multiverseId": 681017,
             "name": "Neerdiv, plongeuse fourbe",
+            "skuIds": {
+              "nonfoil": "8b309f30-1f8f-5b05-af61-b500b5faedfc"
+            },
             "text": "À chaque fois que Neerdiv, plongeuse fourbe devient engagée, un joueur ciblé meule un nombre de cartes égal à sa force.\nÀ chaque fois que vous lancez un sort depuis votre cimetière ou que vous activez une capacité d'une carte dans votre cimetière, piochez une carte et mettez un marqueur +1/+1 sur Neerdiv.",
             "type": "Créature légendaire — ondin et gredin",
             "uuid": "12252deb-9a32-5585-80c8-3da60484b1ad"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680963",
+              "scryfallId": "67e1108a-dd06-4396-b135-0b621fca6e5c"
+            },
+            "language": "German",
+            "multiverseId": 680963,
+            "name": "Neerdiv, durchtriebene Taucherin",
+            "skuIds": {
+              "nonfoil": "2d8ee876-faf1-56c4-95af-30fa37ef0bcd"
+            },
+            "text": "Immer wenn Neerdiv, durchtriebene Taucherin, getappt wird, millt ein Spieler deiner Wahl so viele Karten, wie ihre Stärke beträgt.\nImmer wenn du einen Zauberspruch aus deinem Friedhof wirkst oder eine Fähigkeit einer Karte in deinem Friedhof aktivierst, ziehe eine Karte und lege eine +1/+1-Marke auf Neerdiv.",
+            "type": "Legendäre Kreatur — Meervolk, Räuber",
+            "uuid": "774c4c50-3027-5324-a02f-4c455be8e85d"
           },
           {
             "identifiers": {
@@ -78,6 +67,9 @@
             "language": "Italian",
             "multiverseId": 681044,
             "name": "Neerdiv, Tuffatrice Subdola",
+            "skuIds": {
+              "nonfoil": "5d71fe88-4cbf-5889-b386-b921ccbdba84"
+            },
             "text": "Ogniqualvolta Neerdiv, Tuffatrice Subdola viene TAPpata, un giocatore bersaglio macina carte pari alla sua forza.\nOgniqualvolta lanci una magia dal tuo cimitero o attivi un'abilità di una carta nel tuo cimitero, pesca una carta e metti un segnalino +1/+1 su Neerdiv.",
             "type": "Creatura Leggendaria — Farabutto Tritone",
             "uuid": "1aab05db-045d-527d-9f30-860b745f456f"
@@ -90,17 +82,33 @@
             "language": "Japanese",
             "multiverseId": 681071,
             "name": "抜け目ない潜り手、ニアディヴ",
+            "skuIds": {
+              "nonfoil": "b50d708e-2573-5ddf-a743-6ce5673020a5"
+            },
             "text": "抜け目ない潜り手、ニアディヴがタップ状態になるたび、プレイヤー１人を対象とする。そのプレイヤーはこれのパワーに等しい枚数のカードを切削する。\nあなたがあなたの墓地から呪文１つを唱えるかあなたの墓地にあるカードの能力１つを起動するたび、カード１枚を引き、これの上に＋１/＋１カウンター１個を置く。",
             "type": "伝説のクリーチャー — マーフォーク・ならず者",
             "uuid": "b7768ce0-809e-5b9b-ad75-3ad88f209c44"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "680990",
+              "scryfallId": "7fc3b9ef-6ad7-4968-9b70-a0c1cb4b7d6f"
+            },
+            "language": "Spanish",
+            "multiverseId": 680990,
+            "name": "Neerdiv, buceadora taimada",
+            "skuIds": {
+              "nonfoil": "9e583fbc-62f6-55e7-8045-2556659786a4"
+            },
+            "text": "Siempre que Neerdiv, buceadora taimada se gire, el jugador objetivo muele una cantidad de cartas igual a su fuerza.\nSiempre que lances un hechizo desde tu cementerio o actives una habilidad de una carta en tu cementerio, roba una carta y pon un contador +1/+1 sobre Neerdiv.",
+            "type": "Criatura legendaria — Bribón tritón",
+            "uuid": "4a01ccaa-17f5-5e2f-b498-1a1d6a8449a8"
           }
         ],
         "frameEffects": [
           "legendary"
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305170",
           "cardsphereId": "130764",
@@ -119,7 +127,6 @@
         },
         "isEtched": false,
         "isFoil": false,
-        "isStarter": true,
         "keywords": [
           "Mill"
         ],
@@ -146,6 +153,7 @@
         "name": "Neerdiv, Devious Diver",
         "number": "36",
         "originalText": "Whenever Neerdiv, Devious Diver becomes tapped, target player mills cards equal to its power.\nWhenever you cast a spell from your graveyard or activate an ability of a card in your graveyard, draw a card and put a +1/+1 counter on Neerdiv.",
+        "originalType": "Legendary Creature – Merfolk Rogue",
         "power": "2",
         "printings": [
           "J25"
@@ -168,9 +176,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "13a8a152-7a55-55f3-a4b4-7080c9142a6a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -206,36 +219,12 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 2850,
+        "edhrecRank": 2925,
         "edhrecSaltiness": 0.09,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682694",
-              "scryfallId": "ff8d4117-f1bb-4be8-adbc-60e12cb6c870"
-            },
-            "language": "German",
-            "multiverseId": 682694,
-            "name": "Kichernder Gegenpart",
-            "text": "Erzeuge einen Spielstein, der eine Kopie einer Kreatur deiner Wahl ist, die du kontrollierst.\nRückblende {5}{U}{U} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
-            "type": "Spontanzauber",
-            "uuid": "55fa4670-37ea-50c2-beab-1e099dab654e"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682808",
-              "scryfallId": "03edc259-6968-4f78-8ed7-f3d68f81ec64"
-            },
-            "language": "Spanish",
-            "multiverseId": 682808,
-            "name": "Homólogo carcajeante",
-            "text": "Crea una ficha que es una copia de la criatura objetivo que controlas.\nRetrospectiva {5}{U}{U}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
-            "type": "Instantáneo",
-            "uuid": "ab3625ba-8f72-53ad-84f5-ae8fe22c4e8e"
-          },
           {
             "identifiers": {
               "multiverseId": "682922",
@@ -244,9 +233,27 @@
             "language": "French",
             "multiverseId": 682922,
             "name": "Équivalent caquetant",
+            "skuIds": {
+              "nonfoil": "fffc31f2-5520-5eab-aa83-ca23f0ee0694"
+            },
             "text": "Créez un jeton qui est une copie d'une créature ciblée que vous contrôlez.\nFlashback {5}{U}{U} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)",
             "type": "Éphémère",
             "uuid": "8eb355ac-98af-5dc3-94e5-6ca7697862d9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682694",
+              "scryfallId": "ff8d4117-f1bb-4be8-adbc-60e12cb6c870"
+            },
+            "language": "German",
+            "multiverseId": 682694,
+            "name": "Kichernder Gegenpart",
+            "skuIds": {
+              "nonfoil": "6ea6f49e-d808-5879-ac41-8166f53c75eb"
+            },
+            "text": "Erzeuge einen Spielstein, der eine Kopie einer Kreatur deiner Wahl ist, die du kontrollierst.\nRückblende {5}{U}{U} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
+            "type": "Spontanzauber",
+            "uuid": "55fa4670-37ea-50c2-beab-1e099dab654e"
           },
           {
             "identifiers": {
@@ -256,6 +263,9 @@
             "language": "Italian",
             "multiverseId": 683036,
             "name": "Controparte Ghignante",
+            "skuIds": {
+              "nonfoil": "8cd327fd-5348-57b9-af4f-10e38126089b"
+            },
             "text": "Crea una pedina che è una copia di una creatura bersaglio che controlli.\nFlashback {5}{U}{U} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)",
             "type": "Istantaneo",
             "uuid": "f15c4b12-e7e5-5b5c-9e50-d714927ce700"
@@ -268,14 +278,30 @@
             "language": "Japanese",
             "multiverseId": 683150,
             "name": "大笑いの写し身",
+            "skuIds": {
+              "nonfoil": "d7b6aac2-156a-5abb-a46f-a0d3f44a44c9"
+            },
             "text": "あなたがコントロールしているクリーチャー１体を対象とする。それのコピーであるトークン１体を生成する。\nフラッシュバック{5}{U}{U}（あなたの墓地にあるこのカードをフラッシュバック・コストで唱えてもよい。その後、これを追放する。）",
             "type": "インスタント",
             "uuid": "b5a29c86-9402-52bd-8249-f25fa97a23e9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682808",
+              "scryfallId": "03edc259-6968-4f78-8ed7-f3d68f81ec64"
+            },
+            "language": "Spanish",
+            "multiverseId": 682808,
+            "name": "Homólogo carcajeante",
+            "skuIds": {
+              "nonfoil": "13b64655-b8d4-503f-bdc7-16a5a1628aaf"
+            },
+            "text": "Crea una ficha que es una copia de la criatura objetivo que controlas.\nRetrospectiva {5}{U}{U}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+            "type": "Instantáneo",
+            "uuid": "ab3625ba-8f72-53ad-84f5-ae8fe22c4e8e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305442",
           "cardsphereId": "131331",
@@ -317,6 +343,7 @@
         "name": "Cackling Counterpart",
         "number": "293",
         "originalText": "Create a token that's a copy of target creature you control.\nFlashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "originalType": "Instant",
         "printings": [
           "C14",
           "DSC",
@@ -332,6 +359,11 @@
           "tcgplayer": "https://mtgjson.com/links/2858be7a04411798"
         },
         "rarity": "rare",
+        "relatedCards": {
+          "tokens": [
+            "7f30de76-415e-5a5c-987d-a51686e4e4f2"
+          ]
+        },
         "rulings": [
           {
             "date": "2024-11-08",
@@ -380,9 +412,14 @@
         ],
         "securityStamp": "oval",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "def71eec-b683-5b73-8ab9-b0dda08b076a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -412,39 +449,13 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 20893,
+        "edhrecRank": 21457,
         "edhrecSaltiness": 0.29,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "He sought to peer beneath the surface of the moon. Instead, he peeled back the skin of reality itself.",
         "foreignData": [
-          {
-            "flavorText": "Er wollte lediglich unter die Oberfläche des Mondes blicken. Stattdessen erblickte er die Unterseite der Realität.",
-            "identifiers": {
-              "multiverseId": "681575",
-              "scryfallId": "2eca02de-1e7b-4604-a8c2-1e330bfe9479"
-            },
-            "language": "German",
-            "multiverseId": 681575,
-            "name": "Plötzliche Einsicht",
-            "text": "Ziehe für jeden unterschiedlichen Manabetrag unter den Nichtland-Karten in deinem Friedhof eine Karte.",
-            "type": "Spontanzauber",
-            "uuid": "b35b87c5-8fcb-5625-9880-2ba650a9134e"
-          },
-          {
-            "flavorText": "Deseaba observar qué se ocultaba tras la superficie de la luna, pero, en lugar de conseguirlo, descascaró la propia realidad.",
-            "identifiers": {
-              "multiverseId": "681636",
-              "scryfallId": "3b02f561-8a1f-49dc-9d05-671c2591a588"
-            },
-            "language": "Spanish",
-            "multiverseId": 681636,
-            "name": "Iluminación repentina",
-            "text": "Roba una carta por cada valor de maná distinto entre las cartas que no sean tierra en tu cementerio.",
-            "type": "Instantáneo",
-            "uuid": "bc9ef8a2-aa9e-5996-b7c2-3b53c0143a75"
-          },
           {
             "flavorText": "Il cherchait à regarder sous la surface de la lune. Au lieu de cela, il déchira le tissu même de la réalité.",
             "identifiers": {
@@ -454,9 +465,28 @@
             "language": "French",
             "multiverseId": 681697,
             "name": "Révélation soudaine",
+            "skuIds": {
+              "nonfoil": "d0e62769-2d28-5e6e-a580-282ae561bf16"
+            },
             "text": "Piochez une carte pour chaque valeur de mana différente parmi les cartes non-terrain dans votre cimetière.",
             "type": "Éphémère",
             "uuid": "06b47a4e-c2e8-5799-acd5-4dd54b84b7d2"
+          },
+          {
+            "flavorText": "Er wollte lediglich unter die Oberfläche des Mondes blicken. Stattdessen erblickte er die Unterseite der Realität.",
+            "identifiers": {
+              "multiverseId": "681575",
+              "scryfallId": "2eca02de-1e7b-4604-a8c2-1e330bfe9479"
+            },
+            "language": "German",
+            "multiverseId": 681575,
+            "name": "Plötzliche Einsicht",
+            "skuIds": {
+              "nonfoil": "e651c351-b78b-521f-b3cc-be8ebe550a5d"
+            },
+            "text": "Ziehe für jeden unterschiedlichen Manabetrag unter den Nichtland-Karten in deinem Friedhof eine Karte.",
+            "type": "Spontanzauber",
+            "uuid": "b35b87c5-8fcb-5625-9880-2ba650a9134e"
           },
           {
             "flavorText": "Voleva scrutare sotto la superficie della luna. Invece, rimosse l'involucro della realtà stessa.",
@@ -467,6 +497,9 @@
             "language": "Italian",
             "multiverseId": 681758,
             "name": "Rivelazione Improvvisa",
+            "skuIds": {
+              "nonfoil": "f658cc80-b565-5c2c-8d94-94efea9eca9a"
+            },
             "text": "Pesca una carta per ogni valore di mana diverso tra le carte non terra nel tuo cimitero.",
             "type": "Istantaneo",
             "uuid": "869f3c61-a971-5141-a299-5bc0944f11e1"
@@ -480,14 +513,31 @@
             "language": "Japanese",
             "multiverseId": 681819,
             "name": "突然の洞察",
+            "skuIds": {
+              "nonfoil": "640d5ccd-6e71-54f8-84e5-7b25d73146bb"
+            },
             "text": "あなたの墓地にあり土地でないカードの中のマナ総量の種類数に等しい枚数のカードを引く。",
             "type": "インスタント",
             "uuid": "4c558257-05ad-5531-bc40-6e7e4d54c044"
+          },
+          {
+            "flavorText": "Deseaba observar qué se ocultaba tras la superficie de la luna, pero, en lugar de conseguirlo, descascaró la propia realidad.",
+            "identifiers": {
+              "multiverseId": "681636",
+              "scryfallId": "3b02f561-8a1f-49dc-9d05-671c2591a588"
+            },
+            "language": "Spanish",
+            "multiverseId": 681636,
+            "name": "Iluminación repentina",
+            "skuIds": {
+              "nonfoil": "a15c742e-bfc3-5e83-84b2-09e91892ce91"
+            },
+            "text": "Roba una carta por cada valor de maná distinto entre las cartas que no sean tierra en tu cementerio.",
+            "type": "Instantáneo",
+            "uuid": "bc9ef8a2-aa9e-5996-b7c2-3b53c0143a75"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305244",
           "cardsphereId": "130925",
@@ -506,7 +556,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -527,6 +576,7 @@
         "name": "Sudden Insight",
         "number": "110",
         "originalText": "Draw a card for each different mana value among nonland cards in your graveyard.",
+        "originalType": "Instant",
         "printings": [
           "AFR",
           "J25"
@@ -548,9 +598,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f369c9ec-8066-5d49-ab29-29824f26ce0f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -580,39 +635,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 17252,
+        "edhrecRank": 17861,
         "edhrecSaltiness": 0.38,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"I escaped, so why do I still feel like I'm being watched?\"\n—Gregel, militia leader",
         "foreignData": [
-          {
-            "flavorText": "„Ich bin entkommen, warum fühle ich mich dann immer noch beobachtet?\"\n—Gregel, Anführer der Miliz",
-            "identifiers": {
-              "multiverseId": "682703",
-              "scryfallId": "e55d476f-e82b-4efd-93d8-d0ec39b7cd6a"
-            },
-            "language": "German",
-            "multiverseId": 682703,
-            "name": "Grausamer Zeuge",
-            "text": "Fliegend\nImmer wenn du einen Nichtkreatur-Zauberspruch wirkst, wende Überwachen 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie auf deinen Friedhof legen.)",
-            "type": "Kreatur — Vogel, Schrecken",
-            "uuid": "901d915a-7f6d-5729-a472-d3024a97ced8"
-          },
-          {
-            "flavorText": "\"Logré escapar, ¿por qué noto que aún me están observando?\".\n—Gregel, líder de la milicia",
-            "identifiers": {
-              "multiverseId": "682817",
-              "scryfallId": "b970138b-e4da-4ded-b1ac-850e1ccf9f06"
-            },
-            "language": "Spanish",
-            "multiverseId": 682817,
-            "name": "Testigo cruel",
-            "text": "Vuela.\nSiempre que lances un hechizo que no sea criatura, escruta 1. (Mira la primera carta de tu biblioteca. Puedes ponerla en tu cementerio.)",
-            "type": "Criatura — Horror ave",
-            "uuid": "7206e457-b132-51df-9c4c-f27e506a407e"
-          },
           {
             "flavorText": "« Je me suis échappé, alors pourquoi ai-je encore le sentiment d'être observé ? »\n—Gregel, chef de la milice",
             "identifiers": {
@@ -622,9 +651,28 @@
             "language": "French",
             "multiverseId": 682931,
             "name": "Témoin cruel",
+            "skuIds": {
+              "nonfoil": "9eabdde1-1491-50fa-8b93-7eb3f782a957"
+            },
             "text": "Vol\nÀ chaque fois que vous lancez un sort non-créature, surveillez 1. (Regardez la carte du dessus de votre bibliothèque. Vous pouvez la mettre dans votre cimetière.)",
             "type": "Créature — oiseau et horreur",
             "uuid": "d05e4de2-9951-5218-9bcc-cd1eef75cf84"
+          },
+          {
+            "flavorText": "„Ich bin entkommen, warum fühle ich mich dann immer noch beobachtet?\"\n—Gregel, Anführer der Miliz",
+            "identifiers": {
+              "multiverseId": "682703",
+              "scryfallId": "e55d476f-e82b-4efd-93d8-d0ec39b7cd6a"
+            },
+            "language": "German",
+            "multiverseId": 682703,
+            "name": "Grausamer Zeuge",
+            "skuIds": {
+              "nonfoil": "7b5bd299-d40c-595b-9c58-f13adee26f39"
+            },
+            "text": "Fliegend\nImmer wenn du einen Nichtkreatur-Zauberspruch wirkst, wende Überwachen 1 an. (Schaue dir die oberste Karte deiner Bibliothek an. Du kannst sie auf deinen Friedhof legen.)",
+            "type": "Kreatur — Vogel, Schrecken",
+            "uuid": "901d915a-7f6d-5729-a472-d3024a97ced8"
           },
           {
             "flavorText": "\"Sono riuscito a fuggire, quindi perché mi sento ancora osservato?\"\n—Gregel, capo della milizia",
@@ -635,6 +683,9 @@
             "language": "Italian",
             "multiverseId": 683045,
             "name": "Testimone Crudele",
+            "skuIds": {
+              "nonfoil": "8b15326e-f6c1-5a3f-9038-634c3a96b1e6"
+            },
             "text": "Volare\nOgniqualvolta lanci una magia non creatura, sorveglia 1. (Guarda la prima carta del tuo grimorio. Puoi metterla nel tuo cimitero.)",
             "type": "Creatura — Orrore Uccello",
             "uuid": "6c6f3b67-1e39-53ba-97d6-f656ffbed08b"
@@ -648,14 +699,31 @@
             "language": "Japanese",
             "multiverseId": 683159,
             "name": "残酷な目撃者",
+            "skuIds": {
+              "nonfoil": "65605787-5152-533b-8ac6-3c1514bebd67"
+            },
             "text": "飛行\nあなたがクリーチャーでない呪文１つを唱えるたび、諜報１を行う。（あなたのライブラリーの一番上にあるカード１枚を見る。それをあなたの墓地に置いてもよい。）",
             "type": "クリーチャー — 鳥・ホラー",
             "uuid": "05e1b137-ed6c-5379-8a04-82d5b17da94c"
+          },
+          {
+            "flavorText": "\"Logré escapar, ¿por qué noto que aún me están observando?\".\n—Gregel, líder de la milicia",
+            "identifiers": {
+              "multiverseId": "682817",
+              "scryfallId": "b970138b-e4da-4ded-b1ac-850e1ccf9f06"
+            },
+            "language": "Spanish",
+            "multiverseId": 682817,
+            "name": "Testigo cruel",
+            "skuIds": {
+              "nonfoil": "0bb2c559-6be1-5eec-9f66-f3f865d4d2b8"
+            },
+            "text": "Vuela.\nSiempre que lances un hechizo que no sea criatura, escruta 1. (Mira la primera carta de tu biblioteca. Puedes ponerla en tu cementerio.)",
+            "type": "Criatura — Horror ave",
+            "uuid": "7206e457-b132-51df-9c4c-f27e506a407e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305451",
           "cardsphereId": "131319",
@@ -700,6 +768,7 @@
         "name": "Cruel Witness",
         "number": "302",
         "originalText": "Flying\nWhenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+        "originalType": "Creature – Bird Horror",
         "power": "3",
         "printings": [
           "DBL",
@@ -719,9 +788,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "d5343ddb-7475-5af0-a8ba-4782a648c21c"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -755,39 +829,13 @@
         ],
         "convertedManaCost": 4.0,
         "count": 1,
-        "edhrecRank": 1426,
+        "edhrecRank": 1454,
         "edhrecSaltiness": 0.14,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"The specimen seems to be broken.\"",
         "foreignData": [
-          {
-            "flavorText": "„Das Exemplar ist anscheinend defekt.\"",
-            "identifiers": {
-              "multiverseId": "682705",
-              "scryfallId": "d8a1d379-36b6-4871-b44f-92401035a1c2"
-            },
-            "language": "German",
-            "multiverseId": 682705,
-            "name": "Genaue Analyse",
-            "text": "Ein Spieler deiner Wahl zieht zwei Karten.\nRückblende — {1}{U}, bezahle 3 Lebenspunkte. (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
-            "type": "Hexerei",
-            "uuid": "de9e93e2-e087-5e0d-bf6e-cb5b3590a2a0"
-          },
-          {
-            "flavorText": "\"El espécimen parece dañado\".",
-            "identifiers": {
-              "multiverseId": "682819",
-              "scryfallId": "e5204455-d7df-49a7-a3c2-e6bbbded95cf"
-            },
-            "language": "Spanish",
-            "multiverseId": 682819,
-            "name": "Análisis profundo",
-            "text": "El jugador objetivo roba dos cartas.\nRetrospectiva—{1}{U}, pagar 3 vidas. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
-            "type": "Conjuro",
-            "uuid": "5cbdaa78-a36e-5d40-a132-88516d73b9a5"
-          },
           {
             "flavorText": "« Ce spécimen semble cassé. »",
             "identifiers": {
@@ -797,9 +845,28 @@
             "language": "French",
             "multiverseId": 682933,
             "name": "Analyse en profondeur",
+            "skuIds": {
+              "nonfoil": "c6233842-f8ef-5a78-988b-39a322c102db"
+            },
             "text": "Un joueur ciblé pioche deux cartes.\nFlashback — {1}{U}, payez 3 points de vie. (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)",
             "type": "Rituel",
             "uuid": "56bcaa39-f385-5c4e-a518-ce8b78b79e53"
+          },
+          {
+            "flavorText": "„Das Exemplar ist anscheinend defekt.\"",
+            "identifiers": {
+              "multiverseId": "682705",
+              "scryfallId": "d8a1d379-36b6-4871-b44f-92401035a1c2"
+            },
+            "language": "German",
+            "multiverseId": 682705,
+            "name": "Genaue Analyse",
+            "skuIds": {
+              "nonfoil": "3f2b1046-799a-527c-8dcc-2832ffbbf220"
+            },
+            "text": "Ein Spieler deiner Wahl zieht zwei Karten.\nRückblende — {1}{U}, bezahle 3 Lebenspunkte. (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)",
+            "type": "Hexerei",
+            "uuid": "de9e93e2-e087-5e0d-bf6e-cb5b3590a2a0"
           },
           {
             "flavorText": "\"Il campione sembra essere rotto.\"",
@@ -810,6 +877,9 @@
             "language": "Italian",
             "multiverseId": 683047,
             "name": "Analisi Approfondita",
+            "skuIds": {
+              "nonfoil": "313a0059-8432-5264-b0a8-65e036b819b5"
+            },
             "text": "Un giocatore bersaglio pesca due carte.\nFlashback—{1}{U}, Paga 3 punti vita. (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)",
             "type": "Stregoneria",
             "uuid": "d9d662fa-6ad7-5746-9d82-c66482729f5c"
@@ -823,14 +893,31 @@
             "language": "Japanese",
             "multiverseId": 683161,
             "name": "綿密な分析",
+            "skuIds": {
+              "nonfoil": "f1a121e8-8a8d-5263-ba65-de54cf9d9299"
+            },
             "text": "プレイヤー１人を対象とする。そのプレイヤーはカード２枚を引く。\nフラッシュバック―{1}{U}, ３点のライフを支払う。（あなたの墓地にあるこのカードをフラッシュバック・コストで唱えてもよい。その後、これを追放する。）",
             "type": "ソーサリー",
             "uuid": "ac984f78-8e4c-5e3f-b00c-ec73068e1698"
+          },
+          {
+            "flavorText": "\"El espécimen parece dañado\".",
+            "identifiers": {
+              "multiverseId": "682819",
+              "scryfallId": "e5204455-d7df-49a7-a3c2-e6bbbded95cf"
+            },
+            "language": "Spanish",
+            "multiverseId": 682819,
+            "name": "Análisis profundo",
+            "skuIds": {
+              "nonfoil": "2996efa1-b430-5c53-a85e-1238de930a70"
+            },
+            "text": "El jugador objetivo roba dos cartas.\nRetrospectiva—{1}{U}, pagar 3 vidas. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+            "type": "Conjuro",
+            "uuid": "5cbdaa78-a36e-5d40-a132-88516d73b9a5"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305453",
           "cardsphereId": "131317",
@@ -865,7 +952,6 @@
           "oathbreaker": "Legal",
           "pauper": "Legal",
           "paupercommander": "Legal",
-          "penny": "Legal",
           "predh": "Legal",
           "premodern": "Legal",
           "timeless": "Legal",
@@ -876,6 +962,7 @@
         "name": "Deep Analysis",
         "number": "304",
         "originalText": "Target player draws two cards.\nFlashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "originalType": "Sorcery",
         "printings": [
           "2X2",
           "C13",
@@ -934,9 +1021,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "f337a823-8e07-5340-9443-f808c84cedb6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -966,39 +1058,13 @@
         ],
         "convertedManaCost": 3.0,
         "count": 1,
-        "edhrecRank": 22195,
+        "edhrecRank": 22899,
         "edhrecSaltiness": 0.37,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "The worst part is that you won't even remember how much he's taken from you.",
         "foreignData": [
-          {
-            "flavorText": "Das Schlimmste ist, dass du dich nicht einmal erinnern wirst, wie viel er dir genommen hat.",
-            "identifiers": {
-              "multiverseId": "682706",
-              "scryfallId": "b72f9b53-f9e0-4f63-a7e2-789e4890e17c"
-            },
-            "language": "German",
-            "multiverseId": 682706,
-            "name": "Draugr-Gedankendieb",
-            "text": "Wenn der Draugr-Gedankendieb ins Spiel kommt, schaue dir die oberste Karte der Bibliothek eines Spielers deiner Wahl an. Du kannst sie auf seinen Friedhof legen.",
-            "type": "Kreatur — Zombie, Räuber",
-            "uuid": "0c2eb182-b131-5bc1-88b4-c2837a9fd73a"
-          },
-          {
-            "flavorText": "Lo peor es que ni siquiera recordarás lo que te ha robado.",
-            "identifiers": {
-              "multiverseId": "682820",
-              "scryfallId": "f2a13218-6528-4f21-bdb7-12c2db68ebe4"
-            },
-            "language": "Spanish",
-            "multiverseId": 682820,
-            "name": "Ladrón mental draugr",
-            "text": "Cuando el Ladrón mental draugr entre, mira la primera carta de la biblioteca del jugador objetivo. Puedes poner esa carta en su cementerio.",
-            "type": "Criatura — Bribón zombie",
-            "uuid": "8ca90361-a883-554b-9df1-38609e88431d"
-          },
           {
             "flavorText": "Le pire, c'est que vous oublierez tout ce qu'il vous a pris.",
             "identifiers": {
@@ -1008,9 +1074,28 @@
             "language": "French",
             "multiverseId": 682934,
             "name": "Voleur de pensées draugr",
+            "skuIds": {
+              "nonfoil": "0ebf1690-db57-5862-9a01-3acd8b63904b"
+            },
             "text": "Quand le Voleur de pensées draugr arrive, regardez la carte du dessus de la bibliothèque d'un joueur ciblé. Vous pouvez mettre cette carte dans son cimetière.",
             "type": "Créature — zombie et gredin",
             "uuid": "71762428-6e48-5724-844a-5f17ab8de400"
+          },
+          {
+            "flavorText": "Das Schlimmste ist, dass du dich nicht einmal erinnern wirst, wie viel er dir genommen hat.",
+            "identifiers": {
+              "multiverseId": "682706",
+              "scryfallId": "b72f9b53-f9e0-4f63-a7e2-789e4890e17c"
+            },
+            "language": "German",
+            "multiverseId": 682706,
+            "name": "Draugr-Gedankendieb",
+            "skuIds": {
+              "nonfoil": "8b570308-03b4-5636-b343-81e832e189ee"
+            },
+            "text": "Wenn der Draugr-Gedankendieb ins Spiel kommt, schaue dir die oberste Karte der Bibliothek eines Spielers deiner Wahl an. Du kannst sie auf seinen Friedhof legen.",
+            "type": "Kreatur — Zombie, Räuber",
+            "uuid": "0c2eb182-b131-5bc1-88b4-c2837a9fd73a"
           },
           {
             "flavorText": "La parte peggiore è che non riuscirai nemmeno a ricordare quanto ti ha sottratto.",
@@ -1021,6 +1106,9 @@
             "language": "Italian",
             "multiverseId": 683048,
             "name": "Draugr Rubapensieri",
+            "skuIds": {
+              "nonfoil": "d8e11041-183d-5c06-8d2f-6fc1494eeae9"
+            },
             "text": "Quando il Draugr Rubapensieri entra, guarda la prima carta del grimorio di un giocatore bersaglio. Puoi metterla nel suo cimitero.",
             "type": "Creatura — Farabutto Zombie",
             "uuid": "f582abf5-98c5-525d-8d4f-270a341b3bd8"
@@ -1034,14 +1122,31 @@
             "language": "Japanese",
             "multiverseId": 683162,
             "name": "ドローガーの思考盗み",
+            "skuIds": {
+              "nonfoil": "9c06b5d1-d2bc-5276-82f4-ccded4284d39"
+            },
             "text": "ドローガーの思考盗みが戦場に出たとき、プレイヤー１人を対象とする。そのプレイヤーのライブラリーの一番上にあるカード１枚を見る。あなたはそのカードをそのプレイヤーの墓地に置いてもよい。",
             "type": "クリーチャー — ゾンビ・ならず者",
             "uuid": "4ed5ff04-7fb1-50a6-86ab-c74793efcbe8"
+          },
+          {
+            "flavorText": "Lo peor es que ni siquiera recordarás lo que te ha robado.",
+            "identifiers": {
+              "multiverseId": "682820",
+              "scryfallId": "f2a13218-6528-4f21-bdb7-12c2db68ebe4"
+            },
+            "language": "Spanish",
+            "multiverseId": 682820,
+            "name": "Ladrón mental draugr",
+            "skuIds": {
+              "nonfoil": "11de0cae-0519-51f4-a6fa-bd3b827b5cc7"
+            },
+            "text": "Cuando el Ladrón mental draugr entre, mira la primera carta de la biblioteca del jugador objetivo. Puedes poner esa carta en su cementerio.",
+            "type": "Criatura — Bribón zombie",
+            "uuid": "8ca90361-a883-554b-9df1-38609e88431d"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305454",
           "cardsphereId": "131316",
@@ -1082,6 +1187,7 @@
         "name": "Draugr Thought-Thief",
         "number": "305",
         "originalText": "When Draugr Thought-Thief enters, look at the top card of target player's library. You may put that card into their graveyard.",
+        "originalType": "Creature – Zombie Rogue",
         "power": "3",
         "printings": [
           "J25",
@@ -1094,9 +1200,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "60ac4b95-adce-5eac-ba93-ab3386854f22"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1130,39 +1241,13 @@
         ],
         "convertedManaCost": 1.0,
         "count": 1,
-        "edhrecRank": 20265,
+        "edhrecRank": 20653,
         "edhrecSaltiness": 0.37,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Altonio? No, I'm sorry. No one by that name works here.\"\n—Raffine",
         "foreignData": [
-          {
-            "flavorText": "„Altonio? Nein, tut mir leid. Hier arbeitet niemand, der so heißt.\"\n—Raffine",
-            "identifiers": {
-              "multiverseId": "682709",
-              "scryfallId": "a6f0f9c2-fb6c-4e55-8bff-f1944b14b838"
-            },
-            "language": "German",
-            "multiverseId": 682709,
-            "name": "Entbehrlicher Lakai",
-            "text": "{1}{U}, schicke den Entbehrlichen Lakaien aus deinem Friedhof ins Exil: Erzeuge einen 1/1 blauen Fisch-Kreaturenspielstein mit „Diese Kreatur kann nicht geblockt werden.\" Aktiviere diese Fähigkeit wie eine Hexerei.",
-            "type": "Kreatur — Mensch, Bürger",
-            "uuid": "94acfa7c-781d-50c1-9b12-9d5569cf14b0"
-          },
-          {
-            "flavorText": "\"¿Altonio? No, lo siento. Aquí no trabaja ningún Altonio\".\n—Raffine",
-            "identifiers": {
-              "multiverseId": "682823",
-              "scryfallId": "18da6f5b-6853-4801-a2d7-c6af2986b33d"
-            },
-            "language": "Spanish",
-            "multiverseId": 682823,
-            "name": "Lacayo prescindible",
-            "text": "{1}{U}, exiliar el Lacayo prescindible de tu cementerio: Crea una ficha de criatura Pez azul 1/1 con \"Esta criatura no puede ser bloqueada\". Activa esto solo como un conjuro.",
-            "type": "Criatura — Ciudadano humano",
-            "uuid": "5f566927-3735-5e9a-a684-27dc4be5c7b6"
-          },
           {
             "flavorText": "« Altonio ? Non, désolée. Personne de ce nom ne travaille ici. »\n—Raffine",
             "identifiers": {
@@ -1172,9 +1257,28 @@
             "language": "French",
             "multiverseId": 682937,
             "name": "Laquais sacrifiable",
+            "skuIds": {
+              "nonfoil": "38003302-09d3-5588-bff1-d43442bf3442"
+            },
             "text": "{1}{U}, exilez le Laquais sacrifiable depuis votre cimetière : Créez un jeton de créature 1/1 bleue Poisson avec « Cette créature ne peut pas être bloquée. » N'activez que lorsque vous pourriez lancer un rituel.",
             "type": "Créature — humain et citoyen",
             "uuid": "503400ce-3666-5697-9a8e-e2c1ab3f6f2b"
+          },
+          {
+            "flavorText": "„Altonio? Nein, tut mir leid. Hier arbeitet niemand, der so heißt.\"\n—Raffine",
+            "identifiers": {
+              "multiverseId": "682709",
+              "scryfallId": "a6f0f9c2-fb6c-4e55-8bff-f1944b14b838"
+            },
+            "language": "German",
+            "multiverseId": 682709,
+            "name": "Entbehrlicher Lakai",
+            "skuIds": {
+              "nonfoil": "e3a266a9-3809-59a0-b0e5-77770a099478"
+            },
+            "text": "{1}{U}, schicke den Entbehrlichen Lakaien aus deinem Friedhof ins Exil: Erzeuge einen 1/1 blauen Fisch-Kreaturenspielstein mit „Diese Kreatur kann nicht geblockt werden.\" Aktiviere diese Fähigkeit wie eine Hexerei.",
+            "type": "Kreatur — Mensch, Bürger",
+            "uuid": "94acfa7c-781d-50c1-9b12-9d5569cf14b0"
           },
           {
             "flavorText": "\"Altonio? No, mi spiace. Qui non lavora nessuno con quel nome.\"\n—Raffine",
@@ -1185,6 +1289,9 @@
             "language": "Italian",
             "multiverseId": 683051,
             "name": "Tirapiedi Sacrificabile",
+            "skuIds": {
+              "nonfoil": "5c4087d9-86d4-5ef4-8323-c11cfa9eeb29"
+            },
             "text": "{1}{U}, Esilia il Tirapiedi Sacrificabile dal tuo cimitero: Crea una pedina creatura Pesce 1/1 blu con \"Questa creatura non può essere bloccata\". Attiva solo come una stregoneria.",
             "type": "Creatura — Cittadino Umano",
             "uuid": "ebd3e076-1f65-5b37-8ae8-0cce81356a33"
@@ -1198,14 +1305,31 @@
             "language": "Japanese",
             "multiverseId": 683165,
             "name": "捨て石の従僕",
+            "skuIds": {
+              "nonfoil": "9b5bf901-8033-584d-aa2b-032442fd5f79"
+            },
             "text": "{1}{U}, あなたの墓地にある捨て石の従僕を追放する：「このクリーチャーはブロックされない。」を持つ青の１/１の魚・クリーチャー・トークン１体を生成する。起動はソーサリーとしてのみ行う。",
             "type": "クリーチャー — 人間・市民",
             "uuid": "57e5d2fe-76c9-5c50-af00-f4612ab9d239"
+          },
+          {
+            "flavorText": "\"¿Altonio? No, lo siento. Aquí no trabaja ningún Altonio\".\n—Raffine",
+            "identifiers": {
+              "multiverseId": "682823",
+              "scryfallId": "18da6f5b-6853-4801-a2d7-c6af2986b33d"
+            },
+            "language": "Spanish",
+            "multiverseId": 682823,
+            "name": "Lacayo prescindible",
+            "skuIds": {
+              "nonfoil": "03002d3c-68ee-5548-afe2-c6054ba43193"
+            },
+            "text": "{1}{U}, exiliar el Lacayo prescindible de tu cementerio: Crea una ficha de criatura Pez azul 1/1 con \"Esta criatura no puede ser bloqueada\". Activa esto solo como un conjuro.",
+            "type": "Criatura — Ciudadano humano",
+            "uuid": "5f566927-3735-5e9a-a684-27dc4be5c7b6"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305457",
           "cardsphereId": "131313",
@@ -1247,6 +1371,7 @@
         "name": "Expendable Lackey",
         "number": "308",
         "originalText": "{1}{U}, Exile Expendable Lackey from your graveyard: Create a 1/1 blue Fish creature token with \"This creature can't be blocked.\" Activate only as a sorcery.",
+        "originalType": "Creature – Human Citizen",
         "power": "1",
         "printings": [
           "J25",
@@ -1258,10 +1383,20 @@
           "tcgplayer": "https://mtgjson.com/links/cff3403dde8d44cf"
         },
         "rarity": "common",
+        "relatedCards": {
+          "tokens": [
+            "5cd0f0ce-7820-5507-b6db-8ceb32d7830e"
+          ]
+        },
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "4d59f3f5-1357-57ff-a517-1046ec9ad8a6"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1295,39 +1430,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 22690,
+        "edhrecRank": 23310,
         "edhrecSaltiness": 0.12,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "\"Help! I'm not a zombie! Let me out!\"",
         "foreignData": [
-          {
-            "flavorText": "„Hilfe! Ich bin kein Zombie! Lasst mich raus!\"",
-            "identifiers": {
-              "multiverseId": "682722",
-              "scryfallId": "22dbb2bf-b8aa-4562-a2c6-516ce25bcb8f"
-            },
-            "language": "German",
-            "multiverseId": 682722,
-            "name": "Eingesperrt im Friedhof",
-            "text": "Verzaubert eine Kreatur\nWenn Eingesperrt im Friedhof ins Spiel kommt und falls dein Friedhof fünf oder mehr Karten enthält, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
-            "type": "Verzauberung — Aura",
-            "uuid": "2eb956cd-7111-5686-b721-7ddf3987ddd5"
-          },
-          {
-            "flavorText": "\"¡Socorro! ¡No soy un zombie! ¡Sácame de aquí!\".",
-            "identifiers": {
-              "multiverseId": "682836",
-              "scryfallId": "d27657d1-c90b-4f9a-b923-0d1275dfc61f"
-            },
-            "language": "Spanish",
-            "multiverseId": 682836,
-            "name": "Encerrado en el cementerio",
-            "text": "Encantar criatura.\nCuando Encerrado en el cementerio entre, si hay cinco o más cartas en tu cementerio, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
-            "type": "Encantamiento — Aura",
-            "uuid": "b161f8c6-d287-53d4-80bb-f2a0ee5561c8"
-          },
           {
             "flavorText": "« Au secours ! Je ne suis pas un zombie ! Laissez-moi sortir ! »",
             "identifiers": {
@@ -1337,9 +1446,28 @@
             "language": "French",
             "multiverseId": 682950,
             "name": "Enfermé dans le cimetière",
+            "skuIds": {
+              "nonfoil": "c8d3a0e2-ec5b-5cdd-9ac3-6958c3388652"
+            },
             "text": "Enchanter : créature\nQuand Enfermé dans le cimetière arrive, s'il y a au moins cinq cartes dans votre cimetière, engagez la créature enchantée.\nLa créature enchantée ne se dégage pas pendant l'étape de dégagement de son contrôleur.",
             "type": "Enchantement — aura",
             "uuid": "f3f8030c-6cfb-5b0c-be8c-68a8556e7dfe"
+          },
+          {
+            "flavorText": "„Hilfe! Ich bin kein Zombie! Lasst mich raus!\"",
+            "identifiers": {
+              "multiverseId": "682722",
+              "scryfallId": "22dbb2bf-b8aa-4562-a2c6-516ce25bcb8f"
+            },
+            "language": "German",
+            "multiverseId": 682722,
+            "name": "Eingesperrt im Friedhof",
+            "skuIds": {
+              "nonfoil": "ddaa2406-6d78-57b9-bc99-f2110eab8057"
+            },
+            "text": "Verzaubert eine Kreatur\nWenn Eingesperrt im Friedhof ins Spiel kommt und falls dein Friedhof fünf oder mehr Karten enthält, tappe die verzauberte Kreatur.\nDie verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.",
+            "type": "Verzauberung — Aura",
+            "uuid": "2eb956cd-7111-5686-b721-7ddf3987ddd5"
           },
           {
             "flavorText": "\"Aiuto! Non sono uno zombie! Fatemi uscire!\"",
@@ -1350,6 +1478,9 @@
             "language": "Italian",
             "multiverseId": 683064,
             "name": "Rinchiuso nel Cimitero",
+            "skuIds": {
+              "nonfoil": "a6b13bdf-c9b5-5a2c-ad76-7a95486d3d15"
+            },
             "text": "Incanta creatura\nQuando Rinchiuso nel Cimitero entra, se ci sono cinque o più carte nel tuo cimitero, TAPpa la creatura incantata.\nLa creatura incantata non STAPpa durante lo STAP del suo controllore.",
             "type": "Incantesimo — Aura",
             "uuid": "91254e50-ca7d-5f1f-b259-b789e4c2a31a"
@@ -1363,14 +1494,31 @@
             "language": "Japanese",
             "multiverseId": 683178,
             "name": "墓地への幽閉",
+            "skuIds": {
+              "nonfoil": "299d069e-6897-5b2b-b84c-62ec66c64f24"
+            },
             "text": "エンチャント（クリーチャー）\n墓地への幽閉が戦場に出たとき、あなたの墓地に５枚以上のカードがある場合、エンチャントしているクリーチャーをタップする。\nエンチャントしているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。",
             "type": "エンチャント — オーラ",
             "uuid": "16d6c72e-734e-5327-8c88-678cb0e976fc"
+          },
+          {
+            "flavorText": "\"¡Socorro! ¡No soy un zombie! ¡Sácame de aquí!\".",
+            "identifiers": {
+              "multiverseId": "682836",
+              "scryfallId": "d27657d1-c90b-4f9a-b923-0d1275dfc61f"
+            },
+            "language": "Spanish",
+            "multiverseId": 682836,
+            "name": "Encerrado en el cementerio",
+            "skuIds": {
+              "nonfoil": "43ede58b-ef44-5183-af89-eb9efcafb218"
+            },
+            "text": "Encantar criatura.\nCuando Encerrado en el cementerio entre, si hay cinco o más cartas en tu cementerio, gira la criatura encantada.\nLa criatura encantada no se endereza durante el paso de enderezar de su controlador.",
+            "type": "Encantamiento — Aura",
+            "uuid": "b161f8c6-d287-53d4-80bb-f2a0ee5561c8"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305470",
           "cardsphereId": "131299",
@@ -1414,6 +1562,7 @@
         "name": "Locked in the Cemetery",
         "number": "321",
         "originalText": "Enchant creature\nWhen Locked in the Cemetery enters, if there are five or more cards in your graveyard, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step.",
+        "originalType": "Enchantment – Aura",
         "printings": [
           "DBL",
           "J25",
@@ -1432,9 +1581,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "936db374-dea6-594b-9c2e-8b22e458016a"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1466,36 +1620,12 @@
         ],
         "convertedManaCost": 6.0,
         "count": 1,
-        "edhrecRank": 16257,
+        "edhrecRank": 16763,
         "edhrecSaltiness": 0.53,
         "finishes": [
           "nonfoil"
         ],
         "foreignData": [
-          {
-            "identifiers": {
-              "multiverseId": "682751",
-              "scryfallId": "cc8eb4fd-2560-4e3e-ab34-6cfc5561f371"
-            },
-            "language": "German",
-            "multiverseId": 682751,
-            "name": "Kreischender Schwarm",
-            "text": "Fliegend\nImmer wenn du mit einer oder mehreren Kreaturen angreifst, millt ein Spieler deiner Wahl entsprechend viele Karten. (Um eine Karte zu millen, legt der Spieler die oberste Karte seiner Bibliothek auf seinen Friedhof.)\n{2}{U}: Lege den Kreischenden Schwarm aus deinem Friedhof als zweite Karte von oben in deine Bibliothek.",
-            "type": "Kreatur — Vogel, Schrecken",
-            "uuid": "d76a32f6-a697-59a4-a531-3ab6aff9a81c"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "682865",
-              "scryfallId": "afa997d2-599d-40dc-8ffc-afcfb4afb731"
-            },
-            "language": "Spanish",
-            "multiverseId": 682865,
-            "name": "Bandada graznadora",
-            "text": "Vuela.\nSiempre que ataques con una o más criaturas, el jugador objetivo muele esa misma cantidad de cartas. (Para moler una carta, un jugador pone la primera carta de su biblioteca en su cementerio.)\n{2}{U}: Pon la Bandada graznadora de tu cementerio en tu biblioteca en segundo lugar desde la parte superior.",
-            "type": "Criatura — Horror ave",
-            "uuid": "fbac1192-6538-52ad-a981-b52fa0a40bdc"
-          },
           {
             "identifiers": {
               "multiverseId": "682979",
@@ -1504,9 +1634,27 @@
             "language": "French",
             "multiverseId": 682979,
             "name": "Essaim hurlant",
+            "skuIds": {
+              "nonfoil": "5387d1d8-cc17-594f-8952-ae72d3e91539"
+            },
             "text": "Vol\nÀ chaque fois que vous attaquez avec au moins une créature, un joueur ciblé meule autant de cartes. (Pour meuler une carte, un joueur met la carte du dessus de sa bibliothèque dans son cimetière.)\n{2}{U} : Mettez l'Essaim hurlant dans votre bibliothèque en deuxième position à partir du dessus depuis votre cimetière.",
             "type": "Créature — oiseau et horreur",
             "uuid": "4745ed10-9807-571a-9164-6951a88b83a1"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682751",
+              "scryfallId": "cc8eb4fd-2560-4e3e-ab34-6cfc5561f371"
+            },
+            "language": "German",
+            "multiverseId": 682751,
+            "name": "Kreischender Schwarm",
+            "skuIds": {
+              "nonfoil": "a7d8b1b5-3670-561e-b27d-17408990e1ff"
+            },
+            "text": "Fliegend\nImmer wenn du mit einer oder mehreren Kreaturen angreifst, millt ein Spieler deiner Wahl entsprechend viele Karten. (Um eine Karte zu millen, legt der Spieler die oberste Karte seiner Bibliothek auf seinen Friedhof.)\n{2}{U}: Lege den Kreischenden Schwarm aus deinem Friedhof als zweite Karte von oben in deine Bibliothek.",
+            "type": "Kreatur — Vogel, Schrecken",
+            "uuid": "d76a32f6-a697-59a4-a531-3ab6aff9a81c"
           },
           {
             "identifiers": {
@@ -1516,6 +1664,9 @@
             "language": "Italian",
             "multiverseId": 683093,
             "name": "Sciame Strillante",
+            "skuIds": {
+              "nonfoil": "590a2f64-5ded-5427-8f46-4ca8b2091d67"
+            },
             "text": "Volare\nOgniqualvolta attacchi con una o più creature, un giocatore bersaglio macina altrettante carte. (Per macinare una carta, un giocatore mette nel suo cimitero la prima carta del suo grimorio.)\n{2}{U}: Metti lo Sciame Strillante dal tuo cimitero nel tuo grimorio come seconda carta.",
             "type": "Creatura — Orrore Uccello",
             "uuid": "be96bf58-3e29-578e-bdab-9c971e799007"
@@ -1528,14 +1679,30 @@
             "language": "Japanese",
             "multiverseId": 683207,
             "name": "鳴き叫ぶ大群",
+            "skuIds": {
+              "nonfoil": "0f01f090-1c8a-5deb-a422-8280dc15db4a"
+            },
             "text": "飛行\nあなたが１体以上のクリーチャーで攻撃するたび、プレイヤー１人を対象とする。そのプレイヤーはそれに等しい枚数のカードを切削する。（カードを切削するとは、自分のライブラリーの一番上にあるカード１枚を自分の墓地に置くことである。）\n{2}{U}：あなたの墓地にある鳴き叫ぶ大群をあなたのライブラリーの一番上から２枚目に置く。",
             "type": "クリーチャー — 鳥・ホラー",
             "uuid": "440109a3-0152-56e4-b1e5-6bcc397256f7"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "682865",
+              "scryfallId": "afa997d2-599d-40dc-8ffc-afcfb4afb731"
+            },
+            "language": "Spanish",
+            "multiverseId": 682865,
+            "name": "Bandada graznadora",
+            "skuIds": {
+              "nonfoil": "a8182d3a-a34c-597a-888a-94b99915276b"
+            },
+            "text": "Vuela.\nSiempre que ataques con una o más criaturas, el jugador objetivo muele esa misma cantidad de cartas. (Para moler una carta, un jugador pone la primera carta de su biblioteca en su cementerio.)\n{2}{U}: Pon la Bandada graznadora de tu cementerio en tu biblioteca en segundo lugar desde la parte superior.",
+            "type": "Criatura — Horror ave",
+            "uuid": "fbac1192-6538-52ad-a981-b52fa0a40bdc"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305499",
           "cardsphereId": "131270",
@@ -1578,6 +1745,7 @@
         "name": "Screaming Swarm",
         "number": "351",
         "originalText": "Flying\nWhenever you attack with one or more creatures, target player mills that many cards. (To mill a card, a player puts the top card of their library into their graveyard.)\n{2}{U}: Put Screaming Swarm from your graveyard into your library second from the top.",
+        "originalType": "Creature – Bird Horror",
         "power": "4",
         "printings": [
           "DBL",
@@ -1597,9 +1765,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e81d585d-a892-5168-8b7f-b049041b8eae"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1633,39 +1806,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 20684,
+        "edhrecRank": 21185,
         "edhrecSaltiness": 0.16,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Thassa's favor followed him to the Underworld. Even the waves of Nerono obeyed his will.",
         "foreignData": [
-          {
-            "flavorText": "Thassas Gunst blieb ihm auch in der Unterwelt erhalten. Selbst die Wellen von Nerono fügten sich seinem Willen.",
-            "identifiers": {
-              "multiverseId": "682778",
-              "scryfallId": "24f442c3-fe76-4ebf-93ad-e90ef762e4ab"
-            },
-            "language": "German",
-            "multiverseId": 682778,
-            "name": "Mystiker der Flutwellen",
-            "text": "Immer wenn der Mystiker der Flutwellen Schaden zufügt, millt ein Spieler deiner Wahl entsprechend viele Karten. (Um eine Karte zu millen, legt der Spieler die oberste Karte seiner Bibliothek auf seinen Friedhof.)",
-            "type": "Kreatur — Meervolk, Zauberer",
-            "uuid": "7e0c4a57-7291-5646-a78c-75cc966c3ff9"
-          },
-          {
-            "flavorText": "La bendición de Tassa lo siguió al Inframundo. Hasta las olas de Nerono obedecían su voluntad.",
-            "identifiers": {
-              "multiverseId": "682892",
-              "scryfallId": "8c2ff2a6-ff1b-4eeb-9ab5-5bd041358b7e"
-            },
-            "language": "Spanish",
-            "multiverseId": 682892,
-            "name": "Místico del tsunami",
-            "text": "Siempre que el Místico del tsunami haga daño, el jugador objetivo muele esa misma cantidad de cartas. (Para moler una carta, un jugador pone la primera carta de su biblioteca en su cementerio.)",
-            "type": "Criatura — Hechicero tritón",
-            "uuid": "992f305b-8a25-573a-9fe3-e090fc20ce54"
-          },
           {
             "flavorText": "Les faveurs de Thassa le suivirent jusque dans le Monde souterrain. Même les vagues de Nérono se pliaient à sa volonté.",
             "identifiers": {
@@ -1675,9 +1822,28 @@
             "language": "French",
             "multiverseId": 683006,
             "name": "Mystique des vagues imposantes",
+            "skuIds": {
+              "nonfoil": "c4d44cbd-5012-5373-8617-83a593ffb257"
+            },
             "text": "À chaque fois que le Mystique des vagues imposantes inflige des blessures, un joueur ciblé meule autant de cartes. (Pour meuler une carte, un joueur met la carte du dessus de sa bibliothèque dans son cimetière.)",
             "type": "Créature — ondin et sorcier",
             "uuid": "4e86fd49-4cce-5d52-9d24-119f91ad7d74"
+          },
+          {
+            "flavorText": "Thassas Gunst blieb ihm auch in der Unterwelt erhalten. Selbst die Wellen von Nerono fügten sich seinem Willen.",
+            "identifiers": {
+              "multiverseId": "682778",
+              "scryfallId": "24f442c3-fe76-4ebf-93ad-e90ef762e4ab"
+            },
+            "language": "German",
+            "multiverseId": 682778,
+            "name": "Mystiker der Flutwellen",
+            "skuIds": {
+              "nonfoil": "e615d002-6c5e-5570-b272-4c5c5cff648d"
+            },
+            "text": "Immer wenn der Mystiker der Flutwellen Schaden zufügt, millt ein Spieler deiner Wahl entsprechend viele Karten. (Um eine Karte zu millen, legt der Spieler die oberste Karte seiner Bibliothek auf seinen Friedhof.)",
+            "type": "Kreatur — Meervolk, Zauberer",
+            "uuid": "7e0c4a57-7291-5646-a78c-75cc966c3ff9"
           },
           {
             "flavorText": "Il favore di Thassa lo seguì nell'Ade. Perfino le onde di Nerono obbedivano alla sua volontà.",
@@ -1688,6 +1854,9 @@
             "language": "Italian",
             "multiverseId": 683120,
             "name": "Mistico dell'Onda Colossale",
+            "skuIds": {
+              "nonfoil": "46ba855b-8c0f-52b6-9be2-27b16105f05c"
+            },
             "text": "Ogniqualvolta il Mistico dell'Onda Colossale infligge danno, un giocatore bersaglio macina altrettante carte. (Per macinare una carta, un giocatore mette nel suo cimitero la prima carta del suo grimorio.)",
             "type": "Creatura — Mago Tritone",
             "uuid": "3714724f-a6e5-5028-b07c-38eb82a5c207"
@@ -1701,14 +1870,31 @@
             "language": "Japanese",
             "multiverseId": 683234,
             "name": "高波の神秘家",
+            "skuIds": {
+              "nonfoil": "cd80f6b5-5be1-5e8c-9cb4-39a3e568251b"
+            },
             "text": "高波の神秘家がダメージを与えるたび、プレイヤー１人を対象とする。そのプレイヤーはその点数に等しい枚数のカードを切削する。（カードを切削するとは、自分のライブラリーの一番上にあるカードを自分の墓地に置くことである。）",
             "type": "クリーチャー — マーフォーク・ウィザード",
             "uuid": "5973459e-cb27-5a4e-b7f4-bdd4d65da9e4"
+          },
+          {
+            "flavorText": "La bendición de Tassa lo siguió al Inframundo. Hasta las olas de Nerono obedecían su voluntad.",
+            "identifiers": {
+              "multiverseId": "682892",
+              "scryfallId": "8c2ff2a6-ff1b-4eeb-9ab5-5bd041358b7e"
+            },
+            "language": "Spanish",
+            "multiverseId": 682892,
+            "name": "Místico del tsunami",
+            "skuIds": {
+              "nonfoil": "7071020c-77fa-5e99-90fc-f2a5da8cf087"
+            },
+            "text": "Siempre que el Místico del tsunami haga daño, el jugador objetivo muele esa misma cantidad de cartas. (Para moler una carta, un jugador pone la primera carta de su biblioteca en su cementerio.)",
+            "type": "Criatura — Hechicero tritón",
+            "uuid": "992f305b-8a25-573a-9fe3-e090fc20ce54"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305526",
           "cardsphereId": "131101",
@@ -1752,6 +1938,7 @@
         "name": "Towering-Wave Mystic",
         "number": "378",
         "originalText": "Whenever Towering-Wave Mystic deals damage, target player mills that many cards. (To mill a card, a player puts the top card of their library into their graveyard.)",
+        "originalType": "Creature – Merfolk Wizard",
         "power": "2",
         "printings": [
           "J25",
@@ -1765,9 +1952,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "70e09c14-520c-53a5-b140-1eae481db07f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1801,38 +1993,13 @@
         ],
         "convertedManaCost": 7.0,
         "count": 1,
-        "edhrecRank": 14567,
+        "edhrecRank": 14970,
+        "edhrecSaltiness": 0.0,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "On the open sea, there is nowhere to hide.",
         "foreignData": [
-          {
-            "flavorText": "Auf offener See kann man sich nicht verstecken.",
-            "identifiers": {
-              "multiverseId": "682783",
-              "scryfallId": "463c5e8a-e74c-4667-b2c8-c48a2d270636"
-            },
-            "language": "German",
-            "multiverseId": 682783,
-            "name": "Erwecker der Wellen",
-            "text": "Kreaturen, die deine Gegner kontrollieren, erhalten -1/-0.\n{1}{U}, wirf den Erwecker der Wellen ab: Schaue dir die obersten zwei Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege die andere auf deinen Friedhof.",
-            "type": "Kreatur — Wal",
-            "uuid": "5c85bc20-11cd-51f1-9fe2-3c40cf7e46a7"
-          },
-          {
-            "flavorText": "En el mar abierto no hay donde esconderse.",
-            "identifiers": {
-              "multiverseId": "682897",
-              "scryfallId": "8e16473d-307e-4e1b-b15e-aa9aeac75836"
-            },
-            "language": "Spanish",
-            "multiverseId": 682897,
-            "name": "Despiertaolas",
-            "text": "Las criaturas que controlan tus oponentes obtienen -1/-0.\n{1}{U}, descartar la Despiertaolas: Mira las dos primeras cartas de tu biblioteca. Pon una de ellas en tu mano y la otra en tu cementerio.",
-            "type": "Criatura — Ballena",
-            "uuid": "85f0b334-9a34-50ce-b1b3-9633ca4e818a"
-          },
           {
             "flavorText": "En pleine mer, il n'y a nulle part où se cacher.",
             "identifiers": {
@@ -1842,9 +2009,28 @@
             "language": "French",
             "multiverseId": 683011,
             "name": "Éveilleur des vagues",
+            "skuIds": {
+              "nonfoil": "147eed51-8ee7-5f0c-9474-1adeb8b4ad2b"
+            },
             "text": "Les créatures que vos adversaires contrôlent gagnent -1/-0.\n{1}{U}, défaussez-vous de l'Éveilleur des vagues : Regardez les deux cartes du dessus de votre bibliothèque. Mettez l'une d'entre elles dans votre main et l'autre dans votre cimetière.",
             "type": "Créature — baleine",
             "uuid": "9ff934b9-7339-540c-8bec-d97c464efcbf"
+          },
+          {
+            "flavorText": "Auf offener See kann man sich nicht verstecken.",
+            "identifiers": {
+              "multiverseId": "682783",
+              "scryfallId": "463c5e8a-e74c-4667-b2c8-c48a2d270636"
+            },
+            "language": "German",
+            "multiverseId": 682783,
+            "name": "Erwecker der Wellen",
+            "skuIds": {
+              "nonfoil": "8c8f454c-81e4-5d3e-9ad2-dc3b8bc1e72b"
+            },
+            "text": "Kreaturen, die deine Gegner kontrollieren, erhalten -1/-0.\n{1}{U}, wirf den Erwecker der Wellen ab: Schaue dir die obersten zwei Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege die andere auf deinen Friedhof.",
+            "type": "Kreatur — Wal",
+            "uuid": "5c85bc20-11cd-51f1-9fe2-3c40cf7e46a7"
           },
           {
             "flavorText": "In mare aperto, non c'è posto in cui nascondersi.",
@@ -1855,6 +2041,9 @@
             "language": "Italian",
             "multiverseId": 683125,
             "name": "Destaonde",
+            "skuIds": {
+              "nonfoil": "d438a7fb-76c0-521b-9426-6164f7eee62a"
+            },
             "text": "Le creature controllate dai tuoi avversari prendono -1/-0.\n{1}{U}, Scarta il Destaonde: Guarda le prime due carte del tuo grimorio. Aggiungine una alla tua mano e metti l'altra nel tuo cimitero.",
             "type": "Creatura — Balena",
             "uuid": "e2eee5e0-8a57-521e-834e-21a3ee7aa282"
@@ -1868,14 +2057,31 @@
             "language": "Japanese",
             "multiverseId": 683239,
             "name": "波起こし",
+            "skuIds": {
+              "nonfoil": "6375ef7b-555a-57a1-99f0-c16b42579745"
+            },
             "text": "対戦相手がコントロールしているすべてのクリーチャーは－１/－０の修整を受ける。\n{1}{U}, 波起こしを捨てる：あなたのライブラリーの一番上にあるカード２枚を見る。そのうち１枚をあなたの手札に、残りをあなたの墓地に置く。",
             "type": "クリーチャー — 鯨",
             "uuid": "ea9ff0a5-acd4-5530-b174-2a33d0f531ab"
+          },
+          {
+            "flavorText": "En el mar abierto no hay donde esconderse.",
+            "identifiers": {
+              "multiverseId": "682897",
+              "scryfallId": "8e16473d-307e-4e1b-b15e-aa9aeac75836"
+            },
+            "language": "Spanish",
+            "multiverseId": 682897,
+            "name": "Despiertaolas",
+            "skuIds": {
+              "nonfoil": "3e65b384-e618-5ced-895a-570dc5a94928"
+            },
+            "text": "Las criaturas que controlan tus oponentes obtienen -1/-0.\n{1}{U}, descartar la Despiertaolas: Mira las dos primeras cartas de tu biblioteca. Pon una de ellas en tu mano y la otra en tu cementerio.",
+            "type": "Criatura — Ballena",
+            "uuid": "85f0b334-9a34-50ce-b1b3-9633ca4e818a"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305531",
           "cardsphereId": "131090",
@@ -1914,6 +2120,7 @@
         "name": "Waker of Waves",
         "number": "383",
         "originalText": "Creatures your opponents control get -1/-0.\n{1}{U}, Discard Waker of Waves: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",
+        "originalType": "Creature – Whale",
         "power": "7",
         "printings": [
           "J25",
@@ -1933,9 +2140,14 @@
           }
         ],
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "e02e3446-1b0f-5c3d-911c-64b7021502b8"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -1968,39 +2180,13 @@
         ],
         "convertedManaCost": 2.0,
         "count": 1,
-        "edhrecRank": 12574,
+        "edhrecRank": 13231,
         "edhrecSaltiness": 0.27,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "Those who intrude upon the Dimir seldom remember that they have done so.",
         "foreignData": [
-          {
-            "flavorText": "Wer den Dimir zu nahe kommt, erinnert sich nur selten daran.",
-            "identifiers": {
-              "multiverseId": "682784",
-              "scryfallId": "96ea770f-c10a-4e24-a762-8687b67ee1fa"
-            },
-            "language": "German",
-            "multiverseId": 682784,
-            "name": "Mauer des Vergessens",
-            "text": "Verteidiger (Diese Kreatur kann nicht angreifen.)\nWenn die Mauer des Vergessens ins Spiel kommt, millt ein Spieler deiner Wahl vier Karten. (Er legt die obersten vier Karten seiner Bibliothek auf seinen Friedhof.)",
-            "type": "Kreatur — Mauer",
-            "uuid": "f76e6ea6-15e6-5684-94e7-d4282ec90fc8"
-          },
-          {
-            "flavorText": "Aquellos que importunan al Gremio Dimir pocas veces lo recuerdan.",
-            "identifiers": {
-              "multiverseId": "682898",
-              "scryfallId": "adab8366-3867-4fef-9758-78a4c887a5d1"
-            },
-            "language": "Spanish",
-            "multiverseId": 682898,
-            "name": "Muro de los pensamientos perdidos",
-            "text": "Defensor. (Esta criatura no puede atacar.)\nCuando el Muro de los pensamientos perdidos entre, el jugador objetivo muele cuatro cartas. (Pone las cuatro primeras cartas de su biblioteca en su cementerio.)",
-            "type": "Criatura — Muro",
-            "uuid": "cdce0895-99e7-5028-b509-d775129efd7e"
-          },
           {
             "flavorText": "Ceux qui s'infiltrent chez les Dimir s'en souviennent rarement.",
             "identifiers": {
@@ -2010,9 +2196,28 @@
             "language": "French",
             "multiverseId": 683012,
             "name": "Mur des pensées perdues",
+            "skuIds": {
+              "nonfoil": "2c4379f7-61b6-55c3-8c9b-b4c609db493c"
+            },
             "text": "Défenseur (Cette créature ne peut pas attaquer.)\nQuand le Mur des pensées perdues arrive, un joueur ciblé meule quatre cartes. (Il met les quatre cartes du dessus de sa bibliothèque dans son cimetière.)",
             "type": "Créature — mur",
             "uuid": "9f84870a-50b6-5a2a-9475-9cb98bcb8653"
+          },
+          {
+            "flavorText": "Wer den Dimir zu nahe kommt, erinnert sich nur selten daran.",
+            "identifiers": {
+              "multiverseId": "682784",
+              "scryfallId": "96ea770f-c10a-4e24-a762-8687b67ee1fa"
+            },
+            "language": "German",
+            "multiverseId": 682784,
+            "name": "Mauer des Vergessens",
+            "skuIds": {
+              "nonfoil": "7af13878-5906-50e5-b267-a1e9bc53178a"
+            },
+            "text": "Verteidiger (Diese Kreatur kann nicht angreifen.)\nWenn die Mauer des Vergessens ins Spiel kommt, millt ein Spieler deiner Wahl vier Karten. (Er legt die obersten vier Karten seiner Bibliothek auf seinen Friedhof.)",
+            "type": "Kreatur — Mauer",
+            "uuid": "f76e6ea6-15e6-5684-94e7-d4282ec90fc8"
           },
           {
             "flavorText": "Chi si imbatte nei Dimir di rado ricorda di averlo fatto.",
@@ -2023,6 +2228,9 @@
             "language": "Italian",
             "multiverseId": 683126,
             "name": "Muro dei Pensieri Perduti",
+            "skuIds": {
+              "nonfoil": "0fe3570c-af70-5040-9f6f-eedfe8b9371a"
+            },
             "text": "Difensore (Questa creatura non può attaccare.)\nQuando il Muro dei Pensieri Perduti entra, un giocatore bersaglio macina quattro carte. (Mette nel suo cimitero le prime quattro carte del suo grimorio.)",
             "type": "Creatura — Muro",
             "uuid": "5a2a8eab-10f3-52d2-bf90-fe317206ff5e"
@@ -2036,14 +2244,31 @@
             "language": "Japanese",
             "multiverseId": 683240,
             "name": "迷える思考の壁",
+            "skuIds": {
+              "nonfoil": "41e0395c-38cd-52a5-8af5-1c57c8fc870d"
+            },
             "text": "防衛（このクリーチャーでは攻撃できない。）\n迷える思考の壁が戦場に出たとき、プレイヤー１人を対象とする。そのプレイヤーはカード４枚を切削する。（そのプレイヤーは、自分のライブラリーの一番上にあるカード４枚を自分の墓地に置く。）",
             "type": "クリーチャー — 壁",
             "uuid": "8f804be1-6713-5ca2-b676-e6a55145e714"
+          },
+          {
+            "flavorText": "Aquellos que importunan al Gremio Dimir pocas veces lo recuerdan.",
+            "identifiers": {
+              "multiverseId": "682898",
+              "scryfallId": "adab8366-3867-4fef-9758-78a4c887a5d1"
+            },
+            "language": "Spanish",
+            "multiverseId": 682898,
+            "name": "Muro de los pensamientos perdidos",
+            "skuIds": {
+              "nonfoil": "5f5f2132-5727-56c8-83ef-600e97ae9600"
+            },
+            "text": "Defensor. (Esta criatura no puede atacar.)\nCuando el Muro de los pensamientos perdidos entre, el jugador objetivo muele cuatro cartas. (Pone las cuatro primeras cartas de su biblioteca en su cementerio.)",
+            "type": "Criatura — Muro",
+            "uuid": "cdce0895-99e7-5028-b509-d775129efd7e"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305532",
           "cardsphereId": "131089",
@@ -2077,7 +2302,6 @@
           "legacy": "Legal",
           "modern": "Legal",
           "oathbreaker": "Legal",
-          "penny": "Legal",
           "pioneer": "Legal",
           "timeless": "Legal",
           "vintage": "Legal"
@@ -2087,6 +2311,7 @@
         "name": "Wall of Lost Thoughts",
         "number": "384",
         "originalText": "Defender (This creature can't attack.)\nWhen Wall of Lost Thoughts enters, target player mills four cards. (They put the top four cards of their library into their graveyard.)",
+        "originalType": "Creature – Wall",
         "power": "0",
         "printings": [
           "J25",
@@ -2100,9 +2325,14 @@
         },
         "rarity": "uncommon",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "74f0df00-968c-5176-9f3e-861d1478fcba"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2133,39 +2363,13 @@
         "colors": [],
         "convertedManaCost": 0.0,
         "count": 1,
-        "edhrecRank": 1184,
+        "edhrecRank": 1049,
         "edhrecSaltiness": 0.17,
         "finishes": [
           "nonfoil"
         ],
         "flavorText": "All the wonders of the natural world in one breathtaking microcosm.",
         "foreignData": [
-          {
-            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
-            "identifiers": {
-              "multiverseId": "684059",
-              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
-            },
-            "language": "German",
-            "multiverseId": 684059,
-            "name": "Gedeihende Insel",
-            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
-            "type": "Land",
-            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
-          },
-          {
-            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
-            "identifiers": {
-              "multiverseId": "684098",
-              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
-            },
-            "language": "Spanish",
-            "multiverseId": 684098,
-            "name": "Islote floreciente",
-            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
-            "type": "Tierra",
-            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
-          },
           {
             "flavorText": "Toutes les merveilles de la nature dans un microcosme à couper le souffle.",
             "identifiers": {
@@ -2175,9 +2379,28 @@
             "language": "French",
             "multiverseId": 684137,
             "name": "Île prospère",
+            "skuIds": {
+              "nonfoil": "fdc167be-8ef8-57ed-a369-d7f00d07733b"
+            },
             "text": "L'Île prospère arrive engagée. Au moment où elle arrive, choisissez une couleur autre que le bleu.\n{T} : Ajoutez {U} ou un mana de la couleur choisie.",
             "type": "Terrain",
             "uuid": "f32d1d07-9c48-56a9-a999-cf2dfbcb8ca4"
+          },
+          {
+            "flavorText": "Alle Wunder der natürlichen Welt in einem einzigen atemberaubenden Mikrokosmos.",
+            "identifiers": {
+              "multiverseId": "684059",
+              "scryfallId": "7da27ba7-1b72-441f-8a07-7e9ac7a242b5"
+            },
+            "language": "German",
+            "multiverseId": 684059,
+            "name": "Gedeihende Insel",
+            "skuIds": {
+              "nonfoil": "03938098-9af1-539d-a5cc-04e6aab95a54"
+            },
+            "text": "Die Gedeihende Insel kommt getappt ins Spiel. Sowie sie ins Spiel kommt, bestimme eine Farbe außer Blau.\n{T}: Erzeuge {U} oder ein Mana der bestimmten Farbe.",
+            "type": "Land",
+            "uuid": "d3a8fe45-2bd3-58fa-b682-b101b506333a"
           },
           {
             "flavorText": "Tutte le meraviglie della natura in un microcosmo mozzafiato.",
@@ -2188,6 +2411,9 @@
             "language": "Italian",
             "multiverseId": 684176,
             "name": "Isola Florida",
+            "skuIds": {
+              "nonfoil": "c9d96256-d217-5ef1-94f0-693550cc6ba5"
+            },
             "text": "L'Isola Florida entra TAPpata. Mentre entra, scegli un colore diverso dal blu.\n{T}: Aggiungi {U} o un mana del colore scelto.",
             "type": "Terra",
             "uuid": "d854df94-b0b9-585e-9475-f33132bcaad8"
@@ -2201,14 +2427,31 @@
             "language": "Japanese",
             "multiverseId": 684215,
             "name": "興隆する島嶼",
+            "skuIds": {
+              "nonfoil": "9a973770-024c-5e07-a3c6-3af88a966157"
+            },
             "text": "興隆する島嶼はタップ状態で戦場に出る。これが戦場に出るに際し、青でない色１色を選ぶ。\n{T}：{U}か、その選ばれた色のマナ１点を加える。",
             "type": "土地",
             "uuid": "9fa0a808-67b4-51b4-ac87-8d95f9f58912"
+          },
+          {
+            "flavorText": "Todas las maravillas del mundo natural en un microcosmos asombroso.",
+            "identifiers": {
+              "multiverseId": "684098",
+              "scryfallId": "4a150e04-e0bf-4cec-8492-251ecdd63095"
+            },
+            "language": "Spanish",
+            "multiverseId": 684098,
+            "name": "Islote floreciente",
+            "skuIds": {
+              "nonfoil": "520ae535-6387-5433-9539-ea7dfce43789"
+            },
+            "text": "El Islote floreciente entra girado. En cuanto entre, elige un color que no sea azul.\n{T}: Agrega {U} o un maná del color elegido.",
+            "type": "Tierra",
+            "uuid": "ad2e2d09-5af9-5627-a941-41c0bc7068a1"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "306117",
           "cardsphereId": "130626",
@@ -2246,12 +2489,14 @@
         "name": "Thriving Isle",
         "number": "778",
         "originalText": "Thriving Isle enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+        "originalType": "Land",
         "printings": [
           "AFC",
           "BLC",
           "CLU",
           "CMM",
           "DSC",
+          "ECC",
           "J22",
           "J25",
           "JMP",
@@ -2259,7 +2504,15 @@
           "MOC",
           "NCC",
           "TLE",
+          "TMC",
           "WHO"
+        ],
+        "producedMana": [
+          "B",
+          "G",
+          "R",
+          "U",
+          "W"
         ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/66576e95f29fe898",
@@ -2268,9 +2521,14 @@
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "67685a63-8e31-57e4-acb3-d94a375bae4f"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [],
@@ -2305,36 +2563,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681254",
-              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
-            },
-            "language": "German",
-            "multiverseId": 681254,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681269",
-              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
-            },
-            "language": "Spanish",
-            "multiverseId": 681269,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681284",
               "scryfallId": "8751d0e8-aa20-4d8e-a39f-e542d6ab2424"
             },
             "language": "French",
             "multiverseId": 681284,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "cb0ef6d5-f7d2-5691-bfdf-53e3a7d110b9"
+            },
             "type": "Terrain de base — île",
             "uuid": "2fa4959c-05bc-5a26-949f-86ad2022ec17"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681254",
+              "scryfallId": "b2bc4e37-f2e0-4f55-8497-01365162d414"
+            },
+            "language": "German",
+            "multiverseId": 681254,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "04ea0771-3452-51f4-bdf6-6fe1ca1af63a"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "0b442da9-382e-579a-bfe5-abf85fbcb6a5"
           },
           {
             "identifiers": {
@@ -2344,6 +2597,9 @@
             "language": "Italian",
             "multiverseId": 681299,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "f13bcd50-af8f-5431-a106-a9d255f15459"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2fecba50-81d6-54be-8db1-3c834a6d3911"
           },
@@ -2355,18 +2611,34 @@
             "language": "Japanese",
             "multiverseId": 681314,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "c117e37a-2d0d-5996-bf9e-7d64e38a799d"
+            },
             "type": "基本土地 — 島",
             "uuid": "d7a48273-b798-5958-878c-6e2b981e519a"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681269",
+              "scryfallId": "313191e6-2c38-4b8c-a2a3-d698bd8fe1f2"
+            },
+            "language": "Spanish",
+            "multiverseId": 681269,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "93455c64-eb7d-5e65-9540-2db34e522179"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "31d54ef8-bac8-53ba-91b6-0189d5582449"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305218",
           "cardsphereId": "131374",
           "deckboxId": "98078",
           "mcmId": "795505",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95169",
           "mtgjsonV4Id": "08023772-e668-5bc2-b371-b0f5ce320b77",
           "multiverseId": "681239",
@@ -2379,7 +2651,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2407,6 +2678,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "84",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2476,6 +2748,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -2636,15 +2909,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/f22125830525c472",
+          "cardmarket": "https://mtgjson.com/links/76af4fc19321352c",
           "tcgplayer": "https://mtgjson.com/links/72c5fde6e8a3d9d8"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "21402412-1e93-5f68-911b-a3ab19229cbc"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -2687,36 +2969,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681255",
-              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
-            },
-            "language": "German",
-            "multiverseId": 681255,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681270",
-              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
-            },
-            "language": "Spanish",
-            "multiverseId": 681270,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681285",
               "scryfallId": "9e84b50d-978a-40d6-94e8-af31683281e3"
             },
             "language": "French",
             "multiverseId": 681285,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "87b6c0f1-4e30-5ed3-88f9-b1440d4397e3"
+            },
             "type": "Terrain de base — île",
             "uuid": "642be50f-3b85-536c-86f4-9596982e06f9"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681255",
+              "scryfallId": "12a66cbf-04fe-4081-8ec2-9bccf18fdac0"
+            },
+            "language": "German",
+            "multiverseId": 681255,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "7af6d605-2c12-5380-9b05-56684ac83548"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "cfaadfb7-3007-5bd4-b6a7-67cf96c98fa9"
           },
           {
             "identifiers": {
@@ -2726,6 +3003,9 @@
             "language": "Italian",
             "multiverseId": 681300,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "aa2acc70-8c55-59c3-b1b3-335ecd8cdcf7"
+            },
             "type": "Terra Base — Isola",
             "uuid": "d5e2861c-fd50-5af7-8e18-3163bcd79db2"
           },
@@ -2737,18 +3017,34 @@
             "language": "Japanese",
             "multiverseId": 681315,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "9d13c5e5-565f-5bcb-ac12-4623bfe4c5ad"
+            },
             "type": "基本土地 — 島",
             "uuid": "83a96949-738c-5be4-b45f-894a4f495523"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681270",
+              "scryfallId": "587c0a75-90c5-4588-82b3-9f7da2951c07"
+            },
+            "language": "Spanish",
+            "multiverseId": 681270,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "0aa11aa1-a1be-5474-aa73-e762139aa94b"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "eda83c0d-ded2-5652-ac7d-9c9348ea77df"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305219",
           "cardsphereId": "131375",
           "deckboxId": "98079",
           "mcmId": "795506",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95170",
           "mtgjsonV4Id": "4a6a5d79-978e-5929-bf2c-3d4853ef5e80",
           "multiverseId": "681240",
@@ -2761,7 +3057,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -2789,6 +3084,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "85",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -2858,6 +3154,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3018,15 +3315,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/8f44f90d3671e2e3",
+          "cardmarket": "https://mtgjson.com/links/c83b9d49e721a8d6",
           "tcgplayer": "https://mtgjson.com/links/e9b4b098951c03a6"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "b80979e0-eed6-52a5-8f39-b7f4aac6d594"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3069,36 +3375,31 @@
         "foreignData": [
           {
             "identifiers": {
-              "multiverseId": "681256",
-              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
-            },
-            "language": "German",
-            "multiverseId": 681256,
-            "name": "Insel",
-            "type": "Standardland — Insel",
-            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
-          },
-          {
-            "identifiers": {
-              "multiverseId": "681271",
-              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
-            },
-            "language": "Spanish",
-            "multiverseId": 681271,
-            "name": "Isla",
-            "type": "Tierra básica — Isla",
-            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
-          },
-          {
-            "identifiers": {
               "multiverseId": "681286",
               "scryfallId": "e1a404fd-307d-4c9f-a504-30b66e8274c0"
             },
             "language": "French",
             "multiverseId": 681286,
             "name": "Île",
+            "skuIds": {
+              "nonfoil": "0c917650-1318-57f6-8da7-86999824bcf2"
+            },
             "type": "Terrain de base — île",
             "uuid": "db5773a3-42a2-542d-bff3-487b702fc6ea"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681256",
+              "scryfallId": "21fef0ad-e1e3-4816-93e1-92e42558f0de"
+            },
+            "language": "German",
+            "multiverseId": 681256,
+            "name": "Insel",
+            "skuIds": {
+              "nonfoil": "fce83af5-56a7-5297-aeff-1c20caf0b035"
+            },
+            "type": "Standardland — Insel",
+            "uuid": "13c69719-fc5d-51a8-8acb-dbe1ffc6ff28"
           },
           {
             "identifiers": {
@@ -3108,6 +3409,9 @@
             "language": "Italian",
             "multiverseId": 681301,
             "name": "Isola",
+            "skuIds": {
+              "nonfoil": "4dfc8e1d-1d20-5b8d-9391-23f5e94b63c0"
+            },
             "type": "Terra Base — Isola",
             "uuid": "2c217a57-f70c-57d6-a651-849ec0697383"
           },
@@ -3119,18 +3423,34 @@
             "language": "Japanese",
             "multiverseId": 681316,
             "name": "島",
+            "skuIds": {
+              "nonfoil": "bb009efe-4d5f-594d-a597-179d0d26f514"
+            },
             "type": "基本土地 — 島",
             "uuid": "032389ed-8c5c-581f-b80e-e14b3678906e"
+          },
+          {
+            "identifiers": {
+              "multiverseId": "681271",
+              "scryfallId": "c3713ca3-16b4-486c-8d3c-0d4d4e122346"
+            },
+            "language": "Spanish",
+            "multiverseId": 681271,
+            "name": "Isla",
+            "skuIds": {
+              "nonfoil": "91bb7f4a-9b9d-50ac-b116-b68a1d9ab1ff"
+            },
+            "type": "Tierra básica — Isla",
+            "uuid": "5fd6eced-4e9f-5f8f-8328-1448b40bec5f"
           }
         ],
         "frameVersion": "2015",
-        "hasFoil": false,
-        "hasNonFoil": true,
         "identifiers": {
           "cardKingdomId": "305220",
           "cardsphereId": "131376",
           "deckboxId": "98080",
           "mcmId": "795507",
+          "mcmMetaId": "2923",
           "mtgArenaId": "95171",
           "mtgjsonV4Id": "a58bedd2-487d-5d09-a695-d1c7ba02955a",
           "multiverseId": "681241",
@@ -3143,7 +3463,6 @@
         "isEtched": false,
         "isFoil": false,
         "isReprint": true,
-        "isStarter": true,
         "language": "English",
         "layout": "normal",
         "legalities": {
@@ -3171,6 +3490,7 @@
         "manaValue": 0.0,
         "name": "Island",
         "number": "86",
+        "originalType": "Basic Land – Island",
         "printings": [
           "10E",
           "2ED",
@@ -3240,6 +3560,7 @@
           "DSK",
           "DTK",
           "E01",
+          "ECL",
           "ELD",
           "EOE",
           "FBB",
@@ -3400,15 +3721,24 @@
           "ZEN",
           "ZNR"
         ],
+        "producedMana": [
+          "U"
+        ],
         "purchaseUrls": {
           "cardKingdom": "https://mtgjson.com/links/6b2ead2807d1965a",
+          "cardmarket": "https://mtgjson.com/links/9bb956231e7930e4",
           "tcgplayer": "https://mtgjson.com/links/f46f91ab3b641307"
         },
         "rarity": "common",
         "setCode": "J25",
+        "skuIds": {
+          "nonfoil": "7461ac97-c757-5f2d-8711-f19dab487de3"
+        },
         "sourceProducts": {
           "nonfoil": [
-            "4498a9bc-294c-5036-91e5-031880296db8"
+            "4498a9bc-294c-5036-91e5-031880296db8",
+            "558329cf-efd3-563c-9de0-76042195eb92",
+            "c2cff451-e662-5378-b537-f68a9f72edd2"
           ]
         },
         "subtypes": [
@@ -3424,8 +3754,8 @@
         ],
         "uuid": "e99fe491-7fe4-5d75-9d8f-644915c0b4ec",
         "variations": [
-          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc",
-          "496d35d7-ef10-5e38-9d33-3aea0bd146a8"
+          "496d35d7-ef10-5e38-9d33-3aea0bd146a8",
+          "c20b995b-fdd5-5b46-acc1-3443bc0cd7dc"
         ]
       }
     ],
@@ -3440,5 +3770,10 @@
     ],
     "tokens": [],
     "type": "Jumpstart"
+  },
+  "meta": {
+    "date": "2026-03-31",
+    "version": "5.3.0+20260331",
+    "publicId": "9f1f3af9728707"
   }
 }
