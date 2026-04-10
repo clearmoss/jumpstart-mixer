@@ -180,12 +180,16 @@ export function makeDeckListString(deckList: ClipboardCard[]) {
   return deckListString;
 }
 
+export function cleanThemeName(name: string) {
+  return name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+}
+
 export async function fetchThemeCard(
   packName: string,
   setCode: string,
 ): Promise<CardDeck | null> {
   // removing any trailing numbers (whether in parentheses or not)
-  const themeName = packName.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+  const themeName = cleanThemeName(packName);
   const card = await Cards.byName(themeName, `F${setCode}`);
 
   if (card) {

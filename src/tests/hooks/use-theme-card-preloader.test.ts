@@ -3,7 +3,7 @@ import { renderHook, waitFor } from "@testing-library/react";
 import type { Deck } from "@/lib/types";
 
 const { mockQueueAdd } = vi.hoisted(() => {
-  // Make the mock synchronous to remove timing-related flakiness
+  // make the mock synchronous to remove timing-related flakiness
   return { mockQueueAdd: vi.fn((task) => task()) };
 });
 
@@ -13,8 +13,18 @@ vi.mock("p-queue", () => ({
   },
 }));
 
-const { mockPrefetchQuery } = vi.hoisted(() => {
-  return { mockPrefetchQuery: vi.fn() };
+const {
+  mockPrefetchQuery,
+  mockGetQueryData,
+  mockFetchQuery,
+  mockUseIsRestoring,
+} = vi.hoisted(() => {
+  return {
+    mockPrefetchQuery: vi.fn(),
+    mockGetQueryData: vi.fn(),
+    mockFetchQuery: vi.fn(),
+    mockUseIsRestoring: vi.fn(() => false),
+  };
 });
 
 vi.mock("@tanstack/react-query", async (importOriginal) => {
@@ -23,7 +33,10 @@ vi.mock("@tanstack/react-query", async (importOriginal) => {
     ...actual,
     useQueryClient: () => ({
       prefetchQuery: mockPrefetchQuery,
+      getQueryData: mockGetQueryData,
+      fetchQuery: mockFetchQuery,
     }),
+    useIsRestoring: mockUseIsRestoring,
   };
 });
 
@@ -63,8 +76,8 @@ describe("useThemeCardPreloader hook", () => {
 
     await waitFor(() => {
       expect(mockQueueAdd).toHaveBeenCalledTimes(1);
-      expect(mockPrefetchQuery).toHaveBeenCalledTimes(1);
-      expect(mockPrefetchQuery).toHaveBeenCalledWith(
+      expect(mockFetchQuery).toHaveBeenCalledTimes(1);
+      expect(mockFetchQuery).toHaveBeenCalledWith(
         expect.objectContaining({
           queryKey: ["themeCard", "Dragons", "JMP"],
         }),
@@ -103,13 +116,13 @@ describe("useThemeCardPreloader hook", () => {
       initialProps: { pack: pack1 },
     });
 
-    await waitFor(() => expect(mockPrefetchQuery).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(mockFetchQuery).toHaveBeenCalledTimes(1));
 
     rerender({ pack: pack2 });
 
-    await waitFor(() => expect(mockPrefetchQuery).toHaveBeenCalledTimes(2));
+    await waitFor(() => expect(mockFetchQuery).toHaveBeenCalledTimes(2));
     await waitFor(() =>
-      expect(mockPrefetchQuery).toHaveBeenLastCalledWith(
+      expect(mockFetchQuery).toHaveBeenLastCalledWith(
         expect.objectContaining({
           queryKey: ["themeCard", "Elves", "JMP"],
         }),
@@ -128,16 +141,40 @@ describe("useThemeCardPreloader hook", () => {
       type: "",
     });
 
+    mockGetQueryData.mockReturnValue(undefined);
+
     const { rerender } = renderHook(({ pack }) => useThemeCardPreloader(pack), {
       initialProps: { pack: getMockPack() },
     });
 
     await waitFor(() => {
-      expect(mockPrefetchQuery).toHaveBeenCalledTimes(1);
+      expect(mockFetchQuery).toHaveBeenCalledTimes(1);
     });
+
+    // simulate that it's now in the cache
+    mockGetQueryData.mockReturnValue({ name: "Dragons" });
 
     rerender({ pack: getMockPack() });
 
-    expect(mockPrefetchQuery).toHaveBeenCalledTimes(1);
+    expect(mockFetchQuery).toHaveBeenCalledTimes(1);
+  });
+
+  it("should not add a prefetch task if query client is restoring", async () => {
+    mockUseIsRestoring.mockReturnValue(true);
+
+    const mockPack = {
+      name: "Dragons 1",
+      code: "JMP",
+      mainBoard: [],
+      releaseDate: null,
+      sealedProductUuids: "",
+      sideBoard: [],
+      type: "",
+    } as Deck;
+
+    renderHook(() => useThemeCardPreloader(mockPack));
+
+    expect(mockQueueAdd).not.toHaveBeenCalled();
+    expect(mockFetchQuery).not.toHaveBeenCalled();
   });
 });

@@ -10,22 +10,20 @@ import {
 import { Link } from "@tanstack/react-router";
 import {
   cn,
+  cleanThemeName,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
   populateDeckList,
 } from "@/lib/utils.ts";
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import DeckList from "@/components/deck-list.tsx";
 import ColorIcons from "@/components/color-icons.tsx";
-import { useQueryClient } from "@tanstack/react-query";
-import { useSetAtom } from "jotai";
-import { currentSidebarCardAtom } from "@/lib/atoms.ts";
-import { themeCardQueryOptions } from "@/lib/queries.ts";
 import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
+import { usePackHover } from "@/hooks/use-pack-hover.ts";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -58,22 +56,7 @@ function Pack({
   );
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
 
-  const queryClient = useQueryClient();
-  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
-
-  const handleMouseEnter = useCallback(async () => {
-    if (pack && publicId) {
-      // remove trailing numbers for improved query caching
-      const themeName = pack.name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
-      const themeCard = await queryClient.fetchQuery(
-        themeCardQueryOptions(themeName, pack.code),
-      );
-
-      if (themeCard) {
-        setCurrentSidebarCard(themeCard);
-      }
-    }
-  }, [pack, publicId, queryClient, setCurrentSidebarCard]);
+  const { handleMouseEnter } = usePackHover(pack, publicId);
 
   useThemeCardPreloader(pack);
 
@@ -84,7 +67,7 @@ function Pack({
   return (
     <Card
       className={cn(
-        "bg-card w-128 max-w-full border-t-8",
+        "bg-card w-lg max-w-full border-t-8",
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
@@ -99,8 +82,7 @@ function Pack({
         >
           <div>
             <CardTitle className="flex items-center gap-4">
-              {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
-              {pack.name.replace(/\((\d+)\)/g, "$1")}
+              {cleanThemeName(pack.name)}
             </CardTitle>
             <CardDescription className="text-muted-foreground">
               {pack.code}

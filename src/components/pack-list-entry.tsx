@@ -9,24 +9,19 @@ import {
 import { Link } from "@tanstack/react-router";
 import {
   cn,
+  cleanThemeName,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
   populateDeckList,
 } from "@/lib/utils.ts";
-import React, { useCallback, useMemo } from "react";
+import React, { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import ColorIcons from "@/components/color-icons.tsx";
-import { useSetAtom } from "jotai";
-import {
-  currentSidebarCardAtom,
-  currentSidebarDeckListAtom,
-} from "@/lib/atoms.ts";
-import { useQueryClient } from "@tanstack/react-query";
-import { themeCardQueryOptions } from "@/lib/queries.ts";
 import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
+import { usePackHover } from "@/hooks/use-pack-hover.ts";
 
 const STYLE_VARIANTS: Record<
   MtgColor,
@@ -72,9 +67,7 @@ type PackListEntryProps = {
 };
 
 function usePackData(pack: Deck | undefined, publicId: string | undefined) {
-  const setCurrentSidebarDeckList = useSetAtom(currentSidebarDeckListAtom);
-  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
-  const queryClient = useQueryClient();
+  const { handleMouseEnter } = usePackHover(pack, publicId);
 
   const { packColors, currentDeckList, primaryColor } = useMemo(() => {
     if (!pack) {
@@ -99,28 +92,6 @@ function usePackData(pack: Deck | undefined, publicId: string | undefined) {
     };
   }, [pack]);
 
-  const handleMouseEnter = useCallback(async () => {
-    if (pack && publicId) {
-      setCurrentSidebarDeckList({ pack, publicId });
-
-      // remove trailing numbers for improved query caching
-      const themeName = pack.name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
-      const themeCard = await queryClient.fetchQuery(
-        themeCardQueryOptions(themeName, pack.code),
-      );
-
-      if (themeCard) {
-        setCurrentSidebarCard(themeCard);
-      }
-    }
-  }, [
-    pack,
-    publicId,
-    setCurrentSidebarDeckList,
-    queryClient,
-    setCurrentSidebarCard,
-  ]);
-
   return { packColors, primaryColor, currentDeckList, handleMouseEnter };
 }
 
@@ -142,7 +113,7 @@ function PackListEntry({
   return (
     <Card
       className={cn(
-        "bg-card max-w-224 border-l-12 px-0 py-4 sm:py-2",
+        "bg-card max-w-4xl border-l-12 px-0 py-4 sm:py-2",
         STYLE_VARIANTS[primaryColor].border,
       )}
       onMouseEnter={handleMouseEnter}
@@ -159,10 +130,8 @@ function PackListEntry({
             "py-4 sm:py-2", // add it back for the content
             "-ml-6", // counteract CardHeader's left padding
             "pl-6", // add it back for the content
-            "bg-no-repeat transition-all duration-200 ease-in-out sm:bg-gradient-to-r",
-            isCurrentlyDisplayed
-              ? "bg-[length:100%_100%]"
-              : "bg-[length:0%_100%]",
+            "bg-no-repeat transition-all duration-200 ease-in-out sm:bg-linear-to-r",
+            isCurrentlyDisplayed ? "bg-size-[100%_100%]" : "bg-size-[0%_100%]",
             isCurrentlyDisplayed
               ? STYLE_VARIANTS[primaryColor].background
               : "from-transparent",
@@ -175,8 +144,7 @@ function PackListEntry({
             )}
             data-testid="pack-name"
           >
-            {/* the numbering format from MTGJSON is inconsistent, so remove () if present: */}
-            {pack.name.replace(/\((\d+)\)/g, "$1")}
+            {cleanThemeName(pack.name)}
           </CardTitle>
         </Link>
         <CardDescription
