@@ -4,8 +4,8 @@ import PQueue from "p-queue";
 import { themeCardQueryOptions } from "@/lib/queries.ts";
 import type { Deck } from "@/lib/types.ts";
 
-// respect Scryfall's rate limit of 100 ms between requests
-const queue = new PQueue({ intervalCap: 1, interval: 100 });
+// respect Scryfall's rate limit of 500 ms between requests
+const queue = new PQueue({ intervalCap: 1, interval: 550 });
 const prefetchedThemeCards = new Set<string>();
 
 export function useThemeCardPreloader(pack: Deck | undefined) {
