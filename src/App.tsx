@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider.tsx";
 import { store } from "@/lib/atoms.ts";
 import { persister } from "@/lib/persister.ts";
 import { queryClient } from "@/lib/query-client.ts";
-import { router } from "@/lib/router.ts";
+import { router } from "@/lib/router.tsx";
 
 export function App() {
   return (

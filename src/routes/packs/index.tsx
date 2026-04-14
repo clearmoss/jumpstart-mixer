@@ -79,9 +79,12 @@ function RouteComponent() {
   return (
     <div className="flex">
       <Sidebar></Sidebar>
-      <div className="flex grow flex-col p-8" data-testid="packs-content">
+      <div
+        className="flex grow flex-col p-2 sm:p-8"
+        data-testid="packs-content"
+      >
         <div className="flex flex-col gap-8 pb-8">
-          <div className="flex gap-8">
+          <div className="flex flex-col gap-8 lg:flex-row">
             <div className="flex gap-4">
               <ColorSelector />
               <SetSelector />

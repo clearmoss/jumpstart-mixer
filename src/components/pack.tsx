@@ -61,6 +61,25 @@ function Pack({
     return <div>Pack data unavailable.</div>;
   }
 
+  const ActionButtons = (
+    <>
+      <Link
+        to="/mixer"
+        title="Mix with this pack"
+        search={
+          position === 1
+            ? { packId1: publicId, packId2: undefined }
+            : { packId1: undefined, packId2: publicId }
+        }
+      >
+        <Button size="sm" variant="secondary" className="cursor-pointer">
+          <Shuffle className="h-4 w-4" />
+        </Button>
+      </Link>
+      <CopyButton size="sm" variant="default" textToCopy={currentDeckList} />
+    </>
+  );
+
   return (
     <Card
       className={cn(
@@ -68,46 +87,37 @@ function Pack({
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
-      <CardHeader className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
-        <Link
-          to="/packs/$packId"
-          params={{
-            packId: publicId,
-          }}
-          className="flex items-start gap-8"
-          onMouseEnter={handleMouseEnter}
-        >
-          <div>
-            <CardTitle className="flex items-center gap-4">
-              {cleanThemeName(pack.data.name)}
-            </CardTitle>
-            <CardDescription className="text-muted-foreground">
-              {pack.data.code}
-            </CardDescription>
-          </div>
-        </Link>
-        <div className="flex grow items-center gap-2">
+      <CardHeader className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
+        <div className="flex w-full items-start justify-between sm:w-auto sm:justify-start">
+          <Link
+            to="/packs/$packId"
+            params={{
+              packId: publicId,
+            }}
+            className="flex items-start gap-8"
+            onMouseEnter={handleMouseEnter}
+          >
+            <div>
+              <CardTitle className="flex items-center gap-4">
+                {cleanThemeName(pack.data.name)}
+              </CardTitle>
+              <CardDescription className="text-muted-foreground">
+                {pack.data.code}
+              </CardDescription>
+            </div>
+          </Link>
+
+          {/* buttons for narrow screens */}
+          <div className="flex gap-2 sm:hidden">{ActionButtons}</div>
+        </div>
+
+        <div className="flex items-center gap-2 sm:grow">
           <ColorIcons packColors={packColors} />
         </div>
-        <CardAction className="flex gap-2">
-          <Link
-            to="/mixer"
-            title="Mix with this pack"
-            search={
-              position === 1
-                ? { packId1: publicId, packId2: undefined }
-                : { packId1: undefined, packId2: publicId }
-            }
-          >
-            <Button size="sm" variant="secondary" className="cursor-pointer">
-              <Shuffle />
-            </Button>
-          </Link>
-          <CopyButton
-            size="sm"
-            variant="default"
-            textToCopy={currentDeckList}
-          />
+
+        {/* buttons for wide screens */}
+        <CardAction className="hidden gap-2 sm:ml-auto sm:flex">
+          {ActionButtons}
         </CardAction>
       </CardHeader>
       <CardContent>

@@ -198,9 +198,9 @@ function RouteComponent(): JSX.Element {
   return (
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
-      <div className="flex w-full flex-col p-8">
+      <div className="flex w-full flex-col p-2 sm:p-8">
         <div className="mb-8 flex flex-col items-start gap-4">
-          <div className="mb-4 flex flex-col items-start gap-8 lg:flex-row lg:items-center">
+          <div className="mb-4 flex flex-col items-start gap-8 xl:flex-row xl:items-center">
             <div className="flex gap-4">
               <ColorSelector />
               <SetSelector />

@@ -122,7 +122,7 @@ const AboutAppSection = () => (
 function About() {
   return (
     <div className="flex w-full">
-      <div className="mx-auto flex w-full max-w-[70ch] flex-col p-8 text-xl leading-[145%]">
+      <div className="mx-auto flex w-full max-w-[70ch] flex-col p-4 text-xl leading-[145%] md:p-8">
         <WhatIsJumpstartSection />
         <HowToUseSection />
         <AboutAppSection />

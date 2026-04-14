@@ -59,13 +59,15 @@ function RouteComponent() {
   return (
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
-      <div className="flex w-full flex-col p-8">
-        <div className="flex gap-4 pb-8">
-          <ColorSelector />
-          <SetSelector />
+      <div className="flex w-full flex-col gap-4 p-2 sm:p-8">
+        <div className="mb-4 flex flex-col gap-8 lg:flex-row">
+          <div className="flex gap-4">
+            <ColorSelector />
+            <SetSelector />
+          </div>
           <CategoriesToggle />
         </div>
-        <div className="mb-8 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
+        <div className="mb-4 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
           <Link
             to={"/packs/$packId"}
             params={{ packId: packs[0].meta.publicId }}
