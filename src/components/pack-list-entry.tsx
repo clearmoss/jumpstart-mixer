@@ -1,4 +1,4 @@
-import type { ClipboardCard, Deck } from "@/lib/types.ts";
+import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   Card,
   CardAction,
@@ -20,7 +20,6 @@ import CopyButton from "@/components/copy-button.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import ColorIcons from "@/components/color-icons.tsx";
-import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
 
 const STYLE_VARIANTS: Record<
@@ -60,13 +59,13 @@ const STYLE_VARIANTS: Record<
 };
 
 type PackListEntryProps = {
-  pack: Deck | undefined;
+  pack: PackFile | undefined;
   publicId: string | undefined;
   position?: number;
   isCurrentlyDisplayed: boolean;
 };
 
-function usePackData(pack: Deck | undefined, publicId: string | undefined) {
+function usePackData(pack: PackFile | undefined, publicId: string | undefined) {
   const { handleMouseEnter } = usePackHover(pack, publicId);
 
   const { packColors, currentDeckList, primaryColor } = useMemo(() => {
@@ -78,11 +77,11 @@ function usePackData(pack: Deck | undefined, publicId: string | undefined) {
       };
     }
 
-    const colors = determinePackColors(pack);
+    const colors = determinePackColors(pack.data);
     const primaryColor = (colors[0]?.color ?? "C") as MtgColor;
 
     const deckList: ClipboardCard[] = [];
-    populateDeckList(pack, deckList);
+    populateDeckList(pack.data, deckList);
     const deckListString = makeDeckListString(deckList);
 
     return {
@@ -103,8 +102,6 @@ function PackListEntry({
 }: PackListEntryProps) {
   const { packColors, primaryColor, currentDeckList, handleMouseEnter } =
     usePackData(pack, publicId);
-
-  useThemeCardPreloader(pack);
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
@@ -144,14 +141,14 @@ function PackListEntry({
             )}
             data-testid="pack-name"
           >
-            {cleanThemeName(pack.name)}
+            {cleanThemeName(pack.data.name)}
           </CardTitle>
         </Link>
         <CardDescription
           className="text-muted-foreground w-8 pt-4 sm:pt-0"
           data-testid="pack-set"
         >
-          {pack.code}
+          {pack.data.code}
         </CardDescription>
         <div className="flex grow items-center gap-2 py-4 sm:py-0">
           <ColorIcons packColors={packColors} />

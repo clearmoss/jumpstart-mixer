@@ -17,7 +17,7 @@ import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
-import { useAtom } from "jotai/index";
+import { useAtom } from "jotai";
 import {
   allowDuplicatesAtom,
   colorFilterAtom,
@@ -234,16 +234,8 @@ function RouteComponent(): JSX.Element {
           <div>Not enough packs to mix.</div>
         ) : pack1 && pack2 ? (
           <div className="grid w-fit grid-cols-1 gap-4 2xl:grid-cols-2">
-            <Pack
-              pack={pack1.data}
-              publicId={pack1.meta.publicId}
-              position={1}
-            />
-            <Pack
-              pack={pack2.data}
-              publicId={pack2.meta.publicId}
-              position={2}
-            />
+            <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
+            <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
           </div>
         ) : (
           <div>

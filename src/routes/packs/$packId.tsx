@@ -82,7 +82,7 @@ function RouteComponent() {
             </Button>{" "}
           </Link>
         </div>
-        <Pack pack={pack.data.data} publicId={packId} />
+        <Pack pack={pack.data} publicId={packId} />
         <div className="pt-8">
           <CardSpread packs={[pack?.data.data]} />
         </div>

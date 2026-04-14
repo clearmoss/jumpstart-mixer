@@ -1,6 +1,6 @@
 import { Switch } from "@/components/ui/switch.tsx";
 import { Label } from "@/components/ui/label.tsx";
-import { useAtom } from "jotai/index";
+import { useAtom } from "jotai";
 import { allowDuplicatesAtom } from "@/lib/atoms.ts";
 
 function DuplicatesToggle() {

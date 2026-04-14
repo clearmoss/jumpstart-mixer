@@ -8,12 +8,19 @@ type CardImageProps = {
 };
 
 export function CardImage({ card, className }: CardImageProps) {
-  const scryfallId = card?.identifiers.scryfallId;
-  const imageUrl = scryfallId
-    ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
-        0,
-      )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`
-    : null;
+  let imageUrl: string | null;
+  if (card?.imageUri) {
+    // this is a theme card with hardcoded image URL
+    imageUrl = card.imageUri;
+  } else {
+    // we need to construct the URL for a regular card
+    const scryfallId = card?.identifiers.scryfallId;
+    imageUrl = scryfallId
+      ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
+          0,
+        )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`
+      : null;
+  }
 
   if (!card || !imageUrl) {
     return (

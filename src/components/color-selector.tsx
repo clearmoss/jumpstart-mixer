@@ -7,7 +7,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useAtom } from "jotai/index";
+import { useAtom } from "jotai";
 import { colorFilterAtom } from "@/lib/atoms.ts";
 import { COLORS, type MtgColor } from "@/lib/utils.ts";
 

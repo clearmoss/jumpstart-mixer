@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils.ts";
 import CardListEntry from "@/components/card-list-entry.tsx";
-import { useAtom, useAtomValue } from "jotai/index";
+import { useAtom, useAtomValue } from "jotai";
 import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
 import type { Deck } from "@/lib/types.ts";
 import { useMemo } from "react";

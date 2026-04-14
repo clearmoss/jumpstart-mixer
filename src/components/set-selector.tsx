@@ -7,7 +7,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useAtom } from "jotai/index";
+import { useAtom } from "jotai";
 import { setFilterAtom } from "@/lib/atoms.ts";
 import { SETS, type MtgSet } from "@/lib/utils.ts";
 

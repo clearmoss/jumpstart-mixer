@@ -1,4 +1,4 @@
-import type { ClipboardCard, Deck } from "@/lib/types.ts";
+import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   Card,
   CardAction,
@@ -22,7 +22,6 @@ import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import DeckList from "@/components/deck-list.tsx";
 import ColorIcons from "@/components/color-icons.tsx";
-import { useThemeCardPreloader } from "@/hooks/use-theme-card-preloader.ts";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
@@ -39,26 +38,24 @@ function Pack({
   publicId,
   position = 1,
 }: {
-  pack: Deck | undefined;
+  pack: PackFile | undefined;
   publicId: string | undefined;
   position?: number;
 }) {
   const currentDeckList = useMemo(() => {
     if (!pack) return "";
     const deckList: ClipboardCard[] = [];
-    populateDeckList(pack, deckList);
+    populateDeckList(pack.data, deckList);
     return makeDeckListString(deckList);
   }, [pack]);
 
   const packColors = useMemo(
-    () => (pack ? determinePackColors(pack) : []),
+    () => (pack ? determinePackColors(pack.data) : []),
     [pack],
   );
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
 
   const { handleMouseEnter } = usePackHover(pack, publicId);
-
-  useThemeCardPreloader(pack);
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
@@ -82,10 +79,10 @@ function Pack({
         >
           <div>
             <CardTitle className="flex items-center gap-4">
-              {cleanThemeName(pack.name)}
+              {cleanThemeName(pack.data.name)}
             </CardTitle>
             <CardDescription className="text-muted-foreground">
-              {pack.code}
+              {pack.data.code}
             </CardDescription>
           </div>
         </Link>
@@ -114,7 +111,7 @@ function Pack({
         </CardAction>
       </CardHeader>
       <CardContent>
-        <DeckList pack={pack} />
+        <DeckList pack={pack.data} />
       </CardContent>
     </Card>
   );

@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { CardImage } from "@/components/card-image.tsx";
 import { SidebarDeckList } from "@/components/sidebar-deck-list.tsx";
-import { useAtomValue } from "jotai/index";
+import { useAtomValue } from "jotai";
 import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 import MediaQuery from "react-responsive";
 

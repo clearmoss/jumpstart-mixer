@@ -6,7 +6,7 @@ import { packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import { useMemo } from "react";
-import { useAtom } from "jotai/index";
+import { useAtom } from "jotai";
 import {
   cardSearchFilterAtom,
   colorFilterAtom,
@@ -63,7 +63,7 @@ function RouteComponent() {
       filteredPacks.map((pack) => (
         <div key={pack.meta.publicId} data-testid="pack-entry">
           <PackListEntry
-            pack={pack.data}
+            pack={pack}
             publicId={pack.meta.publicId}
             isCurrentlyDisplayed={
               currentSidebarDeckList.publicId === pack.meta.publicId

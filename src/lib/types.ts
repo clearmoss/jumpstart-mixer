@@ -94,6 +94,7 @@ export type CardDeck = {
   hasFoil: boolean;
   hasNonFoil: boolean;
   identifiers: Identifiers;
+  imageUri?: string; // modified from MTGJSON standard
   isAlternative?: boolean;
   isFoil: boolean;
   isFullArt?: boolean;

@@ -7,7 +7,6 @@ import type {
   PackFile,
   PackIndexData,
 } from "./types";
-import { Cards } from "scryfall-api";
 
 const ERROR_MESSAGES = {
   UNKNOWN_PARSE: "An unknown error occurred while parsing data.",
@@ -182,57 +181,6 @@ export function makeDeckListString(deckList: ClipboardCard[]) {
 
 export function cleanThemeName(name: string) {
   return name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
-}
-
-export async function fetchThemeCard(
-  packName: string,
-  setCode: string,
-): Promise<CardDeck | null> {
-  // removing any trailing numbers (whether in parentheses or not)
-  const themeName = cleanThemeName(packName);
-  const card = await Cards.byName(themeName, `F${setCode}`);
-
-  if (card) {
-    // create a CardDeck object from the Scryfall card data
-    return {
-      name: card.name,
-      setCode: card.set,
-      number: card.collector_number,
-      rarity: "common", // prevent holographic effect for "mythic" themes
-      colors: card.colors || [],
-      colorIdentity: card.color_identity || [],
-      type: card.type_line || "",
-      types: card.type_line ? card.type_line.split(" — ")[0].split(" ") : [],
-      subtypes:
-        card.type_line && card.type_line.includes(" — ")
-          ? card.type_line.split(" — ")[1].split(" ")
-          : [],
-      supertypes: [],
-      text: card.oracle_text || "",
-      manaValue: card.cmc || 0,
-      convertedManaCost: card.cmc || 0,
-      layout: card.layout || "normal",
-      identifiers: {
-        scryfallId: card.id,
-        scryfallOracleId: card.oracle_id,
-        scryfallIllustrationId: card.illustration_id,
-      },
-      availability: [],
-      borderColor: card.border_color || "black",
-      finishes: [],
-      frameVersion: card.frame || "2015",
-      hasFoil: false,
-      hasNonFoil: true,
-      isFoil: false,
-      language: "en",
-      legalities: {},
-      purchaseUrls: {},
-      count: 1,
-      uuid: "",
-    } as CardDeck;
-  }
-
-  return null;
 }
 
 export function handleError(err: unknown): string {
