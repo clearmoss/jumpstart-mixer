@@ -470,6 +470,7 @@ export type Meta = {
   date: string;
   version: string;
   publicId: string; // modified from MTGJSON standard
+  themeCardUri: string; // modified from MTGJSON standard
 };
 export type PurchaseUrls = {
   cardKingdom?: string;

@@ -38,7 +38,7 @@ async function generatePackIndex() {
           .replace(/\\/g, "/"); // Normalize for URLs
 
         try {
-          const fileContent = await fs.readFile(fullPath, "utf8");
+          const fileContent = (await fs.readFile(fullPath, "utf8")).toString();
           const parsedContent = JSON.parse(fileContent);
 
           if (parsedContent.meta && parsedContent.meta.publicId) {
