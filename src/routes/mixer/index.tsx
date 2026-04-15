@@ -199,6 +199,11 @@ function RouteComponent(): JSX.Element {
     return filteredPacks.length >= 2;
   }, [allowDuplicates, filteredPacks]);
 
+  const comboName = useMemo(() => {
+    if (!pack1 || !pack2) return "";
+    return `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`;
+  }, [pack1, pack2]);
+
   const mixPacks = useCallback(() => {
     const [randomIndex1, randomIndex2] = getTwoRandomIndexes(
       filteredPacks,
@@ -271,10 +276,16 @@ function RouteComponent(): JSX.Element {
         {!hasEnoughPacks ? (
           <div>Not enough packs to mix.</div>
         ) : pack1 && pack2 ? (
-          <div className="grid w-fit grid-cols-1 gap-4 2xl:grid-cols-2">
-            <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
-            <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
-          </div>
+          <>
+            <div className="mb-4 flex items-center gap-4 lg:ml-8">
+              <img src="public/J25.svg" alt="J25 Logo" className="h-12 w-12" />
+              <h1 className="text-3xl font-bold">{comboName}</h1>
+            </div>
+            <div className="grid w-fit grid-cols-1 gap-4 2xl:grid-cols-2">
+              <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
+              <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
+            </div>
+          </>
         ) : (
           <div>
             {!packId1 && !packId2 ? (
