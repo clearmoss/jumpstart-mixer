@@ -8,6 +8,8 @@ import {
 import { CardImage } from "@/components/card-image.tsx";
 import { Card } from "@/components/ui/card.tsx";
 import { useCardGrouping } from "@/hooks/use-card-grouping.ts";
+import { useSetAtom } from "jotai";
+import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 
 type SortedPackCardsProps = {
   pack: Deck;
@@ -20,11 +22,16 @@ type CardSpreadProps = {
 
 function SortedPackCards({ pack, packIndex }: SortedPackCardsProps) {
   const cardGroups = useCardGrouping(pack);
+  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
 
   return cardGroups.flatMap((group) =>
     group.cards.flatMap((card) =>
       Array.from({ length: card.count }, (_, copyIndex) => (
-        <CardImage key={`${packIndex}-${card.uuid}-${copyIndex}`} card={card} />
+        <CardImage
+          key={`${packIndex}-${card.uuid}-${copyIndex}`}
+          card={card}
+          onMouseEnter={() => setCurrentSidebarCard(card)}
+        />
       )),
     ),
   );
