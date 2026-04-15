@@ -29,32 +29,32 @@ const STYLE_VARIANTS: Record<
 > = {
   W: {
     stripe: "bg-amber-300",
-    background: "from-amber-300 to-amber-300",
+    background: "sm:bg-amber-300",
     text: "sm:text-black",
   },
   U: {
     stripe: "bg-sky-500",
-    background: "from-sky-500 to-sky-500",
+    background: "sm:bg-sky-500",
     text: "sm:text-white",
   },
   B: {
     stripe: "bg-neutral-700",
-    background: "from-neutral-700 to-neutral-700",
+    background: "sm:bg-neutral-700",
     text: "sm:text-white",
   },
   R: {
     stripe: "bg-red-500",
-    background: "from-red-500 to-red-500",
+    background: "sm:bg-red-500",
     text: "sm:text-white",
   },
   G: {
     stripe: "bg-green-500",
-    background: "from-green-500 to-green-500",
+    background: "sm:bg-green-500",
     text: "sm:text-black",
   },
   C: {
     stripe: "bg-gray-400",
-    background: "from-gray-400 to-gray-400",
+    background: "sm:bg-gray-400",
     text: "sm:text-black",
   },
 };
@@ -157,20 +157,14 @@ function PackListEntry({
             to="/packs/$packId"
             params={{ packId: publicId }}
             className={cn(
-              "flex min-w-0 grow items-center transition-all duration-300 ease-in-out sm:bg-linear-to-r",
+              "flex min-w-0 grow items-center",
               "py-5 pl-3 sm:py-0",
-              "bg-left bg-no-repeat",
-              isCurrentlyDisplayed
-                ? "bg-size-[100%_100%]"
-                : "bg-size-[0%_100%]",
-              isCurrentlyDisplayed
-                ? STYLE_VARIANTS[primaryColor].background
-                : "from-transparent to-transparent",
+              isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background,
             )}
           >
             <CardTitle
               className={cn(
-                "flex items-baseline truncate leading-normal transition-colors duration-300 ease-in-out",
+                "flex items-baseline truncate leading-normal",
                 isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text,
               )}
               data-testid="pack-name"
