@@ -6,25 +6,30 @@ import { packsQueryOptions } from "@/lib/queries.ts";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import { useMemo } from "react";
-import { useAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import {
   cardSearchFilterAtom,
   colorFilterAtom,
+  currentSidebarCardAtom,
   currentSidebarDeckListAtom,
   packSearchFilterAtom,
   setFilterAtom,
+  store,
 } from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
-import { useAtomValue } from "jotai";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 
 export const Route = createFileRoute("/packs/")({
-  loader: ({ context }) =>
-    context.queryClient.ensureQueryData(packsQueryOptions),
+  loader: ({ context }) => {
+    // clear sidebar state atoms on new page load
+    store.set(currentSidebarCardAtom, null);
+    store.set(currentSidebarDeckListAtom, { pack: null, publicId: null });
+    context.queryClient.ensureQueryData(packsQueryOptions);
+  },
   head: () => {
     return {
       meta: [

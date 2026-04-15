@@ -14,6 +14,9 @@ import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import CardSpread from "@/components/card-spread.tsx";
+import { currentSidebarCardAtom, store } from "@/lib/atoms.ts";
+import { stripThemeName } from "@/lib/utils.ts";
+import type { CardDeck } from "@/lib/types.ts";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -25,6 +28,15 @@ export const Route = createFileRoute("/packs/$packId")({
     }
 
     const pack = await queryClient.ensureQueryData(packQueryOptions(packId));
+
+    // set currentSidebarCardAtom to the pack's theme card
+    store.set(currentSidebarCardAtom, {
+      // mock a partial CardDeck as only this data is needed to display a theme card
+      name: stripThemeName(pack.data.name),
+      setCode: "F" + pack.data.code,
+      imageUri: pack.meta.themeCardUri,
+    } as CardDeck);
+
     return { pack: pack };
   },
   head: ({ loaderData }) => {

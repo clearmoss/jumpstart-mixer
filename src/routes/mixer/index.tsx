@@ -1,15 +1,16 @@
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   filterPacks,
   getTwoRandomIndexes,
   handleError,
   makeDeckListString,
   populateDeckList,
+  stripThemeName,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { type JSX, useCallback, useMemo } from "react";
+import { type JSX, useCallback, useEffect, useMemo } from "react";
 import { Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
@@ -17,10 +18,11 @@ import CategoriesToggle from "@/components/categories-toggle.tsx";
 import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
-import { useAtom } from "jotai";
+import { useAtom, useSetAtom } from "jotai";
 import {
   allowDuplicatesAtom,
   colorFilterAtom,
+  currentSidebarCardAtom,
   setFilterAtom,
   store,
 } from "@/lib/atoms.ts";
@@ -151,12 +153,25 @@ function RouteComponent(): JSX.Element {
   const [allowDuplicates] = useAtom(allowDuplicatesAtom);
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
+  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
 
   const { pack1, pack2 } = useMemo(() => {
     const p1 = packs.find((p) => p.meta.publicId === packId1);
     const p2 = packs.find((p) => p.meta.publicId === packId2);
     return { pack1: p1, pack2: p2 };
   }, [packId1, packId2, packs]);
+
+  useEffect(() => {
+    if (pack1) {
+      // set currentSidebarCardAtom to the first pack's theme card
+      setCurrentSidebarCard({
+        // mock a partial CardDeck as only this data is needed to display a theme card
+        name: stripThemeName(pack1.data.name),
+        setCode: "F" + pack1.data.code,
+        imageUri: pack1.meta.themeCardUri,
+      } as CardDeck);
+    }
+  }, [pack1, setCurrentSidebarCard]);
 
   const currentDeckList = useMemo(() => {
     if (!pack1 || !pack2) return "";
