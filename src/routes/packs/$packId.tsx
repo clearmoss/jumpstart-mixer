@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
 import Pack from "@/components/pack.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
@@ -52,40 +52,49 @@ export const Route = createFileRoute("/packs/$packId")({
 });
 
 function RouteComponent() {
+  const navigate = useNavigate();
   const { packId } = Route.useParams();
   const pack = useSuspenseQuery(packQueryOptions(packId));
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
 
+  const handleRandomClick = () => {
+    const otherPacks = packs.filter((p) => p.meta.publicId !== packId);
+    if (otherPacks.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * otherPacks.length);
+    const nextPack = otherPacks[randomIndex];
+
+    void navigate({
+      to: "/packs/$packId",
+      params: { packId: nextPack.meta.publicId },
+    });
+  };
+
   return (
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
-      <div className="flex w-full flex-col gap-4 p-2 sm:p-8">
-        <div className="mb-4 flex flex-col gap-8 lg:flex-row">
+      <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
+        <div className="mt-2 mb-4 flex flex-col gap-8 sm:mt-0 lg:mb-0 lg:flex-row">
           <div className="flex gap-4">
             <ColorSelector />
             <SetSelector />
           </div>
           <CategoriesToggle />
         </div>
-        <div className="mb-4 flex flex-col items-start gap-4 lg:flex-row lg:items-center">
-          <Link
-            to={"/packs/$packId"}
-            params={{ packId: packs[0].meta.publicId }}
-            disabled
+        <div className="mb-4 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <Button
+            size="sm"
+            className="h-10 w-full cursor-pointer sm:w-54"
+            variant="secondary"
+            onClick={handleRandomClick}
+            disabled={!packs || packs.length <= 1}
           >
-            <Button
-              size="sm"
-              className="h-10 w-54 cursor-pointer"
-              variant="secondary"
-              disabled
-            >
-              <Shuffle />
-              Random Pack
-            </Button>{" "}
-          </Link>
+            <Shuffle />
+            Random Pack
+          </Button>
         </div>
         <Pack pack={pack.data} publicId={packId} />
-        <div className="pt-8">
+        <div className="pt-4">
           <CardSpread packs={[pack?.data.data]} />
         </div>
       </div>

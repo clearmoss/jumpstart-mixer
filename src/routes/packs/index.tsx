@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { filterPacks, handleError } from "@/lib/utils.ts";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
@@ -19,6 +19,8 @@ import Sidebar from "@/components/sidebar.tsx";
 import { useAtomValue } from "jotai";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { Shuffle } from "lucide-react";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) =>
@@ -41,12 +43,25 @@ export const Route = createFileRoute("/packs/")({
 });
 
 function RouteComponent() {
+  const navigate = useNavigate();
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
   const currentSidebarDeckList = useAtomValue(currentSidebarDeckListAtom);
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
   const [packSearchFilter] = useAtom(packSearchFilterAtom);
   const [cardSearchFilter] = useAtom(cardSearchFilterAtom);
+
+  const handleRandomClick = () => {
+    if (!packs || packs.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * packs.length);
+    const selectedPack = packs[randomIndex];
+
+    void navigate({
+      to: "/packs/$packId",
+      params: { packId: selectedPack.meta.publicId },
+    });
+  };
 
   const filteredPacks = useMemo(() => {
     return filterPacks(
@@ -83,18 +98,30 @@ function RouteComponent() {
         className="flex grow flex-col p-2 sm:p-8"
         data-testid="packs-content"
       >
-        <div className="flex flex-col gap-8 pb-8">
-          <div className="flex flex-col gap-8 lg:flex-row">
+        <div className="flex flex-col gap-4 pb-8">
+          <div className="mt-2 flex flex-col gap-8 sm:mt-0 lg:flex-row">
             <div className="flex gap-4">
               <ColorSelector />
               <SetSelector />
             </div>
-            <CategoriesToggle />
+            <CategoriesToggle className="hidden lg:flex" />
           </div>
-          <div className="flex flex-col items-baseline gap-4 md:flex-row">
-            <PackSearch />
-            <CardSearch />
-            <span className="min-w-24" data-testid="pack-count">
+          <div className="flex flex-col flex-wrap items-baseline gap-4 sm:flex-row">
+            <Button
+              size="sm"
+              className="h-10 w-full cursor-pointer sm:w-54"
+              variant="secondary"
+              onClick={handleRandomClick}
+              disabled={!packs || packs.length === 0}
+            >
+              <Shuffle />
+              Random Pack
+            </Button>
+            <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
+              <PackSearch />
+              <CardSearch />
+            </div>
+            <span className="min-w-24 shrink-0" data-testid="pack-count">
               {filteredPacks.length}{" "}
               {filteredPacks.length == 1 ? "pack" : "packs"}
             </span>

@@ -199,8 +199,8 @@ function RouteComponent(): JSX.Element {
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
       <div className="flex w-full flex-col p-2 sm:p-8">
-        <div className="mb-8 flex flex-col items-start gap-4">
-          <div className="mb-4 flex flex-col items-start gap-8 xl:flex-row xl:items-center">
+        <div className="mt-2 mb-8 flex flex-col items-start sm:mt-0">
+          <div className="mb-8 flex flex-col items-start gap-8 xl:mb-4 xl:flex-row xl:items-center">
             <div className="flex gap-4">
               <ColorSelector />
               <SetSelector />
@@ -208,11 +208,11 @@ function RouteComponent(): JSX.Element {
             <CategoriesToggle />
             <DuplicatesToggle />
           </div>
-          <div className="flex flex-col items-start gap-4 lg:flex-row lg:items-center">
+          <div className="flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center">
             <Button
               size="sm"
               onClick={mixPacks}
-              className="h-10 w-54 cursor-pointer"
+              className="h-10 w-full cursor-pointer sm:w-54"
               variant="secondary"
               disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
             >
@@ -226,7 +226,7 @@ function RouteComponent(): JSX.Element {
               textToCopy={currentDeckList}
               buttonText="Copy Combined Decklist"
               disabled={!currentDeckList}
-              className="h-10 w-56"
+              className="h-10 w-full sm:w-56"
             />
           </div>
         </div>
