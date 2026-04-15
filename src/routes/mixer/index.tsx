@@ -278,7 +278,7 @@ function RouteComponent(): JSX.Element {
         ) : pack1 && pack2 ? (
           <>
             <div className="mb-4 flex items-center gap-4 lg:ml-8">
-              <img src="public/J25.svg" alt="J25 Logo" className="h-12 w-12" />
+              <img src="/J25.svg" alt="J25 Logo" className="h-12 w-12" />
               <h1 className="text-3xl font-bold">{comboName}</h1>
             </div>
             <div className="grid w-fit grid-cols-1 gap-4 2xl:grid-cols-2">
