@@ -11,7 +11,7 @@ import {
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
 import { type JSX, useCallback, useEffect, useMemo } from "react";
-import { Shuffle } from "lucide-react";
+import { Settings, Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
@@ -31,6 +31,12 @@ import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import Sidebar from "@/components/sidebar.tsx";
 import CardSpread from "@/components/card-spread.tsx";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -213,37 +219,54 @@ function RouteComponent(): JSX.Element {
   return (
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
-      <div className="flex w-full flex-col p-2 sm:p-8">
-        <div className="mt-2 mb-8 flex flex-col items-start sm:mt-0">
-          <div className="mb-8 flex flex-col items-start gap-8 xl:mb-4 xl:flex-row xl:items-center">
-            <div className="flex gap-4">
-              <ColorSelector />
-              <SetSelector />
-            </div>
-            <CategoriesToggle />
-            <DuplicatesToggle />
+      <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
+        <Accordion type="single" collapsible className="block border sm:hidden">
+          <AccordionItem
+            value="item-1"
+            className="border-b px-4 last:border-b-0"
+          >
+            <AccordionTrigger className="flex cursor-pointer items-center gap-2 py-2 hover:no-underline">
+              <Settings size={20} className="text-muted-foreground" />
+              Filters
+            </AccordionTrigger>
+            <AccordionContent className="mb-4 flex flex-col gap-8 pt-4">
+              <div className="flex items-center justify-center gap-8">
+                <ColorSelector />
+                <SetSelector />
+              </div>
+              <CategoriesToggle />
+              <DuplicatesToggle />
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+        <div className="mt-2 hidden flex-col gap-8 pb-4 sm:mt-0 sm:flex lg:flex-row lg:pb-0">
+          <div className="flex gap-4">
+            <ColorSelector />
+            <SetSelector />
           </div>
-          <div className="flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center">
-            <Button
-              size="sm"
-              onClick={mixPacks}
-              className="h-10 w-full cursor-pointer sm:w-54"
-              variant="secondary"
-              disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
-            >
-              <Shuffle />
-              Randomize ({filteredPacks.length}{" "}
-              {filteredPacks.length == 1 ? "Pack" : "Packs"})
-            </Button>
-            <CopyButton
-              size="sm"
-              variant="default"
-              textToCopy={currentDeckList}
-              buttonText="Copy Combined Decklist"
-              disabled={!currentDeckList}
-              className="h-10 w-full sm:w-56"
-            />
-          </div>
+          <CategoriesToggle />
+          <DuplicatesToggle />
+        </div>
+        <div className="mb-4 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+          <Button
+            size="sm"
+            onClick={mixPacks}
+            className="h-10 w-full cursor-pointer sm:w-54"
+            variant="secondary"
+            disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
+          >
+            <Shuffle />
+            Randomize ({filteredPacks.length}{" "}
+            {filteredPacks.length == 1 ? "Pack" : "Packs"})
+          </Button>
+          <CopyButton
+            size="sm"
+            variant="default"
+            textToCopy={currentDeckList}
+            buttonText="Copy Combined Decklist"
+            disabled={!currentDeckList}
+            className="h-10 w-full sm:w-56"
+          />
         </div>
         {!hasEnoughPacks ? (
           <div>Not enough packs to mix.</div>
@@ -261,7 +284,7 @@ function RouteComponent(): JSX.Element {
             )}
           </div>
         )}
-        <div className="pt-8">
+        <div className="pt-4">
           {pack1 && pack2 && <CardSpread packs={[pack1.data, pack2.data]} />}
         </div>
       </div>

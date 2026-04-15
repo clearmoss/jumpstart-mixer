@@ -12,11 +12,17 @@ import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
+import { Settings, Shuffle } from "lucide-react";
 import CardSpread from "@/components/card-spread.tsx";
 import { currentSidebarCardAtom, store } from "@/lib/atoms.ts";
 import { stripThemeName } from "@/lib/utils.ts";
 import type { CardDeck } from "@/lib/types.ts";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion.tsx";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -86,7 +92,25 @@ function RouteComponent() {
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
       <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
-        <div className="mt-2 mb-4 flex flex-col gap-8 sm:mt-0 lg:mb-0 lg:flex-row">
+        <Accordion type="single" collapsible className="block border sm:hidden">
+          <AccordionItem
+            value="item-1"
+            className="border-b px-4 last:border-b-0"
+          >
+            <AccordionTrigger className="flex cursor-pointer items-center gap-2 py-2 hover:no-underline">
+              <Settings size={20} className="text-muted-foreground" />
+              Filters
+            </AccordionTrigger>
+            <AccordionContent className="mb-4 flex flex-col gap-8 pt-4">
+              <div className="flex items-center justify-center gap-8">
+                <ColorSelector />
+                <SetSelector />
+              </div>
+              <CategoriesToggle />
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+        <div className="mt-2 hidden flex-col gap-8 pb-4 sm:mt-0 sm:flex lg:flex-row lg:pb-0">
           <div className="flex gap-4">
             <ColorSelector />
             <SetSelector />

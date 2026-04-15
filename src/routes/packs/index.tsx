@@ -21,8 +21,14 @@ import Sidebar from "@/components/sidebar.tsx";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
+import { Settings, Shuffle } from "lucide-react";
 import { Badge } from "@/components/ui/badge.tsx";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -105,7 +111,29 @@ function RouteComponent() {
         data-testid="packs-content"
       >
         <div className="flex flex-col gap-4 pb-8">
-          <div className="mt-2 flex flex-col gap-8 sm:mt-0 lg:flex-row">
+          <Accordion
+            type="single"
+            collapsible
+            className="block border sm:hidden"
+          >
+            <AccordionItem
+              value="item-1"
+              className="border-b px-4 last:border-b-0"
+            >
+              <AccordionTrigger className="flex cursor-pointer items-center gap-2 py-2 hover:no-underline">
+                <Settings size={20} className="text-muted-foreground" />
+                Filters
+              </AccordionTrigger>
+              <AccordionContent className="mb-4 flex flex-col gap-8 pt-4">
+                <div className="flex items-center justify-center gap-8">
+                  <ColorSelector />
+                  <SetSelector />
+                </div>
+                <CategoriesToggle className="hidden lg:flex" />
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+          <div className="mt-2 hidden flex-col gap-8 sm:mt-0 sm:flex lg:flex-row">
             <div className="flex gap-4">
               <ColorSelector />
               <SetSelector />
