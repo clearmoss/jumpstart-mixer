@@ -9,11 +9,11 @@ import {
 import { Link } from "@tanstack/react-router";
 import {
   cn,
-  cleanThemeName,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
   populateDeckList,
+  splitThemeName,
 } from "@/lib/utils.ts";
 import React, { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
@@ -21,6 +21,7 @@ import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import ColorIcons from "@/components/color-icons.tsx";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
+import { Badge } from "@/components/ui/badge.tsx";
 
 const STYLE_VARIANTS: Record<
   MtgColor,
@@ -136,6 +137,8 @@ function PackListEntry({
     return <div>Pack data unavailable.</div>;
   }
 
+  const { baseName, number } = splitThemeName(pack.data.name);
+
   return (
     <Card
       className="bg-card relative max-w-4xl overflow-hidden border-none px-0 py-0"
@@ -167,12 +170,20 @@ function PackListEntry({
           >
             <CardTitle
               className={cn(
-                "truncate leading-normal transition-colors duration-300 ease-in-out",
+                "flex items-baseline truncate leading-normal transition-colors duration-300 ease-in-out",
                 isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text,
               )}
               data-testid="pack-name"
             >
-              {cleanThemeName(pack.data.name)}
+              <span>{baseName}</span>
+              {number && (
+                <Badge
+                  variant="secondary"
+                  className="ml-4 h-5 w-6 rounded-md border-2 border-zinc-200 text-sm font-light dark:border-zinc-700"
+                >
+                  <span>{number}</span>
+                </Badge>
+              )}
             </CardTitle>
           </Link>
 
@@ -186,7 +197,7 @@ function PackListEntry({
           </div>
         </div>
 
-        <div className="flex items-center gap-4 px-6 py-3 sm:flex-none sm:px-4 sm:py-0">
+        <div className="flex items-center gap-4 px-6 pb-3 sm:flex-none sm:px-4 sm:py-0">
           <CardDescription
             className="text-muted-foreground w-10 shrink-0 pt-0"
             data-testid="pack-set"

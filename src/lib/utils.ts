@@ -179,8 +179,23 @@ export function makeDeckListString(deckList: ClipboardCard[]) {
   return deckListString;
 }
 
-export function cleanThemeName(name: string) {
+export function stripThemeName(name: string) {
+  // returns just the theme name without any numbers
   return name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+}
+
+export function splitThemeName(name: string) {
+  // regex looks for a space followed by either "(number)" or "number" at the end
+  const match = name.match(/^(.*?)\s\(?(\d+)\)?$/);
+
+  if (match) {
+    return {
+      baseName: match[1],
+      number: match[2],
+    };
+  }
+
+  return { baseName: name, number: null };
 }
 
 export function handleError(err: unknown): string {

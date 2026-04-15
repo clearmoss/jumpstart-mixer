@@ -10,11 +10,11 @@ import {
 import { Link } from "@tanstack/react-router";
 import {
   cn,
-  cleanThemeName,
   determinePackColors,
   makeDeckListString,
   type MtgColor,
   populateDeckList,
+  splitThemeName,
 } from "@/lib/utils.ts";
 import { useMemo } from "react";
 import CopyButton from "@/components/copy-button.tsx";
@@ -23,6 +23,7 @@ import { Shuffle } from "lucide-react";
 import DeckList from "@/components/deck-list.tsx";
 import ColorIcons from "@/components/color-icons.tsx";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
+import { Badge } from "@/components/ui/badge.tsx";
 
 const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
   W: "border-t-amber-300",
@@ -61,6 +62,8 @@ function Pack({
     return <div>Pack data unavailable.</div>;
   }
 
+  const { baseName, number } = splitThemeName(pack.data.name);
+
   const ActionButtons = (
     <>
       <Link
@@ -98,8 +101,16 @@ function Pack({
             onMouseEnter={handleMouseEnter}
           >
             <div>
-              <CardTitle className="flex items-center gap-4">
-                {cleanThemeName(pack.data.name)}
+              <CardTitle className="flex items-baseline">
+                <span>{baseName}</span>
+                {number && (
+                  <Badge
+                    variant="secondary"
+                    className="ml-4 h-5 w-6 rounded-md border-2 border-zinc-200 text-sm font-light dark:border-zinc-700"
+                  >
+                    <span>{number}</span>
+                  </Badge>
+                )}
               </CardTitle>
               <CardDescription className="text-muted-foreground">
                 {pack.data.code}
