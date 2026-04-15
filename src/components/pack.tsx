@@ -90,25 +90,25 @@ function Pack({
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
-      <CardHeader className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
-        <div className="flex w-full items-start justify-between sm:w-auto sm:justify-start">
+      <CardHeader className="flex flex-col gap-4 px-4 sm:flex-row sm:items-center sm:gap-8 sm:px-6">
+        <div className="flex w-full min-w-0 items-start justify-between sm:w-auto sm:justify-start">
           <Link
             to="/packs/$packId"
             params={{
               packId: publicId,
             }}
-            className="flex items-start gap-8"
+            className="flex min-w-0 flex-1 items-start gap-8"
             onMouseEnter={handleMouseEnter}
           >
-            <div>
-              <CardTitle className="flex items-baseline">
-                <span>{baseName}</span>
+            <div className="min-w-0">
+              <CardTitle className="flex min-h-8 min-w-0 items-center py-1 leading-tight">
+                <span className="truncate">{baseName}</span>
                 {number && (
                   <Badge
                     variant="secondary"
-                    className="ml-4 h-5 w-6 rounded-md border-2 border-zinc-200 text-sm font-light dark:border-zinc-700"
+                    className="ml-4 flex h-5 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
                   >
-                    <span>{number}</span>
+                    {number}
                   </Badge>
                 )}
               </CardTitle>
@@ -119,7 +119,9 @@ function Pack({
           </Link>
 
           {/* buttons for narrow screens */}
-          <div className="flex gap-2 sm:hidden">{ActionButtons}</div>
+          <div className="ml-2 flex shrink-0 gap-2 sm:hidden">
+            {ActionButtons}
+          </div>
         </div>
 
         <div className="flex items-center gap-2 sm:grow">
@@ -131,7 +133,7 @@ function Pack({
           {ActionButtons}
         </CardAction>
       </CardHeader>
-      <CardContent>
+      <CardContent className="px-4 sm:px-6">
         <DeckList pack={pack.data} />
       </CardContent>
     </Card>

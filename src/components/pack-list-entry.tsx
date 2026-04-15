@@ -164,18 +164,18 @@ function PackListEntry({
           >
             <CardTitle
               className={cn(
-                "flex items-baseline truncate leading-normal",
+                "flex min-h-8 min-w-0 items-center py-1 leading-tight",
                 isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text,
               )}
               data-testid="pack-name"
             >
-              <span>{baseName}</span>
+              <span className="truncate">{baseName}</span>
               {number && (
                 <Badge
                   variant="secondary"
-                  className="ml-4 h-5 w-6 rounded-md border-2 border-zinc-200 text-sm font-light dark:border-zinc-700"
+                  className="ml-4 flex h-5 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
                 >
-                  <span>{number}</span>
+                  {number}
                 </Badge>
               )}
             </CardTitle>

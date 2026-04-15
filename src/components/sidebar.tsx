@@ -13,7 +13,7 @@ interface SidebarProps {
 function Sidebar({ showDeckList = true, children }: SidebarProps) {
   return (
     <div
-      className="dark:bg-secondary sticky top-0 hidden h-screen w-116 min-w-116 flex-col gap-4 self-start overflow-y-auto bg-orange-200 p-8 lg:flex"
+      className="dark:bg-secondary sticky top-0 hidden h-screen w-116 min-w-116 flex-col gap-4 self-start overflow-y-auto border-r-2 border-amber-300 bg-orange-200 p-8 lg:flex dark:border-zinc-900"
       data-testid="sidebar"
     >
       {children}

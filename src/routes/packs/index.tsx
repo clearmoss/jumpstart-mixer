@@ -22,6 +22,7 @@ import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
+import { Badge } from "@/components/ui/badge.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -126,10 +127,14 @@ function RouteComponent() {
               <PackSearch />
               <CardSearch />
             </div>
-            <span className="min-w-24 shrink-0" data-testid="pack-count">
+            <Badge
+              variant="secondary"
+              className="h-8 min-w-24 shrink-0 text-sm"
+              data-testid="pack-count"
+            >
               {filteredPacks.length}{" "}
               {filteredPacks.length == 1 ? "pack" : "packs"}
-            </span>
+            </Badge>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-2" data-testid="pack-list">

@@ -47,7 +47,7 @@ function CardSpread({ packs }: CardSpreadProps) {
   return (
     <Card className="m-0 p-0">
       <Accordion
-        className="px-6 py-4"
+        className="px-4 py-4 sm:px-6"
         type="single"
         defaultValue="card-spread"
         collapsible
@@ -56,7 +56,7 @@ function CardSpread({ packs }: CardSpreadProps) {
           <AccordionTrigger className="text-md cursor-pointer font-bold">
             Card Spread
           </AccordionTrigger>
-          <AccordionContent className="grid grid-cols-2 gap-4 pt-4 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">
+          <AccordionContent className="xs:grid-cols-2 grid grid-cols-1 gap-4 pt-4 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">
             {validPacks.map((pack, packIndex) => (
               <SortedPackCards
                 key={`${pack.name}-${packIndex}`}
