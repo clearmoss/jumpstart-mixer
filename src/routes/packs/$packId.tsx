@@ -131,7 +131,7 @@ function RouteComponent() {
         </div>
         <Pack pack={pack.data} publicId={packId} />
         <div className="pt-4">
-          <CardSpread packs={[pack?.data.data]} />
+          <CardSpread packs={[pack?.data.data]} packIds={[packId]} />
         </div>
       </div>
     </div>

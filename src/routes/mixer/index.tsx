@@ -296,7 +296,12 @@ function RouteComponent(): JSX.Element {
           </div>
         )}
         <div className="pt-4">
-          {pack1 && pack2 && <CardSpread packs={[pack1.data, pack2.data]} />}
+          {pack1 && pack2 && (
+            <CardSpread
+              packs={[pack1.data, pack2.data]}
+              packIds={[pack1.meta.publicId, pack2.meta.publicId]}
+            />
+          )}
         </div>
       </div>
     </div>

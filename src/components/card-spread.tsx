@@ -14,14 +14,15 @@ import { LayoutGrid } from "lucide-react";
 
 type SortedPackCardsProps = {
   pack: Deck;
-  packIndex: number;
+  instanceId: string;
 };
 
 type CardSpreadProps = {
   packs: (Deck | undefined)[] | undefined;
+  packIds: (string | undefined)[] | undefined;
 };
 
-function SortedPackCards({ pack, packIndex }: SortedPackCardsProps) {
+function SortedPackCards({ pack, instanceId }: SortedPackCardsProps) {
   const cardGroups = useCardGrouping(pack);
   const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
 
@@ -29,7 +30,7 @@ function SortedPackCards({ pack, packIndex }: SortedPackCardsProps) {
     group.cards.flatMap((card) =>
       Array.from({ length: card.count }, (_, copyIndex) => (
         <CardImage
-          key={`${packIndex}-${card.uuid}-${copyIndex}`}
+          key={`${instanceId}-${card.uuid}-${copyIndex}`}
           card={card}
           onMouseEnter={() => setCurrentSidebarCard(card)}
         />
@@ -38,10 +39,19 @@ function SortedPackCards({ pack, packIndex }: SortedPackCardsProps) {
   );
 }
 
-function CardSpread({ packs }: CardSpreadProps) {
-  const validPacks = packs?.filter((p): p is Deck => Boolean(p));
+function CardSpread({ packs, packIds }: CardSpreadProps) {
+  const validPacksWithIds = packs
+    ?.map((pack, index) => ({
+      pack,
+      packId: packIds?.[index],
+      instanceId: `${packIds?.[index]}-${index}`,
+    }))
+    .filter(
+      (item): item is { pack: Deck; packId: string; instanceId: string } =>
+        Boolean(item.pack) && Boolean(item.packId),
+    );
 
-  if (!validPacks || validPacks.length === 0) {
+  if (!validPacksWithIds || validPacksWithIds.length === 0) {
     return "No cards to display.";
   }
 
@@ -59,11 +69,11 @@ function CardSpread({ packs }: CardSpreadProps) {
             Card Spread
           </AccordionTrigger>
           <AccordionContent className="xs:grid-cols-2 grid grid-cols-1 gap-4 pt-4 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">
-            {validPacks.map((pack, packIndex) => (
+            {validPacksWithIds.map(({ pack, instanceId }) => (
               <SortedPackCards
-                key={`${pack.name}-${packIndex}`}
+                key={instanceId}
                 pack={pack}
-                packIndex={packIndex}
+                instanceId={instanceId}
               />
             ))}
           </AccordionContent>

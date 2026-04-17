@@ -69,8 +69,7 @@ export async function fetchJson<T>(pathOrUrl: string): Promise<T> {
   try {
     return (await response.json()) as T;
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : String(error);
-    throw new Error(`Failed to parse JSON from ${path}: ${errorMessage}`);
+    throw new Error(`Failed to parse JSON from ${path}`, { cause: error });
   }
 }
 

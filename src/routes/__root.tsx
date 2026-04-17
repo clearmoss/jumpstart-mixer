@@ -43,13 +43,11 @@ function RootComponent() {
     // mobile menu
     const mediaQuery = window.matchMedia("(min-width: 768px)");
 
-    const handleMediaChange = (event: MediaQueryListEvent | MediaQueryList) => {
+    const handleMediaChange = (event: MediaQueryListEvent) => {
       if (event.matches) {
         setIsOpen(false);
       }
     };
-
-    handleMediaChange(mediaQuery);
 
     mediaQuery.addEventListener("change", handleMediaChange);
     return () => mediaQuery.removeEventListener("change", handleMediaChange);
