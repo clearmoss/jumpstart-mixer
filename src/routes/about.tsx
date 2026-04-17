@@ -1,5 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import OutLink from "@/components/out-link.tsx";
+import { FlipCard } from "@/components/flip-card.tsx";
+import gitHubLogo from "/github.svg";
+import React from "react";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -12,90 +15,112 @@ export const Route = createFileRoute("/about")({
   component: About,
 });
 
+const SectionHeading = ({ children }: { children: React.ReactNode }) => (
+  <h2 className="mb-6 bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text text-4xl font-bold text-transparent">
+    {children}
+  </h2>
+);
+
 const WhatIsJumpstartSection = () => (
-  <div className="mb-16">
-    <h2 className="mb-4 text-2xl font-semibold">What is Jumpstart?</h2>
-    <p className="mb-4">
-      Jumpstart is a{" "}
-      <OutLink href="https://en.wikipedia.org/wiki/Magic:_The_Gathering">
-        Magic: The Gathering
-      </OutLink>{" "}
-      format first introduced by Wizards of the Coast in 2020. It offers a fun
-      and accessible way to play games of Magic without the usual need for
-      deck-building. There are currently three main Jumpstart sets:{" "}
-      <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart"}>
-        Jumpstart
-      </OutLink>
-      ,{" "}
-      <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart_2022"}>
-        Jumpstart 2022
-      </OutLink>
-      , and{" "}
-      <OutLink href={"https://mtg.fandom.com/wiki/Foundations_Jumpstart"}>
-        Foundations Jumpstart
-      </OutLink>
-      .
-    </p>
-    <p className="mb-4">
-      Each booster pack of Jumpstart contains 20 cards centered around a
-      particular theme, with lands already included. Players simply take two
-      Jumpstart packs each, shuffle them together, and then start playing with
-      the resulting 40-card decks. Most of the themes have multiple variants
-      that tweak the included cards, resulting in those packs being more common
-      to open (while also providing variety within each theme). The few themes
-      left over with only a single variant are thus more rare to find.
-    </p>
-    <p className="mb-4">
-      Jumpstart is perfect for players new to Magic, those seeking casual play
-      sessions with unpredictable cards, or anyone simply looking for a quick
-      format with minimal setup. The vast amount of possible deck permutations
-      and their resulting matchups always make it an exciting way to play!
-    </p>
-  </div>
+  <section className="mb-20">
+    <SectionHeading>What is Jumpstart?</SectionHeading>
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div className="space-y-4 lg:col-span-2">
+        <p>
+          Jumpstart is a{" "}
+          <OutLink href="https://en.wikipedia.org/wiki/Magic:_The_Gathering">
+            Magic: The Gathering
+          </OutLink>{" "}
+          format first introduced by Wizards of the Coast in 2020. It offers a
+          fun and accessible way to play varied games of Magic without the usual
+          need for deck-building.
+        </p>
+        <p>
+          Each Jumpstart booster pack contains 20 cards centered around a
+          particular theme. Players simply take two packs each, shuffle them
+          together, and start playing with the resulting 40-card decks.
+        </p>
+        <p>
+          There are currently three main Jumpstart sets:{" "}
+          <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart"}>
+            Jumpstart
+          </OutLink>
+          ,{" "}
+          <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart_2022"}>
+            Jumpstart 2022
+          </OutLink>
+          , and{" "}
+          <OutLink href={"https://mtg.fandom.com/wiki/Foundations_Jumpstart"}>
+            Foundations Jumpstart
+          </OutLink>
+          . This application includes every possible pack from all three for
+          endless variety!
+        </p>
+      </div>
+      <div className="flex items-center justify-center">
+        <FlipCard
+          backImg="/back.jpg"
+          frontImg="https://cards.scryfall.io/large/front/8/0/80c5226d-1b6b-4bc9-9aaf-56eaf728a47c.jpg"
+          size={200}
+        />
+      </div>
+    </div>
+  </section>
 );
 
 const HowToUseSection = () => (
-  <div className="mb-16">
-    <h2 className="mb-4 text-2xl font-semibold">How do I use this app?</h2>
-    <p className="mb-4">
-      Jumpstart Mixer helps you explore the different pack themes and randomly
-      generate decklists from them, just as if you were opening two new
-      boosters.
-    </p>
-    <p className="mb-4">
-      On the{" "}
-      <Link className="hyperlink" to={"/packs"}>
-        Packs page
-      </Link>
-      , you can browse through the available Jumpstart packs. You can also
-      filter them by color, set, or search for specific cards. Hover over a pack
-      to see its contents in the sidebar, and then hover over a card name to see
-      its image. Each pack has a button to copy its individual decklist to your
-      clipboard, and another button to mix it with a second random pack.
-    </p>
-    <p className="mb-4">
-      That brings us to the{" "}
-      <Link className="hyperlink" to={"/mixer"}>
-        Mixer page
-      </Link>
-      , where two packs are combined. There's a randomize button, which will
-      select two random packs based on your current filter settings. Once you
-      have two packs you're happy with, you can copy the combined decklist to
-      your clipboard. You can also inspect all the cards in the resulting deck
-      by scrolling down to the Card Spread section.
-    </p>
-    <p className="mb-4">
-      Use your copied decklist in an application like{" "}
-      <OutLink href="https://cockatrice.github.io/">Cockatrice</OutLink> to play
-      Jumpstart with others!
-    </p>
-  </div>
+  <section className="mb-20">
+    <SectionHeading>How do I use this app?</SectionHeading>
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div className="space-y-4 lg:col-span-2">
+        <p>
+          Jumpstart Mixer makes it easy to generate decklists for digital play,
+          randomly combining two themed packs using parameters you control.
+        </p>
+        <div className="bg-card rounded-xl border p-6 shadow-xs">
+          <h3 className="mb-2 text-xl font-semibold">1. Browse Themes</h3>
+          <p className="text-muted-foreground text-base">
+            Check out the{" "}
+            <Link className="hyperlink" to={"/packs"}>
+              Packs
+            </Link>{" "}
+            page to browse every available Jumpstart themed booster. Use the
+            color/set filters and search bars at the top to narrow the list.
+            Hover to see cards in the sidebar (if your screen is large enough
+            for it to appear), or click a pack for a closer look.
+          </p>
+        </div>
+        <div className="bg-card rounded-xl border p-6 shadow-xs">
+          <h3 className="mb-2 text-xl font-semibold">2. Randomize</h3>
+          <p className="text-muted-foreground text-base">
+            Use the{" "}
+            <Link className="hyperlink" to={"/mixer"}>
+              Mixer
+            </Link>{" "}
+            to randomly select two themes, respecting the filters you have set
+            at the top. You'll find images of all cards in the resulting deck at
+            the bottom.
+          </p>
+        </div>
+
+        <div className="bg-card rounded-xl border p-6 shadow-xs">
+          <h3 className="mb-2 text-xl font-semibold">3. Export to Play</h3>
+          <p className="text-muted-foreground text-base">
+            Use the button to copy your combined decklist and paste it into{" "}
+            <OutLink href="https://cockatrice.github.io/">Cockatrice</OutLink>,{" "}
+            or any other digital tabletop which supports Magic: The Gathering.
+            Grab a friend to do the same and have fun!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 );
 
 const AboutAppSection = () => (
-  <div className="mb-16">
-    <h2 className="mb-4 text-2xl font-semibold">How was this app made?</h2>
-    <p className="mb-4">
+  <section className="mb-16 border-t pt-16">
+    <h3 className="mb-6 text-xl font-semibold">Technical Details</h3>
+    <p className="text-muted-foreground max-w-[80ch] text-base leading-relaxed">
       Jumpstart Mixer is a <OutLink href="https://react.dev/">React</OutLink>{" "}
       frontend built with{" "}
       <OutLink href="https://www.typescriptlang.org/">TypeScript</OutLink> and{" "}
@@ -104,29 +129,30 @@ const AboutAppSection = () => (
       <OutLink href="https://tanstack.com/query/">TanStack Query</OutLink>,{" "}
       <OutLink href="https://jotai.org/">Jotai</OutLink>,{" "}
       <OutLink href="https://tailwindcss.com/">Tailwind CSS</OutLink>, and{" "}
-      <OutLink href="https://ui.shadcn.com/">shadcn/ui</OutLink>. Data
-      concerning Magic: The Gathering was sourced from{" "}
+      <OutLink href="https://ui.shadcn.com/">shadcn/ui</OutLink>. Magic: The
+      Gathering data was sourced from{" "}
       <OutLink href="https://mtgjson.com/">MTGJSON</OutLink>, and card imagery
       is fetched from <OutLink href="https://scryfall.com/">Scryfall</OutLink>.
       Jumpstart Mixer is designed to operate entirely in your browser from
       static files and{" "}
       <OutLink href="https://github.com/clearmoss/jumpstart-mixer">
-        the source code is available on GitHub
+        is open-source
       </OutLink>
       . It was developed by me,{" "}
       <OutLink href="https://clearmoss.com/">clearmoss</OutLink>.
     </p>
-  </div>
+  </section>
 );
 
 function About() {
   return (
-    <div className="flex w-full">
-      <div className="mx-auto flex w-full max-w-[70ch] flex-col p-4 text-xl leading-[145%] md:p-8">
+    <div className="min-h-screen">
+      <div className="mx-auto max-w-[100ch] px-6 py-12 md:py-24">
         <WhatIsJumpstartSection />
         <HowToUseSection />
         <AboutAppSection />
-        <footer className="text-muted-foreground mt-16 text-sm">
+
+        <footer className="text-muted-foreground mt-24 border-t pt-8 text-center text-xs">
           <p>
             Jumpstart Mixer is an unofficial project. Magic: The Gathering is a
             trademark of
@@ -136,6 +162,19 @@ function About() {
             </OutLink>
             .
           </p>
+          <div className="mt-6 flex justify-center">
+            <OutLink
+              href="https://github.com/clearmoss/jumpstart-mixer"
+              className="hover:text-foreground flex items-center transition-colors"
+            >
+              <img
+                src={gitHubLogo}
+                alt="GitHub"
+                className="inline-block h-4 pr-2 opacity-70"
+              />
+              <span>Source code</span>
+            </OutLink>
+          </div>
         </footer>
       </div>
     </div>
