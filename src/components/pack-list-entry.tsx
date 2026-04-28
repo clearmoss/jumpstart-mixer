@@ -158,7 +158,7 @@ function PackListEntry({
             params={{ packId: publicId }}
             className={cn(
               "flex min-w-0 grow items-center",
-              "py-5 pl-3 sm:py-0",
+              "py-2 pl-3 sm:py-0",
               isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background,
             )}
           >
