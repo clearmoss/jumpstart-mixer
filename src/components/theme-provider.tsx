@@ -1,4 +1,11 @@
-import { createContext, use, useEffect, useState } from "react";
+import {
+  createContext,
+  use,
+  useEffect,
+  useState,
+  useMemo,
+  useCallback,
+} from "react";
 import type { ReactNode } from "react";
 
 type Theme = "dark" | "light" | "system";
@@ -25,52 +32,66 @@ export function ThemeProvider({
   children,
   defaultTheme = "system",
   storageKey = "vite-ui-theme",
-  ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme,
-  );
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== "undefined") {
+      return (localStorage.getItem(storageKey) as Theme) || defaultTheme;
+    }
+    return defaultTheme;
+  });
 
   useEffect(() => {
     const root = window.document.documentElement;
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
-    root.classList.remove("light", "dark");
+    const applyTheme = () => {
+      root.classList.remove("light", "dark");
+
+      const resolvedTheme =
+        theme === "system" ? (mediaQuery.matches ? "dark" : "light") : theme;
+      root.classList.add(resolvedTheme);
+
+      // PWA optimization: use hex colors for theme-color meta tag
+      const themeColor = resolvedTheme === "dark" ? "#0a0a0a" : "#ffffff";
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+      if (metaThemeColor) {
+        metaThemeColor.setAttribute("content", themeColor);
+      }
+    };
+
+    applyTheme();
 
     if (theme === "system") {
-      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
-        .matches
-        ? "dark"
-        : "light";
-
-      root.classList.add(systemTheme);
-      return;
+      mediaQuery.addEventListener("change", applyTheme);
+      return () => mediaQuery.removeEventListener("change", applyTheme);
     }
-
-    root.classList.add(theme);
   }, [theme]);
 
-  const handleSetTheme = (nextTheme: Theme) => {
-    localStorage.setItem(storageKey, nextTheme);
-    setTheme(nextTheme);
-  };
-
-  const value = {
-    theme,
-    setTheme: handleSetTheme,
-  };
-
-  return (
-    <ThemeProviderContext {...props} value={value}>
-      {children}
-    </ThemeProviderContext>
+  const handleSetTheme = useCallback(
+    (nextTheme: Theme) => {
+      localStorage.setItem(storageKey, nextTheme);
+      setTheme(nextTheme);
+    },
+    [storageKey],
   );
+
+  const value = useMemo(
+    () => ({
+      theme,
+      setTheme: handleSetTheme,
+    }),
+    [handleSetTheme, theme],
+  );
+
+  return <ThemeProviderContext value={value}>{children}</ThemeProviderContext>;
 }
 
 export const useTheme = () => {
   const context = use(ThemeProviderContext);
 
-  if (context === undefined)
+  if (context === undefined) {
     throw new Error("useTheme must be used within a ThemeProvider");
+  }
 
   return context;
 };
