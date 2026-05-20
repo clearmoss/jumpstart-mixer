@@ -21,7 +21,7 @@ export function CardImage({
   if (card?.imageUri) {
     // this is a theme card with hardcoded image URL
     imageUrl = card.imageUri;
-    scryfallUrl = `https://scryfall.com/search?q=${card.name}+set%3A${card.setCode}`;
+    scryfallUrl = `https://scryfall.com/search?q=${encodeURIComponent(card.name)}+set%3A${card.setCode}`;
   } else {
     // we need to construct the URL for a regular card
     const scryfallId = card?.identifiers.scryfallId;
@@ -65,6 +65,7 @@ export function CardImage({
         src={imageUrl}
         alt={`${card.name} card image`}
         className="h-full w-full rounded-xl dark:rounded-2xl"
+        crossOrigin="anonymous"
       />
       {card.rarity === "mythic" && (
         <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-xl dark:rounded-2xl" />
