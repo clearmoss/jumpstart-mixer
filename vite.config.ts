@@ -58,6 +58,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
+        navigateFallback: "index.html",
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/cards\.scryfall\.io\/.*/i,
@@ -71,17 +72,13 @@ export default defineConfig({
               cacheableResponse: {
                 statuses: [0, 200],
               },
-              fetchOptions: {
-                mode: "cors",
-                credentials: "omit",
-              },
             },
           },
         ],
       },
     }),
   ],
-  base: BASEPATH,
+  base: BASEPATH || "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

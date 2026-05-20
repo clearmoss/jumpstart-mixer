@@ -7,7 +7,7 @@ import { CircleSlash } from "lucide-react";
 export const router = createRouter({
   routeTree,
   context: { queryClient },
-  basepath: BASEPATH,
+  basepath: BASEPATH || "/",
   defaultNotFoundComponent: () => {
     return (
       <div className="flex min-h-screen flex-col items-center gap-4 pt-32">
