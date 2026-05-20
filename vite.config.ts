@@ -58,22 +58,6 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/(.*\.)?scryfall\.(com|io)\/.*$/,
-            handler: "CacheFirst",
-            options: {
-              cacheName: "scryfall-images",
-              expiration: {
-                maxEntries: 200,
-                maxAgeSeconds: 60 * 60 * 24 * 30, // 30 Days
-              },
-              cacheableResponse: {
-                statuses: [200],
-              },
-            },
-          },
-        ],
       },
     }),
   ],
