@@ -4,7 +4,6 @@ import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   filterPacks,
   getTwoRandomIndexes,
-  handleError,
   makeDeckListString,
   populateDeckList,
   stripThemeName,
@@ -146,10 +145,6 @@ export const Route = createFileRoute("/mixer/")({
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
-  errorComponent: ({ error }) => {
-    const message = handleError(error);
-    return <div>Error: {message}</div>;
-  },
 });
 
 function RouteComponent(): JSX.Element {

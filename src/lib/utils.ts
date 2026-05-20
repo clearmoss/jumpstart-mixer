@@ -8,11 +8,6 @@ import type {
   PackIndexData,
 } from "./types";
 
-const ERROR_MESSAGES = {
-  UNKNOWN_PARSE: "An unknown error occurred while parsing data.",
-  UNKNOWN_LOAD: "An unknown error occurred while loading data.",
-};
-
 export const BASEPATH = "";
 
 export const COLORS = [
@@ -195,19 +190,6 @@ export function splitThemeName(name: string) {
   }
 
   return { baseName: name, number: null };
-}
-
-export function handleError(err: unknown): string {
-  if (err instanceof Error) {
-    console.error("Caught an Error:", {
-      message: err.message,
-      name: err.name,
-      stack: err.stack,
-    });
-    return err.message;
-  }
-  console.error("Caught an unknown error:", err);
-  return ERROR_MESSAGES.UNKNOWN_LOAD;
 }
 
 export function filterPacks(

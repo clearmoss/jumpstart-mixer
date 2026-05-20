@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { filterPacks, handleError } from "@/lib/utils.ts";
+import { filterPacks } from "@/lib/utils.ts";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { packsQueryOptions } from "@/lib/queries.ts";
@@ -48,10 +48,6 @@ export const Route = createFileRoute("/packs/")({
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
-  errorComponent: ({ error }) => {
-    const message = handleError(error);
-    return <div>Error: {message}</div>;
-  },
 });
 
 function RouteComponent() {

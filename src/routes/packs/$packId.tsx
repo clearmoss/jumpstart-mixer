@@ -63,7 +63,6 @@ export const Route = createFileRoute("/packs/$packId")({
   },
   component: RouteComponent,
   pendingComponent: () => <Loading />,
-  errorComponent: () => <div>Error.</div>,
   notFoundComponent: () => {
     return <p>Pack not found.</p>;
   },
