@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import path from "path";
 import tailwindcss from "@tailwindcss/vite";
+//noinspection ES6PreferShortImport
 import { BASEPATH } from "./src/lib/utils.ts";
 import { VitePWA } from "vite-plugin-pwa";
 
