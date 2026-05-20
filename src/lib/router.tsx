@@ -8,6 +8,7 @@ export const router = createRouter({
   routeTree,
   context: { queryClient },
   basepath: BASEPATH || "/",
+  trailingSlash: "always",
   defaultNotFoundComponent: () => {
     return (
       <div className="flex min-h-screen flex-col items-center gap-4 pt-32">

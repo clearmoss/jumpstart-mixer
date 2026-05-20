@@ -24,8 +24,9 @@ export default defineConfig({
         name: "Jumpstart Mixer",
         short_name: "JS Mixer",
         description: "A tool for mixing Jumpstart packs",
-        id: "./",
-        start_url: "./",
+        id: BASEPATH || "/",
+        start_url: BASEPATH || "/",
+        scope: BASEPATH || "/",
         display: "standalone",
         theme_color: "#ffffff",
         background_color: "#ffffff",
@@ -57,8 +58,12 @@ export default defineConfig({
         ],
       },
       workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
-        navigateFallback: "index.html",
+        navigateFallback: BASEPATH || "/index.html",
+        navigateFallbackAllowlist: [/^(?!\/__).*/],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/cards\.scryfall\.io\/.*/i,
