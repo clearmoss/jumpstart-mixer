@@ -64,7 +64,6 @@ export function CardImage({
       <img
         src={imageUrl}
         alt={`${card.name} card image`}
-        crossOrigin="anonymous"
         className="h-full w-full rounded-xl dark:rounded-2xl"
       />
       {card.rarity === "mythic" && (
