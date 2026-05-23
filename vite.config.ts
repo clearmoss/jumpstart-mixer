@@ -31,7 +31,6 @@ export default defineConfig({
         display: "standalone",
         theme_color: "#ffffff",
         background_color: "#ffffff",
-        orientation: "any",
         categories: ["games", "utilities"],
         icons: [
           {
