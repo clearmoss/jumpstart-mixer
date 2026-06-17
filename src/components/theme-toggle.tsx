@@ -1,46 +1,31 @@
 import { Moon, Sun } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { useTheme } from "@/components/theme-provider";
+import { Switch } from "@/components/ui/switch.tsx";
+import { Label } from "@/components/ui/label.tsx";
 
 export function ThemeToggle() {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+
+  const handleToggle = (checked: boolean) => {
+    setTheme(checked ? "dark" : "light");
+  };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="secondary" size="icon" className="cursor-pointer">
-          <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-          <Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-          <span className="sr-only">Toggle theme</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        <DropdownMenuItem
-          className="cursor-pointer"
-          onClick={() => setTheme("light")}
-        >
-          Light
-        </DropdownMenuItem>
-        <DropdownMenuItem
-          className="cursor-pointer"
-          onClick={() => setTheme("dark")}
-        >
-          Dark
-        </DropdownMenuItem>
-        <DropdownMenuItem
-          className="cursor-pointer"
-          onClick={() => setTheme("system")}
-        >
-          System
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <div className="flex items-center gap-2">
+      <Sun className="h-4 w-4 text-orange-200 transition-colors" />
+      <Switch
+        id="theme-mode"
+        checked={theme === "dark"}
+        onCheckedChange={handleToggle}
+        aria-label="Toggle dark mode"
+        className="cursor-pointer"
+      />
+      <Moon className="h-4 w-4 text-slate-200 transition-colors" />
+
+      <Label htmlFor="theme-mode" className="sr-only">
+        Toggle Dark Mode
+      </Label>
+    </div>
   );
 }

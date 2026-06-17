@@ -162,8 +162,8 @@ function RootComponent() {
                   </Link>
                 ))}
               </nav>
-              <div className="flex items-center justify-between border-t p-6">
-                <span className="text-lg font-medium">Theme</span>
+              <div className="flex items-center justify-between border-t bg-orange-600 p-4">
+                <span className="text-lg font-medium text-white">Theme</span>
                 <ThemeToggle />
               </div>
             </SheetContent>
