@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { memo, type ReactNode, useRef } from "react";
 import {
   createRootRouteWithContext,
   HeadContent,
@@ -11,13 +11,16 @@ import { ThemeToggle } from "@/components/theme-toggle.tsx";
 import type { QueryClient } from "@tanstack/react-query";
 import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 import { Menu } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu.tsx";
 import { Button } from "@/components/ui/button.tsx";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet.tsx";
+import { useAtom } from "jotai";
+import { isNavMenuOpenAtom } from "@/lib/atoms.ts";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   {
@@ -36,105 +39,125 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   },
 );
 
+const navLinks = [
+  { to: "/packs", label: "Packs" },
+  { to: "/mixer", label: "Mixer" },
+  { to: "/about", label: "About" },
+];
+
+const Logo = memo(() => (
+  <Link
+    to="/"
+    aria-label="Jumpstart Mixer Home"
+    className="cursor-pointer bg-linear-to-br from-orange-100 to-orange-300 bg-clip-text text-2xl tracking-widest text-transparent opacity-[.9] brightness-125 drop-shadow-sm transition-opacity duration-300 ease-in-out select-none hover:opacity-100"
+  >
+    Jumpstart Mixer
+  </Link>
+));
+
+const DesktopNav = memo(() => (
+  <nav className="hidden gap-8 text-lg md:flex">
+    {navLinks.map((link) => (
+      <Link
+        key={link.to}
+        to={link.to}
+        activeProps={{ className: "font-bold" }}
+        preload={link.to === "/mixer" ? false : undefined}
+        className="text-white transition-colors duration-300 select-none hover:text-orange-200"
+      >
+        {link.label}
+      </Link>
+    ))}
+  </nav>
+));
+
+const MainHeader = memo(({ children }: { children: ReactNode }) => (
+  <header className="flex items-center justify-between border-b bg-orange-600 p-4">
+    <Logo />
+
+    <div className="flex items-center gap-6">
+      <DesktopNav />
+
+      <div className="hidden md:block">
+        <ThemeToggle />
+      </div>
+
+      {children}
+    </div>
+  </header>
+));
+
 function RootComponent() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [open, setOpen] = useAtom(isNavMenuOpenAtom);
 
-  useEffect(() => {
-    // mobile menu
-    const mediaQuery = window.matchMedia("(min-width: 768px)");
-
-    const handleMediaChange = (event: MediaQueryListEvent) => {
-      if (event.matches) {
-        setIsOpen(false);
-      }
-    };
-
-    mediaQuery.addEventListener("change", handleMediaChange);
-    return () => mediaQuery.removeEventListener("change", handleMediaChange);
-  }, []);
+  // create a ref to attach to the SheetContent
+  const sheetContentRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
       <HeadContent />
-      <header className="flex items-center justify-between bg-orange-500 px-4 py-3 md:px-8">
-        <div className="flex items-center gap-6">
-          <Link
-            to="/"
-            className="cursor-pointer bg-linear-to-br from-orange-100 to-orange-300 bg-clip-text text-2xl tracking-widest text-transparent opacity-[.9] brightness-125 drop-shadow-sm transition duration-500 ease-in-out select-none hover:opacity-100"
-          >
-            Jumpstart Mixer
-          </Link>
-          <nav className="hidden items-baseline gap-6 md:flex">
-            <Link
-              to="/packs"
-              className="text-muted select-none [&.active]:font-bold"
-            >
-              Packs
-            </Link>
-            <Link
-              to="/mixer"
-              search={{}}
-              className="text-muted select-none [&.active]:font-bold"
-            >
-              Mixer
-            </Link>
-            <Link
-              to="/about"
-              className="text-muted select-none [&.active]:font-bold"
-            >
-              About
-            </Link>
-          </nav>
-        </div>
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
-          <div className="md:hidden">
-            <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-              <DropdownMenuTrigger asChild>
+      <MainHeader>
+        {/* mobile navigation */}
+        <div className="md:hidden">
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger
+              render={
                 <Button
-                  variant="ghost"
-                  size="icon"
-                  className="cursor-pointer text-white"
+                  variant="none"
+                  className="cursor-pointer transition-colors duration-300 hover:bg-orange-500"
+                />
+              }
+            >
+              <Menu className="text-white" />
+              <span className="sr-only">Open Menu</span>
+            </SheetTrigger>
+            <SheetContent
+              side="right"
+              className="flex flex-col p-0"
+              ref={sheetContentRef} // attach ref for the swipe hook
+              initialFocus={false}
+              finalFocus={false}
+            >
+              <SheetHeader className="border-none p-0">
+                <SheetTitle className="sr-only">
+                  Main Navigation Menu
+                </SheetTitle>
+              </SheetHeader>
+              <nav className="flex grow flex-col justify-center px-6 pt-6">
+                <Link
+                  to={"/"}
+                  onClick={() => setOpen(false)}
+                  activeProps={{ className: "font-bold" }}
+                  className="hover:text-muted-foreground border-b py-4 text-xl transition-colors duration-300 select-none last:border-0"
                 >
-                  <Menu className="size-6" />
-                  <span className="sr-only">Toggle menu</span>
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="md:hidden">
-                <DropdownMenuItem asChild>
+                  Home
+                </Link>
+                {navLinks.map((link) => (
                   <Link
-                    to="/packs"
-                    className="cursor-pointer [&.active]:font-bold"
+                    key={link.to}
+                    to={link.to}
+                    onClick={() => setOpen(false)}
+                    activeProps={{ className: "font-bold" }}
+                    preload={link.to === "/mixer" ? false : undefined}
+                    className="hover:text-muted-foreground border-b py-4 text-xl transition-colors duration-300 select-none last:border-0"
                   >
-                    Packs
+                    {link.label}
                   </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    to="/mixer"
-                    className="cursor-pointer [&.active]:font-bold"
-                    search={{}}
-                  >
-                    Mixer
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link
-                    to="/about"
-                    className="cursor-pointer [&.active]:font-bold"
-                  >
-                    About
-                  </Link>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div>
+                ))}
+              </nav>
+              <div className="flex items-center justify-between border-t p-6">
+                <span className="text-lg font-medium">Theme</span>
+                <ThemeToggle />
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
-      </header>
-      <hr />
-      <div className="min-h-screen justify-center">
+      </MainHeader>
+
+      <main className="min-h-screen justify-center">
         <Outlet />
-      </div>
+      </main>
+
       <Scripts />
       <TanStackRouterDevtools />
     </>

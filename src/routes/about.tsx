@@ -94,7 +94,7 @@ const HowToUseSection = () => (
           <h3 className="mb-2 text-xl font-semibold">2. Randomize</h3>
           <p className="text-muted-foreground text-base">
             Use the{" "}
-            <Link className="hyperlink" to={"/mixer"}>
+            <Link className="hyperlink" to={"/mixer"} preload={false}>
               Mixer
             </Link>{" "}
             to randomly select two themes, respecting the filters you have set

@@ -69,7 +69,7 @@ function Index() {
               Combine two random packs to create a 40-card deck, then export the
               decklist to your clipboard.
             </p>
-            <Link to="/mixer" className="hyperlink">
+            <Link to="/mixer" preload={false} className="hyperlink">
               Start mixing →
             </Link>
           </div>

@@ -108,6 +108,7 @@ function ActionButtons({
     <>
       <Link
         to="/mixer"
+        preload={false}
         title="Mix with this pack"
         search={
           position === 1

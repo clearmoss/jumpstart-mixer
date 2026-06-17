@@ -5,6 +5,8 @@ import type { CardDeck, Deck } from "@/lib/types.ts";
 
 export const store = createStore();
 
+export const isNavMenuOpenAtom = atom(false);
+
 export const showCategoriesAtom = atomWithStorage("showCategories", true);
 export const allowDuplicatesAtom = atomWithStorage("allowDuplicates", true);
 export const colorFilterAtom = atomWithStorage(
