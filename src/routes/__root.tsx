@@ -21,6 +21,8 @@ import {
 } from "@/components/ui/sheet.tsx";
 import { useAtom } from "jotai";
 import { isNavMenuOpenAtom } from "@/lib/atoms.ts";
+import { useSwipeGesture } from "@/hooks/use-swipe-gesture.ts";
+import { useDocumentMethodPolyfill } from "@/hooks/use-document-method-polyfill.ts";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   {
@@ -89,9 +91,24 @@ const MainHeader = memo(({ children }: { children: ReactNode }) => (
 
 function RootComponent() {
   const [open, setOpen] = useAtom(isNavMenuOpenAtom);
+  useDocumentMethodPolyfill(open); // prevents console errors, see implementation for more details
 
   // create a ref to attach to the SheetContent
   const sheetContentRef = useRef<HTMLDivElement>(null);
+
+  // open menu gesture
+  // attached to the global window, only enabled when the menu is closed
+  useSwipeGesture({
+    onSwipeLeft: () => setOpen(true),
+    enabled: !open,
+  });
+
+  // close menu gesture
+  useSwipeGesture({
+    onSwipeRight: () => setOpen(false),
+    enabled: open,
+    targetRef: sheetContentRef,
+  });
 
   return (
     <>
