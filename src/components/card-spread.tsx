@@ -57,13 +57,16 @@ function CardSpread({ packs, packIds }: CardSpreadProps) {
 
   return (
     <Card className="m-0 p-0">
-      <Accordion className="px-4 py-4 sm:px-6" defaultValue={["card-spread"]}>
+      <Accordion
+        className="px-4 py-4 sm:px-6 sm:py-6"
+        defaultValue={["card-spread"]}
+      >
         <AccordionItem value="card-spread">
           <AccordionTrigger className="flex cursor-pointer items-center gap-2 p-0 hover:no-underline">
             <LayoutGrid size={20} className="text-muted-foreground" />
             Card Spread
           </AccordionTrigger>
-          <AccordionContent className="xs:grid-cols-2 grid grid-cols-1 gap-4 pt-4 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">
+          <AccordionContent className="xs:grid-cols-2 grid grid-cols-1 gap-4 pt-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 min-[128rem]:grid-cols-5">
             {validPacksWithIds.map(({ pack, instanceId }) => (
               <SortedPackCards
                 key={instanceId}

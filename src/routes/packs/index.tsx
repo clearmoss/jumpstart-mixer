@@ -3,8 +3,6 @@ import { filterPacks } from "@/lib/utils.ts";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import ColorSelector from "@/components/color-selector.tsx";
-import SetSelector from "@/components/set-selector.tsx";
 import { useMemo } from "react";
 import { useAtom, useAtomValue } from "jotai";
 import {
@@ -18,17 +16,11 @@ import {
 } from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
-import CategoriesToggle from "@/components/categories-toggle.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { Settings, Shuffle } from "lucide-react";
+import { Shuffle } from "lucide-react";
 import { Badge } from "@/components/ui/badge.tsx";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion.tsx";
+import ControlPanel from "@/components/control-panel.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -106,56 +98,40 @@ function RouteComponent() {
         className="flex grow flex-col p-2 sm:p-8"
         data-testid="packs-content"
       >
-        <div className="flex flex-col gap-4 pb-8">
-          <Accordion className="block border sm:hidden">
-            <AccordionItem
-              value="item-1"
-              className="border-b px-4 last:border-b-0"
-            >
-              <AccordionTrigger className="flex cursor-pointer items-center gap-2 py-2 hover:no-underline">
-                <Settings size={20} className="text-muted-foreground" />
-                Filters
-              </AccordionTrigger>
-              <AccordionContent className="mb-4 flex flex-col gap-8 pt-4">
-                <div className="flex items-center justify-center gap-8">
-                  <ColorSelector />
-                  <SetSelector />
+        <div className="flex flex-col gap-4 pb-4">
+          <ControlPanel
+            settings={<ControlPanel.Settings />}
+            actions={
+              <ControlPanel.Actions>
+                <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+                  <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
+                    <Button
+                      size="sm"
+                      className="h-10 w-full cursor-pointer sm:w-54"
+                      variant="secondary"
+                      onClick={handleRandomClick}
+                      disabled={!packs || packs.length === 0}
+                    >
+                      <Shuffle />
+                      Random Pack
+                    </Button>
+                    <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row sm:flex-wrap">
+                      <PackSearch />
+                      <CardSearch />
+                    </div>
+                  </div>
+                  <Badge
+                    variant="secondary"
+                    className="h-8 min-w-24 shrink-0 self-start text-sm sm:self-auto"
+                    data-testid="pack-count"
+                  >
+                    {filteredPacks.length}{" "}
+                    {filteredPacks.length === 1 ? "pack" : "packs"}
+                  </Badge>
                 </div>
-                <CategoriesToggle className="hidden lg:flex" />
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-          <div className="mt-2 hidden flex-col gap-8 sm:mt-0 sm:flex lg:flex-row">
-            <div className="flex gap-4">
-              <ColorSelector />
-              <SetSelector />
-            </div>
-            <CategoriesToggle className="hidden lg:flex" />
-          </div>
-          <div className="flex flex-col flex-wrap items-baseline gap-4 sm:flex-row">
-            <Button
-              size="sm"
-              className="h-10 w-full cursor-pointer sm:w-54"
-              variant="secondary"
-              onClick={handleRandomClick}
-              disabled={!packs || packs.length === 0}
-            >
-              <Shuffle />
-              Random Pack
-            </Button>
-            <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
-              <PackSearch />
-              <CardSearch />
-            </div>
-            <Badge
-              variant="secondary"
-              className="h-8 min-w-24 shrink-0 text-sm"
-              data-testid="pack-count"
-            >
-              {filteredPacks.length}{" "}
-              {filteredPacks.length == 1 ? "pack" : "packs"}
-            </Badge>
-          </div>
+              </ControlPanel.Actions>
+            }
+          />
         </div>
         <div className="grid grid-cols-1 gap-2" data-testid="pack-list">
           {packList}

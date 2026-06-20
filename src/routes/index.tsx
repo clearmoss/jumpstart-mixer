@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="flex min-h-[80vh] flex-col items-center justify-center p-4 text-center md:p-8">
+    <div className="flex min-h-[80vh] flex-col items-center justify-center p-2 text-center sm:p-8">
       <div className="mt-8 mb-16 flex gap-16">
         <FlipCard
           backImg="/back.jpg"
@@ -52,8 +52,8 @@ function Index() {
           friends!
         </p>
 
-        <div className="grid grid-cols-1 gap-6 text-left md:grid-cols-3">
-          <div className="bg-card rounded-lg border p-6 shadow-sm">
+        <div className="grid grid-cols-1 gap-4 text-left md:grid-cols-3">
+          <div className="bg-card rounded-xl border p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Explore Packs</h2>
             <p className="mb-4">
               Browse through themed Jumpstart packs. Filter by color, set, or
@@ -64,7 +64,7 @@ function Index() {
             </Link>
           </div>
 
-          <div className="bg-card rounded-lg border p-6 shadow-sm">
+          <div className="bg-card rounded-xl border p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Shuffle Up</h2>
             <p className="mb-4">
               Combine two random packs to create a 40-card deck, then export the
@@ -75,7 +75,7 @@ function Index() {
             </Link>
           </div>
 
-          <div className="bg-card rounded-lg border p-6 shadow-sm">
+          <div className="bg-card rounded-xl border p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Learn More</h2>
             <p className="mb-4">
               New to Jumpstart? Learn more about this exciting Magic format and

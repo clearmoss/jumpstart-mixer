@@ -17,7 +17,7 @@ function Sidebar({ showDeckList = true, children }: SidebarProps) {
       data-testid="sidebar"
     >
       {children}
-      <div className="bg-popover relative top-0 left-0 flex min-h-134 items-center justify-center rounded-md border p-4 shadow-md">
+      <div className="bg-popover relative top-0 left-0 flex min-h-134 items-center justify-center rounded-xl border p-4 shadow-md">
         <MediaQuery minWidth={1024}>
           <CardImage
             card={useAtomValue(currentSidebarCardAtom)}
@@ -26,7 +26,7 @@ function Sidebar({ showDeckList = true, children }: SidebarProps) {
         </MediaQuery>
       </div>
       {showDeckList && (
-        <div className="bg-popover relative top-0 left-0 flex min-h-120 items-start justify-center rounded-md border p-6 shadow-md">
+        <div className="bg-popover relative top-0 left-0 flex min-h-120 items-start justify-center rounded-xl border p-6 shadow-md">
           <SidebarDeckList />
         </div>
       )}

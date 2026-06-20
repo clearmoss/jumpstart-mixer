@@ -36,14 +36,14 @@ export function CardImage({
   if (!card || !imageUrl) {
     return (
       <div
-        className={cn("aspect-63/88 overflow-hidden rounded-md", className)}
+        className={cn("aspect-63/88 overflow-hidden rounded-2xl", className)}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
       >
         <img
           src={backImage}
           alt={"Card back"}
-          className="h-full w-full rounded-xl"
+          className="h-full w-full rounded-2xl"
         />
       </div>
     );
@@ -55,7 +55,7 @@ export function CardImage({
       target="_blank"
       rel="noreferrer"
       className={cn(
-        "relative aspect-63/88 overflow-hidden rounded-md",
+        "relative aspect-63/88 overflow-hidden rounded-2xl",
         className,
       )}
       onMouseEnter={onMouseEnter}
@@ -64,10 +64,10 @@ export function CardImage({
       <img
         src={imageUrl}
         alt={`${card.name} card image`}
-        className="h-full w-full rounded-xl dark:rounded-2xl"
+        className="h-full w-full rounded-2xl"
       />
       {card.rarity === "mythic" && (
-        <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-xl dark:rounded-2xl" />
+        <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-2xl" />
       )}
     </a>
   );

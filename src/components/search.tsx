@@ -30,7 +30,7 @@ function DebouncedSearchInput({
   }, [localSearch, setGlobalSearch]);
 
   return (
-    <div className="relative w-full sm:max-w-64">
+    <div className="relative w-full sm:max-w-64 sm:min-w-64">
       <Input
         placeholder={placeholder}
         value={localSearch}

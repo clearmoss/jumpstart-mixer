@@ -91,14 +91,14 @@ function Pack({
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
-      <CardHeader className="flex flex-col gap-4 px-4 sm:flex-row sm:items-center sm:gap-8 sm:px-6">
+      <CardHeader className="flex flex-col gap-4 px-4 sm:flex-row sm:items-center sm:gap-6 sm:px-6">
         <div className="flex w-full min-w-0 items-start justify-between sm:w-auto sm:justify-start">
           <Link
             to="/packs/$packId"
             params={{
               packId: publicId,
             }}
-            className="flex min-w-0 flex-1 items-start gap-8"
+            className="flex min-w-0 flex-1 items-start gap-4 sm:gap-6"
             onMouseEnter={handleMouseEnter}
           >
             <div className="min-w-0">

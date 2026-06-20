@@ -148,7 +148,7 @@ const AboutAppSection = () => (
 function About() {
   return (
     <div className="min-h-screen">
-      <div className="mx-auto max-w-[100ch] px-6 py-12 md:py-24">
+      <div className="mx-auto max-w-[100ch] p-2 sm:p-8 md:py-24">
         <WhatIsJumpstartSection />
         <HowToUseSection />
         <AboutAppSection />
