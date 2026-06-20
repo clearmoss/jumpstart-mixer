@@ -51,7 +51,7 @@ const Logo = memo(() => (
   <Link
     to="/"
     aria-label="Jumpstart Mixer Home"
-    className="cursor-pointer bg-linear-to-br from-orange-100 to-orange-300 bg-clip-text text-2xl tracking-widest text-transparent opacity-[.9] brightness-125 drop-shadow-sm transition-opacity duration-300 ease-in-out select-none hover:opacity-100"
+    className="cursor-pointer bg-linear-to-br from-orange-100 to-orange-300 bg-clip-text text-2xl font-semibold tracking-widest text-transparent opacity-[.9] brightness-125 drop-shadow-sm transition-opacity duration-300 ease-in-out select-none hover:opacity-100"
   >
     Jumpstart Mixer
   </Link>

@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import OutLink from "@/components/out-link";
 import gitHubLogo from "/github.svg";
 import { FlipCard } from "@/components/flip-card.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
 
 export const Route = createFileRoute("/")({
   head: () => {
@@ -101,12 +102,17 @@ function Index() {
               href="https://github.com/clearmoss/jumpstart-mixer"
               className="flex items-center"
             >
-              <img
-                src={gitHubLogo}
-                alt="GitHub"
-                className="inline-block h-5 pr-2"
-              />{" "}
-              <span>View source on GitHub</span>
+              <Badge
+                variant="default"
+                className="bg-white p-4 text-black outline"
+              >
+                <img
+                  src={gitHubLogo}
+                  alt="GitHub"
+                  className="inline-block h-5 pr-2"
+                />{" "}
+                <span>View source on GitHub</span>
+              </Badge>
             </OutLink>
           </p>
         </footer>

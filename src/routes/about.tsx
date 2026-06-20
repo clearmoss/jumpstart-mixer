@@ -3,6 +3,7 @@ import OutLink from "@/components/out-link.tsx";
 import { FlipCard } from "@/components/flip-card.tsx";
 import gitHubLogo from "/github.svg";
 import React from "react";
+import { Badge } from "@/components/ui/badge.tsx";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -165,14 +166,19 @@ function About() {
           <div className="mt-6 flex justify-center">
             <OutLink
               href="https://github.com/clearmoss/jumpstart-mixer"
-              className="hover:text-foreground flex items-center transition-colors"
+              className="flex items-center"
             >
-              <img
-                src={gitHubLogo}
-                alt="GitHub"
-                className="inline-block h-4 pr-2 opacity-70"
-              />
-              <span>Source code</span>
+              <Badge
+                variant="default"
+                className="bg-white p-4 text-black outline"
+              >
+                <img
+                  src={gitHubLogo}
+                  alt="GitHub"
+                  className="inline-block h-5 pr-2"
+                />{" "}
+                <span>View source on GitHub</span>
+              </Badge>
             </OutLink>
           </div>
         </footer>
