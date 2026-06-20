@@ -86,8 +86,7 @@ function Index() {
             </Link>
           </div>
         </div>
-
-        <footer className="text-muted-foreground mt-16 text-sm">
+        <footer className="text-muted-foreground mt-24 border-t pt-8 text-center text-sm">
           <p>
             Jumpstart Mixer is an unofficial project. Magic: The Gathering is a
             trademark of
@@ -97,7 +96,7 @@ function Index() {
             </OutLink>
             .
           </p>
-          <p className="mt-4 flex justify-center">
+          <div className="mt-6 flex justify-center">
             <OutLink
               href="https://github.com/clearmoss/jumpstart-mixer"
               className="flex items-center"
@@ -114,7 +113,7 @@ function Index() {
                 <span>View source on GitHub</span>
               </Badge>
             </OutLink>
-          </p>
+          </div>
         </footer>
       </div>
     </div>

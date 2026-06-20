@@ -171,7 +171,7 @@ function RootComponent() {
         </div>
       </MainHeader>
 
-      <main className="min-h-screen justify-center p-2 sm:p-0">
+      <main className="justify-center p-2 sm:p-0">
         <Outlet />
       </main>
 
