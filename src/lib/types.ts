@@ -1,4 +1,6 @@
 // noinspection JSUnusedGlobalSymbols
+export type AppTheme = "light" | "dark";
+
 export type BoosterConfig = {
   boosters: BoosterPack[];
   boostersTotalWeight: number;

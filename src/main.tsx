@@ -4,7 +4,7 @@ import { RouterProvider } from "@tanstack/react-router";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { PersistQueryClientProvider } from "@tanstack/react-query-persist-client";
 import { Provider as JotaiProvider } from "jotai";
-import { ThemeProvider } from "@/components/theme-provider.tsx";
+import { ThemeProvider } from "@/providers/theme-provider.tsx";
 import { store } from "@/lib/atoms.ts";
 import { persister } from "@/lib/persister.ts";
 import { queryClient } from "@/lib/query-client.ts";
@@ -21,7 +21,7 @@ if (!rootElement.innerHTML) {
           client={queryClient}
           persistOptions={{ persister }}
         >
-          <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+          <ThemeProvider>
             <RouterProvider router={router} />
             <ReactQueryDevtools initialIsOpen={false} />
           </ThemeProvider>

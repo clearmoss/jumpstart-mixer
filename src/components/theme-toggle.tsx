@@ -1,10 +1,10 @@
 import { Moon, Sun } from "lucide-react";
-
-import { useTheme } from "@/components/theme-provider";
+import { useTheme } from "@/hooks/use-theme.ts";
 import { Switch } from "@/components/ui/switch.tsx";
 import { Label } from "@/components/ui/label.tsx";
+import { memo } from "react";
 
-export function ThemeToggle() {
+export const ThemeToggle = memo(function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
   const handleToggle = (checked: boolean) => {
@@ -28,4 +28,4 @@ export function ThemeToggle() {
       </Label>
     </div>
   );
-}
+});
