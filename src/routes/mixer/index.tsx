@@ -220,7 +220,7 @@ function RouteComponent(): JSX.Element {
     <div className="flex">
       <Sidebar showDeckList={false}></Sidebar>
       <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
-        <Accordion type="single" collapsible className="block border sm:hidden">
+        <Accordion className="block border sm:hidden">
           <AccordionItem
             value="item-1"
             className="border-b px-4 last:border-b-0"

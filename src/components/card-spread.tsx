@@ -57,12 +57,7 @@ function CardSpread({ packs, packIds }: CardSpreadProps) {
 
   return (
     <Card className="m-0 p-0">
-      <Accordion
-        className="px-4 py-4 sm:px-6"
-        type="single"
-        defaultValue="card-spread"
-        collapsible
-      >
+      <Accordion className="px-4 py-4 sm:px-6" defaultValue={["card-spread"]}>
         <AccordionItem value="card-spread">
           <AccordionTrigger className="flex cursor-pointer items-center gap-2 p-0 hover:no-underline">
             <LayoutGrid size={20} className="text-muted-foreground" />

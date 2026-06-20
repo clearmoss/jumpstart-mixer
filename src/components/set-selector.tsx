@@ -3,6 +3,7 @@ import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
+  DropdownMenuGroup,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
@@ -33,33 +34,34 @@ function SetSelector() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          className="w-32 cursor-pointer"
-          data-testid="set-selector-button"
-        >
-          {setFilter.length > 0 ? setFilter.join(" ") : "No Sets"}
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent
-        className="w-56"
-        onCloseAutoFocus={(e) => e.preventDefault()}
-      >
-        <DropdownMenuLabel>Allowed Sets</DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        {SETS.map((set) => (
-          <DropdownMenuCheckboxItem
-            key={set.code}
-            checked={setFilter.includes(set.code)}
-            onCheckedChange={() => handleCheckedChange(set.code)}
-            onSelect={(e) => e.preventDefault()}
-            className="cursor-pointer"
-            data-testid={`set-selector-item-${set.code}`}
+      <DropdownMenuTrigger
+        render={
+          <Button
+            variant="outline"
+            className="w-32 cursor-pointer"
+            data-testid="set-selector-button"
           >
-            {set.name}
-          </DropdownMenuCheckboxItem>
-        ))}
+            {setFilter.length > 0 ? setFilter.join(" ") : "No Sets"}
+          </Button>
+        }
+      />
+      <DropdownMenuContent className="w-56">
+        <DropdownMenuGroup>
+          <DropdownMenuLabel>Allowed Sets</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          {SETS.map((set) => (
+            <DropdownMenuCheckboxItem
+              key={set.code}
+              checked={setFilter.includes(set.code)}
+              onCheckedChange={() => handleCheckedChange(set.code)}
+              onSelect={(e) => e.preventDefault()}
+              className="cursor-pointer"
+              data-testid={`set-selector-item-${set.code}`}
+            >
+              {set.name}
+            </DropdownMenuCheckboxItem>
+          ))}
+        </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
   );

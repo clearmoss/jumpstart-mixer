@@ -107,11 +107,7 @@ function RouteComponent() {
         data-testid="packs-content"
       >
         <div className="flex flex-col gap-4 pb-8">
-          <Accordion
-            type="single"
-            collapsible
-            className="block border sm:hidden"
-          >
+          <Accordion className="block border sm:hidden">
             <AccordionItem
               value="item-1"
               className="border-b px-4 last:border-b-0"

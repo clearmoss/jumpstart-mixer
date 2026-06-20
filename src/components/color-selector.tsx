@@ -3,6 +3,7 @@ import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
+  DropdownMenuGroup,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
@@ -33,33 +34,34 @@ function ColorSelector() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button
-          variant="outline"
-          className="w-32 cursor-pointer"
-          data-testid="color-selector-button"
-        >
-          {colorFilter.length > 0 ? colorFilter.join(" ") : "No Colors"}
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent
-        className="w-56"
-        onCloseAutoFocus={(e) => e.preventDefault()}
-      >
-        <DropdownMenuLabel>Allowed Colors</DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        {COLORS.map((color) => (
-          <DropdownMenuCheckboxItem
-            key={color.code}
-            checked={colorFilter.includes(color.code)}
-            onCheckedChange={() => handleCheckedChange(color.code)}
-            onSelect={(e) => e.preventDefault()}
-            className="cursor-pointer"
-            data-testid={`color-selector-item-${color.code}`}
+      <DropdownMenuTrigger
+        render={
+          <Button
+            variant="outline"
+            className="w-32 cursor-pointer"
+            data-testid="color-selector-button"
           >
-            {color.name}
-          </DropdownMenuCheckboxItem>
-        ))}
+            {colorFilter.length > 0 ? colorFilter.join(" ") : "No Colors"}
+          </Button>
+        }
+      />
+      <DropdownMenuContent className="w-56">
+        <DropdownMenuGroup>
+          <DropdownMenuLabel>Allowed Colors</DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          {COLORS.map((color) => (
+            <DropdownMenuCheckboxItem
+              key={color.code}
+              checked={colorFilter.includes(color.code)}
+              onCheckedChange={() => handleCheckedChange(color.code)}
+              onSelect={(e) => e.preventDefault()}
+              className="cursor-pointer"
+              data-testid={`color-selector-item-${color.code}`}
+            >
+              {color.name}
+            </DropdownMenuCheckboxItem>
+          ))}
+        </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
   );
