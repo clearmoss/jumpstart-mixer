@@ -12,8 +12,11 @@ export const ThemeToggle = memo(function ThemeToggle() {
   };
 
   return (
-    <div className="flex items-center gap-2">
-      <Sun className="h-4 w-4 text-orange-200 transition-colors" />
+    <div
+      className="dark:bg-card flex items-center gap-3 rounded-xl bg-orange-100 px-3 py-2"
+      title="Toggle theme"
+    >
+      <Sun className="h-4 w-4 text-orange-700 transition-colors dark:text-orange-300" />
       <Switch
         id="theme-mode"
         checked={theme === "dark"}
@@ -21,7 +24,7 @@ export const ThemeToggle = memo(function ThemeToggle() {
         aria-label="Toggle dark mode"
         className="cursor-pointer"
       />
-      <Moon className="h-4 w-4 text-slate-200 transition-colors" />
+      <Moon className="h-4 w-4 text-slate-500 transition-colors dark:text-slate-200" />
 
       <Label htmlFor="theme-mode" className="sr-only">
         Toggle Dark Mode
