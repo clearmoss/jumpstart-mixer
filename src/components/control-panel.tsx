@@ -70,13 +70,13 @@ export function ControlPanelSettings({
   return (
     <>
       {/* desktop settings */}
-      <div className="hidden flex-wrap items-center gap-4 sm:flex">
+      <div className="hidden flex-wrap items-end gap-4 sm:flex">
+        <ColorSelector className="flex-1" />
+        <SetSelector className="flex-1" />
         <div className="flex gap-4">
-          <ColorSelector />
-          <SetSelector />
+          {showCategories && <CategoriesToggle />}
+          {children}
         </div>
-        {showCategories && <CategoriesToggle />}
-        {children}
       </div>
 
       {/* mobile settings (in accordion) */}
@@ -85,12 +85,10 @@ export function ControlPanelSettings({
           <ColorSelector />
           <SetSelector />
         </div>
-        {(showCategories || children) && (
-          <div className="flex flex-col gap-4">
-            {showCategories && <CategoriesToggle />}
-            {children}
-          </div>
-        )}
+        <div className="flex flex-col gap-4">
+          {showCategories && <CategoriesToggle />}
+          {children}
+        </div>
       </div>
     </>
   );

@@ -1,69 +1,75 @@
-import { Button } from "@/components/ui/button";
 import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Combobox,
+  ComboboxChip,
+  ComboboxChips,
+  ComboboxContent,
+  ComboboxItem,
+  ComboboxList,
+  ComboboxTrigger,
+  useComboboxAnchor,
+} from "@/components/ui/combobox";
 import { useAtom } from "jotai";
 import { colorFilterAtom } from "@/lib/atoms.ts";
-import { COLORS, type MtgColor } from "@/lib/utils.ts";
+import { cn, COLORS, type MtgColor } from "@/lib/utils.ts";
+import { Label } from "@/components/ui/label";
+import { useId } from "react";
 
-function ColorSelector() {
+function ColorSelector({ className }: { className?: string }) {
+  const id = useId();
+  const anchorRef = useComboboxAnchor();
   const [colorFilter, setColorFilter] = useAtom(colorFilterAtom);
 
-  const handleCheckedChange = (colorCode: MtgColor) => {
-    if (colorFilter.includes(colorCode) && colorFilter.length === 1) {
+  const handleValueChange = (newValues: string[]) => {
+    if (newValues.length === 0) {
       return;
     }
 
-    setColorFilter((currentSelected) => {
-      const newSelected = currentSelected.includes(colorCode)
-        ? currentSelected.filter((c) => c !== colorCode)
-        : [...currentSelected, colorCode];
+    // order will match the order of the COLORS array
+    const sortedValues = COLORS.filter((c) => newValues.includes(c.code)).map(
+      (c) => c.code,
+    ) as MtgColor[];
 
-      // order will match the order of the COLORS array
-      return COLORS.map((color) => color.code).filter((code) =>
-        newSelected.includes(code),
-      ) as MtgColor[];
-    });
+    setColorFilter(sortedValues);
   };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger
-        render={
-          <Button
-            variant="outline"
-            className="w-32 cursor-pointer"
-            data-testid="color-selector-button"
-          >
-            {colorFilter.length > 0 ? colorFilter.join(" ") : "No Colors"}
-          </Button>
-        }
-      />
-      <DropdownMenuContent className="w-56">
-        <DropdownMenuGroup>
-          <DropdownMenuLabel>Allowed Colors</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          {COLORS.map((color) => (
-            <DropdownMenuCheckboxItem
-              key={color.code}
-              checked={colorFilter.includes(color.code)}
-              onCheckedChange={() => handleCheckedChange(color.code)}
-              onSelect={(e) => e.preventDefault()}
-              className="cursor-pointer"
-              data-testid={`color-selector-item-${color.code}`}
-            >
-              {color.name}
-            </DropdownMenuCheckboxItem>
-          ))}
-        </DropdownMenuGroup>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <div
+      className={cn(
+        "flex w-full flex-col items-start gap-2 sm:w-auto sm:min-w-80",
+        className,
+      )}
+    >
+      <Label htmlFor={id}>Allowed Colors</Label>
+      <Combobox multiple value={colorFilter} onValueChange={handleValueChange}>
+        <ComboboxChips
+          ref={anchorRef}
+          className="min-h-10 w-full cursor-pointer"
+          data-testid="color-selector-button"
+        >
+          {colorFilter.map((colorCode) => {
+            const color = COLORS.find((c) => c.code === colorCode);
+            return <ComboboxChip key={colorCode}>{color?.name}</ComboboxChip>;
+          })}
+          <ComboboxTrigger
+            id={id}
+            className="text-muted-foreground/50 hover:text-muted-foreground ml-auto size-4 shrink-0 transition-colors"
+          />
+        </ComboboxChips>
+        <ComboboxContent anchor={anchorRef}>
+          <ComboboxList>
+            {COLORS.map((color) => (
+              <ComboboxItem
+                key={color.code}
+                value={color.code}
+                data-testid={`color-selector-item-${color.code}`}
+              >
+                {color.name}
+              </ComboboxItem>
+            ))}
+          </ComboboxList>
+        </ComboboxContent>
+      </Combobox>
+    </div>
   );
 }
 

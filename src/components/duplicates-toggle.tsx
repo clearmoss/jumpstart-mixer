@@ -1,22 +1,21 @@
-import { Switch } from "@/components/ui/switch.tsx";
-import { Label } from "@/components/ui/label.tsx";
+import { Toggle } from "@/components/ui/toggle.tsx";
 import { useAtom } from "jotai";
 import { allowDuplicatesAtom } from "@/lib/atoms.ts";
+import { cn } from "@/lib/utils.ts";
 
-function DuplicatesToggle() {
+function DuplicatesToggle({ className }: { className?: string }) {
   const [allowDuplicates, setAllowDuplicates] = useAtom(allowDuplicatesAtom);
 
   return (
-    <div className="flex items-center space-x-2">
-      <Switch
-        id="duplicates-toggle"
-        checked={allowDuplicates}
-        onCheckedChange={setAllowDuplicates}
-        className="cursor-pointer"
-      />
-      <Label htmlFor="duplicates-toggle" className="cursor-pointer">
-        Allow Duplicates
-      </Label>
+    <div className={cn(className)}>
+      <Toggle
+        variant="outline"
+        pressed={allowDuplicates}
+        onPressedChange={setAllowDuplicates}
+        className="h-8 w-48 cursor-pointer"
+      >
+        {allowDuplicates ? "Duplicates Allowed" : "Duplicates Forbidden"}
+      </Toggle>
     </div>
   );
 }

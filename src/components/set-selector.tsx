@@ -1,69 +1,75 @@
-import { Button } from "@/components/ui/button";
 import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+  Combobox,
+  ComboboxChip,
+  ComboboxChips,
+  ComboboxContent,
+  ComboboxItem,
+  ComboboxList,
+  ComboboxTrigger,
+  useComboboxAnchor,
+} from "@/components/ui/combobox";
 import { useAtom } from "jotai";
 import { setFilterAtom } from "@/lib/atoms.ts";
-import { SETS, type MtgSet } from "@/lib/utils.ts";
+import { SETS, type MtgSet, cn } from "@/lib/utils.ts";
+import { Label } from "@/components/ui/label";
+import { useId } from "react";
 
-function SetSelector() {
+function SetSelector({ className }: { className?: string }) {
+  const id = useId();
+  const anchorRef = useComboboxAnchor();
   const [setFilter, setSetFilter] = useAtom(setFilterAtom);
 
-  const handleCheckedChange = (setCode: MtgSet) => {
-    if (setFilter.includes(setCode) && setFilter.length === 1) {
+  const handleValueChange = (newValues: string[]) => {
+    if (newValues.length === 0) {
       return;
     }
 
-    setSetFilter((currentSelected) => {
-      const newSelected = currentSelected.includes(setCode)
-        ? currentSelected.filter((c) => c !== setCode)
-        : [...currentSelected, setCode];
+    // order will match the order of the SETS array
+    const sortedValues = SETS.filter((set) => newValues.includes(set.code)).map(
+      (set) => set.code,
+    ) as MtgSet[];
 
-      // order will match the order of the SETS array
-      return SETS.map((set) => set.code).filter((code) =>
-        newSelected.includes(code),
-      ) as MtgSet[];
-    });
+    setSetFilter(sortedValues);
   };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger
-        render={
-          <Button
-            variant="outline"
-            className="w-32 cursor-pointer"
-            data-testid="set-selector-button"
-          >
-            {setFilter.length > 0 ? setFilter.join(" ") : "No Sets"}
-          </Button>
-        }
-      />
-      <DropdownMenuContent className="w-56">
-        <DropdownMenuGroup>
-          <DropdownMenuLabel>Allowed Sets</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          {SETS.map((set) => (
-            <DropdownMenuCheckboxItem
-              key={set.code}
-              checked={setFilter.includes(set.code)}
-              onCheckedChange={() => handleCheckedChange(set.code)}
-              onSelect={(e) => e.preventDefault()}
-              className="cursor-pointer"
-              data-testid={`set-selector-item-${set.code}`}
-            >
-              {set.name}
-            </DropdownMenuCheckboxItem>
-          ))}
-        </DropdownMenuGroup>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <div
+      className={cn(
+        "flex w-full flex-col items-start gap-2 sm:w-auto sm:min-w-80",
+        className,
+      )}
+    >
+      <Label htmlFor={id}>Allowed Sets</Label>
+      <Combobox multiple value={setFilter} onValueChange={handleValueChange}>
+        <ComboboxChips
+          ref={anchorRef}
+          className="min-h-10 w-full cursor-pointer"
+          data-testid="set-selector-button"
+        >
+          {setFilter.map((setCode) => {
+            const set = SETS.find((s) => s.code === setCode);
+            return <ComboboxChip key={setCode}>{set?.name}</ComboboxChip>;
+          })}
+          <ComboboxTrigger
+            id={id}
+            className="text-muted-foreground/50 hover:text-muted-foreground ml-auto size-4 shrink-0 transition-colors"
+          />
+        </ComboboxChips>
+        <ComboboxContent anchor={anchorRef}>
+          <ComboboxList>
+            {SETS.map((set) => (
+              <ComboboxItem
+                key={set.code}
+                value={set.code}
+                data-testid={`set-selector-item-${set.code}`}
+              >
+                {set.name}
+              </ComboboxItem>
+            ))}
+          </ComboboxList>
+        </ComboboxContent>
+      </Combobox>
+    </div>
   );
 }
 

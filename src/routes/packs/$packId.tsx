@@ -84,7 +84,7 @@ function RouteComponent() {
       <Sidebar showDeckList={false}></Sidebar>
       <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
         <ControlPanel
-          settings={<ControlPanel.Settings showCategories={false} />}
+          settings={<ControlPanel.Settings showCategories={true} />}
           actions={
             <ControlPanel.Actions>
               <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
