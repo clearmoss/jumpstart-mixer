@@ -223,30 +223,56 @@ export function filterPacks(
   });
 }
 
+export function isDuplicatePack(pack1: PackFile, pack2: PackFile) {
+  return stripThemeName(pack1.data.name) === stripThemeName(pack2.data.name);
+}
+
 export function getTwoRandomIndexes(
   packs: PackFile[],
   allowDuplicates: boolean,
 ): number[] {
   const arrLength = packs.length;
 
-  if (arrLength === 0) {
-    return [];
-  }
-
-  if (!allowDuplicates && arrLength < 2) {
+  // not enough valid packs to select from
+  if (arrLength === 0 || (!allowDuplicates && arrLength < 2)) {
     return [];
   }
 
   const index1 = Math.floor(Math.random() * arrLength);
-
   if (allowDuplicates) {
+    // second index can be anything because duplicates are allowed
     const index2 = Math.floor(Math.random() * arrLength);
     return [index1, index2];
-  } else {
-    let index2 = Math.floor(Math.random() * arrLength);
-    while (index1 === index2) {
-      index2 = Math.floor(Math.random() * arrLength);
-    }
-    return [index1, index2];
   }
+
+  // duplicates aren't allowed, so filter to unique pairs
+  const validIndexes: number[] = [];
+  for (let i = 0; i < arrLength; i++) {
+    if (i !== index1 && !isDuplicatePack(packs[index1], packs[i])) {
+      validIndexes.push(i);
+    }
+  }
+
+  // no unique pair exists
+  if (validIndexes.length === 0) {
+    return [];
+  }
+
+  // random selection from valid candidates
+  const index2 = validIndexes[Math.floor(Math.random() * validIndexes.length)];
+  return [index1, index2];
 }
+
+// helper to pull Jotai's localStorage data for cases where it's not able to sync itself yet
+export const getStorageValue = <T>(key: string, defaultValue: T): T => {
+  if (typeof globalThis !== "undefined" && globalThis.localStorage) {
+    try {
+      const stored = globalThis.localStorage.getItem(key);
+      // Jotai wraps data in JSON strings
+      return stored ? JSON.parse(stored) : defaultValue;
+    } catch {
+      return defaultValue;
+    }
+  }
+  return defaultValue;
+};

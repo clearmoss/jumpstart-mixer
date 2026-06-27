@@ -2,10 +2,14 @@ import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
 import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
+  COLORS,
   filterPacks,
+  getStorageValue,
   getTwoRandomIndexes,
+  isDuplicatePack,
   makeDeckListString,
   populateDeckList,
+  SETS,
   stripThemeName,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
@@ -22,7 +26,6 @@ import {
   colorFilterAtom,
   currentSidebarCardAtom,
   setFilterAtom,
-  store,
 } from "@/lib/atoms.ts";
 import { packsQueryOptions } from "@/lib/queries.ts";
 import Sidebar from "@/components/sidebar.tsx";
@@ -48,10 +51,16 @@ export const Route = createFileRoute("/mixer/")({
       let redirectId1 = search.packId1;
       let redirectId2 = search.packId2;
 
-      // use store to access Jotai state outside of React's lifecycle
-      const allowDuplicates = store.get(allowDuplicatesAtom);
-      const colorFilter = store.get(colorFilterAtom);
-      const setFilter = store.get(setFilterAtom);
+      // we need to bypass Jotai and read from localStorage since this is too early in the lifecycle
+      const allowDuplicates = getStorageValue("allowDuplicates", true);
+      const colorFilter = getStorageValue(
+        "colorFilter",
+        COLORS.map((color) => color.code),
+      );
+      const setFilter = getStorageValue(
+        "setFilter",
+        SETS.map((set) => set.code),
+      );
 
       const filteredPacks = filterPacks(packs, colorFilter, setFilter, "", "");
 
@@ -72,27 +81,45 @@ export const Route = createFileRoute("/mixer/")({
       } else if (!redirectId1) {
         // only packId1 is missing
         const existingId2 = redirectId2;
-        let newIndex1;
-
-        do {
-          newIndex1 = Math.floor(Math.random() * filteredPacks.length);
-        } while (
-          !allowDuplicates &&
-          filteredPacks[newIndex1].meta.publicId === existingId2
+        const existingPack2 = packs.find(
+          (p) => p.meta.publicId === existingId2,
         );
-        redirectId1 = filteredPacks[newIndex1].meta.publicId;
+
+        // filter out invalid choices
+        const validPacks = filteredPacks.filter((p) => {
+          if (allowDuplicates) return true;
+          return (
+            p.meta.publicId !== existingId2 &&
+            (!existingPack2 || !isDuplicatePack(p, existingPack2))
+          );
+        });
+
+        if (validPacks.length > 0) {
+          const randomPack =
+            validPacks[Math.floor(Math.random() * validPacks.length)];
+          redirectId1 = randomPack.meta.publicId;
+        }
       } else if (!redirectId2) {
         // only packId2 is missing
         const existingId1 = redirectId1;
-        let newIndex2;
-
-        do {
-          newIndex2 = Math.floor(Math.random() * filteredPacks.length);
-        } while (
-          !allowDuplicates &&
-          filteredPacks[newIndex2].meta.publicId === existingId1
+        const existingPack1 = packs.find(
+          (p) => p.meta.publicId === existingId1,
         );
-        redirectId2 = filteredPacks[newIndex2].meta.publicId;
+
+        // filter out invalid choices
+        const validPacks = filteredPacks.filter((p) => {
+          if (allowDuplicates) return true;
+          return (
+            p.meta.publicId !== existingId1 &&
+            (!existingPack1 || !isDuplicatePack(p, existingPack1))
+          );
+        });
+
+        if (validPacks.length > 0) {
+          const randomPack =
+            validPacks[Math.floor(Math.random() * validPacks.length)];
+          redirectId2 = randomPack.meta.publicId;
+        }
       }
 
       throw redirect({
@@ -123,7 +150,7 @@ export const Route = createFileRoute("/mixer/")({
       );
       title =
         pack1 && pack2
-          ? `${pack1.data.name.replace(/\((\d+)\)/g, "$1")} + ${pack2.data.name.replace(/\((\d+)\)/g, "$1")}`
+          ? `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`
           : "Mixer";
     }
 
@@ -183,7 +210,13 @@ function RouteComponent(): JSX.Element {
     if (allowDuplicates) {
       return filteredPacks.length >= 1;
     }
-    return filteredPacks.length >= 2;
+
+    // map to Set filters out duplicates
+    const uniqueThemes = new Set(
+      filteredPacks.map((pack) => stripThemeName(pack.data.name)),
+    );
+
+    return uniqueThemes.size >= 2;
   }, [allowDuplicates, filteredPacks]);
 
   const comboName = useMemo(() => {
@@ -192,6 +225,7 @@ function RouteComponent(): JSX.Element {
   }, [pack1, pack2]);
 
   const mixPacks = useCallback(() => {
+    if (!hasEnoughPacks) return;
     const [randomIndex1, randomIndex2] = getTwoRandomIndexes(
       filteredPacks,
       allowDuplicates,
@@ -200,13 +234,13 @@ function RouteComponent(): JSX.Element {
     if (randomIndex1 === undefined || randomIndex2 === undefined) return;
 
     void navigate({
-      search: {
+      search: (prev) => ({
+        ...prev,
         packId1: filteredPacks[randomIndex1].meta.publicId,
         packId2: filteredPacks[randomIndex2].meta.publicId,
-      },
-      // replace: true,
+      }),
     });
-  }, [filteredPacks, allowDuplicates, navigate]);
+  }, [hasEnoughPacks, filteredPacks, allowDuplicates, navigate]);
 
   return (
     <div className="flex">
@@ -226,7 +260,7 @@ function RouteComponent(): JSX.Element {
                   onClick={mixPacks}
                   className="h-10 w-full cursor-pointer sm:w-54"
                   variant="secondary"
-                  disabled={filteredPacks.length < (allowDuplicates ? 1 : 2)}
+                  disabled={!hasEnoughPacks}
                 >
                   <Shuffle />
                   Randomize ({filteredPacks.length}{" "}
@@ -246,7 +280,9 @@ function RouteComponent(): JSX.Element {
         />
         {!hasEnoughPacks ? (
           <div>Not enough packs to mix.</div>
-        ) : pack1 && pack2 ? (
+        ) : !pack1 || !pack2 ? (
+          <div>Pack(s) not found. Try the randomize button!</div>
+        ) : (
           <>
             <div className="flex items-center gap-4 lg:ml-8">
               <img src="/J25.svg" alt="J25 Logo" className="h-12 w-12" />
@@ -257,14 +293,6 @@ function RouteComponent(): JSX.Element {
               <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
             </div>
           </>
-        ) : (
-          <div>
-            {!packId1 && !packId2 ? (
-              <div>Not enough packs to mix.</div>
-            ) : (
-              "Pack(s) not found. Try the randomize button!"
-            )}
-          </div>
         )}
         <div className="">
           {pack1 && pack2 && (
