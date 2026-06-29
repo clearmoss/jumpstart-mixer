@@ -193,6 +193,9 @@ function RouteComponent(): JSX.Element {
         setCode: "F" + pack1.data.code,
         imageUri: pack1.meta.themeCardUri,
       } as CardDeck);
+    } else {
+      // clear sidebar state atoms on page load, no valid packs to display
+      setCurrentSidebarCard(null);
     }
   }, [pack1, setCurrentSidebarCard]);
 
