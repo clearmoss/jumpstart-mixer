@@ -15,13 +15,12 @@ import {
   colorFilterAtom,
   currentSidebarCardAtom,
   setFilterAtom,
-  store,
 } from "@/lib/atoms.ts";
 import { filterPacks, stripThemeName } from "@/lib/utils.ts";
 import type { CardDeck } from "@/lib/types.ts";
 import ControlPanel from "@/components/control-panel.tsx";
-import { useMemo } from "react";
-import { useAtom } from "jotai";
+import { useEffect, useMemo } from "react";
+import { useAtom, useSetAtom } from "jotai";
 import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/packs/$packId")({
@@ -34,14 +33,6 @@ export const Route = createFileRoute("/packs/$packId")({
     }
 
     const pack = await queryClient.ensureQueryData(packQueryOptions(packId));
-
-    // set currentSidebarCardAtom to the pack's theme card
-    store.set(currentSidebarCardAtom, {
-      // mock a partial CardDeck as only this data is needed to display a theme card
-      name: stripThemeName(pack.data.name),
-      setCode: "F" + pack.data.code,
-      imageUri: pack.meta.themeCardUri,
-    } as CardDeck);
 
     return { pack: pack };
   },
@@ -72,6 +63,20 @@ function RouteComponent() {
   const navigate = useNavigate();
   const { packId } = Route.useParams();
   const pack = useSuspenseQuery(packQueryOptions(packId));
+  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
+
+  useEffect(() => {
+    if (pack.data) {
+      // set currentSidebarCardAtom to the pack's theme card
+      setCurrentSidebarCard({
+        // mock a partial CardDeck as only this data is needed to display a theme card
+        name: stripThemeName(pack.data.data.name),
+        setCode: "F" + pack.data.data.code,
+        imageUri: pack.data.meta.themeCardUri,
+      } as CardDeck);
+    }
+  }, [pack.data, setCurrentSidebarCard]);
+
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);

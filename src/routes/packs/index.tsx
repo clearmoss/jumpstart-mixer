@@ -3,8 +3,8 @@ import { filterPacks } from "@/lib/utils.ts";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import { useMemo } from "react";
-import { useAtom, useAtomValue } from "jotai";
+import { useMemo, useEffect } from "react";
+import { useAtom, useSetAtom } from "jotai";
 import {
   cardSearchFilterAtom,
   colorFilterAtom,
@@ -12,7 +12,6 @@ import {
   currentSidebarDeckListAtom,
   packSearchFilterAtom,
   setFilterAtom,
-  store,
 } from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
@@ -25,9 +24,6 @@ import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
-    // clear sidebar state atoms on new page load
-    store.set(currentSidebarCardAtom, null);
-    store.set(currentSidebarDeckListAtom, { pack: null, publicId: null });
     context.queryClient.ensureQueryData(packsQueryOptions);
   },
   head: () => {
@@ -46,7 +42,17 @@ export const Route = createFileRoute("/packs/")({
 function RouteComponent() {
   const navigate = useNavigate();
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
-  const currentSidebarDeckList = useAtomValue(currentSidebarDeckListAtom);
+  const [currentSidebarDeckList, setCurrentSidebarDeckList] = useAtom(
+    currentSidebarDeckListAtom,
+  );
+  const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
+
+  useEffect(() => {
+    // clear sidebar state atoms on page load
+    setCurrentSidebarCard(null);
+    setCurrentSidebarDeckList({ pack: null, publicId: null });
+  }, [setCurrentSidebarCard, setCurrentSidebarDeckList]);
+
   const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
   const [packSearchFilter] = useAtom(packSearchFilterAtom);
