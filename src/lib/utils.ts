@@ -196,8 +196,8 @@ export function filterPacks(
   packs: PackFile[],
   colorFilter: string[],
   setFilter: string[],
-  packSearchFilter: string,
-  cardSearchFilter: string,
+  packSearchFilter: string = "",
+  cardSearchFilter: string = "",
 ) {
   return packs.filter((pack) => {
     const packColors = determinePackColors(pack.data);
@@ -208,6 +208,7 @@ export function filterPacks(
     const packSearchMatch =
       packSearchFilter === "" ||
       pack.data.name.toLowerCase().includes(packSearchFilter.toLowerCase());
+
     const cardSearchMatch =
       cardSearchFilter === "" ||
       pack.data.mainBoard.some((card) =>

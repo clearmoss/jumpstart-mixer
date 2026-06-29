@@ -11,10 +11,17 @@ import Sidebar from "@/components/sidebar.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import CardSpread from "@/components/card-spread.tsx";
-import { currentSidebarCardAtom, store } from "@/lib/atoms.ts";
-import { stripThemeName } from "@/lib/utils.ts";
+import {
+  colorFilterAtom,
+  currentSidebarCardAtom,
+  setFilterAtom,
+  store,
+} from "@/lib/atoms.ts";
+import { filterPacks, stripThemeName } from "@/lib/utils.ts";
 import type { CardDeck } from "@/lib/types.ts";
 import ControlPanel from "@/components/control-panel.tsx";
+import { useMemo } from "react";
+import { useAtom } from "jotai";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -65,9 +72,15 @@ function RouteComponent() {
   const { packId } = Route.useParams();
   const pack = useSuspenseQuery(packQueryOptions(packId));
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
+  const [colorFilter] = useAtom(colorFilterAtom);
+  const [setFilter] = useAtom(setFilterAtom);
+
+  const filteredPacks = useMemo(() => {
+    return filterPacks(packs, colorFilter, setFilter);
+  }, [packs, colorFilter, setFilter]);
 
   const handleRandomClick = () => {
-    const otherPacks = packs.filter((p) => p.meta.publicId !== packId);
+    const otherPacks = filteredPacks.filter((p) => p.meta.publicId !== packId);
     if (otherPacks.length === 0) return;
 
     const randomIndex = Math.floor(Math.random() * otherPacks.length);
@@ -90,13 +103,13 @@ function RouteComponent() {
               <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
                 <Button
                   size="sm"
-                  className="h-10 w-full cursor-pointer sm:w-54"
+                  className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
                   variant="secondary"
                   onClick={handleRandomClick}
                   disabled={!packs || packs.length <= 1}
                 >
                   <Shuffle />
-                  Random Pack
+                  Random Other Pack
                 </Button>
               </div>
             </ControlPanel.Actions>

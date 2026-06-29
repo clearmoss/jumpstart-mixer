@@ -18,9 +18,10 @@ import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
+import { InfoIcon, Shuffle } from "lucide-react";
 import { Badge } from "@/components/ui/badge.tsx";
 import ControlPanel from "@/components/control-panel.tsx";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -51,18 +52,6 @@ function RouteComponent() {
   const [packSearchFilter] = useAtom(packSearchFilterAtom);
   const [cardSearchFilter] = useAtom(cardSearchFilterAtom);
 
-  const handleRandomClick = () => {
-    if (!packs || packs.length === 0) return;
-
-    const randomIndex = Math.floor(Math.random() * packs.length);
-    const selectedPack = packs[randomIndex];
-
-    void navigate({
-      to: "/packs/$packId",
-      params: { packId: selectedPack.meta.publicId },
-    });
-  };
-
   const filteredPacks = useMemo(() => {
     return filterPacks(
       packs,
@@ -87,9 +76,29 @@ function RouteComponent() {
         </div>
       ))
     ) : (
-      <div>No packs found.</div>
+      <Alert>
+        <AlertTitle>
+          <InfoIcon size={20} />
+          No packs found
+        </AlertTitle>
+        <AlertDescription>
+          There aren't any packs that match the current filters.
+        </AlertDescription>
+      </Alert>
     );
   }, [filteredPacks, currentSidebarDeckList.publicId]);
+
+  const handleRandomClick = () => {
+    if (!filteredPacks || filteredPacks.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * filteredPacks.length);
+    const selectedPack = filteredPacks[randomIndex];
+
+    void navigate({
+      to: "/packs/$packId",
+      params: { packId: selectedPack.meta.publicId },
+    });
+  };
 
   return (
     <div className="flex">
@@ -107,10 +116,10 @@ function RouteComponent() {
                   <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
                     <Button
                       size="sm"
-                      className="h-10 w-full cursor-pointer sm:w-54"
+                      className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
                       variant="secondary"
                       onClick={handleRandomClick}
-                      disabled={!packs || packs.length === 0}
+                      disabled={!filteredPacks || filteredPacks.length === 0}
                     >
                       <Shuffle />
                       Random Pack

@@ -260,7 +260,7 @@ function RouteComponent(): JSX.Element {
                 <Button
                   size="sm"
                   onClick={mixPacks}
-                  className="h-10 w-full cursor-pointer sm:w-54"
+                  className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
                   variant="secondary"
                   disabled={!hasEnoughPacks}
                 >
@@ -274,7 +274,7 @@ function RouteComponent(): JSX.Element {
                   textToCopy={currentDeckList}
                   buttonText="Copy Combined Decklist"
                   disabled={!currentDeckList}
-                  className="h-10 w-full sm:w-56"
+                  className="flex h-10 w-full gap-2 sm:w-56"
                 />
                 {!hasEnoughPacks && (
                   <Badge
