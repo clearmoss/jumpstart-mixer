@@ -14,7 +14,7 @@ import {
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
 import { type JSX, useCallback, useEffect, useMemo } from "react";
-import { Shuffle } from "lucide-react";
+import { InfoIcon, Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
@@ -31,6 +31,8 @@ import { packsQueryOptions } from "@/lib/queries.ts";
 import Sidebar from "@/components/sidebar.tsx";
 import CardSpread from "@/components/card-spread.tsx";
 import ControlPanel from "@/components/control-panel.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -274,14 +276,30 @@ function RouteComponent(): JSX.Element {
                   disabled={!currentDeckList}
                   className="h-10 w-full sm:w-56"
                 />
+                {!hasEnoughPacks && (
+                  <Badge
+                    variant="destructive"
+                    className="flex gap-2 rounded-2xl border border-red-200 p-4 text-sm dark:border-red-400/50"
+                  >
+                    <InfoIcon />
+                    <span>Not enough packs to mix!</span>
+                  </Badge>
+                )}
               </div>
             </ControlPanel.Actions>
           }
         />
-        {!hasEnoughPacks ? (
-          <div>Not enough packs to mix.</div>
-        ) : !pack1 || !pack2 ? (
-          <div>Pack(s) not found. Try the randomize button!</div>
+        {!pack1 || !pack2 ? (
+          <Alert>
+            <AlertTitle>
+              <InfoIcon size={20} />
+              Invalid packs
+            </AlertTitle>
+            <AlertDescription>
+              A valid combination couldn't be found using these packs. Adjust
+              the filters and try the randomize button!
+            </AlertDescription>
+          </Alert>
         ) : (
           <>
             <div className="flex items-center gap-4 lg:ml-8">
