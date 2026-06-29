@@ -33,6 +33,7 @@ import CardSpread from "@/components/card-spread.tsx";
 import ControlPanel from "@/components/control-panel.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
+import PackCount from "@/components/pack-count.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -256,35 +257,34 @@ function RouteComponent(): JSX.Element {
           }
           actions={
             <ControlPanel.Actions>
-              <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
-                <Button
-                  size="sm"
-                  onClick={mixPacks}
-                  className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
-                  variant="secondary"
-                  disabled={!hasEnoughPacks}
-                >
-                  <Shuffle />
-                  Randomize ({filteredPacks.length}{" "}
-                  {filteredPacks.length === 1 ? "Pack" : "Packs"})
-                </Button>
-                <CopyButton
-                  size="sm"
-                  variant="default"
-                  textToCopy={currentDeckList}
-                  buttonText="Copy Combined Decklist"
-                  disabled={!currentDeckList}
-                  className="flex h-10 w-full gap-2 sm:w-56"
-                />
-                {!hasEnoughPacks && (
-                  <Badge
-                    variant="destructive"
-                    className="flex gap-2 rounded-2xl border border-red-200 p-4 text-sm dark:border-red-400/50"
+              <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+                <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
+                  <Button
+                    size="sm"
+                    onClick={mixPacks}
+                    className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
+                    variant="secondary"
+                    disabled={!hasEnoughPacks}
                   >
-                    <InfoIcon />
-                    <span>Not enough packs to mix!</span>
-                  </Badge>
-                )}
+                    <Shuffle />
+                    Random Combination
+                  </Button>
+                  <CopyButton
+                    size="sm"
+                    variant="default"
+                    textToCopy={currentDeckList}
+                    buttonText="Copy Combined Decklist"
+                    disabled={!currentDeckList}
+                    className="flex h-10 w-full gap-2 sm:w-56"
+                  />
+                  {!hasEnoughPacks && (
+                    <Badge variant="destructive">
+                      <InfoIcon />
+                      <span>Not enough packs to mix!</span>
+                    </Badge>
+                  )}
+                </div>
+                <PackCount filteredPacks={filteredPacks} />
               </div>
             </ControlPanel.Actions>
           }

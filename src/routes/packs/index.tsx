@@ -19,9 +19,9 @@ import Sidebar from "@/components/sidebar.tsx";
 import { CardSearch, PackSearch } from "@/components/search.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { InfoIcon, Shuffle } from "lucide-react";
-import { Badge } from "@/components/ui/badge.tsx";
 import ControlPanel from "@/components/control-panel.tsx";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
+import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -129,14 +129,7 @@ function RouteComponent() {
                       <CardSearch />
                     </div>
                   </div>
-                  <Badge
-                    variant="secondary"
-                    className="h-8 min-w-24 shrink-0 self-start text-sm sm:self-auto"
-                    data-testid="pack-count"
-                  >
-                    {filteredPacks.length}{" "}
-                    {filteredPacks.length === 1 ? "pack" : "packs"}
-                  </Badge>
+                  <PackCount filteredPacks={filteredPacks} />
                 </div>
               </ControlPanel.Actions>
             }

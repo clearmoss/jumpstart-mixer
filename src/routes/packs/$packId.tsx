@@ -22,6 +22,7 @@ import type { CardDeck } from "@/lib/types.ts";
 import ControlPanel from "@/components/control-panel.tsx";
 import { useMemo } from "react";
 import { useAtom } from "jotai";
+import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -100,7 +101,7 @@ function RouteComponent() {
           settings={<ControlPanel.Settings showCategories={true} />}
           actions={
             <ControlPanel.Actions>
-              <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
+              <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
                 <Button
                   size="sm"
                   className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
@@ -111,6 +112,7 @@ function RouteComponent() {
                   <Shuffle />
                   Random Other Pack
                 </Button>
+                <PackCount filteredPacks={filteredPacks} />
               </div>
             </ControlPanel.Actions>
           }

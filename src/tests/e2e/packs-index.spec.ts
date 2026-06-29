@@ -132,7 +132,7 @@ test.describe("Packs Page", () => {
       .filter({ visible: true })
       .fill("foobar pack");
 
-    await expect(page.getByText("No packs found.")).toBeVisible();
+    await expect(page.getByText("No packs found")).toBeVisible();
     await expect(
       page.getByTestId("pack-count").filter({ visible: true }),
     ).toHaveText("0 packs");
