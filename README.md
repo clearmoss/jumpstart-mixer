@@ -18,4 +18,4 @@ Jumpstart Mixer is an unofficial fan project. Magic: The Gathering is a trademar
 
 ## Screenshot
 
-<img width="2000" alt="Jumpstart Mixer Screenshot" src="https://github.com/user-attachments/assets/6e0477a0-63fb-4985-aa89-79966f41be08" />
+<img width="2000" alt="Jumpstart Mixer Screenshot" src="https://github.com/user-attachments/assets/662e5a09-cde3-4563-ba42-0129ce27bee3" />
