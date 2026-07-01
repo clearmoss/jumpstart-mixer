@@ -192,7 +192,7 @@ function PackListEntry({
           </div>
         </div>
 
-        <div className="flex items-center gap-4 px-6 pb-3 sm:flex-none sm:px-4 sm:py-0">
+        <div className="flex items-center gap-4 px-3 pb-3 sm:flex-none sm:px-4 sm:py-0">
           <CardDescription
             className="text-muted-foreground w-12 shrink-0 pt-0"
             data-testid="pack-set"
