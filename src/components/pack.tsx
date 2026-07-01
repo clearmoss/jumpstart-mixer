@@ -1,7 +1,6 @@
 import type { ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardHeader,
@@ -91,48 +90,43 @@ function Pack({
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
-      <CardHeader className="flex flex-col gap-4 px-4 sm:flex-row sm:items-center sm:gap-6 sm:px-6">
-        <div className="flex w-full min-w-0 items-start justify-between sm:w-auto sm:justify-start">
+      <CardHeader className="flex flex-col gap-4 px-4 sm:px-6">
+        <div
+          className="flex w-full min-w-0 flex-1 items-start justify-between gap-4 sm:gap-6"
+          onMouseEnter={handleMouseEnter}
+        >
           <Link
             to="/packs/$packId"
             params={{
               packId: publicId,
             }}
-            className="flex min-w-0 flex-1 items-start gap-4 sm:gap-6"
-            onMouseEnter={handleMouseEnter}
+            className="min-w-0 flex-1"
           >
-            <div className="min-w-0">
-              <CardTitle className="flex min-h-8 min-w-0 items-center py-1 leading-tight">
-                <span className="truncate">{baseName}</span>
-                {number && (
-                  <Badge
-                    variant="secondary"
-                    className="ml-4 flex h-5 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
-                  >
-                    {number}
-                  </Badge>
-                )}
-              </CardTitle>
-              <CardDescription className="text-muted-foreground">
+            <CardTitle className="flex min-h-8 min-w-0 items-center gap-2 leading-tight sm:gap-4">
+              <span className="truncate">{baseName}</span>
+              {number && (
+                <Badge
+                  variant="secondary"
+                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
+                >
+                  {number}
+                </Badge>
+              )}
+              <Badge variant="secondary" className="h-6 w-12 p-2">
                 {pack.data.code}
-              </CardDescription>
-            </div>
+              </Badge>
+            </CardTitle>
           </Link>
-
-          {/* buttons for narrow screens */}
-          <div className="ml-2 flex shrink-0 gap-2 sm:hidden">
+          <div className="flex shrink-0 items-center gap-2">
             {ActionButtons}
           </div>
         </div>
 
-        <div className="flex items-center gap-2 sm:grow">
-          <ColorIcons packColors={packColors} />
-        </div>
-
-        {/* buttons for wide screens */}
-        <CardAction className="hidden gap-2 sm:ml-auto sm:flex">
-          {ActionButtons}
-        </CardAction>
+        <CardDescription className="text-muted-foreground">
+          <div className="flex items-center gap-2 sm:grow">
+            <ColorIcons packColors={packColors} />
+          </div>
+        </CardDescription>
       </CardHeader>
       <CardContent className="px-4 sm:px-6">
         <DeckList pack={pack.data} />

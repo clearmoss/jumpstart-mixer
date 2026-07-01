@@ -174,7 +174,7 @@ function PackListEntry({
               {number && (
                 <Badge
                   variant="secondary"
-                  className="ml-4 flex h-5 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
+                  className="ml-4 flex h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
                 >
                   {number}
                 </Badge>
@@ -194,10 +194,12 @@ function PackListEntry({
 
         <div className="flex items-center gap-4 px-6 pb-3 sm:flex-none sm:px-4 sm:py-0">
           <CardDescription
-            className="text-muted-foreground w-10 shrink-0 pt-0"
+            className="text-muted-foreground w-12 shrink-0 pt-0"
             data-testid="pack-set"
           >
-            {pack.data.code}
+            <Badge variant="secondary" className="h-6 w-12 p-2">
+              {pack.data.code}
+            </Badge>
           </CardDescription>
 
           <div className="flex shrink-0 items-center gap-2">
