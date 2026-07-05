@@ -86,13 +86,13 @@ function Pack({
   return (
     <Card
       className={cn(
-        "bg-card w-lg max-w-full border-t-8",
+        "bg-card w-full max-w-xl min-w-sm flex-1 border-t-8",
         CARD_BORDER_CLASSES[mainColor],
       )}
     >
-      <CardHeader className="flex flex-col gap-4 px-4 sm:px-6">
+      <CardHeader className="flex flex-col px-6">
         <div
-          className="flex w-full min-w-0 flex-1 items-start justify-between gap-4 sm:gap-6"
+          className="flex w-full min-w-0 items-center justify-between gap-4"
           onMouseEnter={handleMouseEnter}
         >
           <Link
@@ -103,7 +103,7 @@ function Pack({
             className="min-w-0 flex-1"
           >
             <CardTitle className="flex min-h-8 min-w-0 items-center gap-2 leading-tight sm:gap-4">
-              <span className="truncate">{baseName}</span>
+              <span className="truncate text-lg">{baseName}</span>
               {number && (
                 <Badge
                   variant="secondary"
@@ -117,17 +117,20 @@ function Pack({
               </Badge>
             </CardTitle>
           </Link>
+        </div>
+
+        <div className="bg-border my-2 h-px w-full" />
+
+        <CardDescription className="text-muted-foreground flex w-full items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <ColorIcons packColors={packColors} />
+          </div>
           <div className="flex shrink-0 items-center gap-2">
             {ActionButtons}
           </div>
-        </div>
-
-        <CardDescription className="text-muted-foreground">
-          <div className="flex items-center gap-2 sm:grow">
-            <ColorIcons packColors={packColors} />
-          </div>
         </CardDescription>
       </CardHeader>
+
       <CardContent className="px-4 sm:px-6">
         <DeckList pack={pack.data} />
       </CardContent>

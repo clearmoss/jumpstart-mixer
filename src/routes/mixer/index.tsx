@@ -2,18 +2,21 @@ import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
 import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
 import {
+  cn,
   COLORS,
+  determinePackColors,
   filterPacks,
   getStorageValue,
   getTwoRandomIndexes,
   isDuplicatePack,
   makeDeckListString,
+  type MtgColor,
   populateDeckList,
   SETS,
   stripThemeName,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import { type JSX, useCallback, useEffect, useMemo } from "react";
+import React, { type JSX, useCallback, useEffect, useMemo } from "react";
 import { InfoIcon, Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
@@ -230,6 +233,30 @@ function RouteComponent(): JSX.Element {
     return `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`;
   }, [pack1, pack2]);
 
+  const bgGradientColors = useMemo(() => {
+    const PACK_GRADIENT_COLORS: Record<MtgColor, string> = {
+      W: "var(--color-amber-300)",
+      U: "var(--color-sky-500)",
+      B: "var(--color-neutral-700)",
+      R: "var(--color-red-500)",
+      G: "var(--color-green-500)",
+      C: "var(--color-gray-400)",
+    } as const;
+
+    if (!pack1 || !pack2) return {};
+
+    const pack1Colors = determinePackColors(pack1.data);
+    const pack2Colors = determinePackColors(pack2.data);
+
+    const colorCode1 = (pack1Colors[0]?.color ?? "C") as MtgColor;
+    const colorCode2 = (pack2Colors[0]?.color ?? "C") as MtgColor;
+
+    return {
+      "--gradient-start": PACK_GRADIENT_COLORS[colorCode1],
+      "--gradient-end": PACK_GRADIENT_COLORS[colorCode2],
+    } as React.CSSProperties;
+  }, [pack1, pack2]);
+
   const mixPacks = useCallback(() => {
     if (!hasEnoughPacks) return;
     const [randomIndex1, randomIndex2] = getTwoRandomIndexes(
@@ -305,11 +332,18 @@ function RouteComponent(): JSX.Element {
           </Alert>
         ) : (
           <>
-            <div className="flex items-center gap-4 lg:ml-8">
-              <img src="/J25.svg" alt="J25 Logo" className="h-12 w-12" />
-              <h1 className="text-3xl font-bold">{comboName}</h1>
+            <div
+              style={bgGradientColors}
+              className={cn(
+                "flex w-full items-center justify-center gap-4 rounded-xl px-6 py-4",
+                "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
+              )}
+            >
+              <h1 className="text-3xl font-bold text-white text-shadow-md">
+                {comboName}
+              </h1>
             </div>
-            <div className="grid w-fit grid-cols-1 gap-2 2xl:grid-cols-2">
+            <div className="flex w-full flex-wrap gap-4">
               <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
               <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
             </div>
