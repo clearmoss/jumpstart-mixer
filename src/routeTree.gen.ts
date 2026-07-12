@@ -13,6 +13,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PacksIndexRouteImport } from './routes/packs/index'
 import { Route as MixerIndexRouteImport } from './routes/mixer/index'
+import { Route as InteractiveIndexRouteImport } from './routes/interactive/index'
 import { Route as PacksPackIdRouteImport } from './routes/packs/$packId'
 
 const AboutRoute = AboutRouteImport.update({
@@ -35,6 +36,11 @@ const MixerIndexRoute = MixerIndexRouteImport.update({
   path: '/mixer/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const InteractiveIndexRoute = InteractiveIndexRouteImport.update({
+  id: '/interactive/',
+  path: '/interactive/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PacksPackIdRoute = PacksPackIdRouteImport.update({
   id: '/packs/$packId',
   path: '/packs/$packId',
@@ -45,6 +51,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/packs/$packId': typeof PacksPackIdRoute
+  '/interactive/': typeof InteractiveIndexRoute
   '/mixer/': typeof MixerIndexRoute
   '/packs/': typeof PacksIndexRoute
 }
@@ -52,6 +59,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/packs/$packId': typeof PacksPackIdRoute
+  '/interactive': typeof InteractiveIndexRoute
   '/mixer': typeof MixerIndexRoute
   '/packs': typeof PacksIndexRoute
 }
@@ -60,21 +68,31 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/packs/$packId': typeof PacksPackIdRoute
+  '/interactive/': typeof InteractiveIndexRoute
   '/mixer/': typeof MixerIndexRoute
   '/packs/': typeof PacksIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/packs/$packId' | '/mixer/' | '/packs/'
+  fullPaths:
+    '/' | '/about' | '/packs/$packId' | '/interactive/' | '/mixer/' | '/packs/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/packs/$packId' | '/mixer' | '/packs'
-  id: '__root__' | '/' | '/about' | '/packs/$packId' | '/mixer/' | '/packs/'
+  to: '/' | '/about' | '/packs/$packId' | '/interactive' | '/mixer' | '/packs'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/packs/$packId'
+    | '/interactive/'
+    | '/mixer/'
+    | '/packs/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   PacksPackIdRoute: typeof PacksPackIdRoute
+  InteractiveIndexRoute: typeof InteractiveIndexRoute
   MixerIndexRoute: typeof MixerIndexRoute
   PacksIndexRoute: typeof PacksIndexRoute
 }
@@ -109,6 +127,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MixerIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/interactive/': {
+      id: '/interactive/'
+      path: '/interactive'
+      fullPath: '/interactive/'
+      preLoaderRoute: typeof InteractiveIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/packs/$packId': {
       id: '/packs/$packId'
       path: '/packs/$packId'
@@ -123,6 +148,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   PacksPackIdRoute: PacksPackIdRoute,
+  InteractiveIndexRoute: InteractiveIndexRoute,
   MixerIndexRoute: MixerIndexRoute,
   PacksIndexRoute: PacksIndexRoute,
 }

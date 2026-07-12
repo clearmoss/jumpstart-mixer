@@ -73,10 +73,12 @@ export function ControlPanelSettings({
       <div className="hidden flex-wrap items-end gap-4 sm:flex">
         <ColorSelector className="flex-1" />
         <SetSelector className="flex-1" />
-        <div className="flex gap-4">
-          {showCategories && <CategoriesToggle />}
-          {children}
-        </div>
+        {(showCategories || children) && (
+          <div className="flex gap-4">
+            {showCategories && <CategoriesToggle />}
+            {children}
+          </div>
+        )}
       </div>
 
       {/* mobile settings (in accordion) */}

@@ -48,7 +48,7 @@ function Index() {
         </h1>
 
         <p className="mx-auto mb-8 max-w-2xl text-xl md:text-2xl">
-          Crack some virtual packs and jump into Magic: The Gathering with some
+          Crack some virtual packs and jump into Magic: The Gathering with your
           friends!
         </p>
 

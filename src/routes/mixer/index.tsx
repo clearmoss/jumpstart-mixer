@@ -211,7 +211,7 @@ function RouteComponent(): JSX.Element {
     return makeDeckListString(deckList);
   }, [pack1, pack2]);
 
-  const filteredPacks = useMemo(() => {
+  const filteredPacks: PackFile[] = useMemo(() => {
     return filterPacks(packs, colorFilter, setFilter, "", "");
   }, [packs, colorFilter, setFilter]);
 

@@ -42,6 +42,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 );
 
 const navLinks = [
+  { to: "/interactive", label: "Interactive" },
   { to: "/packs", label: "Packs" },
   { to: "/mixer", label: "Mixer" },
   { to: "/about", label: "About" },
