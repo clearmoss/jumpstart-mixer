@@ -61,7 +61,7 @@ test.describe("Packs Page", () => {
     await page.getByTestId("color-selector-item-W").click();
     await expect(
       page.getByTestId("pack-count").filter({ visible: true }),
-    ).not.toHaveText(`${initialCount} Packs`);
+    ).not.toHaveText(`${initialCount} packs`);
 
     const newCount = await getPackCount(page);
     expect(newCount).toBeLessThan(initialCount);
@@ -111,7 +111,7 @@ test.describe("Packs Page", () => {
     await page.getByTestId("set-selector-item-JMP").click();
     await expect(
       page.getByTestId("pack-count").filter({ visible: true }),
-    ).not.toHaveText(`${initialCount} Packs`);
+    ).not.toHaveText(`${initialCount} packs`);
 
     const newCount = await getPackCount(page);
     expect(newCount).toBeLessThan(initialCount);
