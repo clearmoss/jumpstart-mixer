@@ -3,6 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11.0.0 <12.0.0",
+      "onFail": "download"
+    }
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "pnpm run generate-pack-index && tsc -b && vite build",
@@ -40,7 +47,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@eslint-react/eslint-plugin": "^5.14.5",
+    "@eslint-react/eslint-plugin": "^5.14.6",
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.61.1",
     "@tanstack/eslint-plugin-query": "^5.101.2",

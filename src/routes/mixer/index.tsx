@@ -292,7 +292,7 @@ function RouteComponent(): JSX.Element {
                   <Button
                     size="sm"
                     onClick={mixPacks}
-                    className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
+                    className="flex h-10 w-full cursor-pointer gap-2 sm:w-56"
                     variant="secondary"
                     disabled={!hasEnoughPacks}
                   >

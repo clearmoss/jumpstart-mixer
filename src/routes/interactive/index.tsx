@@ -1,9 +1,18 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { type JSX, useMemo, useReducer } from "react";
+import React, { type JSX, useMemo, useReducer } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import Loading from "@/components/loading.tsx";
 import { BoosterPack } from "@/components/booster-pack.tsx";
-import { filterPacks, type MtgSet, stripThemeName } from "@/lib/utils.ts";
+import {
+  cn,
+  determinePackColors,
+  filterPacks,
+  makeDeckListString,
+  type MtgColor,
+  type MtgSet,
+  populateDeckList,
+  stripThemeName,
+} from "@/lib/utils.ts";
 import ControlPanel from "@/components/control-panel.tsx";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai";
@@ -14,9 +23,11 @@ import {
 } from "@/lib/atoms.ts";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import type { CardDeck, PackFile } from "@/lib/types.ts";
+import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
 import { Button } from "@/components/ui/button.tsx";
 import { CardImage } from "@/components/card-image.tsx";
+import CopyButton from "@/components/copy-button.tsx";
+import { RotateCcw } from "lucide-react";
 
 export const Route = createFileRoute("/interactive/")({
   loader: ({ context }) => {
@@ -136,6 +147,39 @@ function RouteComponent(): JSX.Element {
     return `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`;
   }, [pack1, pack2]);
 
+  const currentDeckList = useMemo(() => {
+    if (!pack1 || !pack2) return "";
+
+    const deckList: ClipboardCard[] = [];
+    populateDeckList(pack1.data, deckList);
+    populateDeckList(pack2.data, deckList);
+    return makeDeckListString(deckList);
+  }, [pack1, pack2]);
+
+  const bgGradientColors = useMemo(() => {
+    const PACK_GRADIENT_COLORS: Record<MtgColor, string> = {
+      W: "var(--color-amber-300)",
+      U: "var(--color-sky-500)",
+      B: "var(--color-neutral-700)",
+      R: "var(--color-red-500)",
+      G: "var(--color-green-500)",
+      C: "var(--color-gray-400)",
+    } as const;
+
+    if (!pack1 || !pack2) return {};
+
+    const pack1Colors = determinePackColors(pack1.data);
+    const pack2Colors = determinePackColors(pack2.data);
+
+    const colorCode1 = (pack1Colors[0]?.color ?? "C") as MtgColor;
+    const colorCode2 = (pack2Colors[0]?.color ?? "C") as MtgColor;
+
+    return {
+      "--gradient-start": PACK_GRADIENT_COLORS[colorCode1],
+      "--gradient-end": PACK_GRADIENT_COLORS[colorCode2],
+    } as React.CSSProperties;
+  }, [pack1, pack2]);
+
   const handlePackClick = (set: MtgSet | "RND") => {
     if (!filteredPacks.length) return;
 
@@ -150,9 +194,6 @@ function RouteComponent(): JSX.Element {
     dispatch({ type: "SELECT_PACK", payload: chosenPack });
   };
 
-  const headerTitle =
-    status === "COMPLETE" ? comboName : STATE_CONFIG[status].title;
-
   return (
     <div className="mx-auto flex w-full max-w-350 flex-col gap-16 p-8">
       <ControlPanel
@@ -163,7 +204,7 @@ function RouteComponent(): JSX.Element {
         }
       />
 
-      <h2>{headerTitle}</h2>
+      <h2>{STATE_CONFIG[status].title}</h2>
 
       <div className="flex items-center justify-center gap-8">
         <AnimatePresence mode="wait">
@@ -213,9 +254,12 @@ function RouteComponent(): JSX.Element {
               {status === "SECOND_SELECTION" && (
                 <Button
                   onClick={() => dispatch({ type: "RESET" })}
-                  className="cursor-pointer"
+                  size="sm"
+                  className="flex h-10 w-full cursor-pointer gap-2 sm:w-56"
+                  variant="secondary"
                 >
-                  Reset
+                  <RotateCcw />
+                  Start Over
                 </Button>
               )}
             </motion.div>
@@ -282,7 +326,18 @@ function RouteComponent(): JSX.Element {
               exit={{ opacity: 0, y: -10 }}
               className="flex w-full flex-col items-center gap-4"
             >
-              <div className="flex w-2xl items-center justify-center gap-8 rounded-xl">
+              <div
+                style={bgGradientColors}
+                className={cn(
+                  "flex w-full max-w-3xl items-center justify-center gap-4 rounded-xl px-6 py-4",
+                  "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
+                )}
+              >
+                <h1 className="text-3xl font-bold text-white text-shadow-md">
+                  {comboName}
+                </h1>
+              </div>
+              <div className="flex w-3xl items-center justify-center gap-8 rounded-xl">
                 {pack1 && (
                   <Link
                     to={"/packs/$packId"}
@@ -324,12 +379,25 @@ function RouteComponent(): JSX.Element {
                   </Link>
                 )}
               </div>
-              <Button
-                onClick={() => dispatch({ type: "RESET" })}
-                className="cursor-pointer"
-              >
-                Reset
-              </Button>
+              <div className="flex gap-4">
+                <Button
+                  onClick={() => dispatch({ type: "RESET" })}
+                  size="sm"
+                  className="flex h-10 w-full cursor-pointer gap-2 sm:w-56"
+                  variant="secondary"
+                >
+                  <RotateCcw />
+                  Start Over
+                </Button>
+                <CopyButton
+                  size="sm"
+                  variant="default"
+                  textToCopy={currentDeckList}
+                  buttonText="Copy Combined Decklist"
+                  disabled={!currentDeckList}
+                  className="flex h-10 w-full gap-2 sm:w-56"
+                />
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
