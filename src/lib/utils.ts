@@ -20,6 +20,15 @@ export const COLORS = [
 ] as const;
 export type MtgColor = (typeof COLORS)[number]["code"];
 
+export const MTG_COLOR_MAP: Record<MtgColor, string> = {
+  W: "var(--color-amber-300)",
+  U: "var(--color-sky-500)",
+  B: "var(--color-neutral-700)",
+  R: "var(--color-red-500)",
+  G: "var(--color-green-500)",
+  C: "var(--color-gray-400)",
+} as const;
+
 export const RARITIES = [
   { name: "Mythic", code: "mythic", order: 0 },
   { name: "Rare", code: "rare", order: 1 },
@@ -165,7 +174,7 @@ export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
   }
 }
 
-export function makeDeckListString(deckList: ClipboardCard[]) {
+export function getDeckListString(deckList: ClipboardCard[]) {
   let deckListString = "";
   for (const card of deckList) {
     deckListString += `${card.count} ${card.name} (${card.setCode}) ${card.number}\n`;
@@ -173,9 +182,27 @@ export function makeDeckListString(deckList: ClipboardCard[]) {
   return deckListString;
 }
 
+export function getDeckList(pack1: PackFile, pack2?: PackFile): string {
+  const deckList: ClipboardCard[] = [];
+  populateDeckList(pack1.data, deckList);
+  if (pack2) {
+    populateDeckList(pack2.data, deckList);
+  }
+  return getDeckListString(deckList);
+}
+
 export function stripThemeName(name: string) {
   // returns just the theme name without any numbers
   return name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+}
+
+export function getThemeCard(pack: PackFile): CardDeck {
+  // mock a partial CardDeck as only this data is needed to display a theme card
+  return {
+    name: stripThemeName(pack.data.name),
+    setCode: "F" + pack.data.code,
+    imageUri: pack.meta.themeCardUri,
+  } as CardDeck;
 }
 
 export function splitThemeName(name: string) {

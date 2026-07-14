@@ -1,4 +1,4 @@
-import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { PackFile } from "@/lib/types.ts";
 import {
   Card,
   CardAction,
@@ -10,9 +10,8 @@ import { Link } from "@tanstack/react-router";
 import {
   cn,
   determinePackColors,
-  makeDeckListString,
+  getDeckList,
   type MtgColor,
-  populateDeckList,
   splitThemeName,
 } from "@/lib/utils.ts";
 import React, { useMemo } from "react";
@@ -80,10 +79,7 @@ function usePackData(pack: PackFile | undefined, publicId: string | undefined) {
 
     const colors = determinePackColors(pack.data);
     const primaryColor = (colors[0]?.color ?? "C") as MtgColor;
-
-    const deckList: ClipboardCard[] = [];
-    populateDeckList(pack.data, deckList);
-    const deckListString = makeDeckListString(deckList);
+    const deckListString = getDeckList(pack);
 
     return {
       packColors: colors,

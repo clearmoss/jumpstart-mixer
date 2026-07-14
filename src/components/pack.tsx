@@ -1,4 +1,4 @@
-import type { ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { PackFile } from "@/lib/types.ts";
 import {
   Card,
   CardContent,
@@ -10,9 +10,9 @@ import { Link } from "@tanstack/react-router";
 import {
   cn,
   determinePackColors,
-  makeDeckListString,
+  getDeckList,
+  MTG_COLOR_MAP,
   type MtgColor,
-  populateDeckList,
   splitThemeName,
 } from "@/lib/utils.ts";
 import { useMemo } from "react";
@@ -23,15 +23,6 @@ import DeckList from "@/components/deck-list.tsx";
 import ColorIcons from "@/components/color-icons.tsx";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
 import { Badge } from "@/components/ui/badge.tsx";
-
-const CARD_BORDER_CLASSES: Record<MtgColor, string> = {
-  W: "border-t-amber-300",
-  U: "border-t-sky-500",
-  B: "border-t-neutral-700",
-  R: "border-t-red-500",
-  G: "border-t-green-500",
-  C: "border-t-gray-400",
-} as const;
 
 function Pack({
   pack,
@@ -44,9 +35,7 @@ function Pack({
 }) {
   const currentDeckList = useMemo(() => {
     if (!pack) return "";
-    const deckList: ClipboardCard[] = [];
-    populateDeckList(pack.data, deckList);
-    return makeDeckListString(deckList);
+    return getDeckList(pack);
   }, [pack]);
 
   const packColors = useMemo(
@@ -85,10 +74,8 @@ function Pack({
 
   return (
     <Card
-      className={cn(
-        "bg-card w-full max-w-xl min-w-sm flex-1 border-t-8",
-        CARD_BORDER_CLASSES[mainColor],
-      )}
+      className={cn("bg-card w-full max-w-xl min-w-sm flex-1 border-t-8")}
+      style={{ borderTopColor: MTG_COLOR_MAP[mainColor] }}
     >
       <CardHeader className="flex flex-col px-6">
         <div

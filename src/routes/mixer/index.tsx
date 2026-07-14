@@ -1,35 +1,29 @@
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button.tsx";
-import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { PackFile } from "@/lib/types.ts";
 import {
-  cn,
   COLORS,
-  determinePackColors,
   filterPacks,
   getStorageValue,
+  getThemeCard,
   getTwoRandomIndexes,
   isDuplicatePack,
-  makeDeckListString,
-  type MtgColor,
-  populateDeckList,
   SETS,
   stripThemeName,
 } from "@/lib/utils.ts";
 import Pack from "@/components/pack.tsx";
-import React, { type JSX, useCallback, useEffect, useMemo } from "react";
+import { type JSX, useCallback, useEffect, useMemo } from "react";
 import { InfoIcon, Shuffle } from "lucide-react";
 import CopyButton from "@/components/copy-button.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import Loading from "@/components/loading.tsx";
 import { z } from "zod";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
-import { useAtom, useSetAtom } from "jotai";
-import {
-  allowDuplicatesAtom,
-  colorFilterAtom,
-  currentSidebarCardAtom,
-  setFilterAtom,
-} from "@/lib/atoms.ts";
+import { useSetAtom, useAtomValue } from "jotai";
+import { allowDuplicatesAtom, currentSidebarCardAtom } from "@/lib/atoms.ts";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
+import { usePackCombination } from "@/hooks/use-pack-combination.ts";
+import { CombinationHeader } from "@/components/combination-header.tsx";
 import { packsQueryOptions } from "@/lib/queries.ts";
 import Sidebar from "@/components/sidebar.tsx";
 import CardSpread from "@/components/card-spread.tsx";
@@ -176,10 +170,10 @@ function RouteComponent(): JSX.Element {
   const navigate = useNavigate({ from: Route.fullPath });
   const { packId1, packId2 } = Route.useSearch();
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
-  const [allowDuplicates] = useAtom(allowDuplicatesAtom);
-  const [colorFilter] = useAtom(colorFilterAtom);
-  const [setFilter] = useAtom(setFilterAtom);
+  const allowDuplicates = useAtomValue(allowDuplicatesAtom);
   const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
+
+  const filteredPacks = useFilteredPacks();
 
   const { pack1, pack2 } = useMemo(() => {
     const p1 = packs.find((p) => p.meta.publicId === packId1);
@@ -190,30 +184,17 @@ function RouteComponent(): JSX.Element {
   useEffect(() => {
     if (pack1) {
       // set currentSidebarCardAtom to the first pack's theme card
-      setCurrentSidebarCard({
-        // mock a partial CardDeck as only this data is needed to display a theme card
-        name: stripThemeName(pack1.data.name),
-        setCode: "F" + pack1.data.code,
-        imageUri: pack1.meta.themeCardUri,
-      } as CardDeck);
+      setCurrentSidebarCard(getThemeCard(pack1));
     } else {
       // clear sidebar state atoms on page load, no valid packs to display
       setCurrentSidebarCard(null);
     }
   }, [pack1, setCurrentSidebarCard]);
 
-  const currentDeckList = useMemo(() => {
-    if (!pack1 || !pack2) return "";
-
-    const deckList: ClipboardCard[] = [];
-    populateDeckList(pack1.data, deckList);
-    populateDeckList(pack2.data, deckList);
-    return makeDeckListString(deckList);
-  }, [pack1, pack2]);
-
-  const filteredPacks: PackFile[] = useMemo(() => {
-    return filterPacks(packs, colorFilter, setFilter, "", "");
-  }, [packs, colorFilter, setFilter]);
+  const { comboName, deckListString, bgGradientColors } = usePackCombination(
+    pack1,
+    pack2,
+  );
 
   const hasEnoughPacks = useMemo(() => {
     if (allowDuplicates) {
@@ -227,35 +208,6 @@ function RouteComponent(): JSX.Element {
 
     return uniqueThemes.size >= 2;
   }, [allowDuplicates, filteredPacks]);
-
-  const comboName = useMemo(() => {
-    if (!pack1 || !pack2) return "";
-    return `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`;
-  }, [pack1, pack2]);
-
-  const bgGradientColors = useMemo(() => {
-    const PACK_GRADIENT_COLORS: Record<MtgColor, string> = {
-      W: "var(--color-amber-300)",
-      U: "var(--color-sky-500)",
-      B: "var(--color-neutral-700)",
-      R: "var(--color-red-500)",
-      G: "var(--color-green-500)",
-      C: "var(--color-gray-400)",
-    } as const;
-
-    if (!pack1 || !pack2) return {};
-
-    const pack1Colors = determinePackColors(pack1.data);
-    const pack2Colors = determinePackColors(pack2.data);
-
-    const colorCode1 = (pack1Colors[0]?.color ?? "C") as MtgColor;
-    const colorCode2 = (pack2Colors[0]?.color ?? "C") as MtgColor;
-
-    return {
-      "--gradient-start": PACK_GRADIENT_COLORS[colorCode1],
-      "--gradient-end": PACK_GRADIENT_COLORS[colorCode2],
-    } as React.CSSProperties;
-  }, [pack1, pack2]);
 
   const mixPacks = useCallback(() => {
     if (!hasEnoughPacks) return;
@@ -302,9 +254,9 @@ function RouteComponent(): JSX.Element {
                   <CopyButton
                     size="sm"
                     variant="default"
-                    textToCopy={currentDeckList}
+                    textToCopy={deckListString}
                     buttonText="Copy Combined Decklist"
-                    disabled={!currentDeckList}
+                    disabled={!deckListString}
                     className="flex h-10 w-full gap-2 sm:w-56"
                   />
                   {!hasEnoughPacks && (
@@ -332,17 +284,10 @@ function RouteComponent(): JSX.Element {
           </Alert>
         ) : (
           <>
-            <div
-              style={bgGradientColors}
-              className={cn(
-                "flex w-full items-center justify-center gap-4 rounded-xl px-6 py-4",
-                "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
-              )}
-            >
-              <h1 className="text-3xl font-bold text-white text-shadow-md">
-                {comboName}
-              </h1>
-            </div>
+            <CombinationHeader
+              comboName={comboName}
+              bgGradientColors={bgGradientColors}
+            />
             <div className="flex w-full flex-wrap gap-4">
               <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
               <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />

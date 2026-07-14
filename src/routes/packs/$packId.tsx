@@ -5,23 +5,21 @@ import Loading from "@/components/loading.tsx";
 import {
   packIndexQueryOptions,
   packQueryOptions,
-  packsQueryOptions,
 } from "@/lib/queries.ts";
 import Sidebar from "@/components/sidebar.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import CardSpread from "@/components/card-spread.tsx";
 import {
-  colorFilterAtom,
   currentSidebarCardAtom,
-  setFilterAtom,
 } from "@/lib/atoms.ts";
-import { filterPacks, stripThemeName } from "@/lib/utils.ts";
+import { stripThemeName } from "@/lib/utils.ts";
 import type { CardDeck } from "@/lib/types.ts";
 import ControlPanel from "@/components/control-panel.tsx";
-import { useEffect, useMemo } from "react";
-import { useAtom, useSetAtom } from "jotai";
+import { useEffect } from "react";
+import { useSetAtom } from "jotai";
 import PackCount from "@/components/pack-count.tsx";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -77,13 +75,7 @@ function RouteComponent() {
     }
   }, [pack.data, setCurrentSidebarCard]);
 
-  const { data: packs } = useSuspenseQuery(packsQueryOptions);
-  const [colorFilter] = useAtom(colorFilterAtom);
-  const [setFilter] = useAtom(setFilterAtom);
-
-  const filteredPacks = useMemo(() => {
-    return filterPacks(packs, colorFilter, setFilter);
-  }, [packs, colorFilter, setFilter]);
+  const filteredPacks = useFilteredPacks();
 
   const handleRandomClick = () => {
     const otherPacks = filteredPacks.filter((p) => p.meta.publicId !== packId);
@@ -112,7 +104,10 @@ function RouteComponent() {
                   className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
                   variant="secondary"
                   onClick={handleRandomClick}
-                  disabled={!packs || packs.length <= 1}
+                  disabled={
+                    filteredPacks.filter((p) => p.meta.publicId !== packId)
+                      .length === 0
+                  }
                 >
                   <Shuffle />
                   Random Other Pack

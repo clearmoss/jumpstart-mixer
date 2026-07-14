@@ -1,29 +1,18 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import React, { type JSX, useMemo, useReducer } from "react";
+import { type JSX, useReducer } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import Loading from "@/components/loading.tsx";
 import { BoosterPack } from "@/components/booster-pack.tsx";
-import {
-  cn,
-  determinePackColors,
-  filterPacks,
-  makeDeckListString,
-  type MtgColor,
-  type MtgSet,
-  populateDeckList,
-  stripThemeName,
-} from "@/lib/utils.ts";
+import { getThemeCard, type MtgSet } from "@/lib/utils.ts";
 import ControlPanel from "@/components/control-panel.tsx";
 import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai";
-import {
-  allowDuplicatesAtom,
-  colorFilterAtom,
-  setFilterAtom,
-} from "@/lib/atoms.ts";
-import { useSuspenseQuery } from "@tanstack/react-query";
+import { setFilterAtom } from "@/lib/atoms.ts";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import type { CardDeck, ClipboardCard, PackFile } from "@/lib/types.ts";
+import type { PackFile } from "@/lib/types.ts";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
+import { usePackCombination } from "@/hooks/use-pack-combination.ts";
+import { CombinationHeader } from "@/components/combination-header.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { CardImage } from "@/components/card-image.tsx";
 import CopyButton from "@/components/copy-button.tsx";
@@ -114,71 +103,17 @@ function interactiveReducer(
 }
 
 function RouteComponent(): JSX.Element {
-  const { data: packs } = useSuspenseQuery(packsQueryOptions);
-  const [allowDuplicates] = useAtom(allowDuplicatesAtom);
-  const [colorFilter] = useAtom(colorFilterAtom);
   const [setFilter] = useAtom(setFilterAtom);
 
   const [state, dispatch] = useReducer(interactiveReducer, initialState);
   const { pack1, pack2, status } = state;
 
-  const filteredPacks = useMemo(() => {
-    const validPacks: PackFile[] = filterPacks(
-      packs,
-      colorFilter,
-      setFilter,
-      "",
-      "",
-    );
+  const filteredPacks = useFilteredPacks({ excludeTheme: pack1?.data.name });
 
-    // if the user picked a pack, and duplicates aren't allowed, strip it and its variants out
-    if (!allowDuplicates && pack1) {
-      const selectedTheme = stripThemeName(pack1.data.name);
-      return validPacks.filter(
-        (pack) => stripThemeName(pack.data.name) !== selectedTheme,
-      );
-    }
-
-    return validPacks;
-  }, [packs, colorFilter, setFilter, allowDuplicates, pack1]);
-
-  const comboName = useMemo(() => {
-    if (!pack1 || !pack2) return "";
-    return `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`;
-  }, [pack1, pack2]);
-
-  const currentDeckList = useMemo(() => {
-    if (!pack1 || !pack2) return "";
-
-    const deckList: ClipboardCard[] = [];
-    populateDeckList(pack1.data, deckList);
-    populateDeckList(pack2.data, deckList);
-    return makeDeckListString(deckList);
-  }, [pack1, pack2]);
-
-  const bgGradientColors = useMemo(() => {
-    const PACK_GRADIENT_COLORS: Record<MtgColor, string> = {
-      W: "var(--color-amber-300)",
-      U: "var(--color-sky-500)",
-      B: "var(--color-neutral-700)",
-      R: "var(--color-red-500)",
-      G: "var(--color-green-500)",
-      C: "var(--color-gray-400)",
-    } as const;
-
-    if (!pack1 || !pack2) return {};
-
-    const pack1Colors = determinePackColors(pack1.data);
-    const pack2Colors = determinePackColors(pack2.data);
-
-    const colorCode1 = (pack1Colors[0]?.color ?? "C") as MtgColor;
-    const colorCode2 = (pack2Colors[0]?.color ?? "C") as MtgColor;
-
-    return {
-      "--gradient-start": PACK_GRADIENT_COLORS[colorCode1],
-      "--gradient-end": PACK_GRADIENT_COLORS[colorCode2],
-    } as React.CSSProperties;
-  }, [pack1, pack2]);
+  const { comboName, deckListString, bgGradientColors } = usePackCombination(
+    pack1,
+    pack2,
+  );
 
   const handlePackClick = (set: MtgSet | "RND") => {
     if (!filteredPacks.length) return;
@@ -289,30 +224,10 @@ function RouteComponent(): JSX.Element {
                 className="flex w-sm items-center justify-center rounded-xl"
               >
                 {status === "FIRST_REVEAL" && pack1 && (
-                  <CardImage
-                    clickable={false}
-                    card={
-                      {
-                        // mock a partial CardDeck as only this data is needed to display a theme card
-                        name: stripThemeName(pack1.data.name),
-                        setCode: "F" + pack1.data.code,
-                        imageUri: pack1.meta.themeCardUri,
-                      } as CardDeck
-                    }
-                  />
+                  <CardImage clickable={false} card={getThemeCard(pack1)} />
                 )}
                 {status === "SECOND_REVEAL" && pack2 && (
-                  <CardImage
-                    clickable={false}
-                    card={
-                      {
-                        // mock a partial CardDeck as only this data is needed to display a theme card
-                        name: stripThemeName(pack2.data.name),
-                        setCode: "F" + pack2.data.code,
-                        imageUri: pack2.meta.themeCardUri,
-                      } as CardDeck
-                    }
-                  />
+                  <CardImage clickable={false} card={getThemeCard(pack2)} />
                 )}
               </motion.div>
             </motion.div>
@@ -326,17 +241,10 @@ function RouteComponent(): JSX.Element {
               exit={{ opacity: 0, y: -10 }}
               className="flex w-full flex-col items-center gap-4"
             >
-              <div
-                style={bgGradientColors}
-                className={cn(
-                  "flex w-full max-w-3xl items-center justify-center gap-4 rounded-xl px-6 py-4",
-                  "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
-                )}
-              >
-                <h1 className="text-3xl font-bold text-white text-shadow-md">
-                  {comboName}
-                </h1>
-              </div>
+              <CombinationHeader
+                comboName={comboName}
+                bgGradientColors={bgGradientColors}
+              />
               <div className="flex w-3xl items-center justify-center gap-8 rounded-xl">
                 {pack1 && (
                   <Link
@@ -345,17 +253,7 @@ function RouteComponent(): JSX.Element {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <CardImage
-                      clickable={false}
-                      card={
-                        {
-                          // mock a partial CardDeck as only this data is needed to display a theme card
-                          name: stripThemeName(pack1.data.name),
-                          setCode: "F" + pack1.data.code,
-                          imageUri: pack1.meta.themeCardUri,
-                        } as CardDeck
-                      }
-                    />
+                    <CardImage clickable={false} card={getThemeCard(pack1)} />
                   </Link>
                 )}
                 {pack2 && (
@@ -365,17 +263,7 @@ function RouteComponent(): JSX.Element {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <CardImage
-                      clickable={false}
-                      card={
-                        {
-                          // mock a partial CardDeck as only this data is needed to display a theme card
-                          name: stripThemeName(pack2.data.name),
-                          setCode: "F" + pack2.data.code,
-                          imageUri: pack2.meta.themeCardUri,
-                        } as CardDeck
-                      }
-                    />
+                    <CardImage clickable={false} card={getThemeCard(pack2)} />
                   </Link>
                 )}
               </div>
@@ -392,9 +280,9 @@ function RouteComponent(): JSX.Element {
                 <CopyButton
                   size="sm"
                   variant="default"
-                  textToCopy={currentDeckList}
+                  textToCopy={deckListString}
                   buttonText="Copy Combined Decklist"
-                  disabled={!currentDeckList}
+                  disabled={!deckListString}
                   className="flex h-10 w-full gap-2 sm:w-56"
                 />
               </div>

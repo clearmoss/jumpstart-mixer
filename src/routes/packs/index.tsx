@@ -1,17 +1,12 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { filterPacks } from "@/lib/utils.ts";
-import { useSuspenseQuery } from "@tanstack/react-query";
+import { useNavigate, createFileRoute } from "@tanstack/react-router";
 import Loading from "@/components/loading.tsx";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import { useMemo, useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useAtom, useSetAtom } from "jotai";
 import {
-  cardSearchFilterAtom,
-  colorFilterAtom,
   currentSidebarCardAtom,
   currentSidebarDeckListAtom,
-  packSearchFilterAtom,
-  setFilterAtom,
 } from "@/lib/atoms.ts";
 import PackListEntry from "@/components/pack-list-entry.tsx";
 import Sidebar from "@/components/sidebar.tsx";
@@ -41,7 +36,7 @@ export const Route = createFileRoute("/packs/")({
 
 function RouteComponent() {
   const navigate = useNavigate();
-  const { data: packs } = useSuspenseQuery(packsQueryOptions);
+  const filteredPacks = useFilteredPacks({ useSearch: true });
   const [currentSidebarDeckList, setCurrentSidebarDeckList] = useAtom(
     currentSidebarDeckListAtom,
   );
@@ -52,21 +47,6 @@ function RouteComponent() {
     setCurrentSidebarCard(null);
     setCurrentSidebarDeckList({ pack: null, publicId: null });
   }, [setCurrentSidebarCard, setCurrentSidebarDeckList]);
-
-  const [colorFilter] = useAtom(colorFilterAtom);
-  const [setFilter] = useAtom(setFilterAtom);
-  const [packSearchFilter] = useAtom(packSearchFilterAtom);
-  const [cardSearchFilter] = useAtom(cardSearchFilterAtom);
-
-  const filteredPacks = useMemo(() => {
-    return filterPacks(
-      packs,
-      colorFilter,
-      setFilter,
-      packSearchFilter,
-      cardSearchFilter,
-    );
-  }, [packs, colorFilter, setFilter, packSearchFilter, cardSearchFilter]);
 
   const packList = useMemo(() => {
     return filteredPacks.length > 0 ? (
