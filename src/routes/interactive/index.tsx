@@ -146,15 +146,15 @@ function RevealSlot({
   return (
     <motion.div
       layout="position"
-      initial={{ opacity: 0, x: entryStartX, scale: 1 }}
-      animate={{ opacity: 1, x: 0, scale: 1 }}
       className="relative flex flex-col items-center justify-center"
     >
       <motion.div
         layout="position"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: THEME_CARD_DELAY }}
+        initial={{ opacity: 0, x: entryStartX }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{
+          opacity: { delay: THEME_CARD_DELAY },
+        }}
         className="w-70"
       >
         <Link
@@ -180,7 +180,6 @@ function RevealSlot({
         {isRevealing && set && (
           <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
             <motion.div
-              layout="position"
               layoutId={`pack-${set}-${layoutSuffix}-${resetKey}`}
               // this outer container handles the layout translation
               className="relative flex items-center justify-center"
@@ -343,48 +342,54 @@ function RouteComponent(): JSX.Element {
                 className="z-20 flex flex-wrap items-center justify-center gap-4"
               >
                 {setFilter.length > 1 && (
-                  <motion.button
-                    layout="position"
+                  <motion.div
                     layoutId={`pack-RND-${layoutIdScope}-${resetKey}`}
-                    whileHover={{ scale: 1.1 }}
-                    onClick={() => handlePackClick("RND")}
-                    disabled={filteredPacks.length < 1}
-                    aria-label="Select a random pack"
-                    aria-disabled={filteredPacks.length < 1}
-                    title={
-                      filteredPacks.length < 1 ? "No packs left" : undefined
-                    }
-                    className="cursor-pointer p-2"
+                    className="flex items-center justify-center"
                   >
-                    <BoosterPack />
-                  </motion.button>
+                    <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      onClick={() => handlePackClick("RND")}
+                      disabled={filteredPacks.length < 1}
+                      aria-label="Select a random pack"
+                      aria-disabled={filteredPacks.length < 1}
+                      title={
+                        filteredPacks.length < 1 ? "No packs left" : undefined
+                      }
+                      className="block cursor-pointer p-2"
+                    >
+                      <BoosterPack />
+                    </motion.button>
+                  </motion.div>
                 )}
                 {setFilter.map((set) => {
                   const hasAvailablePacks = filteredPacks.some(
                     (pack) => pack.data.code === set,
                   );
                   return (
-                    <motion.button
+                    <motion.div
                       key={set}
-                      layout="position"
                       layoutId={`pack-${set}-${layoutIdScope}-${resetKey}`}
-                      whileHover={hasAvailablePacks ? { scale: 1.1 } : {}}
-                      onClick={() => handlePackClick(set)}
-                      disabled={!hasAvailablePacks}
-                      aria-label={
-                        hasAvailablePacks
-                          ? `Select a ${set} pack`
-                          : `No ${set} packs left`
-                      }
-                      aria-disabled={!hasAvailablePacks}
-                      title={
-                        hasAvailablePacks ? undefined : `No ${set} packs left`
-                      }
-                      animate={{ opacity: hasAvailablePacks ? 1 : 0.5 }}
-                      className="cursor-pointer p-2"
+                      className="flex items-center justify-center"
                     >
-                      <BoosterPack set={set} />
-                    </motion.button>
+                      <motion.button
+                        whileHover={hasAvailablePacks ? { scale: 1.1 } : {}}
+                        onClick={() => handlePackClick(set)}
+                        disabled={!hasAvailablePacks}
+                        aria-label={
+                          hasAvailablePacks
+                            ? `Select a ${set} pack`
+                            : `No ${set} packs left`
+                        }
+                        aria-disabled={!hasAvailablePacks}
+                        title={
+                          hasAvailablePacks ? undefined : `No ${set} packs left`
+                        }
+                        animate={{ opacity: hasAvailablePacks ? 1 : 0.5 }}
+                        className="block cursor-pointer p-2"
+                      >
+                        <BoosterPack set={set} />
+                      </motion.button>
+                    </motion.div>
                   );
                 })}
               </motion.div>
