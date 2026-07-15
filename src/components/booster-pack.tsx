@@ -8,7 +8,7 @@ export function BoosterPack({ set }: BoosterPackProps) {
 
   return (
     <div>
-      <img src={imageUrl} alt="Pack Image" className="h-auto w-64" />
+      <img src={imageUrl} alt="Pack Image" className="h-auto w-70" />
     </div>
   );
 }
