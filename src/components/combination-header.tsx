@@ -32,7 +32,7 @@ export function CombinationHeader({
         "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
       )}
     >
-      <h1 className="text-center text-3xl font-bold text-white text-shadow-md">
+      <h1 className="text-center text-3xl font-bold text-white text-shadow-lg/16">
         {finalComboName}
       </h1>
     </div>

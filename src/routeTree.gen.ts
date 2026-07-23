@@ -9,26 +9,26 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as PacksIndexRouteImport } from './routes/packs/index'
-import { Route as MixerIndexRouteImport } from './routes/mixer/index'
+import { Route as AboutRouteImport } from './routes/about'
 import { Route as InteractiveIndexRouteImport } from './routes/interactive/index'
+import { Route as MixerIndexRouteImport } from './routes/mixer/index'
+import { Route as PacksIndexRouteImport } from './routes/packs/index'
 import { Route as PacksPackIdRouteImport } from './routes/packs/$packId'
 
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PacksIndexRoute = PacksIndexRouteImport.update({
-  id: '/packs/',
-  path: '/packs/',
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InteractiveIndexRoute = InteractiveIndexRouteImport.update({
+  id: '/interactive/',
+  path: '/interactive/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const MixerIndexRoute = MixerIndexRouteImport.update({
@@ -36,9 +36,9 @@ const MixerIndexRoute = MixerIndexRouteImport.update({
   path: '/mixer/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const InteractiveIndexRoute = InteractiveIndexRouteImport.update({
-  id: '/interactive/',
-  path: '/interactive/',
+const PacksIndexRoute = PacksIndexRouteImport.update({
+  id: '/packs/',
+  path: '/packs/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PacksPackIdRoute = PacksPackIdRouteImport.update({
@@ -99,13 +99,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -113,11 +106,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/packs/': {
-      id: '/packs/'
-      path: '/packs'
-      fullPath: '/packs/'
-      preLoaderRoute: typeof PacksIndexRouteImport
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/interactive/': {
+      id: '/interactive/'
+      path: '/interactive'
+      fullPath: '/interactive/'
+      preLoaderRoute: typeof InteractiveIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/mixer/': {
@@ -127,11 +127,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MixerIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/interactive/': {
-      id: '/interactive/'
-      path: '/interactive'
-      fullPath: '/interactive/'
-      preLoaderRoute: typeof InteractiveIndexRouteImport
+    '/packs/': {
+      id: '/packs/'
+      path: '/packs'
+      fullPath: '/packs/'
+      preLoaderRoute: typeof PacksIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/packs/$packId': {
