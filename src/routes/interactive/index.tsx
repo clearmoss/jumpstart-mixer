@@ -243,8 +243,9 @@ function RouteComponent(): JSX.Element {
   const isComplete = status === "COMPLETE";
 
   return (
-    <div className="mx-auto flex w-full max-w-350 flex-col gap-8 p-8">
+    <div className="mx-auto flex flex-col items-center gap-8 p-8">
       <ControlPanel
+        className="w-full max-w-350"
         settings={
           <ControlPanel.Settings showCategories={false}>
             <DuplicatesToggle />
