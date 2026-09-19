@@ -19,7 +19,7 @@ import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
-    context.queryClient.ensureQueryData(packsQueryOptions);
+    context.queryClient.ensureQueryData(packsQueryOptions).then();
   },
   head: () => {
     return {

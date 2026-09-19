@@ -6,7 +6,7 @@ import type {
   Deck,
   PackFile,
   PackIndexData,
-} from "./types";
+} from "./types.ts";
 
 export const BASEPATH = "";
 

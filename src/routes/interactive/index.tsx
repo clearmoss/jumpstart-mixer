@@ -21,7 +21,7 @@ import PackCount from "@/components/pack-count.tsx";
 
 export const Route = createFileRoute("/interactive/")({
   loader: ({ context }) => {
-    context.queryClient.ensureQueryData(packsQueryOptions);
+    context.queryClient.ensureQueryData(packsQueryOptions).then();
   },
   head: () => {
     const title = "Interactive";
@@ -155,7 +155,7 @@ function RevealSlot({
         transition={{
           opacity: { delay: THEME_CARD_DELAY },
         }}
-        className="w-70"
+        className="w-40 md:w-70"
       >
         <Link
           to={"/packs/$packId"}
@@ -243,7 +243,7 @@ function RouteComponent(): JSX.Element {
   const isComplete = status === "COMPLETE";
 
   return (
-    <div className="mx-auto flex flex-col items-center gap-8 p-8">
+    <div className="mx-auto flex flex-col items-center gap-8 p-2 md:p-8">
       <ControlPanel
         className="w-full max-w-350"
         settings={
@@ -313,7 +313,7 @@ function RouteComponent(): JSX.Element {
         </AnimatePresence>
 
         {/* main section */}
-        <div className="relative z-0 flex w-full flex-col items-start justify-center gap-8 pt-16 md:flex-row">
+        <div className="relative z-0 flex w-full flex-row items-start justify-center gap-8 pt-16">
           {/* slot 1: left theme card */}
           <AnimatePresence>
             {pack1 && (
