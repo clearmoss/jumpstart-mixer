@@ -155,7 +155,7 @@ function RevealSlot({
         transition={{
           opacity: { delay: THEME_CARD_DELAY },
         }}
-        className="w-40 md:w-70"
+        className="w-(--theme-width)"
       >
         <Link
           to={"/packs/$packId"}
@@ -163,7 +163,7 @@ function RevealSlot({
           target="_blank"
           rel="noopener noreferrer"
           className={cn(
-            "block w-full px-3",
+            "block w-full px-0",
             !isComplete && "pointer-events-none",
           )}
         >
@@ -176,34 +176,36 @@ function RevealSlot({
       </motion.div>
 
       {/* pack overlay for reveal */}
-      <AnimatePresence>
-        {isRevealing && set && (
-          <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
+      {isRevealing && set && (
+        <div className="pointer-events-none absolute inset-y-0 left-1/2 z-10 flex w-(--pack-width) -translate-x-1/2 items-center justify-center">
+          <motion.div
+            layoutId={`pack-${set}-${layoutSuffix}-${resetKey}`}
+            // this outer container handles the layout translation
+            className="relative flex w-full shrink-0 items-center justify-center"
+          >
             <motion.div
-              layoutId={`pack-${set}-${layoutSuffix}-${resetKey}`}
-              // this outer container handles the layout translation
-              className="relative flex items-center justify-center"
+              // this inner container handles the downward slide
+              className="w-full"
+              initial={{ y: 0, opacity: 1 }}
+              animate={{
+                y: REVEAL_TRANSITION.y,
+                opacity: REVEAL_TRANSITION.opacity,
+              }}
+              transition={{
+                duration: REVEAL_TRANSITION.duration,
+                times: REVEAL_TRANSITION.times,
+                ease: REVEAL_TRANSITION.ease,
+              }}
+              onAnimationComplete={onRevealComplete}
             >
-              <motion.div
-                // this inner container handles the downward slide
-                initial={{ y: 0, opacity: 1 }}
-                animate={{
-                  y: REVEAL_TRANSITION.y,
-                  opacity: REVEAL_TRANSITION.opacity,
-                }}
-                transition={{
-                  duration: REVEAL_TRANSITION.duration,
-                  times: REVEAL_TRANSITION.times,
-                  ease: REVEAL_TRANSITION.ease,
-                }}
-                onAnimationComplete={onRevealComplete}
-              >
-                <BoosterPack set={set === "RND" ? undefined : set} />
-              </motion.div>
+              <BoosterPack
+                set={set === "RND" ? undefined : set}
+                className="w-full"
+              />
             </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
+          </motion.div>
+        </div>
+      )}
     </motion.div>
   );
 }
@@ -243,7 +245,7 @@ function RouteComponent(): JSX.Element {
   const isComplete = status === "COMPLETE";
 
   return (
-    <div className="mx-auto flex flex-col items-center gap-8 p-2 md:p-8">
+    <div className="mx-auto flex flex-col items-center gap-4 p-2 sm:gap-8 md:p-8">
       <ControlPanel
         className="w-full max-w-350"
         settings={
@@ -312,25 +314,38 @@ function RouteComponent(): JSX.Element {
           )}
         </AnimatePresence>
 
-        {/* main section */}
-        <div className="relative z-0 flex w-full flex-row items-start justify-center gap-8 pt-16">
-          {/* slot 1: left theme card */}
-          <AnimatePresence>
-            {pack1 && (
-              <RevealSlot
-                pack={pack1}
-                set={set1}
-                isComplete={isComplete}
-                isRevealing={status === "FIRST_REVEAL"}
-                layoutSuffix="1"
-                entryStartX={50}
-                onRevealComplete={() => dispatch({ type: "PROCEED" })}
-                resetKey={resetKey}
-              />
-            )}
-          </AnimatePresence>
+        {/* pack reveal section */}
+        <div className="relative z-0 flex w-full flex-col items-center gap-4 pt-8 [--pack-width:clamp(9rem,calc((100vw-2rem)/2),19rem)] [--theme-width:clamp(8.5rem,calc((100vw-3rem)/2),17.5rem)] sm:gap-8 sm:pt-16">
+          {(pack1 || pack2) && (
+            <div className="flex w-full flex-row items-start justify-center gap-4 sm:gap-8">
+              {pack1 && (
+                <RevealSlot
+                  pack={pack1}
+                  set={set1}
+                  isComplete={isComplete}
+                  isRevealing={status === "FIRST_REVEAL"}
+                  layoutSuffix="1"
+                  entryStartX={50}
+                  onRevealComplete={() => dispatch({ type: "PROCEED" })}
+                  resetKey={resetKey}
+                />
+              )}
+              {pack2 && (
+                <RevealSlot
+                  pack={pack2}
+                  set={set2}
+                  isComplete={isComplete}
+                  isRevealing={status === "SECOND_REVEAL"}
+                  layoutSuffix="2"
+                  entryStartX={-50}
+                  onRevealComplete={() => dispatch({ type: "PROCEED" })}
+                  resetKey={resetKey}
+                />
+              )}
+            </div>
+          )}
 
-          {/* slot 2: center pack array */}
+          {/* pack selection section */}
           <AnimatePresence mode="popLayout">
             {(status === "FIRST_SELECTION" ||
               status === "SECOND_SELECTION") && (
@@ -340,25 +355,26 @@ function RouteComponent(): JSX.Element {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
-                className="z-20 flex flex-wrap items-center justify-center gap-4"
+                className="z-20 grid w-full grid-cols-2 gap-8 md:flex md:flex-wrap md:items-center md:justify-center"
               >
                 {setFilter.length > 1 && (
                   <motion.div
+                    key="RND"
                     layoutId={`pack-RND-${layoutIdScope}-${resetKey}`}
-                    className="flex items-center justify-center"
+                    className="flex w-(--pack-width) justify-self-center"
                   >
                     <motion.button
+                      type="button"
                       whileHover={{ scale: 1.1 }}
                       onClick={() => handlePackClick("RND")}
                       disabled={filteredPacks.length < 1}
                       aria-label="Select a random pack"
-                      aria-disabled={filteredPacks.length < 1}
                       title={
                         filteredPacks.length < 1 ? "No packs left" : undefined
                       }
-                      className="block cursor-pointer p-2"
+                      className="flex w-full cursor-pointer flex-col items-center gap-2 p-0 text-center md:block"
                     >
-                      <BoosterPack />
+                      <BoosterPack className="w-full" />
                     </motion.button>
                   </motion.div>
                 )}
@@ -370,9 +386,10 @@ function RouteComponent(): JSX.Element {
                     <motion.div
                       key={set}
                       layoutId={`pack-${set}-${layoutIdScope}-${resetKey}`}
-                      className="flex items-center justify-center"
+                      className="flex w-(--pack-width) justify-self-center"
                     >
                       <motion.button
+                        type="button"
                         whileHover={hasAvailablePacks ? { scale: 1.1 } : {}}
                         onClick={() => handlePackClick(set)}
                         disabled={!hasAvailablePacks}
@@ -381,35 +398,18 @@ function RouteComponent(): JSX.Element {
                             ? `Select a ${set} pack`
                             : `No ${set} packs left`
                         }
-                        aria-disabled={!hasAvailablePacks}
                         title={
                           hasAvailablePacks ? undefined : `No ${set} packs left`
                         }
                         animate={{ opacity: hasAvailablePacks ? 1 : 0.5 }}
-                        className="block cursor-pointer p-2"
+                        className="flex w-full cursor-pointer flex-col items-center gap-2 p-0 text-center md:block"
                       >
-                        <BoosterPack set={set} />
+                        <BoosterPack set={set} className="w-full" />
                       </motion.button>
                     </motion.div>
                   );
                 })}
               </motion.div>
-            )}
-          </AnimatePresence>
-
-          {/* slot 3: right theme card */}
-          <AnimatePresence>
-            {pack2 && (
-              <RevealSlot
-                pack={pack2}
-                set={set2}
-                isComplete={isComplete}
-                isRevealing={status === "SECOND_REVEAL"}
-                layoutSuffix="2"
-                entryStartX={-50}
-                onRevealComplete={() => dispatch({ type: "PROCEED" })}
-                resetKey={resetKey}
-              />
             )}
           </AnimatePresence>
         </div>

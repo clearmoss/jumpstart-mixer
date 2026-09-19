@@ -1,14 +1,24 @@
 import type { MtgSet } from "@/lib/utils.ts";
 
-type BoosterPackProps = { set?: MtgSet };
+type BoosterPackProps = {
+  set?: MtgSet;
+  className?: string;
+};
 
-export function BoosterPack({ set }: BoosterPackProps) {
+export function BoosterPack({ set, className }: BoosterPackProps) {
   const setCode = set ? set : "RND";
   const imageUrl = `/${setCode.toLowerCase()}_pack.png`;
 
   return (
-    <div>
-      <img src={imageUrl} alt="Pack Image" className="h-auto w-40 md:w-70" />
+    <div className={className ?? "w-40 md:w-70"}>
+      <img
+        src={imageUrl}
+        alt="Pack Image"
+        width={530}
+        height={1000}
+        draggable={false}
+        className="h-auto w-full"
+      />
     </div>
   );
 }
