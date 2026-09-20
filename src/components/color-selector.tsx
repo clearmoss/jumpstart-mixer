@@ -33,12 +33,7 @@ function ColorSelector({ className }: { className?: string }) {
   };
 
   return (
-    <div
-      className={cn(
-        "flex w-full flex-col items-start gap-2 sm:w-auto sm:min-w-80",
-        className,
-      )}
-    >
+    <div className={cn("flex w-full flex-col items-start gap-2", className)}>
       <Label htmlFor={id}>Allowed Colors</Label>
       <Combobox multiple value={colorFilter} onValueChange={handleValueChange}>
         <ComboboxChips

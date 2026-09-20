@@ -33,12 +33,7 @@ function SetSelector({ className }: { className?: string }) {
   };
 
   return (
-    <div
-      className={cn(
-        "flex w-full flex-col items-start gap-2 sm:w-auto sm:min-w-80",
-        className,
-      )}
-    >
+    <div className={cn("flex w-full flex-col items-start gap-2", className)}>
       <Label htmlFor={id}>Allowed Sets</Label>
       <Combobox multiple value={setFilter} onValueChange={handleValueChange}>
         <ComboboxChips

@@ -253,6 +253,7 @@ function RouteComponent(): JSX.Element {
             <DuplicatesToggle />
           </ControlPanel.Settings>
         }
+        settingsHeader={<PackCount filteredPacks={filteredPacks} />}
         actions={
           <ControlPanel.Actions>
             <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
@@ -276,7 +277,6 @@ function RouteComponent(): JSX.Element {
                   className="flex h-10 w-full gap-2 sm:w-56"
                 />
               </div>
-              <PackCount filteredPacks={filteredPacks} />
             </div>
           </ControlPanel.Actions>
         }

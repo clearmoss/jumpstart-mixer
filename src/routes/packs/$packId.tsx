@@ -96,6 +96,7 @@ function RouteComponent() {
       <div className="flex w-full flex-col gap-4 p-2 sm:p-8 lg:gap-4">
         <ControlPanel
           settings={<ControlPanel.Settings showCategories={true} />}
+          settingsHeader={<PackCount filteredPacks={filteredPacks} />}
           actions={
             <ControlPanel.Actions>
               <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
@@ -112,7 +113,6 @@ function RouteComponent() {
                   <Shuffle />
                   Random Other Pack
                 </Button>
-                <PackCount filteredPacks={filteredPacks} />
               </div>
             </ControlPanel.Actions>
           }

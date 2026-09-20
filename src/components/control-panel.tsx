@@ -1,4 +1,4 @@
-import { type ReactNode } from "react";
+import { createContext, type ReactNode, use } from "react";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
 import CategoriesToggle from "@/components/categories-toggle.tsx";
@@ -13,48 +13,65 @@ import { cn } from "@/lib/utils.ts";
 
 interface ControlPanelProps {
   settings?: ReactNode;
+  settingsHeader?: ReactNode;
   actions?: ReactNode;
   className?: string;
 }
 
-function ControlPanelRoot({ settings, actions, className }: ControlPanelProps) {
-  const cardClassName = "bg-card rounded-xl border p-4 sm:p-6";
+interface ControlPanelContextValue {
+  settingsHeader?: ReactNode;
+}
+
+const ControlPanelContext = createContext<ControlPanelContextValue>({});
+
+function ControlPanelRoot({
+  settings,
+  settingsHeader,
+  actions,
+  className,
+}: ControlPanelProps) {
+  const cardClassName = "bg-card rounded-xl border py-2 px-4 sm:p-6";
 
   return (
-    <div className={cn("flex flex-col gap-4", className)}>
-      {/* mobile layout */}
-      <div className="flex flex-col gap-2 sm:hidden">
-        {settings && (
-          <div className={cardClassName}>
-            <Accordion>
-              <AccordionItem value="item-1" className="border-none">
-                <AccordionTrigger
-                  className="flex cursor-pointer items-center gap-2 py-0 hover:no-underline"
-                  data-testid="mobile-settings-trigger"
-                >
-                  <Settings size={20} className="text-muted-foreground" />
-                  Settings
-                </AccordionTrigger>
-                <AccordionContent>
-                  <div className="pt-4">{settings}</div>
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          </div>
-        )}
-        {actions}
-      </div>
+    <ControlPanelContext value={{ settingsHeader }}>
+      <div className={cn("flex flex-col gap-4", className)}>
+        {/* mobile layout */}
+        <div className="flex flex-col gap-2 sm:hidden">
+          {settings && (
+            <div className={cn(cardClassName, "min-w-0")}>
+              <Accordion>
+                <AccordionItem value="item-1" className="border-none">
+                  <AccordionTrigger
+                    className="flex cursor-pointer items-center gap-2 py-0 hover:no-underline"
+                    data-testid="mobile-settings-trigger"
+                  >
+                    <span className="flex min-w-0 items-center">
+                      <Settings size={20} className="text-muted-foreground" />
+                      <span className="pr-8 pl-4 text-base">Settings</span>
+                      {settingsHeader}
+                    </span>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="pt-4">{settings}</div>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          )}
+          {actions}
+        </div>
 
-      {/* desktop layout */}
-      <div className="hidden flex-col sm:flex">
-        <div className={cardClassName}>
-          <div className="flex flex-col">
-            {settings}
-            {actions}
+        {/* desktop layout */}
+        <div className="hidden flex-col sm:flex">
+          <div className={cn(cardClassName, "min-w-0")}>
+            <div className="flex flex-col">
+              {settings}
+              {actions}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </ControlPanelContext>
   );
 }
 
@@ -67,18 +84,17 @@ export function ControlPanelSettings({
   children,
   showCategories = true,
 }: ControlPanelSettingsProps) {
+  const { settingsHeader } = use(ControlPanelContext);
+
   return (
     <>
       {/* desktop settings */}
-      <div className="hidden flex-wrap items-end gap-4 sm:flex">
-        <ColorSelector className="flex-1" />
-        <SetSelector className="flex-1" />
-        {(showCategories || children) && (
-          <div className="flex gap-4">
-            {showCategories && <CategoriesToggle />}
-            {children}
-          </div>
-        )}
+      <div className="hidden min-w-0 flex-wrap items-end gap-4 sm:flex">
+        <ColorSelector className="flex-1 sm:min-w-64" />
+        <SetSelector className="flex-1 sm:min-w-64" />
+        {showCategories && <CategoriesToggle />}
+        {children}
+        {settingsHeader}
       </div>
 
       {/* mobile settings (in accordion) */}
@@ -110,7 +126,7 @@ export function ControlPanelActions({
       {/* desktop separator + actions */}
       <div className="hidden sm:block">
         <div className="bg-border my-4 h-px" />
-        <div className={cn("flex flex-wrap items-center", className)}>
+        <div className={cn("flex min-w-0 flex-wrap items-center", className)}>
           {children}
         </div>
       </div>
@@ -119,7 +135,7 @@ export function ControlPanelActions({
       <div className="sm:hidden">
         <div
           className={cn(
-            "bg-card flex flex-col gap-4 rounded-xl border p-4",
+            "bg-card flex min-w-0 flex-col gap-4 rounded-xl border p-4",
             className,
           )}
         >

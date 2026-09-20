@@ -80,6 +80,7 @@ function RouteComponent() {
         <div className="flex flex-col gap-4 pb-4">
           <ControlPanel
             settings={<ControlPanel.Settings />}
+            settingsHeader={<PackCount filteredPacks={filteredPacks} />}
             actions={
               <ControlPanel.Actions>
                 <div className="flex w-full flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
@@ -99,7 +100,6 @@ function RouteComponent() {
                       <CardSearch />
                     </div>
                   </div>
-                  <PackCount filteredPacks={filteredPacks} />
                 </div>
               </ControlPanel.Actions>
             }

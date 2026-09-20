@@ -40,6 +40,17 @@ test.describe("Packs Page", () => {
     expect(displayedCount).toBe(actualCount);
   });
 
+  test("should display the count in the mobile settings header", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.reload();
+
+    const settingsTrigger = page.getByTestId("mobile-settings-trigger");
+    await expect(settingsTrigger).toBeVisible();
+    await expect(settingsTrigger.getByTestId("pack-count")).toBeVisible();
+  });
+
   test("should filter packs by color", async ({ page }) => {
     const isMobile = await page
       .getByTestId("mobile-settings-trigger")
@@ -52,7 +63,7 @@ test.describe("Packs Page", () => {
 
     // open the dropdown menu
     const colorSelector = page
-      .getByTestId("color-selector-button")
+      .getByRole("combobox", { name: "Allowed Colors" })
       .filter({ visible: true });
     await colorSelector.click();
     await expect(page.getByTestId("color-selector-item-W")).toBeVisible();
@@ -102,7 +113,7 @@ test.describe("Packs Page", () => {
 
     // open the dropdown menu
     const setSelector = page
-      .getByTestId("set-selector-button")
+      .getByRole("combobox", { name: "Allowed Sets" })
       .filter({ visible: true });
     await setSelector.click();
     await expect(page.getByTestId("set-selector-item-JMP")).toBeVisible();
