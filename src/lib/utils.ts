@@ -1,14 +1,7 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
-import type {
-  CardDeck,
-  ClipboardCard,
-  Deck,
-  PackFile,
-  PackIndexData,
-} from "./types.ts";
 
-export const BASEPATH = "";
+import type { CardDeck, ClipboardCard, Deck, PackFile, PackIndexData } from "./types.ts";
 
 export const COLORS = [
   { name: "White", code: "W", order: 0 },
@@ -62,11 +55,11 @@ export function cn(...inputs: ClassValue[]) {
 export async function fetchJson<T>(pathOrUrl: string): Promise<T> {
   // ensure the path starts with a forward slash if it doesn't already
   const path = pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`;
-  const response = await fetch(`${BASEPATH}${path}`);
+  const response = await fetch(`${path}`);
 
   if (!response.ok) {
     throw new Error(
-      `HTTP error! status: ${response.status}, statusText: ${response.statusText}, url: ${response.url}`,
+      `HTTP error! status: ${response.status}, statusText: ${response.statusText}, url: ${response.url}`
     );
   }
 
@@ -77,9 +70,7 @@ export async function fetchJson<T>(pathOrUrl: string): Promise<T> {
   }
 }
 
-async function fetchPackFromData(
-  packInfo: PackIndexData,
-): Promise<PackFile | null> {
+async function fetchPackFromData(packInfo: PackIndexData): Promise<PackFile | null> {
   if (!packInfo.url) {
     console.warn(`Pack info for ${packInfo.publicId} is missing a URL.`);
     return null;
@@ -90,7 +81,7 @@ async function fetchPackFromData(
     if (err instanceof Error) {
       console.warn(
         `Could not load or parse pack file for ${packInfo.publicId} from ${packInfo.url}:`,
-        err.message,
+        err.message
       );
     }
     return null;
@@ -116,14 +107,12 @@ export async function fetchPack(packId: string): Promise<PackFile> {
 
 export async function fetchAllPacks(): Promise<PackFile[]> {
   const packIndex = await fetchJson<PackIndexData[]>("pack_index.json");
-  const packPromises = packIndex.map(fetchPackFromData);
+  const packPromises = packIndex.map((item) => fetchPackFromData(item));
   const fetchedPacks = await Promise.all(packPromises);
   return fetchedPacks.filter((pack): pack is PackFile => pack !== null);
 }
 
-export function determinePackColors(
-  pack: Deck,
-): { color: string; count: number }[] {
+export function determinePackColors(pack: Deck): { color: string; count: number }[] {
   const colorCounts = pack.mainBoard.reduce(
     (acc, card) => {
       // if the card has colors, use them; otherwise use colorless ("C")
@@ -134,13 +123,13 @@ export function determinePackColors(
       }
       return acc;
     },
-    {} as Record<MtgColor, number>,
+    {} as Record<MtgColor, number>
   );
 
   // return the colors sorted by frequency
   return Object.entries(colorCounts)
     .map(([color, count]) => ({ color, count }))
-    .sort((a, b) => {
+    .toSorted((a, b) => {
       const countDiff = b.count - a.count;
       if (countDiff === 0) {
         // if counts are equal, sort by color
@@ -158,8 +147,7 @@ export function determinePackColors(
 export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
   for (const cardDeck of pack.mainBoard as CardDeck[]) {
     const existingCard = deckList.find(
-      (card) =>
-        card.name === cardDeck.name && card.setCode === cardDeck.setCode,
+      (card) => card.name === cardDeck.name && card.setCode === cardDeck.setCode
     );
     if (existingCard) {
       existingCard.count += cardDeck.count;
@@ -193,7 +181,7 @@ export function getDeckList(pack1: PackFile, pack2?: PackFile): string {
 
 export function stripThemeName(name: string) {
   // returns just the theme name without any numbers
-  return name.replace(/\s+\d+$|\s*\(\d+\)$/, "").trim();
+  return name.replace(/\s+\d+$|\s*\(\d+\)$/u, "").trim();
 }
 
 export function getThemeCard(pack: PackFile): CardDeck {
@@ -207,7 +195,7 @@ export function getThemeCard(pack: PackFile): CardDeck {
 
 export function splitThemeName(name: string) {
   // regex looks for a space followed by either "(number)" or "number" at the end
-  const match = name.match(/^(.*?)\s\(?(\d+)\)?$/);
+  const match = name.match(/^(.*?)\s\(?(\d+)\)?$/u);
 
   if (match) {
     return {
@@ -224,7 +212,7 @@ export function filterPacks(
   colorFilter: string[],
   setFilter: string[],
   packSearchFilter: string = "",
-  cardSearchFilter: string = "",
+  cardSearchFilter: string = ""
 ) {
   return packs.filter((pack) => {
     const packColors = determinePackColors(pack.data);
@@ -239,7 +227,7 @@ export function filterPacks(
     const cardSearchMatch =
       cardSearchFilter === "" ||
       pack.data.mainBoard.some((card) =>
-        card.name.toLowerCase().includes(cardSearchFilter.toLowerCase()),
+        card.name.toLowerCase().includes(cardSearchFilter.toLowerCase())
       );
 
     return (
@@ -255,10 +243,7 @@ export function isDuplicatePack(pack1: PackFile, pack2: PackFile) {
   return stripThemeName(pack1.data.name) === stripThemeName(pack2.data.name);
 }
 
-export function getTwoRandomIndexes(
-  packs: PackFile[],
-  allowDuplicates: boolean,
-): number[] {
+export function getTwoRandomIndexes(packs: PackFile[], allowDuplicates: boolean): number[] {
   const arrLength = packs.length;
 
   // not enough valid packs to select from

@@ -1,5 +1,5 @@
-import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
+import * as React from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -16,7 +16,7 @@ const alertVariants = cva(
     defaultVariants: {
       variant: "default",
     },
-  },
+  }
 );
 
 function Alert({
@@ -39,24 +39,21 @@ function AlertTitle({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="alert-title"
       className={cn(
-        "[&_a]:hover:text-foreground flex items-center gap-2 pb-2 text-xl font-medium group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3",
-        className,
+        "flex items-center gap-2 pb-2 text-xl font-medium group-has-[>svg]/alert:col-start-2 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground",
+        className
       )}
       {...props}
     />
   );
 }
 
-function AlertDescription({
-  className,
-  ...props
-}: React.ComponentProps<"div">) {
+function AlertDescription({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="alert-description"
       className={cn(
-        "text-muted-foreground [&_a]:hover:text-foreground text-base text-balance md:text-pretty [&_a]:underline [&_a]:underline-offset-3 [&_p:not(:last-child)]:mb-4",
-        className,
+        "text-base text-balance text-muted-foreground md:text-pretty [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4",
+        className
       )}
       {...props}
     />
@@ -65,11 +62,7 @@ function AlertDescription({
 
 function AlertAction({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div
-      data-slot="alert-action"
-      className={cn("absolute top-2 right-2", className)}
-      {...props}
-    />
+    <div data-slot="alert-action" className={cn("absolute top-2 right-2", className)} {...props} />
   );
 }
 

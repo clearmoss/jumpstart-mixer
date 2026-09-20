@@ -1,5 +1,6 @@
-import { Badge } from "@/components/ui/badge.tsx";
 import type { PackFile } from "@/lib/types.ts";
+
+import { Badge } from "@/components/ui/badge.tsx";
 
 type PackCountProps = {
   filteredPacks: PackFile[];

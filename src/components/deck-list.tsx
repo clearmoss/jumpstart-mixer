@@ -1,12 +1,14 @@
-import { cn } from "@/lib/utils.ts";
-import CardListEntry from "@/components/card-list-entry.tsx";
 import { useAtom, useAtomValue } from "jotai";
-import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
-import type { Deck } from "@/lib/types.ts";
 import { useMemo } from "react";
-import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
-import { useCardGrouping } from "@/hooks/use-card-grouping.ts";
+
+import type { Deck } from "@/lib/types.ts";
+
+import CardListEntry from "@/components/card-list-entry.tsx";
 import DeckListSkeleton from "@/components/skeletons/deck-list-skeleton.tsx";
+import { useCardGrouping } from "@/hooks/use-card-grouping.ts";
+import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
+import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
+import { cn } from "@/lib/utils.ts";
 
 function DeckList({ pack }: { pack: Deck | undefined }) {
   const [showCategories] = useAtom(showCategoriesAtom);
@@ -20,7 +22,7 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
           const scryfallId = card.identifiers.scryfallId;
           if (scryfallId) {
             return `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
-              0,
+              0
             )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`;
           }
           return null;
@@ -41,8 +43,8 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
         <div key={type}>
           <h3
             className={cn(
-              "text-muted-foreground text-sm font-semibold",
-              !showCategories && "hidden",
+              "text-sm font-semibold text-muted-foreground",
+              !showCategories && "hidden"
             )}
           >
             {type} ({count})

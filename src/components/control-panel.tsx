@@ -1,14 +1,15 @@
-import { createContext, type ReactNode, use } from "react";
+import { Settings } from "lucide-react";
+import { createContext, type ReactNode, use, useMemo } from "react";
+
+import CategoriesToggle from "@/components/categories-toggle.tsx";
 import ColorSelector from "@/components/color-selector.tsx";
 import SetSelector from "@/components/set-selector.tsx";
-import CategoriesToggle from "@/components/categories-toggle.tsx";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion.tsx";
-import { Settings } from "lucide-react";
 import { cn } from "@/lib/utils.ts";
 
 interface ControlPanelProps {
@@ -24,16 +25,13 @@ interface ControlPanelContextValue {
 
 const ControlPanelContext = createContext<ControlPanelContextValue>({});
 
-function ControlPanelRoot({
-  settings,
-  settingsHeader,
-  actions,
-  className,
-}: ControlPanelProps) {
+function ControlPanelRoot({ settings, settingsHeader, actions, className }: ControlPanelProps) {
   const cardClassName = "bg-card rounded-xl border py-2 px-4 sm:p-6";
 
+  const contextValue = useMemo(() => ({ settingsHeader }), [settingsHeader]);
+
   return (
-    <ControlPanelContext value={{ settingsHeader }}>
+    <ControlPanelContext value={contextValue}>
       <div className={cn("flex flex-col gap-4", className)}>
         {/* mobile layout */}
         <div className="flex flex-col gap-2 sm:hidden">
@@ -119,28 +117,18 @@ interface ControlPanelActionsProps {
   className?: string;
 }
 
-export function ControlPanelActions({
-  children,
-  className,
-}: ControlPanelActionsProps) {
+export function ControlPanelActions({ children, className }: ControlPanelActionsProps) {
   return (
     <>
       {/* desktop separator + actions */}
       <div className="hidden sm:block">
-        <div className="bg-border my-4 h-px" />
-        <div className={cn("flex min-w-0 flex-wrap items-center", className)}>
-          {children}
-        </div>
+        <div className="my-4 h-px bg-border" />
+        <div className={cn("flex min-w-0 flex-wrap items-center", className)}>{children}</div>
       </div>
 
       {/* mobile actions in a new card (outside accordion) */}
       <div className="sm:hidden">
-        <div
-          className={cn(
-            "bg-card flex min-w-0 flex-col gap-4 rounded-xl border p-4",
-            className,
-          )}
-        >
+        <div className={cn("flex min-w-0 flex-col gap-4 rounded-xl border bg-card p-4", className)}>
           {children}
         </div>
       </div>

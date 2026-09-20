@@ -1,21 +1,19 @@
 import { useNavigate, createFileRoute } from "@tanstack/react-router";
-import Loading from "@/components/loading.tsx";
-import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
-import { packsQueryOptions } from "@/lib/queries.ts";
-import { useEffect, useMemo } from "react";
 import { useSetAtom } from "jotai";
-import {
-  currentSidebarCardAtom,
-  currentSidebarDeckListAtom,
-} from "@/lib/atoms.ts";
-import PackListEntry from "@/components/pack-list-entry.tsx";
-import Sidebar from "@/components/sidebar.tsx";
-import { CardSearch, PackSearch } from "@/components/search.tsx";
-import { Button } from "@/components/ui/button.tsx";
 import { InfoIcon, Shuffle } from "lucide-react";
+import { useEffect, useMemo } from "react";
+
 import ControlPanel from "@/components/control-panel.tsx";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
+import Loading from "@/components/loading.tsx";
 import PackCount from "@/components/pack-count.tsx";
+import PackListEntry from "@/components/pack-list-entry.tsx";
+import { CardSearch, PackSearch } from "@/components/search.tsx";
+import Sidebar from "@/components/sidebar.tsx";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
+import { currentSidebarCardAtom, currentSidebarDeckListAtom } from "@/lib/atoms.ts";
+import { packsQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
@@ -48,11 +46,7 @@ function RouteComponent() {
 
   const packList = useMemo(() => {
     return filteredPacks.map((pack) => (
-      <div
-        key={pack.meta.publicId}
-        className="mb-2 break-inside-avoid"
-        data-testid="pack-entry"
-      >
+      <div key={pack.meta.publicId} className="mb-2 break-inside-avoid" data-testid="pack-entry">
         <PackListEntry pack={pack} publicId={pack.meta.publicId} />
       </div>
     ));
@@ -73,10 +67,7 @@ function RouteComponent() {
   return (
     <div className="flex">
       <Sidebar></Sidebar>
-      <div
-        className="flex grow flex-col p-2 sm:p-8"
-        data-testid="packs-content"
-      >
+      <div className="flex grow flex-col p-2 sm:p-8" data-testid="packs-content">
         <div className="flex flex-col gap-4 pb-4">
           <ControlPanel
             settings={<ControlPanel.Settings />}
@@ -116,7 +107,7 @@ function RouteComponent() {
               No packs found
             </AlertTitle>
             <AlertDescription>
-              There aren't any packs that match the current filters.
+              There aren&apos;t any packs that match the current filters.
             </AlertDescription>
           </Alert>
         )}

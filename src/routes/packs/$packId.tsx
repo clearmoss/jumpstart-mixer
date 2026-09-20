@@ -1,25 +1,22 @@
-import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
-import Pack from "@/components/pack.tsx";
 import { useSuspenseQuery } from "@tanstack/react-query";
+import { createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
+import { useSetAtom } from "jotai";
+import { Shuffle } from "lucide-react";
+import { useEffect } from "react";
+
+import type { CardDeck } from "@/lib/types.ts";
+
+import CardSpread from "@/components/card-spread.tsx";
+import ControlPanel from "@/components/control-panel.tsx";
 import Loading from "@/components/loading.tsx";
-import {
-  packIndexQueryOptions,
-  packQueryOptions,
-} from "@/lib/queries.ts";
+import PackCount from "@/components/pack-count.tsx";
+import Pack from "@/components/pack.tsx";
 import Sidebar from "@/components/sidebar.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
-import CardSpread from "@/components/card-spread.tsx";
-import {
-  currentSidebarCardAtom,
-} from "@/lib/atoms.ts";
-import { stripThemeName } from "@/lib/utils.ts";
-import type { CardDeck } from "@/lib/types.ts";
-import ControlPanel from "@/components/control-panel.tsx";
-import { useEffect } from "react";
-import { useSetAtom } from "jotai";
-import PackCount from "@/components/pack-count.tsx";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
+import { currentSidebarCardAtom } from "@/lib/atoms.ts";
+import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
+import { stripThemeName } from "@/lib/utils.ts";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
@@ -38,7 +35,7 @@ export const Route = createFileRoute("/packs/$packId")({
     let title = "Pack";
     if (loaderData) {
       title = loaderData.pack
-        ? `${loaderData.pack.data.name.replace(/\((\d+)\)/g, "$1")} (${loaderData.pack.data.code})`
+        ? `${loaderData.pack.data.name.replaceAll(/\((\d+)\)/gu, "$1")} (${loaderData.pack.data.code})`
         : "Jumpstart Mixer";
     }
 
@@ -105,10 +102,7 @@ function RouteComponent() {
                   className="flex h-10 w-full cursor-pointer gap-2 sm:w-54"
                   variant="secondary"
                   onClick={handleRandomClick}
-                  disabled={
-                    filteredPacks.filter((p) => p.meta.publicId !== packId)
-                      .length === 0
-                  }
+                  disabled={filteredPacks.filter((p) => p.meta.publicId !== packId).length === 0}
                 >
                   <Shuffle />
                   Random Other Pack

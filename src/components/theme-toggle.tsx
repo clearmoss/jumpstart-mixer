@@ -1,8 +1,9 @@
 import { Moon, Sun } from "lucide-react";
-import { useTheme } from "@/hooks/use-theme.ts";
-import { Switch } from "@/components/ui/switch.tsx";
-import { Label } from "@/components/ui/label.tsx";
 import { memo } from "react";
+
+import { Label } from "@/components/ui/label.tsx";
+import { Switch } from "@/components/ui/switch.tsx";
+import { useTheme } from "@/hooks/use-theme.ts";
 
 export const ThemeToggle = memo(function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -13,7 +14,7 @@ export const ThemeToggle = memo(function ThemeToggle() {
 
   return (
     <div
-      className="dark:bg-card flex items-center gap-3 rounded-xl bg-orange-100 px-3 py-2"
+      className="flex items-center gap-3 rounded-xl bg-orange-100 px-3 py-2 dark:bg-card"
       title="Toggle theme"
     >
       <Sun className="h-4 w-4 text-orange-700 transition-colors dark:text-orange-300" />

@@ -8,29 +8,28 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default:
-          "bg-orange-600 text-white hover:bg-orange-500 active:bg-orange-600/90",
+        default: "bg-orange-600 text-white hover:bg-orange-500 active:bg-orange-600/90",
         outline:
           "border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50",
         secondary:
-          "bg-primary text-card hover:bg-zinc-600 active:bg-black/90 dark:bg-primary dark:text-card dark:hover:bg-primary/90 dark:active:bg-white/90 aria-expanded:bg-black aria-expanded:text-white dark:aria-expanded:bg-white dark:aria-expanded:text-black",
+          "bg-primary text-card hover:bg-zinc-600 active:bg-black/90 aria-expanded:bg-black aria-expanded:text-white dark:bg-primary dark:text-card dark:hover:bg-primary/90 dark:active:bg-white/90 dark:aria-expanded:bg-white dark:aria-expanded:text-black",
         ghost:
           "hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50",
         destructive:
           "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40",
         link: "text-primary underline-offset-4 hover:underline",
         "mtg-white":
-          "border-2 border-mtg-white-light bg-mtg-white text-black hover:brightness-110 active:brightness-95 focus-visible:border-mtg-white-light focus-visible:ring-mtg-white-light/50",
+          "border-2 border-mtg-white-light bg-mtg-white text-black hover:brightness-110 focus-visible:border-mtg-white-light focus-visible:ring-mtg-white-light/50 active:brightness-95",
         "mtg-blue":
-          "border-2 border-mtg-blue-light bg-mtg-blue text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-blue-light focus-visible:ring-mtg-blue-light/50",
+          "border-2 border-mtg-blue-light bg-mtg-blue text-white hover:brightness-110 focus-visible:border-mtg-blue-light focus-visible:ring-mtg-blue-light/50 active:brightness-95",
         "mtg-black":
-          "border-2 border-mtg-black-light bg-mtg-black text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-black-light focus-visible:ring-mtg-black-light/50",
+          "border-2 border-mtg-black-light bg-mtg-black text-white hover:brightness-110 focus-visible:border-mtg-black-light focus-visible:ring-mtg-black-light/50 active:brightness-95",
         "mtg-red":
-          "border-2 border-mtg-red-light bg-mtg-red text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-red-light focus-visible:ring-mtg-red-light/50",
+          "border-2 border-mtg-red-light bg-mtg-red text-white hover:brightness-110 focus-visible:border-mtg-red-light focus-visible:ring-mtg-red-light/50 active:brightness-95",
         "mtg-green":
-          "border-2 border-mtg-green-light bg-mtg-green text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-green-light focus-visible:ring-mtg-green-light/50",
+          "border-2 border-mtg-green-light bg-mtg-green text-white hover:brightness-110 focus-visible:border-mtg-green-light focus-visible:ring-mtg-green-light/50 active:brightness-95",
         "mtg-colorless":
-          "border-2 border-mtg-colorless-light bg-mtg-colorless text-black hover:brightness-110 active:brightness-95 focus-visible:border-mtg-colorless-light focus-visible:ring-mtg-colorless-light/50",
+          "border-2 border-mtg-colorless-light bg-mtg-colorless text-black hover:brightness-110 focus-visible:border-mtg-colorless-light focus-visible:ring-mtg-colorless-light/50 active:brightness-95",
         none: "",
       },
       size: {
@@ -50,12 +49,10 @@ const buttonVariants = cva(
       variant: "default",
       size: "default",
     },
-  },
+  }
 );
 
-type ButtonVariant = NonNullable<
-  VariantProps<typeof buttonVariants>["variant"]
->;
+type ButtonVariant = NonNullable<VariantProps<typeof buttonVariants>["variant"]>;
 
 function Button({
   className,

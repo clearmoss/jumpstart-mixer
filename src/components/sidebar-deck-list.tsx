@@ -1,6 +1,7 @@
 import { useAtomValue } from "jotai";
-import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
+
 import DeckList from "@/components/deck-list.tsx";
+import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
 
 export function SidebarDeckList() {
   const { pack } = useAtomValue(currentSidebarDeckListAtom);

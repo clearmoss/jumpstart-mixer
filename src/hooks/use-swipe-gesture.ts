@@ -49,12 +49,8 @@ export function useSwipeGesture({
       const { clientX, clientY } = touch;
       const windowWidth = window.innerWidth;
 
-      const matchesLeft = leftEdgeThreshold
-        ? clientX <= leftEdgeThreshold
-        : false;
-      const matchesRight = rightEdgeThreshold
-        ? clientX >= windowWidth - rightEdgeThreshold
-        : false;
+      const matchesLeft = leftEdgeThreshold ? clientX <= leftEdgeThreshold : false;
+      const matchesRight = rightEdgeThreshold ? clientX >= windowWidth - rightEdgeThreshold : false;
       const hasNoThresholds = !leftEdgeThreshold && !rightEdgeThreshold;
 
       if (matchesLeft || matchesRight || hasNoThresholds) {
@@ -71,13 +67,15 @@ export function useSwipeGesture({
       const deltaX = touch.clientX - touchStartRef.current.x;
       const deltaY = touch.clientY - touchStartRef.current.y;
 
-      if (!isHorizontalSwipeRef.current) {
-        // jitter: the user must move at least 10px horizontally, and the
-        // horizontal movement must be greater than vertical movement.
-        // this prevents slightly diagonal scrolling from locking the screen into a swipe.
-        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
-          isHorizontalSwipeRef.current = true;
-        }
+      // jitter: the user must move at least 10px horizontally, and the
+      // horizontal movement must be greater than vertical movement.
+      // this prevents slightly diagonal scrolling from locking the screen into a swipe.
+      if (
+        !isHorizontalSwipeRef.current &&
+        Math.abs(deltaX) > Math.abs(deltaY) &&
+        Math.abs(deltaX) > 10
+      ) {
+        isHorizontalSwipeRef.current = true;
       }
 
       if (isHorizontalSwipeRef.current && e.cancelable) {
@@ -101,15 +99,11 @@ export function useSwipeGesture({
       isHorizontalSwipeRef.current = false;
 
       // ensure the swipe distance met our intentionality threshold (default 50px)
-      if (
-        Math.abs(deltaX) < swipeThreshold ||
-        Math.abs(deltaX) <= Math.abs(deltaY)
-      ) {
+      if (Math.abs(deltaX) < swipeThreshold || Math.abs(deltaX) <= Math.abs(deltaY)) {
         return;
       }
 
-      const { onSwipeLeft: swipeLeftCb, onSwipeRight: swipeRightCb } =
-        callbacksRef.current;
+      const { onSwipeLeft: swipeLeftCb, onSwipeRight: swipeRightCb } = callbacksRef.current;
 
       if (deltaX < 0 && swipeLeftCb) {
         // swipe left
@@ -134,12 +128,5 @@ export function useSwipeGesture({
       targetElement.removeEventListener("touchmove", handleTouchMove);
       targetElement.removeEventListener("touchend", handleTouchEnd);
     };
-  }, [
-    enabled,
-    leftEdgeThreshold,
-    rightEdgeThreshold,
-    swipeThreshold,
-    breakpoint,
-    targetRef,
-  ]);
+  }, [enabled, leftEdgeThreshold, rightEdgeThreshold, swipeThreshold, breakpoint, targetRef]);
 }

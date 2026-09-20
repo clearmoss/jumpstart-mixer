@@ -1,4 +1,9 @@
+import type React from "react";
+
 import { useMemo } from "react";
+
+import type { PackFile } from "@/lib/types.ts";
+
 import {
   determinePackColors,
   getDeckList,
@@ -6,8 +11,6 @@ import {
   type MtgColor,
   stripThemeName,
 } from "@/lib/utils.ts";
-import type { PackFile } from "@/lib/types.ts";
-import type React from "react";
 
 export function usePackCombination(pack1?: PackFile, pack2?: PackFile) {
   return useMemo(() => {

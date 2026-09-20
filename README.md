@@ -5,6 +5,7 @@ Vite/React frontend application for generating Magic: The Gathering decklists wh
 You can find a deployed version of this app here: https://jumpstart.clearmoss.com/
 
 ## Features
+
 - Contains every booster pack from the three main Jumpstart sets (363 unique boosters)
 - Browse themed packs with a sidebar (on wide screens only) for viewing the cards inside
 - Filter packs by set and/or color identity

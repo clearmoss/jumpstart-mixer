@@ -1,7 +1,8 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import OutLink from "@/components/out-link";
 import gitHubLogo from "/github.svg";
+import { createFileRoute, Link } from "@tanstack/react-router";
+
 import { FlipCard } from "@/components/flip-card.tsx";
+import OutLink from "@/components/out-link";
 import { Badge } from "@/components/ui/badge.tsx";
 
 export const Route = createFileRoute("/")({
@@ -48,68 +49,55 @@ function Index() {
         </h1>
 
         <p className="mx-auto mb-8 max-w-2xl text-xl md:text-2xl">
-          Crack some virtual packs and jump into Magic: The Gathering with your
-          friends!
+          Crack some virtual packs and jump into Magic: The Gathering with your friends!
         </p>
 
         <div className="grid grid-cols-1 gap-4 text-left md:grid-cols-3">
-          <div className="bg-card rounded-xl border p-6 shadow-sm">
+          <div className="rounded-xl border bg-card p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Explore Packs</h2>
             <p className="mb-4">
-              Browse through themed Jumpstart packs. Filter by color, set, or
-              even search for specific cards.
+              Browse through themed Jumpstart packs. Filter by color, set, or even search for
+              specific cards.
             </p>
             <Link to="/packs" className="hyperlink">
               View all packs →
             </Link>
           </div>
 
-          <div className="bg-card rounded-xl border p-6 shadow-sm">
+          <div className="rounded-xl border bg-card p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Shuffle Up</h2>
             <p className="mb-4">
-              Combine two random packs to create a 40-card deck, then export the
-              decklist to your clipboard.
+              Combine two random packs to create a 40-card deck, then export the decklist to your
+              clipboard.
             </p>
             <Link to="/mixer" preload={false} className="hyperlink">
               Start mixing →
             </Link>
           </div>
 
-          <div className="bg-card rounded-xl border p-6 shadow-sm">
+          <div className="rounded-xl border bg-card p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Learn More</h2>
             <p className="mb-4">
-              New to Jumpstart? Learn more about this exciting Magic format and
-              how to best use this app.
+              New to Jumpstart? Learn more about this exciting Magic format and how to best use this
+              app.
             </p>
             <Link to="/about" className="hyperlink">
               About Jumpstart →
             </Link>
           </div>
         </div>
-        <footer className="text-muted-foreground mt-24 border-t pt-8 text-center text-sm">
+        <footer className="mt-24 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>
-            Jumpstart Mixer is an unofficial project. Magic: The Gathering is a
-            trademark of
-            <OutLink href="https://company.wizards.com/">
-              {" "}
-              Wizards of the Coast
-            </OutLink>
-            .
+            Jumpstart Mixer is an unofficial project. Magic: The Gathering is a trademark of
+            <OutLink href="https://company.wizards.com/"> Wizards of the Coast</OutLink>.
           </p>
           <div className="mt-6 flex justify-center">
             <OutLink
               href="https://github.com/clearmoss/jumpstart-mixer"
               className="flex items-center"
             >
-              <Badge
-                variant="default"
-                className="bg-white p-4 text-black outline"
-              >
-                <img
-                  src={gitHubLogo}
-                  alt="GitHub"
-                  className="inline-block h-5 pr-2"
-                />{" "}
+              <Badge variant="default" className="bg-white p-4 text-black outline">
+                <img src={gitHubLogo} alt="GitHub" className="inline-block h-5 pr-2" />{" "}
                 <span>View source on GitHub</span>
               </Badge>
             </OutLink>

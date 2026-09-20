@@ -1,9 +1,11 @@
-import type { CardDeck } from "@/lib/types.ts";
-import React, { useCallback } from "react";
 import { useSetAtom } from "jotai";
+import React, { useCallback } from "react";
+
+import type { CardDeck } from "@/lib/types.ts";
+
+import OutLink from "@/components/out-link.tsx";
 import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 import { cn } from "@/lib/utils.ts";
-import OutLink from "@/components/out-link.tsx";
 
 const RARITY_TEXT_COLORS: Record<string, string> = {
   common: "text-primary",
@@ -17,19 +19,14 @@ type CardListEntryProps = {
   isCurrentlyDisplayed?: boolean;
 };
 
-function CardListEntry({
-  card,
-  isCurrentlyDisplayed = false,
-}: CardListEntryProps) {
+function CardListEntry({ card, isCurrentlyDisplayed = false }: CardListEntryProps) {
   const setCurrentCard = useSetAtom(currentSidebarCardAtom);
   const cardRarityColor = RARITY_TEXT_COLORS[card.rarity] ?? "text-current";
   const handleMouseEnter = useCallback(() => {
     setCurrentCard(card);
   }, [card, setCurrentCard]);
   const scryfallId = card.identifiers.scryfallId;
-  const scryfallUrl = scryfallId
-    ? `https://scryfall.com/card/${scryfallId}`
-    : "#";
+  const scryfallUrl = scryfallId ? `https://scryfall.com/card/${scryfallId}` : "#";
 
   return (
     <li

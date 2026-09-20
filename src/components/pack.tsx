@@ -1,4 +1,14 @@
+import { Link } from "@tanstack/react-router";
+import { Shuffle } from "lucide-react";
+import { useMemo } from "react";
+
 import type { PackFile } from "@/lib/types.ts";
+
+import ColorIcons from "@/components/color-icons.tsx";
+import CopyButton from "@/components/copy-button.tsx";
+import DeckList from "@/components/deck-list.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Button } from "@/components/ui/button.tsx";
 import {
   Card,
   CardContent,
@@ -6,7 +16,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card.tsx";
-import { Link } from "@tanstack/react-router";
+import { usePackHover } from "@/hooks/use-pack-hover.ts";
 import {
   cn,
   determinePackColors,
@@ -15,14 +25,6 @@ import {
   type MtgColor,
   splitThemeName,
 } from "@/lib/utils.ts";
-import { useMemo } from "react";
-import CopyButton from "@/components/copy-button.tsx";
-import { Button } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
-import DeckList from "@/components/deck-list.tsx";
-import ColorIcons from "@/components/color-icons.tsx";
-import { usePackHover } from "@/hooks/use-pack-hover.ts";
-import { Badge } from "@/components/ui/badge.tsx";
 
 function Pack({
   pack,
@@ -38,10 +40,7 @@ function Pack({
     return getDeckList(pack);
   }, [pack]);
 
-  const packColors = useMemo(
-    () => (pack ? determinePackColors(pack.data) : []),
-    [pack],
-  );
+  const packColors = useMemo(() => (pack ? determinePackColors(pack.data) : []), [pack]);
   const mainColor = (packColors[0]?.color ?? "C") as MtgColor;
 
   const { handleMouseEnter } = usePackHover(pack, publicId);
@@ -74,7 +73,7 @@ function Pack({
 
   return (
     <Card
-      className={cn("bg-card w-full flex-1 border-t-8")}
+      className={cn("w-full flex-1 border-t-8 bg-card")}
       style={{ borderTopColor: MTG_COLOR_MAP[mainColor] }}
     >
       <CardHeader className="flex flex-col px-6">
@@ -106,15 +105,13 @@ function Pack({
           </Link>
         </div>
 
-        <div className="bg-border my-2 h-px w-full" />
+        <div className="my-2 h-px w-full bg-border" />
 
-        <CardDescription className="text-muted-foreground flex w-full items-center justify-between gap-2">
+        <CardDescription className="flex w-full items-center justify-between gap-2 text-muted-foreground">
           <div className="flex items-center gap-2">
             <ColorIcons packColors={packColors} />
           </div>
-          <div className="flex shrink-0 items-center gap-2">
-            {ActionButtons}
-          </div>
+          <div className="flex shrink-0 items-center gap-2">{ActionButtons}</div>
         </CardDescription>
       </CardHeader>
 

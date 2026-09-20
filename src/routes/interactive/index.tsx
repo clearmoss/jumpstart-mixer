@@ -1,23 +1,25 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { type JSX, useReducer } from "react";
-import { AnimatePresence, motion } from "motion/react";
-import Loading from "@/components/loading.tsx";
-import { BoosterPack } from "@/components/booster-pack.tsx";
-import { cn, getThemeCard, type MtgSet } from "@/lib/utils.ts";
-import ControlPanel from "@/components/control-panel.tsx";
-import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import { useAtom } from "jotai";
-import { setFilterAtom } from "@/lib/atoms.ts";
-import { packsQueryOptions } from "@/lib/queries.ts";
+import { RotateCcw } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
+import { type JSX, useReducer } from "react";
+
 import type { PackFile } from "@/lib/types.ts";
+
+import { BoosterPack } from "@/components/booster-pack.tsx";
+import { CardImage } from "@/components/card-image.tsx";
+import { CombinationHeader } from "@/components/combination-header.tsx";
+import ControlPanel from "@/components/control-panel.tsx";
+import CopyButton from "@/components/copy-button.tsx";
+import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
+import Loading from "@/components/loading.tsx";
+import PackCount from "@/components/pack-count.tsx";
+import { Button } from "@/components/ui/button.tsx";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { usePackCombination } from "@/hooks/use-pack-combination.ts";
-import { CombinationHeader } from "@/components/combination-header.tsx";
-import { Button } from "@/components/ui/button.tsx";
-import { CardImage } from "@/components/card-image.tsx";
-import CopyButton from "@/components/copy-button.tsx";
-import { RotateCcw } from "lucide-react";
-import PackCount from "@/components/pack-count.tsx";
+import { setFilterAtom } from "@/lib/atoms.ts";
+import { packsQueryOptions } from "@/lib/queries.ts";
+import { cn, getThemeCard, type MtgSet } from "@/lib/utils.ts";
 
 export const Route = createFileRoute("/interactive/")({
   loader: ({ context }) => {
@@ -83,10 +85,7 @@ const REVEAL_TRANSITION = {
 // gives the pack image time to move before the theme card appears behind it
 const THEME_CARD_DELAY = 0.5;
 
-function interactiveReducer(
-  state: InteractiveState,
-  event: InteractiveEvent,
-): InteractiveState {
+function interactiveReducer(state: InteractiveState, event: InteractiveEvent): InteractiveState {
   switch (event.type) {
     case "SELECT_PACK":
       if (state.status === "FIRST_SELECTION") {
@@ -107,10 +106,8 @@ function interactiveReducer(
       }
       return state;
     case "PROCEED":
-      if (state.status === "FIRST_REVEAL")
-        return { ...state, status: "SECOND_SELECTION" };
-      if (state.status === "SECOND_REVEAL")
-        return { ...state, status: "COMPLETE" };
+      if (state.status === "FIRST_REVEAL") return { ...state, status: "SECOND_SELECTION" };
+      if (state.status === "SECOND_REVEAL") return { ...state, status: "COMPLETE" };
       return state;
     case "RESET":
       return {
@@ -144,10 +141,7 @@ function RevealSlot({
   resetKey,
 }: RevealSlotProps): JSX.Element {
   return (
-    <motion.div
-      layout="position"
-      className="relative flex flex-col items-center justify-center"
-    >
+    <motion.div layout="position" className="relative flex flex-col items-center justify-center">
       <motion.div
         layout="position"
         initial={{ opacity: 0, x: entryStartX }}
@@ -162,16 +156,9 @@ function RevealSlot({
           params={{ packId: pack.meta.publicId }}
           target="_blank"
           rel="noopener noreferrer"
-          className={cn(
-            "block w-full px-0",
-            !isComplete && "pointer-events-none",
-          )}
+          className={cn("block w-full px-0", !isComplete && "pointer-events-none")}
         >
-          <CardImage
-            clickable={false}
-            card={getThemeCard(pack)}
-            className="w-full"
-          />
+          <CardImage clickable={false} card={getThemeCard(pack)} className="w-full" />
         </Link>
       </motion.div>
 
@@ -198,10 +185,7 @@ function RevealSlot({
               }}
               onAnimationComplete={onRevealComplete}
             >
-              <BoosterPack
-                set={set === "RND" ? undefined : set}
-                className="w-full"
-              />
+              <BoosterPack set={set === "RND" ? undefined : set} className="w-full" />
             </motion.div>
           </motion.div>
         </div>
@@ -215,22 +199,17 @@ function RouteComponent(): JSX.Element {
   const [state, dispatch] = useReducer(interactiveReducer, initialState);
   const { pack1, set1, pack2, set2, status, resetKey } = state;
   const filteredPacks = useFilteredPacks({ excludeTheme: pack1?.data.name });
-  const { comboName, deckListString, bgGradientColors } = usePackCombination(
-    pack1,
-    pack2,
-  );
+  const { comboName, deckListString, bgGradientColors } = usePackCombination(pack1, pack2);
 
   const handlePackClick = (set: MtgSet | "RND") => {
     if (status !== "FIRST_SELECTION" && status !== "SECOND_SELECTION") return;
-    if (!filteredPacks.length) return;
+    if (filteredPacks.length === 0) return;
 
     // we can only use packs in the selected set
     const pool: PackFile[] =
-      set === "RND"
-        ? filteredPacks
-        : filteredPacks.filter((pack) => pack.data.code === set);
+      set === "RND" ? filteredPacks : filteredPacks.filter((pack) => pack.data.code === set);
 
-    if (!pool.length) return;
+    if (pool.length === 0) return;
     const chosenPack = pool[Math.floor(Math.random() * pool.length)];
 
     // pass the chosen set so we know which visual layoutId to transition (including RND)
@@ -305,10 +284,7 @@ function RouteComponent(): JSX.Element {
                 }}
                 className="w-full max-w-3xl"
               >
-                <CombinationHeader
-                  comboName={comboName}
-                  bgGradientColors={bgGradientColors}
-                />
+                <CombinationHeader comboName={comboName} bgGradientColors={bgGradientColors} />
               </Link>
             </motion.div>
           )}
@@ -347,8 +323,7 @@ function RouteComponent(): JSX.Element {
 
           {/* pack selection section */}
           <AnimatePresence mode="popLayout">
-            {(status === "FIRST_SELECTION" ||
-              status === "SECOND_SELECTION") && (
+            {(status === "FIRST_SELECTION" || status === "SECOND_SELECTION") && (
               <motion.div
                 key="pack-selection"
                 layout="position"
@@ -367,11 +342,9 @@ function RouteComponent(): JSX.Element {
                       type="button"
                       whileHover={{ scale: 1.1 }}
                       onClick={() => handlePackClick("RND")}
-                      disabled={filteredPacks.length < 1}
+                      disabled={filteredPacks.length === 0}
                       aria-label="Select a random pack"
-                      title={
-                        filteredPacks.length < 1 ? "No packs left" : undefined
-                      }
+                      title={filteredPacks.length === 0 ? "No packs left" : undefined}
                       className="flex w-full cursor-pointer flex-col items-center gap-2 p-0 text-center md:block"
                     >
                       <BoosterPack className="w-full" />
@@ -379,9 +352,7 @@ function RouteComponent(): JSX.Element {
                   </motion.div>
                 )}
                 {setFilter.map((set) => {
-                  const hasAvailablePacks = filteredPacks.some(
-                    (pack) => pack.data.code === set,
-                  );
+                  const hasAvailablePacks = filteredPacks.some((pack) => pack.data.code === set);
                   return (
                     <motion.div
                       key={set}
@@ -394,13 +365,9 @@ function RouteComponent(): JSX.Element {
                         onClick={() => handlePackClick(set)}
                         disabled={!hasAvailablePacks}
                         aria-label={
-                          hasAvailablePacks
-                            ? `Select a ${set} pack`
-                            : `No ${set} packs left`
+                          hasAvailablePacks ? `Select a ${set} pack` : `No ${set} packs left`
                         }
-                        title={
-                          hasAvailablePacks ? undefined : `No ${set} packs left`
-                        }
+                        title={hasAvailablePacks ? undefined : `No ${set} packs left`}
                         animate={{ opacity: hasAvailablePacks ? 1 : 0.5 }}
                         className="flex w-full cursor-pointer flex-col items-center gap-2 p-0 text-center md:block"
                       >

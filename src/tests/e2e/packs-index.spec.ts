@@ -1,36 +1,43 @@
 import { expect, type Page, test } from "@playwright/test";
-import { BASEPATH } from "@/lib/utils.ts";
+
+// helper functions to reduce duplication and keep scope clean
+const getPackCount = async (page: Page): Promise<number> => {
+  const countLocator = page.getByTestId("pack-count").filter({ visible: true });
+  await expect(countLocator).toBeVisible();
+  const textContent = await countLocator.textContent();
+  return Math.trunc(Number(textContent?.match(/^\d+/u)?.[0] || "0"));
+};
+
+const openMobileSettingsIfNeeded = async (page: Page): Promise<void> => {
+  const isMobile = await page.getByTestId("mobile-settings-trigger").isVisible();
+  if (isMobile) {
+    await page.getByTestId("mobile-settings-trigger").click();
+  }
+};
+
+const verifyCountDecreased = async (page: Page, initialCount: number): Promise<number> => {
+  await expect(page.getByTestId("pack-count").filter({ visible: true })).not.toHaveText(
+    `${initialCount} packs`
+  );
+  const newCount = await getPackCount(page);
+  expect(newCount).toBeLessThan(initialCount);
+  return newCount;
+};
 
 test.describe("Packs Page", () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(`${BASEPATH}/packs/`);
+    await page.goto(`/packs/`);
     await expect(page.getByTestId("pack-list")).toBeVisible();
   });
 
-  // helper function to parse the pack count
-  const getPackCount = async (page: Page): Promise<number> => {
-    const countLocator = page
-      .getByTestId("pack-count")
-      .filter({ visible: true });
-    await expect(countLocator).toBeVisible();
-    const textContent = await countLocator.textContent();
-    return parseInt(textContent?.match(/^\d+/)?.[0] || "0");
-  };
-
   test("should load the packs page correctly", async ({ page }) => {
     await expect(page).toHaveTitle("Packs");
-    await expect(
-      page.getByTestId("packs-content").filter({ visible: true }),
-    ).toBeVisible();
-    await expect(
-      page.getByTestId("sidebar").filter({ visible: true }),
-    ).toBeVisible();
+    await expect(page.getByTestId("packs-content").filter({ visible: true })).toBeVisible();
+    await expect(page.getByTestId("sidebar").filter({ visible: true })).toBeVisible();
   });
 
   test("should display packs and count", async ({ page }) => {
-    const packEntries = page
-      .getByTestId("pack-entry")
-      .filter({ visible: true });
+    const packEntries = page.getByTestId("pack-entry").filter({ visible: true });
     await expect(packEntries.first()).toBeVisible();
 
     const displayedCount = await getPackCount(page);
@@ -40,9 +47,7 @@ test.describe("Packs Page", () => {
     expect(displayedCount).toBe(actualCount);
   });
 
-  test("should display the count in the mobile settings header", async ({
-    page,
-  }) => {
+  test("should display the count in the mobile settings header", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.reload();
 
@@ -52,12 +57,7 @@ test.describe("Packs Page", () => {
   });
 
   test("should filter packs by color", async ({ page }) => {
-    const isMobile = await page
-      .getByTestId("mobile-settings-trigger")
-      .isVisible();
-    if (isMobile) {
-      await page.getByTestId("mobile-settings-trigger").click();
-    }
+    await openMobileSettingsIfNeeded(page);
 
     const initialCount = await getPackCount(page);
 
@@ -70,44 +70,24 @@ test.describe("Packs Page", () => {
 
     // click the W filter to disable White packs
     await page.getByTestId("color-selector-item-W").click();
-    await expect(
-      page.getByTestId("pack-count").filter({ visible: true }),
-    ).not.toHaveText(`${initialCount} packs`);
-
-    const newCount = await getPackCount(page);
-    expect(newCount).toBeLessThan(initialCount);
+    await verifyCountDecreased(page, initialCount);
   });
 
   test("should search for packs by name", async ({ page }) => {
     const initialCount = await getPackCount(page);
-    const searchInput = page
-      .getByTestId("pack-search")
-      .filter({ visible: true });
+    const searchInput = page.getByTestId("pack-search").filter({ visible: true });
 
     await searchInput.fill("Goblins");
+    await verifyCountDecreased(page, initialCount);
 
-    await expect(
-      page.getByTestId("pack-count").filter({ visible: true }),
-    ).not.toHaveText(`${initialCount} packs`);
-
-    const newCount = await getPackCount(page);
-    expect(newCount).toBeLessThan(initialCount);
-
-    for (const pack of await page
-      .getByTestId("pack-entry")
-      .filter({ visible: true })
-      .all()) {
-      await expect(pack.getByTestId("pack-name")).toContainText("Goblins");
-    }
+    const packs = await page.getByTestId("pack-entry").filter({ visible: true }).all();
+    await Promise.all(
+      packs.map((pack) => expect(pack.getByTestId("pack-name")).toContainText("Goblins"))
+    );
   });
 
   test("should filter packs by set", async ({ page }) => {
-    const isMobile = await page
-      .getByTestId("mobile-settings-trigger")
-      .isVisible();
-    if (isMobile) {
-      await page.getByTestId("mobile-settings-trigger").click();
-    }
+    await openMobileSettingsIfNeeded(page);
 
     const initialCount = await getPackCount(page);
 
@@ -120,32 +100,18 @@ test.describe("Packs Page", () => {
 
     // click the JMP filter to disable Jumpstart packs
     await page.getByTestId("set-selector-item-JMP").click();
-    await expect(
-      page.getByTestId("pack-count").filter({ visible: true }),
-    ).not.toHaveText(`${initialCount} packs`);
+    await verifyCountDecreased(page, initialCount);
 
-    const newCount = await getPackCount(page);
-    expect(newCount).toBeLessThan(initialCount);
-
-    for (const pack of await page
-      .getByTestId("pack-entry")
-      .filter({ visible: true })
-      .all()) {
-      await expect(pack.getByTestId("pack-set")).not.toContainText("JMP");
-    }
+    const packs = await page.getByTestId("pack-entry").filter({ visible: true }).all();
+    await Promise.all(
+      packs.map((pack) => expect(pack.getByTestId("pack-set")).not.toContainText("JMP"))
+    );
   });
 
-  test("should show 'No packs found' when no packs match filters", async ({
-    page,
-  }) => {
-    await page
-      .getByTestId("pack-search")
-      .filter({ visible: true })
-      .fill("foobar pack");
+  test("should show 'No packs found' when no packs match filters", async ({ page }) => {
+    await page.getByTestId("pack-search").filter({ visible: true }).fill("foobar pack");
 
     await expect(page.getByText("No packs found")).toBeVisible();
-    await expect(
-      page.getByTestId("pack-count").filter({ visible: true }),
-    ).toHaveText("0 packs");
+    await expect(page.getByTestId("pack-count").filter({ visible: true })).toHaveText("0 packs");
   });
 });

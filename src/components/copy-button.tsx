@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
 import { Check, Clipboard } from "lucide-react";
+import { useState, useEffect } from "react";
+
 import { Button, type ButtonVariant } from "@/components/ui/button.tsx";
 import { cn } from "@/lib/utils.ts";
 
@@ -59,9 +60,7 @@ function CopyButton({
       title="Copy decklist to clipboard"
       className={cn(
         className,
-        isCopied
-          ? "bg-green-600 text-white disabled:opacity-100!"
-          : "cursor-pointer",
+        isCopied ? "bg-green-600 text-white disabled:opacity-100!" : "cursor-pointer"
       )}
     >
       <Icon />

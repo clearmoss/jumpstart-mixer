@@ -1,6 +1,8 @@
 import { queryOptions } from "@tanstack/react-query";
-import { fetchAllPacks, fetchJson, fetchPack } from "@/lib/utils.ts";
+
 import type { PackIndexData } from "@/lib/types.ts";
+
+import { fetchAllPacks, fetchJson, fetchPack } from "@/lib/utils.ts";
 
 export const packIndexQueryOptions = queryOptions({
   queryKey: ["packIndex"],

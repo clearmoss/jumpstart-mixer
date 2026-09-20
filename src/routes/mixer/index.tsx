@@ -1,6 +1,28 @@
+import { useSuspenseQuery } from "@tanstack/react-query";
 import { createFileRoute, redirect, useNavigate } from "@tanstack/react-router";
-import { Button } from "@/components/ui/button.tsx";
+import { useSetAtom, useAtomValue } from "jotai";
+import { InfoIcon, Shuffle } from "lucide-react";
+import { type JSX, useCallback, useEffect, useMemo } from "react";
+import { z } from "zod";
+
 import type { PackFile } from "@/lib/types.ts";
+
+import CardSpread from "@/components/card-spread.tsx";
+import { CombinationHeader } from "@/components/combination-header.tsx";
+import ControlPanel from "@/components/control-panel.tsx";
+import CopyButton from "@/components/copy-button.tsx";
+import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
+import Loading from "@/components/loading.tsx";
+import PackCount from "@/components/pack-count.tsx";
+import Pack from "@/components/pack.tsx";
+import Sidebar from "@/components/sidebar.tsx";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
+import { usePackCombination } from "@/hooks/use-pack-combination.ts";
+import { allowDuplicatesAtom, currentSidebarCardAtom } from "@/lib/atoms.ts";
+import { packsQueryOptions } from "@/lib/queries.ts";
 import {
   COLORS,
   filterPacks,
@@ -11,26 +33,6 @@ import {
   SETS,
   stripThemeName,
 } from "@/lib/utils.ts";
-import Pack from "@/components/pack.tsx";
-import { type JSX, useCallback, useEffect, useMemo } from "react";
-import { InfoIcon, Shuffle } from "lucide-react";
-import CopyButton from "@/components/copy-button.tsx";
-import { useSuspenseQuery } from "@tanstack/react-query";
-import Loading from "@/components/loading.tsx";
-import { z } from "zod";
-import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
-import { useSetAtom, useAtomValue } from "jotai";
-import { allowDuplicatesAtom, currentSidebarCardAtom } from "@/lib/atoms.ts";
-import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
-import { usePackCombination } from "@/hooks/use-pack-combination.ts";
-import { CombinationHeader } from "@/components/combination-header.tsx";
-import { packsQueryOptions } from "@/lib/queries.ts";
-import Sidebar from "@/components/sidebar.tsx";
-import CardSpread from "@/components/card-spread.tsx";
-import ControlPanel from "@/components/control-panel.tsx";
-import { Badge } from "@/components/ui/badge.tsx";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert.tsx";
-import PackCount from "@/components/pack-count.tsx";
 
 const mixerSearchSchema = z.object({
   packId1: z.string().optional(),
@@ -46,8 +48,7 @@ export const Route = createFileRoute("/mixer/")({
   beforeLoad: async ({ search, context }) => {
     if (!search.packId1 || !search.packId2) {
       // one or both pack search params are missing
-      const packs =
-        await context.queryClient.ensureQueryData(packsQueryOptions);
+      const packs = await context.queryClient.ensureQueryData(packsQueryOptions);
       let redirectId1 = search.packId1;
       let redirectId2 = search.packId2;
 
@@ -55,11 +56,11 @@ export const Route = createFileRoute("/mixer/")({
       const allowDuplicates = getStorageValue("allowDuplicates", true);
       const colorFilter = getStorageValue(
         "colorFilter",
-        COLORS.map((color) => color.code),
+        COLORS.map((color) => color.code)
       );
       const setFilter = getStorageValue(
         "setFilter",
-        SETS.map((set) => set.code),
+        SETS.map((set) => set.code)
       );
 
       const filteredPacks = filterPacks(packs, colorFilter, setFilter, "", "");
@@ -81,9 +82,7 @@ export const Route = createFileRoute("/mixer/")({
       } else if (!redirectId1) {
         // only packId1 is missing
         const existingId2 = redirectId2;
-        const existingPack2 = packs.find(
-          (p) => p.meta.publicId === existingId2,
-        );
+        const existingPack2 = packs.find((p) => p.meta.publicId === existingId2);
 
         // filter out invalid choices
         const validPacks = filteredPacks.filter((p) => {
@@ -95,16 +94,13 @@ export const Route = createFileRoute("/mixer/")({
         });
 
         if (validPacks.length > 0) {
-          const randomPack =
-            validPacks[Math.floor(Math.random() * validPacks.length)];
+          const randomPack = validPacks[Math.floor(Math.random() * validPacks.length)];
           redirectId1 = randomPack.meta.publicId;
         }
       } else if (!redirectId2) {
         // only packId2 is missing
         const existingId1 = redirectId1;
-        const existingPack1 = packs.find(
-          (p) => p.meta.publicId === existingId1,
-        );
+        const existingPack1 = packs.find((p) => p.meta.publicId === existingId1);
 
         // filter out invalid choices
         const validPacks = filteredPacks.filter((p) => {
@@ -116,8 +112,7 @@ export const Route = createFileRoute("/mixer/")({
         });
 
         if (validPacks.length > 0) {
-          const randomPack =
-            validPacks[Math.floor(Math.random() * validPacks.length)];
+          const randomPack = validPacks[Math.floor(Math.random() * validPacks.length)];
           redirectId2 = randomPack.meta.publicId;
         }
       }
@@ -142,12 +137,8 @@ export const Route = createFileRoute("/mixer/")({
   head: ({ loaderData }) => {
     let title = "Mixer";
     if (loaderData) {
-      const pack1 = loaderData.packs.find(
-        (p: PackFile) => p.meta.publicId === loaderData.packId1,
-      );
-      const pack2 = loaderData.packs.find(
-        (p: PackFile) => p.meta.publicId === loaderData.packId2,
-      );
+      const pack1 = loaderData.packs.find((p: PackFile) => p.meta.publicId === loaderData.packId1);
+      const pack2 = loaderData.packs.find((p: PackFile) => p.meta.publicId === loaderData.packId2);
       title =
         pack1 && pack2
           ? `${stripThemeName(pack1.data.name)} + ${stripThemeName(pack2.data.name)}`
@@ -191,30 +182,22 @@ function RouteComponent(): JSX.Element {
     }
   }, [pack1, setCurrentSidebarCard]);
 
-  const { comboName, deckListString, bgGradientColors } = usePackCombination(
-    pack1,
-    pack2,
-  );
+  const { comboName, deckListString, bgGradientColors } = usePackCombination(pack1, pack2);
 
   const hasEnoughPacks = useMemo(() => {
     if (allowDuplicates) {
-      return filteredPacks.length >= 1;
+      return filteredPacks.length > 0;
     }
 
     // map to Set filters out duplicates
-    const uniqueThemes = new Set(
-      filteredPacks.map((pack) => stripThemeName(pack.data.name)),
-    );
+    const uniqueThemes = new Set(filteredPacks.map((pack) => stripThemeName(pack.data.name)));
 
     return uniqueThemes.size >= 2;
   }, [allowDuplicates, filteredPacks]);
 
   const mixPacks = useCallback(() => {
     if (!hasEnoughPacks) return;
-    const [randomIndex1, randomIndex2] = getTwoRandomIndexes(
-      filteredPacks,
-      allowDuplicates,
-    );
+    const [randomIndex1, randomIndex2] = getTwoRandomIndexes(filteredPacks, allowDuplicates);
 
     if (randomIndex1 === undefined || randomIndex2 === undefined) return;
 
@@ -278,16 +261,13 @@ function RouteComponent(): JSX.Element {
               Invalid packs
             </AlertTitle>
             <AlertDescription>
-              A valid combination couldn't be found using these packs. Adjust
-              the filters and try the randomize button!
+              A valid combination couldn&apos;t be found using these packs. Adjust the filters and
+              try the randomize button!
             </AlertDescription>
           </Alert>
         ) : (
           <>
-            <CombinationHeader
-              comboName={comboName}
-              bgGradientColors={bgGradientColors}
-            />
+            <CombinationHeader comboName={comboName} bgGradientColors={bgGradientColors} />
             <div className="grid w-full grid-cols-[repeat(auto-fit,minmax(min(100%,20rem),1fr))] gap-4">
               <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
               <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />

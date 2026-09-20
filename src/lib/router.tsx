@@ -1,8 +1,8 @@
 import { createRouter } from "@tanstack/react-router";
-import { queryClient } from "./query-client";
-import { routeTree } from "../routeTree.gen";
-import { BASEPATH } from "./utils";
 import { CircleSlash } from "lucide-react";
+
+import { routeTree } from "../routeTree.gen";
+import { queryClient } from "./query-client";
 
 export const router = createRouter({
   routeTree,
@@ -11,13 +11,13 @@ export const router = createRouter({
   // Since we're using React Query, we don't want loader calls to ever be stale
   // This will ensure that the loader is always called when the route is preloaded or visited
   defaultPreloadStaleTime: 0,
-  basepath: BASEPATH || "/",
+  basepath: "/",
   defaultErrorComponent: ({ error }) => {
     // check if the error message is a dynamic import failure
     const isChunkError =
       error instanceof Error &&
-      /failed to fetch dynamically imported module|error loading dynamically imported module/i.test(
-        error.message,
+      /failed to fetch dynamically imported module|error loading dynamically imported module/iu.test(
+        error.message
       );
 
     if (isChunkError) {
@@ -33,9 +33,7 @@ export const router = createRouter({
       <div className="p-4">
         <h1 className="text-3xl font-bold">Something went wrong!</h1>
         <p className="text-gray-500">
-          {error instanceof Error
-            ? error.message
-            : "An unexpected error occurred."}
+          {error instanceof Error ? error.message : "An unexpected error occurred."}
         </p>
       </div>
     );

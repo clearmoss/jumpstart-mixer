@@ -1,6 +1,9 @@
-import { useAtomValue } from "jotai";
 import { useSuspenseQuery } from "@tanstack/react-query";
-import { packsQueryOptions } from "@/lib/queries.ts";
+import { useAtomValue } from "jotai";
+import { useMemo } from "react";
+
+import type { PackFile } from "@/lib/types.ts";
+
 import {
   allowDuplicatesAtom,
   colorFilterAtom,
@@ -8,19 +11,15 @@ import {
   cardSearchFilterAtom,
   setFilterAtom,
 } from "@/lib/atoms.ts";
-import { useMemo } from "react";
+import { packsQueryOptions } from "@/lib/queries.ts";
 import { filterPacks, stripThemeName } from "@/lib/utils.ts";
-import type { PackFile } from "@/lib/types.ts";
 
 interface UseFilteredPacksProps {
   excludeTheme?: string;
   useSearch?: boolean;
 }
 
-export function useFilteredPacks({
-  excludeTheme,
-  useSearch = false,
-}: UseFilteredPacksProps = {}) {
+export function useFilteredPacks({ excludeTheme, useSearch = false }: UseFilteredPacksProps = {}) {
   const { data: packs } = useSuspenseQuery(packsQueryOptions);
   const allowDuplicates = useAtomValue(allowDuplicatesAtom);
   const colorFilter = useAtomValue(colorFilterAtom);
@@ -34,14 +33,12 @@ export function useFilteredPacks({
       colorFilter,
       setFilter,
       useSearch ? packSearchFilter : "",
-      useSearch ? cardSearchFilter : "",
+      useSearch ? cardSearchFilter : ""
     );
 
     if (!allowDuplicates && excludeTheme) {
       const strippedExclude = stripThemeName(excludeTheme);
-      return validPacks.filter(
-        (pack) => stripThemeName(pack.data.name) !== strippedExclude,
-      );
+      return validPacks.filter((pack) => stripThemeName(pack.data.name) !== strippedExclude);
     }
 
     return validPacks;

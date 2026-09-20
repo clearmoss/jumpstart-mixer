@@ -1,9 +1,11 @@
-import { useAtom } from "jotai";
-import { cardSearchFilterAtom, packSearchFilterAtom } from "@/lib/atoms.ts";
-import { useEffect, useState } from "react";
-import { Input } from "@/components/ui/input.tsx";
 import type { PrimitiveAtom } from "jotai";
+
+import { useAtom } from "jotai";
 import { X } from "lucide-react";
+import { useEffect, useState } from "react";
+
+import { Input } from "@/components/ui/input.tsx";
+import { cardSearchFilterAtom, packSearchFilterAtom } from "@/lib/atoms.ts";
 
 type DebouncedSearchInputProps = {
   searchAtom: PrimitiveAtom<string>;
@@ -11,11 +13,7 @@ type DebouncedSearchInputProps = {
   dataTestId?: string;
 };
 
-function DebouncedSearchInput({
-  searchAtom,
-  placeholder,
-  dataTestId,
-}: DebouncedSearchInputProps) {
+function DebouncedSearchInput({ searchAtom, placeholder, dataTestId }: DebouncedSearchInputProps) {
   const [globalSearch, setGlobalSearch] = useAtom(searchAtom);
   const [localSearch, setLocalSearch] = useState(globalSearch);
 
@@ -45,7 +43,7 @@ function DebouncedSearchInput({
           onClick={() => setLocalSearch("")}
           className="absolute inset-y-0 right-0 flex cursor-pointer items-center pr-3"
         >
-          <X className="text-muted-foreground h-5 w-5" />
+          <X className="h-5 w-5 text-muted-foreground" />
         </button>
       )}
     </div>

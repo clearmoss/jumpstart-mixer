@@ -1,3 +1,6 @@
+import { useAtom } from "jotai";
+import { useId } from "react";
+
 import {
   Combobox,
   ComboboxChip,
@@ -8,11 +11,9 @@ import {
   ComboboxTrigger,
   useComboboxAnchor,
 } from "@/components/ui/combobox";
-import { useAtom } from "jotai";
+import { Label } from "@/components/ui/label";
 import { setFilterAtom } from "@/lib/atoms.ts";
 import { SETS, type MtgSet, cn } from "@/lib/utils.ts";
-import { Label } from "@/components/ui/label";
-import { useId } from "react";
 
 function SetSelector({ className }: { className?: string }) {
   const id = useId();
@@ -26,7 +27,7 @@ function SetSelector({ className }: { className?: string }) {
 
     // order will match the order of the SETS array
     const sortedValues = SETS.filter((set) => newValues.includes(set.code)).map(
-      (set) => set.code,
+      (set) => set.code
     ) as MtgSet[];
 
     setSetFilter(sortedValues);
@@ -47,7 +48,7 @@ function SetSelector({ className }: { className?: string }) {
           })}
           <ComboboxTrigger
             id={id}
-            className="text-muted-foreground/50 hover:text-muted-foreground ml-auto size-4 shrink-0 transition-colors"
+            className="ml-auto size-4 shrink-0 text-muted-foreground/50 transition-colors hover:text-muted-foreground"
           />
         </ComboboxChips>
         <ComboboxContent anchor={anchorRef}>

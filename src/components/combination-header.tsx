@@ -1,7 +1,9 @@
 import React from "react";
-import { cn } from "@/lib/utils.ts";
-import { usePackCombination } from "@/hooks/use-pack-combination.ts";
+
 import type { PackFile } from "@/lib/types.ts";
+
+import { usePackCombination } from "@/hooks/use-pack-combination.ts";
+import { cn } from "@/lib/utils.ts";
 
 interface CombinationHeaderProps {
   pack1?: PackFile;
@@ -19,8 +21,7 @@ export function CombinationHeader({
   const combination = usePackCombination(pack1, pack2);
 
   const finalComboName = propComboName ?? combination.comboName;
-  const finalBgGradientColors =
-    propBgGradientColors ?? combination.bgGradientColors;
+  const finalBgGradientColors = propBgGradientColors ?? combination.bgGradientColors;
 
   if (!finalComboName) return null;
 
@@ -29,7 +30,7 @@ export function CombinationHeader({
       style={finalBgGradientColors}
       className={cn(
         "flex w-full items-center justify-center gap-4 rounded-xl px-6 py-4",
-        "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]",
+        "bg-linear-[to_right,var(--gradient-start)_30%,var(--gradient-end)_70%]"
       )}
     >
       <h1 className="text-center text-3xl font-bold text-white text-shadow-lg/16">

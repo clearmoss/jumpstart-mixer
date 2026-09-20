@@ -303,10 +303,7 @@ export type CardToken = {
 };
 export type PriceFormats = {
   mtgo?: Record<"cardhoarder", PriceList>;
-  paper?: Record<
-    "cardkingdom" | "cardmarket" | "cardsphere" | "tcgplayer",
-    PriceList
-  >;
+  paper?: Record<"cardkingdom" | "cardmarket" | "cardsphere" | "tcgplayer", PriceList>;
 };
 export type PriceList = {
   buylist?: PricePoints;

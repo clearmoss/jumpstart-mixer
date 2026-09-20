@@ -1,4 +1,5 @@
 import { defineConfig, mergeConfig } from "vitest/config";
+
 import viteConfig from "./vite.config.ts";
 
 export default mergeConfig(
@@ -17,5 +18,5 @@ export default mergeConfig(
       // exclude e2e Playwright tests
       exclude: ["src/tests/e2e/**/*"],
     },
-  }),
+  })
 );

@@ -1,10 +1,8 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import { tanstackRouter } from "@tanstack/router-plugin/vite";
-import path from "path";
 import tailwindcss from "@tailwindcss/vite";
-//noinspection ES6PreferShortImport
-import { BASEPATH } from "./src/lib/utils.ts";
+import { tanstackRouter } from "@tanstack/router-plugin/vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 // https://vite.dev/config/
@@ -25,9 +23,9 @@ export default defineConfig({
         name: "Jumpstart Mixer",
         short_name: "JS Mixer",
         description: "A tool for mixing Jumpstart packs",
-        id: BASEPATH || "/",
-        start_url: BASEPATH || "/",
-        scope: BASEPATH || "/",
+        id: "/",
+        start_url: "/",
+        scope: "/",
         display: "standalone",
         theme_color: "#ffffff",
         background_color: "#ffffff",
@@ -62,11 +60,11 @@ export default defineConfig({
         clientsClaim: true,
         skipWaiting: true,
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
-        navigateFallback: BASEPATH || "/index.html",
-        navigateFallbackAllowlist: [/^(?!\/__).*/],
+        navigateFallback: "/index.html",
+        navigateFallbackAllowlist: [/^(?!\/__).*/u],
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/cards\.scryfall\.io\/.*/i,
+            urlPattern: /^https:\/\/cards\.scryfall\.io\/.*/iu,
             handler: "CacheFirst",
             options: {
               cacheName: "scryfall-images",
@@ -83,7 +81,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: BASEPATH || "/",
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "./src"),

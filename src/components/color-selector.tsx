@@ -1,3 +1,6 @@
+import { useAtom } from "jotai";
+import { useId } from "react";
+
 import {
   Combobox,
   ComboboxChip,
@@ -8,11 +11,9 @@ import {
   ComboboxTrigger,
   useComboboxAnchor,
 } from "@/components/ui/combobox";
-import { useAtom } from "jotai";
+import { Label } from "@/components/ui/label";
 import { colorFilterAtom } from "@/lib/atoms.ts";
 import { cn, COLORS, type MtgColor } from "@/lib/utils.ts";
-import { Label } from "@/components/ui/label";
-import { useId } from "react";
 
 function ColorSelector({ className }: { className?: string }) {
   const id = useId();
@@ -26,7 +27,7 @@ function ColorSelector({ className }: { className?: string }) {
 
     // order will match the order of the COLORS array
     const sortedValues = COLORS.filter((c) => newValues.includes(c.code)).map(
-      (c) => c.code,
+      (c) => c.code
     ) as MtgColor[];
 
     setColorFilter(sortedValues);
@@ -47,7 +48,7 @@ function ColorSelector({ className }: { className?: string }) {
           })}
           <ComboboxTrigger
             id={id}
-            className="text-muted-foreground/50 hover:text-muted-foreground ml-auto size-4 shrink-0 transition-colors"
+            className="ml-auto size-4 shrink-0 text-muted-foreground/50 transition-colors hover:text-muted-foreground"
           />
         </ComboboxChips>
         <ComboboxContent anchor={anchorRef}>

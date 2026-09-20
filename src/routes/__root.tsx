@@ -1,4 +1,5 @@
-import { memo, type ReactNode, useRef } from "react";
+import type { QueryClient } from "@tanstack/react-query";
+
 import {
   createRootRouteWithContext,
   HeadContent,
@@ -7,10 +8,11 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
-import { ThemeToggle } from "@/components/theme-toggle.tsx";
-import type { QueryClient } from "@tanstack/react-query";
-import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
+import { useAtom } from "jotai";
 import { Menu } from "lucide-react";
+import { memo, type ReactNode, useRef } from "react";
+
+import { ThemeToggle } from "@/components/theme-toggle.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import {
   Sheet,
@@ -19,27 +21,25 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet.tsx";
-import { useAtom } from "jotai";
-import { isNavMenuOpenAtom } from "@/lib/atoms.ts";
-import { useSwipeGesture } from "@/hooks/use-swipe-gesture.ts";
 import { useDocumentMethodPolyfill } from "@/hooks/use-document-method-polyfill.ts";
+import { useSwipeGesture } from "@/hooks/use-swipe-gesture.ts";
+import { isNavMenuOpenAtom } from "@/lib/atoms.ts";
+import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 
-export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
-  {
-    beforeLoad: ({ context }) => {
-      void context.queryClient.prefetchQuery(packIndexQueryOptions);
-      void context.queryClient.prefetchQuery(packsQueryOptions);
-    },
-    head: () => ({
-      meta: [
-        {
-          title: "Jumpstart Mixer", // default title
-        },
-      ],
-    }),
-    component: RootComponent,
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  beforeLoad: ({ context }) => {
+    void context.queryClient.prefetchQuery(packIndexQueryOptions);
+    void context.queryClient.prefetchQuery(packsQueryOptions);
   },
-);
+  head: () => ({
+    meta: [
+      {
+        title: "Jumpstart Mixer", // default title
+      },
+    ],
+  }),
+  component: RootComponent,
+});
 
 const navLinks = [
   { to: "/interactive", label: "Interactive" },
@@ -57,6 +57,7 @@ const Logo = memo(() => (
     Jumpstart Mixer
   </Link>
 ));
+Logo.displayName = "Logo";
 
 const DesktopNav = memo(() => (
   <nav className="hidden gap-8 text-lg md:flex">
@@ -73,6 +74,7 @@ const DesktopNav = memo(() => (
     ))}
   </nav>
 ));
+DesktopNav.displayName = "DesktopNav";
 
 const MainHeader = memo(({ children }: { children: ReactNode }) => (
   <header className="flex items-center justify-between bg-orange-600 p-4">
@@ -89,6 +91,7 @@ const MainHeader = memo(({ children }: { children: ReactNode }) => (
     </div>
   </header>
 ));
+MainHeader.displayName = "MainHeader";
 
 function RootComponent() {
   const [open, setOpen] = useAtom(isNavMenuOpenAtom);
@@ -137,16 +140,14 @@ function RootComponent() {
               finalFocus={false}
             >
               <SheetHeader className="border-none p-0">
-                <SheetTitle className="sr-only">
-                  Main Navigation Menu
-                </SheetTitle>
+                <SheetTitle className="sr-only">Main Navigation Menu</SheetTitle>
               </SheetHeader>
               <nav className="flex grow flex-col justify-center px-6 pt-6">
                 <Link
                   to={"/"}
                   onClick={() => setOpen(false)}
                   activeProps={{ className: "font-bold" }}
-                  className="hover:text-muted-foreground border-b py-4 text-xl transition-colors duration-300 select-none last:border-0"
+                  className="border-b py-4 text-xl transition-colors duration-300 select-none last:border-0 hover:text-muted-foreground"
                 >
                   Home
                 </Link>
@@ -157,7 +158,7 @@ function RootComponent() {
                     onClick={() => setOpen(false)}
                     activeProps={{ className: "font-bold" }}
                     preload={link.to === "/mixer" ? false : undefined}
-                    className="hover:text-muted-foreground border-b py-4 text-xl transition-colors duration-300 select-none last:border-0"
+                    className="border-b py-4 text-xl transition-colors duration-300 select-none last:border-0 hover:text-muted-foreground"
                   >
                     {link.label}
                   </Link>

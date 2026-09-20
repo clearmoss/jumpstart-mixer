@@ -1,6 +1,8 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
+
 import type { AppTheme } from "@/lib/types.ts";
+
 import { ThemeContext } from "@/hooks/use-theme";
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
@@ -10,9 +12,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     if (saved) return saved;
 
     // otherwise, set the initial theme based on system preference
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
   });
 
   useEffect(() => {

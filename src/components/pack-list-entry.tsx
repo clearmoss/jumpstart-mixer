@@ -1,12 +1,17 @@
-import type { PackFile } from "@/lib/types.ts";
-import {
-  Card,
-  CardAction,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card.tsx";
 import { Link } from "@tanstack/react-router";
+import { atom, useAtomValue } from "jotai";
+import { Shuffle } from "lucide-react";
+import React, { useMemo } from "react";
+
+import type { PackFile } from "@/lib/types.ts";
+
+import ColorIcons from "@/components/color-icons.tsx";
+import CopyButton from "@/components/copy-button.tsx";
+import { Badge } from "@/components/ui/badge.tsx";
+import { Button, type ButtonVariant } from "@/components/ui/button.tsx";
+import { Card, CardAction, CardDescription, CardHeader, CardTitle } from "@/components/ui/card.tsx";
+import { usePackHover } from "@/hooks/use-pack-hover.ts";
+import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
 import {
   cn,
   determinePackColors,
@@ -14,15 +19,6 @@ import {
   type MtgColor,
   splitThemeName,
 } from "@/lib/utils.ts";
-import React, { useMemo } from "react";
-import { atom, useAtomValue } from "jotai";
-import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
-import CopyButton from "@/components/copy-button.tsx";
-import { Button, type ButtonVariant } from "@/components/ui/button.tsx";
-import { Shuffle } from "lucide-react";
-import ColorIcons from "@/components/color-icons.tsx";
-import { usePackHover } from "@/hooks/use-pack-hover.ts";
-import { Badge } from "@/components/ui/badge.tsx";
 
 const STYLE_VARIANTS: Record<
   MtgColor,
@@ -85,12 +81,12 @@ function usePackData(pack: PackFile | undefined, publicId: string | undefined) {
     }
 
     const colors = determinePackColors(pack.data);
-    const primaryColor = (colors[0]?.color ?? "C") as MtgColor;
+    const determinedPrimaryColor = (colors[0]?.color ?? "C") as MtgColor;
     const deckListString = getDeckList(pack);
 
     return {
       packColors: colors,
-      primaryColor: primaryColor,
+      primaryColor: determinedPrimaryColor,
       currentDeckList: deckListString,
     };
   }, [pack]);
@@ -121,11 +117,7 @@ function ActionButtons({
             : { packId1: undefined, packId2: publicId }
         }
       >
-        <Button
-          size="sm"
-          variant={variant}
-          className="cursor-pointer border-2 transition-none"
-        >
+        <Button size="sm" variant={variant} className="cursor-pointer border-2 transition-none">
           <Shuffle className="h-4 w-4" />
         </Button>
       </Link>
@@ -143,11 +135,13 @@ function PackListEntry({ pack, publicId, position = 1 }: PackListEntryProps) {
   // keep sidebar subscription local to avoid rerendering other packs
   const isDisplayedAtom = useMemo(
     () => atom((get) => get(currentSidebarDeckListAtom).publicId === publicId),
-    [publicId],
+    [publicId]
   );
   const isCurrentlyDisplayed = useAtomValue(isDisplayedAtom);
-  const { packColors, primaryColor, currentDeckList, handleMouseEnter } =
-    usePackData(pack, publicId);
+  const { packColors, primaryColor, currentDeckList, handleMouseEnter } = usePackData(
+    pack,
+    publicId
+  );
 
   if (!pack || !publicId) {
     return <div>Pack data unavailable.</div>;
@@ -161,15 +155,15 @@ function PackListEntry({ pack, publicId, position = 1 }: PackListEntryProps) {
   return (
     <Card
       className={cn(
-        "bg-card relative overflow-hidden border-none px-0 py-0",
-        isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background,
+        "relative overflow-hidden border-none bg-card px-0 py-0",
+        isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background
       )}
       onMouseEnter={handleMouseEnter}
     >
       <div
         className={cn(
           "absolute top-0 bottom-0 left-0 z-10 w-3",
-          STYLE_VARIANTS[primaryColor].stripe,
+          STYLE_VARIANTS[primaryColor].stripe
         )}
       />
 
@@ -179,15 +173,12 @@ function PackListEntry({ pack, publicId, position = 1 }: PackListEntryProps) {
             to="/packs/$packId"
             preload={false}
             params={{ packId: publicId }}
-            className={cn(
-              "flex min-w-0 grow items-center",
-              "py-2 pl-3 sm:py-0",
-            )}
+            className={cn("flex min-w-0 grow items-center", "py-2 pl-3 sm:py-0")}
           >
             <CardTitle
               className={cn(
                 "flex min-h-8 min-w-0 items-center py-1 leading-tight",
-                isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text,
+                isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].text
               )}
               data-testid="pack-name"
             >
@@ -216,7 +207,7 @@ function PackListEntry({ pack, publicId, position = 1 }: PackListEntryProps) {
 
         <div className="flex items-center gap-4 px-3 pb-3 sm:w-60 sm:flex-none sm:px-4 sm:py-0">
           <CardDescription
-            className="text-muted-foreground w-12 shrink-0 pt-0"
+            className="w-12 shrink-0 pt-0 text-muted-foreground"
             data-testid="pack-set"
           >
             <Badge variant="secondary" className="h-6 w-12 p-2">

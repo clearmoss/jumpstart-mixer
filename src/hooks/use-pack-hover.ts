@@ -1,20 +1,16 @@
-import { useCallback } from "react";
 import { useSetAtom } from "jotai";
-import {
-  currentSidebarCardAtom,
-  currentSidebarDeckListAtom,
-} from "@/lib/atoms.ts";
+import { useCallback } from "react";
+
 import type { CardDeck, PackFile } from "@/lib/types.ts";
+
+import { currentSidebarCardAtom, currentSidebarDeckListAtom } from "@/lib/atoms.ts";
 import { stripThemeName } from "@/lib/utils.ts";
 
-export function usePackHover(
-  pack: PackFile | undefined,
-  publicId: string | undefined,
-) {
+export function usePackHover(pack: PackFile | undefined, publicId: string | undefined) {
   const setCurrentSidebarDeckList = useSetAtom(currentSidebarDeckListAtom);
   const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
 
-  const handleMouseEnter = useCallback(async () => {
+  const handleMouseEnter = useCallback(() => {
     if (pack && publicId) {
       setCurrentSidebarDeckList({ pack: pack.data, publicId });
       setCurrentSidebarCard({

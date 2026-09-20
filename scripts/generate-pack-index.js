@@ -13,15 +13,43 @@ async function generatePackIndex() {
 
   await fs.mkdir(path.dirname(outputIndexFile), { recursive: true });
 
+  async function processFile(fullPath, relativeUrlPath) {
+    try {
+      const fileContent = (await fs.readFile(fullPath, "utf8")).toString();
+      const parsedContent = JSON.parse(fileContent);
+
+      if (parsedContent.meta && parsedContent.meta.publicId) {
+        const publicId = parsedContent.meta.publicId;
+
+        if (tempIndexMap[publicId]) {
+          console.warn(
+            `[WARN] Duplicate publicId '${publicId}' found. ` +
+              `Overwriting path '${tempIndexMap[publicId].url}' with '${relativeUrlPath}'.`
+          );
+          processedFilesCount.skipped++;
+        } else {
+          processedFilesCount.success++;
+        }
+        tempIndexMap[publicId] = { publicId, url: relativeUrlPath };
+      } else {
+        console.warn(
+          `[WARN] Skipping file '${relativeUrlPath}': 'publicId' not found in 'meta' object.`
+        );
+        processedFilesCount.skipped++;
+      }
+    } catch (parseError) {
+      console.error(`[ERROR] Failed to process file '${relativeUrlPath}': ${parseError.message}`);
+      processedFilesCount.errors++;
+    }
+  }
+
   async function readDirRecursive(currentPath) {
     let entries;
     try {
       entries = await fs.readdir(currentPath, { withFileTypes: true });
     } catch (error) {
       if (error.code === "ENOENT") {
-        console.warn(
-          `[WARN] Directory not found: ${currentPath}. Skipping this path.`,
-        );
+        console.warn(`[WARN] Directory not found: ${currentPath}. Skipping this path.`);
         return;
       }
       throw error;
@@ -31,41 +59,13 @@ async function generatePackIndex() {
       const fullPath = path.join(currentPath, entry.name);
 
       if (entry.isDirectory()) {
+        // oxlint-disable-next-line no-await-in-loop
         await readDirRecursive(fullPath);
       } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".json")) {
-        const relativeUrlPath = path
-          .relative(publicDir, fullPath)
-          .replace(/\\/g, "/"); // Normalize for URLs
+        const relativeUrlPath = path.relative(publicDir, fullPath).replaceAll("\\", "/"); // Normalize for URLs
 
-        try {
-          const fileContent = (await fs.readFile(fullPath, "utf8")).toString();
-          const parsedContent = JSON.parse(fileContent);
-
-          if (parsedContent.meta && parsedContent.meta.publicId) {
-            const publicId = parsedContent.meta.publicId;
-
-            if (tempIndexMap[publicId]) {
-              console.warn(
-                `[WARN] Duplicate publicId '${publicId}' found. ` +
-                  `Overwriting path '${tempIndexMap[publicId].url}' with '${relativeUrlPath}'.`,
-              );
-              processedFilesCount.skipped++;
-            } else {
-              processedFilesCount.success++;
-            }
-            tempIndexMap[publicId] = { publicId, url: relativeUrlPath };
-          } else {
-            console.warn(
-              `[WARN] Skipping file '${relativeUrlPath}': 'publicId' not found in 'meta' object.`,
-            );
-            processedFilesCount.skipped++;
-          }
-        } catch (parseError) {
-          console.error(
-            `[ERROR] Failed to process file '${relativeUrlPath}': ${parseError.message}`,
-          );
-          processedFilesCount.errors++;
-        }
+        // oxlint-disable-next-line no-await-in-loop
+        await processFile(fullPath, relativeUrlPath);
       }
     }
   }
@@ -99,24 +99,20 @@ async function generatePackIndex() {
     return a.url.localeCompare(b.url);
   });
 
-  await fs.writeFile(
-    outputIndexFile,
-    JSON.stringify(finalIndex, null, 2),
-    "utf8",
-  );
+  await fs.writeFile(outputIndexFile, JSON.stringify(finalIndex, null, 2), "utf8");
 
   console.log(`\n--- Index Generation Complete ---`);
   console.log(`Output file: ${outputIndexFile}`);
   console.log(`Files successfully indexed: ${processedFilesCount.success}`);
-  console.log(
-    `Files skipped (missing publicId/duplicate): ${processedFilesCount.skipped}`,
-  );
+  console.log(`Files skipped (missing publicId/duplicate): ${processedFilesCount.skipped}`);
   console.log(`Files with parsing errors: ${processedFilesCount.errors}`);
   console.log(`Total unique publicIds indexed: ${finalIndex.length}`);
   console.log(`------------------------------------\n`);
 }
 
-generatePackIndex().catch((err) => {
+try {
+  await generatePackIndex();
+} catch (err) {
   console.error("CRITICAL ERROR during index generation:", err);
   process.exit(1);
-});
+}

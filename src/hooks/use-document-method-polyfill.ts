@@ -23,10 +23,10 @@ export function useDocumentMethodPolyfill(enabled: boolean) {
     }
 
     return () => {
-      if (!originalHasAttribute) {
-        delete document.hasAttribute;
-      } else {
+      if (originalHasAttribute) {
         document.hasAttribute = originalHasAttribute;
+      } else {
+        delete document.hasAttribute;
       }
     };
   }, [enabled]);

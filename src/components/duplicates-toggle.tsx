@@ -1,5 +1,6 @@
-import { Toggle } from "@/components/ui/toggle.tsx";
 import { useAtom } from "jotai";
+
+import { Toggle } from "@/components/ui/toggle.tsx";
 import { allowDuplicatesAtom } from "@/lib/atoms.ts";
 import { cn } from "@/lib/utils.ts";
 
