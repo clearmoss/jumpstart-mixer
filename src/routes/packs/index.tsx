@@ -3,7 +3,7 @@ import Loading from "@/components/loading.tsx";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { packsQueryOptions } from "@/lib/queries.ts";
 import { useEffect, useMemo } from "react";
-import { useAtom, useSetAtom } from "jotai";
+import { useSetAtom } from "jotai";
 import {
   currentSidebarCardAtom,
   currentSidebarDeckListAtom,
@@ -37,9 +37,7 @@ export const Route = createFileRoute("/packs/")({
 function RouteComponent() {
   const navigate = useNavigate();
   const filteredPacks = useFilteredPacks({ useSearch: true });
-  const [currentSidebarDeckList, setCurrentSidebarDeckList] = useAtom(
-    currentSidebarDeckListAtom,
-  );
+  const setCurrentSidebarDeckList = useSetAtom(currentSidebarDeckListAtom);
   const setCurrentSidebarCard = useSetAtom(currentSidebarCardAtom);
 
   useEffect(() => {
@@ -49,30 +47,16 @@ function RouteComponent() {
   }, [setCurrentSidebarCard, setCurrentSidebarDeckList]);
 
   const packList = useMemo(() => {
-    return filteredPacks.length > 0 ? (
-      filteredPacks.map((pack) => (
-        <div key={pack.meta.publicId} data-testid="pack-entry">
-          <PackListEntry
-            pack={pack}
-            publicId={pack.meta.publicId}
-            isCurrentlyDisplayed={
-              currentSidebarDeckList.publicId === pack.meta.publicId
-            }
-          />
-        </div>
-      ))
-    ) : (
-      <Alert>
-        <AlertTitle>
-          <InfoIcon size={20} />
-          No packs found
-        </AlertTitle>
-        <AlertDescription>
-          There aren't any packs that match the current filters.
-        </AlertDescription>
-      </Alert>
-    );
-  }, [filteredPacks, currentSidebarDeckList.publicId]);
+    return filteredPacks.map((pack) => (
+      <div
+        key={pack.meta.publicId}
+        className="mb-2 break-inside-avoid"
+        data-testid="pack-entry"
+      >
+        <PackListEntry pack={pack} publicId={pack.meta.publicId} />
+      </div>
+    ));
+  }, [filteredPacks]);
 
   const handleRandomClick = () => {
     if (!filteredPacks || filteredPacks.length === 0) return;
@@ -121,9 +105,21 @@ function RouteComponent() {
             }
           />
         </div>
-        <div className="grid grid-cols-1 gap-2" data-testid="pack-list">
-          {packList}
-        </div>
+        {filteredPacks.length > 0 ? (
+          <div className="columns-xl gap-2" data-testid="pack-list">
+            {packList}
+          </div>
+        ) : (
+          <Alert>
+            <AlertTitle>
+              <InfoIcon size={20} />
+              No packs found
+            </AlertTitle>
+            <AlertDescription>
+              There aren't any packs that match the current filters.
+            </AlertDescription>
+          </Alert>
+        )}
       </div>
     </div>
   );

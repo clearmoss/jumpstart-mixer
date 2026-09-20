@@ -19,6 +19,18 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40",
         link: "text-primary underline-offset-4 hover:underline",
+        "mtg-white":
+          "border-2 border-mtg-white-light bg-mtg-white text-black hover:brightness-110 active:brightness-95 focus-visible:border-mtg-white-light focus-visible:ring-mtg-white-light/50",
+        "mtg-blue":
+          "border-2 border-mtg-blue-light bg-mtg-blue text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-blue-light focus-visible:ring-mtg-blue-light/50",
+        "mtg-black":
+          "border-2 border-mtg-black-light bg-mtg-black text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-black-light focus-visible:ring-mtg-black-light/50",
+        "mtg-red":
+          "border-2 border-mtg-red-light bg-mtg-red text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-red-light focus-visible:ring-mtg-red-light/50",
+        "mtg-green":
+          "border-2 border-mtg-green-light bg-mtg-green text-white hover:brightness-110 active:brightness-95 focus-visible:border-mtg-green-light focus-visible:ring-mtg-green-light/50",
+        "mtg-colorless":
+          "border-2 border-mtg-colorless-light bg-mtg-colorless text-black hover:brightness-110 active:brightness-95 focus-visible:border-mtg-colorless-light focus-visible:ring-mtg-colorless-light/50",
         none: "",
       },
       size: {
@@ -41,6 +53,10 @@ const buttonVariants = cva(
   },
 );
 
+type ButtonVariant = NonNullable<
+  VariantProps<typeof buttonVariants>["variant"]
+>;
+
 function Button({
   className,
   variant = "default",
@@ -56,4 +72,4 @@ function Button({
   );
 }
 
-export { Button, buttonVariants };
+export { Button, buttonVariants, type ButtonVariant };

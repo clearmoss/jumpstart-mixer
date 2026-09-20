@@ -288,7 +288,7 @@ function RouteComponent(): JSX.Element {
               comboName={comboName}
               bgGradientColors={bgGradientColors}
             />
-            <div className="flex w-full flex-wrap gap-4">
+            <div className="grid w-full grid-cols-[repeat(auto-fit,minmax(min(100%,20rem),1fr))] gap-4">
               <Pack pack={pack1} publicId={pack1.meta.publicId} position={1} />
               <Pack pack={pack2} publicId={pack2.meta.publicId} position={2} />
             </div>

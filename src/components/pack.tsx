@@ -74,7 +74,7 @@ function Pack({
 
   return (
     <Card
-      className={cn("bg-card w-full max-w-xl min-w-sm flex-1 border-t-8")}
+      className={cn("bg-card w-full flex-1 border-t-8")}
       style={{ borderTopColor: MTG_COLOR_MAP[mainColor] }}
     >
       <CardHeader className="flex flex-col px-6">

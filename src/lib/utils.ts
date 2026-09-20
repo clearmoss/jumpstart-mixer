@@ -21,12 +21,12 @@ export const COLORS = [
 export type MtgColor = (typeof COLORS)[number]["code"];
 
 export const MTG_COLOR_MAP: Record<MtgColor, string> = {
-  W: "var(--color-amber-300)",
-  U: "var(--color-sky-500)",
-  B: "var(--color-neutral-700)",
-  R: "var(--color-red-500)",
-  G: "var(--color-green-500)",
-  C: "var(--color-gray-400)",
+  W: "var(--color-mtg-white)",
+  U: "var(--color-mtg-blue)",
+  B: "var(--color-mtg-black)",
+  R: "var(--color-mtg-red)",
+  G: "var(--color-mtg-green)",
+  C: "var(--color-mtg-colorless)",
 } as const;
 
 export const RARITIES = [

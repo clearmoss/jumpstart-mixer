@@ -15,8 +15,10 @@ import {
   splitThemeName,
 } from "@/lib/utils.ts";
 import React, { useMemo } from "react";
+import { atom, useAtomValue } from "jotai";
+import { currentSidebarDeckListAtom } from "@/lib/atoms.ts";
 import CopyButton from "@/components/copy-button.tsx";
-import { Button } from "@/components/ui/button.tsx";
+import { Button, type ButtonVariant } from "@/components/ui/button.tsx";
 import { Shuffle } from "lucide-react";
 import ColorIcons from "@/components/color-icons.tsx";
 import { usePackHover } from "@/hooks/use-pack-hover.ts";
@@ -24,37 +26,43 @@ import { Badge } from "@/components/ui/badge.tsx";
 
 const STYLE_VARIANTS: Record<
   MtgColor,
-  { stripe: string; background: string; text: string }
+  { stripe: string; background: string; text: string; button: ButtonVariant }
 > = {
   W: {
-    stripe: "bg-amber-300",
-    background: "sm:bg-amber-300",
-    text: "sm:text-black",
+    stripe: "bg-mtg-white",
+    background: "bg-mtg-white",
+    text: "text-black",
+    button: "mtg-white",
   },
   U: {
-    stripe: "bg-sky-500",
-    background: "sm:bg-sky-500",
-    text: "sm:text-white",
+    stripe: "bg-mtg-blue",
+    background: "bg-mtg-blue",
+    text: "text-white",
+    button: "mtg-blue",
   },
   B: {
-    stripe: "bg-neutral-700",
-    background: "sm:bg-neutral-700",
-    text: "sm:text-white",
+    stripe: "bg-mtg-black",
+    background: "bg-mtg-black",
+    text: "text-white",
+    button: "mtg-black",
   },
   R: {
-    stripe: "bg-red-500",
-    background: "sm:bg-red-500",
-    text: "sm:text-white",
+    stripe: "bg-mtg-red",
+    background: "bg-mtg-red",
+    text: "text-white",
+    button: "mtg-red",
   },
   G: {
-    stripe: "bg-green-500",
-    background: "sm:bg-green-500",
-    text: "sm:text-black",
+    stripe: "bg-mtg-green",
+    background: "bg-mtg-green",
+    text: "text-white",
+    button: "mtg-green",
   },
   C: {
-    stripe: "bg-gray-400",
-    background: "sm:bg-gray-400",
-    text: "sm:text-black",
+    stripe: "bg-mtg-colorless",
+    background: "bg-mtg-colorless",
+    text: "text-black",
+    button: "mtg-colorless",
   },
 };
 
@@ -62,7 +70,6 @@ type PackListEntryProps = {
   pack: PackFile | undefined;
   publicId: string | undefined;
   position?: number;
-  isCurrentlyDisplayed: boolean;
 };
 
 function usePackData(pack: PackFile | undefined, publicId: string | undefined) {
@@ -95,10 +102,12 @@ function ActionButtons({
   publicId,
   position,
   currentDeckList,
+  variant,
 }: {
   publicId: string;
   position: number;
   currentDeckList: string;
+  variant: ButtonVariant;
 }) {
   return (
     <>
@@ -112,21 +121,31 @@ function ActionButtons({
             : { packId1: undefined, packId2: publicId }
         }
       >
-        <Button size="sm" variant="secondary" className="cursor-pointer">
+        <Button
+          size="sm"
+          variant={variant}
+          className="cursor-pointer border-2 transition-none"
+        >
           <Shuffle className="h-4 w-4" />
         </Button>
       </Link>
-      <CopyButton size="sm" variant="default" textToCopy={currentDeckList} />
+      <CopyButton
+        size="sm"
+        variant={variant}
+        textToCopy={currentDeckList}
+        className="border-2 transition-none"
+      />
     </>
   );
 }
 
-function PackListEntry({
-  pack,
-  publicId,
-  position = 1,
-  isCurrentlyDisplayed,
-}: PackListEntryProps) {
+function PackListEntry({ pack, publicId, position = 1 }: PackListEntryProps) {
+  // keep sidebar subscription local to avoid rerendering other packs
+  const isDisplayedAtom = useMemo(
+    () => atom((get) => get(currentSidebarDeckListAtom).publicId === publicId),
+    [publicId],
+  );
+  const isCurrentlyDisplayed = useAtomValue(isDisplayedAtom);
   const { packColors, primaryColor, currentDeckList, handleMouseEnter } =
     usePackData(pack, publicId);
 
@@ -135,10 +154,16 @@ function PackListEntry({
   }
 
   const { baseName, number } = splitThemeName(pack.data.name);
+  const actionButtonVariant = isCurrentlyDisplayed
+    ? STYLE_VARIANTS[primaryColor].button
+    : "outline";
 
   return (
     <Card
-      className="bg-card relative max-w-4xl overflow-hidden border-none px-0 py-0"
+      className={cn(
+        "bg-card relative overflow-hidden border-none px-0 py-0",
+        isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background,
+      )}
       onMouseEnter={handleMouseEnter}
     >
       <div
@@ -149,14 +174,14 @@ function PackListEntry({
       />
 
       <CardHeader className="flex flex-col gap-0 p-0 pl-3 sm:min-h-14 sm:flex-row sm:items-stretch">
-        <div className="flex w-full min-w-0 items-stretch justify-between sm:max-w-xs sm:flex-1">
+        <div className="flex w-full min-w-0 items-stretch justify-between sm:min-w-0 sm:flex-1">
           <Link
             to="/packs/$packId"
+            preload={false}
             params={{ packId: publicId }}
             className={cn(
               "flex min-w-0 grow items-center",
               "py-2 pl-3 sm:py-0",
-              isCurrentlyDisplayed && STYLE_VARIANTS[primaryColor].background,
             )}
           >
             <CardTitle
@@ -170,7 +195,7 @@ function PackListEntry({
               {number && (
                 <Badge
                   variant="secondary"
-                  className="ml-4 flex h-6 w-6 shrink-0 items-center justify-center rounded-md border-2 border-zinc-200 p-0 text-sm font-light dark:border-zinc-700"
+                  className="ml-4 flex h-6 w-6 shrink-0 items-center justify-center rounded-md p-0 text-sm font-light"
                 >
                   {number}
                 </Badge>
@@ -184,11 +209,12 @@ function PackListEntry({
               publicId={publicId}
               position={position}
               currentDeckList={currentDeckList}
+              variant={actionButtonVariant}
             />
           </div>
         </div>
 
-        <div className="flex items-center gap-4 px-3 pb-3 sm:flex-none sm:px-4 sm:py-0">
+        <div className="flex items-center gap-4 px-3 pb-3 sm:w-60 sm:flex-none sm:px-4 sm:py-0">
           <CardDescription
             className="text-muted-foreground w-12 shrink-0 pt-0"
             data-testid="pack-set"
@@ -210,6 +236,7 @@ function PackListEntry({
               publicId={publicId}
               position={position}
               currentDeckList={currentDeckList}
+              variant={actionButtonVariant}
             />
           </div>
         </CardAction>

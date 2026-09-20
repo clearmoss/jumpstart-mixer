@@ -1,17 +1,11 @@
 import { useState, useEffect } from "react";
 import { Check, Clipboard } from "lucide-react";
-import { Button } from "@/components/ui/button.tsx";
+import { Button, type ButtonVariant } from "@/components/ui/button.tsx";
 import { cn } from "@/lib/utils.ts";
 
 type CopyButtonProps = {
   size?: "default" | "sm" | "lg" | "icon";
-  variant?:
-    | "default"
-    | "destructive"
-    | "link"
-    | "outline"
-    | "secondary"
-    | "ghost";
+  variant?: ButtonVariant;
   textToCopy: string;
   buttonText?: string;
   disabled?: boolean;
@@ -66,7 +60,7 @@ function CopyButton({
       className={cn(
         className,
         isCopied
-          ? "bg-green-600 text-white disabled:!opacity-100"
+          ? "bg-green-600 text-white disabled:opacity-100!"
           : "cursor-pointer",
       )}
     >
