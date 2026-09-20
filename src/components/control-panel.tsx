@@ -45,11 +45,13 @@ function ControlPanelRoot({
                     className="flex cursor-pointer items-center gap-2 py-0 hover:no-underline"
                     data-testid="mobile-settings-trigger"
                   >
-                    <span className="flex min-w-0 items-center">
-                      <Settings size={20} className="text-muted-foreground" />
-                      <span className="pr-8 pl-4 text-base">Settings</span>
-                      {settingsHeader}
-                    </span>
+                    <div className="flex w-full items-center justify-between pr-2">
+                      <div className="flex items-center gap-2">
+                        <Settings size={20} className="text-muted-foreground" />
+                        <span className="text-base">Settings</span>
+                      </div>
+                      <div>{settingsHeader}</div>
+                    </div>
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="pt-4">{settings}</div>
