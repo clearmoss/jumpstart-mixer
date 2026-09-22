@@ -25,16 +25,16 @@ export default defineConfig({
           ...minimal2023Preset,
           transparent: {
             ...minimal2023Preset.transparent,
-            padding: 0.1,
+            padding: 0.25,
           },
           maskable: {
             ...minimal2023Preset.maskable,
-            padding: 0.1,
+            padding: 0.25,
             resizeOptions: { background: "#ffffff" },
           },
           apple: {
             ...minimal2023Preset.apple,
-            padding: 0.1,
+            padding: 0.25,
             resizeOptions: { background: "#ffffff" },
           },
         },
