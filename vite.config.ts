@@ -25,7 +25,7 @@ export default defineConfig({
           ...minimal2023Preset,
           transparent: {
             ...minimal2023Preset.transparent,
-            padding: 0,
+            padding: 0.1,
           },
           maskable: {
             ...minimal2023Preset.maskable,
