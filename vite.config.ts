@@ -29,12 +29,12 @@ export default defineConfig({
           },
           maskable: {
             ...minimal2023Preset.maskable,
-            padding: 0.25,
+            padding: 0.15,
             resizeOptions: { background: "#ffffff" },
           },
           apple: {
             ...minimal2023Preset.apple,
-            padding: 0.25,
+            padding: 0.15,
             resizeOptions: { background: "#ffffff" },
           },
         },
