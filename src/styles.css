@@ -4,6 +4,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* hopefully a temporary measure, adds additional top padding when installed as a PWA on Apple mobile devices;
+iOS 27 introduced a status bar blur and fade that overlaps with the top header elements of the app */
+.ios-pwa-main-header {
+  --ios-pwa-titlebar-offset: 0px;
+}
+
+@supports (-webkit-touch-callout: none) {
+  @media (display-mode: standalone) {
+    .ios-pwa-main-header {
+      --ios-pwa-titlebar-offset: 24px;
+      padding-top: calc(1rem + var(--ios-pwa-titlebar-offset));
+    }
+  }
+}
+
 @theme inline {
   --breakpoint-xs: 32rem;
   --radius-sm: calc(var(--radius) - 4px);

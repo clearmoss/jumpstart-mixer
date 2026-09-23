@@ -77,7 +77,7 @@ const DesktopNav = memo(() => (
 DesktopNav.displayName = "DesktopNav";
 
 const MainHeader = memo(({ children }: { children: ReactNode }) => (
-  <header className="flex items-center justify-between bg-orange-600 p-4">
+  <header className="ios-pwa-main-header flex items-center justify-between bg-orange-600 p-4">
     <Logo />
 
     <div className="flex items-center gap-6">
