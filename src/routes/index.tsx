@@ -4,6 +4,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { FlipCard } from "@/components/flip-card.tsx";
 import OutLink from "@/components/out-link";
 import { Badge } from "@/components/ui/badge.tsx";
+import { Button } from "@/components/ui/button.tsx";
 
 export const Route = createFileRoute("/")({
   head: () => {
@@ -49,15 +50,31 @@ function Index() {
         </h1>
 
         <p className="mx-auto mb-8 max-w-2xl text-xl md:text-2xl">
-          Crack some virtual packs and jump into Magic: The Gathering with your friends!
+          Crack some packs and jump into Magic: The Gathering with your friends.
         </p>
+
+        <div className="mb-4 rounded-xl bg-linear-to-r from-[oklch(from_var(--color-mtg-black)_calc(l+0.12)_calc(c+0.08)_h)] via-[oklch(from_var(--color-mtg-green)_calc(l+0.12)_calc(c+0.08)_h)] to-[oklch(from_var(--color-mtg-white)_calc(l+0.12)_calc(c+0.08)_h)] p-1">
+          <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-card p-4">
+            <div className="flex items-center gap-4">
+              <Badge className="bg-linear-to-r from-orange-600 to-orange-400 px-2 py-1 text-xs text-white uppercase">
+                new
+              </Badge>
+              <p className="">Add suspense by opening virtual packs!</p>
+            </div>
+            <Button variant="mtg-green" className="p-4">
+              <Link to="/interactive" className="text-lg text-white">
+                Try Interactive Mode →
+              </Link>
+            </Button>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 gap-4 text-left md:grid-cols-3">
           <div className="rounded-xl border bg-card p-6 shadow-sm">
             <h2 className="mb-2 text-xl font-semibold">Explore Packs</h2>
             <p className="mb-4">
-              Browse through themed Jumpstart packs. Filter by color, set, or even search for
-              specific cards.
+              Browse every themed Jumpstart pack. Filter by color, set, or even search for specific
+              cards.
             </p>
             <Link to="/packs" className="hyperlink">
               View all packs →

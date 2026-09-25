@@ -19,6 +19,10 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: "auto",
+      devOptions: {
+        enabled: true,
+        type: "module",
+      },
       pwaAssets: {
         image: "public/favicon.svg",
         preset: {
