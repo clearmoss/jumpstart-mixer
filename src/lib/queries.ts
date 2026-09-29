@@ -11,7 +11,7 @@ import {
 } from "@/lib/utils.ts";
 
 // increment when public pack data changes so persisted queries are refreshed
-const PACK_DATA_VERSION = 1;
+const PACK_DATA_VERSION = 2;
 
 export const packIndexQueryOptions = queryOptions({
   queryKey: ["packIndex", PACK_DATA_VERSION],
