@@ -1,11 +1,11 @@
 import backImage from "/back.jpg";
 
-import type { CardDeck } from "@/lib/types.ts";
+import type { CardPreview } from "@/lib/types.ts";
 
 import { cn } from "@/lib/utils.ts";
 
 type CardImageProps = {
-  card: CardDeck | null;
+  card: CardPreview | null;
   className?: string;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
@@ -25,16 +25,18 @@ export function CardImage({
   if (card?.imageUri) {
     // this is a theme card with hardcoded image URL
     imageUrl = card.imageUri;
-    hyperlinkUrl = `https://scryfall.com/search?q=${encodeURIComponent(card.name)}+set%3A${card.setCode}`;
+    hyperlinkUrl = card.setCode
+      ? `https://scryfall.com/search?q=${encodeURIComponent(card.name)}+set%3A${card.setCode}`
+      : null;
   } else {
     // we need to construct the URL for a regular card
-    const scryfallId = card?.identifiers.scryfallId;
+    const scryfallId = card?.identifiers?.scryfallId;
     imageUrl = scryfallId
       ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
           0
         )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`
       : null;
-    hyperlinkUrl = `https://scryfall.com/card/${scryfallId}`;
+    hyperlinkUrl = scryfallId ? `https://scryfall.com/card/${scryfallId}` : null;
   }
 
   if (!card || !imageUrl) {
@@ -52,7 +54,18 @@ export function CardImage({
   if (!clickable) {
     return (
       <div className={cn("relative aspect-63/88 overflow-hidden rounded-2xl", className)}>
-        <img src={imageUrl} alt={`${card.name} card image`} className="h-full w-full rounded-2xl" />
+        <img
+          src={imageUrl}
+          alt={`${card.name} card image`}
+          className="h-full w-full rounded-2xl"
+          onError={(event) => {
+            const image = event.currentTarget;
+            if (!image.src.endsWith("/back.jpg")) {
+              image.src = backImage;
+              image.alt = "Card back";
+            }
+          }}
+        />
         {card.rarity === "mythic" && (
           <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-2xl" />
         )}
@@ -62,14 +75,25 @@ export function CardImage({
 
   return (
     <a
-      href={hyperlinkUrl}
+      href={hyperlinkUrl ?? undefined}
       target="_blank"
       rel="noreferrer"
       className={cn("relative aspect-63/88 overflow-hidden rounded-2xl", className)}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <img src={imageUrl} alt={`${card.name} card image`} className="h-full w-full rounded-2xl" />
+      <img
+        src={imageUrl}
+        alt={`${card.name} card image`}
+        className="h-full w-full rounded-2xl"
+        onError={(event) => {
+          const image = event.currentTarget;
+          if (!image.src.endsWith("/back.jpg")) {
+            image.src = backImage;
+            image.alt = "Card back";
+          }
+        }}
+      />
       {card.rarity === "mythic" && (
         <div className="holographic absolute top-0 left-0 z-10 h-full w-full rounded-2xl" />
       )}

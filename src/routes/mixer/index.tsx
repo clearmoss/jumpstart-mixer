@@ -22,15 +22,15 @@ import { Button } from "@/components/ui/button.tsx";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { usePackCombination } from "@/hooks/use-pack-combination.ts";
 import { allowDuplicatesAtom, currentSidebarCardAtom } from "@/lib/atoms.ts";
-import { packsQueryOptions } from "@/lib/queries.ts";
+import { packsQueryOptions, setMetadataQueryOptions } from "@/lib/queries.ts";
 import {
   COLORS,
   filterPacks,
+  getSelectedSetCodes,
   getStorageValue,
   getThemeCard,
   getTwoRandomIndexes,
   isDuplicatePack,
-  SETS,
   stripThemeName,
 } from "@/lib/utils.ts";
 
@@ -48,7 +48,10 @@ export const Route = createFileRoute("/mixer/")({
   beforeLoad: async ({ search, context }) => {
     if (!search.packId1 || !search.packId2) {
       // one or both pack search params are missing
-      const packs = await context.queryClient.ensureQueryData(packsQueryOptions);
+      const [packs, sets] = await Promise.all([
+        context.queryClient.query(packsQueryOptions),
+        context.queryClient.query(setMetadataQueryOptions),
+      ]);
       let redirectId1 = search.packId1;
       let redirectId2 = search.packId2;
 
@@ -58,9 +61,9 @@ export const Route = createFileRoute("/mixer/")({
         "colorFilter",
         COLORS.map((color) => color.code)
       );
-      const setFilter = getStorageValue(
-        "setFilter",
-        SETS.map((set) => set.code)
+      const setFilter = getSelectedSetCodes(
+        getStorageValue<string[] | null>("setFilter", null),
+        sets
       );
 
       const filteredPacks = filterPacks(packs, colorFilter, setFilter, "", "");
@@ -127,7 +130,7 @@ export const Route = createFileRoute("/mixer/")({
     }
   },
   loader: async ({ context, deps }) => {
-    const packs = await context.queryClient.ensureQueryData(packsQueryOptions);
+    const packs = await context.queryClient.query(packsQueryOptions);
     return {
       packId1: deps.packId1,
       packId2: deps.packId2,

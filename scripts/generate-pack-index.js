@@ -1,10 +1,76 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 const projectRoot = process.cwd();
 const publicDir = path.join(projectRoot, "public");
 const packsSourceDir = path.join(publicDir, "packs");
 const outputIndexFile = path.join(publicDir, "pack_index.json");
+
+export function sortPackIndexEntries(entries, setMetadataByCode) {
+  return Array.from(entries).toSorted((a, b) => {
+    const codeA = a.url.split("/")[1];
+    const codeB = b.url.split("/")[1];
+    const metadataA = setMetadataByCode.get(codeA);
+    const metadataB = setMetadataByCode.get(codeB);
+
+    if (!metadataA || !metadataB) {
+      throw new Error("Pack index entry is missing matching set metadata.");
+    }
+
+    return (
+      metadataA.releaseDate.localeCompare(metadataB.releaseDate) ||
+      metadataA.code.localeCompare(metadataB.code) ||
+      a.url.localeCompare(b.url)
+    );
+  });
+}
+
+async function readSetMetadata() {
+  let entries;
+  try {
+    entries = await fs.readdir(packsSourceDir, { withFileTypes: true });
+  } catch (error) {
+    throw new Error(`Could not read packs directory: ${packsSourceDir}`, { cause: error });
+  }
+
+  const setDirectories = entries.filter((entry) => entry.isDirectory());
+  const metadataEntries = await Promise.all(
+    setDirectories.map(async (directory) => {
+      const code = directory.name;
+      const metadataPath = path.join(packsSourceDir, code, "set.json");
+      let metadata;
+      try {
+        const fileContent = await fs.readFile(metadataPath, "utf8");
+        metadata = JSON.parse(String(fileContent));
+      } catch (error) {
+        throw new Error(`Could not read valid set metadata at ${metadataPath}.`, { cause: error });
+      }
+
+      const dateString = metadata.releaseDate;
+      const validDate =
+        typeof dateString === "string" &&
+        /^\d{4}-\d{2}-\d{2}$/u.test(dateString) &&
+        !Number.isNaN(Date.parse(`${dateString}T00:00:00.000Z`)) &&
+        new Date(`${dateString}T00:00:00.000Z`).toISOString().slice(0, 10) === dateString;
+
+      if (
+        metadata.code !== code ||
+        typeof metadata.name !== "string" ||
+        metadata.name.trim() === "" ||
+        !validDate
+      ) {
+        throw new Error(
+          `Invalid set metadata at ${metadataPath}: expected code "${code}", a non-empty name, and a valid YYYY-MM-DD releaseDate.`
+        );
+      }
+
+      return [code, metadata];
+    })
+  );
+
+  return new Map(metadataEntries);
+}
 
 async function generatePackIndex() {
   // Use an object map temporarily to handle duplicate publicIds and then convert to array
@@ -61,7 +127,11 @@ async function generatePackIndex() {
       if (entry.isDirectory()) {
         // oxlint-disable-next-line no-await-in-loop
         await readDirRecursive(fullPath);
-      } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".json")) {
+      } else if (
+        entry.isFile() &&
+        entry.name.toLowerCase().endsWith(".json") &&
+        entry.name.toLowerCase() !== "set.json"
+      ) {
         const relativeUrlPath = path.relative(publicDir, fullPath).replaceAll("\\", "/"); // Normalize for URLs
 
         // oxlint-disable-next-line no-await-in-loop
@@ -73,33 +143,14 @@ async function generatePackIndex() {
   console.log(`\n--- Starting MTGJSON Pack Index Generation ---`);
   console.log(`Scanning directory: ${packsSourceDir}`);
 
+  const setMetadataByCode = await readSetMetadata();
   await readDirRecursive(packsSourceDir);
 
-  const finalIndex = Object.values(tempIndexMap);
+  const finalIndex = sortPackIndexEntries(Object.values(tempIndexMap), setMetadataByCode);
+  const sets = [...new Set(finalIndex.map(({ url }) => url.split("/")[1]).filter(Boolean))];
+  const packIndex = { sets, packs: finalIndex };
 
-  const releaseOrder = {
-    JMP: 1,
-    J22: 2,
-    J25: 3,
-  };
-
-  finalIndex.sort((a, b) => {
-    // extract set code
-    const setA = a.url.split("/")[1];
-    const setB = b.url.split("/")[1];
-
-    const orderA = releaseOrder[setA] || Infinity;
-    const orderB = releaseOrder[setB] || Infinity;
-
-    if (orderA !== orderB) {
-      return orderA - orderB;
-    }
-
-    // alphabetical fallback if unknown sets
-    return a.url.localeCompare(b.url);
-  });
-
-  await fs.writeFile(outputIndexFile, JSON.stringify(finalIndex, null, 2), "utf8");
+  await fs.writeFile(outputIndexFile, `${JSON.stringify(packIndex, null, 2)}\n`, "utf8");
 
   console.log(`\n--- Index Generation Complete ---`);
   console.log(`Output file: ${outputIndexFile}`);
@@ -107,12 +158,15 @@ async function generatePackIndex() {
   console.log(`Files skipped (missing publicId/duplicate): ${processedFilesCount.skipped}`);
   console.log(`Files with parsing errors: ${processedFilesCount.errors}`);
   console.log(`Total unique publicIds indexed: ${finalIndex.length}`);
+  console.log(`Sets indexed: ${sets.length}`);
   console.log(`------------------------------------\n`);
 }
 
-try {
-  await generatePackIndex();
-} catch (err) {
-  console.error("CRITICAL ERROR during index generation:", err);
-  process.exit(1);
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  try {
+    await generatePackIndex();
+  } catch (err) {
+    console.error("CRITICAL ERROR during index generation:", err);
+    process.exit(1);
+  }
 }

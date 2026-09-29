@@ -1,4 +1,3 @@
-import { useAtom } from "jotai";
 import { useId } from "react";
 
 import {
@@ -12,23 +11,21 @@ import {
   useComboboxAnchor,
 } from "@/components/ui/combobox";
 import { Label } from "@/components/ui/label";
-import { setFilterAtom } from "@/lib/atoms.ts";
-import { SETS, type MtgSet, cn } from "@/lib/utils.ts";
+import { useAvailableSets } from "@/hooks/use-available-sets.ts";
+import { cn } from "@/lib/utils.ts";
 
 function SetSelector({ className }: { className?: string }) {
   const id = useId();
   const anchorRef = useComboboxAnchor();
-  const [setFilter, setSetFilter] = useAtom(setFilterAtom);
+  const { sets, setFilter, setSetFilter } = useAvailableSets();
 
   const handleValueChange = (newValues: string[]) => {
     if (newValues.length === 0) {
       return;
     }
 
-    // order will match the order of the SETS array
-    const sortedValues = SETS.filter((set) => newValues.includes(set.code)).map(
-      (set) => set.code
-    ) as MtgSet[];
+    // keep selected sets in the same order as the available sets
+    const sortedValues = sets.filter((set) => newValues.includes(set.code)).map((set) => set.code);
 
     setSetFilter(sortedValues);
   };
@@ -43,7 +40,7 @@ function SetSelector({ className }: { className?: string }) {
           data-testid="set-selector-button"
         >
           {setFilter.map((setCode) => {
-            const set = SETS.find((s) => s.code === setCode);
+            const set = sets.find((s) => s.code === setCode);
             return <ComboboxChip key={setCode}>{set?.name}</ComboboxChip>;
           })}
           <ComboboxTrigger
@@ -53,7 +50,7 @@ function SetSelector({ className }: { className?: string }) {
         </ComboboxChips>
         <ComboboxContent anchor={anchorRef}>
           <ComboboxList>
-            {SETS.map((set) => (
+            {sets.map((set) => (
               <ComboboxItem
                 key={set.code}
                 value={set.code}

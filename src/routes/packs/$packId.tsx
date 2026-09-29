@@ -4,8 +4,6 @@ import { useSetAtom } from "jotai";
 import { Shuffle } from "lucide-react";
 import { useEffect } from "react";
 
-import type { CardDeck } from "@/lib/types.ts";
-
 import CardSpread from "@/components/card-spread.tsx";
 import ControlPanel from "@/components/control-panel.tsx";
 import Loading from "@/components/loading.tsx";
@@ -16,18 +14,18 @@ import { Button } from "@/components/ui/button.tsx";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { currentSidebarCardAtom } from "@/lib/atoms.ts";
 import { packIndexQueryOptions, packQueryOptions } from "@/lib/queries.ts";
-import { stripThemeName } from "@/lib/utils.ts";
+import { getThemeCard } from "@/lib/utils.ts";
 
 export const Route = createFileRoute("/packs/$packId")({
   loader: async ({ context: { queryClient }, params: { packId } }) => {
-    const packIndex = await queryClient.ensureQueryData(packIndexQueryOptions);
+    const packIndex = await queryClient.query(packIndexQueryOptions);
 
-    const packData = packIndex.find((p) => p.publicId === packId);
+    const packData = packIndex.packs.find((p) => p.publicId === packId);
     if (!packData) {
       throw notFound();
     }
 
-    const pack = await queryClient.ensureQueryData(packQueryOptions(packId));
+    const pack = await queryClient.query(packQueryOptions(packId));
 
     return { pack: pack };
   },
@@ -63,12 +61,7 @@ function RouteComponent() {
   useEffect(() => {
     if (pack.data) {
       // set currentSidebarCardAtom to the pack's theme card
-      setCurrentSidebarCard({
-        // mock a partial CardDeck as only this data is needed to display a theme card
-        name: stripThemeName(pack.data.data.name),
-        setCode: "F" + pack.data.data.code,
-        imageUri: pack.data.meta.themeCardUri,
-      } as CardDeck);
+      setCurrentSidebarCard(getThemeCard(pack.data));
     }
   }, [pack.data, setCurrentSidebarCard]);
 

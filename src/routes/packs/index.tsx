@@ -17,7 +17,7 @@ import { packsQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createFileRoute("/packs/")({
   loader: ({ context }) => {
-    context.queryClient.ensureQueryData(packsQueryOptions).then();
+    void context.queryClient.query(packsQueryOptions).catch(() => null);
   },
   head: () => {
     return {

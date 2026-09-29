@@ -28,8 +28,8 @@ import { packIndexQueryOptions, packsQueryOptions } from "@/lib/queries.ts";
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   beforeLoad: ({ context }) => {
-    void context.queryClient.prefetchQuery(packIndexQueryOptions);
-    void context.queryClient.prefetchQuery(packsQueryOptions);
+    void context.queryClient.query(packIndexQueryOptions).catch(() => null);
+    void context.queryClient.query(packsQueryOptions).catch(() => null);
   },
   head: () => ({
     meta: [

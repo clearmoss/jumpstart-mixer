@@ -1,17 +1,15 @@
-import { useSuspenseQuery } from "@tanstack/react-query";
 import { useAtomValue } from "jotai";
 import { useMemo } from "react";
 
 import type { PackFile } from "@/lib/types.ts";
 
+import { useAvailableSets } from "@/hooks/use-available-sets.ts";
 import {
   allowDuplicatesAtom,
   colorFilterAtom,
   packSearchFilterAtom,
   cardSearchFilterAtom,
-  setFilterAtom,
 } from "@/lib/atoms.ts";
-import { packsQueryOptions } from "@/lib/queries.ts";
 import { filterPacks, stripThemeName } from "@/lib/utils.ts";
 
 interface UseFilteredPacksProps {
@@ -20,10 +18,9 @@ interface UseFilteredPacksProps {
 }
 
 export function useFilteredPacks({ excludeTheme, useSearch = false }: UseFilteredPacksProps = {}) {
-  const { data: packs } = useSuspenseQuery(packsQueryOptions);
+  const { packs, setFilter } = useAvailableSets();
   const allowDuplicates = useAtomValue(allowDuplicatesAtom);
   const colorFilter = useAtomValue(colorFilterAtom);
-  const setFilter = useAtomValue(setFilterAtom);
   const packSearchFilter = useAtomValue(packSearchFilterAtom);
   const cardSearchFilter = useAtomValue(cardSearchFilterAtom);
 

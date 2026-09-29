@@ -1,9 +1,9 @@
 import { atom, createStore } from "jotai";
 import { atomWithStorage } from "jotai/utils";
 
-import type { CardDeck, Deck } from "@/lib/types.ts";
+import type { CardPreview, Deck } from "@/lib/types.ts";
 
-import { COLORS, SETS } from "@/lib/utils.ts";
+import { COLORS } from "@/lib/utils.ts";
 
 export const store = createStore();
 
@@ -15,10 +15,7 @@ export const colorFilterAtom = atomWithStorage(
   "colorFilter",
   COLORS.map((color) => color.code)
 );
-export const setFilterAtom = atomWithStorage(
-  "setFilter",
-  SETS.map((set) => set.code)
-);
+export const setFilterAtom = atomWithStorage<string[] | null>("setFilter", null);
 export const packSearchFilterAtom = atom("");
 export const cardSearchFilterAtom = atom("");
 
@@ -29,4 +26,4 @@ export const currentSidebarDeckListAtom = atom<{
   pack: null,
   publicId: null,
 });
-export const currentSidebarCardAtom = atom<CardDeck | null>(null);
+export const currentSidebarCardAtom = atom<CardPreview | null>(null);

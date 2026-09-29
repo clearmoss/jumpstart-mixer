@@ -1,5 +1,4 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useAtom } from "jotai";
 import { RotateCcw } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { type JSX, useReducer } from "react";
@@ -15,15 +14,15 @@ import DuplicatesToggle from "@/components/duplicates-toggle.tsx";
 import Loading from "@/components/loading.tsx";
 import PackCount from "@/components/pack-count.tsx";
 import { Button } from "@/components/ui/button.tsx";
+import { useAvailableSets } from "@/hooks/use-available-sets.ts";
 import { useFilteredPacks } from "@/hooks/use-filtered-packs.ts";
 import { usePackCombination } from "@/hooks/use-pack-combination.ts";
-import { setFilterAtom } from "@/lib/atoms.ts";
 import { packsQueryOptions } from "@/lib/queries.ts";
-import { cn, getThemeCard, type MtgSet } from "@/lib/utils.ts";
+import { cn, getThemeCard, type SetCode } from "@/lib/utils.ts";
 
 export const Route = createFileRoute("/interactive/")({
   loader: ({ context }) => {
-    context.queryClient.ensureQueryData(packsQueryOptions).then();
+    void context.queryClient.query(packsQueryOptions).catch(() => null);
   },
   head: () => {
     const title = "Interactive";
@@ -53,14 +52,14 @@ type LayoutScope = "1" | "2";
 type InteractiveState = {
   status: InteractiveStatus;
   pack1: PackFile | undefined;
-  set1: MtgSet | "RND" | undefined;
+  set1: SetCode | "RND" | undefined;
   pack2: PackFile | undefined;
-  set2: MtgSet | "RND" | undefined;
+  set2: SetCode | "RND" | undefined;
   resetKey: number;
 };
 
 type InteractiveEvent =
-  | { type: "SELECT_PACK"; payload: { pack: PackFile; set: MtgSet | "RND" } }
+  | { type: "SELECT_PACK"; payload: { pack: PackFile; set: SetCode | "RND" } }
   | { type: "PROCEED" }
   | { type: "RESET" };
 
@@ -121,7 +120,7 @@ function interactiveReducer(state: InteractiveState, event: InteractiveEvent): I
 
 interface RevealSlotProps {
   pack: PackFile;
-  set: MtgSet | "RND" | undefined;
+  set: SetCode | "RND" | undefined;
   isComplete: boolean;
   isRevealing: boolean;
   layoutSuffix: LayoutScope;
@@ -195,13 +194,13 @@ function RevealSlot({
 }
 
 function RouteComponent(): JSX.Element {
-  const [setFilter] = useAtom(setFilterAtom);
+  const { sets, setFilter } = useAvailableSets();
   const [state, dispatch] = useReducer(interactiveReducer, initialState);
   const { pack1, set1, pack2, set2, status, resetKey } = state;
   const filteredPacks = useFilteredPacks({ excludeTheme: pack1?.data.name });
   const { comboName, deckListString, bgGradientColors } = usePackCombination(pack1, pack2);
 
-  const handlePackClick = (set: MtgSet | "RND") => {
+  const handlePackClick = (set: SetCode | "RND") => {
     if (status !== "FIRST_SELECTION" && status !== "SECOND_SELECTION") return;
     if (filteredPacks.length === 0) return;
 
@@ -353,6 +352,8 @@ function RouteComponent(): JSX.Element {
                 )}
                 {setFilter.map((set) => {
                   const hasAvailablePacks = filteredPacks.some((pack) => pack.data.code === set);
+                  const setName =
+                    sets.find((availableSet) => availableSet.code === set)?.name ?? set;
                   return (
                     <motion.div
                       key={set}
@@ -365,9 +366,11 @@ function RouteComponent(): JSX.Element {
                         onClick={() => handlePackClick(set)}
                         disabled={!hasAvailablePacks}
                         aria-label={
-                          hasAvailablePacks ? `Select a ${set} pack` : `No ${set} packs left`
+                          hasAvailablePacks
+                            ? `Select a ${setName} pack`
+                            : `No ${setName} packs left`
                         }
-                        title={hasAvailablePacks ? undefined : `No ${set} packs left`}
+                        title={hasAvailablePacks ? undefined : `No ${setName} packs left`}
                         animate={{ opacity: hasAvailablePacks ? 1 : 0.5 }}
                         className="flex w-full cursor-pointer flex-col items-center gap-2 p-0 text-center md:block"
                       >

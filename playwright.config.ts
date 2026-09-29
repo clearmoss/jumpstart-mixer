@@ -30,7 +30,7 @@ export default defineConfig({
   ],
 
   webServer: {
-    command: "pnpm run dev",
+    command: "pnpm run generate-pack-index && vite --host 127.0.0.1",
     url: "http://localhost:5173",
     reuseExistingServer: !process.env.CI,
     stdout: "ignore",

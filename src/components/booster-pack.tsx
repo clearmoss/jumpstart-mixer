@@ -1,7 +1,7 @@
-import type { MtgSet } from "@/lib/utils.ts";
+import type { SetCode } from "@/lib/utils.ts";
 
 type BoosterPackProps = {
-  set?: MtgSet;
+  set?: SetCode;
   className?: string;
 };
 
@@ -18,6 +18,12 @@ export function BoosterPack({ set, className }: BoosterPackProps) {
         height={1000}
         draggable={false}
         className="h-auto w-full"
+        onError={(event) => {
+          const image = event.currentTarget;
+          if (!image.src.endsWith("/rnd_pack.png")) {
+            image.src = "/rnd_pack.png";
+          }
+        }}
       />
     </div>
   );

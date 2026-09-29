@@ -1,7 +1,15 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-import type { CardDeck, ClipboardCard, Deck, PackFile, PackIndexData } from "./types.ts";
+import type {
+  CardPreview,
+  ClipboardCard,
+  Deck,
+  PackFile,
+  PackIndex,
+  PackIndexData,
+  SetMetadata,
+} from "./types.ts";
 
 export const COLORS = [
   { name: "White", code: "W", order: 0 },
@@ -41,12 +49,33 @@ export const TYPES = [
 ] as const;
 export type MtgType = (typeof TYPES)[number]["code"];
 
-export const SETS = [
-  { name: "Jumpstart", code: "JMP", order: 0 },
-  { name: "Jumpstart 2022", code: "J22", order: 1 },
-  { name: "Foundations Jumpstart", code: "J25", order: 2 },
-] as const;
-export type MtgSet = (typeof SETS)[number]["code"];
+export type SetCode = string;
+
+export const DEFAULT_SET_CODES = ["JMP", "J22", "J25"] as const;
+
+export function getSetCodesFromPackIndex(packIndex: PackIndex): string[] {
+  return packIndex.sets;
+}
+
+export function sortSetMetadata(sets: SetMetadata[]): SetMetadata[] {
+  return sets.toSorted(
+    (a, b) => a.releaseDate.localeCompare(b.releaseDate) || a.code.localeCompare(b.code)
+  );
+}
+
+export function getSelectedSetCodes(
+  storedSelection: unknown,
+  availableSets: SetMetadata[]
+): string[] {
+  const requestedCodes = Array.isArray(storedSelection)
+    ? storedSelection.filter((code): code is string => typeof code === "string")
+    : DEFAULT_SET_CODES;
+  const requested = new Set(requestedCodes);
+
+  return sortSetMetadata(availableSets)
+    .filter((set) => requested.has(set.code))
+    .map((set) => set.code);
+}
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -89,8 +118,8 @@ async function fetchPackFromData(packInfo: PackIndexData): Promise<PackFile | nu
 }
 
 export async function fetchPack(packId: string): Promise<PackFile> {
-  const packIndex = await fetchJson<PackIndexData[]>("pack_index.json");
-  const packIndexData = packIndex.find((pack) => pack.publicId === packId);
+  const packIndex = await fetchJson<PackIndex>("pack_index.json");
+  const packIndexData = packIndex.packs.find((pack) => pack.publicId === packId);
 
   if (!packIndexData) {
     throw new Error(`Pack with ID "${packId}" not found in pack_index.json.`);
@@ -105,9 +134,9 @@ export async function fetchPack(packId: string): Promise<PackFile> {
   return packFile;
 }
 
-export async function fetchAllPacks(): Promise<PackFile[]> {
-  const packIndex = await fetchJson<PackIndexData[]>("pack_index.json");
-  const packPromises = packIndex.map((item) => fetchPackFromData(item));
+export async function fetchAllPacks(packIndex?: PackIndex): Promise<PackFile[]> {
+  const index = packIndex ?? (await fetchJson<PackIndex>("pack_index.json"));
+  const packPromises = index.packs.map((item) => fetchPackFromData(item));
   const fetchedPacks = await Promise.all(packPromises);
   return fetchedPacks.filter((pack): pack is PackFile => pack !== null);
 }
@@ -145,7 +174,7 @@ export function determinePackColors(pack: Deck): { color: string; count: number 
 }
 
 export function populateDeckList(pack: Deck, deckList: ClipboardCard[] = []) {
-  for (const cardDeck of pack.mainBoard as CardDeck[]) {
+  for (const cardDeck of pack.mainBoard) {
     const existingCard = deckList.find(
       (card) => card.name === cardDeck.name && card.setCode === cardDeck.setCode
     );
@@ -184,13 +213,12 @@ export function stripThemeName(name: string) {
   return name.replace(/\s+\d+$|\s*\(\d+\)$/u, "").trim();
 }
 
-export function getThemeCard(pack: PackFile): CardDeck {
-  // mock a partial CardDeck as only this data is needed to display a theme card
+export function getThemeCard(pack: PackFile): CardPreview {
   return {
     name: stripThemeName(pack.data.name),
     setCode: "F" + pack.data.code,
     imageUri: pack.meta.themeCardUri,
-  } as CardDeck;
+  };
 }
 
 export function splitThemeName(name: string) {
