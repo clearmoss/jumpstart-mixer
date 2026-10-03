@@ -1,10 +1,9 @@
-import gitHubLogo from "/github.svg";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import React from "react";
 
 import { FlipCard } from "@/components/flip-card.tsx";
+import Footer from "@/components/footer.tsx";
 import OutLink from "@/components/out-link.tsx";
-import { Badge } from "@/components/ui/badge.tsx";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -37,18 +36,20 @@ const WhatIsJumpstartSection = () => (
           way to play varied games of Magic without the usual need for deck-building.
         </p>
         <p>
-          Each Jumpstart booster pack contains 20 cards centered around a particular theme. Players
-          simply take two packs each, shuffle them together, and start playing with the resulting
-          40-card decks.
+          Each Jumpstart booster pack contains 20 cards centered around a particular theme,
+          including basic lands. Players simply take two packs each, shuffle them together, and
+          start playing with the resulting 40-card decks.
         </p>
         <p>
-          There are currently three main Jumpstart sets:{" "}
-          <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart"}>Jumpstart</OutLink>,{" "}
-          <OutLink href={"https://mtg.fandom.com/wiki/Jumpstart_2022"}>Jumpstart 2022</OutLink>, and{" "}
-          <OutLink href={"https://mtg.fandom.com/wiki/Foundations_Jumpstart"}>
+          There are currently three mainline Jumpstart sets (
+          <OutLink href={"https://mtg.wiki/page/Jumpstart_(2020)"}>Jumpstart</OutLink>,{" "}
+          <OutLink href={"https://mtg.wiki/page/Jumpstart_2022"}>Jumpstart 2022</OutLink>, and{" "}
+          <OutLink href={"https://mtg.wiki/page/Foundations_Jumpstart"}>
             Foundations Jumpstart
           </OutLink>
-          . This application includes every possible pack from all three for endless variety!
+          ), as well as two more recent sets from{" "}
+          <OutLink href={"https://mtg.wiki/page/Universes_Beyond"}>Universes Beyond</OutLink>. This
+          application includes every possible pack from all of these for endless variety!
         </p>
       </div>
       <div className="flex items-center justify-center">
@@ -68,39 +69,59 @@ const HowToUseSection = () => (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div className="space-y-4 lg:col-span-2">
         <p>
-          Jumpstart Mixer makes it easy to generate decklists for digital play, randomly combining
-          two themed packs using parameters you control.
+          Jumpstart Mixer quickly generates decklists for digital play, randomly combining two
+          themed packs using parameters you control.
         </p>
+        <div className="mb-4 rounded-xl bg-linear-to-r from-[oklch(from_var(--color-mtg-black)_calc(l+0.12)_calc(c+0.08)_h)] via-[oklch(from_var(--color-mtg-green)_calc(l+0.12)_calc(c+0.08)_h)] to-[oklch(from_var(--color-mtg-white)_calc(l+0.12)_calc(c+0.08)_h)] p-1">
+          <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-card p-4">
+            <div className="flex items-center gap-4">
+              <p className="text-base text-muted-foreground">
+                To start, try the{" "}
+                <Link className="hyperlink" to={"/interactive"}>
+                  Interactive
+                </Link>{" "}
+                page. Adjust the settings (if desired) to determine which themes could appear, then
+                click on a booster to open it. Select a second pack to receive your final deck for
+                export.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="rounded-xl border bg-card p-6 shadow-xs">
-          <h3 className="mb-2 text-xl font-semibold">1. Browse Themes</h3>
+          <h3 className="mb-2 text-xl font-semibold">Browse Themes</h3>
           <p className="text-base text-muted-foreground">
             Check out the{" "}
             <Link className="hyperlink" to={"/packs"}>
               Packs
             </Link>{" "}
-            page to browse every available Jumpstart themed booster. Use the color/set filters and
-            search bars at the top to narrow the list. Hover to see cards in the sidebar (if your
-            screen is large enough for it to appear), or click a pack for a closer look.
+            page to browse every available Jumpstart themed booster. Use the color filter, set
+            filter, and search bars to narrow the list. Hover to see cards in the sidebar (if your
+            screen is large enough for it to appear), or click on a pack&apos;s name for a closer
+            look at its contents.
           </p>
         </div>
         <div className="rounded-xl border bg-card p-6 shadow-xs">
-          <h3 className="mb-2 text-xl font-semibold">2. Randomize</h3>
+          <h3 className="mb-2 text-xl font-semibold">Randomize</h3>
           <p className="text-base text-muted-foreground">
             Use the{" "}
             <Link className="hyperlink" to={"/mixer"} preload={false}>
               Mixer
             </Link>{" "}
-            to randomly select two themes, respecting the filters you have set at the top.
-            You&apos;ll find images of all cards in the resulting deck at the bottom.
+            to quickly select two random themes, respecting the filters you have set at the top.
+            It&apos;s a good fit if you need a lot of decks or want to examine many potential
+            options. At the bottom of the page, you&apos;ll find images of all cards in the
+            resulting deck.
           </p>
         </div>
 
         <div className="rounded-xl border bg-card p-6 shadow-xs">
-          <h3 className="mb-2 text-xl font-semibold">3. Export to Play</h3>
+          <h3 className="mb-2 text-xl font-semibold">Export to Play</h3>
           <p className="text-base text-muted-foreground">
-            Use the button to copy your combined decklist and paste it into{" "}
-            <OutLink href="https://cockatrice.github.io/">Cockatrice</OutLink>, or any other digital
-            tabletop which supports Magic: The Gathering. Grab a friend to do the same and have fun!
+            After your combination is generated, there will be a button to copy the combined
+            decklist to your clipboard. Paste this into{" "}
+            <OutLink href="https://cockatrice.github.io/">Cockatrice</OutLink> or any other digital
+            tabletop that supports Magic: The Gathering. Grab a friend to do the same and have fun
+            playing!
           </p>
         </div>
       </div>
@@ -112,9 +133,9 @@ const AboutAppSection = () => (
   <section className="mb-16 border-t pt-16">
     <h3 className="mb-6 text-xl font-semibold">Technical Details</h3>
     <p className="max-w-[80ch] text-base leading-relaxed text-muted-foreground">
-      Jumpstart Mixer is a <OutLink href="https://react.dev/">React</OutLink> frontend built with{" "}
+      Jumpstart Mixer is a <OutLink href="https://react.dev/">React</OutLink> application built with{" "}
       <OutLink href="https://www.typescriptlang.org/">TypeScript</OutLink> and{" "}
-      <OutLink href="https://vitejs.dev/">Vite</OutLink>, utilizing{" "}
+      <OutLink href="https://vite.dev/">Vite</OutLink>, utilizing{" "}
       <OutLink href="https://tanstack.com/router/">TanStack Router</OutLink>,{" "}
       <OutLink href="https://tanstack.com/query/">TanStack Query</OutLink>,{" "}
       <OutLink href="https://jotai.org/">Jotai</OutLink>,{" "}
@@ -135,23 +156,7 @@ function About() {
       <WhatIsJumpstartSection />
       <HowToUseSection />
       <AboutAppSection />
-      <footer className="mt-24 border-t pt-8 text-center text-sm text-muted-foreground">
-        <p>
-          Jumpstart Mixer is an unofficial project. Magic: The Gathering is a trademark of
-          <OutLink href="https://company.wizards.com/"> Wizards of the Coast</OutLink>.
-        </p>
-        <div className="mt-6 flex justify-center">
-          <OutLink
-            href="https://github.com/clearmoss/jumpstart-mixer"
-            className="flex items-center"
-          >
-            <Badge variant="default" className="bg-white p-4 text-black outline">
-              <img src={gitHubLogo} alt="GitHub" className="inline-block h-5 pr-2" />{" "}
-              <span>View source on GitHub</span>
-            </Badge>
-          </OutLink>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
