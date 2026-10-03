@@ -6,9 +6,12 @@
   "scripts": {
     "build": "pnpm run generate-pack-index && tsc -b && vite build",
     "dev": "pnpm run generate-pack-index && vite --host",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
     "generate-pack-index": "node scripts/generate-pack-index.js",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
+    "preview": "vite preview",
     "test": "pnpm run test:unit && pnpm exec playwright test",
     "test:coverage": "pnpm run generate-pack-index && vitest run --coverage",
     "test:e2e": "playwright test",
