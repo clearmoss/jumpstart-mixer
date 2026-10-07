@@ -13,6 +13,7 @@ Crack some packs and jump into Magic: The Gathering with your friends! Jumpstart
 - **Browse packs:** Search by theme or card name, filter by set or color identity, and inspect each pack’s contents.
 - **Mixer page:** Rapidly generate decks based on your filters and examine each card inside. Revisit or share a combination with a stable URL.
 - **Easy export:** Whenever a combination is generated, copy the resulting decklist to your clipboard with one click. Use in your favorite digital tabletop, such as [Cockatrice](https://cockatrice.github.io/).
+- **PWA support:** Jumpstart Mixer is a Progressive Web App, so it can be installed to your device from a supported web browser.
 
 ## Running locally
 
