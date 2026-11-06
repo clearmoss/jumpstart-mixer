@@ -43,7 +43,7 @@ export default defineConfig({
           },
         },
         overrideManifestIcons: true,
-        injectThemeColor: true,
+        injectThemeColor: false,
       },
       manifest: {
         name: "Jumpstart Mixer",
