@@ -8,7 +8,7 @@ import DeckListSkeleton from "@/components/skeletons/deck-list-skeleton.tsx";
 import { useCardGrouping } from "@/hooks/use-card-grouping.ts";
 import { useImagePreloader } from "@/hooks/use-image-preloader.ts";
 import { currentSidebarCardAtom, showCategoriesAtom } from "@/lib/atoms.ts";
-import { cn } from "@/lib/utils.ts";
+import { cn, getScryfallImageUrl } from "@/lib/utils.ts";
 
 function DeckList({ pack }: { pack: Deck | undefined }) {
   const [showCategories] = useAtom(showCategoriesAtom);
@@ -20,12 +20,7 @@ function DeckList({ pack }: { pack: Deck | undefined }) {
       pack?.mainBoard
         .map((card) => {
           const scryfallId = card.identifiers.scryfallId;
-          if (scryfallId) {
-            return `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
-              0
-            )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`;
-          }
-          return null;
+          return scryfallId ? getScryfallImageUrl(scryfallId) : null;
         })
         .filter((url): url is string => !!url) ?? []
     );

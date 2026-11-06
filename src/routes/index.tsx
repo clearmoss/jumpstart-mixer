@@ -24,20 +24,20 @@ function Index() {
       <div className="mt-8 mb-16 flex gap-16">
         <FlipCard
           backImg="/back.jpg"
-          frontImg="https://cards.scryfall.io/large/front/1/6/169fe84f-335f-431b-b905-529ca77c6ba1.jpg"
+          frontImg="https://cards.scryfall.io/display/front/1/6/169fe84f-335f-431b-b905-529ca77c6ba1.webp"
           delay={200}
           size={200}
           className="hidden lg:block"
         />{" "}
         <FlipCard
           backImg="/back.jpg"
-          frontImg="https://cards.scryfall.io/large/front/2/9/29446afc-dbb0-4884-9f17-074d625a0c56.jpg"
+          frontImg="https://cards.scryfall.io/display/front/2/9/29446afc-dbb0-4884-9f17-074d625a0c56.webp"
           delay={500}
           size={200}
         />{" "}
         <FlipCard
           backImg="/back.jpg"
-          frontImg="https://cards.scryfall.io/large/front/f/9/f9dfae63-8cbd-48ec-981c-e0b9bbcbe11f.jpg"
+          frontImg="https://cards.scryfall.io/display/front/f/9/f9dfae63-8cbd-48ec-981c-e0b9bbcbe11f.webp"
           delay={800}
           size={200}
           className="hidden lg:block"

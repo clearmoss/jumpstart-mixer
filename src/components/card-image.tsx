@@ -2,7 +2,7 @@ import backImage from "/back.jpg";
 
 import type { CardPreview } from "@/lib/types.ts";
 
-import { cn } from "@/lib/utils.ts";
+import { cn, getScryfallImageUrl } from "@/lib/utils.ts";
 
 type CardImageProps = {
   card: CardPreview | null;
@@ -31,11 +31,7 @@ export function CardImage({
   } else {
     // we need to construct the URL for a regular card
     const scryfallId = card?.identifiers?.scryfallId;
-    imageUrl = scryfallId
-      ? `https://cards.scryfall.io/normal/front/${scryfallId.charAt(
-          0
-        )}/${scryfallId.charAt(1)}/${scryfallId}.jpg`
-      : null;
+    imageUrl = scryfallId ? getScryfallImageUrl(scryfallId) : null;
     hyperlinkUrl = scryfallId ? `https://scryfall.com/card/${scryfallId}` : null;
   }
 

@@ -55,7 +55,7 @@ const WhatIsJumpstartSection = () => (
       <div className="flex items-center justify-center">
         <FlipCard
           backImg="/back.jpg"
-          frontImg="https://cards.scryfall.io/large/front/8/0/80c5226d-1b6b-4bc9-9aaf-56eaf728a47c.jpg"
+          frontImg="https://cards.scryfall.io/display/front/8/0/80c5226d-1b6b-4bc9-9aaf-56eaf728a47c.webp"
           size={200}
         />
       </div>

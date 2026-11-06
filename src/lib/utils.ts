@@ -81,6 +81,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export function getScryfallImageUrl(scryfallId: string): string {
+  return `https://cards.scryfall.io/grid/front/${scryfallId.charAt(0)}/${scryfallId.charAt(
+    1
+  )}/${scryfallId}.webp`;
+}
+
 export async function fetchJson<T>(pathOrUrl: string): Promise<T> {
   // ensure the path starts with a forward slash if it doesn't already
   const path = pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`;
