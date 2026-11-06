@@ -77,7 +77,7 @@ const DesktopNav = memo(() => (
 DesktopNav.displayName = "DesktopNav";
 
 const MainHeader = memo(({ children }: { children: ReactNode }) => (
-  <header className="ios-pwa-main-header flex items-center justify-between bg-orange-600 p-4">
+  <header className="ios-pwa-main-header flex shrink-0 items-center justify-between bg-orange-600 p-4">
     <Logo />
 
     <div className="flex items-center gap-6">
@@ -117,65 +117,67 @@ function RootComponent() {
   return (
     <>
       <HeadContent />
-      <MainHeader>
-        {/* mobile navigation */}
-        <div className="md:hidden">
-          <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger
-              render={
-                <Button
-                  variant="none"
-                  className="cursor-pointer transition-colors duration-300 hover:bg-orange-500"
-                />
-              }
-            >
-              <Menu className="text-white" />
-              <span className="sr-only">Open Menu</span>
-            </SheetTrigger>
-            <SheetContent
-              side="right"
-              className="flex flex-col p-0"
-              ref={sheetContentRef} // attach ref for the swipe hook
-              initialFocus={false}
-              finalFocus={false}
-            >
-              <SheetHeader className="border-none p-0">
-                <SheetTitle className="sr-only">Main Navigation Menu</SheetTitle>
-              </SheetHeader>
-              <nav className="flex grow flex-col justify-center px-6 pt-6">
-                <Link
-                  to={"/"}
-                  onClick={() => setOpen(false)}
-                  activeProps={{ className: "font-bold" }}
-                  className="border-b py-4 text-xl transition-colors duration-300 select-none last:border-0 hover:text-muted-foreground"
-                >
-                  Home
-                </Link>
-                {navLinks.map((link) => (
+      <div className="flex h-dvh flex-col overflow-hidden">
+        <MainHeader>
+          {/* mobile navigation */}
+          <div className="md:hidden">
+            <Sheet open={open} onOpenChange={setOpen}>
+              <SheetTrigger
+                render={
+                  <Button
+                    variant="none"
+                    className="cursor-pointer transition-colors duration-300 hover:bg-orange-500"
+                  />
+                }
+              >
+                <Menu className="text-white" />
+                <span className="sr-only">Open Menu</span>
+              </SheetTrigger>
+              <SheetContent
+                side="right"
+                className="flex flex-col p-0"
+                ref={sheetContentRef} // attach ref for the swipe hook
+                initialFocus={false}
+                finalFocus={false}
+              >
+                <SheetHeader className="border-none p-0">
+                  <SheetTitle className="sr-only">Main Navigation Menu</SheetTitle>
+                </SheetHeader>
+                <nav className="flex grow flex-col justify-center px-6 pt-6">
                   <Link
-                    key={link.to}
-                    to={link.to}
+                    to={"/"}
                     onClick={() => setOpen(false)}
                     activeProps={{ className: "font-bold" }}
-                    preload={link.to === "/mixer" ? false : undefined}
                     className="border-b py-4 text-xl transition-colors duration-300 select-none last:border-0 hover:text-muted-foreground"
                   >
-                    {link.label}
+                    Home
                   </Link>
-                ))}
-              </nav>
-              <div className="flex items-center justify-between border-t bg-orange-600 p-4">
-                <span className="text-lg font-medium text-white">Theme</span>
-                <ThemeToggle />
-              </div>
-            </SheetContent>
-          </Sheet>
-        </div>
-      </MainHeader>
+                  {navLinks.map((link) => (
+                    <Link
+                      key={link.to}
+                      to={link.to}
+                      onClick={() => setOpen(false)}
+                      activeProps={{ className: "font-bold" }}
+                      preload={link.to === "/mixer" ? false : undefined}
+                      className="border-b py-4 text-xl transition-colors duration-300 select-none last:border-0 hover:text-muted-foreground"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </nav>
+                <div className="flex items-center justify-between border-t bg-orange-600 p-4">
+                  <span className="text-lg font-medium text-white">Theme</span>
+                  <ThemeToggle />
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
+        </MainHeader>
 
-      <main className="justify-center p-2 sm:p-0">
-        <Outlet />
-      </main>
+        <main className="min-h-0 flex-1 scrollbar-gutter-stable overflow-y-auto p-2 sm:p-0">
+          <Outlet />
+        </main>
+      </div>
 
       <Scripts />
       <TanStackRouterDevtools />
