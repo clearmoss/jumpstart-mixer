@@ -290,7 +290,7 @@ function RouteComponent(): JSX.Element {
         </AnimatePresence>
 
         {/* pack reveal section */}
-        <div className="relative z-0 flex w-full flex-col items-center gap-4 pt-8 [--pack-width:clamp(9rem,calc((100vw-2rem)/2),19rem)] [--theme-width:clamp(8.5rem,calc((100vw-3rem)/2),17.5rem)] sm:gap-8 sm:pt-16">
+        <div className="@container relative z-0 flex w-full flex-col items-center gap-4 pt-8 [--pack-width:calc(var(--theme-width)*1.12)] [--theme-width:min(17.5rem,max(0px,calc((100cqw-2rem)/2.24)))] sm:gap-8 sm:pt-16">
           {(pack1 || pack2) && (
             <div className="flex w-full flex-row items-start justify-center gap-4 sm:gap-8">
               {pack1 && (
