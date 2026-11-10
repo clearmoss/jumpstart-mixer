@@ -130,7 +130,7 @@ const HowToUseSection = () => (
 );
 
 const AboutAppSection = () => (
-  <section className="mb-16 border-t pt-16">
+  <section className="mb-16 space-y-4 border-t pt-16">
     <h3 className="mb-6 text-xl font-semibold">Technical Details</h3>
     <p className="max-w-[80ch] text-base leading-relaxed text-muted-foreground">
       Jumpstart Mixer is a <OutLink href="https://react.dev/">React</OutLink> application built with{" "}
